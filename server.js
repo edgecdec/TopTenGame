@@ -46,7 +46,7 @@ db.pragma("journal_mode = WAL");
 function getQuestion(id) {
   const q = db
     .prepare(
-      `SELECT id, theme, title, prompt, answer_type as answerType, seeded_depth as seededDepth,
+      `SELECT id, theme, subtheme, title, prompt, answer_type as answerType, seeded_depth as seededDepth,
               source_name, source_url, source_as_of, note
        FROM questions WHERE id = ?`
     )
@@ -72,8 +72,10 @@ function listThemes() {
     .all();
 }
 
-function labelForCode(code) {
-  const row = db.prepare("SELECT name FROM countries WHERE code = ?").get(code);
+function labelForCode(answerType, code) {
+  const row = db
+    .prepare("SELECT name FROM answer_options WHERE answer_type = ? AND code = ?")
+    .get(answerType, code);
   return row ? row.name : code;
 }
 
@@ -252,7 +254,7 @@ function endRound(io, room) {
       const rank = rankByCode.get(code) ?? null;
       const inRange = rank !== null && rank <= topN ? rank : null;
       const points = scorePick(mode, inRange, topN, penalty);
-      return { code, label: labelForCode(code), rank: inRange, points };
+      return { code, label: labelForCode(q.answerType, code), rank: inRange, points };
     });
     const roundScore = picksScored.reduce((s, x) => s + x.points, 0);
     p.score += roundScore;
@@ -261,7 +263,7 @@ function endRound(io, room) {
 
   const correctAnswers = q.answers
     .filter((a) => a.rank <= topN)
-    .map((a) => ({ rank: a.rank, code: a.code, value: a.value, label: labelForCode(a.code) }));
+    .map((a) => ({ rank: a.rank, code: a.code, value: a.value, label: labelForCode(q.answerType, a.code) }));
 
   room.lastResults = {
     questionTitle: q.title,
@@ -309,6 +311,7 @@ function advanceToNextQuestion(io, room) {
     prompt: q.prompt,
     topN,
     picksPerPlayer,
+    answerType: q.answerType,
   };
   room.endsAt = endsAt;
   room.lastResults = null;

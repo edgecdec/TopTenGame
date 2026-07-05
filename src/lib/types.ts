@@ -51,6 +51,7 @@ export type ClientRoomState = {
     prompt: string;
     topN: number;
     picksPerPlayer: number;
+    answerType: string;
   } | null;
   endsAt: number | null;
   lastResults: RoundResults | null;

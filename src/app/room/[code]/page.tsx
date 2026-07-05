@@ -31,8 +31,19 @@ import StarIcon from "@mui/icons-material/Star";
 import { useSocket } from "@/hooks/useSocket";
 import type { ClientRoomState, GameSettings, FinalScoreboardEntry } from "@/lib/types";
 
-type Country = { code: string; name: string };
+type Option = { code: string; name: string };
 type ThemeInfo = { theme: string; count: number };
+
+function itemLabelForType(answerType: string): { singular: string; plural: string } {
+  switch (answerType) {
+    case "Countries": return { singular: "country", plural: "countries" };
+    case "US States": return { singular: "state", plural: "states" };
+    case "Pro Sports Teams": return { singular: "team", plural: "teams" };
+    case "Companies": return { singular: "company", plural: "companies" };
+    case "Chemical Elements": return { singular: "element", plural: "elements" };
+    default: return { singular: "answer", plural: "answers" };
+  }
+}
 
 export default function RoomPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = use(params);
@@ -54,9 +65,9 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   }, [name, code, router]);
 
   const { state, connected, emit, userId } = useSocket(code, name ?? "");
-  const [countries, setCountries] = useState<Country[]>([]);
+  const [optionsByType, setOptionsByType] = useState<Record<string, Option[]>>({});
   const [themes, setThemes] = useState<ThemeInfo[]>([]);
-  const [picks, setPicks] = useState<Country[]>([]);
+  const [picks, setPicks] = useState<Option[]>([]);
   const [now, setNow] = useState(() => Date.now());
   const [toast, setToast] = useState<string | null>(null);
 
@@ -64,7 +75,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     fetch("/api/data")
       .then((r) => r.json())
       .then((d) => {
-        setCountries(d.countries);
+        setOptionsByType(d.optionsByType);
         setThemes(d.themes);
       });
   }, []);
@@ -121,7 +132,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
       {state.phase === "playing" && (
         <PlayingView
           state={state}
-          countries={countries}
+          options={optionsByType[state.currentQuestionMeta?.answerType ?? ""] ?? []}
           picks={picks}
           setPicks={(next) => {
             setPicks(next);
@@ -444,7 +455,7 @@ function LobbyView({
 
 function PlayingView({
   state,
-  countries,
+  options,
   picks,
   setPicks,
   now,
@@ -452,9 +463,9 @@ function PlayingView({
   onSubmit,
 }: {
   state: ClientRoomState;
-  countries: Country[];
-  picks: Country[];
-  setPicks: (v: Country[]) => void;
+  options: Option[];
+  picks: Option[];
+  setPicks: (v: Option[]) => void;
   now: number;
   me: ClientRoomState["players"][number] | undefined;
   onSubmit: () => void;
@@ -462,8 +473,9 @@ function PlayingView({
   const meta = state.currentQuestionMeta;
   if (!meta) return null;
   const secondsLeft = state.endsAt ? Math.max(0, Math.ceil((state.endsAt - now) / 1000)) : 0;
-  const optionsSorted = useMemo(() => [...countries].sort((a, b) => a.name.localeCompare(b.name)), [countries]);
+  const optionsSorted = useMemo(() => [...options].sort((a, b) => a.name.localeCompare(b.name)), [options]);
   const submitted = me?.submitted ?? false;
+  const unitLabel = itemLabelForType(meta.answerType);
 
   return (
     <Stack spacing={3}>
@@ -482,7 +494,7 @@ function PlayingView({
           </Typography>
         </Stack>
         <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
-          {meta.prompt} Pick {meta.picksPerPlayer === 1 ? "one country" : `up to ${meta.picksPerPlayer} countries`} from the top {meta.topN}.
+          {meta.prompt} Pick {meta.picksPerPlayer === 1 ? `one ${unitLabel.singular}` : `up to ${meta.picksPerPlayer} ${unitLabel.plural}`} from the top {meta.topN}.
         </Typography>
         <Autocomplete
           multiple={meta.picksPerPlayer > 1}
@@ -490,13 +502,13 @@ function PlayingView({
           value={meta.picksPerPlayer > 1 ? picks : picks[0] ?? null}
           onChange={(_, v) => {
             if (meta.picksPerPlayer === 1) {
-              setPicks(v ? [v as Country] : []);
+              setPicks(v ? [v as Option] : []);
             } else {
-              setPicks((v as Country[]).slice(0, meta.picksPerPlayer));
+              setPicks((v as Option[]).slice(0, meta.picksPerPlayer));
             }
           }}
-          getOptionLabel={(o) => (o as Country).name}
-          isOptionEqualToValue={(a, b) => (a as Country).code === (b as Country).code}
+          getOptionLabel={(o) => (o as Option).name}
+          isOptionEqualToValue={(a, b) => (a as Option).code === (b as Option).code}
           filterSelectedOptions
           disabled={submitted}
           sx={{ mt: 3 }}
@@ -541,7 +553,6 @@ function IntermissionView({
 }) {
   const r = state.lastResults;
   if (!r) return null;
-  const codeToName = new Map(state.players.map((p) => [p.id, p.name]));
   const scoreboard = [...state.players].sort((a, b) => b.score - a.score);
   const isLast = state.currentQuestionIdx + 1 >= state.totalQuestions;
 

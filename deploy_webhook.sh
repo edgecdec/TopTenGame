@@ -19,7 +19,7 @@ log "Webhook triggered! Starting deployment..."
 cd "$APP_DIR" || { log "Failed to cd to $APP_DIR"; exit 1; }
 
 OLD_PKG_HASH=$(md5sum package.json 2>/dev/null | cut -d' ' -f1)
-OLD_DATA_HASH=$(md5sum data/countries.json data/questions.json 2>/dev/null | md5sum | cut -d' ' -f1)
+OLD_DATA_HASH=$(md5sum data/answer_sets.json data/questions.json 2>/dev/null | md5sum | cut -d' ' -f1)
 
 # NOTE: We deliberately do NOT stop pm2 here. The old server keeps serving
 # traffic while we fetch/install/seed/build. Only the final pm2 restart
@@ -48,7 +48,7 @@ else
     log "package.json unchanged — skipping npm install"
 fi
 
-NEW_DATA_HASH=$(md5sum data/countries.json data/questions.json 2>/dev/null | md5sum | cut -d' ' -f1)
+NEW_DATA_HASH=$(md5sum data/answer_sets.json data/questions.json 2>/dev/null | md5sum | cut -d' ' -f1)
 if [ "$OLD_DATA_HASH" != "$NEW_DATA_HASH" ] || [ ! -f "data/topten.db" ]; then
     log "Seed data changed or DB missing — re-seeding..."
     npx tsx scripts/seed.ts >> "$LOG_FILE" 2>&1

@@ -1,8 +1,11 @@
 import { NextResponse } from "next/server";
-import { listCountries, listThemes } from "@/lib/db";
+import { listAllOptions, listThemes } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  return NextResponse.json({ countries: listCountries(), themes: listThemes() });
+  return NextResponse.json({
+    optionsByType: listAllOptions(),
+    themes: listThemes(),
+  });
 }
