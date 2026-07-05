@@ -146,9 +146,14 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
       {state.phase === "playing" && (() => {
         const meta = state.currentQuestionMeta;
         const allOptions = optionsByType[meta?.answerType ?? ""] ?? [];
-        const filtered = meta?.codeFilter
-          ? allOptions.filter((o) => o.code.startsWith(meta.codeFilter!))
-          : allOptions;
+        let filtered = allOptions;
+        if (meta?.codeFilter) {
+          filtered = filtered.filter((o) => o.code.startsWith(meta.codeFilter!));
+        }
+        if (meta?.allowedCodes && meta.allowedCodes.length) {
+          const allow = new Set(meta.allowedCodes);
+          filtered = filtered.filter((o) => allow.has(o.code));
+        }
         return (
           <PlayingView
             state={state}

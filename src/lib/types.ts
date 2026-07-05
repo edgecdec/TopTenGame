@@ -57,6 +57,7 @@ export type ClientRoomState = {
     picksPerPlayer: number;
     answerType: string;
     codeFilter: string | null;
+    allowedCodes: string[] | null;
     disclaimer: string | null;
     asOfDate: string | null;
   } | null;

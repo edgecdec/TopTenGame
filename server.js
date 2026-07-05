@@ -43,6 +43,34 @@ const handle = app.getRequestHandler();
 const db = new Database(path.join(process.cwd(), "data", "topten.db"));
 db.pragma("journal_mode = WAL");
 
+// Best Picture WINNERS = union of every code referenced by any Movies question
+// EXCEPT the Nominees subtheme. Those questions are winners-only by construction,
+// so the union of their answers is the 96-film winners set.
+let BEST_PICTURE_WINNERS = null;
+function getBestPictureWinners() {
+  if (BEST_PICTURE_WINNERS) return BEST_PICTURE_WINNERS;
+  try {
+    const rows = db
+      .prepare(
+        `SELECT DISTINCT a.code
+         FROM answers a
+         JOIN questions q ON q.id = a.question_id
+         WHERE q.theme = 'Movies'
+           AND (q.subtheme IS NULL OR q.subtheme != 'Movies - Nominees')`
+      )
+      .all();
+    BEST_PICTURE_WINNERS = rows.map((r) => r.code);
+    if (BEST_PICTURE_WINNERS.length < 20) {
+      console.warn(`Best Picture winners load looked wrong (${BEST_PICTURE_WINNERS.length} codes); disabling scope.`);
+      BEST_PICTURE_WINNERS = null;
+    }
+  } catch (err) {
+    console.warn("Best Picture winners load failed:", err.message);
+    BEST_PICTURE_WINNERS = null;
+  }
+  return BEST_PICTURE_WINNERS;
+}
+
 function getQuestion(id) {
   const q = db
     .prepare(
@@ -312,14 +340,23 @@ function advanceToNextQuestion(io, room) {
   const topN = Math.min(room.settings.topN, q.seededDepth);
   const picksPerPlayer = Math.min(room.settings.picksPerPlayer, topN);
   const endsAt = Date.now() + room.settings.roundDurationSec * 1000;
-  // If the question's subtheme is a scoped sub-set of the answer pool
-  // (e.g. only NBA teams), tell the client which code prefix to filter to.
+  // If the question's subtheme is a scoped sub-set of the answer pool,
+  // tell the client which options to show. Either a prefix (cheap) or an
+  // explicit list of allowed codes (used when the subset isn't prefix-shaped).
   let codeFilter = null;
+  let allowedCodes = null;
   const st = q.subtheme || "";
   if (st === "Pro Sports - NBA") codeFilter = "NBA-";
   else if (st === "Pro Sports - NFL") codeFilter = "NFL-";
   else if (st === "Pro Sports - MLB") codeFilter = "MLB-";
   else if (st === "Pro Sports - NHL") codeFilter = "NHL-";
+  // All Movies subthemes EXCEPT "Movies - Nominees" are winners-only —
+  // scope the dropdown to the 96 Best Picture winners so players don't
+  // wade through 500+ losers.
+  else if (q.theme === "Movies" && st !== "Movies - Nominees") {
+    const winners = getBestPictureWinners();
+    if (winners) allowedCodes = winners;
+  }
   room.phase = "playing";
   room.currentQuestionIdx = nextIdx;
   room.currentQuestionId = q.id;
@@ -331,6 +368,7 @@ function advanceToNextQuestion(io, room) {
     picksPerPlayer,
     answerType: q.answerType,
     codeFilter, // e.g. "NBA-" → client shows only NBA-* options
+    allowedCodes, // explicit list of allowed codes, if any (e.g. Best Picture winners)
     disclaimer: q.disclaimer || null, // safe to show pre-round
     asOfDate: q.asOfDate || q.source.asOf || null,
   };
