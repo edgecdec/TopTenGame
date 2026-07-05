@@ -106,7 +106,10 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
           state={state}
           countries={countries}
           picks={picks}
-          setPicks={setPicks}
+          setPicks={(next) => {
+            setPicks(next);
+            emit("stage_picks", { picks: next.map((c) => c.code) });
+          }}
           now={now}
           me={me}
           onSubmit={() => emit("submit_picks", { picks: picks.map((c) => c.code) })}
@@ -462,7 +465,7 @@ function PlayingView({
           <Typography variant="body2" color="text.secondary">
             {submitted
               ? "Waiting for other players..."
-              : "You can change your picks until the timer ends. Round ends early when everyone locks in."}
+              : "Your current picks will count when the timer ends. Lock in to skip ahead if everyone else has too."}
           </Typography>
         </Stack>
       </Paper>

@@ -399,6 +399,23 @@ app.prepare().then(() => {
       broadcast(io, room);
     });
 
+    // stage_picks: store the player's current picks without locking in.
+    // Fires on every autocomplete change. If the timer runs out with staged
+    // (but not locked) picks, endRound scores whatever was last staged.
+    socket.on("stage_picks", ({ picks }) => {
+      if (!currentRoomCode || !userId) return;
+      const room = rooms.get(currentRoomCode);
+      if (!room || room.phase !== "playing" || !room.currentQuestionMeta) return;
+      const p = room.players.get(userId);
+      if (!p || p.submitted) return;
+      if (!Array.isArray(picks)) return;
+      const limit = room.currentQuestionMeta.picksPerPlayer;
+      p.picks = Array.from(new Set(picks.filter((x) => typeof x === "string"))).slice(0, limit);
+      // No broadcast — this fires per-keystroke and doesn't change the UI for others.
+    });
+
+    // submit_picks: player clicks "Lock in". Marks submitted so the round can
+    // end early once everyone has locked in.
     socket.on("submit_picks", ({ picks }) => {
       if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
