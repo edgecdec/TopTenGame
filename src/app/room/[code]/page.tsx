@@ -36,13 +36,22 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const { code } = use(params);
   const search = useSearchParams();
   const router = useRouter();
-  const name = search.get("name") || "";
+  const urlName = search.get("name") || "";
+  const [name, setName] = useState<string | null>(urlName || null);
 
+  // If the URL has no name, try localStorage before falling back to the home page.
+  // This lets returning users click an invite link and land straight in the room.
   useEffect(() => {
-    if (!name) router.replace(`/?joinCode=${code}`);
+    if (name !== null) return;
+    const saved = typeof window !== "undefined" ? localStorage.getItem("topten_name") : null;
+    if (saved && saved.trim()) {
+      setName(saved.trim());
+    } else {
+      router.replace(`/?joinCode=${code}`);
+    }
   }, [name, code, router]);
 
-  const { state, connected, emit, userId } = useSocket(code, name);
+  const { state, connected, emit, userId } = useSocket(code, name ?? "");
   const [countries, setCountries] = useState<Country[]>([]);
   const [themes, setThemes] = useState<ThemeInfo[]>([]);
   const [picks, setPicks] = useState<Country[]>([]);
@@ -70,7 +79,9 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   if (!name || !state) {
     return (
       <Container sx={{ py: 8 }}>
-        <Typography>{connected ? "Loading room..." : "Connecting..."}</Typography>
+        <Typography>
+          {!name ? "Redirecting..." : connected ? "Loading room..." : "Connecting..."}
+        </Typography>
       </Container>
     );
   }
