@@ -7,7 +7,7 @@
     "answerType": "Countries",
     "seededDepth": 20,
     "source": {
-      "name": "World Bank Open Data \u2014 Population, total (SP.POP.TOTL), sourced from UN DESA World Population Prospects 2024 Revision",
+      "name": "World Bank Open Data — Population, total (SP.POP.TOTL), sourced from UN DESA World Population Prospects 2024 Revision",
       "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
       "asOf": "2024 (mid-year estimate)"
     },
@@ -125,116 +125,116 @@
     "answerType": "Countries",
     "seededDepth": 20,
     "source": {
-      "name": "United Nations Statistics Division \u2014 Demographic Yearbook",
+      "name": "United Nations Statistics Division — Demographic Yearbook",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
-      "asOf": "UNSD Demographic Yearbook (2020\u20132023)"
+      "asOf": "UNSD Demographic Yearbook (2020–2023)"
     },
     "note": "Total area = land + inland waters. Territorial seas and EEZs excluded. This UN convention places China above the US at #3.",
     "answers": [
       {
         "rank": 1,
         "code": "RU",
-        "value": "17,098,246 km\u00b2"
+        "value": "17,098,246 km²"
       },
       {
         "rank": 2,
         "code": "CA",
-        "value": "9,984,670 km\u00b2"
+        "value": "9,984,670 km²"
       },
       {
         "rank": 3,
         "code": "CN",
-        "value": "9,596,960 km\u00b2"
+        "value": "9,596,960 km²"
       },
       {
         "rank": 4,
         "code": "US",
-        "value": "9,525,067 km\u00b2"
+        "value": "9,525,067 km²"
       },
       {
         "rank": 5,
         "code": "BR",
-        "value": "8,510,346 km\u00b2"
+        "value": "8,510,346 km²"
       },
       {
         "rank": 6,
         "code": "AU",
-        "value": "7,741,220 km\u00b2"
+        "value": "7,741,220 km²"
       },
       {
         "rank": 7,
         "code": "IN",
-        "value": "3,287,263 km\u00b2"
+        "value": "3,287,263 km²"
       },
       {
         "rank": 8,
         "code": "AR",
-        "value": "2,780,400 km\u00b2"
+        "value": "2,780,400 km²"
       },
       {
         "rank": 9,
         "code": "KZ",
-        "value": "2,724,910 km\u00b2"
+        "value": "2,724,910 km²"
       },
       {
         "rank": 10,
         "code": "DZ",
-        "value": "2,381,741 km\u00b2"
+        "value": "2,381,741 km²"
       },
       {
         "rank": 11,
         "code": "CD",
-        "value": "2,344,858 km\u00b2"
+        "value": "2,344,858 km²"
       },
       {
         "rank": 12,
         "code": "SA",
-        "value": "2,149,690 km\u00b2"
+        "value": "2,149,690 km²"
       },
       {
         "rank": 13,
         "code": "MX",
-        "value": "1,964,375 km\u00b2"
+        "value": "1,964,375 km²"
       },
       {
         "rank": 14,
         "code": "ID",
-        "value": "1,904,569 km\u00b2"
+        "value": "1,904,569 km²"
       },
       {
         "rank": 15,
         "code": "SD",
-        "value": "1,878,000 km\u00b2"
+        "value": "1,878,000 km²"
       },
       {
         "rank": 16,
         "code": "LY",
-        "value": "1,759,540 km\u00b2"
+        "value": "1,759,540 km²"
       },
       {
         "rank": 17,
         "code": "IR",
-        "value": "1,648,195 km\u00b2"
+        "value": "1,648,195 km²"
       },
       {
         "rank": 18,
         "code": "MN",
-        "value": "1,564,116 km\u00b2"
+        "value": "1,564,116 km²"
       },
       {
         "rank": 19,
         "code": "PE",
-        "value": "1,285,216 km\u00b2"
+        "value": "1,285,216 km²"
       },
       {
         "rank": 20,
         "code": "TD",
-        "value": "1,284,000 km\u00b2"
+        "value": "1,284,000 km²"
       }
     ],
     "disclaimer": "Total area = land + inland waters. Territorial seas and EEZs excluded.",
     "trivia": "This UN convention places China above the US at #3.",
-    "asOfDate": "UNSD Demographic Yearbook (2020\u20132023)"
+    "asOfDate": "UNSD Demographic Yearbook (2020–2023)"
   },
   {
     "id": "countries-gdp-2024",
@@ -457,11 +457,11 @@
     "answerType": "Countries",
     "seededDepth": 18,
     "source": {
-      "name": "UN Tourism (UNWTO) \u2014 World Tourism Barometer, May 2024",
+      "name": "UN Tourism (UNWTO) — World Tourism Barometer, May 2024",
       "url": "https://www.unwto.org/tourism-data/global-and-regional-tourism-performance",
       "asOf": "2023"
     },
-    "note": "Hong Kong and Macau are excluded \u2014 they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
+    "note": "Hong Kong and Macau are excluded — they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
     "answers": [
       {
         "rank": 1,
@@ -554,7 +554,7 @@
         "value": "18.3M arrivals"
       }
     ],
-    "disclaimer": "Hong Kong and Macau are excluded \u2014 they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
+    "disclaimer": "Hong Kong and Macau are excluded — they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
     "trivia": null,
     "asOfDate": "2023"
   },
@@ -567,7 +567,7 @@
     "answerType": "Countries",
     "seededDepth": 18,
     "source": {
-      "name": "Wikipedia \u2014 List of Nobel laureates by country (summarizing Nobel Foundation records)",
+      "name": "Wikipedia — List of Nobel laureates by country (summarizing Nobel Foundation records)",
       "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country",
       "asOf": "Through 2024 Nobel Prizes"
     },
@@ -677,7 +677,7 @@
     "answerType": "Countries",
     "seededDepth": 14,
     "source": {
-      "name": "Academy of Motion Picture Arts and Sciences (AMPAS) \u2014 Best International Feature Film records",
+      "name": "Academy of Motion Picture Arts and Sciences (AMPAS) — Best International Feature Film records",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film",
       "asOf": "Through 96th Academy Awards (2024 ceremony)"
     },
@@ -767,7 +767,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "European Broadcasting Union (EBU) \u2014 Eurovision Song Contest",
+      "name": "European Broadcasting Union (EBU) — Eurovision Song Contest",
       "url": "https://eurovision.tv/history",
       "asOf": "Through Eurovision 2024 (won by Switzerland)"
     },
@@ -862,7 +862,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Michelin Guide \u2014 2025 Three-Star Restaurants",
+      "name": "Michelin Guide — 2025 Three-Star Restaurants",
       "url": "https://guide.michelin.com/en/restaurants/3-stars-michelin",
       "asOf": "2025 Michelin Guides (156 three-star restaurants worldwide)"
     },
@@ -957,7 +957,7 @@
     "answerType": "Countries",
     "seededDepth": 10,
     "source": {
-      "name": "Newzoo \u2014 Global Games Market Report",
+      "name": "Newzoo — Global Games Market Report",
       "url": "https://newzoo.com/resources/rankings/top-10-countries-by-game-revenues",
       "asOf": "2025 (Newzoo estimates, USD)"
     },
@@ -1027,7 +1027,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Ethnologue (26th edition) \u2014 Languages by number of native (L1) speakers",
+      "name": "Ethnologue (26th edition) — Languages by number of native (L1) speakers",
       "url": "https://www.ethnologue.com/insights/ethnologue200/",
       "asOf": "Ethnologue 26th edition (2023)"
     },
@@ -1117,11 +1117,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Wikipedia \u2014 List of countries by English-speaking population (compiled from national census and Ethnologue data)",
+      "name": "Wikipedia — List of countries by English-speaking population (compiled from national census and Ethnologue data)",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
       "asOf": "Compiled from most recent national censuses (2010s-2020s)"
     },
-    "note": "Includes both native (L1) and second-language (L2) speakers. Figures are drawn from national censuses and Ethnologue and are approximate \u2014 several sources are dated.",
+    "note": "Includes both native (L1) and second-language (L2) speakers. Figures are drawn from national censuses and Ethnologue and are approximate — several sources are dated.",
     "answers": [
       {
         "rank": 1,
@@ -1199,7 +1199,7 @@
         "value": "~20M speakers"
       }
     ],
-    "disclaimer": "Includes both native (L1) and second-language (L2) speakers. Figures are drawn from national censuses and Ethnologue and are approximate \u2014 several sources are dated.",
+    "disclaimer": "Includes both native (L1) and second-language (L2) speakers. Figures are drawn from national censuses and Ethnologue and are approximate — several sources are dated.",
     "trivia": null,
     "asOfDate": "Compiled from most recent national censuses (2010s-2020s)"
   },
@@ -1212,7 +1212,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Global Carbon Project / Our World in Data \u2014 Annual CO2 emissions",
+      "name": "Global Carbon Project / Our World in Data — Annual CO2 emissions",
       "url": "https://ourworldindata.org/co2-emissions",
       "asOf": "2023 data (published 2024)"
     },
@@ -1307,11 +1307,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Global Carbon Project / Our World in Data \u2014 Per capita CO2 emissions",
+      "name": "Global Carbon Project / Our World in Data — Per capita CO2 emissions",
       "url": "https://ourworldindata.org/co2-emissions",
       "asOf": "2023 data (published 2024)"
     },
-    "note": "Small oil/gas states dominate the top ranks \u2014 that's the point of this leaderboard. Excludes tiny territories under 100k population.",
+    "note": "Small oil/gas states dominate the top ranks — that's the point of this leaderboard. Excludes tiny territories under 100k population.",
     "answers": [
       {
         "rank": 1,
@@ -1389,7 +1389,7 @@
         "value": "10.9 t CO2 per person"
       }
     ],
-    "disclaimer": "Small oil/gas states dominate the top ranks \u2014 that's the point of this leaderboard. Excludes tiny territories under 100k population.",
+    "disclaimer": "Small oil/gas states dominate the top ranks — that's the point of this leaderboard. Excludes tiny territories under 100k population.",
     "trivia": null,
     "asOfDate": "2023 data (published 2024)"
   },
@@ -1402,7 +1402,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Ember \u2014 Global Electricity Review",
+      "name": "Ember — Global Electricity Review",
       "url": "https://ember-energy.org/data/electricity-data-explorer/",
       "asOf": "2023 data (published 2024)"
     },
@@ -1497,11 +1497,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "IRENA \u2014 Renewable Capacity Statistics",
+      "name": "IRENA — Renewable Capacity Statistics",
       "url": "https://www.irena.org/Publications/2024/Mar/Renewable-capacity-statistics-2024",
       "asOf": "End of 2023"
     },
-    "note": "China's solar fleet is bigger than the rest of the top 10 combined. Rankings shift fast \u2014 China added another ~275 GW in 2024 alone.",
+    "note": "China's solar fleet is bigger than the rest of the top 10 combined. Rankings shift fast — China added another ~275 GW in 2024 alone.",
     "answers": [
       {
         "rank": 1,
@@ -1580,7 +1580,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "China's solar fleet is bigger than the rest of the top 10 combined. Rankings shift fast \u2014 China added another ~275 GW in 2024 alone.",
+    "trivia": "China's solar fleet is bigger than the rest of the top 10 combined. Rankings shift fast — China added another ~275 GW in 2024 alone.",
     "asOfDate": "End of 2023"
   },
   {
@@ -1592,7 +1592,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "IRENA \u2014 Renewable Capacity Statistics / Global Wind Energy Council",
+      "name": "IRENA — Renewable Capacity Statistics / Global Wind Energy Council",
       "url": "https://www.irena.org/Publications/2024/Mar/Renewable-capacity-statistics-2024",
       "asOf": "End of 2023"
     },
@@ -1674,8 +1674,8 @@
         "value": "9 GW installed"
       }
     ],
-    "disclaimer": "hold roughly two-thirds of global wind capacity between them.",
-    "trivia": "China and the U.S.",
+    "disclaimer": "Installed nameplate capacity in gigawatts (onshore + offshore).",
+    "trivia": "China and the U.S. together hold roughly two-thirds of global wind capacity.",
     "asOfDate": "End of 2023"
   },
   {
@@ -1691,7 +1691,7 @@
       "url": "https://pris.iaea.org/PRIS/",
       "asOf": "2023 data"
     },
-    "note": "Ranked by annual electricity generated (TWh), not reactor count. France gets ~65% of its electricity from nuclear \u2014 the highest share of any large economy.",
+    "note": "Ranked by annual electricity generated (TWh), not reactor count. France gets ~65% of its electricity from nuclear — the highest share of any large economy.",
     "answers": [
       {
         "rank": 1,
@@ -1770,7 +1770,7 @@
       }
     ],
     "disclaimer": "Ranked by annual electricity generated (TWh), not reactor count.",
-    "trivia": "France gets ~65% of its electricity from nuclear \u2014 the highest share of any large economy.",
+    "trivia": "France gets ~65% of its electricity from nuclear — the highest share of any large economy.",
     "asOfDate": "2023 data"
   },
   {
@@ -1877,89 +1877,89 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "IQAir \u2014 World Air Quality Report",
+      "name": "IQAir — World Air Quality Report",
       "url": "https://www.iqair.com/world-air-quality-report",
       "asOf": "2023 data (published March 2024)"
     },
-    "note": "WHO guideline is 5 \u00b5g/m\u00b3 \u2014 the top of this list runs 15-16x higher. South Asia dominates: Bangladesh, Pakistan, India and Nepal are all in the top 10.",
+    "note": "WHO guideline is 5 µg/m³ — the top of this list runs 15-16x higher. South Asia dominates: Bangladesh, Pakistan, India and Nepal are all in the top 10.",
     "answers": [
       {
         "rank": 1,
         "code": "BD",
-        "value": "79.9 \u00b5g/m\u00b3"
+        "value": "79.9 µg/m³"
       },
       {
         "rank": 2,
         "code": "PK",
-        "value": "73.7 \u00b5g/m\u00b3"
+        "value": "73.7 µg/m³"
       },
       {
         "rank": 3,
         "code": "IN",
-        "value": "54.4 \u00b5g/m\u00b3"
+        "value": "54.4 µg/m³"
       },
       {
         "rank": 4,
         "code": "TJ",
-        "value": "49.0 \u00b5g/m\u00b3"
+        "value": "49.0 µg/m³"
       },
       {
         "rank": 5,
         "code": "BF",
-        "value": "46.6 \u00b5g/m\u00b3"
+        "value": "46.6 µg/m³"
       },
       {
         "rank": 6,
         "code": "IQ",
-        "value": "43.8 \u00b5g/m\u00b3"
+        "value": "43.8 µg/m³"
       },
       {
         "rank": 7,
         "code": "AE",
-        "value": "43.0 \u00b5g/m\u00b3"
+        "value": "43.0 µg/m³"
       },
       {
         "rank": 8,
         "code": "NP",
-        "value": "42.4 \u00b5g/m\u00b3"
+        "value": "42.4 µg/m³"
       },
       {
         "rank": 8,
         "code": "EG",
-        "value": "42.4 \u00b5g/m\u00b3 (tied)"
+        "value": "42.4 µg/m³ (tied)"
       },
       {
         "rank": 10,
         "code": "CD",
-        "value": "40.8 \u00b5g/m\u00b3"
+        "value": "40.8 µg/m³"
       },
       {
         "rank": 11,
         "code": "ID",
-        "value": "37.1 \u00b5g/m\u00b3"
+        "value": "37.1 µg/m³"
       },
       {
         "rank": 12,
         "code": "BH",
-        "value": "36.1 \u00b5g/m\u00b3"
+        "value": "36.1 µg/m³"
       },
       {
         "rank": 13,
         "code": "RW",
-        "value": "34.5 \u00b5g/m\u00b3"
+        "value": "34.5 µg/m³"
       },
       {
         "rank": 14,
         "code": "OM",
-        "value": "33.9 \u00b5g/m\u00b3"
+        "value": "33.9 µg/m³"
       },
       {
         "rank": 15,
         "code": "CN",
-        "value": "32.5 \u00b5g/m\u00b3"
+        "value": "32.5 µg/m³"
       }
     ],
-    "disclaimer": "WHO guideline is 5 \u00b5g/m\u00b3 \u2014 the top of this list runs 15-16x higher.",
+    "disclaimer": "WHO guideline is 5 µg/m³ — the top of this list runs 15-16x higher.",
     "trivia": "South Asia dominates: Bangladesh, Pakistan, India and Nepal are all in the top 10.",
     "asOfDate": "2023 data (published March 2024)"
   },
@@ -1972,9 +1972,9 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Coffee Organization (ICO) \u2014 Total production by exporting countries",
+      "name": "International Coffee Organization (ICO) — Total production by exporting countries",
       "url": "https://ico.org/statistics/",
-      "asOf": "Coffee year 2023/24 (Oct 2023 \u2013 Sep 2024)"
+      "asOf": "Coffee year 2023/24 (Oct 2023 – Sep 2024)"
     },
     "note": "Reported in 60kg bags (the industry standard sack). Includes both Arabica and Robusta.",
     "answers": [
@@ -2056,7 +2056,7 @@
     ],
     "disclaimer": "Reported in 60kg bags (the industry standard sack). Includes both Arabica and Robusta.",
     "trivia": null,
-    "asOfDate": "Coffee year 2023/24 (Oct 2023 \u2013 Sep 2024)"
+    "asOfDate": "Coffee year 2023/24 (Oct 2023 – Sep 2024)"
   },
   {
     "id": "food-drink-largest-wine-producers-2023",
@@ -2067,7 +2067,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Organisation of Vine and Wine (OIV) \u2014 State of the World Vine and Wine Sector 2023",
+      "name": "International Organisation of Vine and Wine (OIV) — State of the World Vine and Wine Sector 2023",
       "url": "https://www.oiv.int/what-we-do/statistics",
       "asOf": "2023 production year"
     },
@@ -2162,7 +2162,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Kirin Beer University Report \u2014 Global Beer Consumption by Country",
+      "name": "Kirin Beer University Report — Global Beer Consumption by Country",
       "url": "https://www.kirinholdings.com/en/newsroom/release/2024/1224_01.html",
       "asOf": "2023 consumption year"
     },
@@ -2244,8 +2244,8 @@
         "value": "~67 L per capita"
       }
     ],
-    "disclaimer": "Litres per person per year. Czech Republic has led this ranking every year since 1993.",
-    "trivia": null,
+    "disclaimer": "Litres per person per year.",
+    "trivia": "The top country has led this ranking every year since 1993.",
     "asOfDate": "2023 consumption year"
   },
   {
@@ -2257,7 +2257,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAOSTAT \u2014 Crops and livestock products",
+      "name": "FAOSTAT — Crops and livestock products",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
       "asOf": "2022 production year"
     },
@@ -2352,7 +2352,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAOSTAT \u2014 Crops and livestock products",
+      "name": "FAOSTAT — Crops and livestock products",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
       "asOf": "2022 production year"
     },
@@ -2447,7 +2447,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAOSTAT \u2014 Live animals",
+      "name": "FAOSTAT — Live animals",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
       "asOf": "2022 stock year"
     },
@@ -2529,8 +2529,8 @@
         "value": "~17.6 million head"
       }
     ],
-    "disclaimer": "Head of cattle (bovine, excluding buffalo). India includes both dairy cattle and religiously protected populations.",
-    "trivia": null,
+    "disclaimer": "Head of cattle (bovine, excluding buffalo).",
+    "trivia": "India's total includes both dairy cattle and religiously protected populations.",
     "asOfDate": "2022 stock year"
   },
   {
@@ -2542,11 +2542,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAO \u2014 The State of World Fisheries and Aquaculture (SOFIA) 2024",
+      "name": "FAO — The State of World Fisheries and Aquaculture (SOFIA) 2024",
       "url": "https://www.fao.org/publications/sofia/2024/en",
       "asOf": "2022 catch year"
     },
-    "note": "Marine and inland capture fisheries only \u2014 excludes aquaculture. Peru's total swings wildly year-to-year with El Ni\u00f1o-driven anchoveta cycles.",
+    "note": "Marine and inland capture fisheries only — excludes aquaculture. Peru's total swings wildly year-to-year with El Niño-driven anchoveta cycles.",
     "answers": [
       {
         "rank": 1,
@@ -2624,8 +2624,8 @@
         "value": "~1.3 million tonnes"
       }
     ],
-    "disclaimer": "Marine and inland capture fisheries only \u2014 excludes aquaculture.",
-    "trivia": "Peru's total swings wildly year-to-year with El Ni\u00f1o-driven anchoveta cycles.",
+    "disclaimer": "Marine and inland capture fisheries only — excludes aquaculture.",
+    "trivia": "Peru's total swings wildly year-to-year with El Niño-driven anchoveta cycles.",
     "asOfDate": "2022 catch year"
   },
   {
@@ -2732,11 +2732,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "CIA World Factbook \u2014 Coastline",
+      "name": "CIA World Factbook — Coastline",
       "url": "https://www.cia.gov/the-world-factbook/field/coastline/",
       "asOf": "CIA World Factbook, last major update 2023-2024"
     },
-    "note": "Canada is a massive outlier \u2014 its coastline (including the Arctic archipelago) is roughly six times longer than any other country's. Methodologies differ; the CIA WFB and the World Resources Institute produce different values because coastline length is fractal and depends on measurement resolution.",
+    "note": "Canada is a massive outlier — its coastline (including the Arctic archipelago) is roughly six times longer than any other country's. Methodologies differ; the CIA WFB and the World Resources Institute produce different values because coastline length is fractal and depends on measurement resolution.",
     "answers": [
       {
         "rank": 1,
@@ -2814,8 +2814,8 @@
         "value": "7,491 km"
       }
     ],
-    "disclaimer": "Canada is a massive outlier \u2014 its coastline (including the Arctic archipelago) is roughly six times longer than any other country's. Methodologies differ; the CIA WFB and the World Resources Institute produce different values because coastline length is fractal and depends on measurement resolution.",
-    "trivia": null,
+    "disclaimer": "Methodologies differ; the CIA World Factbook and the World Resources Institute produce different figures.",
+    "trivia": "Canada is a massive outlier — its coastline (including the Arctic archipelago) is roughly six times longer than any other country's.",
     "asOfDate": "CIA World Factbook, last major update 2023-2024"
   },
   {
@@ -2823,79 +2823,79 @@
     "theme": "Countries",
     "subtheme": "Geography",
     "title": "Highest Population Density (sovereign states)",
-    "prompt": "Name the sovereign UN member states with the highest population density (people per km\u00b2). Excludes SARs (Hong Kong, Macau).",
+    "prompt": "Name the sovereign UN member states with the highest population density (people per km²). Excludes SARs (Hong Kong, Macau).",
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "World Bank \u2014 Population density (people per sq. km of land area)",
+      "name": "World Bank — Population density (people per sq. km of land area)",
       "url": "https://data.worldbank.org/indicator/EN.POP.DNST",
       "asOf": "2023 World Bank estimates"
     },
-    "note": "Microstates and city-states dominate this list. Monaco (~19,000/km\u00b2) and Singapore (~8,000/km\u00b2) are near-total urban jurisdictions. Excludes dependent territories like Macau. Bangladesh is the densest country with a population above 100 million.",
+    "note": "Microstates and city-states dominate this list. Monaco (~19,000/km²) and Singapore (~8,000/km²) are near-total urban jurisdictions. Excludes dependent territories like Macau. Bangladesh is the densest country with a population above 100 million.",
     "answers": [
       {
         "rank": 1,
         "code": "MC",
-        "value": "~19,000 /km\u00b2"
+        "value": "~19,000 /km²"
       },
       {
         "rank": 2,
         "code": "SG",
-        "value": "~8,400 /km\u00b2"
+        "value": "~8,400 /km²"
       },
       {
         "rank": 3,
         "code": "BH",
-        "value": "~2,200 /km\u00b2"
+        "value": "~2,200 /km²"
       },
       {
         "rank": 4,
         "code": "VA",
-        "value": "~1,800 /km\u00b2 (tied)"
+        "value": "~1,800 /km² (tied)"
       },
       {
         "rank": 4,
         "code": "MV",
-        "value": "~1,800 /km\u00b2 (tied)"
+        "value": "~1,800 /km² (tied)"
       },
       {
         "rank": 6,
         "code": "MT",
-        "value": "~1,700 /km\u00b2"
+        "value": "~1,700 /km²"
       },
       {
         "rank": 7,
         "code": "BD",
-        "value": "~1,300 /km\u00b2"
+        "value": "~1,300 /km²"
       },
       {
         "rank": 8,
         "code": "BB",
-        "value": "~660 /km\u00b2"
+        "value": "~660 /km²"
       },
       {
         "rank": 9,
         "code": "TW",
-        "value": "~650 /km\u00b2"
+        "value": "~650 /km²"
       },
       {
         "rank": 10,
         "code": "LB",
-        "value": "~550 /km\u00b2"
+        "value": "~550 /km²"
       },
       {
         "rank": 11,
         "code": "KR",
-        "value": "~530 /km\u00b2"
+        "value": "~530 /km²"
       },
       {
         "rank": 12,
         "code": "RW",
-        "value": "~525 /km\u00b2"
+        "value": "~525 /km²"
       }
     ],
     "disclaimer": "Microstates and city-states dominate this list. Excludes dependent territories like Macau. Bangladesh is the densest country with a population above 100 million.",
-    "trivia": "Monaco (~19,000/km\u00b2) and Singapore (~8,000/km\u00b2) are near-total urban jurisdictions.",
+    "trivia": "Monaco (~19,000/km²) and Singapore (~8,000/km²) are near-total urban jurisdictions.",
     "asOfDate": "2023 World Bank estimates"
   },
   {
@@ -2907,7 +2907,7 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "UN DESA \u2014 World Urbanization Prospects",
+      "name": "UN DESA — World Urbanization Prospects",
       "url": "https://population.un.org/wup/",
       "asOf": "2018 revision, updated with 2023 estimates"
     },
@@ -3082,7 +3082,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN DESA \u2014 International Migrant Stock",
+      "name": "UN DESA — International Migrant Stock",
       "url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
       "asOf": "2020 revision"
     },
@@ -3177,7 +3177,7 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "CIA World Factbook \u2014 Land Boundaries",
+      "name": "CIA World Factbook — Land Boundaries",
       "url": "https://www.cia.gov/the-world-factbook/field/land-boundaries/",
       "asOf": "CIA World Factbook, 2024"
     },
@@ -3339,8 +3339,8 @@
         "value": "~114,200"
       }
     ],
-    "disclaimer": "Vatican City is a UN observer state, not a member. Excludes dependent territories (Pitcairn Islands, Tokelau, etc.).",
-    "trivia": "Tuvalu and Nauru regularly swap positions.",
+    "disclaimer": "Excludes dependent territories (Pitcairn Islands, Tokelau, etc.). Includes UN observer states.",
+    "trivia": "Vatican City is a UN observer state, not a member. Tuvalu and Nauru regularly swap positions in the low-population rankings.",
     "asOfDate": "2024 revision"
   },
   {
@@ -3352,7 +3352,7 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "CIA World Factbook \u2014 Elevation extremes / mean elevation",
+      "name": "CIA World Factbook — Elevation extremes / mean elevation",
       "url": "https://www.cia.gov/the-world-factbook/field/elevation/",
       "asOf": "CIA World Factbook, 2024"
     },
@@ -3762,7 +3762,7 @@
     "answerType": "Countries",
     "seededDepth": 16,
     "source": {
-      "name": "WHO Global Health Observatory (BMI \u2265 30)",
+      "name": "WHO Global Health Observatory (BMI ≥ 30)",
       "url": "https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/body-mass-index",
       "asOf": "2022"
     },
@@ -4289,8 +4289,8 @@
         "value": "4.6 per 1,000"
       }
     ],
-    "disclaimer": "Includes all inpatient beds. North Korea's high figure reflects self-reported data; hospital bed density does not always correlate with care quality.",
-    "trivia": null,
+    "disclaimer": "Includes all inpatient beds. Hospital bed density does not always correlate with care quality; some totals reflect self-reported national figures.",
+    "trivia": "North Korea's high figure reflects self-reported data.",
     "asOfDate": "2020-2021 latest available"
   },
   {
@@ -4302,7 +4302,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "IISS \u2014 The Military Balance 2024",
+      "name": "IISS — The Military Balance 2024",
       "url": "https://www.iiss.org/publications/the-military-balance/",
       "asOf": "IISS Military Balance 2024 (data as of late 2023)"
     },
@@ -4496,7 +4496,7 @@
       "url": "https://www.sipri.org/yearbook/2024/07",
       "asOf": "SIPRI estimates as of January 2024"
     },
-    "note": "Total inventory including deployed, stored, and retired-but-intact warheads. Israel neither confirms nor denies its arsenal. North Korea's count is highly uncertain \u2014 SIPRI estimates ~50 assembled warheads but material for more.",
+    "note": "Total inventory including deployed, stored, and retired-but-intact warheads. Israel neither confirms nor denies its arsenal. North Korea's count is highly uncertain — SIPRI estimates ~50 assembled warheads but material for more.",
     "answers": [
       {
         "rank": 1,
@@ -4544,7 +4544,7 @@
         "value": "50 warheads (est.)"
       }
     ],
-    "disclaimer": "Total inventory including deployed, stored, and retired-but-intact warheads. Israel neither confirms nor denies its arsenal. North Korea's count is highly uncertain \u2014 SIPRI estimates ~50 assembled warheads but material for more.",
+    "disclaimer": "Total inventory including deployed, stored, and retired-but-intact warheads. Israel neither confirms nor denies its arsenal. North Korea's count is highly uncertain — SIPRI estimates ~50 assembled warheads but material for more.",
     "trivia": null,
     "asOfDate": "SIPRI estimates as of January 2024"
   },
@@ -4629,9 +4629,9 @@
     "source": {
       "name": "SIPRI Arms Transfers Database (Trend Indicator Value)",
       "url": "https://www.sipri.org/databases/armstransfers",
-      "asOf": "SIPRI five-year period 2019\u20132023, published March 2024"
+      "asOf": "SIPRI five-year period 2019–2023, published March 2024"
     },
-    "note": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) \u2014 a volume metric, not a dollar figure. Covers 2019\u20132023 combined.",
+    "note": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) — a volume metric, not a dollar figure. Covers 2019–2023 combined.",
     "answers": [
       {
         "rank": 1,
@@ -4684,9 +4684,9 @@
         "value": "2.0% of global exports"
       }
     ],
-    "disclaimer": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) \u2014 a volume metric, not a dollar figure. Covers 2019\u20132023 combined.",
+    "disclaimer": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) — a volume metric, not a dollar figure. Covers 2019–2023 combined.",
     "trivia": null,
-    "asOfDate": "SIPRI five-year period 2019\u20132023, published March 2024"
+    "asOfDate": "SIPRI five-year period 2019–2023, published March 2024"
   },
   {
     "id": "military-largest-arms-importers-2019",
@@ -4699,7 +4699,7 @@
     "source": {
       "name": "SIPRI Arms Transfers Database (Trend Indicator Value)",
       "url": "https://www.sipri.org/databases/armstransfers",
-      "asOf": "SIPRI five-year period 2019\u20132023, published March 2024"
+      "asOf": "SIPRI five-year period 2019–2023, published March 2024"
     },
     "note": "Global share of major-conventional-weapons imports measured by SIPRI's Trend Indicator Value (TIV). Ukraine's rise reflects deliveries from allies since Russia's 2022 invasion.",
     "answers": [
@@ -4756,7 +4756,7 @@
     ],
     "disclaimer": "Global share of major-conventional-weapons imports measured by SIPRI's Trend Indicator Value (TIV).",
     "trivia": "Ukraine's rise reflects deliveries from allies since Russia's 2022 invasion.",
-    "asOfDate": "SIPRI five-year period 2019\u20132023, published March 2024"
+    "asOfDate": "SIPRI five-year period 2019–2023, published March 2024"
   },
   {
     "id": "military-most-main-battle-tanks-in-active-service-2024",
@@ -4767,7 +4767,7 @@
     "answerType": "Countries",
     "seededDepth": 10,
     "source": {
-      "name": "IISS \u2014 The Military Balance 2024",
+      "name": "IISS — The Military Balance 2024",
       "url": "https://www.iiss.org/publications/the-military-balance/",
       "asOf": "IISS Military Balance 2024 (data as of late 2023)"
     },
@@ -5692,7 +5692,7 @@
     "answerType": "Countries",
     "seededDepth": 8,
     "source": {
-      "name": "FIFA \u2014 Men's World Cup History",
+      "name": "FIFA — Men's World Cup History",
       "url": "https://www.fifa.com/en/tournaments/mens/worldcup",
       "asOf": "After 2022 World Cup (Qatar); next edition 2026"
     },
@@ -5739,8 +5739,8 @@
         "value": "1 title (tied)"
       }
     ],
-    "disclaimer": "Only 8 nations have ever won. West Germany's titles (1954, 1974, 1990) are credited to Germany per FIFA.",
-    "trivia": null,
+    "disclaimer": "Only 8 nations have ever won. Historical predecessor states are credited to their successors per FIFA convention.",
+    "trivia": "West Germany's titles (1954, 1974, 1990) are credited to Germany per FIFA.",
     "asOfDate": "After 2022 World Cup (Qatar); next edition 2026"
   },
   {
@@ -5752,7 +5752,7 @@
     "answerType": "Countries",
     "seededDepth": 5,
     "source": {
-      "name": "FIFA \u2014 Women's World Cup History",
+      "name": "FIFA — Women's World Cup History",
       "url": "https://www.fifa.com/en/tournaments/womens/worldcup",
       "asOf": "After 2023 World Cup (Australia/New Zealand); next edition 2027"
     },
@@ -5797,11 +5797,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Olympic Committee \u2014 All-time Summer Olympic medal table",
+      "name": "International Olympic Committee — All-time Summer Olympic medal table",
       "url": "https://olympics.com/en/olympic-games",
       "asOf": "Through Paris 2024"
     },
-    "note": "Soviet Union medals (1952\u20131988) are counted separately from Russia and are excluded here to avoid the Soviet/Unified Team/Russia confusion. Germany combines West/East/unified totals per IOC convention.",
+    "note": "Soviet Union medals (1952–1988) are counted separately from Russia and are excluded here to avoid the Soviet/Unified Team/Russia confusion. Germany combines West/East/unified totals per IOC convention.",
     "answers": [
       {
         "rank": 1,
@@ -5879,7 +5879,7 @@
         "value": "74 gold"
       }
     ],
-    "disclaimer": "Soviet Union medals (1952\u20131988) are counted separately from Russia and are excluded here to avoid the Soviet/Unified Team/Russia confusion. Germany combines West/East/unified totals per IOC convention.",
+    "disclaimer": "Soviet Union medals (1952–1988) are counted separately from Russia and are excluded here to avoid the Soviet/Unified Team/Russia confusion. Germany combines West/East/unified totals per IOC convention.",
     "trivia": null,
     "asOfDate": "Through Paris 2024"
   },
@@ -5892,11 +5892,11 @@
     "answerType": "Countries",
     "seededDepth": 11,
     "source": {
-      "name": "International Olympic Committee \u2014 All-time Winter Olympic medal table",
+      "name": "International Olympic Committee — All-time Winter Olympic medal table",
       "url": "https://olympics.com/en/olympic-games",
       "asOf": "Through Beijing 2022"
     },
-    "note": "Soviet Union (78 gold, 1956\u20131988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
+    "note": "Soviet Union (78 gold, 1956–1988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
     "answers": [
       {
         "rank": 1,
@@ -5954,7 +5954,7 @@
         "value": "33 gold"
       }
     ],
-    "disclaimer": "Soviet Union (78 gold, 1956\u20131988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
+    "disclaimer": "Soviet Union (78 gold, 1956–1988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
     "trivia": null,
     "asOfDate": "Through Beijing 2022"
   },
@@ -5967,7 +5967,7 @@
     "answerType": "Countries",
     "seededDepth": 4,
     "source": {
-      "name": "World Rugby \u2014 Rugby World Cup History",
+      "name": "World Rugby — Rugby World Cup History",
       "url": "https://www.rugbyworldcup.com/history",
       "asOf": "After 2023 Rugby World Cup (France); next edition 2027"
     },
@@ -6007,7 +6007,7 @@
     "answerType": "Countries",
     "seededDepth": 5,
     "source": {
-      "name": "International Cricket Council \u2014 Men's Cricket World Cup History",
+      "name": "International Cricket Council — Men's Cricket World Cup History",
       "url": "https://www.icc-cricket.com/tournaments/cricket-world-cup",
       "asOf": "After 2023 Cricket World Cup (India); next edition 2027"
     },
@@ -6052,7 +6052,7 @@
     "answerType": "Countries",
     "seededDepth": 6,
     "source": {
-      "name": "Formula 1 \u2014 Official F1 Records",
+      "name": "Formula 1 — Official F1 Records",
       "url": "https://www.formula1.com/en/results.html",
       "asOf": "End of 2024 season"
     },
@@ -6544,8 +6544,8 @@
         "value": "51 million users"
       }
     ],
-    "disclaimer": "India's ITU 2021 figure (608M) was updated to the DataReportal Digital 2024 figure (~752M) since India's user base has grown rapidly. Absolute rank ordering has been stable since 2021.",
-    "trivia": null,
+    "disclaimer": "Older ITU figures have been updated to the DataReportal Digital 2024 figures where large recent growth would otherwise distort the ranking. Absolute rank ordering has been stable since 2021.",
+    "trivia": "India's ITU 2021 figure (608M) was updated to ~752M for 2024 as its user base has grown rapidly.",
     "asOfDate": "India from DataReportal Jan 2024; other countries ITU 2021 (latest complete cross-country dataset)"
   },
   {
@@ -7024,8 +7024,8 @@
         "value": "1.94%"
       }
     ],
-    "disclaimer": "Also called GERD (Gross domestic Expenditure on R&D). Israel and South Korea consistently top the list. Singapore's value is 2020 (its most recent). Denmark and Iceland are tied at #12.",
-    "trivia": null,
+    "disclaimer": "Also called GERD (Gross domestic Expenditure on R&D). Singapore's value is 2020 (its most recent). Denmark and Iceland are tied at #12.",
+    "trivia": "Israel and South Korea consistently top the list.",
     "asOfDate": "2021 (most recent year with broad coverage)"
   },
   {
@@ -7727,7 +7727,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "U.S. Geological Survey \u2014 Mineral Commodity Summaries",
+      "name": "U.S. Geological Survey — Mineral Commodity Summaries",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-gold.pdf",
       "asOf": "USGS 2023 mine production estimates"
     },
@@ -7917,7 +7917,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual mean temperature",
+      "name": "World Bank Climate Change Knowledge Portal — Historical annual mean temperature",
       "url": "https://climateknowledgeportal.worldbank.org/",
       "asOf": "1991-2020 climatology"
     },
@@ -7926,77 +7926,77 @@
       {
         "rank": 1,
         "code": "DJ",
-        "value": "30.0 \u00b0C annual mean"
+        "value": "30.0 °C annual mean"
       },
       {
         "rank": 2,
         "code": "ML",
-        "value": "29.3 \u00b0C annual mean"
+        "value": "29.3 °C annual mean"
       },
       {
         "rank": 3,
         "code": "BF",
-        "value": "29.2 \u00b0C annual mean"
+        "value": "29.2 °C annual mean"
       },
       {
         "rank": 4,
         "code": "SN",
-        "value": "29.0 \u00b0C annual mean"
+        "value": "29.0 °C annual mean"
       },
       {
         "rank": 5,
         "code": "TV",
-        "value": "28.9 \u00b0C annual mean"
+        "value": "28.9 °C annual mean"
       },
       {
         "rank": 6,
         "code": "MR",
-        "value": "28.8 \u00b0C annual mean"
+        "value": "28.8 °C annual mean"
       },
       {
         "rank": 7,
         "code": "GM",
-        "value": "28.6 \u00b0C annual mean"
+        "value": "28.6 °C annual mean"
       },
       {
         "rank": 8,
         "code": "BH",
-        "value": "28.5 \u00b0C annual mean"
+        "value": "28.5 °C annual mean"
       },
       {
         "rank": 9,
         "code": "KI",
-        "value": "28.4 \u00b0C annual mean"
+        "value": "28.4 °C annual mean"
       },
       {
         "rank": 9,
         "code": "MV",
-        "value": "28.4 \u00b0C annual mean"
+        "value": "28.4 °C annual mean"
       },
       {
         "rank": 11,
         "code": "NE",
-        "value": "28.3 \u00b0C annual mean"
+        "value": "28.3 °C annual mean"
       },
       {
         "rank": 12,
         "code": "SO",
-        "value": "28.2 \u00b0C annual mean"
+        "value": "28.2 °C annual mean"
       },
       {
         "rank": 13,
         "code": "TD",
-        "value": "28.1 \u00b0C annual mean"
+        "value": "28.1 °C annual mean"
       },
       {
         "rank": 13,
         "code": "MH",
-        "value": "28.1 \u00b0C annual mean"
+        "value": "28.1 °C annual mean"
       },
       {
         "rank": 15,
         "code": "SD",
-        "value": "28.0 \u00b0C annual mean"
+        "value": "28.0 °C annual mean"
       }
     ],
     "disclaimer": "Sahel and Horn of Africa states plus small island nations near the equator run hottest on a country-average basis.",
@@ -8012,7 +8012,7 @@
     "answerType": "Countries",
     "seededDepth": 14,
     "source": {
-      "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual mean temperature",
+      "name": "World Bank Climate Change Knowledge Portal — Historical annual mean temperature",
       "url": "https://climateknowledgeportal.worldbank.org/",
       "asOf": "1991-2020 climatology"
     },
@@ -8021,72 +8021,72 @@
       {
         "rank": 1,
         "code": "RU",
-        "value": "-5.1 \u00b0C annual mean"
+        "value": "-5.1 °C annual mean"
       },
       {
         "rank": 2,
         "code": "CA",
-        "value": "-4.4 \u00b0C annual mean"
+        "value": "-4.4 °C annual mean"
       },
       {
         "rank": 3,
         "code": "MN",
-        "value": "-0.5 \u00b0C annual mean"
+        "value": "-0.5 °C annual mean"
       },
       {
         "rank": 4,
         "code": "IS",
-        "value": "1.4 \u00b0C annual mean"
+        "value": "1.4 °C annual mean"
       },
       {
         "rank": 5,
         "code": "NO",
-        "value": "1.7 \u00b0C annual mean"
+        "value": "1.7 °C annual mean"
       },
       {
         "rank": 6,
         "code": "FI",
-        "value": "2.0 \u00b0C annual mean"
+        "value": "2.0 °C annual mean"
       },
       {
         "rank": 6,
         "code": "KG",
-        "value": "2.0 \u00b0C annual mean"
+        "value": "2.0 °C annual mean"
       },
       {
         "rank": 8,
         "code": "TJ",
-        "value": "3.0 \u00b0C annual mean"
+        "value": "3.0 °C annual mean"
       },
       {
         "rank": 9,
         "code": "SE",
-        "value": "3.4 \u00b0C annual mean"
+        "value": "3.4 °C annual mean"
       },
       {
         "rank": 10,
         "code": "EE",
-        "value": "5.6 \u00b0C annual mean"
+        "value": "5.6 °C annual mean"
       },
       {
         "rank": 11,
         "code": "KZ",
-        "value": "6.4 \u00b0C annual mean"
+        "value": "6.4 °C annual mean"
       },
       {
         "rank": 12,
         "code": "LV",
-        "value": "6.5 \u00b0C annual mean"
+        "value": "6.5 °C annual mean"
       },
       {
         "rank": 13,
         "code": "BY",
-        "value": "6.9 \u00b0C annual mean"
+        "value": "6.9 °C annual mean"
       },
       {
         "rank": 14,
         "code": "LT",
-        "value": "7.1 \u00b0C annual mean"
+        "value": "7.1 °C annual mean"
       }
     ],
     "disclaimer": "Excludes Antarctica (not a country). Greenland is listed for its own climatology although it's part of the Kingdom of Denmark.",
@@ -8102,7 +8102,7 @@
     "answerType": "Countries",
     "seededDepth": 14,
     "source": {
-      "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual precipitation",
+      "name": "World Bank Climate Change Knowledge Portal — Historical annual precipitation",
       "url": "https://climateknowledgeportal.worldbank.org/",
       "asOf": "1991-2020 climatology"
     },
@@ -8179,8 +8179,8 @@
         "value": "2,274 mm/year"
       }
     ],
-    "disclaimer": "Small tropical states in the ITCZ dominate: Colombia's Pacific coast is arguably the rainiest place on Earth, and Pacific islands like the Solomons and PNG catch the wet edge of the monsoon.",
-    "trivia": null,
+    "disclaimer": "National annual precipitation averages. Small tropical states near the Intertropical Convergence Zone tend to dominate.",
+    "trivia": "Colombia's Pacific coast is arguably the rainiest place on Earth, and Pacific islands like the Solomons and PNG catch the wet edge of the monsoon.",
     "asOfDate": "1991-2020 climatology"
   },
   {
@@ -8192,11 +8192,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual precipitation",
+      "name": "World Bank Climate Change Knowledge Portal — Historical annual precipitation",
       "url": "https://climateknowledgeportal.worldbank.org/",
       "asOf": "1991-2020 climatology"
     },
-    "note": "Egypt is often listed as the driest country on Earth \u2014 its Nile-fed population survives on effectively zero rainfall averaged over the desert land area. Gulf states and the central Sahara round out the list.",
+    "note": "Egypt is often listed as the driest country on Earth — its Nile-fed population survives on effectively zero rainfall averaged over the desert land area. Gulf states and the central Sahara round out the list.",
     "answers": [
       {
         "rank": 1,
@@ -8275,7 +8275,7 @@
       }
     ],
     "disclaimer": "Gulf states and the central Sahara round out the list.",
-    "trivia": "Egypt is often listed as the driest country on Earth \u2014 its Nile-fed population survives on effectively zero rainfall averaged over the desert land area.",
+    "trivia": "Egypt is often listed as the driest country on Earth — its Nile-fed population survives on effectively zero rainfall averaged over the desert land area.",
     "asOfDate": "1991-2020 climatology"
   },
   {
@@ -8287,7 +8287,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Smithsonian Institution \u2014 Global Volcanism Program, Volcanoes of the World database",
+      "name": "Smithsonian Institution — Global Volcanism Program, Volcanoes of the World database",
       "url": "https://volcano.si.edu/",
       "asOf": "GVP database, 2024"
     },
@@ -8382,7 +8382,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "National Geographic / Peakbagger \u2014 Country high points",
+      "name": "National Geographic / Peakbagger — Country high points",
       "url": "https://www.peakbagger.com/",
       "asOf": "2024"
     },
@@ -8391,77 +8391,77 @@
       {
         "rank": 1,
         "code": "NP",
-        "value": "Everest \u2014 8,849 m"
+        "value": "Everest — 8,849 m"
       },
       {
         "rank": 1,
         "code": "CN",
-        "value": "Everest \u2014 8,849 m"
+        "value": "Everest — 8,849 m"
       },
       {
         "rank": 3,
         "code": "IN",
-        "value": "Kangchenjunga \u2014 8,586 m"
+        "value": "Kangchenjunga — 8,586 m"
       },
       {
         "rank": 4,
         "code": "BT",
-        "value": "Gangkhar Puensum \u2014 7,570 m"
+        "value": "Gangkhar Puensum — 7,570 m"
       },
       {
         "rank": 5,
         "code": "TJ",
-        "value": "Ismoil Somoni Peak \u2014 7,495 m"
+        "value": "Ismoil Somoni Peak — 7,495 m"
       },
       {
         "rank": 6,
         "code": "AF",
-        "value": "Noshaq \u2014 7,492 m"
+        "value": "Noshaq — 7,492 m"
       },
       {
         "rank": 7,
         "code": "KG",
-        "value": "Jengish Chokusu \u2014 7,439 m"
+        "value": "Jengish Chokusu — 7,439 m"
       },
       {
         "rank": 8,
         "code": "KZ",
-        "value": "Khan Tengri \u2014 7,010 m"
+        "value": "Khan Tengri — 7,010 m"
       },
       {
         "rank": 9,
         "code": "AR",
-        "value": "Aconcagua \u2014 6,961 m"
+        "value": "Aconcagua — 6,961 m"
       },
       {
         "rank": 10,
         "code": "CL",
-        "value": "Ojos del Salado \u2014 6,893 m"
+        "value": "Ojos del Salado — 6,893 m"
       },
       {
         "rank": 11,
         "code": "PE",
-        "value": "Huascaran \u2014 6,768 m"
+        "value": "Huascaran — 6,768 m"
       },
       {
         "rank": 12,
         "code": "BO",
-        "value": "Sajama \u2014 6,542 m"
+        "value": "Sajama — 6,542 m"
       },
       {
         "rank": 13,
         "code": "EC",
-        "value": "Chimborazo \u2014 6,263 m"
+        "value": "Chimborazo — 6,263 m"
       },
       {
         "rank": 14,
         "code": "MM",
-        "value": "Hkakabo Razi \u2014 5,881 m"
+        "value": "Hkakabo Razi — 5,881 m"
       },
       {
         "rank": 15,
         "code": "PK",
-        "value": "K2 \u2014 8,611 m"
+        "value": "K2 — 8,611 m"
       }
     ],
     "disclaimer": "This list ranks countries by the elevation of their highest point regardless of whether the summit is shared.",
@@ -8477,7 +8477,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "National Geographic / UNEP \u2014 World desert atlases",
+      "name": "National Geographic / UNEP — World desert atlases",
       "url": "https://education.nationalgeographic.org/resource/desert/",
       "asOf": "2023"
     },
@@ -8486,77 +8486,77 @@
       {
         "rank": 1,
         "code": "DZ",
-        "value": "~2.0 million km\u00b2 of Sahara"
+        "value": "~2.0 million km² of Sahara"
       },
       {
         "rank": 2,
         "code": "SA",
-        "value": "~1.85 million km\u00b2 (Arabian)"
+        "value": "~1.85 million km² (Arabian)"
       },
       {
         "rank": 3,
         "code": "LY",
-        "value": "~1.6 million km\u00b2 of Sahara"
+        "value": "~1.6 million km² of Sahara"
       },
       {
         "rank": 4,
         "code": "AU",
-        "value": "~1.37 million km\u00b2 of outback desert"
+        "value": "~1.37 million km² of outback desert"
       },
       {
         "rank": 5,
         "code": "CN",
-        "value": "~1.3 million km\u00b2 (Gobi/Taklamakan)"
+        "value": "~1.3 million km² (Gobi/Taklamakan)"
       },
       {
         "rank": 6,
         "code": "SD",
-        "value": "~1.1 million km\u00b2 of Sahara/Nubian"
+        "value": "~1.1 million km² of Sahara/Nubian"
       },
       {
         "rank": 7,
         "code": "TD",
-        "value": "~1.0 million km\u00b2 of Sahara"
+        "value": "~1.0 million km² of Sahara"
       },
       {
         "rank": 7,
         "code": "NE",
-        "value": "~1.0 million km\u00b2 of Sahara"
+        "value": "~1.0 million km² of Sahara"
       },
       {
         "rank": 9,
         "code": "ML",
-        "value": "~0.9 million km\u00b2 of Sahara"
+        "value": "~0.9 million km² of Sahara"
       },
       {
         "rank": 9,
         "code": "MR",
-        "value": "~0.9 million km\u00b2 of Sahara"
+        "value": "~0.9 million km² of Sahara"
       },
       {
         "rank": 11,
         "code": "EG",
-        "value": "~0.68 million km\u00b2 (Western Desert)"
+        "value": "~0.68 million km² (Western Desert)"
       },
       {
         "rank": 12,
         "code": "MN",
-        "value": "~0.5 million km\u00b2 of Gobi"
+        "value": "~0.5 million km² of Gobi"
       },
       {
         "rank": 12,
         "code": "US",
-        "value": "~0.5 million km\u00b2 (Great Basin/Mojave/Sonoran)"
+        "value": "~0.5 million km² (Great Basin/Mojave/Sonoran)"
       },
       {
         "rank": 14,
         "code": "IR",
-        "value": "~0.36 million km\u00b2 (Dasht-e Kavir/Lut)"
+        "value": "~0.36 million km² (Dasht-e Kavir/Lut)"
       },
       {
         "rank": 15,
         "code": "AR",
-        "value": "~0.2 million km\u00b2 (Patagonian)"
+        "value": "~0.2 million km² (Patagonian)"
       }
     ],
     "disclaimer": "Antarctica is technically the world's largest desert but is excluded here since it isn't a country.",
@@ -8572,7 +8572,7 @@
     "answerType": "Countries",
     "seededDepth": 10,
     "source": {
-      "name": "Festival de Cannes \u2014 official Palme d'Or history",
+      "name": "Festival de Cannes — official Palme d'Or history",
       "url": "https://www.festival-cannes.com/en/palmares/palme-dor",
       "asOf": "Through Cannes 2024 (Anora, United States)"
     },
@@ -8642,7 +8642,7 @@
     "answerType": "Countries",
     "seededDepth": 10,
     "source": {
-      "name": "Berlinale \u2014 Prize archive (Berlin International Film Festival)",
+      "name": "Berlinale — Prize archive (Berlin International Film Festival)",
       "url": "https://www.berlinale.de/en/archive-selection/archive-1951.html",
       "asOf": "Through Berlinale 2024 (Dahomey, Senegal/France/Benin)"
     },
@@ -8807,7 +8807,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Motion Picture Association (MPA) \u2014 THEME Report 2023 and Gower Street Analytics",
+      "name": "Motion Picture Association (MPA) — THEME Report 2023 and Gower Street Analytics",
       "url": "https://www.motionpictures.org/research-docs/2023-theme-report/",
       "asOf": "2023 full-year theatrical box office"
     },
@@ -8902,7 +8902,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UNESCO Institute for Statistics \u2014 Feature film production data (via UIS.Stat)",
+      "name": "UNESCO Institute for Statistics — Feature film production data (via UIS.Stat)",
       "url": "https://data.uis.unesco.org/",
       "asOf": "Most recent reported year per country (2018-2022 range)"
     },
@@ -8984,8 +8984,8 @@
         "value": "~180 films/yr"
       }
     ],
-    "disclaimer": "Feature-length fiction, documentary, and animation films of 60+ minutes intended for theatrical release. India's total spans multiple language industries (Bollywood, Tollywood, Kollywood, etc.). Reporting years vary by country.",
-    "trivia": null,
+    "disclaimer": "Feature-length fiction, documentary, and animation films of 60+ minutes intended for theatrical release. Reporting completeness varies by country.",
+    "trivia": "India's total spans multiple language industries (Bollywood, Tollywood, Kollywood, etc.).",
     "asOfDate": "Most recent reported year per country (2018-2022 range)"
   },
   {
@@ -9187,7 +9187,7 @@
     "answerType": "Countries",
     "seededDepth": 14,
     "source": {
-      "name": "FIDE \u2014 Titled Players database (International Chess Federation)",
+      "name": "FIDE — Titled Players database (International Chess Federation)",
       "url": "https://ratings.fide.com/",
       "asOf": "2024 FIDE title lists"
     },
@@ -9277,7 +9277,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN DESA \u2014 World Population Prospects 2024 (Crude Death Rate)",
+      "name": "UN DESA — World Population Prospects 2024 (Crude Death Rate)",
       "url": "https://population.un.org/wpp/",
       "asOf": "UN WPP 2024, estimates for 2023"
     },
@@ -9368,11 +9368,11 @@
     "theme": "Countries",
     "subtheme": "Demographics",
     "title": "Most Emigrants Living Abroad",
-    "prompt": "Name the countries with the largest diaspora \u2014 the most citizens/former residents living abroad.",
+    "prompt": "Name the countries with the largest diaspora — the most citizens/former residents living abroad.",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN DESA \u2014 International Migrant Stock 2020 (Origin)",
+      "name": "UN DESA — International Migrant Stock 2020 (Origin)",
       "url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
       "asOf": "UN Migrant Stock 2020, released 2021"
     },
@@ -9467,7 +9467,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN DESA \u2014 World Population Prospects 2024 (Sex Ratio, Total Population)",
+      "name": "UN DESA — World Population Prospects 2024 (Sex Ratio, Total Population)",
       "url": "https://population.un.org/wpp/",
       "asOf": "UN WPP 2024, 2023 estimates"
     },
@@ -9562,7 +9562,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN DESA \u2014 Household Size and Composition Database 2022",
+      "name": "UN DESA — Household Size and Composition Database 2022",
       "url": "https://www.un.org/development/desa/pd/data/household-size-and-composition",
       "asOf": "UN DESA 2022 database, national census data ~2015-2021"
     },
@@ -10844,8 +10844,8 @@
         "value": "50.2%"
       }
     ],
-    "disclaimer": "South Korea leads OECD countries; the measure includes short-cycle tertiary, bachelor's, master's, and doctoral programs.",
-    "trivia": null,
+    "disclaimer": "The measure includes short-cycle tertiary, bachelor's, master's, and doctoral programs among 25-34 year olds in OECD countries.",
+    "trivia": "South Korea leads OECD countries on this metric.",
     "asOfDate": "2022"
   },
   {
@@ -10954,8 +10954,8 @@
         "value": "1 university"
       }
     ],
-    "disclaimer": "The US and UK dominate the top 100 universities.",
-    "trivia": "China's rise has been notable over the past decade.",
+    "disclaimer": "Counts universities from each country appearing in the QS World University Rankings top 100.",
+    "trivia": "The US and UK dominate the top 100. China's rise has been notable over the past decade.",
     "asOfDate": "2024"
   },
   {
@@ -11174,8 +11174,8 @@
         "value": "89,000 students"
       }
     ],
-    "disclaimer": "The US and UK together host over 30% of the world's international students.",
-    "trivia": "Post-2020 data show renewed growth in Canadian and Australian intakes.",
+    "disclaimer": "Counts inbound international/foreign students enrolled in tertiary education.",
+    "trivia": "The US and UK together host over 30% of the world's international students. Post-2020 data show renewed growth in Canadian and Australian intakes.",
     "asOfDate": "2022"
   },
   {
@@ -11297,7 +11297,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAOSTAT \u2014 Crops and livestock products (Tea leaves)",
+      "name": "FAOSTAT — Crops and livestock products (Tea leaves)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
       "asOf": "2022 production year"
     },
@@ -11392,7 +11392,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Euromonitor / FAO \u2014 Tea consumption per capita",
+      "name": "Euromonitor / FAO — Tea consumption per capita",
       "url": "https://www.fao.org/markets-and-trade/commodities/tea/en/",
       "asOf": "Approx. 2022 consumption year"
     },
@@ -11582,7 +11582,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Olive Council (IOC) \u2014 World olive oil figures",
+      "name": "International Olive Council (IOC) — World olive oil figures",
       "url": "https://www.internationaloliveoil.org/what-we-do/economic-affairs-promotion-unit/",
       "asOf": "2022/23 crop year"
     },
@@ -11677,7 +11677,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAOSTAT \u2014 Crops and livestock products (Raw milk of cattle)",
+      "name": "FAOSTAT — Crops and livestock products (Raw milk of cattle)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
       "asOf": "2022 production year"
     },
@@ -11759,8 +11759,8 @@
         "value": "~12.8 million tonnes"
       }
     ],
-    "disclaimer": "Raw whole cow milk in tonnes. India leads if buffalo milk is included, but this ranking is cow milk only where India still ranks near the top.",
-    "trivia": null,
+    "disclaimer": "Raw whole cow milk in tonnes. Buffalo milk is excluded; including it would shift rankings among top producers.",
+    "trivia": "India leads if buffalo milk is included, and still ranks near the top for cow milk alone.",
     "asOfDate": "2022 production year"
   },
   {
@@ -11772,7 +11772,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "USDA Foreign Agricultural Service \u2014 Livestock and Poultry: World Markets and Trade",
+      "name": "USDA Foreign Agricultural Service — Livestock and Poultry: World Markets and Trade",
       "url": "https://www.fas.usda.gov/data/livestock-and-poultry-world-markets-and-trade",
       "asOf": "2023 production year"
     },
@@ -11867,7 +11867,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "FAO \u2014 The State of World Fisheries and Aquaculture (SOFIA)",
+      "name": "FAO — The State of World Fisheries and Aquaculture (SOFIA)",
       "url": "https://www.fao.org/publications/sofia/en/",
       "asOf": "2022 production year"
     },
@@ -12044,8 +12044,8 @@
         "value": "~13.5 per million"
       }
     ],
-    "disclaimer": "McDonald's outlets per million residents. Excludes microstates without at least 3 outlets. The U.S. remains the runaway leader with ~13,500 locations.",
-    "trivia": null,
+    "disclaimer": "McDonald's outlets per million residents. Excludes microstates without at least 3 outlets.",
+    "trivia": "The U.S. remains the runaway leader with ~13,500 locations.",
     "asOfDate": "Approx. 2023 store counts"
   },
   {
@@ -12057,7 +12057,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "WHO Global Health Observatory \u2014 Total alcohol per capita (15+) consumption, in litres of pure alcohol",
+      "name": "WHO Global Health Observatory — Total alcohol per capita (15+) consumption, in litres of pure alcohol",
       "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/total-(recorded-unrecorded)-alcohol-per-capita-(15-)-consumption",
       "asOf": "2019 (latest WHO Global Status Report on Alcohol and Health, published 2024)"
     },
@@ -12154,7 +12154,7 @@
     "source": {
       "name": "WHO Report on the Global Tobacco Epidemic / Tobacco Atlas (Vital Strategies)",
       "url": "https://www.who.int/teams/health-promotion/tobacco-control/global-tobacco-report-2023",
-      "asOf": "Most recent WHO/Tobacco Atlas data, 2019\u20132022"
+      "asOf": "Most recent WHO/Tobacco Atlas data, 2019–2022"
     },
     "note": "Cigarettes consumed per adult (15+) per year, from combined tax and sales data. Small tobacco-tourism jurisdictions (Andorra, Luxembourg) tend to rank very high due to cross-border sales.",
     "answers": [
@@ -12231,22 +12231,22 @@
     ],
     "disclaimer": "Cigarettes consumed per adult (15+) per year, from combined tax and sales data.",
     "trivia": "Small tobacco-tourism jurisdictions (Andorra, Luxembourg) tend to rank very high due to cross-border sales.",
-    "asOfDate": "Most recent WHO/Tobacco Atlas data, 2019\u20132022"
+    "asOfDate": "Most recent WHO/Tobacco Atlas data, 2019–2022"
   },
   {
     "id": "health-highest-hiv-prevalence-in-adults-2023",
     "theme": "Countries",
     "subtheme": "Health",
     "title": "Highest HIV prevalence in adults",
-    "prompt": "Name the countries with the highest HIV prevalence among adults aged 15\u201349.",
+    "prompt": "Name the countries with the highest HIV prevalence among adults aged 15–49.",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UNAIDS \u2014 AIDSinfo epidemiological estimates",
+      "name": "UNAIDS — AIDSinfo epidemiological estimates",
       "url": "https://aidsinfo.unaids.org/",
       "asOf": "2023 estimates (published 2024 in UNAIDS Global AIDS Update)"
     },
-    "note": "Adult (15\u201349) HIV prevalence, percent. Southern Africa dominates the top of this list; Eswatini has held the world's highest rate for over a decade.",
+    "note": "Adult (15–49) HIV prevalence, percent. Southern Africa dominates the top of this list; Eswatini has held the world's highest rate for over a decade.",
     "answers": [
       {
         "rank": 1,
@@ -12324,7 +12324,7 @@
         "value": "2.6%"
       }
     ],
-    "disclaimer": "Adult (15\u201349) HIV prevalence, percent.",
+    "disclaimer": "Adult (15–49) HIV prevalence, percent.",
     "trivia": "Southern Africa dominates the top of this list; Eswatini has held the world's highest rate for over a decade.",
     "asOfDate": "2023 estimates (published 2024 in UNAIDS Global AIDS Update)"
   },
@@ -12337,7 +12337,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "WHO \u2014 Global Tuberculosis Report 2024",
+      "name": "WHO — Global Tuberculosis Report 2024",
       "url": "https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2024",
       "asOf": "2023 estimates (published Oct 2024)"
     },
@@ -12432,7 +12432,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "WHO / UNICEF / UNFPA / World Bank Group / UN DESA \u2014 Trends in maternal mortality",
+      "name": "WHO / UNICEF / UNFPA / World Bank Group / UN DESA — Trends in maternal mortality",
       "url": "https://www.who.int/publications/i/item/9789240068759",
       "asOf": "2020 estimates (published 2023)"
     },
@@ -12527,7 +12527,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN Department of Economic and Social Affairs \u2014 World Population Prospects 2024",
+      "name": "UN Department of Economic and Social Affairs — World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
       "asOf": "2023 estimates (2024 revision)"
     },
@@ -12622,7 +12622,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UN Department of Economic and Social Affairs \u2014 World Population Prospects 2024",
+      "name": "UN Department of Economic and Social Affairs — World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
       "asOf": "2023 estimates (2024 revision)"
     },
@@ -12717,7 +12717,7 @@
     "answerType": "Countries",
     "seededDepth": 14,
     "source": {
-      "name": "NCD Risk Factor Collaboration (NCD-RisC) \u2014 A century of trends in adult human height",
+      "name": "NCD Risk Factor Collaboration (NCD-RisC) — A century of trends in adult human height",
       "url": "https://ncdrisc.org/data-downloads-height.html",
       "asOf": "Most recent NCD-RisC dataset (measurements of 19-year-olds, born 2000, published 2020)"
     },
@@ -12807,7 +12807,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Wikipedia \u2014 List of current longest-serving non-royal heads of state (aggregating official government sources)",
+      "name": "Wikipedia — List of current longest-serving non-royal heads of state (aggregating official government sources)",
       "url": "https://en.wikipedia.org/wiki/List_of_current_longest-serving_non-royal_heads_of_state",
       "asOf": "As of early 2025"
     },
@@ -12816,72 +12816,72 @@
       {
         "rank": 1,
         "code": "ER",
-        "value": "Isaias Afwerki \u2014 since 24 May 1993"
+        "value": "Isaias Afwerki — since 24 May 1993"
       },
       {
         "rank": 2,
         "code": "DJ",
-        "value": "Isma\u00efl Omar Guelleh \u2014 since 8 May 1999"
+        "value": "Ismaïl Omar Guelleh — since 8 May 1999"
       },
       {
         "rank": 3,
         "code": "RU",
-        "value": "Vladimir Putin \u2014 president since 7 May 2012 (also 2000-2008, PM 2008-12)"
+        "value": "Vladimir Putin — president since 7 May 2012 (also 2000-2008, PM 2008-12)"
       },
       {
         "rank": 4,
         "code": "VE",
-        "value": "Nicol\u00e1s Maduro \u2014 since 5 Mar 2013"
+        "value": "Nicolás Maduro — since 5 Mar 2013"
       },
       {
         "rank": 5,
         "code": "TR",
-        "value": "Recep Tayyip Erdo\u011fan \u2014 PM 2003-2014, president since 28 Aug 2014"
+        "value": "Recep Tayyip Erdoğan — PM 2003-2014, president since 28 Aug 2014"
       },
       {
         "rank": 6,
         "code": "RW",
-        "value": "Paul Kagame \u2014 de facto since 1994, president since 22 Apr 2000"
+        "value": "Paul Kagame — de facto since 1994, president since 22 Apr 2000"
       },
       {
         "rank": 7,
         "code": "KH",
-        "value": "Hun Sen (as Senate President/de facto) then Hun Manet \u2014 Hun Sen PM 1985-2023"
+        "value": "Hun Sen (as Senate President/de facto) then Hun Manet — Hun Sen PM 1985-2023"
       },
       {
         "rank": 8,
         "code": "UG",
-        "value": "Yoweri Museveni \u2014 since 29 Jan 1986"
+        "value": "Yoweri Museveni — since 29 Jan 1986"
       },
       {
         "rank": 9,
         "code": "CG",
-        "value": "Denis Sassou Nguesso \u2014 since 25 Oct 1997 (also 1979-1992)"
+        "value": "Denis Sassou Nguesso — since 25 Oct 1997 (also 1979-1992)"
       },
       {
         "rank": 10,
         "code": "TJ",
-        "value": "Emomali Rahmon \u2014 since 20 Nov 1992"
+        "value": "Emomali Rahmon — since 20 Nov 1992"
       },
       {
         "rank": 11,
         "code": "BY",
-        "value": "Alexander Lukashenko \u2014 since 20 Jul 1994"
+        "value": "Alexander Lukashenko — since 20 Jul 1994"
       },
       {
         "rank": 12,
         "code": "CM",
-        "value": "Paul Biya \u2014 since 6 Nov 1982"
+        "value": "Paul Biya — since 6 Nov 1982"
       },
       {
         "rank": 13,
         "code": "IR",
-        "value": "Ali Khamenei \u2014 Supreme Leader since 4 Jun 1989"
+        "value": "Ali Khamenei — Supreme Leader since 4 Jun 1989"
       },
       {
         "rank": 14,
         "code": "GQ",
-        "value": "Teodoro Obiang Nguema Mbasogo \u2014 since 3 Aug 1979"
+        "value": "Teodoro Obiang Nguema Mbasogo — since 3 Aug 1979"
       }
     ],
     "disclaimer": "Continuous tenure in the top political office (president, chairman, supreme leader). Ceremonial monarchs are excluded to focus on political power-holders; tenure measured from date of assumption of current office.",
@@ -12897,7 +12897,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "United Nations Peacekeeping \u2014 Troop and Police Contributors",
+      "name": "United Nations Peacekeeping — Troop and Police Contributors",
       "url": "https://peacekeeping.un.org/en/troop-and-police-contributors",
       "asOf": "As of 31 October 2024"
     },
@@ -12987,12 +12987,12 @@
     "id": "politics-highest-voter-turnout-most-recent-parliamentary-election-2024",
     "theme": "Countries",
     "subtheme": "Politics",
-    "title": "Highest voter turnout \u2014 most recent parliamentary election",
+    "title": "Highest voter turnout — most recent parliamentary election",
     "prompt": "Which countries had the highest voter turnout (as % of registered voters) in their most recent national parliamentary election?",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International IDEA \u2014 Voter Turnout Database",
+      "name": "International IDEA — Voter Turnout Database",
       "url": "https://www.idea.int/data-tools/data/voter-turnout-database",
       "asOf": "Most recent parliamentary elections as of 2024"
     },
@@ -13087,7 +13087,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "United Nations \u2014 Member States / Wikipedia \u2014 List of sovereign states by date of formation",
+      "name": "United Nations — Member States / Wikipedia — List of sovereign states by date of formation",
       "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_formation",
       "asOf": "As of 2024"
     },
@@ -13182,7 +13182,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International IDEA \u2014 Compulsory Voting database",
+      "name": "International IDEA — Compulsory Voting database",
       "url": "https://www.idea.int/data-tools/data/voter-turnout/compulsory-voting",
       "asOf": "As of 2024"
     },
@@ -13191,62 +13191,62 @@
       {
         "rank": 1,
         "code": "AU",
-        "value": "Strict enforcement \u2014 fine ~A$20-80"
+        "value": "Strict enforcement — fine ~A$20-80"
       },
       {
         "rank": 2,
         "code": "BE",
-        "value": "Enforced \u2014 fines, potential loss of voting right"
+        "value": "Enforced — fines, potential loss of voting right"
       },
       {
         "rank": 3,
         "code": "SG",
-        "value": "Enforced \u2014 removal from electoral register"
+        "value": "Enforced — removal from electoral register"
       },
       {
         "rank": 4,
         "code": "TR",
-        "value": "Enforced \u2014 fine (~140 TL)"
+        "value": "Enforced — fine (~140 TL)"
       },
       {
         "rank": 5,
         "code": "BR",
-        "value": "Enforced (age 18-70) \u2014 fine, ID/passport restrictions"
+        "value": "Enforced (age 18-70) — fine, ID/passport restrictions"
       },
       {
         "rank": 6,
         "code": "AR",
-        "value": "Enforced (age 18-70) \u2014 fine, public service restrictions"
+        "value": "Enforced (age 18-70) — fine, public service restrictions"
       },
       {
         "rank": 7,
         "code": "PE",
-        "value": "Enforced \u2014 fine, receipt required for services"
+        "value": "Enforced — fine, receipt required for services"
       },
       {
         "rank": 8,
         "code": "UY",
-        "value": "Enforced \u2014 fine, banking/public service restrictions"
+        "value": "Enforced — fine, banking/public service restrictions"
       },
       {
         "rank": 9,
         "code": "EC",
-        "value": "Enforced (age 18-65) \u2014 fine"
+        "value": "Enforced (age 18-65) — fine"
       },
       {
         "rank": 10,
         "code": "LU",
-        "value": "Enforced \u2014 fine 100-1000 EUR"
+        "value": "Enforced — fine 100-1000 EUR"
       },
       {
         "rank": 11,
         "code": "LI",
-        "value": "Compulsory \u2014 nominal fine"
+        "value": "Compulsory — nominal fine"
       },
       {
         "rank": 12,
         "code": "NR",
-        "value": "Enforced \u2014 fine"
+        "value": "Enforced — fine"
       },
       {
         "rank": 13,
@@ -13277,7 +13277,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Lowy Institute Global Diplomacy Index / Wikipedia \u2014 Diplomatic missions of and by country",
+      "name": "Lowy Institute Global Diplomacy Index / Wikipedia — Diplomatic missions of and by country",
       "url": "https://globaldiplomacyindex.lowyinstitute.org/",
       "asOf": "Lowy 2024 index (data collected 2023-2024)"
     },
@@ -13331,7 +13331,7 @@
       {
         "rank": 10,
         "code": "BR",
-        "value": "~137 (Bras\u00edlia)"
+        "value": "~137 (Brasília)"
       },
       {
         "rank": 11,
@@ -13372,7 +13372,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Pew Research Center \u2014 Global Christianity",
+      "name": "Pew Research Center — Global Christianity",
       "url": "https://www.pewresearch.org/religion/2011/12/19/global-christianity-exec/",
       "asOf": "Pew Research Center estimates, updated through 2020 Global Religious Landscape"
     },
@@ -13467,7 +13467,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Pew Research Center \u2014 The Future of World Religions",
+      "name": "Pew Research Center — The Future of World Religions",
       "url": "https://www.pewresearch.org/religion/2017/04/05/the-changing-global-religious-landscape/",
       "asOf": "Pew Research Center estimates for 2020 (updated Global Religious Landscape)"
     },
@@ -13562,7 +13562,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Pew Research Center \u2014 Global Religious Landscape",
+      "name": "Pew Research Center — Global Religious Landscape",
       "url": "https://www.pewresearch.org/religion/2012/12/18/global-religious-landscape-hindu/",
       "asOf": "Pew Research Center estimates, updated through 2020"
     },
@@ -13657,7 +13657,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Pew Research Center \u2014 Global Religious Landscape",
+      "name": "Pew Research Center — Global Religious Landscape",
       "url": "https://www.pewresearch.org/religion/2012/12/18/global-religious-landscape-buddhist/",
       "asOf": "Pew Research Center estimates, updated through 2020"
     },
@@ -13752,7 +13752,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Berman Jewish DataBank \u2014 World Jewish Population",
+      "name": "Berman Jewish DataBank — World Jewish Population",
       "url": "https://www.jewishdatabank.org/databank/search-results/study/1256",
       "asOf": "Berman Jewish DataBank / DellaPergola 2023 estimates"
     },
@@ -14037,7 +14037,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Ethnologue \u2014 Languages of the World",
+      "name": "Ethnologue — Languages of the World",
       "url": "https://www.ethnologue.com/statistics/country/",
       "asOf": "Ethnologue 27th edition (2024)"
     },
@@ -14119,8 +14119,8 @@
         "value": "121 languages"
       }
     ],
-    "disclaimer": "Count of distinct living languages spoken as a first language in each country, per Ethnologue. Papua New Guinea and Indonesia together contain roughly one-quarter of the world's living languages.",
-    "trivia": null,
+    "disclaimer": "Count of distinct living languages spoken as a first language in each country, per Ethnologue.",
+    "trivia": "Papua New Guinea and Indonesia together contain roughly one-quarter of the world's living languages.",
     "asOfDate": "Ethnologue 27th edition (2024)"
   },
   {
@@ -14132,11 +14132,11 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "Amaury Sport Organisation \u2014 Tour de France Official History",
+      "name": "Amaury Sport Organisation — Tour de France Official History",
       "url": "https://www.letour.fr/en/history",
-      "asOf": "Through 2024 Tour de France (won by Tadej Poga\u010dar, SLO)"
+      "asOf": "Through 2024 Tour de France (won by Tadej Pogačar, SLO)"
     },
-    "note": "Counts individual editions won by riders of that nationality. Titles stripped from Lance Armstrong (1999\u20132005) are officially vacated and not attributed to the USA.",
+    "note": "Counts individual editions won by riders of that nationality. Titles stripped from Lance Armstrong (1999–2005) are officially vacated and not attributed to the USA.",
     "answers": [
       {
         "rank": 1,
@@ -14199,9 +14199,9 @@
         "value": "1 win (tied)"
       }
     ],
-    "disclaimer": "Counts individual editions won by riders of that nationality. Titles stripped from Lance Armstrong (1999\u20132005) are officially vacated and not attributed to the USA.",
+    "disclaimer": "Counts individual editions won by riders of that nationality. Titles stripped from Lance Armstrong (1999–2005) are officially vacated and not attributed to the USA.",
     "trivia": null,
-    "asOfDate": "Through 2024 Tour de France (won by Tadej Poga\u010dar, SLO)"
+    "asOfDate": "Through 2024 Tour de France (won by Tadej Pogačar, SLO)"
   },
   {
     "id": "sports-most-tennis-men-s-grand-slam-singles-titles-by-country-of-birth-2024",
@@ -14212,11 +14212,11 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "ATP Tour \u2014 Grand Slam History",
+      "name": "ATP Tour — Grand Slam History",
       "url": "https://www.atptour.com/en/tournaments/grand-slam",
       "asOf": "Through 2024 US Open (won by Jannik Sinner, ITA)"
     },
-    "note": "Open Era only (1968\u2013). Attributed to player's country at time of career. Djokovic (SRB, 24), Nadal (ESP, 22), Federer (SUI, 20) lead individually.",
+    "note": "Open Era only (1968–). Attributed to player's country at time of career. Djokovic (SRB, 24), Nadal (ESP, 22), Federer (SUI, 20) lead individually.",
     "answers": [
       {
         "rank": 1,
@@ -14279,7 +14279,7 @@
         "value": "3 titles (tied)"
       }
     ],
-    "disclaimer": "Open Era only (1968\u2013). Attributed to player's country at time of career. Djokovic (SRB, 24), Nadal (ESP, 22), Federer (SUI, 20) lead individually.",
+    "disclaimer": "Open Era only (1968–). Attributed to player's country at time of career. Djokovic (SRB, 24), Nadal (ESP, 22), Federer (SUI, 20) lead individually.",
     "trivia": null,
     "asOfDate": "Through 2024 US Open (won by Jannik Sinner, ITA)"
   },
@@ -14292,11 +14292,11 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "WTA Tour \u2014 Grand Slam History",
+      "name": "WTA Tour — Grand Slam History",
       "url": "https://www.wtatennis.com/tournaments/grand-slam",
       "asOf": "Through 2024 US Open (won by Aryna Sabalenka, BLR)"
     },
-    "note": "Open Era only (1968\u2013). Attributed to player's representing nation. Serena Williams (23), Steffi Graf (22), Chris Evert (18), Martina Navratilova (18, USA-era) lead individually.",
+    "note": "Open Era only (1968–). Attributed to player's representing nation. Serena Williams (23), Steffi Graf (22), Chris Evert (18), Martina Navratilova (18, USA-era) lead individually.",
     "answers": [
       {
         "rank": 1,
@@ -14359,8 +14359,8 @@
         "value": "3 titles"
       }
     ],
-    "disclaimer": "Open Era only (1968\u2013). Attributed to player's representing nation. Serena Williams (23), Steffi Graf (22), Chris Evert (18), Martina Navratilova (18, USA-era) lead individually.",
-    "trivia": null,
+    "disclaimer": "Open Era only (1968–). Attributed to player's representing nation.",
+    "trivia": "Serena Williams (23), Steffi Graf (22), Chris Evert (18), and Martina Navratilova (18, USA-era) lead individually.",
     "asOfDate": "Through 2024 US Open (won by Aryna Sabalenka, BLR)"
   },
   {
@@ -14372,7 +14372,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Olympic Committee \u2014 Paris 2024 Medal Table",
+      "name": "International Olympic Committee — Paris 2024 Medal Table",
       "url": "https://olympics.com/en/paris-2024/medals",
       "asOf": "Final medal table, 2024 Paris Games"
     },
@@ -14467,7 +14467,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Olympic Committee \u2014 Beijing 2022 Medal Table",
+      "name": "International Olympic Committee — Beijing 2022 Medal Table",
       "url": "https://olympics.com/en/beijing-2022/medals",
       "asOf": "Final medal table, 2022 Beijing Games"
     },
@@ -14562,7 +14562,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "International Paralympic Committee \u2014 Historical Results Database",
+      "name": "International Paralympic Committee — Historical Results Database",
       "url": "https://www.paralympic.org/results/historical",
       "asOf": "Through Paris 2024 Summer Paralympics"
     },
@@ -14657,11 +14657,11 @@
     "answerType": "Countries",
     "seededDepth": 9,
     "source": {
-      "name": "UEFA \u2014 Champions League History",
+      "name": "UEFA — Champions League History",
       "url": "https://www.uefa.com/uefachampionsleague/history/",
-      "asOf": "After 2023\u201324 season (won by Real Madrid); next final 2025"
+      "asOf": "After 2023–24 season (won by Real Madrid); next final 2025"
     },
-    "note": "Includes both European Cup (1955\u20131992) and Champions League (1992\u2013present) titles. Attributed to the club's country. Real Madrid alone accounts for 15 of Spain's titles. Celtic's 1967 win (Scotland) is credited to Great Britain here.",
+    "note": "Includes both European Cup (1955–1992) and Champions League (1992–present) titles. Attributed to the club's country. Real Madrid alone accounts for 15 of Spain's titles. Celtic's 1967 win (Scotland) is credited to Great Britain here.",
     "answers": [
       {
         "rank": 1,
@@ -14709,9 +14709,9 @@
         "value": "1 title (tied)"
       }
     ],
-    "disclaimer": "Includes both European Cup (1955\u20131992) and Champions League (1992\u2013present) titles. Attributed to the club's country. Celtic's 1967 win (Scotland) is credited to Great Britain here.",
-    "trivia": "Real Madrid alone accounts for 15 of Spain's titles.",
-    "asOfDate": "After 2023\u201324 season (won by Real Madrid); next final 2025"
+    "disclaimer": "Includes both European Cup (1955–1992) and Champions League (1992–present) titles. Attributed to the club's country.",
+    "trivia": "Celtic's 1967 win (Scotland) is credited to Great Britain here. Real Madrid alone accounts for 15 of Spain's titles.",
+    "asOfDate": "After 2023–24 season (won by Real Madrid); next final 2025"
   },
   {
     "id": "sports-most-formula-1-drivers-championships-by-nationality-2024",
@@ -14722,7 +14722,7 @@
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "Formula 1 \u2014 Official Champions List",
+      "name": "Formula 1 — Official Champions List",
       "url": "https://www.formula1.com/en/results/hall-of-fame",
       "asOf": "After 2024 season (won by Max Verstappen, NED)"
     },
@@ -15657,7 +15657,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "CIA World Factbook \u2014 Roadways / International Road Federation (IRF) World Road Statistics",
+      "name": "CIA World Factbook — Roadways / International Road Federation (IRF) World Road Statistics",
       "url": "https://www.cia.gov/the-world-factbook/field/roadways/",
       "asOf": "CIA World Factbook, 2024 edition (figures range 2018-2023 depending on country)"
     },
@@ -15739,7 +15739,7 @@
         "value": "~421,000 km"
       }
     ],
-    "disclaimer": "India's figure is inflated by rural PMGSY tracks; the US figure counts every public road.",
+    "disclaimer": "Rural/village roads inflate figures for some countries; methodology varies on whether every public road is counted.",
     "trivia": "The United States and India trade the #1 spot depending on whether rural/village roads are counted. China's network has grown fastest and now includes the world's largest expressway system (>170,000 km).",
     "asOfDate": "CIA World Factbook, 2024 edition (figures range 2018-2023 depending on country)"
   },
@@ -15752,7 +15752,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "CIA World Factbook \u2014 Railways / World Bank Rail Lines (total route-km)",
+      "name": "CIA World Factbook — Railways / World Bank Rail Lines (total route-km)",
       "url": "https://data.worldbank.org/indicator/IS.RRS.TOTL.KM",
       "asOf": "2020-2023 figures depending on source"
     },
@@ -15843,15 +15843,15 @@
     "theme": "Countries",
     "subtheme": "Transport",
     "title": "Longest High-Speed Rail Network",
-    "prompt": "Name the countries with the longest high-speed rail network (\u2265250 km/h design speed).",
+    "prompt": "Name the countries with the longest high-speed rail network (≥250 km/h design speed).",
     "answerType": "Countries",
     "seededDepth": 12,
     "source": {
-      "name": "UIC \u2014 International Union of Railways High-Speed Rail Atlas",
+      "name": "UIC — International Union of Railways High-Speed Rail Atlas",
       "url": "https://uic.org/passenger/highspeed/",
       "asOf": "UIC 2023 update; China figures from NRA year-end 2023"
     },
-    "note": "China's network is larger than the rest of the world combined and roughly doubled between 2015 and 2023. Definitions vary \u2014 UIC uses 250 km/h as the threshold, but Japan's Mini-Shinkansen sections (max 130 km/h) are sometimes counted, and Sweden's X2000 lines (200 km/h) are excluded here.",
+    "note": "China's network is larger than the rest of the world combined and roughly doubled between 2015 and 2023. Definitions vary — UIC uses 250 km/h as the threshold, but Japan's Mini-Shinkansen sections (max 130 km/h) are sometimes counted, and Sweden's X2000 lines (200 km/h) are excluded here.",
     "answers": [
       {
         "rank": 1,
@@ -15915,7 +15915,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "China's network is larger than the rest of the world combined and roughly doubled between 2015 and 2023. Definitions vary \u2014 UIC uses 250 km/h as the threshold, but Japan's Mini-Shinkansen sections (max 130 km/h) are sometimes counted, and Sweden's X2000 lines (200 km/h) are excluded here.",
+    "trivia": "China's network is larger than the rest of the world combined and roughly doubled between 2015 and 2023. Definitions vary — UIC uses 250 km/h as the threshold, but Japan's Mini-Shinkansen sections (max 130 km/h) are sometimes counted, and Sweden's X2000 lines (200 km/h) are excluded here.",
     "asOfDate": "UIC 2023 update; China figures from NRA year-end 2023"
   },
   {
@@ -15927,7 +15927,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "CIA World Factbook \u2014 Airports",
+      "name": "CIA World Factbook — Airports",
       "url": "https://www.cia.gov/the-world-factbook/field/airports/",
       "asOf": "CIA World Factbook, 2024"
     },
@@ -16022,7 +16022,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UNCTAD \u2014 Review of Maritime Transport",
+      "name": "UNCTAD — Review of Maritime Transport",
       "url": "https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport",
       "asOf": "UNCTAD 2023 report (January 2023 data)"
     },
@@ -16117,11 +16117,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UNCTAD \u2014 Container port throughput / World Bank & IHS Markit",
+      "name": "UNCTAD — Container port throughput / World Bank & IHS Markit",
       "url": "https://unctadstat.unctad.org/wds/TableViewer/tableView.aspx?ReportId=13321",
       "asOf": "UNCTAD 2022 data (published 2023)"
     },
-    "note": "China alone handles roughly a third of global container throughput \u2014 Shanghai has been the world's #1 port for 14+ consecutive years. Singapore is a transshipment hub, so most of its TEU are containers being switched between ships rather than entering the local economy.",
+    "note": "China alone handles roughly a third of global container throughput — Shanghai has been the world's #1 port for 14+ consecutive years. Singapore is a transshipment hub, so most of its TEU are containers being switched between ships rather than entering the local economy.",
     "answers": [
       {
         "rank": 1,
@@ -16200,7 +16200,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "China alone handles roughly a third of global container throughput \u2014 Shanghai has been the world's #1 port for 14+ consecutive years. Singapore is a transshipment hub, so most of its TEU are containers being switched between ships rather than entering the local economy.",
+    "trivia": "China alone handles roughly a third of global container throughput — Shanghai has been the world's #1 port for 14+ consecutive years. Singapore is a transshipment hub, so most of its TEU are containers being switched between ships rather than entering the local economy.",
     "asOfDate": "UNCTAD 2022 data (published 2023)"
   },
   {
@@ -16212,11 +16212,11 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "UITP \u2014 International Association of Public Transport; Metro Bits census",
+      "name": "UITP — International Association of Public Transport; Metro Bits census",
       "url": "https://www.uitp.org/publications/world-metro-figures/",
       "asOf": "UITP 2023 World Metro Figures; individual openings through 2024"
     },
-    "note": "China has built out metros faster than any country in history \u2014 most of its systems opened after 2010. UITP's definition requires full grade-separation and platform screen doors are increasingly standard. Light rail and trams are excluded.",
+    "note": "China has built out metros faster than any country in history — most of its systems opened after 2010. UITP's definition requires full grade-separation and platform screen doors are increasingly standard. Light rail and trams are excluded.",
     "answers": [
       {
         "rank": 1,
@@ -16295,7 +16295,7 @@
       }
     ],
     "disclaimer": "UITP's definition requires full grade-separation and platform screen doors are increasingly standard. Light rail and trams are excluded.",
-    "trivia": "China has built out metros faster than any country in history \u2014 most of its systems opened after 2010.",
+    "trivia": "China has built out metros faster than any country in history — most of its systems opened after 2010.",
     "asOfDate": "UITP 2023 World Metro Figures; individual openings through 2024"
   },
   {
@@ -16311,7 +16311,7 @@
       "url": "https://worldroadstatistics.org/",
       "asOf": "IRF/OICA 2020-2022 data depending on country"
     },
-    "note": "San Marino tops the ranking largely because its residents register vehicles in the microstate for tax reasons \u2014 the on-road population uses them. New Zealand and the US have high figures reflecting car-dependent geography. Iceland's number reflects a small population plus a huge tourism rental fleet.",
+    "note": "San Marino tops the ranking largely because its residents register vehicles in the microstate for tax reasons — the on-road population uses them. New Zealand and the US have high figures reflecting car-dependent geography. Iceland's number reflects a small population plus a huge tourism rental fleet.",
     "answers": [
       {
         "rank": 1,
@@ -16390,7 +16390,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "San Marino tops the ranking largely because its residents register vehicles in the microstate for tax reasons \u2014 the on-road population uses them. New Zealand and the US have high figures reflecting car-dependent geography. Iceland's number reflects a small population plus a huge tourism rental fleet.",
+    "trivia": "San Marino tops the ranking largely because its residents register vehicles in the microstate for tax reasons — the on-road population uses them. New Zealand and the US have high figures reflecting car-dependent geography. Iceland's number reflects a small population plus a huge tourism rental fleet.",
     "asOfDate": "IRF/OICA 2020-2022 data depending on country"
   },
   {
@@ -16402,7 +16402,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "IUCN Red List / Mongabay \u2014 Country biodiversity profiles",
+      "name": "IUCN Red List / Mongabay — Country biodiversity profiles",
       "url": "https://www.iucnredlist.org/",
       "asOf": "IUCN Red List v2024-1"
     },
@@ -16497,7 +16497,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "BirdLife International \u2014 Country species counts",
+      "name": "BirdLife International — Country species counts",
       "url": "https://www.birdlife.org/",
       "asOf": "BirdLife Data Zone 2024"
     },
@@ -16579,8 +16579,8 @@
         "value": "1,025 bird species"
       }
     ],
-    "disclaimer": "Colombia's mix of Andes, Amazon, Pacific and Caribbean coasts makes it the world's most bird-diverse country.",
-    "trivia": "The Neotropical realm dominates: Colombia, Peru, Brazil and Ecuador each host more than 1,600 bird species.",
+    "disclaimer": "Counts recorded resident + regular migrant bird species per country.",
+    "trivia": "The Neotropical realm dominates: Colombia, Peru, Brazil and Ecuador each host more than 1,600 bird species. Colombia's mix of Andes, Amazon, Pacific and Caribbean coasts makes it the world's most bird-diverse country.",
     "asOfDate": "BirdLife Data Zone 2024"
   },
   {
@@ -16686,86 +16686,86 @@
       "url": "https://data.worldbank.org/indicator/ER.H2O.INTR.PC",
       "asOf": "2020 data (latest available)"
     },
-    "note": "Renewable internal freshwater resources (river flows + groundwater from precipitation) divided by population. Tiny populations plus abundant rain produce dramatic per-capita numbers \u2014 Iceland and Guyana top the list. Excludes microstates with populations under 100k.",
+    "note": "Renewable internal freshwater resources (river flows + groundwater from precipitation) divided by population. Tiny populations plus abundant rain produce dramatic per-capita numbers — Iceland and Guyana top the list. Excludes microstates with populations under 100k.",
     "answers": [
       {
         "rank": 1,
         "code": "IS",
-        "value": "469,000 m\u00b3 per person"
+        "value": "469,000 m³ per person"
       },
       {
         "rank": 2,
         "code": "GY",
-        "value": "298,000 m\u00b3 per person"
+        "value": "298,000 m³ per person"
       },
       {
         "rank": 3,
         "code": "SR",
-        "value": "156,000 m\u00b3 per person"
+        "value": "156,000 m³ per person"
       },
       {
         "rank": 4,
         "code": "CG",
-        "value": "128,000 m\u00b3 per person"
+        "value": "128,000 m³ per person"
       },
       {
         "rank": 5,
         "code": "BT",
-        "value": "97,000 m\u00b3 per person"
+        "value": "97,000 m³ per person"
       },
       {
         "rank": 6,
         "code": "PG",
-        "value": "89,000 m\u00b3 per person"
+        "value": "89,000 m³ per person"
       },
       {
         "rank": 7,
         "code": "CA",
-        "value": "76,000 m\u00b3 per person"
+        "value": "76,000 m³ per person"
       },
       {
         "rank": 8,
         "code": "GA",
-        "value": "72,000 m\u00b3 per person"
+        "value": "72,000 m³ per person"
       },
       {
         "rank": 9,
         "code": "NO",
-        "value": "70,000 m\u00b3 per person"
+        "value": "70,000 m³ per person"
       },
       {
         "rank": 10,
         "code": "NZ",
-        "value": "63,000 m\u00b3 per person"
+        "value": "63,000 m³ per person"
       },
       {
         "rank": 11,
         "code": "PE",
-        "value": "51,000 m\u00b3 per person"
+        "value": "51,000 m³ per person"
       },
       {
         "rank": 12,
         "code": "CL",
-        "value": "45,000 m\u00b3 per person"
+        "value": "45,000 m³ per person"
       },
       {
         "rank": 13,
         "code": "RU",
-        "value": "30,000 m\u00b3 per person"
+        "value": "30,000 m³ per person"
       },
       {
         "rank": 14,
         "code": "BR",
-        "value": "26,000 m\u00b3 per person"
+        "value": "26,000 m³ per person"
       },
       {
         "rank": 15,
         "code": "PY",
-        "value": "16,000 m\u00b3 per person"
+        "value": "16,000 m³ per person"
       }
     ],
     "disclaimer": "Renewable internal freshwater resources (river flows + groundwater from precipitation) divided by population. Excludes microstates with populations under 100k.",
-    "trivia": "Tiny populations plus abundant rain produce dramatic per-capita numbers \u2014 Iceland and Guyana top the list.",
+    "trivia": "Tiny populations plus abundant rain produce dramatic per-capita numbers — Iceland and Guyana top the list.",
     "asOfDate": "2020 data (latest available)"
   },
   {
@@ -16777,7 +16777,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Global Forest Watch / University of Maryland \u2014 Tree Cover Loss",
+      "name": "Global Forest Watch / University of Maryland — Tree Cover Loss",
       "url": "https://www.globalforestwatch.org/",
       "asOf": "2023 tree cover loss data (published 2024)"
     },
@@ -16872,7 +16872,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "World Bank \u2014 What a Waste 2.0",
+      "name": "World Bank — What a Waste 2.0",
       "url": "https://datatopics.worldbank.org/what-a-waste/",
       "asOf": "2018 data (latest What a Waste release)"
     },
@@ -16967,7 +16967,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "OECD \u2014 Municipal Waste Statistics / Eurostat",
+      "name": "OECD — Municipal Waste Statistics / Eurostat",
       "url": "https://data.oecd.org/waste/municipal-waste.htm",
       "asOf": "2022 data"
     },
@@ -17062,7 +17062,7 @@
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
-      "name": "Global Footprint Network \u2014 National Footprint and Biocapacity Accounts",
+      "name": "Global Footprint Network — National Footprint and Biocapacity Accounts",
       "url": "https://data.footprintnetwork.org/",
       "asOf": "2022 edition (2018 data)"
     },
@@ -20011,7 +20011,7 @@
       "url": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
       "asOf": "2010 Census reference (values remain the official Census figures used through 2024)"
     },
-    "note": "Alaska is more than twice the area of Texas. Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters \u2014 which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only.",
+    "note": "Alaska is more than twice the area of Texas. Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters — which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only.",
     "answers": [
       {
         "rank": 1,
@@ -20089,7 +20089,7 @@
         "value": "82,278 sq mi"
       }
     ],
-    "disclaimer": "Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters \u2014 which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only.",
+    "disclaimer": "Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters — which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only.",
     "trivia": "Alaska is more than twice the area of Texas.",
     "asOfDate": "2010 Census reference (values remain the official Census figures used through 2024)"
   },
@@ -20288,11 +20288,11 @@
     "theme": "US States",
     "subtheme": "US States - Geography",
     "title": "Longest Coastline (Shoreline including tidal)",
-    "prompt": "Rank the US states by shoreline length (NOAA \u2014 includes tidal shoreline of bays, sounds, islands).",
+    "prompt": "Rank the US states by shoreline length (NOAA — includes tidal shoreline of bays, sounds, islands).",
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "NOAA Office for Coastal Management \u2014 The Coastline of the United States",
+      "name": "NOAA Office for Coastal Management — The Coastline of the United States",
       "url": "https://coast.noaa.gov/data/docs/states/shorelinemileage.pdf",
       "asOf": "NOAA shoreline mileage table (last updated 2022)"
     },
@@ -20387,11 +20387,11 @@
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "USGS \u2014 Elevations and Distances in the United States (state highpoints)",
+      "name": "USGS — Elevations and Distances in the United States (state highpoints)",
       "url": "https://www.usgs.gov/faqs/what-are-highest-and-lowest-points-united-states-each-state-and-us-territories",
       "asOf": "USGS reference, values current through 2024"
     },
-    "note": "Denali (Alaska) at 20,310 ft is the highest point in North America. All top-10 state high points are in the West except (technically) they all are \u2014 the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15.",
+    "note": "Denali (Alaska) at 20,310 ft is the highest point in North America. All top-10 state high points are in the West except (technically) they all are — the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15.",
     "answers": [
       {
         "rank": 1,
@@ -20469,7 +20469,7 @@
         "value": "7,242 ft (Black Elk Peak)"
       }
     ],
-    "disclaimer": "All top-10 state high points are in the West except (technically) they all are \u2014 the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15.",
+    "disclaimer": "All top-10 state high points are in the West except (technically) they all are — the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15.",
     "trivia": "Denali (Alaska) at 20,310 ft is the highest point in North America.",
     "asOfDate": "USGS reference, values current through 2024"
   },
@@ -20482,11 +20482,11 @@
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "USGS \u2014 Elevations and Distances in the United States (state mean elevations)",
+      "name": "USGS — Elevations and Distances in the United States (state mean elevations)",
       "url": "https://www.usgs.gov/faqs/what-are-highest-and-lowest-points-united-states-each-state-and-us-territories",
       "asOf": "USGS long-standing reference values"
     },
-    "note": "Colorado tops the list \u2014 no point in Colorado is below 3,315 ft. Nebraska and Kansas make the top 10 despite being flat: their entire land surface tilts up toward the Rockies from ~840 ft at the Missouri River to ~5,000 ft at the western border.",
+    "note": "Colorado tops the list — no point in Colorado is below 3,315 ft. Nebraska and Kansas make the top 10 despite being flat: their entire land surface tilts up toward the Rockies from ~840 ft at the Missouri River to ~5,000 ft at the western border.",
     "answers": [
       {
         "rank": 1,
@@ -20565,7 +20565,7 @@
       }
     ],
     "disclaimer": "Nebraska and Kansas make the top 10 despite being flat: their entire land surface tilts up toward the Rockies from ~840 ft at the Missouri River to ~5,000 ft at the western border.",
-    "trivia": "Colorado tops the list \u2014 no point in Colorado is below 3,315 ft.",
+    "trivia": "Colorado tops the list — no point in Colorado is below 3,315 ft.",
     "asOfDate": "USGS long-standing reference values"
   },
   {
@@ -20573,15 +20573,15 @@
     "theme": "US States",
     "subtheme": "US States - Geography",
     "title": "Most National Parks",
-    "prompt": "Rank the US states by number of designated National Parks (NPS 'National Park' designation only \u2014 not the 400+ broader NPS units).",
+    "prompt": "Rank the US states by number of designated National Parks (NPS 'National Park' designation only — not the 400+ broader NPS units).",
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "National Park Service \u2014 List of National Parks",
+      "name": "National Park Service — List of National Parks",
       "url": "https://www.nps.gov/aboutus/national-park-system.htm",
       "asOf": "2024 (63 designated National Parks after New River Gorge 2020 and Indiana Dunes 2019)"
     },
-    "note": "'National Park' is a specific NPS designation \u2014 the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. California leads with 9. This count excludes national monuments, national historic sites, national seashores, national recreation areas, etc.",
+    "note": "'National Park' is a specific NPS designation — the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. California leads with 9. This count excludes national monuments, national historic sites, national seashores, national recreation areas, etc.",
     "answers": [
       {
         "rank": 1,
@@ -20659,7 +20659,7 @@
         "value": "1 National Park (Crater Lake)"
       }
     ],
-    "disclaimer": "'National Park' is a specific NPS designation \u2014 the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. This count excludes national monuments, national historic sites, national seashores, national recreation areas, etc.",
+    "disclaimer": "'National Park' is a specific NPS designation — the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. This count excludes national monuments, national historic sites, national seashores, national recreation areas, etc.",
     "trivia": "California leads with 9.",
     "asOfDate": "2024 (63 designated National Parks after New River Gorge 2020 and Indiana Dunes 2019)"
   },
@@ -20672,11 +20672,11 @@
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "USDA Forest Service \u2014 Land Areas Report (LAR)",
+      "name": "USDA Forest Service — Land Areas Report (LAR)",
       "url": "https://www.fs.usda.gov/managing-land/lar",
       "asOf": "USFS Land Areas Report, FY2023"
     },
-    "note": "Alaska's figure is dominated by the Tongass (~16.7M acres) \u2014 the largest single national forest in the US. Idaho is nearly 40% federal land and second only to Alaska in national forest acreage. National Forest acreage differs from BLM land \u2014 the Forest Service manages ~193M acres nationally.",
+    "note": "Alaska's figure is dominated by the Tongass (~16.7M acres) — the largest single national forest in the US. Idaho is nearly 40% federal land and second only to Alaska in national forest acreage. National Forest acreage differs from BLM land — the Forest Service manages ~193M acres nationally.",
     "answers": [
       {
         "rank": 1,
@@ -20754,8 +20754,8 @@
         "value": "2.6M acres"
       }
     ],
-    "disclaimer": "National Forest acreage differs from BLM land \u2014 the Forest Service manages ~193M acres nationally.",
-    "trivia": "Alaska's figure is dominated by the Tongass (~16.7M acres) \u2014 the largest single national forest in the US. Idaho is nearly 40% federal land and second only to Alaska in national forest acreage.",
+    "disclaimer": "National Forest acreage differs from BLM land — the Forest Service manages ~193M acres nationally.",
+    "trivia": "Alaska's figure is dominated by the Tongass (~16.7M acres) — the largest single national forest in the US. Idaho is nearly 40% federal land and second only to Alaska in national forest acreage.",
     "asOfDate": "USFS Land Areas Report, FY2023"
   },
   {
@@ -20767,7 +20767,7 @@
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "NOAA NCEI \u2014 1991-2020 U.S. Climate Normals (snowfall)",
+      "name": "NOAA NCEI — 1991-2020 U.S. Climate Normals (snowfall)",
       "url": "https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals",
       "asOf": "1991-2020 30-year climate normals (current NOAA baseline through 2030)"
     },
@@ -20862,90 +20862,90 @@
     "answerType": "US States",
     "seededDepth": 15,
     "source": {
-      "name": "NOAA NCEI \u2014 Statewide Average Temperature Rankings",
+      "name": "NOAA NCEI — Statewide Average Temperature Rankings",
       "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
       "asOf": "NOAA 1991-2020 30-year climate normals; annual rank data through 2023"
     },
-    "note": "Florida is the warmest of the contiguous 48. Hawaii ranks 1st when included \u2014 its state-average annual temperature is ~72\u00b0F. Louisiana, Texas, and the Southeast round out the top of the list. Alaska is by far the coldest state (~28\u00b0F statewide mean).",
+    "note": "Florida is the warmest of the contiguous 48. Hawaii ranks 1st when included — its state-average annual temperature is ~72°F. Louisiana, Texas, and the Southeast round out the top of the list. Alaska is by far the coldest state (~28°F statewide mean).",
     "answers": [
       {
         "rank": 1,
         "code": "HI",
-        "value": "72.0\u00b0F avg"
+        "value": "72.0°F avg"
       },
       {
         "rank": 2,
         "code": "FL",
-        "value": "71.5\u00b0F avg"
+        "value": "71.5°F avg"
       },
       {
         "rank": 3,
         "code": "LA",
-        "value": "67.2\u00b0F avg"
+        "value": "67.2°F avg"
       },
       {
         "rank": 4,
         "code": "TX",
-        "value": "65.8\u00b0F avg"
+        "value": "65.8°F avg"
       },
       {
         "rank": 5,
         "code": "GA",
-        "value": "64.3\u00b0F avg"
+        "value": "64.3°F avg"
       },
       {
         "rank": 6,
         "code": "MS",
-        "value": "63.9\u00b0F avg"
+        "value": "63.9°F avg"
       },
       {
         "rank": 7,
         "code": "AL",
-        "value": "63.4\u00b0F avg"
+        "value": "63.4°F avg"
       },
       {
         "rank": 7,
         "code": "SC",
-        "value": "63.4\u00b0F avg"
+        "value": "63.4°F avg"
       },
       {
         "rank": 9,
         "code": "AR",
-        "value": "60.9\u00b0F avg"
+        "value": "60.9°F avg"
       },
       {
         "rank": 9,
         "code": "AZ",
-        "value": "60.9\u00b0F avg"
+        "value": "60.9°F avg"
       },
       {
         "rank": 11,
         "code": "CA",
-        "value": "60.2\u00b0F avg"
+        "value": "60.2°F avg"
       },
       {
         "rank": 12,
         "code": "OK",
-        "value": "60.0\u00b0F avg"
+        "value": "60.0°F avg"
       },
       {
         "rank": 13,
         "code": "NC",
-        "value": "59.4\u00b0F avg"
+        "value": "59.4°F avg"
       },
       {
         "rank": 14,
         "code": "TN",
-        "value": "58.6\u00b0F avg"
+        "value": "58.6°F avg"
       },
       {
         "rank": 15,
         "code": "NM",
-        "value": "54.3\u00b0F avg"
+        "value": "54.3°F avg"
       }
     ],
-    "disclaimer": "Alaska is by far the coldest state (~28\u00b0F statewide mean).",
-    "trivia": "Florida is the warmest of the contiguous 48. Hawaii ranks 1st when included \u2014 its state-average annual temperature is ~72\u00b0F. Louisiana, Texas, and the Southeast round out the top of the list.",
+    "disclaimer": "Alaska is by far the coldest state (~28°F statewide mean).",
+    "trivia": "Florida is the warmest of the contiguous 48. Hawaii ranks 1st when included — its state-average annual temperature is ~72°F. Louisiana, Texas, and the Southeast round out the top of the list.",
     "asOfDate": "NOAA 1991-2020 30-year climate normals; annual rank data through 2023"
   },
   {
@@ -23617,7 +23617,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NBA.com, NFL.com, MLB.com, NHL.com \u2014 official championship histories",
+      "name": "NBA.com, NFL.com, MLB.com, NHL.com — official championship histories",
       "url": "https://www.nba.com/news/history-nba-finals",
       "asOf": "Through the 2023-24 MLB, NBA, NHL and 2023 NFL seasons"
     },
@@ -23712,7 +23712,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 most valuable NFL/NBA/MLB/NHL team lists (2024)",
+      "name": "Forbes — most valuable NFL/NBA/MLB/NHL team lists (2024)",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/08/28/the-nfls-most-valuable-teams-2024/",
       "asOf": "Forbes 2024 valuations (NFL Aug, NBA Oct, MLB Mar, NHL Dec)"
     },
@@ -23807,7 +23807,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 annual team revenue tables (NFL/NBA/MLB/NHL)",
+      "name": "Forbes — annual team revenue tables (NFL/NBA/MLB/NHL)",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/08/28/the-nfls-most-valuable-teams-2024/",
       "asOf": "2023 season revenue (Forbes, published 2024)"
     },
@@ -23997,7 +23997,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball-Reference, Pro-Football-Reference, Baseball-Reference, Hockey-Reference \u2014 franchise records",
+      "name": "Basketball-Reference, Pro-Football-Reference, Baseball-Reference, Hockey-Reference — franchise records",
       "url": "https://www.basketball-reference.com/",
       "asOf": "Through 2023-24 seasons"
     },
@@ -24381,7 +24381,7 @@
       "url": "https://www.mlb.com/yankees/history/retired-numbers",
       "asOf": "Through the 2023-24 seasons"
     },
-    "note": "The Celtics lead the sport with 24 retired numbers (basketball is heavy on retirements). MLB's Cardinals and Yankees are among the leaders. Jackie Robinson's #42 is retired league-wide across MLB but is not counted here as a team-specific retirement. Some teams (e.g. Bears) have retired the same jersey letter/number for multiple players \u2014 still counted as one retirement per number.",
+    "note": "The Celtics lead the sport with 24 retired numbers (basketball is heavy on retirements). MLB's Cardinals and Yankees are among the leaders. Jackie Robinson's #42 is retired league-wide across MLB but is not counted here as a team-specific retirement. Some teams (e.g. Bears) have retired the same jersey letter/number for multiple players — still counted as one retirement per number.",
     "answers": [
       {
         "rank": 1,
@@ -24459,7 +24459,7 @@
         "value": "4 retired numbers"
       }
     ],
-    "disclaimer": "The Celtics lead the sport with 24 retired numbers (basketball is heavy on retirements). MLB's Cardinals and Yankees are among the leaders. Jackie Robinson's #42 is retired league-wide across MLB but is not counted here as a team-specific retirement. Some teams (e.g. Bears) have retired the same jersey letter/number for multiple players \u2014 still counted as one retirement per number.",
+    "disclaimer": "The Celtics lead the sport with 24 retired numbers (basketball is heavy on retirements). MLB's Cardinals and Yankees are among the leaders. Jackie Robinson's #42 is retired league-wide across MLB but is not counted here as a team-specific retirement. Some teams (e.g. Bears) have retired the same jersey letter/number for multiple players — still counted as one retirement per number.",
     "trivia": null,
     "asOfDate": "Through the 2023-24 seasons"
   },
@@ -24567,7 +24567,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "MLB.com \u2014 World Series history / Baseball Reference franchise pages",
+      "name": "MLB.com — World Series history / Baseball Reference franchise pages",
       "url": "https://www.mlb.com/postseason/history/world-series",
       "asOf": "Through 2024 World Series (Dodgers over Yankees)"
     },
@@ -24662,7 +24662,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Baseball Reference \u2014 World Series appearances by franchise",
+      "name": "Baseball Reference — World Series appearances by franchise",
       "url": "https://www.baseball-reference.com/postseason/",
       "asOf": "Through 2024 World Series"
     },
@@ -24757,7 +24757,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Baseball Reference \u2014 Franchise win/loss records",
+      "name": "Baseball Reference — Franchise win/loss records",
       "url": "https://www.baseball-reference.com/leagues/majors/wins.shtml",
       "asOf": "Through 2024 regular season"
     },
@@ -24852,7 +24852,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Baseball Reference \u2014 Postseason appearances by franchise",
+      "name": "Baseball Reference — Postseason appearances by franchise",
       "url": "https://www.baseball-reference.com/postseason/",
       "asOf": "Through 2024 postseason"
     },
@@ -24947,7 +24947,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Baseball Hall of Fame / Baseball Reference \u2014 Hall of Famers by team",
+      "name": "Baseball Hall of Fame / Baseball Reference — Hall of Famers by team",
       "url": "https://baseballhall.org/hall-of-famers",
       "asOf": "Through 2024 Hall of Fame induction class"
     },
@@ -25042,7 +25042,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 Baseball's Most Valuable Teams 2024",
+      "name": "Forbes — Baseball's Most Valuable Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/03/28/baseballs-most-valuable-teams-2024/",
       "asOf": "March 2024 valuations"
     },
@@ -25137,7 +25137,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 14,
     "source": {
-      "name": "MLB.com \u2014 Ballpark capacities / Baseball Reference",
+      "name": "MLB.com — Ballpark capacities / Baseball Reference",
       "url": "https://www.mlb.com/ballparks",
       "asOf": "2024 season"
     },
@@ -25227,7 +25227,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Baseball Reference / MLB.com \u2014 Franchise histories",
+      "name": "Baseball Reference / MLB.com — Franchise histories",
       "url": "https://www.baseball-reference.com/leagues/majors/",
       "asOf": "Through 2024 season"
     },
@@ -25281,7 +25281,7 @@
       {
         "rank": 10,
         "code": "MLB-BAL",
-        "value": "Founded 1901 (Milwaukee Brewers \u2192 St. Louis Browns \u2192 Baltimore Orioles)"
+        "value": "Founded 1901 (Milwaukee Brewers → St. Louis Browns → Baltimore Orioles)"
       },
       {
         "rank": 11,
@@ -25301,7 +25301,7 @@
       {
         "rank": 14,
         "code": "MLB-NYY",
-        "value": "Founded 1901 (Baltimore Orioles \u2192 NY Highlanders 1903)"
+        "value": "Founded 1901 (Baltimore Orioles → NY Highlanders 1903)"
       },
       {
         "rank": 15,
@@ -25322,7 +25322,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "MLB.com / Baseball Reference \u2014 Cy Young Award winners by team",
+      "name": "MLB.com / Baseball Reference — Cy Young Award winners by team",
       "url": "https://www.mlb.com/awards/cy-young",
       "asOf": "Through 2024 season"
     },
@@ -25417,7 +25417,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "MLB.com / Baseball Reference \u2014 MVP Award winners by team",
+      "name": "MLB.com / Baseball Reference — MVP Award winners by team",
       "url": "https://www.mlb.com/awards/mvp",
       "asOf": "Through 2024 season"
     },
@@ -25512,7 +25512,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NBA.com \u2014 NBA Finals history / championship counts",
+      "name": "NBA.com — NBA Finals history / championship counts",
       "url": "https://www.nba.com/news/history-nba-finals",
       "asOf": "Through 2024 Finals (Celtics over Mavericks)"
     },
@@ -25607,7 +25607,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball Reference \u2014 NBA Finals appearances by franchise",
+      "name": "Basketball Reference — NBA Finals appearances by franchise",
       "url": "https://www.basketball-reference.com/playoffs/",
       "asOf": "Through 2024 NBA Finals"
     },
@@ -25702,7 +25702,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball Reference \u2014 Conference championships by team",
+      "name": "Basketball Reference — Conference championships by team",
       "url": "https://www.basketball-reference.com/playoffs/",
       "asOf": "Through 2024 NBA Playoffs"
     },
@@ -25797,7 +25797,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball Reference \u2014 Franchise regular-season win totals",
+      "name": "Basketball Reference — Franchise regular-season win totals",
       "url": "https://www.basketball-reference.com/teams/",
       "asOf": "Through 2023-24 regular season"
     },
@@ -25892,7 +25892,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball Reference \u2014 Division titles by franchise",
+      "name": "Basketball Reference — Division titles by franchise",
       "url": "https://www.basketball-reference.com/teams/",
       "asOf": "Through 2023-24 regular season"
     },
@@ -26082,7 +26082,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NBA.com / Basketball Reference \u2014 Retired numbers by franchise",
+      "name": "NBA.com / Basketball Reference — Retired numbers by franchise",
       "url": "https://www.basketball-reference.com/friv/retired_jerseys.html",
       "asOf": "Through 2024 season"
     },
@@ -26177,7 +26177,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball Reference \u2014 Seasons of 60+ wins by franchise",
+      "name": "Basketball Reference — Seasons of 60+ wins by franchise",
       "url": "https://www.basketball-reference.com/leaders/season_60_win_seasons.html",
       "asOf": "Through 2023-24 regular season"
     },
@@ -26272,7 +26272,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Basketball Reference \u2014 Consecutive playoff appearance records",
+      "name": "Basketball Reference — Consecutive playoff appearance records",
       "url": "https://www.basketball-reference.com/playoffs/",
       "asOf": "Through 2023-24 season"
     },
@@ -26367,7 +26367,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 The Most Valuable NBA Teams 2024",
+      "name": "Forbes — The Most Valuable NBA Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/10/17/the-nbas-most-valuable-teams-2024/",
       "asOf": "October 2024 valuations"
     },
@@ -26462,7 +26462,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NFL.com \u2014 Super Bowl winners by team",
+      "name": "NFL.com — Super Bowl winners by team",
       "url": "https://www.nfl.com/super-bowl/history/",
       "asOf": "Through Super Bowl LVIII (Chiefs over 49ers, Feb 2024)"
     },
@@ -26557,7 +26557,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 Super Bowl appearances by team",
+      "name": "Pro-Football-Reference — Super Bowl appearances by team",
       "url": "https://www.pro-football-reference.com/super-bowl/",
       "asOf": "Through Super Bowl LVIII (Feb 2024)"
     },
@@ -26652,7 +26652,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 NFL championship history",
+      "name": "Pro-Football-Reference — NFL championship history",
       "url": "https://www.pro-football-reference.com/years/champions.htm",
       "asOf": "Pre-Super Bowl era (1920-1965)"
     },
@@ -26747,7 +26747,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 NFL Team Records",
+      "name": "Pro-Football-Reference — NFL Team Records",
       "url": "https://www.pro-football-reference.com/teams/",
       "asOf": "Through 2023 NFL season"
     },
@@ -26842,7 +26842,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 Playoff appearances by team",
+      "name": "Pro-Football-Reference — Playoff appearances by team",
       "url": "https://www.pro-football-reference.com/teams/",
       "asOf": "Through 2023 NFL season playoffs"
     },
@@ -26937,7 +26937,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 Division championships by team",
+      "name": "Pro-Football-Reference — Division championships by team",
       "url": "https://www.pro-football-reference.com/teams/",
       "asOf": "Through 2023 NFL season"
     },
@@ -27032,7 +27032,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 The Most Valuable NFL Teams 2024",
+      "name": "Forbes — The Most Valuable NFL Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/08/28/the-nfls-most-valuable-teams-2024/",
       "asOf": "August 2024 valuations"
     },
@@ -27127,7 +27127,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NFL.com \u2014 NFL stadium information / Pro-Football-Reference",
+      "name": "NFL.com — NFL stadium information / Pro-Football-Reference",
       "url": "https://www.pro-football-reference.com/stadiums/",
       "asOf": "2024 NFL season"
     },
@@ -27222,7 +27222,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 NFL franchise histories",
+      "name": "Pro-Football-Reference — NFL franchise histories",
       "url": "https://www.pro-football-reference.com/teams/",
       "asOf": "NFL franchise origins"
     },
@@ -27317,11 +27317,11 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Pro-Football-Reference \u2014 Playoff appearance history",
+      "name": "Pro-Football-Reference — Playoff appearance history",
       "url": "https://www.pro-football-reference.com/teams/",
       "asOf": "Following 2023 NFL season playoffs"
     },
-    "note": "Jets hold the longest active drought \u2014 no playoffs since 2010. Panthers, Broncos, Raiders, Titans, and others all missed the 2023 playoffs. Denver ended a long drought after 2015 title. List reflects droughts entering the 2024 season.",
+    "note": "Jets hold the longest active drought — no playoffs since 2010. Panthers, Broncos, Raiders, Titans, and others all missed the 2023 playoffs. Denver ended a long drought after 2015 title. List reflects droughts entering the 2024 season.",
     "answers": [
       {
         "rank": 1,
@@ -27399,7 +27399,7 @@
         "value": "1 season (since 2022)"
       }
     ],
-    "disclaimer": "Jets hold the longest active drought \u2014 no playoffs since 2010. Panthers, Broncos, Raiders, Titans, and others all missed the 2023 playoffs. Denver ended a long drought after 2015 title. List reflects droughts entering the 2024 season.",
+    "disclaimer": "Jets hold the longest active drought — no playoffs since 2010. Panthers, Broncos, Raiders, Titans, and others all missed the 2023 playoffs. Denver ended a long drought after 2015 title. List reflects droughts entering the 2024 season.",
     "trivia": null,
     "asOfDate": "Following 2023 NFL season playoffs"
   },
@@ -27412,7 +27412,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 14,
     "source": {
-      "name": "NHL.com \u2014 Stanley Cup champions by franchise",
+      "name": "NHL.com — Stanley Cup champions by franchise",
       "url": "https://records.nhl.com/records/team-records/stanley-cup-championships/all-time-stanley-cup-winners",
       "asOf": "Through 2024 Stanley Cup Final (Panthers over Oilers)"
     },
@@ -27502,7 +27502,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 14,
     "source": {
-      "name": "Hockey Reference \u2014 Stanley Cup Finals appearances by franchise",
+      "name": "Hockey Reference — Stanley Cup Finals appearances by franchise",
       "url": "https://www.hockey-reference.com/playoffs/",
       "asOf": "Through 2024 Stanley Cup Final"
     },
@@ -27592,7 +27592,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Hockey Reference \u2014 Division titles by franchise",
+      "name": "Hockey Reference — Division titles by franchise",
       "url": "https://www.hockey-reference.com/leagues/",
       "asOf": "Through 2023-24 season"
     },
@@ -27687,7 +27687,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Hockey Reference \u2014 Franchise win totals",
+      "name": "Hockey Reference — Franchise win totals",
       "url": "https://www.hockey-reference.com/teams/",
       "asOf": "Through 2023-24 season"
     },
@@ -27782,7 +27782,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Hockey Reference \u2014 Playoff appearances by franchise",
+      "name": "Hockey Reference — Playoff appearances by franchise",
       "url": "https://www.hockey-reference.com/playoffs/",
       "asOf": "Through 2024 playoffs"
     },
@@ -27877,7 +27877,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 14,
     "source": {
-      "name": "NHL.com \u2014 Stanley Cup winners by year",
+      "name": "NHL.com — Stanley Cup winners by year",
       "url": "https://records.nhl.com/records/team-records/stanley-cup-championships/all-time-stanley-cup-winners",
       "asOf": "As of end of 2023-24 season"
     },
@@ -27967,7 +27967,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Hockey Hall of Fame \u2014 Player inductees by team",
+      "name": "Hockey Hall of Fame — Player inductees by team",
       "url": "https://www.hhof.com/hockeypedia/index.html",
       "asOf": "As of 2023 Hall of Fame class"
     },
@@ -28062,7 +28062,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NHL.com \u2014 Retired numbers by team",
+      "name": "NHL.com — Retired numbers by team",
       "url": "https://www.nhl.com/news/nhl-retired-numbers-by-team",
       "asOf": "As of 2024"
     },
@@ -28157,7 +28157,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 NHL Team Valuations 2023",
+      "name": "Forbes — NHL Team Valuations 2023",
       "url": "https://www.forbes.com/nhl-valuations/",
       "asOf": "Forbes 2023 NHL team valuations"
     },
@@ -28252,7 +28252,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 14,
     "source": {
-      "name": "NHL.com \u2014 Arena capacities",
+      "name": "NHL.com — Arena capacities",
       "url": "https://www.nhl.com/info/arenas",
       "asOf": "2023-24 season"
     },
@@ -28342,7 +28342,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NBA.com \u2014 NBA Finals history / championship counts",
+      "name": "NBA.com — NBA Finals history / championship counts",
       "url": "https://www.nba.com/news/history-nba-finals",
       "asOf": "Through 2024 Finals (Celtics beat Mavericks)"
     },
@@ -28437,7 +28437,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NFL.com \u2014 Super Bowl winners by team",
+      "name": "NFL.com — Super Bowl winners by team",
       "url": "https://www.nfl.com/super-bowl/history/",
       "asOf": "Through Super Bowl LVIII (Chiefs over 49ers, Feb 2024)"
     },
@@ -28532,7 +28532,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "MLB.com \u2014 World Series history",
+      "name": "MLB.com — World Series history",
       "url": "https://www.mlb.com/postseason/history/world-series",
       "asOf": "Through 2023 World Series (Rangers over Diamondbacks)"
     },
@@ -28627,7 +28627,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NHL.com \u2014 Stanley Cup champions by franchise",
+      "name": "NHL.com — Stanley Cup champions by franchise",
       "url": "https://www.nhl.com/news/stanley-cup-champions-and-finalists",
       "asOf": "Through 2024 Stanley Cup Final (Panthers over Oilers)"
     },
@@ -28722,7 +28722,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 The Most Valuable NFL Teams 2024",
+      "name": "Forbes — The Most Valuable NFL Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/08/28/the-nfls-most-valuable-teams-2024/",
       "asOf": "August 2024 valuations"
     },
@@ -28817,7 +28817,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 The Most Valuable NBA Teams 2024",
+      "name": "Forbes — The Most Valuable NBA Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/10/17/the-nbas-most-valuable-teams-2024/",
       "asOf": "October 2024 valuations"
     },
@@ -28912,7 +28912,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "Forbes \u2014 Baseball's Most Valuable Teams 2024",
+      "name": "Forbes — Baseball's Most Valuable Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/03/28/baseballs-most-valuable-teams-2024/",
       "asOf": "March 2024 valuations"
     },
@@ -29007,7 +29007,7 @@
     "answerType": "Pro Sports Teams",
     "seededDepth": 15,
     "source": {
-      "name": "NFL.com / Pro-Football-Reference \u2014 Super Bowl appearances by team",
+      "name": "NFL.com / Pro-Football-Reference — Super Bowl appearances by team",
       "url": "https://www.pro-football-reference.com/super-bowl/",
       "asOf": "Through Super Bowl LVIII (Feb 2024)"
     },
@@ -30756,7 +30756,7 @@
       "url": "https://www.sec.gov/",
       "asOf": "As of 2024"
     },
-    "note": "Companies where a founder (or founding family member) currently serves as CEO. Buffett is not a founder but has run Berkshire since 1970 \u2014 excluded here; Dell reacquired his founder-CEO status in 2007.",
+    "note": "Companies where a founder (or founding family member) currently serves as CEO. Buffett is not a founder but has run Berkshire since 1970 — excluded here; Dell reacquired his founder-CEO status in 2007.",
     "answers": [
       {
         "rank": 1,
@@ -30814,7 +30814,7 @@
         "value": "Warren Buffett (54-year CEO, not founder)"
       }
     ],
-    "disclaimer": "Companies where a founder (or founding family member) currently serves as CEO. Buffett is not a founder but has run Berkshire since 1970 \u2014 excluded here; Dell reacquired his founder-CEO status in 2007.",
+    "disclaimer": "Companies where a founder (or founding family member) currently serves as CEO. Buffett is not a founder but has run Berkshire since 1970 — excluded here; Dell reacquired his founder-CEO status in 2007.",
     "trivia": null,
     "asOfDate": "As of 2024"
   },
@@ -33026,7 +33026,7 @@
       "url": "https://science.nasa.gov/universe/",
       "asOf": "Lodders 2003; consistent with 2024 NASA reference values"
     },
-    "note": "Hydrogen and helium together account for ~98% of ordinary matter \u2014 they were forged in Big Bang nucleosynthesis. Everything heavier than helium (astronomers' 'metals') is under 2% combined, produced by stellar nucleosynthesis and supernovae.",
+    "note": "Hydrogen and helium together account for ~98% of ordinary matter — they were forged in Big Bang nucleosynthesis. Everything heavier than helium (astronomers' 'metals') is under 2% combined, produced by stellar nucleosynthesis and supernovae.",
     "answers": [
       {
         "rank": 1,
@@ -33105,7 +33105,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "Hydrogen and helium together account for ~98% of ordinary matter \u2014 they were forged in Big Bang nucleosynthesis. Everything heavier than helium (astronomers' 'metals') is under 2% combined, produced by stellar nucleosynthesis and supernovae.",
+    "trivia": "Hydrogen and helium together account for ~98% of ordinary matter — they were forged in Big Bang nucleosynthesis. Everything heavier than helium (astronomers' 'metals') is under 2% combined, produced by stellar nucleosynthesis and supernovae.",
     "asOfDate": "Lodders 2003; consistent with 2024 NASA reference values"
   },
   {
@@ -33121,7 +33121,7 @@
       "url": "https://science.nasa.gov/sun/facts/",
       "asOf": "Asplund et al. 2009, standard solar composition"
     },
-    "note": "The Sun is ~74.9% hydrogen and ~23.8% helium by mass \u2014 the remaining ~1.3% ('metals' in astronomer-speak) tracks the Big-Bang-plus-first-few-stellar-generations abundance pattern, so oxygen and carbon dominate the trace elements.",
+    "note": "The Sun is ~74.9% hydrogen and ~23.8% helium by mass — the remaining ~1.3% ('metals' in astronomer-speak) tracks the Big-Bang-plus-first-few-stellar-generations abundance pattern, so oxygen and carbon dominate the trace elements.",
     "answers": [
       {
         "rank": 1,
@@ -33200,7 +33200,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "The Sun is ~74.9% hydrogen and ~23.8% helium by mass \u2014 the remaining ~1.3% ('metals' in astronomer-speak) tracks the Big-Bang-plus-first-few-stellar-generations abundance pattern, so oxygen and carbon dominate the trace elements.",
+    "trivia": "The Sun is ~74.9% hydrogen and ~23.8% helium by mass — the remaining ~1.3% ('metals' in astronomer-speak) tracks the Big-Bang-plus-first-few-stellar-generations abundance pattern, so oxygen and carbon dominate the trace elements.",
     "asOfDate": "Asplund et al. 2009, standard solar composition"
   },
   {
@@ -33311,7 +33311,7 @@
       "url": "https://hbcp.chemnetbase.com/",
       "asOf": "CRC Handbook 97th ed. (2016)"
     },
-    "note": "Hydrogen jumps far ahead of its mass ranking (crust hydrogen is ~0.14% by mass but ~3% of atoms) because H is the lightest atom \u2014 the same mass buys ~16x more atoms than oxygen. Oxygen still leads because silicate/oxide minerals are so dominant.",
+    "note": "Hydrogen jumps far ahead of its mass ranking (crust hydrogen is ~0.14% by mass but ~3% of atoms) because H is the lightest atom — the same mass buys ~16x more atoms than oxygen. Oxygen still leads because silicate/oxide minerals are so dominant.",
     "answers": [
       {
         "rank": 1,
@@ -33390,7 +33390,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "Hydrogen jumps far ahead of its mass ranking (crust hydrogen is ~0.14% by mass but ~3% of atoms) because H is the lightest atom \u2014 the same mass buys ~16x more atoms than oxygen. Oxygen still leads because silicate/oxide minerals are so dominant.",
+    "trivia": "Hydrogen jumps far ahead of its mass ranking (crust hydrogen is ~0.14% by mass but ~3% of atoms) because H is the lightest atom — the same mass buys ~16x more atoms than oxygen. Oxygen still leads because silicate/oxide minerals are so dominant.",
     "asOfDate": "CRC Handbook 97th ed. (2016)"
   },
   {
@@ -33576,7 +33576,7 @@
       "url": "https://pubchem.ncbi.nlm.nih.gov/",
       "asOf": "Emsley 2011; CRC Handbook 97th ed. (2016)"
     },
-    "note": "About 96% of body mass is just oxygen, carbon, hydrogen, and nitrogen \u2014 the constituents of water, fats, proteins, and carbohydrates. Calcium and phosphorus together (~2.5%) are mostly locked up in bone as hydroxyapatite.",
+    "note": "About 96% of body mass is just oxygen, carbon, hydrogen, and nitrogen — the constituents of water, fats, proteins, and carbohydrates. Calcium and phosphorus together (~2.5%) are mostly locked up in bone as hydroxyapatite.",
     "answers": [
       {
         "rank": 1,
@@ -33655,7 +33655,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "About 96% of body mass is just oxygen, carbon, hydrogen, and nitrogen \u2014 the constituents of water, fats, proteins, and carbohydrates. Calcium and phosphorus together (~2.5%) are mostly locked up in bone as hydroxyapatite.",
+    "trivia": "About 96% of body mass is just oxygen, carbon, hydrogen, and nitrogen — the constituents of water, fats, proteins, and carbohydrates. Calcium and phosphorus together (~2.5%) are mostly locked up in bone as hydroxyapatite.",
     "asOfDate": "Emsley 2011; CRC Handbook 97th ed. (2016)"
   },
   {
@@ -33671,7 +33671,7 @@
       "url": "https://pubchem.ncbi.nlm.nih.gov/",
       "asOf": "Emsley 2011"
     },
-    "note": "Hydrogen leaps to #1 by atom count because it is the lightest atom \u2014 the body is ~60% water by mass, and each water molecule contains two H atoms for every O. About 99% of all atoms in the body are just H, O, C, and N.",
+    "note": "Hydrogen leaps to #1 by atom count because it is the lightest atom — the body is ~60% water by mass, and each water molecule contains two H atoms for every O. About 99% of all atoms in the body are just H, O, C, and N.",
     "answers": [
       {
         "rank": 1,
@@ -33750,7 +33750,7 @@
       }
     ],
     "disclaimer": "About 99% of all atoms in the body are just H, O, C, and N.",
-    "trivia": "Hydrogen leaps to #1 by atom count because it is the lightest atom \u2014 the body is ~60% water by mass, and each water molecule contains two H atoms for every O.",
+    "trivia": "Hydrogen leaps to #1 by atom count because it is the lightest atom — the body is ~60% water by mass, and each water molecule contains two H atoms for every O.",
     "asOfDate": "Emsley 2011"
   },
   {
@@ -33766,7 +33766,7 @@
       "url": "https://www.usgs.gov/centers/national-minerals-information-center/mineral-commodity-summaries",
       "asOf": "USGS Mineral Commodity Summaries 2024 (2023 production figures)"
     },
-    "note": "Iron dwarfs all other elements \u2014 global steel production (~1.9 billion tonnes of crude steel) drives ~1.3 billion tonnes of primary iron. After Fe, industrial nitrogen (mostly ammonia for fertilizer) and sulfur (mostly sulfuric acid) lead the non-metals; aluminum is #1 among non-ferrous metals.",
+    "note": "Iron dwarfs all other elements — global steel production (~1.9 billion tonnes of crude steel) drives ~1.3 billion tonnes of primary iron. After Fe, industrial nitrogen (mostly ammonia for fertilizer) and sulfur (mostly sulfuric acid) lead the non-metals; aluminum is #1 among non-ferrous metals.",
     "answers": [
       {
         "rank": 1,
@@ -33820,7 +33820,7 @@
       }
     ],
     "disclaimer": null,
-    "trivia": "Iron dwarfs all other elements \u2014 global steel production (~1.9 billion tonnes of crude steel) drives ~1.3 billion tonnes of primary iron. After Fe, industrial nitrogen (mostly ammonia for fertilizer) and sulfur (mostly sulfuric acid) lead the non-metals; aluminum is #1 among non-ferrous metals.",
+    "trivia": "Iron dwarfs all other elements — global steel production (~1.9 billion tonnes of crude steel) drives ~1.3 billion tonnes of primary iron. After Fe, industrial nitrogen (mostly ammonia for fertilizer) and sulfur (mostly sulfuric acid) lead the non-metals; aluminum is #1 among non-ferrous metals.",
     "asOfDate": "USGS Mineral Commodity Summaries 2024 (2023 production figures)"
   },
   {
@@ -33836,7 +33836,7 @@
       "url": "https://hbcp.chemnetbase.com/",
       "asOf": "McDonough 2003; CRC Handbook 97th ed. (2016)"
     },
-    "note": "Iron leads whole-Earth abundance because Earth's core is ~85% Fe by mass, and the core is ~32% of Earth's total mass. Oxygen and silicon dominate the mantle and crust. Just four elements \u2014 Fe, O, Si, Mg \u2014 make up ~93% of Earth's total mass.",
+    "note": "Iron leads whole-Earth abundance because Earth's core is ~85% Fe by mass, and the core is ~32% of Earth's total mass. Oxygen and silicon dominate the mantle and crust. Just four elements — Fe, O, Si, Mg — make up ~93% of Earth's total mass.",
     "answers": [
       {
         "rank": 1,
@@ -33914,7 +33914,7 @@
         "value": "~0.019% of Earth's mass"
       }
     ],
-    "disclaimer": "Just four elements \u2014 Fe, O, Si, Mg \u2014 make up ~93% of Earth's total mass.",
+    "disclaimer": "Just four elements — Fe, O, Si, Mg — make up ~93% of Earth's total mass.",
     "trivia": "Iron leads whole-Earth abundance because Earth's core is ~85% Fe by mass, and the core is ~32% of Earth's total mass. Oxygen and silicon dominate the mantle and crust.",
     "asOfDate": "McDonough 2003; CRC Handbook 97th ed. (2016)"
   },
@@ -34696,77 +34696,77 @@
       {
         "rank": 1,
         "code": "W",
-        "value": "3422\u00b0C"
+        "value": "3422°C"
       },
       {
         "rank": 2,
         "code": "Re",
-        "value": "3186\u00b0C"
+        "value": "3186°C"
       },
       {
         "rank": 3,
         "code": "Os",
-        "value": "3033\u00b0C"
+        "value": "3033°C"
       },
       {
         "rank": 4,
         "code": "Ta",
-        "value": "3017\u00b0C"
+        "value": "3017°C"
       },
       {
         "rank": 5,
         "code": "Mo",
-        "value": "2623\u00b0C"
+        "value": "2623°C"
       },
       {
         "rank": 6,
         "code": "Nb",
-        "value": "2477\u00b0C"
+        "value": "2477°C"
       },
       {
         "rank": 7,
         "code": "Ir",
-        "value": "2446\u00b0C"
+        "value": "2446°C"
       },
       {
         "rank": 8,
         "code": "Ru",
-        "value": "2334\u00b0C"
+        "value": "2334°C"
       },
       {
         "rank": 9,
         "code": "Hf",
-        "value": "2233\u00b0C"
+        "value": "2233°C"
       },
       {
         "rank": 10,
         "code": "Tc",
-        "value": "2157\u00b0C"
+        "value": "2157°C"
       },
       {
         "rank": 11,
         "code": "Rh",
-        "value": "1964\u00b0C"
+        "value": "1964°C"
       },
       {
         "rank": 12,
         "code": "V",
-        "value": "1910\u00b0C"
+        "value": "1910°C"
       },
       {
         "rank": 13,
         "code": "Cr",
-        "value": "1907\u00b0C"
+        "value": "1907°C"
       },
       {
         "rank": 14,
         "code": "Zr",
-        "value": "1855\u00b0C"
+        "value": "1855°C"
       },
       {
         "rank": 15,
         "code": "Pt",
-        "value": "1768\u00b0C"
+        "value": "1768°C"
       }
     ],
     "disclaimer": null,
@@ -34791,77 +34791,77 @@
       {
         "rank": 1,
         "code": "He",
-        "value": "-272.2\u00b0C (at 25 atm)"
+        "value": "-272.2°C (at 25 atm)"
       },
       {
         "rank": 2,
         "code": "H",
-        "value": "-259.1\u00b0C"
+        "value": "-259.1°C"
       },
       {
         "rank": 3,
         "code": "Ne",
-        "value": "-248.6\u00b0C"
+        "value": "-248.6°C"
       },
       {
         "rank": 4,
         "code": "F",
-        "value": "-219.7\u00b0C"
+        "value": "-219.7°C"
       },
       {
         "rank": 5,
         "code": "O",
-        "value": "-218.8\u00b0C"
+        "value": "-218.8°C"
       },
       {
         "rank": 6,
         "code": "N",
-        "value": "-210.0\u00b0C"
+        "value": "-210.0°C"
       },
       {
         "rank": 7,
         "code": "Ar",
-        "value": "-189.3\u00b0C"
+        "value": "-189.3°C"
       },
       {
         "rank": 8,
         "code": "Kr",
-        "value": "-157.4\u00b0C"
+        "value": "-157.4°C"
       },
       {
         "rank": 9,
         "code": "Xe",
-        "value": "-111.7\u00b0C"
+        "value": "-111.7°C"
       },
       {
         "rank": 10,
         "code": "Cl",
-        "value": "-101.5\u00b0C"
+        "value": "-101.5°C"
       },
       {
         "rank": 11,
         "code": "Rn",
-        "value": "-71.0\u00b0C"
+        "value": "-71.0°C"
       },
       {
         "rank": 12,
         "code": "Hg",
-        "value": "-38.8\u00b0C"
+        "value": "-38.8°C"
       },
       {
         "rank": 13,
         "code": "Br",
-        "value": "-7.2\u00b0C"
+        "value": "-7.2°C"
       },
       {
         "rank": 14,
         "code": "Cs",
-        "value": "28.4\u00b0C"
+        "value": "28.4°C"
       },
       {
         "rank": 15,
         "code": "Ga",
-        "value": "29.8\u00b0C"
+        "value": "29.8°C"
       }
     ],
     "disclaimer": null,
@@ -35551,77 +35551,77 @@
       {
         "rank": 1,
         "code": "C",
-        "value": "2200 W/(m\u00b7K) (diamond)"
+        "value": "2200 W/(m·K) (diamond)"
       },
       {
         "rank": 2,
         "code": "Ag",
-        "value": "429 W/(m\u00b7K)"
+        "value": "429 W/(m·K)"
       },
       {
         "rank": 3,
         "code": "Cu",
-        "value": "401 W/(m\u00b7K)"
+        "value": "401 W/(m·K)"
       },
       {
         "rank": 4,
         "code": "Au",
-        "value": "318 W/(m\u00b7K)"
+        "value": "318 W/(m·K)"
       },
       {
         "rank": 5,
         "code": "Al",
-        "value": "237 W/(m\u00b7K)"
+        "value": "237 W/(m·K)"
       },
       {
         "rank": 6,
         "code": "Be",
-        "value": "200 W/(m\u00b7K)"
+        "value": "200 W/(m·K)"
       },
       {
         "rank": 7,
         "code": "W",
-        "value": "173 W/(m\u00b7K)"
+        "value": "173 W/(m·K)"
       },
       {
         "rank": 8,
         "code": "Mg",
-        "value": "156 W/(m\u00b7K)"
+        "value": "156 W/(m·K)"
       },
       {
         "rank": 9,
         "code": "Rh",
-        "value": "150 W/(m\u00b7K)"
+        "value": "150 W/(m·K)"
       },
       {
         "rank": 10,
         "code": "Si",
-        "value": "149 W/(m\u00b7K)"
+        "value": "149 W/(m·K)"
       },
       {
         "rank": 11,
         "code": "Ir",
-        "value": "147 W/(m\u00b7K)"
+        "value": "147 W/(m·K)"
       },
       {
         "rank": 12,
         "code": "Mo",
-        "value": "138 W/(m\u00b7K)"
+        "value": "138 W/(m·K)"
       },
       {
         "rank": 13,
         "code": "Ru",
-        "value": "117 W/(m\u00b7K)"
+        "value": "117 W/(m·K)"
       },
       {
         "rank": 14,
         "code": "Zn",
-        "value": "116 W/(m\u00b7K)"
+        "value": "116 W/(m·K)"
       },
       {
         "rank": 15,
         "code": "Co",
-        "value": "100 W/(m\u00b7K)"
+        "value": "100 W/(m·K)"
       }
     ],
     "disclaimer": null,
@@ -36026,77 +36026,77 @@
       {
         "rank": 1,
         "code": "Re",
-        "value": "5596\u00b0C"
+        "value": "5596°C"
       },
       {
         "rank": 2,
         "code": "W",
-        "value": "5555\u00b0C"
+        "value": "5555°C"
       },
       {
         "rank": 3,
         "code": "Ta",
-        "value": "5458\u00b0C"
+        "value": "5458°C"
       },
       {
         "rank": 4,
         "code": "Os",
-        "value": "5012\u00b0C"
+        "value": "5012°C"
       },
       {
         "rank": 5,
         "code": "Nb",
-        "value": "4744\u00b0C"
+        "value": "4744°C"
       },
       {
         "rank": 6,
         "code": "Mo",
-        "value": "4639\u00b0C"
+        "value": "4639°C"
       },
       {
         "rank": 7,
         "code": "Hf",
-        "value": "4603\u00b0C"
+        "value": "4603°C"
       },
       {
         "rank": 8,
         "code": "Ir",
-        "value": "4428\u00b0C"
+        "value": "4428°C"
       },
       {
         "rank": 9,
         "code": "Zr",
-        "value": "4409\u00b0C"
+        "value": "4409°C"
       },
       {
         "rank": 10,
         "code": "Tc",
-        "value": "4265\u00b0C"
+        "value": "4265°C"
       },
       {
         "rank": 11,
         "code": "Ru",
-        "value": "4150\u00b0C"
+        "value": "4150°C"
       },
       {
         "rank": 12,
         "code": "C",
-        "value": "4027\u00b0C (sublimes)"
+        "value": "4027°C (sublimes)"
       },
       {
         "rank": 13,
         "code": "B",
-        "value": "3927\u00b0C"
+        "value": "3927°C"
       },
       {
         "rank": 14,
         "code": "Rh",
-        "value": "3695\u00b0C"
+        "value": "3695°C"
       },
       {
         "rank": 15,
         "code": "V",
-        "value": "3407\u00b0C"
+        "value": "3407°C"
       }
     ],
     "disclaimer": null,
@@ -36121,77 +36121,77 @@
       {
         "rank": 1,
         "code": "He",
-        "value": "-268.9\u00b0C"
+        "value": "-268.9°C"
       },
       {
         "rank": 2,
         "code": "H",
-        "value": "-252.9\u00b0C"
+        "value": "-252.9°C"
       },
       {
         "rank": 3,
         "code": "Ne",
-        "value": "-246.0\u00b0C"
+        "value": "-246.0°C"
       },
       {
         "rank": 4,
         "code": "N",
-        "value": "-195.8\u00b0C"
+        "value": "-195.8°C"
       },
       {
         "rank": 5,
         "code": "F",
-        "value": "-188.1\u00b0C"
+        "value": "-188.1°C"
       },
       {
         "rank": 6,
         "code": "Ar",
-        "value": "-185.8\u00b0C"
+        "value": "-185.8°C"
       },
       {
         "rank": 7,
         "code": "O",
-        "value": "-183.0\u00b0C"
+        "value": "-183.0°C"
       },
       {
         "rank": 8,
         "code": "Kr",
-        "value": "-153.2\u00b0C"
+        "value": "-153.2°C"
       },
       {
         "rank": 9,
         "code": "Xe",
-        "value": "-108.1\u00b0C"
+        "value": "-108.1°C"
       },
       {
         "rank": 10,
         "code": "Rn",
-        "value": "-61.7\u00b0C"
+        "value": "-61.7°C"
       },
       {
         "rank": 11,
         "code": "Cl",
-        "value": "-34.0\u00b0C"
+        "value": "-34.0°C"
       },
       {
         "rank": 12,
         "code": "Br",
-        "value": "58.8\u00b0C"
+        "value": "58.8°C"
       },
       {
         "rank": 13,
         "code": "Og",
-        "value": "approx 80\u00b0C (predicted)"
+        "value": "approx 80°C (predicted)"
       },
       {
         "rank": 14,
         "code": "Hg",
-        "value": "356.7\u00b0C"
+        "value": "356.7°C"
       },
       {
         "rank": 15,
         "code": "Fr",
-        "value": "677\u00b0C (estimated)"
+        "value": "677°C (estimated)"
       }
     ],
     "disclaimer": null,
