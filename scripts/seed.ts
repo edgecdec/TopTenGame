@@ -11,18 +11,24 @@ const db = getDb();
 const insertCountry = db.prepare("INSERT OR REPLACE INTO countries (code, name) VALUES (?, ?)");
 const insertQuestion = db.prepare(
   `INSERT OR REPLACE INTO questions
-   (id, theme, title, prompt, answer_type, seeded_depth, source_name, source_url, source_as_of, note)
-   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+   (id, theme, subtheme, title, prompt, answer_type, seeded_depth, source_name, source_url, source_as_of, note)
+   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 );
 const deleteAnswers = db.prepare("DELETE FROM answers WHERE question_id = ?");
 const insertAnswer = db.prepare("INSERT INTO answers (question_id, rank, code, value) VALUES (?, ?, ?, ?)");
 
+type SeedQuestion = Question & { note?: string | null; subtheme?: string | null };
+
 const runSeed = db.transaction(() => {
+  // Wipe questions/answers so removed research files don't leave stale rows behind.
+  db.prepare("DELETE FROM answers").run();
+  db.prepare("DELETE FROM questions").run();
   for (const c of countries) insertCountry.run(c.code, c.name);
-  for (const q of questions) {
+  for (const q of questions as SeedQuestion[]) {
     insertQuestion.run(
       q.id,
       q.theme,
+      q.subtheme ?? null,
       q.title,
       q.prompt,
       q.answerType,
@@ -30,9 +36,8 @@ const runSeed = db.transaction(() => {
       q.source.name,
       q.source.url,
       q.source.asOf,
-      (q as Question & { note?: string }).note ?? null
+      q.note ?? null
     );
-    deleteAnswers.run(q.id);
     for (const a of q.answers) insertAnswer.run(q.id, a.rank, a.code, a.value);
   }
 });

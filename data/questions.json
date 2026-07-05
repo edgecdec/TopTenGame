@@ -7,31 +7,111 @@
     "answerType": "country",
     "seededDepth": 20,
     "source": {
-      "name": "World Bank Open Data — Population, total (SP.POP.TOTL), sourced from UN DESA World Population Prospects 2024 Revision",
+      "name": "World Bank Open Data \u2014 Population, total (SP.POP.TOTL), sourced from UN DESA World Population Prospects 2024 Revision",
       "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
       "asOf": "2024 (mid-year estimate)"
     },
     "answers": [
-      { "rank": 1, "code": "IN", "value": "1,450,935,791" },
-      { "rank": 2, "code": "CN", "value": "1,408,975,000" },
-      { "rank": 3, "code": "US", "value": "340,003,797" },
-      { "rank": 4, "code": "ID", "value": "283,487,931" },
-      { "rank": 5, "code": "PK", "value": "251,269,164" },
-      { "rank": 6, "code": "NG", "value": "232,679,478" },
-      { "rank": 7, "code": "BR", "value": "211,998,573" },
-      { "rank": 8, "code": "BD", "value": "173,562,364" },
-      { "rank": 9, "code": "RU", "value": "143,669,648" },
-      { "rank": 10, "code": "ET", "value": "132,059,767" },
-      { "rank": 11, "code": "MX", "value": "130,861,007" },
-      { "rank": 12, "code": "JP", "value": "123,975,371" },
-      { "rank": 13, "code": "EG", "value": "116,538,258" },
-      { "rank": 14, "code": "PH", "value": "115,843,670" },
-      { "rank": 15, "code": "CD", "value": "109,276,265" },
-      { "rank": 16, "code": "VN", "value": "100,987,686" },
-      { "rank": 17, "code": "IR", "value": "91,567,738" },
-      { "rank": 18, "code": "TR", "value": "85,518,661" },
-      { "rank": 19, "code": "DE", "value": "83,516,593" },
-      { "rank": 20, "code": "TH", "value": "71,668,011" }
+      {
+        "rank": 1,
+        "code": "IN",
+        "value": "1,450,935,791"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "1,408,975,000"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "340,003,797"
+      },
+      {
+        "rank": 4,
+        "code": "ID",
+        "value": "283,487,931"
+      },
+      {
+        "rank": 5,
+        "code": "PK",
+        "value": "251,269,164"
+      },
+      {
+        "rank": 6,
+        "code": "NG",
+        "value": "232,679,478"
+      },
+      {
+        "rank": 7,
+        "code": "BR",
+        "value": "211,998,573"
+      },
+      {
+        "rank": 8,
+        "code": "BD",
+        "value": "173,562,364"
+      },
+      {
+        "rank": 9,
+        "code": "RU",
+        "value": "143,669,648"
+      },
+      {
+        "rank": 10,
+        "code": "ET",
+        "value": "132,059,767"
+      },
+      {
+        "rank": 11,
+        "code": "MX",
+        "value": "130,861,007"
+      },
+      {
+        "rank": 12,
+        "code": "JP",
+        "value": "123,975,371"
+      },
+      {
+        "rank": 13,
+        "code": "EG",
+        "value": "116,538,258"
+      },
+      {
+        "rank": 14,
+        "code": "PH",
+        "value": "115,843,670"
+      },
+      {
+        "rank": 15,
+        "code": "CD",
+        "value": "109,276,265"
+      },
+      {
+        "rank": 16,
+        "code": "VN",
+        "value": "100,987,686"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "91,567,738"
+      },
+      {
+        "rank": 18,
+        "code": "TR",
+        "value": "85,518,661"
+      },
+      {
+        "rank": 19,
+        "code": "DE",
+        "value": "83,516,593"
+      },
+      {
+        "rank": 20,
+        "code": "TH",
+        "value": "71,668,011"
+      }
     ]
   },
   {
@@ -42,32 +122,112 @@
     "answerType": "country",
     "seededDepth": 20,
     "source": {
-      "name": "United Nations Statistics Division — Demographic Yearbook",
+      "name": "United Nations Statistics Division \u2014 Demographic Yearbook",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_area",
-      "asOf": "UNSD Demographic Yearbook (2020–2023)"
+      "asOf": "UNSD Demographic Yearbook (2020\u20132023)"
     },
     "note": "Total area = land + inland waters. Territorial seas and EEZs excluded. This UN convention places China above the US at #3.",
     "answers": [
-      { "rank": 1, "code": "RU", "value": "17,098,246 km²" },
-      { "rank": 2, "code": "CA", "value": "9,984,670 km²" },
-      { "rank": 3, "code": "CN", "value": "9,596,960 km²" },
-      { "rank": 4, "code": "US", "value": "9,525,067 km²" },
-      { "rank": 5, "code": "BR", "value": "8,510,346 km²" },
-      { "rank": 6, "code": "AU", "value": "7,741,220 km²" },
-      { "rank": 7, "code": "IN", "value": "3,287,263 km²" },
-      { "rank": 8, "code": "AR", "value": "2,780,400 km²" },
-      { "rank": 9, "code": "KZ", "value": "2,724,910 km²" },
-      { "rank": 10, "code": "DZ", "value": "2,381,741 km²" },
-      { "rank": 11, "code": "CD", "value": "2,344,858 km²" },
-      { "rank": 12, "code": "SA", "value": "2,149,690 km²" },
-      { "rank": 13, "code": "MX", "value": "1,964,375 km²" },
-      { "rank": 14, "code": "ID", "value": "1,904,569 km²" },
-      { "rank": 15, "code": "SD", "value": "1,878,000 km²" },
-      { "rank": 16, "code": "LY", "value": "1,759,540 km²" },
-      { "rank": 17, "code": "IR", "value": "1,648,195 km²" },
-      { "rank": 18, "code": "MN", "value": "1,564,116 km²" },
-      { "rank": 19, "code": "PE", "value": "1,285,216 km²" },
-      { "rank": 20, "code": "TD", "value": "1,284,000 km²" }
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "17,098,246 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "9,984,670 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "CN",
+        "value": "9,596,960 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "9,525,067 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "8,510,346 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "AU",
+        "value": "7,741,220 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "IN",
+        "value": "3,287,263 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "AR",
+        "value": "2,780,400 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "KZ",
+        "value": "2,724,910 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "DZ",
+        "value": "2,381,741 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "CD",
+        "value": "2,344,858 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "SA",
+        "value": "2,149,690 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "1,964,375 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "ID",
+        "value": "1,904,569 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "SD",
+        "value": "1,878,000 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "LY",
+        "value": "1,759,540 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "1,648,195 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "MN",
+        "value": "1,564,116 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "PE",
+        "value": "1,285,216 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "TD",
+        "value": "1,284,000 km\u00b2"
+      }
     ]
   },
   {
@@ -84,26 +244,106 @@
     },
     "note": "Nominal GDP in USD billions, not PPP.",
     "answers": [
-      { "rank": 1, "code": "US", "value": "$29,298B" },
-      { "rank": 2, "code": "CN", "value": "$18,945B" },
-      { "rank": 3, "code": "DE", "value": "$4,684B" },
-      { "rank": 4, "code": "JP", "value": "$4,190B" },
-      { "rank": 5, "code": "IN", "value": "$3,761B" },
-      { "rank": 6, "code": "GB", "value": "$3,695B" },
-      { "rank": 7, "code": "FR", "value": "$3,161B" },
-      { "rank": 8, "code": "IT", "value": "$2,383B" },
-      { "rank": 9, "code": "CA", "value": "$2,270B" },
-      { "rank": 10, "code": "BR", "value": "$2,186B" },
-      { "rank": 11, "code": "RU", "value": "$2,186B" },
-      { "rank": 12, "code": "KR", "value": "$1,875B" },
-      { "rank": 13, "code": "MX", "value": "$1,830B" },
-      { "rank": 14, "code": "AU", "value": "$1,799B" },
-      { "rank": 15, "code": "ES", "value": "$1,725B" },
-      { "rank": 16, "code": "ID", "value": "$1,396B" },
-      { "rank": 17, "code": "TR", "value": "$1,358B" },
-      { "rank": 18, "code": "SA", "value": "$1,254B" },
-      { "rank": 19, "code": "NL", "value": "$1,215B" },
-      { "rank": 20, "code": "CH", "value": "$970B" }
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "$29,298B"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "$18,945B"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "$4,684B"
+      },
+      {
+        "rank": 4,
+        "code": "JP",
+        "value": "$4,190B"
+      },
+      {
+        "rank": 5,
+        "code": "IN",
+        "value": "$3,761B"
+      },
+      {
+        "rank": 6,
+        "code": "GB",
+        "value": "$3,695B"
+      },
+      {
+        "rank": 7,
+        "code": "FR",
+        "value": "$3,161B"
+      },
+      {
+        "rank": 8,
+        "code": "IT",
+        "value": "$2,383B"
+      },
+      {
+        "rank": 9,
+        "code": "CA",
+        "value": "$2,270B"
+      },
+      {
+        "rank": 10,
+        "code": "BR",
+        "value": "$2,186B"
+      },
+      {
+        "rank": 11,
+        "code": "RU",
+        "value": "$2,186B"
+      },
+      {
+        "rank": 12,
+        "code": "KR",
+        "value": "$1,875B"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "$1,830B"
+      },
+      {
+        "rank": 14,
+        "code": "AU",
+        "value": "$1,799B"
+      },
+      {
+        "rank": 15,
+        "code": "ES",
+        "value": "$1,725B"
+      },
+      {
+        "rank": 16,
+        "code": "ID",
+        "value": "$1,396B"
+      },
+      {
+        "rank": 17,
+        "code": "TR",
+        "value": "$1,358B"
+      },
+      {
+        "rank": 18,
+        "code": "SA",
+        "value": "$1,254B"
+      },
+      {
+        "rank": 19,
+        "code": "NL",
+        "value": "$1,215B"
+      },
+      {
+        "rank": 20,
+        "code": "CH",
+        "value": "$970B"
+      }
     ]
   },
   {
@@ -120,21 +360,81 @@
     },
     "note": "Ties are broken alphabetically. Rank 11 (Japan/USA) and rank 14 (Canada/Turkey) are two-way ties.",
     "answers": [
-      { "rank": 1, "code": "IT", "value": "61 sites" },
-      { "rank": 2, "code": "CN", "value": "60 sites" },
-      { "rank": 3, "code": "DE", "value": "55 sites" },
-      { "rank": 4, "code": "FR", "value": "54 sites" },
-      { "rank": 5, "code": "ES", "value": "50 sites" },
-      { "rank": 6, "code": "IN", "value": "44 sites" },
-      { "rank": 7, "code": "MX", "value": "36 sites" },
-      { "rank": 8, "code": "GB", "value": "35 sites" },
-      { "rank": 9, "code": "RU", "value": "33 sites" },
-      { "rank": 10, "code": "IR", "value": "29 sites" },
-      { "rank": 11, "code": "JP", "value": "26 sites (tied)" },
-      { "rank": 12, "code": "US", "value": "26 sites (tied)" },
-      { "rank": 13, "code": "BR", "value": "25 sites" },
-      { "rank": 14, "code": "CA", "value": "22 sites (tied)" },
-      { "rank": 15, "code": "TR", "value": "22 sites (tied)" }
+      {
+        "rank": 1,
+        "code": "IT",
+        "value": "61 sites"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "60 sites"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "55 sites"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "54 sites"
+      },
+      {
+        "rank": 5,
+        "code": "ES",
+        "value": "50 sites"
+      },
+      {
+        "rank": 6,
+        "code": "IN",
+        "value": "44 sites"
+      },
+      {
+        "rank": 7,
+        "code": "MX",
+        "value": "36 sites"
+      },
+      {
+        "rank": 8,
+        "code": "GB",
+        "value": "35 sites"
+      },
+      {
+        "rank": 9,
+        "code": "RU",
+        "value": "33 sites"
+      },
+      {
+        "rank": 10,
+        "code": "IR",
+        "value": "29 sites"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "26 sites (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "US",
+        "value": "26 sites (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "25 sites"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "22 sites (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "22 sites (tied)"
+      }
     ]
   },
   {
@@ -145,30 +445,6594 @@
     "answerType": "country",
     "seededDepth": 18,
     "source": {
-      "name": "UN Tourism (UNWTO) — World Tourism Barometer, May 2024",
+      "name": "UN Tourism (UNWTO) \u2014 World Tourism Barometer, May 2024",
       "url": "https://www.unwto.org/tourism-data/global-and-regional-tourism-performance",
       "asOf": "2023"
     },
-    "note": "Hong Kong and Macau are excluded — they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
+    "note": "Hong Kong and Macau are excluded \u2014 they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
     "answers": [
-      { "rank": 1, "code": "FR", "value": "100.0M arrivals" },
-      { "rank": 2, "code": "ES", "value": "85.2M arrivals" },
-      { "rank": 3, "code": "US", "value": "66.5M arrivals" },
-      { "rank": 4, "code": "TR", "value": "57.2M arrivals" },
-      { "rank": 5, "code": "IT", "value": "57.3M arrivals" },
-      { "rank": 6, "code": "MX", "value": "42.2M arrivals" },
-      { "rank": 7, "code": "GB", "value": "37.2M arrivals" },
-      { "rank": 8, "code": "CN", "value": "35.5M arrivals" },
-      { "rank": 9, "code": "DE", "value": "34.8M arrivals" },
-      { "rank": 10, "code": "GR", "value": "32.7M arrivals" },
-      { "rank": 11, "code": "AT", "value": "30.9M arrivals" },
-      { "rank": 12, "code": "TH", "value": "28.2M arrivals" },
-      { "rank": 13, "code": "SA", "value": "27.0M arrivals" },
-      { "rank": 14, "code": "PT", "value": "26.5M arrivals" },
-      { "rank": 15, "code": "JP", "value": "25.1M arrivals" },
-      { "rank": 16, "code": "NL", "value": "20.3M arrivals" },
-      { "rank": 17, "code": "MY", "value": "20.1M arrivals" },
-      { "rank": 18, "code": "CA", "value": "18.3M arrivals" }
+      {
+        "rank": 1,
+        "code": "FR",
+        "value": "100.0M arrivals"
+      },
+      {
+        "rank": 2,
+        "code": "ES",
+        "value": "85.2M arrivals"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "66.5M arrivals"
+      },
+      {
+        "rank": 4,
+        "code": "TR",
+        "value": "57.2M arrivals"
+      },
+      {
+        "rank": 5,
+        "code": "IT",
+        "value": "57.3M arrivals"
+      },
+      {
+        "rank": 6,
+        "code": "MX",
+        "value": "42.2M arrivals"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "37.2M arrivals"
+      },
+      {
+        "rank": 8,
+        "code": "CN",
+        "value": "35.5M arrivals"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "34.8M arrivals"
+      },
+      {
+        "rank": 10,
+        "code": "GR",
+        "value": "32.7M arrivals"
+      },
+      {
+        "rank": 11,
+        "code": "AT",
+        "value": "30.9M arrivals"
+      },
+      {
+        "rank": 12,
+        "code": "TH",
+        "value": "28.2M arrivals"
+      },
+      {
+        "rank": 13,
+        "code": "SA",
+        "value": "27.0M arrivals"
+      },
+      {
+        "rank": 14,
+        "code": "PT",
+        "value": "26.5M arrivals"
+      },
+      {
+        "rank": 15,
+        "code": "JP",
+        "value": "25.1M arrivals"
+      },
+      {
+        "rank": 16,
+        "code": "NL",
+        "value": "20.3M arrivals"
+      },
+      {
+        "rank": 17,
+        "code": "MY",
+        "value": "20.1M arrivals"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "18.3M arrivals"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-nobel-prize-laureates-by-country-2024",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most Nobel Prize laureates by country",
+    "prompt": "Name the countries with the most Nobel Prize laureates (all categories, all-time).",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "Wikipedia \u2014 List of Nobel laureates by country (summarizing Nobel Foundation records)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Nobel_laureates_by_country",
+      "asOf": "Through 2024 Nobel Prizes"
+    },
+    "note": "Attribution follows the Nobel Committee's country association for each laureate (which may include country of birth, citizenship, or affiliated institution). Some laureates count under multiple countries. Counts include Peace Prize.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "425 laureates"
+      },
+      {
+        "rank": 2,
+        "code": "GB",
+        "value": "144 laureates"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "116 laureates"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "78 laureates"
+      },
+      {
+        "rank": 5,
+        "code": "SE",
+        "value": "34 laureates"
+      },
+      {
+        "rank": 6,
+        "code": "JP",
+        "value": "33 laureates"
+      },
+      {
+        "rank": 7,
+        "code": "RU",
+        "value": "30 laureates"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "29 laureates"
+      },
+      {
+        "rank": 9,
+        "code": "CH",
+        "value": "27 laureates"
+      },
+      {
+        "rank": 10,
+        "code": "AT",
+        "value": "25 laureates"
+      },
+      {
+        "rank": 11,
+        "code": "NL",
+        "value": "22 laureates"
+      },
+      {
+        "rank": 12,
+        "code": "IT",
+        "value": "21 laureates"
+      },
+      {
+        "rank": 13,
+        "code": "PL",
+        "value": "18 laureates"
+      },
+      {
+        "rank": 14,
+        "code": "HU",
+        "value": "16 laureates"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "15 laureates"
+      },
+      {
+        "rank": 16,
+        "code": "IL",
+        "value": "14 laureates (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "DK",
+        "value": "14 laureates (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "14 laureates (tied)"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-oscar-wins-for-best-international-feature-film-2024",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most Oscar wins for Best International Feature Film",
+    "prompt": "Name the countries with the most Academy Awards for Best International Feature Film (formerly Best Foreign Language Film).",
+    "answerType": "country",
+    "seededDepth": 14,
+    "source": {
+      "name": "Academy of Motion Picture Arts and Sciences (AMPAS) \u2014 Best International Feature Film records",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film",
+      "asOf": "Through 96th Academy Awards (2024 ceremony)"
+    },
+    "note": "Includes Special/Honorary Awards for foreign-language films (e.g., prior to the competitive category's 1956 inception). Germany and West Germany, and the Soviet Union and Russia, are counted separately per Academy convention.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IT",
+        "value": "14 wins"
+      },
+      {
+        "rank": 2,
+        "code": "FR",
+        "value": "12 wins"
+      },
+      {
+        "rank": 3,
+        "code": "JP",
+        "value": "5 wins"
+      },
+      {
+        "rank": 4,
+        "code": "ES",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "DK",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "SE",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "DE",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NL",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "HU",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "AR",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "CZ",
+        "value": "2 wins (tied, historical)"
+      },
+      {
+        "rank": 10,
+        "code": "CH",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "AT",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "IR",
+        "value": "2 wins (tied)"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-eurovision-song-contest-wins-2024",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most Eurovision Song Contest wins",
+    "prompt": "Name the countries with the most Eurovision Song Contest wins.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "European Broadcasting Union (EBU) \u2014 Eurovision Song Contest",
+      "url": "https://eurovision.tv/history",
+      "asOf": "Through Eurovision 2024 (won by Switzerland)"
+    },
+    "note": "Ireland and Sweden are tied at 7 wins. Ireland is the only country to win three times in a row (1992-1994).",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IE",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "SE",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "FR",
+        "value": "5 wins"
+      },
+      {
+        "rank": 4,
+        "code": "LU",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "NL",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "IL",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NO",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "DK",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CH",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "UA",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "AT",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "DE",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "2 wins (tied)"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-michelin-three-star-restaurants-2025",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most Michelin three-star restaurants",
+    "prompt": "Name the countries with the most Michelin three-star restaurants.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Michelin Guide \u2014 2025 Three-Star Restaurants",
+      "url": "https://guide.michelin.com/en/restaurants/3-stars-michelin",
+      "asOf": "2025 Michelin Guides (156 three-star restaurants worldwide)"
+    },
+    "note": "Only counts the highest tier (three Michelin stars). France total includes Monaco per Michelin's Guide France. Michelin only publishes guides in countries/regions where it operates, so unrated countries could theoretically host high-quality restaurants.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FR",
+        "value": "31 three-star restaurants"
+      },
+      {
+        "rank": 2,
+        "code": "JP",
+        "value": "20 three-star restaurants"
+      },
+      {
+        "rank": 3,
+        "code": "ES",
+        "value": "16 three-star restaurants (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "16 three-star restaurants (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "IT",
+        "value": "15 three-star restaurants"
+      },
+      {
+        "rank": 6,
+        "code": "CN",
+        "value": "12 three-star restaurants (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "DE",
+        "value": "12 three-star restaurants (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "GB",
+        "value": "10 three-star restaurants"
+      },
+      {
+        "rank": 9,
+        "code": "CH",
+        "value": "4 three-star restaurants"
+      },
+      {
+        "rank": 10,
+        "code": "DK",
+        "value": "3 three-star restaurants (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "SG",
+        "value": "3 three-star restaurants (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "TW",
+        "value": "3 three-star restaurants (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "2 three-star restaurants (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "2 three-star restaurants (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "2 three-star restaurants (tied)"
+      }
+    ]
+  },
+  {
+    "id": "culture-largest-video-game-markets-by-revenue-2025",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Largest video game markets by revenue",
+    "prompt": "Name the countries with the largest video game markets by consumer revenue.",
+    "answerType": "country",
+    "seededDepth": 10,
+    "source": {
+      "name": "Newzoo \u2014 Global Games Market Report",
+      "url": "https://newzoo.com/resources/rankings/top-10-countries-by-game-revenues",
+      "asOf": "2025 (Newzoo estimates, USD)"
+    },
+    "note": "Includes revenue from console, PC, and mobile games (excluding hardware, tax, and B2B services).",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "$53.2B"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "$49.8B"
+      },
+      {
+        "rank": 3,
+        "code": "JP",
+        "value": "$17.6B"
+      },
+      {
+        "rank": 4,
+        "code": "KR",
+        "value": "$7.8B"
+      },
+      {
+        "rank": 5,
+        "code": "DE",
+        "value": "$7.0B"
+      },
+      {
+        "rank": 6,
+        "code": "GB",
+        "value": "$6.6B"
+      },
+      {
+        "rank": 7,
+        "code": "FR",
+        "value": "$4.1B"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "$3.1B"
+      },
+      {
+        "rank": 9,
+        "code": "BR",
+        "value": "$2.7B (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "MX",
+        "value": "$2.7B (tied)"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-spoken-languages-by-native-speakers-primary-country-2023",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most-spoken languages by native speakers (primary country)",
+    "prompt": "Name the primary country (origin / largest native-speaker country) for each of the world's most-spoken native languages.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Ethnologue (26th edition) \u2014 Languages by number of native (L1) speakers",
+      "url": "https://www.ethnologue.com/insights/ethnologue200/",
+      "asOf": "Ethnologue 26th edition (2023)"
+    },
+    "note": "Each entry pairs a top-ranked language with the country most closely identified as its origin or largest native-speaker base. Ethnologue splits Chinese and Arabic into individual varieties (Mandarin, Yue, Wu; Egyptian Arabic, etc.) rather than treating each as a single macrolanguage.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "~988M native speakers"
+      },
+      {
+        "rank": 2,
+        "code": "ES",
+        "value": "~487M native speakers"
+      },
+      {
+        "rank": 3,
+        "code": "GB",
+        "value": "~372M native speakers"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "~347M native speakers"
+      },
+      {
+        "rank": 5,
+        "code": "PT",
+        "value": "~252M native speakers"
+      },
+      {
+        "rank": 6,
+        "code": "BD",
+        "value": "~232M native speakers"
+      },
+      {
+        "rank": 7,
+        "code": "RU",
+        "value": "~133M native speakers"
+      },
+      {
+        "rank": 8,
+        "code": "JP",
+        "value": "~124M native speakers"
+      },
+      {
+        "rank": 9,
+        "code": "PK",
+        "value": "~90M native speakers"
+      },
+      {
+        "rank": 10,
+        "code": "TR",
+        "value": "~86M native speakers (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "VN",
+        "value": "~86M native speakers (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "EG",
+        "value": "~83M native speakers (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "~83M native speakers (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "KR",
+        "value": "~82M native speakers"
+      },
+      {
+        "rank": 15,
+        "code": "FR",
+        "value": "~74M native speakers"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-english-speakers-by-country-native-second-language-2010",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most English speakers by country (native + second-language)",
+    "prompt": "Name the countries with the largest total English-speaking populations (native plus second-language speakers).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of countries by English-speaking population (compiled from national census and Ethnologue data)",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_English-speaking_population",
+      "asOf": "Compiled from most recent national censuses (2010s-2020s)"
+    },
+    "note": "Includes both native (L1) and second-language (L2) speakers. Figures are drawn from national censuses and Ethnologue and are approximate \u2014 several sources are dated.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "~299M speakers"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "~265M speakers"
+      },
+      {
+        "rank": 3,
+        "code": "NG",
+        "value": "~125M speakers"
+      },
+      {
+        "rank": 4,
+        "code": "PK",
+        "value": "~108M speakers"
+      },
+      {
+        "rank": 5,
+        "code": "ID",
+        "value": "~86M speakers"
+      },
+      {
+        "rank": 6,
+        "code": "PH",
+        "value": "~70M speakers"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "~64M speakers"
+      },
+      {
+        "rank": 8,
+        "code": "DE",
+        "value": "~46M speakers"
+      },
+      {
+        "rank": 9,
+        "code": "KE",
+        "value": "~41M speakers"
+      },
+      {
+        "rank": 10,
+        "code": "EG",
+        "value": "~39M speakers"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "~35M speakers"
+      },
+      {
+        "rank": 12,
+        "code": "ZA",
+        "value": "~31M speakers"
+      },
+      {
+        "rank": 13,
+        "code": "CA",
+        "value": "~30M speakers"
+      },
+      {
+        "rank": 14,
+        "code": "AU",
+        "value": "~23M speakers"
+      },
+      {
+        "rank": 15,
+        "code": "UG",
+        "value": "~20M speakers"
+      }
+    ]
+  },
+  {
+    "id": "culture-most-unesco-world-heritage-sites-2024",
+    "theme": "Countries",
+    "subtheme": "Culture",
+    "title": "Most UNESCO World Heritage Sites",
+    "prompt": "Name the countries with the most UNESCO World Heritage Sites.",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "UNESCO World Heritage Centre \u2014 States Parties statistics",
+      "url": "https://whc.unesco.org/en/list/stat",
+      "asOf": "Following the 46th session (July 2024)"
+    },
+    "note": "Includes cultural, natural, and mixed sites. Transnational sites (shared by multiple countries) are counted for each participating state party.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IT",
+        "value": "61 sites"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "60 sites"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "55 sites"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "53 sites"
+      },
+      {
+        "rank": 5,
+        "code": "ES",
+        "value": "50 sites"
+      },
+      {
+        "rank": 6,
+        "code": "IN",
+        "value": "43 sites"
+      },
+      {
+        "rank": 7,
+        "code": "MX",
+        "value": "35 sites (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "35 sites (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "RU",
+        "value": "32 sites"
+      },
+      {
+        "rank": 10,
+        "code": "IR",
+        "value": "28 sites"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "26 sites (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "US",
+        "value": "26 sites (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "25 sites"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "22 sites"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "21 sites (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "21 sites (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "GR",
+        "value": "19 sites"
+      },
+      {
+        "rank": 18,
+        "code": "PT",
+        "value": "18 sites"
+      }
+    ]
+  },
+  {
+    "id": "environment-largest-total-co2-emissions-annual-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Largest total CO2 emissions (annual)",
+    "prompt": "Name the countries that emit the most CO2 from fossil fuels and industry each year.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Global Carbon Project / Our World in Data \u2014 Annual CO2 emissions",
+      "url": "https://ourworldindata.org/co2-emissions",
+      "asOf": "2023 data (published 2024)"
+    },
+    "note": "Fossil fuel + industry CO2 only (excludes land-use change). China alone emits roughly as much as the next three combined.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "11.9 Gt CO2"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "4.9 Gt CO2"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "3.1 Gt CO2"
+      },
+      {
+        "rank": 4,
+        "code": "RU",
+        "value": "1.8 Gt CO2"
+      },
+      {
+        "rank": 5,
+        "code": "JP",
+        "value": "1.0 Gt CO2"
+      },
+      {
+        "rank": 6,
+        "code": "IR",
+        "value": "0.78 Gt CO2"
+      },
+      {
+        "rank": 7,
+        "code": "ID",
+        "value": "0.73 Gt CO2"
+      },
+      {
+        "rank": 8,
+        "code": "SA",
+        "value": "0.72 Gt CO2"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "0.67 Gt CO2"
+      },
+      {
+        "rank": 10,
+        "code": "KR",
+        "value": "0.62 Gt CO2"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "0.58 Gt CO2"
+      },
+      {
+        "rank": 12,
+        "code": "BR",
+        "value": "0.51 Gt CO2"
+      },
+      {
+        "rank": 13,
+        "code": "TR",
+        "value": "0.44 Gt CO2"
+      },
+      {
+        "rank": 14,
+        "code": "MX",
+        "value": "0.42 Gt CO2"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "0.39 Gt CO2"
+      }
+    ]
+  },
+  {
+    "id": "environment-highest-co2-emissions-per-capita-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Highest CO2 emissions per capita",
+    "prompt": "Name the countries that emit the most CO2 per person from fossil fuels and industry.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Global Carbon Project / Our World in Data \u2014 Per capita CO2 emissions",
+      "url": "https://ourworldindata.org/co2-emissions",
+      "asOf": "2023 data (published 2024)"
+    },
+    "note": "Small oil/gas states dominate the top ranks \u2014 that's the point of this leaderboard. Excludes tiny territories under 100k population.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "QA",
+        "value": "37.6 t CO2 per person"
+      },
+      {
+        "rank": 2,
+        "code": "BH",
+        "value": "26.7 t CO2 per person"
+      },
+      {
+        "rank": 3,
+        "code": "KW",
+        "value": "24.9 t CO2 per person"
+      },
+      {
+        "rank": 4,
+        "code": "AE",
+        "value": "22.6 t CO2 per person"
+      },
+      {
+        "rank": 5,
+        "code": "BN",
+        "value": "22.1 t CO2 per person"
+      },
+      {
+        "rank": 6,
+        "code": "SA",
+        "value": "18.2 t CO2 per person"
+      },
+      {
+        "rank": 7,
+        "code": "AU",
+        "value": "14.9 t CO2 per person"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "14.3 t CO2 per person"
+      },
+      {
+        "rank": 9,
+        "code": "OM",
+        "value": "14.2 t CO2 per person"
+      },
+      {
+        "rank": 10,
+        "code": "KZ",
+        "value": "14.0 t CO2 per person"
+      },
+      {
+        "rank": 11,
+        "code": "US",
+        "value": "14.3 t CO2 per person"
+      },
+      {
+        "rank": 12,
+        "code": "RU",
+        "value": "12.5 t CO2 per person"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "11.9 t CO2 per person"
+      },
+      {
+        "rank": 14,
+        "code": "TW",
+        "value": "11.3 t CO2 per person"
+      },
+      {
+        "rank": 15,
+        "code": "TM",
+        "value": "10.9 t CO2 per person"
+      }
+    ]
+  },
+  {
+    "id": "environment-highest-share-of-electricity-from-renewables-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Highest share of electricity from renewables",
+    "prompt": "Name the countries where renewables make up the largest share of electricity generation.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Ember \u2014 Global Electricity Review",
+      "url": "https://ember-energy.org/data/electricity-data-explorer/",
+      "asOf": "2023 data (published 2024)"
+    },
+    "note": "Renewables = hydro + wind + solar + bioenergy + geothermal. Several countries approach 100% thanks to hydro (Norway, Paraguay, Bhutan, Nepal, DRC, Ethiopia, Costa Rica).",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "PY",
+        "value": "~100% renewable electricity"
+      },
+      {
+        "rank": 2,
+        "code": "BT",
+        "value": "~100% renewable electricity"
+      },
+      {
+        "rank": 3,
+        "code": "NP",
+        "value": "~99% renewable electricity"
+      },
+      {
+        "rank": 4,
+        "code": "ET",
+        "value": "~99% renewable electricity"
+      },
+      {
+        "rank": 5,
+        "code": "CD",
+        "value": "~99% renewable electricity"
+      },
+      {
+        "rank": 6,
+        "code": "NO",
+        "value": "98% renewable electricity"
+      },
+      {
+        "rank": 7,
+        "code": "IS",
+        "value": "~100% renewable electricity"
+      },
+      {
+        "rank": 8,
+        "code": "CR",
+        "value": "95% renewable electricity"
+      },
+      {
+        "rank": 9,
+        "code": "AL",
+        "value": "~100% renewable electricity"
+      },
+      {
+        "rank": 10,
+        "code": "TJ",
+        "value": "~93% renewable electricity"
+      },
+      {
+        "rank": 11,
+        "code": "NZ",
+        "value": "88% renewable electricity"
+      },
+      {
+        "rank": 12,
+        "code": "BR",
+        "value": "89% renewable electricity"
+      },
+      {
+        "rank": 13,
+        "code": "CO",
+        "value": "76% renewable electricity"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "68% renewable electricity"
+      },
+      {
+        "rank": 15,
+        "code": "SE",
+        "value": "68% renewable electricity"
+      }
+    ]
+  },
+  {
+    "id": "environment-largest-installed-solar-power-capacity-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Largest installed solar power capacity",
+    "prompt": "Name the countries with the most solar photovoltaic capacity installed.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IRENA \u2014 Renewable Capacity Statistics",
+      "url": "https://www.irena.org/Publications/2024/Mar/Renewable-capacity-statistics-2024",
+      "asOf": "End of 2023"
+    },
+    "note": "China's solar fleet is bigger than the rest of the top 10 combined. Rankings shift fast \u2014 China added another ~275 GW in 2024 alone.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "609 GW installed"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "139 GW installed"
+      },
+      {
+        "rank": 3,
+        "code": "JP",
+        "value": "89 GW installed"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "82 GW installed"
+      },
+      {
+        "rank": 5,
+        "code": "IN",
+        "value": "73 GW installed"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "30 GW installed"
+      },
+      {
+        "rank": 7,
+        "code": "AU",
+        "value": "34 GW installed"
+      },
+      {
+        "rank": 8,
+        "code": "ES",
+        "value": "28 GW installed"
+      },
+      {
+        "rank": 9,
+        "code": "BR",
+        "value": "37 GW installed"
+      },
+      {
+        "rank": 10,
+        "code": "NL",
+        "value": "23 GW installed"
+      },
+      {
+        "rank": 11,
+        "code": "KR",
+        "value": "24 GW installed"
+      },
+      {
+        "rank": 12,
+        "code": "FR",
+        "value": "22 GW installed"
+      },
+      {
+        "rank": 13,
+        "code": "VN",
+        "value": "19 GW installed"
+      },
+      {
+        "rank": 14,
+        "code": "GB",
+        "value": "16 GW installed"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "12 GW installed"
+      }
+    ]
+  },
+  {
+    "id": "environment-largest-installed-wind-power-capacity-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Largest installed wind power capacity",
+    "prompt": "Name the countries with the most wind power capacity installed (onshore + offshore).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IRENA \u2014 Renewable Capacity Statistics / Global Wind Energy Council",
+      "url": "https://www.irena.org/Publications/2024/Mar/Renewable-capacity-statistics-2024",
+      "asOf": "End of 2023"
+    },
+    "note": "China and the U.S. hold roughly two-thirds of global wind capacity between them.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "441 GW installed"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "148 GW installed"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "69 GW installed"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "45 GW installed"
+      },
+      {
+        "rank": 5,
+        "code": "ES",
+        "value": "31 GW installed"
+      },
+      {
+        "rank": 6,
+        "code": "BR",
+        "value": "30 GW installed"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "30 GW installed"
+      },
+      {
+        "rank": 8,
+        "code": "FR",
+        "value": "22 GW installed"
+      },
+      {
+        "rank": 9,
+        "code": "CA",
+        "value": "17 GW installed"
+      },
+      {
+        "rank": 10,
+        "code": "SE",
+        "value": "16 GW installed"
+      },
+      {
+        "rank": 11,
+        "code": "TR",
+        "value": "12 GW installed"
+      },
+      {
+        "rank": 12,
+        "code": "IT",
+        "value": "12 GW installed"
+      },
+      {
+        "rank": 13,
+        "code": "AU",
+        "value": "11 GW installed"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "11 GW installed"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "9 GW installed"
+      }
+    ]
+  },
+  {
+    "id": "environment-largest-nuclear-power-generation-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Largest nuclear power generation",
+    "prompt": "Name the countries that generate the most electricity from nuclear power.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IAEA PRIS / EIA International Electricity Data",
+      "url": "https://pris.iaea.org/PRIS/",
+      "asOf": "2023 data"
+    },
+    "note": "Ranked by annual electricity generated (TWh), not reactor count. France gets ~65% of its electricity from nuclear \u2014 the highest share of any large economy.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "775 TWh"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "412 TWh"
+      },
+      {
+        "rank": 3,
+        "code": "FR",
+        "value": "323 TWh"
+      },
+      {
+        "rank": 4,
+        "code": "RU",
+        "value": "218 TWh"
+      },
+      {
+        "rank": 5,
+        "code": "KR",
+        "value": "180 TWh"
+      },
+      {
+        "rank": 6,
+        "code": "CA",
+        "value": "86 TWh"
+      },
+      {
+        "rank": 7,
+        "code": "UA",
+        "value": "51 TWh"
+      },
+      {
+        "rank": 8,
+        "code": "ES",
+        "value": "55 TWh"
+      },
+      {
+        "rank": 9,
+        "code": "JP",
+        "value": "77 TWh"
+      },
+      {
+        "rank": 10,
+        "code": "SE",
+        "value": "47 TWh"
+      },
+      {
+        "rank": 11,
+        "code": "GB",
+        "value": "37 TWh"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "48 TWh"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "34 TWh"
+      },
+      {
+        "rank": 14,
+        "code": "CZ",
+        "value": "30 TWh"
+      },
+      {
+        "rank": 15,
+        "code": "FI",
+        "value": "35 TWh"
+      }
+    ]
+  },
+  {
+    "id": "environment-largest-forest-cover-of-land-area-2022",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Largest forest cover (% of land area)",
+    "prompt": "Name the countries where forests cover the largest share of the land area.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAO Global Forest Resources Assessment / World Bank",
+      "url": "https://www.fao.org/forest-resources-assessment/",
+      "asOf": "2022 data (World Bank, from FAO FRA)"
+    },
+    "note": "Excludes microstates and territories. Suriname and Guyana are the greenest countries on Earth by this measure. French Guiana would beat both but it's an overseas department of France.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SR",
+        "value": "97% forest cover"
+      },
+      {
+        "rank": 2,
+        "code": "GY",
+        "value": "93% forest cover"
+      },
+      {
+        "rank": 3,
+        "code": "GA",
+        "value": "91% forest cover"
+      },
+      {
+        "rank": 4,
+        "code": "FM",
+        "value": "92% forest cover"
+      },
+      {
+        "rank": 5,
+        "code": "SB",
+        "value": "77% forest cover"
+      },
+      {
+        "rank": 6,
+        "code": "PW",
+        "value": "90% forest cover"
+      },
+      {
+        "rank": 7,
+        "code": "FI",
+        "value": "74% forest cover"
+      },
+      {
+        "rank": 8,
+        "code": "LA",
+        "value": "71% forest cover"
+      },
+      {
+        "rank": 9,
+        "code": "SE",
+        "value": "69% forest cover"
+      },
+      {
+        "rank": 10,
+        "code": "JP",
+        "value": "68% forest cover"
+      },
+      {
+        "rank": 11,
+        "code": "KR",
+        "value": "65% forest cover"
+      },
+      {
+        "rank": 12,
+        "code": "CD",
+        "value": "56% forest cover"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "59% forest cover"
+      },
+      {
+        "rank": 14,
+        "code": "PE",
+        "value": "57% forest cover"
+      },
+      {
+        "rank": 15,
+        "code": "ID",
+        "value": "49% forest cover"
+      }
+    ]
+  },
+  {
+    "id": "environment-worst-air-quality-highest-annual-average-pm2-5-2023",
+    "theme": "Countries",
+    "subtheme": "Environment",
+    "title": "Worst air quality (highest annual average PM2.5)",
+    "prompt": "Name the countries with the worst air pollution measured as annual average PM2.5.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IQAir \u2014 World Air Quality Report",
+      "url": "https://www.iqair.com/world-air-quality-report",
+      "asOf": "2023 data (published March 2024)"
+    },
+    "note": "WHO guideline is 5 \u00b5g/m\u00b3 \u2014 the top of this list runs 15-16x higher. South Asia dominates: Bangladesh, Pakistan, India and Nepal are all in the top 10.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BD",
+        "value": "79.9 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 2,
+        "code": "PK",
+        "value": "73.7 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "54.4 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 4,
+        "code": "TJ",
+        "value": "49.0 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 5,
+        "code": "BF",
+        "value": "46.6 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 6,
+        "code": "IQ",
+        "value": "43.8 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 7,
+        "code": "AE",
+        "value": "43.0 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 8,
+        "code": "NP",
+        "value": "42.4 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 9,
+        "code": "EG",
+        "value": "42.4 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 10,
+        "code": "CD",
+        "value": "40.8 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 11,
+        "code": "ID",
+        "value": "37.1 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 12,
+        "code": "BH",
+        "value": "36.1 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 13,
+        "code": "RW",
+        "value": "34.5 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 14,
+        "code": "OM",
+        "value": "33.9 \u00b5g/m\u00b3"
+      },
+      {
+        "rank": 15,
+        "code": "CN",
+        "value": "32.5 \u00b5g/m\u00b3"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-largest-coffee-producers-2023",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Largest coffee producers",
+    "prompt": "Name the world's largest coffee-producing countries.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "International Coffee Organization (ICO) \u2014 Total production by exporting countries",
+      "url": "https://ico.org/statistics/",
+      "asOf": "Coffee year 2023/24 (Oct 2023 \u2013 Sep 2024)"
+    },
+    "note": "Reported in 60kg bags (the industry standard sack). Includes both Arabica and Robusta.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "~66.4 million 60kg bags"
+      },
+      {
+        "rank": 2,
+        "code": "VN",
+        "value": "~28.5 million 60kg bags"
+      },
+      {
+        "rank": 3,
+        "code": "CO",
+        "value": "~12.4 million 60kg bags"
+      },
+      {
+        "rank": 4,
+        "code": "ID",
+        "value": "~10.9 million 60kg bags"
+      },
+      {
+        "rank": 5,
+        "code": "ET",
+        "value": "~8.4 million 60kg bags"
+      },
+      {
+        "rank": 6,
+        "code": "UG",
+        "value": "~6.4 million 60kg bags"
+      },
+      {
+        "rank": 7,
+        "code": "HN",
+        "value": "~5.7 million 60kg bags"
+      },
+      {
+        "rank": 8,
+        "code": "IN",
+        "value": "~6.0 million 60kg bags"
+      },
+      {
+        "rank": 9,
+        "code": "PE",
+        "value": "~3.7 million 60kg bags"
+      },
+      {
+        "rank": 10,
+        "code": "MX",
+        "value": "~3.9 million 60kg bags"
+      },
+      {
+        "rank": 11,
+        "code": "GT",
+        "value": "~3.6 million 60kg bags"
+      },
+      {
+        "rank": 12,
+        "code": "NI",
+        "value": "~2.7 million 60kg bags"
+      },
+      {
+        "rank": 13,
+        "code": "CI",
+        "value": "~2.0 million 60kg bags"
+      },
+      {
+        "rank": 14,
+        "code": "CR",
+        "value": "~1.3 million 60kg bags"
+      },
+      {
+        "rank": 15,
+        "code": "TZ",
+        "value": "~1.2 million 60kg bags"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-largest-wine-producers-2023",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Largest wine producers",
+    "prompt": "Name the world's largest wine-producing countries by volume.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "International Organisation of Vine and Wine (OIV) \u2014 State of the World Vine and Wine Sector 2023",
+      "url": "https://www.oiv.int/what-we-do/statistics",
+      "asOf": "2023 production year"
+    },
+    "note": "Measured in millions of hectolitres (mhl). 2023 was a historically low global vintage due to weather; France briefly overtook Italy as #1.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FR",
+        "value": "48.0 mhl"
+      },
+      {
+        "rank": 2,
+        "code": "IT",
+        "value": "38.3 mhl"
+      },
+      {
+        "rank": 3,
+        "code": "ES",
+        "value": "28.3 mhl"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "24.3 mhl"
+      },
+      {
+        "rank": 5,
+        "code": "AU",
+        "value": "9.6 mhl"
+      },
+      {
+        "rank": 6,
+        "code": "CL",
+        "value": "11.0 mhl"
+      },
+      {
+        "rank": 7,
+        "code": "AR",
+        "value": "8.8 mhl"
+      },
+      {
+        "rank": 8,
+        "code": "ZA",
+        "value": "9.3 mhl"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "8.6 mhl"
+      },
+      {
+        "rank": 10,
+        "code": "PT",
+        "value": "7.4 mhl"
+      },
+      {
+        "rank": 11,
+        "code": "RU",
+        "value": "5.2 mhl"
+      },
+      {
+        "rank": 12,
+        "code": "RO",
+        "value": "3.8 mhl"
+      },
+      {
+        "rank": 13,
+        "code": "CN",
+        "value": "3.6 mhl"
+      },
+      {
+        "rank": 14,
+        "code": "HU",
+        "value": "2.4 mhl"
+      },
+      {
+        "rank": 15,
+        "code": "GR",
+        "value": "2.1 mhl"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-highest-beer-consumption-per-capita-2023",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Highest beer consumption per capita",
+    "prompt": "Name the countries with the highest per-capita beer consumption.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Kirin Beer University Report \u2014 Global Beer Consumption by Country",
+      "url": "https://www.kirinholdings.com/en/newsroom/release/2024/1224_01.html",
+      "asOf": "2023 consumption year"
+    },
+    "note": "Litres per person per year. Czech Republic has led this ranking every year since 1993.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CZ",
+        "value": "~188 L per capita"
+      },
+      {
+        "rank": 2,
+        "code": "AT",
+        "value": "~101 L per capita"
+      },
+      {
+        "rank": 3,
+        "code": "PL",
+        "value": "~96 L per capita"
+      },
+      {
+        "rank": 4,
+        "code": "LT",
+        "value": "~92 L per capita"
+      },
+      {
+        "rank": 5,
+        "code": "RO",
+        "value": "~89 L per capita"
+      },
+      {
+        "rank": 6,
+        "code": "DE",
+        "value": "~88 L per capita"
+      },
+      {
+        "rank": 7,
+        "code": "NA",
+        "value": "~87 L per capita"
+      },
+      {
+        "rank": 8,
+        "code": "IE",
+        "value": "~86 L per capita"
+      },
+      {
+        "rank": 9,
+        "code": "ES",
+        "value": "~83 L per capita"
+      },
+      {
+        "rank": 10,
+        "code": "EE",
+        "value": "~82 L per capita"
+      },
+      {
+        "rank": 11,
+        "code": "LV",
+        "value": "~81 L per capita"
+      },
+      {
+        "rank": 12,
+        "code": "HR",
+        "value": "~79 L per capita"
+      },
+      {
+        "rank": 13,
+        "code": "US",
+        "value": "~72 L per capita"
+      },
+      {
+        "rank": 14,
+        "code": "BE",
+        "value": "~68 L per capita"
+      },
+      {
+        "rank": 15,
+        "code": "BG",
+        "value": "~67 L per capita"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-largest-rice-producers-2022",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Largest rice producers",
+    "prompt": "Name the world's largest rice-producing countries (paddy rice).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAOSTAT \u2014 Crops and livestock products",
+      "url": "https://www.fao.org/faostat/en/#data/QCL",
+      "asOf": "2022 production year"
+    },
+    "note": "Rice, paddy (unmilled). China and India together produce roughly half of the world's rice.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "~208.5 million tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "~196.2 million tonnes"
+      },
+      {
+        "rank": 3,
+        "code": "BD",
+        "value": "~57.2 million tonnes"
+      },
+      {
+        "rank": 4,
+        "code": "ID",
+        "value": "~54.7 million tonnes"
+      },
+      {
+        "rank": 5,
+        "code": "VN",
+        "value": "~42.7 million tonnes"
+      },
+      {
+        "rank": 6,
+        "code": "TH",
+        "value": "~34.5 million tonnes"
+      },
+      {
+        "rank": 7,
+        "code": "MM",
+        "value": "~24.7 million tonnes"
+      },
+      {
+        "rank": 8,
+        "code": "PH",
+        "value": "~19.8 million tonnes"
+      },
+      {
+        "rank": 9,
+        "code": "PK",
+        "value": "~7.3 million tonnes"
+      },
+      {
+        "rank": 10,
+        "code": "KH",
+        "value": "~11.6 million tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "BR",
+        "value": "~10.8 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "JP",
+        "value": "~7.5 million tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "US",
+        "value": "~6.6 million tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "NG",
+        "value": "~5.4 million tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "NP",
+        "value": "~5.5 million tonnes"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-largest-wheat-producers-2022",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Largest wheat producers",
+    "prompt": "Name the world's largest wheat-producing countries.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAOSTAT \u2014 Crops and livestock products",
+      "url": "https://www.fao.org/faostat/en/#data/QCL",
+      "asOf": "2022 production year"
+    },
+    "note": "China and India together produce roughly one-third of world wheat. Russia is by far the largest exporter.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "~138.0 million tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "~107.7 million tonnes"
+      },
+      {
+        "rank": 3,
+        "code": "RU",
+        "value": "~104.2 million tonnes"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "~44.9 million tonnes"
+      },
+      {
+        "rank": 5,
+        "code": "AU",
+        "value": "~36.2 million tonnes"
+      },
+      {
+        "rank": 6,
+        "code": "FR",
+        "value": "~34.6 million tonnes"
+      },
+      {
+        "rank": 7,
+        "code": "UA",
+        "value": "~20.5 million tonnes"
+      },
+      {
+        "rank": 8,
+        "code": "PK",
+        "value": "~26.2 million tonnes"
+      },
+      {
+        "rank": 9,
+        "code": "CA",
+        "value": "~34.3 million tonnes"
+      },
+      {
+        "rank": 10,
+        "code": "DE",
+        "value": "~22.6 million tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "TR",
+        "value": "~19.8 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "AR",
+        "value": "~22.2 million tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "IR",
+        "value": "~13.2 million tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "KZ",
+        "value": "~16.4 million tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "~12.5 million tonnes"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-most-cattle-in-the-country-2022",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Most cattle in the country",
+    "prompt": "Name the countries with the largest cattle (live animal) populations.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAOSTAT \u2014 Live animals",
+      "url": "https://www.fao.org/faostat/en/#data/QCL",
+      "asOf": "2022 stock year"
+    },
+    "note": "Head of cattle (bovine, excluding buffalo). India includes both dairy cattle and religiously protected populations.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "~234.4 million head"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "~193.5 million head"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "~92.1 million head"
+      },
+      {
+        "rank": 4,
+        "code": "ET",
+        "value": "~70.3 million head"
+      },
+      {
+        "rank": 5,
+        "code": "CN",
+        "value": "~102.5 million head"
+      },
+      {
+        "rank": 6,
+        "code": "AR",
+        "value": "~53.4 million head"
+      },
+      {
+        "rank": 7,
+        "code": "PK",
+        "value": "~55.5 million head"
+      },
+      {
+        "rank": 8,
+        "code": "MX",
+        "value": "~35.2 million head"
+      },
+      {
+        "rank": 9,
+        "code": "AU",
+        "value": "~24.4 million head"
+      },
+      {
+        "rank": 10,
+        "code": "CO",
+        "value": "~29.3 million head"
+      },
+      {
+        "rank": 11,
+        "code": "TZ",
+        "value": "~36.6 million head"
+      },
+      {
+        "rank": 12,
+        "code": "SD",
+        "value": "~31.8 million head"
+      },
+      {
+        "rank": 13,
+        "code": "TD",
+        "value": "~30.2 million head"
+      },
+      {
+        "rank": 14,
+        "code": "BD",
+        "value": "~24.6 million head"
+      },
+      {
+        "rank": 15,
+        "code": "RU",
+        "value": "~17.6 million head"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-largest-fish-catch-capture-fisheries-2022",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Largest fish catch (capture fisheries)",
+    "prompt": "Name the countries with the largest wild fish catches from capture fisheries.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAO \u2014 The State of World Fisheries and Aquaculture (SOFIA) 2024",
+      "url": "https://www.fao.org/publications/sofia/2024/en",
+      "asOf": "2022 catch year"
+    },
+    "note": "Marine and inland capture fisheries only \u2014 excludes aquaculture. Peru's total swings wildly year-to-year with El Ni\u00f1o-driven anchoveta cycles.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "~13.1 million tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "ID",
+        "value": "~7.4 million tonnes"
+      },
+      {
+        "rank": 3,
+        "code": "PE",
+        "value": "~5.7 million tonnes"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "~5.4 million tonnes"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "~4.9 million tonnes"
+      },
+      {
+        "rank": 6,
+        "code": "US",
+        "value": "~4.3 million tonnes"
+      },
+      {
+        "rank": 7,
+        "code": "VN",
+        "value": "~3.5 million tonnes"
+      },
+      {
+        "rank": 8,
+        "code": "JP",
+        "value": "~2.9 million tonnes"
+      },
+      {
+        "rank": 9,
+        "code": "NO",
+        "value": "~2.5 million tonnes"
+      },
+      {
+        "rank": 10,
+        "code": "PH",
+        "value": "~2.1 million tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "CL",
+        "value": "~1.9 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "MA",
+        "value": "~1.4 million tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "~1.4 million tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "TH",
+        "value": "~1.3 million tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "KR",
+        "value": "~1.4 million tonnes"
+      }
+    ]
+  },
+  {
+    "id": "food-drink-highest-meat-consumption-per-capita-2022",
+    "theme": "Countries",
+    "subtheme": "Food & Drink",
+    "title": "Highest meat consumption per capita",
+    "prompt": "Name the countries with the highest per-capita meat consumption.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "OECD-FAO Agricultural Outlook 2024-2033 (via Our World in Data)",
+      "url": "https://ourworldindata.org/meat-production",
+      "asOf": "2022 consumption year"
+    },
+    "note": "Kilograms of meat (beef, pork, poultry, sheep) per person per year, carcass weight equivalent. Excludes seafood.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "HK",
+        "value": "~137 kg per capita"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "~127 kg per capita"
+      },
+      {
+        "rank": 3,
+        "code": "AU",
+        "value": "~117 kg per capita"
+      },
+      {
+        "rank": 4,
+        "code": "AR",
+        "value": "~110 kg per capita"
+      },
+      {
+        "rank": 5,
+        "code": "IL",
+        "value": "~103 kg per capita"
+      },
+      {
+        "rank": 6,
+        "code": "BR",
+        "value": "~100 kg per capita"
+      },
+      {
+        "rank": 7,
+        "code": "NZ",
+        "value": "~99 kg per capita"
+      },
+      {
+        "rank": 8,
+        "code": "ES",
+        "value": "~97 kg per capita"
+      },
+      {
+        "rank": 9,
+        "code": "CA",
+        "value": "~93 kg per capita"
+      },
+      {
+        "rank": 10,
+        "code": "CL",
+        "value": "~92 kg per capita"
+      },
+      {
+        "rank": 11,
+        "code": "PT",
+        "value": "~91 kg per capita"
+      },
+      {
+        "rank": 12,
+        "code": "KR",
+        "value": "~85 kg per capita"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "~84 kg per capita"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "~87 kg per capita"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "~85 kg per capita"
+      }
+    ]
+  },
+  {
+    "id": "geography-longest-coastline-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Longest Coastline",
+    "prompt": "Name the countries with the longest total coastline.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "CIA World Factbook \u2014 Coastline",
+      "url": "https://www.cia.gov/the-world-factbook/field/coastline/",
+      "asOf": "CIA World Factbook, last major update 2023-2024"
+    },
+    "note": "Canada is a massive outlier \u2014 its coastline (including the Arctic archipelago) is roughly six times longer than any other country's. Methodologies differ; the CIA WFB and the World Resources Institute produce different values because coastline length is fractal and depends on measurement resolution.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "202,080 km"
+      },
+      {
+        "rank": 2,
+        "code": "NO",
+        "value": "58,133 km"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "54,720 km"
+      },
+      {
+        "rank": 4,
+        "code": "RU",
+        "value": "37,653 km"
+      },
+      {
+        "rank": 5,
+        "code": "PH",
+        "value": "36,289 km"
+      },
+      {
+        "rank": 6,
+        "code": "JP",
+        "value": "29,751 km"
+      },
+      {
+        "rank": 7,
+        "code": "AU",
+        "value": "25,760 km"
+      },
+      {
+        "rank": 8,
+        "code": "US",
+        "value": "19,924 km"
+      },
+      {
+        "rank": 9,
+        "code": "NZ",
+        "value": "15,134 km"
+      },
+      {
+        "rank": 10,
+        "code": "CN",
+        "value": "14,500 km"
+      },
+      {
+        "rank": 11,
+        "code": "GR",
+        "value": "13,676 km"
+      },
+      {
+        "rank": 12,
+        "code": "GB",
+        "value": "12,429 km"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "9,330 km"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "7,600 km"
+      },
+      {
+        "rank": 15,
+        "code": "BR",
+        "value": "7,491 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-population-density-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest Population Density",
+    "prompt": "Name the sovereign countries with the highest population density (people per km\u00b2).",
+    "answerType": "country",
+    "seededDepth": 12,
+    "source": {
+      "name": "World Bank \u2014 Population density (people per sq. km of land area)",
+      "url": "https://data.worldbank.org/indicator/EN.POP.DNST",
+      "asOf": "2023 World Bank estimates"
+    },
+    "note": "Microstates and city-states dominate this list. Monaco (~19,000/km\u00b2) and Singapore (~8,000/km\u00b2) are near-total urban jurisdictions. Excludes dependent territories like Macau. Bangladesh is the densest country with a population above 100 million.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MC",
+        "value": "~19,000 /km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "SG",
+        "value": "~8,400 /km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "VA",
+        "value": "~1,800 /km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "BH",
+        "value": "~2,200 /km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "MT",
+        "value": "~1,700 /km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "MV",
+        "value": "~1,800 /km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "BD",
+        "value": "~1,300 /km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "BB",
+        "value": "~660 /km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "LB",
+        "value": "~550 /km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "TW",
+        "value": "~650 /km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "KR",
+        "value": "~530 /km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "RW",
+        "value": "~525 /km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-urbanization-rate-2018",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest Urbanization Rate",
+    "prompt": "Name the countries with the highest percentage of population living in urban areas.",
+    "answerType": "country",
+    "seededDepth": 12,
+    "source": {
+      "name": "UN DESA \u2014 World Urbanization Prospects",
+      "url": "https://population.un.org/wup/",
+      "asOf": "2018 revision, updated with 2023 estimates"
+    },
+    "note": "City-states (Singapore, Monaco, Vatican, Hong Kong) are 100% urban by definition. Kuwait's near-100% urban rate reflects the country being effectively a single metropolitan area (Kuwait City) surrounded by desert.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SG",
+        "value": "100% urban (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "MC",
+        "value": "100% urban (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "VA",
+        "value": "100% urban (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "KW",
+        "value": "100% urban"
+      },
+      {
+        "rank": 5,
+        "code": "NR",
+        "value": "100% urban"
+      },
+      {
+        "rank": 6,
+        "code": "QA",
+        "value": "99.4% urban"
+      },
+      {
+        "rank": 7,
+        "code": "BE",
+        "value": "98.1% urban"
+      },
+      {
+        "rank": 8,
+        "code": "SM",
+        "value": "97.5% urban"
+      },
+      {
+        "rank": 9,
+        "code": "UY",
+        "value": "95.9% urban"
+      },
+      {
+        "rank": 10,
+        "code": "IS",
+        "value": "94.0% urban"
+      },
+      {
+        "rank": 11,
+        "code": "IL",
+        "value": "92.9% urban"
+      },
+      {
+        "rank": 12,
+        "code": "JP",
+        "value": "91.9% urban"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-median-age-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest Median Age",
+    "prompt": "Name the countries with the highest median age of population.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN World Population Prospects 2024",
+      "url": "https://population.un.org/wpp/",
+      "asOf": "2024 revision"
+    },
+    "note": "Monaco tops the list but is often excluded from UN WPP main rankings due to its small size. Japan is the most-cited leader among major economies. Median age is the age that divides the population into two numerically equal halves.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MC",
+        "value": "55.4 years"
+      },
+      {
+        "rank": 2,
+        "code": "JP",
+        "value": "49.9 years"
+      },
+      {
+        "rank": 3,
+        "code": "IT",
+        "value": "48.4 years"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "47.8 years"
+      },
+      {
+        "rank": 5,
+        "code": "PT",
+        "value": "47.1 years"
+      },
+      {
+        "rank": 6,
+        "code": "GR",
+        "value": "46.5 years"
+      },
+      {
+        "rank": 7,
+        "code": "ES",
+        "value": "46.5 years"
+      },
+      {
+        "rank": 8,
+        "code": "HR",
+        "value": "45.9 years"
+      },
+      {
+        "rank": 9,
+        "code": "BG",
+        "value": "45.1 years"
+      },
+      {
+        "rank": 10,
+        "code": "AT",
+        "value": "44.5 years"
+      },
+      {
+        "rank": 11,
+        "code": "SI",
+        "value": "44.9 years"
+      },
+      {
+        "rank": 12,
+        "code": "FI",
+        "value": "43.4 years"
+      },
+      {
+        "rank": 13,
+        "code": "CZ",
+        "value": "43.3 years"
+      },
+      {
+        "rank": 14,
+        "code": "LT",
+        "value": "45.0 years"
+      },
+      {
+        "rank": 15,
+        "code": "LV",
+        "value": "44.5 years"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-foreign-born-population-share-2020",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest Foreign-Born Population Share",
+    "prompt": "Name the countries with the highest share of foreign-born residents (immigrants as % of population).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN DESA \u2014 International Migrant Stock",
+      "url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
+      "asOf": "2020 revision"
+    },
+    "note": "Gulf states dominate due to migrant labor systems. Vatican City is technically ~100% foreign-born but not always reported. Excludes territories and dependencies.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AE",
+        "value": "88.1%"
+      },
+      {
+        "rank": 2,
+        "code": "KW",
+        "value": "72.8%"
+      },
+      {
+        "rank": 3,
+        "code": "QA",
+        "value": "77.3%"
+      },
+      {
+        "rank": 4,
+        "code": "MC",
+        "value": "68.2%"
+      },
+      {
+        "rank": 5,
+        "code": "LI",
+        "value": "67.9%"
+      },
+      {
+        "rank": 6,
+        "code": "BH",
+        "value": "55.0%"
+      },
+      {
+        "rank": 7,
+        "code": "SG",
+        "value": "43.1%"
+      },
+      {
+        "rank": 8,
+        "code": "OM",
+        "value": "45.4%"
+      },
+      {
+        "rank": 9,
+        "code": "MV",
+        "value": "31.4%"
+      },
+      {
+        "rank": 10,
+        "code": "LU",
+        "value": "47.6%"
+      },
+      {
+        "rank": 11,
+        "code": "SA",
+        "value": "38.6%"
+      },
+      {
+        "rank": 12,
+        "code": "JO",
+        "value": "33.9%"
+      },
+      {
+        "rank": 13,
+        "code": "CH",
+        "value": "28.8%"
+      },
+      {
+        "rank": 14,
+        "code": "AU",
+        "value": "30.1%"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "22.6%"
+      }
+    ]
+  },
+  {
+    "id": "geography-most-bordering-countries-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Most Bordering Countries",
+    "prompt": "Name the countries that border the most other sovereign countries.",
+    "answerType": "country",
+    "seededDepth": 12,
+    "source": {
+      "name": "CIA World Factbook \u2014 Land Boundaries",
+      "url": "https://www.cia.gov/the-world-factbook/field/land-boundaries/",
+      "asOf": "CIA World Factbook, 2024"
+    },
+    "note": "Russia and China tie at 14 land neighbors each. This ranking counts only sovereign UN member states; disputed territories like Kosovo/Palestine are excluded by some sources, which changes counts.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "14 neighbors (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "14 neighbors (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "BR",
+        "value": "10 neighbors"
+      },
+      {
+        "rank": 4,
+        "code": "CD",
+        "value": "9 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "9 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "AT",
+        "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "FR",
+        "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "TZ",
+        "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "TR",
+        "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "ZM",
+        "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "SD",
+        "value": "7 neighbors (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "SB",
+        "value": "8 neighbors (tied)"
+      }
+    ]
+  },
+  {
+    "id": "geography-lowest-population-smallest-countries-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Lowest Population (Smallest Countries)",
+    "prompt": "Name the sovereign UN member (or observer) states with the smallest population.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN World Population Prospects 2024",
+      "url": "https://population.un.org/wpp/",
+      "asOf": "2024 revision"
+    },
+    "note": "Vatican City is a UN observer state, not a member. Excludes dependent territories (Pitcairn Islands, Tokelau, etc.). Tuvalu and Nauru regularly swap positions.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "VA",
+        "value": "~500 people"
+      },
+      {
+        "rank": 2,
+        "code": "TV",
+        "value": "~11,400"
+      },
+      {
+        "rank": 3,
+        "code": "NR",
+        "value": "~12,800"
+      },
+      {
+        "rank": 4,
+        "code": "PW",
+        "value": "~17,700"
+      },
+      {
+        "rank": 5,
+        "code": "SM",
+        "value": "~33,600"
+      },
+      {
+        "rank": 6,
+        "code": "LI",
+        "value": "~39,600"
+      },
+      {
+        "rank": 7,
+        "code": "MC",
+        "value": "~39,000"
+      },
+      {
+        "rank": 8,
+        "code": "MH",
+        "value": "~42,000"
+      },
+      {
+        "rank": 9,
+        "code": "KN",
+        "value": "~47,700"
+      },
+      {
+        "rank": 10,
+        "code": "DM",
+        "value": "~66,200"
+      },
+      {
+        "rank": 11,
+        "code": "AD",
+        "value": "~80,000"
+      },
+      {
+        "rank": 12,
+        "code": "AG",
+        "value": "~93,800"
+      },
+      {
+        "rank": 13,
+        "code": "SC",
+        "value": "~107,000"
+      },
+      {
+        "rank": 14,
+        "code": "TO",
+        "value": "~106,900"
+      },
+      {
+        "rank": 15,
+        "code": "FM",
+        "value": "~114,200"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-average-elevation-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest Average Elevation",
+    "prompt": "Name the countries with the highest mean elevation above sea level.",
+    "answerType": "country",
+    "seededDepth": 12,
+    "source": {
+      "name": "CIA World Factbook \u2014 Elevation extremes / mean elevation",
+      "url": "https://www.cia.gov/the-world-factbook/field/elevation/",
+      "asOf": "CIA World Factbook, 2024"
+    },
+    "note": "Bhutan is sometimes included with a higher mean elevation but the CIA WFB does not publish a mean figure for it. Bolivia's high figure reflects the Altiplano dominating its populated west, though Amazon lowlands cover its east.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BT",
+        "value": "3,280 m"
+      },
+      {
+        "rank": 2,
+        "code": "NP",
+        "value": "3,265 m"
+      },
+      {
+        "rank": 3,
+        "code": "TJ",
+        "value": "3,186 m"
+      },
+      {
+        "rank": 4,
+        "code": "KG",
+        "value": "2,988 m"
+      },
+      {
+        "rank": 5,
+        "code": "LS",
+        "value": "2,161 m"
+      },
+      {
+        "rank": 6,
+        "code": "AD",
+        "value": "1,996 m"
+      },
+      {
+        "rank": 7,
+        "code": "AF",
+        "value": "1,884 m"
+      },
+      {
+        "rank": 8,
+        "code": "CL",
+        "value": "1,871 m"
+      },
+      {
+        "rank": 9,
+        "code": "CH",
+        "value": "1,350 m"
+      },
+      {
+        "rank": 10,
+        "code": "BO",
+        "value": "1,192 m"
+      },
+      {
+        "rank": 11,
+        "code": "IR",
+        "value": "1,305 m"
+      },
+      {
+        "rank": 12,
+        "code": "ET",
+        "value": "1,330 m"
+      }
+    ]
+  },
+  {
+    "id": "health-highest-life-expectancy-at-birth-2024",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Highest Life Expectancy at Birth",
+    "prompt": "Which countries have the highest life expectancy at birth?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "UN World Population Prospects 2024",
+      "url": "https://population.un.org/wpp/",
+      "asOf": "2024"
+    },
+    "note": "Microstates (Monaco, San Marino) are excluded per UN WPP methodology; this is the standard sovereign-state ranking.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "JP",
+        "value": "84.7 years"
+      },
+      {
+        "rank": 2,
+        "code": "KR",
+        "value": "84.3 years"
+      },
+      {
+        "rank": 3,
+        "code": "CH",
+        "value": "84.2 years"
+      },
+      {
+        "rank": 4,
+        "code": "AU",
+        "value": "84.1 years"
+      },
+      {
+        "rank": 5,
+        "code": "IT",
+        "value": "83.7 years"
+      },
+      {
+        "rank": 6,
+        "code": "ES",
+        "value": "83.6 years"
+      },
+      {
+        "rank": 7,
+        "code": "SG",
+        "value": "83.5 years"
+      },
+      {
+        "rank": 8,
+        "code": "IS",
+        "value": "83.3 years"
+      },
+      {
+        "rank": 9,
+        "code": "NO",
+        "value": "83.2 years"
+      },
+      {
+        "rank": 10,
+        "code": "SE",
+        "value": "83.1 years"
+      },
+      {
+        "rank": 11,
+        "code": "FR",
+        "value": "83.0 years"
+      },
+      {
+        "rank": 12,
+        "code": "IE",
+        "value": "82.8 years"
+      },
+      {
+        "rank": 13,
+        "code": "MT",
+        "value": "82.7 years"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "82.5 years"
+      },
+      {
+        "rank": 15,
+        "code": "LU",
+        "value": "82.5 years"
+      },
+      {
+        "rank": 16,
+        "code": "NZ",
+        "value": "82.4 years"
+      },
+      {
+        "rank": 17,
+        "code": "IL",
+        "value": "82.3 years"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "82.2 years"
+      }
+    ]
+  },
+  {
+    "id": "health-most-physicians-per-1-000-people-2020",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Most Physicians per 1,000 People",
+    "prompt": "Which countries have the most physicians per 1,000 people?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "World Bank / WHO Global Health Workforce Statistics",
+      "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS",
+      "asOf": "2020-2022 latest available"
+    },
+    "note": "Cuba's high figure reflects broad training programs; Monaco and San Marino excluded as microstates skew the top ranks.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CU",
+        "value": "8.4 per 1,000"
+      },
+      {
+        "rank": 2,
+        "code": "GE",
+        "value": "7.1 per 1,000"
+      },
+      {
+        "rank": 3,
+        "code": "GR",
+        "value": "6.3 per 1,000"
+      },
+      {
+        "rank": 4,
+        "code": "PT",
+        "value": "5.6 per 1,000"
+      },
+      {
+        "rank": 5,
+        "code": "AT",
+        "value": "5.4 per 1,000"
+      },
+      {
+        "rank": 6,
+        "code": "NO",
+        "value": "5.2 per 1,000"
+      },
+      {
+        "rank": 7,
+        "code": "LT",
+        "value": "5.1 per 1,000"
+      },
+      {
+        "rank": 8,
+        "code": "CH",
+        "value": "4.4 per 1,000"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "4.5 per 1,000"
+      },
+      {
+        "rank": 10,
+        "code": "SE",
+        "value": "4.3 per 1,000"
+      },
+      {
+        "rank": 11,
+        "code": "BG",
+        "value": "4.2 per 1,000"
+      },
+      {
+        "rank": 12,
+        "code": "ES",
+        "value": "4.4 per 1,000"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "4.1 per 1,000"
+      },
+      {
+        "rank": 14,
+        "code": "DK",
+        "value": "4.2 per 1,000"
+      },
+      {
+        "rank": 15,
+        "code": "NL",
+        "value": "4.1 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "4.0 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "IS",
+        "value": "4.1 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "4.1 per 1,000"
+      }
+    ]
+  },
+  {
+    "id": "health-highest-health-expenditure-as-of-gdp-2022",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Highest Health Expenditure as % of GDP",
+    "prompt": "Which countries spend the most on healthcare as a share of GDP?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "World Bank / WHO Global Health Expenditure Database",
+      "url": "https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS",
+      "asOf": "2022"
+    },
+    "note": "Includes public and private spending; the US leads by a wide margin among large economies.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "16.6% of GDP"
+      },
+      {
+        "rank": 2,
+        "code": "DE",
+        "value": "12.7% of GDP"
+      },
+      {
+        "rank": 3,
+        "code": "FR",
+        "value": "12.1% of GDP"
+      },
+      {
+        "rank": 4,
+        "code": "AT",
+        "value": "11.4% of GDP"
+      },
+      {
+        "rank": 5,
+        "code": "GB",
+        "value": "11.3% of GDP"
+      },
+      {
+        "rank": 6,
+        "code": "CA",
+        "value": "11.2% of GDP"
+      },
+      {
+        "rank": 7,
+        "code": "SE",
+        "value": "10.7% of GDP"
+      },
+      {
+        "rank": 8,
+        "code": "CH",
+        "value": "11.3% of GDP"
+      },
+      {
+        "rank": 9,
+        "code": "JP",
+        "value": "11.5% of GDP"
+      },
+      {
+        "rank": 10,
+        "code": "NL",
+        "value": "10.1% of GDP"
+      },
+      {
+        "rank": 11,
+        "code": "BE",
+        "value": "11.1% of GDP"
+      },
+      {
+        "rank": 12,
+        "code": "DK",
+        "value": "9.5% of GDP"
+      },
+      {
+        "rank": 13,
+        "code": "NO",
+        "value": "8.0% of GDP"
+      },
+      {
+        "rank": 14,
+        "code": "PT",
+        "value": "10.6% of GDP"
+      },
+      {
+        "rank": 15,
+        "code": "ES",
+        "value": "10.5% of GDP"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "10.5% of GDP"
+      },
+      {
+        "rank": 17,
+        "code": "NZ",
+        "value": "10.0% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "8.8% of GDP"
+      }
+    ]
+  },
+  {
+    "id": "health-highest-obesity-rate-adults-2022",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Highest Obesity Rate (Adults)",
+    "prompt": "Which countries have the highest adult obesity rates?",
+    "answerType": "country",
+    "seededDepth": 16,
+    "source": {
+      "name": "WHO Global Health Observatory (BMI \u2265 30)",
+      "url": "https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/body-mass-index",
+      "asOf": "2022"
+    },
+    "note": "Pacific Island nations dominate the top ranks; the game shows sovereign states only. Values reflect WHO age-standardized estimates for adults 18+.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NR",
+        "value": "61.0%"
+      },
+      {
+        "rank": 3,
+        "code": "PW",
+        "value": "55.3%"
+      },
+      {
+        "rank": 4,
+        "code": "MH",
+        "value": "52.9%"
+      },
+      {
+        "rank": 5,
+        "code": "TV",
+        "value": "52.0%"
+      },
+      {
+        "rank": 7,
+        "code": "TO",
+        "value": "48.2%"
+      },
+      {
+        "rank": 8,
+        "code": "WS",
+        "value": "47.3%"
+      },
+      {
+        "rank": 9,
+        "code": "KI",
+        "value": "46.0%"
+      },
+      {
+        "rank": 10,
+        "code": "FM",
+        "value": "45.8%"
+      },
+      {
+        "rank": 11,
+        "code": "KW",
+        "value": "38.3%"
+      },
+      {
+        "rank": 12,
+        "code": "US",
+        "value": "42.7%"
+      },
+      {
+        "rank": 13,
+        "code": "QA",
+        "value": "35.9%"
+      },
+      {
+        "rank": 14,
+        "code": "SA",
+        "value": "35.4%"
+      },
+      {
+        "rank": 15,
+        "code": "JO",
+        "value": "35.5%"
+      },
+      {
+        "rank": 16,
+        "code": "LY",
+        "value": "32.5%"
+      },
+      {
+        "rank": 17,
+        "code": "TR",
+        "value": "32.1%"
+      },
+      {
+        "rank": 18,
+        "code": "EG",
+        "value": "32.0%"
+      }
+    ]
+  },
+  {
+    "id": "health-highest-suicide-rate-2021",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Highest Suicide Rate",
+    "prompt": "Which countries have the highest suicide rates per 100,000 people?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "WHO Global Health Estimates",
+      "url": "https://www.who.int/data/gho/data/themes/mental-health/suicide-rates",
+      "asOf": "2021"
+    },
+    "note": "Age-standardized rate per 100,000 people, both sexes. Reporting quality varies significantly across countries.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "LS",
+        "value": "87.5 per 100k"
+      },
+      {
+        "rank": 2,
+        "code": "GY",
+        "value": "40.9 per 100k"
+      },
+      {
+        "rank": 3,
+        "code": "SZ",
+        "value": "40.5 per 100k"
+      },
+      {
+        "rank": 4,
+        "code": "KR",
+        "value": "28.6 per 100k"
+      },
+      {
+        "rank": 5,
+        "code": "KI",
+        "value": "28.3 per 100k"
+      },
+      {
+        "rank": 6,
+        "code": "FM",
+        "value": "28.2 per 100k"
+      },
+      {
+        "rank": 7,
+        "code": "LT",
+        "value": "26.1 per 100k"
+      },
+      {
+        "rank": 8,
+        "code": "SR",
+        "value": "25.4 per 100k"
+      },
+      {
+        "rank": 9,
+        "code": "RU",
+        "value": "21.6 per 100k"
+      },
+      {
+        "rank": 10,
+        "code": "ZA",
+        "value": "23.5 per 100k"
+      },
+      {
+        "rank": 11,
+        "code": "MZ",
+        "value": "23.2 per 100k"
+      },
+      {
+        "rank": 12,
+        "code": "CI",
+        "value": "23.0 per 100k"
+      },
+      {
+        "rank": 13,
+        "code": "CM",
+        "value": "19.5 per 100k"
+      },
+      {
+        "rank": 14,
+        "code": "ZW",
+        "value": "23.6 per 100k"
+      },
+      {
+        "rank": 15,
+        "code": "UG",
+        "value": "20.0 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "BY",
+        "value": "17.1 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "UA",
+        "value": "17.7 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "US",
+        "value": "14.5 per 100k"
+      }
+    ]
+  },
+  {
+    "id": "health-highest-cancer-incidence-rate-2022",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Highest Cancer Incidence Rate",
+    "prompt": "Which countries have the highest age-standardized cancer incidence rates?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "IARC Global Cancer Observatory (GLOBOCAN)",
+      "url": "https://gco.iarc.fr/today/en/dataviz/tables",
+      "asOf": "2022"
+    },
+    "note": "High rates in wealthy nations reflect longer lifespans and better cancer detection/registries, not necessarily worse cancer causation.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AU",
+        "value": "462.5 per 100k"
+      },
+      {
+        "rank": 2,
+        "code": "NZ",
+        "value": "422.9 per 100k"
+      },
+      {
+        "rank": 3,
+        "code": "IE",
+        "value": "376.6 per 100k"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "367.0 per 100k"
+      },
+      {
+        "rank": 5,
+        "code": "DK",
+        "value": "374.7 per 100k"
+      },
+      {
+        "rank": 6,
+        "code": "NO",
+        "value": "372.4 per 100k"
+      },
+      {
+        "rank": 7,
+        "code": "NL",
+        "value": "358.0 per 100k"
+      },
+      {
+        "rank": 8,
+        "code": "BE",
+        "value": "355.7 per 100k"
+      },
+      {
+        "rank": 9,
+        "code": "FR",
+        "value": "341.0 per 100k"
+      },
+      {
+        "rank": 10,
+        "code": "HU",
+        "value": "338.2 per 100k"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "348.0 per 100k"
+      },
+      {
+        "rank": 12,
+        "code": "DE",
+        "value": "334.9 per 100k"
+      },
+      {
+        "rank": 13,
+        "code": "SI",
+        "value": "329.2 per 100k"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "292.6 per 100k"
+      },
+      {
+        "rank": 15,
+        "code": "GB",
+        "value": "319.9 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "CZ",
+        "value": "312.5 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "SE",
+        "value": "300.7 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "FI",
+        "value": "295.5 per 100k"
+      }
+    ]
+  },
+  {
+    "id": "health-lowest-infant-mortality-rate-2022",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Lowest Infant Mortality Rate",
+    "prompt": "Which countries have the lowest infant mortality rate (deaths under 1 year per 1,000 live births)?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "UN Inter-agency Group for Child Mortality Estimation (UN IGME)",
+      "url": "https://childmortality.org/",
+      "asOf": "2022"
+    },
+    "note": "Reporting definitions vary; some countries do not count extremely premature births as live births, which can artificially lower rates.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SG",
+        "value": "1.6 per 1,000"
+      },
+      {
+        "rank": 2,
+        "code": "EE",
+        "value": "1.6 per 1,000 (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "SI",
+        "value": "1.7 per 1,000"
+      },
+      {
+        "rank": 4,
+        "code": "JP",
+        "value": "1.8 per 1,000"
+      },
+      {
+        "rank": 5,
+        "code": "NO",
+        "value": "1.8 per 1,000 (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "FI",
+        "value": "1.9 per 1,000"
+      },
+      {
+        "rank": 7,
+        "code": "KR",
+        "value": "2.4 per 1,000"
+      },
+      {
+        "rank": 8,
+        "code": "SE",
+        "value": "2.0 per 1,000"
+      },
+      {
+        "rank": 9,
+        "code": "CZ",
+        "value": "2.2 per 1,000"
+      },
+      {
+        "rank": 10,
+        "code": "IS",
+        "value": "2.3 per 1,000"
+      },
+      {
+        "rank": 11,
+        "code": "IT",
+        "value": "2.4 per 1,000"
+      },
+      {
+        "rank": 12,
+        "code": "ES",
+        "value": "2.5 per 1,000"
+      },
+      {
+        "rank": 13,
+        "code": "CY",
+        "value": "2.5 per 1,000"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "2.7 per 1,000"
+      },
+      {
+        "rank": 15,
+        "code": "BE",
+        "value": "2.9 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "3.0 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "FR",
+        "value": "3.4 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "IL",
+        "value": "2.7 per 1,000"
+      }
+    ]
+  },
+  {
+    "id": "health-most-hospital-beds-per-1-000-people-2020",
+    "theme": "Countries",
+    "subtheme": "Health",
+    "title": "Most Hospital Beds per 1,000 People",
+    "prompt": "Which countries have the most hospital beds per 1,000 people?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "World Bank / OECD Health Statistics",
+      "url": "https://data.worldbank.org/indicator/SH.MED.BEDS.ZS",
+      "asOf": "2020-2021 latest available"
+    },
+    "note": "Includes all inpatient beds. North Korea's high figure reflects self-reported data; hospital bed density does not always correlate with care quality.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KR",
+        "value": "12.8 per 1,000"
+      },
+      {
+        "rank": 2,
+        "code": "JP",
+        "value": "12.6 per 1,000"
+      },
+      {
+        "rank": 3,
+        "code": "KP",
+        "value": "13.2 per 1,000"
+      },
+      {
+        "rank": 4,
+        "code": "BY",
+        "value": "10.6 per 1,000"
+      },
+      {
+        "rank": 5,
+        "code": "DE",
+        "value": "7.8 per 1,000"
+      },
+      {
+        "rank": 6,
+        "code": "RU",
+        "value": "7.1 per 1,000"
+      },
+      {
+        "rank": 7,
+        "code": "AT",
+        "value": "7.2 per 1,000"
+      },
+      {
+        "rank": 8,
+        "code": "BG",
+        "value": "7.4 per 1,000"
+      },
+      {
+        "rank": 9,
+        "code": "HU",
+        "value": "6.8 per 1,000"
+      },
+      {
+        "rank": 10,
+        "code": "RO",
+        "value": "7.0 per 1,000"
+      },
+      {
+        "rank": 11,
+        "code": "CZ",
+        "value": "6.6 per 1,000"
+      },
+      {
+        "rank": 12,
+        "code": "PL",
+        "value": "6.2 per 1,000"
+      },
+      {
+        "rank": 13,
+        "code": "LT",
+        "value": "6.0 per 1,000"
+      },
+      {
+        "rank": 14,
+        "code": "FR",
+        "value": "5.7 per 1,000"
+      },
+      {
+        "rank": 15,
+        "code": "BE",
+        "value": "5.6 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "CH",
+        "value": "4.6 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "MN",
+        "value": "8.0 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "SK",
+        "value": "5.7 per 1,000"
+      }
+    ]
+  },
+  {
+    "id": "military-largest-active-military-personnel-2024",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Largest active military personnel",
+    "prompt": "Name the countries with the most active-duty military personnel.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IISS \u2014 The Military Balance 2024",
+      "url": "https://www.iiss.org/publications/the-military-balance/",
+      "asOf": "IISS Military Balance 2024 (data as of late 2023)"
+    },
+    "note": "Active-duty uniformed personnel only. Excludes reserves and paramilitaries. North Korea's figure is IISS's central estimate; open-source estimates vary.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "2,035,000 active"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "1,455,550 active"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "1,328,000 active"
+      },
+      {
+        "rank": 4,
+        "code": "KP",
+        "value": "1,280,000 active"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "1,150,000 active"
+      },
+      {
+        "rank": 6,
+        "code": "PK",
+        "value": "660,000 active"
+      },
+      {
+        "rank": 7,
+        "code": "IR",
+        "value": "610,000 active"
+      },
+      {
+        "rank": 8,
+        "code": "KR",
+        "value": "555,000 active"
+      },
+      {
+        "rank": 9,
+        "code": "VN",
+        "value": "470,000 active"
+      },
+      {
+        "rank": 10,
+        "code": "EG",
+        "value": "440,000 active"
+      },
+      {
+        "rank": 11,
+        "code": "MM",
+        "value": "406,000 active"
+      },
+      {
+        "rank": 12,
+        "code": "ID",
+        "value": "395,500 active"
+      },
+      {
+        "rank": 13,
+        "code": "TH",
+        "value": "360,850 active"
+      },
+      {
+        "rank": 14,
+        "code": "BR",
+        "value": "360,000 active"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "355,200 active"
+      }
+    ]
+  },
+  {
+    "id": "military-largest-defense-budget-2024",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Largest defense budget",
+    "prompt": "Name the countries with the highest military expenditure (in US dollars).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "SIPRI Military Expenditure Database",
+      "url": "https://www.sipri.org/databases/milex",
+      "asOf": "SIPRI 2024 data, published April 2025"
+    },
+    "note": "Current US-dollar figures for 2024. China, Russia, Saudi Arabia and Israel figures are SIPRI estimates. Ukraine excludes external military aid.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "$997 billion"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "$314 billion (est.)"
+      },
+      {
+        "rank": 3,
+        "code": "RU",
+        "value": "$149 billion (est.)"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "$88.5 billion"
+      },
+      {
+        "rank": 5,
+        "code": "IN",
+        "value": "$86.1 billion"
+      },
+      {
+        "rank": 6,
+        "code": "GB",
+        "value": "$81.8 billion"
+      },
+      {
+        "rank": 7,
+        "code": "SA",
+        "value": "$80.3 billion (est.)"
+      },
+      {
+        "rank": 8,
+        "code": "UA",
+        "value": "$64.7 billion (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "FR",
+        "value": "$64.7 billion (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "JP",
+        "value": "$55.3 billion"
+      },
+      {
+        "rank": 11,
+        "code": "KR",
+        "value": "$47.6 billion"
+      },
+      {
+        "rank": 12,
+        "code": "IL",
+        "value": "$46.5 billion (est.)"
+      },
+      {
+        "rank": 13,
+        "code": "PL",
+        "value": "$38.0 billion (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "$38.0 billion (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "$33.8 billion"
+      }
+    ]
+  },
+  {
+    "id": "military-countries-with-nuclear-weapons-warhead-stockpiles-2024",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Countries with nuclear weapons (warhead stockpiles)",
+    "prompt": "Name the nine states known or believed to possess nuclear weapons, ranked by estimated total inventory.",
+    "answerType": "country",
+    "seededDepth": 9,
+    "source": {
+      "name": "SIPRI Yearbook 2024 / Federation of American Scientists",
+      "url": "https://www.sipri.org/yearbook/2024/07",
+      "asOf": "SIPRI estimates as of January 2024"
+    },
+    "note": "Total inventory including deployed, stored, and retired-but-intact warheads. Israel neither confirms nor denies its arsenal. North Korea's count is highly uncertain \u2014 SIPRI estimates ~50 assembled warheads but material for more.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "5,580 warheads"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "5,044 warheads"
+      },
+      {
+        "rank": 3,
+        "code": "CN",
+        "value": "500 warheads"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "290 warheads"
+      },
+      {
+        "rank": 5,
+        "code": "GB",
+        "value": "225 warheads"
+      },
+      {
+        "rank": 6,
+        "code": "IN",
+        "value": "172 warheads"
+      },
+      {
+        "rank": 7,
+        "code": "PK",
+        "value": "170 warheads"
+      },
+      {
+        "rank": 8,
+        "code": "IL",
+        "value": "90 warheads (est.)"
+      },
+      {
+        "rank": 9,
+        "code": "KP",
+        "value": "50 warheads (est.)"
+      }
+    ]
+  },
+  {
+    "id": "military-highest-military-spending-as-share-of-gdp-2024",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Highest military spending as share of GDP",
+    "prompt": "Name the countries that spend the highest share of their GDP on the military.",
+    "answerType": "country",
+    "seededDepth": 10,
+    "source": {
+      "name": "SIPRI Military Expenditure Database",
+      "url": "https://www.sipri.org/databases/milex",
+      "asOf": "SIPRI 2024 data, published April 2025"
+    },
+    "note": "Percentage of GDP spent on the military in 2024. Ukraine's share reflects wartime mobilization. Excludes countries where SIPRI cannot produce a reliable estimate.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "UA",
+        "value": "34% of GDP"
+      },
+      {
+        "rank": 2,
+        "code": "IL",
+        "value": "8.8% of GDP"
+      },
+      {
+        "rank": 3,
+        "code": "DZ",
+        "value": "8.0% of GDP"
+      },
+      {
+        "rank": 4,
+        "code": "SA",
+        "value": "7.3% of GDP"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "7.1% of GDP"
+      },
+      {
+        "rank": 6,
+        "code": "OM",
+        "value": "5.5% of GDP"
+      },
+      {
+        "rank": 7,
+        "code": "KW",
+        "value": "4.8% of GDP"
+      },
+      {
+        "rank": 8,
+        "code": "PL",
+        "value": "4.2% of GDP"
+      },
+      {
+        "rank": 9,
+        "code": "JO",
+        "value": "4.0% of GDP"
+      },
+      {
+        "rank": 10,
+        "code": "US",
+        "value": "3.4% of GDP"
+      }
+    ]
+  },
+  {
+    "id": "military-largest-arms-exporters-2019",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Largest arms exporters",
+    "prompt": "Name the countries with the biggest share of major-conventional-weapons exports over the past five years.",
+    "answerType": "country",
+    "seededDepth": 10,
+    "source": {
+      "name": "SIPRI Arms Transfers Database (Trend Indicator Value)",
+      "url": "https://www.sipri.org/databases/armstransfers",
+      "asOf": "SIPRI five-year period 2019\u20132023, published March 2024"
+    },
+    "note": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) \u2014 a volume metric, not a dollar figure. Covers 2019\u20132023 combined.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "42% of global exports"
+      },
+      {
+        "rank": 2,
+        "code": "FR",
+        "value": "11% of global exports (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "RU",
+        "value": "11% of global exports (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "CN",
+        "value": "5.8% of global exports"
+      },
+      {
+        "rank": 5,
+        "code": "DE",
+        "value": "5.6% of global exports"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "4.3% of global exports"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "3.7% of global exports"
+      },
+      {
+        "rank": 8,
+        "code": "ES",
+        "value": "2.7% of global exports"
+      },
+      {
+        "rank": 9,
+        "code": "IL",
+        "value": "2.4% of global exports"
+      },
+      {
+        "rank": 10,
+        "code": "KR",
+        "value": "2.0% of global exports"
+      }
+    ]
+  },
+  {
+    "id": "military-largest-arms-importers-2019",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Largest arms importers",
+    "prompt": "Name the countries with the biggest share of major-conventional-weapons imports over the past five years.",
+    "answerType": "country",
+    "seededDepth": 10,
+    "source": {
+      "name": "SIPRI Arms Transfers Database (Trend Indicator Value)",
+      "url": "https://www.sipri.org/databases/armstransfers",
+      "asOf": "SIPRI five-year period 2019\u20132023, published March 2024"
+    },
+    "note": "Global share of major-conventional-weapons imports measured by SIPRI's Trend Indicator Value (TIV). Ukraine's rise reflects deliveries from allies since Russia's 2022 invasion.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IN",
+        "value": "9.8% of global imports"
+      },
+      {
+        "rank": 2,
+        "code": "SA",
+        "value": "8.4% of global imports"
+      },
+      {
+        "rank": 3,
+        "code": "QA",
+        "value": "7.6% of global imports"
+      },
+      {
+        "rank": 4,
+        "code": "UA",
+        "value": "4.9% of global imports"
+      },
+      {
+        "rank": 5,
+        "code": "PK",
+        "value": "4.3% of global imports"
+      },
+      {
+        "rank": 6,
+        "code": "JP",
+        "value": "4.1% of global imports"
+      },
+      {
+        "rank": 7,
+        "code": "EG",
+        "value": "4.0% of global imports"
+      },
+      {
+        "rank": 8,
+        "code": "AU",
+        "value": "3.7% of global imports"
+      },
+      {
+        "rank": 9,
+        "code": "KR",
+        "value": "3.1% of global imports"
+      },
+      {
+        "rank": 10,
+        "code": "CN",
+        "value": "2.9% of global imports"
+      }
+    ]
+  },
+  {
+    "id": "military-most-main-battle-tanks-in-active-service-2024",
+    "theme": "Countries",
+    "subtheme": "Military",
+    "title": "Most main battle tanks in active service",
+    "prompt": "Name the countries with the most main battle tanks in active service.",
+    "answerType": "country",
+    "seededDepth": 10,
+    "source": {
+      "name": "IISS \u2014 The Military Balance 2024",
+      "url": "https://www.iiss.org/publications/the-military-balance/",
+      "asOf": "IISS Military Balance 2024 (data as of late 2023)"
+    },
+    "note": "Active-inventory main battle tanks (MBTs) only, excluding stored/reserve fleets. Russia's active fleet has been sharply reduced by losses in Ukraine; totals including storage would rank Russia far higher.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "1,750 active MBTs"
+      },
+      {
+        "rank": 2,
+        "code": "KP",
+        "value": "1,700 active MBTs (est.)"
+      },
+      {
+        "rank": 3,
+        "code": "CN",
+        "value": "1,600 active MBTs"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "1,570 active MBTs"
+      },
+      {
+        "rank": 5,
+        "code": "IN",
+        "value": "1,510 active MBTs"
+      },
+      {
+        "rank": 6,
+        "code": "PK",
+        "value": "1,415 active MBTs"
+      },
+      {
+        "rank": 7,
+        "code": "EG",
+        "value": "1,130 active MBTs"
+      },
+      {
+        "rank": 8,
+        "code": "TR",
+        "value": "820 active MBTs"
+      },
+      {
+        "rank": 9,
+        "code": "KR",
+        "value": "800 active MBTs"
+      },
+      {
+        "rank": 10,
+        "code": "IL",
+        "value": "490 active MBTs"
+      }
+    ]
+  },
+  {
+    "id": "society-highest-world-happiness-report-score-2024",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Highest World Happiness Report Score",
+    "prompt": "Which countries have the highest happiness scores according to the World Happiness Report?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "World Happiness Report 2024 (Gallup / UN SDSN / Oxford Wellbeing Research Centre)",
+      "url": "https://worldhappiness.report/ed/2024/",
+      "asOf": "2024 (based on 2021-2023 survey data)"
+    },
+    "note": "Score is a 0-10 life-evaluation ladder average from Gallup World Poll respondents.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FI",
+        "value": "7.741"
+      },
+      {
+        "rank": 2,
+        "code": "DK",
+        "value": "7.583"
+      },
+      {
+        "rank": 3,
+        "code": "IS",
+        "value": "7.525"
+      },
+      {
+        "rank": 4,
+        "code": "SE",
+        "value": "7.344"
+      },
+      {
+        "rank": 5,
+        "code": "IL",
+        "value": "7.341"
+      },
+      {
+        "rank": 6,
+        "code": "NL",
+        "value": "7.319"
+      },
+      {
+        "rank": 7,
+        "code": "NO",
+        "value": "7.302"
+      },
+      {
+        "rank": 8,
+        "code": "LU",
+        "value": "7.122"
+      },
+      {
+        "rank": 9,
+        "code": "CH",
+        "value": "7.060"
+      },
+      {
+        "rank": 10,
+        "code": "AU",
+        "value": "7.057"
+      },
+      {
+        "rank": 11,
+        "code": "NZ",
+        "value": "6.976"
+      },
+      {
+        "rank": 12,
+        "code": "CR",
+        "value": "6.955"
+      },
+      {
+        "rank": 13,
+        "code": "KW",
+        "value": "6.951"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "6.900"
+      },
+      {
+        "rank": 15,
+        "code": "CA",
+        "value": "6.900"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "6.894"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "6.838"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "6.822"
+      }
+    ]
+  },
+  {
+    "id": "society-least-corrupt-countries-corruption-perceptions-index-2023",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Least Corrupt Countries (Corruption Perceptions Index)",
+    "prompt": "According to Transparency International, which countries are perceived as least corrupt in the public sector?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "Transparency International Corruption Perceptions Index 2023",
+      "url": "https://www.transparency.org/en/cpi/2023",
+      "asOf": "2023 (published January 2024)"
+    },
+    "note": "Higher score (out of 100) = less perceived corruption. Ties share the same rank.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DK",
+        "value": "90"
+      },
+      {
+        "rank": 2,
+        "code": "FI",
+        "value": "87"
+      },
+      {
+        "rank": 3,
+        "code": "NZ",
+        "value": "85"
+      },
+      {
+        "rank": 4,
+        "code": "NO",
+        "value": "84"
+      },
+      {
+        "rank": 5,
+        "code": "SG",
+        "value": "83"
+      },
+      {
+        "rank": 6,
+        "code": "SE",
+        "value": "82"
+      },
+      {
+        "rank": 7,
+        "code": "CH",
+        "value": "82"
+      },
+      {
+        "rank": 8,
+        "code": "NL",
+        "value": "79"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "78"
+      },
+      {
+        "rank": 10,
+        "code": "LU",
+        "value": "78"
+      },
+      {
+        "rank": 11,
+        "code": "IE",
+        "value": "77"
+      },
+      {
+        "rank": 12,
+        "code": "CA",
+        "value": "76"
+      },
+      {
+        "rank": 13,
+        "code": "EE",
+        "value": "76"
+      },
+      {
+        "rank": 14,
+        "code": "HK",
+        "value": "75"
+      },
+      {
+        "rank": 15,
+        "code": "IS",
+        "value": "72"
+      },
+      {
+        "rank": 16,
+        "code": "UY",
+        "value": "73"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "75"
+      },
+      {
+        "rank": 18,
+        "code": "AT",
+        "value": "71"
+      }
+    ]
+  },
+  {
+    "id": "society-highest-human-development-index-2022",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Highest Human Development Index",
+    "prompt": "Which countries rank highest on the UNDP Human Development Index?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "UNDP Human Development Report 2023/2024",
+      "url": "https://hdr.undp.org/data-center/human-development-index",
+      "asOf": "2022 data (published March 2024)"
+    },
+    "note": "HDI is a composite of life expectancy, education, and GNI per capita. Scored 0-1.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CH",
+        "value": "0.967"
+      },
+      {
+        "rank": 2,
+        "code": "NO",
+        "value": "0.966"
+      },
+      {
+        "rank": 3,
+        "code": "IS",
+        "value": "0.959"
+      },
+      {
+        "rank": 4,
+        "code": "HK",
+        "value": "0.956"
+      },
+      {
+        "rank": 5,
+        "code": "DK",
+        "value": "0.952"
+      },
+      {
+        "rank": 6,
+        "code": "SE",
+        "value": "0.952"
+      },
+      {
+        "rank": 7,
+        "code": "IE",
+        "value": "0.950"
+      },
+      {
+        "rank": 8,
+        "code": "DE",
+        "value": "0.950"
+      },
+      {
+        "rank": 9,
+        "code": "SG",
+        "value": "0.949"
+      },
+      {
+        "rank": 10,
+        "code": "NL",
+        "value": "0.946"
+      },
+      {
+        "rank": 11,
+        "code": "AU",
+        "value": "0.946"
+      },
+      {
+        "rank": 12,
+        "code": "LI",
+        "value": "0.942"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "0.942"
+      },
+      {
+        "rank": 14,
+        "code": "FI",
+        "value": "0.942"
+      },
+      {
+        "rank": 15,
+        "code": "GB",
+        "value": "0.940"
+      },
+      {
+        "rank": 16,
+        "code": "NZ",
+        "value": "0.939"
+      },
+      {
+        "rank": 17,
+        "code": "AE",
+        "value": "0.937"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "0.935"
+      }
+    ]
+  },
+  {
+    "id": "society-most-peaceful-countries-global-peace-index-2024",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Most Peaceful Countries (Global Peace Index)",
+    "prompt": "According to the Institute for Economics & Peace, which countries are the most peaceful?",
+    "answerType": "country",
+    "seededDepth": 17,
+    "source": {
+      "name": "Global Peace Index 2024 (Institute for Economics & Peace)",
+      "url": "https://www.visionofhumanity.org/maps/#/",
+      "asOf": "2024"
+    },
+    "note": "Lower score = more peaceful. Composite of 23 indicators covering conflict, safety, and militarization.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IS",
+        "value": "1.112"
+      },
+      {
+        "rank": 2,
+        "code": "IE",
+        "value": "1.303"
+      },
+      {
+        "rank": 3,
+        "code": "AT",
+        "value": "1.313"
+      },
+      {
+        "rank": 4,
+        "code": "NZ",
+        "value": "1.323"
+      },
+      {
+        "rank": 5,
+        "code": "SG",
+        "value": "1.339"
+      },
+      {
+        "rank": 6,
+        "code": "CH",
+        "value": "1.350"
+      },
+      {
+        "rank": 7,
+        "code": "PT",
+        "value": "1.372"
+      },
+      {
+        "rank": 8,
+        "code": "DK",
+        "value": "1.382"
+      },
+      {
+        "rank": 9,
+        "code": "SI",
+        "value": "1.393"
+      },
+      {
+        "rank": 10,
+        "code": "MY",
+        "value": "1.427"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "1.428"
+      },
+      {
+        "rank": 12,
+        "code": "FI",
+        "value": "1.429"
+      },
+      {
+        "rank": 13,
+        "code": "CZ",
+        "value": "1.443"
+      },
+      {
+        "rank": 14,
+        "code": "BE",
+        "value": "1.462"
+      },
+      {
+        "rank": 15,
+        "code": "JP",
+        "value": "1.462"
+      },
+      {
+        "rank": 16,
+        "code": "HU",
+        "value": "1.492"
+      },
+      {
+        "rank": 17,
+        "code": "NL",
+        "value": "1.522"
+      }
+    ]
+  },
+  {
+    "id": "society-highest-press-freedom-reporters-without-borders-2024",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Highest Press Freedom (Reporters Without Borders)",
+    "prompt": "According to Reporters Without Borders, which countries have the most press freedom?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "RSF World Press Freedom Index 2024",
+      "url": "https://rsf.org/en/index",
+      "asOf": "2024"
+    },
+    "note": "Higher score (out of 100) = more press freedom.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NO",
+        "value": "91.89"
+      },
+      {
+        "rank": 2,
+        "code": "DK",
+        "value": "89.60"
+      },
+      {
+        "rank": 3,
+        "code": "SE",
+        "value": "88.32"
+      },
+      {
+        "rank": 4,
+        "code": "NL",
+        "value": "87.73"
+      },
+      {
+        "rank": 5,
+        "code": "FI",
+        "value": "86.55"
+      },
+      {
+        "rank": 6,
+        "code": "EE",
+        "value": "86.44"
+      },
+      {
+        "rank": 7,
+        "code": "PT",
+        "value": "85.90"
+      },
+      {
+        "rank": 8,
+        "code": "IE",
+        "value": "85.59"
+      },
+      {
+        "rank": 9,
+        "code": "CH",
+        "value": "84.01"
+      },
+      {
+        "rank": 10,
+        "code": "DE",
+        "value": "83.84"
+      },
+      {
+        "rank": 11,
+        "code": "LU",
+        "value": "83.44"
+      },
+      {
+        "rank": 12,
+        "code": "LT",
+        "value": "82.75"
+      },
+      {
+        "rank": 13,
+        "code": "CZ",
+        "value": "82.51"
+      },
+      {
+        "rank": 14,
+        "code": "LV",
+        "value": "82.24"
+      },
+      {
+        "rank": 15,
+        "code": "TL",
+        "value": "81.60"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "81.70"
+      },
+      {
+        "rank": 17,
+        "code": "LI",
+        "value": "81.34"
+      },
+      {
+        "rank": 18,
+        "code": "AT",
+        "value": "80.20"
+      }
+    ]
+  },
+  {
+    "id": "society-smallest-gender-gap-wef-global-gender-gap-index-2024",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Smallest Gender Gap (WEF Global Gender Gap Index)",
+    "prompt": "According to the World Economic Forum, which countries have closed the largest share of their gender gap?",
+    "answerType": "country",
+    "seededDepth": 18,
+    "source": {
+      "name": "World Economic Forum Global Gender Gap Report 2024",
+      "url": "https://www.weforum.org/publications/global-gender-gap-report-2024/",
+      "asOf": "2024"
+    },
+    "note": "Score is the share of the gender gap closed (0 = imparity, 1 = parity) across economic, education, health, and political dimensions.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IS",
+        "value": "0.935"
+      },
+      {
+        "rank": 2,
+        "code": "FI",
+        "value": "0.875"
+      },
+      {
+        "rank": 3,
+        "code": "NO",
+        "value": "0.875"
+      },
+      {
+        "rank": 4,
+        "code": "NZ",
+        "value": "0.835"
+      },
+      {
+        "rank": 5,
+        "code": "SE",
+        "value": "0.816"
+      },
+      {
+        "rank": 6,
+        "code": "NI",
+        "value": "0.811"
+      },
+      {
+        "rank": 7,
+        "code": "DE",
+        "value": "0.810"
+      },
+      {
+        "rank": 8,
+        "code": "NA",
+        "value": "0.805"
+      },
+      {
+        "rank": 9,
+        "code": "IE",
+        "value": "0.802"
+      },
+      {
+        "rank": 10,
+        "code": "ES",
+        "value": "0.797"
+      },
+      {
+        "rank": 11,
+        "code": "LT",
+        "value": "0.795"
+      },
+      {
+        "rank": 12,
+        "code": "BE",
+        "value": "0.793"
+      },
+      {
+        "rank": 13,
+        "code": "CH",
+        "value": "0.792"
+      },
+      {
+        "rank": 14,
+        "code": "MD",
+        "value": "0.788"
+      },
+      {
+        "rank": 15,
+        "code": "GB",
+        "value": "0.789"
+      },
+      {
+        "rank": 16,
+        "code": "AL",
+        "value": "0.784"
+      },
+      {
+        "rank": 17,
+        "code": "CR",
+        "value": "0.782"
+      },
+      {
+        "rank": 18,
+        "code": "BB",
+        "value": "0.781"
+      }
+    ]
+  },
+  {
+    "id": "society-highest-incarceration-rate-per-capita-2024",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Highest Incarceration Rate per Capita",
+    "prompt": "Which countries have the highest prison population rate per 100,000 people?",
+    "answerType": "country",
+    "seededDepth": 17,
+    "source": {
+      "name": "World Prison Brief (Institute for Crime & Justice Policy Research)",
+      "url": "https://www.prisonstudies.org/highest-to-lowest/prison_population_rate",
+      "asOf": "2024 (latest available per country)"
+    },
+    "note": "Rate is prison population per 100,000 of the national population.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SV",
+        "value": "1086 per 100k"
+      },
+      {
+        "rank": 2,
+        "code": "CU",
+        "value": "794 per 100k"
+      },
+      {
+        "rank": 3,
+        "code": "RW",
+        "value": "637 per 100k"
+      },
+      {
+        "rank": 4,
+        "code": "TM",
+        "value": "576 per 100k"
+      },
+      {
+        "rank": 5,
+        "code": "US",
+        "value": "531 per 100k"
+      },
+      {
+        "rank": 6,
+        "code": "PA",
+        "value": "424 per 100k"
+      },
+      {
+        "rank": 7,
+        "code": "PW",
+        "value": "422 per 100k"
+      },
+      {
+        "rank": 8,
+        "code": "UY",
+        "value": "412 per 100k"
+      },
+      {
+        "rank": 9,
+        "code": "BS",
+        "value": "397 per 100k"
+      },
+      {
+        "rank": 10,
+        "code": "CR",
+        "value": "384 per 100k"
+      },
+      {
+        "rank": 11,
+        "code": "GD",
+        "value": "381 per 100k"
+      },
+      {
+        "rank": 12,
+        "code": "BR",
+        "value": "390 per 100k"
+      },
+      {
+        "rank": 13,
+        "code": "MV",
+        "value": "376 per 100k"
+      },
+      {
+        "rank": 14,
+        "code": "TH",
+        "value": "398 per 100k"
+      },
+      {
+        "rank": 15,
+        "code": "PE",
+        "value": "297 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "300 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "BY",
+        "value": "343 per 100k"
+      }
+    ]
+  },
+  {
+    "id": "society-most-refugees-hosted-2023",
+    "theme": "Countries",
+    "subtheme": "Society",
+    "title": "Most Refugees Hosted",
+    "prompt": "Which countries host the largest refugee populations?",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "UNHCR Global Trends: Forced Displacement in 2023",
+      "url": "https://www.unhcr.org/global-trends-report-2023",
+      "asOf": "End of 2023 (published June 2024)"
+    },
+    "note": "Includes refugees under UNHCR's mandate plus Palestine refugees under UNRWA's mandate where applicable. Absolute counts, not per capita.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IR",
+        "value": "3.8 million"
+      },
+      {
+        "rank": 2,
+        "code": "TR",
+        "value": "3.3 million"
+      },
+      {
+        "rank": 3,
+        "code": "CO",
+        "value": "2.9 million"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "2.6 million"
+      },
+      {
+        "rank": 5,
+        "code": "PK",
+        "value": "2.0 million"
+      },
+      {
+        "rank": 6,
+        "code": "UG",
+        "value": "1.6 million"
+      },
+      {
+        "rank": 7,
+        "code": "RU",
+        "value": "1.2 million"
+      },
+      {
+        "rank": 8,
+        "code": "PL",
+        "value": "957,000"
+      },
+      {
+        "rank": 9,
+        "code": "SD",
+        "value": "1.0 million"
+      },
+      {
+        "rank": 10,
+        "code": "BD",
+        "value": "978,000"
+      },
+      {
+        "rank": 11,
+        "code": "ET",
+        "value": "970,000"
+      },
+      {
+        "rank": 12,
+        "code": "TD",
+        "value": "1.1 million"
+      },
+      {
+        "rank": 13,
+        "code": "US",
+        "value": "605,000"
+      },
+      {
+        "rank": 14,
+        "code": "LB",
+        "value": "775,000"
+      },
+      {
+        "rank": 15,
+        "code": "FR",
+        "value": "610,000"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-fifa-men-s-world-cup-wins-2022",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most FIFA Men's World Cup wins",
+    "prompt": "Name the countries with the most FIFA Men's World Cup titles.",
+    "answerType": "country",
+    "seededDepth": 8,
+    "source": {
+      "name": "FIFA \u2014 Men's World Cup History",
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup",
+      "asOf": "After 2022 World Cup (Qatar); next edition 2026"
+    },
+    "note": "Only 8 nations have ever won. West Germany's titles (1954, 1974, 1990) are credited to Germany per FIFA.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "5 titles"
+      },
+      {
+        "rank": 2,
+        "code": "DE",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "IT",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "AR",
+        "value": "3 titles"
+      },
+      {
+        "rank": 5,
+        "code": "FR",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "UY",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "ES",
+        "value": "1 title (tied)"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-fifa-women-s-world-cup-wins-2023",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most FIFA Women's World Cup wins",
+    "prompt": "Name the countries with the most FIFA Women's World Cup titles.",
+    "answerType": "country",
+    "seededDepth": 5,
+    "source": {
+      "name": "FIFA \u2014 Women's World Cup History",
+      "url": "https://www.fifa.com/en/tournaments/womens/worldcup",
+      "asOf": "After 2023 World Cup (Australia/New Zealand); next edition 2027"
+    },
+    "note": "Only 5 nations have ever won since the tournament began in 1991.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "4 titles"
+      },
+      {
+        "rank": 2,
+        "code": "DE",
+        "value": "2 titles"
+      },
+      {
+        "rank": 3,
+        "code": "NO",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "JP",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "ES",
+        "value": "1 title (tied)"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-summer-olympic-gold-medals-all-time-2024",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most Summer Olympic gold medals (all-time)",
+    "prompt": "Name the countries with the most all-time Summer Olympic gold medals.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "International Olympic Committee \u2014 All-time Summer Olympic medal table",
+      "url": "https://olympics.com/en/olympic-games",
+      "asOf": "Through Paris 2024"
+    },
+    "note": "Soviet Union medals (1952\u20131988) are counted separately from Russia and are excluded here to avoid the Soviet/Unified Team/Russia confusion. Germany combines West/East/unified totals per IOC convention.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "1,105 gold"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "303 gold"
+      },
+      {
+        "rank": 3,
+        "code": "GB",
+        "value": "298 gold"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "228 gold"
+      },
+      {
+        "rank": 5,
+        "code": "IT",
+        "value": "227 gold"
+      },
+      {
+        "rank": 6,
+        "code": "DE",
+        "value": "211 gold"
+      },
+      {
+        "rank": 7,
+        "code": "HU",
+        "value": "185 gold"
+      },
+      {
+        "rank": 8,
+        "code": "AU",
+        "value": "179 gold"
+      },
+      {
+        "rank": 9,
+        "code": "SE",
+        "value": "150 gold"
+      },
+      {
+        "rank": 10,
+        "code": "JP",
+        "value": "179 gold"
+      },
+      {
+        "rank": 11,
+        "code": "NL",
+        "value": "121 gold"
+      },
+      {
+        "rank": 12,
+        "code": "KR",
+        "value": "113 gold"
+      },
+      {
+        "rank": 13,
+        "code": "RO",
+        "value": "92 gold"
+      },
+      {
+        "rank": 14,
+        "code": "CU",
+        "value": "85 gold"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "74 gold"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-winter-olympic-gold-medals-all-time-2022",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most Winter Olympic gold medals (all-time)",
+    "prompt": "Name the countries with the most all-time Winter Olympic gold medals.",
+    "answerType": "country",
+    "seededDepth": 11,
+    "source": {
+      "name": "International Olympic Committee \u2014 All-time Winter Olympic medal table",
+      "url": "https://olympics.com/en/olympic-games",
+      "asOf": "Through Beijing 2022"
+    },
+    "note": "Soviet Union (78 gold, 1956\u20131988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NO",
+        "value": "148 gold"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "113 gold"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "104 gold"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "77 gold"
+      },
+      {
+        "rank": 5,
+        "code": "AT",
+        "value": "71 gold"
+      },
+      {
+        "rank": 6,
+        "code": "SE",
+        "value": "64 gold"
+      },
+      {
+        "rank": 8,
+        "code": "NL",
+        "value": "56 gold"
+      },
+      {
+        "rank": 9,
+        "code": "FI",
+        "value": "45 gold"
+      },
+      {
+        "rank": 10,
+        "code": "CH",
+        "value": "62 gold"
+      },
+      {
+        "rank": 11,
+        "code": "KR",
+        "value": "33 gold"
+      },
+      {
+        "rank": 12,
+        "code": "FR",
+        "value": "40 gold"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-rugby-union-world-cup-wins-2023",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most Rugby (Union) World Cup wins",
+    "prompt": "Name the countries with the most Rugby World Cup titles.",
+    "answerType": "country",
+    "seededDepth": 4,
+    "source": {
+      "name": "World Rugby \u2014 Rugby World Cup History",
+      "url": "https://www.rugbyworldcup.com/history",
+      "asOf": "After 2023 Rugby World Cup (France); next edition 2027"
+    },
+    "note": "Only 4 nations have ever won the men's Rugby World Cup since its 1987 inception.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ZA",
+        "value": "4 titles"
+      },
+      {
+        "rank": 2,
+        "code": "NZ",
+        "value": "3 titles"
+      },
+      {
+        "rank": 3,
+        "code": "AU",
+        "value": "2 titles"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "1 title"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-icc-men-s-cricket-world-cup-wins-2023",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most ICC Men's Cricket World Cup wins",
+    "prompt": "Name the countries with the most ICC Men's Cricket World Cup (ODI) titles.",
+    "answerType": "country",
+    "seededDepth": 5,
+    "source": {
+      "name": "International Cricket Council \u2014 Men's Cricket World Cup History",
+      "url": "https://www.icc-cricket.com/tournaments/cricket-world-cup",
+      "asOf": "After 2023 Cricket World Cup (India); next edition 2027"
+    },
+    "note": "50-over ODI World Cup only. Does not include T20 World Cup or Champions Trophy.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AU",
+        "value": "6 titles"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "PK",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "LK",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "1 title (tied)"
+      }
+    ]
+  },
+  {
+    "id": "sports-most-formula-1-constructors-championships-2024",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Most Formula 1 Constructors' Championships",
+    "prompt": "Name the countries with the most F1 Constructors' Championships (by team headquarters/nationality).",
+    "answerType": "country",
+    "seededDepth": 6,
+    "source": {
+      "name": "Formula 1 \u2014 Official F1 Records",
+      "url": "https://www.formula1.com/en/results.html",
+      "asOf": "End of 2024 season"
+    },
+    "note": "Nationality assigned by the team's constructor license country (e.g. Ferrari = Italy, McLaren/Williams/Mercedes = UK, Red Bull = Austria). Constructors' Championship began in 1958.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "GB",
+        "value": "34 titles"
+      },
+      {
+        "rank": 2,
+        "code": "IT",
+        "value": "16 titles"
+      },
+      {
+        "rank": 3,
+        "code": "AT",
+        "value": "6 titles"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "CH",
+        "value": "1 title"
+      }
+    ]
+  },
+  {
+    "id": "sports-highest-fifa-men-s-world-ranking-elo-based-2025",
+    "theme": "Countries",
+    "subtheme": "Sports",
+    "title": "Highest FIFA Men's World Ranking (Elo-based)",
+    "prompt": "Name the top-ranked men's national football teams in the current FIFA World Ranking.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "FIFA/Coca-Cola Men's World Ranking",
+      "url": "https://inside.fifa.com/fifa-world-ranking/men",
+      "asOf": "FIFA ranking published April 2025"
+    },
+    "note": "FIFA uses an Elo-based points system. Rankings shift frequently; these reflect the April 2025 publication.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AR",
+        "value": "1886.16 pts"
+      },
+      {
+        "rank": 2,
+        "code": "ES",
+        "value": "1854.64 pts"
+      },
+      {
+        "rank": 3,
+        "code": "FR",
+        "value": "1852.71 pts"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "1819.20 pts"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "1776.03 pts"
+      },
+      {
+        "rank": 6,
+        "code": "NL",
+        "value": "1752.44 pts"
+      },
+      {
+        "rank": 7,
+        "code": "PT",
+        "value": "1750.08 pts"
+      },
+      {
+        "rank": 8,
+        "code": "BE",
+        "value": "1735.75 pts"
+      },
+      {
+        "rank": 9,
+        "code": "IT",
+        "value": "1718.31 pts"
+      },
+      {
+        "rank": 10,
+        "code": "DE",
+        "value": "1716.98 pts"
+      },
+      {
+        "rank": 11,
+        "code": "HR",
+        "value": "1698.66 pts"
+      },
+      {
+        "rank": 12,
+        "code": "MA",
+        "value": "1694.24 pts"
+      },
+      {
+        "rank": 13,
+        "code": "CO",
+        "value": "1691.62 pts"
+      },
+      {
+        "rank": 14,
+        "code": "UY",
+        "value": "1683.25 pts"
+      },
+      {
+        "rank": 15,
+        "code": "US",
+        "value": "1660.00 pts"
+      }
+    ]
+  },
+  {
+    "id": "technology-fastest-fixed-broadband-internet-speed-2026",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Fastest fixed broadband internet speed",
+    "prompt": "Name the countries with the fastest median fixed broadband download speeds.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "Ookla Speedtest Global Index",
+      "url": "https://www.speedtest.net/global-index",
+      "asOf": "May 2026 monthly ranking"
+    },
+    "note": "Ookla only publishes a rolling monthly snapshot and blocks archive.org, so historical data is not retrievable. Median download speed in Mbps. Small territories (Hong Kong, Macau) are ranked separately by Ookla.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SG",
+        "value": "624.19 Mbps"
+      },
+      {
+        "rank": 2,
+        "code": "MV",
+        "value": "593.72 Mbps"
+      },
+      {
+        "rank": 3,
+        "code": "FR",
+        "value": "534.89 Mbps"
+      },
+      {
+        "rank": 4,
+        "code": "CH",
+        "value": "486.23 Mbps"
+      },
+      {
+        "rank": 5,
+        "code": "CL",
+        "value": "469.69 Mbps"
+      },
+      {
+        "rank": 6,
+        "code": "IS",
+        "value": "463.90 Mbps"
+      },
+      {
+        "rank": 7,
+        "code": "HK",
+        "value": "457.20 Mbps"
+      },
+      {
+        "rank": 8,
+        "code": "AE",
+        "value": "416.16 Mbps"
+      },
+      {
+        "rank": 9,
+        "code": "MO",
+        "value": "394.73 Mbps"
+      },
+      {
+        "rank": 10,
+        "code": "US",
+        "value": "390.17 Mbps"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "388.38 Mbps"
+      },
+      {
+        "rank": 12,
+        "code": "SI",
+        "value": "386.47 Mbps"
+      },
+      {
+        "rank": 13,
+        "code": "CA",
+        "value": "379.96 Mbps"
+      },
+      {
+        "rank": 14,
+        "code": "DK",
+        "value": "373.37 Mbps"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "372.71 Mbps"
+      },
+      {
+        "rank": 16,
+        "code": "RO",
+        "value": "367.69 Mbps"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "363.81 Mbps"
+      },
+      {
+        "rank": 18,
+        "code": "TH",
+        "value": "358.83 Mbps"
+      },
+      {
+        "rank": 19,
+        "code": "HU",
+        "value": "358.13 Mbps"
+      },
+      {
+        "rank": 20,
+        "code": "PT",
+        "value": "357.63 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "technology-fastest-mobile-internet-speed-2026",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Fastest mobile internet speed",
+    "prompt": "Name the countries with the fastest median mobile internet download speeds.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "Ookla Speedtest Global Index",
+      "url": "https://www.speedtest.net/global-index",
+      "asOf": "May 2026 monthly ranking"
+    },
+    "note": "Median mobile download speed in Mbps. Gulf states dominate due to aggressive 5G rollout. Kosovo uses ISO user-assigned code XK (not officially in ISO 3166-1).",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AE",
+        "value": "736.10 Mbps"
+      },
+      {
+        "rank": 2,
+        "code": "QA",
+        "value": "639.32 Mbps"
+      },
+      {
+        "rank": 3,
+        "code": "KW",
+        "value": "422.25 Mbps"
+      },
+      {
+        "rank": 4,
+        "code": "KR",
+        "value": "377.05 Mbps"
+      },
+      {
+        "rank": 5,
+        "code": "VN",
+        "value": "339.90 Mbps"
+      },
+      {
+        "rank": 6,
+        "code": "BN",
+        "value": "328.98 Mbps"
+      },
+      {
+        "rank": 7,
+        "code": "BH",
+        "value": "328.50 Mbps"
+      },
+      {
+        "rank": 8,
+        "code": "BR",
+        "value": "313.72 Mbps"
+      },
+      {
+        "rank": 9,
+        "code": "SA",
+        "value": "302.03 Mbps"
+      },
+      {
+        "rank": 10,
+        "code": "US",
+        "value": "296.57 Mbps"
+      },
+      {
+        "rank": 11,
+        "code": "BG",
+        "value": "294.55 Mbps"
+      },
+      {
+        "rank": 12,
+        "code": "EE",
+        "value": "276.56 Mbps"
+      },
+      {
+        "rank": 13,
+        "code": "DK",
+        "value": "274.44 Mbps"
+      },
+      {
+        "rank": 14,
+        "code": "MK",
+        "value": "268.70 Mbps"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "257.31 Mbps"
+      },
+      {
+        "rank": 16,
+        "code": "GE",
+        "value": "247.64 Mbps"
+      },
+      {
+        "rank": 17,
+        "code": "RS",
+        "value": "247.29 Mbps"
+      },
+      {
+        "rank": 18,
+        "code": "SG",
+        "value": "245.98 Mbps"
+      },
+      {
+        "rank": 19,
+        "code": "OM",
+        "value": "245.31 Mbps"
+      },
+      {
+        "rank": 20,
+        "code": "XK",
+        "value": "243.96 Mbps"
+      }
+    ]
+  },
+  {
+    "id": "technology-most-internet-users-total-2024",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Most internet users (total)",
+    "prompt": "Name the countries with the largest total number of internet users.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "ITU / DataReportal Digital 2024",
+      "url": "https://datareportal.com/reports/digital-2024-global-overview-report",
+      "asOf": "India from DataReportal Jan 2024; other countries ITU 2021 (latest complete cross-country dataset)"
+    },
+    "note": "India's ITU 2021 figure (608M) was updated to the DataReportal Digital 2024 figure (~752M) since India's user base has grown rapidly. Absolute rank ordering has been stable since 2021.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "1,042 million users"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "752 million users"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "311 million users"
+      },
+      {
+        "rank": 4,
+        "code": "ID",
+        "value": "172 million users"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "169 million users"
+      },
+      {
+        "rank": 6,
+        "code": "RU",
+        "value": "129 million users"
+      },
+      {
+        "rank": 7,
+        "code": "JP",
+        "value": "104 million users"
+      },
+      {
+        "rank": 8,
+        "code": "MX",
+        "value": "97 million users"
+      },
+      {
+        "rank": 9,
+        "code": "EG",
+        "value": "80 million users"
+      },
+      {
+        "rank": 10,
+        "code": "NG",
+        "value": "78 million users"
+      },
+      {
+        "rank": 11,
+        "code": "DE",
+        "value": "77 million users"
+      },
+      {
+        "rank": 12,
+        "code": "PH",
+        "value": "76 million users"
+      },
+      {
+        "rank": 13,
+        "code": "VN",
+        "value": "73 million users"
+      },
+      {
+        "rank": 14,
+        "code": "TR",
+        "value": "71 million users"
+      },
+      {
+        "rank": 15,
+        "code": "IR",
+        "value": "70 million users"
+      },
+      {
+        "rank": 16,
+        "code": "BD",
+        "value": "65 million users (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "65 million users (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "TH",
+        "value": "61 million users"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "57 million users"
+      },
+      {
+        "rank": 20,
+        "code": "PK",
+        "value": "51 million users"
+      }
+    ]
+  },
+  {
+    "id": "technology-highest-internet-penetration-2024",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Highest internet penetration",
+    "prompt": "Name the countries with the highest share of population using the internet.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "ITU (via Wikipedia list of countries by Internet users)",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_Internet_users",
+      "asOf": "ITU 2024 data (some 2025 updates)"
+    },
+    "note": "Microstates under 500K population (Monaco, Liechtenstein, San Marino, etc.) were excluded to keep answers recognizable. ITU rounds up to 100% for several Gulf states, causing a 4-way tie at #1.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BH",
+        "value": "100.0% (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "KW",
+        "value": "100.0% (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "SA",
+        "value": "100.0% (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "AE",
+        "value": "100.0% (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "DK",
+        "value": "99.8%"
+      },
+      {
+        "rank": 6,
+        "code": "NO",
+        "value": "99.0%"
+      },
+      {
+        "rank": 7,
+        "code": "IS",
+        "value": "98.2%"
+      },
+      {
+        "rank": 8,
+        "code": "QA",
+        "value": "98.1%"
+      },
+      {
+        "rank": 9,
+        "code": "MY",
+        "value": "98.0%"
+      },
+      {
+        "rank": 10,
+        "code": "KR",
+        "value": "97.9%"
+      },
+      {
+        "rank": 11,
+        "code": "CH",
+        "value": "97.3%"
+      },
+      {
+        "rank": 12,
+        "code": "IE",
+        "value": "97.2%"
+      },
+      {
+        "rank": 13,
+        "code": "NL",
+        "value": "97.0%"
+      },
+      {
+        "rank": 14,
+        "code": "TW",
+        "value": "96.7%"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "96.1%"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "95.8% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "95.8% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SE",
+        "value": "95.8% (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CL",
+        "value": "95.6% (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "JO",
+        "value": "95.6% (tied)"
+      }
+    ]
+  },
+  {
+    "id": "technology-most-patents-granted-by-origin-2023",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Most patents granted (by origin)",
+    "prompt": "Name the countries whose residents were granted the most patents in a year.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "WIPO World Intellectual Property Indicators 2024",
+      "url": "https://www.wipo.int/edocs/pubdocs/en/wipo-pub-941-2024-en-world-intellectual-property-indicators-2024.pdf",
+      "asOf": "2023 calendar year"
+    },
+    "note": "Metric is patent grants by origin (applicant's country of residence), which counts a country's inventors regardless of which patent office granted the patent. Different from grants-by-office, which would put China even higher.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "888,980 patents"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "294,842 patents"
+      },
+      {
+        "rank": 3,
+        "code": "JP",
+        "value": "284,357 patents"
+      },
+      {
+        "rank": 4,
+        "code": "KR",
+        "value": "154,658 patents"
+      },
+      {
+        "rank": 5,
+        "code": "DE",
+        "value": "73,274 patents"
+      },
+      {
+        "rank": 6,
+        "code": "FR",
+        "value": "35,015 patents"
+      },
+      {
+        "rank": 7,
+        "code": "IN",
+        "value": "25,790 patents"
+      },
+      {
+        "rank": 8,
+        "code": "GB",
+        "value": "24,126 patents"
+      },
+      {
+        "rank": 9,
+        "code": "CH",
+        "value": "21,735 patents"
+      },
+      {
+        "rank": 10,
+        "code": "IT",
+        "value": "19,654 patents"
+      },
+      {
+        "rank": 11,
+        "code": "RU",
+        "value": "19,091 patents"
+      },
+      {
+        "rank": 12,
+        "code": "NL",
+        "value": "16,286 patents"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "14,212 patents"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "13,994 patents"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "9,513 patents"
+      },
+      {
+        "rank": 16,
+        "code": "AT",
+        "value": "6,896 patents"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "6,203 patents"
+      },
+      {
+        "rank": 18,
+        "code": "AU",
+        "value": "6,106 patents"
+      },
+      {
+        "rank": 19,
+        "code": "FI",
+        "value": "5,922 patents"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "5,601 patents"
+      }
+    ]
+  },
+  {
+    "id": "technology-most-scientific-research-papers-published-2023",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Most scientific research papers published",
+    "prompt": "Name the countries that published the most scientific research documents in a year.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "SCImago Journal & Country Rank (Scopus data)",
+      "url": "https://www.scimagojr.com/countryrank.php?year=2023",
+      "asOf": "2023 calendar year"
+    },
+    "note": "Counts documents indexed by Scopus (journal articles, conference papers, reviews). China overtook the US around 2018 and has continued to widen the gap.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "1,076,300 documents"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "734,258 documents"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "318,271 documents"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "245,243 documents"
+      },
+      {
+        "rank": 5,
+        "code": "DE",
+        "value": "207,772 documents"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "159,596 documents"
+      },
+      {
+        "rank": 7,
+        "code": "JP",
+        "value": "137,304 documents"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "130,352 documents"
+      },
+      {
+        "rank": 9,
+        "code": "FR",
+        "value": "125,789 documents"
+      },
+      {
+        "rank": 10,
+        "code": "ES",
+        "value": "124,444 documents"
+      },
+      {
+        "rank": 11,
+        "code": "AU",
+        "value": "121,008 documents"
+      },
+      {
+        "rank": 12,
+        "code": "RU",
+        "value": "114,424 documents"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "102,373 documents"
+      },
+      {
+        "rank": 14,
+        "code": "BR",
+        "value": "91,172 documents"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "75,398 documents"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "74,150 documents"
+      },
+      {
+        "rank": 17,
+        "code": "NL",
+        "value": "73,956 documents"
+      },
+      {
+        "rank": 18,
+        "code": "SA",
+        "value": "61,580 documents"
+      },
+      {
+        "rank": 19,
+        "code": "ID",
+        "value": "61,334 documents"
+      },
+      {
+        "rank": 20,
+        "code": "PL",
+        "value": "60,414 documents"
+      }
+    ]
+  },
+  {
+    "id": "technology-highest-r-d-expenditure-of-gdp-2021",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Highest R&D expenditure (% of GDP)",
+    "prompt": "Name the countries that spend the largest share of GDP on research and development.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "World Bank (indicator GB.XPD.RSDV.GD.ZS)",
+      "url": "https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS",
+      "asOf": "2021 (most recent year with broad coverage)"
+    },
+    "note": "Also called GERD (Gross domestic Expenditure on R&D). Israel and South Korea consistently top the list. Singapore's value is 2020 (its most recent). Denmark and Iceland are tied at #12.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IL",
+        "value": "5.56%"
+      },
+      {
+        "rank": 2,
+        "code": "KR",
+        "value": "4.93%"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "3.46%"
+      },
+      {
+        "rank": 4,
+        "code": "BE",
+        "value": "3.43%"
+      },
+      {
+        "rank": 5,
+        "code": "SE",
+        "value": "3.42%"
+      },
+      {
+        "rank": 6,
+        "code": "CH",
+        "value": "3.36%"
+      },
+      {
+        "rank": 7,
+        "code": "JP",
+        "value": "3.30%"
+      },
+      {
+        "rank": 8,
+        "code": "AT",
+        "value": "3.26%"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "3.14%"
+      },
+      {
+        "rank": 10,
+        "code": "FI",
+        "value": "2.99%"
+      },
+      {
+        "rank": 11,
+        "code": "GB",
+        "value": "2.91%"
+      },
+      {
+        "rank": 12,
+        "code": "DK",
+        "value": "2.81% (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "IS",
+        "value": "2.81% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "CN",
+        "value": "2.43%"
+      },
+      {
+        "rank": 15,
+        "code": "NL",
+        "value": "2.31%"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "2.22%"
+      },
+      {
+        "rank": 17,
+        "code": "SG",
+        "value": "2.16%"
+      },
+      {
+        "rank": 18,
+        "code": "SI",
+        "value": "2.13%"
+      },
+      {
+        "rank": 19,
+        "code": "CZ",
+        "value": "2.00%"
+      },
+      {
+        "rank": 20,
+        "code": "NO",
+        "value": "1.94%"
+      }
+    ]
+  },
+  {
+    "id": "technology-most-supercomputers-in-the-top500-2024",
+    "theme": "Countries",
+    "subtheme": "Technology",
+    "title": "Most supercomputers in the TOP500",
+    "prompt": "Name the countries with the most systems on the TOP500 supercomputer list.",
+    "answerType": "country",
+    "seededDepth": 20,
+    "source": {
+      "name": "TOP500 List",
+      "url": "https://www.top500.org/lists/top500/2024/11/",
+      "asOf": "November 2024 TOP500 list"
+    },
+    "note": "The TOP500 project ranks the world's most powerful non-distributed computer systems twice a year. Systems are counted by the country hosting the machine, not manufacturer. Multiple ties in the lower half of the top 20.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "173 systems"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "63 systems"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "40 systems"
+      },
+      {
+        "rank": 4,
+        "code": "JP",
+        "value": "34 systems"
+      },
+      {
+        "rank": 5,
+        "code": "FR",
+        "value": "24 systems"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "14 systems (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "GB",
+        "value": "14 systems (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "KR",
+        "value": "13 systems"
+      },
+      {
+        "rank": 9,
+        "code": "NL",
+        "value": "10 systems"
+      },
+      {
+        "rank": 10,
+        "code": "BR",
+        "value": "9 systems (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "CA",
+        "value": "9 systems (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "PL",
+        "value": "8 systems (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "SE",
+        "value": "8 systems (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "SA",
+        "value": "7 systems (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "TW",
+        "value": "7 systems (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "IN",
+        "value": "6 systems (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "6 systems (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "6 systems (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "5 systems"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "4 systems"
+      }
     ]
   }
 ]

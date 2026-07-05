@@ -18,6 +18,7 @@ export function getDb(): Database.Database {
     CREATE TABLE IF NOT EXISTS questions (
       id TEXT PRIMARY KEY,
       theme TEXT NOT NULL,
+      subtheme TEXT,
       title TEXT NOT NULL,
       prompt TEXT NOT NULL,
       answer_type TEXT NOT NULL,
@@ -32,11 +33,34 @@ export function getDb(): Database.Database {
       rank INTEGER NOT NULL,
       code TEXT NOT NULL,
       value TEXT NOT NULL,
-      PRIMARY KEY (question_id, rank),
+      PRIMARY KEY (question_id, rank, code),
       FOREIGN KEY (question_id) REFERENCES questions(id)
     );
     CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
   `);
+  // Add subtheme column to legacy DBs that predate this schema.
+  const cols = _db.prepare("PRAGMA table_info(questions)").all() as Array<{ name: string }>;
+  if (!cols.some((c) => c.name === "subtheme")) {
+    _db.exec("ALTER TABLE questions ADD COLUMN subtheme TEXT");
+  }
+  // Legacy DBs had PRIMARY KEY (question_id, rank) which rejects ties.
+  // If the current PK doesn't include `code`, drop and recreate answers.
+  const answerCols = _db.prepare("PRAGMA table_info(answers)").all() as Array<{ name: string; pk: number }>;
+  const pkCols = answerCols.filter((c) => c.pk > 0).map((c) => c.name);
+  if (pkCols.length && !pkCols.includes("code")) {
+    _db.exec(`
+      DROP TABLE answers;
+      CREATE TABLE answers (
+        question_id TEXT NOT NULL,
+        rank INTEGER NOT NULL,
+        code TEXT NOT NULL,
+        value TEXT NOT NULL,
+        PRIMARY KEY (question_id, rank, code),
+        FOREIGN KEY (question_id) REFERENCES questions(id)
+      );
+      CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
+    `);
+  }
   return _db;
 }
 
