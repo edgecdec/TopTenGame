@@ -12,6 +12,25 @@ const dev = process.env.NODE_ENV !== "production";
 const hostname = "0.0.0.0";
 const port = process.env.PORT || 3007;
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || "my_super_secret_topten_token";
+const SESSION_SECRET = process.env.SESSION_SECRET || "topten_dev_session_secret_change_me";
+
+function signUserId(userId) {
+  const mac = crypto.createHmac("sha256", SESSION_SECRET).update(userId).digest("hex").slice(0, 32);
+  return `${userId}.${mac}`;
+}
+
+function verifySignedUserId(token) {
+  if (typeof token !== "string") return null;
+  const dot = token.lastIndexOf(".");
+  if (dot < 1) return null;
+  const userId = token.slice(0, dot);
+  const mac = token.slice(dot + 1);
+  const expected = crypto.createHmac("sha256", SESSION_SECRET).update(userId).digest("hex").slice(0, 32);
+  if (mac.length !== expected.length) return null;
+  const macBuf = Buffer.from(mac);
+  const expectedBuf = Buffer.from(expected);
+  return crypto.timingSafeEqual(macBuf, expectedBuf) ? userId : null;
+}
 
 const app = next({ dev, hostname, port });
 const handle = app.getRequestHandler();
@@ -38,6 +57,16 @@ function getQuestion(id) {
   };
 }
 
+function listQuestionIdsInTheme(theme) {
+  return db.prepare("SELECT id FROM questions WHERE theme = ?").all(theme).map((r) => r.id);
+}
+
+function listThemes() {
+  return db
+    .prepare("SELECT theme, COUNT(*) as count FROM questions GROUP BY theme ORDER BY theme")
+    .all();
+}
+
 function labelForCode(code) {
   const row = db.prepare("SELECT name FROM countries WHERE code = ?").get(code);
   return row ? row.name : code;
@@ -50,10 +79,27 @@ function scorePick(mode, rank, topN, missPenalty) {
   return 1;
 }
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 const rooms = new Map();
 
 function defaultSettings() {
-  return { scoringMode: "rank", topN: 10, missPenalty: 0, roundDurationSec: 60 };
+  return {
+    theme: "Countries",
+    numQuestions: 5,
+    scoringMode: "rank",
+    topN: 10,
+    picksPerPlayer: 1,
+    missPenalty: 0,
+    roundDurationSec: 30,
+  };
 }
 
 function generateRoomCode() {
@@ -79,10 +125,12 @@ function publicState(room) {
     phase: room.phase,
     settings: room.settings,
     players,
-    currentQuestionId: room.currentQuestionId,
+    currentQuestionIdx: room.currentQuestionIdx,
+    totalQuestions: room.questionQueue?.length ?? 0,
     currentQuestionMeta: room.currentQuestionMeta,
     endsAt: room.endsAt,
     lastResults: room.lastResults,
+    finalScoreboard: room.finalScoreboard,
   };
 }
 
@@ -96,8 +144,7 @@ function endRound(io, room) {
   if (!q) return;
 
   const rankByCode = new Map(q.answers.map((a) => [a.code, a.rank]));
-  const valueByCode = new Map(q.answers.map((a) => [a.code, a.value]));
-  const topN = room.settings.topN;
+  const topN = room.currentQuestionMeta.topN;
   const mode = room.settings.scoringMode;
   const penalty = room.settings.missPenalty;
 
@@ -119,21 +166,77 @@ function endRound(io, room) {
     .map((a) => ({ rank: a.rank, code: a.code, value: a.value, label: labelForCode(a.code) }));
 
   room.lastResults = {
+    questionTitle: q.title,
     correctAnswers,
     perPlayer,
     source: q.source,
     note: q.note,
-    questionTitle: q.title,
   };
-  room.phase = "results";
+  room.phase = "intermission";
   room.endsAt = null;
 
   if (room.roundTimer) {
     clearTimeout(room.roundTimer);
     room.roundTimer = null;
   }
-  io.to(room.code).emit("round_results", room.lastResults);
   broadcast(io, room);
+}
+
+function advanceToNextQuestion(io, room) {
+  const nextIdx = room.currentQuestionIdx + 1;
+  if (nextIdx >= room.questionQueue.length) {
+    // Final scoreboard
+    const scoreboard = Array.from(room.players.values())
+      .map((p) => ({ playerId: p.id, name: p.name, score: p.score }))
+      .sort((a, b) => b.score - a.score);
+    room.phase = "final_results";
+    room.finalScoreboard = scoreboard;
+    room.currentQuestionMeta = null;
+    room.lastResults = null;
+    room.endsAt = null;
+    broadcast(io, room);
+    return;
+  }
+  const q = getQuestion(room.questionQueue[nextIdx]);
+  if (!q) return;
+  const topN = Math.min(room.settings.topN, q.seededDepth);
+  const picksPerPlayer = Math.min(room.settings.picksPerPlayer, topN);
+  const endsAt = Date.now() + room.settings.roundDurationSec * 1000;
+  room.phase = "playing";
+  room.currentQuestionIdx = nextIdx;
+  room.currentQuestionId = q.id;
+  room.currentQuestionMeta = {
+    id: q.id,
+    title: q.title,
+    prompt: q.prompt,
+    topN,
+    picksPerPlayer,
+  };
+  room.endsAt = endsAt;
+  room.lastResults = null;
+  for (const p of room.players.values()) {
+    p.picks = [];
+    p.submitted = false;
+  }
+  if (room.roundTimer) clearTimeout(room.roundTimer);
+  room.roundTimer = setTimeout(() => endRound(io, room), room.settings.roundDurationSec * 1000);
+  broadcast(io, room);
+}
+
+function startGame(io, room) {
+  const theme = room.settings.theme;
+  const allIds = listQuestionIdsInTheme(theme);
+  if (allIds.length === 0) return;
+  const requested = Math.max(1, Math.min(room.settings.numQuestions, allIds.length));
+  room.questionQueue = shuffle(allIds).slice(0, requested);
+  room.currentQuestionIdx = -1;
+  room.finalScoreboard = null;
+  for (const p of room.players.values()) {
+    p.score = 0;
+    p.picks = [];
+    p.submitted = false;
+  }
+  advanceToNextQuestion(io, room);
 }
 
 function parseCookie(str, name) {
@@ -183,13 +286,20 @@ app.prepare().then(() => {
 
   io.on("connection", (socket) => {
     let currentRoomCode = null;
-    let userId = parseCookie(socket.request.headers.cookie, "topten_user_id") || randomUUID();
-    socket.emit("state_update", null); // no-op ping, client may ignore
+    let userId = null;
 
     socket.on("join_room", ({ roomCode, name }) => {
       if (!roomCode || typeof roomCode !== "string") return;
       let code = roomCode.toUpperCase();
       if (code === "NEW") code = generateRoomCode();
+
+      // Derive userId from the signed session cookie. Any client-sent userId is ignored.
+      const cookieToken = parseCookie(socket.request.headers.cookie, "topten_session");
+      const verified = verifySignedUserId(cookieToken);
+      userId = verified || randomUUID();
+      const token = signUserId(userId);
+      // Client stores this and echoes it back on next connection via cookie.
+      socket.emit("identity", { userId, sessionToken: token });
 
       if (!rooms.has(code)) {
         rooms.set(code, {
@@ -200,8 +310,11 @@ app.prepare().then(() => {
           settings: defaultSettings(),
           currentQuestionId: null,
           currentQuestionMeta: null,
+          currentQuestionIdx: -1,
+          questionQueue: [],
           endsAt: null,
           lastResults: null,
+          finalScoreboard: null,
           roundTimer: null,
         });
       }
@@ -212,7 +325,7 @@ app.prepare().then(() => {
       const existing = room.players.get(userId);
       if (existing) {
         existing.connected = true;
-        if (name && typeof name === "string") existing.name = name.slice(0, 24);
+        if (name && typeof name === "string") existing.name = name.slice(0, 24) || existing.name;
       } else {
         room.players.set(userId, {
           id: userId,
@@ -228,7 +341,7 @@ app.prepare().then(() => {
     });
 
     socket.on("set_name", ({ name }) => {
-      if (!currentRoomCode) return;
+      if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
       if (!room) return;
       const p = room.players.get(userId);
@@ -239,61 +352,62 @@ app.prepare().then(() => {
     });
 
     socket.on("update_settings", (partial) => {
-      if (!currentRoomCode) return;
+      if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
       if (!room || room.hostId !== userId || room.phase !== "lobby") return;
       const s = room.settings;
+      if (typeof partial.theme === "string") s.theme = partial.theme;
+      if (typeof partial.numQuestions === "number" && partial.numQuestions >= 1 && partial.numQuestions <= 30) s.numQuestions = Math.floor(partial.numQuestions);
       if (partial.scoringMode === "rank" || partial.scoringMode === "inverse" || partial.scoringMode === "flat") s.scoringMode = partial.scoringMode;
       if (typeof partial.topN === "number" && partial.topN >= 3 && partial.topN <= 20) s.topN = Math.floor(partial.topN);
+      if (typeof partial.picksPerPlayer === "number" && partial.picksPerPlayer >= 1 && partial.picksPerPlayer <= 20) s.picksPerPlayer = Math.floor(partial.picksPerPlayer);
       if (typeof partial.missPenalty === "number" && partial.missPenalty >= 0 && partial.missPenalty <= 10) s.missPenalty = Math.floor(partial.missPenalty);
       if (typeof partial.roundDurationSec === "number" && partial.roundDurationSec >= 15 && partial.roundDurationSec <= 300) s.roundDurationSec = Math.floor(partial.roundDurationSec);
       broadcast(io, room);
     });
 
-    socket.on("start_round", ({ questionId }) => {
-      if (!currentRoomCode) return;
+    socket.on("start_game", () => {
+      if (!currentRoomCode || !userId) return;
+      const room = rooms.get(currentRoomCode);
+      if (!room || room.hostId !== userId || room.phase !== "lobby") return;
+      startGame(io, room);
+    });
+
+    socket.on("next_question", () => {
+      if (!currentRoomCode || !userId) return;
+      const room = rooms.get(currentRoomCode);
+      if (!room || room.hostId !== userId || room.phase !== "intermission") return;
+      advanceToNextQuestion(io, room);
+    });
+
+    socket.on("return_to_lobby", () => {
+      if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
       if (!room || room.hostId !== userId) return;
-      if (room.phase === "playing") return;
-      const q = getQuestion(questionId);
-      if (!q) {
-        socket.emit("error_message", "Question not found");
-        return;
-      }
-      const topN = Math.min(room.settings.topN, q.seededDepth);
-      const endsAt = Date.now() + room.settings.roundDurationSec * 1000;
-      room.phase = "playing";
-      room.currentQuestionId = q.id;
-      // Note is intentionally omitted here — it can leak source info and is only shown in results.
-      room.currentQuestionMeta = { id: q.id, title: q.title, prompt: q.prompt, topN, note: null };
-      room.endsAt = endsAt;
+      room.phase = "lobby";
+      room.currentQuestionId = null;
+      room.currentQuestionMeta = null;
+      room.currentQuestionIdx = -1;
+      room.questionQueue = [];
+      room.endsAt = null;
       room.lastResults = null;
+      room.finalScoreboard = null;
       for (const p of room.players.values()) {
         p.picks = [];
         p.submitted = false;
       }
-      if (room.roundTimer) clearTimeout(room.roundTimer);
-      room.roundTimer = setTimeout(() => endRound(io, room), room.settings.roundDurationSec * 1000);
-      io.to(room.code).emit("round_started", {
-        questionId: q.id,
-        title: q.title,
-        prompt: q.prompt,
-        topN,
-        endsAt,
-        note: null,
-      });
       broadcast(io, room);
     });
 
     socket.on("submit_picks", ({ picks }) => {
-      if (!currentRoomCode) return;
+      if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
       if (!room || room.phase !== "playing" || !room.currentQuestionMeta) return;
       const p = room.players.get(userId);
       if (!p) return;
       if (!Array.isArray(picks)) return;
-      const topN = room.currentQuestionMeta.topN;
-      const unique = Array.from(new Set(picks.filter((x) => typeof x === "string"))).slice(0, topN);
+      const limit = room.currentQuestionMeta.picksPerPlayer;
+      const unique = Array.from(new Set(picks.filter((x) => typeof x === "string"))).slice(0, limit);
       p.picks = unique;
       p.submitted = true;
       broadcast(io, room);
@@ -304,38 +418,23 @@ app.prepare().then(() => {
       }
     });
 
-    socket.on("return_to_lobby", () => {
-      if (!currentRoomCode) return;
-      const room = rooms.get(currentRoomCode);
-      if (!room || room.hostId !== userId) return;
-      room.phase = "lobby";
-      room.currentQuestionId = null;
-      room.currentQuestionMeta = null;
-      room.endsAt = null;
-      for (const p of room.players.values()) {
-        p.picks = [];
-        p.submitted = false;
-      }
-      broadcast(io, room);
-    });
-
     socket.on("disconnect", () => {
-      if (!currentRoomCode) return;
+      if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
       if (!room) return;
       const p = room.players.get(userId);
       if (p) p.connected = false;
       broadcast(io, room);
 
-      // Clean up empty rooms after a delay
+      const rc = currentRoomCode;
       setTimeout(() => {
-        const r = rooms.get(currentRoomCode);
+        const r = rooms.get(rc);
         if (!r) return;
         const anyConnected = Array.from(r.players.values()).some((x) => x.connected);
         if (!anyConnected) {
           if (r.roundTimer) clearTimeout(r.roundTimer);
-          rooms.delete(currentRoomCode);
-          console.log(`Room ${currentRoomCode} cleaned up.`);
+          rooms.delete(rc);
+          console.log(`Room ${rc} cleaned up.`);
         }
       }, 30 * 60 * 1000);
     });

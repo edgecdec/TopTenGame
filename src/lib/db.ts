@@ -98,3 +98,16 @@ export function getQuestion(id: string): Question | null {
     .all(id) as QuestionAnswer[];
   return { ...meta, answers };
 }
+
+export type ThemeInfo = { theme: string; count: number };
+
+export function listThemes(): ThemeInfo[] {
+  return getDb()
+    .prepare("SELECT theme, COUNT(*) as count FROM questions GROUP BY theme ORDER BY theme")
+    .all() as ThemeInfo[];
+}
+
+export function listQuestionIdsInTheme(theme: string): string[] {
+  const rows = getDb().prepare("SELECT id FROM questions WHERE theme = ?").all(theme) as { id: string }[];
+  return rows.map((r) => r.id);
+}

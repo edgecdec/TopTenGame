@@ -2,38 +2,35 @@
 import { use, useEffect, useMemo, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
+  Alert,
+  Autocomplete,
   Box,
   Button,
   Chip,
   Container,
-  Divider,
   FormControl,
+  IconButton,
   InputLabel,
+  Link as MuiLink,
   MenuItem,
   Paper,
   Select,
   Slider,
+  Snackbar,
   Stack,
   TextField,
+  Tooltip,
   Typography,
-  Autocomplete,
-  Alert,
-  Link as MuiLink,
 } from "@mui/material";
+import ContentCopyIcon from "@mui/icons-material/ContentCopy";
+import ShareIcon from "@mui/icons-material/Share";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import { useSocket } from "@/hooks/useSocket";
-import type { ClientRoomState } from "@/lib/types";
+import type { ClientRoomState, GameSettings } from "@/lib/types";
 
 type Country = { code: string; name: string };
-type QuestionMeta = {
-  id: string;
-  theme: string;
-  title: string;
-  prompt: string;
-  answerType: string;
-  seededDepth: number;
-  source: { name: string; url: string; asOf: string };
-  note: string | null;
-};
+type ThemeInfo = { theme: string; count: number };
 
 export default function RoomPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = use(params);
@@ -42,25 +39,24 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const name = search.get("name") || "";
 
   useEffect(() => {
-    if (!name) router.replace("/");
-  }, [name, router]);
+    if (!name) router.replace(`/?joinCode=${code}`);
+  }, [name, code, router]);
 
-  const { state, connected, emit } = useSocket(code, name);
+  const { state, connected, emit, userId } = useSocket(code, name);
   const [countries, setCountries] = useState<Country[]>([]);
-  const [questions, setQuestions] = useState<QuestionMeta[]>([]);
-  const [selectedQuestionId, setSelectedQuestionId] = useState<string>("");
+  const [themes, setThemes] = useState<ThemeInfo[]>([]);
   const [picks, setPicks] = useState<Country[]>([]);
   const [now, setNow] = useState(() => Date.now());
+  const [toast, setToast] = useState<string | null>(null);
 
   useEffect(() => {
     fetch("/api/data")
       .then((r) => r.json())
       .then((d) => {
         setCountries(d.countries);
-        setQuestions(d.questions);
-        if (d.questions.length && !selectedQuestionId) setSelectedQuestionId(d.questions[0].id);
+        setThemes(d.themes);
       });
-  }, [selectedQuestionId]);
+  }, []);
 
   useEffect(() => {
     const t = setInterval(() => setNow(Date.now()), 250);
@@ -69,7 +65,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
 
   useEffect(() => {
     if (state?.phase !== "playing") setPicks([]);
-  }, [state?.phase, state?.currentQuestionId]);
+  }, [state?.phase, state?.currentQuestionMeta?.id]);
 
   if (!name || !state) {
     return (
@@ -79,20 +75,18 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     );
   }
 
-  const me = state.players.find((p) => p.name === name); // fallback identity match; server keys by userId cookie
-  const isHost = state.players[0]?.isHost && state.players.find((p) => p.isHost && p.name === name);
+  const me = state.players.find((p) => p.id === userId);
+  const isHost = me?.isHost ?? false;
 
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
-      <RoomHeader state={state} />
+      <RoomHeader state={state} onCopy={(msg) => setToast(msg)} />
       {state.phase === "lobby" && (
         <LobbyView
           state={state}
-          questions={questions}
-          isHost={!!isHost}
-          selectedQuestionId={selectedQuestionId}
-          setSelectedQuestionId={setSelectedQuestionId}
-          onStart={() => emit("start_round", { questionId: selectedQuestionId })}
+          themes={themes}
+          isHost={isHost}
+          onStart={() => emit("start_game")}
           onUpdateSettings={(partial) => emit("update_settings", partial)}
         />
       )}
@@ -103,166 +97,280 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
           picks={picks}
           setPicks={setPicks}
           now={now}
+          me={me}
           onSubmit={() => emit("submit_picks", { picks: picks.map((c) => c.code) })}
         />
       )}
-      {state.phase === "results" && (
-        <ResultsView
-          state={state}
-          countries={countries}
-          isHost={!!isHost}
-          onNext={() => emit("return_to_lobby")}
-        />
+      {state.phase === "intermission" && (
+        <IntermissionView state={state} isHost={isHost} onNext={() => emit("next_question")} />
       )}
+      {state.phase === "final_results" && (
+        <FinalResultsView state={state} isHost={isHost} onLobby={() => emit("return_to_lobby")} />
+      )}
+      <Snackbar
+        open={!!toast}
+        autoHideDuration={2500}
+        onClose={() => setToast(null)}
+        message={toast}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+      />
     </Container>
   );
 }
 
-function RoomHeader({ state }: { state: ClientRoomState }) {
+function RoomHeader({ state, onCopy }: { state: ClientRoomState; onCopy: (msg: string) => void }) {
+  const copyCode = async () => {
+    await navigator.clipboard.writeText(state.roomCode);
+    onCopy("Room code copied");
+  };
+  const copyLink = async () => {
+    const url = `${window.location.origin}/room/${state.roomCode}`;
+    await navigator.clipboard.writeText(url);
+    onCopy("Invite link copied");
+  };
+  const shareLink = async () => {
+    const url = `${window.location.origin}/room/${state.roomCode}`;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "Top Ten", text: `Join my Top Ten game — room ${state.roomCode}`, url });
+      } catch {
+        // user cancelled
+      }
+    } else {
+      await navigator.clipboard.writeText(url);
+      onCopy("Invite link copied");
+    }
+  };
+
   return (
-    <Stack direction={{ xs: "column", sm: "row" }} alignItems={{ sm: "center" }} justifyContent="space-between" sx={{ mb: 3 }}>
-      <Box>
-        <Typography variant="overline" color="text.secondary">
-          Room code
-        </Typography>
-        <Typography variant="h3" fontWeight={800} letterSpacing={6}>
-          {state.roomCode}
-        </Typography>
-      </Box>
-      <Stack direction="row" spacing={1} flexWrap="wrap">
-        {state.players.map((p) => (
-          <Chip
-            key={p.id}
-            label={`${p.name}${p.isHost ? " ★" : ""} — ${p.score}`}
-            color={p.connected ? "primary" : "default"}
-            variant={p.submitted && state.phase === "playing" ? "filled" : "outlined"}
-          />
-        ))}
+    <Paper sx={{ p: { xs: 2, sm: 3 }, mb: 3 }}>
+      <Stack direction={{ xs: "column", sm: "row" }} spacing={2} alignItems={{ sm: "center" }} justifyContent="space-between">
+        <Stack direction="row" alignItems="center" spacing={2}>
+          <Box>
+            <Typography variant="overline" color="text.secondary">
+              Room code
+            </Typography>
+            <Stack direction="row" alignItems="center" spacing={1}>
+              <Typography variant="h3" fontWeight={800} letterSpacing={6}>
+                {state.roomCode}
+              </Typography>
+              <Tooltip title="Copy code">
+                <IconButton size="small" onClick={copyCode}>
+                  <ContentCopyIcon fontSize="small" />
+                </IconButton>
+              </Tooltip>
+            </Stack>
+          </Box>
+        </Stack>
+        <Stack direction="row" spacing={1}>
+          <Button variant="outlined" startIcon={<ContentCopyIcon />} onClick={copyLink}>
+            Copy link
+          </Button>
+          <Button variant="contained" startIcon={<ShareIcon />} onClick={shareLink}>
+            Share
+          </Button>
+        </Stack>
       </Stack>
-    </Stack>
+    </Paper>
+  );
+}
+
+function PlayerList({ state, showSubmitted }: { state: ClientRoomState; showSubmitted?: boolean }) {
+  return (
+    <Box>
+      <Typography variant="subtitle2" gutterBottom color="text.secondary">
+        Players ({state.players.filter((p) => p.connected).length} online)
+      </Typography>
+      <Stack direction="row" flexWrap="wrap" gap={1}>
+        {state.players.map((p) => {
+          const label = (
+            <Stack direction="row" alignItems="center" spacing={0.5}>
+              {showSubmitted &&
+                (p.submitted ? (
+                  <CheckCircleIcon fontSize="small" color="success" />
+                ) : (
+                  <RadioButtonUncheckedIcon fontSize="small" color="disabled" />
+                ))}
+              <Typography variant="body2" component="span">
+                {p.name}
+                {p.isHost && " ★"}
+                {state.phase !== "lobby" && ` — ${p.score}`}
+              </Typography>
+            </Stack>
+          );
+          return (
+            <Chip
+              key={p.id}
+              label={label}
+              color={p.connected ? "primary" : "default"}
+              variant={p.connected ? "filled" : "outlined"}
+            />
+          );
+        })}
+      </Stack>
+    </Box>
   );
 }
 
 function LobbyView({
   state,
-  questions,
+  themes,
   isHost,
-  selectedQuestionId,
-  setSelectedQuestionId,
   onStart,
   onUpdateSettings,
 }: {
   state: ClientRoomState;
-  questions: QuestionMeta[];
+  themes: ThemeInfo[];
   isHost: boolean;
-  selectedQuestionId: string;
-  setSelectedQuestionId: (id: string) => void;
   onStart: () => void;
-  onUpdateSettings: (partial: Partial<ClientRoomState["settings"]>) => void;
+  onUpdateSettings: (partial: Partial<GameSettings>) => void;
 }) {
   const s = state.settings;
+  const currentTheme = themes.find((t) => t.theme === s.theme);
+  const maxQuestions = currentTheme?.count ?? 1;
+  useEffect(() => {
+    if (isHost && currentTheme && s.numQuestions > currentTheme.count) {
+      onUpdateSettings({ numQuestions: currentTheme.count });
+    }
+  }, [isHost, currentTheme, s.numQuestions, onUpdateSettings]);
+
   return (
-    <Paper sx={{ p: 3 }}>
-      <Typography variant="h6" gutterBottom>
-        Lobby
-      </Typography>
-      <Typography variant="body2" color="text.secondary" gutterBottom>
-        Share the room code with friends. {isHost ? "You're the host — pick a question and settings to start." : "Waiting for the host to start the round."}
-      </Typography>
+    <Stack spacing={3}>
+      <Paper sx={{ p: 3 }}>
+        <Typography variant="h6" gutterBottom>
+          Lobby
+        </Typography>
+        <Typography variant="body2" color="text.secondary" gutterBottom>
+          Share the room code or invite link with friends.{" "}
+          {isHost ? "You're the host — set up the game and press Start when ready." : "Waiting for the host to start."}
+        </Typography>
+        <Box sx={{ mt: 3 }}>
+          <PlayerList state={state} />
+        </Box>
+      </Paper>
 
       {isHost ? (
-        <Stack spacing={3} sx={{ mt: 3 }}>
-          <FormControl fullWidth>
-            <InputLabel>Question</InputLabel>
-            <Select label="Question" value={selectedQuestionId} onChange={(e) => setSelectedQuestionId(e.target.value)}>
-              {questions.map((q) => (
-                <MenuItem key={q.id} value={q.id}>
-                  {q.title}
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="h6" gutterBottom>
+            Game settings
+          </Typography>
+          <Stack spacing={3} sx={{ mt: 2 }}>
+            <FormControl fullWidth>
+              <InputLabel>Theme</InputLabel>
+              <Select
+                label="Theme"
+                value={themes.some((t) => t.theme === s.theme) ? s.theme : ""}
+                onChange={(e) => onUpdateSettings({ theme: e.target.value })}
+              >
+                {themes.map((t) => (
+                  <MenuItem key={t.theme} value={t.theme}>
+                    {t.theme} ({t.count} question{t.count === 1 ? "" : "s"})
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl>
 
-          <FormControl fullWidth>
-            <InputLabel>Scoring mode</InputLabel>
-            <Select
-              label="Scoring mode"
-              value={s.scoringMode}
-              onChange={(e) => onUpdateSettings({ scoringMode: e.target.value as "rank" | "inverse" | "flat" })}
-            >
-              <MenuItem value="rank">Rank — #10 = 10 pts, #1 = 1 pt (harder to guess = worth more)</MenuItem>
-              <MenuItem value="inverse">Inverse — #1 = 10 pts, #10 = 1 pt</MenuItem>
-              <MenuItem value="flat">Flat — 1 pt per correct answer</MenuItem>
-            </Select>
-          </FormControl>
+            <Box>
+              <Typography gutterBottom>
+                Number of questions: {s.numQuestions} <Typography component="span" variant="caption" color="text.secondary">(max {maxQuestions})</Typography>
+              </Typography>
+              <Slider
+                value={Math.min(s.numQuestions, maxQuestions)}
+                min={1}
+                max={Math.max(1, maxQuestions)}
+                step={1}
+                marks={maxQuestions <= 20}
+                valueLabelDisplay="auto"
+                onChange={(_, v) => onUpdateSettings({ numQuestions: v as number })}
+              />
+            </Box>
 
-          <Box>
-            <Typography gutterBottom>Top N: {s.topN}</Typography>
-            <Slider
-              value={s.topN}
-              min={3}
-              max={20}
-              step={1}
-              marks
-              valueLabelDisplay="auto"
-              onChange={(_, v) => onUpdateSettings({ topN: v as number })}
-            />
-          </Box>
+            <Box>
+              <Typography gutterBottom>Answers per player per question: {s.picksPerPlayer}</Typography>
+              <Typography variant="caption" color="text.secondary" display="block" gutterBottom>
+                1 = Kahoot-style (one guess), up to Top N = full top-list mode
+              </Typography>
+              <Slider
+                value={Math.min(s.picksPerPlayer, s.topN)}
+                min={1}
+                max={s.topN}
+                step={1}
+                marks={s.topN <= 20}
+                valueLabelDisplay="auto"
+                onChange={(_, v) => onUpdateSettings({ picksPerPlayer: v as number })}
+              />
+            </Box>
 
-          <Box>
-            <Typography gutterBottom>Miss penalty: {s.missPenalty} pts per wrong pick</Typography>
-            <Slider
-              value={s.missPenalty}
-              min={0}
-              max={10}
-              step={1}
-              marks
-              valueLabelDisplay="auto"
-              onChange={(_, v) => onUpdateSettings({ missPenalty: v as number })}
-            />
-          </Box>
+            <Box>
+              <Typography gutterBottom>Answers considered correct (Top N): {s.topN}</Typography>
+              <Slider
+                value={s.topN}
+                min={3}
+                max={20}
+                step={1}
+                marks
+                valueLabelDisplay="auto"
+                onChange={(_, v) => onUpdateSettings({ topN: v as number })}
+              />
+            </Box>
 
-          <Box>
-            <Typography gutterBottom>Round timer: {s.roundDurationSec}s</Typography>
-            <Slider
-              value={s.roundDurationSec}
-              min={15}
-              max={300}
-              step={15}
-              valueLabelDisplay="auto"
-              onChange={(_, v) => onUpdateSettings({ roundDurationSec: v as number })}
-            />
-          </Box>
+            <FormControl fullWidth>
+              <InputLabel>Scoring mode</InputLabel>
+              <Select
+                label="Scoring mode"
+                value={s.scoringMode}
+                onChange={(e) => onUpdateSettings({ scoringMode: e.target.value as GameSettings["scoringMode"] })}
+              >
+                <MenuItem value="rank">Rank — rank N = N pts (harder to guess = worth more)</MenuItem>
+                <MenuItem value="inverse">Inverse — #1 = topN pts, #topN = 1 pt</MenuItem>
+                <MenuItem value="flat">Flat — 1 pt per correct answer</MenuItem>
+              </Select>
+            </FormControl>
 
-          <Button variant="contained" size="large" onClick={onStart} disabled={!selectedQuestionId}>
-            Start Round
-          </Button>
-        </Stack>
+            <Box>
+              <Typography gutterBottom>Miss penalty: {s.missPenalty} pts per wrong pick</Typography>
+              <Slider
+                value={s.missPenalty}
+                min={0}
+                max={10}
+                step={1}
+                marks
+                valueLabelDisplay="auto"
+                onChange={(_, v) => onUpdateSettings({ missPenalty: v as number })}
+              />
+            </Box>
+
+            <Box>
+              <Typography gutterBottom>Round timer: {s.roundDurationSec}s</Typography>
+              <Slider
+                value={s.roundDurationSec}
+                min={15}
+                max={300}
+                step={15}
+                valueLabelDisplay="auto"
+                onChange={(_, v) => onUpdateSettings({ roundDurationSec: v as number })}
+              />
+            </Box>
+
+            <Button variant="contained" size="large" onClick={onStart} disabled={!themes.length}>
+              Start game
+            </Button>
+          </Stack>
+        </Paper>
       ) : (
-        <Stack spacing={1} sx={{ mt: 3 }}>
-          <SettingsSummary settings={s} />
-        </Stack>
+        <Paper sx={{ p: 3 }}>
+          <Typography variant="subtitle2" gutterBottom>
+            Game settings
+          </Typography>
+          <Typography variant="body2">Theme: <strong>{s.theme}</strong></Typography>
+          <Typography variant="body2">Questions: <strong>{s.numQuestions}</strong></Typography>
+          <Typography variant="body2">Picks per player: <strong>{s.picksPerPlayer}</strong></Typography>
+          <Typography variant="body2">Top N considered correct: <strong>{s.topN}</strong></Typography>
+          <Typography variant="body2">Scoring: <strong>{s.scoringMode}</strong></Typography>
+          <Typography variant="body2">Timer: <strong>{s.roundDurationSec}s</strong></Typography>
+        </Paper>
       )}
-    </Paper>
-  );
-}
-
-function SettingsSummary({ settings }: { settings: ClientRoomState["settings"] }) {
-  return (
-    <Box>
-      <Typography variant="body2">
-        <strong>Scoring:</strong> {settings.scoringMode}
-      </Typography>
-      <Typography variant="body2">
-        <strong>Top:</strong> {settings.topN}
-      </Typography>
-      <Typography variant="body2">
-        <strong>Miss penalty:</strong> {settings.missPenalty}
-      </Typography>
-      <Typography variant="body2">
-        <strong>Timer:</strong> {settings.roundDurationSec}s
-      </Typography>
-    </Box>
+    </Stack>
   );
 }
 
@@ -272,6 +380,7 @@ function PlayingView({
   picks,
   setPicks,
   now,
+  me,
   onSubmit,
 }: {
   state: ClientRoomState;
@@ -279,75 +388,103 @@ function PlayingView({
   picks: Country[];
   setPicks: (v: Country[]) => void;
   now: number;
+  me: ClientRoomState["players"][number] | undefined;
   onSubmit: () => void;
 }) {
   const meta = state.currentQuestionMeta;
   if (!meta) return null;
   const secondsLeft = state.endsAt ? Math.max(0, Math.ceil((state.endsAt - now) / 1000)) : 0;
-  const me = state.players.find((p) => p.submitted);
-  const submitted = false; // per-user submitted status derived by looking at players list matched to my cookie identity — kept simple visually via the chip filled state
   const optionsSorted = useMemo(() => [...countries].sort((a, b) => a.name.localeCompare(b.name)), [countries]);
+  const submitted = me?.submitted ?? false;
 
   return (
-    <Paper sx={{ p: 3 }}>
-      <Stack direction="row" justifyContent="space-between" alignItems="center">
-        <Typography variant="h5" fontWeight={700}>
-          {meta.title}
+    <Stack spacing={3}>
+      <Paper sx={{ p: 3 }}>
+        <Stack direction="row" justifyContent="space-between" alignItems={{ sm: "center" }} flexWrap="wrap" gap={2}>
+          <Box>
+            <Typography variant="caption" color="text.secondary">
+              Question {state.currentQuestionIdx + 1} of {state.totalQuestions}
+            </Typography>
+            <Typography variant="h5" fontWeight={700}>
+              {meta.title}
+            </Typography>
+          </Box>
+          <Typography variant="h3" fontWeight={800} color={secondsLeft <= 10 ? "error" : "primary"}>
+            {secondsLeft}s
+          </Typography>
+        </Stack>
+        <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
+          {meta.prompt} Pick {meta.picksPerPlayer === 1 ? "one country" : `up to ${meta.picksPerPlayer} countries`} from the top {meta.topN}.
         </Typography>
-        <Typography variant="h4" fontWeight={800} color={secondsLeft <= 10 ? "error" : "primary"}>
-          {secondsLeft}s
-        </Typography>
-      </Stack>
-      <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
-        {meta.prompt} Pick up to <strong>{meta.topN}</strong>.
-      </Typography>
-      {meta.note && (
-        <Alert severity="info" sx={{ mt: 2 }}>
-          {meta.note}
-        </Alert>
-      )}
-      <Autocomplete
-        multiple
-        options={optionsSorted}
-        value={picks}
-        onChange={(_, v) => setPicks(v.slice(0, meta.topN))}
-        getOptionLabel={(o) => o.name}
-        isOptionEqualToValue={(a, b) => a.code === b.code}
-        filterSelectedOptions
-        sx={{ mt: 3 }}
-        renderInput={(params) => <TextField {...params} label={`Your picks (${picks.length}/${meta.topN})`} placeholder="Type to search..." />}
-      />
-      <Stack direction="row" spacing={2} sx={{ mt: 3 }} alignItems="center">
-        <Button variant="contained" size="large" onClick={onSubmit} disabled={picks.length === 0 || submitted}>
-          Lock in {picks.length > 0 && `(${picks.length})`}
-        </Button>
-        <Typography variant="body2" color="text.secondary">
-          You can change picks and lock in again until the timer ends. When everyone has locked in, the round ends early.
-        </Typography>
-      </Stack>
-    </Paper>
+        <Autocomplete
+          multiple={meta.picksPerPlayer > 1}
+          options={optionsSorted}
+          value={meta.picksPerPlayer > 1 ? picks : picks[0] ?? null}
+          onChange={(_, v) => {
+            if (meta.picksPerPlayer === 1) {
+              setPicks(v ? [v as Country] : []);
+            } else {
+              setPicks((v as Country[]).slice(0, meta.picksPerPlayer));
+            }
+          }}
+          getOptionLabel={(o) => (o as Country).name}
+          isOptionEqualToValue={(a, b) => (a as Country).code === (b as Country).code}
+          filterSelectedOptions
+          disabled={submitted}
+          sx={{ mt: 3 }}
+          renderInput={(params) => (
+            <TextField
+              {...params}
+              label={
+                meta.picksPerPlayer === 1
+                  ? "Your pick"
+                  : `Your picks (${picks.length}/${meta.picksPerPlayer})`
+              }
+              placeholder="Type to search..."
+            />
+          )}
+        />
+        <Stack direction="row" spacing={2} sx={{ mt: 3 }} alignItems="center">
+          <Button variant="contained" size="large" onClick={onSubmit} disabled={picks.length === 0 || submitted}>
+            {submitted ? "Locked in" : "Lock in"}
+          </Button>
+          <Typography variant="body2" color="text.secondary">
+            {submitted
+              ? "Waiting for other players..."
+              : "You can change your picks until the timer ends. Round ends early when everyone locks in."}
+          </Typography>
+        </Stack>
+      </Paper>
+      <Paper sx={{ p: 3 }}>
+        <PlayerList state={state} showSubmitted />
+      </Paper>
+    </Stack>
   );
 }
 
-function ResultsView({
+function IntermissionView({
   state,
-  countries,
   isHost,
   onNext,
 }: {
   state: ClientRoomState;
-  countries: Country[];
   isHost: boolean;
   onNext: () => void;
 }) {
   const r = state.lastResults;
   if (!r) return null;
-  const codeToName = new Map(countries.map((c) => [c.code, c.name]));
+  const codeToName = new Map(state.players.map((p) => [p.id, p.name]));
+  const scoreboard = [...state.players].sort((a, b) => b.score - a.score);
+  const isLast = state.currentQuestionIdx + 1 >= state.totalQuestions;
+
   return (
     <Stack spacing={3}>
       <Paper sx={{ p: 3 }}>
+        <Typography variant="caption" color="text.secondary">
+          Question {state.currentQuestionIdx + 1} of {state.totalQuestions} — Results
+        </Typography>
         <Typography variant="h5" fontWeight={700} gutterBottom>
-          {r.questionTitle} — Results
+          {r.questionTitle}
         </Typography>
         <Alert severity="success" sx={{ mb: 2 }}>
           Source: <strong>{r.source.name}</strong> ({r.source.asOf}) —{" "}
@@ -376,7 +513,7 @@ function ResultsView({
 
       <Paper sx={{ p: 3 }}>
         <Typography variant="h6" gutterBottom>
-          Player scores
+          Player picks this round
         </Typography>
         <Stack spacing={2}>
           {state.players.map((p) => {
@@ -384,23 +521,21 @@ function ResultsView({
             if (!details) return null;
             return (
               <Box key={p.id}>
-                <Stack direction="row" justifyContent="space-between">
-                  <Typography fontWeight={700}>
-                    {p.name} — {details.roundScore >= 0 ? "+" : ""}
-                    {details.roundScore} this round (total {p.score})
-                  </Typography>
-                </Stack>
+                <Typography fontWeight={700}>
+                  {p.name} — {details.roundScore >= 0 ? "+" : ""}
+                  {details.roundScore} this round
+                </Typography>
                 <Stack direction="row" flexWrap="wrap" gap={1} sx={{ mt: 1 }}>
+                  {details.picksScored.length === 0 && (
+                    <Chip label="(no pick)" variant="outlined" size="small" />
+                  )}
                   {details.picksScored.map((ps, i) => (
                     <Chip
                       key={i}
-                      label={
-                        ps.rank
-                          ? `${codeToName.get(ps.code) || ps.code} #${ps.rank} (+${ps.points})`
-                          : `${codeToName.get(ps.code) || ps.code} (miss${ps.points !== 0 ? ` ${ps.points}` : ""})`
-                      }
+                      label={ps.rank ? `${ps.label} #${ps.rank} (+${ps.points})` : `${ps.label} (miss${ps.points !== 0 ? ` ${ps.points}` : ""})`}
                       color={ps.rank ? "success" : "default"}
                       variant={ps.rank ? "filled" : "outlined"}
+                      size="small"
                     />
                   ))}
                 </Stack>
@@ -410,14 +545,80 @@ function ResultsView({
         </Stack>
       </Paper>
 
-      {isHost && (
+      <Paper sx={{ p: 3 }}>
+        <Typography variant="h6" gutterBottom>
+          Scoreboard
+        </Typography>
+        <Stack spacing={1}>
+          {scoreboard.map((p, i) => (
+            <Stack key={p.id} direction="row" alignItems="center" spacing={2}>
+              <Typography sx={{ width: 24, fontWeight: 700 }} color="text.secondary">
+                #{i + 1}
+              </Typography>
+              <Typography sx={{ flex: 1 }} fontWeight={i === 0 ? 700 : 400}>
+                {p.name}
+              </Typography>
+              <Typography fontWeight={700}>{p.score}</Typography>
+            </Stack>
+          ))}
+        </Stack>
+      </Paper>
+
+      {isHost ? (
         <Button variant="contained" size="large" onClick={onNext}>
-          Back to lobby (next round)
+          {isLast ? "See final results" : "Next question"}
         </Button>
-      )}
-      {!isHost && (
+      ) : (
         <Typography variant="body2" color="text.secondary" textAlign="center">
-          Waiting for host to start the next round...
+          Waiting for host to continue...
+        </Typography>
+      )}
+    </Stack>
+  );
+}
+
+function FinalResultsView({
+  state,
+  isHost,
+  onLobby,
+}: {
+  state: ClientRoomState;
+  isHost: boolean;
+  onLobby: () => void;
+}) {
+  const scoreboard = state.finalScoreboard ?? [];
+  return (
+    <Stack spacing={3}>
+      <Paper sx={{ p: 3 }}>
+        <Typography variant="overline" color="text.secondary">
+          Game complete
+        </Typography>
+        <Typography variant="h4" fontWeight={800} gutterBottom>
+          Final scoreboard
+        </Typography>
+        <Stack spacing={1.5} sx={{ mt: 2 }}>
+          {scoreboard.map((entry, i) => (
+            <Stack key={entry.playerId} direction="row" alignItems="center" spacing={2}>
+              <Typography sx={{ width: 40, fontWeight: 800 }} variant="h5" color={i === 0 ? "warning.main" : "text.secondary"}>
+                {i === 0 ? "🏆" : `#${i + 1}`}
+              </Typography>
+              <Typography sx={{ flex: 1 }} fontWeight={i === 0 ? 800 : 500} variant={i === 0 ? "h5" : "body1"}>
+                {entry.name}
+              </Typography>
+              <Typography fontWeight={800} variant={i === 0 ? "h5" : "body1"}>
+                {entry.score}
+              </Typography>
+            </Stack>
+          ))}
+        </Stack>
+      </Paper>
+      {isHost ? (
+        <Button variant="contained" size="large" onClick={onLobby}>
+          Back to lobby (new game)
+        </Button>
+      ) : (
+        <Typography variant="body2" color="text.secondary" textAlign="center">
+          Waiting for host to start a new game...
         </Typography>
       )}
     </Stack>

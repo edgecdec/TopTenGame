@@ -1,27 +1,20 @@
 "use client";
 import { Box, Button, Container, Stack, TextField, Typography, Paper } from "@mui/material";
-import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 
-function ensureUserId() {
-  if (typeof document === "undefined") return;
-  const has = document.cookie.split("; ").some((c) => c.startsWith("topten_user_id="));
-  if (!has) {
-    const id = crypto.randomUUID();
-    document.cookie = `topten_user_id=${id}; path=/; max-age=31536000; SameSite=Lax`;
-  }
-}
-
-export default function Home() {
+function HomeInner() {
   const router = useRouter();
+  const search = useSearchParams();
   const [name, setName] = useState("");
   const [code, setCode] = useState("");
 
   useEffect(() => {
-    ensureUserId();
     const savedName = localStorage.getItem("topten_name");
     if (savedName) setName(savedName);
-  }, []);
+    const joinCode = search.get("joinCode");
+    if (joinCode) setCode(joinCode.toUpperCase());
+  }, [search]);
 
   const persistName = (n: string) => {
     setName(n);
@@ -82,5 +75,13 @@ export default function Home() {
         </Paper>
       </Stack>
     </Container>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense fallback={null}>
+      <HomeInner />
+    </Suspense>
   );
 }
