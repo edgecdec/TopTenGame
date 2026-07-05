@@ -8,11 +8,16 @@ const Database = require("better-sqlite3");
 const path = require("path");
 const { randomUUID } = require("crypto");
 
+const fs = require("fs");
+
 const dev = process.env.NODE_ENV !== "production";
 const hostname = "0.0.0.0";
 const port = process.env.PORT || 3007;
 const WEBHOOK_SECRET = process.env.WEBHOOK_SECRET || "my_super_secret_topten_token";
 const SESSION_SECRET = process.env.SESSION_SECRET || "topten_dev_session_secret_change_me";
+const SNAPSHOT_PATH = path.join(process.cwd(), "data", "rooms-snapshot.json");
+// Snapshots older than this are considered stale (games long abandoned).
+const SNAPSHOT_MAX_AGE_MS = 15 * 60 * 1000;
 
 function signUserId(userId) {
   const mac = crypto.createHmac("sha256", SESSION_SECRET).update(userId).digest("hex").slice(0, 32);
@@ -89,6 +94,99 @@ function shuffle(arr) {
 }
 
 const rooms = new Map();
+
+function serializeRooms() {
+  const out = [];
+  for (const [code, room] of rooms) {
+    out.push({
+      code,
+      hostId: room.hostId,
+      phase: room.phase,
+      settings: room.settings,
+      currentQuestionId: room.currentQuestionId,
+      currentQuestionMeta: room.currentQuestionMeta,
+      currentQuestionIdx: room.currentQuestionIdx,
+      questionQueue: room.questionQueue,
+      endsAt: room.endsAt,
+      lastResults: room.lastResults,
+      finalScoreboard: room.finalScoreboard,
+      players: Array.from(room.players.values()).map((p) => ({
+        id: p.id,
+        name: p.name,
+        score: p.score,
+        picks: p.picks,
+        submitted: p.submitted,
+        // Everyone comes back disconnected; client reconnects will flip this true.
+        connected: false,
+      })),
+    });
+  }
+  return out;
+}
+
+function saveSnapshot() {
+  try {
+    if (rooms.size === 0) {
+      if (fs.existsSync(SNAPSHOT_PATH)) fs.unlinkSync(SNAPSHOT_PATH);
+      return;
+    }
+    const payload = { savedAt: Date.now(), rooms: serializeRooms() };
+    fs.writeFileSync(SNAPSHOT_PATH, JSON.stringify(payload));
+    console.log(`Saved snapshot: ${rooms.size} rooms.`);
+  } catch (err) {
+    console.error("Snapshot save failed:", err);
+  }
+}
+
+function restoreSnapshot(io) {
+  try {
+    if (!fs.existsSync(SNAPSHOT_PATH)) return;
+    const payload = JSON.parse(fs.readFileSync(SNAPSHOT_PATH, "utf8"));
+    if (!payload?.rooms) return;
+    const age = Date.now() - (payload.savedAt || 0);
+    if (age > SNAPSHOT_MAX_AGE_MS) {
+      console.log(`Snapshot is ${Math.round(age / 1000)}s old — too stale, discarding.`);
+      fs.unlinkSync(SNAPSHOT_PATH);
+      return;
+    }
+    for (const r of payload.rooms) {
+      const players = new Map();
+      for (const p of r.players || []) players.set(p.id, p);
+      const room = {
+        code: r.code,
+        hostId: r.hostId,
+        players,
+        phase: r.phase,
+        settings: r.settings,
+        currentQuestionId: r.currentQuestionId,
+        currentQuestionMeta: r.currentQuestionMeta,
+        currentQuestionIdx: r.currentQuestionIdx,
+        questionQueue: r.questionQueue || [],
+        endsAt: r.endsAt,
+        lastResults: r.lastResults,
+        finalScoreboard: r.finalScoreboard,
+        roundTimer: null,
+      };
+      // If a round was in progress and the timer hadn't expired yet, re-arm it.
+      // If the timer already expired during downtime, end the round immediately.
+      if (room.phase === "playing" && room.endsAt) {
+        const remaining = room.endsAt - Date.now();
+        if (remaining > 0) {
+          room.roundTimer = setTimeout(() => endRound(io, room), remaining);
+        } else {
+          // Timer already elapsed — schedule an immediate end once the map has the room.
+          setImmediate(() => endRound(io, room));
+        }
+      }
+      rooms.set(room.code, room);
+    }
+    console.log(`Restored ${rooms.size} rooms from snapshot (age ${Math.round(age / 1000)}s).`);
+    // Snapshot is only good for one restore; delete so we don't re-apply it.
+    fs.unlinkSync(SNAPSHOT_PATH);
+  } catch (err) {
+    console.error("Snapshot restore failed:", err);
+  }
+}
 
 function defaultSettings() {
   return {
@@ -460,5 +558,28 @@ app.prepare().then(() => {
   httpServer.listen(port, hostname, (err) => {
     if (err) throw err;
     console.log(`> TopTen running on http://localhost:${port}`);
+    // Restore in-flight games from snapshot (if any) so pm2 restart during a
+    // deploy doesn't wipe active rooms. Runs after listen so io is ready.
+    restoreSnapshot(io);
   });
+
+  let shuttingDown = false;
+  const shutdown = (signal) => {
+    if (shuttingDown) return;
+    shuttingDown = true;
+    console.log(`Received ${signal}, saving snapshot and exiting.`);
+    // Clear any pending round timers so they don't fire mid-shutdown.
+    for (const r of rooms.values()) {
+      if (r.roundTimer) {
+        clearTimeout(r.roundTimer);
+        r.roundTimer = null;
+      }
+    }
+    saveSnapshot();
+    // Give sockets a moment to flush, then exit.
+    httpServer.close(() => process.exit(0));
+    setTimeout(() => process.exit(0), 2000).unref();
+  };
+  process.on("SIGTERM", () => shutdown("SIGTERM"));
+  process.on("SIGINT", () => shutdown("SIGINT"));
 });

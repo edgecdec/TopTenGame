@@ -76,6 +76,14 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     if (state?.phase !== "playing") setPicks([]);
   }, [state?.phase, state?.currentQuestionMeta?.id]);
 
+  // If we joined via /room/NEW, the server assigned a real code. Rewrite the URL
+  // so refreshes go to the same room instead of minting a new one.
+  useEffect(() => {
+    if (state?.roomCode && state.roomCode !== code.toUpperCase()) {
+      router.replace(`/room/${state.roomCode}`);
+    }
+  }, [state?.roomCode, code, router]);
+
   if (!name || !state) {
     return (
       <Container sx={{ py: 8 }}>
