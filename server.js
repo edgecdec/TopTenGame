@@ -471,6 +471,37 @@ app.prepare().then(() => {
       startGame(io, room);
     });
 
+    socket.on("transfer_host", ({ toPlayerId }) => {
+      if (!currentRoomCode || !userId) return;
+      const room = rooms.get(currentRoomCode);
+      if (!room || room.hostId !== userId) return;
+      if (typeof toPlayerId !== "string" || !room.players.has(toPlayerId)) return;
+      if (toPlayerId === userId) return;
+      room.hostId = toPlayerId;
+      broadcast(io, room);
+    });
+
+    socket.on("leave_room", () => {
+      if (!currentRoomCode || !userId) return;
+      const room = rooms.get(currentRoomCode);
+      if (!room) return;
+      room.players.delete(userId);
+      // If the host leaves, transfer to the earliest-joined connected player.
+      if (room.hostId === userId) {
+        const nextHost = Array.from(room.players.values()).find((p) => p.connected);
+        if (nextHost) room.hostId = nextHost.id;
+      }
+      socket.leave(currentRoomCode);
+      const rc = currentRoomCode;
+      currentRoomCode = null;
+      if (room.players.size === 0) {
+        if (room.roundTimer) clearTimeout(room.roundTimer);
+        rooms.delete(rc);
+      } else {
+        broadcast(io, room);
+      }
+    });
+
     socket.on("next_question", () => {
       if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);

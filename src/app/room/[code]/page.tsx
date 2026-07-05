@@ -26,6 +26,8 @@ import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import ShareIcon from "@mui/icons-material/Share";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import StarIcon from "@mui/icons-material/Star";
 import { useSocket } from "@/hooks/useSocket";
 import type { ClientRoomState, GameSettings } from "@/lib/types";
 
@@ -97,16 +99,23 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const me = state.players.find((p) => p.id === userId);
   const isHost = me?.isHost ?? false;
 
+  const onLeave = () => {
+    emit("leave_room");
+    router.push("/");
+  };
+
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
-      <RoomHeader state={state} onCopy={(msg) => setToast(msg)} />
+      <RoomHeader state={state} onCopy={(msg) => setToast(msg)} onLeave={onLeave} />
       {state.phase === "lobby" && (
         <LobbyView
           state={state}
           themes={themes}
           isHost={isHost}
+          myUserId={userId}
           onStart={() => emit("start_game")}
           onUpdateSettings={(partial) => emit("update_settings", partial)}
+          onTransferHost={(toId) => emit("transfer_host", { toPlayerId: toId })}
         />
       )}
       {state.phase === "playing" && (
@@ -140,7 +149,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   );
 }
 
-function RoomHeader({ state, onCopy }: { state: ClientRoomState; onCopy: (msg: string) => void }) {
+function RoomHeader({ state, onCopy, onLeave }: { state: ClientRoomState; onCopy: (msg: string) => void; onLeave: () => void }) {
   const copyCode = async () => {
     await navigator.clipboard.writeText(state.roomCode);
     onCopy("Room code copied");
@@ -168,6 +177,11 @@ function RoomHeader({ state, onCopy }: { state: ClientRoomState; onCopy: (msg: s
     <Paper sx={{ p: { xs: 2, sm: 3 }, mb: 3 }}>
       <Stack direction={{ xs: "column", sm: "row" }} spacing={2} alignItems={{ sm: "center" }} justifyContent="space-between">
         <Stack direction="row" alignItems="center" spacing={2}>
+          <Tooltip title="Leave room">
+            <IconButton onClick={onLeave} size="small">
+              <ArrowBackIcon />
+            </IconButton>
+          </Tooltip>
           <Box>
             <Typography variant="overline" color="text.secondary">
               Room code
@@ -238,14 +252,18 @@ function LobbyView({
   state,
   themes,
   isHost,
+  myUserId,
   onStart,
   onUpdateSettings,
+  onTransferHost,
 }: {
   state: ClientRoomState;
   themes: ThemeInfo[];
   isHost: boolean;
+  myUserId: string;
   onStart: () => void;
   onUpdateSettings: (partial: Partial<GameSettings>) => void;
+  onTransferHost: (toPlayerId: string) => void;
 }) {
   const s = state.settings;
   const currentTheme = themes.find((t) => t.theme === s.theme);
@@ -267,7 +285,35 @@ function LobbyView({
           {isHost ? "You're the host — set up the game and press Start when ready." : "Waiting for the host to start."}
         </Typography>
         <Box sx={{ mt: 3 }}>
-          <PlayerList state={state} />
+          <Typography variant="subtitle2" gutterBottom color="text.secondary">
+            Players ({state.players.filter((p) => p.connected).length} online)
+          </Typography>
+          <Stack direction="row" flexWrap="wrap" gap={1}>
+            {state.players.map((p) => (
+              <Chip
+                key={p.id}
+                label={
+                  <Stack direction="row" alignItems="center" spacing={0.5}>
+                    <Typography variant="body2" component="span">
+                      {p.name}
+                      {p.isHost && " ★"}
+                      {p.id === myUserId && !p.isHost && " (you)"}
+                    </Typography>
+                  </Stack>
+                }
+                color={p.connected ? "primary" : "default"}
+                variant={p.connected ? "filled" : "outlined"}
+                onDelete={isHost && !p.isHost && p.connected ? () => onTransferHost(p.id) : undefined}
+                deleteIcon={
+                  isHost && !p.isHost && p.connected ? (
+                    <Tooltip title="Make host">
+                      <StarIcon fontSize="small" />
+                    </Tooltip>
+                  ) : undefined
+                }
+              />
+            ))}
+          </Stack>
         </Box>
       </Paper>
 
