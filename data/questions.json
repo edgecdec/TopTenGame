@@ -39984,11 +39984,11 @@
     ]
   },
   {
-    "id": "movies-box-office-best-picture-winners-ranked-in-the-afi-top-100-american-films-",
+    "id": "movies-awards-best-picture-winners-highest-afi-top-100-ranking-2007",
     "theme": "Movies",
-    "subtheme": "Movies - Box Office",
-    "title": "Best Picture winners ranked in the AFI Top 100 American films",
-    "prompt": "Name the Best Picture winners with the highest ranking on the AFI 100 Years... 100 Movies list (10th Anniversary Edition, 2007).",
+    "subtheme": "Movies - Awards",
+    "title": "Best Picture winners with the highest AFI Top 100 ranking",
+    "prompt": "The AFI 100 Years... 100 Movies list ranks the 100 greatest American films (#1 = greatest). Name the Best Picture winners with the highest positions (i.e. lowest AFI rank numbers).",
     "answerType": "Movies",
     "seededDepth": 15,
     "source": {
@@ -39997,44 +39997,44 @@
       "asOf": "AFI 100 Years... 100 Movies (10th Anniversary), published 2007"
     },
     "note": null,
-    "disclaimer": "AFI list ranks the 100 greatest American films. Only BP winners that made the list are included; foreign-language BP winners (Parasite) and non-American films are excluded by AFI's criteria.",
-    "trivia": "The Godfather is ranked #2 on the AFI Top 100 (behind only Citizen Kane), and Part II is ranked #32 \u2014 the highest sequel on the list.",
+    "disclaimer": "The AFI list is based only on American films; foreign-language Best Picture winners like Parasite are excluded by AFI's criteria.",
+    "trivia": "The Godfather is #2 on the AFI Top 100 (only Citizen Kane ranks higher), and Part II at #32 is the highest sequel on the list.",
     "asOfDate": "AFI 100 Years... 100 Movies (10th Anniversary), published 2007",
     "answers": [
       {
         "rank": 1,
-        "code": "titanic-1997",
-        "value": "AFI #83"
+        "code": "godfather-1972",
+        "value": "AFI #2"
       },
       {
         "rank": 2,
-        "code": "forrest-gump-1994",
-        "value": "AFI #76"
+        "code": "casablanca-1943",
+        "value": "AFI #3"
       },
       {
         "rank": 3,
-        "code": "unforgiven-1992",
-        "value": "AFI #68"
+        "code": "gone-with-the-wind-1939",
+        "value": "AFI #6"
       },
       {
         "rank": 4,
-        "code": "west-side-story-1961",
-        "value": "AFI #51"
+        "code": "lawrence-of-arabia-1962",
+        "value": "AFI #7"
       },
       {
         "rank": 5,
-        "code": "sound-of-music-1965",
-        "value": "AFI #40"
+        "code": "schindlers-list-1993",
+        "value": "AFI #8"
       },
       {
         "rank": 6,
-        "code": "bridge-on-the-river-kwai-1957",
-        "value": "AFI #36"
+        "code": "on-the-waterfront-1954",
+        "value": "AFI #19"
       },
       {
         "rank": 7,
-        "code": "annie-hall-1977",
-        "value": "AFI #35"
+        "code": "godfather-part-ii-1974",
+        "value": "AFI #32"
       },
       {
         "rank": 8,
@@ -40043,38 +40043,38 @@
       },
       {
         "rank": 9,
-        "code": "godfather-part-ii-1974",
-        "value": "AFI #32"
+        "code": "annie-hall-1977",
+        "value": "AFI #35"
       },
       {
         "rank": 10,
-        "code": "on-the-waterfront-1954",
-        "value": "AFI #19"
+        "code": "bridge-on-the-river-kwai-1957",
+        "value": "AFI #36"
       },
       {
         "rank": 11,
-        "code": "schindlers-list-1993",
-        "value": "AFI #8"
+        "code": "sound-of-music-1965",
+        "value": "AFI #40"
       },
       {
         "rank": 12,
-        "code": "lawrence-of-arabia-1962",
-        "value": "AFI #7"
+        "code": "west-side-story-1961",
+        "value": "AFI #51"
       },
       {
         "rank": 13,
-        "code": "gone-with-the-wind-1939",
-        "value": "AFI #6"
+        "code": "unforgiven-1992",
+        "value": "AFI #68"
       },
       {
         "rank": 14,
-        "code": "casablanca-1943",
-        "value": "AFI #3"
+        "code": "forrest-gump-1994",
+        "value": "AFI #76"
       },
       {
         "rank": 15,
-        "code": "godfather-1972",
-        "value": "AFI #2"
+        "code": "titanic-1997",
+        "value": "AFI #83"
       }
     ]
   },
@@ -40790,6 +40790,2581 @@
         "rank": 9,
         "code": "once-upon-a-time-in-hollywood-2019",
         "value": "Nominee \u2014 2 Oscars"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-video-games-of-all-time-2026",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling Video Games of All Time",
+    "prompt": "Rank the best-selling video games of all time across all platforms combined.",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "Wikipedia - List of best-selling video games",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games",
+      "asOf": "2026-01-15"
+    },
+    "note": null,
+    "disclaimer": "Figures combine sales across all platforms and versions; mobile downloads counted where publisher-confirmed.",
+    "trivia": "Minecraft surpassed Tetris as the best-selling game of all time in 2020 and has kept extending its lead ever since.",
+    "asOfDate": "2026-01-15",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "minecraft-2011",
+        "value": "300M+ copies"
+      },
+      {
+        "rank": 2,
+        "code": "grand-theft-auto-v-2013",
+        "value": "205M+ copies"
+      },
+      {
+        "rank": 3,
+        "code": "wii-sports-2006",
+        "value": "82.9M copies"
+      },
+      {
+        "rank": 4,
+        "code": "pubg-battlegrounds-2017",
+        "value": "75M+ copies"
+      },
+      {
+        "rank": 5,
+        "code": "mario-kart-8-2014",
+        "value": "68M+ copies"
+      },
+      {
+        "rank": 6,
+        "code": "red-dead-redemption-2-2018",
+        "value": "65M+ copies"
+      },
+      {
+        "rank": 7,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "60M+ copies"
+      },
+      {
+        "rank": 8,
+        "code": "super-mario-bros-1985",
+        "value": "58M copies"
+      },
+      {
+        "rank": 8,
+        "code": "terraria-2011",
+        "value": "58M+ copies"
+      },
+      {
+        "rank": 10,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "55M+ copies"
+      },
+      {
+        "rank": 11,
+        "code": "human-fall-flat-2016",
+        "value": "50M+ copies"
+      },
+      {
+        "rank": 12,
+        "code": "call-of-duty-modern-warfare-2019",
+        "value": "41M+ copies"
+      },
+      {
+        "rank": 13,
+        "code": "diablo-iii-2012",
+        "value": "40M+ copies"
+      },
+      {
+        "rank": 14,
+        "code": "mario-kart-wii-2008",
+        "value": "37.4M copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-console-only-games-2026",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling Console-Only Games",
+    "prompt": "Rank the best-selling games that launched exclusively on home consoles (no PC/mobile release).",
+    "answerType": "Video Games",
+    "seededDepth": 15,
+    "source": {
+      "name": "VGChartz - Console Software Totals",
+      "url": "https://www.vgchartz.com/analysis/platform_totals/Software/",
+      "asOf": "2026-01-10"
+    },
+    "note": null,
+    "disclaimer": "Excludes titles with concurrent PC or mobile releases; sales rounded to nearest 0.1M.",
+    "trivia": "Wii Sports sold nearly as many copies as the Wii console itself, thanks to being packed in with almost every unit sold outside Japan.",
+    "asOfDate": "2026-01-10",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "wii-sports-2006",
+        "value": "82.9M copies"
+      },
+      {
+        "rank": 2,
+        "code": "mario-kart-8-2014",
+        "value": "68M+ copies"
+      },
+      {
+        "rank": 3,
+        "code": "super-mario-bros-1985",
+        "value": "58M copies"
+      },
+      {
+        "rank": 4,
+        "code": "animal-crossing-new-horizons-2020",
+        "value": "46M+ copies"
+      },
+      {
+        "rank": 5,
+        "code": "mario-kart-wii-2008",
+        "value": "37.4M copies"
+      },
+      {
+        "rank": 6,
+        "code": "super-smash-bros-ultimate-2018",
+        "value": "34M+ copies"
+      },
+      {
+        "rank": 7,
+        "code": "wii-sports-resort-2009",
+        "value": "33.1M copies"
+      },
+      {
+        "rank": 8,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "32M+ copies"
+      },
+      {
+        "rank": 9,
+        "code": "new-super-mario-bros-2006",
+        "value": "30.8M copies"
+      },
+      {
+        "rank": 10,
+        "code": "new-super-mario-bros-wii-2009",
+        "value": "30.3M copies"
+      },
+      {
+        "rank": 11,
+        "code": "duck-hunt-1984",
+        "value": "28.3M copies"
+      },
+      {
+        "rank": 12,
+        "code": "super-mario-odyssey-2017",
+        "value": "28M+ copies"
+      },
+      {
+        "rank": 12,
+        "code": "wii-play-2006",
+        "value": "28.0M copies"
+      },
+      {
+        "rank": 14,
+        "code": "pokemon-sword-and-shield-2019",
+        "value": "26M+ copies"
+      },
+      {
+        "rank": 15,
+        "code": "kinect-adventures-2010",
+        "value": "24.0M copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-pc-only-games-2026",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling PC-Only Games",
+    "prompt": "Rank the best-selling games released exclusively (or primarily launched) on PC platforms.",
+    "answerType": "Video Games",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia - List of best-selling PC video games",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_PC_video_games",
+      "asOf": "2026-01-12"
+    },
+    "note": null,
+    "disclaimer": "Includes retail boxed and digital storefront (Steam, Battle.net, GOG, Epic) sales. Excludes console/mobile ports where PC was not primary platform.",
+    "trivia": "The Sims franchise as a whole has sold over 200 million copies, but the original Sims game alone accounts for over 16 million of those on PC.",
+    "asOfDate": "2026-01-12",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "league-of-legends-2009",
+        "value": "180M+ players"
+      },
+      {
+        "rank": 2,
+        "code": "pubg-battlegrounds-2017",
+        "value": "75M+ copies"
+      },
+      {
+        "rank": 3,
+        "code": "world-of-warcraft-2004",
+        "value": "50M+ subscriptions"
+      },
+      {
+        "rank": 4,
+        "code": "diablo-iii-2012",
+        "value": "40M+ copies"
+      },
+      {
+        "rank": 4,
+        "code": "counter-strike-global-offensive-2012",
+        "value": "40M+ players"
+      },
+      {
+        "rank": 6,
+        "code": "valorant-2020",
+        "value": "30M+ monthly players"
+      },
+      {
+        "rank": 7,
+        "code": "sims-2000",
+        "value": "16M+ copies"
+      },
+      {
+        "rank": 8,
+        "code": "dota-2-2013",
+        "value": "13M+ monthly players"
+      },
+      {
+        "rank": 8,
+        "code": "guild-wars-2-2012",
+        "value": "13M+ copies"
+      },
+      {
+        "rank": 10,
+        "code": "half-life-2-2004",
+        "value": "12M+ copies"
+      },
+      {
+        "rank": 11,
+        "code": "starcraft-1998",
+        "value": "11M+ copies"
+      },
+      {
+        "rank": 11,
+        "code": "civilization-vi-2016",
+        "value": "11M+ copies"
+      },
+      {
+        "rank": 13,
+        "code": "sims-3-2009",
+        "value": "10M+ copies"
+      },
+      {
+        "rank": 14,
+        "code": "half-life-1998",
+        "value": "9.3M copies"
+      },
+      {
+        "rank": 15,
+        "code": "myst-1993",
+        "value": "6M+ copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-mobile-games-of-all-time-2026",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling Mobile Games of All Time",
+    "prompt": "Rank the best-selling (or most-downloaded) mobile games ever released on iOS/Android.",
+    "answerType": "Video Games",
+    "seededDepth": 12,
+    "source": {
+      "name": "Sensor Tower & Wikipedia mobile games list",
+      "url": "https://en.wikipedia.org/wiki/List_of_most-played_mobile_games_by_player_count",
+      "asOf": "2026-01-14"
+    },
+    "note": null,
+    "disclaimer": "Mobile figures reported as downloads or active players; many titles are free-to-play so 'sales' means downloads plus in-app purchase revenue.",
+    "trivia": "PUBG Mobile and Free Fire together account for over 2 billion downloads, with most of that user base coming from India, Brazil, and Southeast Asia.",
+    "asOfDate": "2026-01-14",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "subway-surfers-2012",
+        "value": "3B+ downloads"
+      },
+      {
+        "rank": 1,
+        "code": "candy-crush-saga-2012",
+        "value": "3B+ downloads"
+      },
+      {
+        "rank": 3,
+        "code": "pubg-mobile-2018",
+        "value": "1.2B+ downloads"
+      },
+      {
+        "rank": 4,
+        "code": "garena-free-fire-2017",
+        "value": "1B+ downloads"
+      },
+      {
+        "rank": 5,
+        "code": "clash-of-clans-2012",
+        "value": "500M+ downloads"
+      },
+      {
+        "rank": 5,
+        "code": "angry-birds-2009",
+        "value": "500M+ downloads"
+      },
+      {
+        "rank": 5,
+        "code": "8-ball-pool-2013",
+        "value": "500M+ downloads"
+      },
+      {
+        "rank": 8,
+        "code": "fruit-ninja-2010",
+        "value": "300M+ downloads"
+      },
+      {
+        "rank": 9,
+        "code": "clash-royale-2016",
+        "value": "250M+ downloads"
+      },
+      {
+        "rank": 10,
+        "code": "gardenscapes-2016",
+        "value": "200M+ downloads"
+      },
+      {
+        "rank": 11,
+        "code": "honor-of-kings-2015",
+        "value": "100M+ daily players"
+      },
+      {
+        "rank": 11,
+        "code": "genshin-impact-2020",
+        "value": "100M+ downloads"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-nintendo-switch-games-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling Nintendo Switch Games",
+    "prompt": "Rank the best-selling games on the Nintendo Switch platform.",
+    "answerType": "Video Games",
+    "seededDepth": 7,
+    "source": {
+      "name": "Nintendo Financial Reports",
+      "url": "https://www.nintendo.co.jp/ir/en/finance/software/",
+      "asOf": "2025-12-31"
+    },
+    "note": null,
+    "disclaimer": "Sales reflect Nintendo's most recent quarterly IR filings; totals include both physical and digital units on Switch.",
+    "trivia": "Mario Kart 8 Deluxe has an attach rate of over 50% on Switch \u2014 meaning more than half of all Switch owners have bought it.",
+    "asOfDate": "2025-12-31",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mario-kart-8-2014",
+        "value": "68M+ copies"
+      },
+      {
+        "rank": 2,
+        "code": "animal-crossing-new-horizons-2020",
+        "value": "46M+ copies"
+      },
+      {
+        "rank": 3,
+        "code": "super-smash-bros-ultimate-2018",
+        "value": "34M+ copies"
+      },
+      {
+        "rank": 4,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "32M+ copies"
+      },
+      {
+        "rank": 5,
+        "code": "super-mario-odyssey-2017",
+        "value": "28M+ copies"
+      },
+      {
+        "rank": 6,
+        "code": "pokemon-sword-and-shield-2019",
+        "value": "26M+ copies"
+      },
+      {
+        "rank": 7,
+        "code": "pokemon-scarlet-violet-2022",
+        "value": "25M+ copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-playstation-4-games-2026",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling PlayStation 4 Games",
+    "prompt": "Rank the best-selling games on the PlayStation 4 console.",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "VGChartz PS4 Software Totals",
+      "url": "https://www.vgchartz.com/platform/74/playstation-4/",
+      "asOf": "2026-01-08"
+    },
+    "note": null,
+    "disclaimer": "Includes both physical and digital sales; some digital numbers rely on publisher-reported totals across all PS4 SKUs.",
+    "trivia": "God of War (2018) was PlayStation Studios' fastest-selling first-party PS4 game, moving 3.1 million copies in its first three days.",
+    "asOfDate": "2026-01-08",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "grand-theft-auto-v-2013",
+        "value": "205M+ copies"
+      },
+      {
+        "rank": 2,
+        "code": "red-dead-redemption-2-2018",
+        "value": "65M+ copies"
+      },
+      {
+        "rank": 3,
+        "code": "call-of-duty-black-ops-iii-2015",
+        "value": "43M+ copies"
+      },
+      {
+        "rank": 4,
+        "code": "call-of-duty-modern-warfare-2019",
+        "value": "41M+ copies"
+      },
+      {
+        "rank": 5,
+        "code": "fifa-18-2017",
+        "value": "24M+ copies"
+      },
+      {
+        "rank": 6,
+        "code": "god-of-war-2018",
+        "value": "23M+ copies"
+      },
+      {
+        "rank": 7,
+        "code": "horizon-zero-dawn-2017",
+        "value": "20M+ copies"
+      },
+      {
+        "rank": 7,
+        "code": "fifa-19-2018",
+        "value": "20M+ copies"
+      },
+      {
+        "rank": 9,
+        "code": "call-of-duty-wwii-2017",
+        "value": "19M+ copies"
+      },
+      {
+        "rank": 10,
+        "code": "fifa-20-2019",
+        "value": "18M+ copies"
+      },
+      {
+        "rank": 11,
+        "code": "uncharted-4-a-thiefs-end-2016",
+        "value": "16M+ copies"
+      },
+      {
+        "rank": 12,
+        "code": "ghost-of-tsushima-2020",
+        "value": "13M+ copies"
+      },
+      {
+        "rank": 13,
+        "code": "fallout-4-2015",
+        "value": "12M+ copies"
+      },
+      {
+        "rank": 14,
+        "code": "last-of-us-part-ii-2020",
+        "value": "10M+ copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-xbox-games-2026",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling Xbox Games",
+    "prompt": "Rank the best-selling games across the original Xbox, Xbox 360, Xbox One, and Xbox Series X|S consoles.",
+    "answerType": "Video Games",
+    "seededDepth": 15,
+    "source": {
+      "name": "VGChartz Xbox Software Totals",
+      "url": "https://www.vgchartz.com/platforms/",
+      "asOf": "2026-01-09"
+    },
+    "note": null,
+    "disclaimer": "Combines figures across all Xbox platforms; Game Pass subscriber plays are not counted as unit sales.",
+    "trivia": "Halo 3 sold $170M on launch day in 2007 \u2014 a record that stood for years until Grand Theft Auto V shattered it.",
+    "asOfDate": "2026-01-09",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "minecraft-2011",
+        "value": "300M+ copies"
+      },
+      {
+        "rank": 2,
+        "code": "grand-theft-auto-v-2013",
+        "value": "205M+ copies"
+      },
+      {
+        "rank": 3,
+        "code": "sea-of-thieves-2018",
+        "value": "40M+ players"
+      },
+      {
+        "rank": 4,
+        "code": "kinect-adventures-2010",
+        "value": "24.0M copies"
+      },
+      {
+        "rank": 4,
+        "code": "forza-horizon-4-2018",
+        "value": "24M+ players"
+      },
+      {
+        "rank": 6,
+        "code": "call-of-duty-modern-warfare-3-2011",
+        "value": "14.8M copies"
+      },
+      {
+        "rank": 7,
+        "code": "call-of-duty-black-ops-2010",
+        "value": "14.7M copies"
+      },
+      {
+        "rank": 7,
+        "code": "call-of-duty-black-ops-ii-2012",
+        "value": "14.7M copies"
+      },
+      {
+        "rank": 9,
+        "code": "halo-3-2007",
+        "value": "14.5M copies"
+      },
+      {
+        "rank": 10,
+        "code": "halo-reach-2010",
+        "value": "9.9M copies"
+      },
+      {
+        "rank": 11,
+        "code": "halo-4-2012",
+        "value": "9.8M copies"
+      },
+      {
+        "rank": 12,
+        "code": "halo-2-2004",
+        "value": "8.5M copies"
+      },
+      {
+        "rank": 13,
+        "code": "gears-of-war-2-2008",
+        "value": "6.9M copies"
+      },
+      {
+        "rank": 13,
+        "code": "gears-of-war-3-2011",
+        "value": "6.9M copies"
+      },
+      {
+        "rank": 15,
+        "code": "gears-of-war-2006",
+        "value": "6.0M copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-sales-best-selling-handheld-games-nintendo-ds-3ds-vita-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Sales",
+    "title": "Best-Selling Handheld Games (Nintendo DS / 3DS / Vita)",
+    "prompt": "Rank the best-selling games on dedicated handheld consoles \u2014 Nintendo DS, 3DS, and PlayStation Vita.",
+    "answerType": "Video Games",
+    "seededDepth": 4,
+    "source": {
+      "name": "Nintendo & Sony Handheld Sales Reports",
+      "url": "https://www.nintendo.co.jp/ir/en/finance/software/",
+      "asOf": "2025-12-31"
+    },
+    "note": null,
+    "disclaimer": "Nintendo DS/3DS figures per Nintendo IR; PS Vita figures per Sony and VGChartz. Excludes Nintendo Switch (hybrid handheld/home console).",
+    "trivia": "New Super Mario Bros. on DS was the fastest handheld game to hit 20 million sales \u2014 a feat no PS Vita game ever came close to.",
+    "asOfDate": "2025-12-31",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "new-super-mario-bros-2006",
+        "value": "30.8M copies"
+      },
+      {
+        "rank": 2,
+        "code": "brain-age-2005",
+        "value": "19.0M copies"
+      },
+      {
+        "rank": 3,
+        "code": "brain-age-2-2005",
+        "value": "15.3M copies"
+      },
+      {
+        "rank": 4,
+        "code": "animal-crossing-new-leaf-2012",
+        "value": "12.5M copies"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-highest-metacritic-score-of-all-time-all-platforms-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Highest Metacritic score of all time (all platforms)",
+    "prompt": "Name games with the highest all-time Metacritic critic scores, aggregated across all platforms.",
+    "answerType": "Video Games",
+    "seededDepth": 13,
+    "source": {
+      "name": "Metacritic Best Games of All Time",
+      "url": "https://www.metacritic.com/browse/game/",
+      "asOf": "Metacritic all-time rankings through 2025"
+    },
+    "note": null,
+    "disclaimer": "Metacritic uses a weighted average of professional critic reviews on a 0-100 scale. Ties are broken by number of reviews; only the highest-scoring platform version of each title is counted here.",
+    "trivia": "Ocarina of Time and Tony Hawk's Pro Skater 2 both hold a 98 on Metacritic, but Ocarina has been ranked #1 all-time by Metacritic for over two decades thanks to its higher review count.",
+    "asOfDate": "Metacritic all-time rankings through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "99 (N64)"
+      },
+      {
+        "rank": 2,
+        "code": "tony-hawks-pro-skater-2-2000",
+        "value": "98 (PS1)"
+      },
+      {
+        "rank": 2,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "98 (PS3/X360)"
+      },
+      {
+        "rank": 4,
+        "code": "super-mario-galaxy-2007",
+        "value": "97 (Wii)"
+      },
+      {
+        "rank": 4,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "97 (Wii)"
+      },
+      {
+        "rank": 4,
+        "code": "red-dead-redemption-2-2018",
+        "value": "97 (PS4/XBO)"
+      },
+      {
+        "rank": 4,
+        "code": "grand-theft-auto-v-2013",
+        "value": "97 (PS3/X360)"
+      },
+      {
+        "rank": 4,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "97 (Switch)"
+      },
+      {
+        "rank": 4,
+        "code": "metroid-prime-2002",
+        "value": "97 (GameCube)"
+      },
+      {
+        "rank": 4,
+        "code": "halo-combat-evolved-2001",
+        "value": "97 (Xbox)"
+      },
+      {
+        "rank": 4,
+        "code": "grand-theft-auto-iii-2001",
+        "value": "97 (PS2)"
+      },
+      {
+        "rank": 4,
+        "code": "perfect-dark-2000",
+        "value": "97 (N64)"
+      },
+      {
+        "rank": 13,
+        "code": "grand-theft-auto-san-andreas-2004",
+        "value": "96 (PS2)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-highest-gamerankings-score-defunct-historical-2019",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Highest GameRankings score (defunct, historical)",
+    "prompt": "Name games with the highest all-time scores on the defunct aggregator GameRankings.com.",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "GameRankings (archived)",
+      "url": "https://web.archive.org/web/2019*/gamerankings.com",
+      "asOf": "GameRankings final rankings before shutdown in December 2019"
+    },
+    "note": null,
+    "disclaimer": "GameRankings shut down in December 2019 after being folded into Metacritic. Its final all-time top list is preserved via the Internet Archive. Scores are percentages of critic reviews.",
+    "trivia": "Super Mario Galaxy edged out Ocarina of Time on GameRankings, unlike on Metacritic where Ocarina held #1. GameRankings' methodology weighted more raw reviews without Metacritic's editorial curation.",
+    "asOfDate": "GameRankings final rankings before shutdown in December 2019",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "super-mario-galaxy-2007",
+        "value": "97.64%"
+      },
+      {
+        "rank": 2,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "97.54%"
+      },
+      {
+        "rank": 3,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "97.35%"
+      },
+      {
+        "rank": 4,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "97.32%"
+      },
+      {
+        "rank": 5,
+        "code": "tony-hawks-pro-skater-2-2000",
+        "value": "97.28%"
+      },
+      {
+        "rank": 6,
+        "code": "grand-theft-auto-v-2013",
+        "value": "96.85%"
+      },
+      {
+        "rank": 7,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "96.66%"
+      },
+      {
+        "rank": 8,
+        "code": "red-dead-redemption-2-2018",
+        "value": "96.44%"
+      },
+      {
+        "rank": 9,
+        "code": "uncharted-2-among-thieves-2009",
+        "value": "96.40%"
+      },
+      {
+        "rank": 10,
+        "code": "metroid-prime-2002",
+        "value": "96.34%"
+      },
+      {
+        "rank": 11,
+        "code": "half-life-2-2004",
+        "value": "96.10%"
+      },
+      {
+        "rank": 12,
+        "code": "resident-evil-4-2005",
+        "value": "96.03%"
+      },
+      {
+        "rank": 13,
+        "code": "halo-combat-evolved-2001",
+        "value": "95.61%"
+      },
+      {
+        "rank": 14,
+        "code": "legend-of-zelda-twilight-princess-2006",
+        "value": "95.60%"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-games-with-a-perfect-metacritic-score-of-100-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Games with a perfect Metacritic score of 100",
+    "prompt": "Name games that received a perfect score of 100 from at least one Metacritic-tracked critic.",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "Metacritic",
+      "url": "https://www.metacritic.com/browse/game/",
+      "asOf": "Metacritic critic reviews tracked through 2025"
+    },
+    "note": null,
+    "disclaimer": "A perfect 100 refers to an individual outlet's review being scored 100/100 on Metacritic \u2014 not the aggregate Metascore. Games listed each have received at least one such perfect review.",
+    "trivia": "Only Legend of Zelda: Ocarina of Time has ever received an aggregated Metascore of 99. No game has ever achieved an aggregated Metascore of 100.",
+    "asOfDate": "Metacritic critic reviews tracked through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 2,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 3,
+        "code": "grand-theft-auto-v-2013",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 4,
+        "code": "red-dead-redemption-2-2018",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 5,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 6,
+        "code": "super-mario-galaxy-2007",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 7,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 8,
+        "code": "elden-ring-2022",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 9,
+        "code": "bioshock-2007",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 10,
+        "code": "portal-2-2011",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 11,
+        "code": "mass-effect-2-2010",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 12,
+        "code": "uncharted-2-among-thieves-2009",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 13,
+        "code": "last-of-us-2013",
+        "value": "Multiple 100s"
+      },
+      {
+        "rank": 14,
+        "code": "god-of-war-2018",
+        "value": "Multiple 100s"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-games-rated-95-by-metacritic-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Games rated 95+ by Metacritic",
+    "prompt": "Name games with a Metacritic aggregate score of 95 or higher (top-tier universal acclaim).",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "Metacritic",
+      "url": "https://www.metacritic.com/browse/game/",
+      "asOf": "Metacritic aggregate scores through 2025"
+    },
+    "note": null,
+    "disclaimer": "Only the highest-scoring platform release counts for each title. Ordered from highest Metascore down; ties are alphabetical.",
+    "trivia": "Fewer than 40 games in history have crossed the 95-Metascore threshold, and about half of them are Nintendo first-party titles.",
+    "asOfDate": "Metacritic aggregate scores through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "99"
+      },
+      {
+        "rank": 2,
+        "code": "tony-hawks-pro-skater-2-2000",
+        "value": "98"
+      },
+      {
+        "rank": 3,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "98"
+      },
+      {
+        "rank": 4,
+        "code": "super-mario-galaxy-2007",
+        "value": "97"
+      },
+      {
+        "rank": 5,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "97"
+      },
+      {
+        "rank": 6,
+        "code": "red-dead-redemption-2-2018",
+        "value": "97"
+      },
+      {
+        "rank": 7,
+        "code": "grand-theft-auto-v-2013",
+        "value": "97"
+      },
+      {
+        "rank": 8,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "97"
+      },
+      {
+        "rank": 9,
+        "code": "metroid-prime-2002",
+        "value": "97"
+      },
+      {
+        "rank": 10,
+        "code": "halo-combat-evolved-2001",
+        "value": "97"
+      },
+      {
+        "rank": 11,
+        "code": "elden-ring-2022",
+        "value": "96"
+      },
+      {
+        "rank": 12,
+        "code": "half-life-2-2004",
+        "value": "96"
+      },
+      {
+        "rank": 13,
+        "code": "bioshock-2007",
+        "value": "96"
+      },
+      {
+        "rank": 14,
+        "code": "mass-effect-2-2010",
+        "value": "96"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-highest-user-score-on-metacritic-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Highest User Score on Metacritic",
+    "prompt": "Name games with the highest Metacritic User Score (aggregated user ratings on a 0-10 scale).",
+    "answerType": "Video Games",
+    "seededDepth": 13,
+    "source": {
+      "name": "Metacritic User Reviews",
+      "url": "https://www.metacritic.com/browse/game/",
+      "asOf": "User-score leaderboard through 2025"
+    },
+    "note": null,
+    "disclaimer": "User scores are user-submitted on a 0-10 scale (displayed as e.g. 9.6). Games with fewer than a threshold number of ratings are excluded to filter review-bombing and small samples.",
+    "trivia": "User scores frequently diverge sharply from critic scores \u2014 The Last of Us Part II received a Metascore of 93 but a User Score below 6 due to a coordinated review-bombing campaign at launch.",
+    "asOfDate": "User-score leaderboard through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "red-dead-redemption-2-2018",
+        "value": "9.6 user"
+      },
+      {
+        "rank": 2,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "9.4 user"
+      },
+      {
+        "rank": 2,
+        "code": "baldurs-gate-3-2023",
+        "value": "9.4 user"
+      },
+      {
+        "rank": 4,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "9.3 user"
+      },
+      {
+        "rank": 4,
+        "code": "god-of-war-2018",
+        "value": "9.3 user"
+      },
+      {
+        "rank": 6,
+        "code": "elden-ring-2022",
+        "value": "9.2 user"
+      },
+      {
+        "rank": 6,
+        "code": "last-of-us-2013",
+        "value": "9.2 user"
+      },
+      {
+        "rank": 6,
+        "code": "half-life-2-2004",
+        "value": "9.2 user"
+      },
+      {
+        "rank": 9,
+        "code": "portal-2-2011",
+        "value": "9.1 user"
+      },
+      {
+        "rank": 9,
+        "code": "mass-effect-2-2010",
+        "value": "9.1 user"
+      },
+      {
+        "rank": 9,
+        "code": "super-mario-galaxy-2007",
+        "value": "9.1 user"
+      },
+      {
+        "rank": 9,
+        "code": "bioshock-2007",
+        "value": "9.1 user"
+      },
+      {
+        "rank": 13,
+        "code": "grand-theft-auto-v-2013",
+        "value": "8.3 user"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-highest-ign-score-of-all-time-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Highest IGN score of all time",
+    "prompt": "Name games that IGN has awarded its highest possible score (10/10 in modern era, higher precision decimals historically).",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "IGN Reviews",
+      "url": "https://www.ign.com/reviews/games",
+      "asOf": "IGN 10/10 club and Masterpiece reviews through 2025"
+    },
+    "note": null,
+    "disclaimer": "IGN's scoring scale has changed over the years (0-10 with half-points, then decimals, then whole numbers). Games listed have received IGN's top score (10 or 'Masterpiece').",
+    "trivia": "IGN's 10/10 club is famously exclusive: fewer than 100 games have ever received a perfect 10 from the outlet since it began reviewing in the 1990s.",
+    "asOfDate": "IGN 10/10 club and Masterpiece reviews through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "grand-theft-auto-v-2013",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "red-dead-redemption-2-2018",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "super-mario-galaxy-2007",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "bioshock-2007",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "uncharted-2-among-thieves-2009",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "last-of-us-2013",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "god-of-war-2018",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "elden-ring-2022",
+        "value": "10/10"
+      },
+      {
+        "rank": 1,
+        "code": "baldurs-gate-3-2023",
+        "value": "10/10"
+      },
+      {
+        "rank": 14,
+        "code": "halo-2-2004",
+        "value": "9.8/10"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-edge-magazine-10-10-club-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Edge Magazine 10/10 club",
+    "prompt": "Name games that received a perfect 10/10 score from UK publication Edge \u2014 historically the most stringent games magazine.",
+    "answerType": "Video Games",
+    "seededDepth": 15,
+    "source": {
+      "name": "Edge Magazine reviews archive",
+      "url": "https://en.wikipedia.org/wiki/List_of_video_games_scored_10_out_of_10_by_Edge",
+      "asOf": "Edge 10/10 reviews through 2025"
+    },
+    "note": null,
+    "disclaimer": "Edge is legendary for hoarding its 10/10 reviews \u2014 fewer than 30 games have received the perfect score in the magazine's entire ~30-year history.",
+    "trivia": "Super Mario 64 was the first game to receive a 10/10 from Edge (issue 35, 1996). The magazine did not award another 10 until Gran Turismo four years later.",
+    "asOfDate": "Edge 10/10 reviews through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "super-mario-64-1996",
+        "value": "1996"
+      },
+      {
+        "rank": 2,
+        "code": "gran-turismo-1997",
+        "value": "1998"
+      },
+      {
+        "rank": 3,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "1998"
+      },
+      {
+        "rank": 4,
+        "code": "halo-combat-evolved-2001",
+        "value": "2001"
+      },
+      {
+        "rank": 5,
+        "code": "half-life-2-2004",
+        "value": "2004"
+      },
+      {
+        "rank": 6,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "2008"
+      },
+      {
+        "rank": 7,
+        "code": "super-mario-galaxy-2007",
+        "value": "2007"
+      },
+      {
+        "rank": 8,
+        "code": "bioshock-2007",
+        "value": "2007"
+      },
+      {
+        "rank": 9,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "2010"
+      },
+      {
+        "rank": 10,
+        "code": "red-dead-redemption-2010",
+        "value": "2010"
+      },
+      {
+        "rank": 11,
+        "code": "dark-souls-2011",
+        "value": "2011"
+      },
+      {
+        "rank": 12,
+        "code": "grand-theft-auto-v-2013",
+        "value": "2013"
+      },
+      {
+        "rank": 13,
+        "code": "bloodborne-2015",
+        "value": "2015"
+      },
+      {
+        "rank": 14,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "2017"
+      },
+      {
+        "rank": 15,
+        "code": "red-dead-redemption-2-2018",
+        "value": "2018"
+      }
+    ]
+  },
+  {
+    "id": "video-games-critical-games-on-the-most-greatest-of-all-time-lists-2025",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Critical",
+    "title": "Games on the most 'Greatest of All Time' lists",
+    "prompt": "Name games most frequently ranked on published 'greatest video games of all time' lists.",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "Wikipedia: List of video games considered the best",
+      "url": "https://en.wikipedia.org/wiki/List_of_video_games_considered_the_best",
+      "asOf": "Aggregated appearances on major publication greatest-games lists through 2025"
+    },
+    "note": null,
+    "disclaimer": "Aggregates appearances on major outlets' 'greatest games of all time' lists (IGN, Edge, GameSpot, Polygon, Time, Empire, GamesRadar, EGM, etc.). Ordered by number of list appearances.",
+    "trivia": "Ocarina of Time and Super Mario 64 appear on essentially every 'greatest games of all time' list published in the past two decades, making them the games-industry equivalent of Citizen Kane in film canon.",
+    "asOfDate": "Aggregated appearances on major publication greatest-games lists through 2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "Near-universal presence"
+      },
+      {
+        "rank": 2,
+        "code": "super-mario-64-1996",
+        "value": "Near-universal presence"
+      },
+      {
+        "rank": 3,
+        "code": "half-life-2-2004",
+        "value": "Near-universal presence"
+      },
+      {
+        "rank": 4,
+        "code": "super-mario-bros-1985",
+        "value": "Near-universal presence"
+      },
+      {
+        "rank": 6,
+        "code": "grand-theft-auto-v-2013",
+        "value": "Near-universal presence"
+      },
+      {
+        "rank": 7,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "Near-universal presence"
+      },
+      {
+        "rank": 8,
+        "code": "portal-2007",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 9,
+        "code": "last-of-us-2013",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 10,
+        "code": "bioshock-2007",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 11,
+        "code": "resident-evil-4-2005",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 12,
+        "code": "red-dead-redemption-2-2018",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 13,
+        "code": "chrono-trigger-1995",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 14,
+        "code": "final-fantasy-vii-1997",
+        "value": "Very frequent"
+      },
+      {
+        "rank": 15,
+        "code": "doom-1993",
+        "value": "Very frequent"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-the-game-awards-game-of-the-year-winners-2014-2023-2014",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "The Game Awards Game of the Year winners (2014-2023)",
+    "prompt": "Name the games that have won Game of the Year at The Game Awards, in chronological order from the inaugural 2014 ceremony onward.",
+    "answerType": "Video Games",
+    "seededDepth": 9,
+    "source": {
+      "name": "The Game Awards official site",
+      "url": "https://thegameawards.com/nominees/game-of-the-year",
+      "asOf": "Winners from the inaugural 2014 show through the 2023 ceremony"
+    },
+    "note": null,
+    "disclaimer": "The Game Awards, hosted by Geoff Keighley, launched in 2014 as the successor to the Spike VGAs. Listed in ceremony order (first year of the show first).",
+    "trivia": "Baldur's Gate 3 (2023) is the first CRPG ever to win, and It Takes Two (2021) is the first co-op-only game to take the prize. The Legend of Zelda: Breath of the Wild (2017) is the only Nintendo-published winner to date.",
+    "asOfDate": "Winners from the inaugural 2014 show through the 2023 ceremony",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "dragon-age-inquisition-2014",
+        "value": "2014 ceremony (BioWare / EA)"
+      },
+      {
+        "rank": 2,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "2015 ceremony (CD Projekt Red)"
+      },
+      {
+        "rank": 3,
+        "code": "overwatch-2016",
+        "value": "2016 ceremony (Blizzard)"
+      },
+      {
+        "rank": 4,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "2017 ceremony (Nintendo EPD)"
+      },
+      {
+        "rank": 5,
+        "code": "god-of-war-2018",
+        "value": "2018 ceremony (Santa Monica Studio / SIE)"
+      },
+      {
+        "rank": 6,
+        "code": "last-of-us-part-ii-2020",
+        "value": "2020 ceremony (Naughty Dog / SIE)"
+      },
+      {
+        "rank": 7,
+        "code": "it-takes-two-2021",
+        "value": "2021 ceremony (Hazelight / EA)"
+      },
+      {
+        "rank": 8,
+        "code": "elden-ring-2022",
+        "value": "2022 ceremony (FromSoftware / Bandai Namco)"
+      },
+      {
+        "rank": 9,
+        "code": "baldurs-gate-3-2023",
+        "value": "2023 ceremony (Larian Studios)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-dice-awards-game-of-the-year-winners-2010s-2023-2011",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "DICE Awards Game of the Year winners (2010s-2023)",
+    "prompt": "Name the games that have won Game of the Year at the Academy of Interactive Arts & Sciences' DICE Awards over the past decade-plus.",
+    "answerType": "Video Games",
+    "seededDepth": 14,
+    "source": {
+      "name": "D.I.C.E. Awards / Academy of Interactive Arts & Sciences",
+      "url": "https://www.interactive.org/awards/",
+      "asOf": "DICE Awards Game of the Year winners from the 2011 ceremony (13th DICE Awards, honoring 2010) through the 2024 ceremony (honoring 2023)"
+    },
+    "note": null,
+    "disclaimer": "The DICE Awards are voted on by working game-industry peers via the AIAS. Ordered by the release year the ceremony honored.",
+    "trivia": "Untitled Goose Game (2019) is the smallest-team winner in DICE GOTY history \u2014 House House was a four-person Melbourne studio. Overwatch, Breath of the Wild, God of War, Elden Ring and Baldur's Gate 3 all swept both DICE and The Game Awards in the same cycle.",
+    "asOfDate": "DICE Awards Game of the Year winners from the 2011 ceremony (13th DICE Awards, honoring 2010) through the 2024 ceremony (honoring 2023)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mass-effect-2-2010",
+        "value": "2011 ceremony (BioWare / EA)"
+      },
+      {
+        "rank": 2,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "2012 ceremony (Bethesda Game Studios)"
+      },
+      {
+        "rank": 3,
+        "code": "journey-2012",
+        "value": "2013 ceremony (thatgamecompany / SCE)"
+      },
+      {
+        "rank": 4,
+        "code": "last-of-us-2013",
+        "value": "2014 ceremony (Naughty Dog / SCE)"
+      },
+      {
+        "rank": 5,
+        "code": "dragon-age-inquisition-2014",
+        "value": "2015 ceremony (BioWare / EA)"
+      },
+      {
+        "rank": 6,
+        "code": "fallout-4-2015",
+        "value": "2016 ceremony (Bethesda Game Studios)"
+      },
+      {
+        "rank": 7,
+        "code": "overwatch-2016",
+        "value": "2017 ceremony (Blizzard Entertainment)"
+      },
+      {
+        "rank": 8,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "2018 ceremony (Nintendo EPD)"
+      },
+      {
+        "rank": 9,
+        "code": "god-of-war-2018",
+        "value": "2019 ceremony (Santa Monica Studio)"
+      },
+      {
+        "rank": 10,
+        "code": "untitled-goose-game-2019",
+        "value": "2020 ceremony (House House / Panic)"
+      },
+      {
+        "rank": 11,
+        "code": "hades-2020",
+        "value": "2021 ceremony (Supergiant Games)"
+      },
+      {
+        "rank": 12,
+        "code": "deathloop-2021",
+        "value": "2022 ceremony (Arkane Lyon / Bethesda)"
+      },
+      {
+        "rank": 13,
+        "code": "elden-ring-2022",
+        "value": "2023 ceremony (FromSoftware)"
+      },
+      {
+        "rank": 14,
+        "code": "baldurs-gate-3-2023",
+        "value": "2024 ceremony (Larian Studios)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-golden-joystick-ultimate-game-of-the-year-winners-2011",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "Golden Joystick Ultimate Game of the Year winners",
+    "prompt": "Name the games that have won the Golden Joysticks' Ultimate Game of the Year prize since the award adopted its current name in 2011.",
+    "answerType": "Video Games",
+    "seededDepth": 13,
+    "source": {
+      "name": "Golden Joystick Awards",
+      "url": "https://www.gamesradar.com/uk/golden-joystick-awards/",
+      "asOf": "Ultimate Game of the Year winners from the 2011 Golden Joystick Awards through the 2023 ceremony"
+    },
+    "note": null,
+    "disclaimer": "Golden Joysticks are public-voted (fans, via GamesRadar+/PC Gamer) \u2014 the world's longest-running video game awards, running annually since 1983. 'Ultimate Game of the Year' is the fan-vote grand prize introduced in 2011.",
+    "trivia": "FromSoftware games have taken this trophy four times (Dark Souls, Dark Souls II, Dark Souls III, Elden Ring). Fortnite (2018) is the only free-to-play winner, and Skyrim has won multiple Golden Joystick prizes across different categories.",
+    "asOfDate": "Ultimate Game of the Year winners from the 2011 Golden Joystick Awards through the 2023 ceremony",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "dark-souls-2011",
+        "value": "2011 (FromSoftware / Namco Bandai)"
+      },
+      {
+        "rank": 2,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "2012 (Bethesda Game Studios)"
+      },
+      {
+        "rank": 3,
+        "code": "grand-theft-auto-v-2013",
+        "value": "2013 (Rockstar North)"
+      },
+      {
+        "rank": 4,
+        "code": "dark-souls-ii-2014",
+        "value": "2014 (FromSoftware / Bandai Namco)"
+      },
+      {
+        "rank": 5,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "2015 (CD Projekt Red)"
+      },
+      {
+        "rank": 6,
+        "code": "dark-souls-iii-2016",
+        "value": "2016 (FromSoftware / Bandai Namco)"
+      },
+      {
+        "rank": 7,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "2017 (Nintendo EPD)"
+      },
+      {
+        "rank": 8,
+        "code": "fortnite-2017",
+        "value": "2018 (Epic Games)"
+      },
+      {
+        "rank": 9,
+        "code": "resident-evil-2-2019",
+        "value": "2019 (Capcom)"
+      },
+      {
+        "rank": 10,
+        "code": "last-of-us-part-ii-2020",
+        "value": "2020 (Naughty Dog)"
+      },
+      {
+        "rank": 11,
+        "code": "resident-evil-village-2021",
+        "value": "2021 (Capcom)"
+      },
+      {
+        "rank": 12,
+        "code": "elden-ring-2022",
+        "value": "2022 (FromSoftware)"
+      },
+      {
+        "rank": 13,
+        "code": "baldurs-gate-3-2023",
+        "value": "2023 (Larian Studios)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-bafta-games-award-for-best-game-winners-2004",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "BAFTA Games Award for Best Game winners",
+    "prompt": "Name the games that have won the BAFTA Games Award for Best Game since the ceremony's inaugural 2004 edition.",
+    "answerType": "Video Games",
+    "seededDepth": 15,
+    "source": {
+      "name": "British Academy Games Awards (BAFTA)",
+      "url": "https://www.bafta.org/games/awards",
+      "asOf": "BAFTA Games 'Best Game' winners from the 1st ceremony (2004) through the 20th ceremony (2024)"
+    },
+    "note": null,
+    "disclaimer": "The BAFTA Games Award for Best Game is voted on by BAFTA members. Listed here by ceremony year (chronological, earliest first). Some winners were relatively small indie titles reflecting BAFTA's more idiosyncratic taste vs the fan-voted awards.",
+    "trivia": "What Remains of Edith Finch (2017 game, 2018 BAFTA) and Vampire Survivors (2022 game, 2023 BAFTA) are the two most famous 'BAFTA-only' Best Game winners \u2014 neither won GOTY at any other major ceremony, showing how much more indie-friendly BAFTA voters are than Game Awards juries.",
+    "asOfDate": "BAFTA Games 'Best Game' winners from the 1st ceremony (2004) through the 20th ceremony (2024)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "half-life-2-2004",
+        "value": "2005 ceremony (Valve)"
+      },
+      {
+        "rank": 2,
+        "code": "shadow-of-the-colossus-2005",
+        "value": "2006 ceremony (Team Ico / SCE)"
+      },
+      {
+        "rank": 3,
+        "code": "wii-sports-2006",
+        "value": "2007 ceremony (Nintendo EAD)"
+      },
+      {
+        "rank": 4,
+        "code": "portal-2007",
+        "value": "2008 ceremony (Valve)"
+      },
+      {
+        "rank": 5,
+        "code": "littlebigplanet-2008",
+        "value": "2009 ceremony (Media Molecule / SCE)"
+      },
+      {
+        "rank": 6,
+        "code": "batman-arkham-asylum-2009",
+        "value": "2010 ceremony (Rocksteady / Eidos)"
+      },
+      {
+        "rank": 7,
+        "code": "mass-effect-2-2010",
+        "value": "2011 ceremony (BioWare / EA)"
+      },
+      {
+        "rank": 8,
+        "code": "portal-2-2011",
+        "value": "2012 ceremony (Valve)"
+      },
+      {
+        "rank": 9,
+        "code": "dishonored-2012",
+        "value": "2013 ceremony (Arkane / Bethesda)"
+      },
+      {
+        "rank": 10,
+        "code": "last-of-us-2013",
+        "value": "2014 ceremony (Naughty Dog)"
+      },
+      {
+        "rank": 11,
+        "code": "fallout-4-2015",
+        "value": "2016 ceremony (Bethesda Game Studios)"
+      },
+      {
+        "rank": 12,
+        "code": "uncharted-4-a-thiefs-end-2016",
+        "value": "2017 ceremony (Naughty Dog)"
+      },
+      {
+        "rank": 13,
+        "code": "god-of-war-2018",
+        "value": "2019 ceremony (Santa Monica Studio)"
+      },
+      {
+        "rank": 14,
+        "code": "hades-2020",
+        "value": "2021 ceremony (Supergiant Games)"
+      },
+      {
+        "rank": 15,
+        "code": "vampire-survivors-2022",
+        "value": "2023 ceremony (Poncle)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-world-video-game-hall-of-fame-inductees-the-strong-museum-201",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "World Video Game Hall of Fame inductees (The Strong Museum)",
+    "prompt": "Name games that have been inducted into the World Video Game Hall of Fame at The Strong National Museum of Play in Rochester, New York.",
+    "answerType": "Video Games",
+    "seededDepth": 13,
+    "source": {
+      "name": "World Video Game Hall of Fame \u2014 The Strong Museum",
+      "url": "https://www.museumofplay.org/games/world-video-game-hall-of-fame/",
+      "asOf": "Inductees from the inaugural 2015 class through the 2023 induction class"
+    },
+    "note": null,
+    "disclaimer": "The Strong inducts a small class of games each year based on icon-status, longevity, geographic reach and cultural influence. Order below is roughly by induction year (earliest classes first).",
+    "trivia": "The inaugural 2015 class \u2014 Pong, Pac-Man, Super Mario Bros., Tetris, Doom and World of Warcraft \u2014 is the only class whose members are all still-in-print or actively played today. Oregon Trail (inducted 2016) is one of the oldest playable games in the Hall, dating to a 1971 Minnesota classroom mainframe.",
+    "asOfDate": "Inductees from the inaugural 2015 class through the 2023 induction class",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "pong-1972",
+        "value": "Inducted 2015 (inaugural class)"
+      },
+      {
+        "rank": 2,
+        "code": "pac-man-1980",
+        "value": "Inducted 2015 (inaugural class)"
+      },
+      {
+        "rank": 3,
+        "code": "super-mario-bros-1985",
+        "value": "Inducted 2015 (inaugural class)"
+      },
+      {
+        "rank": 4,
+        "code": "doom-1993",
+        "value": "Inducted 2015 (inaugural class)"
+      },
+      {
+        "rank": 5,
+        "code": "world-of-warcraft-2004",
+        "value": "Inducted 2015 (inaugural class)"
+      },
+      {
+        "rank": 6,
+        "code": "oregon-trail-1971",
+        "value": "Inducted 2016"
+      },
+      {
+        "rank": 7,
+        "code": "grand-theft-auto-iii-2001",
+        "value": "Inducted 2016"
+      },
+      {
+        "rank": 8,
+        "code": "legend-of-zelda-1986",
+        "value": "Inducted 2016"
+      },
+      {
+        "rank": 9,
+        "code": "sonic-the-hedgehog-1991",
+        "value": "Inducted 2016"
+      },
+      {
+        "rank": 10,
+        "code": "sims-2000",
+        "value": "Inducted 2016"
+      },
+      {
+        "rank": 11,
+        "code": "street-fighter-ii-1991",
+        "value": "Inducted 2017"
+      },
+      {
+        "rank": 12,
+        "code": "donkey-kong-1981",
+        "value": "Inducted 2017"
+      },
+      {
+        "rank": 13,
+        "code": "halo-combat-evolved-2001",
+        "value": "Inducted 2017"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-spike-video-game-awards-game-of-the-year-winners-2003-2013-20",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "Spike Video Game Awards Game of the Year winners (2003-2013)",
+    "prompt": "Name the games that took Game of the Year at Spike TV's Video Game Awards during the show's 2003-2013 run.",
+    "answerType": "Video Games",
+    "seededDepth": 9,
+    "source": {
+      "name": "Spike Video Game Awards",
+      "url": "https://en.wikipedia.org/wiki/Spike_Video_Game_Awards",
+      "asOf": "All eleven Spike VGA Game of the Year winners (2003-2013). The show was replaced by The Game Awards in 2014 under host Geoff Keighley."
+    },
+    "note": null,
+    "disclaimer": "The Spike VGAs pre-date The Game Awards and were the primary televised US games ceremony from 2003-2013. Listed by ceremony year in chronological order.",
+    "trivia": "Rockstar's Grand Theft Auto V (2013) was the final Spike VGA GOTY winner before the show was retired and reborn as The Game Awards in 2014 under Geoff Keighley, who had produced the Spike show. Skyrim (2011) is the only game to win Game of the Year at both the Spike VGAs and, later, at the Golden Joysticks.",
+    "asOfDate": "All eleven Spike VGA Game of the Year winners (2003-2013). The show was replaced by The Game Awards in 2014 under host Geoff Keighley.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "halo-2-2004",
+        "value": "2004 VGAs (Bungie / Microsoft)"
+      },
+      {
+        "rank": 2,
+        "code": "resident-evil-4-2005",
+        "value": "2005 VGAs (Capcom)"
+      },
+      {
+        "rank": 3,
+        "code": "gears-of-war-2006",
+        "value": "2006 VGAs (Epic / Microsoft)"
+      },
+      {
+        "rank": 4,
+        "code": "bioshock-2007",
+        "value": "2007 VGAs (Irrational / 2K)"
+      },
+      {
+        "rank": 5,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "2008 VGAs (Rockstar North)"
+      },
+      {
+        "rank": 6,
+        "code": "red-dead-redemption-2010",
+        "value": "2010 VGAs (Rockstar San Diego)"
+      },
+      {
+        "rank": 7,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "2011 VGAs (Bethesda Game Studios)"
+      },
+      {
+        "rank": 8,
+        "code": "walking-dead-2012",
+        "value": "2012 VGAs (Telltale Games)"
+      },
+      {
+        "rank": 9,
+        "code": "grand-theft-auto-v-2013",
+        "value": "2013 VGAs (Rockstar North)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-most-game-of-the-year-awards-won-by-a-single-game-all-time-20",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "Most 'Game of the Year' awards won by a single game (all-time)",
+    "prompt": "Name the games famous for sweeping the year-end awards circuit \u2014 titles that collected the most 'Game of the Year' prizes across all major outlets in a single release year.",
+    "answerType": "Video Games",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 Game of the Year 'sweep' tallies (aggregated GOTY prizes across outlets)",
+      "url": "https://en.wikipedia.org/wiki/List_of_Game_of_the_Year_awards",
+      "asOf": "Cumulative 'Game of the Year' award counts across major ceremonies AND publications (Game Awards, DICE, BAFTA, Golden Joystick, GDCA, Famitsu, IGN, Kotaku, etc.), tallied through 2024"
+    },
+    "note": null,
+    "disclaimer": "Not just industry ceremonies \u2014 this counts all press-outlet 'GOTY of [year]' picks aggregated year-end. Numbers are approximate, based on Wikipedia's per-year GOTY sweep tables. Ordered by total GOTY prizes claimed (approximate, highest first).",
+    "trivia": "Baldur's Gate 3 (2023) is widely cited as the most-decorated single-year sweep in gaming history, with more than 250 aggregated GOTY nods. Elden Ring (2022), The Last of Us Part II (2020), Breath of the Wild (2017) and The Witcher 3 (2015) each cleared 200 individual GOTY prizes. GTA IV (2008) was the first game to break the 100-GOTY-prize mark.",
+    "asOfDate": "Cumulative 'Game of the Year' award counts across major ceremonies AND publications (Game Awards, DICE, BAFTA, Golden Joystick, GDCA, Famitsu, IGN, Kotaku, etc.), tallied through 2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "elden-ring-2022",
+        "value": "~325 aggregated GOTY prizes (2022)"
+      },
+      {
+        "rank": 2,
+        "code": "last-of-us-part-ii-2020",
+        "value": "~320 aggregated GOTY prizes (2020)"
+      },
+      {
+        "rank": 3,
+        "code": "baldurs-gate-3-2023",
+        "value": "~275+ GOTY prizes (2023)"
+      },
+      {
+        "rank": 4,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "~250 aggregated GOTY prizes (2015)"
+      },
+      {
+        "rank": 5,
+        "code": "last-of-us-2013",
+        "value": "~240 aggregated GOTY prizes (2013)"
+      },
+      {
+        "rank": 6,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "~210 aggregated GOTY prizes (2017)"
+      },
+      {
+        "rank": 7,
+        "code": "god-of-war-2018",
+        "value": "~200 aggregated GOTY prizes (2018)"
+      },
+      {
+        "rank": 8,
+        "code": "red-dead-redemption-2-2018",
+        "value": "~175 aggregated GOTY prizes (2018)"
+      },
+      {
+        "rank": 9,
+        "code": "overwatch-2016",
+        "value": "~120 aggregated GOTY prizes (2016)"
+      },
+      {
+        "rank": 9,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "~120 aggregated GOTY prizes (2008)"
+      },
+      {
+        "rank": 11,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "~70 aggregated GOTY prizes (2011)"
+      },
+      {
+        "rank": 12,
+        "code": "grand-theft-auto-v-2013",
+        "value": "~65 aggregated GOTY prizes (2013)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-awards-studios-with-multiple-goty-winning-games-at-major-ceremonies-",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Awards",
+    "title": "Studios with multiple GOTY-winning games at major ceremonies",
+    "prompt": "Name game studios (represented here by a flagship GOTY-winning title) that have taken Game of the Year at multiple major ceremonies \u2014 The Game Awards, DICE, BAFTA, Golden Joystick or Spike VGAs.",
+    "answerType": "Video Games",
+    "seededDepth": 12,
+    "source": {
+      "name": "Aggregated ceremony winners \u2014 Game Awards, DICE, BAFTA, Golden Joystick, Spike VGAs",
+      "url": "https://en.wikipedia.org/wiki/List_of_Game_of_the_Year_awards",
+      "asOf": "Studios with 2+ Game-of-the-Year wins at any of the five major Western ceremonies, tallied through 2023"
+    },
+    "note": null,
+    "disclaimer": "Each answer references a flagship GOTY-winning title from a studio that has won multiple major GOTY awards for different games. Ordered roughly by studio dominance (total major GOTY trophies across all their games, highest first).",
+    "trivia": "Naughty Dog (The Last of Us, TLOU Part II, Uncharted 2, Uncharted 4) has the most Western-ceremony GOTY wins across the most games. FromSoftware is the only studio to sweep four Golden Joystick Ultimate GOTY trophies. BioWare, Bethesda, Rockstar, Valve and Nintendo EPD have all won GOTY at two or more different ceremonies.",
+    "asOfDate": "Studios with 2+ Game-of-the-Year wins at any of the five major Western ceremonies, tallied through 2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "last-of-us-2013",
+        "value": "Naughty Dog \u2014 4+ major GOTY wins (TLOU, TLOU2, Uncharted 2, Uncharted 4)"
+      },
+      {
+        "rank": 2,
+        "code": "elden-ring-2022",
+        "value": "FromSoftware \u2014 Elden Ring, Dark Souls trilogy, Sekiro"
+      },
+      {
+        "rank": 3,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "Bethesda Game Studios \u2014 Skyrim, Fallout 4"
+      },
+      {
+        "rank": 4,
+        "code": "grand-theft-auto-v-2013",
+        "value": "Rockstar Games \u2014 GTA IV, GTA V, Red Dead Redemption"
+      },
+      {
+        "rank": 5,
+        "code": "half-life-2-2004",
+        "value": "Valve \u2014 Half-Life 2, Portal, Portal 2"
+      },
+      {
+        "rank": 6,
+        "code": "mass-effect-2-2010",
+        "value": "BioWare \u2014 Mass Effect 2, Dragon Age Inquisition"
+      },
+      {
+        "rank": 7,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "Nintendo EPD \u2014 Breath of the Wild, Wii Sports"
+      },
+      {
+        "rank": 8,
+        "code": "god-of-war-2018",
+        "value": "Santa Monica Studio \u2014 God of War (2018), God of War Ragnarok noms"
+      },
+      {
+        "rank": 9,
+        "code": "overwatch-2016",
+        "value": "Blizzard Entertainment \u2014 Overwatch, WoW HoF"
+      },
+      {
+        "rank": 10,
+        "code": "hades-2020",
+        "value": "Supergiant Games \u2014 Hades (BAFTA, DICE)"
+      },
+      {
+        "rank": 11,
+        "code": "baldurs-gate-3-2023",
+        "value": "Larian Studios \u2014 Baldur's Gate 3 (TGA, DICE, GJ, BAFTA)"
+      },
+      {
+        "rank": 12,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "CD Projekt Red \u2014 Witcher 3 (TGA, Golden Joystick)"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-best-selling-video-game-franchises-of-all-time-2024",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Best-Selling Video Game Franchises of All Time",
+    "prompt": "Rank the best-selling video game franchises of all time by total units sold across all platforms.",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 11,
+    "source": {
+      "name": "Wikipedia \u2014 List of best-selling video game franchises",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Unit sales include all mainline, spin-off, and re-release games across all platforms; publisher-reported figures vary.",
+    "trivia": "Mario has sold more copies than any other franchise, largely thanks to Nintendo bundling Super Mario Bros. with the NES in the 1980s.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mario",
+        "value": "~830M units"
+      },
+      {
+        "rank": 2,
+        "code": "call-of-duty",
+        "value": "~500M units"
+      },
+      {
+        "rank": 3,
+        "code": "pokemon",
+        "value": "~480M units"
+      },
+      {
+        "rank": 4,
+        "code": "grand-theft-auto",
+        "value": "~420M units"
+      },
+      {
+        "rank": 5,
+        "code": "fifa",
+        "value": "~325M units"
+      },
+      {
+        "rank": 6,
+        "code": "minecraft",
+        "value": "~300M units"
+      },
+      {
+        "rank": 7,
+        "code": "assassins-creed",
+        "value": "~200M units"
+      },
+      {
+        "rank": 8,
+        "code": "final-fantasy",
+        "value": "~185M units"
+      },
+      {
+        "rank": 9,
+        "code": "resident-evil",
+        "value": "~157M units"
+      },
+      {
+        "rank": 10,
+        "code": "sonic",
+        "value": "~155M units"
+      },
+      {
+        "rank": 11,
+        "code": "wii-sports",
+        "value": "~83M units"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-highest-grossing-video-game-franchises-by-revenue-2024",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Highest-Grossing Video Game Franchises by Revenue",
+    "prompt": "Rank video game franchises by total lifetime revenue (games plus merchandise, licensing, and box-office).",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 List of highest-grossing media franchises",
+      "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes revenue from games, merchandise, films, and licensing where applicable.",
+    "trivia": "Pok\u00e9mon is the highest-grossing media franchise of all time, out-earning Star Wars, Marvel, and Mickey Mouse combined by some estimates.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "pokemon",
+        "value": "~$105B revenue"
+      },
+      {
+        "rank": 2,
+        "code": "mario",
+        "value": "~$40B revenue"
+      },
+      {
+        "rank": 3,
+        "code": "call-of-duty",
+        "value": "~$31B revenue"
+      },
+      {
+        "rank": 4,
+        "code": "grand-theft-auto",
+        "value": "~$30B revenue"
+      },
+      {
+        "rank": 5,
+        "code": "fifa",
+        "value": "~$20B revenue"
+      },
+      {
+        "rank": 6,
+        "code": "minecraft",
+        "value": "~$18B revenue"
+      },
+      {
+        "rank": 6,
+        "code": "final-fantasy",
+        "value": "~$18B revenue"
+      },
+      {
+        "rank": 8,
+        "code": "pac-man",
+        "value": "~$16B revenue"
+      },
+      {
+        "rank": 9,
+        "code": "world-of-warcraft",
+        "value": "~$14B revenue"
+      },
+      {
+        "rank": 10,
+        "code": "league-of-legends",
+        "value": "~$13B revenue"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-oldest-continuously-active-video-game-franchises-2024",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Oldest Continuously Active Video Game Franchises",
+    "prompt": "Rank these long-running video game franchises by how long they have been continuously producing new releases (oldest first).",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 List of video game franchises",
+      "url": "https://en.wikipedia.org/wiki/List_of_video_game_franchises",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Based on year of the franchise's debut title; all listed franchises have received official new releases in the modern era.",
+    "trivia": "Pac-Man debuted in Japanese arcades in May 1980 as 'Puck Man' before being renamed for its North American release later that year.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "pac-man",
+        "value": "1980"
+      },
+      {
+        "rank": 2,
+        "code": "donkey-kong",
+        "value": "1981"
+      },
+      {
+        "rank": 3,
+        "code": "mario",
+        "value": "1981"
+      },
+      {
+        "rank": 4,
+        "code": "frogger",
+        "value": "1981"
+      },
+      {
+        "rank": 5,
+        "code": "castlevania",
+        "value": "1986"
+      },
+      {
+        "rank": 6,
+        "code": "zelda",
+        "value": "1986"
+      },
+      {
+        "rank": 7,
+        "code": "metroid",
+        "value": "1986"
+      },
+      {
+        "rank": 8,
+        "code": "dragon-quest",
+        "value": "1986"
+      },
+      {
+        "rank": 9,
+        "code": "final-fantasy",
+        "value": "1987"
+      },
+      {
+        "rank": 10,
+        "code": "mega-man",
+        "value": "1987"
+      },
+      {
+        "rank": 11,
+        "code": "street-fighter",
+        "value": "1987"
+      },
+      {
+        "rank": 12,
+        "code": "madden-nfl",
+        "value": "1988"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-best-selling-nintendo-owned-franchises-2024",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Best-Selling Nintendo-Owned Franchises",
+    "prompt": "Rank Nintendo's first-party franchises by lifetime unit sales.",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 List of best-selling video game franchises",
+      "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes all mainline, spin-off, and re-released titles across all platforms.",
+    "trivia": "Wii Sports (2006) is the third best-selling single game ever, but its franchise total is dwarfed by Mario's 40-year catalog.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mario",
+        "value": "~830M units"
+      },
+      {
+        "rank": 2,
+        "code": "pokemon",
+        "value": "~480M units"
+      },
+      {
+        "rank": 3,
+        "code": "zelda",
+        "value": "~150M units"
+      },
+      {
+        "rank": 4,
+        "code": "wii-sports",
+        "value": "~83M units"
+      },
+      {
+        "rank": 5,
+        "code": "donkey-kong",
+        "value": "~75M units"
+      },
+      {
+        "rank": 5,
+        "code": "smash-bros",
+        "value": "~75M units"
+      },
+      {
+        "rank": 7,
+        "code": "animal-crossing",
+        "value": "~72M units"
+      },
+      {
+        "rank": 8,
+        "code": "kirby",
+        "value": "~50M units"
+      },
+      {
+        "rank": 9,
+        "code": "splatoon",
+        "value": "~40M units"
+      },
+      {
+        "rank": 10,
+        "code": "fire-emblem",
+        "value": "~20M units"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-video-game-franchises-with-the-most-mainline-entries-2024",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Video Game Franchises With the Most Mainline Entries",
+    "prompt": "Rank these franchises by the number of numbered/mainline installments in their core series.",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 List of video game franchises",
+      "url": "https://en.wikipedia.org/wiki/List_of_video_game_franchises",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts numbered mainline entries only; excludes remakes, spin-offs, and side-story titles.",
+    "trivia": "Dragon Quest and Final Fantasy have run in parallel in Japan since 1986\u20131987, with fans often debating which series has the longer numbered run.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "final-fantasy",
+        "value": "16 mainline"
+      },
+      {
+        "rank": 2,
+        "code": "mortal-kombat",
+        "value": "12 mainline"
+      },
+      {
+        "rank": 3,
+        "code": "dragon-quest",
+        "value": "11 mainline"
+      },
+      {
+        "rank": 3,
+        "code": "mega-man",
+        "value": "11 mainline"
+      },
+      {
+        "rank": 5,
+        "code": "resident-evil",
+        "value": "9 mainline"
+      },
+      {
+        "rank": 6,
+        "code": "tekken",
+        "value": "8 mainline"
+      },
+      {
+        "rank": 7,
+        "code": "gran-turismo",
+        "value": "7 mainline"
+      },
+      {
+        "rank": 8,
+        "code": "grand-theft-auto",
+        "value": "6 mainline"
+      },
+      {
+        "rank": 8,
+        "code": "halo",
+        "value": "6 mainline"
+      },
+      {
+        "rank": 10,
+        "code": "metal-gear",
+        "value": "5 mainline"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-video-game-franchises-with-the-most-concurrent-players-202",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Video Game Franchises With the Most Concurrent Players",
+    "prompt": "Rank these live-service franchises by peak concurrent player count worldwide.",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 10,
+    "source": {
+      "name": "Statista \u2014 Most popular live-service games by concurrent users",
+      "url": "https://www.statista.com/topics/1680/gaming/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Peak concurrent player figures are approximate and self-reported by publishers.",
+    "trivia": "Roblox regularly exceeds 25 million concurrent users, making it the largest gaming platform by concurrent play in history.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "roblox",
+        "value": "~28M concurrent"
+      },
+      {
+        "rank": 2,
+        "code": "fortnite",
+        "value": "~15M concurrent"
+      },
+      {
+        "rank": 3,
+        "code": "minecraft",
+        "value": "~10M concurrent"
+      },
+      {
+        "rank": 4,
+        "code": "league-of-legends",
+        "value": "~8M concurrent"
+      },
+      {
+        "rank": 5,
+        "code": "pubg",
+        "value": "~3.2M concurrent"
+      },
+      {
+        "rank": 6,
+        "code": "counter-strike",
+        "value": "~1.8M concurrent"
+      },
+      {
+        "rank": 7,
+        "code": "grand-theft-auto",
+        "value": "~1M concurrent (Online)"
+      },
+      {
+        "rank": 7,
+        "code": "dota",
+        "value": "~1M concurrent"
+      },
+      {
+        "rank": 9,
+        "code": "call-of-duty",
+        "value": "~800K concurrent"
+      },
+      {
+        "rank": 10,
+        "code": "overwatch",
+        "value": "~500K concurrent"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-video-game-franchises-with-the-most-spin-off-titles-2024",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Video Game Franchises With the Most Spin-Off Titles",
+    "prompt": "Rank these franchises by the total number of spin-off games released outside their main series.",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 List of video game franchises",
+      "url": "https://en.wikipedia.org/wiki/List_of_video_game_franchises",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes party, racing, sports, RPG, puzzle, and platform spin-offs; excludes mainline numbered entries.",
+    "trivia": "Mario has appeared in more than 200 games across every genre imaginable \u2014 from tennis and golf to typing tutors and doctor simulations.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mario",
+        "value": "200+ spin-offs"
+      },
+      {
+        "rank": 2,
+        "code": "pokemon",
+        "value": "80+ spin-offs"
+      },
+      {
+        "rank": 3,
+        "code": "sonic",
+        "value": "70+ spin-offs"
+      },
+      {
+        "rank": 4,
+        "code": "final-fantasy",
+        "value": "60+ spin-offs"
+      },
+      {
+        "rank": 5,
+        "code": "mega-man",
+        "value": "50+ spin-offs"
+      },
+      {
+        "rank": 6,
+        "code": "dragon-quest",
+        "value": "30+ spin-offs"
+      },
+      {
+        "rank": 7,
+        "code": "zelda",
+        "value": "20+ spin-offs"
+      },
+      {
+        "rank": 7,
+        "code": "resident-evil",
+        "value": "20+ spin-offs"
+      },
+      {
+        "rank": 9,
+        "code": "warcraft",
+        "value": "15+ spin-offs"
+      },
+      {
+        "rank": 9,
+        "code": "metal-gear",
+        "value": "15+ spin-offs"
+      }
+    ]
+  },
+  {
+    "id": "video-games-franchise-video-game-franchises-with-the-most-film-tv-adaptations-20",
+    "theme": "Video Games",
+    "subtheme": "Video Games - Franchise",
+    "title": "Video Game Franchises With the Most Film & TV Adaptations",
+    "prompt": "Rank these video game franchises by the number of film and television adaptations produced.",
+    "answerType": "Video Game Franchises",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 List of films based on video games",
+      "url": "https://en.wikipedia.org/wiki/List_of_films_based_on_video_games",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes theatrical films, animated features, and live-action TV series based on the franchise.",
+    "trivia": "Pok\u00e9mon holds the record for most theatrically released animated films tied to a video game \u2014 more than 20 feature films since 1998.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "pokemon",
+        "value": "23+ films/series"
+      },
+      {
+        "rank": 2,
+        "code": "resident-evil",
+        "value": "10+ films/series"
+      },
+      {
+        "rank": 3,
+        "code": "mortal-kombat",
+        "value": "8+ films/series"
+      },
+      {
+        "rank": 4,
+        "code": "sonic",
+        "value": "6+ films/series"
+      },
+      {
+        "rank": 5,
+        "code": "mario",
+        "value": "5+ films/series"
+      },
+      {
+        "rank": 5,
+        "code": "tomb-raider",
+        "value": "5+ films/series"
+      },
+      {
+        "rank": 5,
+        "code": "street-fighter",
+        "value": "5+ films/series"
+      },
+      {
+        "rank": 8,
+        "code": "final-fantasy",
+        "value": "4+ films/series"
+      },
+      {
+        "rank": 9,
+        "code": "last-of-us",
+        "value": "3+ films/series"
+      },
+      {
+        "rank": 9,
+        "code": "halo",
+        "value": "3+ films/series"
       }
     ]
   }

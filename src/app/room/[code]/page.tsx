@@ -43,6 +43,8 @@ function itemLabelForType(answerType: string): { singular: string; plural: strin
     case "Companies": return { singular: "company", plural: "companies" };
     case "Chemical Elements": return { singular: "element", plural: "elements" };
     case "Movies": return { singular: "film", plural: "films" };
+    case "Video Games": return { singular: "game", plural: "games" };
+    case "Video Game Franchises": return { singular: "franchise", plural: "franchises" };
     default: return { singular: "answer", plural: "answers" };
   }
 }
