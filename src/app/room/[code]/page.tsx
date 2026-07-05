@@ -32,7 +32,8 @@ import { useSocket } from "@/hooks/useSocket";
 import type { ClientRoomState, GameSettings, FinalScoreboardEntry } from "@/lib/types";
 
 type Option = { code: string; name: string };
-type ThemeInfo = { theme: string; count: number };
+type SubthemeInfo = { subtheme: string; count: number };
+type ThemeInfo = { theme: string; count: number; subthemes: SubthemeInfo[] };
 
 function itemLabelForType(answerType: string): { singular: string; plural: string } {
   switch (answerType) {
@@ -64,7 +65,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     }
   }, [name, code, router]);
 
-  const { state, connected, emit, userId } = useSocket(code, name ?? "");
+  const { state, connected, emit, userId, restoredPicks, consumeRestoredPicks } = useSocket(code, name ?? "");
   const [optionsByType, setOptionsByType] = useState<Record<string, Option[]>>({});
   const [themes, setThemes] = useState<ThemeInfo[]>([]);
   const [picks, setPicks] = useState<Option[]>([]);
@@ -88,6 +89,18 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   useEffect(() => {
     if (state?.phase !== "playing") setPicks([]);
   }, [state?.phase, state?.currentQuestionMeta?.id]);
+
+  // If the server sent us stashed picks after a rejoin, look up the option objects
+  // once we have both the answer set and the pending code list, then clear.
+  useEffect(() => {
+    if (!restoredPicks || !state?.currentQuestionMeta) return;
+    const options = optionsByType[state.currentQuestionMeta.answerType] || [];
+    if (options.length === 0) return;
+    const byCode = new Map(options.map((o) => [o.code, o]));
+    const resolved = restoredPicks.map((c) => byCode.get(c)).filter((x): x is Option => !!x);
+    if (resolved.length) setPicks(resolved);
+    consumeRestoredPicks();
+  }, [restoredPicks, optionsByType, state?.currentQuestionMeta, consumeRestoredPicks]);
 
   // If we joined via /room/NEW, the server assigned a real code. Rewrite the URL
   // so refreshes go to the same room instead of minting a new one.
@@ -278,12 +291,16 @@ function LobbyView({
 }) {
   const s = state.settings;
   const currentTheme = themes.find((t) => t.theme === s.theme);
-  const maxQuestions = currentTheme?.count ?? 1;
+  const subthemes = currentTheme?.subthemes ?? [];
+  const currentSubtheme = s.subtheme && s.subtheme !== "*"
+    ? subthemes.find((st) => st.subtheme === s.subtheme)
+    : undefined;
+  const maxQuestions = currentSubtheme ? currentSubtheme.count : currentTheme?.count ?? 1;
   useEffect(() => {
-    if (isHost && currentTheme && s.numQuestions > currentTheme.count) {
-      onUpdateSettings({ numQuestions: currentTheme.count });
+    if (isHost && s.numQuestions > maxQuestions) {
+      onUpdateSettings({ numQuestions: maxQuestions });
     }
-  }, [isHost, currentTheme, s.numQuestions, onUpdateSettings]);
+  }, [isHost, maxQuestions, s.numQuestions, onUpdateSettings]);
 
   return (
     <Stack spacing={3}>
@@ -348,6 +365,26 @@ function LobbyView({
                 ))}
               </Select>
             </FormControl>
+
+            {subthemes.length > 0 && (
+              <FormControl fullWidth>
+                <InputLabel>Filter by subtheme</InputLabel>
+                <Select
+                  label="Filter by subtheme"
+                  value={s.subtheme || "*"}
+                  onChange={(e) => onUpdateSettings({ subtheme: e.target.value })}
+                >
+                  <MenuItem value="*">
+                    All ({currentTheme?.count ?? 0} question{currentTheme?.count === 1 ? "" : "s"})
+                  </MenuItem>
+                  {subthemes.map((st) => (
+                    <MenuItem key={st.subtheme} value={st.subtheme}>
+                      {st.subtheme} ({st.count})
+                    </MenuItem>
+                  ))}
+                </Select>
+              </FormControl>
+            )}
 
             <Box>
               <Typography gutterBottom>
@@ -442,6 +479,9 @@ function LobbyView({
             Game settings
           </Typography>
           <Typography variant="body2">Theme: <strong>{s.theme}</strong></Typography>
+          {s.subtheme && s.subtheme !== "*" && (
+            <Typography variant="body2">Subtheme: <strong>{s.subtheme}</strong></Typography>
+          )}
           <Typography variant="body2">Questions: <strong>{s.numQuestions}</strong></Typography>
           <Typography variant="body2">Picks per player: <strong>{s.picksPerPlayer}</strong></Typography>
           <Typography variant="body2">Top N considered correct: <strong>{s.topN}</strong></Typography>

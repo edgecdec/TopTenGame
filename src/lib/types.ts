@@ -2,6 +2,7 @@ export type ScoringMode = "rank" | "inverse" | "flat";
 
 export type GameSettings = {
   theme: string;
+  subtheme: string; // "*" means all subthemes
   numQuestions: number;
   scoringMode: ScoringMode;
   topN: number;

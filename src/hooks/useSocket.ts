@@ -9,6 +9,7 @@ export function useSocket(roomCode: string, name: string) {
   const [state, setState] = useState<ClientRoomState | null>(null);
   const [userId, setUserId] = useState<string>("");
   const [connected, setConnected] = useState(false);
+  const [restoredPicks, setRestoredPicks] = useState<string[] | null>(null);
   const socketRef = useRef<Socket | null>(null);
 
   useEffect(() => {
@@ -35,6 +36,9 @@ export function useSocket(roomCode: string, name: string) {
     s.on("state_update", (next: ClientRoomState | null) => {
       if (next) setState(next);
     });
+    s.on("restore_picks", (payload: { picks: string[] }) => {
+      if (payload?.picks) setRestoredPicks(payload.picks);
+    });
     s.on("error_message", (msg: string) => {
       console.warn("Server error:", msg);
     });
@@ -46,5 +50,11 @@ export function useSocket(roomCode: string, name: string) {
 
   const emit = <T,>(event: string, payload?: T) => socketRef.current?.emit(event, payload);
 
-  return { state, connected, emit, userId };
+  const consumeRestoredPicks = () => {
+    const r = restoredPicks;
+    setRestoredPicks(null);
+    return r;
+  };
+
+  return { state, connected, emit, userId, restoredPicks, consumeRestoredPicks };
 }

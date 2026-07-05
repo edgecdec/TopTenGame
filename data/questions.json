@@ -17586,6 +17586,906 @@
     ]
   },
   {
+    "id": "pro-sports-nhl-most-stanley-cups-won-all-time-2024",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most Stanley Cups won (all-time)",
+    "prompt": "Name the NHL franchises with the most Stanley Cup championships in league history.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 14,
+    "source": {
+      "name": "NHL.com \u2014 Stanley Cup champions by franchise",
+      "url": "https://records.nhl.com/records/team-records/stanley-cup-championships/all-time-stanley-cup-winners",
+      "asOf": "Through 2024 Stanley Cup Final (Panthers over Oilers)"
+    },
+    "note": "Montreal leads all franchises. Detroit's total includes their Cougars/Falcons era. Some historical franchises (e.g. Ottawa Senators original) are not counted for the modern Ottawa club.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "24 Cups"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-TOR",
+        "value": "13 Cups"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-DET",
+        "value": "11 Cups"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-BOS",
+        "value": "6 Cups (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-CHI",
+        "value": "6 Cups (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-EDM",
+        "value": "5 Cups"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-PIT",
+        "value": "5 Cups"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-NYR",
+        "value": "4 Cups"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-NYI",
+        "value": "4 Cups"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-NJD",
+        "value": "3 Cups"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-COL",
+        "value": "3 Cups"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-PHI",
+        "value": "2 Cups (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-LAK",
+        "value": "2 Cups (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-DAL",
+        "value": "1 Cup (tied)"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-most-stanley-cup-finals-appearances-2024",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most Stanley Cup Finals appearances",
+    "prompt": "Name the NHL franchises with the most Stanley Cup Finals appearances (wins + losses).",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 14,
+    "source": {
+      "name": "Hockey Reference \u2014 Stanley Cup Finals appearances by franchise",
+      "url": "https://www.hockey-reference.com/playoffs/",
+      "asOf": "Through 2024 Stanley Cup Final"
+    },
+    "note": "Includes NHL Finals appearances only (post-1926 for pre-NHL merger teams). Montreal leads all franchises.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "34 appearances"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-DET",
+        "value": "24 appearances"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-TOR",
+        "value": "21 appearances"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-BOS",
+        "value": "20 appearances"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-CHI",
+        "value": "13 appearances"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-NYR",
+        "value": "11 appearances"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-EDM",
+        "value": "8 appearances"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-PHI",
+        "value": "8 appearances"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-PIT",
+        "value": "6 appearances"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-NYI",
+        "value": "5 appearances"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-NJD",
+        "value": "5 appearances"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-DAL",
+        "value": "5 appearances"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-STL",
+        "value": "4 appearances"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-VAN",
+        "value": "3 appearances"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-most-division-titles-all-time-2023",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most division titles (all-time)",
+    "prompt": "Name the NHL franchises with the most regular-season division titles in league history.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 15,
+    "source": {
+      "name": "Hockey Reference \u2014 Division titles by franchise",
+      "url": "https://www.hockey-reference.com/leagues/",
+      "asOf": "Through 2023-24 season"
+    },
+    "note": "Counts division championships since divisional play began in 1967-68. Montreal and Boston lead the Original Six-era clubs.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "24 titles"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-BOS",
+        "value": "22 titles"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-DET",
+        "value": "18 titles"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-PHI",
+        "value": "13 titles"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-CHI",
+        "value": "13 titles"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-WSH",
+        "value": "13 titles"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-DAL",
+        "value": "10 titles"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-COL",
+        "value": "10 titles"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-STL",
+        "value": "10 titles"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-EDM",
+        "value": "9 titles"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-PIT",
+        "value": "9 titles"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-NYR",
+        "value": "8 titles"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-NYI",
+        "value": "6 titles"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-CGY",
+        "value": "6 titles"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-VGK",
+        "value": "5 titles"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-most-all-time-regular-season-wins-2023",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most all-time regular-season wins",
+    "prompt": "Name the NHL franchises with the most all-time regular-season wins.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 15,
+    "source": {
+      "name": "Hockey Reference \u2014 Franchise win totals",
+      "url": "https://www.hockey-reference.com/teams/",
+      "asOf": "Through 2023-24 season"
+    },
+    "note": "Original Six clubs dominate due to longevity. Includes shootout wins from 2005-06 onward.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "3,564 wins"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-BOS",
+        "value": "3,364 wins"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-TOR",
+        "value": "3,097 wins"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-DET",
+        "value": "3,061 wins"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-NYR",
+        "value": "3,051 wins"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-CHI",
+        "value": "2,912 wins"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-PHI",
+        "value": "2,146 wins"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-STL",
+        "value": "2,015 wins"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-BUF",
+        "value": "1,955 wins"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-PIT",
+        "value": "1,948 wins"
+      },
+      {
+        "rank": 11,
+        "code": "NHL-DAL",
+        "value": "1,942 wins"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-WSH",
+        "value": "1,896 wins"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-EDM",
+        "value": "1,872 wins"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-CGY",
+        "value": "1,858 wins"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-NYI",
+        "value": "1,833 wins"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-most-playoff-appearances-all-time-2024",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most playoff appearances (all-time)",
+    "prompt": "Name the NHL franchises with the most all-time playoff appearances.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 15,
+    "source": {
+      "name": "Hockey Reference \u2014 Playoff appearances by franchise",
+      "url": "https://www.hockey-reference.com/playoffs/",
+      "asOf": "Through 2024 playoffs"
+    },
+    "note": "Montreal and Boston lead due to their long histories dating to the 1910s and 1920s.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "86 appearances"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-BOS",
+        "value": "76 appearances"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-TOR",
+        "value": "73 appearances"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-DET",
+        "value": "66 appearances"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-CHI",
+        "value": "63 appearances"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-NYR",
+        "value": "63 appearances"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-STL",
+        "value": "46 appearances"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-PHI",
+        "value": "40 appearances"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-PIT",
+        "value": "37 appearances"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-DAL",
+        "value": "34 appearances"
+      },
+      {
+        "rank": 11,
+        "code": "NHL-WSH",
+        "value": "32 appearances"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-CGY",
+        "value": "31 appearances"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-BUF",
+        "value": "29 appearances"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-EDM",
+        "value": "27 appearances"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-NJD",
+        "value": "26 appearances"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-longest-current-stanley-cup-drought-2023",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Longest current Stanley Cup drought",
+    "prompt": "Name the NHL franchises with the longest current Stanley Cup drought (years since their last Cup, or since franchise founding if never won).",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 14,
+    "source": {
+      "name": "NHL.com \u2014 Stanley Cup winners by year",
+      "url": "https://records.nhl.com/records/team-records/stanley-cup-championships/all-time-stanley-cup-winners",
+      "asOf": "As of end of 2023-24 season"
+    },
+    "note": "For franchises that have never won a Cup, drought counts from franchise founding. Toronto's 1967 Cup is the longest active drought among Cup winners.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-TOR",
+        "value": "57 years (last 1967)"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-BUF",
+        "value": "54 years (never won, est. 1970)"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-VAN",
+        "value": "54 years (never won, est. 1970)"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-PHI",
+        "value": "49 years (last 1975)"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-NYI",
+        "value": "41 years (last 1983)"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-CGY",
+        "value": "35 years (last 1989)"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-EDM",
+        "value": "34 years (last 1990)"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-SJS",
+        "value": "33 years (never won, est. 1991)"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-OTT",
+        "value": "32 years (never won, est. 1992)"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-NYR",
+        "value": "30 years (last 1994)"
+      },
+      {
+        "rank": 11,
+        "code": "NHL-NSH",
+        "value": "26 years (never won, est. 1998)"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-WPG",
+        "value": "25 years (never in current form, est. 1999)"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-MIN",
+        "value": "24 years (never won, est. 2000)"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-CBJ",
+        "value": "24 years (never won, est. 2000)"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-most-hockey-hall-of-famers-2023",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most Hockey Hall of Famers",
+    "prompt": "Name the NHL franchises with the most Hockey Hall of Fame inductees who played significant portions of their careers with the club.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 15,
+    "source": {
+      "name": "Hockey Hall of Fame \u2014 Player inductees by team",
+      "url": "https://www.hhof.com/hockeypedia/index.html",
+      "asOf": "As of 2023 Hall of Fame class"
+    },
+    "note": "Counts players inducted who played meaningful time with the franchise. Original Six clubs dominate due to longevity and roster stability.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "56 inductees"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-TOR",
+        "value": "50 inductees"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-BOS",
+        "value": "40 inductees"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-DET",
+        "value": "39 inductees"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-NYR",
+        "value": "35 inductees"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-CHI",
+        "value": "31 inductees"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-EDM",
+        "value": "13 inductees"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-PIT",
+        "value": "12 inductees"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-STL",
+        "value": "11 inductees"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-PHI",
+        "value": "11 inductees"
+      },
+      {
+        "rank": 11,
+        "code": "NHL-NYI",
+        "value": "9 inductees"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-LAK",
+        "value": "8 inductees"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-BUF",
+        "value": "6 inductees"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-CGY",
+        "value": "6 inductees"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-NJD",
+        "value": "5 inductees"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-most-retired-jersey-numbers-2024",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Most retired jersey numbers",
+    "prompt": "Name the NHL franchises with the most retired jersey numbers.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 15,
+    "source": {
+      "name": "NHL.com \u2014 Retired numbers by team",
+      "url": "https://www.nhl.com/news/nhl-retired-numbers-by-team",
+      "asOf": "As of 2024"
+    },
+    "note": "Excludes league-wide retirement of #99 for Wayne Gretzky. Toronto includes 'honoured' numbers in their tally.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-TOR",
+        "value": "19 numbers (honoured)"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-MTL",
+        "value": "18 numbers"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-BOS",
+        "value": "12 numbers"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-STL",
+        "value": "11 numbers"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-NYR",
+        "value": "9 numbers"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-DET",
+        "value": "8 numbers"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-NYI",
+        "value": "8 numbers"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-CHI",
+        "value": "7 numbers"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-PHI",
+        "value": "7 numbers"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-EDM",
+        "value": "6 numbers"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-BUF",
+        "value": "6 numbers"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-LAK",
+        "value": "6 numbers"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-PIT",
+        "value": "4 numbers"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-VAN",
+        "value": "4 numbers"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-CGY",
+        "value": "3 numbers"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-highest-current-forbes-valuation-2023",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Highest current Forbes valuation",
+    "prompt": "Name the NHL franchises with the highest current Forbes-estimated valuations.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 15,
+    "source": {
+      "name": "Forbes \u2014 NHL Team Valuations 2023",
+      "url": "https://www.forbes.com/nhl-valuations/",
+      "asOf": "Forbes 2023 NHL team valuations"
+    },
+    "note": "Values in USD. Toronto is the most valuable franchise in the NHL, followed by the New York Rangers and Montreal Canadiens.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-TOR",
+        "value": "$2.80B"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-NYR",
+        "value": "$2.65B"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-MTL",
+        "value": "$2.35B"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-BOS",
+        "value": "$1.90B"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-CHI",
+        "value": "$1.85B"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-LAK",
+        "value": "$1.70B"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-PHI",
+        "value": "$1.65B"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-EDM",
+        "value": "$1.55B"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-WSH",
+        "value": "$1.30B"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-VAN",
+        "value": "$1.30B"
+      },
+      {
+        "rank": 11,
+        "code": "NHL-DET",
+        "value": "$1.20B"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-PIT",
+        "value": "$1.10B"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-VGK",
+        "value": "$1.05B"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-DAL",
+        "value": "$1.00B"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-SEA",
+        "value": "$1.00B"
+      }
+    ]
+  },
+  {
+    "id": "pro-sports-nhl-largest-arena-capacity-hockey-2023",
+    "theme": "Pro Sports Teams",
+    "subtheme": "Pro Sports - NHL",
+    "title": "Largest arena capacity (hockey)",
+    "prompt": "Name the NHL franchises with the largest home arena capacities for hockey.",
+    "answerType": "Pro Sports Teams",
+    "seededDepth": 14,
+    "source": {
+      "name": "NHL.com \u2014 Arena capacities",
+      "url": "https://www.nhl.com/info/arenas",
+      "asOf": "2023-24 season"
+    },
+    "note": "Capacities listed for hockey configuration. Bell Centre in Montreal is the largest NHL arena.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NHL-MTL",
+        "value": "21,105 (Bell Centre)"
+      },
+      {
+        "rank": 2,
+        "code": "NHL-CHI",
+        "value": "19,717 (United Center)"
+      },
+      {
+        "rank": 3,
+        "code": "NHL-PHI",
+        "value": "19,543 (Wells Fargo Center)"
+      },
+      {
+        "rank": 4,
+        "code": "NHL-DET",
+        "value": "19,515 (Little Caesars Arena)"
+      },
+      {
+        "rank": 5,
+        "code": "NHL-BUF",
+        "value": "19,070 (KeyBank Center)"
+      },
+      {
+        "rank": 6,
+        "code": "NHL-TOR",
+        "value": "18,819 (Scotiabank Arena)"
+      },
+      {
+        "rank": 7,
+        "code": "NHL-WSH",
+        "value": "18,573 (Capital One Arena)"
+      },
+      {
+        "rank": 8,
+        "code": "NHL-DAL",
+        "value": "18,532 (American Airlines Center)"
+      },
+      {
+        "rank": 9,
+        "code": "NHL-CBJ",
+        "value": "18,500 (Nationwide Arena)"
+      },
+      {
+        "rank": 10,
+        "code": "NHL-PIT",
+        "value": "18,387 (PPG Paints Arena)"
+      },
+      {
+        "rank": 11,
+        "code": "NHL-STL",
+        "value": "18,096 (Enterprise Center)"
+      },
+      {
+        "rank": 12,
+        "code": "NHL-COL",
+        "value": "18,007 (Ball Arena)"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-NYR",
+        "value": "18,006 (Madison Square Garden)"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-BOS",
+        "value": "17,850 (TD Garden)"
+      }
+    ]
+  },
+  {
     "id": "pro-sports-most-nba-championships-all-time-2024",
     "theme": "Pro Sports Teams",
     "subtheme": "Pro Sports",

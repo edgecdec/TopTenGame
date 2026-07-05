@@ -62,7 +62,13 @@ function getQuestion(id) {
   };
 }
 
-function listQuestionIdsInTheme(theme) {
+function listQuestionIdsInTheme(theme, subtheme) {
+  if (subtheme && subtheme !== "*") {
+    return db
+      .prepare("SELECT id FROM questions WHERE theme = ? AND subtheme = ?")
+      .all(theme, subtheme)
+      .map((r) => r.id);
+  }
   return db.prepare("SELECT id FROM questions WHERE theme = ?").all(theme).map((r) => r.id);
 }
 
@@ -159,7 +165,7 @@ function restoreSnapshot(io) {
         hostId: r.hostId,
         players,
         phase: r.phase,
-        settings: r.settings,
+        settings: { ...defaultSettings(), ...r.settings },
         currentQuestionId: r.currentQuestionId,
         currentQuestionMeta: r.currentQuestionMeta,
         currentQuestionIdx: r.currentQuestionIdx,
@@ -193,6 +199,7 @@ function restoreSnapshot(io) {
 function defaultSettings() {
   return {
     theme: "Countries",
+    subtheme: "*",
     numQuestions: 5,
     scoringMode: "rank",
     topN: 10,
@@ -326,7 +333,8 @@ function advanceToNextQuestion(io, room) {
 
 function startGame(io, room) {
   const theme = room.settings.theme;
-  const allIds = listQuestionIdsInTheme(theme);
+  const subtheme = room.settings.subtheme || "*";
+  const allIds = listQuestionIdsInTheme(theme, subtheme);
   if (allIds.length === 0) return;
   const requested = Math.max(1, Math.min(room.settings.numQuestions, allIds.length));
   room.questionQueue = shuffle(allIds).slice(0, requested);
@@ -402,6 +410,14 @@ app.prepare().then(() => {
       // Client stores this and echoes it back on next connection via cookie.
       socket.emit("identity", { userId, sessionToken: token });
 
+      // If they had staged picks from before disconnect, echo them back so the
+      // client can restore its Autocomplete state on rejoin.
+      const room0 = rooms.get(code);
+      const meta = room0 && room0.players.get(userId);
+      if (meta && Array.isArray(meta.picks) && meta.picks.length > 0) {
+        socket.emit("restore_picks", { picks: meta.picks });
+      }
+
       if (!rooms.has(code)) {
         rooms.set(code, {
           code,
@@ -457,7 +473,11 @@ app.prepare().then(() => {
       const room = rooms.get(currentRoomCode);
       if (!room || room.hostId !== userId || room.phase !== "lobby") return;
       const s = room.settings;
-      if (typeof partial.theme === "string") s.theme = partial.theme;
+      if (typeof partial.theme === "string") {
+        if (s.theme !== partial.theme) s.subtheme = "*"; // reset subtheme when theme changes
+        s.theme = partial.theme;
+      }
+      if (typeof partial.subtheme === "string") s.subtheme = partial.subtheme;
       if (typeof partial.numQuestions === "number" && partial.numQuestions >= 1 && partial.numQuestions <= 30) s.numQuestions = Math.floor(partial.numQuestions);
       if (partial.scoringMode === "rank" || partial.scoringMode === "inverse" || partial.scoringMode === "flat") s.scoringMode = partial.scoringMode;
       if (typeof partial.topN === "number" && partial.topN >= 3 && partial.topN <= 20) s.topN = Math.floor(partial.topN);

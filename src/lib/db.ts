@@ -79,15 +79,35 @@ export function listAllOptions(): Record<string, AnswerOption[]> {
   return out;
 }
 
-export type ThemeInfo = { theme: string; count: number };
+export type ThemeInfo = { theme: string; count: number; subthemes: SubthemeInfo[] };
+export type SubthemeInfo = { subtheme: string; count: number };
 
 export function listThemes(): ThemeInfo[] {
-  return getDb()
+  const themeRows = getDb()
     .prepare("SELECT theme, COUNT(*) as count FROM questions GROUP BY theme ORDER BY theme")
-    .all() as ThemeInfo[];
+    .all() as Array<{ theme: string; count: number }>;
+  const subRows = getDb()
+    .prepare(
+      "SELECT theme, COALESCE(subtheme, '') as subtheme, COUNT(*) as count FROM questions GROUP BY theme, subtheme ORDER BY theme, subtheme"
+    )
+    .all() as Array<{ theme: string; subtheme: string; count: number }>;
+  const byTheme = new Map<string, SubthemeInfo[]>();
+  for (const r of subRows) {
+    if (!r.subtheme) continue;
+    if (!byTheme.has(r.theme)) byTheme.set(r.theme, []);
+    byTheme.get(r.theme)!.push({ subtheme: r.subtheme, count: r.count });
+  }
+  return themeRows.map((t) => ({ ...t, subthemes: byTheme.get(t.theme) ?? [] }));
 }
 
-export function listQuestionIdsInTheme(theme: string): string[] {
-  const rows = getDb().prepare("SELECT id FROM questions WHERE theme = ?").all(theme) as { id: string }[];
+export function listQuestionIdsInTheme(theme: string, subtheme?: string | null): string[] {
+  let rows;
+  if (subtheme && subtheme !== "*") {
+    rows = getDb()
+      .prepare("SELECT id FROM questions WHERE theme = ? AND subtheme = ?")
+      .all(theme, subtheme) as { id: string }[];
+  } else {
+    rows = getDb().prepare("SELECT id FROM questions WHERE theme = ?").all(theme) as { id: string }[];
+  }
   return rows.map((r) => r.id);
 }
