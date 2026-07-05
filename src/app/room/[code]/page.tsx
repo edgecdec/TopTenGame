@@ -1,5 +1,5 @@
 "use client";
-import { use, useEffect, useMemo, useState } from "react";
+import { use, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
   Alert,
@@ -28,6 +28,10 @@ import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import StarIcon from "@mui/icons-material/Star";
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import ThumbDownIcon from "@mui/icons-material/ThumbDown";
+import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
+import ThumbDownOutlinedIcon from "@mui/icons-material/ThumbDownOutlined";
 import { useSocket } from "@/hooks/useSocket";
 import type { ClientRoomState, GameSettings, FinalScoreboardEntry } from "@/lib/types";
 
@@ -172,7 +176,14 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
         );
       })()}
       {state.phase === "intermission" && (
-        <IntermissionView state={state} isHost={isHost} onNext={() => emit("next_question")} />
+        <IntermissionView
+          state={state}
+          isHost={isHost}
+          onNext={() => emit("next_question")}
+          onSubmitFeedback={(questionId, thumbs, text) =>
+            emit("submit_feedback", { questionId, thumbs, text })
+          }
+        />
       )}
       {state.phase === "final_results" && (
         <FinalResultsView state={state} isHost={isHost} onLobby={() => emit("return_to_lobby")} />
@@ -611,10 +622,12 @@ function IntermissionView({
   state,
   isHost,
   onNext,
+  onSubmitFeedback,
 }: {
   state: ClientRoomState;
   isHost: boolean;
   onNext: () => void;
+  onSubmitFeedback: (questionId: string, thumbs: number | null, text: string | null) => void;
 }) {
   const r = state.lastResults;
   if (!r) return null;
@@ -672,6 +685,13 @@ function IntermissionView({
             )}
           </Box>
         )}
+        <Box sx={{ mt: 3 }}>
+          <FeedbackWidget
+            key={r.questionId}
+            questionId={r.questionId}
+            onSubmit={onSubmitFeedback}
+          />
+        </Box>
       </Paper>
 
       <Paper sx={{ p: 3 }}>
@@ -923,6 +943,93 @@ function ScoreboardRow({
           {displayScore}
         </Typography>
       </Stack>
+    </Box>
+  );
+}
+
+function FeedbackWidget({
+  questionId,
+  onSubmit,
+}: {
+  questionId: string;
+  onSubmit: (questionId: string, thumbs: number | null, text: string | null) => void;
+}) {
+  const [thumbs, setThumbs] = useState<number | null>(null);
+  const [text, setText] = useState("");
+  const [saved, setSaved] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Debounce text saves so we don't spam the server on every keystroke.
+  useEffect(() => {
+    if (!expanded && !thumbs) return;
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      onSubmit(questionId, thumbs, text.trim() || null);
+      setSaved(true);
+      setTimeout(() => setSaved(false), 1500);
+    }, 600);
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [thumbs, text]);
+
+  const setThumbAndFlush = (v: number | null) => {
+    setThumbs(v);
+  };
+
+  return (
+    <Box sx={{ borderTop: 1, borderColor: "divider", pt: 2 }}>
+      <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap">
+        <Typography variant="caption" color="text.secondary" sx={{ mr: 1 }}>
+          How was this question?
+        </Typography>
+        <Tooltip title="Good question">
+          <IconButton
+            size="small"
+            color={thumbs === 1 ? "success" : "default"}
+            onClick={() => setThumbAndFlush(thumbs === 1 ? null : 1)}
+          >
+            {thumbs === 1 ? <ThumbUpIcon fontSize="small" /> : <ThumbUpOutlinedIcon fontSize="small" />}
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Bad question">
+          <IconButton
+            size="small"
+            color={thumbs === -1 ? "error" : "default"}
+            onClick={() => setThumbAndFlush(thumbs === -1 ? null : -1)}
+          >
+            {thumbs === -1 ? <ThumbDownIcon fontSize="small" /> : <ThumbDownOutlinedIcon fontSize="small" />}
+          </IconButton>
+        </Tooltip>
+        <Button
+          size="small"
+          onClick={() => setExpanded(!expanded)}
+          sx={{ ml: 0.5, textTransform: "none" }}
+        >
+          {expanded ? "Hide comment" : "Add comment"}
+        </Button>
+        {saved && (
+          <Typography variant="caption" color="success.main">
+            Saved
+          </Typography>
+        )}
+      </Stack>
+      {expanded && (
+        <TextField
+          fullWidth
+          multiline
+          minRows={2}
+          maxRows={4}
+          size="small"
+          margin="dense"
+          value={text}
+          onChange={(e) => setText(e.target.value.slice(0, 500))}
+          placeholder="Anything wrong with this question? Confusing prompt, bad answer, wrong source, etc."
+          helperText={`${text.length}/500`}
+        />
+      )}
     </Box>
   );
 }

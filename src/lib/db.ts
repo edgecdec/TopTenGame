@@ -44,6 +44,18 @@ export function getDb(): Database.Database {
     CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
     CREATE INDEX IF NOT EXISTS idx_options_type ON answer_options(answer_type);
     CREATE INDEX IF NOT EXISTS idx_questions_theme ON questions(theme);
+    CREATE TABLE IF NOT EXISTS feedback (
+      question_id TEXT NOT NULL,
+      user_id TEXT NOT NULL,
+      thumbs INTEGER,               -- 1 = up, -1 = down, NULL = cleared
+      text TEXT,                    -- max 500 chars, may be empty/NULL
+      addressed INTEGER NOT NULL DEFAULT 0,  -- 0 = no, 1 = yes
+      created_at INTEGER NOT NULL,  -- ms epoch
+      updated_at INTEGER NOT NULL,
+      PRIMARY KEY (question_id, user_id)
+    );
+    CREATE INDEX IF NOT EXISTS idx_feedback_question ON feedback(question_id);
+    CREATE INDEX IF NOT EXISTS idx_feedback_addressed ON feedback(addressed);
   `);
   // In-place migration for legacy DBs
   const cols = _db.prepare("PRAGMA table_info(questions)").all() as Array<{ name: string }>;

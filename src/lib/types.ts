@@ -21,6 +21,7 @@ export type PlayerPublic = {
 };
 
 export type RoundResults = {
+  questionId: string;
   questionTitle: string;
   correctAnswers: Array<{ rank: number; code: string; value: string; label: string }>;
   perPlayer: Record<

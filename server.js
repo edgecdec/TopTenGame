@@ -301,6 +301,7 @@ function endRound(io, room) {
     .map((a) => ({ rank: a.rank, code: a.code, value: a.value, label: labelForCode(q.answerType, a.code) }));
 
   room.lastResults = {
+    questionId: q.id,
     questionTitle: q.title,
     correctAnswers,
     perPlayer,
@@ -637,6 +638,37 @@ app.prepare().then(() => {
       if (active.length > 0 && active.every((x) => x.submitted)) {
         endRound(io, room);
       }
+    });
+
+    // Feedback: thumbs vote and/or text (up to 500 chars) on a specific question.
+    // Only accepted while the round is in intermission or final_results, and
+    // only for the just-played questions in the current room's queue.
+    socket.on("submit_feedback", ({ questionId, thumbs, text }) => {
+      if (!currentRoomCode || !userId) return;
+      const room = rooms.get(currentRoomCode);
+      if (!room) return;
+      if (room.phase !== "intermission" && room.phase !== "final_results") return;
+      if (typeof questionId !== "string") return;
+      // Must be a question that was played (or is being played) this game.
+      const playedIds = new Set(room.questionQueue.slice(0, room.currentQuestionIdx + 1));
+      if (!playedIds.has(questionId)) return;
+      const cleanThumbs = thumbs === 1 || thumbs === -1 ? thumbs : null;
+      const cleanText = typeof text === "string" ? text.slice(0, 500).trim() : null;
+      if (cleanThumbs === null && !cleanText) {
+        // Delete existing feedback if both fields cleared
+        db.prepare("DELETE FROM feedback WHERE question_id = ? AND user_id = ?")
+          .run(questionId, userId);
+        return;
+      }
+      const now = Date.now();
+      db.prepare(
+        `INSERT INTO feedback (question_id, user_id, thumbs, text, addressed, created_at, updated_at)
+         VALUES (?, ?, ?, ?, 0, ?, ?)
+         ON CONFLICT(question_id, user_id) DO UPDATE SET
+           thumbs = excluded.thumbs,
+           text = excluded.text,
+           updated_at = excluded.updated_at`
+      ).run(questionId, userId, cleanThumbs, cleanText || null, now, now);
     });
 
     socket.on("disconnect", () => {
