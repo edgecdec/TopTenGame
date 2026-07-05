@@ -445,6 +445,9 @@ function LobbyView({
 
             <Box>
               <Typography gutterBottom>Answers considered correct (Top N): {s.topN}</Typography>
+              <Typography variant="caption" color="text.secondary" display="block" sx={{ mb: 1 }}>
+                Per-question cap — a question with only 15 seeded answers will play top 15 even if you set 20 here.
+              </Typography>
               <Slider
                 value={s.topN}
                 min={3}

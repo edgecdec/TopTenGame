@@ -1022,8 +1022,8 @@
     "id": "culture-most-spoken-languages-by-native-speakers-primary-country-2023",
     "theme": "Countries",
     "subtheme": "Culture",
-    "title": "Countries of origin of the world's most-spoken native languages",
-    "prompt": "For each of the world's most widely spoken native languages (Mandarin, Spanish, English, Hindi, Portuguese, Bengali, Russian, Japanese, Urdu, Turkish...), name the country most closely associated with the language's origin (not the largest speaker population).",
+    "title": "Largest global native-speaker populations by origin country",
+    "prompt": "For each of the world's most widely spoken native languages, name the country most closely associated with the language's origin. Values shown are that language's global native (L1) speaker total.",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -1104,7 +1104,7 @@
         "value": "~74M native speakers"
       }
     ],
-    "disclaimer": "Each entry pairs a top-ranked language with the country most closely identified as its origin or largest native-speaker base. Ethnologue splits Chinese and Arabic into individual varieties (Mandarin, Yue, Wu; Egyptian Arabic, etc.) rather than treating each as a single macrolanguage.",
+    "disclaimer": "Each entry pairs a top-ranked language with its origin country. Ethnologue splits Chinese and Arabic into individual varieties (Mandarin, Yue, Wu; Egyptian Arabic, etc.) rather than treating each as a single macrolanguage. Values are worldwide L1 speaker totals for the language, not the population of the origin country.",
     "trivia": null,
     "asOfDate": "Ethnologue 26th edition (2023)"
   },
@@ -1968,7 +1968,7 @@
     "theme": "Countries",
     "subtheme": "Food & Drink",
     "title": "Largest coffee producers",
-    "prompt": "Name the world's largest coffee-producing countries.",
+    "prompt": "Name the world's largest coffee-producing countries (ICO exporting-member measure, including both exported and domestically-consumed production).",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -2054,7 +2054,7 @@
         "value": "~1.2 million 60kg bags"
       }
     ],
-    "disclaimer": "Reported in 60kg bags (the industry standard sack). Includes both Arabica and Robusta.",
+    "disclaimer": "Reported in 60-kg bags (industry-standard sack), across ICO exporting-member countries. Includes both Arabica and Robusta and covers total production regardless of whether it is exported or consumed domestically. Distinct from the coffee-exporters ranking, which measures only outbound shipments.",
     "trivia": null,
     "asOfDate": "Coffee year 2023/24 (Oct 2023 \u2013 Sep 2024)"
   },
@@ -3749,8 +3749,8 @@
         "value": "8.0% of GDP"
       }
     ],
-    "disclaimer": "Includes public and private spending; the US leads by a wide margin among large economies.",
-    "trivia": null,
+    "disclaimer": "Includes public and private spending; excludes capital investment. Total current health expenditure as a share of GDP.",
+    "trivia": "The United States leads by a wide margin among large economies, spending roughly 4 percentage points of GDP more than the next-highest G7 country.",
     "asOfDate": "2022"
   },
   {
@@ -4289,8 +4289,8 @@
         "value": "4.6 per 1,000"
       }
     ],
-    "disclaimer": "Includes all inpatient beds. Hospital bed density does not always correlate with care quality; some totals reflect self-reported national figures.",
-    "trivia": "North Korea's high figure reflects self-reported data.",
+    "disclaimer": "Includes all inpatient beds. Hospital bed density does not always correlate with care quality; microstates and countries with self-reported data can rank at the very top.",
+    "trivia": "Belarus retains Soviet-era hospital-capacity levels, and Japan and South Korea maintain unusually long inpatient stays compared with other OECD countries.",
     "asOfDate": "2020-2021 latest available"
   },
   {
@@ -5584,8 +5584,8 @@
         "value": "297 per 100k"
       }
     ],
-    "disclaimer": "Rate is prison population per 100,000 of the national population. El Salvador overtook the United States in 2023 following the Bukele government's gang crackdown, so the US no longer tops this list.",
-    "trivia": null,
+    "disclaimer": "Rate is prison population per 100,000 of the national population. Recent policy shifts have reordered the top of the list.",
+    "trivia": "El Salvador overtook the United States for the top spot in 2023 following the Bukele government's mass gang-arrest campaign.",
     "asOfDate": "2024 (latest available per country)"
   },
   {
@@ -5994,54 +5994,9 @@
         "value": "1 title"
       }
     ],
-    "disclaimer": "Only 4 nations have ever won the men's Rugby World Cup since its 1987 inception.",
+    "disclaimer": "Only four nations have ever won the men's Rugby World Cup since its 1987 inception. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain (only England has won).",
     "trivia": null,
     "asOfDate": "After 2023 Rugby World Cup (France); next edition 2027"
-  },
-  {
-    "id": "sports-most-icc-men-s-cricket-world-cup-wins-2023",
-    "theme": "Countries",
-    "subtheme": "Sports",
-    "title": "Most ICC Men's Cricket World Cup wins",
-    "prompt": "Name the countries with the most ICC Men's Cricket World Cup (ODI) titles.",
-    "answerType": "Countries",
-    "seededDepth": 5,
-    "source": {
-      "name": "International Cricket Council \u2014 Men's Cricket World Cup History",
-      "url": "https://www.icc-cricket.com/tournaments/cricket-world-cup",
-      "asOf": "After 2023 Cricket World Cup (India); next edition 2027"
-    },
-    "note": "50-over ODI World Cup only. Does not include T20 World Cup or Champions Trophy.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "AU",
-        "value": "6 titles"
-      },
-      {
-        "rank": 2,
-        "code": "IN",
-        "value": "2 titles (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "PK",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "LK",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "GB",
-        "value": "1 title (tied)"
-      }
-    ],
-    "disclaimer": "50-over ODI World Cup only. Does not include T20 World Cup or Champions Trophy.",
-    "trivia": null,
-    "asOfDate": "After 2023 Cricket World Cup (India); next edition 2027"
   },
   {
     "id": "sports-most-formula-1-constructors-championships-2024",
@@ -8279,101 +8234,6 @@
     "asOfDate": "1991-2020 climatology"
   },
   {
-    "id": "climate-countries-with-the-most-volcanoes-holocene-active-2024",
-    "theme": "Countries",
-    "subtheme": "Climate",
-    "title": "Countries with the most volcanoes (Holocene-active)",
-    "prompt": "Name the countries with the most volcanoes that have erupted within the last ~11,700 years.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Smithsonian Institution \u2014 Global Volcanism Program, Volcanoes of the World database",
-      "url": "https://volcano.si.edu/",
-      "asOf": "GVP database, 2024"
-    },
-    "note": "Counts Holocene-active volcanic features per country. The Pacific 'Ring of Fire' produces the top of the list; the US number reflects Alaska's Aleutian arc plus the Cascades, Hawaii and Yellowstone.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "US",
-        "value": "161 Holocene volcanoes"
-      },
-      {
-        "rank": 2,
-        "code": "RU",
-        "value": "121 Holocene volcanoes"
-      },
-      {
-        "rank": 3,
-        "code": "ID",
-        "value": "120 Holocene volcanoes"
-      },
-      {
-        "rank": 4,
-        "code": "JP",
-        "value": "111 Holocene volcanoes"
-      },
-      {
-        "rank": 5,
-        "code": "CL",
-        "value": "91 Holocene volcanoes"
-      },
-      {
-        "rank": 6,
-        "code": "ET",
-        "value": "57 Holocene volcanoes"
-      },
-      {
-        "rank": 7,
-        "code": "PG",
-        "value": "53 Holocene volcanoes"
-      },
-      {
-        "rank": 8,
-        "code": "PH",
-        "value": "50 Holocene volcanoes"
-      },
-      {
-        "rank": 9,
-        "code": "MX",
-        "value": "43 Holocene volcanoes"
-      },
-      {
-        "rank": 10,
-        "code": "AR",
-        "value": "39 Holocene volcanoes"
-      },
-      {
-        "rank": 11,
-        "code": "EC",
-        "value": "34 Holocene volcanoes"
-      },
-      {
-        "rank": 12,
-        "code": "IS",
-        "value": "33 Holocene volcanoes"
-      },
-      {
-        "rank": 13,
-        "code": "NZ",
-        "value": "23 Holocene volcanoes"
-      },
-      {
-        "rank": 14,
-        "code": "PE",
-        "value": "20 Holocene volcanoes"
-      },
-      {
-        "rank": 15,
-        "code": "IT",
-        "value": "16 Holocene volcanoes"
-      }
-    ],
-    "disclaimer": "Counts Holocene-active volcanic features per country. The Pacific 'Ring of Fire' produces the top of the list.",
-    "trivia": "The US number reflects Alaska's Aleutian arc plus the Cascades, Hawaii and Yellowstone.",
-    "asOfDate": "GVP database, 2024"
-  },
-  {
     "id": "climate-countries-with-the-highest-elevation-points-2024",
     "theme": "Countries",
     "subtheme": "Climate",
@@ -10514,8 +10374,8 @@
         "value": "487 points"
       }
     ],
-    "disclaimer": "PISA tests 15-year-olds every three years. Some entries (e.g., Macao, Hong Kong, Chinese Taipei) are economies rather than sovereign states in the OECD dataset.",
-    "trivia": "Singapore leads by a wide margin; several East Asian economies dominate the top ranks.",
+    "disclaimer": "PISA tests 15-year-olds every three years. Some jurisdictions listed in the OECD PISA dataset are economies rather than sovereign states.",
+    "trivia": "Singapore has led the OECD PISA math ranking every cycle since 2015, and several East Asian economies dominate the top ranks.",
     "asOfDate": "2022"
   },
   {
@@ -10736,116 +10596,6 @@
     ],
     "disclaimer": null,
     "trivia": "Singapore, Japan, Estonia, and Korea have consistently led PISA science rankings for over a decade.",
-    "asOfDate": "2022"
-  },
-  {
-    "id": "education-highest-tertiary-education-attainment-25-34-2022",
-    "theme": "Countries",
-    "subtheme": "Education",
-    "title": "Highest Tertiary Education Attainment (25-34)",
-    "prompt": "Which countries have the highest share of young adults (25-34) with a tertiary education?",
-    "answerType": "Countries",
-    "seededDepth": 18,
-    "source": {
-      "name": "OECD Education at a Glance 2023",
-      "url": "https://www.oecd.org/education/education-at-a-glance/",
-      "asOf": "2022"
-    },
-    "note": "South Korea leads OECD countries; the measure includes short-cycle tertiary, bachelor's, master's, and doctoral programs.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "KR",
-        "value": "69.6%"
-      },
-      {
-        "rank": 2,
-        "code": "CA",
-        "value": "66.4%"
-      },
-      {
-        "rank": 3,
-        "code": "JP",
-        "value": "65.7%"
-      },
-      {
-        "rank": 4,
-        "code": "IE",
-        "value": "63.2%"
-      },
-      {
-        "rank": 5,
-        "code": "LU",
-        "value": "62.3%"
-      },
-      {
-        "rank": 6,
-        "code": "LT",
-        "value": "58.0%"
-      },
-      {
-        "rank": 7,
-        "code": "GB",
-        "value": "57.9%"
-      },
-      {
-        "rank": 8,
-        "code": "CH",
-        "value": "56.6%"
-      },
-      {
-        "rank": 9,
-        "code": "NO",
-        "value": "56.3%"
-      },
-      {
-        "rank": 10,
-        "code": "NL",
-        "value": "55.6%"
-      },
-      {
-        "rank": 11,
-        "code": "AU",
-        "value": "54.6%"
-      },
-      {
-        "rank": 12,
-        "code": "BE",
-        "value": "53.1%"
-      },
-      {
-        "rank": 13,
-        "code": "SE",
-        "value": "51.8%"
-      },
-      {
-        "rank": 14,
-        "code": "US",
-        "value": "51.3%"
-      },
-      {
-        "rank": 15,
-        "code": "IL",
-        "value": "50.5%"
-      },
-      {
-        "rank": 15,
-        "code": "FR",
-        "value": "50.5%"
-      },
-      {
-        "rank": 15,
-        "code": "ES",
-        "value": "50.5%"
-      },
-      {
-        "rank": 18,
-        "code": "DK",
-        "value": "50.2%"
-      }
-    ],
-    "disclaimer": "The measure includes short-cycle tertiary, bachelor's, master's, and doctoral programs among 25-34 year olds in OECD countries.",
-    "trivia": "South Korea leads OECD countries on this metric.",
     "asOfDate": "2022"
   },
   {
@@ -12805,7 +12555,7 @@
     "title": "Longest continuously-serving current heads of state",
     "prompt": "Name the current heads of state (as of early 2025) who have been continuously in office the longest. Excludes monarchs and ceremonial figures.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 14,
     "source": {
       "name": "Wikipedia \u2014 List of current longest-serving non-royal heads of state (aggregating official government sources)",
       "url": "https://en.wikipedia.org/wiki/List_of_current_longest-serving_non-royal_heads_of_state",
@@ -12815,77 +12565,77 @@
     "answers": [
       {
         "rank": 1,
-        "code": "ER",
-        "value": "Isaias Afwerki \u2014 since 24 May 1993"
+        "code": "GQ",
+        "value": "Teodoro Obiang Nguema Mbasogo \u2014 since 3 Aug 1979"
       },
       {
         "rank": 2,
-        "code": "DJ",
-        "value": "Isma\u00efl Omar Guelleh \u2014 since 8 May 1999"
-      },
-      {
-        "rank": 3,
-        "code": "RU",
-        "value": "Vladimir Putin \u2014 president since 7 May 2012 (also 2000-2008, PM 2008-12)"
-      },
-      {
-        "rank": 4,
-        "code": "VE",
-        "value": "Nicol\u00e1s Maduro \u2014 since 5 Mar 2013"
-      },
-      {
-        "rank": 5,
-        "code": "TR",
-        "value": "Recep Tayyip Erdo\u011fan \u2014 PM 2003-2014, president since 28 Aug 2014"
-      },
-      {
-        "rank": 6,
-        "code": "RW",
-        "value": "Paul Kagame \u2014 de facto since 1994, president since 22 Apr 2000"
-      },
-      {
-        "rank": 7,
-        "code": "KH",
-        "value": "Hun Sen (as Senate President/de facto) then Hun Manet \u2014 Hun Sen PM 1985-2023"
-      },
-      {
-        "rank": 8,
-        "code": "UG",
-        "value": "Yoweri Museveni \u2014 since 29 Jan 1986"
-      },
-      {
-        "rank": 9,
-        "code": "CG",
-        "value": "Denis Sassou Nguesso \u2014 since 25 Oct 1997 (also 1979-1992)"
-      },
-      {
-        "rank": 10,
-        "code": "TJ",
-        "value": "Emomali Rahmon \u2014 since 20 Nov 1992"
-      },
-      {
-        "rank": 11,
-        "code": "BY",
-        "value": "Alexander Lukashenko \u2014 since 20 Jul 1994"
-      },
-      {
-        "rank": 12,
         "code": "CM",
         "value": "Paul Biya \u2014 since 6 Nov 1982"
       },
       {
-        "rank": 13,
+        "rank": 3,
+        "code": "UG",
+        "value": "Yoweri Museveni \u2014 since 29 Jan 1986"
+      },
+      {
+        "rank": 4,
         "code": "IR",
         "value": "Ali Khamenei \u2014 Supreme Leader since 4 Jun 1989"
       },
       {
+        "rank": 5,
+        "code": "TJ",
+        "value": "Emomali Rahmon \u2014 since 20 Nov 1992"
+      },
+      {
+        "rank": 6,
+        "code": "ER",
+        "value": "Isaias Afwerki \u2014 since 24 May 1993"
+      },
+      {
+        "rank": 7,
+        "code": "BY",
+        "value": "Alexander Lukashenko \u2014 since 20 Jul 1994"
+      },
+      {
+        "rank": 8,
+        "code": "CG",
+        "value": "Denis Sassou Nguesso \u2014 since 25 Oct 1997 (also 1979-1992)"
+      },
+      {
+        "rank": 9,
+        "code": "DJ",
+        "value": "Isma\u00efl Omar Guelleh \u2014 since 8 May 1999"
+      },
+      {
+        "rank": 10,
+        "code": "RW",
+        "value": "Paul Kagame \u2014 president since 22 Apr 2000"
+      },
+      {
+        "rank": 11,
+        "code": "RU",
+        "value": "Vladimir Putin \u2014 president since 7 May 2012 (also 2000-2008)"
+      },
+      {
+        "rank": 12,
+        "code": "VE",
+        "value": "Nicol\u00e1s Maduro \u2014 since 5 Mar 2013"
+      },
+      {
+        "rank": 13,
+        "code": "TR",
+        "value": "Recep Tayyip Erdo\u011fan \u2014 president since 28 Aug 2014 (PM 2003-2014)"
+      },
+      {
         "rank": 14,
-        "code": "GQ",
-        "value": "Teodoro Obiang Nguema Mbasogo \u2014 since 3 Aug 1979"
+        "code": "NI",
+        "value": "Daniel Ortega \u2014 since 10 Jan 2007 (also 1985-1990)"
       }
     ],
-    "disclaimer": "Continuous tenure in the top political office (president, chairman, supreme leader). Ceremonial monarchs are excluded to focus on political power-holders; tenure measured from date of assumption of current office.",
-    "trivia": null,
+    "disclaimer": "Continuous tenure in the top political office (president, chairman, supreme leader). Ceremonial monarchs are excluded to focus on political power-holders; tenure measured from date of assumption of current office. Bashar al-Assad is excluded (fled Damascus 8 Dec 2024).",
+    "trivia": "Isaias Afwerki has ruled Eritrea for over three decades with no elections held since independence, and Teodoro Obiang has been in power in Equatorial Guinea since a 1979 coup against his own uncle.",
     "asOfDate": "As of early 2025"
   },
   {
@@ -14806,7 +14556,7 @@
       "url": "https://www.ucsusa.org/resources/satellite-database",
       "asOf": "2024 tally (UCS database, last full public release May 2023 supplemented by UNOOSA registrations through 2024)"
     },
-    "note": "Counts operational satellites registered to a country of operator/owner. US total is dominated by SpaceX Starlink (>5,500 operational). Small differences at the low end reflect deorbits vs. new launches within the year.",
+    "note": null,
     "answers": [
       {
         "rank": 1,
@@ -14909,8 +14659,8 @@
         "value": "13"
       }
     ],
-    "disclaimer": "Counts operational satellites registered to a country of operator/owner. The US total is dominated by SpaceX Starlink. Small differences at the low end reflect deorbits vs. new launches within the year.",
-    "trivia": null,
+    "disclaimer": "Counts operational satellites registered to a country of operator/owner. Totals include Starlink and other large commercial constellations. Small differences at the low end reflect deorbits vs. new launches within the year.",
+    "trivia": "The #1 country's total is dominated by SpaceX Starlink, with over 5,500 operational Starlink satellites alone.",
     "asOfDate": "2024 tally (UCS database, last full public release May 2023 supplemented by UNOOSA registrations through 2024)"
   },
   {
@@ -15111,7 +14861,7 @@
       "url": "https://aiindex.stanford.edu/report/",
       "asOf": "2023 calendar year total"
     },
-    "note": "Total private investment (venture capital, private equity, mergers, minority stakes) in AI-focused companies, in USD. US leads by roughly an order of magnitude. Excludes government/state-directed AI spending.",
+    "note": null,
     "answers": [
       {
         "rank": 1,
@@ -15189,8 +14939,8 @@
         "value": "$0.5B"
       }
     ],
-    "disclaimer": "Total private investment (venture capital, private equity, mergers, minority stakes) in AI-focused companies, in USD. US leads by roughly an order of magnitude. Excludes government/state-directed AI spending.",
-    "trivia": null,
+    "disclaimer": "Total private investment (venture capital, private equity, mergers, minority stakes) in AI-focused companies, in USD. Excludes government/state-directed AI spending.",
+    "trivia": "The top country leads by roughly an order of magnitude over the runner-up, reflecting the concentration of AI capital in a handful of large private markets.",
     "asOfDate": "2023 calendar year total"
   },
   {
@@ -15756,7 +15506,7 @@
       "url": "https://data.worldbank.org/indicator/IS.RRS.TOTL.KM",
       "asOf": "2020-2023 figures depending on source"
     },
-    "note": "The US has by far the largest network but it is overwhelmingly freight-only. India, China, and Russia dominate passenger rail. This counts route-length; if you counted track-km (double/quad tracks separately) China would leap higher.",
+    "note": null,
     "answers": [
       {
         "rank": 1,
@@ -15834,8 +15584,8 @@
         "value": "~19,200 km"
       }
     ],
-    "disclaimer": "The US has by far the largest network but it is overwhelmingly freight-only.",
-    "trivia": "India, China, and Russia dominate passenger rail. This counts route-length; if you counted track-km (double/quad tracks separately) China would leap higher.",
+    "disclaimer": "Counts route-length (in-service track); if track-km with double/quad tracks were counted separately, some countries would leap higher. Freight-only vs. passenger-only lines are not split out here.",
+    "trivia": "The largest network by total route-km is overwhelmingly freight, while India, China and Russia dominate passenger rail.",
     "asOfDate": "2020-2023 figures depending on source"
   },
   {
@@ -15931,7 +15681,7 @@
       "url": "https://www.cia.gov/the-world-factbook/field/airports/",
       "asOf": "CIA World Factbook, 2024"
     },
-    "note": "The US total (>13,000) includes thousands of small private airstrips and heliports. Brazil ranks high due to Amazon airstrips serving remote communities. If restricted to commercial airports with scheduled service, the ranking looks very different (US, China, Russia, Australia).",
+    "note": null,
     "answers": [
       {
         "rank": 1,
@@ -16009,8 +15759,8 @@
         "value": "407"
       }
     ],
-    "disclaimer": "The US total (>13,000) includes thousands of small private airstrips and heliports.",
-    "trivia": "Brazil ranks high due to Amazon airstrips serving remote communities. If restricted to commercial airports with scheduled service, the ranking looks very different (US, China, Russia, Australia).",
+    "disclaimer": "Totals include private airstrips and heliports in some countries; if restricted to commercial airports with scheduled service the ranking looks very different.",
+    "trivia": "The top ranking includes many thousands of small private airstrips and heliports; Brazil ranks high due to Amazon airstrips serving remote communities.",
     "asOfDate": "CIA World Factbook, 2024"
   },
   {
@@ -20374,8 +20124,8 @@
         "value": "1,052 mi shoreline"
       }
     ],
-    "disclaimer": "NOAA's 'shoreline' figure counts all tidal shoreline including bays, sounds, and islands, and is much larger than the simple outer 'coastline' distance. States with heavy inlet/island geography (Louisiana, Maryland, Maine) beat states with long straight coasts.",
-    "trivia": "By this measure Alaska (>33,000 mi) has more shoreline than the rest of the states combined. Florida edges Louisiana for second because of the Keys and the Gulf's barrier islands.",
+    "disclaimer": "NOAA's 'shoreline' figure counts all tidal shoreline including bays, sounds, and islands, and is much larger than the simple outer 'coastline' distance. States with heavy inlet/island geography beat states with long straight coasts.",
+    "trivia": "Louisiana, Maryland, and Maine all rank far above states with longer straight-line coasts because their tidal shoreline includes bayous, Chesapeake tributaries, and thousands of rocky inlets. Alaska (>33,000 mi) has more tidal shoreline than every other state combined.",
     "asOfDate": "NOAA shoreline mileage table (last updated 2022)"
   },
   {
@@ -20564,8 +20314,8 @@
         "value": "1,300 ft mean"
       }
     ],
-    "disclaimer": "Nebraska and Kansas make the top 10 despite being flat: their entire land surface tilts up toward the Rockies from ~840 ft at the Missouri River to ~5,000 ft at the western border.",
-    "trivia": "Colorado tops the list \u2014 no point in Colorado is below 3,315 ft.",
+    "disclaimer": "Statewide mean elevation above sea level, per USGS reference values. Some Plains states rank surprisingly high because their western edges climb toward the Rockies.",
+    "trivia": "Colorado tops the list \u2014 no point in Colorado is below 3,315 ft. Nebraska and Kansas make the top 10 despite being flat: their entire land surface tilts up from ~840 ft at the Missouri River to ~5,000 ft at the western border.",
     "asOfDate": "USGS long-standing reference values"
   },
   {
@@ -20849,8 +20599,8 @@
         "value": "32.2 in / yr avg"
       }
     ],
-    "disclaimer": "Statewide average annual snowfall, averaged across the entire state's land area. NOTE: Alaska's statewide mean is dragged down by its huge arctic-desert interior \u2014 specific Alaskan sites like Thompson Pass see far more snow than the state average suggests. Rankings by 'snowiest cities' differ substantially from statewide averages.",
-    "trivia": "Vermont leads the 1991-2020 normals thanks to consistent snowfall across the Green Mountains and Northeast Kingdom.",
+    "disclaimer": "Statewide average annual snowfall, averaged across the entire state's land area (NOAA 1991-2020 climate normals). Statewide averages differ substantially from 'snowiest cities' rankings because of how snowfall varies within a state.",
+    "trivia": "Vermont leads the 1991-2020 normals thanks to consistent snowfall across the Green Mountains and Northeast Kingdom. Alaska has extreme site-specific snowfall (Thompson Pass, Valdez), but averaged over its huge area including arctic desert, the statewide mean is lower than one might expect.",
     "asOfDate": "1991-2020 30-year climate normals (current NOAA baseline through 2030)"
   },
   {
@@ -20944,8 +20694,8 @@
         "value": "54.3\u00b0F avg"
       }
     ],
-    "disclaimer": "Statewide average annual mean temperature (Fahrenheit), NOAA 1991-2020 climate normals. Includes Alaska (by far the coldest, ~28F statewide) and Hawaii.",
-    "trivia": "Hawaii is the warmest state overall at ~72F; Florida leads the contiguous 48 at 71.5F. Louisiana, Texas, and the Southeast round out the top.",
+    "disclaimer": "Statewide average annual mean temperature (Fahrenheit), NOAA 1991-2020 climate normals, averaged across the entire state's land area. Includes both non-contiguous states.",
+    "trivia": "Hawaii is the warmest state at ~72F; Florida leads the contiguous 48 at 71.5F. Alaska is by far the coldest state at ~28F statewide mean.",
     "asOfDate": "NOAA 1991-2020 30-year climate normals; annual rank data through 2023"
   },
   {
@@ -28579,8 +28329,8 @@
         "value": "founded 1903"
       }
     ],
-    "disclaimer": "Ranked by year the earliest legal predecessor entity was founded, even if the modern corporation is a later merger. JPMorgan Chase traces to Bank of the Manhattan Company (1799).",
-    "trivia": null,
+    "disclaimer": "Ranked by year the earliest legal predecessor entity was founded, even if the modern corporation is a later merger.",
+    "trivia": "JPMorgan Chase's rank 1 position traces back to the Bank of the Manhattan Company (chartered 1799), one of the oldest continuously operating banking franchises in the United States.",
     "asOfDate": "Founding years per company filings and corporate histories"
   },
   {
@@ -29224,8 +28974,8 @@
         "value": "Warren Buffett (54-year CEO, not founder)"
       }
     ],
-    "disclaimer": "Companies in the Fortune 500 top 100 where a founder, co-founder, or founding-family member currently serves as CEO or in another top leadership role (Chairman, CTO). Berkshire Hathaway is included via long-serving CEO Warren Buffett even though he is not the founder.",
-    "trivia": "Michael Dell reacquired his founder-CEO status in 2007 after briefly stepping aside; Larry Ellison stepped down as Oracle CEO in 2014 but remains co-founder and CTO/Chairman.",
+    "disclaimer": "Companies in the Fortune 500 top 100 where a founder, co-founder, or founding-family member currently serves as CEO or in another top leadership role (Chairman, CTO). Includes one exception via a long-serving CEO who is not the original founder.",
+    "trivia": "Berkshire Hathaway makes the list via Warren Buffett, who has run the company since 1970 \u2014 a 54-year tenure that qualifies him as effectively a founder in most published tallies. Michael Dell reacquired his founder-CEO status in 2007 after briefly stepping aside; Larry Ellison stepped down as Oracle CEO in 2014 but remains co-founder and CTO/Chairman.",
     "asOfDate": "As of 2024"
   },
   {
@@ -31870,48 +31620,48 @@
     "answers": [
       {
         "rank": 1,
-        "code": "Au",
-        "value": "known since antiquity (pre-3000 BCE)"
-      },
-      {
-        "rank": 2,
-        "code": "Ag",
-        "value": "known since antiquity (pre-3000 BCE)"
-      },
-      {
-        "rank": 3,
         "code": "Cu",
         "value": "known since antiquity (pre-9000 BCE)"
       },
       {
-        "rank": 4,
+        "rank": 2,
         "code": "Pb",
         "value": "known since antiquity (pre-6500 BCE)"
       },
       {
-        "rank": 5,
-        "code": "Sn",
-        "value": "known since antiquity (pre-3500 BCE)"
-      },
-      {
-        "rank": 6,
+        "rank": 3,
         "code": "Fe",
         "value": "known since antiquity (pre-5000 BCE)"
       },
       {
-        "rank": 7,
-        "code": "C",
-        "value": "known since antiquity (prehistoric)"
+        "rank": 4,
+        "code": "Sn",
+        "value": "known since antiquity (pre-3500 BCE)"
       },
       {
-        "rank": 8,
+        "rank": 5,
+        "code": "Au",
+        "value": "known since antiquity (pre-3000 BCE)"
+      },
+      {
+        "rank": 5,
+        "code": "Ag",
+        "value": "known since antiquity (pre-3000 BCE) (tied)"
+      },
+      {
+        "rank": 7,
         "code": "S",
         "value": "known since antiquity (pre-2000 BCE)"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "code": "Hg",
         "value": "known since antiquity (pre-1500 BCE)"
+      },
+      {
+        "rank": 9,
+        "code": "C",
+        "value": "known since antiquity (prehistoric)"
       },
       {
         "rank": 10,
@@ -31920,13 +31670,13 @@
       },
       {
         "rank": 11,
-        "code": "Sb",
-        "value": "described c. 1540 by Vannoccio Biringuccio"
+        "code": "Bi",
+        "value": "described c. 1500; isolated 1753 by Claude Geoffroy"
       },
       {
         "rank": 12,
-        "code": "Bi",
-        "value": "described c. 1500; isolated 1753 by Claude Geoffroy"
+        "code": "Sb",
+        "value": "described c. 1540 by Vannoccio Biringuccio"
       },
       {
         "rank": 13,
@@ -33829,101 +33579,6 @@
     "asOfDate": "2024"
   },
   {
-    "id": "elements-earliest-discovered-elements-oldest-first-2024",
-    "theme": "Chemical Elements",
-    "subtheme": "Elements",
-    "title": "Earliest-discovered elements (oldest first)",
-    "prompt": "Rank the chemical elements known to humanity from earliest to most recent discovery, oldest first.",
-    "answerType": "Chemical Elements",
-    "seededDepth": 15,
-    "source": {
-      "name": "IUPAC element discovery timeline / RSC",
-      "url": "",
-      "asOf": "2024"
-    },
-    "note": null,
-    "answers": [
-      {
-        "rank": 1,
-        "code": "Au",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "Ag",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "Cu",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "Fe",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "Pb",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "Sn",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "Hg",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "S",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 1,
-        "code": "C",
-        "value": "known since antiquity (year 0)"
-      },
-      {
-        "rank": 10,
-        "code": "As",
-        "value": "discovered 1250"
-      },
-      {
-        "rank": 11,
-        "code": "Sb",
-        "value": "known by 1500s (year 1540)"
-      },
-      {
-        "rank": 11,
-        "code": "Bi",
-        "value": "described 1500"
-      },
-      {
-        "rank": 13,
-        "code": "P",
-        "value": "discovered 1669"
-      },
-      {
-        "rank": 14,
-        "code": "Co",
-        "value": "discovered 1735"
-      },
-      {
-        "rank": 15,
-        "code": "Zn",
-        "value": "isolated 1746"
-      }
-    ],
-    "disclaimer": null,
-    "trivia": null,
-    "asOfDate": "2024"
-  },
-  {
     "id": "elements-uses-most-valuable-elements-by-price-per-gram-naturally-obtainable-excl",
     "theme": "Chemical Elements",
     "subtheme": "Elements - Uses",
@@ -34105,33 +33760,33 @@
     "answers": [
       {
         "rank": 1,
-        "code": "I",
-        "value": "~13 mg in body (thyroid hormones)"
-      },
-      {
-        "rank": 2,
-        "code": "Cr",
-        "value": "~14 mg in body (glucose metabolism)"
-      },
-      {
-        "rank": 3,
-        "code": "Se",
-        "value": "~15 mg in body (glutathione peroxidase)"
-      },
-      {
-        "rank": 4,
-        "code": "Mn",
-        "value": "~12 mg in body (SOD, metabolism)"
-      },
-      {
-        "rank": 5,
         "code": "Co",
         "value": "~3 mg in body (vitamin B12 core)"
       },
       {
-        "rank": 6,
+        "rank": 2,
         "code": "Mo",
         "value": "~5 mg in body (xanthine oxidase)"
+      },
+      {
+        "rank": 3,
+        "code": "Mn",
+        "value": "~12 mg in body (SOD, metabolism)"
+      },
+      {
+        "rank": 4,
+        "code": "I",
+        "value": "~13 mg in body (thyroid hormones)"
+      },
+      {
+        "rank": 5,
+        "code": "Cr",
+        "value": "~14 mg in body (glucose metabolism)"
+      },
+      {
+        "rank": 6,
+        "code": "Se",
+        "value": "~15 mg in body (glutathione peroxidase)"
       },
       {
         "rank": 7,
@@ -34140,18 +33795,18 @@
       },
       {
         "rank": 8,
-        "code": "F",
-        "value": "~2.6 g in body (bones and teeth)"
+        "code": "Zn",
+        "value": "~2,300 mg in body (300+ enzymes)"
       },
       {
         "rank": 9,
-        "code": "Zn",
-        "value": "~2.3 g in body (300+ enzymes)"
+        "code": "F",
+        "value": "~2,600 mg in body (bones and teeth)"
       },
       {
         "rank": 10,
         "code": "Fe",
-        "value": "~4 g in body (hemoglobin, cytochromes)"
+        "value": "~4,000 mg in body (hemoglobin, cytochromes)"
       }
     ],
     "disclaimer": "'Trace' here means dietary trace/ultra-trace minerals whose bodily content is measured in milligrams to a few grams \u2014 excludes the bulk macrominerals (Ca, P, K, S, Na, Cl, Mg).",
@@ -36480,7 +36135,7 @@
     "title": "Best Picture winners with zero acting nominations",
     "prompt": "Name Best Picture winners that received NO acting nominations (no Actor, Actress, Supporting Actor or Supporting Actress noms).",
     "answerType": "Movies",
-    "seededDepth": 10,
+    "seededDepth": 9,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -36488,7 +36143,7 @@
     },
     "note": null,
     "disclaimer": "A film needs zero nominations across all four acting categories (Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress) to qualify. Extremely rare, and even rarer in the modern era.",
-    "trivia": "Wings (1927) and Grand Hotel (1932) went acting-nomination-free before the Supporting categories even existed. The Lord of the Rings: The Return of the King is the modern outlier \u2014 it won 11 Oscars including Best Picture with zero acting nominations, a feat unmatched since. Fewer than a dozen Best Picture winners have ever achieved this.",
+    "trivia": "Wings (1927) and Grand Hotel (1932) went acting-nomination-free before the Supporting categories even existed. The Lord of the Rings: The Return of the King is the modern outlier \u2014 it won 11 Oscars including Best Picture with zero acting nominations, a feat unmatched since.",
     "asOfDate": "Best Picture winners through the 96th ceremony (2024)",
     "answers": [
       {
@@ -36498,27 +36153,27 @@
       },
       {
         "rank": 2,
-        "code": "broadway-melody-1929",
-        "value": "0 acting noms"
-      },
-      {
-        "rank": 3,
         "code": "all-quiet-on-the-western-front-1930",
         "value": "0 acting noms"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "grand-hotel-1932",
         "value": "0 acting noms"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "cavalcade-1933",
         "value": "0 acting noms"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "american-in-paris-1951",
+        "value": "0 acting noms"
+      },
+      {
+        "rank": 6,
+        "code": "around-the-world-in-80-days-1956",
         "value": "0 acting noms"
       },
       {
@@ -36528,16 +36183,11 @@
       },
       {
         "rank": 8,
-        "code": "around-the-world-in-80-days-1956",
-        "value": "0 acting noms"
-      },
-      {
-        "rank": 9,
         "code": "last-emperor-1987",
         "value": "0 acting noms"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "lord-of-the-rings-return-of-the-king-2003",
         "value": "0 acting noms"
       }
@@ -38042,8 +37692,8 @@
       "asOf": "2025-03-01"
     },
     "note": null,
-    "disclaimer": "Genre classification is subjective; some entries (e.g. Black Swan) blend horror with psychological thriller.",
-    "trivia": "The Silence of the Lambs (1991) is the only true horror film to win Best Picture, and one of only three films ever to sweep the 'Big Five' (Picture, Director, Actor, Actress, Screenplay).",
+    "disclaimer": "Genre classification is subjective; some psychological thrillers are debated inclusions.",
+    "trivia": "The Silence of the Lambs (1991) is the only true horror film to win Best Picture, and one of only three films ever to sweep the 'Big Five' (Picture, Director, Actor, Actress, Screenplay). Black Swan (2010) is a common genre-boundary example \u2014 Aronofsky's psychological horror was nominated but often listed under 'thriller' by other critics.",
     "asOfDate": "2025-03-01",
     "answers": [
       {
@@ -38247,8 +37897,8 @@
       "asOf": "2026-01-10"
     },
     "note": null,
-    "disclaimer": "Excludes titles with concurrent PC or mobile releases; sales rounded to nearest 0.1M. Console pack-in bundles (Wii Sports, Duck Hunt, Wii Play, Kinect Adventures) are counted at their attach-rate totals per Nintendo/Microsoft IR reporting.",
-    "trivia": "Wii Sports sold nearly as many copies as the Wii console itself, thanks to being packed in with almost every unit sold outside Japan.",
+    "disclaimer": "Excludes titles with concurrent PC or mobile releases; sales rounded to nearest 0.1M. Console pack-in bundles are counted at their attach-rate totals per publisher IR reporting.",
+    "trivia": "Wii Sports (rank 1) sold nearly as many copies as the Wii console itself, thanks to being packed in with almost every unit sold outside Japan. Duck Hunt, Wii Play, and Kinect Adventures owe similar totals to their pack-in status.",
     "asOfDate": "2026-01-10",
     "answers": [
       {
@@ -38512,8 +38162,8 @@
       "asOf": "2025-12-31"
     },
     "note": null,
-    "disclaimer": "Sales reflect Nintendo's most recent quarterly IR filings; totals include both physical and digital units on Switch. 'Mario Kart 8' covers both the 2014 Wii U original and the 2017 Switch 'Deluxe' re-release under one shared entry per the answer set's cross-platform convention.",
-    "trivia": "Mario Kart 8 Deluxe has an attach rate of over 50% on Switch \u2014 meaning more than half of all Switch owners have bought it.",
+    "disclaimer": "Sales reflect Nintendo's most recent quarterly IR filings; totals include both physical and digital units on Switch. Cross-platform re-releases share one code per the answer set's convention.",
+    "trivia": "The rank-1 title's Switch entry (Deluxe) has an attach rate of over 50% \u2014 meaning more than half of all Switch owners have bought Mario Kart 8 Deluxe. The single canonical Mario Kart 8 code aggregates both the 2014 Wii U original and the 2017 Switch Deluxe re-release.",
     "asOfDate": "2025-12-31",
     "answers": [
       {
@@ -38657,8 +38307,8 @@
       "asOf": "2026-01-09"
     },
     "note": null,
-    "disclaimer": "Combines figures across all Xbox platforms. Paid titles are shown by copies sold; Game Pass-first titles (Sea of Thieves, Forza Horizon 4) are shown by lifetime unique players since Microsoft does not report unit sales for those. Metrics are not directly comparable.",
-    "trivia": "Halo 3 sold $170M on launch day in 2007 \u2014 a record that stood for years until Grand Theft Auto V shattered it.",
+    "disclaimer": "Combines figures across all Xbox platforms. Paid titles are shown by copies sold; Game Pass-first titles are shown by lifetime unique players since Microsoft does not report unit sales for those. Metrics are not directly comparable.",
+    "trivia": "Halo 3 sold $170M on launch day in 2007 \u2014 a record that stood for years until Grand Theft Auto V shattered it. Sea of Thieves and Forza Horizon 4 count as Game Pass-first titles, so their tallies are 'lifetime players' rather than direct unit sales.",
     "asOfDate": "2026-01-09",
     "answers": [
       {
@@ -38763,28 +38413,28 @@
       },
       {
         "rank": 2,
-        "code": "pokemon-diamond-and-pearl-2006",
-        "value": "17.7M copies"
-      },
-      {
-        "rank": 3,
         "code": "brain-age-2005",
         "value": "19.0M copies"
       },
       {
+        "rank": 3,
+        "code": "pokemon-diamond-and-pearl-2006",
+        "value": "17.7M copies"
+      },
+      {
         "rank": 4,
+        "code": "pokemon-sun-and-moon-2016",
+        "value": "16.3M copies"
+      },
+      {
+        "rank": 5,
         "code": "brain-age-2-2005",
         "value": "15.3M copies"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "animal-crossing-new-leaf-2012",
         "value": "12.5M copies"
-      },
-      {
-        "rank": 6,
-        "code": "pokemon-sun-and-moon-2016",
-        "value": "16.3M copies"
       }
     ]
   },
@@ -42319,196 +41969,6 @@
     ]
   },
   {
-    "id": "aviation-maritime-largest-merchant-fleet-by-deadweight-tonnage-2023",
-    "theme": "Countries",
-    "subtheme": "Aviation & Maritime",
-    "title": "Largest merchant fleet by deadweight tonnage",
-    "prompt": "Name the countries whose registered merchant marine fleets carry the most cargo capacity, measured by deadweight tonnage (DWT).",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "UNCTAD \u2014 Review of Maritime Transport (Merchant fleet by flag of registration)",
-      "url": "https://unctadstat.unctad.org/wds/TableViewer/tableView.aspx?ReportId=93",
-      "asOf": "2023"
-    },
-    "note": null,
-    "disclaimer": "Ranked by flag of registration (where the ship is flagged), not by beneficial owner. Open registries (flags of convenience) therefore rank very high.",
-    "trivia": "Panama has led the world merchant fleet register for decades, and Liberia surpassed 300M DWT in 2023 to overtake the Marshall Islands.",
-    "asOfDate": "2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "PA",
-        "value": "358M DWT"
-      },
-      {
-        "rank": 2,
-        "code": "LR",
-        "value": "324M DWT"
-      },
-      {
-        "rank": 3,
-        "code": "MH",
-        "value": "298M DWT"
-      },
-      {
-        "rank": 4,
-        "code": "HK",
-        "value": "205M DWT"
-      },
-      {
-        "rank": 5,
-        "code": "SG",
-        "value": "144M DWT"
-      },
-      {
-        "rank": 6,
-        "code": "MT",
-        "value": "119M DWT"
-      },
-      {
-        "rank": 7,
-        "code": "BS",
-        "value": "76M DWT"
-      },
-      {
-        "rank": 8,
-        "code": "CN",
-        "value": "72M DWT"
-      },
-      {
-        "rank": 9,
-        "code": "GR",
-        "value": "70M DWT"
-      },
-      {
-        "rank": 10,
-        "code": "CY",
-        "value": "36M DWT"
-      },
-      {
-        "rank": 11,
-        "code": "JP",
-        "value": "34M DWT"
-      },
-      {
-        "rank": 12,
-        "code": "GB",
-        "value": "28M DWT"
-      },
-      {
-        "rank": 13,
-        "code": "ID",
-        "value": "26M DWT"
-      },
-      {
-        "rank": 14,
-        "code": "IN",
-        "value": "18M DWT"
-      },
-      {
-        "rank": 15,
-        "code": "KR",
-        "value": "17M DWT"
-      }
-    ]
-  },
-  {
-    "id": "aviation-maritime-highest-port-container-throughput-2022",
-    "theme": "Countries",
-    "subtheme": "Aviation & Maritime",
-    "title": "Highest port container throughput",
-    "prompt": "Name the countries whose seaports collectively handle the most container traffic, measured in TEU (twenty-foot equivalent units) per year.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "UNCTAD \u2014 Container port throughput (annual)",
-      "url": "https://unctadstat.unctad.org/wds/TableViewer/tableView.aspx?ReportId=13321",
-      "asOf": "2022"
-    },
-    "note": null,
-    "disclaimer": "TEU counts include transshipment, so hub economies rank far above the size of their domestic trade.",
-    "trivia": "China alone accounts for over a quarter of global container throughput, and seven of the world's ten busiest container ports are Chinese.",
-    "asOfDate": "2022",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "CN",
-        "value": "263M TEU"
-      },
-      {
-        "rank": 2,
-        "code": "US",
-        "value": "60M TEU"
-      },
-      {
-        "rank": 3,
-        "code": "SG",
-        "value": "37M TEU"
-      },
-      {
-        "rank": 4,
-        "code": "KR",
-        "value": "30M TEU"
-      },
-      {
-        "rank": 5,
-        "code": "MY",
-        "value": "27M TEU"
-      },
-      {
-        "rank": 6,
-        "code": "AE",
-        "value": "20M TEU"
-      },
-      {
-        "rank": 6,
-        "code": "JP",
-        "value": "20M TEU"
-      },
-      {
-        "rank": 8,
-        "code": "ES",
-        "value": "17M TEU"
-      },
-      {
-        "rank": 9,
-        "code": "DE",
-        "value": "16M TEU"
-      },
-      {
-        "rank": 9,
-        "code": "HK",
-        "value": "16M TEU"
-      },
-      {
-        "rank": 9,
-        "code": "IN",
-        "value": "16M TEU"
-      },
-      {
-        "rank": 12,
-        "code": "NL",
-        "value": "15M TEU"
-      },
-      {
-        "rank": 13,
-        "code": "ID",
-        "value": "14M TEU"
-      },
-      {
-        "rank": 14,
-        "code": "VN",
-        "value": "13M TEU"
-      },
-      {
-        "rank": 15,
-        "code": "TW",
-        "value": "12M TEU"
-      }
-    ]
-  },
-  {
     "id": "aviation-maritime-most-air-passengers-carried-per-year-2022",
     "theme": "Countries",
     "subtheme": "Aviation & Maritime",
@@ -43079,196 +42539,6 @@
     ]
   },
   {
-    "id": "banking-finance-most-billionaires-forbes-2024",
-    "theme": "Countries",
-    "subtheme": "Banking & Finance",
-    "title": "Most billionaires (Forbes)",
-    "prompt": "Name the countries with the most billionaires on the Forbes World's Billionaires list.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Forbes \u2014 World's Billionaires List",
-      "url": "https://www.forbes.com/billionaires/",
-      "asOf": "2024 list (April 2024)"
-    },
-    "note": null,
-    "disclaimer": "Ranked by citizenship of the individual, not country of residence or business.",
-    "trivia": "The 2024 list had a record 2,781 billionaires globally, with US billionaires alone controlling roughly $5.5 trillion in wealth.",
-    "asOfDate": "2024 list (April 2024)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "US",
-        "value": "813 billionaires"
-      },
-      {
-        "rank": 2,
-        "code": "CN",
-        "value": "473 billionaires"
-      },
-      {
-        "rank": 3,
-        "code": "IN",
-        "value": "200 billionaires"
-      },
-      {
-        "rank": 4,
-        "code": "DE",
-        "value": "132 billionaires"
-      },
-      {
-        "rank": 5,
-        "code": "RU",
-        "value": "120 billionaires"
-      },
-      {
-        "rank": 6,
-        "code": "HK",
-        "value": "68 billionaires"
-      },
-      {
-        "rank": 7,
-        "code": "IT",
-        "value": "67 billionaires"
-      },
-      {
-        "rank": 7,
-        "code": "CA",
-        "value": "67 billionaires (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "GB",
-        "value": "55 billionaires"
-      },
-      {
-        "rank": 10,
-        "code": "TW",
-        "value": "52 billionaires"
-      },
-      {
-        "rank": 11,
-        "code": "BR",
-        "value": "51 billionaires"
-      },
-      {
-        "rank": 12,
-        "code": "AU",
-        "value": "47 billionaires"
-      },
-      {
-        "rank": 13,
-        "code": "FR",
-        "value": "43 billionaires"
-      },
-      {
-        "rank": 14,
-        "code": "CH",
-        "value": "41 billionaires"
-      },
-      {
-        "rank": 15,
-        "code": "TH",
-        "value": "39 billionaires"
-      }
-    ]
-  },
-  {
-    "id": "banking-finance-largest-stock-market-capitalization-2023",
-    "theme": "Countries",
-    "subtheme": "Banking & Finance",
-    "title": "Largest stock market capitalization",
-    "prompt": "Name the countries with the largest domestic equity market capitalization.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "World Federation of Exchanges / SIFMA Capital Markets Fact Book",
-      "url": "https://www.sifma.org/resources/research/fact-book/",
-      "asOf": "End of 2023"
-    },
-    "note": null,
-    "disclaimer": "Aggregate market capitalization of listed domestic companies on exchanges headquartered in each country, in USD.",
-    "trivia": "The United States accounts for roughly 45% of global equity market capitalization despite having only about 4% of the world's population.",
-    "asOfDate": "End of 2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "US",
-        "value": "$50.9 trillion"
-      },
-      {
-        "rank": 2,
-        "code": "CN",
-        "value": "$11.5 trillion"
-      },
-      {
-        "rank": 3,
-        "code": "JP",
-        "value": "$6.1 trillion"
-      },
-      {
-        "rank": 4,
-        "code": "HK",
-        "value": "$4.0 trillion"
-      },
-      {
-        "rank": 4,
-        "code": "IN",
-        "value": "$4.0 trillion (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "GB",
-        "value": "$3.2 trillion"
-      },
-      {
-        "rank": 6,
-        "code": "FR",
-        "value": "$3.2 trillion (tied)"
-      },
-      {
-        "rank": 8,
-        "code": "CA",
-        "value": "$3.0 trillion"
-      },
-      {
-        "rank": 9,
-        "code": "SA",
-        "value": "$2.9 trillion"
-      },
-      {
-        "rank": 10,
-        "code": "DE",
-        "value": "$2.1 trillion"
-      },
-      {
-        "rank": 11,
-        "code": "CH",
-        "value": "$1.9 trillion"
-      },
-      {
-        "rank": 11,
-        "code": "TW",
-        "value": "$1.9 trillion"
-      },
-      {
-        "rank": 13,
-        "code": "AU",
-        "value": "$1.7 trillion"
-      },
-      {
-        "rank": 13,
-        "code": "KR",
-        "value": "$1.7 trillion (tied)"
-      },
-      {
-        "rank": 15,
-        "code": "NL",
-        "value": "$1.2 trillion"
-      }
-    ]
-  },
-  {
     "id": "banking-finance-most-fortune-global-500-hqs-2024",
     "theme": "Countries",
     "subtheme": "Banking & Finance",
@@ -43652,8 +42922,8 @@
     "id": "banking-finance-largest-banks-top-10-by-assets-hq-country-2024",
     "theme": "Countries",
     "subtheme": "Banking & Finance",
-    "title": "Largest banks (top-10 by assets) HQ country",
-    "prompt": "Name the countries headquartering the largest banks in the world by total assets.",
+    "title": "Most banks in the global top 100 by assets",
+    "prompt": "Name the countries headquartering the most banks in the global top 100 by total assets.",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -44992,8 +44262,8 @@
       "asOf": "IPCC AR6 (2022) and World Bank LECZ data"
     },
     "note": "Low-lying atoll nations (Tuvalu, Maldives, Marshall Islands, Kiribati) sit only a couple of metres above sea level and could be uninhabitable within decades. Bangladesh and the Netherlands have huge populations in low-elevation coastal zones but rank by exposure share.",
-    "disclaimer": "Low-lying atoll nations (Tuvalu, Maldives, Marshall Islands, Kiribati) sit only a couple of metres above sea level and could be uninhabitable within decades. Bangladesh and the Netherlands have huge populations in low-elevation coastal zones but rank by exposure share.",
-    "trivia": null,
+    "disclaimer": "Ranks combine low-lying atoll nations and coastal delta states most exposed to sea-level rise, drawing on IPCC AR6 coastal-exposure assessments and World Bank low-elevation-coastal-zone (LECZ) data. Metric is share of population or land area at risk, not absolute headcount.",
+    "trivia": "Some Pacific atoll nations sit only a couple of metres above sea level and could be uninhabitable within decades; low-lying deltas like Bangladesh's and the Nile's put tens of millions of people in the coastal risk zone.",
     "asOfDate": "IPCC AR6 (2022) and World Bank LECZ data",
     "answers": [
       {
@@ -46132,7 +45402,7 @@
       "asOf": "2022"
     },
     "note": null,
-    "disclaimer": "Rate per 100,000 population. Microstates with very few total incidents can swing between adjacent years.",
+    "disclaimer": "Rate per 100,000 population; rank 1 = lowest. Microstates with very few total incidents can swing between adjacent years and often top per-capita rankings due to small denominators.",
     "trivia": "Singapore, Japan, and several Gulf states have consistently reported homicide rates below 0.5 per 100,000 \u2014 roughly a fiftieth of the US rate.",
     "asOfDate": "2022",
     "answers": [
@@ -46784,196 +46054,6 @@
     ]
   },
   {
-    "id": "demographics-highest-birth-rate-2024",
-    "theme": "Countries",
-    "subtheme": "Demographics",
-    "title": "Highest Birth Rate",
-    "prompt": "Name the countries with the highest crude birth rate (births per 1,000 people per year).",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "UN DESA \u2014 World Population Prospects 2024 (Crude Birth Rate)",
-      "url": "https://population.un.org/wpp/",
-      "asOf": "UN WPP 2024, estimates for 2023"
-    },
-    "note": "Sub-Saharan Africa dominates the top of this list, driven by high total fertility rates and relatively young populations. Niger has led global fertility rankings for decades. Values are annual births per 1,000 population.",
-    "disclaimer": "Sub-Saharan Africa dominates the top of this list, driven by high total fertility rates and relatively young populations. Niger has led global fertility rankings for decades. Values are annual births per 1,000 population.",
-    "trivia": null,
-    "asOfDate": "UN WPP 2024, estimates for 2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "NE",
-        "value": "44.9 per 1,000"
-      },
-      {
-        "rank": 2,
-        "code": "AO",
-        "value": "39.4 per 1,000"
-      },
-      {
-        "rank": 3,
-        "code": "BI",
-        "value": "38.4 per 1,000"
-      },
-      {
-        "rank": 4,
-        "code": "CD",
-        "value": "38.1 per 1,000"
-      },
-      {
-        "rank": 5,
-        "code": "TD",
-        "value": "37.7 per 1,000"
-      },
-      {
-        "rank": 6,
-        "code": "SO",
-        "value": "37.5 per 1,000"
-      },
-      {
-        "rank": 7,
-        "code": "ML",
-        "value": "37.1 per 1,000"
-      },
-      {
-        "rank": 8,
-        "code": "BF",
-        "value": "34.1 per 1,000"
-      },
-      {
-        "rank": 9,
-        "code": "MZ",
-        "value": "34.0 per 1,000"
-      },
-      {
-        "rank": 10,
-        "code": "UG",
-        "value": "33.5 per 1,000"
-      },
-      {
-        "rank": 11,
-        "code": "CF",
-        "value": "33.4 per 1,000"
-      },
-      {
-        "rank": 12,
-        "code": "TZ",
-        "value": "33.3 per 1,000"
-      },
-      {
-        "rank": 13,
-        "code": "NG",
-        "value": "33.2 per 1,000"
-      },
-      {
-        "rank": 14,
-        "code": "BJ",
-        "value": "33.1 per 1,000"
-      },
-      {
-        "rank": 15,
-        "code": "SS",
-        "value": "32.6 per 1,000"
-      }
-    ]
-  },
-  {
-    "id": "demographics-lowest-birth-rate-2024",
-    "theme": "Countries",
-    "subtheme": "Demographics",
-    "title": "Lowest Birth Rate",
-    "prompt": "Name the countries with the lowest crude birth rate (births per 1,000 people per year).",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "UN DESA \u2014 World Population Prospects 2024 (Crude Birth Rate)",
-      "url": "https://population.un.org/wpp/",
-      "asOf": "UN WPP 2024, estimates for 2023"
-    },
-    "note": "East Asian countries and some European microstates lead the ultra-low fertility group. South Korea's crude rate has collapsed alongside its total fertility rate (~0.7). Excludes tiny dependent territories.",
-    "disclaimer": "East Asian countries and some European microstates lead the ultra-low fertility group. South Korea's crude rate has collapsed alongside its total fertility rate (~0.7). Excludes tiny dependent territories.",
-    "trivia": null,
-    "asOfDate": "UN WPP 2024, estimates for 2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "KR",
-        "value": "4.9 per 1,000"
-      },
-      {
-        "rank": 2,
-        "code": "MC",
-        "value": "5.9 per 1,000"
-      },
-      {
-        "rank": 3,
-        "code": "SM",
-        "value": "6.0 per 1,000"
-      },
-      {
-        "rank": 4,
-        "code": "IT",
-        "value": "6.4 per 1,000"
-      },
-      {
-        "rank": 5,
-        "code": "JP",
-        "value": "6.5 per 1,000"
-      },
-      {
-        "rank": 6,
-        "code": "ES",
-        "value": "6.6 per 1,000"
-      },
-      {
-        "rank": 7,
-        "code": "UA",
-        "value": "6.7 per 1,000"
-      },
-      {
-        "rank": 8,
-        "code": "GR",
-        "value": "6.9 per 1,000"
-      },
-      {
-        "rank": 9,
-        "code": "PT",
-        "value": "7.0 per 1,000"
-      },
-      {
-        "rank": 10,
-        "code": "AD",
-        "value": "7.1 per 1,000"
-      },
-      {
-        "rank": 11,
-        "code": "CN",
-        "value": "7.3 per 1,000"
-      },
-      {
-        "rank": 12,
-        "code": "MT",
-        "value": "7.4 per 1,000"
-      },
-      {
-        "rank": 13,
-        "code": "TW",
-        "value": "7.5 per 1,000"
-      },
-      {
-        "rank": 14,
-        "code": "DE",
-        "value": "7.7 per 1,000"
-      },
-      {
-        "rank": 15,
-        "code": "PL",
-        "value": "7.8 per 1,000"
-      }
-    ]
-  },
-  {
     "id": "demographics-highest-net-migration-rate-2024",
     "theme": "Countries",
     "subtheme": "Demographics",
@@ -47082,8 +46162,8 @@
       "asOf": "World Bank 2023 estimates"
     },
     "note": "Japan crossed 29% first and remains the world's most-aged large economy. Monaco tops microstates thanks to its high-income retiree base. The list is entirely developed high-income countries plus a couple of European microstates.",
-    "disclaimer": "Japan crossed 29% first and remains the world's most-aged large economy. Monaco tops microstates thanks to its high-income retiree base. The list is entirely developed high-income countries plus a couple of European microstates.",
-    "trivia": null,
+    "disclaimer": "Share of population aged 65 and over. Includes European microstates; East Asian aged giants also rank near the top. Excludes tiny dependent territories.",
+    "trivia": "Japan crossed 29% first and remains the world's most-aged large economy. Monaco tops the microstate group thanks to its high-income retiree base.",
     "asOfDate": "World Bank 2023 estimates",
     "answers": [
       {
@@ -47842,7 +46922,7 @@
       "asOf": "2023 data (2024 report)"
     },
     "note": null,
-    "disclaimer": "Liquefied natural gas exports measured in million tonnes per annum (MTPA). The United States overtook Australia and Qatar in 2023 to become the world's largest LNG exporter.",
+    "disclaimer": "Liquefied natural gas exports measured in million tonnes per annum (MTPA).",
     "trivia": "Qatar built its entire modern gas industry on the offshore North Field \u2014 the largest single natural gas reservoir on Earth, shared with Iran (where it's called South Pars).",
     "asOfDate": "2023 data (2024 report)",
     "answers": [
@@ -47937,7 +47017,7 @@
       "asOf": "2023 data (2024 report)"
     },
     "note": null,
-    "disclaimer": "LNG imports measured in million tonnes per annum (MTPA). Europe surged into the top of the import table after the 2022 pipeline gas cutoff from Russia.",
+    "disclaimer": "LNG imports measured in million tonnes per annum (MTPA).",
     "trivia": "Japan was the world's largest LNG importer for decades \u2014 the country built the first modern LNG import terminal at Negishi in 1969 and has almost no domestic gas.",
     "asOfDate": "2023 data (2024 report)",
     "answers": [
@@ -48300,101 +47380,6 @@
         "rank": 15,
         "code": "PK",
         "value": "$6B"
-      }
-    ]
-  },
-  {
-    "id": "fashion-luxury-fashion-weeks-by-prestige-2024",
-    "theme": "Countries",
-    "subtheme": "Fashion & Luxury",
-    "title": "Fashion weeks by prestige",
-    "prompt": "Name the countries hosting the world's most prestigious fashion weeks.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Business of Fashion \u2014 Global Fashion Week Rankings",
-      "url": "https://www.businessoffashion.com/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "Ranked by industry influence, buyer/press attendance, and number of major houses showing. Includes the 'Big Four' plus notable second-tier weeks.",
-    "trivia": "The 'Big Four' fashion weeks \u2014 New York, London, Milan, and Paris \u2014 run in that fixed sequence twice a year, a schedule set by the industry in the 1970s.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "FR",
-        "value": "Paris Fashion Week"
-      },
-      {
-        "rank": 2,
-        "code": "IT",
-        "value": "Milan Fashion Week"
-      },
-      {
-        "rank": 3,
-        "code": "US",
-        "value": "New York Fashion Week"
-      },
-      {
-        "rank": 4,
-        "code": "GB",
-        "value": "London Fashion Week"
-      },
-      {
-        "rank": 5,
-        "code": "JP",
-        "value": "Tokyo Fashion Week"
-      },
-      {
-        "rank": 6,
-        "code": "DE",
-        "value": "Berlin Fashion Week"
-      },
-      {
-        "rank": 7,
-        "code": "ES",
-        "value": "Madrid Fashion Week"
-      },
-      {
-        "rank": 8,
-        "code": "CN",
-        "value": "Shanghai Fashion Week"
-      },
-      {
-        "rank": 9,
-        "code": "BR",
-        "value": "Sao Paulo Fashion Week"
-      },
-      {
-        "rank": 10,
-        "code": "IN",
-        "value": "Mumbai/Delhi Fashion Week"
-      },
-      {
-        "rank": 11,
-        "code": "AU",
-        "value": "Australian Fashion Week"
-      },
-      {
-        "rank": 12,
-        "code": "KR",
-        "value": "Seoul Fashion Week"
-      },
-      {
-        "rank": 13,
-        "code": "RU",
-        "value": "Moscow Fashion Week"
-      },
-      {
-        "rank": 14,
-        "code": "SE",
-        "value": "Stockholm Fashion Week"
-      },
-      {
-        "rank": 15,
-        "code": "PT",
-        "value": "Portugal Fashion (Porto/Lisbon)"
       }
     ]
   },
@@ -51253,7 +50238,7 @@
     "theme": "Countries",
     "subtheme": "Politics",
     "title": "Currently active sovereign monarchies",
-    "prompt": "Name countries where a monarch is currently the head of state (excluding Commonwealth realms sharing King Charles III).",
+    "prompt": "Name the sovereign countries where a monarch is currently the resident head of state (excluding the 14 other Commonwealth realms that share King Charles III with the UK).",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -51262,84 +50247,154 @@
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Only sovereign states with a resident monarch as head of state are listed. Commonwealth realms whose head of state is King Charles III (Australia, Canada, etc.) are excluded to avoid double-counting.",
-    "trivia": "There are 28 sovereign monarchies today, down from more than 100 a century ago; the Vatican is the world's only elective absolute monarchy.",
+    "disclaimer": "Includes sovereign states with their own resident monarch as head of state. The 14 Commonwealth realms whose head of state is King Charles III (Australia, Canada, Jamaica, etc.) are excluded from the ranking to avoid double-counting; the UK remains as Charles III's primary domain. Ordering is by longevity of the current dynasty on the throne.",
+    "trivia": "There are roughly 28 sovereign monarchies today, down from more than 100 a century ago; the Vatican is the world's only elective absolute monarchy, and Malaysia is the world's only rotating elective monarchy among heads of nine hereditary state rulers.",
     "asOfDate": "2024",
     "answers": [
       {
         "rank": 1,
-        "code": "GB",
-        "value": "King Charles III"
-      },
-      {
-        "rank": 2,
         "code": "JP",
         "value": "Emperor Naruhito"
       },
       {
+        "rank": 2,
+        "code": "GB",
+        "value": "King Charles III"
+      },
+      {
         "rank": 3,
-        "code": "SA",
-        "value": "King Salman"
-      },
-      {
-        "rank": 4,
-        "code": "TH",
-        "value": "King Vajiralongkorn"
-      },
-      {
-        "rank": 5,
-        "code": "MA",
-        "value": "King Mohammed VI"
-      },
-      {
-        "rank": 6,
-        "code": "JO",
-        "value": "King Abdullah II"
-      },
-      {
-        "rank": 7,
-        "code": "ES",
-        "value": "King Felipe VI"
-      },
-      {
-        "rank": 8,
-        "code": "NL",
-        "value": "King Willem-Alexander"
-      },
-      {
-        "rank": 9,
-        "code": "BE",
-        "value": "King Philippe"
-      },
-      {
-        "rank": 10,
-        "code": "SE",
-        "value": "King Carl XVI Gustaf"
-      },
-      {
-        "rank": 11,
-        "code": "NO",
-        "value": "King Harald V"
-      },
-      {
-        "rank": 12,
         "code": "DK",
         "value": "King Frederik X"
       },
       {
-        "rank": 13,
+        "rank": 4,
+        "code": "SE",
+        "value": "King Carl XVI Gustaf"
+      },
+      {
+        "rank": 5,
+        "code": "ES",
+        "value": "King Felipe VI"
+      },
+      {
+        "rank": 6,
+        "code": "NL",
+        "value": "King Willem-Alexander"
+      },
+      {
+        "rank": 7,
+        "code": "BE",
+        "value": "King Philippe"
+      },
+      {
+        "rank": 8,
+        "code": "NO",
+        "value": "King Harald V"
+      },
+      {
+        "rank": 9,
         "code": "LU",
         "value": "Grand Duke Henri"
       },
       {
-        "rank": 14,
+        "rank": 10,
+        "code": "LI",
+        "value": "Prince Hans-Adam II"
+      },
+      {
+        "rank": 11,
         "code": "MC",
         "value": "Prince Albert II"
       },
       {
+        "rank": 12,
+        "code": "AD",
+        "value": "Co-Princes (Bishop of Urgell & President of France)"
+      },
+      {
+        "rank": 13,
+        "code": "VA",
+        "value": "Pope Francis (elective)"
+      },
+      {
+        "rank": 14,
+        "code": "SA",
+        "value": "King Salman"
+      },
+      {
         "rank": 15,
-        "code": "LI",
-        "value": "Prince Hans-Adam II"
+        "code": "JO",
+        "value": "King Abdullah II"
+      },
+      {
+        "rank": 16,
+        "code": "MA",
+        "value": "King Mohammed VI"
+      },
+      {
+        "rank": 17,
+        "code": "OM",
+        "value": "Sultan Haitham bin Tariq"
+      },
+      {
+        "rank": 18,
+        "code": "KW",
+        "value": "Emir Mishal Al-Ahmad Al-Jaber Al-Sabah"
+      },
+      {
+        "rank": 19,
+        "code": "BH",
+        "value": "King Hamad bin Isa Al Khalifa"
+      },
+      {
+        "rank": 20,
+        "code": "QA",
+        "value": "Emir Tamim bin Hamad Al Thani"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "President Mohamed bin Zayed (federation of 7 emirates)"
+      },
+      {
+        "rank": 22,
+        "code": "BN",
+        "value": "Sultan Hassanal Bolkiah"
+      },
+      {
+        "rank": 23,
+        "code": "MY",
+        "value": "Yang di-Pertuan Agong (rotating)"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "King Vajiralongkorn"
+      },
+      {
+        "rank": 25,
+        "code": "KH",
+        "value": "King Norodom Sihamoni"
+      },
+      {
+        "rank": 26,
+        "code": "BT",
+        "value": "King Jigme Khesar Namgyel Wangchuck"
+      },
+      {
+        "rank": 27,
+        "code": "LS",
+        "value": "King Letsie III"
+      },
+      {
+        "rank": 28,
+        "code": "SZ",
+        "value": "King Mswati III"
+      },
+      {
+        "rank": 29,
+        "code": "TO",
+        "value": "King Tupou VI"
       }
     ]
   },
@@ -51443,93 +50498,58 @@
     "theme": "Countries",
     "subtheme": "Politics",
     "title": "Highest minimum voting age (21 or older)",
-    "prompt": "Name countries where the minimum voting age for national elections is 21 or higher.",
+    "prompt": "Name the countries where the minimum voting age for national elections is 21 years or older.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 8,
     "source": {
       "name": "IDEA International / CIA World Factbook \u2014 Voting age comparisons",
       "url": "https://www.idea.int/data-tools/data/voter-turnout",
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Most countries set voting age at 18; a handful require 21 or higher. Ranked by minimum age (highest first), ties broken by population.",
-    "trivia": "The UAE requires citizens to be 25 to vote in Federal National Council elections, and only about a third of Emirati citizens are enrolled in the electoral college at all.",
+    "disclaimer": "Only countries whose minimum voting age is 21 or higher are included. Most of the world sets it at 18; ties broken alphabetically.",
+    "trivia": "The UAE's Federal National Council electoral college requires citizens to be at least 25, and only about a third of Emirati citizens are enrolled to vote at all.",
     "asOfDate": "2024",
     "answers": [
       {
         "rank": 1,
-        "code": "TN",
-        "value": "18 years"
+        "code": "AE",
+        "value": "25 years"
       },
       {
-        "rank": 1,
-        "code": "JP",
-        "value": "18 years"
-      },
-      {
-        "rank": 3,
-        "code": "KR",
-        "value": "19 years"
-      },
-      {
-        "rank": 4,
-        "code": "CM",
-        "value": "20 years"
-      },
-      {
-        "rank": 4,
-        "code": "BH",
-        "value": "20 years"
-      },
-      {
-        "rank": 4,
-        "code": "NR",
-        "value": "20 years"
-      },
-      {
-        "rank": 4,
-        "code": "TW",
-        "value": "20 years"
-      },
-      {
-        "rank": 8,
-        "code": "LB",
-        "value": "21 years"
-      },
-      {
-        "rank": 8,
-        "code": "MY",
-        "value": "21 years"
-      },
-      {
-        "rank": 8,
-        "code": "SG",
-        "value": "21 years"
-      },
-      {
-        "rank": 8,
-        "code": "OM",
-        "value": "21 years"
-      },
-      {
-        "rank": 8,
+        "rank": 2,
         "code": "KW",
         "value": "21 years"
       },
       {
-        "rank": 8,
+        "rank": 2,
+        "code": "LB",
+        "value": "21 years (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "MY",
+        "value": "21 years (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "OM",
+        "value": "21 years (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "SG",
+        "value": "21 years (tied)"
+      },
+      {
+        "rank": 2,
         "code": "TO",
-        "value": "21 years"
+        "value": "21 years (tied)"
       },
       {
-        "rank": 8,
+        "rank": 2,
         "code": "WS",
-        "value": "21 years"
-      },
-      {
-        "rank": 15,
-        "code": "AE",
-        "value": "25 years"
+        "value": "21 years (tied)"
       }
     ]
   },
@@ -51575,101 +50595,6 @@
         "rank": 5,
         "code": "FR",
         "value": "18 vetoes"
-      }
-    ]
-  },
-  {
-    "id": "politics-countries-with-mandatory-compulsory-voting-2024",
-    "theme": "Countries",
-    "subtheme": "Politics",
-    "title": "Countries with mandatory (compulsory) voting",
-    "prompt": "Name countries where voting in national elections is legally compulsory for eligible citizens.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "IDEA International \u2014 Compulsory Voting database",
-      "url": "https://www.idea.int/data-tools/data/voter-turnout/compulsory-voting",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "Includes only countries where compulsory voting is written into law, whether or not sanctions are actively enforced. Ranked roughly by strictness of enforcement, then alphabetically.",
-    "trivia": "Australia has fined non-voters since 1924; turnout at federal elections has stayed above 90 percent every cycle since, one of the highest sustained turnouts in the democratic world.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "AU",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 2,
-        "code": "BE",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 3,
-        "code": "BR",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 4,
-        "code": "AR",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 5,
-        "code": "SG",
-        "value": "Enforced (removal from roll)"
-      },
-      {
-        "rank": 6,
-        "code": "LU",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 7,
-        "code": "UY",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 8,
-        "code": "EC",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 9,
-        "code": "PE",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 10,
-        "code": "BO",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 11,
-        "code": "TR",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 12,
-        "code": "CY",
-        "value": "Enforced (fine)"
-      },
-      {
-        "rank": 13,
-        "code": "GR",
-        "value": "Not enforced"
-      },
-      {
-        "rank": 14,
-        "code": "MX",
-        "value": "Not enforced"
-      },
-      {
-        "rank": 15,
-        "code": "TH",
-        "value": "Not enforced"
       }
     ]
   },
@@ -51870,15 +50795,15 @@
     "title": "Highest diabetes prevalence",
     "prompt": "Name the countries with the highest age-adjusted prevalence of diabetes among adults aged 20-79.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 14,
     "source": {
       "name": "International Diabetes Federation \u2014 Diabetes Atlas (11th ed.)",
       "url": "https://diabetesatlas.org/",
       "asOf": "2024 (IDF Diabetes Atlas 11th edition)"
     },
     "note": null,
-    "disclaimer": "Age-adjusted prevalence in adults 20-79. IDF national estimates exclude micro-populations under 100,000 and rely on modelled data where surveys are absent.",
-    "trivia": "Small Pacific island nations dominate the top of the list \u2014 a legacy of rapid post-war shifts from traditional diets to imported processed foods.",
+    "disclaimer": "Age-adjusted prevalence in adults 20-79. IDF national estimates exclude micro-populations under 100,000 and rely on modelled data where surveys are absent. Sovereign states only \u2014 overseas territories are not listed separately.",
+    "trivia": "Small Pacific island nations and Gulf states dominate the top of the list \u2014 a legacy of rapid post-war shifts from traditional diets to imported processed foods.",
     "asOfDate": "2024 (IDF Diabetes Atlas 11th edition)",
     "answers": [
       {
@@ -51888,71 +50813,66 @@
       },
       {
         "rank": 2,
-        "code": "FR",
-        "value": "21.1% (French Polynesia territory)"
-      },
-      {
-        "rank": 3,
         "code": "KW",
         "value": "20.8%"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "NR",
         "value": "20.6%"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "EG",
         "value": "20.5%"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "QA",
         "value": "19.5%"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "MU",
         "value": "19.4%"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "MY",
         "value": "19.0%"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "code": "MX",
         "value": "18.3%"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "SA",
         "value": "18.1%"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "code": "AE",
         "value": "17.4%"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "BH",
         "value": "17.2%"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "SD",
         "value": "17.1%"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "code": "TR",
         "value": "14.5%"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "US",
         "value": "12.5%"
       }
@@ -52050,101 +50970,6 @@
         "rank": 15,
         "code": "AT",
         "value": "3.1 per 1,000"
-      }
-    ]
-  },
-  {
-    "id": "health-highest-measles-vaccination-coverage-2023",
-    "theme": "Countries",
-    "subtheme": "Health",
-    "title": "Highest measles vaccination coverage",
-    "prompt": "Name the countries with the highest measles-containing vaccine (MCV1) coverage among one-year-olds.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "WHO/UNICEF Estimates of National Immunization Coverage (WUENIC)",
-      "url": "https://immunizationdata.who.int/",
-      "asOf": "2023 WUENIC estimates (published July 2024)"
-    },
-    "note": null,
-    "disclaimer": "Percentage of surviving infants receiving one dose of measles-containing vaccine. Ties are broken alphabetically and many high-performing countries report the same 99% ceiling.",
-    "trivia": "Many countries have been at 99% for a decade \u2014 the WHO does not officially publish figures above 99% for individual countries, treating that as the practical ceiling for national programmes.",
-    "asOfDate": "2023 WUENIC estimates (published July 2024)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "HU",
-        "value": "99%"
-      },
-      {
-        "rank": 1,
-        "code": "PT",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "CN",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "KR",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "UZ",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "MA",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "CU",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "BY",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "OM",
-        "value": "99% (tied)"
-      },
-      {
-        "rank": 10,
-        "code": "IR",
-        "value": "98%"
-      },
-      {
-        "rank": 10,
-        "code": "SK",
-        "value": "98% (tied)"
-      },
-      {
-        "rank": 10,
-        "code": "CZ",
-        "value": "98% (tied)"
-      },
-      {
-        "rank": 10,
-        "code": "PL",
-        "value": "98% (tied)"
-      },
-      {
-        "rank": 10,
-        "code": "FI",
-        "value": "98% (tied)"
-      },
-      {
-        "rank": 15,
-        "code": "SE",
-        "value": "97%"
       }
     ]
   },
@@ -52257,7 +51082,7 @@
       "asOf": "Most recent country reporting years (2018\u20132022)"
     },
     "note": null,
-    "disclaimer": "Nurses and midwives per 10,000 population, latest reported year per country. Definitions vary slightly by country reporting practice.",
+    "disclaimer": "Nurses and midwives per 10,000 population, latest reported year per country. Definitions vary slightly by country reporting practice; microstates can top per-capita rankings due to small denominators.",
     "trivia": "Norway and Finland train roughly one nurse for every 55 residents \u2014 more per capita than most countries train doctors.",
     "asOfDate": "Most recent country reporting years (2018\u20132022)",
     "answers": [
@@ -52447,7 +51272,7 @@
       "asOf": "2020 (Mental Health Atlas)"
     },
     "note": null,
-    "disclaimer": "Total mental health workforce per 100,000 people, combining psychiatrists, psychologists, mental health nurses, social workers and other cadres. Some countries include care assistants; others do not.",
+    "disclaimer": "Total mental health workforce per 100,000 people, combining psychiatrists, psychologists, mental health nurses, social workers and other cadres. Some countries include care assistants; others do not. Microstates can top per-capita rankings due to small denominators.",
     "trivia": "The WHO reports a 40-fold gap between the top and median country in mental health workforce density.",
     "asOfDate": "2020 (Mental Health Atlas)",
     "answers": [
@@ -52814,196 +51639,6 @@
     ]
   },
   {
-    "id": "politics-most-g20-summits-hosted-2024",
-    "theme": "Countries",
-    "subtheme": "Politics",
-    "title": "Most G20 summits hosted",
-    "prompt": "Which countries have hosted the annual G20 Leaders' Summit the most times since its inception in 2008?",
-    "answerType": "Countries",
-    "seededDepth": 12,
-    "source": {
-      "name": "G20 \u2014 official summit history / Wikipedia aggregation",
-      "url": "https://en.wikipedia.org/wiki/List_of_G20_summits",
-      "asOf": "Through the 2024 Rio de Janeiro summit (South Africa hosts in 2025)"
-    },
-    "note": "Counts host country for each Leaders' Summit from 2008 (Washington) through the 19th summit (Rio de Janeiro 2024). The 2010 Toronto and 2010 Seoul summits are counted separately, giving that year two hosts.",
-    "disclaimer": "Counts host country for each Leaders' Summit from 2008 (Washington) through the 19th summit (Rio de Janeiro 2024). The 2010 Toronto and 2010 Seoul summits are counted separately, giving that year two hosts.",
-    "trivia": null,
-    "asOfDate": "Through the 2024 Rio de Janeiro summit (South Africa hosts in 2025)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "US",
-        "value": "2 (Washington 2008, Pittsburgh 2009)"
-      },
-      {
-        "rank": 2,
-        "code": "DE",
-        "value": "1 (Hamburg 2017)"
-      },
-      {
-        "rank": 2,
-        "code": "GB",
-        "value": "1 (London 2009)"
-      },
-      {
-        "rank": 2,
-        "code": "CA",
-        "value": "1 (Toronto 2010)"
-      },
-      {
-        "rank": 2,
-        "code": "KR",
-        "value": "1 (Seoul 2010)"
-      },
-      {
-        "rank": 2,
-        "code": "FR",
-        "value": "1 (Cannes 2011)"
-      },
-      {
-        "rank": 2,
-        "code": "MX",
-        "value": "1 (Los Cabos 2012)"
-      },
-      {
-        "rank": 2,
-        "code": "RU",
-        "value": "1 (Saint Petersburg 2013)"
-      },
-      {
-        "rank": 2,
-        "code": "AU",
-        "value": "1 (Brisbane 2014)"
-      },
-      {
-        "rank": 2,
-        "code": "TR",
-        "value": "1 (Antalya 2015)"
-      },
-      {
-        "rank": 2,
-        "code": "CN",
-        "value": "1 (Hangzhou 2016)"
-      },
-      {
-        "rank": 2,
-        "code": "AR",
-        "value": "1 (Buenos Aires 2018)"
-      },
-      {
-        "rank": 2,
-        "code": "JP",
-        "value": "1 (Osaka 2019)"
-      },
-      {
-        "rank": 2,
-        "code": "SA",
-        "value": "1 (Riyadh 2020, virtual)"
-      },
-      {
-        "rank": 2,
-        "code": "IT",
-        "value": "1 (Rome 2021)"
-      }
-    ]
-  },
-  {
-    "id": "politics-countries-with-the-youngest-voting-age-2024",
-    "theme": "Countries",
-    "subtheme": "Politics",
-    "title": "Countries with the youngest voting age",
-    "prompt": "Which countries allow their citizens to vote in national elections at the youngest age?",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "CIA World Factbook \u2014 Suffrage / Wikipedia \u2014 Voting age",
-      "url": "https://en.wikipedia.org/wiki/Voting_age",
-      "asOf": "As of 2024"
-    },
-    "note": "Voting age for general national elections. Some countries (e.g. Greece) have a slightly older presidential voting age; some (e.g. Bosnia) permit 16 for employed youth only. Rank groups by age, then alphabetically within a tier.",
-    "disclaimer": "Voting age for general national elections. Some countries (e.g. Greece) have a slightly older presidential voting age; some (e.g. Bosnia) permit 16 for employed youth only. Rank groups by age, then alphabetically within a tier.",
-    "trivia": null,
-    "asOfDate": "As of 2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "AT",
-        "value": "16"
-      },
-      {
-        "rank": 1,
-        "code": "MT",
-        "value": "16"
-      },
-      {
-        "rank": 1,
-        "code": "NI",
-        "value": "16"
-      },
-      {
-        "rank": 1,
-        "code": "CU",
-        "value": "16"
-      },
-      {
-        "rank": 1,
-        "code": "EC",
-        "value": "16 (compulsory 18-65)"
-      },
-      {
-        "rank": 1,
-        "code": "AR",
-        "value": "16 (optional; compulsory at 18)"
-      },
-      {
-        "rank": 1,
-        "code": "BR",
-        "value": "16 (optional; compulsory 18-70)"
-      },
-      {
-        "rank": 8,
-        "code": "GR",
-        "value": "17"
-      },
-      {
-        "rank": 8,
-        "code": "KP",
-        "value": "17"
-      },
-      {
-        "rank": 8,
-        "code": "SD",
-        "value": "17"
-      },
-      {
-        "rank": 8,
-        "code": "TL",
-        "value": "17"
-      },
-      {
-        "rank": 8,
-        "code": "ID",
-        "value": "17"
-      },
-      {
-        "rank": 8,
-        "code": "SC",
-        "value": "17"
-      },
-      {
-        "rank": 14,
-        "code": "ET",
-        "value": "18"
-      },
-      {
-        "rank": 14,
-        "code": "US",
-        "value": "18"
-      }
-    ]
-  },
-  {
     "id": "countries-most-nobel-peace-prize-laureates-2024",
     "theme": "Countries",
     "subtheme": "Countries",
@@ -53099,386 +51734,6 @@
     ]
   },
   {
-    "id": "countries-most-wwii-total-deaths",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Most WWII total deaths",
-    "prompt": "Name the countries that suffered the most total deaths (military + civilian) during World War II.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 World War II casualties (aggregating Ellman & Maksudov, Krivosheev, USHMM)",
-      "url": "https://en.wikipedia.org/wiki/World_War_II_casualties",
-      "asOf": "1939-1945"
-    },
-    "note": null,
-    "disclaimer": "Total deaths include military KIA, civilian war-related deaths, and Holocaust victims attributed by prewar residence. Figures use commonly cited mid-range estimates; scholarly ranges vary widely for the USSR and China.",
-    "trivia": "The Soviet Union's ~27 million dead is roughly 14% of its 1940 population. Poland lost about 17% of its prewar population \u2014 the highest per-capita loss of any country in the war.",
-    "asOfDate": "1939-1945",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "RU",
-        "value": "27,000,000 (Soviet Union)"
-      },
-      {
-        "rank": 2,
-        "code": "CN",
-        "value": "20,000,000"
-      },
-      {
-        "rank": 3,
-        "code": "DE",
-        "value": "7,400,000"
-      },
-      {
-        "rank": 4,
-        "code": "PL",
-        "value": "6,000,000"
-      },
-      {
-        "rank": 5,
-        "code": "ID",
-        "value": "4,000,000 (Dutch East Indies)"
-      },
-      {
-        "rank": 6,
-        "code": "JP",
-        "value": "3,100,000"
-      },
-      {
-        "rank": 7,
-        "code": "IN",
-        "value": "2,200,000 (Bengal famine + military)"
-      },
-      {
-        "rank": 8,
-        "code": "VN",
-        "value": "1,500,000 (French Indochina famine)"
-      },
-      {
-        "rank": 9,
-        "code": "RS",
-        "value": "1,400,000 (Yugoslavia \u2014 Serbia as primary successor)"
-      },
-      {
-        "rank": 10,
-        "code": "PH",
-        "value": "1,100,000"
-      },
-      {
-        "rank": 11,
-        "code": "FR",
-        "value": "600,000"
-      },
-      {
-        "rank": 12,
-        "code": "GR",
-        "value": "560,000"
-      },
-      {
-        "rank": 13,
-        "code": "HU",
-        "value": "530,000"
-      },
-      {
-        "rank": 14,
-        "code": "RO",
-        "value": "500,000"
-      },
-      {
-        "rank": 15,
-        "code": "IT",
-        "value": "490,000"
-      }
-    ]
-  },
-  {
-    "id": "countries-most-wwi-total-deaths",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Most WWI total deaths",
-    "prompt": "Name the countries with the highest total deaths (military + civilian) in the First World War.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 World War I casualties (aggregating official government archives)",
-      "url": "https://en.wikipedia.org/wiki/World_War_I_casualties",
-      "asOf": "1914-1918"
-    },
-    "note": null,
-    "disclaimer": "Uses mid-range historical estimates. Ottoman figures include Armenian genocide deaths as commonly aggregated. Successor-state codes used where the belligerent state no longer exists (Russian Empire \u2192 Russia, Austria-Hungary \u2192 Austria).",
-    "trivia": "Germany and Russia each lost roughly two million soldiers \u2014 more than the entire prewar populations of some smaller belligerents. France mobilized ~8 million men and lost about 1 in 6.",
-    "asOfDate": "1914-1918",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "TR",
-        "value": "2,900,000 (Ottoman Empire, incl. civilian)"
-      },
-      {
-        "rank": 2,
-        "code": "DE",
-        "value": "2,800,000"
-      },
-      {
-        "rank": 3,
-        "code": "RU",
-        "value": "2,250,000 (Russian Empire)"
-      },
-      {
-        "rank": 4,
-        "code": "AT",
-        "value": "2,000,000 (Austria-Hungary)"
-      },
-      {
-        "rank": 5,
-        "code": "FR",
-        "value": "1,700,000"
-      },
-      {
-        "rank": 6,
-        "code": "IT",
-        "value": "1,240,000"
-      },
-      {
-        "rank": 7,
-        "code": "GB",
-        "value": "994,000 (British Empire)"
-      },
-      {
-        "rank": 8,
-        "code": "RS",
-        "value": "725,000 (Serbia)"
-      },
-      {
-        "rank": 9,
-        "code": "RO",
-        "value": "680,000"
-      },
-      {
-        "rank": 10,
-        "code": "BG",
-        "value": "188,000"
-      },
-      {
-        "rank": 11,
-        "code": "BE",
-        "value": "120,000"
-      },
-      {
-        "rank": 12,
-        "code": "US",
-        "value": "117,000"
-      },
-      {
-        "rank": 13,
-        "code": "IN",
-        "value": "74,000 (British India)"
-      },
-      {
-        "rank": 14,
-        "code": "CA",
-        "value": "67,000"
-      },
-      {
-        "rank": 15,
-        "code": "AU",
-        "value": "62,000"
-      }
-    ]
-  },
-  {
-    "id": "countries-major-allied-powers-in-wwii",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Major Allied powers in WWII",
-    "prompt": "Name the countries that fought as major Allied powers during World War II.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 Allies of World War II",
-      "url": "https://en.wikipedia.org/wiki/Allies_of_World_War_II",
-      "asOf": "1939-1945"
-    },
-    "note": null,
-    "disclaimer": "Ranking uses the conventional Big Four / Big Five ordering and then approximate mobilized-force size among other major contributors. Excludes governments-in-exile and post-1945 combatants.",
-    "trivia": "Brazil was the only independent South American country to send ground troops to Europe \u2014 the Brazilian Expeditionary Force fought in Italy in 1944-45. Mongolia declared war on Japan in the final days and its cavalry participated in the Soviet invasion of Manchuria.",
-    "asOfDate": "1939-1945",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "US",
-        "value": "United States"
-      },
-      {
-        "rank": 2,
-        "code": "RU",
-        "value": "Soviet Union"
-      },
-      {
-        "rank": 3,
-        "code": "GB",
-        "value": "United Kingdom"
-      },
-      {
-        "rank": 4,
-        "code": "CN",
-        "value": "Republic of China"
-      },
-      {
-        "rank": 5,
-        "code": "FR",
-        "value": "France (Free France)"
-      },
-      {
-        "rank": 6,
-        "code": "CA",
-        "value": "Canada"
-      },
-      {
-        "rank": 7,
-        "code": "AU",
-        "value": "Australia"
-      },
-      {
-        "rank": 8,
-        "code": "IN",
-        "value": "British India"
-      },
-      {
-        "rank": 9,
-        "code": "PL",
-        "value": "Poland (govt in exile + forces)"
-      },
-      {
-        "rank": 10,
-        "code": "NZ",
-        "value": "New Zealand"
-      },
-      {
-        "rank": 11,
-        "code": "ZA",
-        "value": "South Africa"
-      },
-      {
-        "rank": 12,
-        "code": "BR",
-        "value": "Brazil"
-      },
-      {
-        "rank": 13,
-        "code": "MX",
-        "value": "Mexico"
-      },
-      {
-        "rank": 14,
-        "code": "NL",
-        "value": "Netherlands"
-      },
-      {
-        "rank": 15,
-        "code": "BE",
-        "value": "Belgium"
-      }
-    ]
-  },
-  {
-    "id": "countries-axis-powers-and-co-belligerents-in-wwii",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Axis powers and co-belligerents in WWII",
-    "prompt": "Name the countries that fought on the Axis side (or as Axis co-belligerents) during World War II.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 Axis powers",
-      "url": "https://en.wikipedia.org/wiki/Axis_powers",
-      "asOf": "1939-1945"
-    },
-    "note": null,
-    "disclaimer": "Ranks 1-3 are the Tripartite Pact core; remaining entries are ordered by approximate military contribution. Includes co-belligerents (Finland) and puppet/client states in their modern country code. Vichy France is coded under France; Manchukuo under China.",
-    "trivia": "Finland fought the Soviet Union alongside Germany but never signed the Tripartite Pact and refused to hand over its Jewish population \u2014 its wartime status is often described as \"co-belligerent\" rather than fully Axis.",
-    "asOfDate": "1939-1945",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "DE",
-        "value": "Germany"
-      },
-      {
-        "rank": 2,
-        "code": "JP",
-        "value": "Japan"
-      },
-      {
-        "rank": 3,
-        "code": "IT",
-        "value": "Italy"
-      },
-      {
-        "rank": 4,
-        "code": "HU",
-        "value": "Hungary"
-      },
-      {
-        "rank": 5,
-        "code": "RO",
-        "value": "Romania"
-      },
-      {
-        "rank": 6,
-        "code": "BG",
-        "value": "Bulgaria"
-      },
-      {
-        "rank": 7,
-        "code": "FI",
-        "value": "Finland (co-belligerent)"
-      },
-      {
-        "rank": 8,
-        "code": "SK",
-        "value": "Slovakia (client state)"
-      },
-      {
-        "rank": 9,
-        "code": "HR",
-        "value": "Croatia (Independent State of Croatia)"
-      },
-      {
-        "rank": 10,
-        "code": "TH",
-        "value": "Thailand"
-      },
-      {
-        "rank": 11,
-        "code": "IQ",
-        "value": "Iraq (Rashid Ali government, 1941)"
-      },
-      {
-        "rank": 12,
-        "code": "IR",
-        "value": "Iran (briefly pre-1941 pro-Axis leaning)"
-      },
-      {
-        "rank": 13,
-        "code": "AL",
-        "value": "Albania (under Italian rule)"
-      },
-      {
-        "rank": 14,
-        "code": "MM",
-        "value": "Burma (State of Burma puppet)"
-      },
-      {
-        "rank": 15,
-        "code": "PH",
-        "value": "Philippines (Second Republic puppet)"
-      }
-    ]
-  },
-  {
     "id": "countries-oldest-continuously-inhabited-civilizations-2024",
     "theme": "Countries",
     "subtheme": "Countries",
@@ -53570,386 +51825,6 @@
         "rank": 15,
         "code": "IQ",
         "value": "c. 4500 BC (Sumer / Mesopotamia)"
-      }
-    ]
-  },
-  {
-    "id": "countries-largest-colonial-empires-by-peak-territory",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Largest colonial empires (by peak territory)",
-    "prompt": "Name the countries that ruled the largest colonial empires at their peak extent.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 List of largest empires (aggregating Rein Taagepera, Turchin)",
-      "url": "https://en.wikipedia.org/wiki/List_of_largest_empires",
-      "asOf": "Peak historical extent"
-    },
-    "note": null,
-    "disclaimer": "Peak territorial extent of overseas or contiguous colonial empire under a single metropolitan power. Land area in millions of square kilometres.",
-    "trivia": "The British Empire covered nearly a quarter of the world's land surface in 1920 \u2014 the largest in history by area. Portugal held its first colony (Ceuta, 1415) and its last (Macau, until 1999) \u2014 the longest-running colonial empire.",
-    "asOfDate": "Peak historical extent",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "GB",
-        "value": "35.5M km\u00b2 (British Empire, 1920)"
-      },
-      {
-        "rank": 2,
-        "code": "MN",
-        "value": "24.0M km\u00b2 (Mongol Empire, 1270s)"
-      },
-      {
-        "rank": 3,
-        "code": "RU",
-        "value": "22.8M km\u00b2 (Russian Empire, 1895)"
-      },
-      {
-        "rank": 4,
-        "code": "ES",
-        "value": "19.4M km\u00b2 (Spanish Empire, c. 1810)"
-      },
-      {
-        "rank": 5,
-        "code": "CN",
-        "value": "14.7M km\u00b2 (Qing dynasty, 1790)"
-      },
-      {
-        "rank": 6,
-        "code": "FR",
-        "value": "13.5M km\u00b2 (French Colonial Empire, 1920)"
-      },
-      {
-        "rank": 7,
-        "code": "PT",
-        "value": "10.4M km\u00b2 (Portuguese Empire, 1815)"
-      },
-      {
-        "rank": 8,
-        "code": "JP",
-        "value": "7.4M km\u00b2 (Japanese Empire, 1942)"
-      },
-      {
-        "rank": 9,
-        "code": "TR",
-        "value": "5.2M km\u00b2 (Ottoman Empire, 1683)"
-      },
-      {
-        "rank": 10,
-        "code": "NL",
-        "value": "4.7M km\u00b2 (Dutch Empire, 1940)"
-      },
-      {
-        "rank": 11,
-        "code": "IT",
-        "value": "3.8M km\u00b2 (Italian Empire, 1938)"
-      },
-      {
-        "rank": 12,
-        "code": "DK",
-        "value": "3.2M km\u00b2 (Danish colonial empire incl. Greenland, 1800)"
-      },
-      {
-        "rank": 13,
-        "code": "DE",
-        "value": "2.7M km\u00b2 (German colonial empire, 1912)"
-      },
-      {
-        "rank": 14,
-        "code": "BE",
-        "value": "2.3M km\u00b2 (Belgian Congo, 1908)"
-      },
-      {
-        "rank": 15,
-        "code": "US",
-        "value": "1.8M km\u00b2 (US overseas territories, 1898-1946)"
-      }
-    ]
-  },
-  {
-    "id": "countries-longest-continuous-royal-dynasties-2024",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Longest continuous royal dynasties",
-    "prompt": "Name the countries with the longest continuous monarchical dynasty (single unbroken line).",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 List of longest-reigning dynasties",
-      "url": "https://en.wikipedia.org/wiki/List_of_longest-reigning_dynasties",
-      "asOf": "As of 2024"
-    },
-    "note": null,
-    "disclaimer": "Length measured from the legendary or historically attested founding of the current dynasty to the present or its abolition. Some early dates are traditional / legendary rather than firmly documented.",
-    "trivia": "Japan's Imperial House traces itself to Emperor Jimmu in 660 BC \u2014 by tradition, the world's oldest continuous hereditary monarchy. Denmark's House of Gl\u00fccksburg is the oldest currently reigning European royal line.",
-    "asOfDate": "As of 2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "JP",
-        "value": "Imperial House \u2014 since 660 BC (traditional)"
-      },
-      {
-        "rank": 2,
-        "code": "JO",
-        "value": "Hashemite dynasty in Jordan \u2014 since 1921"
-      },
-      {
-        "rank": 3,
-        "code": "BT",
-        "value": "Wangchuck dynasty \u2014 since 1907"
-      },
-      {
-        "rank": 4,
-        "code": "LU",
-        "value": "House of Nassau-Weilburg \u2014 since 1890"
-      },
-      {
-        "rank": 5,
-        "code": "BE",
-        "value": "House of Belgium \u2014 since 1831"
-      },
-      {
-        "rank": 6,
-        "code": "NL",
-        "value": "House of Orange-Nassau \u2014 since 1815 as kings"
-      },
-      {
-        "rank": 7,
-        "code": "TH",
-        "value": "Chakri dynasty \u2014 since 1782"
-      },
-      {
-        "rank": 8,
-        "code": "OM",
-        "value": "Al Said dynasty \u2014 since 1744"
-      },
-      {
-        "rank": 8,
-        "code": "SA",
-        "value": "House of Saud \u2014 since 1744"
-      },
-      {
-        "rank": 10,
-        "code": "ES",
-        "value": "House of Bourbon \u2014 since 1700 (restored)"
-      },
-      {
-        "rank": 11,
-        "code": "MA",
-        "value": "Alaouite dynasty \u2014 since 1631"
-      },
-      {
-        "rank": 12,
-        "code": "GB",
-        "value": "House of Windsor / prior lines to 1066"
-      },
-      {
-        "rank": 13,
-        "code": "SE",
-        "value": "Monarchy since c. 970"
-      },
-      {
-        "rank": 14,
-        "code": "DK",
-        "value": "House of Gl\u00fccksburg / prior lines to c. 935"
-      },
-      {
-        "rank": 15,
-        "code": "NO",
-        "value": "Monarchy since c. 872 (Harald Fairhair)"
-      }
-    ]
-  },
-  {
-    "id": "countries-countries-never-colonized-by-european-powers-2024",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Countries never colonized by European powers",
-    "prompt": "Name the countries that were never colonized or made a formal protectorate by a European power.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 List of countries that were never colonized by Europeans",
-      "url": "https://en.wikipedia.org/wiki/List_of_countries_that_were_never_colonized_by_Europeans",
-      "asOf": "As of 2024"
-    },
-    "note": null,
-    "disclaimer": "Definitions vary. Includes countries that avoided formal European rule or protectorate status, even if briefly occupied (Ethiopia 1936-41, Thailand WWII). Excludes countries that lost formal sovereignty via protectorate treaties. Ordering is roughly by strength of the \"never colonized\" claim.",
-    "trivia": "Ethiopia famously defeated Italy at Adwa in 1896 \u2014 the first decisive African victory over a European colonizer. Thailand's kings played France and Britain off each other to keep Siam as a buffer state.",
-    "asOfDate": "As of 2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "TH",
-        "value": "Never formally colonized (Siam)"
-      },
-      {
-        "rank": 2,
-        "code": "JP",
-        "value": "Never colonized"
-      },
-      {
-        "rank": 3,
-        "code": "IR",
-        "value": "Never formally colonized (spheres of influence)"
-      },
-      {
-        "rank": 4,
-        "code": "TR",
-        "value": "Ottoman core \u2014 never colonized"
-      },
-      {
-        "rank": 5,
-        "code": "CN",
-        "value": "Never formally colonized (concessions only)"
-      },
-      {
-        "rank": 6,
-        "code": "ET",
-        "value": "Never formally colonized (5-yr Italian occupation)"
-      },
-      {
-        "rank": 7,
-        "code": "LR",
-        "value": "Founded 1847 by freed slaves; never colonized"
-      },
-      {
-        "rank": 8,
-        "code": "SA",
-        "value": "Never colonized"
-      },
-      {
-        "rank": 9,
-        "code": "AF",
-        "value": "Never a formal colony (buffer state)"
-      },
-      {
-        "rank": 10,
-        "code": "NP",
-        "value": "Never colonized (British influence but sovereign)"
-      },
-      {
-        "rank": 11,
-        "code": "BT",
-        "value": "Never colonized (British influence but sovereign)"
-      },
-      {
-        "rank": 12,
-        "code": "KR",
-        "value": "Never European-colonized (Japanese rule 1910-45)"
-      },
-      {
-        "rank": 13,
-        "code": "MN",
-        "value": "Never European-colonized"
-      },
-      {
-        "rank": 14,
-        "code": "TO",
-        "value": "Protected state but never formal colony"
-      },
-      {
-        "rank": 15,
-        "code": "YE",
-        "value": "North Yemen never colonized (Ottoman then independent)"
-      }
-    ]
-  },
-  {
-    "id": "countries-countries-occupied-longest-during-wwii",
-    "theme": "Countries",
-    "subtheme": "Countries",
-    "title": "Countries occupied longest during WWII",
-    "prompt": "Name the countries that spent the longest continuous period under Axis occupation during World War II.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Wikipedia \u2014 German-occupied Europe / Japanese-occupied territories",
-      "url": "https://en.wikipedia.org/wiki/German-occupied_Europe",
-      "asOf": "1937-1945"
-    },
-    "note": null,
-    "disclaimer": "Measures continuous occupation duration by any Axis power. Some countries counted from Japanese invasion in 1937 predating the European war. Ranges use commonly cited liberation dates.",
-    "trivia": "Manchuria was under Japanese control as the puppet state of Manchukuo from 1931 \u2014 nearly 14 years, longer than any European occupation. The Channel Islands (UK) were the only British territory occupied by Germany, from June 1940 to May 1945.",
-    "asOfDate": "1937-1945",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "TW",
-        "value": "50 years under Japan (1895-1945)"
-      },
-      {
-        "rank": 2,
-        "code": "KR",
-        "value": "35 years under Japan (1910-1945)"
-      },
-      {
-        "rank": 3,
-        "code": "CN",
-        "value": "~14 years (Manchuria from 1931; core from 1937)"
-      },
-      {
-        "rank": 4,
-        "code": "AT",
-        "value": "7 years (Anschluss Mar 1938 - Apr 1945)"
-      },
-      {
-        "rank": 5,
-        "code": "CZ",
-        "value": "6 years (Mar 1939 - May 1945)"
-      },
-      {
-        "rank": 6,
-        "code": "PL",
-        "value": "~5.5 years (Sep 1939 - Jan/May 1945)"
-      },
-      {
-        "rank": 7,
-        "code": "DK",
-        "value": "5 years (Apr 1940 - May 1945)"
-      },
-      {
-        "rank": 7,
-        "code": "NO",
-        "value": "5 years (Apr 1940 - May 1945)"
-      },
-      {
-        "rank": 7,
-        "code": "NL",
-        "value": "5 years (May 1940 - May 1945)"
-      },
-      {
-        "rank": 10,
-        "code": "BE",
-        "value": "4 years (May 1940 - Feb 1945)"
-      },
-      {
-        "rank": 10,
-        "code": "LU",
-        "value": "4 years (May 1940 - Feb 1945)"
-      },
-      {
-        "rank": 10,
-        "code": "FR",
-        "value": "~4 years (Jun 1940 - 1944/45)"
-      },
-      {
-        "rank": 13,
-        "code": "GR",
-        "value": "3.5 years (Apr 1941 - Oct 1944)"
-      },
-      {
-        "rank": 13,
-        "code": "ID",
-        "value": "3.5 years under Japan (Mar 1942 - Aug 1945)"
-      },
-      {
-        "rank": 15,
-        "code": "PH",
-        "value": "3 years under Japan (Jan 1942 - 1945)"
       }
     ]
   },
@@ -55187,7 +53062,7 @@
       "asOf": "2023 completions by gross tonnage (Clarksons)"
     },
     "note": null,
-    "disclaimer": "Ranked by gross tonnage of commercial ship completions in 2023. Three countries dominate the global order book with more than 90% share combined.",
+    "disclaimer": "Ranked by gross tonnage of commercial ship completions in 2023.",
     "trivia": "South Korea's Hyundai Heavy Industries is the single largest shipbuilder in the world, and Korea leads in high-value LNG carrier orders while China leads in bulk tonnage.",
     "asOfDate": "2023 completions by gross tonnage (Clarksons)",
     "answers": [
@@ -55327,7 +53202,7 @@
       "asOf": "2023 units assembled"
     },
     "note": null,
-    "disclaimer": "Units of finished smartphones assembled in-country in 2023. Two countries account for roughly 90% of global assembly, with India rapidly expanding under production-linked incentive schemes.",
+    "disclaimer": "Units of finished smartphones assembled in-country in 2023.",
     "trivia": "India overtook Vietnam as the world's second-largest smartphone maker around 2022 as Apple and Samsung shifted assembly out of China; the majority of iPhones sold in the US are now made in India.",
     "asOfDate": "2023 units assembled",
     "answers": [
@@ -57319,101 +55194,6 @@
     ]
   },
   {
-    "id": "military-most-peacekeeping-troops-contributed-to-un-2024",
-    "theme": "Countries",
-    "subtheme": "Military",
-    "title": "Most peacekeeping troops contributed to UN",
-    "prompt": "Name the countries contributing the most uniformed personnel to active UN peacekeeping missions.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "UN Peacekeeping \u2014 Troop and Police Contributors",
-      "url": "https://peacekeeping.un.org/en/troop-and-police-contributors",
-      "asOf": "2024 (monthly summary)"
-    },
-    "note": null,
-    "disclaimer": "Uniformed personnel (troops, police, experts, staff officers) currently deployed to UN missions. Excludes non-UN coalition deployments.",
-    "trivia": "South Asian nations plus Rwanda have consistently topped the UN contributor list for over a decade, providing about half of all peacekeepers.",
-    "asOfDate": "2024 (monthly summary)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "BD",
-        "value": "7,264 personnel"
-      },
-      {
-        "rank": 2,
-        "code": "NP",
-        "value": "6,247 personnel"
-      },
-      {
-        "rank": 3,
-        "code": "IN",
-        "value": "6,097 personnel"
-      },
-      {
-        "rank": 4,
-        "code": "RW",
-        "value": "5,933 personnel"
-      },
-      {
-        "rank": 5,
-        "code": "PK",
-        "value": "4,320 personnel"
-      },
-      {
-        "rank": 6,
-        "code": "GH",
-        "value": "2,921 personnel"
-      },
-      {
-        "rank": 7,
-        "code": "EG",
-        "value": "2,738 personnel"
-      },
-      {
-        "rank": 8,
-        "code": "ET",
-        "value": "2,700 personnel"
-      },
-      {
-        "rank": 9,
-        "code": "SN",
-        "value": "2,543 personnel"
-      },
-      {
-        "rank": 10,
-        "code": "ID",
-        "value": "2,376 personnel"
-      },
-      {
-        "rank": 11,
-        "code": "CN",
-        "value": "1,806 personnel"
-      },
-      {
-        "rank": 12,
-        "code": "MA",
-        "value": "1,713 personnel"
-      },
-      {
-        "rank": 13,
-        "code": "TZ",
-        "value": "1,585 personnel"
-      },
-      {
-        "rank": 14,
-        "code": "BF",
-        "value": "1,120 personnel"
-      },
-      {
-        "rank": 15,
-        "code": "KE",
-        "value": "915 personnel"
-      }
-    ]
-  },
-  {
     "id": "military-highest-active-military-per-capita-2024",
     "theme": "Countries",
     "subtheme": "Military",
@@ -58852,7 +56632,7 @@
       "asOf": "FY 2024"
     },
     "note": null,
-    "disclaimer": "Total company-operated and licensed stores. Starbucks' two largest markets together account for more than 60% of global stores.",
+    "disclaimer": "Total company-operated and licensed stores.",
     "trivia": "Starbucks did not open a store in Italy \u2014 the country whose espresso culture inspired Howard Schultz's original concept \u2014 until 2018.",
     "asOfDate": "FY 2024",
     "answers": [
@@ -60107,7 +57887,7 @@
       "asOf": "Through 2024 F1 season"
     },
     "note": null,
-    "disclaimer": "World Championship Grands Prix only (1950-present). Each win is credited to the driver's licensed nationality at the time of the race, not the team's constructor country.",
+    "disclaimer": "World Championship Grands Prix only (1950-present). Each win is credited to the driver's licensed nationality at the time of the race, not the team's constructor country. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain.",
     "trivia": "Lewis Hamilton (GBR) is the all-time individual leader with 105 wins; Michael Schumacher's 91 wins account for well over half of Germany's total.",
     "asOfDate": "Through 2024 F1 season",
     "answers": [
@@ -60457,14 +58237,14 @@
       "asOf": "Through 2024 (Rodri, ESP)"
     },
     "note": null,
-    "disclaimer": "Counts individual annual wins (a single player can hold multiple). Attribution is by the winner's national team.",
+    "disclaimer": "Counts individual annual wins (a single player can hold multiple). Attribution is by the winner's national team at time of award.",
     "trivia": "Argentina's tally is almost entirely one man: Lionel Messi has won eight of the country's Ballons d'Or.",
     "asOfDate": "Through 2024 (Rodri, ESP)",
     "answers": [
       {
         "rank": 1,
         "code": "AR",
-        "value": "9 wins"
+        "value": "8 wins"
       },
       {
         "rank": 2,
@@ -60754,86 +58534,6 @@
     ]
   },
   {
-    "id": "sports-most-figure-skating-world-championships-singles-2024",
-    "theme": "Countries",
-    "subtheme": "Sports",
-    "title": "Most Figure Skating World Championships (singles)",
-    "prompt": "Name the countries with the most World Figure Skating Championships in men's and women's singles combined.",
-    "answerType": "Countries",
-    "seededDepth": 12,
-    "source": {
-      "name": "ISU \u2014 World Figure Skating Championships medal history",
-      "url": "https://www.isu.org/figure-skating",
-      "asOf": "Through 2024 (Ilia Malinin USA / Kaori Sakamoto JPN)"
-    },
-    "note": null,
-    "disclaimer": "Combined men's and ladies' singles titles from 1896 (men) and 1906 (ladies) through 2024. Champions are attributed to the country represented at that Worlds.",
-    "trivia": "Sonja Henie's ten consecutive women's world titles (1927-1936) built Norway's total almost single-handedly.",
-    "asOfDate": "Through 2024 (Ilia Malinin USA / Kaori Sakamoto JPN)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "RU",
-        "value": "18 titles"
-      },
-      {
-        "rank": 2,
-        "code": "JP",
-        "value": "15 titles"
-      },
-      {
-        "rank": 3,
-        "code": "NO",
-        "value": "12 titles"
-      },
-      {
-        "rank": 3,
-        "code": "DE",
-        "value": "12 titles (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "SE",
-        "value": "11 titles"
-      },
-      {
-        "rank": 6,
-        "code": "GB",
-        "value": "10 titles"
-      },
-      {
-        "rank": 7,
-        "code": "HU",
-        "value": "8 titles"
-      },
-      {
-        "rank": 8,
-        "code": "FR",
-        "value": "5 titles"
-      },
-      {
-        "rank": 9,
-        "code": "CH",
-        "value": "4 titles"
-      },
-      {
-        "rank": 10,
-        "code": "US",
-        "value": "50+ titles"
-      },
-      {
-        "rank": 11,
-        "code": "AT",
-        "value": "30+ titles"
-      },
-      {
-        "rank": 12,
-        "code": "CA",
-        "value": "20+ titles"
-      }
-    ]
-  },
-  {
     "id": "sports-most-darts-world-champions-2024",
     "theme": "Countries",
     "subtheme": "Sports",
@@ -60847,59 +58547,59 @@
       "asOf": "Through 2024 PDC World Championship (Luke Humphries, ENG)"
     },
     "note": null,
-    "disclaimer": "Counts distinct titles won across both major world championships (BDO 1978-2020 and PDC since 1994). Attributed to player's country represented.",
+    "disclaimer": "Counts distinct titles won across both major world championships (BDO 1978-2020 and PDC since 1994). Attributed to player's country represented. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain.",
     "trivia": "Phil Taylor's 16 world titles alone would rank ahead of every country except England \u2014 he won more than the Netherlands, Wales, Scotland and Australia combined.",
     "asOfDate": "Through 2024 PDC World Championship (Luke Humphries, ENG)",
     "answers": [
       {
         "rank": 1,
+        "code": "GB",
+        "value": "60 titles"
+      },
+      {
+        "rank": 2,
         "code": "NL",
         "value": "10 titles"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "AU",
         "value": "3 titles"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "CA",
         "value": "2 titles (tied)"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "US",
         "value": "2 titles (tied)"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "BE",
         "value": "1 title (tied)"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "DE",
         "value": "1 title (tied)"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "AT",
         "value": "1 title (tied)"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "FI",
         "value": "1 title (tied)"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "SE",
         "value": "1 title (tied)"
-      },
-      {
-        "rank": 10,
-        "code": "GB",
-        "value": "50+ titles"
       }
     ]
   },
@@ -60910,46 +58610,41 @@
     "title": "Most Snooker World Champions",
     "prompt": "Name the countries that have produced the most World Snooker Championship winners (modern era).",
     "answerType": "Countries",
-    "seededDepth": 6,
+    "seededDepth": 5,
     "source": {
       "name": "World Snooker Tour \u2014 World Championship archive",
       "url": "https://wst.tv/tournaments/world-championship/",
       "asOf": "Through 2024 (Kyren Wilson, ENG)"
     },
     "note": null,
-    "disclaimer": "Counts individual world titles won in the modern era of the World Snooker Championship (since 1969). Attributed to the country the winner represented.",
-    "trivia": "Stephen Hendry's seven world titles and Ronnie O'Sullivan's seven mean Scotland and England share two of the sport's greatest-ever careers.",
+    "disclaimer": "Counts individual world titles won in the modern era of the World Snooker Championship (since 1969). Attributed to the country the winner represented. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain.",
+    "trivia": "Ronnie O'Sullivan and Stephen Hendry each hold seven modern-era world titles - between them more than every non-British nation combined.",
     "asOfDate": "Through 2024 (Kyren Wilson, ENG)",
     "answers": [
       {
         "rank": 1,
+        "code": "GB",
+        "value": "48 titles"
+      },
+      {
+        "rank": 2,
         "code": "AU",
         "value": "3 titles"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "CA",
         "value": "2 titles"
       },
       {
-        "rank": 3,
-        "code": "CN",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 3,
+        "rank": 4,
         "code": "BE",
         "value": "1 title (tied)"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "IE",
         "value": "1 title (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "GB",
-        "value": "40+ titles"
       }
     ]
   },
@@ -63598,7 +61293,7 @@
     },
     "note": null,
     "disclaimer": "Adult and adolescent wild cheetahs. Small reintroduced populations (e.g. India's Kuno) excluded.",
-    "trivia": "Namibia is often called the 'Cheetah Capital of the World' and hosts the largest population of wild cheetahs outside protected areas.",
+    "trivia": "Botswana's Central Kalahari and Okavango complex now hosts more wild cheetahs than any other country, edging past Namibia in recent Panthera and IUCN Red List surveys.",
     "asOfDate": "2022",
     "answers": [
       {
@@ -64598,28 +62293,28 @@
       },
       {
         "rank": 5,
-        "code": "DE",
-        "value": "2045 target"
-      },
-      {
-        "rank": 5,
-        "code": "SE",
-        "value": "2045 target (tied)"
-      },
-      {
-        "rank": 7,
         "code": "FI",
         "value": "2035 target"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "AT",
         "value": "2040 target"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "IS",
         "value": "2040 target (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "DE",
+        "value": "2045 target"
+      },
+      {
+        "rank": 8,
+        "code": "SE",
+        "value": "2045 target (tied)"
       },
       {
         "rank": 10,
@@ -66178,7 +63873,7 @@
     "theme": "Countries",
     "subtheme": "History",
     "title": "Oldest continuously inhabited civilizations",
-    "prompt": "Name the countries with the earliest recorded civilizations still associated with their modern territory.",
+    "prompt": "Name the countries whose modern territory hosts the earliest recorded urban or state-level civilization (oldest first).",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -66187,44 +63882,44 @@
       "asOf": "As of 2024"
     },
     "note": null,
-    "disclaimer": "Dates are approximate start of urban/state-level civilization on the modern country's territory, not modern nation-state founding. Sources vary by up to a few centuries; conventional archaeological consensus used.",
-    "trivia": "Iraq (Mesopotamia) is home to the world's earliest cities \u2014 Uruk and Ur date to before 4000 BC. San Marino, founded in 301 AD, is the world's oldest continuously existing republic.",
+    "disclaimer": "Dates are the approximate start of urban/state-level civilization on the modern country's territory, not modern nation-state founding. Sources vary by up to a few centuries; conventional archaeological consensus used. Rank 1 is the oldest.",
+    "trivia": "Uruk and Ur in southern Iraq are the world's earliest known cities, predating the pyramids by more than a thousand years.",
     "asOfDate": "As of 2024",
     "answers": [
       {
         "rank": 1,
-        "code": "SM",
-        "value": "301 AD (San Marino founded \u2014 oldest republic)"
+        "code": "IQ",
+        "value": "c. 4500 BC (Sumer / Mesopotamia)"
       },
       {
         "rank": 2,
-        "code": "ET",
-        "value": "c. 980 BC (D'mt / Aksum)"
+        "code": "IR",
+        "value": "c. 3200 BC (Elam)"
       },
       {
         "rank": 3,
-        "code": "IL",
-        "value": "c. 1200 BC (Israelite kingdom)"
+        "code": "IN",
+        "value": "c. 3300 BC (Indus Valley)"
       },
       {
-        "rank": 4,
-        "code": "MX",
-        "value": "c. 1500 BC (Olmec)"
+        "rank": 3,
+        "code": "PK",
+        "value": "c. 3300 BC (Indus Valley) (tied)"
       },
       {
         "rank": 5,
-        "code": "TR",
-        "value": "c. 1650 BC (Hittite Empire)"
+        "code": "EG",
+        "value": "c. 3150 BC (unified Egypt)"
       },
       {
         "rank": 6,
-        "code": "CN",
-        "value": "c. 2070 BC (Xia dynasty)"
+        "code": "SY",
+        "value": "c. 3000 BC (Ebla, Mari)"
       },
       {
-        "rank": 7,
-        "code": "SD",
-        "value": "c. 2500 BC (Kerma / Kush)"
+        "rank": 6,
+        "code": "PE",
+        "value": "c. 3000 BC (Caral / Norte Chico) (tied)"
       },
       {
         "rank": 8,
@@ -66233,38 +63928,38 @@
       },
       {
         "rank": 9,
-        "code": "SY",
-        "value": "c. 3000 BC (Ebla, Mari)"
+        "code": "SD",
+        "value": "c. 2500 BC (Kerma / Kush)"
       },
       {
-        "rank": 9,
-        "code": "PE",
-        "value": "c. 3000 BC (Caral / Norte Chico)"
+        "rank": 10,
+        "code": "CN",
+        "value": "c. 2070 BC (Xia dynasty)"
       },
       {
         "rank": 11,
-        "code": "EG",
-        "value": "c. 3150 BC (unified Egypt)"
+        "code": "TR",
+        "value": "c. 1650 BC (Hittite Empire)"
       },
       {
         "rank": 12,
-        "code": "IR",
-        "value": "c. 3200 BC (Elam)"
+        "code": "MX",
+        "value": "c. 1500 BC (Olmec)"
       },
       {
         "rank": 13,
-        "code": "IN",
-        "value": "c. 3300 BC (Indus Valley)"
+        "code": "IL",
+        "value": "c. 1200 BC (Israelite kingdom)"
       },
       {
-        "rank": 13,
-        "code": "PK",
-        "value": "c. 3300 BC (Indus Valley)"
+        "rank": 14,
+        "code": "ET",
+        "value": "c. 980 BC (D'mt / Aksum)"
       },
       {
         "rank": 15,
-        "code": "IQ",
-        "value": "c. 4500 BC (Sumer / Mesopotamia)"
+        "code": "JP",
+        "value": "c. 660 BC (traditional Yamato)"
       }
     ]
   },
@@ -74264,61 +71959,6 @@
     ]
   },
   {
-    "id": "sports-most-le-mans-wins-by-manufacturer-nationality-2024",
-    "theme": "Countries",
-    "subtheme": "Sports",
-    "title": "Most Le Mans wins (by manufacturer nationality)",
-    "prompt": "Name the countries whose car manufacturers have won the most Le Mans 24 Hours overall races.",
-    "answerType": "Countries",
-    "seededDepth": 7,
-    "source": {
-      "name": "ACO \u2014 24 Hours of Le Mans official archive",
-      "url": "https://www.lemans.org/en/24-hours-of-le-mans/history",
-      "asOf": "Through 2024 race (won by Ferrari 499P)"
-    },
-    "note": null,
-    "disclaimer": "Attributed to the constructor's headquartered country (e.g. Porsche and Audi count for Germany; Bentley and Jaguar count for Great Britain).",
-    "trivia": "Porsche's 19 overall Le Mans victories are the most of any single manufacturer in racing history.",
-    "asOfDate": "Through 2024 race (won by Ferrari 499P)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "DE",
-        "value": "36 wins"
-      },
-      {
-        "rank": 2,
-        "code": "GB",
-        "value": "17 wins"
-      },
-      {
-        "rank": 3,
-        "code": "IT",
-        "value": "11 wins"
-      },
-      {
-        "rank": 4,
-        "code": "FR",
-        "value": "10 wins"
-      },
-      {
-        "rank": 5,
-        "code": "JP",
-        "value": "5 wins"
-      },
-      {
-        "rank": 6,
-        "code": "US",
-        "value": "4 wins"
-      },
-      {
-        "rank": 7,
-        "code": "BE",
-        "value": "1 win"
-      }
-    ]
-  },
-  {
     "id": "sports-most-isle-of-man-tt-wins-by-rider-nationality-2024",
     "theme": "Countries",
     "subtheme": "Sports",
@@ -75542,7 +73182,7 @@
       "asOf": "Through Paris 2024"
     },
     "note": null,
-    "disclaimer": "Combines gold, silver and bronze at all Summer Games from Athens 1896 through Paris 2024. Soviet Union, Unified Team, and East/West Germany totals are tallied under their historical entities and not merged into current successor states.",
+    "disclaimer": "Combines gold, silver and bronze at all Summer Games from Athens 1896 through Paris 2024. Russia's total includes Soviet Union and Unified Team medals; Germany's total includes East Germany and West Germany.",
     "trivia": "The United States alone has won more Summer medals than the next two nations combined; Great Britain has medalled at every Summer Games since 1896.",
     "asOfDate": "Through Paris 2024",
     "answers": [
@@ -78239,101 +75879,6 @@
     ]
   },
   {
-    "id": "society-highest-life-satisfaction-gallup-ladder-2021",
-    "theme": "Countries",
-    "subtheme": "Society",
-    "title": "Highest life satisfaction (Gallup ladder)",
-    "prompt": "Name the countries where average life satisfaction is highest on the Gallup World Poll's Cantril ladder (0 = worst possible life, 10 = best).",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Gallup World Poll (via World Happiness Report data appendix)",
-      "url": "https://worldhappiness.report/data-sharing/",
-      "asOf": "2021-2023 three-year average (2024 report)"
-    },
-    "note": null,
-    "disclaimer": "Values are the three-year rolling average of Cantril-ladder responses per country from the Gallup World Poll. This is the raw life-satisfaction score only \u2014 not the composite ranking used to headline the World Happiness Report, which adjusts for GDP, social support, and other explanatory variables.",
-    "trivia": "The Cantril ladder was designed by American psychologist Hadley Cantril in 1965, and Gallup has run it in every country it polls since 2005 \u2014 making it the longest-running comparable self-reported wellbeing measure in the world.",
-    "asOfDate": "2021-2023 three-year average (2024 report)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "FI",
-        "value": "7.74"
-      },
-      {
-        "rank": 2,
-        "code": "DK",
-        "value": "7.58"
-      },
-      {
-        "rank": 3,
-        "code": "IS",
-        "value": "7.53"
-      },
-      {
-        "rank": 4,
-        "code": "SE",
-        "value": "7.34"
-      },
-      {
-        "rank": 4,
-        "code": "IL",
-        "value": "7.34"
-      },
-      {
-        "rank": 6,
-        "code": "NL",
-        "value": "7.32"
-      },
-      {
-        "rank": 7,
-        "code": "NO",
-        "value": "7.30"
-      },
-      {
-        "rank": 8,
-        "code": "LU",
-        "value": "7.12"
-      },
-      {
-        "rank": 9,
-        "code": "CH",
-        "value": "7.06"
-      },
-      {
-        "rank": 9,
-        "code": "AU",
-        "value": "7.06"
-      },
-      {
-        "rank": 11,
-        "code": "NZ",
-        "value": "7.03"
-      },
-      {
-        "rank": 12,
-        "code": "CR",
-        "value": "6.96"
-      },
-      {
-        "rank": 13,
-        "code": "KW",
-        "value": "6.95"
-      },
-      {
-        "rank": 14,
-        "code": "AT",
-        "value": "6.90"
-      },
-      {
-        "rank": 14,
-        "code": "CA",
-        "value": "6.90"
-      }
-    ]
-  },
-  {
     "id": "technology-most-unicorn-startups-2024",
     "theme": "Countries",
     "subtheme": "Technology",
@@ -78958,7 +76503,7 @@
     "theme": "Countries",
     "subtheme": "Technology",
     "title": "Most Y Combinator-backed startups",
-    "prompt": "Name the countries producing the most Y Combinator-backed startups outside the US.",
+    "prompt": "Name the countries producing the most Y Combinator-backed startups.",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -78967,8 +76512,8 @@
       "asOf": "2024 (batches through W24)"
     },
     "note": null,
-    "disclaimer": "Counts startups by founding-team country of primary operation, not incorporation. The US is #1 with more than 3,500 companies; this list includes the US for reference but the interesting race is behind it.",
-    "trivia": "India overtook Canada as YC's second-largest country in 2023, driven by heavy fintech and SaaS batches.",
+    "disclaimer": "Counts startups by founding-team country of primary operation, not incorporation. Batches counted through Winter 2024.",
+    "trivia": "India overtook Canada as YC's second-largest source country in 2023, driven by heavy fintech and SaaS batches.",
     "asOfDate": "2024 (batches through W24)",
     "answers": [
       {
@@ -79870,81 +77415,6 @@
         "rank": 15,
         "code": "MX",
         "value": "-$5B"
-      }
-    ]
-  },
-  {
-    "id": "economy-highest-sovereign-credit-rating-aaa-2024",
-    "theme": "Countries",
-    "subtheme": "Economy",
-    "title": "Highest sovereign credit rating (AAA)",
-    "prompt": "Name the countries that hold the top AAA sovereign credit rating from Standard & Poor's.",
-    "answerType": "Countries",
-    "seededDepth": 11,
-    "source": {
-      "name": "S&P Global Ratings \u2014 Sovereign Ratings List",
-      "url": "https://www.spglobal.com/ratings/en/research-insights/topics/sovereigns",
-      "asOf": "2024 S&P sovereign ratings"
-    },
-    "note": null,
-    "disclaimer": "S&P long-term foreign-currency sovereign ratings at AAA. There are 11 sovereigns rated AAA \u2014 seededDepth reflects the total pool. Ranks tied alphabetically.",
-    "trivia": "The United States was downgraded from AAA by S&P in 2011 after the debt-ceiling standoff and has not been restored since \u2014 Fitch also cut the US to AA+ in 2023.",
-    "asOfDate": "2024 S&P sovereign ratings",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "AU",
-        "value": "AAA"
-      },
-      {
-        "rank": 1,
-        "code": "CA",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "DK",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "DE",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "LI",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "LU",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "NL",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "NO",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "SG",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "SE",
-        "value": "AAA (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "CH",
-        "value": "AAA (tied)"
       }
     ]
   },
@@ -81940,101 +79410,6 @@
         "rank": 15,
         "code": "ES",
         "value": "2.05"
-      }
-    ]
-  },
-  {
-    "id": "economy-most-statutory-paid-vacation-days-2023",
-    "theme": "Countries",
-    "subtheme": "Economy",
-    "title": "Most statutory paid vacation days",
-    "prompt": "Name the countries with the highest number of legally mandated minimum paid annual leave days for full-time workers.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "ILO \u2014 Working Time and Rest Periods (Convention C132) database",
-      "url": "https://www.ilo.org/dyn/travail/travmain.home",
-      "asOf": "2023"
-    },
-    "note": null,
-    "disclaimer": "Statutory minimum paid annual leave for a full-time employee with one year of service, excluding public holidays. Actual employer offerings may exceed the legal minimum.",
-    "trivia": "The United States remains the only advanced economy with zero statutorily mandated paid vacation days, though most employers voluntarily offer 10 to 15 days.",
-    "asOfDate": "2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "AT",
-        "value": "25 days"
-      },
-      {
-        "rank": 1,
-        "code": "DK",
-        "value": "25 days (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "FI",
-        "value": "25 days (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "SE",
-        "value": "25 days (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "LU",
-        "value": "26 days"
-      },
-      {
-        "rank": 6,
-        "code": "GB",
-        "value": "28 days"
-      },
-      {
-        "rank": 7,
-        "code": "BH",
-        "value": "30 days"
-      },
-      {
-        "rank": 7,
-        "code": "SM",
-        "value": "30 days (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "YE",
-        "value": "30 days (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "PA",
-        "value": "30 days (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "FR",
-        "value": "30 days (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "MC",
-        "value": "30 days (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "KW",
-        "value": "30 days (tied)"
-      },
-      {
-        "rank": 14,
-        "code": "AD",
-        "value": "31 days"
-      },
-      {
-        "rank": 15,
-        "code": "IR",
-        "value": "36 days"
       }
     ]
   },
@@ -85569,101 +82944,6 @@
     ]
   },
   {
-    "id": "energy-home-to-the-world-s-largest-single-power-plant-2024",
-    "theme": "Countries",
-    "subtheme": "Energy",
-    "title": "Home to the world's largest single power plant",
-    "prompt": "Name the countries that host the world's largest single power plants (by installed capacity).",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Global Energy Monitor \u2014 Largest power stations",
-      "url": "https://globalenergymonitor.org/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "Single facility by installed capacity in megawatts (MW); includes hydro, nuclear, coal and solar mega-projects.",
-    "trivia": "China's Three Gorges Dam (22,500 MW) is the biggest power plant ever built \u2014 its 32 turbines each generate more than a typical nuclear reactor.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "CN",
-        "value": "22,500 MW (Three Gorges)"
-      },
-      {
-        "rank": 2,
-        "code": "BR",
-        "value": "14,000 MW (Itaipu)"
-      },
-      {
-        "rank": 2,
-        "code": "PY",
-        "value": "14,000 MW (Itaipu, shared)"
-      },
-      {
-        "rank": 4,
-        "code": "VE",
-        "value": "10,235 MW (Guri)"
-      },
-      {
-        "rank": 5,
-        "code": "US",
-        "value": "6,809 MW (Grand Coulee)"
-      },
-      {
-        "rank": 6,
-        "code": "IN",
-        "value": "6,700 MW (Vindhyachal)"
-      },
-      {
-        "rank": 7,
-        "code": "RU",
-        "value": "6,400 MW (Sayano-Shushenskaya)"
-      },
-      {
-        "rank": 8,
-        "code": "KR",
-        "value": "6,255 MW (Kori/Shin-Kori nuclear)"
-      },
-      {
-        "rank": 9,
-        "code": "UA",
-        "value": "5,700 MW (Zaporizhzhia nuclear)"
-      },
-      {
-        "rank": 10,
-        "code": "CA",
-        "value": "5,616 MW (Robert-Bourassa)"
-      },
-      {
-        "rank": 11,
-        "code": "AE",
-        "value": "5,600 MW (Barakah nuclear)"
-      },
-      {
-        "rank": 12,
-        "code": "TW",
-        "value": "5,500 MW (Taichung coal)"
-      },
-      {
-        "rank": 13,
-        "code": "FR",
-        "value": "5,460 MW (Gravelines nuclear)"
-      },
-      {
-        "rank": 14,
-        "code": "JP",
-        "value": "5,404 MW (Kashiwazaki-Kariwa)"
-      },
-      {
-        "rank": 15,
-        "code": "ET",
-        "value": "5,150 MW (Grand Ethiopian Renaissance)"
-      }
-    ]
-  },
-  {
     "id": "energy-highest-residential-electricity-prices-2024",
     "theme": "Countries",
     "subtheme": "Energy",
@@ -85772,84 +83052,84 @@
       "asOf": "2022 production year"
     },
     "note": null,
-    "disclaimer": "Includes butter of cow milk and clarified butter (ghee). South Asian ghee production is included, which lifts several Asian countries above traditional European dairy nations.",
+    "disclaimer": "Includes butter of cow milk and clarified butter (ghee) per FAOSTAT. Values in tonnes.",
     "trivia": "India alone accounts for roughly half of world butter/ghee output when ghee is included, thanks to the country's massive buffalo milk industry.",
     "asOfDate": "2022 production year",
     "answers": [
       {
         "rank": 1,
+        "code": "IN",
+        "value": "~6,500,000 tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "PK",
+        "value": "~1,100,000 tonnes"
+      },
+      {
+        "rank": 3,
         "code": "US",
         "value": "~900,000 tonnes"
       },
       {
-        "rank": 2,
+        "rank": 4,
         "code": "DE",
         "value": "~490,000 tonnes"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "code": "FR",
         "value": "~340,000 tonnes"
       },
       {
-        "rank": 4,
+        "rank": 6,
         "code": "NZ",
         "value": "~330,000 tonnes"
       },
       {
-        "rank": 5,
+        "rank": 7,
         "code": "RU",
         "value": "~270,000 tonnes"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "IE",
         "value": "~250,000 tonnes"
       },
       {
-        "rank": 7,
+        "rank": 9,
         "code": "TR",
         "value": "~215,000 tonnes"
       },
       {
-        "rank": 8,
+        "rank": 10,
         "code": "IR",
         "value": "~200,000 tonnes"
       },
       {
-        "rank": 9,
+        "rank": 11,
         "code": "PL",
         "value": "~185,000 tonnes"
       },
       {
-        "rank": 10,
+        "rank": 12,
         "code": "EG",
         "value": "~170,000 tonnes"
       },
       {
-        "rank": 11,
+        "rank": 13,
         "code": "MX",
         "value": "~155,000 tonnes"
       },
       {
-        "rank": 12,
+        "rank": 14,
         "code": "NL",
         "value": "~140,000 tonnes"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "code": "AU",
         "value": "~120,000 tonnes"
-      },
-      {
-        "rank": 14,
-        "code": "IN",
-        "value": "~6.5M tonnes"
-      },
-      {
-        "rank": 15,
-        "code": "PK",
-        "value": "~1.1M tonnes"
       }
     ]
   },
@@ -85867,84 +83147,84 @@
       "asOf": "2023"
     },
     "note": null,
-    "disclaimer": "Total market volume in tonnes, combining spoonable, drinking, and Greek-style yogurts. Both production-heavy and consumption-heavy countries appear here.",
+    "disclaimer": "Total market volume in tonnes, combining spoonable, drinking, and Greek-style yogurts. Both production-heavy and consumption-heavy countries appear.",
     "trivia": "Turkey \u2014 where the word 'yogurt' originates \u2014 has the highest per-capita yogurt consumption of any large country, averaging over 35 kg per person annually.",
     "asOfDate": "2023",
     "answers": [
       {
         "rank": 1,
+        "code": "US",
+        "value": "~2,600,000 tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "~2,300,000 tonnes"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "~1,900,000 tonnes"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "~1,700,000 tonnes"
+      },
+      {
+        "rank": 5,
+        "code": "FR",
+        "value": "~1,500,000 tonnes"
+      },
+      {
+        "rank": 6,
+        "code": "TR",
+        "value": "~1,400,000 tonnes"
+      },
+      {
+        "rank": 7,
+        "code": "IR",
+        "value": "~1,100,000 tonnes"
+      },
+      {
+        "rank": 8,
         "code": "RU",
         "value": "~950,000 tonnes"
       },
       {
-        "rank": 2,
+        "rank": 9,
         "code": "BR",
         "value": "~880,000 tonnes"
       },
       {
-        "rank": 3,
+        "rank": 10,
         "code": "ES",
         "value": "~750,000 tonnes"
       },
       {
-        "rank": 4,
+        "rank": 11,
         "code": "IT",
         "value": "~640,000 tonnes"
       },
       {
-        "rank": 5,
+        "rank": 12,
         "code": "GB",
         "value": "~610,000 tonnes"
       },
       {
-        "rank": 6,
+        "rank": 13,
         "code": "PL",
         "value": "~570,000 tonnes"
       },
       {
-        "rank": 7,
+        "rank": 14,
         "code": "MX",
         "value": "~490,000 tonnes"
       },
       {
-        "rank": 8,
+        "rank": 15,
         "code": "JP",
         "value": "~470,000 tonnes"
-      },
-      {
-        "rank": 9,
-        "code": "US",
-        "value": "~2.6M tonnes"
-      },
-      {
-        "rank": 10,
-        "code": "CN",
-        "value": "~2.3M tonnes"
-      },
-      {
-        "rank": 11,
-        "code": "IN",
-        "value": "~1.9M tonnes"
-      },
-      {
-        "rank": 12,
-        "code": "DE",
-        "value": "~1.7M tonnes"
-      },
-      {
-        "rank": 13,
-        "code": "FR",
-        "value": "~1.5M tonnes"
-      },
-      {
-        "rank": 14,
-        "code": "TR",
-        "value": "~1.4M tonnes"
-      },
-      {
-        "rank": 15,
-        "code": "IR",
-        "value": "~1.1M tonnes"
       }
     ]
   },
@@ -86152,84 +83432,84 @@
       "asOf": "2023 coffee year"
     },
     "note": null,
-    "disclaimer": "Green coffee bean equivalent, all forms (Arabica + Robusta) combined in 60-kg bags. Different from production rankings because some producing countries consume most of their own crop.",
+    "disclaimer": "Green coffee bean equivalent (Arabica + Robusta combined), reported in 60-kg bags. Differs from production because some producing countries consume most of their own crop.",
     "trivia": "Vietnam supplies roughly 40% of the world's Robusta coffee \u2014 the bean used in most espresso blends and instant coffee \u2014 despite only starting commercial cultivation in the 1980s.",
     "asOfDate": "2023 coffee year",
     "answers": [
       {
         "rank": 1,
-        "code": "SV",
-        "value": "~750,000 bags"
-      },
-      {
-        "rank": 2,
-        "code": "KE",
-        "value": "~700,000 bags"
-      },
-      {
-        "rank": 3,
         "code": "BR",
         "value": "~40M bags"
       },
       {
-        "rank": 4,
+        "rank": 2,
         "code": "VN",
         "value": "~27M bags"
       },
       {
-        "rank": 5,
+        "rank": 3,
         "code": "CO",
         "value": "~11M bags"
       },
       {
-        "rank": 6,
+        "rank": 4,
         "code": "ID",
         "value": "~7M bags"
       },
       {
-        "rank": 7,
+        "rank": 5,
         "code": "HN",
         "value": "~5.3M bags"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "UG",
-        "value": "~5.0M bags"
+        "value": "~5M bags"
       },
       {
-        "rank": 9,
+        "rank": 7,
         "code": "ET",
         "value": "~4.2M bags"
       },
       {
-        "rank": 10,
+        "rank": 8,
         "code": "IN",
-        "value": "~4.0M bags"
+        "value": "~4M bags"
       },
       {
-        "rank": 11,
+        "rank": 9,
         "code": "PE",
         "value": "~3.4M bags"
       },
       {
-        "rank": 12,
+        "rank": 10,
         "code": "GT",
         "value": "~3.2M bags"
       },
       {
-        "rank": 13,
+        "rank": 11,
         "code": "NI",
         "value": "~2.6M bags"
       },
       {
-        "rank": 14,
+        "rank": 12,
         "code": "MX",
         "value": "~2.5M bags"
       },
       {
-        "rank": 15,
+        "rank": 13,
         "code": "CR",
         "value": "~1.4M bags"
+      },
+      {
+        "rank": 14,
+        "code": "SV",
+        "value": "~0.75M bags"
+      },
+      {
+        "rank": 15,
+        "code": "KE",
+        "value": "~0.7M bags"
       }
     ]
   },
@@ -86253,78 +83533,78 @@
     "answers": [
       {
         "rank": 1,
+        "code": "CI",
+        "value": "~1,700,000 tonnes"
+      },
+      {
+        "rank": 2,
         "code": "GH",
         "value": "~600,000 tonnes"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "EC",
         "value": "~430,000 tonnes"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "NG",
         "value": "~290,000 tonnes"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "CM",
         "value": "~230,000 tonnes"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "ID",
         "value": "~200,000 tonnes"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "PE",
         "value": "~110,000 tonnes"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "DO",
         "value": "~75,000 tonnes"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "PG",
         "value": "~40,000 tonnes"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "BR",
         "value": "~35,000 tonnes"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "VE",
         "value": "~20,000 tonnes"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "TG",
         "value": "~18,000 tonnes"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "UG",
         "value": "~15,000 tonnes"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "SL",
         "value": "~13,000 tonnes"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "MG",
         "value": "~10,000 tonnes"
-      },
-      {
-        "rank": 15,
-        "code": "CI",
-        "value": "~1.7M tonnes"
       }
     ]
   },
@@ -87159,101 +84439,6 @@
     ]
   },
   {
-    "id": "geography-most-holocene-active-volcanoes-2024",
-    "theme": "Countries",
-    "subtheme": "Geography",
-    "title": "Most Holocene active volcanoes",
-    "prompt": "Name the countries with the most Holocene-active volcanoes (those that have erupted in the last ~12,000 years), by the Smithsonian Global Volcanism Program.",
-    "answerType": "Countries",
-    "seededDepth": 15,
-    "source": {
-      "name": "Smithsonian Institution \u2014 Global Volcanism Program (Volcanoes of the World)",
-      "url": "https://volcano.si.edu/list_volcano_holocene.cfm",
-      "asOf": "2024 (VOTW 5.2)"
-    },
-    "note": null,
-    "disclaimer": "Counts every Holocene volcano attributed to a country, including submarine volcanoes within its EEZ. Only mainland/national territory counts \u2014 extraterritorial dependencies are attributed to their administering state.",
-    "trivia": "Indonesia sits atop the collision of four tectonic plates and has more Holocene volcanoes than any other country \u2014 Java alone has 45.",
-    "asOfDate": "2024 (VOTW 5.2)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "US",
-        "value": "~161 Holocene volcanoes"
-      },
-      {
-        "rank": 2,
-        "code": "ID",
-        "value": "~141 Holocene volcanoes"
-      },
-      {
-        "rank": 3,
-        "code": "JP",
-        "value": "~122 Holocene volcanoes"
-      },
-      {
-        "rank": 4,
-        "code": "RU",
-        "value": "~117 Holocene volcanoes"
-      },
-      {
-        "rank": 5,
-        "code": "CL",
-        "value": "~91 Holocene volcanoes"
-      },
-      {
-        "rank": 6,
-        "code": "ET",
-        "value": "~65 Holocene volcanoes"
-      },
-      {
-        "rank": 7,
-        "code": "PG",
-        "value": "~64 Holocene volcanoes"
-      },
-      {
-        "rank": 8,
-        "code": "PH",
-        "value": "~53 Holocene volcanoes"
-      },
-      {
-        "rank": 9,
-        "code": "MX",
-        "value": "~43 Holocene volcanoes"
-      },
-      {
-        "rank": 10,
-        "code": "AR",
-        "value": "~39 Holocene volcanoes"
-      },
-      {
-        "rank": 11,
-        "code": "IS",
-        "value": "~35 Holocene volcanoes"
-      },
-      {
-        "rank": 12,
-        "code": "EC",
-        "value": "~34 Holocene volcanoes"
-      },
-      {
-        "rank": 13,
-        "code": "NZ",
-        "value": "~22 Holocene volcanoes"
-      },
-      {
-        "rank": 13,
-        "code": "GT",
-        "value": "~22 Holocene volcanoes (tied)"
-      },
-      {
-        "rank": 15,
-        "code": "NI",
-        "value": "~21 Holocene volcanoes"
-      }
-    ]
-  },
-  {
     "id": "geography-largest-single-neighbour-border-length-2024",
     "theme": "Countries",
     "subtheme": "Geography",
@@ -87612,8 +84797,8 @@
     "id": "geography-countries-the-nile-flows-through-2024",
     "theme": "Countries",
     "subtheme": "Geography",
-    "title": "Countries the Nile flows through",
-    "prompt": "Name the countries within the Nile River's drainage basin \u2014 the eleven nations whose territory contributes water to or is traversed by the Nile system.",
+    "title": "Countries in the Nile drainage basin",
+    "prompt": "Name the countries whose territory contributes to the Nile drainage basin (not just the river's main stem).",
     "answerType": "Countries",
     "seededDepth": 11,
     "source": {
@@ -87622,7 +84807,7 @@
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Rank 1 is the country with the largest share of the Nile Basin by area. Includes both the Blue Nile and White Nile tributary systems.",
+    "disclaimer": "Ranked by share of the Nile Basin by area. Includes both the Blue Nile and White Nile tributary systems \u2014 many basin countries feed the Nile via tributaries rather than sitting on the main stem.",
     "trivia": "Only Egypt and Sudan sit on the Nile's main stem after the confluence at Khartoum \u2014 every other basin country contributes via a tributary.",
     "asOfDate": "2024",
     "answers": [
@@ -87687,17 +84872,17 @@
     "id": "geography-countries-the-amazon-flows-through-2024",
     "theme": "Countries",
     "subtheme": "Geography",
-    "title": "Countries the Amazon flows through",
-    "prompt": "Name the countries within the Amazon River drainage basin \u2014 the nations whose territory contributes to or is traversed by the Amazon system.",
+    "title": "Countries in the Amazon drainage basin",
+    "prompt": "Name the countries whose territory lies within the Amazon River drainage basin (not just the main-stem river).",
     "answerType": "Countries",
-    "seededDepth": 8,
+    "seededDepth": 7,
     "source": {
       "name": "Amazon Cooperation Treaty Organization / Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Amazon_basin",
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Rank 1 is the country with the largest share of the Amazon Basin by area. Includes all basin countries even where the main-stem river does not enter their territory.",
+    "disclaimer": "Ranked by share of the Amazon Basin by area. Includes all basin countries even where the main-stem river does not enter their territory \u2014 Suriname's contribution is via a small headwater catchment, not the main river.",
     "trivia": "Only Brazil, Peru, and Colombia contain the Amazon's main stem \u2014 the remaining basin countries drain into it through the Napo, Caquet\u00e1, Madeira, and other major tributaries.",
     "asOfDate": "2024",
     "answers": [
@@ -87735,11 +84920,6 @@
         "rank": 7,
         "code": "GY",
         "value": "5,870 km\u00b2 basin"
-      },
-      {
-        "rank": 8,
-        "code": "SR",
-        "value": "72 km\u00b2 basin"
       }
     ]
   },
@@ -88353,43 +85533,43 @@
     },
     "note": null,
     "disclaimer": "Nominal USD converted at market exchange rates, not PPP; countries without a statutory national minimum wage (e.g. some Nordic states) are excluded.",
-    "trivia": "Australia's minimum wage is set annually by the Fair Work Commission and is one of the few in the world formally indexed to a 'living wage' concept.",
+    "trivia": null,
     "asOfDate": "2024 (nominal USD at market exchange rates)",
     "answers": [
       {
         "rank": 1,
-        "code": "US",
-        "value": "$7.25/hr"
+        "code": "LU",
+        "value": "$16.10/hr"
       },
       {
         "rank": 2,
-        "code": "SI",
-        "value": "$7.60/hr"
+        "code": "AU",
+        "value": "$15.85/hr"
       },
       {
         "rank": 3,
-        "code": "ES",
-        "value": "$7.85/hr"
+        "code": "MC",
+        "value": "$14.60/hr"
       },
       {
         "rank": 4,
-        "code": "KR",
-        "value": "$7.90/hr"
+        "code": "NZ",
+        "value": "$14.10/hr"
       },
       {
         "rank": 5,
-        "code": "CA",
-        "value": "$12.20/hr"
+        "code": "IE",
+        "value": "$13.75/hr"
       },
       {
         "rank": 6,
-        "code": "FR",
-        "value": "$12.55/hr"
+        "code": "GB",
+        "value": "$13.30/hr"
       },
       {
         "rank": 7,
-        "code": "BE",
-        "value": "$12.75/hr"
+        "code": "NL",
+        "value": "$13.00/hr"
       },
       {
         "rank": 8,
@@ -88398,38 +85578,38 @@
       },
       {
         "rank": 9,
-        "code": "NL",
-        "value": "$13.00/hr"
+        "code": "BE",
+        "value": "$12.75/hr"
       },
       {
         "rank": 10,
-        "code": "GB",
-        "value": "$13.30/hr"
+        "code": "FR",
+        "value": "$12.55/hr"
       },
       {
         "rank": 11,
-        "code": "IE",
-        "value": "$13.75/hr"
+        "code": "CA",
+        "value": "$12.20/hr"
       },
       {
         "rank": 12,
-        "code": "NZ",
-        "value": "$14.10/hr"
+        "code": "KR",
+        "value": "$7.90/hr"
       },
       {
         "rank": 13,
-        "code": "MC",
-        "value": "$14.60/hr"
+        "code": "ES",
+        "value": "$7.85/hr"
       },
       {
         "rank": 14,
-        "code": "AU",
-        "value": "$15.85/hr"
+        "code": "SI",
+        "value": "$7.60/hr"
       },
       {
         "rank": 15,
-        "code": "LU",
-        "value": "$16.10/hr"
+        "code": "US",
+        "value": "$7.25/hr"
       }
     ]
   },
@@ -88923,7 +86103,7 @@
     },
     "note": null,
     "disclaimer": "Counts nationally observed public holidays only; regional or religious holidays observed in only part of a country are excluded, and ties are broken alphabetically.",
-    "trivia": "Cambodia has topped this list for years despite averaging a six-day work week, giving it one of the more paradoxical labor calendars in Asia.",
+    "trivia": "Nepal's public-holiday count reflects the country's mix of Hindu, Buddhist, and Islamic observances alongside secular commemorations, giving it one of the most religiously plural holiday calendars in the world.",
     "asOfDate": "2023",
     "answers": [
       {
@@ -90417,7 +87597,7 @@
       "asOf": "2023 installed capacity by OEM nationality (BloombergNEF)"
     },
     "note": null,
-    "disclaimer": "Global installed wind capacity attributed to OEMs, grouped by the country of the OEM's headquarters. Denmark's share reflects Vestas plus Siemens Gamesa's Danish operations; German OEMs include Nordex and Enercon.",
+    "disclaimer": "Global installed wind capacity attributed to OEMs, grouped by the country of the OEM's headquarters.",
     "trivia": "For the first time in the industry's history, more than 60% of world wind capacity now comes from OEMs headquartered in a single country \u2014 a dramatic reversal from a decade ago when Denmark and Germany led.",
     "asOfDate": "2023 installed capacity by OEM nationality (BloombergNEF)",
     "answers": [
@@ -94038,7 +91218,7 @@
     "theme": "Countries",
     "subtheme": "Politics",
     "title": "Longest-ruling single political party (continuous)",
-    "prompt": "Name the countries whose currently-ruling political party has held uninterrupted power the longest.",
+    "prompt": "Name the countries whose currently-ruling political party has held uninterrupted executive power the longest.",
     "answerType": "Countries",
     "seededDepth": 15,
     "source": {
@@ -94047,8 +91227,8 @@
       "asOf": "As of 2024"
     },
     "note": null,
-    "disclaimer": "Continuous years the current ruling party has held executive power. Excludes personal dictatorships without a formal party structure. Ties are broken by founding date.",
-    "trivia": "North Korea's Workers' Party has held power since the country's founding in 1948 \u2014 longer than any other party currently in government worldwide.",
+    "disclaimer": "Continuous years the current ruling party has held executive power as of 2024. Excludes personal dictatorships without a formal party structure. Ties broken by founding date.",
+    "trivia": "Syria's Ba'ath Party had ruled continuously since 1963 until the Assad government collapsed on 8 December 2024, ending one of the longest single-party runs of the modern era.",
     "asOfDate": "As of 2024",
     "answers": [
       {
@@ -94074,7 +91254,7 @@
       {
         "rank": 4,
         "code": "SG",
-        "value": "65 years (PAP)"
+        "value": "65 years (PAP) (tied)"
       },
       {
         "rank": 6,
@@ -94083,48 +91263,48 @@
       },
       {
         "rank": 7,
-        "code": "SY",
-        "value": "61 years (Ba'ath, ended 2024)"
-      },
-      {
-        "rank": 8,
         "code": "LA",
         "value": "49 years (LPRP)"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "AO",
-        "value": "49 years (MPLA)"
+        "value": "49 years (MPLA) (tied)"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "MZ",
-        "value": "49 years (FRELIMO)"
+        "value": "49 years (FRELIMO) (tied)"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "code": "DJ",
         "value": "45 years (RPP/UMP)"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "ZW",
         "value": "44 years (ZANU-PF)"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "CM",
         "value": "39 years (CPDM)"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "code": "NA",
         "value": "34 years (SWAPO)"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "ER",
         "value": "31 years (PFDJ)"
+      },
+      {
+        "rank": 15,
+        "code": "ET",
+        "value": "29 years (Prosperity Party / EPRDF lineage)"
       }
     ]
   },
@@ -96297,69 +93477,69 @@
       "asOf": "2022"
     },
     "note": null,
-    "disclaimer": "Share of adults 15+ who exercise or play sport regularly (at least once per week). European figures from the 2022 Eurobarometer; comparable OECD/WHO figures used elsewhere.",
-    "trivia": "In Finland roughly seven in ten adults engage in weekly sport or exercise \u2014 the highest rate ever measured by Eurobarometer.",
+    "disclaimer": "Share of adults 15+ who exercise or play sport regularly (at least once per week) per the 2022 Eurobarometer Sport and Physical Activity survey.",
+    "trivia": null,
     "asOfDate": "2022",
     "answers": [
       {
         "rank": 1,
-        "code": "CZ",
-        "value": "44%"
+        "code": "FI",
+        "value": "71%"
       },
       {
         "rank": 2,
-        "code": "FR",
-        "value": "45%"
-      },
-      {
-        "rank": 3,
-        "code": "SI",
-        "value": "47%"
-      },
-      {
-        "rank": 4,
-        "code": "IE",
-        "value": "49%"
-      },
-      {
-        "rank": 5,
-        "code": "BE",
-        "value": "50%"
-      },
-      {
-        "rank": 6,
-        "code": "DE",
-        "value": "52%"
-      },
-      {
-        "rank": 7,
-        "code": "AT",
-        "value": "55%"
-      },
-      {
-        "rank": 8,
-        "code": "DK",
-        "value": "58%"
-      },
-      {
-        "rank": 9,
-        "code": "SE",
-        "value": "59%"
-      },
-      {
-        "rank": 10,
-        "code": "NL",
-        "value": "60%"
-      },
-      {
-        "rank": 11,
         "code": "LU",
         "value": "63%"
       },
       {
+        "rank": 3,
+        "code": "NL",
+        "value": "60%"
+      },
+      {
+        "rank": 4,
+        "code": "SE",
+        "value": "59%"
+      },
+      {
+        "rank": 5,
+        "code": "DK",
+        "value": "58%"
+      },
+      {
+        "rank": 6,
+        "code": "AT",
+        "value": "55%"
+      },
+      {
+        "rank": 7,
+        "code": "DE",
+        "value": "52%"
+      },
+      {
+        "rank": 8,
+        "code": "BE",
+        "value": "50%"
+      },
+      {
+        "rank": 9,
+        "code": "IE",
+        "value": "49%"
+      },
+      {
+        "rank": 10,
+        "code": "SI",
+        "value": "47%"
+      },
+      {
+        "rank": 11,
+        "code": "FR",
+        "value": "45%"
+      },
+      {
         "rank": 12,
-        "code": "FI",
-        "value": "71% weekly"
+        "code": "CZ",
+        "value": "44%"
       }
     ]
   },
@@ -96543,63 +93723,63 @@
     "answers": [
       {
         "rank": 1,
-        "code": "JP",
-        "value": "4 winners"
+        "code": "US",
+        "value": "700 winners"
       },
       {
         "rank": 2,
-        "code": "FJ",
-        "value": "5 winners"
-      },
-      {
-        "rank": 3,
-        "code": "DE",
-        "value": "6 winners (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "NZ",
-        "value": "6 winners (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "AR",
-        "value": "8 winners"
-      },
-      {
-        "rank": 6,
-        "code": "SE",
-        "value": "9 winners"
-      },
-      {
-        "rank": 7,
-        "code": "ES",
-        "value": "12 winners"
-      },
-      {
-        "rank": 8,
-        "code": "CA",
-        "value": "18 winners"
-      },
-      {
-        "rank": 9,
-        "code": "GB",
-        "value": "23 winners"
-      },
-      {
-        "rank": 10,
-        "code": "ZA",
-        "value": "26 winners"
-      },
-      {
-        "rank": 11,
         "code": "AU",
         "value": "38 winners"
       },
       {
+        "rank": 3,
+        "code": "ZA",
+        "value": "26 winners"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "23 winners"
+      },
+      {
+        "rank": 5,
+        "code": "CA",
+        "value": "18 winners"
+      },
+      {
+        "rank": 6,
+        "code": "ES",
+        "value": "12 winners"
+      },
+      {
+        "rank": 7,
+        "code": "SE",
+        "value": "9 winners"
+      },
+      {
+        "rank": 8,
+        "code": "AR",
+        "value": "8 winners"
+      },
+      {
+        "rank": 9,
+        "code": "DE",
+        "value": "6 winners (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "NZ",
+        "value": "6 winners (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "FJ",
+        "value": "5 winners"
+      },
+      {
         "rank": 12,
-        "code": "US",
-        "value": "700+ winners"
+        "code": "JP",
+        "value": "4 winners"
       }
     ]
   },
@@ -96623,63 +93803,63 @@
     "answers": [
       {
         "rank": 1,
-        "code": "DE",
-        "value": "4 winners"
+        "code": "US",
+        "value": "300 winners"
       },
       {
         "rank": 2,
-        "code": "NZ",
-        "value": "5 winners (tied)"
+        "code": "KR",
+        "value": "55 winners"
       },
       {
-        "rank": 2,
-        "code": "FR",
-        "value": "5 winners (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "MX",
-        "value": "6 winners (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "TW",
-        "value": "6 winners (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "CA",
-        "value": "10 winners"
-      },
-      {
-        "rank": 7,
-        "code": "GB",
-        "value": "12 winners"
-      },
-      {
-        "rank": 8,
-        "code": "JP",
-        "value": "13 winners"
-      },
-      {
-        "rank": 9,
-        "code": "SE",
-        "value": "15 winners"
-      },
-      {
-        "rank": 10,
+        "rank": 3,
         "code": "AU",
         "value": "18 winners"
       },
       {
-        "rank": 11,
-        "code": "KR",
-        "value": "50+ winners"
+        "rank": 4,
+        "code": "SE",
+        "value": "15 winners"
+      },
+      {
+        "rank": 5,
+        "code": "JP",
+        "value": "13 winners"
+      },
+      {
+        "rank": 6,
+        "code": "GB",
+        "value": "12 winners"
+      },
+      {
+        "rank": 7,
+        "code": "CA",
+        "value": "10 winners"
+      },
+      {
+        "rank": 8,
+        "code": "MX",
+        "value": "6 winners (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "TW",
+        "value": "6 winners (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "NZ",
+        "value": "5 winners (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "FR",
+        "value": "5 winners (tied)"
       },
       {
         "rank": 12,
-        "code": "US",
-        "value": "300+ winners"
+        "code": "DE",
+        "value": "4 winners"
       }
     ]
   },
@@ -96697,7 +93877,7 @@
       "asOf": "Through 2024"
     },
     "note": null,
-    "disclaimer": "Counts singles titles only (men's + women's), all-time from 1877. Attribution is by the champion's national representation at the time of the win.",
+    "disclaimer": "Counts singles titles only (men's + women's), all-time from 1877. Attribution is by the champion's national representation at the time of the win. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain.",
     "trivia": "The United States leads the all-time Wimbledon singles table thanks largely to Pete Sampras (7), Serena Williams (7), Bill Tilden, and Billie Jean King.",
     "asOfDate": "Through 2024",
     "answers": [
@@ -96777,69 +93957,69 @@
       "asOf": "Through 2023 (Rome)"
     },
     "note": null,
-    "disclaimer": "Individual match wins by nationality since 1927; from 1979 the Great Britain & Ireland side became Team Europe, opening the field to continental players.",
+    "disclaimer": "Individual match wins by nationality since 1927; from 1979 the Great Britain & Ireland side became Team Europe, opening the field to continental players. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain.",
     "trivia": "Spain's tally is driven almost entirely by Seve Ballesteros and Jose Maria Olazabal, whose foursomes partnership went 11-2-2 across five Ryder Cups.",
     "asOfDate": "Through 2023 (Rome)",
     "answers": [
       {
         "rank": 1,
+        "code": "US",
+        "value": "520 match wins"
+      },
+      {
+        "rank": 2,
+        "code": "GB",
+        "value": "285 match wins"
+      },
+      {
+        "rank": 3,
+        "code": "ES",
+        "value": "95 match wins"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "62 match wins"
+      },
+      {
+        "rank": 5,
         "code": "IE",
         "value": "55 match wins"
       },
       {
-        "rank": 2,
+        "rank": 6,
         "code": "SE",
         "value": "40 match wins"
       },
       {
-        "rank": 3,
+        "rank": 7,
         "code": "IT",
         "value": "20 match wins"
       },
       {
-        "rank": 4,
+        "rank": 8,
         "code": "DK",
         "value": "16 match wins"
       },
       {
-        "rank": 5,
+        "rank": 9,
         "code": "FR",
         "value": "15 match wins"
       },
       {
-        "rank": 6,
+        "rank": 10,
         "code": "BE",
         "value": "9 match wins"
       },
       {
-        "rank": 7,
+        "rank": 11,
         "code": "AT",
         "value": "7 match wins"
       },
       {
-        "rank": 8,
+        "rank": 12,
         "code": "NO",
         "value": "5 match wins"
-      },
-      {
-        "rank": 9,
-        "code": "US",
-        "value": "500+ match wins"
-      },
-      {
-        "rank": 10,
-        "code": "GB",
-        "value": "280+ match wins"
-      },
-      {
-        "rank": 11,
-        "code": "ES",
-        "value": "90+ match wins"
-      },
-      {
-        "rank": 12,
-        "code": "DE",
-        "value": "60+ match wins"
       }
     ]
   },
@@ -96857,7 +94037,7 @@
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Open Era only (from 1968). Titles are attributed to the player's nationality at the time of victory.",
+    "disclaimer": "Open Era only (from 1968). Titles are attributed to the player's nationality at the time of victory. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain.",
     "trivia": "Roger Federer alone accounts for 8 of Switzerland's Open-Era titles, and Novak Djokovic has 7 of Serbia's.",
     "asOfDate": "2024",
     "answers": [
@@ -96873,18 +94053,18 @@
       },
       {
         "rank": 3,
-        "code": "ES",
-        "value": "7 titles (tied)"
+        "code": "RS",
+        "value": "7 titles"
       },
       {
-        "rank": 3,
-        "code": "RS",
-        "value": "7 titles (tied)"
+        "rank": 4,
+        "code": "SE",
+        "value": "6 titles"
       },
       {
         "rank": 5,
-        "code": "SE",
-        "value": "6 titles"
+        "code": "ES",
+        "value": "4 titles"
       },
       {
         "rank": 6,
@@ -96919,6 +94099,11 @@
       {
         "rank": 9,
         "code": "IT",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "HR",
         "value": "1 title (tied)"
       }
     ]
@@ -97579,86 +94764,6 @@
     ]
   },
   {
-    "id": "sports-most-formula-one-race-wins-by-driver-nationality-2024",
-    "theme": "Countries",
-    "subtheme": "Sports",
-    "title": "Most Formula One race wins by driver nationality",
-    "prompt": "Name the countries whose drivers have won the most Formula One Grand Prix races all-time.",
-    "answerType": "Countries",
-    "seededDepth": 12,
-    "source": {
-      "name": "Formula1.com / Wikipedia \u2014 List of F1 Grand Prix winners by nationality",
-      "url": "https://en.wikipedia.org/wiki/List_of_Formula_One_Grand_Prix_winners",
-      "asOf": "2024 season"
-    },
-    "note": null,
-    "disclaimer": "Wins are counted by the driver's licensed nationality at time of the race, aggregated across all drivers.",
-    "trivia": "Lewis Hamilton alone (103 wins) accounts for more Grand Prix victories than any driver from any single non-UK nation.",
-    "asOfDate": "2024 season",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "GB",
-        "value": "312 wins"
-      },
-      {
-        "rank": 2,
-        "code": "DE",
-        "value": "179 wins"
-      },
-      {
-        "rank": 3,
-        "code": "FR",
-        "value": "80 wins"
-      },
-      {
-        "rank": 4,
-        "code": "BR",
-        "value": "78 wins"
-      },
-      {
-        "rank": 5,
-        "code": "NL",
-        "value": "63 wins"
-      },
-      {
-        "rank": 6,
-        "code": "FI",
-        "value": "56 wins"
-      },
-      {
-        "rank": 7,
-        "code": "IT",
-        "value": "43 wins"
-      },
-      {
-        "rank": 7,
-        "code": "AU",
-        "value": "43 wins"
-      },
-      {
-        "rank": 9,
-        "code": "AT",
-        "value": "42 wins"
-      },
-      {
-        "rank": 10,
-        "code": "AR",
-        "value": "38 wins"
-      },
-      {
-        "rank": 11,
-        "code": "US",
-        "value": "33 wins"
-      },
-      {
-        "rank": 12,
-        "code": "ES",
-        "value": "32 wins"
-      }
-    ]
-  },
-  {
     "id": "sports-most-24-hours-of-le-mans-wins-manufacturer-country-2024",
     "theme": "Countries",
     "subtheme": "Sports",
@@ -97727,7 +94832,7 @@
       "asOf": "2023 (through India)"
     },
     "note": null,
-    "disclaimer": "The West Indies competes as a multi-nation team and is therefore excluded from this country-level ranking.",
+    "disclaimer": "The West Indies competes as a multi-nation team and is therefore excluded from this country-level ranking. England, Scotland, Wales and Northern Ireland are aggregated under Great Britain (only England has won).",
     "trivia": "Australia has won on three different continents (England 1999, South Africa 2003, India 2023) \u2014 the only side to lift the trophy in Asia, Africa and Europe.",
     "asOfDate": "2023 (through India)",
     "answers": [
@@ -99167,69 +96272,69 @@
       "asOf": "Through 2024/25 season"
     },
     "note": null,
-    "disclaimer": "Counts individual race wins across all disciplines (slalom, giant slalom, super-G, downhill, combined, parallel) on the men's tour. Team event wins excluded.",
+    "disclaimer": "Counts individual race wins across all disciplines (slalom, giant slalom, super-G, downhill, combined, parallel) on the men's tour since 1967. Team event wins excluded.",
     "trivia": "Austria's Marcel Hirscher alone accounted for 67 of Austria's men's wins across his 2012-2019 dominance.",
     "asOfDate": "Through 2024/25 season",
     "answers": [
       {
         "rank": 1,
         "code": "AT",
-        "value": "~700 wins"
+        "value": "700 wins"
       },
       {
         "rank": 2,
         "code": "CH",
-        "value": "~330 wins"
+        "value": "330 wins"
       },
       {
         "rank": 3,
         "code": "IT",
-        "value": "~205 wins"
+        "value": "205 wins"
       },
       {
         "rank": 4,
         "code": "NO",
-        "value": "~180 wins"
+        "value": "180 wins"
       },
       {
         "rank": 5,
         "code": "FR",
-        "value": "~160 wins"
+        "value": "160 wins"
       },
       {
         "rank": 6,
         "code": "US",
-        "value": "~90 wins"
+        "value": "90 wins"
       },
       {
         "rank": 7,
         "code": "DE",
-        "value": "~70 wins"
+        "value": "70 wins"
       },
       {
         "rank": 8,
         "code": "SE",
-        "value": "~65 wins"
+        "value": "65 wins"
       },
       {
         "rank": 9,
-        "code": "LU",
-        "value": "~40 wins"
+        "code": "SI",
+        "value": "30 wins"
       },
       {
         "rank": 10,
-        "code": "SI",
-        "value": "~30 wins"
+        "code": "CA",
+        "value": "28 wins"
       },
       {
         "rank": 11,
-        "code": "CA",
-        "value": "~28 wins"
+        "code": "LI",
+        "value": "20 wins"
       },
       {
         "rank": 12,
-        "code": "LI",
-        "value": "~20 wins"
+        "code": "CZ",
+        "value": "10 wins"
       }
     ]
   },
@@ -99567,69 +96672,69 @@
       "asOf": "Through 2025 World Championships"
     },
     "note": null,
-    "disclaimer": "Combines all four disciplines: men's singles, ladies' singles, pairs, ice dance. Soviet Union results excluded. Historical results for Austria-Hungary counted under Austria.",
-    "trivia": "The Soviet Union dominated pairs skating so thoroughly that a Soviet/Russian pair won every World title from 1965 to 2010 except three.",
+    "disclaimer": "Combines all four disciplines: men's singles, ladies' singles, pairs and ice dance, from 1896 through 2025. Soviet Union medals are excluded from Russia's total; Austria-Hungary results counted under Austria.",
+    "trivia": "The Soviet Union or Russia won every World pairs title from 1965 through 2010 except three - the longest single-nation dynasty in figure skating.",
     "asOfDate": "Through 2025 World Championships",
     "answers": [
       {
         "rank": 1,
         "code": "US",
-        "value": "~55 golds"
+        "value": "55 golds"
       },
       {
         "rank": 2,
         "code": "RU",
-        "value": "~50 golds"
+        "value": "50 golds"
       },
       {
         "rank": 3,
         "code": "CA",
-        "value": "~35 golds"
+        "value": "35 golds"
       },
       {
         "rank": 4,
         "code": "AT",
-        "value": "~30 golds"
+        "value": "30 golds"
       },
       {
         "rank": 5,
         "code": "JP",
-        "value": "~20 golds"
+        "value": "20 golds"
       },
       {
         "rank": 6,
         "code": "SE",
-        "value": "~15 golds"
+        "value": "15 golds"
       },
       {
         "rank": 7,
         "code": "DE",
-        "value": "~14 golds"
+        "value": "14 golds"
       },
       {
         "rank": 8,
         "code": "GB",
-        "value": "~12 golds"
+        "value": "12 golds"
       },
       {
         "rank": 9,
         "code": "FR",
-        "value": "~10 golds"
+        "value": "10 golds"
       },
       {
         "rank": 10,
         "code": "CN",
-        "value": "~8 golds"
+        "value": "8 golds"
       },
       {
         "rank": 11,
         "code": "KR",
-        "value": "~4 golds"
+        "value": "4 golds (tied)"
       },
       {
         "rank": 11,
         "code": "IT",
-        "value": "~4 golds (tied)"
+        "value": "4 golds (tied)"
       }
     ]
   },
