@@ -295,9 +295,9 @@
         "value": "$2,186B"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "code": "RU",
-        "value": "$2,186B"
+        "value": "$2,186B (tied)"
       },
       {
         "rank": 12,
@@ -416,7 +416,7 @@
         "value": "26 sites (tied)"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "US",
         "value": "26 sites (tied)"
       },
@@ -431,7 +431,7 @@
         "value": "22 sites (tied)"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "TR",
         "value": "22 sites (tied)"
       }
@@ -468,13 +468,13 @@
       },
       {
         "rank": 4,
-        "code": "TR",
-        "value": "57.2M arrivals"
+        "code": "IT",
+        "value": "57.3M arrivals"
       },
       {
         "rank": 5,
-        "code": "IT",
-        "value": "57.3M arrivals"
+        "code": "TR",
+        "value": "57.2M arrivals"
       },
       {
         "rank": 6,
@@ -706,32 +706,32 @@
         "value": "3 wins (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "HU",
         "value": "2 wins (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "AR",
         "value": "2 wins (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "CZ",
-        "value": "2 wins (tied, historical)"
+        "value": "2 wins (tied, historical) (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "CH",
         "value": "2 wins (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "AT",
         "value": "2 wins (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "IR",
         "value": "2 wins (tied)"
       }
@@ -1427,19 +1427,19 @@
         "value": "14.3 t CO2 per person"
       },
       {
-        "rank": 9,
+        "rank": 8,
+        "code": "US",
+        "value": "14.3 t CO2 per person (tied)"
+      },
+      {
+        "rank": 10,
         "code": "OM",
         "value": "14.2 t CO2 per person"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "KZ",
         "value": "14.0 t CO2 per person"
-      },
-      {
-        "rank": 11,
-        "code": "US",
-        "value": "14.3 t CO2 per person"
       },
       {
         "rank": 12,
@@ -1484,19 +1484,29 @@
         "value": "~100% renewable electricity"
       },
       {
-        "rank": 2,
+        "rank": 1,
         "code": "BT",
-        "value": "~100% renewable electricity"
+        "value": "~100% renewable electricity (tied)"
       },
       {
-        "rank": 3,
+        "rank": 1,
+        "code": "IS",
+        "value": "~100% renewable electricity (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "AL",
+        "value": "~100% renewable electricity (tied)"
+      },
+      {
+        "rank": 5,
         "code": "NP",
-        "value": "~99% renewable electricity"
+        "value": "~99% renewable electricity (tied)"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "ET",
-        "value": "~99% renewable electricity"
+        "value": "~99% renewable electricity (tied)"
       },
       {
         "rank": 5,
@@ -1504,24 +1514,14 @@
         "value": "~99% renewable electricity"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "NO",
         "value": "98% renewable electricity"
       },
       {
-        "rank": 7,
-        "code": "IS",
-        "value": "~100% renewable electricity"
-      },
-      {
-        "rank": 8,
+        "rank": 9,
         "code": "CR",
         "value": "95% renewable electricity"
-      },
-      {
-        "rank": 9,
-        "code": "AL",
-        "value": "~100% renewable electricity"
       },
       {
         "rank": 10,
@@ -1530,13 +1530,13 @@
       },
       {
         "rank": 11,
-        "code": "NZ",
-        "value": "88% renewable electricity"
+        "code": "BR",
+        "value": "89% renewable electricity"
       },
       {
         "rank": 12,
-        "code": "BR",
-        "value": "89% renewable electricity"
+        "code": "NZ",
+        "value": "88% renewable electricity"
       },
       {
         "rank": 13,
@@ -1549,9 +1549,9 @@
         "value": "68% renewable electricity"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "SE",
-        "value": "68% renewable electricity"
+        "value": "68% renewable electricity (tied)"
       }
     ]
   },
@@ -1597,8 +1597,8 @@
       },
       {
         "rank": 6,
-        "code": "IT",
-        "value": "30 GW installed"
+        "code": "BR",
+        "value": "37 GW installed"
       },
       {
         "rank": 7,
@@ -1607,23 +1607,23 @@
       },
       {
         "rank": 8,
+        "code": "IT",
+        "value": "30 GW installed"
+      },
+      {
+        "rank": 9,
         "code": "ES",
         "value": "28 GW installed"
       },
       {
-        "rank": 9,
-        "code": "BR",
-        "value": "37 GW installed"
-      },
-      {
         "rank": 10,
-        "code": "NL",
-        "value": "23 GW installed"
+        "code": "KR",
+        "value": "24 GW installed"
       },
       {
         "rank": 11,
-        "code": "KR",
-        "value": "24 GW installed"
+        "code": "NL",
+        "value": "23 GW installed"
       },
       {
         "rank": 12,
@@ -1693,9 +1693,9 @@
         "value": "30 GW installed"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "GB",
-        "value": "30 GW installed"
+        "value": "30 GW installed (tied)"
       },
       {
         "rank": 8,
@@ -1718,9 +1718,9 @@
         "value": "12 GW installed"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "IT",
-        "value": "12 GW installed"
+        "value": "12 GW installed (tied)"
       },
       {
         "rank": 13,
@@ -1728,9 +1728,9 @@
         "value": "11 GW installed"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "code": "NL",
-        "value": "11 GW installed"
+        "value": "11 GW installed (tied)"
       },
       {
         "rank": 15,
@@ -1786,8 +1786,8 @@
       },
       {
         "rank": 7,
-        "code": "UA",
-        "value": "51 TWh"
+        "code": "JP",
+        "value": "77 TWh"
       },
       {
         "rank": 8,
@@ -1796,38 +1796,38 @@
       },
       {
         "rank": 9,
-        "code": "JP",
-        "value": "77 TWh"
+        "code": "UA",
+        "value": "51 TWh"
       },
       {
         "rank": 10,
-        "code": "SE",
-        "value": "47 TWh"
-      },
-      {
-        "rank": 11,
-        "code": "GB",
-        "value": "37 TWh"
-      },
-      {
-        "rank": 12,
         "code": "IN",
         "value": "48 TWh"
       },
       {
+        "rank": 11,
+        "code": "SE",
+        "value": "47 TWh"
+      },
+      {
+        "rank": 12,
+        "code": "GB",
+        "value": "37 TWh"
+      },
+      {
         "rank": 13,
+        "code": "FI",
+        "value": "35 TWh"
+      },
+      {
+        "rank": 14,
         "code": "BE",
         "value": "34 TWh"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "CZ",
         "value": "30 TWh"
-      },
-      {
-        "rank": 15,
-        "code": "FI",
-        "value": "35 TWh"
       }
     ]
   },
@@ -1858,23 +1858,23 @@
       },
       {
         "rank": 3,
-        "code": "GA",
-        "value": "91% forest cover"
-      },
-      {
-        "rank": 4,
         "code": "FM",
         "value": "92% forest cover"
       },
       {
+        "rank": 4,
+        "code": "GA",
+        "value": "91% forest cover"
+      },
+      {
         "rank": 5,
-        "code": "SB",
-        "value": "77% forest cover"
+        "code": "PW",
+        "value": "90% forest cover"
       },
       {
         "rank": 6,
-        "code": "PW",
-        "value": "90% forest cover"
+        "code": "SB",
+        "value": "77% forest cover"
       },
       {
         "rank": 7,
@@ -1903,18 +1903,18 @@
       },
       {
         "rank": 12,
-        "code": "CD",
-        "value": "56% forest cover"
-      },
-      {
-        "rank": 13,
         "code": "BR",
         "value": "59% forest cover"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "code": "PE",
         "value": "57% forest cover"
+      },
+      {
+        "rank": 14,
+        "code": "CD",
+        "value": "56% forest cover"
       },
       {
         "rank": 15,
@@ -1979,9 +1979,9 @@
         "value": "42.4 \u00b5g/m\u00b3"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "code": "EG",
-        "value": "42.4 \u00b5g/m\u00b3"
+        "value": "42.4 \u00b5g/m\u00b3 (tied)"
       },
       {
         "rank": 10,
@@ -2062,23 +2062,23 @@
       },
       {
         "rank": 7,
-        "code": "HN",
-        "value": "~5.7 million 60kg bags"
-      },
-      {
-        "rank": 8,
         "code": "IN",
         "value": "~6.0 million 60kg bags"
       },
       {
+        "rank": 8,
+        "code": "HN",
+        "value": "~5.7 million 60kg bags"
+      },
+      {
         "rank": 9,
-        "code": "PE",
-        "value": "~3.7 million 60kg bags"
+        "code": "MX",
+        "value": "~3.9 million 60kg bags"
       },
       {
         "rank": 10,
-        "code": "MX",
-        "value": "~3.9 million 60kg bags"
+        "code": "PE",
+        "value": "~3.7 million 60kg bags"
       },
       {
         "rank": 11,
@@ -2144,23 +2144,23 @@
       },
       {
         "rank": 5,
-        "code": "AU",
-        "value": "9.6 mhl"
-      },
-      {
-        "rank": 6,
         "code": "CL",
         "value": "11.0 mhl"
       },
       {
+        "rank": 6,
+        "code": "AU",
+        "value": "9.6 mhl"
+      },
+      {
         "rank": 7,
-        "code": "AR",
-        "value": "8.8 mhl"
+        "code": "ZA",
+        "value": "9.3 mhl"
       },
       {
         "rank": 8,
-        "code": "ZA",
-        "value": "9.3 mhl"
+        "code": "AR",
+        "value": "8.8 mhl"
       },
       {
         "rank": 9,
@@ -2348,23 +2348,23 @@
       },
       {
         "rank": 9,
-        "code": "PK",
-        "value": "~7.3 million tonnes"
-      },
-      {
-        "rank": 10,
         "code": "KH",
         "value": "~11.6 million tonnes"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "code": "BR",
         "value": "~10.8 million tonnes"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "JP",
         "value": "~7.5 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "PK",
+        "value": "~7.3 million tonnes"
       },
       {
         "rank": 13,
@@ -2373,13 +2373,13 @@
       },
       {
         "rank": 14,
-        "code": "NG",
-        "value": "~5.4 million tonnes"
+        "code": "NP",
+        "value": "~5.5 million tonnes"
       },
       {
         "rank": 15,
-        "code": "NP",
-        "value": "~5.5 million tonnes"
+        "code": "NG",
+        "value": "~5.4 million tonnes"
       }
     ]
   },
@@ -2430,8 +2430,8 @@
       },
       {
         "rank": 7,
-        "code": "UA",
-        "value": "~20.5 million tonnes"
+        "code": "CA",
+        "value": "~34.3 million tonnes"
       },
       {
         "rank": 8,
@@ -2440,33 +2440,33 @@
       },
       {
         "rank": 9,
-        "code": "CA",
-        "value": "~34.3 million tonnes"
-      },
-      {
-        "rank": 10,
         "code": "DE",
         "value": "~22.6 million tonnes"
       },
       {
-        "rank": 11,
-        "code": "TR",
-        "value": "~19.8 million tonnes"
-      },
-      {
-        "rank": 12,
+        "rank": 10,
         "code": "AR",
         "value": "~22.2 million tonnes"
       },
       {
+        "rank": 11,
+        "code": "UA",
+        "value": "~20.5 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "TR",
+        "value": "~19.8 million tonnes"
+      },
+      {
         "rank": 13,
-        "code": "IR",
-        "value": "~13.2 million tonnes"
+        "code": "KZ",
+        "value": "~16.4 million tonnes"
       },
       {
         "rank": 14,
-        "code": "KZ",
-        "value": "~16.4 million tonnes"
+        "code": "IR",
+        "value": "~13.2 million tonnes"
       },
       {
         "rank": 15,
@@ -2502,63 +2502,63 @@
       },
       {
         "rank": 3,
-        "code": "US",
-        "value": "~92.1 million head"
-      },
-      {
-        "rank": 4,
-        "code": "ET",
-        "value": "~70.3 million head"
-      },
-      {
-        "rank": 5,
         "code": "CN",
         "value": "~102.5 million head"
       },
       {
-        "rank": 6,
-        "code": "AR",
-        "value": "~53.4 million head"
+        "rank": 4,
+        "code": "US",
+        "value": "~92.1 million head"
       },
       {
-        "rank": 7,
+        "rank": 5,
+        "code": "ET",
+        "value": "~70.3 million head"
+      },
+      {
+        "rank": 6,
         "code": "PK",
         "value": "~55.5 million head"
       },
       {
+        "rank": 7,
+        "code": "AR",
+        "value": "~53.4 million head"
+      },
+      {
         "rank": 8,
-        "code": "MX",
-        "value": "~35.2 million head"
-      },
-      {
-        "rank": 9,
-        "code": "AU",
-        "value": "~24.4 million head"
-      },
-      {
-        "rank": 10,
-        "code": "CO",
-        "value": "~29.3 million head"
-      },
-      {
-        "rank": 11,
         "code": "TZ",
         "value": "~36.6 million head"
       },
       {
-        "rank": 12,
+        "rank": 9,
+        "code": "MX",
+        "value": "~35.2 million head"
+      },
+      {
+        "rank": 10,
         "code": "SD",
         "value": "~31.8 million head"
       },
       {
-        "rank": 13,
+        "rank": 11,
         "code": "TD",
         "value": "~30.2 million head"
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "code": "CO",
+        "value": "~29.3 million head"
+      },
+      {
+        "rank": 13,
         "code": "BD",
         "value": "~24.6 million head"
+      },
+      {
+        "rank": 14,
+        "code": "AU",
+        "value": "~24.4 million head"
       },
       {
         "rank": 15,
@@ -2643,19 +2643,19 @@
         "value": "~1.4 million tonnes"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "MX",
-        "value": "~1.4 million tonnes"
+        "value": "~1.4 million tonnes (tied)"
       },
       {
-        "rank": 14,
-        "code": "TH",
-        "value": "~1.3 million tonnes"
+        "rank": 12,
+        "code": "KR",
+        "value": "~1.4 million tonnes (tied)"
       },
       {
         "rank": 15,
-        "code": "KR",
-        "value": "~1.4 million tonnes"
+        "code": "TH",
+        "value": "~1.3 million tonnes"
       }
     ]
   },
@@ -2731,23 +2731,23 @@
       },
       {
         "rank": 12,
-        "code": "KR",
-        "value": "~85 kg per capita"
-      },
-      {
-        "rank": 13,
-        "code": "MN",
-        "value": "~84 kg per capita"
-      },
-      {
-        "rank": 14,
         "code": "AT",
         "value": "~87 kg per capita"
       },
       {
-        "rank": 15,
+        "rank": 13,
+        "code": "KR",
+        "value": "~85 kg per capita (tied)"
+      },
+      {
+        "rank": 13,
         "code": "PL",
-        "value": "~85 kg per capita"
+        "value": "~85 kg per capita (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MN",
+        "value": "~84 kg per capita"
       }
     ]
   },
@@ -2870,23 +2870,23 @@
       },
       {
         "rank": 3,
-        "code": "VA",
-        "value": "~1,800 /km\u00b2"
-      },
-      {
-        "rank": 4,
         "code": "BH",
         "value": "~2,200 /km\u00b2"
       },
       {
-        "rank": 5,
-        "code": "MT",
-        "value": "~1,700 /km\u00b2"
+        "rank": 4,
+        "code": "VA",
+        "value": "~1,800 /km\u00b2 (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "MV",
+        "value": "~1,800 /km\u00b2 (tied)"
       },
       {
         "rank": 6,
-        "code": "MV",
-        "value": "~1,800 /km\u00b2"
+        "code": "MT",
+        "value": "~1,700 /km\u00b2"
       },
       {
         "rank": 7,
@@ -2900,13 +2900,13 @@
       },
       {
         "rank": 9,
-        "code": "LB",
-        "value": "~550 /km\u00b2"
+        "code": "TW",
+        "value": "~650 /km\u00b2"
       },
       {
         "rank": 10,
-        "code": "TW",
-        "value": "~650 /km\u00b2"
+        "code": "LB",
+        "value": "~550 /km\u00b2"
       },
       {
         "rank": 11,
@@ -2951,14 +2951,14 @@
         "value": "100% urban (tied)"
       },
       {
-        "rank": 4,
+        "rank": 1,
         "code": "KW",
-        "value": "100% urban"
+        "value": "100% urban (tied)"
       },
       {
-        "rank": 5,
+        "rank": 1,
         "code": "NR",
-        "value": "100% urban"
+        "value": "100% urban (tied)"
       },
       {
         "rank": 6,
@@ -3043,9 +3043,9 @@
         "value": "46.5 years"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "ES",
-        "value": "46.5 years"
+        "value": "46.5 years (tied)"
       },
       {
         "rank": 8,
@@ -3059,8 +3059,8 @@
       },
       {
         "rank": 10,
-        "code": "AT",
-        "value": "44.5 years"
+        "code": "LT",
+        "value": "45.0 years"
       },
       {
         "rank": 11,
@@ -3069,23 +3069,23 @@
       },
       {
         "rank": 12,
+        "code": "AT",
+        "value": "44.5 years (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "LV",
+        "value": "44.5 years (tied)"
+      },
+      {
+        "rank": 14,
         "code": "FI",
         "value": "43.4 years"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "code": "CZ",
         "value": "43.3 years"
-      },
-      {
-        "rank": 14,
-        "code": "LT",
-        "value": "45.0 years"
-      },
-      {
-        "rank": 15,
-        "code": "LV",
-        "value": "44.5 years"
       }
     ]
   },
@@ -3111,13 +3111,13 @@
       },
       {
         "rank": 2,
-        "code": "KW",
-        "value": "72.8%"
+        "code": "QA",
+        "value": "77.3%"
       },
       {
         "rank": 3,
-        "code": "QA",
-        "value": "77.3%"
+        "code": "KW",
+        "value": "72.8%"
       },
       {
         "rank": 4,
@@ -3136,8 +3136,8 @@
       },
       {
         "rank": 7,
-        "code": "SG",
-        "value": "43.1%"
+        "code": "LU",
+        "value": "47.6%"
       },
       {
         "rank": 8,
@@ -3146,33 +3146,33 @@
       },
       {
         "rank": 9,
-        "code": "MV",
-        "value": "31.4%"
+        "code": "SG",
+        "value": "43.1%"
       },
       {
         "rank": 10,
-        "code": "LU",
-        "value": "47.6%"
-      },
-      {
-        "rank": 11,
         "code": "SA",
         "value": "38.6%"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "JO",
         "value": "33.9%"
       },
       {
+        "rank": 12,
+        "code": "MV",
+        "value": "31.4%"
+      },
+      {
         "rank": 13,
-        "code": "CH",
-        "value": "28.8%"
+        "code": "AU",
+        "value": "30.1%"
       },
       {
         "rank": 14,
-        "code": "AU",
-        "value": "30.1%"
+        "code": "CH",
+        "value": "28.8%"
       },
       {
         "rank": 15,
@@ -3248,13 +3248,13 @@
       },
       {
         "rank": 6,
-        "code": "SD",
-        "value": "7 neighbors (tied)"
-      },
-      {
-        "rank": 6,
         "code": "SB",
         "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "SD",
+        "value": "7 neighbors (tied)"
       }
     ]
   },
@@ -3300,13 +3300,13 @@
       },
       {
         "rank": 6,
-        "code": "LI",
-        "value": "~39,600"
+        "code": "MC",
+        "value": "~39,000"
       },
       {
         "rank": 7,
-        "code": "MC",
-        "value": "~39,000"
+        "code": "LI",
+        "value": "~39,600"
       },
       {
         "rank": 8,
@@ -3335,13 +3335,13 @@
       },
       {
         "rank": 13,
-        "code": "SC",
-        "value": "~107,000"
+        "code": "TO",
+        "value": "~106,900"
       },
       {
         "rank": 14,
-        "code": "TO",
-        "value": "~106,900"
+        "code": "SC",
+        "value": "~107,000"
       },
       {
         "rank": 15,
@@ -3412,8 +3412,8 @@
       },
       {
         "rank": 10,
-        "code": "BO",
-        "value": "1,192 m"
+        "code": "ET",
+        "value": "1,330 m"
       },
       {
         "rank": 11,
@@ -3422,8 +3422,8 @@
       },
       {
         "rank": 12,
-        "code": "ET",
-        "value": "1,330 m"
+        "code": "BO",
+        "value": "1,192 m"
       }
     ]
   },
@@ -3513,9 +3513,9 @@
         "value": "82.5 years"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "LU",
-        "value": "82.5 years"
+        "value": "82.5 years (tied)"
       },
       {
         "rank": 16,
@@ -3586,58 +3586,58 @@
       },
       {
         "rank": 8,
-        "code": "CH",
-        "value": "4.4 per 1,000"
-      },
-      {
-        "rank": 9,
         "code": "DE",
         "value": "4.5 per 1,000"
       },
       {
-        "rank": 10,
+        "rank": 9,
+        "code": "CH",
+        "value": "4.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "ES",
+        "value": "4.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 11,
         "code": "SE",
         "value": "4.3 per 1,000"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "BG",
-        "value": "4.2 per 1,000"
+        "value": "4.2 per 1,000 (tied)"
       },
       {
         "rank": 12,
-        "code": "ES",
-        "value": "4.4 per 1,000"
-      },
-      {
-        "rank": 13,
-        "code": "IT",
-        "value": "4.1 per 1,000"
+        "code": "DK",
+        "value": "4.2 per 1,000 (tied)"
       },
       {
         "rank": 14,
-        "code": "DK",
-        "value": "4.2 per 1,000"
+        "code": "IT",
+        "value": "4.1 per 1,000 (tied)"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "NL",
-        "value": "4.1 per 1,000"
+        "value": "4.1 per 1,000 (tied)"
       },
       {
-        "rank": 16,
-        "code": "AU",
-        "value": "4.0 per 1,000"
-      },
-      {
-        "rank": 17,
+        "rank": 14,
         "code": "IS",
-        "value": "4.1 per 1,000"
+        "value": "4.1 per 1,000 (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "CZ",
+        "value": "4.1 per 1,000 (tied)"
       },
       {
         "rank": 18,
-        "code": "CZ",
-        "value": "4.1 per 1,000"
+        "code": "AU",
+        "value": "4.0 per 1,000"
       }
     ]
   },
@@ -3673,78 +3673,78 @@
       },
       {
         "rank": 4,
-        "code": "AT",
-        "value": "11.4% of GDP"
-      },
-      {
-        "rank": 5,
-        "code": "GB",
-        "value": "11.3% of GDP"
-      },
-      {
-        "rank": 6,
-        "code": "CA",
-        "value": "11.2% of GDP"
-      },
-      {
-        "rank": 7,
-        "code": "SE",
-        "value": "10.7% of GDP"
-      },
-      {
-        "rank": 8,
-        "code": "CH",
-        "value": "11.3% of GDP"
-      },
-      {
-        "rank": 9,
         "code": "JP",
         "value": "11.5% of GDP"
       },
       {
-        "rank": 10,
-        "code": "NL",
-        "value": "10.1% of GDP"
+        "rank": 5,
+        "code": "AT",
+        "value": "11.4% of GDP"
       },
       {
-        "rank": 11,
+        "rank": 6,
+        "code": "GB",
+        "value": "11.3% of GDP (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "CH",
+        "value": "11.3% of GDP (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "11.2% of GDP"
+      },
+      {
+        "rank": 9,
         "code": "BE",
         "value": "11.1% of GDP"
       },
       {
-        "rank": 12,
-        "code": "DK",
-        "value": "9.5% of GDP"
+        "rank": 10,
+        "code": "SE",
+        "value": "10.7% of GDP"
       },
       {
-        "rank": 13,
-        "code": "NO",
-        "value": "8.0% of GDP"
-      },
-      {
-        "rank": 14,
+        "rank": 11,
         "code": "PT",
         "value": "10.6% of GDP"
       },
       {
-        "rank": 15,
+        "rank": 12,
         "code": "ES",
-        "value": "10.5% of GDP"
+        "value": "10.5% of GDP (tied)"
       },
       {
-        "rank": 16,
+        "rank": 12,
         "code": "AU",
-        "value": "10.5% of GDP"
+        "value": "10.5% of GDP (tied)"
       },
       {
-        "rank": 17,
+        "rank": 14,
+        "code": "NL",
+        "value": "10.1% of GDP"
+      },
+      {
+        "rank": 15,
         "code": "NZ",
         "value": "10.0% of GDP"
       },
       {
-        "rank": 18,
+        "rank": 16,
+        "code": "DK",
+        "value": "9.5% of GDP"
+      },
+      {
+        "rank": 17,
         "code": "IT",
         "value": "8.8% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "NO",
+        "value": "8.0% of GDP"
       }
     ]
   },
@@ -3769,77 +3769,77 @@
         "value": "61.0%"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "code": "PW",
         "value": "55.3%"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "MH",
         "value": "52.9%"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "TV",
         "value": "52.0%"
       },
       {
-        "rank": 7,
+        "rank": 5,
         "code": "TO",
         "value": "48.2%"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "WS",
         "value": "47.3%"
       },
       {
-        "rank": 9,
+        "rank": 7,
         "code": "KI",
         "value": "46.0%"
       },
       {
-        "rank": 10,
+        "rank": 8,
         "code": "FM",
         "value": "45.8%"
       },
       {
-        "rank": 11,
-        "code": "KW",
-        "value": "38.3%"
-      },
-      {
-        "rank": 12,
+        "rank": 9,
         "code": "US",
         "value": "42.7%"
       },
       {
-        "rank": 13,
+        "rank": 10,
+        "code": "KW",
+        "value": "38.3%"
+      },
+      {
+        "rank": 11,
         "code": "QA",
         "value": "35.9%"
       },
       {
-        "rank": 14,
-        "code": "SA",
-        "value": "35.4%"
-      },
-      {
-        "rank": 15,
+        "rank": 12,
         "code": "JO",
         "value": "35.5%"
       },
       {
-        "rank": 16,
+        "rank": 13,
+        "code": "SA",
+        "value": "35.4%"
+      },
+      {
+        "rank": 14,
         "code": "LY",
         "value": "32.5%"
       },
       {
-        "rank": 17,
+        "rank": 15,
         "code": "TR",
         "value": "32.1%"
       },
       {
-        "rank": 18,
+        "rank": 16,
         "code": "EG",
         "value": "32.0%"
       }
@@ -3902,8 +3902,8 @@
       },
       {
         "rank": 9,
-        "code": "RU",
-        "value": "21.6 per 100k"
+        "code": "ZW",
+        "value": "23.6 per 100k"
       },
       {
         "rank": 10,
@@ -3922,28 +3922,28 @@
       },
       {
         "rank": 13,
-        "code": "CM",
-        "value": "19.5 per 100k"
+        "code": "RU",
+        "value": "21.6 per 100k"
       },
       {
         "rank": 14,
-        "code": "ZW",
-        "value": "23.6 per 100k"
-      },
-      {
-        "rank": 15,
         "code": "UG",
         "value": "20.0 per 100k"
       },
       {
+        "rank": 15,
+        "code": "CM",
+        "value": "19.5 per 100k"
+      },
+      {
         "rank": 16,
-        "code": "BY",
-        "value": "17.1 per 100k"
+        "code": "UA",
+        "value": "17.7 per 100k"
       },
       {
         "rank": 17,
-        "code": "UA",
-        "value": "17.7 per 100k"
+        "code": "BY",
+        "value": "17.1 per 100k"
       },
       {
         "rank": 18,
@@ -3984,18 +3984,18 @@
       },
       {
         "rank": 4,
-        "code": "US",
-        "value": "367.0 per 100k"
-      },
-      {
-        "rank": 5,
         "code": "DK",
         "value": "374.7 per 100k"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "NO",
         "value": "372.4 per 100k"
+      },
+      {
+        "rank": 6,
+        "code": "US",
+        "value": "367.0 per 100k"
       },
       {
         "rank": 7,
@@ -4009,18 +4009,18 @@
       },
       {
         "rank": 9,
+        "code": "CA",
+        "value": "348.0 per 100k"
+      },
+      {
+        "rank": 10,
         "code": "FR",
         "value": "341.0 per 100k"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "HU",
         "value": "338.2 per 100k"
-      },
-      {
-        "rank": 11,
-        "code": "CA",
-        "value": "348.0 per 100k"
       },
       {
         "rank": 12,
@@ -4034,28 +4034,28 @@
       },
       {
         "rank": 14,
-        "code": "IT",
-        "value": "292.6 per 100k"
-      },
-      {
-        "rank": 15,
         "code": "GB",
         "value": "319.9 per 100k"
       },
       {
-        "rank": 16,
+        "rank": 15,
         "code": "CZ",
         "value": "312.5 per 100k"
       },
       {
-        "rank": 17,
+        "rank": 16,
         "code": "SE",
         "value": "300.7 per 100k"
       },
       {
-        "rank": 18,
+        "rank": 17,
         "code": "FI",
         "value": "295.5 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "292.6 per 100k"
       }
     ]
   },
@@ -4080,7 +4080,7 @@
         "value": "1.6 per 1,000"
       },
       {
-        "rank": 2,
+        "rank": 1,
         "code": "EE",
         "value": "1.6 per 1,000 (tied)"
       },
@@ -4095,7 +4095,7 @@
         "value": "1.8 per 1,000"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "NO",
         "value": "1.8 per 1,000 (tied)"
       },
@@ -4106,28 +4106,28 @@
       },
       {
         "rank": 7,
-        "code": "KR",
-        "value": "2.4 per 1,000"
-      },
-      {
-        "rank": 8,
         "code": "SE",
         "value": "2.0 per 1,000"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "code": "CZ",
         "value": "2.2 per 1,000"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "IS",
         "value": "2.3 per 1,000"
       },
       {
-        "rank": 11,
+        "rank": 10,
+        "code": "KR",
+        "value": "2.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 10,
         "code": "IT",
-        "value": "2.4 per 1,000"
+        "value": "2.4 per 1,000 (tied)"
       },
       {
         "rank": 12,
@@ -4135,9 +4135,9 @@
         "value": "2.5 per 1,000"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "CY",
-        "value": "2.5 per 1,000"
+        "value": "2.5 per 1,000 (tied)"
       },
       {
         "rank": 14,
@@ -4145,24 +4145,24 @@
         "value": "2.7 per 1,000"
       },
       {
-        "rank": 15,
+        "rank": 14,
+        "code": "IL",
+        "value": "2.7 per 1,000 (tied)"
+      },
+      {
+        "rank": 16,
         "code": "BE",
         "value": "2.9 per 1,000"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "code": "DE",
         "value": "3.0 per 1,000"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "FR",
         "value": "3.4 per 1,000"
-      },
-      {
-        "rank": 18,
-        "code": "IL",
-        "value": "2.7 per 1,000"
       }
     ]
   },
@@ -4183,18 +4183,18 @@
     "answers": [
       {
         "rank": 1,
+        "code": "KP",
+        "value": "13.2 per 1,000"
+      },
+      {
+        "rank": 2,
         "code": "KR",
         "value": "12.8 per 1,000"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "JP",
         "value": "12.6 per 1,000"
-      },
-      {
-        "rank": 3,
-        "code": "KP",
-        "value": "13.2 per 1,000"
       },
       {
         "rank": 4,
@@ -4203,28 +4203,28 @@
       },
       {
         "rank": 5,
+        "code": "MN",
+        "value": "8.0 per 1,000"
+      },
+      {
+        "rank": 6,
         "code": "DE",
         "value": "7.8 per 1,000"
       },
       {
-        "rank": 6,
-        "code": "RU",
-        "value": "7.1 per 1,000"
-      },
-      {
         "rank": 7,
-        "code": "AT",
-        "value": "7.2 per 1,000"
-      },
-      {
-        "rank": 8,
         "code": "BG",
         "value": "7.4 per 1,000"
       },
       {
+        "rank": 8,
+        "code": "AT",
+        "value": "7.2 per 1,000"
+      },
+      {
         "rank": 9,
-        "code": "HU",
-        "value": "6.8 per 1,000"
+        "code": "RU",
+        "value": "7.1 per 1,000"
       },
       {
         "rank": 10,
@@ -4233,43 +4233,43 @@
       },
       {
         "rank": 11,
+        "code": "HU",
+        "value": "6.8 per 1,000"
+      },
+      {
+        "rank": 12,
         "code": "CZ",
         "value": "6.6 per 1,000"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "PL",
         "value": "6.2 per 1,000"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "LT",
         "value": "6.0 per 1,000"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "FR",
-        "value": "5.7 per 1,000"
+        "value": "5.7 per 1,000 (tied)"
       },
       {
         "rank": 15,
+        "code": "SK",
+        "value": "5.7 per 1,000 (tied)"
+      },
+      {
+        "rank": 17,
         "code": "BE",
         "value": "5.6 per 1,000"
       },
       {
-        "rank": 16,
+        "rank": 18,
         "code": "CH",
         "value": "4.6 per 1,000"
-      },
-      {
-        "rank": 17,
-        "code": "MN",
-        "value": "8.0 per 1,000"
-      },
-      {
-        "rank": 18,
-        "code": "SK",
-        "value": "5.7 per 1,000"
       }
     ]
   },
@@ -4873,9 +4873,9 @@
         "value": "6.900"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "CA",
-        "value": "6.900"
+        "value": "6.900 (tied)"
       },
       {
         "rank": 16,
@@ -4940,9 +4940,9 @@
         "value": "82"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "CH",
-        "value": "82"
+        "value": "82 (tied)"
       },
       {
         "rank": 8,
@@ -4955,9 +4955,9 @@
         "value": "78"
       },
       {
-        "rank": 10,
+        "rank": 9,
         "code": "LU",
-        "value": "78"
+        "value": "78 (tied)"
       },
       {
         "rank": 11,
@@ -4970,9 +4970,9 @@
         "value": "76"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "EE",
-        "value": "76"
+        "value": "76 (tied)"
       },
       {
         "rank": 14,
@@ -4980,9 +4980,9 @@
         "value": "75"
       },
       {
-        "rank": 15,
-        "code": "IS",
-        "value": "72"
+        "rank": 14,
+        "code": "AU",
+        "value": "75 (tied)"
       },
       {
         "rank": 16,
@@ -4991,8 +4991,8 @@
       },
       {
         "rank": 17,
-        "code": "AU",
-        "value": "75"
+        "code": "IS",
+        "value": "72"
       },
       {
         "rank": 18,
@@ -5042,9 +5042,9 @@
         "value": "0.952"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "SE",
-        "value": "0.952"
+        "value": "0.952 (tied)"
       },
       {
         "rank": 7,
@@ -5052,9 +5052,9 @@
         "value": "0.950"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "DE",
-        "value": "0.950"
+        "value": "0.950 (tied)"
       },
       {
         "rank": 9,
@@ -5067,9 +5067,9 @@
         "value": "0.946"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "code": "AU",
-        "value": "0.946"
+        "value": "0.946 (tied)"
       },
       {
         "rank": 12,
@@ -5077,14 +5077,14 @@
         "value": "0.942"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "BE",
-        "value": "0.942"
+        "value": "0.942 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 12,
         "code": "FI",
-        "value": "0.942"
+        "value": "0.942 (tied)"
       },
       {
         "rank": 15,
@@ -5194,9 +5194,9 @@
         "value": "1.462"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "JP",
-        "value": "1.462"
+        "value": "1.462 (tied)"
       },
       {
         "rank": 16,
@@ -5297,13 +5297,13 @@
       },
       {
         "rank": 15,
-        "code": "TL",
-        "value": "81.60"
+        "code": "CA",
+        "value": "81.70"
       },
       {
         "rank": 16,
-        "code": "CA",
-        "value": "81.70"
+        "code": "TL",
+        "value": "81.60"
       },
       {
         "rank": 17,
@@ -5343,9 +5343,9 @@
         "value": "0.875"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "code": "NO",
-        "value": "0.875"
+        "value": "0.875 (tied)"
       },
       {
         "rank": 4,
@@ -5399,13 +5399,13 @@
       },
       {
         "rank": 14,
-        "code": "MD",
-        "value": "0.788"
+        "code": "GB",
+        "value": "0.789"
       },
       {
         "rank": 15,
-        "code": "GB",
-        "value": "0.789"
+        "code": "MD",
+        "value": "0.788"
       },
       {
         "rank": 16,
@@ -5481,38 +5481,38 @@
       },
       {
         "rank": 9,
-        "code": "BS",
-        "value": "397 per 100k"
-      },
-      {
-        "rank": 10,
-        "code": "CR",
-        "value": "384 per 100k"
-      },
-      {
-        "rank": 11,
-        "code": "GD",
-        "value": "381 per 100k"
-      },
-      {
-        "rank": 12,
-        "code": "BR",
-        "value": "390 per 100k"
-      },
-      {
-        "rank": 13,
-        "code": "MV",
-        "value": "376 per 100k"
-      },
-      {
-        "rank": 14,
         "code": "TH",
         "value": "398 per 100k"
       },
       {
+        "rank": 10,
+        "code": "BS",
+        "value": "397 per 100k"
+      },
+      {
+        "rank": 11,
+        "code": "BR",
+        "value": "390 per 100k"
+      },
+      {
+        "rank": 12,
+        "code": "CR",
+        "value": "384 per 100k"
+      },
+      {
+        "rank": 13,
+        "code": "GD",
+        "value": "381 per 100k"
+      },
+      {
+        "rank": 14,
+        "code": "MV",
+        "value": "376 per 100k"
+      },
+      {
         "rank": 15,
-        "code": "PE",
-        "value": "297 per 100k"
+        "code": "BY",
+        "value": "343 per 100k"
       },
       {
         "rank": 16,
@@ -5521,8 +5521,8 @@
       },
       {
         "rank": 17,
-        "code": "BY",
-        "value": "343 per 100k"
+        "code": "PE",
+        "value": "297 per 100k"
       }
     ]
   },
@@ -5578,8 +5578,8 @@
       },
       {
         "rank": 8,
-        "code": "PL",
-        "value": "957,000"
+        "code": "TD",
+        "value": "1.1 million"
       },
       {
         "rank": 9,
@@ -5598,23 +5598,23 @@
       },
       {
         "rank": 12,
-        "code": "TD",
-        "value": "1.1 million"
+        "code": "PL",
+        "value": "957,000"
       },
       {
         "rank": 13,
-        "code": "US",
-        "value": "605,000"
-      },
-      {
-        "rank": 14,
         "code": "LB",
         "value": "775,000"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "FR",
         "value": "610,000"
+      },
+      {
+        "rank": 15,
+        "code": "US",
+        "value": "605,000"
       }
     ]
   },
@@ -5773,14 +5773,14 @@
         "value": "179 gold"
       },
       {
-        "rank": 9,
-        "code": "SE",
-        "value": "150 gold"
+        "rank": 8,
+        "code": "JP",
+        "value": "179 gold (tied)"
       },
       {
         "rank": 10,
-        "code": "JP",
-        "value": "179 gold"
+        "code": "SE",
+        "value": "150 gold"
       },
       {
         "rank": 11,
@@ -5855,6 +5855,11 @@
         "value": "64 gold"
       },
       {
+        "rank": 7,
+        "code": "CH",
+        "value": "62 gold"
+      },
+      {
         "rank": 8,
         "code": "NL",
         "value": "56 gold"
@@ -5866,18 +5871,13 @@
       },
       {
         "rank": 10,
-        "code": "CH",
-        "value": "62 gold"
+        "code": "FR",
+        "value": "40 gold"
       },
       {
         "rank": 11,
         "code": "KR",
         "value": "33 gold"
-      },
-      {
-        "rank": 12,
-        "code": "FR",
-        "value": "40 gold"
       }
     ]
   },
@@ -5944,17 +5944,17 @@
         "value": "2 titles (tied)"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "PK",
         "value": "1 title (tied)"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "LK",
         "value": "1 title (tied)"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "GB",
         "value": "1 title (tied)"
       }
@@ -7032,6 +7032,742 @@
         "rank": 20,
         "code": "AU",
         "value": "4 systems"
+      }
+    ]
+  },
+  {
+    "id": "economy-largest-goods-exporters-2023",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Largest goods exporters",
+    "prompt": "Name the countries that export the most merchandise goods by value (US dollars).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "WTO World Trade Statistical Review",
+      "url": "https://www.wto.org/english/res_e/statis_e/wts_e.htm",
+      "asOf": "WTO merchandise trade data for 2023"
+    },
+    "note": "Merchandise (goods) exports only, excluding services. Figures in current US dollars. EU as a bloc is excluded; EU member states counted individually.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "$3.38 trillion"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "$2.02 trillion"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "$1.69 trillion"
+      },
+      {
+        "rank": 4,
+        "code": "NL",
+        "value": "$935 billion"
+      },
+      {
+        "rank": 5,
+        "code": "JP",
+        "value": "$717 billion"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "$677 billion"
+      },
+      {
+        "rank": 7,
+        "code": "FR",
+        "value": "$648 billion"
+      },
+      {
+        "rank": 8,
+        "code": "KR",
+        "value": "$632 billion"
+      },
+      {
+        "rank": 9,
+        "code": "MX",
+        "value": "$593 billion"
+      },
+      {
+        "rank": 10,
+        "code": "HK",
+        "value": "$574 billion"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "$566 billion"
+      },
+      {
+        "rank": 12,
+        "code": "BE",
+        "value": "$545 billion"
+      },
+      {
+        "rank": 13,
+        "code": "AE",
+        "value": "$487 billion"
+      },
+      {
+        "rank": 14,
+        "code": "SG",
+        "value": "$476 billion"
+      },
+      {
+        "rank": 15,
+        "code": "GB",
+        "value": "$468 billion"
+      }
+    ]
+  },
+  {
+    "id": "economy-highest-gdp-per-capita-nominal-2024",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Highest GDP per capita (nominal)",
+    "prompt": "Name the countries with the highest nominal GDP per capita in US dollars.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IMF World Economic Outlook",
+      "url": "https://www.imf.org/en/Publications/WEO",
+      "asOf": "IMF WEO October 2024 estimates for 2024"
+    },
+    "note": "Nominal (not PPP-adjusted) GDP per capita in current US dollars. Excludes microstates and dependent territories with populations under 30,000 (e.g., Monaco, Liechtenstein) that IMF does not consistently report.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "LU",
+        "value": "$131,380"
+      },
+      {
+        "rank": 2,
+        "code": "IE",
+        "value": "$106,060"
+      },
+      {
+        "rank": 3,
+        "code": "CH",
+        "value": "$104,900"
+      },
+      {
+        "rank": 4,
+        "code": "NO",
+        "value": "$89,690"
+      },
+      {
+        "rank": 5,
+        "code": "SG",
+        "value": "$89,370"
+      },
+      {
+        "rank": 6,
+        "code": "US",
+        "value": "$85,370"
+      },
+      {
+        "rank": 7,
+        "code": "IS",
+        "value": "$84,590"
+      },
+      {
+        "rank": 8,
+        "code": "QA",
+        "value": "$71,570"
+      },
+      {
+        "rank": 9,
+        "code": "DK",
+        "value": "$68,830"
+      },
+      {
+        "rank": 10,
+        "code": "AU",
+        "value": "$64,820"
+      },
+      {
+        "rank": 11,
+        "code": "NL",
+        "value": "$63,750"
+      },
+      {
+        "rank": 12,
+        "code": "SE",
+        "value": "$58,530"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "$58,170"
+      },
+      {
+        "rank": 14,
+        "code": "IL",
+        "value": "$55,530"
+      },
+      {
+        "rank": 15,
+        "code": "FI",
+        "value": "$55,130"
+      }
+    ]
+  },
+  {
+    "id": "economy-largest-oil-producers-2023",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Largest oil producers",
+    "prompt": "Name the countries that produce the most crude oil (barrels per day).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "U.S. Energy Information Administration (EIA)",
+      "url": "https://www.eia.gov/international/rankings/world",
+      "asOf": "EIA International Energy Statistics, 2023 annual production"
+    },
+    "note": "Crude oil, condensate, and NGL production combined (petroleum and other liquids). Millions of barrels per day.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "21.9 million bbl/day"
+      },
+      {
+        "rank": 2,
+        "code": "SA",
+        "value": "11.4 million bbl/day"
+      },
+      {
+        "rank": 3,
+        "code": "RU",
+        "value": "10.7 million bbl/day"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "5.8 million bbl/day"
+      },
+      {
+        "rank": 5,
+        "code": "CN",
+        "value": "5.3 million bbl/day"
+      },
+      {
+        "rank": 6,
+        "code": "IQ",
+        "value": "4.3 million bbl/day"
+      },
+      {
+        "rank": 7,
+        "code": "IR",
+        "value": "4.0 million bbl/day"
+      },
+      {
+        "rank": 7,
+        "code": "AE",
+        "value": "4.0 million bbl/day (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "BR",
+        "value": "3.8 million bbl/day"
+      },
+      {
+        "rank": 10,
+        "code": "KW",
+        "value": "2.9 million bbl/day"
+      },
+      {
+        "rank": 11,
+        "code": "NO",
+        "value": "2.0 million bbl/day"
+      },
+      {
+        "rank": 12,
+        "code": "MX",
+        "value": "1.9 million bbl/day (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "KZ",
+        "value": "1.9 million bbl/day (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "QA",
+        "value": "1.8 million bbl/day"
+      },
+      {
+        "rank": 15,
+        "code": "NG",
+        "value": "1.4 million bbl/day"
+      }
+    ]
+  },
+  {
+    "id": "economy-largest-gold-reserves-2024",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Largest gold reserves",
+    "prompt": "Name the countries with the largest official gold reserves held by their central banks.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "World Gold Council",
+      "url": "https://www.gold.org/goldhub/data/gold-reserves-by-country",
+      "asOf": "World Gold Council quarterly report, Q4 2024"
+    },
+    "note": "Official monetary gold holdings by central banks and government treasuries. Excludes private holdings. Tonnes of gold.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "8,133 tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "DE",
+        "value": "3,352 tonnes"
+      },
+      {
+        "rank": 3,
+        "code": "IT",
+        "value": "2,452 tonnes"
+      },
+      {
+        "rank": 4,
+        "code": "FR",
+        "value": "2,437 tonnes"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "2,336 tonnes"
+      },
+      {
+        "rank": 6,
+        "code": "CN",
+        "value": "2,280 tonnes"
+      },
+      {
+        "rank": 7,
+        "code": "CH",
+        "value": "1,040 tonnes"
+      },
+      {
+        "rank": 8,
+        "code": "IN",
+        "value": "876 tonnes"
+      },
+      {
+        "rank": 9,
+        "code": "JP",
+        "value": "846 tonnes"
+      },
+      {
+        "rank": 10,
+        "code": "NL",
+        "value": "612 tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "TR",
+        "value": "595 tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "PL",
+        "value": "480 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "TW",
+        "value": "424 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "PT",
+        "value": "383 tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "UZ",
+        "value": "382 tonnes"
+      }
+    ]
+  },
+  {
+    "id": "economy-largest-foreign-exchange-reserves-2024",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Largest foreign exchange reserves",
+    "prompt": "Name the countries with the largest foreign exchange reserves (excluding gold).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "IMF COFER / national central banks",
+      "url": "https://data.imf.org/COFER",
+      "asOf": "Central bank reports, mid-2024"
+    },
+    "note": "Foreign currency reserves held by central banks, excluding gold and SDRs. Figures in US dollars. Includes Hong Kong SAR and Taiwan, which report separately.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "$3.24 trillion"
+      },
+      {
+        "rank": 2,
+        "code": "JP",
+        "value": "$1.23 trillion"
+      },
+      {
+        "rank": 3,
+        "code": "CH",
+        "value": "$862 billion"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "$652 billion"
+      },
+      {
+        "rank": 5,
+        "code": "TW",
+        "value": "$573 billion"
+      },
+      {
+        "rank": 6,
+        "code": "RU",
+        "value": "$570 billion"
+      },
+      {
+        "rank": 7,
+        "code": "SA",
+        "value": "$460 billion"
+      },
+      {
+        "rank": 8,
+        "code": "HK",
+        "value": "$421 billion"
+      },
+      {
+        "rank": 9,
+        "code": "KR",
+        "value": "$413 billion"
+      },
+      {
+        "rank": 10,
+        "code": "SG",
+        "value": "$378 billion"
+      },
+      {
+        "rank": 11,
+        "code": "BR",
+        "value": "$355 billion"
+      },
+      {
+        "rank": 12,
+        "code": "DE",
+        "value": "$323 billion"
+      },
+      {
+        "rank": 13,
+        "code": "US",
+        "value": "$243 billion"
+      },
+      {
+        "rank": 14,
+        "code": "MX",
+        "value": "$221 billion"
+      },
+      {
+        "rank": 15,
+        "code": "TH",
+        "value": "$219 billion"
+      }
+    ]
+  },
+  {
+    "id": "economy-most-billionaires-2024",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Most billionaires",
+    "prompt": "Name the countries that are home to the most billionaires (by citizenship).",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "Forbes World's Billionaires List",
+      "url": "https://www.forbes.com/billionaires/",
+      "asOf": "Forbes Billionaires 2024 (published April 2024)"
+    },
+    "note": "Billionaires ranked by country of citizenship (not residence). Net worth threshold of at least US$1 billion.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "813 billionaires"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "473 billionaires"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "200 billionaires"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "132 billionaires"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "120 billionaires"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "73 billionaires"
+      },
+      {
+        "rank": 7,
+        "code": "HK",
+        "value": "70 billionaires"
+      },
+      {
+        "rank": 8,
+        "code": "BR",
+        "value": "69 billionaires"
+      },
+      {
+        "rank": 9,
+        "code": "CA",
+        "value": "67 billionaires"
+      },
+      {
+        "rank": 10,
+        "code": "GB",
+        "value": "55 billionaires"
+      },
+      {
+        "rank": 11,
+        "code": "TW",
+        "value": "51 billionaires"
+      },
+      {
+        "rank": 12,
+        "code": "AU",
+        "value": "47 billionaires"
+      },
+      {
+        "rank": 13,
+        "code": "FR",
+        "value": "43 billionaires"
+      },
+      {
+        "rank": 14,
+        "code": "CH",
+        "value": "41 billionaires"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "31 billionaires"
+      }
+    ]
+  },
+  {
+    "id": "economy-largest-gold-producers-2023",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Largest gold producers",
+    "prompt": "Name the countries that mine the most gold each year.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "U.S. Geological Survey \u2014 Mineral Commodity Summaries",
+      "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-gold.pdf",
+      "asOf": "USGS 2023 mine production estimates"
+    },
+    "note": "Mine production of gold in metric tonnes. Excludes recycled gold and by-product recovery outside mining.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "370 tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "AU",
+        "value": "310 tonnes"
+      },
+      {
+        "rank": 2,
+        "code": "RU",
+        "value": "310 tonnes (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "200 tonnes"
+      },
+      {
+        "rank": 5,
+        "code": "US",
+        "value": "170 tonnes"
+      },
+      {
+        "rank": 6,
+        "code": "KZ",
+        "value": "130 tonnes"
+      },
+      {
+        "rank": 7,
+        "code": "MX",
+        "value": "120 tonnes"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "110 tonnes"
+      },
+      {
+        "rank": 9,
+        "code": "ZA",
+        "value": "100 tonnes"
+      },
+      {
+        "rank": 9,
+        "code": "UZ",
+        "value": "100 tonnes (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PE",
+        "value": "96 tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "GH",
+        "value": "90 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "60 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "PG",
+        "value": "50 tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "AR",
+        "value": "35 tonnes"
+      }
+    ]
+  },
+  {
+    "id": "economy-largest-stock-market-capitalization-2023",
+    "theme": "Countries",
+    "subtheme": "Economy",
+    "title": "Largest stock market capitalization",
+    "prompt": "Name the countries with the largest domestic stock market capitalization.",
+    "answerType": "country",
+    "seededDepth": 15,
+    "source": {
+      "name": "World Federation of Exchanges / SIFMA",
+      "url": "https://www.world-exchanges.org/our-work/statistics",
+      "asOf": "WFE / SIFMA year-end 2023 aggregated exchange data"
+    },
+    "note": "Combined domestic market capitalization of major stock exchanges by country (e.g., NYSE + Nasdaq for US; Shanghai + Shenzhen for China; LSE for UK). Figures in US dollars.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "$50.8 trillion"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "$11.5 trillion"
+      },
+      {
+        "rank": 3,
+        "code": "JP",
+        "value": "$6.1 trillion"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "$4.7 trillion"
+      },
+      {
+        "rank": 5,
+        "code": "HK",
+        "value": "$4.0 trillion"
+      },
+      {
+        "rank": 6,
+        "code": "GB",
+        "value": "$3.2 trillion"
+      },
+      {
+        "rank": 6,
+        "code": "FR",
+        "value": "$3.2 trillion (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "$3.0 trillion"
+      },
+      {
+        "rank": 9,
+        "code": "SA",
+        "value": "$2.9 trillion"
+      },
+      {
+        "rank": 10,
+        "code": "DE",
+        "value": "$2.2 trillion"
+      },
+      {
+        "rank": 11,
+        "code": "CH",
+        "value": "$2.1 trillion"
+      },
+      {
+        "rank": 12,
+        "code": "TW",
+        "value": "$2.0 trillion"
+      },
+      {
+        "rank": 13,
+        "code": "AU",
+        "value": "$1.7 trillion"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "$1.7 trillion (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NL",
+        "value": "$1.4 trillion"
       }
     ]
   }
