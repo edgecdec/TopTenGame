@@ -21,8 +21,9 @@ cd "$APP_DIR" || { log "Failed to cd to $APP_DIR"; exit 1; }
 OLD_PKG_HASH=$(md5sum package.json 2>/dev/null | cut -d' ' -f1)
 OLD_DATA_HASH=$(md5sum data/countries.json data/questions.json 2>/dev/null | md5sum | cut -d' ' -f1)
 
-log "Stopping App..."
-pm2 stop topten >> "$LOG_FILE" 2>&1
+# NOTE: We deliberately do NOT stop pm2 here. The old server keeps serving
+# traffic while we fetch/install/seed/build. Only the final pm2 restart
+# swaps in the new code, keeping the 502 window to ~1s.
 
 log "Fetching changes..."
 git fetch origin main >> "$LOG_FILE" 2>&1
