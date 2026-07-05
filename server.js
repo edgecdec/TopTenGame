@@ -47,7 +47,7 @@ function getQuestion(id) {
   const q = db
     .prepare(
       `SELECT id, theme, subtheme, title, prompt, answer_type as answerType, seeded_depth as seededDepth,
-              source_name, source_url, source_as_of, note
+              source_name, source_url, source_as_of, note, disclaimer, trivia, as_of_date as asOfDate
        FROM questions WHERE id = ?`
     )
     .get(id);
@@ -278,6 +278,9 @@ function endRound(io, room) {
     perPlayer,
     source: q.source,
     note: q.note,
+    disclaimer: q.disclaimer || null,
+    trivia: q.trivia || null,
+    asOfDate: q.asOfDate || q.source.asOf || null,
   };
   room.phase = "intermission";
   room.endsAt = null;
@@ -319,6 +322,8 @@ function advanceToNextQuestion(io, room) {
     topN,
     picksPerPlayer,
     answerType: q.answerType,
+    disclaimer: q.disclaimer || null, // safe to show pre-round
+    asOfDate: q.asOfDate || q.source.asOf || null,
   };
   room.endsAt = endsAt;
   room.lastResults = null;

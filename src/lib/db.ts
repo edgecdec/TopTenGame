@@ -28,7 +28,10 @@ export function getDb(): Database.Database {
       source_name TEXT NOT NULL,
       source_url TEXT NOT NULL,
       source_as_of TEXT NOT NULL,
-      note TEXT
+      note TEXT,
+      disclaimer TEXT,
+      trivia TEXT,
+      as_of_date TEXT
     );
     CREATE TABLE IF NOT EXISTS answers (
       question_id TEXT NOT NULL,
@@ -42,6 +45,12 @@ export function getDb(): Database.Database {
     CREATE INDEX IF NOT EXISTS idx_options_type ON answer_options(answer_type);
     CREATE INDEX IF NOT EXISTS idx_questions_theme ON questions(theme);
   `);
+  // In-place migration for legacy DBs
+  const cols = _db.prepare("PRAGMA table_info(questions)").all() as Array<{ name: string }>;
+  const has = (n: string) => cols.some((c) => c.name === n);
+  if (!has("disclaimer")) _db.exec("ALTER TABLE questions ADD COLUMN disclaimer TEXT");
+  if (!has("trivia")) _db.exec("ALTER TABLE questions ADD COLUMN trivia TEXT");
+  if (!has("as_of_date")) _db.exec("ALTER TABLE questions ADD COLUMN as_of_date TEXT");
   return _db;
 }
 
@@ -58,6 +67,9 @@ export type Question = {
   seededDepth: number;
   source: QuestionSource;
   note: string | null;
+  disclaimer: string | null;
+  trivia: string | null;
+  asOfDate: string | null;
   answers: QuestionAnswer[];
 };
 

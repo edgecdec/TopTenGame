@@ -522,9 +522,14 @@ function PlayingView({
       <Paper sx={{ p: 3 }}>
         <Stack direction="row" justifyContent="space-between" alignItems={{ sm: "center" }} flexWrap="wrap" gap={2}>
           <Box>
-            <Typography variant="caption" color="text.secondary">
-              Question {state.currentQuestionIdx + 1} of {state.totalQuestions}
-            </Typography>
+            <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 0.5 }}>
+              <Typography variant="caption" color="text.secondary">
+                Question {state.currentQuestionIdx + 1} of {state.totalQuestions}
+              </Typography>
+              {meta.asOfDate && (
+                <Chip label={`as of ${meta.asOfDate}`} size="small" variant="outlined" />
+              )}
+            </Stack>
             <Typography variant="h5" fontWeight={700}>
               {meta.title}
             </Typography>
@@ -536,6 +541,11 @@ function PlayingView({
         <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
           {meta.prompt} Pick {meta.picksPerPlayer === 1 ? `one ${unitLabel.singular}` : `up to ${meta.picksPerPlayer} ${unitLabel.plural}`} from the top {meta.topN}.
         </Typography>
+        {meta.disclaimer && (
+          <Alert severity="info" sx={{ mt: 2 }}>
+            {meta.disclaimer}
+          </Alert>
+        )}
         <Autocomplete
           multiple={meta.picksPerPlayer > 1}
           options={optionsSorted}
@@ -599,35 +609,54 @@ function IntermissionView({
   return (
     <Stack spacing={3}>
       <Paper sx={{ p: 3 }}>
-        <Typography variant="caption" color="text.secondary">
-          Question {state.currentQuestionIdx + 1} of {state.totalQuestions} — Results
-        </Typography>
+        <Stack direction="row" alignItems="center" spacing={1} sx={{ mb: 0.5 }}>
+          <Typography variant="caption" color="text.secondary">
+            Question {state.currentQuestionIdx + 1} of {state.totalQuestions} — Results
+          </Typography>
+          {r.asOfDate && (
+            <Chip label={`as of ${r.asOfDate}`} size="small" variant="outlined" />
+          )}
+        </Stack>
         <Typography variant="h5" fontWeight={700} gutterBottom>
           {r.questionTitle}
         </Typography>
         <Alert severity="success" sx={{ mb: 2 }}>
-          Source: <strong>{r.source.name}</strong> ({r.source.asOf}) —{" "}
-          <MuiLink href={r.source.url} target="_blank" rel="noreferrer">
-            view
-          </MuiLink>
+          Source: <strong>{r.source.name}</strong>
+          {r.source.url && (
+            <>
+              {" — "}
+              <MuiLink href={r.source.url} target="_blank" rel="noreferrer">
+                view
+              </MuiLink>
+            </>
+          )}
         </Alert>
-        {r.note && (
-          <Alert severity="info" sx={{ mb: 2 }}>
-            {r.note}
-          </Alert>
-        )}
         <Typography variant="h6" gutterBottom>
           Correct answers
         </Typography>
         <Stack spacing={0.5}>
           {r.correctAnswers.map((a) => (
-            <Stack key={a.rank} direction="row" spacing={2}>
+            <Stack key={`${a.rank}-${a.code}`} direction="row" spacing={2}>
               <Typography sx={{ width: 32, fontWeight: 700 }}>#{a.rank}</Typography>
               <Typography sx={{ flex: 1 }}>{a.label}</Typography>
               <Typography color="text.secondary">{a.value}</Typography>
             </Stack>
           ))}
         </Stack>
+        {(r.disclaimer || r.trivia) && (
+          <Box sx={{ mt: 3 }}>
+            {r.disclaimer && (
+              <Alert severity="info" sx={{ mb: r.trivia ? 1.5 : 0 }}>
+                <strong>Note:</strong> {r.disclaimer}
+              </Alert>
+            )}
+            {r.trivia && (
+              <Alert severity="warning" icon={false} sx={{ backgroundColor: "rgba(124,92,255,0.12)", color: "inherit" }}>
+                <strong>Did you know?</strong> {r.trivia}
+              </Alert>
+            )}
+          </Box>
+        )}
       </Paper>
 
       <Paper sx={{ p: 3 }}>

@@ -33,6 +33,9 @@ export type RoundResults = {
   >;
   source: { name: string; url: string; asOf: string };
   note: string | null;
+  disclaimer: string | null;
+  trivia: string | null;
+  asOfDate: string | null;
 };
 
 export type FinalScoreboardEntry = { playerId: string; name: string; score: number };
@@ -53,6 +56,8 @@ export type ClientRoomState = {
     topN: number;
     picksPerPlayer: number;
     answerType: string;
+    disclaimer: string | null;
+    asOfDate: string | null;
   } | null;
   endsAt: number | null;
   lastResults: RoundResults | null;

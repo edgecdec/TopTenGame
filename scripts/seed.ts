@@ -15,8 +15,8 @@ const insertOption = db.prepare(
 );
 const insertQuestion = db.prepare(
   `INSERT OR REPLACE INTO questions
-   (id, theme, subtheme, title, prompt, answer_type, seeded_depth, source_name, source_url, source_as_of, note)
-   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+   (id, theme, subtheme, title, prompt, answer_type, seeded_depth, source_name, source_url, source_as_of, note, disclaimer, trivia, as_of_date)
+   VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
 );
 const insertAnswer = db.prepare(
   "INSERT INTO answers (question_id, rank, code, value) VALUES (?, ?, ?, ?)"
@@ -41,7 +41,10 @@ const runSeed = db.transaction(() => {
       q.source.name,
       q.source.url,
       q.source.asOf,
-      q.note ?? null
+      q.note ?? null,
+      q.disclaimer ?? null,
+      q.trivia ?? null,
+      q.asOfDate ?? null
     );
     for (const a of q.answers) insertAnswer.run(q.id, a.rank, a.code, a.value);
   }

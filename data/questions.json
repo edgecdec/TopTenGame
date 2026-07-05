@@ -112,7 +112,10 @@
         "code": "TH",
         "value": "71,668,011"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024 (mid-year estimate)"
   },
   {
     "id": "countries-area-2024",
@@ -228,7 +231,10 @@
         "code": "TD",
         "value": "1,284,000 km\u00b2"
       }
-    ]
+    ],
+    "disclaimer": "Total area = land + inland waters. Territorial seas and EEZs excluded.",
+    "trivia": "This UN convention places China above the US at #3.",
+    "asOfDate": "UNSD Demographic Yearbook (2020\u20132023)"
   },
   {
     "id": "countries-gdp-2024",
@@ -344,7 +350,10 @@
         "code": "CH",
         "value": "$970B"
       }
-    ]
+    ],
+    "disclaimer": "Nominal GDP in USD billions, not PPP.",
+    "trivia": null,
+    "asOfDate": "2024 (IMF estimate)"
   },
   {
     "id": "countries-unesco-2025",
@@ -435,7 +444,10 @@
         "code": "TR",
         "value": "22 sites (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Ties are broken alphabetically. Rank 11 (Japan/USA) and rank 14 (Canada/Turkey) are two-way ties.",
+    "trivia": null,
+    "asOfDate": "July 2025, after 47th session of the World Heritage Committee"
   },
   {
     "id": "countries-tourism-2023",
@@ -541,7 +553,10 @@
         "code": "CA",
         "value": "18.3M arrivals"
       }
-    ]
+    ],
+    "disclaimer": "Hong Kong and Macau are excluded \u2014 they are SARs of China, not sovereign countries. Original ranks in the UNWTO list have been shifted up to reflect this.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "culture-most-nobel-prize-laureates-by-country-2024",
@@ -648,7 +663,10 @@
         "code": "NO",
         "value": "14 laureates (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Attribution follows the Nobel Committee's country association for each laureate (which may include country of birth, citizenship, or affiliated institution). Some laureates count under multiple countries. Counts include Peace Prize.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Nobel Prizes"
   },
   {
     "id": "culture-most-oscar-wins-for-best-international-feature-film-2024",
@@ -735,7 +753,10 @@
         "code": "IR",
         "value": "2 wins (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Includes Special/Honorary Awards for foreign-language films (e.g., prior to the competitive category's 1956 inception). Germany and West Germany, and the Soviet Union and Russia, are counted separately per Academy convention.",
+    "trivia": null,
+    "asOfDate": "Through 96th Academy Awards (2024 ceremony)"
   },
   {
     "id": "culture-most-eurovision-song-contest-wins-2024",
@@ -827,7 +848,10 @@
         "code": "ES",
         "value": "2 wins (tied)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Ireland and Sweden are tied at 7 wins. Ireland is the only country to win three times in a row (1992-1994).",
+    "asOfDate": "Through Eurovision 2024 (won by Switzerland)"
   },
   {
     "id": "culture-most-michelin-three-star-restaurants-2025",
@@ -919,7 +943,10 @@
         "code": "BR",
         "value": "2 three-star restaurants (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Only counts the highest tier (three Michelin stars). Michelin only publishes guides in countries/regions where it operates, so unrated countries could theoretically host high-quality restaurants.",
+    "trivia": "France total includes Monaco per Michelin's Guide France.",
+    "asOfDate": "2025 Michelin Guides (156 three-star restaurants worldwide)"
   },
   {
     "id": "culture-largest-video-game-markets-by-revenue-2025",
@@ -986,7 +1013,10 @@
         "code": "MX",
         "value": "$2.7B (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Includes revenue from console, PC, and mobile games (excluding hardware, tax, and B2B services).",
+    "trivia": null,
+    "asOfDate": "2025 (Newzoo estimates, USD)"
   },
   {
     "id": "culture-most-spoken-languages-by-native-speakers-primary-country-2023",
@@ -1073,7 +1103,10 @@
         "code": "FR",
         "value": "~74M native speakers"
       }
-    ]
+    ],
+    "disclaimer": "Each entry pairs a top-ranked language with the country most closely identified as its origin or largest native-speaker base. Ethnologue splits Chinese and Arabic into individual varieties (Mandarin, Yue, Wu; Egyptian Arabic, etc.) rather than treating each as a single macrolanguage.",
+    "trivia": null,
+    "asOfDate": "Ethnologue 26th edition (2023)"
   },
   {
     "id": "culture-most-english-speakers-by-country-native-second-language-2010",
@@ -1165,7 +1198,10 @@
         "code": "UG",
         "value": "~20M speakers"
       }
-    ]
+    ],
+    "disclaimer": "Includes both native (L1) and second-language (L2) speakers. Figures are drawn from national censuses and Ethnologue and are approximate \u2014 several sources are dated.",
+    "trivia": null,
+    "asOfDate": "Compiled from most recent national censuses (2010s-2020s)"
   },
   {
     "id": "environment-largest-total-co2-emissions-annual-2023",
@@ -1257,7 +1293,10 @@
         "code": "AU",
         "value": "0.39 Gt CO2"
       }
-    ]
+    ],
+    "disclaimer": "Fossil fuel + industry CO2 only (excludes land-use change).",
+    "trivia": "China alone emits roughly as much as the next three combined.",
+    "asOfDate": "2023 data (published 2024)"
   },
   {
     "id": "environment-highest-co2-emissions-per-capita-2023",
@@ -1349,7 +1388,10 @@
         "code": "TM",
         "value": "10.9 t CO2 per person"
       }
-    ]
+    ],
+    "disclaimer": "Small oil/gas states dominate the top ranks \u2014 that's the point of this leaderboard. Excludes tiny territories under 100k population.",
+    "trivia": null,
+    "asOfDate": "2023 data (published 2024)"
   },
   {
     "id": "environment-highest-share-of-electricity-from-renewables-2023",
@@ -1441,7 +1483,10 @@
         "code": "SE",
         "value": "68% renewable electricity (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Renewables = hydro + wind + solar + bioenergy + geothermal.",
+    "trivia": "Several countries approach 100% thanks to hydro (Norway, Paraguay, Bhutan, Nepal, DRC, Ethiopia, Costa Rica).",
+    "asOfDate": "2023 data (published 2024)"
   },
   {
     "id": "environment-largest-installed-solar-power-capacity-2023",
@@ -1533,7 +1578,10 @@
         "code": "TR",
         "value": "12 GW installed"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "China's solar fleet is bigger than the rest of the top 10 combined. Rankings shift fast \u2014 China added another ~275 GW in 2024 alone.",
+    "asOfDate": "End of 2023"
   },
   {
     "id": "environment-largest-installed-wind-power-capacity-2023",
@@ -1625,7 +1673,10 @@
         "code": "PL",
         "value": "9 GW installed"
       }
-    ]
+    ],
+    "disclaimer": "hold roughly two-thirds of global wind capacity between them.",
+    "trivia": "China and the U.S.",
+    "asOfDate": "End of 2023"
   },
   {
     "id": "environment-largest-nuclear-power-generation-2023",
@@ -1717,7 +1768,10 @@
         "code": "CZ",
         "value": "30 TWh"
       }
-    ]
+    ],
+    "disclaimer": "Ranked by annual electricity generated (TWh), not reactor count.",
+    "trivia": "France gets ~65% of its electricity from nuclear \u2014 the highest share of any large economy.",
+    "asOfDate": "2023 data"
   },
   {
     "id": "environment-largest-forest-cover-of-land-area-2022",
@@ -1809,7 +1863,10 @@
         "code": "ID",
         "value": "49% forest cover"
       }
-    ]
+    ],
+    "disclaimer": "Excludes microstates and territories. French Guiana would beat both but it's an overseas department of France.",
+    "trivia": "Suriname and Guyana are the greenest countries on Earth by this measure.",
+    "asOfDate": "2022 data (World Bank, from FAO FRA)"
   },
   {
     "id": "environment-worst-air-quality-highest-annual-average-pm2-5-2023",
@@ -1901,7 +1958,10 @@
         "code": "CN",
         "value": "32.5 \u00b5g/m\u00b3"
       }
-    ]
+    ],
+    "disclaimer": "WHO guideline is 5 \u00b5g/m\u00b3 \u2014 the top of this list runs 15-16x higher.",
+    "trivia": "South Asia dominates: Bangladesh, Pakistan, India and Nepal are all in the top 10.",
+    "asOfDate": "2023 data (published March 2024)"
   },
   {
     "id": "food-drink-largest-coffee-producers-2023",
@@ -1993,7 +2053,10 @@
         "code": "TZ",
         "value": "~1.2 million 60kg bags"
       }
-    ]
+    ],
+    "disclaimer": "Reported in 60kg bags (the industry standard sack). Includes both Arabica and Robusta.",
+    "trivia": null,
+    "asOfDate": "Coffee year 2023/24 (Oct 2023 \u2013 Sep 2024)"
   },
   {
     "id": "food-drink-largest-wine-producers-2023",
@@ -2085,7 +2148,10 @@
         "code": "GR",
         "value": "2.1 mhl"
       }
-    ]
+    ],
+    "disclaimer": "Measured in millions of hectolitres (mhl).",
+    "trivia": "2023 was a historically low global vintage due to weather; France briefly overtook Italy as #1.",
+    "asOfDate": "2023 production year"
   },
   {
     "id": "food-drink-highest-beer-consumption-per-capita-2023",
@@ -2177,7 +2243,10 @@
         "code": "BG",
         "value": "~67 L per capita"
       }
-    ]
+    ],
+    "disclaimer": "Litres per person per year. Czech Republic has led this ranking every year since 1993.",
+    "trivia": null,
+    "asOfDate": "2023 consumption year"
   },
   {
     "id": "food-drink-largest-rice-producers-2022",
@@ -2269,7 +2338,10 @@
         "code": "NG",
         "value": "~5.4 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Rice, paddy (unmilled).",
+    "trivia": "China and India together produce roughly half of the world's rice.",
+    "asOfDate": "2022 production year"
   },
   {
     "id": "food-drink-largest-wheat-producers-2022",
@@ -2361,7 +2433,10 @@
         "code": "PL",
         "value": "~12.5 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "China and India together produce roughly one-third of world wheat. Russia is by far the largest exporter.",
+    "asOfDate": "2022 production year"
   },
   {
     "id": "food-drink-most-cattle-in-the-country-2022",
@@ -2453,7 +2528,10 @@
         "code": "RU",
         "value": "~17.6 million head"
       }
-    ]
+    ],
+    "disclaimer": "Head of cattle (bovine, excluding buffalo). India includes both dairy cattle and religiously protected populations.",
+    "trivia": null,
+    "asOfDate": "2022 stock year"
   },
   {
     "id": "food-drink-largest-fish-catch-capture-fisheries-2022",
@@ -2545,7 +2623,10 @@
         "code": "TH",
         "value": "~1.3 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Marine and inland capture fisheries only \u2014 excludes aquaculture.",
+    "trivia": "Peru's total swings wildly year-to-year with El Ni\u00f1o-driven anchoveta cycles.",
+    "asOfDate": "2022 catch year"
   },
   {
     "id": "food-drink-highest-meat-consumption-per-capita-2022",
@@ -2637,7 +2718,10 @@
         "code": "MN",
         "value": "~84 kg per capita"
       }
-    ]
+    ],
+    "disclaimer": "Kilograms of meat (beef, pork, poultry, sheep) per person per year, carcass weight equivalent. Excludes seafood.",
+    "trivia": null,
+    "asOfDate": "2022 consumption year"
   },
   {
     "id": "geography-longest-coastline-2023",
@@ -2729,7 +2813,10 @@
         "code": "BR",
         "value": "7,491 km"
       }
-    ]
+    ],
+    "disclaimer": "Canada is a massive outlier \u2014 its coastline (including the Arctic archipelago) is roughly six times longer than any other country's. Methodologies differ; the CIA WFB and the World Resources Institute produce different values because coastline length is fractal and depends on measurement resolution.",
+    "trivia": null,
+    "asOfDate": "CIA World Factbook, last major update 2023-2024"
   },
   {
     "id": "geography-highest-population-density-2023",
@@ -2806,7 +2893,10 @@
         "code": "RW",
         "value": "~525 /km\u00b2"
       }
-    ]
+    ],
+    "disclaimer": "Microstates and city-states dominate this list. Excludes dependent territories like Macau. Bangladesh is the densest country with a population above 100 million.",
+    "trivia": "Monaco (~19,000/km\u00b2) and Singapore (~8,000/km\u00b2) are near-total urban jurisdictions.",
+    "asOfDate": "2023 World Bank estimates"
   },
   {
     "id": "geography-highest-urbanization-rate-2018",
@@ -2883,7 +2973,10 @@
         "code": "JP",
         "value": "91.9% urban"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "City-states (Singapore, Monaco, Vatican, Hong Kong) are 100% urban by definition. Kuwait's near-100% urban rate reflects the country being effectively a single metropolitan area (Kuwait City) surrounded by desert.",
+    "asOfDate": "2018 revision, updated with 2023 estimates"
   },
   {
     "id": "geography-highest-median-age-2024",
@@ -2975,7 +3068,10 @@
         "code": "CZ",
         "value": "43.3 years"
       }
-    ]
+    ],
+    "disclaimer": "Median age is the age that divides the population into two numerically equal halves.",
+    "trivia": "Monaco tops the list but is often excluded from UN WPP main rankings due to its small size. Japan is the most-cited leader among major economies.",
+    "asOfDate": "2024 revision"
   },
   {
     "id": "geography-highest-foreign-born-population-share-2020",
@@ -3067,7 +3163,10 @@
         "code": "IL",
         "value": "22.6%"
       }
-    ]
+    ],
+    "disclaimer": "Gulf states dominate due to migrant labor systems. Vatican City is technically ~100% foreign-born but not always reported. Excludes territories and dependencies.",
+    "trivia": null,
+    "asOfDate": "2020 revision"
   },
   {
     "id": "geography-most-bordering-countries-2024",
@@ -3144,7 +3243,10 @@
         "code": "SD",
         "value": "7 neighbors (tied)"
       }
-    ]
+    ],
+    "disclaimer": "This ranking counts only sovereign UN member states; disputed territories like Kosovo/Palestine are excluded by some sources, which changes counts.",
+    "trivia": "Russia and China tie at 14 land neighbors each.",
+    "asOfDate": "CIA World Factbook, 2024"
   },
   {
     "id": "geography-lowest-population-smallest-countries-2024",
@@ -3236,7 +3338,10 @@
         "code": "FM",
         "value": "~114,200"
       }
-    ]
+    ],
+    "disclaimer": "Vatican City is a UN observer state, not a member. Excludes dependent territories (Pitcairn Islands, Tokelau, etc.).",
+    "trivia": "Tuvalu and Nauru regularly swap positions.",
+    "asOfDate": "2024 revision"
   },
   {
     "id": "geography-highest-average-elevation-2024",
@@ -3313,7 +3418,10 @@
         "code": "BO",
         "value": "1,192 m"
       }
-    ]
+    ],
+    "disclaimer": "Bolivia's high figure reflects the Altiplano dominating its populated west, though Amazon lowlands cover its east.",
+    "trivia": "Bhutan is sometimes included with a higher mean elevation but the CIA WFB does not publish a mean figure for it.",
+    "asOfDate": "CIA World Factbook, 2024"
   },
   {
     "id": "health-highest-life-expectancy-at-birth-2024",
@@ -3420,7 +3528,10 @@
         "code": "CA",
         "value": "82.2 years"
       }
-    ]
+    ],
+    "disclaimer": "Microstates (Monaco, San Marino) are excluded per UN WPP methodology; this is the standard sovereign-state ranking.",
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "health-most-physicians-per-1-000-people-2020",
@@ -3527,7 +3638,10 @@
         "code": "AU",
         "value": "4.0 per 1,000"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Cuba's high figure reflects broad training programs; Monaco and San Marino excluded as microstates skew the top ranks.",
+    "asOfDate": "2020-2022 latest available"
   },
   {
     "id": "health-highest-health-expenditure-as-of-gdp-2022",
@@ -3634,7 +3748,10 @@
         "code": "NO",
         "value": "8.0% of GDP"
       }
-    ]
+    ],
+    "disclaimer": "Includes public and private spending; the US leads by a wide margin among large economies.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "health-highest-obesity-rate-adults-2022",
@@ -3731,7 +3848,10 @@
         "code": "EG",
         "value": "32.0%"
       }
-    ]
+    ],
+    "disclaimer": "Pacific Island nations dominate the top ranks; the game shows sovereign states only. Values reflect WHO age-standardized estimates for adults 18+.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "health-highest-suicide-rate-2021",
@@ -3838,7 +3958,10 @@
         "code": "US",
         "value": "14.5 per 100k"
       }
-    ]
+    ],
+    "disclaimer": "Age-standardized rate per 100,000 people, both sexes. Reporting quality varies significantly across countries.",
+    "trivia": null,
+    "asOfDate": "2021"
   },
   {
     "id": "health-highest-cancer-incidence-rate-2022",
@@ -3945,7 +4068,10 @@
         "code": "IT",
         "value": "292.6 per 100k"
       }
-    ]
+    ],
+    "disclaimer": "High rates in wealthy nations reflect longer lifespans and better cancer detection/registries, not necessarily worse cancer causation.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "health-lowest-infant-mortality-rate-2022",
@@ -4052,7 +4178,10 @@
         "code": "FR",
         "value": "3.4 per 1,000"
       }
-    ]
+    ],
+    "disclaimer": "Reporting definitions vary; some countries do not count extremely premature births as live births, which can artificially lower rates.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "health-most-hospital-beds-per-1-000-people-2020",
@@ -4159,7 +4288,10 @@
         "code": "CH",
         "value": "4.6 per 1,000"
       }
-    ]
+    ],
+    "disclaimer": "Includes all inpatient beds. North Korea's high figure reflects self-reported data; hospital bed density does not always correlate with care quality.",
+    "trivia": null,
+    "asOfDate": "2020-2021 latest available"
   },
   {
     "id": "military-largest-active-military-personnel-2024",
@@ -4251,7 +4383,10 @@
         "code": "TR",
         "value": "355,200 active"
       }
-    ]
+    ],
+    "disclaimer": "Active-duty uniformed personnel only. Excludes reserves and paramilitaries.",
+    "trivia": "North Korea's figure is IISS's central estimate; open-source estimates vary.",
+    "asOfDate": "IISS Military Balance 2024 (data as of late 2023)"
   },
   {
     "id": "military-largest-defense-budget-2024",
@@ -4343,7 +4478,10 @@
         "code": "AU",
         "value": "$33.8 billion"
       }
-    ]
+    ],
+    "disclaimer": "Current US-dollar figures for 2024. Ukraine excludes external military aid.",
+    "trivia": "China, Russia, Saudi Arabia and Israel figures are SIPRI estimates.",
+    "asOfDate": "SIPRI 2024 data, published April 2025"
   },
   {
     "id": "military-countries-with-nuclear-weapons-warhead-stockpiles-2024",
@@ -4405,7 +4543,10 @@
         "code": "KP",
         "value": "50 warheads (est.)"
       }
-    ]
+    ],
+    "disclaimer": "Total inventory including deployed, stored, and retired-but-intact warheads. Israel neither confirms nor denies its arsenal. North Korea's count is highly uncertain \u2014 SIPRI estimates ~50 assembled warheads but material for more.",
+    "trivia": null,
+    "asOfDate": "SIPRI estimates as of January 2024"
   },
   {
     "id": "military-highest-military-spending-as-share-of-gdp-2024",
@@ -4472,7 +4613,10 @@
         "code": "US",
         "value": "3.4% of GDP"
       }
-    ]
+    ],
+    "disclaimer": "Percentage of GDP spent on the military in 2024. Excludes countries where SIPRI cannot produce a reliable estimate.",
+    "trivia": "Ukraine's share reflects wartime mobilization.",
+    "asOfDate": "SIPRI 2024 data, published April 2025"
   },
   {
     "id": "military-largest-arms-exporters-2019",
@@ -4539,7 +4683,10 @@
         "code": "KR",
         "value": "2.0% of global exports"
       }
-    ]
+    ],
+    "disclaimer": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) \u2014 a volume metric, not a dollar figure. Covers 2019\u20132023 combined.",
+    "trivia": null,
+    "asOfDate": "SIPRI five-year period 2019\u20132023, published March 2024"
   },
   {
     "id": "military-largest-arms-importers-2019",
@@ -4606,7 +4753,10 @@
         "code": "CN",
         "value": "2.9% of global imports"
       }
-    ]
+    ],
+    "disclaimer": "Global share of major-conventional-weapons imports measured by SIPRI's Trend Indicator Value (TIV).",
+    "trivia": "Ukraine's rise reflects deliveries from allies since Russia's 2022 invasion.",
+    "asOfDate": "SIPRI five-year period 2019\u20132023, published March 2024"
   },
   {
     "id": "military-most-main-battle-tanks-in-active-service-2024",
@@ -4673,7 +4823,10 @@
         "code": "IL",
         "value": "490 active MBTs"
       }
-    ]
+    ],
+    "disclaimer": "Active-inventory main battle tanks (MBTs) only, excluding stored/reserve fleets.",
+    "trivia": "Russia's active fleet has been sharply reduced by losses in Ukraine; totals including storage would rank Russia far higher.",
+    "asOfDate": "IISS Military Balance 2024 (data as of late 2023)"
   },
   {
     "id": "society-highest-world-happiness-report-score-2024",
@@ -4780,7 +4933,10 @@
         "code": "CZ",
         "value": "6.822"
       }
-    ]
+    ],
+    "disclaimer": "Score is a 0-10 life-evaluation ladder average from Gallup World Poll respondents.",
+    "trivia": null,
+    "asOfDate": "2024 (based on 2021-2023 survey data)"
   },
   {
     "id": "society-least-corrupt-countries-corruption-perceptions-index-2023",
@@ -4887,7 +5043,10 @@
         "code": "AT",
         "value": "71"
       }
-    ]
+    ],
+    "disclaimer": "Higher score (out of 100) = less perceived corruption. Ties share the same rank.",
+    "trivia": null,
+    "asOfDate": "2023 (published January 2024)"
   },
   {
     "id": "society-highest-human-development-index-2022",
@@ -4994,7 +5153,10 @@
         "code": "CA",
         "value": "0.935"
       }
-    ]
+    ],
+    "disclaimer": "HDI is a composite of life expectancy, education, and GNI per capita. Scored 0-1.",
+    "trivia": null,
+    "asOfDate": "2022 data (published March 2024)"
   },
   {
     "id": "society-most-peaceful-countries-global-peace-index-2024",
@@ -5096,7 +5258,10 @@
         "code": "NL",
         "value": "1.522"
       }
-    ]
+    ],
+    "disclaimer": "Lower score = more peaceful. Composite of 23 indicators covering conflict, safety, and militarization.",
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "society-highest-press-freedom-reporters-without-borders-2024",
@@ -5203,7 +5368,10 @@
         "code": "AT",
         "value": "80.20"
       }
-    ]
+    ],
+    "disclaimer": "Higher score (out of 100) = more press freedom.",
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "society-smallest-gender-gap-wef-global-gender-gap-index-2024",
@@ -5310,7 +5478,10 @@
         "code": "BB",
         "value": "0.781"
       }
-    ]
+    ],
+    "disclaimer": "Score is the share of the gender gap closed (0 = imparity, 1 = parity) across economic, education, health, and political dimensions.",
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "society-highest-incarceration-rate-per-capita-2024",
@@ -5412,7 +5583,10 @@
         "code": "PE",
         "value": "297 per 100k"
       }
-    ]
+    ],
+    "disclaimer": "Rate is prison population per 100,000 of the national population.",
+    "trivia": null,
+    "asOfDate": "2024 (latest available per country)"
   },
   {
     "id": "society-most-refugees-hosted-2023",
@@ -5504,7 +5678,10 @@
         "code": "US",
         "value": "605,000"
       }
-    ]
+    ],
+    "disclaimer": "Includes refugees under UNHCR's mandate plus Palestine refugees under UNRWA's mandate where applicable. Absolute counts, not per capita.",
+    "trivia": null,
+    "asOfDate": "End of 2023 (published June 2024)"
   },
   {
     "id": "sports-most-fifa-men-s-world-cup-wins-2022",
@@ -5561,7 +5738,10 @@
         "code": "ES",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Only 8 nations have ever won. West Germany's titles (1954, 1974, 1990) are credited to Germany per FIFA.",
+    "trivia": null,
+    "asOfDate": "After 2022 World Cup (Qatar); next edition 2026"
   },
   {
     "id": "sports-most-fifa-women-s-world-cup-wins-2023",
@@ -5603,7 +5783,10 @@
         "code": "ES",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Only 5 nations have ever won since the tournament began in 1991.",
+    "trivia": null,
+    "asOfDate": "After 2023 World Cup (Australia/New Zealand); next edition 2027"
   },
   {
     "id": "sports-most-summer-olympic-gold-medals-all-time-2024",
@@ -5695,7 +5878,10 @@
         "code": "PL",
         "value": "74 gold"
       }
-    ]
+    ],
+    "disclaimer": "Soviet Union medals (1952\u20131988) are counted separately from Russia and are excluded here to avoid the Soviet/Unified Team/Russia confusion. Germany combines West/East/unified totals per IOC convention.",
+    "trivia": null,
+    "asOfDate": "Through Paris 2024"
   },
   {
     "id": "sports-most-winter-olympic-gold-medals-all-time-2022",
@@ -5767,7 +5953,10 @@
         "code": "KR",
         "value": "33 gold"
       }
-    ]
+    ],
+    "disclaimer": "Soviet Union (78 gold, 1956\u20131988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
+    "trivia": null,
+    "asOfDate": "Through Beijing 2022"
   },
   {
     "id": "sports-most-rugby-union-world-cup-wins-2023",
@@ -5804,7 +5993,10 @@
         "code": "GB",
         "value": "1 title"
       }
-    ]
+    ],
+    "disclaimer": "Only 4 nations have ever won the men's Rugby World Cup since its 1987 inception.",
+    "trivia": null,
+    "asOfDate": "After 2023 Rugby World Cup (France); next edition 2027"
   },
   {
     "id": "sports-most-icc-men-s-cricket-world-cup-wins-2023",
@@ -5846,7 +6038,10 @@
         "code": "GB",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "disclaimer": "50-over ODI World Cup only. Does not include T20 World Cup or Champions Trophy.",
+    "trivia": null,
+    "asOfDate": "After 2023 Cricket World Cup (India); next edition 2027"
   },
   {
     "id": "sports-most-formula-1-constructors-championships-2024",
@@ -5893,7 +6088,10 @@
         "code": "CH",
         "value": "1 title"
       }
-    ]
+    ],
+    "disclaimer": "Nationality assigned by the team's constructor license country (e.g. Constructors' Championship began in 1958.",
+    "trivia": "Ferrari = Italy, McLaren/Williams/Mercedes = UK, Red Bull = Austria).",
+    "asOfDate": "End of 2024 season"
   },
   {
     "id": "sports-highest-fifa-men-s-world-ranking-elo-based-2025",
@@ -5985,7 +6183,10 @@
         "code": "US",
         "value": "1660.00 pts"
       }
-    ]
+    ],
+    "disclaimer": "FIFA uses an Elo-based points system. Rankings shift frequently; these reflect the April 2025 publication.",
+    "trivia": null,
+    "asOfDate": "FIFA ranking published April 2025"
   },
   {
     "id": "technology-fastest-fixed-broadband-internet-speed-2026",
@@ -6102,7 +6303,10 @@
         "code": "PT",
         "value": "357.63 Mbps"
       }
-    ]
+    ],
+    "disclaimer": "Ookla only publishes a rolling monthly snapshot and blocks archive.org, so historical data is not retrievable. Median download speed in Mbps. Small territories (Hong Kong, Macau) are ranked separately by Ookla.",
+    "trivia": null,
+    "asOfDate": "May 2026 monthly ranking"
   },
   {
     "id": "technology-fastest-mobile-internet-speed-2026",
@@ -6219,7 +6423,10 @@
         "code": "XK",
         "value": "243.96 Mbps"
       }
-    ]
+    ],
+    "disclaimer": "Median mobile download speed in Mbps. Gulf states dominate due to aggressive 5G rollout. Kosovo uses ISO user-assigned code XK (not officially in ISO 3166-1).",
+    "trivia": null,
+    "asOfDate": "May 2026 monthly ranking"
   },
   {
     "id": "technology-most-internet-users-total-2024",
@@ -6336,7 +6543,10 @@
         "code": "PK",
         "value": "51 million users"
       }
-    ]
+    ],
+    "disclaimer": "India's ITU 2021 figure (608M) was updated to the DataReportal Digital 2024 figure (~752M) since India's user base has grown rapidly. Absolute rank ordering has been stable since 2021.",
+    "trivia": null,
+    "asOfDate": "India from DataReportal Jan 2024; other countries ITU 2021 (latest complete cross-country dataset)"
   },
   {
     "id": "technology-highest-internet-penetration-2024",
@@ -6453,7 +6663,10 @@
         "code": "JO",
         "value": "95.6% (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Microstates under 500K population (Monaco, Liechtenstein, San Marino, etc.) were excluded to keep answers recognizable. ITU rounds up to 100% for several Gulf states, causing a 4-way tie at #1.",
+    "trivia": null,
+    "asOfDate": "ITU 2024 data (some 2025 updates)"
   },
   {
     "id": "technology-most-patents-granted-by-origin-2023",
@@ -6570,7 +6783,10 @@
         "code": "DK",
         "value": "5,601 patents"
       }
-    ]
+    ],
+    "disclaimer": "Metric is patent grants by origin (applicant's country of residence), which counts a country's inventors regardless of which patent office granted the patent.",
+    "trivia": "Different from grants-by-office, which would put China even higher.",
+    "asOfDate": "2023 calendar year"
   },
   {
     "id": "technology-most-scientific-research-papers-published-2023",
@@ -6687,7 +6903,10 @@
         "code": "PL",
         "value": "60,414 documents"
       }
-    ]
+    ],
+    "disclaimer": "Counts documents indexed by Scopus (journal articles, conference papers, reviews).",
+    "trivia": "China overtook the US around 2018 and has continued to widen the gap.",
+    "asOfDate": "2023 calendar year"
   },
   {
     "id": "technology-highest-r-d-expenditure-of-gdp-2021",
@@ -6804,7 +7023,10 @@
         "code": "NO",
         "value": "1.94%"
       }
-    ]
+    ],
+    "disclaimer": "Also called GERD (Gross domestic Expenditure on R&D). Israel and South Korea consistently top the list. Singapore's value is 2020 (its most recent). Denmark and Iceland are tied at #12.",
+    "trivia": null,
+    "asOfDate": "2021 (most recent year with broad coverage)"
   },
   {
     "id": "technology-most-supercomputers-in-the-top500-2024",
@@ -6921,7 +7143,10 @@
         "code": "AU",
         "value": "4 systems"
       }
-    ]
+    ],
+    "disclaimer": "The TOP500 project ranks the world's most powerful non-distributed computer systems twice a year. Systems are counted by the country hosting the machine, not manufacturer. Multiple ties in the lower half of the top 20.",
+    "trivia": null,
+    "asOfDate": "November 2024 TOP500 list"
   },
   {
     "id": "economy-largest-goods-exporters-2023",
@@ -7013,7 +7238,10 @@
         "code": "GB",
         "value": "$468 billion"
       }
-    ]
+    ],
+    "disclaimer": "Merchandise (goods) exports only, excluding services. Figures in current US dollars. EU as a bloc is excluded; EU member states counted individually.",
+    "trivia": null,
+    "asOfDate": "WTO merchandise trade data for 2023"
   },
   {
     "id": "economy-highest-gdp-per-capita-nominal-2024",
@@ -7105,7 +7333,10 @@
         "code": "FI",
         "value": "$55,130"
       }
-    ]
+    ],
+    "disclaimer": "Nominal (not PPP-adjusted) GDP per capita in current US dollars. Excludes microstates and dependent territories with populations under 30,000 (e.g., Monaco, Liechtenstein) that IMF does not consistently report.",
+    "trivia": null,
+    "asOfDate": "IMF WEO October 2024 estimates for 2024"
   },
   {
     "id": "economy-largest-oil-producers-2023",
@@ -7197,7 +7428,10 @@
         "code": "NG",
         "value": "1.4 million bbl/day"
       }
-    ]
+    ],
+    "disclaimer": "Crude oil, condensate, and NGL production combined (petroleum and other liquids). Millions of barrels per day.",
+    "trivia": null,
+    "asOfDate": "EIA International Energy Statistics, 2023 annual production"
   },
   {
     "id": "economy-largest-gold-reserves-2024",
@@ -7289,7 +7523,10 @@
         "code": "UZ",
         "value": "382 tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Official monetary gold holdings by central banks and government treasuries. Excludes private holdings. Tonnes of gold.",
+    "trivia": null,
+    "asOfDate": "World Gold Council quarterly report, Q4 2024"
   },
   {
     "id": "economy-largest-foreign-exchange-reserves-2024",
@@ -7381,7 +7618,10 @@
         "code": "TH",
         "value": "$219 billion"
       }
-    ]
+    ],
+    "disclaimer": "Foreign currency reserves held by central banks, excluding gold and SDRs. Figures in US dollars.",
+    "trivia": "Includes Hong Kong SAR and Taiwan, which report separately.",
+    "asOfDate": "Central bank reports, mid-2024"
   },
   {
     "id": "economy-most-billionaires-2024",
@@ -7473,7 +7713,10 @@
         "code": "TR",
         "value": "31 billionaires"
       }
-    ]
+    ],
+    "disclaimer": "Billionaires ranked by country of citizenship (not residence). Net worth threshold of at least US$1 billion.",
+    "trivia": null,
+    "asOfDate": "Forbes Billionaires 2024 (published April 2024)"
   },
   {
     "id": "economy-largest-gold-producers-2023",
@@ -7565,7 +7808,10 @@
         "code": "AR",
         "value": "35 tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Mine production of gold in metric tonnes. Excludes recycled gold and by-product recovery outside mining.",
+    "trivia": null,
+    "asOfDate": "USGS 2023 mine production estimates"
   },
   {
     "id": "economy-largest-stock-market-capitalization-2023",
@@ -7657,7 +7903,10 @@
         "code": "NL",
         "value": "$1.4 trillion"
       }
-    ]
+    ],
+    "disclaimer": "Figures in US dollars.",
+    "trivia": "Combined domestic market capitalization of major stock exchanges by country (e.g., NYSE + Nasdaq for US; Shanghai + Shenzhen for China; LSE for UK).",
+    "asOfDate": "WFE / SIFMA year-end 2023 aggregated exchange data"
   },
   {
     "id": "climate-hottest-countries-highest-annual-average-temperature-2020",
@@ -7749,7 +7998,10 @@
         "code": "SD",
         "value": "28.0 \u00b0C annual mean"
       }
-    ]
+    ],
+    "disclaimer": "Sahel and Horn of Africa states plus small island nations near the equator run hottest on a country-average basis.",
+    "trivia": "Djibouti and Mali usually top the list because their entire land area sits in the Sahara/Sahel heat belt.",
+    "asOfDate": "1991-2020 climatology"
   },
   {
     "id": "climate-coldest-countries-lowest-annual-average-temperature-2020",
@@ -7836,7 +8088,10 @@
         "code": "LT",
         "value": "7.1 \u00b0C annual mean"
       }
-    ]
+    ],
+    "disclaimer": "Excludes Antarctica (not a country). Greenland is listed for its own climatology although it's part of the Kingdom of Denmark.",
+    "trivia": "Russia, Canada and Mongolia drag their averages down thanks to huge Arctic or high-plateau interiors.",
+    "asOfDate": "1991-2020 climatology"
   },
   {
     "id": "climate-wettest-countries-highest-annual-precipitation-2020",
@@ -7923,7 +8178,10 @@
         "code": "EC",
         "value": "2,274 mm/year"
       }
-    ]
+    ],
+    "disclaimer": "Small tropical states in the ITCZ dominate: Colombia's Pacific coast is arguably the rainiest place on Earth, and Pacific islands like the Solomons and PNG catch the wet edge of the monsoon.",
+    "trivia": null,
+    "asOfDate": "1991-2020 climatology"
   },
   {
     "id": "climate-driest-countries-lowest-annual-precipitation-2020",
@@ -8015,7 +8273,10 @@
         "code": "IL",
         "value": "435 mm/year"
       }
-    ]
+    ],
+    "disclaimer": "Gulf states and the central Sahara round out the list.",
+    "trivia": "Egypt is often listed as the driest country on Earth \u2014 its Nile-fed population survives on effectively zero rainfall averaged over the desert land area.",
+    "asOfDate": "1991-2020 climatology"
   },
   {
     "id": "climate-countries-with-the-most-volcanoes-holocene-active-2024",
@@ -8107,7 +8368,10 @@
         "code": "IT",
         "value": "16 Holocene volcanoes"
       }
-    ]
+    ],
+    "disclaimer": "Counts Holocene-active volcanic features per country. The Pacific 'Ring of Fire' produces the top of the list; the US number reflects Alaska's Aleutian arc plus the Cascades, Hawaii and Yellowstone.",
+    "trivia": null,
+    "asOfDate": "GVP database, 2024"
   },
   {
     "id": "climate-countries-with-the-highest-elevation-points-2024",
@@ -8199,7 +8463,10 @@
         "code": "PK",
         "value": "K2 \u2014 8,611 m"
       }
-    ]
+    ],
+    "disclaimer": "This list ranks countries by the elevation of their highest point regardless of whether the summit is shared.",
+    "trivia": "Everest is shared between Nepal and China (Tibet). K2 is shared between Pakistan and China.",
+    "asOfDate": "2024"
   },
   {
     "id": "climate-countries-with-the-largest-desert-coverage-2023",
@@ -8291,7 +8558,10 @@
         "code": "AR",
         "value": "~0.2 million km\u00b2 (Patagonian)"
       }
-    ]
+    ],
+    "disclaimer": "Antarctica is technically the world's largest desert but is excluded here since it isn't a country.",
+    "trivia": "Sahara dominates the top: Algeria, Libya, Sudan, Chad and Egypt are essentially all desert. China's Gobi and Australia's Great Sandy/Great Victoria push both into the top ranks.",
+    "asOfDate": "2023"
   },
   {
     "id": "culture-most-cannes-palme-d-or-wins-by-country-2024",
@@ -8358,7 +8628,10 @@
         "code": "TR",
         "value": "2 wins (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Counts include the Grand Prix du Festival International du Film (1939-1954, 1964-1974) which was renamed the Palme d'Or. Co-productions are attributed to the country most commonly associated with the film per Cannes records; shared wins in a single year count as one for each nation.",
+    "trivia": null,
+    "asOfDate": "Through Cannes 2024 (Anora, United States)"
   },
   {
     "id": "culture-most-berlinale-golden-bear-wins-by-country-2024",
@@ -8425,7 +8698,10 @@
         "code": "PL",
         "value": "2 wins (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Since 1951. Counts follow Berlinale's primary country attribution for each winning film; co-productions credited to the lead producing country. Ex aequo (shared) wins count for each country.",
+    "trivia": null,
+    "asOfDate": "Through Berlinale 2024 (Dahomey, Senegal/France/Benin)"
   },
   {
     "id": "culture-largest-recorded-music-markets-by-revenue-2023",
@@ -8517,7 +8793,10 @@
         "code": "SE",
         "value": "$0.27B"
       }
-    ]
+    ],
+    "disclaimer": "Trade value in USD, at wholesale (not retail). Includes streaming, physical, downloads, performance rights, and synchronization revenues.",
+    "trivia": null,
+    "asOfDate": "2023 full-year figures (published March 2024)"
   },
   {
     "id": "culture-largest-annual-box-office-markets-2023",
@@ -8609,7 +8888,10 @@
         "code": "ID",
         "value": "$0.34B"
       }
-    ]
+    ],
+    "disclaimer": "Gross box office revenue in USD at the local cinema box office. Includes all theatrically released films (domestic and foreign). Excludes streaming or home video revenue.",
+    "trivia": null,
+    "asOfDate": "2023 full-year theatrical box office"
   },
   {
     "id": "culture-countries-producing-the-most-feature-films-per-year-2018",
@@ -8701,7 +8983,10 @@
         "code": "BR",
         "value": "~180 films/yr"
       }
-    ]
+    ],
+    "disclaimer": "Feature-length fiction, documentary, and animation films of 60+ minutes intended for theatrical release. India's total spans multiple language industries (Bollywood, Tollywood, Kollywood, etc.). Reporting years vary by country.",
+    "trivia": null,
+    "asOfDate": "Most recent reported year per country (2018-2022 range)"
   },
   {
     "id": "culture-most-instagram-users-by-country-2024",
@@ -8793,7 +9078,10 @@
         "code": "EG",
         "value": "26M users"
       }
-    ]
+    ],
+    "disclaimer": "Counts monthly active Instagram users as reported by Meta's ad-reach tools. China is excluded because Instagram is blocked there.",
+    "trivia": null,
+    "asOfDate": "Q1 2024"
   },
   {
     "id": "culture-most-tiktok-users-by-country-2024",
@@ -8885,7 +9173,10 @@
         "code": "DE",
         "value": "22M users"
       }
-    ]
+    ],
+    "disclaimer": "Reflects TikTok users aged 18+ reachable via TikTok's ad platform. China uses Douyin (separate app, ~750M+ users) and is not included in TikTok totals.",
+    "trivia": null,
+    "asOfDate": "Early 2024"
   },
   {
     "id": "culture-most-fide-ranked-chess-grandmasters-by-federation-2024",
@@ -8972,7 +9263,10 @@
         "code": "IL",
         "value": "~40 GMs"
       }
-    ]
+    ],
+    "disclaimer": "Counts active Grandmasters (GM title, the highest FIDE title) by federation of registration, not birthplace.",
+    "trivia": "Russia's total reflects historical federation despite current international sanctions; some Russian GMs have transferred federations since 2022.",
+    "asOfDate": "2024 FIDE title lists"
   },
   {
     "id": "demographics-highest-death-rate-2024",
@@ -9064,7 +9358,10 @@
         "code": "BY",
         "value": "13.2 per 1,000"
       }
-    ]
+    ],
+    "disclaimer": "It does not measure life expectancy directly.",
+    "trivia": "Crude death rate is dominated by two very different groups: very old populations (Bulgaria, Serbia, Latvia) where lots of aged residents die each year, and conflict/health-crisis states (Ukraine post-2022, CAR, Lesotho).",
+    "asOfDate": "UN WPP 2024, estimates for 2023"
   },
   {
     "id": "demographics-most-emigrants-living-abroad-2020",
@@ -9156,7 +9453,10 @@
         "code": "KZ",
         "value": "4.0 million"
       }
-    ]
+    ],
+    "disclaimer": "The Ukrainian figure would rise sharply on any post-2022 update. Excludes second-generation descendants.",
+    "trivia": "India passed Mexico around 2015 as the world's largest source of international migrants.",
+    "asOfDate": "UN Migrant Stock 2020, released 2021"
   },
   {
     "id": "demographics-highest-gender-imbalance-male-skewed-2024",
@@ -9248,7 +9548,10 @@
         "code": "LY",
         "value": "103 men per 100 women"
       }
-    ]
+    ],
+    "disclaimer": "Gulf oil states dominate this ranking because their populations include huge male-dominated migrant labor forces (construction, services). Values are males per 100 females.",
+    "trivia": "Qatar and UAE run roughly three men per woman.",
+    "asOfDate": "UN WPP 2024, 2023 estimates"
   },
   {
     "id": "demographics-largest-household-size-2022",
@@ -9340,7 +9643,10 @@
         "code": "TD",
         "value": "5.8 persons"
       }
-    ]
+    ],
+    "disclaimer": "Sub-Saharan African and South Asian countries dominate due to high fertility and multi-generational co-residence. Values reflect the most recent census available per country.",
+    "trivia": "Senegal's ~9-person average is the highest recorded in the UN database.",
+    "asOfDate": "UN DESA 2022 database, national census data ~2015-2021"
   },
   {
     "id": "economy-highest-gdp-ppp-total-2024",
@@ -9432,7 +9738,10 @@
         "code": "ES",
         "value": "$2.65 trillion"
       }
-    ]
+    ],
+    "disclaimer": "Gross domestic product valued at purchasing power parity in current international dollars. PPP adjusts for cost-of-living differences across economies. EU aggregated by member states.",
+    "trivia": null,
+    "asOfDate": "IMF WEO October 2024 estimates for 2024"
   },
   {
     "id": "economy-highest-gdp-ppp-per-capita-2024",
@@ -9524,7 +9833,10 @@
         "code": "IS",
         "value": "$76,330"
       }
-    ]
+    ],
+    "disclaimer": "GDP per capita at purchasing power parity in international dollars. Excludes microstates and dependent territories that IMF does not report consistently (e.g., Monaco, Liechtenstein).",
+    "trivia": null,
+    "asOfDate": "IMF WEO October 2024 estimates for 2024"
   },
   {
     "id": "economy-highest-inflation-rate-annual-2024",
@@ -9616,7 +9928,10 @@
         "code": "AO",
         "value": "22.0%"
       }
-    ]
+    ],
+    "disclaimer": "Annual average consumer price index (CPI) inflation rate. Excludes economies with no recent reliable IMF data (e.g., Syria). Extreme hyperinflation cases are IMF estimates.",
+    "trivia": null,
+    "asOfDate": "IMF WEO October 2024 estimates for average annual CPI 2024"
   },
   {
     "id": "economy-highest-unemployment-rate-2023",
@@ -9708,7 +10023,10 @@
         "code": "IR",
         "value": "8.9%"
       }
-    ]
+    ],
+    "disclaimer": "Percentage of the total labor force that is unemployed but actively seeking employment. Based on ILO modelled estimates for comparability. Excludes territories where labor statistics are not reported (e.g., some conflict-affected states).",
+    "trivia": null,
+    "asOfDate": "ILO modelled estimates for 2023 (World Bank data)"
   },
   {
     "id": "economy-largest-external-debt-total-2023",
@@ -9800,7 +10118,10 @@
         "code": "BE",
         "value": "$1.6 trillion"
       }
-    ]
+    ],
+    "disclaimer": "Total external debt owed to nonresidents by public and private sectors, in US dollars. Includes both short- and long-term debt.",
+    "trivia": null,
+    "asOfDate": "CIA World Factbook country comparison, 2023 data"
   },
   {
     "id": "economy-largest-sovereign-wealth-funds-2024",
@@ -9892,7 +10213,10 @@
         "code": "LY",
         "value": "$67 billion"
       }
-    ]
+    ],
+    "disclaimer": "Total AUM aggregated across all sovereign wealth funds held by each country (state-owned investment funds excluding central bank reserves and public pension funds where SWFI classifies them separately). Values in US dollars.",
+    "trivia": null,
+    "asOfDate": "SWF Institute rankings, 2024"
   },
   {
     "id": "economy-largest-copper-producers-2023",
@@ -9984,7 +10308,10 @@
         "code": "PL",
         "value": "390 kt"
       }
-    ]
+    ],
+    "disclaimer": "Mine production of copper (contained metal) in thousand metric tons. Excludes refined copper. Rounded from USGS estimates.",
+    "trivia": null,
+    "asOfDate": "USGS Mineral Commodity Summaries, 2023 mine production"
   },
   {
     "id": "economy-highest-remittance-inflows-total-2023",
@@ -10076,7 +10403,10 @@
         "code": "MA",
         "value": "$12 billion"
       }
-    ]
+    ],
+    "disclaimer": "Personal remittances received (current US dollars), which includes personal transfers and compensation of employees from workers abroad. Excludes intra-firm capital flows.",
+    "trivia": null,
+    "asOfDate": "World Bank KNOMAD estimates for 2023"
   },
   {
     "id": "education-highest-pisa-math-scores-2022",
@@ -10183,7 +10513,10 @@
         "code": "CZ",
         "value": "487 points"
       }
-    ]
+    ],
+    "disclaimer": "PISA tests 15-year-olds every three years. Some entries (e.g., Macao, Hong Kong, Chinese Taipei) are economies rather than sovereign states in the OECD dataset.",
+    "trivia": "Singapore leads by a wide margin; several East Asian economies dominate the top ranks.",
+    "asOfDate": "2022"
   },
   {
     "id": "education-highest-pisa-reading-scores-2022",
@@ -10290,7 +10623,10 @@
         "code": "SE",
         "value": "487 points"
       }
-    ]
+    ],
+    "disclaimer": "Reading scores dropped globally in 2022 compared to 2018, largely attributed to pandemic disruptions.",
+    "trivia": "Ireland's rank is notable among Western nations.",
+    "asOfDate": "2022"
   },
   {
     "id": "education-highest-pisa-science-scores-2022",
@@ -10397,7 +10733,10 @@
         "code": "CZ",
         "value": "498 points"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Singapore, Japan, Estonia, and Korea have consistently led PISA science rankings for over a decade.",
+    "asOfDate": "2022"
   },
   {
     "id": "education-highest-tertiary-education-attainment-25-34-2022",
@@ -10504,7 +10843,10 @@
         "code": "DK",
         "value": "50.2%"
       }
-    ]
+    ],
+    "disclaimer": "South Korea leads OECD countries; the measure includes short-cycle tertiary, bachelor's, master's, and doctoral programs.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "education-most-universities-in-qs-world-top-100-2024",
@@ -10611,7 +10953,10 @@
         "code": "SE",
         "value": "1 university"
       }
-    ]
+    ],
+    "disclaimer": "The US and UK dominate the top 100 universities.",
+    "trivia": "China's rise has been notable over the past decade.",
+    "asOfDate": "2024"
   },
   {
     "id": "education-highest-education-spending-as-of-gdp-2020",
@@ -10718,7 +11063,10 @@
         "code": "NZ",
         "value": "6.3% of GDP"
       }
-    ]
+    ],
+    "disclaimer": "Includes public expenditure on all levels of education. Small Pacific and African states often lead on this indicator relative to GDP.",
+    "trivia": null,
+    "asOfDate": "2020-2022 latest available"
   },
   {
     "id": "education-most-international-students-hosted-2022",
@@ -10825,7 +11173,10 @@
         "code": "AT",
         "value": "89,000 students"
       }
-    ]
+    ],
+    "disclaimer": "The US and UK together host over 30% of the world's international students.",
+    "trivia": "Post-2020 data show renewed growth in Canadian and Australian intakes.",
+    "asOfDate": "2022"
   },
   {
     "id": "education-most-nobel-laureates-per-capita-2024",
@@ -10932,7 +11283,10 @@
         "code": "FR",
         "value": "1.0 per million"
       }
-    ]
+    ],
+    "disclaimer": "Attributed by country of birth.",
+    "trivia": "Small European countries dominate on a per-capita basis; Saint Lucia has two laureates against a tiny population.",
+    "asOfDate": "2024"
   },
   {
     "id": "food-drink-largest-tea-producers-2022",
@@ -11024,7 +11378,10 @@
         "code": "IN",
         "value": "~1.36 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Made tea, all types (green, black, oolong). China and India together account for roughly two-thirds of global output.",
+    "trivia": null,
+    "asOfDate": "2022 production year"
   },
   {
     "id": "food-drink-highest-tea-consumption-per-capita-2022",
@@ -11116,7 +11473,10 @@
         "code": "DE",
         "value": "~0.64 kg per capita"
       }
-    ]
+    ],
+    "disclaimer": "Kilograms of made tea per person per year.",
+    "trivia": "Turkey has been the runaway leader for over a decade.",
+    "asOfDate": "Approx. 2022 consumption year"
   },
   {
     "id": "food-drink-largest-cocoa-producers-2022",
@@ -11208,7 +11568,10 @@
         "code": "CI",
         "value": "~2.20 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Cocoa beans in tonnes.",
+    "trivia": "Ivory Coast and Ghana alone supply roughly 60% of the world's cocoa.",
+    "asOfDate": "2022/23 cocoa year"
   },
   {
     "id": "food-drink-largest-olive-oil-producers-2022",
@@ -11300,7 +11663,10 @@
         "code": "AU",
         "value": "~21,000 tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Tonnes of olive oil.",
+    "trivia": "Spain alone typically produces close to half of the world's supply, though the 2022/23 harvest was hit by severe drought.",
+    "asOfDate": "2022/23 crop year"
   },
   {
     "id": "food-drink-largest-milk-producers-2022",
@@ -11392,7 +11758,10 @@
         "code": "IT",
         "value": "~12.8 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Raw whole cow milk in tonnes. India leads if buffalo milk is included, but this ranking is cow milk only where India still ranks near the top.",
+    "trivia": null,
+    "asOfDate": "2022 production year"
   },
   {
     "id": "food-drink-largest-pork-producers-2023",
@@ -11484,7 +11853,10 @@
         "code": "PH",
         "value": "~1.02 million tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Pork meat (carcass weight equivalent) in tonnes.",
+    "trivia": "China alone accounts for roughly half of global pork production.",
+    "asOfDate": "2023 production year"
   },
   {
     "id": "food-drink-largest-aquaculture-producers-2022",
@@ -11576,7 +11948,10 @@
         "code": "TW",
         "value": "290,000 tonnes"
       }
-    ]
+    ],
+    "disclaimer": "Total aquaculture production including finfish, molluscs, crustaceans, and aquatic plants, in tonnes.",
+    "trivia": "China alone accounts for roughly 57% of global aquaculture output.",
+    "asOfDate": "2022 production year"
   },
   {
     "id": "food-drink-most-mcdonald-s-restaurants-per-capita-2023",
@@ -11668,7 +12043,10 @@
         "code": "FI",
         "value": "~13.5 per million"
       }
-    ]
+    ],
+    "disclaimer": "McDonald's outlets per million residents. Excludes microstates without at least 3 outlets. The U.S. remains the runaway leader with ~13,500 locations.",
+    "trivia": null,
+    "asOfDate": "Approx. 2023 store counts"
   },
   {
     "id": "health-highest-alcohol-consumption-per-capita-2019",
@@ -11760,7 +12138,10 @@
         "code": "AT",
         "value": "11.6 L"
       }
-    ]
+    ],
+    "disclaimer": "Litres of pure alcohol per person aged 15+ per year (recorded consumption from sales/production data plus WHO-estimated unrecorded). Muslim-majority countries with sales bans often rank near the bottom.",
+    "trivia": null,
+    "asOfDate": "2019 (latest WHO Global Status Report on Alcohol and Health, published 2024)"
   },
   {
     "id": "health-highest-tobacco-cigarette-consumption-per-capita-2019",
@@ -11847,7 +12228,10 @@
         "code": "JP",
         "value": "~2,400/yr"
       }
-    ]
+    ],
+    "disclaimer": "Cigarettes consumed per adult (15+) per year, from combined tax and sales data.",
+    "trivia": "Small tobacco-tourism jurisdictions (Andorra, Luxembourg) tend to rank very high due to cross-border sales.",
+    "asOfDate": "Most recent WHO/Tobacco Atlas data, 2019\u20132022"
   },
   {
     "id": "health-highest-hiv-prevalence-in-adults-2023",
@@ -11939,7 +12323,10 @@
         "code": "GA",
         "value": "2.6%"
       }
-    ]
+    ],
+    "disclaimer": "Adult (15\u201349) HIV prevalence, percent.",
+    "trivia": "Southern Africa dominates the top of this list; Eswatini has held the world's highest rate for over a decade.",
+    "asOfDate": "2023 estimates (published 2024 in UNAIDS Global AIDS Update)"
   },
   {
     "id": "health-highest-tuberculosis-incidence-2023",
@@ -12031,7 +12418,10 @@
         "code": "ZM",
         "value": "279/100k"
       }
-    ]
+    ],
+    "disclaimer": "Estimated new and relapse TB cases per 100,000 population per year. Includes all forms (pulmonary + extra-pulmonary), and both HIV-positive and HIV-negative cases.",
+    "trivia": null,
+    "asOfDate": "2023 estimates (published Oct 2024)"
   },
   {
     "id": "health-highest-maternal-mortality-ratio-2020",
@@ -12123,7 +12513,10 @@
         "code": "CM",
         "value": "438"
       }
-    ]
+    ],
+    "disclaimer": "Maternal deaths from causes related to or aggravated by pregnancy or its management, per 100,000 live births. Conflict-affected and fragile states dominate the top.",
+    "trivia": null,
+    "asOfDate": "2020 estimates (published 2023)"
   },
   {
     "id": "health-highest-total-fertility-rate-2023",
@@ -12215,7 +12608,10 @@
         "code": "GN",
         "value": "4.4"
       }
-    ]
+    ],
+    "disclaimer": "Total fertility rate (TFR): the average number of children a woman would bear over her lifetime given prevailing age-specific fertility rates. Sub-Saharan Africa dominates the top of the list.",
+    "trivia": null,
+    "asOfDate": "2023 estimates (2024 revision)"
   },
   {
     "id": "health-lowest-total-fertility-rate-2023",
@@ -12307,7 +12703,10 @@
         "code": "PT",
         "value": "1.36"
       }
-    ]
+    ],
+    "disclaimer": "Total fertility rate (TFR): the average number of children a woman would bear over her lifetime. Replacement level is ~2.1. East Asia and Southern Europe dominate the bottom of the list.",
+    "trivia": null,
+    "asOfDate": "2023 estimates (2024 revision)"
   },
   {
     "id": "health-tallest-average-adult-male-height-2000",
@@ -12394,7 +12793,10 @@
         "code": "LT",
         "value": "180.0 cm"
       }
-    ]
+    ],
+    "disclaimer": "Mean height of adult men, in centimetres. Data compiled from national health surveys.",
+    "trivia": "The Netherlands has led the world for decades; Dinaric Alps and Northern European countries dominate the top.",
+    "asOfDate": "Most recent NCD-RisC dataset (measurements of 19-year-olds, born 2000, published 2020)"
   },
   {
     "id": "politics-longest-serving-current-heads-of-state-2025",
@@ -12481,7 +12883,10 @@
         "code": "GQ",
         "value": "Teodoro Obiang Nguema Mbasogo \u2014 since 3 Aug 1979"
       }
-    ]
+    ],
+    "disclaimer": "Continuous tenure in the top political office (president, chairman, supreme leader). Ceremonial monarchs are excluded to focus on political power-holders; tenure measured from date of assumption of current office.",
+    "trivia": null,
+    "asOfDate": "As of early 2025"
   },
   {
     "id": "politics-top-contributors-of-un-peacekeeping-personnel-2024",
@@ -12573,7 +12978,10 @@
         "code": "KE",
         "value": "926"
       }
-    ]
+    ],
+    "disclaimer": "Total uniformed personnel (military contingents, individual police, formed police units, staff officers, and military experts on mission) deployed to UN peacekeeping operations.",
+    "trivia": null,
+    "asOfDate": "As of 31 October 2024"
   },
   {
     "id": "politics-highest-voter-turnout-most-recent-parliamentary-election-2024",
@@ -12665,7 +13073,10 @@
         "code": "FI",
         "value": "72.05% (2023)"
       }
-    ]
+    ],
+    "disclaimer": "Turnout is votes cast divided by registered voters. Countries with compulsory voting (e.g. Values are for the most recent legislative (lower house) election.",
+    "trivia": "Australia, Belgium, Singapore) systematically appear near the top.",
+    "asOfDate": "Most recent parliamentary elections as of 2024"
   },
   {
     "id": "politics-most-recently-independent-nations-2024",
@@ -12757,7 +13168,10 @@
         "code": "GE",
         "value": "1991"
       }
-    ]
+    ],
+    "disclaimer": "Date of internationally recognized independence for currently UN-recognized sovereign states. Excludes reunification cases and states that returned to prior sovereign forms.",
+    "trivia": null,
+    "asOfDate": "As of 2024"
   },
   {
     "id": "politics-countries-with-compulsory-voting-2024",
@@ -12849,7 +13263,10 @@
         "code": "GR",
         "value": "Compulsory (unenforced since 2001)"
       }
-    ]
+    ],
+    "disclaimer": "About 21 countries have compulsory voting on the books; roughly a dozen actively enforce it with sanctions. Rank reflects strictness of enforcement (strict + sanctioned first, then weak or unsanctioned).",
+    "trivia": null,
+    "asOfDate": "As of 2024"
   },
   {
     "id": "politics-countries-hosting-the-most-foreign-embassies-2024",
@@ -12941,7 +13358,10 @@
         "code": "KR",
         "value": "~117 (Seoul)"
       }
-    ]
+    ],
+    "disclaimer": "Counts the number of resident bilateral diplomatic posts (embassies/high commissions) accredited in the capital. Consulates and multilateral missions are excluded from this ranking.",
+    "trivia": null,
+    "asOfDate": "Lowy 2024 index (data collected 2023-2024)"
   },
   {
     "id": "religion-language-most-christians-total-2020",
@@ -13033,7 +13453,10 @@
         "code": "UG",
         "value": "37 million"
       }
-    ]
+    ],
+    "disclaimer": "Total number of people identifying as Christian (all denominations combined). Figures rounded to the nearest million. Includes Catholic, Protestant, Orthodox, and other Christian traditions.",
+    "trivia": null,
+    "asOfDate": "Pew Research Center estimates, updated through 2020 Global Religious Landscape"
   },
   {
     "id": "religion-language-most-muslims-total-2020",
@@ -13125,7 +13548,10 @@
         "code": "ET",
         "value": "34 million"
       }
-    ]
+    ],
+    "disclaimer": "Total number of people identifying as Muslim (all denominations combined). Figures rounded. Includes Sunni, Shia, and other Islamic traditions.",
+    "trivia": null,
+    "asOfDate": "Pew Research Center estimates for 2020 (updated Global Religious Landscape)"
   },
   {
     "id": "religion-language-most-hindus-total-2020",
@@ -13217,7 +13643,10 @@
         "code": "AE",
         "value": "0.6 million"
       }
-    ]
+    ],
+    "disclaimer": "Total number of people identifying as Hindu. Figures rounded. Hinduism is heavily concentrated in South Asia, with significant diaspora populations elsewhere.",
+    "trivia": null,
+    "asOfDate": "Pew Research Center estimates, updated through 2020"
   },
   {
     "id": "religion-language-most-buddhists-total-2020",
@@ -13309,7 +13738,10 @@
         "code": "SG",
         "value": "1.9 million"
       }
-    ]
+    ],
+    "disclaimer": "Total number of people identifying as Buddhist. Figures rounded.",
+    "trivia": "China leads by a large margin though officially secular; many practitioners overlap with folk traditions.",
+    "asOfDate": "Pew Research Center estimates, updated through 2020"
   },
   {
     "id": "religion-language-most-jews-total-2023",
@@ -13401,7 +13833,10 @@
         "code": "BE",
         "value": "29,000"
       }
-    ]
+    ],
+    "disclaimer": "Core Jewish population estimates (self-identified Jews).",
+    "trivia": "Israel and the United States together account for over 85% of the world Jewish population.",
+    "asOfDate": "Berman Jewish DataBank / DellaPergola 2023 estimates"
   },
   {
     "id": "religion-language-highest-number-of-official-languages-2024",
@@ -13493,7 +13928,10 @@
         "code": "FI",
         "value": "2"
       }
-    ]
+    ],
+    "disclaimer": "Number of languages recognized as official at the national level (constitutional or statutory). Excludes purely regional official status.",
+    "trivia": "South Africa recognizes 12 following the 2023 recognition of Sign Language.",
+    "asOfDate": "Constitutional data through 2024"
   },
   {
     "id": "religion-language-most-spanish-speakers-total-2024",
@@ -13585,7 +14023,10 @@
         "code": "PY",
         "value": "7 million"
       }
-    ]
+    ],
+    "disclaimer": "Total number of Spanish speakers including native (L1) and second-language (L2) speakers.",
+    "trivia": "Mexico is the world's largest Spanish-speaking country.",
+    "asOfDate": "Ethnologue 2024 / Instituto Cervantes 2023 annual report"
   },
   {
     "id": "religion-language-most-languages-spoken-linguistic-diversity-2024",
@@ -13677,7 +14118,10 @@
         "code": "SD",
         "value": "121 languages"
       }
-    ]
+    ],
+    "disclaimer": "Count of distinct living languages spoken as a first language in each country, per Ethnologue. Papua New Guinea and Indonesia together contain roughly one-quarter of the world's living languages.",
+    "trivia": null,
+    "asOfDate": "Ethnologue 27th edition (2024)"
   },
   {
     "id": "sports-most-tour-de-france-winners-by-rider-s-country-2024",
@@ -13754,7 +14198,10 @@
         "code": "AU",
         "value": "1 win (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Counts individual editions won by riders of that nationality. Titles stripped from Lance Armstrong (1999\u20132005) are officially vacated and not attributed to the USA.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Tour de France (won by Tadej Poga\u010dar, SLO)"
   },
   {
     "id": "sports-most-tennis-men-s-grand-slam-singles-titles-by-country-of-birth-2024",
@@ -13831,7 +14278,10 @@
         "code": "GB",
         "value": "3 titles (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Open Era only (1968\u2013). Attributed to player's country at time of career. Djokovic (SRB, 24), Nadal (ESP, 22), Federer (SUI, 20) lead individually.",
+    "trivia": null,
+    "asOfDate": "Through 2024 US Open (won by Jannik Sinner, ITA)"
   },
   {
     "id": "sports-most-tennis-women-s-grand-slam-singles-titles-by-country-of-birth-2024",
@@ -13908,7 +14358,10 @@
         "code": "RO",
         "value": "3 titles"
       }
-    ]
+    ],
+    "disclaimer": "Open Era only (1968\u2013). Attributed to player's representing nation. Serena Williams (23), Steffi Graf (22), Chris Evert (18), Martina Navratilova (18, USA-era) lead individually.",
+    "trivia": null,
+    "asOfDate": "Through 2024 US Open (won by Aryna Sabalenka, BLR)"
   },
   {
     "id": "sports-most-gold-medals-at-2024-paris-summer-olympics-2024",
@@ -14000,7 +14453,10 @@
         "code": "ES",
         "value": "5 gold"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "USA and China tied at 40 golds each; USA led on silver tiebreak in most medal rankings, but IOC does not rank by tiebreak.",
+    "asOfDate": "Final medal table, 2024 Paris Games"
   },
   {
     "id": "sports-most-medals-at-2022-beijing-winter-olympics-2022",
@@ -14092,7 +14548,10 @@
         "code": "FI",
         "value": "8 medals"
       }
-    ]
+    ],
+    "disclaimer": "Total medals (gold + silver + bronze).",
+    "trivia": "Russia competed as 'ROC' (Russian Olympic Committee) and its 32 medals are attributed to Russia here.",
+    "asOfDate": "Final medal table, 2022 Beijing Games"
   },
   {
     "id": "sports-most-summer-paralympic-gold-medals-all-time-2024",
@@ -14184,7 +14643,10 @@
         "code": "JP",
         "value": "156 gold"
       }
-    ]
+    ],
+    "disclaimer": "Summer Paralympics only, from Rome 1960 onward. Includes both winter- and summer-era Paralympics for some countries but restricted here to Summer Games gold medal totals.",
+    "trivia": null,
+    "asOfDate": "Through Paris 2024 Summer Paralympics"
   },
   {
     "id": "sports-most-uefa-champions-league-titles-by-country-of-clubs-2023",
@@ -14246,7 +14708,10 @@
         "code": "RS",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Includes both European Cup (1955\u20131992) and Champions League (1992\u2013present) titles. Attributed to the club's country. Celtic's 1967 win (Scotland) is credited to Great Britain here.",
+    "trivia": "Real Madrid alone accounts for 15 of Spain's titles.",
+    "asOfDate": "After 2023\u201324 season (won by Real Madrid); next final 2025"
   },
   {
     "id": "sports-most-formula-1-drivers-championships-by-nationality-2024",
@@ -14323,7 +14788,10 @@
         "code": "ES",
         "value": "2 titles (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Individual drivers' titles attributed to their racing nationality. Michael Schumacher (7) and Lewis Hamilton (7) lead all drivers individually.",
+    "trivia": null,
+    "asOfDate": "After 2024 season (won by Max Verstappen, NED)"
   },
   {
     "id": "technology-most-active-satellites-in-orbit-2024",
@@ -14440,7 +14908,10 @@
         "code": "NO",
         "value": "13"
       }
-    ]
+    ],
+    "disclaimer": "Counts operational satellites registered to a country of operator/owner. US total is dominated by SpaceX Starlink (>5,500 operational). Small differences at the low end reflect deorbits vs. new launches within the year.",
+    "trivia": null,
+    "asOfDate": "2024 tally (UCS database, last full public release May 2023 supplemented by UNOOSA registrations through 2024)"
   },
   {
     "id": "technology-most-successful-orbital-rocket-launches-2024-2024",
@@ -14502,7 +14973,10 @@
         "code": "KR",
         "value": "1"
       }
-    ]
+    ],
+    "disclaimer": "Successful orbital launches only (failed or partial-failure attempts excluded). US total dominated by SpaceX Falcon 9 cadence. Multinational Sea Launch and European Space Agency launches attributed to the primary operator country.",
+    "trivia": null,
+    "asOfDate": "2024 full-year tally"
   },
   {
     "id": "technology-most-researchers-per-million-people-2020",
@@ -14619,7 +15093,10 @@
         "code": "GB",
         "value": "4,684"
       }
-    ]
+    ],
+    "disclaimer": "Full-time-equivalent researchers per million population. Small high-tech economies dominate. Countries with no UIS data (many low-income nations) are excluded.",
+    "trivia": null,
+    "asOfDate": "Most recent year available per country (2020-2022)"
   },
   {
     "id": "technology-highest-ai-private-investment-2023",
@@ -14711,7 +15188,10 @@
         "code": "NL",
         "value": "$0.5B"
       }
-    ]
+    ],
+    "disclaimer": "Total private investment (venture capital, private equity, mergers, minority stakes) in AI-focused companies, in USD. US leads by roughly an order of magnitude. Excludes government/state-directed AI spending.",
+    "trivia": null,
+    "asOfDate": "2023 calendar year total"
   },
   {
     "id": "technology-most-bitcoin-mining-hashrate-share-2022",
@@ -14803,7 +15283,10 @@
         "code": "JP",
         "value": "0.05%"
       }
-    ]
+    ],
+    "disclaimer": "Percent of global Bitcoin hashrate by miner IP location. Values sum below 100% because IP-obfuscated mining (~20%) is excluded.",
+    "trivia": "China's share reflects post-ban underground mining.",
+    "asOfDate": "January 2022 (final CCAF public snapshot before methodology change)"
   },
   {
     "id": "technology-most-public-ev-charging-stations-2023",
@@ -14920,7 +15403,10 @@
         "code": "IE",
         "value": "2,500"
       }
-    ]
+    ],
+    "disclaimer": "Total publicly accessible chargers (Level 2 + DC fast). Home/private chargers are excluded.",
+    "trivia": "China dominates by an enormous margin.",
+    "asOfDate": "End of 2023"
   },
   {
     "id": "technology-highest-ev-sales-share-new-car-sales-2023",
@@ -15037,7 +15523,10 @@
         "code": "AU",
         "value": "8%"
       }
-    ]
+    ],
+    "disclaimer": "Share of BEV + PHEV in new passenger car sales, percent. Only countries with reliable IEA reporting are included.",
+    "trivia": "Norway is a global outlier due to two decades of aggressive tax incentives.",
+    "asOfDate": "2023 full year"
   },
   {
     "id": "technology-most-nuclear-reactors-in-operation-2024",
@@ -15154,7 +15643,10 @@
         "code": "DE",
         "value": "0"
       }
-    ]
+    ],
+    "disclaimer": "Operable reactors (grid-connected and available, including those in long-term shutdown but not permanently retired).",
+    "trivia": "France's share of generation is the world's highest; the US has the largest fleet by count.",
+    "asOfDate": "Early 2024 snapshot"
   },
   {
     "id": "transport-longest-total-road-network-2024",
@@ -15246,7 +15738,10 @@
         "code": "PL",
         "value": "~421,000 km"
       }
-    ]
+    ],
+    "disclaimer": "India's figure is inflated by rural PMGSY tracks; the US figure counts every public road.",
+    "trivia": "The United States and India trade the #1 spot depending on whether rural/village roads are counted. China's network has grown fastest and now includes the world's largest expressway system (>170,000 km).",
+    "asOfDate": "CIA World Factbook, 2024 edition (figures range 2018-2023 depending on country)"
   },
   {
     "id": "transport-longest-total-rail-network-2020",
@@ -15338,7 +15833,10 @@
         "code": "PL",
         "value": "~19,200 km"
       }
-    ]
+    ],
+    "disclaimer": "The US has by far the largest network but it is overwhelmingly freight-only.",
+    "trivia": "India, China, and Russia dominate passenger rail. This counts route-length; if you counted track-km (double/quad tracks separately) China would leap higher.",
+    "asOfDate": "2020-2023 figures depending on source"
   },
   {
     "id": "transport-longest-high-speed-rail-network-2023",
@@ -15415,7 +15913,10 @@
         "code": "GB",
         "value": "~113 km"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "China's network is larger than the rest of the world combined and roughly doubled between 2015 and 2023. Definitions vary \u2014 UIC uses 250 km/h as the threshold, but Japan's Mini-Shinkansen sections (max 130 km/h) are sometimes counted, and Sweden's X2000 lines (200 km/h) are excluded here.",
+    "asOfDate": "UIC 2023 update; China figures from NRA year-end 2023"
   },
   {
     "id": "transport-most-airports-2024",
@@ -15507,7 +16008,10 @@
         "code": "ZA",
         "value": "407"
       }
-    ]
+    ],
+    "disclaimer": "The US total (>13,000) includes thousands of small private airstrips and heliports.",
+    "trivia": "Brazil ranks high due to Amazon airstrips serving remote communities. If restricted to commercial airports with scheduled service, the ranking looks very different (US, China, Russia, Australia).",
+    "asOfDate": "CIA World Factbook, 2024"
   },
   {
     "id": "transport-largest-merchant-shipping-fleet-by-deadweight-tonnage-2023",
@@ -15599,7 +16103,10 @@
         "code": "IT",
         "value": "~30 million DWT"
       }
-    ]
+    ],
+    "disclaimer": "This ranks by beneficial owner (country of the parent shipping company), which differs sharply from flag-of-registration rankings dominated by Panama, Liberia, and the Marshall Islands.",
+    "trivia": "Greece has led beneficial-owner rankings for decades despite its small economy.",
+    "asOfDate": "UNCTAD 2023 report (January 2023 data)"
   },
   {
     "id": "transport-highest-container-port-throughput-2022",
@@ -15691,7 +16198,10 @@
         "code": "BE",
         "value": "~13 million TEU"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "China alone handles roughly a third of global container throughput \u2014 Shanghai has been the world's #1 port for 14+ consecutive years. Singapore is a transshipment hub, so most of its TEU are containers being switched between ships rather than entering the local economy.",
+    "asOfDate": "UNCTAD 2022 data (published 2023)"
   },
   {
     "id": "transport-most-cities-with-metro-subway-systems-2023",
@@ -15783,7 +16293,10 @@
         "code": "MX",
         "value": "3 cities"
       }
-    ]
+    ],
+    "disclaimer": "UITP's definition requires full grade-separation and platform screen doors are increasingly standard. Light rail and trams are excluded.",
+    "trivia": "China has built out metros faster than any country in history \u2014 most of its systems opened after 2010.",
+    "asOfDate": "UITP 2023 World Metro Figures; individual openings through 2024"
   },
   {
     "id": "transport-most-motor-vehicles-per-capita-2020",
@@ -15875,7 +16388,10 @@
         "code": "AT",
         "value": "~608 per 1,000"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "San Marino tops the ranking largely because its residents register vehicles in the microstate for tax reasons \u2014 the on-road population uses them. New Zealand and the US have high figures reflecting car-dependent geography. Iceland's number reflects a small population plus a huge tourism rental fleet.",
+    "asOfDate": "IRF/OICA 2020-2022 data depending on country"
   },
   {
     "id": "environment-most-mammal-species-2024",
@@ -15967,7 +16483,10 @@
         "code": "AR",
         "value": "374 mammal species"
       }
-    ]
+    ],
+    "disclaimer": "Counts native, non-marine mammal species per country. Small European nations have far fewer species due to habitat constraints and post-glacial recolonization.",
+    "trivia": "Indonesia's archipelago geography and Brazil's Amazon rainforest give them the top spots.",
+    "asOfDate": "IUCN Red List v2024-1"
   },
   {
     "id": "environment-most-bird-species-2024",
@@ -16059,7 +16578,10 @@
         "code": "US",
         "value": "1,025 bird species"
       }
-    ]
+    ],
+    "disclaimer": "Colombia's mix of Andes, Amazon, Pacific and Caribbean coasts makes it the world's most bird-diverse country.",
+    "trivia": "The Neotropical realm dominates: Colombia, Peru, Brazil and Ecuador each host more than 1,600 bird species.",
+    "asOfDate": "BirdLife Data Zone 2024"
   },
   {
     "id": "environment-highest-share-of-protected-land-area-2022",
@@ -16146,7 +16668,10 @@
         "code": "CR",
         "value": "27.3% protected"
       }
-    ]
+    ],
+    "disclaimer": "Terrestrial protected areas as % of total land area (IUCN categories I-VI plus other effective conservation measures).",
+    "trivia": "Venezuela and New Caledonia lead the world; several island states also feature high due to national park designations covering most of their land.",
+    "asOfDate": "2022 data"
   },
   {
     "id": "environment-most-freshwater-resources-per-capita-2020",
@@ -16238,7 +16763,10 @@
         "code": "PY",
         "value": "16,000 m\u00b3 per person"
       }
-    ]
+    ],
+    "disclaimer": "Renewable internal freshwater resources (river flows + groundwater from precipitation) divided by population. Excludes microstates with populations under 100k.",
+    "trivia": "Tiny populations plus abundant rain produce dramatic per-capita numbers \u2014 Iceland and Guyana top the list.",
+    "asOfDate": "2020 data (latest available)"
   },
   {
     "id": "environment-highest-deforestation-rate-annual-forest-loss-2023",
@@ -16330,7 +16858,10 @@
         "code": "CO",
         "value": "0.6% annual loss"
       }
-    ]
+    ],
+    "disclaimer": "Annual primary forest loss as a share of total tree cover. Excludes microstates.",
+    "trivia": "Small countries with rapid clearing (Nicaragua, Paraguay, Cambodia) top the percentage rankings, even though Brazil and Indonesia lose more forest in absolute terms.",
+    "asOfDate": "2023 tree cover loss data (published 2024)"
   },
   {
     "id": "environment-highest-municipal-waste-per-capita-2018",
@@ -16422,7 +16953,10 @@
         "code": "NL",
         "value": "511 kg per person"
       }
-    ]
+    ],
+    "disclaimer": "Kilograms of municipal solid waste generated per person per year. Small wealthy states with high tourism (Monaco, Bermuda, Iceland) generate outsized per-capita waste. Excludes microstates with populations under 100k where data quality varies.",
+    "trivia": null,
+    "asOfDate": "2018 data (latest What a Waste release)"
   },
   {
     "id": "environment-highest-municipal-recycling-rate-2022",
@@ -16514,7 +17048,10 @@
         "code": "ES",
         "value": "37% recycled"
       }
-    ]
+    ],
+    "disclaimer": "Share of municipal waste recycled or composted (material recovery, not incineration). The U.S. sits around 32%; much of Southeast Asia is under 10%.",
+    "trivia": "Germany and Austria lead due to mandatory separation systems and extended producer responsibility laws.",
+    "asOfDate": "2022 data"
   },
   {
     "id": "environment-highest-ecological-footprint-per-capita-2022",
@@ -16606,7 +17143,10 @@
         "code": "DK",
         "value": "6.0 gha per person"
       }
-    ]
+    ],
+    "disclaimer": "Ecological footprint measures the biologically productive land and sea area needed to produce what a country consumes and absorb its waste, in global hectares (gha) per person. Oil-rich Gulf states and small wealthy nations top the ranking; the world average is about 2.7 gha and Earth's per-capita biocapacity is roughly 1.6 gha.",
+    "trivia": null,
+    "asOfDate": "2022 edition (2018 data)"
   },
   {
     "id": "us-states-culture-most-major-pro-sports-teams-nba-nfl-mlb-nhl-2024",
@@ -16698,7 +17238,10 @@
         "code": "MO",
         "value": "4 teams"
       }
-    ]
+    ],
+    "disclaimer": "Counts include only US-based franchises.",
+    "trivia": "California hosts LA Lakers, LA Clippers, GS Warriors, Sacramento Kings, LA Rams, LA Chargers, SF 49ers, LA Dodgers, SF Giants, LA/Anaheim Angels, Oakland A's (before Vegas move), Anaheim Ducks, LA Kings, SJ Sharks. New York includes both NY-metro NBA/NHL/NFL/MLB teams (Knicks, Nets, Rangers, Islanders, Sabres, Giants, Jets, Bills, Yankees, Mets).",
+    "asOfDate": "2024-25 seasons"
   },
   {
     "id": "us-states-culture-most-combined-major-pro-sports-championships-nba-nfl-mlb-nhl-2",
@@ -16790,7 +17333,10 @@
         "code": "IN",
         "value": "4 titles"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Massachusetts is anchored by Boston (Celtics 18, Patriots 6, Red Sox 9, Bruins 6). New York includes Yankees 27, Giants 8, Rangers 4, Islanders 4, Mets 2, Knicks 2, Nets 0, Jets 1, Bills 2 AAFC/AFL era counted per league. California combines Lakers, Warriors, 49ers, Rams, Dodgers, Giants, A's, Angels, Kings, Ducks, Sharks.",
+    "asOfDate": "Through 2024 seasons"
   },
   {
     "id": "us-states-culture-most-ncaa-d1-football-national-championships-2024",
@@ -16882,7 +17428,10 @@
         "code": "LA",
         "value": "4 titles (LSU)"
       }
-    ]
+    ],
+    "disclaimer": "Counts follow the widely recognized AP/Coaches/BCS/CFP claim lists.",
+    "trivia": "Alabama's Crimson Tide dominate; Notre Dame drives Indiana's total; Ohio State drives Ohio's; USC + Stanford + Cal drive California's; Oklahoma + Oklahoma State drive Oklahoma's.",
+    "asOfDate": "Through 2024 CFP national championship"
   },
   {
     "id": "us-states-culture-most-top-50-national-universities-us-news-2024",
@@ -16974,7 +17523,10 @@
         "code": "IN",
         "value": "1 university (Notre Dame)"
       }
-    ]
+    ],
+    "disclaimer": "Includes ties at #50.",
+    "trivia": "Massachusetts leads driven by Harvard, MIT, Tufts, Boston College, Boston University, Northeastern. California by Stanford, Caltech, UC Berkeley, UCLA, USC, UC San Diego, UC Davis, UC Irvine, UC Santa Barbara.",
+    "asOfDate": "2024 ranking edition"
   },
   {
     "id": "us-states-culture-most-us-presidents-born-in-state-2025",
@@ -17066,7 +17618,10 @@
         "code": "MO",
         "value": "1 president (Truman)"
       }
-    ]
+    ],
+    "disclaimer": "Harrison, Tyler, Taylor, Wilson. Harrison, McKinley, Taft, Harding.",
+    "trivia": "Ohio and Virginia are longtime leaders. Virginia birthed George Washington, Jefferson, Madison, Monroe, W.H. Ohio birthed Grant, Hayes, Garfield, B.",
+    "asOfDate": "2025 (through Donald Trump's second term inauguration)"
   },
   {
     "id": "us-states-culture-highest-share-of-adults-with-a-graduate-professional-degree-20",
@@ -17158,7 +17713,10 @@
         "code": "MN",
         "value": "14.4%"
       }
-    ]
+    ],
+    "disclaimer": "DC leads the nation by a wide margin due to a federal-government professional workforce concentration.",
+    "trivia": "Massachusetts and Maryland follow.",
+    "asOfDate": "2022 ACS 1-year"
   },
   {
     "id": "us-states-culture-highest-share-of-adults-with-high-school-diploma-or-higher-202",
@@ -17250,7 +17808,10 @@
         "code": "MT",
         "value": "94.4%"
       }
-    ]
+    ],
+    "disclaimer": "High-school completion rates are very compressed at the top (~92-95%). Mountain and upper-Midwest states typically lead; California and Texas lag due to immigrant populations.",
+    "trivia": null,
+    "asOfDate": "2022 ACS 1-year"
   },
   {
     "id": "us-states-culture-most-museums-imls-2018",
@@ -17342,7 +17903,10 @@
         "code": "GA",
         "value": "776 museums"
       }
-    ]
+    ],
+    "disclaimer": "IMLS counts include art museums, historical societies, historic sites, arboreta, zoos, aquariums, science and children's museums.",
+    "trivia": "California and Texas lead by scale; New York and Pennsylvania lead by density of historic sites.",
+    "asOfDate": "IMLS MDF v3 (2018 release; latest comprehensive)"
   },
   {
     "id": "us-states-culture-most-public-library-systems-imls-2021",
@@ -17434,7 +17998,10 @@
         "code": "OK",
         "value": "115 systems"
       }
-    ]
+    ],
+    "disclaimer": "Counts library administrative entities (systems), not branch locations.",
+    "trivia": "New York and Illinois have unusually high system counts because of decentralized local library districts; larger states like Texas and California have fewer systems but many branches per system.",
+    "asOfDate": "IMLS PLS FY2021"
   },
   {
     "id": "us-states-culture-most-nobel-laureates-by-state-of-birth-us-born-winners-2024",
@@ -17526,7 +18093,10 @@
         "code": "IA",
         "value": "~5 laureates"
       }
-    ]
+    ],
+    "disclaimer": "Counts US-born laureates only (not naturalized or foreign-born winners affiliated with US institutions).",
+    "trivia": "New York leads by a wide margin because of high early-20th-century immigration density; California, Illinois, Massachusetts, and Pennsylvania follow.",
+    "asOfDate": "Through 2024 Nobel Prizes"
   },
   {
     "id": "us-states-demographics-highest-median-age-2023",
@@ -17618,7 +18188,10 @@
         "code": "MA",
         "value": "39.5 years"
       }
-    ]
+    ],
+    "disclaimer": "DC's median age skews younger due to its large young-adult professional population; DC is not among the leaders here.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-demographics-highest-foreign-born-population-share-2022",
@@ -17710,7 +18283,10 @@
         "code": "VA",
         "value": "12.9%"
       }
-    ]
+    ],
+    "disclaimer": "Percentage of total population born outside the United States (includes naturalized citizens and non-citizens).",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-highest-homeownership-rate-2022",
@@ -17802,7 +18378,10 @@
         "code": "MS",
         "value": "70.2%"
       }
-    ]
+    ],
+    "disclaimer": "Owner-occupied housing units as a share of all occupied housing units.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-highest-poverty-rate-2022",
@@ -17894,7 +18473,10 @@
         "code": "AZ",
         "value": "12.9%"
       }
-    ]
+    ],
+    "disclaimer": "Share of the population with income below the official federal poverty threshold in the past 12 months.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-highest-bachelor-s-degree-attainment-2022",
@@ -17986,7 +18568,10 @@
         "code": "CA",
         "value": "37.2%"
       }
-    ]
+    ],
+    "disclaimer": "Population age 25 and over holding at least a bachelor's degree.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-largest-hispanic-or-latino-population-share-2022",
@@ -18078,7 +18663,10 @@
         "code": "MA",
         "value": "13.1%"
       }
-    ]
+    ],
+    "disclaimer": "Hispanic or Latino origin can be of any race per Census methodology.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-largest-asian-population-share-2022",
@@ -18170,7 +18758,10 @@
         "code": "GA",
         "value": "5.1%"
       }
-    ]
+    ],
+    "disclaimer": "Asian alone or in combination with one or more other races.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-largest-black-or-african-american-population-share-2022",
@@ -18262,7 +18853,10 @@
         "code": "IL",
         "value": "13.9%"
       }
-    ]
+    ],
+    "disclaimer": "Black or African American alone; DC included per ACS reporting.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-highest-veteran-population-share-2022",
@@ -18354,7 +18948,10 @@
         "code": "AR",
         "value": "7.9%"
       }
-    ]
+    ],
+    "disclaimer": "Civilian veterans as a share of the civilian population age 18 and over.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-demographics-highest-teen-birth-rate-2022",
@@ -18446,7 +19043,10 @@
         "code": "NC",
         "value": "15.5 per 1,000"
       }
-    ]
+    ],
+    "disclaimer": "Births per 1,000 females ages 15-19; DC included.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-economy-state-gdp-total-2023",
@@ -18538,7 +19138,10 @@
         "code": "CO",
         "value": "$524 B"
       }
-    ]
+    ],
+    "disclaimer": "GDP in billions of current dollars, annual 2023.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-economy-gdp-per-capita-2023",
@@ -18630,7 +19233,10 @@
         "code": "NH",
         "value": "$77,867"
       }
-    ]
+    ],
+    "disclaimer": "Nominal GDP divided by resident population, 2023.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-economy-unemployment-rate-2023",
@@ -18722,7 +19328,10 @@
         "code": "OH",
         "value": "3.6%"
       }
-    ]
+    ],
+    "disclaimer": "Seasonally adjusted annual average civilian unemployment rate, 2023.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-economy-state-local-tax-burden-2022",
@@ -18814,7 +19423,10 @@
         "code": "MD",
         "value": "11.3%"
       }
-    ]
+    ],
+    "disclaimer": "State and local taxes paid by residents as a percentage of state income.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-economy-state-sales-tax-rate-2024",
@@ -18906,7 +19518,10 @@
         "code": "TX",
         "value": "6.25% (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Statewide sales tax rate only; excludes local add-ons.",
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "us-states-economy-state-minimum-wage-2024",
@@ -18998,7 +19613,10 @@
         "code": "DC",
         "value": "$17.00"
       }
-    ]
+    ],
+    "disclaimer": "Basic state minimum wage as of January 1, 2024; excludes local ordinances and tipped-worker rates.",
+    "trivia": null,
+    "asOfDate": "2024-01-01"
   },
   {
     "id": "us-states-economy-fortune-500-hqs-2023",
@@ -19090,7 +19708,10 @@
         "code": "NC",
         "value": "13 (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Count of Fortune 500 (2023) company headquarters by state.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-economy-crude-oil-production-2023",
@@ -19182,7 +19803,10 @@
         "code": "MS",
         "value": "12,400 kbbl"
       }
-    ]
+    ],
+    "disclaimer": "Annual field production of crude oil, thousands of barrels, 2023.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-economy-coal-production-2022",
@@ -19274,7 +19898,10 @@
         "code": "VA",
         "value": "4,876 kt"
       }
-    ]
+    ],
+    "disclaimer": "Total coal production in thousands of short tons, 2022.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-economy-number-of-farms-2022",
@@ -19366,7 +19993,10 @@
         "code": "NC",
         "value": "42,741"
       }
-    ]
+    ],
+    "disclaimer": "Total farms per the 2022 Census of Agriculture.",
+    "trivia": null,
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-geography-largest-states-by-total-area-2010",
@@ -19458,7 +20088,10 @@
         "code": "KS",
         "value": "82,278 sq mi"
       }
-    ]
+    ],
+    "disclaimer": "Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters \u2014 which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only.",
+    "trivia": "Alaska is more than twice the area of Texas.",
+    "asOfDate": "2010 Census reference (values remain the official Census figures used through 2024)"
   },
   {
     "id": "us-states-geography-largest-states-by-land-area-2010",
@@ -19550,7 +20183,10 @@
         "code": "NE",
         "value": "76,824 sq mi land"
       }
-    ]
+    ],
+    "disclaimer": "Michigan drops out of the top 15 when water is excluded (its total-area rank comes almost entirely from its ~40,000 sq mi of Great Lakes water).",
+    "trivia": "Alaska's land area alone (~570,641 sq mi) is roughly 2.1x Texas.",
+    "asOfDate": "2010 Census reference"
   },
   {
     "id": "us-states-geography-most-water-area-2010",
@@ -19642,7 +20278,10 @@
         "code": "MD",
         "value": "2,633 sq mi water"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Michigan's water figure is almost entirely Great Lakes (Lake Superior, Huron, Michigan). Alaska's water includes vast coastal and territorial waters plus inland lakes. Florida's high figure is inland lakes plus coastal waters. Louisiana leads on inland-only water among the lower 48.",
+    "asOfDate": "2010 Census reference"
   },
   {
     "id": "us-states-geography-longest-coastline-shoreline-including-tidal-2022",
@@ -19734,7 +20373,10 @@
         "code": "HI",
         "value": "1,052 mi shoreline"
       }
-    ]
+    ],
+    "disclaimer": "NOAA's 'shoreline' figure counts all tidal shoreline including bays and islands and is much larger than the simple 'coastline' distance.",
+    "trivia": "By this measure Alaska (>33,000 mi) has more shoreline than the rest of the states combined. Florida edges Louisiana for second because of the Keys and the Gulf's barrier islands.",
+    "asOfDate": "NOAA shoreline mileage table (last updated 2022)"
   },
   {
     "id": "us-states-geography-highest-peak-elevation-2024",
@@ -19826,7 +20468,10 @@
         "code": "SD",
         "value": "7,242 ft (Black Elk Peak)"
       }
-    ]
+    ],
+    "disclaimer": "All top-10 state high points are in the West except (technically) they all are \u2014 the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15.",
+    "trivia": "Denali (Alaska) at 20,310 ft is the highest point in North America.",
+    "asOfDate": "USGS reference, values current through 2024"
   },
   {
     "id": "us-states-geography-highest-mean-average-elevation",
@@ -19918,7 +20563,10 @@
         "code": "OK",
         "value": "1,300 ft mean"
       }
-    ]
+    ],
+    "disclaimer": "Nebraska and Kansas make the top 10 despite being flat: their entire land surface tilts up toward the Rockies from ~840 ft at the Missouri River to ~5,000 ft at the western border.",
+    "trivia": "Colorado tops the list \u2014 no point in Colorado is below 3,315 ft.",
+    "asOfDate": "USGS long-standing reference values"
   },
   {
     "id": "us-states-geography-most-national-parks-2024",
@@ -20010,7 +20658,10 @@
         "code": "OR",
         "value": "1 National Park (Crater Lake)"
       }
-    ]
+    ],
+    "disclaimer": "'National Park' is a specific NPS designation \u2014 the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. This count excludes national monuments, national historic sites, national seashores, national recreation areas, etc.",
+    "trivia": "California leads with 9.",
+    "asOfDate": "2024 (63 designated National Parks after New River Gorge 2020 and Indiana Dunes 2019)"
   },
   {
     "id": "us-states-geography-most-national-forest-acreage-2023",
@@ -20102,7 +20753,10 @@
         "code": "AR",
         "value": "2.6M acres"
       }
-    ]
+    ],
+    "disclaimer": "National Forest acreage differs from BLM land \u2014 the Forest Service manages ~193M acres nationally.",
+    "trivia": "Alaska's figure is dominated by the Tongass (~16.7M acres) \u2014 the largest single national forest in the US. Idaho is nearly 40% federal land and second only to Alaska in national forest acreage.",
+    "asOfDate": "USFS Land Areas Report, FY2023"
   },
   {
     "id": "us-states-geography-snowiest-states-average-annual-snowfall-2020",
@@ -20194,7 +20848,10 @@
         "code": "RI",
         "value": "32.2 in / yr avg"
       }
-    ]
+    ],
+    "disclaimer": "Rankings by 'snowiest cities' differ substantially from statewide averages.",
+    "trivia": "Vermont leads state-average snowfall in the 1991-2020 normals thanks to consistent snowfall across the Green Mountains and Northeast Kingdom. Alaska has extreme site-specific snowfall (Thompson Pass, Valdez), but averaged over its huge area including arctic desert, the statewide mean is lower.",
+    "asOfDate": "1991-2020 30-year climate normals (current NOAA baseline through 2030)"
   },
   {
     "id": "us-states-geography-highest-average-annual-temperature-2020",
@@ -20286,7 +20943,10 @@
         "code": "NM",
         "value": "54.3\u00b0F avg"
       }
-    ]
+    ],
+    "disclaimer": "Alaska is by far the coldest state (~28\u00b0F statewide mean).",
+    "trivia": "Florida is the warmest of the contiguous 48. Hawaii ranks 1st when included \u2014 its state-average annual temperature is ~72\u00b0F. Louisiana, Texas, and the Southeast round out the top of the list.",
+    "asOfDate": "NOAA 1991-2020 30-year climate normals; annual rank data through 2023"
   },
   {
     "id": "us-states-health-highest-life-expectancy-2020",
@@ -20378,7 +21038,10 @@
         "code": "NJ",
         "value": "77.5 yrs"
       }
-    ]
+    ],
+    "disclaimer": "Life expectancy at birth in years, 2020 (COVID-affected). DC included.",
+    "trivia": null,
+    "asOfDate": "2020-12-31"
   },
   {
     "id": "us-states-health-highest-adult-obesity-rate-2022",
@@ -20470,7 +21133,10 @@
         "code": "SC",
         "value": "35.4%"
       }
-    ]
+    ],
+    "disclaimer": "Percent of adults (18+) with BMI >= 30 based on self-reported height/weight.",
+    "trivia": null,
+    "asOfDate": "2022-12-31"
   },
   {
     "id": "us-states-health-highest-adult-smoking-rate-2022",
@@ -20562,7 +21228,10 @@
         "code": "PA",
         "value": "14.1%"
       }
-    ]
+    ],
+    "disclaimer": "Percent of adults (18+) who currently smoke cigarettes every day or some days.",
+    "trivia": null,
+    "asOfDate": "2022-12-31"
   },
   {
     "id": "us-states-health-highest-opioid-overdose-death-rate-2021",
@@ -20654,7 +21323,10 @@
         "code": "NC",
         "value": "33.7 per 100k"
       }
-    ]
+    ],
+    "disclaimer": "Age-adjusted deaths involving any opioid per 100,000 population, 2021.",
+    "trivia": null,
+    "asOfDate": "2021-12-31"
   },
   {
     "id": "us-states-health-highest-suicide-rate-2021",
@@ -20746,7 +21418,10 @@
         "code": "NV",
         "value": "19.4 per 100k"
       }
-    ]
+    ],
+    "disclaimer": "Age-adjusted suicide deaths per 100,000 population, 2021.",
+    "trivia": null,
+    "asOfDate": "2021-12-31"
   },
   {
     "id": "us-states-health-highest-uninsured-rate-2022",
@@ -20838,7 +21513,10 @@
         "code": "AL",
         "value": "9.3%"
       }
-    ]
+    ],
+    "disclaimer": "Percent of nonelderly population without health insurance coverage.",
+    "trivia": null,
+    "asOfDate": "2022-12-31"
   },
   {
     "id": "us-states-health-highest-renewable-electricity-share-2023",
@@ -20930,7 +21608,10 @@
         "code": "NE",
         "value": "34.9%"
       }
-    ]
+    ],
+    "disclaimer": "Renewables include hydro, wind, solar, geothermal, biomass. Percent of total in-state generation.",
+    "trivia": null,
+    "asOfDate": "2023-12-31"
   },
   {
     "id": "us-states-health-largest-solar-electricity-generation-2023",
@@ -21022,7 +21703,10 @@
         "code": "MN",
         "value": "2,346 GWh"
       }
-    ]
+    ],
+    "disclaimer": "Total utility-scale solar PV generation in gigawatt-hours (GWh), 2023.",
+    "trivia": null,
+    "asOfDate": "2023-12-31"
   },
   {
     "id": "us-states-health-largest-wind-electricity-generation-2023",
@@ -21114,7 +21798,10 @@
         "code": "MO",
         "value": "7,092 GWh"
       }
-    ]
+    ],
+    "disclaimer": "Total wind electricity generation in gigawatt-hours (GWh), 2023.",
+    "trivia": null,
+    "asOfDate": "2023-12-31"
   },
   {
     "id": "us-states-health-highest-co2-emissions-per-capita-2021",
@@ -21206,7 +21893,10 @@
         "code": "AL",
         "value": "20.0 t/person"
       }
-    ]
+    ],
+    "disclaimer": "Metric tons of energy-related CO2 emissions per resident, 2021.",
+    "trivia": null,
+    "asOfDate": "2021-12-31"
   },
   {
     "id": "us-states-politics-earliest-states-to-achieve-statehood",
@@ -21298,7 +21988,10 @@
         "code": "KY",
         "value": "1792-06-01"
       }
-    ]
+    ],
+    "disclaimer": "The original 13 states ratified the Constitution in 1787-1790; Hawaii was the most recent (1959). DC is not a state.",
+    "trivia": null,
+    "asOfDate": "Historical (through 1959)"
   },
   {
     "id": "us-states-politics-most-electoral-college-votes-2024",
@@ -21390,7 +22083,10 @@
         "code": "IN",
         "value": "11"
       }
-    ]
+    ],
+    "disclaimer": "Electoral votes = House seats + 2 senators; DC has 3 (23rd Amendment). Effective for 2024 and 2028 elections.",
+    "trivia": null,
+    "asOfDate": "2024 (based on 2020 Census apportionment)"
   },
   {
     "id": "us-states-politics-most-us-house-representatives-2023",
@@ -21482,7 +22178,10 @@
         "code": "IN",
         "value": "9"
       }
-    ]
+    ],
+    "disclaimer": "Based on 2020 Census apportionment; DC has a non-voting delegate (not counted here).",
+    "trivia": null,
+    "asOfDate": "2023-01-03 (118th Congress start)"
   },
   {
     "id": "us-states-politics-highest-presidential-winning-margin-2024-election-2024",
@@ -21574,7 +22273,10 @@
         "code": "MT",
         "value": "20.5 pts (Trump)"
       }
-    ]
+    ],
+    "disclaimer": "Margin = winner percentage minus runner-up percentage.",
+    "trivia": "Wyoming, WV, and OK were Trump's strongest; DC, Vermont, and Massachusetts were Harris's strongest.",
+    "asOfDate": "2024-12 (certified results)"
   },
   {
     "id": "us-states-politics-highest-governor-s-salary-2023",
@@ -21666,7 +22368,10 @@
         "code": "FL",
         "value": "$141,400"
       }
-    ]
+    ],
+    "disclaimer": "Base salary as of 2023; excludes benefits, housing allowances, and travel stipends. Some governors decline all or part of the salary.",
+    "trivia": null,
+    "asOfDate": "2023"
   },
   {
     "id": "us-states-politics-highest-voter-turnout-2020-presidential-election-2020",
@@ -21758,7 +22463,10 @@
         "code": "MD",
         "value": "71.1%"
       }
-    ]
+    ],
+    "disclaimer": "Turnout = ballots counted / voting-eligible population (VEP). 2020 had the highest overall US turnout since 1900.",
+    "trivia": null,
+    "asOfDate": "2020-11 (certified)"
   },
   {
     "id": "us-states-politics-highest-gun-ownership-rate-2020",
@@ -21850,7 +22558,10 @@
         "code": "SC",
         "value": "49.4%"
       }
-    ]
+    ],
+    "disclaimer": "RAND's HFR (household firearm rate) proxy based on suicide rate + subscription proxies.",
+    "trivia": "Alaska, Wyoming, Montana consistently top the list.",
+    "asOfDate": "2020 (most recent RAND estimate)"
   },
   {
     "id": "us-states-politics-highest-incarceration-rate-per-capita-2021",
@@ -21942,7 +22653,10 @@
         "code": "SC",
         "value": "676"
       }
-    ]
+    ],
+    "disclaimer": "Combined state prison and jail population per 100,000.",
+    "trivia": "Louisiana and Mississippi have long led US incarceration rankings; the US as a whole leads the world.",
+    "asOfDate": "2021"
   },
   {
     "id": "us-states-politics-highest-murder-rate-per-100k-2022",
@@ -22034,7 +22748,10 @@
         "code": "PA",
         "value": "8.5"
       }
-    ]
+    ],
+    "disclaimer": "Murder and non-negligent manslaughter per 100,000.",
+    "trivia": "DC consistently reports the highest urban homicide rate; state rates are led by Mississippi and Louisiana.",
+    "asOfDate": "2022"
   },
   {
     "id": "us-states-politics-highest-share-of-population-born-in-state-2018",
@@ -22126,7 +22843,10 @@
         "code": "AR",
         "value": "62.6%"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Louisiana, Michigan, and Ohio have the largest 'homegrown' populations; Nevada, Florida, and DC have the smallest.",
+    "asOfDate": "2018-2022 ACS"
   },
   {
     "id": "us-states-most-populous-states-2023",
@@ -22218,7 +22938,10 @@
         "code": "TN",
         "value": "7.13M"
       }
-    ]
+    ],
+    "disclaimer": "Population estimates as of July 1, 2023.",
+    "trivia": null,
+    "asOfDate": "2023-07-01"
   },
   {
     "id": "us-states-largest-states-by-area-2010",
@@ -22310,7 +23033,10 @@
         "code": "KS",
         "value": "82,278 sq mi"
       }
-    ]
+    ],
+    "disclaimer": "Total area includes land and inland water; census reference values.",
+    "trivia": null,
+    "asOfDate": "2010-01-01"
   },
   {
     "id": "us-states-highest-state-gdp-2023",
@@ -22402,7 +23128,10 @@
         "code": "CO",
         "value": "$0.54T"
       }
-    ]
+    ],
+    "disclaimer": "Current-dollar GDP by state, annual 2023.",
+    "trivia": null,
+    "asOfDate": "2023-12-31"
   },
   {
     "id": "us-states-highest-median-household-income-2022",
@@ -22494,7 +23223,10 @@
         "code": "NY",
         "value": "$81,386 median"
       }
-    ]
+    ],
+    "disclaimer": "DC included as a state-level jurisdiction per Census tables.",
+    "trivia": null,
+    "asOfDate": "2022-12-31"
   },
   {
     "id": "us-states-most-fortune-500-headquarters-2023",
@@ -22586,7 +23318,10 @@
         "code": "CT",
         "value": "13 HQs"
       }
-    ]
+    ],
+    "disclaimer": "Counts based on headquarters state on the 2023 Fortune 500 list.",
+    "trivia": null,
+    "asOfDate": "2023-06-05"
   },
   {
     "id": "us-states-highest-population-density-2022",
@@ -22678,7 +23413,10 @@
         "code": "VA",
         "value": "220 /sq mi"
       }
-    ]
+    ],
+    "disclaimer": "Density = population / land area (sq mi). DC included.",
+    "trivia": null,
+    "asOfDate": "2022-07-01"
   },
   {
     "id": "us-states-highest-average-annual-temperature-2020",
@@ -22770,7 +23508,10 @@
         "code": "VA",
         "value": "55.1 F"
       }
-    ]
+    ],
+    "disclaimer": "1991-2020 climate normals, annual mean temperature (Fahrenheit).",
+    "trivia": null,
+    "asOfDate": "2020-12-31"
   },
   {
     "id": "us-states-most-electoral-college-votes-2024",
@@ -22862,7 +23603,10 @@
         "code": "IN",
         "value": "11 votes (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Based on 2020 census apportionment; used for 2024 and 2028 elections. DC has 3.",
+    "trivia": null,
+    "asOfDate": "2024-01-01"
   },
   {
     "id": "pro-sports-cross-league-most-all-time-championships-across-the-big-4-leagues-202",
@@ -22954,7 +23698,10 @@
         "code": "NHL-CHI",
         "value": "6 Stanley Cups (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Montreal's 24 Stanley Cups make the Canadiens the runaway leader among all US/Canada pro sports franchises. Yankees' 27 World Series lead MLB. NBA leader is Boston (18). NFL leader (Super Bowl era) is Pittsburgh and New England tied at 6. Pre-Super Bowl NFL championships are excluded for NFL teams; NHL includes only NHL-era Stanley Cup wins.",
+    "trivia": null,
+    "asOfDate": "Through the 2023-24 MLB, NBA, NHL and 2023 NFL seasons"
   },
   {
     "id": "pro-sports-cross-league-most-valuable-franchise-across-all-us-pro-sports-forbes-",
@@ -23046,7 +23793,10 @@
         "code": "NFL-MIA",
         "value": "$6.2B"
       }
-    ]
+    ],
+    "disclaimer": "The Cowboys have been Forbes' most valuable sports franchise in the world for multiple years running. NFL teams dominate the cross-sport ranking; the highest-ranked NBA team is Golden State, MLB is the Yankees, NHL is the Rangers.",
+    "trivia": null,
+    "asOfDate": "Forbes 2024 valuations (NFL Aug, NBA Oct, MLB Mar, NHL Dec)"
   },
   {
     "id": "pro-sports-cross-league-highest-annual-revenue-across-us-pro-sports-2023-2023",
@@ -23138,7 +23888,10 @@
         "code": "NBA-NYK",
         "value": "$505M revenue"
       }
-    ]
+    ],
+    "disclaimer": "Because the NFL's national media deals give each team a huge equal share, NFL teams cluster near the top of the revenue table even when their local markets differ. The Cowboys' massive stadium/sponsorship/luxury revenue makes them a notable outlier.",
+    "trivia": null,
+    "asOfDate": "2023 season revenue (Forbes, published 2024)"
   },
   {
     "id": "pro-sports-cross-league-oldest-franchises-across-the-big-4-ascending-founding-ye",
@@ -23158,79 +23911,82 @@
       {
         "rank": 1,
         "code": "MLB-ATL",
-        "value": "1871 (as Boston Red Stockings)"
+        "value": "1871 (as Boston Red Stockings, NA)"
       },
       {
         "rank": 2,
         "code": "MLB-CHC",
-        "value": "1876"
+        "value": "1876 (NL charter)"
       },
       {
         "rank": 3,
         "code": "MLB-STL",
-        "value": "1882"
+        "value": "1882 (AA)"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "MLB-CIN",
-        "value": "1882"
+        "value": "1882 (AA)"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "code": "MLB-PIT",
-        "value": "1882"
-      },
-      {
-        "rank": 6,
-        "code": "MLB-SF",
-        "value": "1883"
+        "value": "1882 (AA)"
       },
       {
         "rank": 6,
         "code": "MLB-PHI",
-        "value": "1883"
+        "value": "1883 (NL)"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "MLB-LAD",
-        "value": "1883 (as Brooklyn Atlantics)"
+        "value": "1884 (Brooklyn AA)"
+      },
+      {
+        "rank": 8,
+        "code": "NFL-ARI",
+        "value": "1898 (Chicago Cardinals)"
       },
       {
         "rank": 9,
-        "code": "NFL-ARI",
-        "value": "1898 (charter NFL member 1920)"
-      },
-      {
-        "rank": 10,
-        "code": "MLB-CWS",
-        "value": "1901"
-      },
-      {
-        "rank": 10,
         "code": "MLB-CLE",
-        "value": "1901"
-      },
-      {
-        "rank": 10,
-        "code": "MLB-DET",
-        "value": "1901"
+        "value": "1894"
       },
       {
         "rank": 10,
         "code": "MLB-BOS",
-        "value": "1901"
+        "value": "1901 (AL charter)"
       },
       {
-        "rank": 10,
-        "code": "MLB-BAL",
-        "value": "1901"
+        "rank": 11,
+        "code": "MLB-CWS",
+        "value": "1901 (AL charter)"
+      },
+      {
+        "rank": 12,
+        "code": "MLB-DET",
+        "value": "1901 (AL charter)"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-NYY",
+        "value": "1901 (Baltimore Orioles)"
+      },
+      {
+        "rank": 14,
+        "code": "MLB-OAK",
+        "value": "1901 (Philadelphia Athletics)"
       },
       {
         "rank": 15,
-        "code": "NFL-CHI",
-        "value": "1919"
+        "code": "MLB-BAL",
+        "value": "1901"
       }
-    ]
+    ],
+    "disclaimer": "MLB dominates the oldest-franchise list because the National League began in 1876. The Braves (originally Boston Red Stockings, 1871) are the oldest continuously operating franchise in North American major pro sports. NFL's oldest are the Cardinals (1898/1920) and Bears (1919); NHL's oldest US-based clubs are the Bruins (1924), Rangers (1926), Blackhawks (1926), Red Wings (1926).",
+    "trivia": null,
+    "asOfDate": "Founding year of the modern franchise lineage"
   },
   {
     "id": "pro-sports-cross-league-highest-all-time-regular-season-winning-percentage-acros",
@@ -23322,7 +24078,10 @@
         "code": "NBA-MIL",
         "value": ".522 win pct"
       }
-    ]
+    ],
+    "disclaimer": "NBA teams dominate the top of any win-percentage list because a full season is 82 games with no ties; the Lakers and Spurs sit above .590. In the NFL, only a handful of franchises have all-time win-percentages above .560. Montreal is the NHL leader with a .584 all-time regular-season winning percentage.",
+    "trivia": null,
+    "asOfDate": "Through 2023-24 seasons"
   },
   {
     "id": "pro-sports-cross-league-largest-average-home-attendance-per-game-across-us-pro-s",
@@ -23414,7 +24173,10 @@
         "code": "MLB-STL",
         "value": "40,013 avg / game"
       }
-    ]
+    ],
+    "disclaimer": "NFL teams dominate this list because stadium capacity dwarfs indoor arenas. Cowboys, Packers, and Broncos consistently draw 78,000+; MLB tops out around 47,000 (Dodgers). Only a couple non-NFL franchises (Dodgers, Cardinals) sneak into the top 15.",
+    "trivia": null,
+    "asOfDate": "2023 NFL / 2023-24 NBA & NHL / 2023 MLB seasons"
   },
   {
     "id": "pro-sports-cross-league-largest-social-media-following-cross-league-2024",
@@ -23506,7 +24268,10 @@
         "code": "MLB-LAD",
         "value": "~14M combined followers"
       }
-    ]
+    ],
+    "disclaimer": "NBA franchises punch above their weight on social because the NBA has global reach and its stars have massive personal followings. The Lakers, Warriors, and Cowboys are the only three US pro franchises above 40M followers. Real Madrid / Barcelona lead globally but are not in the answer set.",
+    "trivia": null,
+    "asOfDate": "Follower counts as of 2024"
   },
   {
     "id": "pro-sports-cross-league-longest-current-championship-drought-cross-league-capped",
@@ -23598,7 +24363,10 @@
         "code": "NBA-NYK",
         "value": "51 years (last title 1973)"
       }
-    ]
+    ],
+    "disclaimer": "Several MLB franchises have never won a World Series (Rangers won in 2023, so removed from the never-won list): Padres, Brewers, Rays, Rockies, Mariners. In the NFL, the Lions, Browns, Jaguars, and Texans have never won a Super Bowl. Never-won franchises are capped at 100 to make the list finite; among franchises that have won, the Arizona Cardinals (last title 1947) and Sacramento Kings (last title 1951) hold the actual longest droughts.",
+    "trivia": null,
+    "asOfDate": "Through 2024 champions in each league"
   },
   {
     "id": "pro-sports-cross-league-most-retired-jersey-numbers-across-all-us-pro-sports-202",
@@ -23690,7 +24458,10 @@
         "code": "NBA-CHI",
         "value": "4 retired numbers"
       }
-    ]
+    ],
+    "disclaimer": "The Celtics lead the sport with 24 retired numbers (basketball is heavy on retirements). MLB's Cardinals and Yankees are among the leaders. Jackie Robinson's #42 is retired league-wide across MLB but is not counted here as a team-specific retirement. Some teams (e.g. Bears) have retired the same jersey letter/number for multiple players \u2014 still counted as one retirement per number.",
+    "trivia": null,
+    "asOfDate": "Through the 2023-24 seasons"
   },
   {
     "id": "pro-sports-cross-league-most-mvp-awards-to-players-aggregated-by-team-across-the",
@@ -23782,7 +24553,10 @@
         "code": "NFL-KC",
         "value": "5 AP MVPs"
       }
-    ]
+    ],
+    "disclaimer": "Counts MVPs won as a member of the current franchise (following franchise lineage). NHL Hart Trophies favor Montreal and Boston; NBA MVPs favor the Bucks and Lakers. Kareem alone contributed 3 to the Lakers and 3 to the Bucks. MLB counts both AL and NL awards.",
+    "trivia": null,
+    "asOfDate": "Through the 2023-24 NBA/NHL and 2023 NFL/MLB seasons"
   },
   {
     "id": "pro-sports-mlb-most-world-series-titles-mlb-2024",
@@ -23874,7 +24648,10 @@
         "code": "MLB-HOU",
         "value": "2 titles (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Athletics count includes Philadelphia, Kansas City, and Oakland eras. Braves count includes Boston and Milwaukee eras. Giants count includes New York era. Dodgers won an 8th title in 2024.",
+    "trivia": null,
+    "asOfDate": "Through 2024 World Series (Dodgers over Yankees)"
   },
   {
     "id": "pro-sports-mlb-most-world-series-appearances-mlb-2024",
@@ -23966,7 +24743,10 @@
         "code": "MLB-MIN",
         "value": "6 appearances"
       }
-    ]
+    ],
+    "disclaimer": "Yankees have by far the most World Series appearances of any franchise. Athletics count includes Philadelphia/KC/Oakland; Giants include NY era; Braves include Boston/Milwaukee eras; Dodgers include Brooklyn era.",
+    "trivia": null,
+    "asOfDate": "Through 2024 World Series"
   },
   {
     "id": "pro-sports-mlb-most-all-time-regular-season-wins-mlb-2024",
@@ -24058,7 +24838,10 @@
         "code": "MLB-BAL",
         "value": "~9,300 wins"
       }
-    ]
+    ],
+    "disclaimer": "Franchise totals include all city relocations. The Giants (SF + NY) and Cubs are the oldest continually operating NL franchises and lead the all-time wins list along with the Yankees and Dodgers.",
+    "trivia": null,
+    "asOfDate": "Through 2024 regular season"
   },
   {
     "id": "pro-sports-mlb-most-playoff-appearances-mlb-2024",
@@ -24150,7 +24933,10 @@
         "code": "MLB-PHI",
         "value": "16 appearances"
       }
-    ]
+    ],
+    "disclaimer": "Yankees lead by a wide margin. Dodgers have made the postseason in 12 consecutive seasons through 2024, boosting their total.",
+    "trivia": null,
+    "asOfDate": "Through 2024 postseason"
   },
   {
     "id": "pro-sports-mlb-most-hall-of-famers-mlb-by-primary-team-2024",
@@ -24242,7 +25028,10 @@
         "code": "MLB-CWS",
         "value": "8 HOFers"
       }
-    ]
+    ],
+    "disclaimer": "Yankees and Giants (including NY Giants era) lead in Hall of Famers who spent the plurality of their careers with the franchise. Includes only players inducted primarily as members of that franchise.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Hall of Fame induction class"
   },
   {
     "id": "pro-sports-mlb-most-valuable-mlb-franchises-forbes-2024-2024",
@@ -24334,7 +25123,10 @@
         "code": "MLB-SD",
         "value": "$2.1B"
       }
-    ]
+    ],
+    "disclaimer": "Yankees remain baseball's most valuable franchise, a spot they've held since Forbes began ranking MLB teams in 1998.",
+    "trivia": null,
+    "asOfDate": "March 2024 valuations"
   },
   {
     "id": "pro-sports-mlb-largest-mlb-stadium-capacity-2024",
@@ -24421,7 +25213,10 @@
         "code": "MLB-MIN",
         "value": "38,544 (Target Field)"
       }
-    ]
+    ],
+    "disclaimer": "Dodger Stadium is the largest MLB ballpark by capacity. Coors Field's altitude (5,200 ft) has made it MLB's most hitter-friendly park.",
+    "trivia": null,
+    "asOfDate": "2024 season"
   },
   {
     "id": "pro-sports-mlb-oldest-mlb-franchises-founding-year-2024",
@@ -24441,79 +25236,82 @@
       {
         "rank": 1,
         "code": "MLB-ATL",
-        "value": "Founded 1871"
+        "value": "Founded 1871 (Boston Red Stockings, NA)"
       },
       {
         "rank": 2,
         "code": "MLB-CHC",
-        "value": "Founded 1876"
+        "value": "Founded 1876 (NL charter member)"
       },
       {
         "rank": 3,
         "code": "MLB-STL",
-        "value": "Founded 1882"
+        "value": "Founded 1882 (Brown Stockings, AA)"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "MLB-CIN",
-        "value": "Founded 1882"
+        "value": "Founded 1882 (Red Stockings, AA)"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "code": "MLB-PIT",
-        "value": "Founded 1882"
+        "value": "Founded 1882 (Allegheny, AA)"
       },
       {
         "rank": 6,
         "code": "MLB-PHI",
-        "value": "Founded 1883"
+        "value": "Founded 1883 (Philadelphia Quakers, NL)"
       },
       {
-        "rank": 6,
-        "code": "MLB-SF",
-        "value": "Founded 1883"
+        "rank": 7,
+        "code": "MLB-NYM",
+        "value": "New York Giants moved to SF; Mets 1962 (baseline via NY Giants 1883)"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "MLB-LAD",
-        "value": "Founded 1883"
-      },
-      {
-        "rank": 9,
-        "code": "MLB-BAL",
-        "value": "Founded 1894"
+        "value": "Founded 1884 (Brooklyn Atlantics, AA)"
       },
       {
         "rank": 9,
         "code": "MLB-CLE",
-        "value": "Founded 1894"
+        "value": "Founded 1894 (Grand Rapids Rustlers)"
       },
       {
-        "rank": 9,
-        "code": "MLB-DET",
-        "value": "Founded 1894"
+        "rank": 10,
+        "code": "MLB-BAL",
+        "value": "Founded 1901 (Milwaukee Brewers \u2192 St. Louis Browns \u2192 Baltimore Orioles)"
       },
       {
-        "rank": 9,
-        "code": "MLB-MIN",
-        "value": "Founded 1894"
-      },
-      {
-        "rank": 13,
+        "rank": 11,
         "code": "MLB-BOS",
-        "value": "Founded 1901"
+        "value": "Founded 1901 (AL charter)"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "MLB-CWS",
-        "value": "Founded 1901"
+        "value": "Founded 1901 (AL charter)"
       },
       {
         "rank": 13,
+        "code": "MLB-DET",
+        "value": "Founded 1901 (AL charter)"
+      },
+      {
+        "rank": 14,
+        "code": "MLB-NYY",
+        "value": "Founded 1901 (Baltimore Orioles \u2192 NY Highlanders 1903)"
+      },
+      {
+        "rank": 15,
         "code": "MLB-OAK",
-        "value": "Founded 1901"
+        "value": "Founded 1901 (Philadelphia Athletics)"
       }
-    ]
+    ],
+    "disclaimer": "Braves (est. 1871 as Boston Red Stockings) and Cubs (est. 1876 as Chicago White Stockings) are the two oldest continuously operating MLB franchises. NL clubs founded in 1876-1883 dominate the top of this list.",
+    "trivia": null,
+    "asOfDate": "Through 2024 season"
   },
   {
     "id": "pro-sports-mlb-most-cy-young-awards-mlb-by-team-2024",
@@ -24605,7 +25403,10 @@
         "code": "MLB-HOU",
         "value": "3 Cy Youngs"
       }
-    ]
+    ],
+    "disclaimer": "Award established in 1956 (one MLB-wide winner through 1966; separate AL/NL winners since 1967). Dodgers lead with legendary pitchers including Koufax, Drysdale, Newcombe, Hershiser, Valenzuela, Gagne, Kershaw (3x), and Bauer.",
+    "trivia": null,
+    "asOfDate": "Through 2024 season"
   },
   {
     "id": "pro-sports-mlb-most-mvp-awards-mlb-by-team-2024",
@@ -24697,7 +25498,10 @@
         "code": "MLB-TEX",
         "value": "3 MVPs"
       }
-    ]
+    ],
+    "disclaimer": "Modern BBWAA MVP era (AL from 1931, NL from 1931). Yankees dominate with MVPs from Ruth, Gehrig, DiMaggio, Berra (3x), Mantle (3x), Rodriguez, and Judge. Angels count boosted by Trout (3x) and Ohtani (2x, before 2024).",
+    "trivia": null,
+    "asOfDate": "Through 2024 season"
   },
   {
     "id": "pro-sports-nba-most-nba-championships-all-time-2024",
@@ -24789,7 +25593,10 @@
         "code": "NBA-POR",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Boston (18) passed the Lakers (17) with the 2024 title. Warriors count includes their Philadelphia era. Pistons count includes their Fort Wayne era. Kings count includes Rochester Royals era (1951).",
+    "trivia": null,
+    "asOfDate": "Through 2024 Finals (Celtics over Mavericks)"
   },
   {
     "id": "pro-sports-nba-most-nba-finals-appearances-2024",
@@ -24881,7 +25688,10 @@
         "code": "NBA-BKN",
         "value": "2 appearances (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Lakers lead all franchises in Finals appearances, including their Minneapolis era. Warriors total includes Philadelphia era. 76ers total includes Syracuse Nationals era.",
+    "trivia": null,
+    "asOfDate": "Through 2024 NBA Finals"
   },
   {
     "id": "pro-sports-nba-most-nba-conference-titles-2024",
@@ -24973,7 +25783,10 @@
         "code": "NBA-ORL",
         "value": "2 conference titles"
       }
-    ]
+    ],
+    "disclaimer": "Conference titles align with Finals appearances since the ABA-NBA merger created a two-conference format. Lakers lead all franchises.",
+    "trivia": null,
+    "asOfDate": "Through 2024 NBA Playoffs"
   },
   {
     "id": "pro-sports-nba-most-regular-season-wins-all-time-2023",
@@ -25065,7 +25878,10 @@
         "code": "NBA-WAS",
         "value": "~2,240 wins"
       }
-    ]
+    ],
+    "disclaimer": "Lakers lead in franchise wins, aided by their long history dating to Minneapolis (1948). Boston and the Warriors round out the top of the all-time list. Kings count includes Rochester Royals and Kansas City Kings eras.",
+    "trivia": null,
+    "asOfDate": "Through 2023-24 regular season"
   },
   {
     "id": "pro-sports-nba-most-nba-division-titles-2023",
@@ -25157,7 +25973,10 @@
         "code": "NBA-POR",
         "value": "5 division titles"
       }
-    ]
+    ],
+    "disclaimer": "Lakers and Celtics lead in division titles. Spurs count reflects dominance of the Midwest/Southwest Division from 1998-2017. Hawks count includes Tri-Cities/Milwaukee/St. Louis eras.",
+    "trivia": null,
+    "asOfDate": "Through 2023-24 regular season"
   },
   {
     "id": "pro-sports-nba-most-hall-of-famers-per-franchise-2024",
@@ -25249,7 +26068,10 @@
         "code": "NBA-SAC",
         "value": "~10 Hall of Famers"
       }
-    ]
+    ],
+    "disclaimer": "Counts include any HOFer who spent time with the franchise. Lakers and Celtics lead by wide margins. Warriors count includes Philadelphia era.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Hall of Fame class"
   },
   {
     "id": "pro-sports-nba-most-retired-jersey-numbers-2024",
@@ -25341,7 +26163,10 @@
         "code": "NBA-CHI",
         "value": "4 retired numbers"
       }
-    ]
+    ],
+    "disclaimer": "Celtics have retired more numbers than any franchise. Counts include team-wide honors (e.g. Boston's 'LOSCY' banner) as retired numbers in most published tallies.",
+    "trivia": null,
+    "asOfDate": "Through 2024 season"
   },
   {
     "id": "pro-sports-nba-most-60-win-regular-seasons-2023",
@@ -25433,7 +26258,10 @@
         "code": "NBA-POR",
         "value": "1 sixty-win season"
       }
-    ]
+    ],
+    "disclaimer": "Lakers lead all franchises in 60-win seasons. Spurs' dominance from 1998-2016 and Warriors' 2015-19 dynasty account for their totals.",
+    "trivia": null,
+    "asOfDate": "Through 2023-24 regular season"
   },
   {
     "id": "pro-sports-nba-longest-playoff-appearance-streak-all-time-2023",
@@ -25525,7 +26353,10 @@
         "code": "NBA-MIA",
         "value": "7 straight (2004-10)"
       }
-    ]
+    ],
+    "disclaimer": "Spurs are second with 22 straight (1998-2019). Some tallies list Boston (1980-95) as the third-longest.",
+    "trivia": "Syracuse/Philadelphia 76ers hold the record with 22 straight (1950-71).",
+    "asOfDate": "Through 2023-24 season"
   },
   {
     "id": "pro-sports-nba-most-valuable-nba-franchises-forbes-2024-2024",
@@ -25617,7 +26448,10 @@
         "code": "NBA-DEN",
         "value": "$3.5B"
       }
-    ]
+    ],
+    "disclaimer": "Warriors passed the Knicks for #1 on the strength of their market, media, and Chase Center revenue. Lakers a close third. Rising media-rights deal (2025) has lifted valuations across the league.",
+    "trivia": null,
+    "asOfDate": "October 2024 valuations"
   },
   {
     "id": "pro-sports-nfl-most-super-bowl-wins-2024",
@@ -25709,7 +26543,10 @@
         "code": "NFL-PHI",
         "value": "1 win (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Pittsburgh and New England are tied at 6. Kansas City reached 4 with the 2023 season title. Counts only Super Bowl era (post-1966); pre-Super-Bowl NFL championships not included.",
+    "trivia": null,
+    "asOfDate": "Through Super Bowl LVIII (Chiefs over 49ers, Feb 2024)"
   },
   {
     "id": "pro-sports-nfl-most-super-bowl-appearances-2024",
@@ -25801,7 +26638,10 @@
         "code": "NFL-IND",
         "value": "4 appearances (tied)"
       }
-    ]
+    ],
+    "disclaimer": "New England leads with 11 (6-5). Pittsburgh, Dallas, and Denver tied at 8. Kansas City reached 6 after 2023 season championship.",
+    "trivia": null,
+    "asOfDate": "Through Super Bowl LVIII (Feb 2024)"
   },
   {
     "id": "pro-sports-nfl-most-nfl-championships-pre-super-bowl-era",
@@ -25893,7 +26733,10 @@
         "code": "NFL-NYJ",
         "value": "1 AFL title"
       }
-    ]
+    ],
+    "disclaimer": "Green Bay's 9 pre-Super Bowl titles include championships won under Curly Lambeau and Vince Lombardi.",
+    "trivia": "Chicago Bears have 8 pre-Super Bowl titles including the 1920 APFA championship.",
+    "asOfDate": "Pre-Super Bowl era (1920-1965)"
   },
   {
     "id": "pro-sports-nfl-all-time-regular-season-wins-2023",
@@ -25985,7 +26828,10 @@
         "code": "NFL-MIA",
         "value": "497 wins"
       }
-    ]
+    ],
+    "disclaimer": "Includes all regular-season wins in franchise history (including pre-NFL merger AAFC/AFL wins for legacy teams).",
+    "trivia": "Chicago Bears and Green Bay Packers, two of the oldest franchises, lead all-time win totals.",
+    "asOfDate": "Through 2023 NFL season"
   },
   {
     "id": "pro-sports-nfl-most-playoff-appearances-2023",
@@ -26077,7 +26923,10 @@
         "code": "NFL-LV",
         "value": "22 appearances"
       }
-    ]
+    ],
+    "disclaimer": "Cowboys, Steelers, and Packers all have made 30+ postseason appearances. The Patriots surged into the top group during the Belichick/Brady era.",
+    "trivia": null,
+    "asOfDate": "Through 2023 NFL season playoffs"
   },
   {
     "id": "pro-sports-nfl-most-division-titles-2023",
@@ -26169,7 +27018,10 @@
         "code": "NFL-CLE",
         "value": "12 division titles"
       }
-    ]
+    ],
+    "disclaimer": "New England won 17 straight AFC East titles during the Brady era except for a couple gaps. Cowboys and Steelers benefit from decades in strong divisions.",
+    "trivia": null,
+    "asOfDate": "Through 2023 NFL season"
   },
   {
     "id": "pro-sports-nfl-most-valuable-nfl-franchises-forbes-2024-2024",
@@ -26261,7 +27113,10 @@
         "code": "NFL-GB",
         "value": "$5.85B"
       }
-    ]
+    ],
+    "disclaimer": "Cowboys have been Forbes' most valuable NFL franchise (and most valuable sports franchise in the world) for years running.",
+    "trivia": null,
+    "asOfDate": "August 2024 valuations"
   },
   {
     "id": "pro-sports-nfl-largest-stadium-capacity-2024",
@@ -26353,7 +27208,10 @@
         "code": "NFL-MIA",
         "value": "65,326"
       }
-    ]
+    ],
+    "disclaimer": "MetLife Stadium is shared by the Giants and Jets. Lambeau Field expansions have brought Green Bay into the top group. AT&T Stadium can expand to 105,000+ with standing room.",
+    "trivia": null,
+    "asOfDate": "2024 NFL season"
   },
   {
     "id": "pro-sports-nfl-oldest-nfl-franchises-founding-year",
@@ -26373,79 +27231,82 @@
       {
         "rank": 1,
         "code": "NFL-ARI",
-        "value": "1898"
+        "value": "Chicago Cardinals founded 1898"
       },
       {
         "rank": 2,
         "code": "NFL-CHI",
-        "value": "1919"
+        "value": "Decatur Staleys founded 1919"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "NFL-GB",
-        "value": "1919"
+        "value": "Founded August 11, 1919"
       },
       {
         "rank": 4,
         "code": "NFL-NYG",
-        "value": "1925"
+        "value": "Founded 1925"
       },
       {
         "rank": 5,
         "code": "NFL-DET",
-        "value": "1930"
+        "value": "Portsmouth Spartans founded 1930"
       },
       {
         "rank": 6,
         "code": "NFL-WAS",
-        "value": "1932"
+        "value": "Boston Braves founded 1932"
       },
       {
         "rank": 7,
         "code": "NFL-PHI",
-        "value": "1933"
+        "value": "Frankford Yellow Jackets 1924; Eagles franchise 1933"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "NFL-PIT",
-        "value": "1933"
+        "value": "Pittsburgh Pirates 1933"
       },
       {
         "rank": 9,
         "code": "NFL-LAR",
-        "value": "1936"
-      },
-      {
-        "rank": 10,
-        "code": "NFL-CLE",
-        "value": "1946"
+        "value": "Cleveland Rams 1936"
       },
       {
         "rank": 10,
         "code": "NFL-SF",
-        "value": "1946"
+        "value": "San Francisco 49ers 1946"
+      },
+      {
+        "rank": 11,
+        "code": "NFL-CLE",
+        "value": "Cleveland Browns 1946"
       },
       {
         "rank": 12,
         "code": "NFL-IND",
-        "value": "1953"
+        "value": "Baltimore Colts 1953"
       },
       {
         "rank": 13,
-        "code": "NFL-BUF",
-        "value": "1960"
+        "code": "NFL-DAL",
+        "value": "Founded January 28, 1960"
       },
       {
-        "rank": 13,
-        "code": "NFL-DEN",
-        "value": "1960"
-      },
-      {
-        "rank": 13,
+        "rank": 14,
         "code": "NFL-NE",
-        "value": "1960"
+        "value": "Boston Patriots founded November 22, 1959; began play 1960"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-KC",
+        "value": "Dallas Texans founded 1960"
       }
-    ]
+    ],
+    "disclaimer": "Cardinals trace their origins to 1898 (Morgan Athletic Club, Chicago), making them the oldest continuously operating pro football team. Bears (Decatur Staleys, 1919) and Packers (1919) are the other charter/near-charter members of what became the NFL in 1920.",
+    "trivia": null,
+    "asOfDate": "NFL franchise origins"
   },
   {
     "id": "pro-sports-nfl-longest-current-playoff-drought-2023",
@@ -26537,7 +27398,10 @@
         "code": "NFL-JAX",
         "value": "1 season (since 2022)"
       }
-    ]
+    ],
+    "disclaimer": "Jets hold the longest active drought \u2014 no playoffs since 2010. Panthers, Broncos, Raiders, Titans, and others all missed the 2023 playoffs. Denver ended a long drought after 2015 title. List reflects droughts entering the 2024 season.",
+    "trivia": null,
+    "asOfDate": "Following 2023 NFL season playoffs"
   },
   {
     "id": "pro-sports-nhl-most-stanley-cups-won-all-time-2024",
@@ -26624,7 +27488,10 @@
         "code": "NHL-DAL",
         "value": "1 Cup (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Montreal leads all franchises. Detroit's total includes their Cougars/Falcons era. Some historical franchises (e.g. Ottawa Senators original) are not counted for the modern Ottawa club.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Stanley Cup Final (Panthers over Oilers)"
   },
   {
     "id": "pro-sports-nhl-most-stanley-cup-finals-appearances-2024",
@@ -26711,7 +27578,10 @@
         "code": "NHL-VAN",
         "value": "3 appearances"
       }
-    ]
+    ],
+    "disclaimer": "Includes NHL Finals appearances only (post-1926 for pre-NHL merger teams). Montreal leads all franchises.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Stanley Cup Final"
   },
   {
     "id": "pro-sports-nhl-most-division-titles-all-time-2023",
@@ -26803,7 +27673,10 @@
         "code": "NHL-VGK",
         "value": "5 titles"
       }
-    ]
+    ],
+    "disclaimer": "Counts division championships since divisional play began in 1967-68. Montreal and Boston lead the Original Six-era clubs.",
+    "trivia": null,
+    "asOfDate": "Through 2023-24 season"
   },
   {
     "id": "pro-sports-nhl-most-all-time-regular-season-wins-2023",
@@ -26895,7 +27768,10 @@
         "code": "NHL-NYI",
         "value": "1,833 wins"
       }
-    ]
+    ],
+    "disclaimer": "Original Six clubs dominate due to longevity. Includes shootout wins from 2005-06 onward.",
+    "trivia": null,
+    "asOfDate": "Through 2023-24 season"
   },
   {
     "id": "pro-sports-nhl-most-playoff-appearances-all-time-2024",
@@ -26987,7 +27863,10 @@
         "code": "NHL-NJD",
         "value": "26 appearances"
       }
-    ]
+    ],
+    "disclaimer": "Montreal and Boston lead due to their long histories dating to the 1910s and 1920s.",
+    "trivia": null,
+    "asOfDate": "Through 2024 playoffs"
   },
   {
     "id": "pro-sports-nhl-longest-current-stanley-cup-drought-2023",
@@ -27074,7 +27953,10 @@
         "code": "NHL-CBJ",
         "value": "24 years (never won, est. 2000)"
       }
-    ]
+    ],
+    "disclaimer": "For franchises that have never won a Cup, drought counts from franchise founding. Toronto's 1967 Cup is the longest active drought among Cup winners.",
+    "trivia": null,
+    "asOfDate": "As of end of 2023-24 season"
   },
   {
     "id": "pro-sports-nhl-most-hockey-hall-of-famers-2023",
@@ -27166,7 +28048,10 @@
         "code": "NHL-NJD",
         "value": "5 inductees"
       }
-    ]
+    ],
+    "disclaimer": "Counts players inducted who played meaningful time with the franchise. Original Six clubs dominate due to longevity and roster stability.",
+    "trivia": null,
+    "asOfDate": "As of 2023 Hall of Fame class"
   },
   {
     "id": "pro-sports-nhl-most-retired-jersey-numbers-2024",
@@ -27258,7 +28143,10 @@
         "code": "NHL-CGY",
         "value": "3 numbers"
       }
-    ]
+    ],
+    "disclaimer": "Excludes league-wide retirement of #99 for Wayne Gretzky. Toronto includes 'honoured' numbers in their tally.",
+    "trivia": null,
+    "asOfDate": "As of 2024"
   },
   {
     "id": "pro-sports-nhl-highest-current-forbes-valuation-2023",
@@ -27350,7 +28238,10 @@
         "code": "NHL-SEA",
         "value": "$1.00B"
       }
-    ]
+    ],
+    "disclaimer": "Values in USD.",
+    "trivia": "Toronto is the most valuable franchise in the NHL, followed by the New York Rangers and Montreal Canadiens.",
+    "asOfDate": "Forbes 2023 NHL team valuations"
   },
   {
     "id": "pro-sports-nhl-largest-arena-capacity-hockey-2023",
@@ -27437,7 +28328,10 @@
         "code": "NHL-BOS",
         "value": "17,850 (TD Garden)"
       }
-    ]
+    ],
+    "disclaimer": "Capacities listed for hockey configuration. Bell Centre in Montreal is the largest NHL arena.",
+    "trivia": null,
+    "asOfDate": "2023-24 season"
   },
   {
     "id": "pro-sports-most-nba-championships-all-time-2024",
@@ -27529,7 +28423,10 @@
         "code": "NBA-POR",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Boston (18) passed the Lakers (17) with the 2024 title. Warriors count includes their Philadelphia era. Pistons count includes their Fort Wayne era.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Finals (Celtics beat Mavericks)"
   },
   {
     "id": "pro-sports-most-nfl-super-bowl-wins-2024",
@@ -27621,7 +28518,10 @@
         "code": "NFL-PHI",
         "value": "1 win (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Pittsburgh and New England are tied at 6. Kansas City reached 4 with the 2023 season title. This counts only Super Bowl era (post-1966); pre-Super-Bowl NFL championships are not included.",
+    "trivia": null,
+    "asOfDate": "Through Super Bowl LVIII (Chiefs over 49ers, Feb 2024)"
   },
   {
     "id": "pro-sports-most-mlb-world-series-titles-2023",
@@ -27713,7 +28613,10 @@
         "code": "MLB-HOU",
         "value": "2 titles (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Athletics count includes Philadelphia, Kansas City, and Oakland eras. Braves count includes Boston and Milwaukee eras. Giants count includes New York era.",
+    "trivia": null,
+    "asOfDate": "Through 2023 World Series (Rangers over Diamondbacks)"
   },
   {
     "id": "pro-sports-most-stanley-cup-wins-nhl-2024",
@@ -27805,7 +28708,10 @@
         "code": "NHL-CGY",
         "value": "1 Cup (tied)"
       }
-    ]
+    ],
+    "disclaimer": "Montreal's total is the most of any NHL franchise. Only includes titles won as an NHL member; pre-NHL Cup wins are excluded.",
+    "trivia": null,
+    "asOfDate": "Through 2024 Stanley Cup Final (Panthers over Oilers)"
   },
   {
     "id": "pro-sports-most-valuable-nfl-franchises-forbes-2024-2024",
@@ -27897,7 +28803,10 @@
         "code": "NFL-GB",
         "value": "$5.85B"
       }
-    ]
+    ],
+    "disclaimer": "Cowboys have been Forbes' most valuable NFL franchise (and most valuable sports franchise in the world) for years.",
+    "trivia": null,
+    "asOfDate": "August 2024 valuations"
   },
   {
     "id": "pro-sports-most-valuable-nba-franchises-forbes-2024-2024",
@@ -27989,7 +28898,10 @@
         "code": "NBA-DEN",
         "value": "$3.5B"
       }
-    ]
+    ],
+    "disclaimer": "Warriors passed the Knicks for #1 on the strength of their market, media, and Chase Center revenue. Lakers a close third.",
+    "trivia": null,
+    "asOfDate": "October 2024 valuations"
   },
   {
     "id": "pro-sports-most-valuable-mlb-franchises-forbes-2024-2024",
@@ -28081,7 +28993,10 @@
         "code": "MLB-SD",
         "value": "$2.1B"
       }
-    ]
+    ],
+    "disclaimer": "Yankees remain baseball's most valuable franchise, a spot they've held since Forbes began ranking MLB teams in 1998.",
+    "trivia": null,
+    "asOfDate": "March 2024 valuations"
   },
   {
     "id": "pro-sports-most-super-bowl-appearances-2024",
@@ -28173,7 +29088,10 @@
         "code": "NFL-IND",
         "value": "4 appearances"
       }
-    ]
+    ],
+    "disclaimer": "New England's total is 11 (6-5). Pittsburgh 8 (6-2). Dallas 8 (5-3). Denver 8 (3-5). Kansas City 6 (4-2) after 2023 season championship.",
+    "trivia": null,
+    "asOfDate": "Through Super Bowl LVIII (Feb 2024)"
   },
   {
     "id": "companies-financials-highest-annual-revenue-fortune-500-2024",
@@ -28260,7 +29178,10 @@
         "code": "koch",
         "value": "$125.0B revenue"
       }
-    ]
+    ],
+    "disclaimer": "Total revenue for the most recent fiscal year per Fortune 500 methodology. US-headquartered companies (public and private).",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-financials-highest-market-capitalization-public-fortune-500-2025",
@@ -28342,7 +29263,10 @@
         "code": "UNH",
         "value": "$470B market cap"
       }
-    ]
+    ],
+    "disclaimer": "Publicly-traded US companies only. Market cap = share price x shares outstanding. Values approximate and change daily.",
+    "trivia": null,
+    "asOfDate": "Approximate market cap as of mid-2025"
   },
   {
     "id": "companies-financials-highest-annual-net-income-profit-2024",
@@ -28429,7 +29353,10 @@
         "code": "PG",
         "value": "$14.7B net income"
       }
-    ]
+    ],
+    "disclaimer": "Net income attributable to the company for the most recent fiscal year per Fortune 500 rankings. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 net income)"
   },
   {
     "id": "companies-financials-highest-ebitda-2023",
@@ -28521,7 +29448,10 @@
         "code": "ORCL",
         "value": "$22B EBITDA"
       }
-    ]
+    ],
+    "disclaimer": "EBITDA = Earnings Before Interest, Taxes, Depreciation and Amortization. Non-GAAP; typically calculated from operating income + D&A. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "Trailing twelve months, most recent fiscal year (FY2023)"
   },
   {
     "id": "companies-financials-highest-dividends-paid-fy2023-2023",
@@ -28613,7 +29543,10 @@
         "code": "WFC",
         "value": "$4.7B dividends paid"
       }
-    ]
+    ],
+    "disclaimer": "Total cash dividends paid to common shareholders during FY2023 from the financing activities section of the cash flow statement. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "FY2023 cash dividends paid to common shareholders"
   },
   {
     "id": "companies-financials-largest-share-buybacks-in-2023-2023",
@@ -28700,7 +29633,10 @@
         "code": "BAC",
         "value": "$4.5B buybacks"
       }
-    ]
+    ],
+    "disclaimer": "Cash paid to repurchase common stock during FY2023, from the financing activities section of the cash flow statement. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "FY2023 repurchases of common stock"
   },
   {
     "id": "companies-financials-highest-gross-margin-percentage-2023",
@@ -28782,7 +29718,10 @@
         "code": "PEP",
         "value": "54% gross margin"
       }
-    ]
+    ],
+    "disclaimer": "Gross margin = (Revenue - Cost of Goods Sold) / Revenue. Software, payments, and pharma tend to lead. Values are approximate FY2023 GAAP.",
+    "trivia": null,
+    "asOfDate": "FY2023 gross margin"
   },
   {
     "id": "companies-financials-highest-free-cash-flow-fy2023-2023",
@@ -28874,7 +29813,10 @@
         "code": "PEP",
         "value": "$7.9B free cash flow"
       }
-    ]
+    ],
+    "disclaimer": "Free cash flow = Operating cash flow - Capital expenditures, per each company's 10-K cash flow statement. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "FY2023 free cash flow"
   },
   {
     "id": "companies-financials-highest-price-to-earnings-p-e-ratio-2024",
@@ -28951,7 +29893,10 @@
         "code": "MCD",
         "value": "25x P/E"
       }
-    ]
+    ],
+    "disclaimer": "Trailing P/E = share price / trailing 12-month EPS. Higher P/E indicates investors are paying more per dollar of current earnings, often for growth expectations. Only companies with positive earnings.",
+    "trivia": null,
+    "asOfDate": "Trailing twelve months, mid-2024"
   },
   {
     "id": "companies-financials-highest-long-term-debt-outstanding-2023",
@@ -29038,7 +29983,10 @@
         "code": "GOOGL",
         "value": "$13B long-term debt"
       }
-    ]
+    ],
+    "disclaimer": "Long-term debt (excluding current portion) as disclosed on each company's balance sheet at fiscal year-end 2023. Excludes bank deposits and insurance liabilities. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "FY2023 year-end long-term debt"
   },
   {
     "id": "companies-history-oldest-fortune-500-companies-founding-year",
@@ -29130,7 +30078,10 @@
         "code": "F",
         "value": "founded 1903"
       }
-    ]
+    ],
+    "disclaimer": "Ranked by year the predecessor entity was founded, even if the modern corporation is a later merger.",
+    "trivia": null,
+    "asOfDate": "Founding years per company filings and corporate histories"
   },
   {
     "id": "companies-history-longest-continuous-fortune-500-tenure-2024",
@@ -29217,7 +30168,10 @@
         "code": "JNJ",
         "value": "on list since 1955 (70 years)"
       }
-    ]
+    ],
+    "disclaimer": "Companies that have appeared on the list every year since 1955 (or their earliest inclusion). Some appear via corporate succession (mergers preserving lineage).",
+    "trivia": null,
+    "asOfDate": "Fortune 500 archives through 2024"
   },
   {
     "id": "companies-history-ipo-year-top-100-public-companies-2024",
@@ -29279,7 +30233,10 @@
         "code": "AMZN",
         "value": "IPO 1997"
       }
-    ]
+    ],
+    "disclaimer": "Initial public offering year on a US exchange for Fortune 500 companies in the top 100 by revenue.",
+    "trivia": null,
+    "asOfDate": "IPO dates through 2024"
   },
   {
     "id": "companies-history-longest-tenured-current-ceos-fortune-500-2024",
@@ -29356,7 +30313,10 @@
         "code": "BRK.B",
         "value": "CEO since 1970 (54 years)"
       }
-    ]
+    ],
+    "disclaimer": "Continuous tenure as current CEO of a Fortune 500 company. Berkshire's Buffett is the longest-tenured chief executive.",
+    "trivia": null,
+    "asOfDate": "As of mid-2024"
   },
   {
     "id": "companies-history-highest-ceo-total-compensation-2023-equilar-100-2023",
@@ -29428,7 +30388,10 @@
         "code": "GOOGL",
         "value": "$8.8M"
       }
-    ]
+    ],
+    "disclaimer": "Total compensation per SEC Summary Compensation Table (salary + bonus + stock + option awards + non-equity + other). Equilar 100 ranks the highest-paid CEOs of the largest US public companies.",
+    "trivia": null,
+    "asOfDate": "Fiscal year 2023 total compensation"
   },
   {
     "id": "companies-history-most-acquisitions-in-the-2020s-2020",
@@ -29515,7 +30478,10 @@
         "code": "PFE",
         "value": "~8 acquisitions 2020-2024"
       }
-    ]
+    ],
+    "disclaimer": "Count of completed acquisitions of controlling stakes (majority or 100%) by Fortune 500 acquirers from 2020 through 2024.",
+    "trivia": null,
+    "asOfDate": "Deals announced/closed 2020-2024"
   },
   {
     "id": "companies-history-largest-single-acquisitions-all-time-us-fortune-500-acquirers-",
@@ -29602,7 +30568,10 @@
         "code": "AMZN",
         "value": "$8.5B"
       }
-    ]
+    ],
+    "disclaimer": "Deal value at announcement (enterprise value including debt assumed) in USD billions. Excludes hostile/aborted deals.",
+    "trivia": null,
+    "asOfDate": "Completed deals through 2024"
   },
   {
     "id": "companies-history-highest-ceo-base-salary-2023-2023",
@@ -29689,7 +30658,10 @@
         "code": "DIS",
         "value": "$1.0M base salary"
       }
-    ]
+    ],
+    "disclaimer": "Base salary only (excludes bonus, stock awards, and other compensation). Many top CEOs take $1 salary and are compensated through equity.",
+    "trivia": null,
+    "asOfDate": "Fiscal year 2023"
   },
   {
     "id": "companies-history-largest-stock-based-compensation-to-ceo-2023-2023",
@@ -29766,7 +30738,10 @@
         "code": "ORCL",
         "value": "$0 (option-only compensation)"
       }
-    ]
+    ],
+    "disclaimer": "Grant-date fair value of stock and option awards per SEC Summary Compensation Table. Excludes cash and bonus. Axon's Rick Smith received a large performance-based grant tied to shareholder return targets.",
+    "trivia": null,
+    "asOfDate": "Fiscal year 2023 grant-date fair value of stock awards"
   },
   {
     "id": "companies-history-founder-led-fortune-500-top-100-companies-2024",
@@ -29838,7 +30813,10 @@
         "code": "BRK.B",
         "value": "Warren Buffett (54-year CEO, not founder)"
       }
-    ]
+    ],
+    "disclaimer": "Companies where a founder (or founding family member) currently serves as CEO. Buffett is not a founder but has run Berkshire since 1970 \u2014 excluded here; Dell reacquired his founder-CEO status in 2007.",
+    "trivia": null,
+    "asOfDate": "As of 2024"
   },
   {
     "id": "companies-largest-us-companies-by-revenue-fortune-500-2024",
@@ -29930,7 +30908,10 @@
         "code": "CHTR",
         "value": "$54.6B revenue"
       }
-    ]
+    ],
+    "disclaimer": "Ranked by total revenue for the most recent fiscal year, per Fortune 500 methodology. US-headquartered companies only.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-largest-by-market-capitalization-2025",
@@ -30022,7 +31003,10 @@
         "code": "UNH",
         "value": "$470B market cap"
       }
-    ]
+    ],
+    "disclaimer": "Publicly-traded US companies only. Market capitalization = share price x shares outstanding. Values approximate and change daily.",
+    "trivia": null,
+    "asOfDate": "Approximate market cap as of mid-2025"
   },
   {
     "id": "companies-largest-by-profit-fortune-500-2024",
@@ -30114,7 +31098,10 @@
         "code": "PG",
         "value": "$14.7B profit"
       }
-    ]
+    ],
+    "disclaimer": "Net income for the most recent fiscal year in the Fortune 500 rankings. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 net income)"
   },
   {
     "id": "companies-largest-by-employee-count-fortune-500-2024",
@@ -30206,7 +31193,10 @@
         "code": "MCD",
         "value": "150K employees"
       }
-    ]
+    ],
+    "disclaimer": "Global full-time-equivalent employee counts as reported by each company. Includes part-time and seasonal in some cases per each company's disclosure.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (fiscal year 2023 employee counts)"
   },
   {
     "id": "companies-longest-established-companies-oldest-first",
@@ -30298,7 +31288,10 @@
         "code": "IBM",
         "value": "founded 1911"
       }
-    ]
+    ],
+    "disclaimer": "Founding year of the earliest legal predecessor entity.",
+    "trivia": "Some dates reflect mergers or predecessor firms (e.g., JPMorgan Chase traces to Bank of the Manhattan Company, 1799).",
+    "asOfDate": "Founding years per official company histories"
   },
   {
     "id": "companies-highest-r-d-spend-10-k-filings-2023",
@@ -30390,7 +31383,10 @@
         "code": "CSCO",
         "value": "$7.6B R&D"
       }
-    ]
+    ],
+    "disclaimer": "R&D expense as disclosed on each company's income statement. Excludes capitalized R&D and non-US companies. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "FY2023 R&D expense disclosed in each company's 10-K"
   },
   {
     "id": "companies-most-us-patents-granted-per-year-uspto-2023",
@@ -30482,7 +31478,10 @@
         "code": "CSCO",
         "value": "850 patents"
       }
-    ]
+    ],
+    "disclaimer": "Utility patents granted by the USPTO in calendar year 2023. Non-US companies (Samsung, TSMC, Huawei, Canon) filtered out of this US-only ranking.",
+    "trivia": null,
+    "asOfDate": "IFI Claims 2023 Top US Patent Assignees ranking"
   },
   {
     "id": "companies-highest-ceo-pay-us-public-companies-2023",
@@ -30574,7 +31573,10 @@
         "code": "META",
         "value": "$24.4M CEO pay"
       }
-    ]
+    ],
+    "disclaimer": "Total annual CEO compensation (salary + bonus + stock awards + option awards + non-equity + other) as disclosed in the Summary Compensation Table of each company's proxy statement. Values in USD millions.",
+    "trivia": null,
+    "asOfDate": "2023 total CEO compensation as disclosed in proxy statements"
   },
   {
     "id": "companies-sectors-largest-tech-companies-by-revenue-2024",
@@ -30666,7 +31668,10 @@
         "code": "HPE",
         "value": "$29.1B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered technology and internet services companies as classified by Fortune 500 (Computers, Office Equipment; Internet Services and Retailing; Information Technology Services; Semiconductors; Network and Other Communications Equipment; Computer Software).",
+    "trivia": "Amazon classified by Fortune under Internet Services and Retailing.",
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-banks-by-revenue-2024",
@@ -30728,7 +31733,10 @@
         "code": "COF",
         "value": "$39.1B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered commercial banks and investment banking firms as classified by Fortune 500. Revenue equals total interest income plus non-interest income.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-healthcare-and-pharma-companies-by-revenue-2024",
@@ -30820,7 +31828,10 @@
         "code": "LLY",
         "value": "$34.1B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered healthcare insurers, pharmacy chains, drug manufacturers, distributors, and hospital operators. Combines Fortune categories Health Care: Insurance and Managed Care, Health Care: Medical Facilities, Pharmaceuticals, and Wholesalers: Health Care.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-retailers-by-revenue-2024",
@@ -30882,7 +31893,10 @@
         "code": "TJX",
         "value": "$54.2B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered brick-and-mortar and omnichannel retailers. Includes general merchandisers, food & drug stores, and specialty retailers. Excludes Amazon (classified separately under Internet Services and Retailing).",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-oil-and-gas-companies-by-revenue-2024",
@@ -30944,7 +31958,10 @@
         "code": "DVN",
         "value": "$15.3B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered integrated majors, independent refiners, upstream E&P companies, and midstream/pipeline operators.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-auto-companies-by-revenue-2024",
@@ -30976,7 +31993,10 @@
         "code": "TSLA",
         "value": "$96.8B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered automotive manufacturers.",
+    "trivia": "Tesla is included as an auto manufacturer despite Fortune classifying it separately in some editions.",
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-airlines-by-revenue-2024",
@@ -31013,7 +32033,10 @@
         "code": "UAL",
         "value": "$53.7B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered passenger and cargo airlines as classified by Fortune 500.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-food-and-beverage-companies-by-revenue-2024",
@@ -31065,7 +32088,10 @@
         "code": "MCD",
         "value": "$25.5B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered food producers, beverage makers, food distributors, and restaurant chains.",
+    "trivia": "Includes both public and private (Cargill).",
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-defense-contractors-by-revenue-2024",
@@ -31107,7 +32133,10 @@
         "code": "HON",
         "value": "$36.7B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered aerospace and defense contractors as classified by Fortune 500. Includes prime contractors with defense-heavy revenue mixes.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-sectors-largest-insurance-companies-by-revenue-2024",
@@ -31164,7 +32193,10 @@
         "code": "USAA",
         "value": "$41.1B revenue"
       }
-    ]
+    ],
+    "disclaimer": "US-headquartered property & casualty and life & health insurers.",
+    "trivia": "Berkshire Hathaway is included given its large insurance operations (GEICO, reinsurance).",
+    "asOfDate": "Fortune 500 2024 edition (FY2023 revenue)"
   },
   {
     "id": "companies-workforce-most-total-employees-fortune-500-2024",
@@ -31256,7 +32288,10 @@
         "code": "MCD",
         "value": "150,000 employees"
       }
-    ]
+    ],
+    "disclaimer": "Total global full-time-equivalent employees as disclosed in each company's 10-K or Fortune 500 filing. Includes part-time and seasonal in some cases.",
+    "trivia": null,
+    "asOfDate": "Fortune 500 2024 edition (FY2023 employee counts)"
   },
   {
     "id": "companies-workforce-highest-r-d-spend-10-k-filings-2023",
@@ -31348,7 +32383,10 @@
         "code": "CSCO",
         "value": "$7.6B R&D"
       }
-    ]
+    ],
+    "disclaimer": "R&D expense as disclosed on each company's income statement. Values in USD billions.",
+    "trivia": null,
+    "asOfDate": "FY2023 R&D expense disclosed in each company's 10-K"
   },
   {
     "id": "companies-workforce-most-us-based-employees-2023",
@@ -31435,7 +32473,10 @@
         "code": "AAPL",
         "value": "95,000 US employees"
       }
-    ]
+    ],
+    "disclaimer": "US-only headcount as disclosed in 10-K filings, EEO-1 reports, or company diversity/sustainability reports. Excludes international workforce.",
+    "trivia": null,
+    "asOfDate": "FY2023 US-employee counts per company disclosures"
   },
   {
     "id": "companies-workforce-highest-percentage-of-women-in-workforce-2023",
@@ -31507,7 +32548,10 @@
         "code": "COST",
         "value": "45% women"
       }
-    ]
+    ],
+    "disclaimer": "Percentage of women in total global workforce as disclosed in each company's diversity, ESG, or 10-K report. Retail, healthcare, and beauty sectors tend to dominate.",
+    "trivia": null,
+    "asOfDate": "2023 diversity disclosures per each company's ESG or 10-K report"
   },
   {
     "id": "companies-workforce-highest-average-employee-salary-2023",
@@ -31584,7 +32628,10 @@
         "code": "AMZN",
         "value": "$36,933 median"
       }
-    ]
+    ],
+    "disclaimer": "Median annual total compensation of employees as disclosed in each company's proxy CEO pay ratio filing. Investment banks and tech dominate. Values in USD.",
+    "trivia": null,
+    "asOfDate": "2023 median employee compensation per SEC pay ratio disclosures"
   },
   {
     "id": "companies-workforce-highest-glassdoor-rating-2024",
@@ -31666,7 +32713,10 @@
         "code": "TGT",
         "value": "3.7 Glassdoor"
       }
-    ]
+    ],
+    "disclaimer": "Overall employee rating on Glassdoor out of 5.0 stars, based on anonymous employee reviews. Tech and consulting firms tend to lead.",
+    "trivia": null,
+    "asOfDate": "Approximate Glassdoor ratings as of 2024 (out of 5.0)"
   },
   {
     "id": "companies-workforce-largest-layoffs-2022-2023-2022",
@@ -31748,7 +32798,10 @@
         "code": "PEP",
         "value": "2,000 layoffs"
       }
-    ]
+    ],
+    "disclaimer": "Total announced layoffs during 2022-2023 per company press releases and Layoffs.fyi tracker. Tech sector dominated this period after post-pandemic overhiring.",
+    "trivia": null,
+    "asOfDate": "Cumulative layoffs announced Jan 2022 - Dec 2023"
   },
   {
     "id": "companies-workforce-most-us-patents-granted-2023-uspto-2023",
@@ -31840,7 +32893,10 @@
         "code": "CSCO",
         "value": "850 patents"
       }
-    ]
+    ],
+    "disclaimer": "Utility patents granted by the USPTO in calendar year 2023. Non-US companies (Samsung, TSMC, Huawei, Canon) filtered from this US-only ranking.",
+    "trivia": null,
+    "asOfDate": "IFI Claims 2023 Top US Patent Assignees ranking"
   },
   {
     "id": "companies-workforce-most-retail-stores-in-the-us-2023",
@@ -31912,7 +32968,10 @@
         "code": "COST",
         "value": "600 stores"
       }
-    ]
+    ],
+    "disclaimer": "Number of physical retail store locations in the United States as disclosed in each company's 10-K or annual report. Excludes international stores.",
+    "trivia": null,
+    "asOfDate": "FY2023 US store counts per each company's 10-K"
   },
   {
     "id": "companies-workforce-largest-airline-fleet-size-2023",
@@ -31949,7 +33008,10 @@
         "code": "UPS",
         "value": "297 aircraft"
       }
-    ]
+    ],
+    "disclaimer": "Total aircraft in operating fleet as disclosed in each airline's 10-K. Includes mainline and regional partner aircraft where reported.",
+    "trivia": null,
+    "asOfDate": "FY2023 aircraft fleet size per each airline's 10-K"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-the-universe-by-mass-2003",
@@ -32041,7 +33103,10 @@
         "code": "Na",
         "value": "~0.0033% of universe by mass"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Hydrogen and helium together account for ~98% of ordinary matter \u2014 they were forged in Big Bang nucleosynthesis. Everything heavier than helium (astronomers' 'metals') is under 2% combined, produced by stellar nucleosynthesis and supernovae.",
+    "asOfDate": "Lodders 2003; consistent with 2024 NASA reference values"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-the-sun-by-mass-2009",
@@ -32133,7 +33198,10 @@
         "code": "Na",
         "value": "~0.003% of the Sun by mass"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "The Sun is ~74.9% hydrogen and ~23.8% helium by mass \u2014 the remaining ~1.3% ('metals' in astronomer-speak) tracks the Big-Bang-plus-first-few-stellar-generations abundance pattern, so oxygen and carbon dominate the trace elements.",
+    "asOfDate": "Asplund et al. 2009, standard solar composition"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-earth-s-crust-by-mass-2016",
@@ -32225,7 +33293,10 @@
         "code": "Sr",
         "value": "0.037% of crust by mass"
       }
-    ]
+    ],
+    "disclaimer": "The top eight elements (O, Si, Al, Fe, Ca, Na, K, Mg) make up ~98.5% of the crust by mass.",
+    "trivia": "Oxygen alone is nearly half the crust by mass because most crustal minerals are silicates and oxides.",
+    "asOfDate": "CRC Handbook 97th ed. (2016); Rudnick & Gao 2003"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-earth-s-crust-by-atom-count-2016",
@@ -32317,7 +33388,10 @@
         "code": "S",
         "value": "~0.033% of crustal atoms"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Hydrogen jumps far ahead of its mass ranking (crust hydrogen is ~0.14% by mass but ~3% of atoms) because H is the lightest atom \u2014 the same mass buys ~16x more atoms than oxygen. Oxygen still leads because silicate/oxide minerals are so dominant.",
+    "asOfDate": "CRC Handbook 97th ed. (2016)"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-the-oceans-by-mass-2016",
@@ -32409,7 +33483,10 @@
         "code": "F",
         "value": "0.00013% of ocean mass"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "The oceans are ~96.5% water by mass, so oxygen and hydrogen dominate. Everything else combined (~3.5% salinity) is mostly chloride and sodium, with magnesium, sulfur, calcium, and potassium as the major dissolved cations/anions.",
+    "asOfDate": "CRC Handbook 97th ed. (2016)"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-earth-s-atmosphere-by-volume-2024",
@@ -32481,7 +33558,10 @@
         "code": "C",
         "value": "~0.042% by volume (as CO2, ~420 ppm)"
       }
-    ]
+    ],
+    "disclaimer": "Argon is a distant third at ~0.93%. Water vapor is variable (0-4%) and excluded from the standard dry-air composition; if included it would rank third by volume in humid regions.",
+    "trivia": "Nitrogen and oxygen together are ~99% of the dry atmosphere by volume.",
+    "asOfDate": "NIST reference composition (2024)"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-the-human-body-by-mass-2011",
@@ -32573,7 +33653,10 @@
         "code": "Si",
         "value": "~0.002% of body mass"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "About 96% of body mass is just oxygen, carbon, hydrogen, and nitrogen \u2014 the constituents of water, fats, proteins, and carbohydrates. Calcium and phosphorus together (~2.5%) are mostly locked up in bone as hydroxyapatite.",
+    "asOfDate": "Emsley 2011; CRC Handbook 97th ed. (2016)"
   },
   {
     "id": "elements-abundance-most-abundant-elements-in-the-human-body-by-atom-count-2011",
@@ -32665,7 +33748,10 @@
         "code": "Si",
         "value": "~0.000094% of body atoms"
       }
-    ]
+    ],
+    "disclaimer": "About 99% of all atoms in the body are just H, O, C, and N.",
+    "trivia": "Hydrogen leaps to #1 by atom count because it is the lightest atom \u2014 the body is ~60% water by mass, and each water molecule contains two H atoms for every O.",
+    "asOfDate": "Emsley 2011"
   },
   {
     "id": "elements-abundance-most-industrially-produced-elements-annual-tonnage-2024",
@@ -32732,7 +33818,10 @@
         "code": "Cu",
         "value": "~22 million tonnes/yr (refined copper)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": "Iron dwarfs all other elements \u2014 global steel production (~1.9 billion tonnes of crude steel) drives ~1.3 billion tonnes of primary iron. After Fe, industrial nitrogen (mostly ammonia for fertilizer) and sulfur (mostly sulfuric acid) lead the non-metals; aluminum is #1 among non-ferrous metals.",
+    "asOfDate": "USGS Mineral Commodity Summaries 2024 (2023 production figures)"
   },
   {
     "id": "elements-abundance-most-naturally-abundant-elements-on-earth-whole-earth-by-mass",
@@ -32824,7 +33913,10 @@
         "code": "K",
         "value": "~0.019% of Earth's mass"
       }
-    ]
+    ],
+    "disclaimer": "Just four elements \u2014 Fe, O, Si, Mg \u2014 make up ~93% of Earth's total mass.",
+    "trivia": "Iron leads whole-Earth abundance because Earth's core is ~85% Fe by mass, and the core is ~32% of Earth's total mass. Oxygen and silicon dominate the mantle and crust.",
+    "asOfDate": "McDonough 2003; CRC Handbook 97th ed. (2016)"
   },
   {
     "id": "elements-history-earliest-discovered-elements-oldest-first-2024",
@@ -32916,7 +34008,10 @@
         "code": "Pt",
         "value": "described 1735 by Antonio de Ulloa"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-most-recently-synthesized-elements-newest-first-2024",
@@ -33008,7 +34103,10 @@
         "code": "Rf",
         "value": "synthesized 1969 (LBNL/JINR)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-elements-named-after-countries-states-or-places-alphabetical-20",
@@ -33100,7 +34198,10 @@
         "code": "Po",
         "value": "Polonium - named after Poland"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-elements-named-after-scientists-alphabetical-2024",
@@ -33192,7 +34293,10 @@
         "code": "Sg",
         "value": "Seaborgium - Glenn T. Seaborg"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-elements-discovered-in-the-1800s-earliest-first-2024",
@@ -33284,7 +34388,10 @@
         "code": "Sr",
         "value": "isolated 1808 by Humphry Davy"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-elements-discovered-by-british-scientists-alphabetical-2024",
@@ -33376,7 +34483,10 @@
         "code": "Ne",
         "value": "Neon - Ramsay and Travers, 1898"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-elements-discovered-by-american-labs-lbnl-ornl-llnl-2024",
@@ -33468,7 +34578,10 @@
         "code": "Ts",
         "value": "Tennessine - ORNL/LLNL/JINR, 2010"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-history-radioactive-elements-with-longest-half-life-longest-first-2024",
@@ -33560,7 +34673,10 @@
         "code": "Pu",
         "value": "Pu-244 half-life 8.0 x 10^7 years"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-highest-melting-points-2024",
@@ -33652,7 +34768,10 @@
         "code": "Pt",
         "value": "1768\u00b0C"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-lowest-melting-points-ascending-2024",
@@ -33744,7 +34863,10 @@
         "code": "Ga",
         "value": "29.8\u00b0C"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-highest-density-at-stp-solids-and-liquids-2024",
@@ -33836,7 +34958,10 @@
         "code": "Pb",
         "value": "11.34 g/cm3"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-lowest-densities-as-gases-at-stp-ascending-2024",
@@ -33928,7 +35053,10 @@
         "code": "Rn",
         "value": "9.73 g/L"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-highest-atomic-numbers-2024",
@@ -34020,7 +35148,10 @@
         "code": "Rf",
         "value": "atomic number 104"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-lowest-standard-atomic-weights-ascending-2024",
@@ -34112,7 +35243,10 @@
         "code": "P",
         "value": "30.974 u"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-hardest-elements-on-the-mohs-scale-2024",
@@ -34204,7 +35338,10 @@
         "code": "U",
         "value": "Mohs 6.0"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-most-electronegative-elements-pauling-scale-2024",
@@ -34296,7 +35433,10 @@
         "code": "P",
         "value": "2.19 Pauling"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-least-electronegative-elements-pauling-scale-ascending-2024",
@@ -34388,7 +35528,10 @@
         "code": "Sc",
         "value": "1.36 Pauling"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-physical-highest-thermal-conductivity-2024",
@@ -34480,7 +35623,10 @@
         "code": "Co",
         "value": "100 W/(m\u00b7K)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-most-abundant-elements-in-earth-s-crust-by-mass-2024",
@@ -34572,7 +35718,10 @@
         "code": "Sr",
         "value": "0.037% of Earth's crust"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-most-abundant-elements-in-the-universe-by-mass-2024",
@@ -34664,7 +35813,10 @@
         "code": "Na",
         "value": "0.0033% of universe"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-most-abundant-elements-in-the-human-body-by-mass-2024",
@@ -34756,7 +35908,10 @@
         "code": "Si",
         "value": "0.002% of human body"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-highest-standard-atomic-weights-2024",
@@ -34848,7 +36003,10 @@
         "code": "Rf",
         "value": "atomic weight 267"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-highest-boiling-points-at-standard-pressure-2024",
@@ -34940,7 +36098,10 @@
         "code": "V",
         "value": "3407\u00b0C"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-lowest-boiling-points-cryogenic-ascending-2024",
@@ -35032,7 +36193,10 @@
         "code": "Fr",
         "value": "677\u00b0C (estimated)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-earliest-discovered-elements-oldest-first-2024",
@@ -35124,7 +36288,10 @@
         "code": "Zn",
         "value": "isolated 1746"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-most-valuable-elements-by-price-per-gram-naturally-obtainable-excl",
@@ -35216,7 +36383,10 @@
         "code": "Ru",
         "value": "$16 per gram (Ruthenium)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-most-produced-elements-annually-by-mass-industrial-extraction-2024",
@@ -35308,7 +36478,10 @@
         "code": "Si",
         "value": "~8 million tonnes/yr (ferrosilicon + silicon metal)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-essential-trace-elements-in-the-human-body-by-biological-necessity",
@@ -35400,7 +36573,10 @@
         "code": "Si",
         "value": "~1 g in body (connective tissue)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-most-abundant-elements-in-stars-solar-composition-by-mass-2024",
@@ -35492,7 +36668,10 @@
         "code": "Cr",
         "value": "~0.0020% of a typical star"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-elements-essential-in-nuclear-reactors-fuel-moderator-coolant-cont",
@@ -35584,7 +36763,10 @@
         "code": "In",
         "value": "control rod alloy component (Ag-In-Cd)"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-elements-most-important-in-electronics-manufacturing-2024",
@@ -35676,7 +36858,10 @@
         "code": "P",
         "value": "n-type dopant in silicon"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-rare-earth-elements-ranked-by-industrial-demand-2024",
@@ -35768,7 +36953,10 @@
         "code": "Tm",
         "value": "portable X-ray, laser dopant"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   },
   {
     "id": "elements-uses-elements-essential-in-a-lithium-ion-battery-electrodes-electrolyte",
@@ -35860,6 +37048,9 @@
         "code": "S",
         "value": "Li-S chemistry, additives"
       }
-    ]
+    ],
+    "disclaimer": null,
+    "trivia": null,
+    "asOfDate": "2024"
   }
 ]
