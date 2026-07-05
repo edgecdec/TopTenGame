@@ -29,7 +29,7 @@ import RadioButtonUncheckedIcon from "@mui/icons-material/RadioButtonUnchecked";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import StarIcon from "@mui/icons-material/Star";
 import { useSocket } from "@/hooks/useSocket";
-import type { ClientRoomState, GameSettings } from "@/lib/types";
+import type { ClientRoomState, GameSettings, FinalScoreboardEntry } from "@/lib/types";
 
 type Country = { code: string; name: string };
 type ThemeInfo = { theme: string; count: number };
@@ -655,40 +655,218 @@ function FinalResultsView({
   onLobby: () => void;
 }) {
   const scoreboard = state.finalScoreboard ?? [];
+  return <AnimatedFinalScoreboard scoreboard={scoreboard} isHost={isHost} onLobby={onLobby} />;
+}
+
+function AnimatedFinalScoreboard({
+  scoreboard,
+  isHost,
+  onLobby,
+}: {
+  scoreboard: FinalScoreboardEntry[];
+  isHost: boolean;
+  onLobby: () => void;
+}) {
+  // Reveal from last place upward — build the order and animate one-per-tick.
+  // We reveal N-th, N-1-th, ..., 2nd, then a longer pause, then 1st with confetti.
+  const [revealedCount, setRevealedCount] = useState(0);
+
+  useEffect(() => {
+    if (scoreboard.length === 0) return;
+    setRevealedCount(0);
+    const timers: ReturnType<typeof setTimeout>[] = [];
+    // Reveal ranks N..2 with short interval, then rank 1 with a dramatic pause.
+    const stepMs = 900;
+    const finalPause = 1600;
+    for (let i = 0; i < scoreboard.length - 1; i++) {
+      timers.push(setTimeout(() => setRevealedCount(i + 1), (i + 1) * stepMs));
+    }
+    // The winner reveals after all runners-up + dramatic pause
+    timers.push(
+      setTimeout(() => {
+        setRevealedCount(scoreboard.length);
+        // Fire confetti when the winner card appears
+        fireWinnerConfetti();
+      }, (scoreboard.length - 1) * stepMs + finalPause)
+    );
+    return () => {
+      timers.forEach(clearTimeout);
+    };
+  }, [scoreboard]);
+
+  const allRevealed = revealedCount === scoreboard.length;
+
   return (
     <Stack spacing={3}>
-      <Paper sx={{ p: 3 }}>
+      <Paper
+        sx={{
+          p: { xs: 3, sm: 4 },
+          background: allRevealed
+            ? "linear-gradient(135deg, rgba(124,92,255,0.15) 0%, rgba(255,167,38,0.15) 100%)"
+            : undefined,
+          transition: "background 900ms ease",
+        }}
+      >
         <Typography variant="overline" color="text.secondary">
           Game complete
         </Typography>
         <Typography variant="h4" fontWeight={800} gutterBottom>
           Final scoreboard
         </Typography>
-        <Stack spacing={1.5} sx={{ mt: 2 }}>
-          {scoreboard.map((entry, i) => (
-            <Stack key={entry.playerId} direction="row" alignItems="center" spacing={2}>
-              <Typography sx={{ width: 40, fontWeight: 800 }} variant="h5" color={i === 0 ? "warning.main" : "text.secondary"}>
-                {i === 0 ? "🏆" : `#${i + 1}`}
-              </Typography>
-              <Typography sx={{ flex: 1 }} fontWeight={i === 0 ? 800 : 500} variant={i === 0 ? "h5" : "body1"}>
-                {entry.name}
-              </Typography>
-              <Typography fontWeight={800} variant={i === 0 ? "h5" : "body1"}>
-                {entry.score}
-              </Typography>
-            </Stack>
-          ))}
+        <Stack spacing={1.5} sx={{ mt: 3, position: "relative" }}>
+          {/* Render from last place down so the visual list reads top-to-bottom
+              once complete, but reveal is bottom-up. */}
+          {scoreboard.map((entry, i) => {
+            const rankFromTop = i; // 0 = winner
+            const revealIdx = scoreboard.length - 1 - rankFromTop; // last place = 0, winner = N-1
+            const isVisible = revealIdx < revealedCount;
+            const isWinner = rankFromTop === 0;
+            return (
+              <ScoreboardRow
+                key={entry.playerId}
+                entry={entry}
+                place={rankFromTop + 1}
+                isWinner={isWinner}
+                isVisible={isVisible}
+                allRevealed={allRevealed}
+              />
+            );
+          })}
         </Stack>
       </Paper>
       {isHost ? (
-        <Button variant="contained" size="large" onClick={onLobby}>
-          Back to lobby (new game)
+        <Button variant="contained" size="large" onClick={onLobby} disabled={!allRevealed}>
+          {allRevealed ? "Back to lobby (new game)" : "Revealing..."}
         </Button>
       ) : (
         <Typography variant="body2" color="text.secondary" textAlign="center">
-          Waiting for host to start a new game...
+          {allRevealed ? "Waiting for host to start a new game..." : "Revealing..."}
         </Typography>
       )}
     </Stack>
   );
+}
+
+function ScoreboardRow({
+  entry,
+  place,
+  isWinner,
+  isVisible,
+  allRevealed,
+}: {
+  entry: FinalScoreboardEntry;
+  place: number;
+  isWinner: boolean;
+  isVisible: boolean;
+  allRevealed: boolean;
+}) {
+  // Count-up score animation, kicked off when the row becomes visible.
+  const [displayScore, setDisplayScore] = useState(0);
+  useEffect(() => {
+    if (!isVisible) return;
+    const duration = isWinner ? 1400 : 700;
+    const start = performance.now();
+    let raf = 0;
+    const tick = (t: number) => {
+      const p = Math.min(1, (t - start) / duration);
+      // Ease-out cubic
+      const eased = 1 - Math.pow(1 - p, 3);
+      setDisplayScore(Math.round(entry.score * eased));
+      if (p < 1) raf = requestAnimationFrame(tick);
+    };
+    raf = requestAnimationFrame(tick);
+    return () => cancelAnimationFrame(raf);
+  }, [isVisible, entry.score, isWinner]);
+
+  const medal = place === 1 ? "🥇" : place === 2 ? "🥈" : place === 3 ? "🥉" : `#${place}`;
+
+  return (
+    <Box
+      sx={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0) scale(1)" : "translateY(20px) scale(0.98)",
+        transition: "opacity 500ms ease, transform 500ms cubic-bezier(0.22, 1, 0.36, 1)",
+        py: isWinner ? 2 : 1,
+        px: isWinner ? 2 : 0,
+        borderRadius: 2,
+        background: isWinner && allRevealed
+          ? "linear-gradient(90deg, rgba(255,215,0,0.18) 0%, rgba(255,167,38,0.10) 100%)"
+          : undefined,
+        boxShadow: isWinner && allRevealed ? "0 0 24px rgba(255,215,0,0.35)" : undefined,
+        animation: isWinner && allRevealed ? "winnerPulse 2s ease-in-out infinite" : undefined,
+        "@keyframes winnerPulse": {
+          "0%, 100%": { boxShadow: "0 0 24px rgba(255,215,0,0.35)" },
+          "50%": { boxShadow: "0 0 40px rgba(255,215,0,0.55)" },
+        },
+      }}
+    >
+      <Stack direction="row" alignItems="center" spacing={2}>
+        <Typography
+          sx={{
+            width: isWinner ? 60 : 44,
+            fontWeight: 800,
+            textAlign: "center",
+          }}
+          variant={isWinner ? "h3" : place <= 3 ? "h4" : "h6"}
+          color={isWinner ? "warning.main" : "text.secondary"}
+        >
+          {medal}
+        </Typography>
+        <Typography
+          sx={{ flex: 1 }}
+          fontWeight={isWinner ? 800 : place <= 3 ? 700 : 500}
+          variant={isWinner ? "h3" : place <= 3 ? "h5" : "body1"}
+        >
+          {entry.name}
+        </Typography>
+        <Typography
+          fontWeight={800}
+          variant={isWinner ? "h3" : place <= 3 ? "h5" : "body1"}
+          color={isWinner ? "warning.main" : undefined}
+          sx={{ fontVariantNumeric: "tabular-nums" }}
+        >
+          {displayScore}
+        </Typography>
+      </Stack>
+    </Box>
+  );
+}
+
+async function fireWinnerConfetti() {
+  const confettiMod = await import("canvas-confetti");
+  const confetti = confettiMod.default;
+  const duration = 2500;
+  const end = Date.now() + duration;
+  const colors = ["#ffd700", "#ffa726", "#7c5cff", "#ff6ec7", "#ffffff"];
+
+  // Initial burst
+  confetti({
+    particleCount: 120,
+    spread: 80,
+    origin: { y: 0.35 },
+    colors,
+  });
+  // Side cannons
+  const interval = setInterval(() => {
+    if (Date.now() > end) {
+      clearInterval(interval);
+      return;
+    }
+    confetti({
+      particleCount: 30,
+      angle: 60,
+      spread: 55,
+      startVelocity: 55,
+      origin: { x: 0, y: 0.7 },
+      colors,
+    });
+    confetti({
+      particleCount: 30,
+      angle: 120,
+      spread: 55,
+      startVelocity: 55,
+      origin: { x: 1, y: 0.7 },
+      colors,
+    });
+  }, 250);
 }
