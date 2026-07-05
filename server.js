@@ -264,7 +264,8 @@ app.prepare().then(() => {
       const endsAt = Date.now() + room.settings.roundDurationSec * 1000;
       room.phase = "playing";
       room.currentQuestionId = q.id;
-      room.currentQuestionMeta = { id: q.id, title: q.title, prompt: q.prompt, topN, note: q.note };
+      // Note is intentionally omitted here — it can leak source info and is only shown in results.
+      room.currentQuestionMeta = { id: q.id, title: q.title, prompt: q.prompt, topN, note: null };
       room.endsAt = endsAt;
       room.lastResults = null;
       for (const p of room.players.values()) {
@@ -279,7 +280,7 @@ app.prepare().then(() => {
         prompt: q.prompt,
         topN,
         endsAt,
-        note: q.note,
+        note: null,
       });
       broadcast(io, room);
     });
