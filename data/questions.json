@@ -40942,5 +40942,625 @@
         "value": "Repeat Max Top 10 title 2022-24"
       }
     ]
+  },
+  {
+    "id": "movies-nominees-most-best-picture-nominations-without-ever-winning-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Most Best Picture nominations without ever winning",
+    "prompt": "Films with the most total Academy Award nominations that were nominated for Best Picture but did not win it. Ranked by total Oscar nominations received (Best Picture nominee films only, zero BP wins).",
+    "answerType": "Movies",
+    "seededDepth": 10,
+    "source": {
+      "name": "AMPAS Academy Awards Database",
+      "url": "https://awardsdatabase.oscars.org/",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": null,
+    "trivia": "The Turning Point (1977) and The Color Purple (1985) share the dubious record of 11 nominations with zero wins \u2014 an Oscars futility record.",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "la-la-land-2016",
+        "value": "14 nominations, 6 wins (not BP)"
+      },
+      {
+        "rank": 2,
+        "code": "turning-point-1977",
+        "value": "11 nominations, 0 wins (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "color-purple-1985",
+        "value": "11 nominations, 0 wins (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "gangs-of-new-york-2002",
+        "value": "10 nominations, 0 wins"
+      },
+      {
+        "rank": 5,
+        "code": "citizen-kane-1941",
+        "value": "9 nominations, 1 win (not BP)"
+      },
+      {
+        "rank": 6,
+        "code": "raging-bull-1980",
+        "value": "8 nominations, 2 wins (not BP)"
+      },
+      {
+        "rank": 7,
+        "code": "shawshank-redemption-1994",
+        "value": "7 nominations, 0 wins"
+      },
+      {
+        "rank": 7,
+        "code": "pulp-fiction-1994",
+        "value": "7 nominations, 1 win (not BP)"
+      },
+      {
+        "rank": 7,
+        "code": "fargo-1996",
+        "value": "7 nominations, 2 wins (not BP)"
+      },
+      {
+        "rank": 10,
+        "code": "goodfellas-1990",
+        "value": "6 nominations, 1 win (not BP)"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-films-that-lost-best-picture-to-titanic-1997-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Films that lost Best Picture to Titanic (1997)",
+    "prompt": "The four films that were nominated for Best Picture at the 70th Academy Awards but lost to Titanic.",
+    "answerType": "Movies",
+    "seededDepth": 4,
+    "source": {
+      "name": "AMPAS Academy Awards Database",
+      "url": "https://awardsdatabase.oscars.org/",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": null,
+    "trivia": "Titanic tied Ben-Hur's record of 11 Oscar wins that night; L.A. Confidential is often cited as one of the great runner-ups in Oscar history.",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "as-good-as-it-gets-1997",
+        "value": "Nominee \u2014 lost to Titanic"
+      },
+      {
+        "rank": 2,
+        "code": "full-monty-1997",
+        "value": "Nominee \u2014 lost to Titanic"
+      },
+      {
+        "rank": 3,
+        "code": "good-will-hunting-1997",
+        "value": "Nominee \u2014 lost to Titanic"
+      },
+      {
+        "rank": 4,
+        "code": "la-confidential-1997",
+        "value": "Nominee \u2014 lost to Titanic"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-highest-worldwide-grossing-best-picture-nominees-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Highest worldwide grossing Best Picture nominees",
+    "prompt": "Best Picture nominees ranked by worldwide box office gross (unadjusted, all-time, USD).",
+    "answerType": "Movies",
+    "seededDepth": 12,
+    "source": {
+      "name": "Box Office Mojo",
+      "url": "https://www.boxofficemojo.com/",
+      "asOf": "2025-06-01"
+    },
+    "note": null,
+    "disclaimer": "Unadjusted for inflation. Includes original theatrical runs plus rereleases where tracked.",
+    "trivia": "Avatar was nominated at the 82nd Academy Awards but lost to The Hurt Locker \u2014 the lowest-grossing Best Picture winner of the modern era at the time.",
+    "asOfDate": "2025-06-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "avatar-2009",
+        "value": "$2.923 billion"
+      },
+      {
+        "rank": 2,
+        "code": "titanic-1997",
+        "value": "$2.264 billion"
+      },
+      {
+        "rank": 3,
+        "code": "top-gun-maverick-2022",
+        "value": "$1.496 billion"
+      },
+      {
+        "rank": 4,
+        "code": "barbie-2023",
+        "value": "$1.446 billion"
+      },
+      {
+        "rank": 5,
+        "code": "black-panther-2018",
+        "value": "$1.349 billion"
+      },
+      {
+        "rank": 6,
+        "code": "lord-of-the-rings-return-of-the-king-2003",
+        "value": "$1.146 billion"
+      },
+      {
+        "rank": 7,
+        "code": "joker-2019",
+        "value": "$1.079 billion"
+      },
+      {
+        "rank": 8,
+        "code": "toy-story-3-2010",
+        "value": "$1.067 billion"
+      },
+      {
+        "rank": 9,
+        "code": "oppenheimer-2023",
+        "value": "$976 million"
+      },
+      {
+        "rank": 10,
+        "code": "lord-of-the-rings-two-towers-2002",
+        "value": "$947 million"
+      },
+      {
+        "rank": 11,
+        "code": "bohemian-rhapsody-2018",
+        "value": "$911 million"
+      },
+      {
+        "rank": 12,
+        "code": "lord-of-the-rings-fellowship-of-the-ring-2001",
+        "value": "$897 million"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-highest-imdb-rating-among-best-picture-nominees-that-did-not-win",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Highest IMDb rating among Best Picture nominees that did NOT win",
+    "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by current IMDb user rating.",
+    "answerType": "Movies",
+    "seededDepth": 9,
+    "source": {
+      "name": "IMDb",
+      "url": "https://www.imdb.com/",
+      "asOf": "2025-06-01"
+    },
+    "note": null,
+    "disclaimer": "IMDb ratings shift over time; ties broken by number of votes.",
+    "trivia": "The Shawshank Redemption lost Best Picture to Forrest Gump in 1994 but has been the #1 film on IMDb's Top 250 for nearly all of the site's history.",
+    "asOfDate": "2025-06-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "shawshank-redemption-1994",
+        "value": "9.3 / 10"
+      },
+      {
+        "rank": 2,
+        "code": "12-angry-men-1957",
+        "value": "9.0 / 10"
+      },
+      {
+        "rank": 3,
+        "code": "pulp-fiction-1994",
+        "value": "8.9 / 10"
+      },
+      {
+        "rank": 4,
+        "code": "inception-2010",
+        "value": "8.8 / 10"
+      },
+      {
+        "rank": 5,
+        "code": "goodfellas-1990",
+        "value": "8.7 / 10"
+      },
+      {
+        "rank": 6,
+        "code": "star-wars-1977",
+        "value": "8.6 / 10"
+      },
+      {
+        "rank": 7,
+        "code": "whiplash-2014",
+        "value": "8.5 / 10"
+      },
+      {
+        "rank": 8,
+        "code": "raiders-of-the-lost-ark-1981",
+        "value": "8.4 / 10"
+      },
+      {
+        "rank": 9,
+        "code": "citizen-kane-1941",
+        "value": "8.3 / 10"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-highest-rotten-tomatoes-score-among-best-picture-nominees-that-d",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Highest Rotten Tomatoes score among Best Picture nominees that did NOT win",
+    "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by Rotten Tomatoes Tomatometer critic score.",
+    "answerType": "Movies",
+    "seededDepth": 9,
+    "source": {
+      "name": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/",
+      "asOf": "2025-06-01"
+    },
+    "note": null,
+    "disclaimer": "Ties broken by number of reviews. Older films tend to have fewer reviews.",
+    "trivia": "Toy Story 3 held a rare 98% score and was the third Pixar film ever nominated for Best Picture, following Up and Beauty and the Beast (1991).",
+    "asOfDate": "2025-06-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "citizen-kane-1941",
+        "value": "99% (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "lady-bird-2017",
+        "value": "99%"
+      },
+      {
+        "rank": 3,
+        "code": "toy-story-3-2010",
+        "value": "98% (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "get-out-2017",
+        "value": "98%"
+      },
+      {
+        "rank": 3,
+        "code": "boyhood-2014",
+        "value": "98%"
+      },
+      {
+        "rank": 3,
+        "code": "up-2009",
+        "value": "98%"
+      },
+      {
+        "rank": 7,
+        "code": "roma-2018",
+        "value": "96%"
+      },
+      {
+        "rank": 7,
+        "code": "black-panther-2018",
+        "value": "96%"
+      },
+      {
+        "rank": 9,
+        "code": "grand-budapest-hotel-2014",
+        "value": "92%"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-most-oscar-nominations-by-a-film-that-lost-best-picture-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Most Oscar nominations by a film that lost Best Picture",
+    "prompt": "Films with the most total Academy Award nominations that were nominated for Best Picture but did not win it.",
+    "answerType": "Movies",
+    "seededDepth": 9,
+    "source": {
+      "name": "AMPAS Academy Awards Database",
+      "url": "https://awardsdatabase.oscars.org/",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": null,
+    "trivia": "La La Land famously received 14 nominations (tying All About Eve and Titanic) and was mistakenly announced as Best Picture winner before Moonlight was corrected as the actual winner.",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "aviator-2004",
+        "value": "11 nominations (lost to Million Dollar Baby)"
+      },
+      {
+        "rank": 2,
+        "code": "la-la-land-2016",
+        "value": "14 nominations (lost to Moonlight)"
+      },
+      {
+        "rank": 3,
+        "code": "mary-poppins-1964",
+        "value": "13 nominations (lost to My Fair Lady)"
+      },
+      {
+        "rank": 3,
+        "code": "shape-of-water-2017",
+        "value": "13 nominations (WON)"
+      },
+      {
+        "rank": 3,
+        "code": "forrest-gump-1994",
+        "value": "13 nominations (WON)"
+      },
+      {
+        "rank": 3,
+        "code": "shakespeare-in-love-1998",
+        "value": "13 nominations (WON)"
+      },
+      {
+        "rank": 7,
+        "code": "reds-1981",
+        "value": "12 nominations (lost to Chariots of Fire)"
+      },
+      {
+        "rank": 8,
+        "code": "color-purple-1985",
+        "value": "11 nominations (lost to Out of Africa)"
+      },
+      {
+        "rank": 9,
+        "code": "gangs-of-new-york-2002",
+        "value": "10 nominations (lost to Chicago)"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-most-best-picture-nominated-films-by-a-single-director-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Most Best Picture-nominated films by a single director",
+    "prompt": "Best Picture nominees directed by the same filmmaker \u2014 one film per row, grouped by directors with the largest total count of Best Picture nominations across their careers.",
+    "answerType": "Movies",
+    "seededDepth": 13,
+    "source": {
+      "name": "AMPAS Academy Awards Database",
+      "url": "https://awardsdatabase.oscars.org/",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": "Ranks each individual nominee film. William Wyler leads all directors with the most Best Picture-nominated films of all time.",
+    "trivia": "William Wyler directed 13 Best Picture nominees \u2014 more than any other director. Steven Spielberg is second with 12.",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "best-years-of-our-lives-1946",
+        "value": "William Wyler (13 BP-nom films)"
+      },
+      {
+        "rank": 2,
+        "code": "ben-hur-1959",
+        "value": "William Wyler"
+      },
+      {
+        "rank": 3,
+        "code": "mrs-miniver-1942",
+        "value": "William Wyler"
+      },
+      {
+        "rank": 4,
+        "code": "wuthering-heights-1939",
+        "value": "William Wyler"
+      },
+      {
+        "rank": 5,
+        "code": "letter-1940",
+        "value": "William Wyler"
+      },
+      {
+        "rank": 6,
+        "code": "little-foxes-1941",
+        "value": "William Wyler"
+      },
+      {
+        "rank": 7,
+        "code": "friendly-persuasion-1956",
+        "value": "William Wyler"
+      },
+      {
+        "rank": 8,
+        "code": "schindlers-list-1993",
+        "value": "Steven Spielberg (12 BP-nom films)"
+      },
+      {
+        "rank": 9,
+        "code": "saving-private-ryan-1998",
+        "value": "Steven Spielberg"
+      },
+      {
+        "rank": 10,
+        "code": "lincoln-2012",
+        "value": "Steven Spielberg"
+      },
+      {
+        "rank": 11,
+        "code": "munich-2005",
+        "value": "Steven Spielberg"
+      },
+      {
+        "rank": 12,
+        "code": "west-side-story-2021",
+        "value": "Steven Spielberg"
+      },
+      {
+        "rank": 13,
+        "code": "fabelmans-2022",
+        "value": "Steven Spielberg"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-the-lord-of-the-rings-franchise-best-picture-nominees-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "The Lord of the Rings franchise Best Picture nominees",
+    "prompt": "All Best Picture nominees from Peter Jackson's Middle-earth film trilogy adaptations. Ordered by year of nomination.",
+    "answerType": "Movies",
+    "seededDepth": 3,
+    "source": {
+      "name": "AMPAS Academy Awards Database",
+      "url": "https://awardsdatabase.oscars.org/",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": null,
+    "trivia": "The Lord of the Rings: The Return of the King swept all 11 of its nominations \u2014 tying Titanic and Ben-Hur for most Oscar wins ever \u2014 while the trilogy's earlier two entries lost Best Picture to A Beautiful Mind and Chicago.",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "lord-of-the-rings-fellowship-of-the-ring-2001",
+        "value": "13 nominations, 4 wins (lost BP to A Beautiful Mind)"
+      },
+      {
+        "rank": 2,
+        "code": "lord-of-the-rings-two-towers-2002",
+        "value": "6 nominations, 2 wins (lost BP to Chicago)"
+      },
+      {
+        "rank": 3,
+        "code": "lord-of-the-rings-return-of-the-king-2003",
+        "value": "11 nominations, 11 wins (WON BP)"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-horror-films-nominated-for-best-picture-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Horror films nominated for Best Picture",
+    "prompt": "Best Picture nominees classified as horror or horror-adjacent. Ordered by year of nomination (earliest first).",
+    "answerType": "Movies",
+    "seededDepth": 6,
+    "source": {
+      "name": "Wikipedia \u2014 Horror films nominated for Best Picture",
+      "url": "https://en.wikipedia.org/wiki/Academy_Award_for_Best_Picture",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": "Genre classification is subjective; some entries (e.g. Black Swan) blend horror with psychological thriller.",
+    "trivia": "The Silence of the Lambs (1991) is the only true horror film to win Best Picture, and one of only three films ever to sweep the 'Big Five' (Picture, Director, Actor, Actress, Screenplay).",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "exorcist-1973",
+        "value": "1973 \u2014 lost to The Sting"
+      },
+      {
+        "rank": 2,
+        "code": "jaws-1975",
+        "value": "1975 \u2014 lost to One Flew Over the Cuckoo's Nest"
+      },
+      {
+        "rank": 3,
+        "code": "silence-of-the-lambs-1991",
+        "value": "1991 \u2014 WON"
+      },
+      {
+        "rank": 4,
+        "code": "sixth-sense-1999",
+        "value": "1999 \u2014 lost to American Beauty"
+      },
+      {
+        "rank": 5,
+        "code": "black-swan-2010",
+        "value": "2010 \u2014 lost to The King's Speech"
+      },
+      {
+        "rank": 6,
+        "code": "get-out-2017",
+        "value": "2017 \u2014 lost to The Shape of Water"
+      }
+    ]
+  },
+  {
+    "id": "movies-nominees-best-picture-nominees-at-the-92nd-academy-awards-2019-films-2025",
+    "theme": "Movies",
+    "subtheme": "Movies - Nominees",
+    "title": "Best Picture nominees at the 92nd Academy Awards (2019 films)",
+    "prompt": "The complete slate of Best Picture nominees for the ceremony honoring 2019 films. Parasite made history as the first non-English-language Best Picture winner.",
+    "answerType": "Movies",
+    "seededDepth": 9,
+    "source": {
+      "name": "AMPAS Academy Awards Database",
+      "url": "https://awardsdatabase.oscars.org/",
+      "asOf": "2025-03-01"
+    },
+    "note": null,
+    "disclaimer": null,
+    "trivia": "Parasite became the first foreign-language film to win Best Picture in the 92-year history of the Academy Awards, beating heavyweights 1917, Joker, and Once Upon a Time in Hollywood.",
+    "asOfDate": "2025-03-01",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "parasite-2019",
+        "value": "WON \u2014 4 Oscars including Best Picture"
+      },
+      {
+        "rank": 2,
+        "code": "1917-2019",
+        "value": "Nominee \u2014 3 Oscars, front-runner going in"
+      },
+      {
+        "rank": 3,
+        "code": "ford-v-ferrari-2019",
+        "value": "Nominee \u2014 2 Oscars"
+      },
+      {
+        "rank": 4,
+        "code": "irishman-2019",
+        "value": "Nominee \u2014 10 nominations, 0 wins"
+      },
+      {
+        "rank": 5,
+        "code": "jojo-rabbit-2019",
+        "value": "Nominee \u2014 1 Oscar (Adapted Screenplay)"
+      },
+      {
+        "rank": 6,
+        "code": "joker-2019",
+        "value": "Nominee \u2014 2 Oscars including Best Actor"
+      },
+      {
+        "rank": 7,
+        "code": "little-women-2019",
+        "value": "Nominee \u2014 1 Oscar (Costume Design)"
+      },
+      {
+        "rank": 8,
+        "code": "marriage-story-2019",
+        "value": "Nominee \u2014 1 Oscar (Supporting Actress)"
+      },
+      {
+        "rank": 9,
+        "code": "once-upon-a-time-in-hollywood-2019",
+        "value": "Nominee \u2014 2 Oscars"
+      }
+    ]
   }
 ]
