@@ -312,6 +312,14 @@ function advanceToNextQuestion(io, room) {
   const topN = Math.min(room.settings.topN, q.seededDepth);
   const picksPerPlayer = Math.min(room.settings.picksPerPlayer, topN);
   const endsAt = Date.now() + room.settings.roundDurationSec * 1000;
+  // If the question's subtheme is a scoped sub-set of the answer pool
+  // (e.g. only NBA teams), tell the client which code prefix to filter to.
+  let codeFilter = null;
+  const st = q.subtheme || "";
+  if (st === "Pro Sports - NBA") codeFilter = "NBA-";
+  else if (st === "Pro Sports - NFL") codeFilter = "NFL-";
+  else if (st === "Pro Sports - MLB") codeFilter = "MLB-";
+  else if (st === "Pro Sports - NHL") codeFilter = "NHL-";
   room.phase = "playing";
   room.currentQuestionIdx = nextIdx;
   room.currentQuestionId = q.id;
@@ -322,6 +330,7 @@ function advanceToNextQuestion(io, room) {
     topN,
     picksPerPlayer,
     answerType: q.answerType,
+    codeFilter, // e.g. "NBA-" → client shows only NBA-* options
     disclaimer: q.disclaimer || null, // safe to show pre-round
     asOfDate: q.asOfDate || q.source.asOf || null,
   };

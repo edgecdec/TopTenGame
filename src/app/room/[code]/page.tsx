@@ -143,20 +143,27 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
           onTransferHost={(toId) => emit("transfer_host", { toPlayerId: toId })}
         />
       )}
-      {state.phase === "playing" && (
-        <PlayingView
-          state={state}
-          options={optionsByType[state.currentQuestionMeta?.answerType ?? ""] ?? []}
-          picks={picks}
-          setPicks={(next) => {
-            setPicks(next);
-            emit("stage_picks", { picks: next.map((c) => c.code) });
-          }}
-          now={now}
-          me={me}
-          onSubmit={() => emit("submit_picks", { picks: picks.map((c) => c.code) })}
-        />
-      )}
+      {state.phase === "playing" && (() => {
+        const meta = state.currentQuestionMeta;
+        const allOptions = optionsByType[meta?.answerType ?? ""] ?? [];
+        const filtered = meta?.codeFilter
+          ? allOptions.filter((o) => o.code.startsWith(meta.codeFilter!))
+          : allOptions;
+        return (
+          <PlayingView
+            state={state}
+            options={filtered}
+            picks={picks}
+            setPicks={(next) => {
+              setPicks(next);
+              emit("stage_picks", { picks: next.map((c) => c.code) });
+            }}
+            now={now}
+            me={me}
+            onSubmit={() => emit("submit_picks", { picks: picks.map((c) => c.code) })}
+          />
+        );
+      })()}
       {state.phase === "intermission" && (
         <IntermissionView state={state} isHost={isHost} onNext={() => emit("next_question")} />
       )}
