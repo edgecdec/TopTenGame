@@ -106062,5 +106062,4305 @@
         "value": "77.4 score"
       }
     ]
+  },
+  {
+    "id": "colleges-academics-us-news-national-universities-2024-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "US News National Universities (2024)",
+    "prompt": "Name the highest-ranked schools in the US News 2024 Best National Universities ranking (rank 1 = best).",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "US News & World Report \u2014 Best National Universities",
+      "url": "https://www.usnews.com/best-colleges/rankings/national-universities",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranking published September 2023 for the 2023-2024 cycle. Ties share a rank.",
+    "trivia": "Princeton has held the US News #1 spot for over a decade running.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "berkeley",
+        "value": "#15 (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "columbia",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "cornell",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "chicago",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "brown",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "jhu",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "northwestern",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "penn",
+        "value": "#6 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "caltech",
+        "value": "#6 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "duke",
+        "value": "#6 (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "yale",
+        "value": "#5"
+      },
+      {
+        "rank": 12,
+        "code": "harvard",
+        "value": "#3 (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "stanford",
+        "value": "#3 (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "mit",
+        "value": "#2"
+      },
+      {
+        "rank": 15,
+        "code": "princeton",
+        "value": "#1"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-us-news-liberal-arts-colleges-2024-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "US News Liberal Arts Colleges (2024)",
+    "prompt": "Name the highest-ranked schools in the US News 2024 Best National Liberal Arts Colleges ranking.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "US News & World Report \u2014 Best National Liberal Arts Colleges",
+      "url": "https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Liberal arts colleges rank on a separate US News list from the National Universities.",
+    "trivia": "Williams has topped this ranking every year since 2003.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "hamilton",
+        "value": "#15 (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "davidson",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "smith",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "vassar",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "carleton",
+        "value": "#8 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "middlebury",
+        "value": "#8 (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "navy",
+        "value": "#6 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "wellesley",
+        "value": "#5"
+      },
+      {
+        "rank": 9,
+        "code": "swarthmore",
+        "value": "#3 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "pomona",
+        "value": "#3 (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "amherst",
+        "value": "#2"
+      },
+      {
+        "rank": 12,
+        "code": "williams",
+        "value": "#1"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-most-nobel-laureates-school-affiliated-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Most Nobel laureates (school-affiliated)",
+    "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "Nobel Foundation / university affiliation counts",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts include alumni, long-term faculty, and researchers with a Nobel; individuals with multiple affiliations may be counted at each school.",
+    "trivia": "Harvard and Cambridge routinely swap the global #1 spot; Chicago punches far above its weight thanks to a legendary economics department.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "~161 laureates"
+      },
+      {
+        "rank": 2,
+        "code": "berkeley",
+        "value": "~110 laureates"
+      },
+      {
+        "rank": 3,
+        "code": "columbia",
+        "value": "~103 laureates"
+      },
+      {
+        "rank": 4,
+        "code": "chicago",
+        "value": "~101 laureates"
+      },
+      {
+        "rank": 4,
+        "code": "mit",
+        "value": "~101 laureates (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "stanford",
+        "value": "~85 laureates"
+      },
+      {
+        "rank": 7,
+        "code": "caltech",
+        "value": "~76 laureates"
+      },
+      {
+        "rank": 8,
+        "code": "princeton",
+        "value": "~69 laureates"
+      },
+      {
+        "rank": 9,
+        "code": "yale",
+        "value": "~65 laureates"
+      },
+      {
+        "rank": 10,
+        "code": "cornell",
+        "value": "~62 laureates"
+      },
+      {
+        "rank": 11,
+        "code": "penn",
+        "value": "~40 laureates"
+      },
+      {
+        "rank": 12,
+        "code": "jhu",
+        "value": "~39 laureates"
+      },
+      {
+        "rank": 13,
+        "code": "nyu",
+        "value": "~38 laureates"
+      },
+      {
+        "rank": 14,
+        "code": "michigan",
+        "value": "~26 laureates"
+      },
+      {
+        "rank": 15,
+        "code": "northwestern",
+        "value": "~24 laureates"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-most-rhodes-scholars-all-time-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Most Rhodes Scholars (all-time)",
+    "prompt": "Name the US universities that have produced the most Rhodes Scholars, all-time.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "The Rhodes Trust \u2014 American Rhodes Scholars by institution",
+      "url": "https://www.rhodesscholar.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "American Rhodes Scholarships have been awarded annually since 1904; counts are cumulative.",
+    "trivia": "Service academies (West Point, Naval Academy, Air Force) punch well above their size in Rhodes Scholar counts.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "~370 scholars"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "~250 scholars"
+      },
+      {
+        "rank": 3,
+        "code": "princeton",
+        "value": "~215 scholars"
+      },
+      {
+        "rank": 4,
+        "code": "army",
+        "value": "~100 scholars"
+      },
+      {
+        "rank": 5,
+        "code": "stanford",
+        "value": "~95 scholars"
+      },
+      {
+        "rank": 6,
+        "code": "dartmouth",
+        "value": "~80 scholars"
+      },
+      {
+        "rank": 7,
+        "code": "mit",
+        "value": "~55 scholars"
+      },
+      {
+        "rank": 7,
+        "code": "chicago",
+        "value": "~55 scholars (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "navy",
+        "value": "~55 scholars"
+      },
+      {
+        "rank": 7,
+        "code": "unc",
+        "value": "~55 scholars"
+      },
+      {
+        "rank": 11,
+        "code": "duke",
+        "value": "~50 scholars"
+      },
+      {
+        "rank": 12,
+        "code": "air-force",
+        "value": "~45 scholars"
+      },
+      {
+        "rank": 13,
+        "code": "williams",
+        "value": "~35 scholars"
+      },
+      {
+        "rank": 13,
+        "code": "penn",
+        "value": "~35 scholars"
+      },
+      {
+        "rank": 15,
+        "code": "columbia",
+        "value": "~30 scholars"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-most-turing-award-winners-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Most Turing Award winners",
+    "prompt": "Name the US universities that have produced the most Turing Award laureates (alumni or faculty affiliations).",
+    "answerType": "Colleges",
+    "seededDepth": 11,
+    "source": {
+      "name": "ACM Turing Award \u2014 laureate affiliations",
+      "url": "https://amturing.acm.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts include laureates affiliated with each school as alumni or long-term faculty; laureates can be counted at multiple institutions.",
+    "trivia": "The Turing Award, founded in 1966, is often called the 'Nobel Prize of Computing' and comes with a $1M cash prize.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mit",
+        "value": "~28 laureates"
+      },
+      {
+        "rank": 2,
+        "code": "stanford",
+        "value": "~27 laureates"
+      },
+      {
+        "rank": 3,
+        "code": "berkeley",
+        "value": "~25 laureates"
+      },
+      {
+        "rank": 4,
+        "code": "cmu",
+        "value": "~22 laureates"
+      },
+      {
+        "rank": 5,
+        "code": "harvard",
+        "value": "~14 laureates"
+      },
+      {
+        "rank": 6,
+        "code": "princeton",
+        "value": "~13 laureates"
+      },
+      {
+        "rank": 7,
+        "code": "cornell",
+        "value": "~10 laureates"
+      },
+      {
+        "rank": 8,
+        "code": "caltech",
+        "value": "~9 laureates"
+      },
+      {
+        "rank": 9,
+        "code": "chicago",
+        "value": "~7 laureates"
+      },
+      {
+        "rank": 10,
+        "code": "yale",
+        "value": "~6 laureates"
+      },
+      {
+        "rank": 10,
+        "code": "illinois",
+        "value": "~6 laureates (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-most-pulitzer-prize-alumni-winners-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Most Pulitzer Prize alumni winners",
+    "prompt": "Name the US universities whose alumni have won the most Pulitzer Prizes.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "The Pulitzer Prizes \u2014 alumni winners by institution",
+      "url": "https://www.pulitzer.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts reflect Pulitzers awarded to living or deceased alumni across all Pulitzer categories since 1917.",
+    "trivia": "Columbia University administers the Pulitzer Prize and consistently leads among alumni winners.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "columbia",
+        "value": "~120 alumni"
+      },
+      {
+        "rank": 2,
+        "code": "harvard",
+        "value": "~110 alumni"
+      },
+      {
+        "rank": 3,
+        "code": "yale",
+        "value": "~75 alumni"
+      },
+      {
+        "rank": 4,
+        "code": "berkeley",
+        "value": "~50 alumni"
+      },
+      {
+        "rank": 5,
+        "code": "michigan",
+        "value": "~45 alumni"
+      },
+      {
+        "rank": 6,
+        "code": "stanford",
+        "value": "~40 alumni"
+      },
+      {
+        "rank": 7,
+        "code": "princeton",
+        "value": "~35 alumni"
+      },
+      {
+        "rank": 8,
+        "code": "nyu",
+        "value": "~30 alumni"
+      },
+      {
+        "rank": 8,
+        "code": "northwestern",
+        "value": "~30 alumni (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "missouri",
+        "value": "~28 alumni"
+      },
+      {
+        "rank": 11,
+        "code": "chicago",
+        "value": "~25 alumni"
+      },
+      {
+        "rank": 12,
+        "code": "usc",
+        "value": "~22 alumni"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-highest-r-d-spending-nsf-herd-2022",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Highest R&D spending (NSF HERD)",
+    "prompt": "Name the US universities with the highest research and development expenditures per the NSF Higher Education R&D (HERD) survey.",
+    "answerType": "Colleges",
+    "seededDepth": 14,
+    "source": {
+      "name": "NSF Higher Education R&D Survey (HERD) FY2022",
+      "url": "https://ncses.nsf.gov/pubs/nsf24312",
+      "asOf": "2022 (FY)"
+    },
+    "note": null,
+    "disclaimer": "Total R&D expenditures in millions of USD, all sources, FY2022 data (published 2024).",
+    "trivia": "Johns Hopkins' R&D total is nearly double the runner-up thanks to the JHU Applied Physics Laboratory.",
+    "asOfDate": "2022 (FY)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "jhu",
+        "value": "$3,417 M"
+      },
+      {
+        "rank": 2,
+        "code": "michigan",
+        "value": "$1,861 M"
+      },
+      {
+        "rank": 3,
+        "code": "penn",
+        "value": "$1,760 M"
+      },
+      {
+        "rank": 4,
+        "code": "ucla",
+        "value": "$1,634 M"
+      },
+      {
+        "rank": 5,
+        "code": "washington",
+        "value": "$1,626 M"
+      },
+      {
+        "rank": 6,
+        "code": "wisconsin",
+        "value": "$1,545 M"
+      },
+      {
+        "rank": 7,
+        "code": "ucsd",
+        "value": "$1,510 M"
+      },
+      {
+        "rank": 8,
+        "code": "harvard",
+        "value": "$1,432 M"
+      },
+      {
+        "rank": 9,
+        "code": "stanford",
+        "value": "$1,398 M"
+      },
+      {
+        "rank": 10,
+        "code": "duke",
+        "value": "$1,368 M"
+      },
+      {
+        "rank": 11,
+        "code": "texas-am",
+        "value": "$1,270 M"
+      },
+      {
+        "rank": 12,
+        "code": "mit",
+        "value": "$1,268 M"
+      },
+      {
+        "rank": 13,
+        "code": "berkeley",
+        "value": "$1,152 M"
+      },
+      {
+        "rank": 14,
+        "code": "cornell",
+        "value": "$1,144 M"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-most-phds-conferred-annually-2022",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Most PhDs conferred annually",
+    "prompt": "Name the US universities that award the most research doctorates (PhDs) per year.",
+    "answerType": "Colleges",
+    "seededDepth": 11,
+    "source": {
+      "name": "NSF Survey of Earned Doctorates",
+      "url": "https://ncses.nsf.gov/pubs/nsf24300",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "Research doctorates awarded in a single academic year (2021-2022 SED data). Excludes professional doctorates (MD, JD).",
+    "trivia": "The University of Michigan-Ann Arbor consistently produces the most research doctorates of any US institution.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "michigan",
+        "value": "~910 doctorates"
+      },
+      {
+        "rank": 2,
+        "code": "wisconsin",
+        "value": "~880 doctorates"
+      },
+      {
+        "rank": 3,
+        "code": "berkeley",
+        "value": "~870 doctorates"
+      },
+      {
+        "rank": 4,
+        "code": "illinois",
+        "value": "~860 doctorates"
+      },
+      {
+        "rank": 5,
+        "code": "purdue",
+        "value": "~810 doctorates"
+      },
+      {
+        "rank": 6,
+        "code": "ucla",
+        "value": "~800 doctorates"
+      },
+      {
+        "rank": 7,
+        "code": "texas-am",
+        "value": "~790 doctorates"
+      },
+      {
+        "rank": 8,
+        "code": "penn-state",
+        "value": "~760 doctorates"
+      },
+      {
+        "rank": 9,
+        "code": "mit",
+        "value": "~750 doctorates"
+      },
+      {
+        "rank": 10,
+        "code": "stanford",
+        "value": "~720 doctorates"
+      },
+      {
+        "rank": 11,
+        "code": "ohio-state",
+        "value": "~710 doctorates"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-highest-us-news-peer-assessment-score-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Highest US News peer assessment score",
+    "prompt": "Name the US National Universities with the highest US News peer-assessment score (5.0 scale).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "US News & World Report \u2014 Peer Assessment (National Universities)",
+      "url": "https://www.usnews.com/education/best-colleges/articles/how-us-news-calculated-the-rankings",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Score is the average rating provided by college presidents, provosts, and admissions deans on a 1-5 scale. Ties share a rank.",
+    "trivia": "Only four schools have ever earned a perfect 5.0 in the modern peer-assessment era.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "5.0"
+      },
+      {
+        "rank": 1,
+        "code": "mit",
+        "value": "5.0 (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "stanford",
+        "value": "5.0 (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "berkeley",
+        "value": "4.8"
+      },
+      {
+        "rank": 4,
+        "code": "princeton",
+        "value": "4.8 (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "yale",
+        "value": "4.8 (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "chicago",
+        "value": "4.7 (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "caltech",
+        "value": "4.7 (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "columbia",
+        "value": "4.7 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "michigan",
+        "value": "4.5 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "penn",
+        "value": "4.5 (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "ucla",
+        "value": "4.4 (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-academics-best-business-schools-us-news-2024-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "title": "Best Business Schools (US News 2024)",
+    "prompt": "Name the top-ranked MBA programs in the US News 2024 Best Business Schools ranking.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "US News & World Report \u2014 Best Business Schools",
+      "url": "https://www.usnews.com/best-graduate-schools/top-business-schools",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranks the full-time MBA program at each institution.",
+    "trivia": "Stanford GSB has one of the lowest acceptance rates of any graduate program in the US, admitting under 7% of applicants.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "nyu",
+        "value": "#12 \u2014 Stern"
+      },
+      {
+        "rank": 2,
+        "code": "dartmouth",
+        "value": "#11 \u2014 Tuck"
+      },
+      {
+        "rank": 3,
+        "code": "columbia",
+        "value": "#10"
+      },
+      {
+        "rank": 4,
+        "code": "berkeley",
+        "value": "#9 \u2014 Haas"
+      },
+      {
+        "rank": 5,
+        "code": "yale",
+        "value": "#7 (tied) \u2014 SOM"
+      },
+      {
+        "rank": 5,
+        "code": "michigan",
+        "value": "#7 (tied) \u2014 Ross"
+      },
+      {
+        "rank": 7,
+        "code": "stanford",
+        "value": "#6"
+      },
+      {
+        "rank": 8,
+        "code": "harvard",
+        "value": "#5"
+      },
+      {
+        "rank": 9,
+        "code": "northwestern",
+        "value": "#3 (tied) \u2014 Kellogg"
+      },
+      {
+        "rank": 9,
+        "code": "mit",
+        "value": "#3 (tied) \u2014 Sloan"
+      },
+      {
+        "rank": 11,
+        "code": "chicago",
+        "value": "#1 (tied) \u2014 Booth"
+      },
+      {
+        "rank": 11,
+        "code": "penn",
+        "value": "#1 (tied) \u2014 Wharton"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-lowest-undergraduate-acceptance-rates-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Lowest undergraduate acceptance rates",
+    "prompt": "Name the US universities with the lowest undergraduate acceptance rates for the Class of 2028 (fall 2024 entry).",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "US News & World Report \u2014 Lowest Acceptance Rates 2024, cross-referenced with Common Data Sets",
+      "url": "https://www.usnews.com/best-colleges/rankings/lowest-acceptance-rate",
+      "asOf": "2024 (Class of 2028)"
+    },
+    "note": null,
+    "disclaimer": "Overall undergraduate acceptance rate (admitted / applied), first-year applicants only. Lower is more selective.",
+    "trivia": "Caltech, MIT, and Harvard have all posted acceptance rates under 4% every year since 2020, driven by test-optional-era application surges.",
+    "asOfDate": "2024 (Class of 2028)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "caltech",
+        "value": "2.7%"
+      },
+      {
+        "rank": 2,
+        "code": "harvard",
+        "value": "3.6%"
+      },
+      {
+        "rank": 3,
+        "code": "stanford",
+        "value": "3.7%"
+      },
+      {
+        "rank": 4,
+        "code": "columbia",
+        "value": "3.9%"
+      },
+      {
+        "rank": 5,
+        "code": "mit",
+        "value": "4.5%"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "4.5%"
+      },
+      {
+        "rank": 7,
+        "code": "yale",
+        "value": "4.6%"
+      },
+      {
+        "rank": 8,
+        "code": "brown",
+        "value": "5.2%"
+      },
+      {
+        "rank": 9,
+        "code": "penn",
+        "value": "5.4%"
+      },
+      {
+        "rank": 10,
+        "code": "duke",
+        "value": "5.9%"
+      },
+      {
+        "rank": 11,
+        "code": "dartmouth",
+        "value": "6.0%"
+      },
+      {
+        "rank": 12,
+        "code": "jhu",
+        "value": "6.2%"
+      },
+      {
+        "rank": 13,
+        "code": "northwestern",
+        "value": "7.0%"
+      },
+      {
+        "rank": 14,
+        "code": "vanderbilt",
+        "value": "7.1%"
+      },
+      {
+        "rank": 15,
+        "code": "cornell",
+        "value": "7.3%"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-highest-yield-rates-admitted-students-who-enroll-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Highest yield rates (admitted students who enroll)",
+    "prompt": "Name the US universities where the highest percentage of admitted students choose to enroll (yield rate).",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "Common Data Set filings (Section C1/C2), Class of 2027 entering cohort",
+      "url": "https://www.usnews.com/best-colleges/rankings/highest-yield",
+      "asOf": "2023 (Class of 2027)"
+    },
+    "note": null,
+    "disclaimer": "Yield = enrolled first-years / admitted first-years. Service academies are excluded because their yields exceed 80% due to appointment structure.",
+    "trivia": "Harvard has led non-military yield every year since 2004; when a Harvard admit says no, it is almost always to attend Stanford, Yale, or MIT.",
+    "asOfDate": "2023 (Class of 2027)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "83%"
+      },
+      {
+        "rank": 2,
+        "code": "stanford",
+        "value": "80%"
+      },
+      {
+        "rank": 3,
+        "code": "mit",
+        "value": "78%"
+      },
+      {
+        "rank": 4,
+        "code": "yale",
+        "value": "72%"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "71%"
+      },
+      {
+        "rank": 6,
+        "code": "penn",
+        "value": "70%"
+      },
+      {
+        "rank": 7,
+        "code": "columbia",
+        "value": "68%"
+      },
+      {
+        "rank": 7,
+        "code": "byu",
+        "value": "68%"
+      },
+      {
+        "rank": 9,
+        "code": "brown",
+        "value": "66%"
+      },
+      {
+        "rank": 10,
+        "code": "chicago",
+        "value": "65%"
+      },
+      {
+        "rank": 11,
+        "code": "notre-dame",
+        "value": "60%"
+      },
+      {
+        "rank": 12,
+        "code": "duke",
+        "value": "58%"
+      },
+      {
+        "rank": 13,
+        "code": "dartmouth",
+        "value": "56%"
+      },
+      {
+        "rank": 14,
+        "code": "georgetown",
+        "value": "50%"
+      },
+      {
+        "rank": 15,
+        "code": "cornell",
+        "value": "48%"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-highest-median-sat-score-of-enrolled-first-years-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Highest median SAT score of enrolled first-years",
+    "prompt": "Name the US universities with the highest median SAT scores among enrolled first-year students.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "Common Data Set filings (Section C9), 2023-24 entering class",
+      "url": "https://www.commondataset.org/",
+      "asOf": "2023-24 (Class of 2027)"
+    },
+    "note": null,
+    "disclaimer": "Median composite SAT (Evidence-Based Reading & Writing + Math), enrolled first-year students who submitted SAT scores. Test-optional means submitting cohorts skew high.",
+    "trivia": "Caltech has topped every SAT ranking since the ETS began publishing school-level medians; roughly half of its enrolled class scores a perfect 800 on the math section.",
+    "asOfDate": "2023-24 (Class of 2027)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "caltech",
+        "value": "1570"
+      },
+      {
+        "rank": 2,
+        "code": "mit",
+        "value": "1560"
+      },
+      {
+        "rank": 3,
+        "code": "harvey-mudd",
+        "value": "1550"
+      },
+      {
+        "rank": 4,
+        "code": "princeton",
+        "value": "1540"
+      },
+      {
+        "rank": 4,
+        "code": "harvard",
+        "value": "1540"
+      },
+      {
+        "rank": 4,
+        "code": "yale",
+        "value": "1540"
+      },
+      {
+        "rank": 4,
+        "code": "chicago",
+        "value": "1540"
+      },
+      {
+        "rank": 8,
+        "code": "vanderbilt",
+        "value": "1530"
+      },
+      {
+        "rank": 8,
+        "code": "duke",
+        "value": "1530"
+      },
+      {
+        "rank": 8,
+        "code": "columbia",
+        "value": "1530"
+      },
+      {
+        "rank": 8,
+        "code": "stanford",
+        "value": "1530"
+      },
+      {
+        "rank": 8,
+        "code": "jhu",
+        "value": "1530"
+      },
+      {
+        "rank": 13,
+        "code": "northwestern",
+        "value": "1520"
+      },
+      {
+        "rank": 13,
+        "code": "penn",
+        "value": "1520"
+      },
+      {
+        "rank": 13,
+        "code": "rice",
+        "value": "1520"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-highest-median-act-score-of-enrolled-first-years-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Highest median ACT score of enrolled first-years",
+    "prompt": "Name the US universities with the highest median ACT composite scores among enrolled first-year students.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "Common Data Set filings (Section C9), 2023-24 entering class",
+      "url": "https://www.commondataset.org/",
+      "asOf": "2023-24 (Class of 2027)"
+    },
+    "note": null,
+    "disclaimer": "Median ACT composite among enrolled first-year students who submitted ACT scores.",
+    "trivia": "Only a handful of schools ever post a median ACT above 35; the ACT tops out at 36, so a 35 median means half of the entering class scored 35 or 36.",
+    "asOfDate": "2023-24 (Class of 2027)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "caltech",
+        "value": "36"
+      },
+      {
+        "rank": 2,
+        "code": "mit",
+        "value": "35"
+      },
+      {
+        "rank": 2,
+        "code": "harvey-mudd",
+        "value": "35"
+      },
+      {
+        "rank": 2,
+        "code": "chicago",
+        "value": "35"
+      },
+      {
+        "rank": 2,
+        "code": "princeton",
+        "value": "35"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "35"
+      },
+      {
+        "rank": 2,
+        "code": "harvard",
+        "value": "35"
+      },
+      {
+        "rank": 2,
+        "code": "vanderbilt",
+        "value": "35"
+      },
+      {
+        "rank": 9,
+        "code": "duke",
+        "value": "34"
+      },
+      {
+        "rank": 9,
+        "code": "washu",
+        "value": "34"
+      },
+      {
+        "rank": 9,
+        "code": "columbia",
+        "value": "34"
+      },
+      {
+        "rank": 9,
+        "code": "rice",
+        "value": "34"
+      },
+      {
+        "rank": 9,
+        "code": "northwestern",
+        "value": "34"
+      },
+      {
+        "rank": 9,
+        "code": "notre-dame",
+        "value": "34"
+      },
+      {
+        "rank": 9,
+        "code": "brown",
+        "value": "34"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-most-undergraduate-applications-received-in-a-single-year-20",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Most undergraduate applications received in a single year",
+    "prompt": "Name the US universities that receive the most first-year undergraduate applications each year.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "Common Data Set filings (Section C1), 2023-24 admissions cycle",
+      "url": "https://www.commondataset.org/",
+      "asOf": "2023-24 cycle"
+    },
+    "note": null,
+    "disclaimer": "First-time freshman applications only; excludes transfer applications. Test-optional policies since 2020 have inflated volumes across the board.",
+    "trivia": "UCLA has led US application volume every year since 2018 and became the first school in history to cross 170,000 applications in a single cycle.",
+    "asOfDate": "2023-24 cycle",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ucla",
+        "value": "173,428 apps"
+      },
+      {
+        "rank": 2,
+        "code": "berkeley",
+        "value": "137,000 apps"
+      },
+      {
+        "rank": 3,
+        "code": "uc-irvine",
+        "value": "127,000 apps"
+      },
+      {
+        "rank": 4,
+        "code": "nyu",
+        "value": "120,000 apps"
+      },
+      {
+        "rank": 5,
+        "code": "uc-davis",
+        "value": "112,000 apps"
+      },
+      {
+        "rank": 6,
+        "code": "ucsd",
+        "value": "110,000 apps"
+      },
+      {
+        "rank": 7,
+        "code": "ucsb",
+        "value": "106,000 apps"
+      },
+      {
+        "rank": 8,
+        "code": "northeastern",
+        "value": "96,000 apps"
+      },
+      {
+        "rank": 9,
+        "code": "cornell",
+        "value": "68,000 apps"
+      },
+      {
+        "rank": 10,
+        "code": "harvard",
+        "value": "61,000 apps"
+      },
+      {
+        "rank": 11,
+        "code": "columbia",
+        "value": "60,000 apps"
+      },
+      {
+        "rank": 12,
+        "code": "penn",
+        "value": "59,000 apps"
+      },
+      {
+        "rank": 13,
+        "code": "yale",
+        "value": "57,000 apps"
+      },
+      {
+        "rank": 14,
+        "code": "stanford",
+        "value": "56,000 apps"
+      },
+      {
+        "rank": 15,
+        "code": "mit",
+        "value": "26,000 apps"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-lowest-transfer-acceptance-rates-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Lowest transfer acceptance rates",
+    "prompt": "Name the US universities with the lowest acceptance rates for transfer applicants.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Common Data Set filings (Section D2), 2023-24 admissions cycle",
+      "url": "https://www.commondataset.org/",
+      "asOf": "2023-24 cycle"
+    },
+    "note": null,
+    "disclaimer": "Undergraduate transfer applicants only. Some elite schools admit fewer than 30 transfers per year, making rates volatile year over year.",
+    "trivia": "Princeton did not admit transfer students at all from 1990 to 2018, and its restored transfer program targets veterans and low-income students specifically.",
+    "asOfDate": "2023-24 cycle",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "princeton",
+        "value": "1.2%"
+      },
+      {
+        "rank": 2,
+        "code": "harvard",
+        "value": "1.4%"
+      },
+      {
+        "rank": 3,
+        "code": "dartmouth",
+        "value": "1.9%"
+      },
+      {
+        "rank": 4,
+        "code": "stanford",
+        "value": "2.4%"
+      },
+      {
+        "rank": 5,
+        "code": "yale",
+        "value": "2.5%"
+      },
+      {
+        "rank": 6,
+        "code": "mit",
+        "value": "3.1%"
+      },
+      {
+        "rank": 7,
+        "code": "brown",
+        "value": "5.0%"
+      },
+      {
+        "rank": 8,
+        "code": "penn",
+        "value": "5.5%"
+      },
+      {
+        "rank": 9,
+        "code": "columbia",
+        "value": "6.0%"
+      },
+      {
+        "rank": 10,
+        "code": "duke",
+        "value": "6.1%"
+      },
+      {
+        "rank": 11,
+        "code": "caltech",
+        "value": "8.3%"
+      },
+      {
+        "rank": 12,
+        "code": "notre-dame",
+        "value": "17.0%"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-highest-early-decision-acceptance-rates-ivies-peers-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Highest early decision acceptance rates (Ivies + peers)",
+    "prompt": "Name the elite US universities with the highest binding early decision acceptance rates (a boost over their regular decision rate).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "College Kickstart / Common Data Set filings, Class of 2028 (fall 2024 entry)",
+      "url": "https://www.collegekickstart.com/blog/item/class-of-2028-early-decision-and-early-action-notification-dates",
+      "asOf": "2024 (Class of 2028)"
+    },
+    "note": null,
+    "disclaimer": "Binding Early Decision only (Harvard/Yale/Princeton/Stanford/MIT use non-binding Restrictive Early Action and are excluded). Rates apply to first-year applicants in the ED round.",
+    "trivia": "Applying ED to Penn, Dartmouth, or Duke roughly triples an applicant's odds of admission versus the regular decision pool at those same schools.",
+    "asOfDate": "2024 (Class of 2028)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "wfu",
+        "value": "35.7%"
+      },
+      {
+        "rank": 2,
+        "code": "emory",
+        "value": "30.9%"
+      },
+      {
+        "rank": 3,
+        "code": "jhu",
+        "value": "17.4%"
+      },
+      {
+        "rank": 4,
+        "code": "dartmouth",
+        "value": "17.0%"
+      },
+      {
+        "rank": 5,
+        "code": "rice",
+        "value": "15.8%"
+      },
+      {
+        "rank": 6,
+        "code": "penn",
+        "value": "15.4%"
+      },
+      {
+        "rank": 7,
+        "code": "vanderbilt",
+        "value": "15.2%"
+      },
+      {
+        "rank": 8,
+        "code": "brown",
+        "value": "13.0%"
+      },
+      {
+        "rank": 9,
+        "code": "duke",
+        "value": "12.9%"
+      },
+      {
+        "rank": 10,
+        "code": "cornell",
+        "value": "12.5%"
+      },
+      {
+        "rank": 11,
+        "code": "northwestern",
+        "value": "12.0%"
+      },
+      {
+        "rank": 12,
+        "code": "columbia",
+        "value": "11.3%"
+      }
+    ]
+  },
+  {
+    "id": "colleges-admissions-highest-applicant-to-enrollee-ratio-most-competitive-to-actu",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Admissions",
+    "title": "Highest applicant-to-enrollee ratio (most competitive to actually attend)",
+    "prompt": "Name the US universities with the highest ratio of applications received to first-year students enrolled.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Common Data Set filings (applications received / students enrolled), 2023-24 cycle",
+      "url": "https://www.commondataset.org/",
+      "asOf": "2023-24 cycle"
+    },
+    "note": null,
+    "disclaimer": "Ratio = total first-year applications / total first-year enrollees. Combines selectivity and self-selection; a higher ratio means more applicants per seat.",
+    "trivia": "UCLA enrolls around 6,000 first-years each fall against roughly 170,000 applications \u2014 the largest absolute funnel in US higher education.",
+    "asOfDate": "2023-24 cycle",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "38:1"
+      },
+      {
+        "rank": 2,
+        "code": "columbia",
+        "value": "37:1"
+      },
+      {
+        "rank": 3,
+        "code": "stanford",
+        "value": "34:1"
+      },
+      {
+        "rank": 3,
+        "code": "yale",
+        "value": "34:1"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "31:1"
+      },
+      {
+        "rank": 6,
+        "code": "ucla",
+        "value": "29:1"
+      },
+      {
+        "rank": 7,
+        "code": "brown",
+        "value": "26:1"
+      },
+      {
+        "rank": 8,
+        "code": "duke",
+        "value": "25:1"
+      },
+      {
+        "rank": 9,
+        "code": "dartmouth",
+        "value": "24:1"
+      },
+      {
+        "rank": 10,
+        "code": "penn",
+        "value": "22:1"
+      },
+      {
+        "rank": 10,
+        "code": "berkeley",
+        "value": "22:1"
+      },
+      {
+        "rank": 10,
+        "code": "mit",
+        "value": "22:1"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-us-presidents-produced-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most US Presidents produced",
+    "prompt": "Name the US universities that have educated (as undergraduates or graduates) the most US Presidents.",
+    "answerType": "Colleges",
+    "seededDepth": 10,
+    "source": {
+      "name": "White House Historical Association / official presidential biographies",
+      "url": "https://www.whitehousehistory.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts include any president who earned an undergraduate or graduate degree from the institution. Presidents with degrees from multiple listed schools are counted at each.",
+    "trivia": "Nine of the first 44 presidents had no college degree at all \u2014 the last was Harry Truman.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "8 presidents"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "5 presidents"
+      },
+      {
+        "rank": 3,
+        "code": "columbia",
+        "value": "3 presidents"
+      },
+      {
+        "rank": 3,
+        "code": "william-and-mary",
+        "value": "3 presidents (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "2 presidents"
+      },
+      {
+        "rank": 5,
+        "code": "penn",
+        "value": "2 presidents (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "army",
+        "value": "2 presidents (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "navy",
+        "value": "2 presidents (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "stanford",
+        "value": "2 presidents (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "georgetown",
+        "value": "1 president"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-nobel-laureates-school-affiliations-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most Nobel laureates (school affiliations)",
+    "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Nobel Foundation \u2014 list of Nobel Laureates",
+      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts include alumni, long-term faculty, and affiliated researchers. Laureates with multiple affiliations may be counted at each school.",
+    "trivia": "Chicago's economics department alone has produced more Nobel laureates in Economics than any other institution in the world.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "~161 laureates"
+      },
+      {
+        "rank": 2,
+        "code": "berkeley",
+        "value": "~110 laureates"
+      },
+      {
+        "rank": 3,
+        "code": "columbia",
+        "value": "~103 laureates"
+      },
+      {
+        "rank": 4,
+        "code": "chicago",
+        "value": "~101 laureates"
+      },
+      {
+        "rank": 4,
+        "code": "mit",
+        "value": "~101 laureates (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "stanford",
+        "value": "~85 laureates"
+      },
+      {
+        "rank": 7,
+        "code": "caltech",
+        "value": "~76 laureates"
+      },
+      {
+        "rank": 8,
+        "code": "princeton",
+        "value": "~69 laureates"
+      },
+      {
+        "rank": 9,
+        "code": "yale",
+        "value": "~65 laureates"
+      },
+      {
+        "rank": 10,
+        "code": "cornell",
+        "value": "~62 laureates"
+      },
+      {
+        "rank": 11,
+        "code": "penn",
+        "value": "~40 laureates"
+      },
+      {
+        "rank": 12,
+        "code": "jhu",
+        "value": "~39 laureates"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-billionaire-alumni-wealth-x-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most billionaire alumni (Wealth-X)",
+    "prompt": "Name the US universities that have produced the most billionaire alumni.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wealth-X \u2014 Billionaire Census, University Rankings",
+      "url": "https://www.altrata.com/reports/billionaire-census",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Counts individuals with a net worth above $1B who attended (undergrad or grad) the listed institution.",
+    "trivia": "Penn's Wharton School of Business is the alma mater of more billionaires than any single school in the world.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "penn",
+        "value": "~35 billionaires"
+      },
+      {
+        "rank": 2,
+        "code": "harvard",
+        "value": "~30 billionaires"
+      },
+      {
+        "rank": 3,
+        "code": "stanford",
+        "value": "~25 billionaires"
+      },
+      {
+        "rank": 4,
+        "code": "yale",
+        "value": "~20 billionaires"
+      },
+      {
+        "rank": 5,
+        "code": "usc",
+        "value": "~18 billionaires"
+      },
+      {
+        "rank": 6,
+        "code": "columbia",
+        "value": "~17 billionaires"
+      },
+      {
+        "rank": 7,
+        "code": "mit",
+        "value": "~16 billionaires"
+      },
+      {
+        "rank": 8,
+        "code": "cornell",
+        "value": "~15 billionaires"
+      },
+      {
+        "rank": 9,
+        "code": "nyu",
+        "value": "~14 billionaires"
+      },
+      {
+        "rank": 10,
+        "code": "michigan",
+        "value": "~13 billionaires"
+      },
+      {
+        "rank": 11,
+        "code": "berkeley",
+        "value": "~12 billionaires"
+      },
+      {
+        "rank": 12,
+        "code": "duke",
+        "value": "~11 billionaires"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-current-fortune-500-ceos-produced-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most current Fortune 500 CEOs produced",
+    "prompt": "Name the US universities whose alumni are running the most current Fortune 500 companies.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Kittleman & Associates / Fortune \u2014 Fortune 500 CEO Education Report",
+      "url": "https://kittlemansearch.com/insights/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Counts current CEOs of Fortune 500 companies. Undergraduate and graduate degrees both count; CEOs with degrees from multiple schools are counted at each.",
+    "trivia": "Harvard Business School alone accounts for more Fortune 500 CEOs than any other single graduate program.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "wisconsin",
+        "value": "~14 CEOs"
+      },
+      {
+        "rank": 2,
+        "code": "harvard",
+        "value": "~13 CEOs"
+      },
+      {
+        "rank": 3,
+        "code": "michigan",
+        "value": "~10 CEOs"
+      },
+      {
+        "rank": 4,
+        "code": "cornell",
+        "value": "~9 CEOs"
+      },
+      {
+        "rank": 4,
+        "code": "texas",
+        "value": "~9 CEOs (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "penn",
+        "value": "~8 CEOs"
+      },
+      {
+        "rank": 6,
+        "code": "purdue",
+        "value": "~8 CEOs (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "stanford",
+        "value": "~7 CEOs"
+      },
+      {
+        "rank": 8,
+        "code": "northwestern",
+        "value": "~7 CEOs (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "notre-dame",
+        "value": "~7 CEOs (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "mit",
+        "value": "~6 CEOs"
+      },
+      {
+        "rank": 11,
+        "code": "chicago",
+        "value": "~6 CEOs (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-current-members-of-congress-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most current members of Congress",
+    "prompt": "Name the US universities with the most alumni currently serving in the US Congress (House + Senate).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Congressional Research Service / Chronicle of Higher Education \u2014 Congressional education backgrounds",
+      "url": "https://crsreports.congress.gov/",
+      "asOf": "2024 (118th Congress)"
+    },
+    "note": null,
+    "disclaimer": "Counts members of the 118th Congress with undergraduate or graduate degrees from the institution. Members with degrees from multiple listed schools are counted at each.",
+    "trivia": "Every one of the last five US presidents had at least one degree from an institution on this list.",
+    "asOfDate": "2024 (118th Congress)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "~30 members"
+      },
+      {
+        "rank": 2,
+        "code": "georgetown",
+        "value": "~22 members"
+      },
+      {
+        "rank": 3,
+        "code": "yale",
+        "value": "~18 members"
+      },
+      {
+        "rank": 4,
+        "code": "george-washington",
+        "value": "~15 members"
+      },
+      {
+        "rank": 5,
+        "code": "virginia",
+        "value": "~14 members"
+      },
+      {
+        "rank": 6,
+        "code": "stanford",
+        "value": "~12 members"
+      },
+      {
+        "rank": 7,
+        "code": "texas",
+        "value": "~11 members"
+      },
+      {
+        "rank": 8,
+        "code": "columbia",
+        "value": "~10 members"
+      },
+      {
+        "rank": 9,
+        "code": "michigan",
+        "value": "~9 members"
+      },
+      {
+        "rank": 10,
+        "code": "florida",
+        "value": "~8 members"
+      },
+      {
+        "rank": 10,
+        "code": "unc",
+        "value": "~8 members (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "notre-dame",
+        "value": "~7 members"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-rhodes-scholars-all-time-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most Rhodes Scholars (all-time)",
+    "prompt": "Name the US universities that have produced the most American Rhodes Scholars, all-time.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "The Rhodes Trust \u2014 American Rhodes Scholars by institution",
+      "url": "https://www.rhodesscholar.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "American Rhodes Scholarships have been awarded annually since 1904; counts are cumulative through the most recent class.",
+    "trivia": "The United States Military Academy at West Point has produced more Rhodes Scholars than any liberal arts college.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "~370 scholars"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "~250 scholars"
+      },
+      {
+        "rank": 3,
+        "code": "princeton",
+        "value": "~215 scholars"
+      },
+      {
+        "rank": 4,
+        "code": "army",
+        "value": "~100 scholars"
+      },
+      {
+        "rank": 5,
+        "code": "stanford",
+        "value": "~95 scholars"
+      },
+      {
+        "rank": 6,
+        "code": "dartmouth",
+        "value": "~80 scholars"
+      },
+      {
+        "rank": 7,
+        "code": "mit",
+        "value": "~55 scholars"
+      },
+      {
+        "rank": 7,
+        "code": "chicago",
+        "value": "~55 scholars (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "unc",
+        "value": "~55 scholars (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "navy",
+        "value": "~55 scholars (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "duke",
+        "value": "~50 scholars"
+      },
+      {
+        "rank": 12,
+        "code": "air-force",
+        "value": "~45 scholars"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-macarthur-genius-fellows-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most MacArthur 'Genius' Fellows",
+    "prompt": "Name the US universities that have produced the most MacArthur Fellows (alumni degrees).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "MacArthur Foundation \u2014 Fellows directory (alumni tallies compiled by universities)",
+      "url": "https://www.macfound.org/fellows/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts fellows with an undergraduate or graduate degree from the institution. Fellows may be counted at multiple schools.",
+    "trivia": "The MacArthur Fellowship \u2014 often called the 'Genius Grant' \u2014 comes with an unrestricted $800,000 award paid over five years.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "~120 fellows"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "~85 fellows"
+      },
+      {
+        "rank": 3,
+        "code": "berkeley",
+        "value": "~70 fellows"
+      },
+      {
+        "rank": 4,
+        "code": "mit",
+        "value": "~65 fellows"
+      },
+      {
+        "rank": 5,
+        "code": "columbia",
+        "value": "~60 fellows"
+      },
+      {
+        "rank": 6,
+        "code": "chicago",
+        "value": "~55 fellows"
+      },
+      {
+        "rank": 7,
+        "code": "princeton",
+        "value": "~50 fellows"
+      },
+      {
+        "rank": 8,
+        "code": "stanford",
+        "value": "~45 fellows"
+      },
+      {
+        "rank": 9,
+        "code": "michigan",
+        "value": "~35 fellows"
+      },
+      {
+        "rank": 10,
+        "code": "cornell",
+        "value": "~30 fellows"
+      },
+      {
+        "rank": 11,
+        "code": "nyu",
+        "value": "~25 fellows"
+      },
+      {
+        "rank": 12,
+        "code": "penn",
+        "value": "~22 fellows"
+      }
+    ]
+  },
+  {
+    "id": "colleges-alumni-most-academy-award-winners-produced-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Alumni",
+    "title": "Most Academy Award winners produced",
+    "prompt": "Name the US colleges whose alumni have won the most Academy Awards (Oscars).",
+    "answerType": "Colleges",
+    "seededDepth": 10,
+    "source": {
+      "name": "Academy of Motion Picture Arts and Sciences / university alumni-relations tallies",
+      "url": "https://www.oscars.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts alumni Oscar wins across all categories. Individuals with multiple wins count each; alumni of multiple listed schools counted at each.",
+    "trivia": "USC's School of Cinematic Arts is the oldest film school in the US, founded in 1929 \u2014 the same year as the first Academy Awards.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "usc",
+        "value": "~50+ Oscar wins"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "~40+ Oscar wins"
+      },
+      {
+        "rank": 3,
+        "code": "ucla",
+        "value": "~35+ Oscar wins"
+      },
+      {
+        "rank": 4,
+        "code": "nyu",
+        "value": "~30+ Oscar wins"
+      },
+      {
+        "rank": 5,
+        "code": "harvard",
+        "value": "~25+ Oscar wins"
+      },
+      {
+        "rank": 6,
+        "code": "northwestern",
+        "value": "~20+ Oscar wins"
+      },
+      {
+        "rank": 7,
+        "code": "cmu",
+        "value": "~15+ Oscar wins"
+      },
+      {
+        "rank": 8,
+        "code": "stanford",
+        "value": "~12+ Oscar wins"
+      },
+      {
+        "rank": 9,
+        "code": "columbia",
+        "value": "~10+ Oscar wins"
+      },
+      {
+        "rank": 9,
+        "code": "berkeley",
+        "value": "~10+ Oscar wins (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-ncaa-d1-men-s-basketball-titles-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most NCAA D1 men's basketball titles",
+    "prompt": "Name the colleges that have won the most NCAA Division I men's basketball championships.",
+    "answerType": "Colleges",
+    "seededDepth": 14,
+    "source": {
+      "name": "NCAA \u2014 Men's Basketball Tournament records",
+      "url": "https://www.ncaa.com/history/basketball-men/d1",
+      "asOf": "2024 tournament"
+    },
+    "note": null,
+    "disclaimer": "Counts NCAA Division I tournament titles only; pre-NCAA Helms Foundation titles and NIT championships are excluded.",
+    "trivia": "John Wooden's UCLA dynasty won 10 of its 11 titles in a 12-year stretch from 1964 to 1975, including a still-unmatched 7 straight.",
+    "asOfDate": "2024 tournament",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ucla",
+        "value": "11 titles"
+      },
+      {
+        "rank": 2,
+        "code": "kentucky",
+        "value": "8 titles"
+      },
+      {
+        "rank": 3,
+        "code": "unc",
+        "value": "6 titles"
+      },
+      {
+        "rank": 3,
+        "code": "connecticut",
+        "value": "6 titles (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "duke",
+        "value": "5 titles"
+      },
+      {
+        "rank": 5,
+        "code": "indiana",
+        "value": "5 titles (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "kansas",
+        "value": "4 titles"
+      },
+      {
+        "rank": 8,
+        "code": "villanova",
+        "value": "3 titles"
+      },
+      {
+        "rank": 8,
+        "code": "louisville",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "michigan-state",
+        "value": "2 titles"
+      },
+      {
+        "rank": 10,
+        "code": "florida",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "nc-state",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "oklahoma-state",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "michigan",
+        "value": "1 title"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-ncaa-d1-women-s-basketball-titles-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most NCAA D1 women's basketball titles",
+    "prompt": "Name the colleges that have won the most NCAA Division I women's basketball championships.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "NCAA \u2014 Women's Basketball Tournament records",
+      "url": "https://www.ncaa.com/history/basketball-women/d1",
+      "asOf": "2024 tournament"
+    },
+    "note": null,
+    "disclaimer": "NCAA Division I era only (championships began in 1982); AIAW titles are excluded.",
+    "trivia": "UConn's 2016 team went 38-0 to complete a fourth straight national title, tying Geno Auriemma with Pat Summitt on career championships at the time.",
+    "asOfDate": "2024 tournament",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "connecticut",
+        "value": "11 titles"
+      },
+      {
+        "rank": 2,
+        "code": "tennessee",
+        "value": "8 titles"
+      },
+      {
+        "rank": 3,
+        "code": "stanford",
+        "value": "3 titles"
+      },
+      {
+        "rank": 3,
+        "code": "baylor",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "usc-south-carolina",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "notre-dame",
+        "value": "2 titles"
+      },
+      {
+        "rank": 6,
+        "code": "usc",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "lsu",
+        "value": "1 title"
+      },
+      {
+        "rank": 8,
+        "code": "maryland",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "purdue",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "texas-am",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "texas",
+        "value": "1 title (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-ncaa-championships-all-sports-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most NCAA championships (all sports)",
+    "prompt": "Name the colleges that have won the most NCAA team championships across all sports combined.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "NCAA \u2014 Team Championship History",
+      "url": "https://www.ncaa.com/history",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts NCAA-sanctioned team championships across men's and women's sports at all divisions the school competes in.",
+    "trivia": "Stanford's dominance is broadly distributed: it has won NCAA team titles in more than 20 different sports, including tennis, water polo, swimming, and rowing.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "stanford",
+        "value": "131 titles"
+      },
+      {
+        "rank": 2,
+        "code": "ucla",
+        "value": "122 titles"
+      },
+      {
+        "rank": 3,
+        "code": "usc",
+        "value": "111 titles"
+      },
+      {
+        "rank": 4,
+        "code": "oklahoma-state",
+        "value": "56 titles"
+      },
+      {
+        "rank": 4,
+        "code": "texas",
+        "value": "56 titles (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "penn-state",
+        "value": "51 titles"
+      },
+      {
+        "rank": 7,
+        "code": "unc",
+        "value": "50 titles"
+      },
+      {
+        "rank": 8,
+        "code": "arkansas",
+        "value": "48 titles"
+      },
+      {
+        "rank": 9,
+        "code": "florida",
+        "value": "45 titles"
+      },
+      {
+        "rank": 10,
+        "code": "berkeley",
+        "value": "42 titles"
+      },
+      {
+        "rank": 11,
+        "code": "michigan",
+        "value": "39 titles"
+      },
+      {
+        "rank": 12,
+        "code": "yale",
+        "value": "27 titles"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-heisman-trophy-winners-produced-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most Heisman Trophy winners produced",
+    "prompt": "Name the colleges that have produced the most Heisman Trophy winners in college football history.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Heisman Trophy Trust \u2014 Winners",
+      "url": "https://www.heisman.com/heisman-winners/",
+      "asOf": "2023 season (Jayden Daniels, LSU)"
+    },
+    "note": null,
+    "disclaimer": "Counts total awards; players who won multiple times (Archie Griffin at Ohio State) are counted per award.",
+    "trivia": "Archie Griffin is the only two-time Heisman winner in history, taking home the trophy in 1974 and 1975 for Ohio State.",
+    "asOfDate": "2023 season (Jayden Daniels, LSU)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ohio-state",
+        "value": "7 winners"
+      },
+      {
+        "rank": 1,
+        "code": "notre-dame",
+        "value": "7 winners (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "usc",
+        "value": "7 winners (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "oklahoma",
+        "value": "7 winners (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "alabama",
+        "value": "4 winners"
+      },
+      {
+        "rank": 6,
+        "code": "florida",
+        "value": "3 winners"
+      },
+      {
+        "rank": 6,
+        "code": "fsu",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "auburn",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "michigan",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "army",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "nebraska",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "texas",
+        "value": "2 winners"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-winningest-ncaa-d1-football-programs-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most winningest NCAA D1 football programs",
+    "prompt": "Name the colleges with the most all-time wins in NCAA Division I FBS football history.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "NCAA \u2014 FBS Football Records",
+      "url": "https://www.ncaa.com/news/football/article/2024-01-17/college-football-teams-most-wins-all-time",
+      "asOf": "2024 season"
+    },
+    "note": null,
+    "disclaimer": "Counts total FBS-recognized wins; vacated wins are excluded per NCAA record book.",
+    "trivia": "Michigan and Ohio State have combined for more than 2,000 all-time wins, and their annual rivalry has decided a Big Ten title dozens of times.",
+    "asOfDate": "2024 season",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "michigan",
+        "value": "1,004 wins"
+      },
+      {
+        "rank": 2,
+        "code": "ohio-state",
+        "value": "981 wins"
+      },
+      {
+        "rank": 3,
+        "code": "alabama",
+        "value": "961 wins"
+      },
+      {
+        "rank": 4,
+        "code": "texas",
+        "value": "955 wins"
+      },
+      {
+        "rank": 5,
+        "code": "notre-dame",
+        "value": "947 wins"
+      },
+      {
+        "rank": 5,
+        "code": "oklahoma",
+        "value": "947 wins (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "nebraska",
+        "value": "918 wins"
+      },
+      {
+        "rank": 7,
+        "code": "penn-state",
+        "value": "918 wins (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "tennessee",
+        "value": "873 wins"
+      },
+      {
+        "rank": 10,
+        "code": "usc",
+        "value": "870 wins"
+      },
+      {
+        "rank": 11,
+        "code": "georgia",
+        "value": "846 wins"
+      },
+      {
+        "rank": 12,
+        "code": "lsu",
+        "value": "824 wins"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-claimed-college-football-national-titles-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most claimed college football national titles",
+    "prompt": "Name the colleges that claim the most national championships in college football history.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "NCAA \u2014 FBS National Championship Records",
+      "url": "https://www.ncaa.org/sports/2013/11/22/football-bowl-subdivision-records.aspx",
+      "asOf": "2023 season"
+    },
+    "note": null,
+    "disclaimer": "Counts national titles claimed by the school (includes pre-AP-era selectors); different sources produce different totals.",
+    "trivia": "Nick Saban's Alabama tenure added six national championships between 2009 and 2020, dramatically accelerating the program's total.",
+    "asOfDate": "2023 season",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "princeton",
+        "value": "28 titles"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "27 titles"
+      },
+      {
+        "rank": 3,
+        "code": "alabama",
+        "value": "18 titles"
+      },
+      {
+        "rank": 4,
+        "code": "notre-dame",
+        "value": "13 titles"
+      },
+      {
+        "rank": 5,
+        "code": "harvard",
+        "value": "12 titles"
+      },
+      {
+        "rank": 5,
+        "code": "michigan",
+        "value": "12 titles (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "usc",
+        "value": "11 titles"
+      },
+      {
+        "rank": 8,
+        "code": "pitt",
+        "value": "9 titles"
+      },
+      {
+        "rank": 9,
+        "code": "ohio-state",
+        "value": "8 titles"
+      },
+      {
+        "rank": 10,
+        "code": "oklahoma",
+        "value": "7 titles"
+      },
+      {
+        "rank": 10,
+        "code": "minnesota",
+        "value": "7 titles (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "nebraska",
+        "value": "5 titles"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-men-s-college-world-series-titles-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most Men's College World Series titles",
+    "prompt": "Name the colleges with the most NCAA Division I Men's College World Series baseball championships.",
+    "answerType": "Colleges",
+    "seededDepth": 10,
+    "source": {
+      "name": "NCAA \u2014 Men's College World Series",
+      "url": "https://www.ncaa.com/history/baseball/d1",
+      "asOf": "2024 CWS"
+    },
+    "note": null,
+    "disclaimer": "Counts NCAA D1 Men's College World Series titles only; the event began in 1947.",
+    "trivia": "USC won five straight College World Series from 1970-1974 under coach Rod Dedeaux \u2014 a streak no other program has matched.",
+    "asOfDate": "2024 CWS",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "usc",
+        "value": "12 titles"
+      },
+      {
+        "rank": 2,
+        "code": "lsu",
+        "value": "7 titles"
+      },
+      {
+        "rank": 3,
+        "code": "texas",
+        "value": "6 titles"
+      },
+      {
+        "rank": 4,
+        "code": "arizona-state",
+        "value": "5 titles"
+      },
+      {
+        "rank": 5,
+        "code": "miami",
+        "value": "4 titles"
+      },
+      {
+        "rank": 5,
+        "code": "arizona",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "minnesota",
+        "value": "3 titles"
+      },
+      {
+        "rank": 8,
+        "code": "michigan",
+        "value": "2 titles"
+      },
+      {
+        "rank": 8,
+        "code": "stanford",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "vanderbilt",
+        "value": "2 titles (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-largest-college-football-stadiums-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Largest college football stadiums",
+    "prompt": "Name the colleges with the largest on-campus football stadiums by seating capacity.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "NCAA \u2014 FBS Stadium Capacity",
+      "url": "https://www.ncaa.com/news/football/article/2023-08-16/biggest-college-football-stadiums-country",
+      "asOf": "2024 season"
+    },
+    "note": null,
+    "disclaimer": "Capacities are official listed seating for the primary home football stadium; expansions and reconfigurations can shift the order year to year.",
+    "trivia": "Michigan Stadium's official capacity is exactly 107,601 \u2014 the 1 is a nod to Fritz Crisler, who allegedly said there would always be one extra seat for a special guest.",
+    "asOfDate": "2024 season",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "michigan",
+        "value": "107,601 (Michigan Stadium)"
+      },
+      {
+        "rank": 2,
+        "code": "penn-state",
+        "value": "106,572 (Beaver Stadium)"
+      },
+      {
+        "rank": 3,
+        "code": "ohio-state",
+        "value": "102,780 (Ohio Stadium)"
+      },
+      {
+        "rank": 4,
+        "code": "texas-am",
+        "value": "102,733 (Kyle Field)"
+      },
+      {
+        "rank": 5,
+        "code": "lsu",
+        "value": "102,321 (Tiger Stadium)"
+      },
+      {
+        "rank": 6,
+        "code": "tennessee",
+        "value": "101,915 (Neyland Stadium)"
+      },
+      {
+        "rank": 7,
+        "code": "texas",
+        "value": "100,119 (DKR Memorial)"
+      },
+      {
+        "rank": 8,
+        "code": "alabama",
+        "value": "100,077 (Bryant-Denny Stadium)"
+      },
+      {
+        "rank": 9,
+        "code": "georgia",
+        "value": "92,746 (Sanford Stadium)"
+      },
+      {
+        "rank": 10,
+        "code": "florida",
+        "value": "88,548 (Ben Hill Griffin)"
+      },
+      {
+        "rank": 11,
+        "code": "auburn",
+        "value": "88,043 (Jordan-Hare)"
+      },
+      {
+        "rank": 12,
+        "code": "oklahoma",
+        "value": "86,112 (Owen Field)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-olympic-gold-medals-by-alumni-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most Olympic gold medals by alumni",
+    "prompt": "Name the colleges whose current and former students have won the most Olympic gold medals all-time.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Sports Reference \u2014 Olympics College Affiliations",
+      "url": "https://www.sports-reference.com/olympics/schools/",
+      "asOf": "2024 (through Paris)"
+    },
+    "note": null,
+    "disclaimer": "Includes Summer and Winter Games and counts every gold won by an athlete affiliated with the school (relay-team members counted individually).",
+    "trivia": "If Stanford's athletes were their own country at the Tokyo 2020 Games, they would have finished with more gold medals than all but a handful of nations.",
+    "asOfDate": "2024 (through Paris)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "stanford",
+        "value": "168 golds"
+      },
+      {
+        "rank": 2,
+        "code": "usc",
+        "value": "157 golds"
+      },
+      {
+        "rank": 3,
+        "code": "ucla",
+        "value": "137 golds"
+      },
+      {
+        "rank": 4,
+        "code": "berkeley",
+        "value": "120 golds"
+      },
+      {
+        "rank": 5,
+        "code": "michigan",
+        "value": "77 golds"
+      },
+      {
+        "rank": 6,
+        "code": "texas",
+        "value": "68 golds"
+      },
+      {
+        "rank": 7,
+        "code": "florida",
+        "value": "60 golds"
+      },
+      {
+        "rank": 8,
+        "code": "harvard",
+        "value": "56 golds"
+      },
+      {
+        "rank": 9,
+        "code": "yale",
+        "value": "36 golds"
+      },
+      {
+        "rank": 10,
+        "code": "penn",
+        "value": "31 golds"
+      },
+      {
+        "rank": 11,
+        "code": "princeton",
+        "value": "26 golds"
+      },
+      {
+        "rank": 12,
+        "code": "auburn",
+        "value": "24 golds"
+      }
+    ]
+  },
+  {
+    "id": "colleges-athletics-most-nba-1-overall-draft-picks-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "title": "Most NBA #1 overall draft picks",
+    "prompt": "Name the colleges that have produced the most #1 overall picks in the NBA Draft.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "Basketball Reference \u2014 NBA Draft #1 Picks",
+      "url": "https://www.basketball-reference.com/draft/",
+      "asOf": "2024 NBA Draft"
+    },
+    "note": null,
+    "disclaimer": "Counts only players who played college basketball at that school before being drafted first overall; international and high-school-direct #1 picks are excluded.",
+    "trivia": "Duke's four #1 picks all came under Coach K: Elton Brand (1999), Kyrie Irving (2011), Zion Williamson (2019), and Paolo Banchero (2022).",
+    "asOfDate": "2024 NBA Draft",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "duke",
+        "value": "4 #1 picks"
+      },
+      {
+        "rank": 2,
+        "code": "kentucky",
+        "value": "3 #1 picks"
+      },
+      {
+        "rank": 3,
+        "code": "ucla",
+        "value": "2 #1 picks"
+      },
+      {
+        "rank": 3,
+        "code": "unc",
+        "value": "2 #1 picks (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "lsu",
+        "value": "2 #1 picks (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "kansas",
+        "value": "2 #1 picks (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "georgetown",
+        "value": "1 #1 pick"
+      },
+      {
+        "rank": 7,
+        "code": "oklahoma",
+        "value": "1 #1 pick (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "louisville",
+        "value": "1 #1 pick (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "michigan",
+        "value": "1 #1 pick (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "purdue",
+        "value": "1 #1 pick (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "auburn",
+        "value": "1 #1 pick (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-us-colleges-by-founding-year-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest US colleges by founding year",
+    "prompt": "Name the oldest colleges/universities in the United States, by founding year (rank 1 = earliest founded).",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "National Center for Education Statistics / institutional histories",
+      "url": "https://nces.ed.gov/collegenavigator/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Founding year uses the date the institution was chartered or began operating and has continuously operated up to today.",
+    "trivia": "Harvard was founded in 1636, more than a century before the United States existed as a country.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "Founded 1636"
+      },
+      {
+        "rank": 2,
+        "code": "william-and-mary",
+        "value": "Founded 1693"
+      },
+      {
+        "rank": 3,
+        "code": "yale",
+        "value": "Founded 1701"
+      },
+      {
+        "rank": 4,
+        "code": "penn",
+        "value": "Founded 1740"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "Founded 1746"
+      },
+      {
+        "rank": 6,
+        "code": "columbia",
+        "value": "Founded 1754"
+      },
+      {
+        "rank": 7,
+        "code": "brown",
+        "value": "Founded 1764"
+      },
+      {
+        "rank": 8,
+        "code": "rutgers",
+        "value": "Founded 1766"
+      },
+      {
+        "rank": 9,
+        "code": "dartmouth",
+        "value": "Founded 1769"
+      },
+      {
+        "rank": 10,
+        "code": "georgia",
+        "value": "Founded 1785"
+      },
+      {
+        "rank": 11,
+        "code": "georgetown",
+        "value": "Founded 1789"
+      },
+      {
+        "rank": 11,
+        "code": "unc",
+        "value": "Founded 1789"
+      },
+      {
+        "rank": 13,
+        "code": "vermont",
+        "value": "Founded 1791"
+      },
+      {
+        "rank": 14,
+        "code": "williams",
+        "value": "Founded 1793"
+      },
+      {
+        "rank": 15,
+        "code": "tennessee",
+        "value": "Founded 1794"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-us-public-universities-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest US public universities",
+    "prompt": "Name the oldest public universities in the United States, by founding year.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "National Center for Education Statistics / institutional histories",
+      "url": "https://nces.ed.gov/collegenavigator/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Uses charter or first-instruction date; UGA was chartered first (1785) but admitted its first class in 1801, while UNC (chartered 1789) admitted students in 1795.",
+    "trivia": "The University of Virginia (1819) was the first US public university not associated with a church, founded by Thomas Jefferson.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "georgia",
+        "value": "Chartered 1785"
+      },
+      {
+        "rank": 2,
+        "code": "unc",
+        "value": "Chartered 1789"
+      },
+      {
+        "rank": 3,
+        "code": "vermont",
+        "value": "Chartered 1791"
+      },
+      {
+        "rank": 4,
+        "code": "tennessee",
+        "value": "Chartered 1794"
+      },
+      {
+        "rank": 5,
+        "code": "usc-south-carolina",
+        "value": "Chartered 1801"
+      },
+      {
+        "rank": 6,
+        "code": "michigan",
+        "value": "Chartered 1817"
+      },
+      {
+        "rank": 7,
+        "code": "virginia",
+        "value": "Chartered 1819"
+      },
+      {
+        "rank": 8,
+        "code": "indiana",
+        "value": "Chartered 1820"
+      },
+      {
+        "rank": 8,
+        "code": "alabama",
+        "value": "Chartered 1820"
+      },
+      {
+        "rank": 10,
+        "code": "delaware",
+        "value": "Chartered 1833"
+      },
+      {
+        "rank": 11,
+        "code": "missouri",
+        "value": "Chartered 1839"
+      },
+      {
+        "rank": 12,
+        "code": "ole-miss",
+        "value": "Chartered 1848"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-us-medical-schools-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest US medical schools",
+    "prompt": "Name the oldest medical schools at US universities, by founding year.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "AAMC / institutional histories",
+      "url": "https://www.aamc.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Founding year of the medical school (not the parent university).",
+    "trivia": "Penn's Perelman School of Medicine, founded 1765, is the oldest medical school in North America.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "penn",
+        "value": "Med school founded 1765"
+      },
+      {
+        "rank": 2,
+        "code": "columbia",
+        "value": "Med school founded 1767"
+      },
+      {
+        "rank": 3,
+        "code": "harvard",
+        "value": "Med school founded 1782"
+      },
+      {
+        "rank": 4,
+        "code": "dartmouth",
+        "value": "Med school founded 1797"
+      },
+      {
+        "rank": 5,
+        "code": "maryland",
+        "value": "Med school founded 1807"
+      },
+      {
+        "rank": 6,
+        "code": "yale",
+        "value": "Med school founded 1810"
+      },
+      {
+        "rank": 7,
+        "code": "brown",
+        "value": "Med school founded 1811"
+      },
+      {
+        "rank": 8,
+        "code": "vermont",
+        "value": "Med school founded 1822"
+      },
+      {
+        "rank": 9,
+        "code": "virginia",
+        "value": "Med school founded 1825"
+      },
+      {
+        "rank": 10,
+        "code": "louisville",
+        "value": "Med school founded 1837"
+      },
+      {
+        "rank": 11,
+        "code": "michigan",
+        "value": "Med school founded 1850"
+      },
+      {
+        "rank": 12,
+        "code": "jhu",
+        "value": "Med school founded 1893"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-us-law-schools-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest US law schools",
+    "prompt": "Name the oldest law schools at US universities, by founding year.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "American Bar Association / institutional histories",
+      "url": "https://www.americanbar.org/groups/legal_education/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Founding year of the university law school; excludes private apprenticeships or law offices.",
+    "trivia": "William & Mary offered the first law lectures in America (1779) under George Wythe, but Harvard Law (1817) is often called the oldest continuously operating law school.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "william-and-mary",
+        "value": "Law school founded 1779"
+      },
+      {
+        "rank": 2,
+        "code": "maryland",
+        "value": "Law school founded 1816"
+      },
+      {
+        "rank": 3,
+        "code": "harvard",
+        "value": "Law school founded 1817"
+      },
+      {
+        "rank": 4,
+        "code": "virginia",
+        "value": "Law school founded 1819"
+      },
+      {
+        "rank": 5,
+        "code": "yale",
+        "value": "Law school founded 1824"
+      },
+      {
+        "rank": 6,
+        "code": "nyu",
+        "value": "Law school founded 1835"
+      },
+      {
+        "rank": 7,
+        "code": "unc",
+        "value": "Law school founded 1845"
+      },
+      {
+        "rank": 8,
+        "code": "louisville",
+        "value": "Law school founded 1846"
+      },
+      {
+        "rank": 9,
+        "code": "tulane",
+        "value": "Law school founded 1847"
+      },
+      {
+        "rank": 10,
+        "code": "penn",
+        "value": "Law school founded 1850"
+      },
+      {
+        "rank": 11,
+        "code": "columbia",
+        "value": "Law school founded 1858"
+      },
+      {
+        "rank": 12,
+        "code": "michigan",
+        "value": "Law school founded 1859"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-us-engineering-schools-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest US engineering schools",
+    "prompt": "Name the oldest engineering schools/programs at US universities, by founding year.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "ASEE / institutional histories",
+      "url": "https://www.asee.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Founding year uses the establishment of the engineering school or first engineering degree program.",
+    "trivia": "West Point (USMA), founded in 1802, was the first US institution to teach engineering; RPI (1824) was the first dedicated engineering school.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "army",
+        "value": "Engineering 1802"
+      },
+      {
+        "rank": 2,
+        "code": "rpi",
+        "value": "Engineering 1824"
+      },
+      {
+        "rank": 3,
+        "code": "virginia",
+        "value": "Engineering 1836"
+      },
+      {
+        "rank": 4,
+        "code": "harvard",
+        "value": "Engineering 1847"
+      },
+      {
+        "rank": 5,
+        "code": "penn",
+        "value": "Engineering 1852"
+      },
+      {
+        "rank": 6,
+        "code": "michigan",
+        "value": "Engineering 1854"
+      },
+      {
+        "rank": 6,
+        "code": "yale",
+        "value": "Engineering 1854"
+      },
+      {
+        "rank": 6,
+        "code": "brown",
+        "value": "Engineering 1854"
+      },
+      {
+        "rank": 9,
+        "code": "mit",
+        "value": "Engineering 1861"
+      },
+      {
+        "rank": 10,
+        "code": "columbia",
+        "value": "Engineering 1864"
+      },
+      {
+        "rank": 11,
+        "code": "lehigh",
+        "value": "Engineering 1866"
+      },
+      {
+        "rank": 12,
+        "code": "cornell",
+        "value": "Engineering 1868"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-us-business-schools-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest US business schools",
+    "prompt": "Name the oldest collegiate business schools in the United States, by founding year.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "AACSB / institutional histories",
+      "url": "https://www.aacsb.edu/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Founding year of the collegiate business school at each institution.",
+    "trivia": "Penn's Wharton (1881) was the first collegiate business school in the world.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "penn",
+        "value": "Wharton founded 1881"
+      },
+      {
+        "rank": 2,
+        "code": "chicago",
+        "value": "Booth founded 1898"
+      },
+      {
+        "rank": 2,
+        "code": "berkeley",
+        "value": "Haas founded 1898"
+      },
+      {
+        "rank": 4,
+        "code": "dartmouth",
+        "value": "Tuck founded 1900"
+      },
+      {
+        "rank": 4,
+        "code": "nyu",
+        "value": "Stern founded 1900"
+      },
+      {
+        "rank": 4,
+        "code": "wisconsin",
+        "value": "WSB founded 1900"
+      },
+      {
+        "rank": 7,
+        "code": "harvard",
+        "value": "HBS founded 1908"
+      },
+      {
+        "rank": 7,
+        "code": "northwestern",
+        "value": "Kellogg founded 1908"
+      },
+      {
+        "rank": 9,
+        "code": "columbia",
+        "value": "CBS founded 1916"
+      },
+      {
+        "rank": 10,
+        "code": "washu",
+        "value": "Olin founded 1917"
+      },
+      {
+        "rank": 11,
+        "code": "virginia",
+        "value": "McIntire founded 1921"
+      },
+      {
+        "rank": 12,
+        "code": "michigan",
+        "value": "Ross founded 1924"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-colonial-colleges-founded-before-us-independence-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Colonial colleges (founded before US independence)",
+    "prompt": "Name the nine 'Colonial Colleges' founded in what is now the United States before the Declaration of Independence in 1776, by founding year.",
+    "answerType": "Colleges",
+    "seededDepth": 9,
+    "source": {
+      "name": "Institutional histories / NCES",
+      "url": "https://nces.ed.gov/collegenavigator/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The 'Colonial Colleges' are the nine institutions chartered under British colonial rule before 1776 that are still operating today.",
+    "trivia": "Seven of the nine Colonial Colleges became members of the Ivy League; the two that did not are William & Mary and Rutgers.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "dartmouth",
+        "value": "Founded 1769"
+      },
+      {
+        "rank": 2,
+        "code": "rutgers",
+        "value": "Founded 1766"
+      },
+      {
+        "rank": 3,
+        "code": "brown",
+        "value": "Founded 1764"
+      },
+      {
+        "rank": 4,
+        "code": "columbia",
+        "value": "Founded 1754"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "Founded 1746"
+      },
+      {
+        "rank": 6,
+        "code": "penn",
+        "value": "Founded 1740"
+      },
+      {
+        "rank": 7,
+        "code": "yale",
+        "value": "Founded 1701"
+      },
+      {
+        "rank": 8,
+        "code": "william-and-mary",
+        "value": "Founded 1693"
+      },
+      {
+        "rank": 9,
+        "code": "harvard",
+        "value": "Founded 1636"
+      }
+    ]
+  },
+  {
+    "id": "colleges-history-oldest-ivy-league-universities-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - History",
+    "title": "Oldest Ivy League universities",
+    "prompt": "Name the eight Ivy League universities in order of founding year (rank 1 = oldest).",
+    "answerType": "Colleges",
+    "seededDepth": 8,
+    "source": {
+      "name": "Ivy League / institutional histories",
+      "url": "https://ivyleague.com/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Ivy League is a sports conference of eight private northeastern US universities.",
+    "trivia": "Cornell (1865) is the only Ivy League university founded after the American Revolution, and the only one founded as a coeducational institution.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "Founded 1636"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "Founded 1701"
+      },
+      {
+        "rank": 3,
+        "code": "penn",
+        "value": "Founded 1740"
+      },
+      {
+        "rank": 4,
+        "code": "princeton",
+        "value": "Founded 1746"
+      },
+      {
+        "rank": 5,
+        "code": "columbia",
+        "value": "Founded 1754"
+      },
+      {
+        "rank": 6,
+        "code": "brown",
+        "value": "Founded 1764"
+      },
+      {
+        "rank": 7,
+        "code": "dartmouth",
+        "value": "Founded 1769"
+      },
+      {
+        "rank": 8,
+        "code": "cornell",
+        "value": "Founded 1865"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-largest-university-endowments-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Largest University Endowments",
+    "prompt": "Name the US universities with the largest endowments (total market value of investment assets, FY2023).",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "NACUBO-Commonfund Study of Endowments (NCSE)",
+      "url": "https://www.nacubo.org/research/nacubo-tiaa-study-of-endowments",
+      "asOf": "FY2023"
+    },
+    "note": null,
+    "disclaimer": "Includes system-wide totals where reported (e.g. multi-campus systems file a combined figure).",
+    "trivia": "The University of Texas System's endowment is jointly managed with the Texas A&M System through UTIMCO, backed largely by Permanent University Fund oil and gas royalties.",
+    "asOfDate": "FY2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "$50.7B"
+      },
+      {
+        "rank": 2,
+        "code": "texas",
+        "value": "$45.0B"
+      },
+      {
+        "rank": 3,
+        "code": "yale",
+        "value": "$40.7B"
+      },
+      {
+        "rank": 4,
+        "code": "stanford",
+        "value": "$36.5B"
+      },
+      {
+        "rank": 5,
+        "code": "princeton",
+        "value": "$34.1B"
+      },
+      {
+        "rank": 6,
+        "code": "mit",
+        "value": "$23.5B"
+      },
+      {
+        "rank": 7,
+        "code": "penn",
+        "value": "$21.0B"
+      },
+      {
+        "rank": 8,
+        "code": "texas-am",
+        "value": "$19.6B"
+      },
+      {
+        "rank": 9,
+        "code": "notre-dame",
+        "value": "$18.0B"
+      },
+      {
+        "rank": 10,
+        "code": "michigan",
+        "value": "$17.9B"
+      },
+      {
+        "rank": 11,
+        "code": "northwestern",
+        "value": "$14.1B"
+      },
+      {
+        "rank": 12,
+        "code": "columbia",
+        "value": "$13.6B"
+      },
+      {
+        "rank": 13,
+        "code": "duke",
+        "value": "$11.6B"
+      },
+      {
+        "rank": 14,
+        "code": "washu",
+        "value": "$11.5B"
+      },
+      {
+        "rank": 15,
+        "code": "chicago",
+        "value": "$10.4B"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-highest-endowment-per-student-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Highest Endowment Per Student",
+    "prompt": "Name the US colleges with the highest endowment per enrolled student.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "NACUBO Study of Endowments / IPEDS",
+      "url": "https://www.nacubo.org/research/nacubo-tiaa-study-of-endowments",
+      "asOf": "FY2023"
+    },
+    "note": null,
+    "disclaimer": "Calculated as total endowment / total FTE enrollment. Small colleges with big endowments dominate.",
+    "trivia": "Princeton's endowment-per-student figure means the school could theoretically fund every undergraduate's cost of attendance for over 40 years from the endowment alone.",
+    "asOfDate": "FY2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "princeton",
+        "value": "$3.9M/student"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "$2.9M/student"
+      },
+      {
+        "rank": 3,
+        "code": "harvard",
+        "value": "$2.3M/student"
+      },
+      {
+        "rank": 4,
+        "code": "stanford",
+        "value": "$2.1M/student"
+      },
+      {
+        "rank": 5,
+        "code": "mit",
+        "value": "$2.0M/student"
+      },
+      {
+        "rank": 6,
+        "code": "pomona",
+        "value": "$1.6M/student"
+      },
+      {
+        "rank": 7,
+        "code": "swarthmore",
+        "value": "$1.5M/student"
+      },
+      {
+        "rank": 8,
+        "code": "amherst",
+        "value": "$1.4M/student"
+      },
+      {
+        "rank": 8,
+        "code": "notre-dame",
+        "value": "$1.4M/student (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "williams",
+        "value": "$1.3M/student"
+      },
+      {
+        "rank": 11,
+        "code": "grinnell",
+        "value": "$1.2M/student"
+      },
+      {
+        "rank": 12,
+        "code": "caltech",
+        "value": "$1.1M/student"
+      },
+      {
+        "rank": 13,
+        "code": "wellesley",
+        "value": "$970k/student"
+      },
+      {
+        "rank": 14,
+        "code": "washu",
+        "value": "$720k/student"
+      },
+      {
+        "rank": 15,
+        "code": "rice",
+        "value": "$700k/student"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-largest-undergraduate-enrollment-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Largest Undergraduate Enrollment",
+    "prompt": "Name the US universities with the largest on-campus undergraduate enrollment.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "IPEDS / Common Data Set",
+      "url": "https://nces.ed.gov/ipeds/",
+      "asOf": "Fall 2023"
+    },
+    "note": null,
+    "disclaimer": "Counts on-campus (non-online) full-time and part-time undergraduates. ASU's separate online enrollment is excluded here.",
+    "trivia": "The University of Central Florida briefly held the #1 spot in the late 2010s before Texas A&M and ASU's growth pushed it into the top four.",
+    "asOfDate": "Fall 2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "texas-am",
+        "value": "~57,000"
+      },
+      {
+        "rank": 2,
+        "code": "ucf",
+        "value": "~56,000"
+      },
+      {
+        "rank": 3,
+        "code": "arizona-state",
+        "value": "~55,000"
+      },
+      {
+        "rank": 4,
+        "code": "ohio-state",
+        "value": "~47,000"
+      },
+      {
+        "rank": 5,
+        "code": "texas",
+        "value": "~40,900"
+      },
+      {
+        "rank": 6,
+        "code": "penn-state",
+        "value": "~40,600"
+      },
+      {
+        "rank": 7,
+        "code": "michigan-state",
+        "value": "~40,400"
+      },
+      {
+        "rank": 8,
+        "code": "purdue",
+        "value": "~38,600"
+      },
+      {
+        "rank": 9,
+        "code": "minnesota",
+        "value": "~36,300"
+      },
+      {
+        "rank": 10,
+        "code": "indiana",
+        "value": "~36,200"
+      },
+      {
+        "rank": 11,
+        "code": "rutgers",
+        "value": "~36,000"
+      },
+      {
+        "rank": 12,
+        "code": "illinois",
+        "value": "~35,500"
+      },
+      {
+        "rank": 13,
+        "code": "wisconsin",
+        "value": "~34,600"
+      },
+      {
+        "rank": 14,
+        "code": "florida",
+        "value": "~34,500"
+      },
+      {
+        "rank": 15,
+        "code": "nyu",
+        "value": "~29,700"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-largest-total-enrollment-undergrad-grad-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Largest Total Enrollment (Undergrad + Grad)",
+    "prompt": "Name the US universities with the largest total on-campus enrollment across undergraduate and graduate programs.",
+    "answerType": "Colleges",
+    "seededDepth": 15,
+    "source": {
+      "name": "IPEDS / Common Data Set",
+      "url": "https://nces.ed.gov/ipeds/",
+      "asOf": "Fall 2023"
+    },
+    "note": null,
+    "disclaimer": "Total headcount of all degree-seeking students; excludes the very large fully-online divisions where reported separately.",
+    "trivia": "Arizona State's 'Online' campus adds roughly 60,000 additional students to its physical-campus enrollment, which would push ASU past every other US university if combined.",
+    "asOfDate": "Fall 2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "texas-am",
+        "value": "~74,000"
+      },
+      {
+        "rank": 2,
+        "code": "arizona-state",
+        "value": "~72,000"
+      },
+      {
+        "rank": 3,
+        "code": "ucf",
+        "value": "~68,000"
+      },
+      {
+        "rank": 4,
+        "code": "ohio-state",
+        "value": "~60,500"
+      },
+      {
+        "rank": 5,
+        "code": "nyu",
+        "value": "~59,000"
+      },
+      {
+        "rank": 6,
+        "code": "florida",
+        "value": "~55,000"
+      },
+      {
+        "rank": 7,
+        "code": "minnesota",
+        "value": "~54,000"
+      },
+      {
+        "rank": 8,
+        "code": "texas",
+        "value": "~52,000"
+      },
+      {
+        "rank": 8,
+        "code": "michigan",
+        "value": "~52,000 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "penn-state",
+        "value": "~50,000"
+      },
+      {
+        "rank": 10,
+        "code": "michigan-state",
+        "value": "~50,000 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "rutgers",
+        "value": "~50,000 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "purdue",
+        "value": "~50,000 (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "wisconsin",
+        "value": "~48,000"
+      },
+      {
+        "rank": 15,
+        "code": "indiana",
+        "value": "~47,000"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-largest-campus-by-land-area-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Largest Campus by Land Area",
+    "prompt": "Name the US universities with the largest main campus by land area (acres).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "University fact books / IPEDS campus reports",
+      "url": "https://nces.ed.gov/ipeds/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Refers to the contiguous main campus; excludes remote research forests, agricultural stations, or system-wide holdings.",
+    "trivia": "Berry College in Georgia advertises a 27,000-acre campus but most of it is undeveloped forest and farmland \u2014 the built academic core is a fraction of the total.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "air-force",
+        "value": "18,500 acres"
+      },
+      {
+        "rank": 2,
+        "code": "clemson",
+        "value": "17,000 acres"
+      },
+      {
+        "rank": 3,
+        "code": "duke",
+        "value": "8,600 acres"
+      },
+      {
+        "rank": 4,
+        "code": "stanford",
+        "value": "8,180 acres"
+      },
+      {
+        "rank": 5,
+        "code": "penn-state",
+        "value": "7,300 acres"
+      },
+      {
+        "rank": 6,
+        "code": "texas-am",
+        "value": "5,500 acres"
+      },
+      {
+        "rank": 7,
+        "code": "michigan-state",
+        "value": "5,200 acres"
+      },
+      {
+        "rank": 8,
+        "code": "purdue",
+        "value": "2,600 acres"
+      },
+      {
+        "rank": 8,
+        "code": "virginia-tech",
+        "value": "2,600 acres (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "cornell",
+        "value": "2,300 acres"
+      },
+      {
+        "rank": 11,
+        "code": "auburn",
+        "value": "1,875 acres"
+      },
+      {
+        "rank": 12,
+        "code": "arizona-state",
+        "value": "660 acres"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-highest-sticker-price-tuition-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Highest Sticker-Price Tuition",
+    "prompt": "Name the US colleges with the highest published annual undergraduate tuition (before financial aid).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "College Board / Common Data Set",
+      "url": "https://research.collegeboard.org/trends/college-pricing",
+      "asOf": "2023-2024"
+    },
+    "note": null,
+    "disclaimer": "Sticker-price tuition only, excluding fees, room, and board. Most students at these schools pay less after need-based aid.",
+    "trivia": "Columbia briefly held the #1 spot in the 2010s before being displaced by a cluster of NYC-area private universities with similar pricing.",
+    "asOfDate": "2023-2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "columbia",
+        "value": "$68,400"
+      },
+      {
+        "rank": 2,
+        "code": "usc",
+        "value": "$66,600"
+      },
+      {
+        "rank": 3,
+        "code": "penn",
+        "value": "$66,100"
+      },
+      {
+        "rank": 4,
+        "code": "brown",
+        "value": "$65,900"
+      },
+      {
+        "rank": 5,
+        "code": "harvey-mudd",
+        "value": "$65,400"
+      },
+      {
+        "rank": 5,
+        "code": "duke",
+        "value": "$65,400 (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "tufts",
+        "value": "$65,200"
+      },
+      {
+        "rank": 8,
+        "code": "dartmouth",
+        "value": "$65,000"
+      },
+      {
+        "rank": 8,
+        "code": "northwestern",
+        "value": "$65,000 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "yale",
+        "value": "$64,700"
+      },
+      {
+        "rank": 11,
+        "code": "vanderbilt",
+        "value": "$63,900"
+      },
+      {
+        "rank": 12,
+        "code": "harvard",
+        "value": "$59,100"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-highest-total-cost-of-attendance-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Highest Total Cost of Attendance",
+    "prompt": "Name the US colleges with the highest total published cost of attendance (tuition + fees + room + board).",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "College Board / Common Data Set",
+      "url": "https://research.collegeboard.org/trends/college-pricing",
+      "asOf": "2023-2024"
+    },
+    "note": null,
+    "disclaimer": "Total published cost before financial aid. Includes tuition, mandatory fees, and on-campus room and board.",
+    "trivia": "The gap between sticker price and average net price is largest at Ivies and top LACs \u2014 Harvard's average net price is under $20k despite a $80k+ sticker.",
+    "asOfDate": "2023-2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvey-mudd",
+        "value": "$89,900"
+      },
+      {
+        "rank": 2,
+        "code": "usc",
+        "value": "$88,000"
+      },
+      {
+        "rank": 3,
+        "code": "columbia",
+        "value": "$87,000"
+      },
+      {
+        "rank": 3,
+        "code": "penn",
+        "value": "$87,000 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "brown",
+        "value": "$86,900"
+      },
+      {
+        "rank": 6,
+        "code": "tufts",
+        "value": "$86,000"
+      },
+      {
+        "rank": 7,
+        "code": "duke",
+        "value": "$85,900"
+      },
+      {
+        "rank": 8,
+        "code": "dartmouth",
+        "value": "$85,700"
+      },
+      {
+        "rank": 8,
+        "code": "wesleyan",
+        "value": "$85,700 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "yale",
+        "value": "$85,000"
+      },
+      {
+        "rank": 10,
+        "code": "vanderbilt",
+        "value": "$85,000 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "northwestern",
+        "value": "$85,000 (tied)"
+      }
+    ]
+  },
+  {
+    "id": "colleges-size-money-lowest-in-state-tuition-public-flagships-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "title": "Lowest In-State Tuition (Public Flagships)",
+    "prompt": "Name the US public flagship universities with the lowest published in-state undergraduate tuition and fees.",
+    "answerType": "Colleges",
+    "seededDepth": 12,
+    "source": {
+      "name": "College Board / IPEDS",
+      "url": "https://research.collegeboard.org/trends/college-pricing",
+      "asOf": "2023-2024"
+    },
+    "note": null,
+    "disclaimer": "In-state resident tuition and mandatory fees at each state's public flagship. Excludes non-flagship campuses.",
+    "trivia": "Florida and Wyoming have held the lowest in-state tuition slots for over a decade thanks to strong state legislative support and lottery-funded scholarships.",
+    "asOfDate": "2023-2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "wyoming",
+        "value": "$5,900"
+      },
+      {
+        "rank": 2,
+        "code": "florida",
+        "value": "$6,400"
+      },
+      {
+        "rank": 3,
+        "code": "montana",
+        "value": "$7,900"
+      },
+      {
+        "rank": 4,
+        "code": "idaho",
+        "value": "$8,700"
+      },
+      {
+        "rank": 5,
+        "code": "unm",
+        "value": "$8,900"
+      },
+      {
+        "rank": 6,
+        "code": "north-dakota",
+        "value": "$9,300"
+      },
+      {
+        "rank": 7,
+        "code": "utah",
+        "value": "$9,500"
+      },
+      {
+        "rank": 7,
+        "code": "nevada",
+        "value": "$9,500 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "mississippi-state",
+        "value": "$9,600"
+      },
+      {
+        "rank": 10,
+        "code": "arkansas",
+        "value": "$10,200"
+      },
+      {
+        "rank": 11,
+        "code": "iowa-state",
+        "value": "$10,500"
+      },
+      {
+        "rank": 12,
+        "code": "oklahoma",
+        "value": "$12,000"
+      }
+    ]
   }
 ]
