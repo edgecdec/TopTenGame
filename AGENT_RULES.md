@@ -72,6 +72,25 @@ Answer sets live at `data/answer_sets.json` keyed by theme name. Every `code` in
 
 **Countries — Do NOT use codes for**: Soviet Union, West Indies (cricket team), Cook Islands, Niue. They aren't in the answer set. If a ranking authoritatively includes them, drop those rows.
 
+**Slug verification before writing** (⚠️ WHY: every fan-out has lost 5-20% of rows to slug mismatches):
+- Before shipping a question, load the answer_sets.json entries for your theme and check that every `code` you produced exists.
+- If you had to invent a slug (e.g., for a small subtheme like Movies-Talent where you know one film), verify against the answer set — variants like `the-godfather-1972` vs `godfather-1972` will silently drop your row.
+- If you produced slugs the consolidator will reject, list them in your recap so we can add aliases.
+
+**Historical entities and constituent nations** (⚠️ WHY: these mappings keep bouncing back and forth across fan-outs):
+- **USSR** → map to `RU` with a disclaimer, OR drop those rows. Never invent `SU`.
+- **East Germany** → map to `DE` and disclaim consolidation. Same for West Germany.
+- **Yugoslavia** → map to `RS` (Serbia as successor) OR split by successor state OR drop. Pick one and disclaim.
+- **Czechoslovakia** → drop, or split into `CZ` + `SK`.
+- **Ottoman Empire** → map to `TR`.
+- **West Indies (cricket)** → not a country. Drop the row.
+- **England / Scotland / Wales / Northern Ireland** → aggregate under `GB` and add a disclaimer noting the aggregation. Do NOT invent codes like `EN` or `SCT`. This applies to Wimbledon, Rugby World Cup, Cricket World Cup, Six Nations, Commonwealth Games, F1 by nationality, Ballon d'Or, and any question where UK constituent nations compete separately in the underlying sport but are collapsed here.
+
+**Cross-file duplicate awareness** (⚠️ WHY: agents have re-created questions that were explicitly dropped in earlier waves):
+- Before proposing new topics, skim `data/questions.json` for existing entries in your theme — look at each subtheme's titles.
+- Prompts tell you what's covered; the "already have..." section is a hint, not exhaustive.
+- Explicit blocklist of topics already dropped for cause: G20 hosts (14-way tie), youngest voting age (7-way tie), most streamed BP winners (no source), Best Picture winners of the 1990s (dropdown-year lookup). Do not re-propose these.
+
 ---
 
 ## 3. What makes a good question
@@ -112,6 +131,8 @@ Two separate fields:
 - **`disclaimer`** is shown **BEFORE** the round starts. Anything here is visible to players while they're guessing.
 - **`trivia`** is shown **ONLY AFTER** the round ends with the correct answers. It can spoil freely.
 
+**⚠️ AUDITOR NOTE**: `trivia` is verified post-round in the UI (`src/app/room/[code]/page.tsx` intermission view). If you are auditing questions, "trivia names top-1 answer" is NEVER a bug — that's the intended use. Only flag disclaimer leaks. Multiple past audits produced hundreds of false positives by treating trivia as pre-round.
+
 **Rules for `disclaimer`:**
 - ✓ Methodology: "Nominal GDP in USD billions, not PPP."
 - ✓ Inclusion criteria: "Excludes Special Administrative Regions."
@@ -150,18 +171,23 @@ Two separate fields:
 
 ---
 
-## 7. Value formatting
+## 7. Value formatting — HIGH SEVERITY
+
+**Value-format consistency is the #1 recurring bug.** We have fixed this exact class of issue on tea, aquaculture, butter, yogurt, coffee-exporters, cocoa-exporters, orange producers, and more. Every time an agent produces a question mixing formats, the auto-sorter mis-orders it — usually placing the true #1 answer near the bottom.
 
 - **Always include units**: `"5 titles"`, `"$27,721B"`, `"340M population"`, `"1,650 km²"`, `"93 min"`, `"1794 (founded)"`.
-- **Use comma notation OR scale suffix, not both**. Within one question, pick a format and stick to it.
+- **Use comma notation OR scale suffix, not both. NEVER MIX WITHIN ONE QUESTION.**
   - Same question: `"1,450,935,791"` and `"340,003,797"` ✓
   - Same question: `"1.45B"` and `"340M"` ✓
-  - Same question: `"3.35 million tonnes"` and `"535,000 tonnes"` ✗ (breaks the auto-sorter)
+  - Same question: `"3.35 million tonnes"` and `"535,000 tonnes"` ✗ **catastrophic — auto-sorter treats `3.35 million` as smaller than `535,000`**
+  - Same question: `"50+ wins"` and `"50 wins"` ✗ **the `+` bucket kills sortability; use exact counts or drop the row**
 - **Ties**: same `rank`, add `"(tied)"` suffix to the value.
   ```
   { "rank": 3, "code": "IT", "value": "4 titles" },
   { "rank": 3, "code": "DE", "value": "4 titles (tied)" }
   ```
+- **Buckets are forbidden** — if the source only publishes ranges (`"50+ champions"`, `"~35 medals"`), use the underlying exact number. If you can't find the exact number, drop the row and let seededDepth shrink.
+- **Before shipping**: eyeball your values list. If two different unit-word formats appear in one question, normalize before writing the file.
 
 ---
 
@@ -178,11 +204,12 @@ Two separate fields:
 
 ## 9. Ties and depth
 
-- **Seed 10-15 answers per question by default**.
-- If the topic has a small pool (e.g. only 4 Rugby World Cup winners), match `seededDepth` to the pool size — don't pad.
+- **Seed 15-20 answers per question when a top-20 is defensibly available.** 15 was our old floor because most agents produced exactly 15; that's fine for small topics but leaves the game capped at top-15 rounds even when the host sets top-20. If the topic clearly supports 20 defensible answers (population, GDP, Olympic medals, etc.), seed 20.
+- If the topic has a small pool (e.g. only 4 Rugby World Cup winners, 6 F1 constructor champions, 8 Great Lakes states), match `seededDepth` to the pool size — **don't pad with weak or unranked entries**.
 - **Do NOT include entries that don't belong in the ranking**:
   - ⚠️ WHY: "Films that lost Best Picture" question included 3 films that had actually WON Best Picture. That's a category error.
 - Ties get shared ranks. If ranks 1-3 are three-way tied, the next rank is 4.
+- **When you can't produce 20 exact-count answers, stop at the last exact-count row.** Never pad with bucketed values (`"50+"`) — that breaks the auto-sorter.
 
 ---
 
@@ -195,9 +222,15 @@ If your questions span multiple sub-domains, split into multiple output files ra
 **Sub-theme scoping**: when a subtheme is a strict answer sub-pool (Pro Sports league, or a scoped Movies subset), the game engine will filter the dropdown automatically. Awareness of that:
 - Pro Sports NBA/NFL/MLB/NHL questions → dropdown shows only that league's teams
 - Movies non-nominees questions → dropdown shows only Best Picture winners (96 films)
+- **Movies - Nominees** subtheme → dropdown shows full 602 Best Picture nominees pool
 - Countries subthemes → dropdown is always all 199 countries (topical filter, not answer-pool filter)
+- US States subthemes → always all 51 (50 states + DC)
+- Colleges subthemes → always all 147 institutions
+- Video Games / Video Game Franchises subthemes → always full pool
 
-You don't need to do anything special — the consolidator + server handle it. Just produce accurate answers.
+**Practical implication:** if you're producing a Movies question under a non-Nominees subtheme, every answer code must be a Best Picture WINNER (96 slugs). If you use a Best-Picture-nominee-but-not-winner, the consolidator will silently drop the row.
+
+You don't need to do anything special — the consolidator + server handle it. Just produce accurate answers with codes matching the effective pool.
 
 ---
 
@@ -223,3 +256,50 @@ You don't need to do anything special — the consolidator + server handle it. J
 - Give a 2-3 sentence recap: topics chosen, any topics skipped and why, and any judgment calls (slug decisions, source pick, whatever).
 - Do NOT dispatch subagents. Do the work in-line.
 - Under 400 words in your response.
+
+---
+
+## 13. Patch-file schema (for FIX agents applying audit findings)
+
+When you are a **fix agent** — reading an audit JSON and applying fixes — do NOT write directly to `questions.json`. Multiple fix agents run in parallel and would clobber each other. Write your patches to a per-cluster patch file that the parent process merges serially.
+
+**Canonical schema** (used by every fix wave):
+
+```json
+{
+  "cluster": "Sports",
+  "updates": [
+    {
+      "id": "question-id",
+      "changes": {
+        "disclaimer": "new text or null",
+        "trivia": "new text or null",
+        "title": "new title (only if changed)",
+        "prompt": "new prompt (only if changed)",
+        "answers": [ /* full array only if changed */ ]
+      }
+    }
+  ],
+  "deletions": ["question-id-1", "question-id-2"]
+}
+```
+
+**Do NOT use alternate schemas** (⚠️ WHY: two agents shipped `operations`/`op`/`set`/`drop:true`, requiring custom merge logic each time):
+- ❌ `operations` array with `op` field — use `updates` and `deletions` instead
+- ❌ inline `drop: true` on an update — put the id in the `deletions` array
+- ❌ per-answer patches — replace the full `answers` array
+
+**Only include fields you're changing** in `changes`. Fields you leave alone are preserved by the parent merger. If you rewrite `answers`, the merger auto-caps `seededDepth` to `min(existing, len(answers))`.
+
+---
+
+## 14. Common mistakes we've hit (continued)
+
+11. **Trivia false-positives during audits** — flagging trivia that names a top-1 answer as a "leak". Trivia is post-round only. Not a bug.
+12. **Historical entity codes** — inventing `SU`, `YU`, `DD`, `CS`, `EN`, `SCT`. Use modern successors with a disclaimer, or drop rows.
+13. **Value-format mixing** — the tea/aquaculture/butter class of bug. Never mix `"3.35 million"` with `"535,000"` in one question.
+14. **Bucket values** — `"50+ wins"` mixed with `"49 wins"` scrambles ranking. Use exact counts or drop.
+15. **Padding to seededDepth 15** — every subtheme having exactly 15 answers regardless of pool. Seed 20 when defensible; smaller when the pool is naturally small.
+16. **Cross-file re-creation of dropped questions** — re-proposing G20 hosts / youngest voting age / streaming rankings after they were dropped in prior waves. Check questions.json first.
+17. **Bad patch schemas** — fix agents shipping `{operations:[...]}` instead of `{updates:[...],deletions:[...]}`. Match section 13 exactly.
+18. **Movies-Nominees vs winners confusion** — Movies non-Nominees subthemes require Best Picture WINNER codes only. Movies - Nominees uses the full 602-pool.

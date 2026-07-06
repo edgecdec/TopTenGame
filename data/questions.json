@@ -125692,5 +125692,3820 @@
         "value": "#1 teaching (2024)"
       }
     ]
+  },
+  {
+    "id": "us-states-geography-states-bordering-the-most-other-states-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States bordering the most other states",
+    "prompt": "Name the US states that share a land border with the most other US states.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "US Geological Survey \u2014 State Boundaries",
+      "url": "https://www.usgs.gov/faqs/how-many-states-does-tennessee-border",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts land borders only; a corner touch at a common point still counts as a border.",
+    "trivia": "Tennessee and Missouri are tied at 8 neighbors each \u2014 a fact often used as a US geography trivia hook.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TN",
+        "value": "8 neighbors"
+      },
+      {
+        "rank": 1,
+        "code": "MO",
+        "value": "8 neighbors (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "KY",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "6 neighbors (four-corners state)"
+      },
+      {
+        "rank": 4,
+        "code": "AR",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "PA",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "IA",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "SD",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "WY",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "OK",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "ID",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "UT",
+        "value": "6 neighbors (four-corners state)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-fewest-neighbors-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the fewest neighbors",
+    "prompt": "Name the US states that share a land border with the fewest other US states.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "US Census Bureau \u2014 State Adjacency",
+      "url": "https://www.census.gov/library/reference/state-geocodes.html",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts land borders only; states separated only by water are not counted as neighbors.",
+    "trivia": "Alaska and Hawaii share zero land borders with other US states; Maine's only neighbor is New Hampshire.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "0 neighbors"
+      },
+      {
+        "rank": 1,
+        "code": "HI",
+        "value": "0 neighbors (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "ME",
+        "value": "1 neighbor (NH)"
+      },
+      {
+        "rank": 4,
+        "code": "FL",
+        "value": "2 neighbors (GA, AL)"
+      },
+      {
+        "rank": 4,
+        "code": "SC",
+        "value": "2 neighbors (NC, GA)"
+      },
+      {
+        "rank": 4,
+        "code": "RI",
+        "value": "2 neighbors (CT, MA)"
+      },
+      {
+        "rank": 7,
+        "code": "AZ",
+        "value": "3 neighbors (excluding CA border-point ambiguity)"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "3 neighbors (OR, ID, plus AK by water excluded)"
+      },
+      {
+        "rank": 7,
+        "code": "CT",
+        "value": "3 neighbors (NY, MA, RI)"
+      },
+      {
+        "rank": 7,
+        "code": "VT",
+        "value": "3 neighbors (NY, NH, MA)"
+      },
+      {
+        "rank": 7,
+        "code": "LA",
+        "value": "3 neighbors (TX, AR, MS)"
+      },
+      {
+        "rank": 7,
+        "code": "MS",
+        "value": "4 neighbors (LA, AR, TN, AL)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-lowest-point-below-sea-level-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the lowest point below sea level",
+    "prompt": "Name the US states whose lowest elevation point sits below sea level.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "USGS \u2014 Elevations and Distances in the United States",
+      "url": "https://pubs.usgs.gov/gip/Elevations-Distances/elvadist.html",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by depth below sea level; rank 1 is the deepest below sea level.",
+    "trivia": "California's Badwater Basin in Death Valley at -282 ft is the lowest point in North America.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "-282 ft (Badwater Basin)"
+      },
+      {
+        "rank": 2,
+        "code": "LA",
+        "value": "-8 ft (New Orleans)"
+      },
+      {
+        "rank": 3,
+        "code": "DE",
+        "value": "0 ft (Atlantic Ocean)"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "0 ft (Atlantic Ocean, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "MD",
+        "value": "0 ft (Atlantic Ocean, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "NC",
+        "value": "0 ft (Atlantic Ocean, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "SC",
+        "value": "0 ft (Atlantic Ocean, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "VA",
+        "value": "0 ft (Atlantic Ocean, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "TX",
+        "value": "0 ft (Gulf of Mexico, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "MS",
+        "value": "0 ft (Gulf of Mexico, tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States that touch a Great Lake",
+    "prompt": "Name the US states with a shoreline on one of the five Great Lakes.",
+    "answerType": "US States",
+    "seededDepth": 8,
+    "source": {
+      "name": "NOAA \u2014 Great Lakes Coastal Information",
+      "url": "https://coast.noaa.gov/states/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Eight US states have a Great Lakes shoreline; the pool is exactly 8.",
+    "trivia": "Michigan is the only state that borders four of the five Great Lakes (Superior, Michigan, Huron, Erie).",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MI",
+        "value": "4 Great Lakes (Superior, Michigan, Huron, Erie)"
+      },
+      {
+        "rank": 2,
+        "code": "WI",
+        "value": "2 Great Lakes (Superior, Michigan)"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "2 Great Lakes (Erie, Ontario)"
+      },
+      {
+        "rank": 2,
+        "code": "OH",
+        "value": "1 Great Lake (Erie)"
+      },
+      {
+        "rank": 2,
+        "code": "IL",
+        "value": "1 Great Lake (Michigan)"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "1 Great Lake (Michigan)"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "1 Great Lake (Superior)"
+      },
+      {
+        "rank": 2,
+        "code": "PA",
+        "value": "1 Great Lake (Erie)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the most active volcanoes",
+    "prompt": "Name the US states with the most active or potentially active volcanoes.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "USGS \u2014 Volcano Hazards Program",
+      "url": "https://www.usgs.gov/programs/VHP/volcanoes",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes volcanoes classified by USGS as historically active or potentially active.",
+    "trivia": "Alaska alone has over 130 volcanoes considered active in geologic time, more than the rest of the US combined.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "141 volcanoes"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "18 volcanoes"
+      },
+      {
+        "rank": 3,
+        "code": "OR",
+        "value": "17 volcanoes"
+      },
+      {
+        "rank": 4,
+        "code": "NV",
+        "value": "13 volcanoes"
+      },
+      {
+        "rank": 5,
+        "code": "NM",
+        "value": "12 volcanoes"
+      },
+      {
+        "rank": 6,
+        "code": "UT",
+        "value": "9 volcanoes"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "7 volcanoes"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "6 volcanoes"
+      },
+      {
+        "rank": 9,
+        "code": "AZ",
+        "value": "5 volcanoes"
+      },
+      {
+        "rank": 10,
+        "code": "HI",
+        "value": "5 volcanoes (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-largest-desert-area-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the largest desert area",
+    "prompt": "Name the US states with the most land area classified as desert.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "USGS \u2014 Deserts of the Southwest",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/deserts",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes the Great Basin, Mojave, Sonoran, and Chihuahuan deserts.",
+    "trivia": "Nevada is roughly 80% desert-classified land, the highest proportion of any US state.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NV",
+        "value": "~87,000 sq mi desert"
+      },
+      {
+        "rank": 2,
+        "code": "AZ",
+        "value": "~85,000 sq mi desert"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "~50,000 sq mi desert"
+      },
+      {
+        "rank": 4,
+        "code": "UT",
+        "value": "~48,000 sq mi desert"
+      },
+      {
+        "rank": 5,
+        "code": "NM",
+        "value": "~45,000 sq mi desert"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "~38,000 sq mi desert (Chihuahuan)"
+      },
+      {
+        "rank": 7,
+        "code": "OR",
+        "value": "~24,000 sq mi desert (Great Basin)"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "~15,000 sq mi desert"
+      },
+      {
+        "rank": 9,
+        "code": "WY",
+        "value": "~9,000 sq mi desert (Red Desert)"
+      },
+      {
+        "rank": 10,
+        "code": "CO",
+        "value": "~3,000 sq mi desert"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-largest-wetlands-area-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the largest wetlands area",
+    "prompt": "Name the US states with the greatest total wetland acreage.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "US Fish & Wildlife Service \u2014 National Wetlands Inventory",
+      "url": "https://www.fws.gov/program/national-wetlands-inventory",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes all classes of wetlands per NWI: freshwater, estuarine, and marine.",
+    "trivia": "Alaska contains roughly 65% of all US wetlands by acreage \u2014 more than the rest of the country combined.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "~174 million acres"
+      },
+      {
+        "rank": 2,
+        "code": "FL",
+        "value": "~11.4 million acres"
+      },
+      {
+        "rank": 3,
+        "code": "LA",
+        "value": "~8.8 million acres"
+      },
+      {
+        "rank": 4,
+        "code": "MN",
+        "value": "~8.7 million acres"
+      },
+      {
+        "rank": 5,
+        "code": "TX",
+        "value": "~7.6 million acres"
+      },
+      {
+        "rank": 6,
+        "code": "NC",
+        "value": "~5.7 million acres"
+      },
+      {
+        "rank": 7,
+        "code": "MI",
+        "value": "~5.6 million acres"
+      },
+      {
+        "rank": 8,
+        "code": "WI",
+        "value": "~5.3 million acres"
+      },
+      {
+        "rank": 9,
+        "code": "GA",
+        "value": "~5.3 million acres (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "ME",
+        "value": "~5.2 million acres"
+      },
+      {
+        "rank": 11,
+        "code": "SC",
+        "value": "~4.6 million acres"
+      },
+      {
+        "rank": 12,
+        "code": "AL",
+        "value": "~3.6 million acres"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-most-known-caves-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the most known caves",
+    "prompt": "Name the US states with the greatest number of documented caves.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "National Speleological Society \u2014 State Cave Counts",
+      "url": "https://caves.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts documented caves per NSS state surveys; includes both wild and show caves.",
+    "trivia": "Tennessee has over 10,000 documented caves \u2014 more than any other state, driven by its extensive Cumberland Plateau karst.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TN",
+        "value": "~10,300 caves"
+      },
+      {
+        "rank": 2,
+        "code": "MO",
+        "value": "~7,500 caves"
+      },
+      {
+        "rank": 3,
+        "code": "AL",
+        "value": "~4,600 caves"
+      },
+      {
+        "rank": 4,
+        "code": "KY",
+        "value": "~4,400 caves"
+      },
+      {
+        "rank": 5,
+        "code": "VA",
+        "value": "~4,300 caves"
+      },
+      {
+        "rank": 6,
+        "code": "WV",
+        "value": "~4,300 caves (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "PA",
+        "value": "~1,600 caves"
+      },
+      {
+        "rank": 8,
+        "code": "AR",
+        "value": "~2,000 caves"
+      },
+      {
+        "rank": 9,
+        "code": "IN",
+        "value": "~2,900 caves"
+      },
+      {
+        "rank": 10,
+        "code": "GA",
+        "value": "~600 caves"
+      },
+      {
+        "rank": 11,
+        "code": "NM",
+        "value": "~700 caves"
+      },
+      {
+        "rank": 12,
+        "code": "TX",
+        "value": "~3,200 caves"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-longest-surveyed-cave-systems-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the longest surveyed cave systems",
+    "prompt": "Name the US states that contain the world's longest surveyed cave systems.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "National Speleological Society \u2014 Long Caves of the US",
+      "url": "https://caves.org/pub/journal/PDF/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by the longest single surveyed cave system located in each state.",
+    "trivia": "Kentucky's Mammoth Cave System, at over 426 miles surveyed, is by far the longest cave in the world.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KY",
+        "value": "426 mi (Mammoth Cave)"
+      },
+      {
+        "rank": 2,
+        "code": "SD",
+        "value": "218 mi (Jewel Cave)"
+      },
+      {
+        "rank": 3,
+        "code": "NM",
+        "value": "156 mi (Lechuguilla)"
+      },
+      {
+        "rank": 4,
+        "code": "HI",
+        "value": "40 mi (Kazumura, lava tube)"
+      },
+      {
+        "rank": 5,
+        "code": "TX",
+        "value": "38 mi (Honey Creek/Cave WSR)"
+      },
+      {
+        "rank": 6,
+        "code": "WV",
+        "value": "44 mi (Friars Hole System)"
+      },
+      {
+        "rank": 7,
+        "code": "PA",
+        "value": "22 mi (Laurel Caverns area)"
+      },
+      {
+        "rank": 8,
+        "code": "VA",
+        "value": "22 mi (Butler Cave)"
+      },
+      {
+        "rank": 9,
+        "code": "TN",
+        "value": "36 mi (Blue Spring Cave)"
+      },
+      {
+        "rank": 10,
+        "code": "WY",
+        "value": "35 mi (Great Expectations)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-most-islands-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the most islands",
+    "prompt": "Name the US states containing the greatest number of islands.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "USGS \u2014 Geographic Names Information System (GNIS)",
+      "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes named islands per GNIS; ties are broken alphabetically.",
+    "trivia": "Alaska is estimated to have over 2,600 named islands, most of them in the Alexander Archipelago and Aleutian chain.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "~2,670 islands"
+      },
+      {
+        "rank": 2,
+        "code": "ME",
+        "value": "~4,600 islands (mostly small)"
+      },
+      {
+        "rank": 3,
+        "code": "MN",
+        "value": "~1,700 islands"
+      },
+      {
+        "rank": 4,
+        "code": "FL",
+        "value": "~4,500 islands"
+      },
+      {
+        "rank": 5,
+        "code": "WI",
+        "value": "~350 islands"
+      },
+      {
+        "rank": 6,
+        "code": "MI",
+        "value": "~600 islands"
+      },
+      {
+        "rank": 7,
+        "code": "NY",
+        "value": "~250 islands"
+      },
+      {
+        "rank": 8,
+        "code": "MA",
+        "value": "~200 islands"
+      },
+      {
+        "rank": 9,
+        "code": "WA",
+        "value": "~170 islands"
+      },
+      {
+        "rank": 10,
+        "code": "HI",
+        "value": "137 islands"
+      },
+      {
+        "rank": 11,
+        "code": "LA",
+        "value": "~150 islands"
+      },
+      {
+        "rank": 12,
+        "code": "VA",
+        "value": "~130 islands"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-highest-average-elevation-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the highest average elevation",
+    "prompt": "Name the US states with the highest average elevation above sea level.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "USGS \u2014 Elevations and Distances in the United States",
+      "url": "https://pubs.usgs.gov/gip/Elevations-Distances/elvadist.html",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Mean elevation is measured across the entire state land area, so terrain distribution matters more than the highest peak alone.",
+    "trivia": "Colorado's mean elevation of 6,800 ft is the highest of any US state; it is the only state entirely above 3,300 ft.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CO",
+        "value": "6,800 ft avg"
+      },
+      {
+        "rank": 2,
+        "code": "WY",
+        "value": "6,700 ft avg"
+      },
+      {
+        "rank": 3,
+        "code": "UT",
+        "value": "6,100 ft avg"
+      },
+      {
+        "rank": 4,
+        "code": "NM",
+        "value": "5,700 ft avg"
+      },
+      {
+        "rank": 5,
+        "code": "NV",
+        "value": "5,500 ft avg"
+      },
+      {
+        "rank": 6,
+        "code": "ID",
+        "value": "5,000 ft avg"
+      },
+      {
+        "rank": 7,
+        "code": "AZ",
+        "value": "4,100 ft avg"
+      },
+      {
+        "rank": 8,
+        "code": "MT",
+        "value": "3,400 ft avg"
+      },
+      {
+        "rank": 9,
+        "code": "OR",
+        "value": "3,300 ft avg"
+      },
+      {
+        "rank": 10,
+        "code": "SD",
+        "value": "2,200 ft avg"
+      },
+      {
+        "rank": 11,
+        "code": "NE",
+        "value": "2,600 ft avg"
+      },
+      {
+        "rank": 12,
+        "code": "CA",
+        "value": "2,900 ft avg"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-with-the-most-mississippi-watershed-drainage-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States with the most Mississippi watershed drainage",
+    "prompt": "Name the US states with the largest land area draining into the Mississippi River basin.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "USGS \u2014 Mississippi River Basin",
+      "url": "https://www.usgs.gov/mission-areas/water-resources/science/mississippi-river-basin",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by area of each state that drains to the Mississippi River (not total state area).",
+    "trivia": "The Mississippi watershed covers about 41% of the contiguous US and portions of 32 states.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MT",
+        "value": "~102,000 sq mi drains to MS"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "~90,000 sq mi drains to MS"
+      },
+      {
+        "rank": 3,
+        "code": "MO",
+        "value": "~69,700 sq mi (entire state)"
+      },
+      {
+        "rank": 4,
+        "code": "MN",
+        "value": "~68,000 sq mi drains to MS"
+      },
+      {
+        "rank": 5,
+        "code": "KS",
+        "value": "~82,000 sq mi (entire state)"
+      },
+      {
+        "rank": 6,
+        "code": "NE",
+        "value": "~77,000 sq mi (entire state)"
+      },
+      {
+        "rank": 7,
+        "code": "SD",
+        "value": "~76,000 sq mi (entire state)"
+      },
+      {
+        "rank": 8,
+        "code": "OK",
+        "value": "~68,000 sq mi drains to MS"
+      },
+      {
+        "rank": 9,
+        "code": "ND",
+        "value": "~55,000 sq mi drains to MS"
+      },
+      {
+        "rank": 10,
+        "code": "IA",
+        "value": "~56,000 sq mi (entire state)"
+      },
+      {
+        "rank": 11,
+        "code": "AR",
+        "value": "~53,000 sq mi (entire state)"
+      },
+      {
+        "rank": 12,
+        "code": "WY",
+        "value": "~40,000 sq mi drains to MS"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Wettest States (Most Annual Precipitation)",
+    "prompt": "Rank the US states with the highest average annual precipitation (rain + melted snow), by statewide average.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
+      "asOf": "1991-2020 climate normals"
+    },
+    "note": null,
+    "disclaimer": "Statewide averages from NOAA 1991-2020 normals. Individual sites (e.g. Mount Waialeale) far exceed statewide means.",
+    "trivia": "Hawaii's statewide average masks huge extremes \u2014 leeward Kona coasts get under 10 inches while Mount Waialeale on Kauai averages over 400 inches annually.",
+    "asOfDate": "1991-2020 climate normals",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "HI",
+        "value": "63.7 in"
+      },
+      {
+        "rank": 2,
+        "code": "LA",
+        "value": "60.1 in"
+      },
+      {
+        "rank": 3,
+        "code": "MS",
+        "value": "59.0 in"
+      },
+      {
+        "rank": 4,
+        "code": "AL",
+        "value": "58.3 in"
+      },
+      {
+        "rank": 5,
+        "code": "FL",
+        "value": "54.5 in"
+      },
+      {
+        "rank": 6,
+        "code": "TN",
+        "value": "54.2 in"
+      },
+      {
+        "rank": 7,
+        "code": "AR",
+        "value": "50.6 in"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "50.7 in"
+      },
+      {
+        "rank": 9,
+        "code": "CT",
+        "value": "50.3 in"
+      },
+      {
+        "rank": 10,
+        "code": "SC",
+        "value": "49.8 in"
+      },
+      {
+        "rank": 11,
+        "code": "NC",
+        "value": "49.0 in"
+      },
+      {
+        "rank": 12,
+        "code": "KY",
+        "value": "48.9 in"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Driest States (Least Annual Precipitation)",
+    "prompt": "Rank the US states with the lowest average annual precipitation, by statewide average.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
+      "asOf": "1991-2020 climate normals"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 is the driest state (lowest inches per year). Statewide averages, not local extremes.",
+    "trivia": "Nevada is the driest US state \u2014 parts of the Amargosa Desert receive under 3 inches per year, drier than many places in the Sahara.",
+    "asOfDate": "1991-2020 climate normals",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NV",
+        "value": "10.3 in"
+      },
+      {
+        "rank": 2,
+        "code": "UT",
+        "value": "12.2 in"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "13.6 in"
+      },
+      {
+        "rank": 4,
+        "code": "WY",
+        "value": "14.5 in"
+      },
+      {
+        "rank": 5,
+        "code": "NM",
+        "value": "14.6 in"
+      },
+      {
+        "rank": 6,
+        "code": "MT",
+        "value": "15.3 in"
+      },
+      {
+        "rank": 7,
+        "code": "CO",
+        "value": "16.1 in"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "19.0 in"
+      },
+      {
+        "rank": 9,
+        "code": "ND",
+        "value": "17.8 in"
+      },
+      {
+        "rank": 10,
+        "code": "CA",
+        "value": "21.4 in"
+      },
+      {
+        "rank": 11,
+        "code": "SD",
+        "value": "20.6 in"
+      },
+      {
+        "rank": 12,
+        "code": "OR",
+        "value": "27.4 in"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-tornadoes-per-year-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Tornadoes Per Year",
+    "prompt": "Rank the US states by average number of tornadoes reported per year.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NWS Storm Prediction Center \u2014 Annual Tornado Averages by State",
+      "url": "https://www.spc.noaa.gov/wcm/",
+      "asOf": "1991-2020 average"
+    },
+    "note": null,
+    "disclaimer": "Based on NWS annual counts for 1991-2020. Includes all confirmed tornadoes regardless of EF rating.",
+    "trivia": "Texas leads by land area more than by intensity \u2014 Kansas and Oklahoma have more tornadoes per square mile, giving 'Tornado Alley' its name.",
+    "asOfDate": "1991-2020 average",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "137/yr"
+      },
+      {
+        "rank": 2,
+        "code": "KS",
+        "value": "91/yr"
+      },
+      {
+        "rank": 3,
+        "code": "OK",
+        "value": "68/yr"
+      },
+      {
+        "rank": 4,
+        "code": "FL",
+        "value": "66/yr"
+      },
+      {
+        "rank": 5,
+        "code": "NE",
+        "value": "57/yr"
+      },
+      {
+        "rank": 6,
+        "code": "IL",
+        "value": "54/yr"
+      },
+      {
+        "rank": 7,
+        "code": "MO",
+        "value": "51/yr"
+      },
+      {
+        "rank": 8,
+        "code": "MS",
+        "value": "50/yr"
+      },
+      {
+        "rank": 9,
+        "code": "IA",
+        "value": "48/yr"
+      },
+      {
+        "rank": 10,
+        "code": "AL",
+        "value": "47/yr"
+      },
+      {
+        "rank": 11,
+        "code": "LA",
+        "value": "39/yr"
+      },
+      {
+        "rank": 12,
+        "code": "CO",
+        "value": "39/yr (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-hurricane-landfalls-1851-2020-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Hurricane Landfalls (1851-2020)",
+    "prompt": "Rank the US states by total number of hurricane landfalls in the historical record.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NHC \u2014 Continental U.S. Hurricane Impacts/Landfalls 1851-2020",
+      "url": "https://www.aoml.noaa.gov/hrd/hurdat/All_U.S._Hurricanes.html",
+      "asOf": "1851-2020 record"
+    },
+    "note": null,
+    "disclaimer": "Counts direct hurricane landfalls on each state's coast, per NOAA HURDAT2. A single storm crossing multiple states is counted once per state.",
+    "trivia": "Florida alone accounts for roughly 40% of all US hurricane landfalls \u2014 nearly one every year in the modern satellite era.",
+    "asOfDate": "1851-2020 record",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FL",
+        "value": "120 landfalls"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "64 landfalls"
+      },
+      {
+        "rank": 3,
+        "code": "LA",
+        "value": "62 landfalls"
+      },
+      {
+        "rank": 4,
+        "code": "NC",
+        "value": "56 landfalls"
+      },
+      {
+        "rank": 5,
+        "code": "SC",
+        "value": "31 landfalls"
+      },
+      {
+        "rank": 6,
+        "code": "AL",
+        "value": "26 landfalls"
+      },
+      {
+        "rank": 7,
+        "code": "GA",
+        "value": "22 landfalls"
+      },
+      {
+        "rank": 8,
+        "code": "NY",
+        "value": "15 landfalls"
+      },
+      {
+        "rank": 9,
+        "code": "MS",
+        "value": "19 landfalls"
+      },
+      {
+        "rank": 10,
+        "code": "MA",
+        "value": "13 landfalls"
+      },
+      {
+        "rank": 11,
+        "code": "CT",
+        "value": "12 landfalls"
+      },
+      {
+        "rank": 12,
+        "code": "VA",
+        "value": "12 landfalls (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-highest-recorded-temperature-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Highest Recorded Temperature",
+    "prompt": "Rank the US states by highest temperature ever officially recorded within their borders.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NCEI \u2014 State Climate Extremes Committee (SCEC) records",
+      "url": "https://www.ncei.noaa.gov/monitoring/state-climate-extremes-committee/records",
+      "asOf": "Through 2024"
+    },
+    "note": null,
+    "disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee. Death Valley's 134\u00b0F (1913) remains debated but is the accepted official record.",
+    "trivia": "Death Valley's 134\u00b0F record from 1913 is the highest ever reliably recorded on Earth, though some meteorologists dispute it in favor of a 130\u00b0F reading from the same site in 2020.",
+    "asOfDate": "Through 2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "134 F"
+      },
+      {
+        "rank": 2,
+        "code": "AZ",
+        "value": "128 F"
+      },
+      {
+        "rank": 3,
+        "code": "NV",
+        "value": "125 F"
+      },
+      {
+        "rank": 4,
+        "code": "NM",
+        "value": "122 F"
+      },
+      {
+        "rank": 5,
+        "code": "ND",
+        "value": "121 F"
+      },
+      {
+        "rank": 6,
+        "code": "KS",
+        "value": "121 F (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "OK",
+        "value": "120 F"
+      },
+      {
+        "rank": 8,
+        "code": "TX",
+        "value": "120 F (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "AR",
+        "value": "120 F (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "SD",
+        "value": "120 F (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "UT",
+        "value": "118 F"
+      },
+      {
+        "rank": 12,
+        "code": "CO",
+        "value": "115 F"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-lowest-recorded-temperature-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Lowest Recorded Temperature",
+    "prompt": "Rank the US states by lowest temperature ever officially recorded within their borders (rank 1 = coldest).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NCEI \u2014 State Climate Extremes Committee (SCEC) records",
+      "url": "https://www.ncei.noaa.gov/monitoring/state-climate-extremes-committee/records",
+      "asOf": "Through 2024"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 is the coldest ever recorded (most negative Fahrenheit). All-time official state minima per NOAA SCEC.",
+    "trivia": "Alaska's -80\u00b0F was recorded at Prospect Creek Camp on the Alaska Pipeline route in January 1971 \u2014 a construction camp thermometer that briefly became the coldest official reading in US history.",
+    "asOfDate": "Through 2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "-80 F"
+      },
+      {
+        "rank": 2,
+        "code": "MT",
+        "value": "-70 F"
+      },
+      {
+        "rank": 3,
+        "code": "UT",
+        "value": "-69 F"
+      },
+      {
+        "rank": 4,
+        "code": "WY",
+        "value": "-66 F"
+      },
+      {
+        "rank": 5,
+        "code": "CO",
+        "value": "-61 F"
+      },
+      {
+        "rank": 6,
+        "code": "ID",
+        "value": "-60 F"
+      },
+      {
+        "rank": 7,
+        "code": "ND",
+        "value": "-60 F (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "MN",
+        "value": "-60 F (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "SD",
+        "value": "-58 F"
+      },
+      {
+        "rank": 10,
+        "code": "WI",
+        "value": "-55 F"
+      },
+      {
+        "rank": 11,
+        "code": "NH",
+        "value": "-50 F"
+      },
+      {
+        "rank": 12,
+        "code": "ME",
+        "value": "-50 F (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Sunshine Hours Per Year",
+    "prompt": "Rank the US states by average annual sunshine hours (statewide average).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Hours of Sunshine",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+      "asOf": "30-year normals through 2020"
+    },
+    "note": null,
+    "disclaimer": "Statewide averages derived from NOAA/NWS first-order station normals. Some states are averaged across multiple reporting stations.",
+    "trivia": "Yuma, Arizona records sun during roughly 90% of daylight hours annually \u2014 the sunniest place in the contiguous United States.",
+    "asOfDate": "30-year normals through 2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AZ",
+        "value": "3,806 hrs/yr"
+      },
+      {
+        "rank": 2,
+        "code": "NV",
+        "value": "3,568 hrs/yr"
+      },
+      {
+        "rank": 3,
+        "code": "NM",
+        "value": "3,415 hrs/yr"
+      },
+      {
+        "rank": 4,
+        "code": "TX",
+        "value": "3,320 hrs/yr"
+      },
+      {
+        "rank": 5,
+        "code": "CA",
+        "value": "3,254 hrs/yr"
+      },
+      {
+        "rank": 6,
+        "code": "CO",
+        "value": "3,106 hrs/yr"
+      },
+      {
+        "rank": 7,
+        "code": "FL",
+        "value": "2,927 hrs/yr"
+      },
+      {
+        "rank": 8,
+        "code": "OK",
+        "value": "2,900 hrs/yr"
+      },
+      {
+        "rank": 9,
+        "code": "KS",
+        "value": "2,865 hrs/yr"
+      },
+      {
+        "rank": 10,
+        "code": "UT",
+        "value": "2,850 hrs/yr"
+      },
+      {
+        "rank": 11,
+        "code": "HI",
+        "value": "2,835 hrs/yr"
+      },
+      {
+        "rank": 12,
+        "code": "WY",
+        "value": "2,810 hrs/yr"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Cloudiest States (Fewest Sunny Days)",
+    "prompt": "Rank the US states by cloudiest skies \u2014 states with the fewest average clear or sunny days per year (rank 1 = cloudiest).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Clear Days",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+      "asOf": "30-year normals through 2020"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals.",
+    "trivia": "Seattle averages only about 71 clear days per year \u2014 but famously receives less annual rainfall than New York City despite its reputation.",
+    "asOfDate": "30-year normals through 2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "WA",
+        "value": "226 cloudy days/yr"
+      },
+      {
+        "rank": 2,
+        "code": "OR",
+        "value": "222 cloudy days/yr"
+      },
+      {
+        "rank": 3,
+        "code": "AK",
+        "value": "220 cloudy days/yr"
+      },
+      {
+        "rank": 4,
+        "code": "VT",
+        "value": "204 cloudy days/yr"
+      },
+      {
+        "rank": 5,
+        "code": "NY",
+        "value": "201 cloudy days/yr"
+      },
+      {
+        "rank": 6,
+        "code": "MI",
+        "value": "198 cloudy days/yr"
+      },
+      {
+        "rank": 7,
+        "code": "OH",
+        "value": "195 cloudy days/yr"
+      },
+      {
+        "rank": 8,
+        "code": "PA",
+        "value": "194 cloudy days/yr"
+      },
+      {
+        "rank": 9,
+        "code": "WV",
+        "value": "192 cloudy days/yr"
+      },
+      {
+        "rank": 10,
+        "code": "IN",
+        "value": "189 cloudy days/yr"
+      },
+      {
+        "rank": 11,
+        "code": "NH",
+        "value": "187 cloudy days/yr"
+      },
+      {
+        "rank": 12,
+        "code": "ME",
+        "value": "185 cloudy days/yr"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-days-above-90-f-per-year-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Days Above 90\u00b0F Per Year",
+    "prompt": "Rank the US states by average number of days per year with a maximum temperature at or above 90\u00b0F.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NCEI \u2014 Comparative Climatic Data, Mean Number of Days Maximum Temperature >= 90\u00b0F",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+      "asOf": "1991-2020 normals"
+    },
+    "note": null,
+    "disclaimer": "Statewide averages derived from NOAA reporting stations. Desert Southwest and Gulf Coast dominate; Alaska and Hawaii have essentially zero.",
+    "trivia": "Phoenix averages over 110 days per year above 100\u00b0F \u2014 more than triple the number of days most Americans ever experience over 90\u00b0F in a lifetime.",
+    "asOfDate": "1991-2020 normals",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AZ",
+        "value": "169 days/yr"
+      },
+      {
+        "rank": 2,
+        "code": "FL",
+        "value": "125 days/yr"
+      },
+      {
+        "rank": 3,
+        "code": "TX",
+        "value": "116 days/yr"
+      },
+      {
+        "rank": 4,
+        "code": "LA",
+        "value": "108 days/yr"
+      },
+      {
+        "rank": 5,
+        "code": "MS",
+        "value": "98 days/yr"
+      },
+      {
+        "rank": 6,
+        "code": "AL",
+        "value": "93 days/yr"
+      },
+      {
+        "rank": 7,
+        "code": "GA",
+        "value": "85 days/yr"
+      },
+      {
+        "rank": 8,
+        "code": "OK",
+        "value": "83 days/yr"
+      },
+      {
+        "rank": 9,
+        "code": "AR",
+        "value": "80 days/yr"
+      },
+      {
+        "rank": 10,
+        "code": "SC",
+        "value": "78 days/yr"
+      },
+      {
+        "rank": 11,
+        "code": "NM",
+        "value": "70 days/yr"
+      },
+      {
+        "rank": 12,
+        "code": "NV",
+        "value": "65 days/yr"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-days-below-32-f-per-year-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Days Below 32\u00b0F Per Year",
+    "prompt": "Rank the US states by average number of days per year with a minimum temperature at or below freezing (32\u00b0F).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA NCEI \u2014 Comparative Climatic Data, Mean Number of Days Minimum Temperature <= 32\u00b0F",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+      "asOf": "1991-2020 normals"
+    },
+    "note": null,
+    "disclaimer": "Statewide averages from NOAA station normals. Elevation and latitude drive rankings \u2014 some interior western states outrank their eastern peers of similar latitude.",
+    "trivia": "Interior Alaska sees sub-freezing lows over 220 days per year \u2014 nearly two-thirds of the calendar.",
+    "asOfDate": "1991-2020 normals",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "220 days/yr"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "170 days/yr"
+      },
+      {
+        "rank": 3,
+        "code": "ND",
+        "value": "180 days/yr"
+      },
+      {
+        "rank": 4,
+        "code": "WY",
+        "value": "195 days/yr"
+      },
+      {
+        "rank": 5,
+        "code": "MT",
+        "value": "185 days/yr"
+      },
+      {
+        "rank": 6,
+        "code": "CO",
+        "value": "175 days/yr"
+      },
+      {
+        "rank": 7,
+        "code": "SD",
+        "value": "165 days/yr"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "168 days/yr"
+      },
+      {
+        "rank": 9,
+        "code": "WI",
+        "value": "160 days/yr"
+      },
+      {
+        "rank": 10,
+        "code": "VT",
+        "value": "159 days/yr"
+      },
+      {
+        "rank": 11,
+        "code": "ME",
+        "value": "157 days/yr"
+      },
+      {
+        "rank": 12,
+        "code": "NH",
+        "value": "155 days/yr"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-lightning-strikes-per-square-mile-2015",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Lightning Strikes Per Square Mile",
+    "prompt": "Rank the US states by average annual cloud-to-ground lightning flash density (strikes per square mile).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Vaisala National Lightning Detection Network \u2014 Annual Lightning Report",
+      "url": "https://www.vaisala.com/en/lightning",
+      "asOf": "2015-2023 average"
+    },
+    "note": null,
+    "disclaimer": "Flash density = cloud-to-ground lightning strikes per square mile per year, averaged across the state. Vaisala NLDN is the standard reference dataset used by NOAA/NWS.",
+    "trivia": "Florida's Tampa Bay region \u2014 nicknamed the 'Lightning Capital of North America' \u2014 sees the sea-breeze convergence zone spawn thunderstorms nearly every summer afternoon.",
+    "asOfDate": "2015-2023 average",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FL",
+        "value": "82.8 strikes/sq mi"
+      },
+      {
+        "rank": 2,
+        "code": "LA",
+        "value": "62.8 strikes/sq mi"
+      },
+      {
+        "rank": 3,
+        "code": "MS",
+        "value": "60.8 strikes/sq mi"
+      },
+      {
+        "rank": 4,
+        "code": "AL",
+        "value": "51.0 strikes/sq mi"
+      },
+      {
+        "rank": 5,
+        "code": "AR",
+        "value": "42.4 strikes/sq mi"
+      },
+      {
+        "rank": 6,
+        "code": "GA",
+        "value": "39.4 strikes/sq mi"
+      },
+      {
+        "rank": 7,
+        "code": "SC",
+        "value": "38.0 strikes/sq mi"
+      },
+      {
+        "rank": 8,
+        "code": "TX",
+        "value": "35.5 strikes/sq mi"
+      },
+      {
+        "rank": 9,
+        "code": "OK",
+        "value": "32.2 strikes/sq mi"
+      },
+      {
+        "rank": 10,
+        "code": "TN",
+        "value": "30.8 strikes/sq mi"
+      },
+      {
+        "rank": 11,
+        "code": "NC",
+        "value": "27.0 strikes/sq mi"
+      },
+      {
+        "rank": 12,
+        "code": "KY",
+        "value": "25.8 strikes/sq mi"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-severe-thunderstorm-days-per-year-2003",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Severe Thunderstorm Days Per Year",
+    "prompt": "Rank the US states by average number of severe thunderstorm days per year (days with hail 1+ inch, wind 58+ mph, or a tornado report).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NOAA SPC \u2014 Severe Weather Database (SVRGIS)",
+      "url": "https://www.spc.noaa.gov/wcm/",
+      "asOf": "2003-2022 average"
+    },
+    "note": null,
+    "disclaimer": "A 'severe thunderstorm day' is any calendar day with at least one qualifying severe report in the state (hail >= 1 in, wind >= 58 mph, or tornado). Definition per NOAA SPC.",
+    "trivia": "The Great Plains 'Dryline' setup regularly produces multi-hazard supercells \u2014 Texas alone records severe reports on more than one in three days each year.",
+    "asOfDate": "2003-2022 average",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "133 days/yr"
+      },
+      {
+        "rank": 2,
+        "code": "KS",
+        "value": "88 days/yr"
+      },
+      {
+        "rank": 3,
+        "code": "OK",
+        "value": "82 days/yr"
+      },
+      {
+        "rank": 4,
+        "code": "NE",
+        "value": "78 days/yr"
+      },
+      {
+        "rank": 5,
+        "code": "MO",
+        "value": "72 days/yr"
+      },
+      {
+        "rank": 6,
+        "code": "IA",
+        "value": "70 days/yr"
+      },
+      {
+        "rank": 7,
+        "code": "IL",
+        "value": "68 days/yr"
+      },
+      {
+        "rank": 8,
+        "code": "CO",
+        "value": "66 days/yr"
+      },
+      {
+        "rank": 9,
+        "code": "SD",
+        "value": "63 days/yr"
+      },
+      {
+        "rank": 10,
+        "code": "MN",
+        "value": "62 days/yr"
+      },
+      {
+        "rank": 11,
+        "code": "AR",
+        "value": "58 days/yr"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "55 days/yr"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-cities-over-100-000-population-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Cities Over 100,000 Population",
+    "prompt": "Rank the US states by the number of incorporated cities with a population above 100,000.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 City & Town Population Totals (Vintage 2023)",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+      "asOf": "2023 population estimates"
+    },
+    "note": null,
+    "disclaimer": "Counts only cities that are legally incorporated municipalities; CDPs (census-designated places) and unincorporated communities are excluded.",
+    "trivia": "California alone has more cities above 100,000 than the entire Northeast combined, thanks to LA-area balkanization into dozens of independent municipalities.",
+    "asOfDate": "2023 population estimates",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "76 cities"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "42 cities"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "24 cities"
+      },
+      {
+        "rank": 4,
+        "code": "AZ",
+        "value": "13 cities"
+      },
+      {
+        "rank": 5,
+        "code": "CO",
+        "value": "12 cities"
+      },
+      {
+        "rank": 6,
+        "code": "NC",
+        "value": "11 cities"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "11 cities (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "VA",
+        "value": "10 cities"
+      },
+      {
+        "rank": 9,
+        "code": "IL",
+        "value": "9 cities"
+      },
+      {
+        "rank": 10,
+        "code": "GA",
+        "value": "9 cities (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "MI",
+        "value": "8 cities"
+      },
+      {
+        "rank": 12,
+        "code": "NJ",
+        "value": "7 cities"
+      },
+      {
+        "rank": 13,
+        "code": "NV",
+        "value": "7 cities (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "OH",
+        "value": "7 cities (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MA",
+        "value": "6 cities"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-cities-over-500-000-population-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Cities Over 500,000 Population",
+    "prompt": "Rank the US states by the number of cities with a population above 500,000.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "US Census Bureau \u2014 Top City Population Estimates (Vintage 2023)",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Uses incorporated city (not metro area) population.",
+    "trivia": "Texas is the only state with four cities above 500k, and the only state where none of them is the state capital.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "5 cities"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "4 cities"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "2 cities"
+      },
+      {
+        "rank": 4,
+        "code": "NC",
+        "value": "2 cities (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "TN",
+        "value": "2 cities (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NY",
+        "value": "1 city"
+      },
+      {
+        "rank": 7,
+        "code": "IL",
+        "value": "1 city (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "PA",
+        "value": "1 city (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "FL",
+        "value": "1 city (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "OH",
+        "value": "1 city (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "1 city (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "OK",
+        "value": "1 city (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-city-by-population-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest City by Population",
+    "prompt": "Rank the US states by the population of their single largest city.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 City Population Estimates (Vintage 2023)",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+      "asOf": "2023 estimates"
+    },
+    "note": null,
+    "disclaimer": "Uses each state's largest incorporated city (not metro area).",
+    "trivia": "New York City is more than twice the size of the next-largest US city, and larger than the 2nd-through-4th largest cities combined.",
+    "asOfDate": "2023 estimates",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NY",
+        "value": "NYC 8.26M"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "Los Angeles 3.82M"
+      },
+      {
+        "rank": 3,
+        "code": "IL",
+        "value": "Chicago 2.66M"
+      },
+      {
+        "rank": 4,
+        "code": "TX",
+        "value": "Houston 2.31M"
+      },
+      {
+        "rank": 5,
+        "code": "AZ",
+        "value": "Phoenix 1.65M"
+      },
+      {
+        "rank": 6,
+        "code": "PA",
+        "value": "Philadelphia 1.55M"
+      },
+      {
+        "rank": 7,
+        "code": "FL",
+        "value": "Jacksonville 986K"
+      },
+      {
+        "rank": 8,
+        "code": "OH",
+        "value": "Columbus 913K"
+      },
+      {
+        "rank": 9,
+        "code": "IN",
+        "value": "Indianapolis 880K"
+      },
+      {
+        "rank": 10,
+        "code": "NC",
+        "value": "Charlotte 911K"
+      },
+      {
+        "rank": 11,
+        "code": "WA",
+        "value": "Seattle 755K"
+      },
+      {
+        "rank": 12,
+        "code": "CO",
+        "value": "Denver 716K"
+      },
+      {
+        "rank": 13,
+        "code": "DC",
+        "value": "Washington 678K"
+      },
+      {
+        "rank": 14,
+        "code": "OK",
+        "value": "Oklahoma City 702K"
+      },
+      {
+        "rank": 15,
+        "code": "TN",
+        "value": "Nashville 687K"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-state-capital-by-population-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest State Capital by Population",
+    "prompt": "Rank the US states by the population of the state capital city.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 City Population Estimates (Vintage 2023)",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Ranks each state by the population of its designated capital city, not its largest city.",
+    "trivia": "Phoenix is the only US state capital above 1 million, and one of only a handful that is also its state's largest city and in the metro top 10.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AZ",
+        "value": "Phoenix 1.65M"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "Austin 979K"
+      },
+      {
+        "rank": 3,
+        "code": "OH",
+        "value": "Columbus 913K"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "Indianapolis 880K"
+      },
+      {
+        "rank": 5,
+        "code": "TN",
+        "value": "Nashville 687K"
+      },
+      {
+        "rank": 6,
+        "code": "DC",
+        "value": "Washington 678K"
+      },
+      {
+        "rank": 7,
+        "code": "OK",
+        "value": "Oklahoma City 702K"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "Atlanta 499K"
+      },
+      {
+        "rank": 9,
+        "code": "CO",
+        "value": "Denver 716K"
+      },
+      {
+        "rank": 10,
+        "code": "MA",
+        "value": "Boston 653K"
+      },
+      {
+        "rank": 11,
+        "code": "LA",
+        "value": "Baton Rouge 217K"
+      },
+      {
+        "rank": 12,
+        "code": "UT",
+        "value": "Salt Lake City 209K"
+      },
+      {
+        "rank": 13,
+        "code": "VA",
+        "value": "Richmond 229K"
+      },
+      {
+        "rank": 14,
+        "code": "WI",
+        "value": "Madison 272K"
+      },
+      {
+        "rank": 15,
+        "code": "NE",
+        "value": "Lincoln 295K"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-highest-urban-population-share-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Highest Urban Population Share",
+    "prompt": "Rank the US states by the percentage of population living in urban areas.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 2020 Census Urban and Rural Classification",
+      "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html",
+      "asOf": "2020 Census"
+    },
+    "note": null,
+    "disclaimer": "Uses the Census Bureau's 2020 definition of urban areas (\u22655,000 people or \u22652,000 housing units in a contiguous developed area).",
+    "trivia": "DC is 100% urban by definition, and California, New Jersey, and Nevada are the only states above 94%.",
+    "asOfDate": "2020 Census",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DC",
+        "value": "100.0% urban"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "94.2% urban"
+      },
+      {
+        "rank": 3,
+        "code": "NJ",
+        "value": "93.8% urban"
+      },
+      {
+        "rank": 4,
+        "code": "NV",
+        "value": "93.4% urban"
+      },
+      {
+        "rank": 5,
+        "code": "MA",
+        "value": "90.5% urban"
+      },
+      {
+        "rank": 6,
+        "code": "HI",
+        "value": "89.9% urban"
+      },
+      {
+        "rank": 7,
+        "code": "FL",
+        "value": "89.8% urban"
+      },
+      {
+        "rank": 8,
+        "code": "RI",
+        "value": "89.5% urban"
+      },
+      {
+        "rank": 9,
+        "code": "IL",
+        "value": "88.0% urban"
+      },
+      {
+        "rank": 10,
+        "code": "AZ",
+        "value": "88.7% urban"
+      },
+      {
+        "rank": 11,
+        "code": "UT",
+        "value": "87.6% urban"
+      },
+      {
+        "rank": 12,
+        "code": "NY",
+        "value": "87.4% urban"
+      },
+      {
+        "rank": 13,
+        "code": "TX",
+        "value": "83.7% urban"
+      },
+      {
+        "rank": 14,
+        "code": "MD",
+        "value": "84.4% urban"
+      },
+      {
+        "rank": 15,
+        "code": "CT",
+        "value": "84.2% urban"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-lowest-urban-population-share-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Lowest Urban Population Share",
+    "prompt": "Rank the US states by the LOWEST percentage of population living in urban areas (most rural first).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 2020 Census Urban and Rural Classification",
+      "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html",
+      "asOf": "2020 Census"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 = the MOST rural state. Uses the Census 2020 urban-area definition.",
+    "trivia": "Vermont and Maine are the only two states where more than 60% of residents live outside any Census-defined urban area.",
+    "asOfDate": "2020 Census",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "VT",
+        "value": "35.1% urban"
+      },
+      {
+        "rank": 2,
+        "code": "ME",
+        "value": "38.7% urban"
+      },
+      {
+        "rank": 3,
+        "code": "WV",
+        "value": "44.3% urban"
+      },
+      {
+        "rank": 4,
+        "code": "MS",
+        "value": "46.2% urban"
+      },
+      {
+        "rank": 5,
+        "code": "MT",
+        "value": "56.3% urban"
+      },
+      {
+        "rank": 6,
+        "code": "AR",
+        "value": "56.5% urban"
+      },
+      {
+        "rank": 7,
+        "code": "SD",
+        "value": "57.3% urban"
+      },
+      {
+        "rank": 8,
+        "code": "KY",
+        "value": "58.7% urban"
+      },
+      {
+        "rank": 9,
+        "code": "NH",
+        "value": "59.3% urban"
+      },
+      {
+        "rank": 10,
+        "code": "AL",
+        "value": "58.8% urban"
+      },
+      {
+        "rank": 11,
+        "code": "IA",
+        "value": "63.4% urban"
+      },
+      {
+        "rank": 12,
+        "code": "NC",
+        "value": "66.7% urban"
+      },
+      {
+        "rank": 13,
+        "code": "WY",
+        "value": "64.2% urban"
+      },
+      {
+        "rank": 14,
+        "code": "ND",
+        "value": "63.7% urban"
+      },
+      {
+        "rank": 15,
+        "code": "OK",
+        "value": "66.7% urban"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-tallest-building-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Tallest Building",
+    "prompt": "Rank the US states by the height of their single tallest completed building (roof/architectural height).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Council on Tall Buildings and Urban Habitat (CTBUH) \u2014 Tallest Building Database",
+      "url": "https://www.skyscrapercenter.com/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Uses architectural height (top of spire/roof) per CTBUH, not antenna height. Only completed buildings \u2014 under-construction towers excluded.",
+    "trivia": "One World Trade Center's 1,776 ft height was chosen to symbolize the year of American independence.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NY",
+        "value": "1,776 ft (One WTC)"
+      },
+      {
+        "rank": 2,
+        "code": "IL",
+        "value": "1,451 ft (Willis Tower)"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "1,070 ft (Wilshire Grand)"
+      },
+      {
+        "rank": 4,
+        "code": "TX",
+        "value": "1,002 ft (JPMorgan Chase Tower, Houston)"
+      },
+      {
+        "rank": 5,
+        "code": "PA",
+        "value": "1,121 ft (Comcast Technology Center)"
+      },
+      {
+        "rank": 6,
+        "code": "GA",
+        "value": "1,023 ft (Bank of America Plaza, Atlanta)"
+      },
+      {
+        "rank": 7,
+        "code": "MA",
+        "value": "790 ft (200 Clarendon)"
+      },
+      {
+        "rank": 8,
+        "code": "FL",
+        "value": "868 ft (Panorama Tower, Miami)"
+      },
+      {
+        "rank": 9,
+        "code": "OH",
+        "value": "947 ft (Key Tower, Cleveland)"
+      },
+      {
+        "rank": 10,
+        "code": "WA",
+        "value": "933 ft (Columbia Center, Seattle)"
+      },
+      {
+        "rank": 11,
+        "code": "MO",
+        "value": "593 ft (One Kansas City Place)"
+      },
+      {
+        "rank": 12,
+        "code": "MN",
+        "value": "792 ft (IDS Center)"
+      },
+      {
+        "rank": 13,
+        "code": "OK",
+        "value": "845 ft (Devon Tower)"
+      },
+      {
+        "rank": 14,
+        "code": "NC",
+        "value": "871 ft (Bank of America Corporate Center)"
+      },
+      {
+        "rank": 15,
+        "code": "LA",
+        "value": "697 ft (Hancock Whitney Center)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-fortune-500-hq-cities-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Fortune 500 HQ Cities",
+    "prompt": "Rank the US states by the total number of Fortune 500 company headquarters located in them.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Fortune 500 \u2014 2024 List",
+      "url": "https://fortune.com/ranking/fortune500/",
+      "asOf": "2024 list (based on FY2023 revenue)"
+    },
+    "note": null,
+    "disclaimer": "Counts total F500 HQs in the state, not the number of distinct cities that host one.",
+    "trivia": "Texas overtook New York in 2022 to claim the #2 spot, driven by relocations from California including Tesla, Oracle, and CBRE.",
+    "asOfDate": "2024 list (based on FY2023 revenue)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "57 HQs"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "55 HQs"
+      },
+      {
+        "rank": 3,
+        "code": "NY",
+        "value": "52 HQs"
+      },
+      {
+        "rank": 4,
+        "code": "IL",
+        "value": "35 HQs"
+      },
+      {
+        "rank": 5,
+        "code": "FL",
+        "value": "22 HQs"
+      },
+      {
+        "rank": 6,
+        "code": "OH",
+        "value": "21 HQs"
+      },
+      {
+        "rank": 7,
+        "code": "VA",
+        "value": "20 HQs"
+      },
+      {
+        "rank": 8,
+        "code": "PA",
+        "value": "19 HQs"
+      },
+      {
+        "rank": 9,
+        "code": "GA",
+        "value": "18 HQs"
+      },
+      {
+        "rank": 10,
+        "code": "NJ",
+        "value": "18 HQs (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "MN",
+        "value": "17 HQs"
+      },
+      {
+        "rank": 12,
+        "code": "NC",
+        "value": "14 HQs"
+      },
+      {
+        "rank": 13,
+        "code": "MI",
+        "value": "14 HQs (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "CT",
+        "value": "13 HQs"
+      },
+      {
+        "rank": 15,
+        "code": "MA",
+        "value": "12 HQs"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-amtrak-stations-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Amtrak Stations",
+    "prompt": "Rank the US states by the number of Amtrak passenger rail stations.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Amtrak \u2014 Great American Stations directory",
+      "url": "https://www.greatamericanstations.com/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts all active Amtrak-served stations, including thruway bus-only connections at some stops.",
+    "trivia": "Wyoming and South Dakota are the only contiguous-48 states with zero Amtrak stations, while California has more than any other state despite lacking a Northeast Corridor.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "72 stations"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "45 stations"
+      },
+      {
+        "rank": 3,
+        "code": "PA",
+        "value": "34 stations"
+      },
+      {
+        "rank": 4,
+        "code": "IL",
+        "value": "32 stations"
+      },
+      {
+        "rank": 5,
+        "code": "NC",
+        "value": "24 stations"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "21 stations"
+      },
+      {
+        "rank": 7,
+        "code": "VA",
+        "value": "20 stations"
+      },
+      {
+        "rank": 8,
+        "code": "WA",
+        "value": "18 stations"
+      },
+      {
+        "rank": 9,
+        "code": "MI",
+        "value": "22 stations"
+      },
+      {
+        "rank": 10,
+        "code": "MA",
+        "value": "16 stations"
+      },
+      {
+        "rank": 11,
+        "code": "NJ",
+        "value": "16 stations (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "OH",
+        "value": "6 stations"
+      },
+      {
+        "rank": 13,
+        "code": "GA",
+        "value": "5 stations"
+      },
+      {
+        "rank": 14,
+        "code": "FL",
+        "value": "18 stations"
+      },
+      {
+        "rank": 15,
+        "code": "CT",
+        "value": "14 stations"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-metropolitan-area-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest Metropolitan Area",
+    "prompt": "Rank the US states by the population of their largest Metropolitan Statistical Area (MSA).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 Metropolitan Statistical Area Population Estimates",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html",
+      "asOf": "2023 estimates"
+    },
+    "note": null,
+    "disclaimer": "Uses the Census-defined MSA (not CSA / combined). MSAs that cross state lines are credited to the state containing the principal city.",
+    "trivia": "New York's MSA is more than twice as populous as Chicago's, the #3 MSA, and the NY MSA alone would rank as the 5th most populous US state.",
+    "asOfDate": "2023 estimates",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NY",
+        "value": "NYC 19.5M"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "LA 12.8M"
+      },
+      {
+        "rank": 3,
+        "code": "IL",
+        "value": "Chicago 9.26M"
+      },
+      {
+        "rank": 4,
+        "code": "TX",
+        "value": "Dallas-Fort Worth 8.10M"
+      },
+      {
+        "rank": 5,
+        "code": "DC",
+        "value": "DC-Arlington 6.30M"
+      },
+      {
+        "rank": 6,
+        "code": "PA",
+        "value": "Philadelphia 6.23M"
+      },
+      {
+        "rank": 7,
+        "code": "GA",
+        "value": "Atlanta 6.31M"
+      },
+      {
+        "rank": 8,
+        "code": "FL",
+        "value": "Miami 6.18M"
+      },
+      {
+        "rank": 9,
+        "code": "AZ",
+        "value": "Phoenix 5.07M"
+      },
+      {
+        "rank": 10,
+        "code": "MA",
+        "value": "Boston 4.92M"
+      },
+      {
+        "rank": 11,
+        "code": "MI",
+        "value": "Detroit 4.34M"
+      },
+      {
+        "rank": 12,
+        "code": "WA",
+        "value": "Seattle 4.04M"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "Minneapolis 3.69M"
+      },
+      {
+        "rank": 14,
+        "code": "CO",
+        "value": "Denver 3.00M"
+      },
+      {
+        "rank": 15,
+        "code": "MD",
+        "value": "Baltimore 2.83M"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-cities-in-the-top-100-by-population-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Cities in the Top 100 by Population",
+    "prompt": "Rank the US states by the number of cities in the US top 100 most populous.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 Top 100 US Cities (Vintage 2023)",
+      "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Only incorporated cities are counted; CDPs excluded. Ties broken alphabetically for consecutive ranks.",
+    "trivia": "California, Texas, and Florida together account for nearly 40% of the top 100 US cities by population.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "19 cities"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "12 cities"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "7 cities"
+      },
+      {
+        "rank": 4,
+        "code": "AZ",
+        "value": "5 cities"
+      },
+      {
+        "rank": 5,
+        "code": "NC",
+        "value": "4 cities"
+      },
+      {
+        "rank": 6,
+        "code": "CO",
+        "value": "4 cities (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "VA",
+        "value": "3 cities"
+      },
+      {
+        "rank": 8,
+        "code": "OH",
+        "value": "3 cities (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "NV",
+        "value": "3 cities (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "WA",
+        "value": "2 cities"
+      },
+      {
+        "rank": 11,
+        "code": "TN",
+        "value": "2 cities (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "MO",
+        "value": "2 cities (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "OK",
+        "value": "2 cities (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "KS",
+        "value": "2 cities (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NE",
+        "value": "2 cities (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Colleges in a Single City",
+    "prompt": "Rank the US states by the number of degree-granting colleges/universities in their most college-dense city.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "NCES / IPEDS \u2014 Institutional directory",
+      "url": "https://nces.ed.gov/ipeds/",
+      "asOf": "2023 IPEDS"
+    },
+    "note": null,
+    "disclaimer": "Counts Title IV degree-granting institutions in a single principal city (not the whole metro). Boston's total is inflated by many small specialty and religious institutions.",
+    "trivia": "Greater Boston hosts more than 50 colleges, and Boston's Fenway/Longwood corridor alone has more medical schools than most US states.",
+    "asOfDate": "2023 IPEDS",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MA",
+        "value": "Boston 35+ colleges"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "NYC 30+ colleges"
+      },
+      {
+        "rank": 3,
+        "code": "PA",
+        "value": "Philadelphia 25+ colleges"
+      },
+      {
+        "rank": 4,
+        "code": "DC",
+        "value": "Washington 20+ colleges"
+      },
+      {
+        "rank": 5,
+        "code": "IL",
+        "value": "Chicago 22+ colleges"
+      },
+      {
+        "rank": 6,
+        "code": "CA",
+        "value": "Los Angeles 18+ colleges"
+      },
+      {
+        "rank": 7,
+        "code": "TX",
+        "value": "Houston 15+ colleges"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "Atlanta 14+ colleges"
+      },
+      {
+        "rank": 9,
+        "code": "OH",
+        "value": "Cleveland 12+ colleges"
+      },
+      {
+        "rank": 10,
+        "code": "MO",
+        "value": "St. Louis 12+ colleges"
+      },
+      {
+        "rank": 11,
+        "code": "MN",
+        "value": "Minneapolis 11+ colleges"
+      },
+      {
+        "rank": 12,
+        "code": "MD",
+        "value": "Baltimore 10+ colleges"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-longest-ocean-coastline-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Longest Ocean Coastline",
+    "prompt": "Name the US states with the longest ocean/tidal coastline, excluding Great Lakes shoreline.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "NOAA \u2014 State Coastline Lengths (general coastline)",
+      "url": "https://coast.noaa.gov/data/docs/states/shorelines.pdf",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Uses NOAA's 'general coastline' figures (straight-line, excludes bays and river tidal reaches). Great Lakes shorelines excluded \u2014 this ranks ocean/tidal coastline only.",
+    "trivia": "Alaska's coastline is longer than the rest of the US states combined; if measured with tidal detail (bays, inlets), Alaska exceeds 33,000 miles.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "6,640 mi"
+      },
+      {
+        "rank": 2,
+        "code": "FL",
+        "value": "1,350 mi"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "840 mi"
+      },
+      {
+        "rank": 4,
+        "code": "HI",
+        "value": "750 mi"
+      },
+      {
+        "rank": 5,
+        "code": "LA",
+        "value": "397 mi"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "367 mi"
+      },
+      {
+        "rank": 7,
+        "code": "NC",
+        "value": "301 mi"
+      },
+      {
+        "rank": 8,
+        "code": "OR",
+        "value": "296 mi"
+      },
+      {
+        "rank": 9,
+        "code": "ME",
+        "value": "228 mi"
+      },
+      {
+        "rank": 10,
+        "code": "MA",
+        "value": "192 mi"
+      },
+      {
+        "rank": 11,
+        "code": "SC",
+        "value": "187 mi"
+      },
+      {
+        "rank": 12,
+        "code": "WA",
+        "value": "157 mi"
+      },
+      {
+        "rank": 13,
+        "code": "NJ",
+        "value": "130 mi"
+      },
+      {
+        "rank": 14,
+        "code": "NY",
+        "value": "127 mi"
+      },
+      {
+        "rank": 15,
+        "code": "VA",
+        "value": "112 mi"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-bordering-canada-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States Bordering Canada",
+    "prompt": "Name the US states that share a land or water border with Canada.",
+    "answerType": "US States",
+    "seededDepth": 13,
+    "source": {
+      "name": "US Census Bureau \u2014 State boundary data / International Boundary Commission",
+      "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes states with any shared boundary \u2014 land, river, or lake \u2014 with a Canadian province. Ordered by length of shared border.",
+    "trivia": "Alaska has the longest border with Canada of any US state, at about 1,538 miles with the Yukon and British Columbia.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "1,538 mi border"
+      },
+      {
+        "rank": 2,
+        "code": "MT",
+        "value": "545 mi border"
+      },
+      {
+        "rank": 3,
+        "code": "MI",
+        "value": "-- border via lakes"
+      },
+      {
+        "rank": 4,
+        "code": "ME",
+        "value": "611 mi border"
+      },
+      {
+        "rank": 5,
+        "code": "MN",
+        "value": "547 mi border"
+      },
+      {
+        "rank": 6,
+        "code": "NY",
+        "value": "445 mi border"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "427 mi border"
+      },
+      {
+        "rank": 8,
+        "code": "ND",
+        "value": "310 mi border"
+      },
+      {
+        "rank": 9,
+        "code": "OH",
+        "value": "-- border via Lake Erie"
+      },
+      {
+        "rank": 10,
+        "code": "VT",
+        "value": "90 mi border"
+      },
+      {
+        "rank": 11,
+        "code": "NH",
+        "value": "58 mi border"
+      },
+      {
+        "rank": 12,
+        "code": "ID",
+        "value": "45 mi border"
+      },
+      {
+        "rank": 13,
+        "code": "PA",
+        "value": "-- border via Lake Erie"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-bordering-mexico-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States Bordering Mexico",
+    "prompt": "Name the US states that share a land border with Mexico.",
+    "answerType": "US States",
+    "seededDepth": 4,
+    "source": {
+      "name": "International Boundary and Water Commission (IBWC)",
+      "url": "https://www.ibwc.gov/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Only 4 states share a land border with Mexico. Ordered by length of shared border.",
+    "trivia": "Texas has by far the longest Mexican border, mostly along the Rio Grande; California's border is the shortest at roughly 140 miles.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "1,254 mi border"
+      },
+      {
+        "rank": 2,
+        "code": "NM",
+        "value": "180 mi border"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "373 mi border"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "140 mi border"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-landlocked-states-2010",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest Landlocked States",
+    "prompt": "Name the largest landlocked US states by total area (states with no ocean coastline and no Great Lakes shoreline).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 State Area Measurements",
+      "url": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+      "asOf": "2010 Census reference"
+    },
+    "note": null,
+    "disclaimer": "'Landlocked' here means no ocean coast and no Great Lakes shoreline. States along the Mississippi or other inland rivers still qualify.",
+    "trivia": "Montana and New Mexico are both larger than any coastal state except Alaska, Texas, and California.",
+    "asOfDate": "2010 Census reference",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MT",
+        "value": "147,040 sq mi"
+      },
+      {
+        "rank": 2,
+        "code": "NM",
+        "value": "121,590 sq mi"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "113,990 sq mi"
+      },
+      {
+        "rank": 4,
+        "code": "NV",
+        "value": "110,572 sq mi"
+      },
+      {
+        "rank": 5,
+        "code": "CO",
+        "value": "104,094 sq mi"
+      },
+      {
+        "rank": 6,
+        "code": "WY",
+        "value": "97,813 sq mi"
+      },
+      {
+        "rank": 7,
+        "code": "UT",
+        "value": "84,897 sq mi"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "83,569 sq mi"
+      },
+      {
+        "rank": 9,
+        "code": "KS",
+        "value": "82,278 sq mi"
+      },
+      {
+        "rank": 10,
+        "code": "NE",
+        "value": "77,348 sq mi"
+      },
+      {
+        "rank": 11,
+        "code": "SD",
+        "value": "77,116 sq mi"
+      },
+      {
+        "rank": 12,
+        "code": "ND",
+        "value": "70,698 sq mi"
+      },
+      {
+        "rank": 13,
+        "code": "OK",
+        "value": "69,899 sq mi"
+      },
+      {
+        "rank": 14,
+        "code": "MO",
+        "value": "69,707 sq mi"
+      },
+      {
+        "rank": 15,
+        "code": "AR",
+        "value": "53,179 sq mi"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-on-the-mississippi-river-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States on the Mississippi River",
+    "prompt": "Name the US states whose borders are directly touched or crossed by the main stem of the Mississippi River.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "USGS \u2014 Mississippi River watershed",
+      "url": "https://www.usgs.gov/mission-areas/water-resources/science/mississippi-river",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Mississippi's main stem forms all or part of the border of, or flows through, exactly 10 states. Ordered north to south.",
+    "trivia": "The river rises at Lake Itasca in Minnesota and empties into the Gulf of Mexico south of New Orleans, covering about 2,340 miles.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MN",
+        "value": "source state"
+      },
+      {
+        "rank": 2,
+        "code": "WI",
+        "value": "east bank"
+      },
+      {
+        "rank": 3,
+        "code": "IA",
+        "value": "east border"
+      },
+      {
+        "rank": 4,
+        "code": "IL",
+        "value": "west border"
+      },
+      {
+        "rank": 5,
+        "code": "MO",
+        "value": "east border"
+      },
+      {
+        "rank": 6,
+        "code": "KY",
+        "value": "west border"
+      },
+      {
+        "rank": 7,
+        "code": "TN",
+        "value": "west border"
+      },
+      {
+        "rank": 8,
+        "code": "AR",
+        "value": "east border"
+      },
+      {
+        "rank": 9,
+        "code": "MS",
+        "value": "west border"
+      },
+      {
+        "rank": 10,
+        "code": "LA",
+        "value": "mouth"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-crossed-by-the-continental-divide-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States Crossed by the Continental Divide",
+    "prompt": "Name the US states through which the Great (Continental) Divide of the Americas runs.",
+    "answerType": "US States",
+    "seededDepth": 6,
+    "source": {
+      "name": "USGS \u2014 Continental Divide of the Americas",
+      "url": "https://www.usgs.gov/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Continental Divide separates Pacific-draining watersheds from Atlantic/Gulf-draining watersheds. In the US, it runs through five contiguous states plus Alaska.",
+    "trivia": "The divide enters the US at Glacier National Park and exits at the New Mexico\u2013Mexico border; it also crosses Alaska via the Brooks Range.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MT",
+        "value": "on divide"
+      },
+      {
+        "rank": 2,
+        "code": "ID",
+        "value": "on divide"
+      },
+      {
+        "rank": 3,
+        "code": "WY",
+        "value": "on divide"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "on divide"
+      },
+      {
+        "rank": 5,
+        "code": "NM",
+        "value": "on divide"
+      },
+      {
+        "rank": 6,
+        "code": "AK",
+        "value": "on divide (Brooks Range)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-crossed-by-the-appalachian-trail-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States Crossed by the Appalachian Trail",
+    "prompt": "Name the US states the Appalachian National Scenic Trail passes through.",
+    "answerType": "US States",
+    "seededDepth": 14,
+    "source": {
+      "name": "National Park Service \u2014 Appalachian Trail",
+      "url": "https://www.nps.gov/appa/index.htm",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The AT passes through 14 states between Springer Mountain (GA) and Mount Katahdin (ME). Ordered south to north.",
+    "trivia": "The trail is about 2,197 miles long; Virginia holds the longest section at roughly 550 miles, while West Virginia has the shortest at about 4 miles.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "GA",
+        "value": "southern terminus"
+      },
+      {
+        "rank": 2,
+        "code": "NC",
+        "value": "trail state"
+      },
+      {
+        "rank": 3,
+        "code": "TN",
+        "value": "trail state"
+      },
+      {
+        "rank": 4,
+        "code": "VA",
+        "value": "longest section"
+      },
+      {
+        "rank": 5,
+        "code": "WV",
+        "value": "trail state"
+      },
+      {
+        "rank": 6,
+        "code": "MD",
+        "value": "trail state"
+      },
+      {
+        "rank": 7,
+        "code": "PA",
+        "value": "trail state"
+      },
+      {
+        "rank": 8,
+        "code": "NJ",
+        "value": "trail state"
+      },
+      {
+        "rank": 9,
+        "code": "NY",
+        "value": "trail state"
+      },
+      {
+        "rank": 10,
+        "code": "CT",
+        "value": "trail state"
+      },
+      {
+        "rank": 11,
+        "code": "MA",
+        "value": "trail state"
+      },
+      {
+        "rank": 12,
+        "code": "VT",
+        "value": "trail state"
+      },
+      {
+        "rank": 13,
+        "code": "NH",
+        "value": "trail state"
+      },
+      {
+        "rank": 14,
+        "code": "ME",
+        "value": "northern terminus"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-states-crossed-by-the-pacific-crest-trail-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "States Crossed by the Pacific Crest Trail",
+    "prompt": "Name the US states the Pacific Crest National Scenic Trail passes through.",
+    "answerType": "US States",
+    "seededDepth": 3,
+    "source": {
+      "name": "National Park Service \u2014 Pacific Crest Trail",
+      "url": "https://www.nps.gov/pcrt/index.htm",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The PCT crosses only three states between the Mexican and Canadian borders. Ordered south to north.",
+    "trivia": "The trail runs 2,650 miles from Campo, California to Manning Park in British Columbia; California holds two-thirds of its length.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "1,700 mi (southern terminus)"
+      },
+      {
+        "rank": 2,
+        "code": "OR",
+        "value": "455 mi"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "506 mi (northern terminus)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-interstate-highway-mileage-2022",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Interstate Highway Mileage",
+    "prompt": "Name the US states with the most miles of Interstate Highway System within their borders.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Federal Highway Administration \u2014 Highway Statistics, Table HM-20",
+      "url": "https://www.fhwa.dot.gov/policyinformation/statistics.cfm",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "Counts centerline miles of designated Interstate routes only (not other freeways). Ordered longest to shortest.",
+    "trivia": "Texas has more Interstate miles than any other state; Hawaii's H-1/H-2/H-3 total under 60 miles despite the 'Interstate' designation.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "3,498 mi"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "2,461 mi"
+      },
+      {
+        "rank": 3,
+        "code": "IL",
+        "value": "2,185 mi"
+      },
+      {
+        "rank": 4,
+        "code": "PA",
+        "value": "1,864 mi"
+      },
+      {
+        "rank": 5,
+        "code": "OH",
+        "value": "1,575 mi"
+      },
+      {
+        "rank": 6,
+        "code": "NY",
+        "value": "1,730 mi"
+      },
+      {
+        "rank": 7,
+        "code": "GA",
+        "value": "1,246 mi"
+      },
+      {
+        "rank": 8,
+        "code": "MO",
+        "value": "1,381 mi"
+      },
+      {
+        "rank": 9,
+        "code": "FL",
+        "value": "1,495 mi"
+      },
+      {
+        "rank": 10,
+        "code": "IN",
+        "value": "1,275 mi"
+      },
+      {
+        "rank": 11,
+        "code": "MI",
+        "value": "1,243 mi"
+      },
+      {
+        "rank": 12,
+        "code": "NC",
+        "value": "1,321 mi"
+      },
+      {
+        "rank": 13,
+        "code": "TN",
+        "value": "1,104 mi"
+      },
+      {
+        "rank": 14,
+        "code": "OK",
+        "value": "1,001 mi"
+      },
+      {
+        "rank": 15,
+        "code": "AL",
+        "value": "905 mi"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-public-use-airports-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Public-Use Airports",
+    "prompt": "Name the US states with the most public-use airports.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAA \u2014 National Plan of Integrated Airport Systems (NPIAS)",
+      "url": "https://www.faa.gov/airports/planning_capacity/npias",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Counts public-use airports (public and private-owned but open to the public) as tallied by the FAA. Alaska's totals are inflated by remote community airstrips.",
+    "trivia": "Alaska has more public-use airports than any other state because most rural villages have no road connection \u2014 air access is essential.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "728 airports"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "379 airports"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "247 airports"
+      },
+      {
+        "rank": 4,
+        "code": "OH",
+        "value": "197 airports"
+      },
+      {
+        "rank": 5,
+        "code": "FL",
+        "value": "192 airports"
+      },
+      {
+        "rank": 6,
+        "code": "IL",
+        "value": "175 airports"
+      },
+      {
+        "rank": 7,
+        "code": "PA",
+        "value": "170 airports"
+      },
+      {
+        "rank": 8,
+        "code": "WA",
+        "value": "158 airports"
+      },
+      {
+        "rank": 9,
+        "code": "NY",
+        "value": "148 airports"
+      },
+      {
+        "rank": 10,
+        "code": "MI",
+        "value": "146 airports"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "127 airports"
+      },
+      {
+        "rank": 12,
+        "code": "MN",
+        "value": "123 airports"
+      },
+      {
+        "rank": 13,
+        "code": "WI",
+        "value": "121 airports"
+      },
+      {
+        "rank": 14,
+        "code": "OK",
+        "value": "115 airports"
+      },
+      {
+        "rank": 15,
+        "code": "GA",
+        "value": "109 airports"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-bridges-by-count-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Bridges (by Count)",
+    "prompt": "Name the US states with the greatest number of bridges (highway bridges of all sizes).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Federal Highway Administration \u2014 National Bridge Inventory",
+      "url": "https://www.fhwa.dot.gov/bridge/nbi.cfm",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Counts entries in the National Bridge Inventory (spans of at least 20 feet on public roads). Includes both state-owned and locally-owned bridges.",
+    "trivia": "Texas has more bridges than any other state \u2014 over 55,000 \u2014 reflecting both its size and its dense state highway network.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "55,175 bridges"
+      },
+      {
+        "rank": 2,
+        "code": "OH",
+        "value": "27,132 bridges"
+      },
+      {
+        "rank": 3,
+        "code": "IL",
+        "value": "26,846 bridges"
+      },
+      {
+        "rank": 4,
+        "code": "KS",
+        "value": "25,171 bridges"
+      },
+      {
+        "rank": 5,
+        "code": "IA",
+        "value": "23,943 bridges"
+      },
+      {
+        "rank": 6,
+        "code": "MO",
+        "value": "24,525 bridges"
+      },
+      {
+        "rank": 7,
+        "code": "OK",
+        "value": "23,090 bridges"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "25,975 bridges"
+      },
+      {
+        "rank": 9,
+        "code": "PA",
+        "value": "22,969 bridges"
+      },
+      {
+        "rank": 10,
+        "code": "TN",
+        "value": "20,326 bridges"
+      },
+      {
+        "rank": 11,
+        "code": "NC",
+        "value": "18,864 bridges"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "19,331 bridges"
+      },
+      {
+        "rank": 13,
+        "code": "NY",
+        "value": "17,462 bridges"
+      },
+      {
+        "rank": 14,
+        "code": "GA",
+        "value": "14,981 bridges"
+      },
+      {
+        "rank": 15,
+        "code": "MN",
+        "value": "13,477 bridges"
+      }
+    ]
   }
 ]
