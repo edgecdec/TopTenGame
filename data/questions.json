@@ -129507,5 +129507,5955 @@
         "value": "13,477 bridges"
       }
     ]
+  },
+  {
+    "id": "geography-highest-average-elevation-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest average elevation",
+    "prompt": "Name the countries with the highest average (mean) elevation above sea level, from highest downward.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of countries by average elevation (compiled from national geodetic surveys)",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_average_elevation",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Mean elevation across each country's land area, in meters above sea level.",
+    "trivia": "Bhutan, Tajikistan and Kyrgyzstan all have mean elevations above 3,000 m \u2014 the entire country sits higher than most alpine ski resorts.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BT",
+        "value": "3,280 m"
+      },
+      {
+        "rank": 2,
+        "code": "NP",
+        "value": "3,265 m"
+      },
+      {
+        "rank": 3,
+        "code": "TJ",
+        "value": "3,186 m"
+      },
+      {
+        "rank": 4,
+        "code": "KG",
+        "value": "2,988 m"
+      },
+      {
+        "rank": 5,
+        "code": "LS",
+        "value": "2,161 m"
+      },
+      {
+        "rank": 6,
+        "code": "AD",
+        "value": "1,996 m"
+      },
+      {
+        "rank": 7,
+        "code": "AF",
+        "value": "1,884 m"
+      },
+      {
+        "rank": 8,
+        "code": "CH",
+        "value": "1,350 m"
+      },
+      {
+        "rank": 9,
+        "code": "CN",
+        "value": "1,840 m"
+      },
+      {
+        "rank": 10,
+        "code": "MN",
+        "value": "1,528 m"
+      },
+      {
+        "rank": 11,
+        "code": "AM",
+        "value": "1,792 m"
+      },
+      {
+        "rank": 12,
+        "code": "BO",
+        "value": "1,192 m"
+      },
+      {
+        "rank": 13,
+        "code": "IR",
+        "value": "1,305 m"
+      },
+      {
+        "rank": 14,
+        "code": "ZA",
+        "value": "1,034 m"
+      },
+      {
+        "rank": 15,
+        "code": "ET",
+        "value": "1,330 m"
+      }
+    ]
+  },
+  {
+    "id": "geography-lowest-average-elevation-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Lowest average elevation",
+    "prompt": "Name the countries with the lowest average (mean) elevation above sea level, from lowest upward.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of countries by average elevation (compiled from national geodetic surveys)",
+      "url": "https://en.wikipedia.org/wiki/List_of_countries_by_average_elevation",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Mean elevation across each country's land area. Microstate city-states and tiny island nations are excluded; sovereign countries with land area over 100 km\u00b2 only.",
+    "trivia": "The Maldives has a mean elevation of just 1.8 m \u2014 nearly the entire country would be submerged by 2 m of sea-level rise.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MV",
+        "value": "1.8 m"
+      },
+      {
+        "rank": 2,
+        "code": "QA",
+        "value": "28 m"
+      },
+      {
+        "rank": 3,
+        "code": "GM",
+        "value": "34 m"
+      },
+      {
+        "rank": 4,
+        "code": "BH",
+        "value": "35 m"
+      },
+      {
+        "rank": 5,
+        "code": "DK",
+        "value": "34 m"
+      },
+      {
+        "rank": 6,
+        "code": "NL",
+        "value": "30 m"
+      },
+      {
+        "rank": 7,
+        "code": "EE",
+        "value": "61 m"
+      },
+      {
+        "rank": 8,
+        "code": "GW",
+        "value": "70 m"
+      },
+      {
+        "rank": 9,
+        "code": "BD",
+        "value": "85 m"
+      },
+      {
+        "rank": 10,
+        "code": "LT",
+        "value": "110 m"
+      },
+      {
+        "rank": 11,
+        "code": "SN",
+        "value": "69 m"
+      },
+      {
+        "rank": 12,
+        "code": "LV",
+        "value": "87 m"
+      },
+      {
+        "rank": 13,
+        "code": "BJ",
+        "value": "273 m"
+      },
+      {
+        "rank": 14,
+        "code": "SG",
+        "value": "15 m"
+      },
+      {
+        "rank": 15,
+        "code": "BE",
+        "value": "181 m"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-inland-saltwater-bodies-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest inland saltwater bodies",
+    "prompt": "Name the countries bordering the world's largest inland saltwater bodies (endorheic salt lakes and seas), ranked by the surface area of the body they touch.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of lakes by area (endorheic saline)",
+      "url": "https://en.wikipedia.org/wiki/List_of_lakes_by_area",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Ranked by the surface area of the largest inland saltwater body each country borders. A country is listed once per body; countries sharing the same lake share the same rank.",
+    "trivia": "The Caspian Sea covers 371,000 km\u00b2 \u2014 larger than Germany \u2014 and is bordered by five countries.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KZ",
+        "value": "371,000 km\u00b2 (Caspian)"
+      },
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "371,000 km\u00b2 (Caspian, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "IR",
+        "value": "371,000 km\u00b2 (Caspian, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "TM",
+        "value": "371,000 km\u00b2 (Caspian, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "AZ",
+        "value": "371,000 km\u00b2 (Caspian, tied)"
+      },
+      {
+        "rank": 6,
+        "code": "UZ",
+        "value": "17,160 km\u00b2 (Aral)"
+      },
+      {
+        "rank": 7,
+        "code": "ET",
+        "value": "8,494 km\u00b2 (Danakil salt lakes)"
+      },
+      {
+        "rank": 8,
+        "code": "TR",
+        "value": "3,755 km\u00b2 (Lake Van)"
+      },
+      {
+        "rank": 9,
+        "code": "US",
+        "value": "4,400 km\u00b2 (Great Salt Lake)"
+      },
+      {
+        "rank": 10,
+        "code": "BO",
+        "value": "3,500 km\u00b2 (Salar/Poop\u00f3 system)"
+      },
+      {
+        "rank": 11,
+        "code": "CN",
+        "value": "4,317 km\u00b2 (Qinghai Lake)"
+      },
+      {
+        "rank": 12,
+        "code": "IL",
+        "value": "605 km\u00b2 (Dead Sea)"
+      },
+      {
+        "rank": 12,
+        "code": "JO",
+        "value": "605 km\u00b2 (Dead Sea, tied)"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "890 km\u00b2 (Mar Chiquita)"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "9,500 km\u00b2 (Lake Eyre when full)"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-natural-harbors-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest natural harbors",
+    "prompt": "Name the countries with the world's largest natural harbors, ranked by the surface area of the harbor.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of natural harbors by area",
+      "url": "https://en.wikipedia.org/wiki/List_of_natural_harbours",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Surface area of each country's largest natural harbor (protected coastal basin usable by shipping).",
+    "trivia": "Poole Harbour in England is often called the world's second-largest natural harbor after Sydney \u2014 though Halifax and Port Jackson dispute the ranking.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AU",
+        "value": "55 km\u00b2 (Port Jackson/Sydney)"
+      },
+      {
+        "rank": 2,
+        "code": "GB",
+        "value": "36 km\u00b2 (Poole)"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "35 km\u00b2 (Halifax)"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "42 km\u00b2 (San Francisco Bay)"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "412 km\u00b2 (Guanabara Bay)"
+      },
+      {
+        "rank": 6,
+        "code": "IN",
+        "value": "400 km\u00b2 (Kandla Gulf)"
+      },
+      {
+        "rank": 7,
+        "code": "HK",
+        "value": "42 km\u00b2 (Victoria Harbour)"
+      },
+      {
+        "rank": 8,
+        "code": "IE",
+        "value": "42 km\u00b2 (Cork Harbour)"
+      },
+      {
+        "rank": 9,
+        "code": "NZ",
+        "value": "50 km\u00b2 (Waitemat\u0101/Auckland)"
+      },
+      {
+        "rank": 10,
+        "code": "ZA",
+        "value": "19 km\u00b2 (Saldanha Bay)"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "922 km\u00b2 (Tokyo Bay)"
+      },
+      {
+        "rank": 12,
+        "code": "PH",
+        "value": "1,994 km\u00b2 (Manila Bay)"
+      },
+      {
+        "rank": 13,
+        "code": "CN",
+        "value": "2,000 km\u00b2 (Hangzhou Bay)"
+      },
+      {
+        "rank": 14,
+        "code": "TR",
+        "value": "8 km\u00b2 (Golden Horn)"
+      },
+      {
+        "rank": 15,
+        "code": "CU",
+        "value": "70 km\u00b2 (Havana Bay)"
+      }
+    ]
+  },
+  {
+    "id": "geography-widest-continental-shelves-2022",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Widest continental shelves",
+    "prompt": "Name the countries with the widest continental shelves, ranked by the maximum shelf width extending from their coast.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "NOAA / GEBCO bathymetric charts, via Encyclopedia Britannica",
+      "url": "https://www.britannica.com/science/continental-shelf",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "Maximum width of the continental shelf (to the shelf break, roughly the 200 m isobath) measured from the coast.",
+    "trivia": "The Siberian Shelf off Russia's Arctic coast is the widest continental shelf on Earth, extending over 1,500 km \u2014 wider than the entire length of France.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "1,500 km (Siberian Shelf)"
+      },
+      {
+        "rank": 2,
+        "code": "AR",
+        "value": "850 km (Patagonian Shelf)"
+      },
+      {
+        "rank": 3,
+        "code": "AU",
+        "value": "700 km (northern shelf)"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "600 km (Grand Banks/Arctic)"
+      },
+      {
+        "rank": 5,
+        "code": "GB",
+        "value": "570 km (Celtic/North Sea)"
+      },
+      {
+        "rank": 6,
+        "code": "BR",
+        "value": "350 km (Amazon Shelf)"
+      },
+      {
+        "rank": 7,
+        "code": "CN",
+        "value": "500 km (East China Sea)"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "540 km (Sunda Shelf)"
+      },
+      {
+        "rank": 9,
+        "code": "US",
+        "value": "400 km (Bering/Beaufort)"
+      },
+      {
+        "rank": 10,
+        "code": "IN",
+        "value": "350 km (Bombay Shelf)"
+      },
+      {
+        "rank": 11,
+        "code": "MY",
+        "value": "540 km (Sunda Shelf)"
+      },
+      {
+        "rank": 12,
+        "code": "NO",
+        "value": "400 km (Barents Shelf)"
+      },
+      {
+        "rank": 13,
+        "code": "IS",
+        "value": "300 km (Iceland Shelf)"
+      },
+      {
+        "rank": 14,
+        "code": "AO",
+        "value": "160 km (West African Shelf)"
+      },
+      {
+        "rank": 15,
+        "code": "MZ",
+        "value": "145 km (Sofala Bank)"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-tree-cover-density-2020",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest tree cover density",
+    "prompt": "Name the countries with the highest tree cover as a percentage of their land area, from most forested downward.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "FAO \u2014 Global Forest Resources Assessment",
+      "url": "https://www.fao.org/forest-resources-assessment/2020",
+      "asOf": "2020"
+    },
+    "note": null,
+    "disclaimer": "Tree-cover density measured as forest area as a percentage of total land area. Excludes Antarctic dependencies and non-sovereign territories.",
+    "trivia": "Suriname is 97% forest \u2014 the highest of any country on Earth, and most of that is untouched Amazonian rainforest.",
+    "asOfDate": "2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SR",
+        "value": "97.4%"
+      },
+      {
+        "rank": 2,
+        "code": "FM",
+        "value": "91.9%"
+      },
+      {
+        "rank": 3,
+        "code": "GA",
+        "value": "91.3%"
+      },
+      {
+        "rank": 4,
+        "code": "SC",
+        "value": "88.4%"
+      },
+      {
+        "rank": 5,
+        "code": "PW",
+        "value": "87.6%"
+      },
+      {
+        "rank": 6,
+        "code": "GY",
+        "value": "83.9%"
+      },
+      {
+        "rank": 7,
+        "code": "LA",
+        "value": "82.1%"
+      },
+      {
+        "rank": 8,
+        "code": "SB",
+        "value": "77.9%"
+      },
+      {
+        "rank": 9,
+        "code": "FI",
+        "value": "73.7%"
+      },
+      {
+        "rank": 10,
+        "code": "BN",
+        "value": "72.1%"
+      },
+      {
+        "rank": 11,
+        "code": "PG",
+        "value": "79.2%"
+      },
+      {
+        "rank": 12,
+        "code": "BT",
+        "value": "72.5%"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "68.9%"
+      },
+      {
+        "rank": 14,
+        "code": "JP",
+        "value": "68.4%"
+      },
+      {
+        "rank": 15,
+        "code": "KR",
+        "value": "64.5%"
+      }
+    ]
+  },
+  {
+    "id": "geography-most-named-mountain-ranges-2022",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Most named mountain ranges",
+    "prompt": "Name the countries containing the most distinct named mountain ranges, from most downward.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "GMBA \u2014 Global Mountain Biodiversity Assessment mountain-range inventory",
+      "url": "https://www.gmba.unibe.ch/services/tools/inventory/",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "Count of named mountain ranges (level-1 orographic units) that lie wholly or partly within each country.",
+    "trivia": "Russia's territory contains 260+ named ranges \u2014 from the Caucasus and Urals to the Verkhoyansk, Chersky, and Sikhote-Alin systems in Siberia.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "260 ranges"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "220 ranges"
+      },
+      {
+        "rank": 3,
+        "code": "CN",
+        "value": "190 ranges"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "165 ranges"
+      },
+      {
+        "rank": 5,
+        "code": "AR",
+        "value": "95 ranges"
+      },
+      {
+        "rank": 6,
+        "code": "AU",
+        "value": "90 ranges"
+      },
+      {
+        "rank": 7,
+        "code": "MX",
+        "value": "80 ranges"
+      },
+      {
+        "rank": 8,
+        "code": "IR",
+        "value": "75 ranges"
+      },
+      {
+        "rank": 9,
+        "code": "PE",
+        "value": "65 ranges"
+      },
+      {
+        "rank": 10,
+        "code": "IN",
+        "value": "62 ranges"
+      },
+      {
+        "rank": 11,
+        "code": "CL",
+        "value": "58 ranges"
+      },
+      {
+        "rank": 12,
+        "code": "BR",
+        "value": "55 ranges"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "52 ranges"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "50 ranges"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "48 ranges"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-fjord-systems-2022",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest fjord systems",
+    "prompt": "Name the countries with the largest fjord systems, ranked by total fjord shoreline length.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "NOAA / IHO coastal type inventory, via Encyclopedia Britannica",
+      "url": "https://www.britannica.com/science/fjord",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "Total length of fjord (glacially carved sea inlet) shoreline. Includes only countries with true fjord coasts.",
+    "trivia": "Norway's fjord shoreline totals over 29,000 km \u2014 if straightened, it would stretch three-quarters of the way around the Earth.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NO",
+        "value": "29,000 km"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "24,000 km"
+      },
+      {
+        "rank": 3,
+        "code": "CL",
+        "value": "18,500 km"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "16,000 km (Alaska)"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "9,500 km"
+      },
+      {
+        "rank": 6,
+        "code": "NZ",
+        "value": "3,900 km"
+      },
+      {
+        "rank": 7,
+        "code": "IS",
+        "value": "3,500 km"
+      },
+      {
+        "rank": 8,
+        "code": "AR",
+        "value": "3,100 km"
+      },
+      {
+        "rank": 9,
+        "code": "GB",
+        "value": "2,800 km (sea lochs)"
+      },
+      {
+        "rank": 10,
+        "code": "IE",
+        "value": "1,200 km"
+      },
+      {
+        "rank": 11,
+        "code": "SE",
+        "value": "1,050 km"
+      },
+      {
+        "rank": 12,
+        "code": "AU",
+        "value": "480 km (Tasmania)"
+      },
+      {
+        "rank": 13,
+        "code": "AL",
+        "value": "180 km"
+      },
+      {
+        "rank": 14,
+        "code": "HR",
+        "value": "150 km"
+      },
+      {
+        "rank": 15,
+        "code": "ME",
+        "value": "105 km (Bay of Kotor)"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-inland-freshwater-volume-2020",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest inland freshwater volume",
+    "prompt": "Name the countries with the greatest volume of inland liquid fresh water (lakes and rivers), from most downward.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "USGS / UN Environment Programme \u2014 inland freshwater volume estimates",
+      "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-distribution-earth",
+      "asOf": "2020"
+    },
+    "note": null,
+    "disclaimer": "Total liquid freshwater volume in lakes and rivers within each country's borders. Excludes glacier ice, groundwater aquifers, and permafrost.",
+    "trivia": "Russia's Lake Baikal alone contains 23,600 km\u00b3 \u2014 more freshwater than all five North American Great Lakes combined.",
+    "asOfDate": "2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "25,500 km\u00b3"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "10,900 km\u00b3"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "8,200 km\u00b3"
+      },
+      {
+        "rank": 4,
+        "code": "TZ",
+        "value": "2,700 km\u00b3 (Tanganyika share)"
+      },
+      {
+        "rank": 5,
+        "code": "CD",
+        "value": "2,500 km\u00b3 (Tanganyika share)"
+      },
+      {
+        "rank": 6,
+        "code": "BR",
+        "value": "1,800 km\u00b3"
+      },
+      {
+        "rank": 7,
+        "code": "CN",
+        "value": "1,150 km\u00b3"
+      },
+      {
+        "rank": 8,
+        "code": "MW",
+        "value": "8,400 km\u00b3 (Malawi share)"
+      },
+      {
+        "rank": 9,
+        "code": "SE",
+        "value": "980 km\u00b3"
+      },
+      {
+        "rank": 10,
+        "code": "FI",
+        "value": "235 km\u00b3"
+      },
+      {
+        "rank": 11,
+        "code": "AR",
+        "value": "460 km\u00b3"
+      },
+      {
+        "rank": 12,
+        "code": "UG",
+        "value": "1,320 km\u00b3 (Victoria share)"
+      },
+      {
+        "rank": 13,
+        "code": "KE",
+        "value": "620 km\u00b3 (Victoria share)"
+      },
+      {
+        "rank": 14,
+        "code": "PE",
+        "value": "460 km\u00b3 (Titicaca + Amazon)"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "175 km\u00b3"
+      }
+    ]
+  },
+  {
+    "id": "geography-tallest-single-trees-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Tallest single trees",
+    "prompt": "Name the countries containing the tallest confirmed individual living trees, ranked by the height of the tallest specimen.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Monumentaltrees.com \u2014 tallest trees worldwide registry",
+      "url": "https://www.monumentaltrees.com/en/records/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Height of the tallest confirmed living tree measured within each country's borders.",
+    "trivia": "Hyperion, a coast redwood in California, is 115.9 m tall \u2014 the location is kept secret to protect it from foot traffic.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "US",
+        "value": "115.9 m (Hyperion)"
+      },
+      {
+        "rank": 2,
+        "code": "AU",
+        "value": "100.5 m (Centurion)"
+      },
+      {
+        "rank": 3,
+        "code": "MY",
+        "value": "100.8 m (Menara)"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "95.7 m (Doerner Fir vicinity)"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "88.5 m (angelim vermelho)"
+      },
+      {
+        "rank": 6,
+        "code": "DE",
+        "value": "66.6 m (Waldtraut)"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "66.4 m (Stronardron Fir)"
+      },
+      {
+        "rank": 8,
+        "code": "NZ",
+        "value": "80.5 m (Orokonui Eucalyptus)"
+      },
+      {
+        "rank": 9,
+        "code": "FR",
+        "value": "66.5 m (Ribeauvill\u00e9 fir)"
+      },
+      {
+        "rank": 10,
+        "code": "IT",
+        "value": "62.7 m (Vallombrosa fir)"
+      },
+      {
+        "rank": 11,
+        "code": "PT",
+        "value": "72.9 m (Karri eucalypt)"
+      },
+      {
+        "rank": 12,
+        "code": "ES",
+        "value": "67.5 m (Pino Grand\u00f3n)"
+      },
+      {
+        "rank": 13,
+        "code": "CH",
+        "value": "59.5 m (Bern spruce)"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "57.8 m (Zwiesel spruce)"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "56.9 m (Bia\u0142owie\u017ca spruce)"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-most-crossed-by-the-silk-road-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries most crossed by the Silk Road",
+    "prompt": "Name the modern countries whose territory contains the greatest length of the historic overland Silk Road route network.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UNESCO \u2014 Silk Roads: the Routes Network of Chang'an\u2013Tianshan Corridor and cross-corridor inscriptions",
+      "url": "https://en.unesco.org/silkroad/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Historical entity; ranked by kilometers of the classical Silk Road (approx. 200 BCE\u20131450 CE) trunk-route network within modern borders. Successor states \u2014 the Silk Road pre-dates modern nation-states.",
+    "trivia": "China contains around 4,800 km of Silk Road routes, including the entire Hexi Corridor from Xi'an to Dunhuang.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "4,800 km"
+      },
+      {
+        "rank": 2,
+        "code": "KZ",
+        "value": "2,900 km"
+      },
+      {
+        "rank": 3,
+        "code": "IR",
+        "value": "2,600 km"
+      },
+      {
+        "rank": 4,
+        "code": "UZ",
+        "value": "1,800 km"
+      },
+      {
+        "rank": 5,
+        "code": "TR",
+        "value": "1,650 km"
+      },
+      {
+        "rank": 6,
+        "code": "KG",
+        "value": "1,050 km"
+      },
+      {
+        "rank": 7,
+        "code": "TM",
+        "value": "950 km"
+      },
+      {
+        "rank": 8,
+        "code": "TJ",
+        "value": "780 km"
+      },
+      {
+        "rank": 9,
+        "code": "AF",
+        "value": "1,100 km"
+      },
+      {
+        "rank": 10,
+        "code": "IQ",
+        "value": "720 km"
+      },
+      {
+        "rank": 11,
+        "code": "PK",
+        "value": "680 km"
+      },
+      {
+        "rank": 12,
+        "code": "SY",
+        "value": "610 km"
+      },
+      {
+        "rank": 13,
+        "code": "IN",
+        "value": "540 km"
+      },
+      {
+        "rank": 14,
+        "code": "MN",
+        "value": "500 km"
+      },
+      {
+        "rank": 15,
+        "code": "AZ",
+        "value": "410 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-most-tripoints-on-borders-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Most tripoints on borders",
+    "prompt": "Name the countries whose land borders meet the most other pairs of countries at triple-boundary points (\"tripoints\"), from most downward.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of tripoints (compiled from national boundary treaties)",
+      "url": "https://en.wikipedia.org/wiki/Tripoint",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Count of land tripoints \u2014 points where three countries' borders meet \u2014 on each country's borders. Quadripoints and maritime-only tripoints are excluded.",
+    "trivia": "China has 16 land tripoints, more than any other country \u2014 including the Afghanistan-Tajikistan-China point on the Wakhan Corridor.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "16 tripoints"
+      },
+      {
+        "rank": 2,
+        "code": "RU",
+        "value": "11 tripoints"
+      },
+      {
+        "rank": 3,
+        "code": "BR",
+        "value": "10 tripoints"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "9 tripoints"
+      },
+      {
+        "rank": 5,
+        "code": "AT",
+        "value": "8 tripoints"
+      },
+      {
+        "rank": 5,
+        "code": "TR",
+        "value": "8 tripoints (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "ZM",
+        "value": "7 tripoints"
+      },
+      {
+        "rank": 7,
+        "code": "TZ",
+        "value": "7 tripoints (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "SD",
+        "value": "7 tripoints (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "CD",
+        "value": "6 tripoints"
+      },
+      {
+        "rank": 10,
+        "code": "HU",
+        "value": "6 tripoints (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "IN",
+        "value": "6 tripoints (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "AR",
+        "value": "6 tripoints (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "FR",
+        "value": "6 tripoints (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "5 tripoints"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-baltic-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Baltic Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the Baltic Sea.",
+    "answerType": "Countries",
+    "seededDepth": 9,
+    "source": {
+      "name": "HELCOM (Baltic Marine Environment Protection Commission) \u2014 contracting parties and geography",
+      "url": "https://helcom.fi/about-us/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes all sovereign states with a Baltic Sea coastline. Ranked by length of Baltic coastline (km).",
+    "trivia": "Sweden has by far the longest Baltic coastline; the sea is nearly enclosed, connecting to the Atlantic only through the narrow Danish straits.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SE",
+        "value": "3,218 km"
+      },
+      {
+        "rank": 2,
+        "code": "FI",
+        "value": "1,250 km"
+      },
+      {
+        "rank": 3,
+        "code": "EE",
+        "value": "1,242 km"
+      },
+      {
+        "rank": 4,
+        "code": "DK",
+        "value": "1,050 km"
+      },
+      {
+        "rank": 5,
+        "code": "DE",
+        "value": "728 km"
+      },
+      {
+        "rank": 6,
+        "code": "LV",
+        "value": "531 km"
+      },
+      {
+        "rank": 7,
+        "code": "PL",
+        "value": "440 km"
+      },
+      {
+        "rank": 8,
+        "code": "RU",
+        "value": "215 km"
+      },
+      {
+        "rank": 9,
+        "code": "LT",
+        "value": "99 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-mediterranean-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Mediterranean Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the Mediterranean Sea.",
+    "answerType": "Countries",
+    "seededDepth": 20,
+    "source": {
+      "name": "UNEP/MAP \u2014 Barcelona Convention contracting parties and Mediterranean geography",
+      "url": "https://www.unep.org/unepmap/who-we-are/contracting-parties",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by length of Mediterranean coastline (km). Includes the sovereign SBAs and Gibraltar under GB where applicable.",
+    "trivia": "Greece's Mediterranean coastline dwarfs all others thanks to its thousands of islands; Monaco has the shortest at under 5 km.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "GR",
+        "value": "13,676 km"
+      },
+      {
+        "rank": 2,
+        "code": "IT",
+        "value": "7,600 km"
+      },
+      {
+        "rank": 3,
+        "code": "HR",
+        "value": "5,835 km"
+      },
+      {
+        "rank": 4,
+        "code": "TR",
+        "value": "5,191 km"
+      },
+      {
+        "rank": 5,
+        "code": "ES",
+        "value": "1,660 km"
+      },
+      {
+        "rank": 6,
+        "code": "FR",
+        "value": "1,703 km"
+      },
+      {
+        "rank": 7,
+        "code": "LY",
+        "value": "1,770 km"
+      },
+      {
+        "rank": 8,
+        "code": "EG",
+        "value": "1,050 km"
+      },
+      {
+        "rank": 9,
+        "code": "TN",
+        "value": "1,148 km"
+      },
+      {
+        "rank": 10,
+        "code": "CY",
+        "value": "648 km"
+      },
+      {
+        "rank": 11,
+        "code": "DZ",
+        "value": "998 km"
+      },
+      {
+        "rank": 12,
+        "code": "AL",
+        "value": "362 km"
+      },
+      {
+        "rank": 13,
+        "code": "MA",
+        "value": "512 km"
+      },
+      {
+        "rank": 14,
+        "code": "IL",
+        "value": "273 km"
+      },
+      {
+        "rank": 15,
+        "code": "ME",
+        "value": "293 km"
+      },
+      {
+        "rank": 16,
+        "code": "SY",
+        "value": "193 km"
+      },
+      {
+        "rank": 17,
+        "code": "LB",
+        "value": "225 km"
+      },
+      {
+        "rank": 18,
+        "code": "MT",
+        "value": "196 km"
+      },
+      {
+        "rank": 19,
+        "code": "SI",
+        "value": "46 km"
+      },
+      {
+        "rank": 20,
+        "code": "BA",
+        "value": "20 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-black-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Black Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the Black Sea.",
+    "answerType": "Countries",
+    "seededDepth": 6,
+    "source": {
+      "name": "Black Sea Commission \u2014 Bucharest Convention parties",
+      "url": "http://www.blacksea-commission.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by length of Black Sea coastline (km).",
+    "trivia": "Only six countries touch the Black Sea; Turkey holds the longest stretch and controls its only ocean outlet through the Bosporus and Dardanelles.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TR",
+        "value": "1,329 km"
+      },
+      {
+        "rank": 2,
+        "code": "UA",
+        "value": "1,282 km"
+      },
+      {
+        "rank": 3,
+        "code": "RU",
+        "value": "475 km"
+      },
+      {
+        "rank": 4,
+        "code": "BG",
+        "value": "354 km"
+      },
+      {
+        "rank": 5,
+        "code": "GE",
+        "value": "310 km"
+      },
+      {
+        "rank": 6,
+        "code": "RO",
+        "value": "225 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-caspian-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Caspian Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the Caspian Sea.",
+    "answerType": "Countries",
+    "seededDepth": 5,
+    "source": {
+      "name": "Tehran Convention \u2014 Framework Convention for the Protection of the Marine Environment of the Caspian Sea",
+      "url": "https://tehranconvention.org/en",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Caspian is the world's largest enclosed inland body of water. Ranked by length of Caspian coastline (km).",
+    "trivia": "Kazakhstan has the longest Caspian coastline, and the sea's status was formalized in 2018 as neither fully sea nor lake by the five littoral states.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KZ",
+        "value": "2,320 km"
+      },
+      {
+        "rank": 2,
+        "code": "TM",
+        "value": "1,200 km"
+      },
+      {
+        "rank": 3,
+        "code": "RU",
+        "value": "695 km"
+      },
+      {
+        "rank": 4,
+        "code": "AZ",
+        "value": "713 km"
+      },
+      {
+        "rank": 5,
+        "code": "IR",
+        "value": "657 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-persian-gulf-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Persian Gulf",
+    "prompt": "Name the sovereign countries whose coastline touches the Persian Gulf.",
+    "answerType": "Countries",
+    "seededDepth": 8,
+    "source": {
+      "name": "ROPME \u2014 Regional Organization for the Protection of the Marine Environment",
+      "url": "https://ropme.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by length of Persian Gulf coastline (km).",
+    "trivia": "Iran holds well over half of the Gulf's total coastline; the strategic Strait of Hormuz at its mouth carries roughly a fifth of the world's oil trade.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IR",
+        "value": "1,536 km"
+      },
+      {
+        "rank": 2,
+        "code": "SA",
+        "value": "560 km"
+      },
+      {
+        "rank": 3,
+        "code": "AE",
+        "value": "530 km"
+      },
+      {
+        "rank": 4,
+        "code": "QA",
+        "value": "563 km"
+      },
+      {
+        "rank": 5,
+        "code": "KW",
+        "value": "499 km"
+      },
+      {
+        "rank": 6,
+        "code": "OM",
+        "value": "100 km"
+      },
+      {
+        "rank": 7,
+        "code": "BH",
+        "value": "161 km"
+      },
+      {
+        "rank": 8,
+        "code": "IQ",
+        "value": "58 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-red-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Red Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the Red Sea.",
+    "answerType": "Countries",
+    "seededDepth": 8,
+    "source": {
+      "name": "PERSGA \u2014 Regional Organization for the Conservation of the Environment of the Red Sea and Gulf of Aden",
+      "url": "https://www.persga.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by length of Red Sea coastline (km). Includes the Gulf of Aqaba but not the wider Gulf of Aden.",
+    "trivia": "Saudi Arabia has the longest Red Sea coastline, and the sea is one of the saltiest in the world thanks to high evaporation and no major rivers feeding it.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SA",
+        "value": "1,840 km"
+      },
+      {
+        "rank": 2,
+        "code": "EG",
+        "value": "1,540 km"
+      },
+      {
+        "rank": 3,
+        "code": "SD",
+        "value": "740 km"
+      },
+      {
+        "rank": 4,
+        "code": "ER",
+        "value": "1,151 km"
+      },
+      {
+        "rank": 5,
+        "code": "YE",
+        "value": "700 km"
+      },
+      {
+        "rank": 6,
+        "code": "DJ",
+        "value": "314 km"
+      },
+      {
+        "rank": 7,
+        "code": "IL",
+        "value": "12 km"
+      },
+      {
+        "rank": 8,
+        "code": "JO",
+        "value": "26 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-arabian-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the Arabian Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the Arabian Sea.",
+    "answerType": "Countries",
+    "seededDepth": 7,
+    "source": {
+      "name": "IHO \u2014 Limits of Oceans and Seas (Special Publication No. 23)",
+      "url": "https://iho.int/en/standards-and-specifications",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Uses the IHO definition of the Arabian Sea (bounded by the Gulf of Aden, Gulf of Oman, and the western coasts of India and Maldives). Ranked by length of Arabian Sea coastline (km).",
+    "trivia": "India has the longest Arabian Sea coast, stretching from Gujarat to Kanyakumari; the Maldives sits entirely within its waters.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IN",
+        "value": "2,500 km"
+      },
+      {
+        "rank": 2,
+        "code": "PK",
+        "value": "1,046 km"
+      },
+      {
+        "rank": 3,
+        "code": "OM",
+        "value": "1,700 km"
+      },
+      {
+        "rank": 4,
+        "code": "YE",
+        "value": "1,200 km"
+      },
+      {
+        "rank": 5,
+        "code": "SO",
+        "value": "1,000 km"
+      },
+      {
+        "rank": 6,
+        "code": "IR",
+        "value": "784 km"
+      },
+      {
+        "rank": 7,
+        "code": "MV",
+        "value": "644 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-bordering-the-north-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries bordering the North Sea",
+    "prompt": "Name the sovereign countries whose coastline touches the North Sea.",
+    "answerType": "Countries",
+    "seededDepth": 7,
+    "source": {
+      "name": "OSPAR Commission \u2014 Convention for the Protection of the Marine Environment of the North-East Atlantic",
+      "url": "https://www.ospar.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by length of North Sea coastline (km). Uses the IHO delimitation of the North Sea.",
+    "trivia": "Norway's North Sea coastline is the longest thanks to its fjords, and the UK's east coast forms the North Sea's entire western shore.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NO",
+        "value": "2,650 km"
+      },
+      {
+        "rank": 2,
+        "code": "GB",
+        "value": "1,610 km"
+      },
+      {
+        "rank": 3,
+        "code": "DK",
+        "value": "530 km"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "469 km"
+      },
+      {
+        "rank": 5,
+        "code": "NL",
+        "value": "451 km"
+      },
+      {
+        "rank": 6,
+        "code": "FR",
+        "value": "150 km"
+      },
+      {
+        "rank": 7,
+        "code": "BE",
+        "value": "67 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-crossed-by-the-sahara-desert-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries crossed by the Sahara Desert",
+    "prompt": "Name the countries whose territory is crossed by the Sahara Desert.",
+    "answerType": "Countries",
+    "seededDepth": 10,
+    "source": {
+      "name": "Encyclopaedia Britannica \u2014 Sahara (physical geography)",
+      "url": "https://www.britannica.com/place/Sahara-desert-Africa",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by approximate area of the country covered by the Sahara (km\u00b2). Includes Western Sahara territory under Morocco.",
+    "trivia": "Algeria contains the single largest slice of the Sahara; the desert covers roughly 90% or more of nine of the ten countries listed.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DZ",
+        "value": "1,987,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "LY",
+        "value": "1,553,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "ML",
+        "value": "1,046,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "NE",
+        "value": "1,000,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "TD",
+        "value": "780,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "EG",
+        "value": "681,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "MR",
+        "value": "676,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "SD",
+        "value": "500,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "MA",
+        "value": "415,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "TN",
+        "value": "104,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-northern-hemisphere-countries-by-area-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest Northern-Hemisphere countries by area",
+    "prompt": "Name the countries with the largest total area that lie entirely or predominantly in the Northern Hemisphere.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook (surface area)",
+      "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Total area including inland water, in km\u00b2. Countries must lie mostly north of the Equator. Ranked descending.",
+    "trivia": "Russia alone spans more Northern-Hemisphere longitude than any other country \u2014 nearly half the hemisphere from Kaliningrad to the Bering Strait.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "17,098,246 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "9,984,670 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "9,833,517 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "CN",
+        "value": "9,596,961 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "IN",
+        "value": "3,287,263 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "KZ",
+        "value": "2,724,900 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "DZ",
+        "value": "2,381,741 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "SA",
+        "value": "2,149,690 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "MX",
+        "value": "1,964,375 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "LY",
+        "value": "1,759,540 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "IR",
+        "value": "1,648,195 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "MN",
+        "value": "1,564,110 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "EG",
+        "value": "1,001,450 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "ML",
+        "value": "1,240,192 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "ET",
+        "value": "1,104,300 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-southern-hemisphere-countries-by-area-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest Southern-Hemisphere countries by area",
+    "prompt": "Name the countries with the largest total area that lie entirely or predominantly in the Southern Hemisphere.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook (surface area)",
+      "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Total area including inland water, in km\u00b2. Countries must lie mostly south of the Equator. Ranked descending. Excludes Antarctic territorial claims.",
+    "trivia": "Brazil is the largest country in the Southern Hemisphere despite a sliver of its territory (Amapa) crossing into the Northern Hemisphere.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "8,515,767 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "AU",
+        "value": "7,692,024 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "AR",
+        "value": "2,780,400 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "CD",
+        "value": "2,344,858 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "AO",
+        "value": "1,246,700 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "ZA",
+        "value": "1,221,037 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "BO",
+        "value": "1,098,581 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "PE",
+        "value": "1,285,216 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "TZ",
+        "value": "945,087 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "CL",
+        "value": "756,102 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "ZM",
+        "value": "752,618 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "MZ",
+        "value": "801,590 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "PY",
+        "value": "406,752 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "NA",
+        "value": "825,615 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "MG",
+        "value": "587,041 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-entirely-in-the-western-hemisphere-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries entirely in the Western Hemisphere",
+    "prompt": "Name the countries with the largest total area that lie entirely within the Western Hemisphere.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook (surface area)",
+      "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Total area including inland water, in km\u00b2. 'Entirely in the Western Hemisphere' means all territory lies between the Prime Meridian and 180 degrees west. Ranked descending.",
+    "trivia": "Canada and the US are the two largest, but Canada's Aleutian-adjacent territory keeps it wholly west of the prime meridian while Russia straddles both hemispheres.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "9,984,670 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "9,833,517 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "BR",
+        "value": "8,515,767 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "AR",
+        "value": "2,780,400 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "MX",
+        "value": "1,964,375 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "PE",
+        "value": "1,285,216 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "CO",
+        "value": "1,141,748 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "BO",
+        "value": "1,098,581 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "VE",
+        "value": "916,445 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "CL",
+        "value": "756,102 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "PY",
+        "value": "406,752 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "EC",
+        "value": "283,561 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "GY",
+        "value": "214,969 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "UY",
+        "value": "181,034 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "SR",
+        "value": "163,820 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-the-congo-river-basin-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in the Congo River basin",
+    "prompt": "Name the countries that contain the largest shares of the Congo River drainage basin (by drainage area within borders).",
+    "answerType": "Countries",
+    "seededDepth": 9,
+    "source": {
+      "name": "Wikipedia / Congo River basin (referencing GRDC and CICOS basin data)",
+      "url": "https://en.wikipedia.org/wiki/Congo_River",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by approximate basin drainage area within each country's borders. The basin covers roughly 4.0 million km\u00b2 across central Africa.",
+    "trivia": "The DRC contains about 60% of the entire Congo basin \u2014 the river drains almost the whole country except a narrow eastern strip beyond the Great Rift.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CD",
+        "value": "2,400,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CF",
+        "value": "400,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "AO",
+        "value": "290,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "CG",
+        "value": "250,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "ZM",
+        "value": "180,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "CM",
+        "value": "85,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "TZ",
+        "value": "40,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "9,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "RW",
+        "value": "5,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-the-yangtze-river-basin-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in the Yangtze River basin",
+    "prompt": "Name the countries whose territory falls within the Yangtze (Chang Jiang) River drainage basin.",
+    "answerType": "Countries",
+    "seededDepth": 3,
+    "source": {
+      "name": "Wikipedia / Yangtze basin (Changjiang Water Resources Commission)",
+      "url": "https://en.wikipedia.org/wiki/Yangtze",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Yangtze is overwhelmingly a Chinese river; only tiny headwater tributary areas leak into neighbors. Ranked by basin area within borders.",
+    "trivia": "Roughly 99.8% of the Yangtze basin sits inside China; the trickles across borders are limited to a few tributary catchments in the eastern Himalayas.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "1,795,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "BT",
+        "value": "1,500 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "1,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-the-volga-river-basin-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in the Volga River basin",
+    "prompt": "Name the countries that contain part of the Volga River drainage basin.",
+    "answerType": "Countries",
+    "seededDepth": 3,
+    "source": {
+      "name": "Wikipedia / Volga basin",
+      "url": "https://en.wikipedia.org/wiki/Volga",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Volga is Europe's longest river and its basin is almost entirely within one country. Ranked by basin area within borders.",
+    "trivia": "Only a sliver of the upper Ural-Volga headwaters spills into Kazakhstan; Belarus catches a tiny fringe of the Western Dvina/Volga watershed near Smolensk.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "1,355,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "KZ",
+        "value": "5,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "BY",
+        "value": "500 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-the-yenisei-river-basin-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in the Yenisei River basin",
+    "prompt": "Name the countries that contain part of the Yenisei River drainage basin.",
+    "answerType": "Countries",
+    "seededDepth": 3,
+    "source": {
+      "name": "Wikipedia / Yenisei basin",
+      "url": "https://en.wikipedia.org/wiki/Yenisey",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by drainage area within borders. The Yenisei drains a huge swath of central Siberia plus most of northern Mongolia via the Selenga/Angara headwaters.",
+    "trivia": "The Selenga River in Mongolia is the largest tributary of Lake Baikal, whose only outlet \u2014 the Angara \u2014 joins the Yenisei; so nearly all of Mongolia's rivers ultimately feed the Yenisei.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "2,240,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "340,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "CN",
+        "value": "5,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-most-lakes-over-100-sq-km-2022",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Most lakes over 100 sq km",
+    "prompt": "Name the countries with the most natural lakes larger than 100 square kilometres in area.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "HydroLAKES database (McGill / GRDC)",
+      "url": "https://www.hydrosheds.org/products/hydrolakes",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "Counts natural lakes only; reservoirs and man-made impoundments are excluded. Lakes crossing borders are counted for each country they touch.",
+    "trivia": "Canada alone has more large lakes than the rest of the world combined by some counts \u2014 a legacy of Pleistocene glaciation scouring the Canadian Shield.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "561 lakes"
+      },
+      {
+        "rank": 2,
+        "code": "RU",
+        "value": "228 lakes"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "138 lakes"
+      },
+      {
+        "rank": 4,
+        "code": "CN",
+        "value": "89 lakes"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "51 lakes"
+      },
+      {
+        "rank": 6,
+        "code": "SE",
+        "value": "45 lakes"
+      },
+      {
+        "rank": 7,
+        "code": "FI",
+        "value": "42 lakes"
+      },
+      {
+        "rank": 8,
+        "code": "AU",
+        "value": "38 lakes"
+      },
+      {
+        "rank": 9,
+        "code": "NO",
+        "value": "32 lakes"
+      },
+      {
+        "rank": 10,
+        "code": "AR",
+        "value": "27 lakes"
+      },
+      {
+        "rank": 11,
+        "code": "KZ",
+        "value": "24 lakes"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "18 lakes"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "16 lakes"
+      },
+      {
+        "rank": 14,
+        "code": "CL",
+        "value": "15 lakes"
+      },
+      {
+        "rank": 15,
+        "code": "CD",
+        "value": "14 lakes"
+      }
+    ]
+  },
+  {
+    "id": "geography-longest-coastline-on-the-caspian-sea-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Longest coastline on the Caspian Sea",
+    "prompt": "Name the countries with the longest coastline on the Caspian Sea (the world's largest enclosed body of water).",
+    "answerType": "Countries",
+    "seededDepth": 5,
+    "source": {
+      "name": "Wikipedia / Caspian Sea (Caspian Environment Programme)",
+      "url": "https://en.wikipedia.org/wiki/Caspian_Sea",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "The Caspian Sea is the world's largest inland body of water and is bordered by exactly five countries. Ranked by coastline length in kilometres.",
+    "trivia": "The Caspian holds about 40% of all of Earth's lake water by volume, and its surface sits 28 metres below sea level.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KZ",
+        "value": "1,894 km"
+      },
+      {
+        "rank": 2,
+        "code": "TM",
+        "value": "1,200 km"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "955 km"
+      },
+      {
+        "rank": 4,
+        "code": "RU",
+        "value": "695 km"
+      },
+      {
+        "rank": 5,
+        "code": "IR",
+        "value": "657 km"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-man-made-reservoirs-by-volume-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest man-made reservoirs by volume",
+    "prompt": "Name the countries containing the world's largest man-made reservoirs (ranked by the reservoir on their territory with the largest storage volume).",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "International Commission on Large Dams (ICOLD) \u2014 World Register of Dams",
+      "url": "https://www.icold-cigb.org/GB/world_register/world_register_of_dams.asp",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Ranked by the single largest reservoir contained (fully or largely) within the country, measured by total storage capacity in cubic kilometres.",
+    "trivia": "Lake Kariba on the Zambezi (between Zimbabwe and Zambia) is the world's largest man-made reservoir by volume at about 180 km\u00b3 \u2014 bigger than most natural lakes.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ZW",
+        "value": "180 km\u00b3 (Kariba)"
+      },
+      {
+        "rank": 2,
+        "code": "ZM",
+        "value": "180 km\u00b3 (Kariba, tied)"
+      },
+      {
+        "rank": 3,
+        "code": "RU",
+        "value": "169 km\u00b3 (Bratsk)"
+      },
+      {
+        "rank": 4,
+        "code": "EG",
+        "value": "162 km\u00b3 (Nasser)"
+      },
+      {
+        "rank": 5,
+        "code": "GH",
+        "value": "148 km\u00b3 (Volta)"
+      },
+      {
+        "rank": 6,
+        "code": "CA",
+        "value": "142 km\u00b3 (Manicouagan)"
+      },
+      {
+        "rank": 7,
+        "code": "VE",
+        "value": "135 km\u00b3 (Guri)"
+      },
+      {
+        "rank": 8,
+        "code": "US",
+        "value": "35 km\u00b3 (Mead)"
+      },
+      {
+        "rank": 9,
+        "code": "CN",
+        "value": "39 km\u00b3 (Three Gorges)"
+      },
+      {
+        "rank": 10,
+        "code": "BR",
+        "value": "29 km\u00b3 (Sobradinho)"
+      },
+      {
+        "rank": 11,
+        "code": "PY",
+        "value": "29 km\u00b3 (Itaipu, tied)"
+      },
+      {
+        "rank": 12,
+        "code": "MZ",
+        "value": "56 km\u00b3 (Cahora Bassa)"
+      }
+    ]
+  },
+  {
+    "id": "geography-tallest-dams-by-wall-height-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Tallest dams by wall height",
+    "prompt": "Name the countries containing the world's tallest dams, ranked by the wall height of the single tallest dam within their borders.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "International Commission on Large Dams (ICOLD) \u2014 tallest dams list",
+      "url": "https://www.icold-cigb.org/GB/world_register/general_synthesis.asp",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Ranked by the height of each country's tallest single dam wall (from foundation to crest). Only completed and operational dams are included.",
+    "trivia": "Tajikistan's Nurek Dam held the world height record from 1980 until 2013, when the Jinping-I arch dam in China surpassed it.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TJ",
+        "value": "300 m (Nurek)"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "305 m (Jinping-I)"
+      },
+      {
+        "rank": 3,
+        "code": "GE",
+        "value": "271 m (Enguri)"
+      },
+      {
+        "rank": 4,
+        "code": "CH",
+        "value": "285 m (Grande Dixence)"
+      },
+      {
+        "rank": 5,
+        "code": "IT",
+        "value": "262 m (Vajont)"
+      },
+      {
+        "rank": 6,
+        "code": "US",
+        "value": "234 m (Oroville)"
+      },
+      {
+        "rank": 7,
+        "code": "MX",
+        "value": "261 m (Chicoas\u00e9n)"
+      },
+      {
+        "rank": 8,
+        "code": "CO",
+        "value": "225 m (Chivor)"
+      },
+      {
+        "rank": 9,
+        "code": "TR",
+        "value": "249 m (Deriner)"
+      },
+      {
+        "rank": 10,
+        "code": "IR",
+        "value": "247 m (Bakhtiari planned; Karun-4 at 230 m built)"
+      },
+      {
+        "rank": 11,
+        "code": "BR",
+        "value": "196 m (Itaipu)"
+      },
+      {
+        "rank": 12,
+        "code": "CA",
+        "value": "243 m (Mica)"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "202 m (Almendra)"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "200 m (K\u00f6lnbrein)"
+      },
+      {
+        "rank": 15,
+        "code": "IN",
+        "value": "261 m (Tehri)"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-hydroelectric-reservoirs-by-capacity-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest hydroelectric reservoirs by capacity",
+    "prompt": "Name the countries containing the world's largest hydroelectric-generation reservoirs (ranked by installed generating capacity of the associated dam).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "International Hydropower Association \u2014 installed capacity database",
+      "url": "https://www.hydropower.org/status-report",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Ranked by installed capacity (megawatts) of the country's largest hydro plant. Cross-border dams are credited to each host country.",
+    "trivia": "China's Three Gorges Dam is the largest power plant of any kind in the world at 22,500 MW installed capacity \u2014 nearly double the next-largest.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "22,500 MW (Three Gorges)"
+      },
+      {
+        "rank": 2,
+        "code": "BR",
+        "value": "14,000 MW (Itaipu)"
+      },
+      {
+        "rank": 3,
+        "code": "PY",
+        "value": "14,000 MW (Itaipu, tied)"
+      },
+      {
+        "rank": 4,
+        "code": "VE",
+        "value": "10,235 MW (Guri)"
+      },
+      {
+        "rank": 5,
+        "code": "US",
+        "value": "6,809 MW (Grand Coulee)"
+      },
+      {
+        "rank": 6,
+        "code": "RU",
+        "value": "6,400 MW (Sayano-Shushenskaya)"
+      },
+      {
+        "rank": 7,
+        "code": "CA",
+        "value": "5,616 MW (Robert-Bourassa)"
+      },
+      {
+        "rank": 8,
+        "code": "ET",
+        "value": "5,150 MW (Grand Ethiopian Renaissance)"
+      },
+      {
+        "rank": 9,
+        "code": "VN",
+        "value": "2,400 MW (S\u01a1n La)"
+      },
+      {
+        "rank": 10,
+        "code": "MY",
+        "value": "2,400 MW (Bakun, tied)"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "2,400 MW (Tehri complex, tied)"
+      },
+      {
+        "rank": 12,
+        "code": "PK",
+        "value": "3,478 MW (Tarbela)"
+      },
+      {
+        "rank": 13,
+        "code": "AR",
+        "value": "3,200 MW (Yacyret\u00e1)"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "1,240 MW (Kvilldal)"
+      },
+      {
+        "rank": 15,
+        "code": "IR",
+        "value": "2,000 MW (Karun-3)"
+      }
+    ]
+  },
+  {
+    "id": "geography-most-large-dams-2020",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Most large dams",
+    "prompt": "Name the countries with the most large dams (reservoirs and hydroelectric structures over 15 m tall).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "International Commission on Large Dams (ICOLD) \u2014 World Register of Dams",
+      "url": "https://www.icold-cigb.org/GB/world_register/general_synthesis.asp",
+      "asOf": "2020"
+    },
+    "note": null,
+    "disclaimer": "Counts dams meeting the ICOLD large-dam definition (over 15 m tall, or 5-15 m with a reservoir over 3 million m\u00b3). Values are approximate totals as of the latest register.",
+    "trivia": "China alone has more large dams than the next four countries combined \u2014 most were built after 1980 as part of state hydropower and irrigation programmes.",
+    "asOfDate": "2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "23,841 dams"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "9,265 dams"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "5,102 dams"
+      },
+      {
+        "rank": 4,
+        "code": "JP",
+        "value": "3,130 dams"
+      },
+      {
+        "rank": 5,
+        "code": "BR",
+        "value": "1,411 dams"
+      },
+      {
+        "rank": 6,
+        "code": "KR",
+        "value": "1,338 dams"
+      },
+      {
+        "rank": 7,
+        "code": "CA",
+        "value": "1,166 dams"
+      },
+      {
+        "rank": 8,
+        "code": "ZA",
+        "value": "1,114 dams"
+      },
+      {
+        "rank": 9,
+        "code": "ES",
+        "value": "1,064 dams"
+      },
+      {
+        "rank": 10,
+        "code": "TR",
+        "value": "972 dams"
+      },
+      {
+        "rank": 11,
+        "code": "FR",
+        "value": "713 dams"
+      },
+      {
+        "rank": 12,
+        "code": "MX",
+        "value": "667 dams"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "541 dams"
+      },
+      {
+        "rank": 14,
+        "code": "GB",
+        "value": "517 dams"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "507 dams"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-with-the-most-international-river-basins-2023",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries with the most international river basins",
+    "prompt": "Name the countries whose territory falls within the most transboundary (cross-border) river basins.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Transboundary Freshwater Dispute Database \u2014 Oregon State University",
+      "url": "https://transboundarywaters.science.oregonstate.edu/",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Counts international river basins shared with at least one other country. A basin only needs to touch the country's territory, not be dominant there.",
+    "trivia": "Guinea's status as 'water tower of West Africa' is why it shares so many basins \u2014 the Niger, Senegal, and Gambia rivers all rise in the Fouta Djallon highlands.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "30 basins"
+      },
+      {
+        "rank": 2,
+        "code": "CL",
+        "value": "24 basins"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "23 basins"
+      },
+      {
+        "rank": 4,
+        "code": "AR",
+        "value": "23 basins (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "CN",
+        "value": "21 basins"
+      },
+      {
+        "rank": 6,
+        "code": "CA",
+        "value": "20 basins"
+      },
+      {
+        "rank": 7,
+        "code": "GN",
+        "value": "16 basins"
+      },
+      {
+        "rank": 8,
+        "code": "TR",
+        "value": "12 basins"
+      },
+      {
+        "rank": 9,
+        "code": "FR",
+        "value": "12 basins (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "PE",
+        "value": "11 basins"
+      },
+      {
+        "rank": 11,
+        "code": "CI",
+        "value": "11 basins (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "ZM",
+        "value": "10 basins"
+      },
+      {
+        "rank": 13,
+        "code": "MZ",
+        "value": "10 basins (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "DE",
+        "value": "10 basins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "AT",
+        "value": "10 basins (tied)"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-the-niger-river-basin-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in the Niger River basin",
+    "prompt": "Name the countries that contain part of the Niger River drainage basin (by drainage area within borders).",
+    "answerType": "Countries",
+    "seededDepth": 9,
+    "source": {
+      "name": "Niger Basin Authority (ABN) \u2014 basin statistics",
+      "url": "https://en.wikipedia.org/wiki/Niger_River",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by approximate basin drainage area within each country's borders. The Niger basin covers roughly 2.1 million km\u00b2 across West Africa.",
+    "trivia": "The Niger's course famously curves inland into the Sahara before turning south \u2014 the ancient river was actually two separate systems that joined during the last ice age.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NG",
+        "value": "584,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "ML",
+        "value": "574,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "NE",
+        "value": "497,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "DZ",
+        "value": "162,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "GN",
+        "value": "97,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "CM",
+        "value": "88,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "BF",
+        "value": "83,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "BJ",
+        "value": "45,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "CI",
+        "value": "23,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-in-africa-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries in Africa by area",
+    "prompt": "Name the largest countries in Africa ranked by total area (land plus inland water), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Ranking is limited to sovereign African states.",
+    "trivia": "Algeria is Africa's largest country by area, having overtaken Sudan in 2011 when South Sudan became independent.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DZ",
+        "value": "2,381,741 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CD",
+        "value": "2,344,858 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "SD",
+        "value": "1,861,484 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "LY",
+        "value": "1,759,540 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "TD",
+        "value": "1,284,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "NE",
+        "value": "1,267,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "AO",
+        "value": "1,246,700 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "ML",
+        "value": "1,240,192 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "ZA",
+        "value": "1,221,037 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "ET",
+        "value": "1,104,300 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "MR",
+        "value": "1,030,700 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "EG",
+        "value": "1,001,450 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "TZ",
+        "value": "947,300 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "NG",
+        "value": "923,768 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "NA",
+        "value": "825,615 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-in-asia-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries in Asia by area",
+    "prompt": "Name the largest countries in Asia ranked by total area (land plus inland water), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Uses the geographic Asia region; Russia's Asian portion alone would top the list, but Russia is ranked here by total national area as convention. Turkey is included as transcontinental. Excludes Special Administrative Regions.",
+    "trivia": "About 77% of Russia's total area lies in Asia (Siberia), covering roughly 13 million km\u00b2 on its own \u2014 larger than any other Asian country.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "17,098,242 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CN",
+        "value": "9,596,961 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "IN",
+        "value": "3,287,263 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "KZ",
+        "value": "2,724,900 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "SA",
+        "value": "2,149,690 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "ID",
+        "value": "1,904,569 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "IR",
+        "value": "1,648,195 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "MN",
+        "value": "1,564,110 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "PK",
+        "value": "881,913 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "TR",
+        "value": "783,562 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "MM",
+        "value": "676,578 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "AF",
+        "value": "652,230 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "YE",
+        "value": "527,968 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "TH",
+        "value": "513,120 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "TM",
+        "value": "488,100 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-in-europe-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries in Europe by area",
+    "prompt": "Name the largest countries in Europe ranked by total area (land plus inland water), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Russia and Turkey are included as transcontinental countries \u2014 their entire national areas are used. Kazakhstan, though partly in Europe, is excluded here by convention.",
+    "trivia": "Ukraine is the largest country wholly within Europe (setting Russia aside), and about 42 times the size of Belgium.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "17,098,242 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "UA",
+        "value": "603,550 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "FR",
+        "value": "643,801 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "ES",
+        "value": "505,370 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "SE",
+        "value": "450,295 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "DE",
+        "value": "357,022 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "FI",
+        "value": "338,145 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "NO",
+        "value": "323,802 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "PL",
+        "value": "312,685 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "IT",
+        "value": "301,340 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "GB",
+        "value": "243,610 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "RO",
+        "value": "238,391 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "BY",
+        "value": "207,600 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "GR",
+        "value": "131,957 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "BG",
+        "value": "110,879 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-in-south-america-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries in South America by area",
+    "prompt": "Name the largest countries in South America ranked by total area (land plus inland water), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Includes all 12 sovereign South American states.",
+    "trivia": "Brazil covers roughly 47% of South America's total land area and borders every South American country except Chile and Ecuador.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "8,515,767 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "AR",
+        "value": "2,780,400 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "PE",
+        "value": "1,285,216 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "1,141,748 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "BO",
+        "value": "1,098,581 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "VE",
+        "value": "916,445 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "CL",
+        "value": "756,102 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "PY",
+        "value": "406,752 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "EC",
+        "value": "283,561 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "GY",
+        "value": "214,969 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "UY",
+        "value": "176,215 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "SR",
+        "value": "163,820 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-in-north-america-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries in North America by area",
+    "prompt": "Name the largest countries in North America ranked by total area (land plus inland water), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 10,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Uses the geographic North America region including Central America and Caribbean states.",
+    "trivia": "Canada is the second-largest country in the world by total area \u2014 only Russia is bigger.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "9,984,670 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "9,833,517 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "MX",
+        "value": "1,964,375 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "NI",
+        "value": "130,373 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "HN",
+        "value": "112,492 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "CU",
+        "value": "110,860 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "GT",
+        "value": "108,889 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "PA",
+        "value": "75,420 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "CR",
+        "value": "51,100 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "DO",
+        "value": "48,670 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-countries-in-oceania-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest countries in Oceania by area",
+    "prompt": "Name the largest countries in Oceania ranked by total area (land plus inland water), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 14,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Includes sovereign states in Australia, Melanesia, Micronesia, and Polynesia. Excludes non-sovereign territories.",
+    "trivia": "Australia is roughly 400 times the size of the next-largest Oceanian country, Papua New Guinea, and larger than every other Oceanian country combined by more than an order of magnitude.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AU",
+        "value": "7,692,024 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "PG",
+        "value": "462,840 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "NZ",
+        "value": "268,838 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "SB",
+        "value": "28,896 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "FJ",
+        "value": "18,272 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "VU",
+        "value": "12,189 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "WS",
+        "value": "2,831 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "KI",
+        "value": "811 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "TO",
+        "value": "747 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "FM",
+        "value": "702 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "PW",
+        "value": "459 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "MH",
+        "value": "181 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "TV",
+        "value": "26 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "NR",
+        "value": "21 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-smallest-countries-in-africa-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Smallest countries in Africa by area",
+    "prompt": "Name the smallest sovereign countries in Africa ranked by total area (rank 1 is smallest), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water) in km\u00b2. Rank 1 is the smallest African sovereign state. Island nations off the African coast are included.",
+    "trivia": "Seychelles is the smallest African country by area but has the highest GDP per capita on the continent.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SC",
+        "value": "455 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "ST",
+        "value": "964 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "MU",
+        "value": "2,040 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "KM",
+        "value": "2,235 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "CV",
+        "value": "4,033 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "GM",
+        "value": "11,300 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "SZ",
+        "value": "17,364 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "DJ",
+        "value": "23,200 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "RW",
+        "value": "26,338 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "BI",
+        "value": "27,834 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "GQ",
+        "value": "28,051 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "LS",
+        "value": "30,355 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-smallest-countries-in-the-world-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Smallest countries in the world by area",
+    "prompt": "Name the smallest sovereign countries in the world ranked by total area (rank 1 is smallest), in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Total area (land + inland water). Rank 1 is smallest. Includes microstates and small island nations. Excludes non-sovereign entities and disputed territories.",
+    "trivia": "Vatican City is only about 0.49 km\u00b2 \u2014 you could walk across it in under 10 minutes.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "VA",
+        "value": "0.49 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "MC",
+        "value": "2.0 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "NR",
+        "value": "21 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "TV",
+        "value": "26 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "SM",
+        "value": "61 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "LI",
+        "value": "160 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "MH",
+        "value": "181 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "KN",
+        "value": "261 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "MV",
+        "value": "298 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "MT",
+        "value": "316 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "GD",
+        "value": "344 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "VC",
+        "value": "389 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "BB",
+        "value": "430 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "AG",
+        "value": "442 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "SC",
+        "value": "455 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-eu-member-states-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest EU member states by area",
+    "prompt": "Name the largest current member states of the European Union ranked by total area, in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Eurostat / European Union \u2014 country profiles",
+      "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
+      "asOf": "2024 (EU-27, post-Brexit)"
+    },
+    "note": null,
+    "disclaimer": "EU-27 members only (post-Brexit; UK excluded). Total area in km\u00b2 including inland water. France's figure covers metropolitan France only.",
+    "trivia": "France is the largest EU country by area even excluding its overseas departments, which if counted would push it well past 640,000 km\u00b2.",
+    "asOfDate": "2024 (EU-27, post-Brexit)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FR",
+        "value": "643,801 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "ES",
+        "value": "505,370 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "SE",
+        "value": "450,295 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "DE",
+        "value": "357,022 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "FI",
+        "value": "338,145 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "PL",
+        "value": "312,685 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "IT",
+        "value": "301,340 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "RO",
+        "value": "238,391 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "GR",
+        "value": "131,957 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "BG",
+        "value": "110,879 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "HU",
+        "value": "93,028 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "PT",
+        "value": "92,090 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "83,871 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "CZ",
+        "value": "78,867 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "IE",
+        "value": "70,273 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-asean-countries-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest ASEAN countries by area",
+    "prompt": "Name the ten member states of ASEAN (Association of Southeast Asian Nations) ranked by total area, in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 10,
+    "source": {
+      "name": "ASEAN Secretariat \u2014 Member States",
+      "url": "https://asean.org/member-states/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "All 10 ASEAN members are included. Total area in km\u00b2 (land plus inland water).",
+    "trivia": "Indonesia's roughly 17,500 islands make up more than half of ASEAN's combined land area.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ID",
+        "value": "1,904,569 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "MM",
+        "value": "676,578 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "TH",
+        "value": "513,120 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "VN",
+        "value": "331,212 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "MY",
+        "value": "330,803 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "PH",
+        "value": "300,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "LA",
+        "value": "236,800 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "KH",
+        "value": "181,035 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "BN",
+        "value": "5,765 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "SG",
+        "value": "728 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-central-asia-the-five-stans-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in Central Asia (the five stans)",
+    "prompt": "Name the five Central Asian republics \u2014 the 'five stans' \u2014 ranked by total area, in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 5,
+    "source": {
+      "name": "UN Statistics Division \u2014 Central Asia sub-region",
+      "url": "https://unstats.un.org/unsd/methodology/m49/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Central Asia here follows the UN M49 sub-region (five former Soviet republics). Afghanistan is sometimes included in broader definitions but excluded here.",
+    "trivia": "Kazakhstan is the world's largest landlocked country by area \u2014 bigger than all of Western Europe combined.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KZ",
+        "value": "2,724,900 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "TM",
+        "value": "488,100 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "UZ",
+        "value": "447,400 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "KG",
+        "value": "199,951 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "TJ",
+        "value": "143,100 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-countries-in-central-america-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Countries in Central America by area",
+    "prompt": "Name all seven sovereign countries of Central America ranked by total area, in square kilometres.",
+    "answerType": "Countries",
+    "seededDepth": 7,
+    "source": {
+      "name": "UN Statistics Division / CIA World Factbook",
+      "url": "https://www.cia.gov/the-world-factbook/field/area/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Central America here is defined as the seven sovereign states of the Central American isthmus (Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica, Panama). Mexico is excluded by convention.",
+    "trivia": "Belize is the least populous Central American country and the only one whose official language is English, a legacy of British Honduras.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NI",
+        "value": "130,373 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "HN",
+        "value": "112,492 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "GT",
+        "value": "108,889 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "PA",
+        "value": "75,420 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "CR",
+        "value": "51,100 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "BZ",
+        "value": "22,966 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "SV",
+        "value": "21,041 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "climate-highest-average-annual-humidity-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Highest average annual humidity",
+    "prompt": "Name the countries with the highest average annual relative humidity.",
+    "answerType": "Countries",
+    "seededDepth": 13,
+    "source": {
+      "name": "World Bank Climate Change Knowledge Portal \u2014 relative humidity climatology",
+      "url": "https://climateknowledgeportal.worldbank.org/",
+      "asOf": "1991-2020 climatology"
+    },
+    "note": null,
+    "disclaimer": "Ranked by national-average annual relative humidity (%). Small equatorial and island states tend to dominate.",
+    "trivia": "Papua New Guinea's interior rainforests routinely register above 90% humidity every night of the year.",
+    "asOfDate": "1991-2020 climatology",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "PG",
+        "value": "89%"
+      },
+      {
+        "rank": 2,
+        "code": "SB",
+        "value": "87%"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "85%"
+      },
+      {
+        "rank": 4,
+        "code": "MY",
+        "value": "84%"
+      },
+      {
+        "rank": 5,
+        "code": "BN",
+        "value": "84% (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "CD",
+        "value": "83%"
+      },
+      {
+        "rank": 7,
+        "code": "CG",
+        "value": "83% (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "82%"
+      },
+      {
+        "rank": 9,
+        "code": "CO",
+        "value": "82% (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "EC",
+        "value": "81%"
+      },
+      {
+        "rank": 11,
+        "code": "BD",
+        "value": "80%"
+      },
+      {
+        "rank": 12,
+        "code": "MV",
+        "value": "80% (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "PH",
+        "value": "79%"
+      }
+    ]
+  },
+  {
+    "id": "climate-most-temperate-mild-climate-year-round-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Most temperate (mild) climate year-round",
+    "prompt": "Name the countries most widely cited as having the mildest, most temperate climate year-round (smallest annual temperature range and few extremes).",
+    "answerType": "Countries",
+    "seededDepth": 13,
+    "source": {
+      "name": "K\u00f6ppen-Geiger climate classification / World Bank CCKP",
+      "url": "https://climateknowledgeportal.worldbank.org/",
+      "asOf": "1991-2020 climatology"
+    },
+    "note": null,
+    "disclaimer": "Combines annual temperature range and share of area in K\u00f6ppen 'C' (temperate) zones. Excludes microstates smaller than 1,000 km\u00b2.",
+    "trivia": "The Canary Islands, part of Spain, are one of only a handful of places on Earth where the monthly average temperature stays within a 6\u00b0C band across the entire year.",
+    "asOfDate": "1991-2020 climatology",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NZ",
+        "value": "annual range ~8\u00b0C"
+      },
+      {
+        "rank": 2,
+        "code": "PT",
+        "value": "annual range ~10\u00b0C"
+      },
+      {
+        "rank": 3,
+        "code": "IE",
+        "value": "annual range ~10\u00b0C (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "GB",
+        "value": "annual range ~11\u00b0C"
+      },
+      {
+        "rank": 5,
+        "code": "ES",
+        "value": "annual range ~12\u00b0C"
+      },
+      {
+        "rank": 6,
+        "code": "CL",
+        "value": "annual range ~12\u00b0C (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "UY",
+        "value": "annual range ~13\u00b0C"
+      },
+      {
+        "rank": 8,
+        "code": "AU",
+        "value": "annual range ~13\u00b0C (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "IT",
+        "value": "annual range ~14\u00b0C"
+      },
+      {
+        "rank": 10,
+        "code": "GR",
+        "value": "annual range ~14\u00b0C (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "ZA",
+        "value": "annual range ~14\u00b0C (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "AR",
+        "value": "annual range ~15\u00b0C"
+      },
+      {
+        "rank": 13,
+        "code": "FR",
+        "value": "annual range ~15\u00b0C (tied)"
+      }
+    ]
+  },
+  {
+    "id": "climate-most-sunshine-hours-per-year-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Most sunshine hours per year",
+    "prompt": "Name the countries with the highest national-average annual sunshine hours.",
+    "answerType": "Countries",
+    "seededDepth": 14,
+    "source": {
+      "name": "World Meteorological Organization / national meteorological agencies",
+      "url": "https://public.wmo.int/en",
+      "asOf": "1991-2020 climatology"
+    },
+    "note": null,
+    "disclaimer": "National-average annual sunshine hours from long-term climatology. Small desert-dominant countries top the list.",
+    "trivia": "Yuma, Arizona is often cited as the sunniest place on Earth at ~4,000 hours \u2014 but as a country average, Egypt's near-total desert coverage puts it right at the top.",
+    "asOfDate": "1991-2020 climatology",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "EG",
+        "value": "3,800 hours"
+      },
+      {
+        "rank": 2,
+        "code": "LY",
+        "value": "3,700 hours"
+      },
+      {
+        "rank": 3,
+        "code": "SD",
+        "value": "3,650 hours"
+      },
+      {
+        "rank": 4,
+        "code": "SA",
+        "value": "3,600 hours"
+      },
+      {
+        "rank": 5,
+        "code": "NE",
+        "value": "3,550 hours"
+      },
+      {
+        "rank": 6,
+        "code": "AE",
+        "value": "3,500 hours"
+      },
+      {
+        "rank": 7,
+        "code": "TD",
+        "value": "3,450 hours"
+      },
+      {
+        "rank": 8,
+        "code": "OM",
+        "value": "3,400 hours"
+      },
+      {
+        "rank": 9,
+        "code": "DZ",
+        "value": "3,350 hours"
+      },
+      {
+        "rank": 10,
+        "code": "YE",
+        "value": "3,300 hours"
+      },
+      {
+        "rank": 11,
+        "code": "MR",
+        "value": "3,250 hours"
+      },
+      {
+        "rank": 12,
+        "code": "IL",
+        "value": "3,200 hours"
+      },
+      {
+        "rank": 13,
+        "code": "JO",
+        "value": "3,150 hours"
+      },
+      {
+        "rank": 14,
+        "code": "NA",
+        "value": "3,100 hours"
+      }
+    ]
+  },
+  {
+    "id": "climate-largest-savanna-area-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Largest savanna area",
+    "prompt": "Name the countries with the largest area of tropical savanna (K\u00f6ppen 'Aw'/'As' plus wooded grassland).",
+    "answerType": "Countries",
+    "seededDepth": 14,
+    "source": {
+      "name": "FAO Global Ecological Zones / WWF Terrestrial Ecoregions",
+      "url": "https://www.fao.org/geospatial/resources/detail/en/c/1024744/",
+      "asOf": "2020 assessment"
+    },
+    "note": null,
+    "disclaimer": "Includes tropical grasslands, savannas, and shrublands biome. Large African and South American countries dominate.",
+    "trivia": "Brazil's Cerrado savanna is the world's most biodiverse tropical grassland, covering more than 20% of the country.",
+    "asOfDate": "2020 assessment",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "2,000,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "AU",
+        "value": "1,900,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "SD",
+        "value": "1,100,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "TD",
+        "value": "900,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "AO",
+        "value": "850,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "TZ",
+        "value": "700,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "ML",
+        "value": "650,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "MZ",
+        "value": "600,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "ZM",
+        "value": "580,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "CD",
+        "value": "550,000 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "VE",
+        "value": "500,000 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "CF",
+        "value": "480,000 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "NG",
+        "value": "450,000 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "ET",
+        "value": "420,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "climate-largest-steppe-temperate-grassland-area-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Largest steppe / temperate grassland area",
+    "prompt": "Name the countries with the largest area of steppe or temperate grassland biome.",
+    "answerType": "Countries",
+    "seededDepth": 13,
+    "source": {
+      "name": "WWF Terrestrial Ecoregions \u2014 Temperate Grasslands, Savannas, and Shrublands",
+      "url": "https://www.worldwildlife.org/biomes/temperate-grasslands-savannas-and-shrublands",
+      "asOf": "2020 assessment"
+    },
+    "note": null,
+    "disclaimer": "Ranks by area classified as temperate grassland or steppe biome. Central Asian and North American countries dominate.",
+    "trivia": "The Eurasian Steppe, running from Hungary to Mongolia, is the largest temperate grassland region on Earth.",
+    "asOfDate": "2020 assessment",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "KZ",
+        "value": "1,800,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "RU",
+        "value": "1,500,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "MN",
+        "value": "1,100,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "CN",
+        "value": "900,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "US",
+        "value": "800,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "AR",
+        "value": "600,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "CA",
+        "value": "450,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "AU",
+        "value": "350,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "UA",
+        "value": "250,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "ZA",
+        "value": "180,000 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "UY",
+        "value": "140,000 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "HU",
+        "value": "40,000 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "RO",
+        "value": "30,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "climate-largest-mediterranean-climate-zone-2016",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Largest Mediterranean climate zone",
+    "prompt": "Name the countries with the largest area under a Mediterranean climate (K\u00f6ppen Csa/Csb).",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "K\u00f6ppen-Geiger climate classification (Beck et al. 2018)",
+      "url": "https://www.nature.com/articles/sdata2018214",
+      "asOf": "1980-2016 climatology"
+    },
+    "note": null,
+    "disclaimer": "Mediterranean climate covers only about 2% of Earth's land surface, concentrated in five global regions.",
+    "trivia": "Australia's southwestern corner and the coast around Adelaide together give it more Mediterranean-climate land than any other country.",
+    "asOfDate": "1980-2016 climatology",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AU",
+        "value": "800,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "350,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "ES",
+        "value": "340,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "TR",
+        "value": "250,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "CL",
+        "value": "230,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "IT",
+        "value": "200,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "ZA",
+        "value": "90,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "GR",
+        "value": "80,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "MA",
+        "value": "70,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "PT",
+        "value": "60,000 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "DZ",
+        "value": "55,000 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "FR",
+        "value": "50,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "climate-largest-tropical-rainforest-area-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Largest tropical rainforest area",
+    "prompt": "Name the countries with the largest area of tropical primary rainforest.",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "FAO Global Forest Resources Assessment 2020 / Global Forest Watch",
+      "url": "https://www.fao.org/forest-resources-assessment/en/",
+      "asOf": "2020"
+    },
+    "note": null,
+    "disclaimer": "Ranks tropical humid primary forest area. Excludes boreal forest and tropical dry forest.",
+    "trivia": "The DR Congo alone holds more than 60% of Africa's tropical rainforest, forming the core of the Congo Basin.",
+    "asOfDate": "2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BR",
+        "value": "3,300,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CD",
+        "value": "1,000,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "840,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "PE",
+        "value": "680,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "CO",
+        "value": "590,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "BO",
+        "value": "440,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "VE",
+        "value": "390,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "MX",
+        "value": "320,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "PG",
+        "value": "290,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "MY",
+        "value": "180,000 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "GY",
+        "value": "170,000 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "SR",
+        "value": "140,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "climate-most-biodiversity-hotspots-2023",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Most biodiversity hotspots",
+    "prompt": "Name the countries that contain the most Conservation International biodiversity hotspots.",
+    "answerType": "Countries",
+    "seededDepth": 14,
+    "source": {
+      "name": "Conservation International \u2014 Biodiversity Hotspots",
+      "url": "https://www.conservation.org/priorities/biodiversity-hotspots",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Counts how many of Conservation International's 36 recognised biodiversity hotspots overlap each country's territory.",
+    "trivia": "China spans seven hotspots \u2014 from the Himalayas and Mountains of Southwest China to Indo-Burma \u2014 more than any other single country.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "7 hotspots"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "4 hotspots"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "4 hotspots (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "MX",
+        "value": "3 hotspots"
+      },
+      {
+        "rank": 5,
+        "code": "RU",
+        "value": "3 hotspots (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "US",
+        "value": "3 hotspots (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "MM",
+        "value": "3 hotspots (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "AF",
+        "value": "2 hotspots"
+      },
+      {
+        "rank": 9,
+        "code": "PK",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "IR",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "TR",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "AU",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MY",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "BR",
+        "value": "2 hotspots (tied)"
+      }
+    ]
+  },
+  {
+    "id": "climate-widest-range-of-k-ppen-climate-zones-2016",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Widest range of K\u00f6ppen climate zones",
+    "prompt": "Name the countries containing the widest range of distinct K\u00f6ppen climate zones inside their borders.",
+    "answerType": "Countries",
+    "seededDepth": 13,
+    "source": {
+      "name": "K\u00f6ppen-Geiger climate classification (Beck et al. 2018)",
+      "url": "https://www.nature.com/articles/sdata2018214",
+      "asOf": "1980-2016 climatology"
+    },
+    "note": null,
+    "disclaimer": "Counts distinct K\u00f6ppen-Geiger sub-types present in each country. Large countries spanning multiple latitudes dominate.",
+    "trivia": "China is one of very few countries that contains every one of the five main K\u00f6ppen groups \u2014 tropical, arid, temperate, continental, and polar.",
+    "asOfDate": "1980-2016 climatology",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "18 zones"
+      },
+      {
+        "rank": 2,
+        "code": "US",
+        "value": "17 zones"
+      },
+      {
+        "rank": 3,
+        "code": "AR",
+        "value": "15 zones"
+      },
+      {
+        "rank": 4,
+        "code": "IN",
+        "value": "14 zones"
+      },
+      {
+        "rank": 5,
+        "code": "AU",
+        "value": "14 zones (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "RU",
+        "value": "13 zones"
+      },
+      {
+        "rank": 7,
+        "code": "BR",
+        "value": "13 zones (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "MX",
+        "value": "13 zones (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "CA",
+        "value": "12 zones"
+      },
+      {
+        "rank": 10,
+        "code": "CL",
+        "value": "12 zones (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PE",
+        "value": "11 zones"
+      },
+      {
+        "rank": 12,
+        "code": "PK",
+        "value": "10 zones"
+      },
+      {
+        "rank": 13,
+        "code": "IR",
+        "value": "10 zones (tied)"
+      }
+    ]
+  },
+  {
+    "id": "climate-most-affected-by-el-ni-o-events-2020",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Most affected by El Ni\u00f1o events",
+    "prompt": "Name the countries whose weather is most severely and consistently disrupted by El Ni\u00f1o (ENSO) events.",
+    "answerType": "Countries",
+    "seededDepth": 14,
+    "source": {
+      "name": "NOAA Climate Prediction Center / IRI ENSO impact atlas",
+      "url": "https://iri.columbia.edu/our-expertise/climate/enso/",
+      "asOf": "1950-2020 composite"
+    },
+    "note": null,
+    "disclaimer": "Ranked by long-term ENSO impact severity (drought or flood anomaly frequency and magnitude). Pacific-rim countries dominate.",
+    "trivia": "Peru gave El Ni\u00f1o its name \u2014 Peruvian fishermen noticed the warm current arriving near Christmas, hence 'the boy child.'",
+    "asOfDate": "1950-2020 composite",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "PE",
+        "value": "extreme impact"
+      },
+      {
+        "rank": 2,
+        "code": "EC",
+        "value": "extreme impact"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "extreme impact"
+      },
+      {
+        "rank": 4,
+        "code": "AU",
+        "value": "extreme impact"
+      },
+      {
+        "rank": 5,
+        "code": "PH",
+        "value": "very high impact"
+      },
+      {
+        "rank": 6,
+        "code": "PG",
+        "value": "very high impact"
+      },
+      {
+        "rank": 7,
+        "code": "CO",
+        "value": "very high impact"
+      },
+      {
+        "rank": 8,
+        "code": "VE",
+        "value": "high impact"
+      },
+      {
+        "rank": 9,
+        "code": "BR",
+        "value": "high impact"
+      },
+      {
+        "rank": 10,
+        "code": "IN",
+        "value": "high impact"
+      },
+      {
+        "rank": 11,
+        "code": "ZA",
+        "value": "high impact"
+      },
+      {
+        "rank": 12,
+        "code": "ZW",
+        "value": "high impact"
+      },
+      {
+        "rank": 13,
+        "code": "ET",
+        "value": "high impact"
+      },
+      {
+        "rank": 14,
+        "code": "US",
+        "value": "moderate-high impact"
+      }
+    ]
+  },
+  {
+    "id": "climate-largest-permafrost-area-2019",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Largest permafrost area",
+    "prompt": "Name the countries with the largest area of permafrost (permanently frozen ground).",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "International Permafrost Association \u2014 Circum-Arctic Map of Permafrost",
+      "url": "https://ipa.arcticportal.org/",
+      "asOf": "2019 revision"
+    },
+    "note": null,
+    "disclaimer": "Includes continuous, discontinuous, and sporadic permafrost. Excludes seasonally frozen ground.",
+    "trivia": "About two-thirds of Russia's landmass sits on permafrost \u2014 thawing ground is already destabilising pipelines and buildings across Siberia.",
+    "asOfDate": "2019 revision",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "11,000,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "5,700,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "CN",
+        "value": "2,100,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "US",
+        "value": "1,500,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "MN",
+        "value": "1,100,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "KZ",
+        "value": "150,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "NO",
+        "value": "80,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "SE",
+        "value": "40,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "IS",
+        "value": "20,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "FI",
+        "value": "15,000 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "CL",
+        "value": "10,000 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "AR",
+        "value": "8,000 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "climate-largest-area-above-60-north-2021",
+    "theme": "Countries",
+    "subtheme": "Climate",
+    "title": "Largest area above 60\u00b0 north",
+    "prompt": "Name the countries with the largest land area lying north of the 60\u00b0 north parallel.",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "Arctic Monitoring and Assessment Programme (AMAP) geospatial database",
+      "url": "https://www.amap.no/",
+      "asOf": "2021 assessment"
+    },
+    "note": null,
+    "disclaimer": "Ranks by land area (km\u00b2) north of 60\u00b0N. Excludes Greenland and other non-sovereign Arctic territories.",
+    "trivia": "Russia has more territory above the Arctic Circle than every other country combined \u2014 Siberia alone would be the largest country on Earth.",
+    "asOfDate": "2021 assessment",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "RU",
+        "value": "10,600,000 km\u00b2"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "4,900,000 km\u00b2"
+      },
+      {
+        "rank": 3,
+        "code": "US",
+        "value": "1,300,000 km\u00b2"
+      },
+      {
+        "rank": 4,
+        "code": "NO",
+        "value": "310,000 km\u00b2"
+      },
+      {
+        "rank": 5,
+        "code": "SE",
+        "value": "280,000 km\u00b2"
+      },
+      {
+        "rank": 6,
+        "code": "FI",
+        "value": "270,000 km\u00b2"
+      },
+      {
+        "rank": 7,
+        "code": "IS",
+        "value": "100,000 km\u00b2"
+      },
+      {
+        "rank": 8,
+        "code": "GB",
+        "value": "12,000 km\u00b2"
+      },
+      {
+        "rank": 9,
+        "code": "EE",
+        "value": "2,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "LV",
+        "value": "1,500 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "DK",
+        "value": "1,000 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "IE",
+        "value": "500 km\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "geography-northernmost-inhabited-settlement-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Northernmost inhabited settlement",
+    "prompt": "Name the countries containing the world's northernmost permanently inhabited settlements (highest latitude of a year-round community).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Statistics Norway / Statistics Canada / Statistics Greenland \u2014 permanent settlement latitudes",
+      "url": "https://en.wikipedia.org/wiki/Northernmost_settlements",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by latitude of the country's northernmost year-round civilian settlement (research bases excluded). Denmark represented via Greenland; the United States via Alaska.",
+    "trivia": "Norway's Ny-Alesund on Svalbard sits at 78.92 degrees north \u2014 closer to the North Pole than to mainland Norway.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NO",
+        "value": "78.92 N (Ny-Alesund)"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "76.42 N (Grise Fiord)"
+      },
+      {
+        "rank": 3,
+        "code": "DK",
+        "value": "77.47 N (Qaanaaq, Greenland)"
+      },
+      {
+        "rank": 4,
+        "code": "RU",
+        "value": "80.62 N (Nagurskoye)"
+      },
+      {
+        "rank": 5,
+        "code": "US",
+        "value": "71.29 N (Utqiagvik, Alaska)"
+      },
+      {
+        "rank": 6,
+        "code": "IS",
+        "value": "66.53 N (Grimsey)"
+      },
+      {
+        "rank": 7,
+        "code": "FI",
+        "value": "70.09 N (Nuorgam)"
+      },
+      {
+        "rank": 8,
+        "code": "SE",
+        "value": "69.06 N (Karesuando)"
+      },
+      {
+        "rank": 9,
+        "code": "GB",
+        "value": "60.86 N (Skaw, Unst)"
+      },
+      {
+        "rank": 10,
+        "code": "EE",
+        "value": "59.68 N (Purtse)"
+      },
+      {
+        "rank": 11,
+        "code": "LV",
+        "value": "58.08 N (Ipiki)"
+      },
+      {
+        "rank": 12,
+        "code": "IE",
+        "value": "55.38 N (Malin Head)"
+      },
+      {
+        "rank": 13,
+        "code": "LT",
+        "value": "56.45 N (Zemaiciu Naumiestis)"
+      },
+      {
+        "rank": 14,
+        "code": "BY",
+        "value": "56.17 N (Verkhnyadzvinsk)"
+      },
+      {
+        "rank": 15,
+        "code": "KZ",
+        "value": "55.43 N (Petropavl)"
+      }
+    ]
+  },
+  {
+    "id": "geography-southernmost-inhabited-settlement-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Southernmost inhabited settlement",
+    "prompt": "Name the countries containing the world's southernmost permanently inhabited settlements (highest southern latitude of a year-round civilian community).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "INDEC / INE Chile / Statistics NZ \u2014 southernmost civilian settlements",
+      "url": "https://en.wikipedia.org/wiki/Extreme_points_of_Earth",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by latitude of the country's southernmost year-round civilian settlement (Antarctic research stations excluded).",
+    "trivia": "Puerto Toro on Isla Navarino is Chile's southernmost village with fewer than 40 permanent residents.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CL",
+        "value": "55.08 S (Puerto Toro)"
+      },
+      {
+        "rank": 2,
+        "code": "AR",
+        "value": "54.90 S (Ushuaia)"
+      },
+      {
+        "rank": 3,
+        "code": "NZ",
+        "value": "46.90 S (Bluff)"
+      },
+      {
+        "rank": 4,
+        "code": "AU",
+        "value": "43.65 S (South East Cape, Tasmania)"
+      },
+      {
+        "rank": 5,
+        "code": "ZA",
+        "value": "34.83 S (Cape Agulhas)"
+      },
+      {
+        "rank": 6,
+        "code": "UY",
+        "value": "34.97 S (Punta del Diablo)"
+      },
+      {
+        "rank": 7,
+        "code": "LS",
+        "value": "30.65 S (Quthing)"
+      },
+      {
+        "rank": 8,
+        "code": "SZ",
+        "value": "27.32 S (Nhlangano)"
+      },
+      {
+        "rank": 9,
+        "code": "PY",
+        "value": "27.33 S (Encarnacion)"
+      },
+      {
+        "rank": 10,
+        "code": "BR",
+        "value": "33.75 S (Chui)"
+      },
+      {
+        "rank": 11,
+        "code": "NA",
+        "value": "28.97 S (Oranjemund)"
+      },
+      {
+        "rank": 12,
+        "code": "BW",
+        "value": "26.90 S (Bokspits)"
+      },
+      {
+        "rank": 13,
+        "code": "MG",
+        "value": "25.55 S (Cap Sainte-Marie)"
+      },
+      {
+        "rank": 14,
+        "code": "MZ",
+        "value": "26.85 S (Ponta do Ouro)"
+      },
+      {
+        "rank": 15,
+        "code": "ZW",
+        "value": "22.42 S (Beitbridge)"
+      }
+    ]
+  },
+  {
+    "id": "geography-northernmost-capital-city-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Northernmost capital city",
+    "prompt": "Name the countries whose capital city sits at the highest northern latitude.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "National statistics offices \u2014 capital city coordinates",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by latitude of the de jure capital. Reykjavik is the northernmost capital of any sovereign state.",
+    "trivia": "Reykjavik at 64.13 N sits about 250 km below the Arctic Circle \u2014 the only capital where midsummer sun barely dips below the horizon.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "IS",
+        "value": "64.13 N (Reykjavik)"
+      },
+      {
+        "rank": 2,
+        "code": "FI",
+        "value": "60.17 N (Helsinki)"
+      },
+      {
+        "rank": 3,
+        "code": "NO",
+        "value": "59.91 N (Oslo)"
+      },
+      {
+        "rank": 4,
+        "code": "EE",
+        "value": "59.44 N (Tallinn)"
+      },
+      {
+        "rank": 5,
+        "code": "SE",
+        "value": "59.33 N (Stockholm)"
+      },
+      {
+        "rank": 6,
+        "code": "RU",
+        "value": "55.75 N (Moscow)"
+      },
+      {
+        "rank": 7,
+        "code": "LV",
+        "value": "56.95 N (Riga)"
+      },
+      {
+        "rank": 8,
+        "code": "DK",
+        "value": "55.68 N (Copenhagen)"
+      },
+      {
+        "rank": 9,
+        "code": "LT",
+        "value": "54.69 N (Vilnius)"
+      },
+      {
+        "rank": 10,
+        "code": "BY",
+        "value": "53.90 N (Minsk)"
+      },
+      {
+        "rank": 11,
+        "code": "IE",
+        "value": "53.35 N (Dublin)"
+      },
+      {
+        "rank": 12,
+        "code": "GB",
+        "value": "51.51 N (London)"
+      },
+      {
+        "rank": 13,
+        "code": "NL",
+        "value": "52.37 N (Amsterdam)"
+      },
+      {
+        "rank": 14,
+        "code": "DE",
+        "value": "52.52 N (Berlin)"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "52.23 N (Warsaw)"
+      }
+    ]
+  },
+  {
+    "id": "geography-southernmost-capital-city-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Southernmost capital city",
+    "prompt": "Name the countries whose capital city sits at the highest southern latitude.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "National statistics offices \u2014 capital city coordinates",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by latitude of the de jure capital. Wellington is the southernmost capital of any sovereign state.",
+    "trivia": "New Zealand's Wellington at 41.29 S beats Canberra by more than 6 degrees \u2014 making it the world's southernmost national capital.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NZ",
+        "value": "41.29 S (Wellington)"
+      },
+      {
+        "rank": 2,
+        "code": "AU",
+        "value": "35.28 S (Canberra)"
+      },
+      {
+        "rank": 3,
+        "code": "UY",
+        "value": "34.90 S (Montevideo)"
+      },
+      {
+        "rank": 4,
+        "code": "AR",
+        "value": "34.60 S (Buenos Aires)"
+      },
+      {
+        "rank": 5,
+        "code": "LS",
+        "value": "29.32 S (Maseru)"
+      },
+      {
+        "rank": 6,
+        "code": "CL",
+        "value": "33.45 S (Santiago)"
+      },
+      {
+        "rank": 7,
+        "code": "ZA",
+        "value": "25.75 S (Pretoria)"
+      },
+      {
+        "rank": 8,
+        "code": "SZ",
+        "value": "26.32 S (Mbabane)"
+      },
+      {
+        "rank": 9,
+        "code": "PY",
+        "value": "25.28 S (Asuncion)"
+      },
+      {
+        "rank": 10,
+        "code": "BW",
+        "value": "24.66 S (Gaborone)"
+      },
+      {
+        "rank": 11,
+        "code": "NA",
+        "value": "22.56 S (Windhoek)"
+      },
+      {
+        "rank": 12,
+        "code": "MG",
+        "value": "18.88 S (Antananarivo)"
+      },
+      {
+        "rank": 13,
+        "code": "MZ",
+        "value": "25.97 S (Maputo)"
+      },
+      {
+        "rank": 14,
+        "code": "ZW",
+        "value": "17.83 S (Harare)"
+      },
+      {
+        "rank": 15,
+        "code": "BO",
+        "value": "16.50 S (Sucre)"
+      }
+    ]
+  },
+  {
+    "id": "geography-highest-capital-by-elevation-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Highest capital by elevation",
+    "prompt": "Name the countries whose capital city sits at the highest elevation above sea level.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "National geographic services \u2014 capital elevation records",
+      "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Elevation measured at central point / main plaza. La Paz is the de facto seat of government of Bolivia; Sucre is the constitutional capital.",
+    "trivia": "La Paz sits in a canyon 3,640 metres above sea level \u2014 planes landing at El Alto need extended runways because thin air reduces lift.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "BO",
+        "value": "3,640 m (La Paz)"
+      },
+      {
+        "rank": 2,
+        "code": "EC",
+        "value": "2,850 m (Quito)"
+      },
+      {
+        "rank": 3,
+        "code": "BT",
+        "value": "2,648 m (Thimphu)"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "2,640 m (Bogota)"
+      },
+      {
+        "rank": 5,
+        "code": "ET",
+        "value": "2,355 m (Addis Ababa)"
+      },
+      {
+        "rank": 6,
+        "code": "YE",
+        "value": "2,250 m (Sanaa)"
+      },
+      {
+        "rank": 7,
+        "code": "MX",
+        "value": "2,240 m (Mexico City)"
+      },
+      {
+        "rank": 8,
+        "code": "ER",
+        "value": "2,325 m (Asmara)"
+      },
+      {
+        "rank": 9,
+        "code": "IR",
+        "value": "1,795 m (Tehran)"
+      },
+      {
+        "rank": 10,
+        "code": "AF",
+        "value": "1,791 m (Kabul)"
+      },
+      {
+        "rank": 11,
+        "code": "GT",
+        "value": "1,500 m (Guatemala City)"
+      },
+      {
+        "rank": 12,
+        "code": "LS",
+        "value": "1,600 m (Maseru)"
+      },
+      {
+        "rank": 13,
+        "code": "AM",
+        "value": "1,000 m (Yerevan)"
+      },
+      {
+        "rank": 14,
+        "code": "KE",
+        "value": "1,795 m (Nairobi)"
+      },
+      {
+        "rank": 15,
+        "code": "RW",
+        "value": "1,567 m (Kigali)"
+      }
+    ]
+  },
+  {
+    "id": "geography-lowest-capital-by-elevation-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Lowest capital by elevation",
+    "prompt": "Name the countries whose capital city sits at the lowest elevation above (or below) sea level.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "National geographic services \u2014 capital elevation records",
+      "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 is the capital with the lowest average elevation. Baku sits below sea level thanks to the Caspian Depression.",
+    "trivia": "Baku's Old City is roughly 28 metres below sea level \u2014 the world's lowest-lying national capital.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AZ",
+        "value": "-28 m (Baku)"
+      },
+      {
+        "rank": 2,
+        "code": "MV",
+        "value": "1.5 m (Male)"
+      },
+      {
+        "rank": 3,
+        "code": "NL",
+        "value": "2 m (Amsterdam)"
+      },
+      {
+        "rank": 4,
+        "code": "GY",
+        "value": "0 m (Georgetown)"
+      },
+      {
+        "rank": 5,
+        "code": "BS",
+        "value": "3 m (Nassau)"
+      },
+      {
+        "rank": 6,
+        "code": "SR",
+        "value": "3 m (Paramaribo)"
+      },
+      {
+        "rank": 7,
+        "code": "BJ",
+        "value": "5 m (Porto-Novo)"
+      },
+      {
+        "rank": 8,
+        "code": "BH",
+        "value": "6 m (Manama)"
+      },
+      {
+        "rank": 9,
+        "code": "DK",
+        "value": "7 m (Copenhagen)"
+      },
+      {
+        "rank": 10,
+        "code": "AE",
+        "value": "5 m (Abu Dhabi)"
+      },
+      {
+        "rank": 11,
+        "code": "GM",
+        "value": "6 m (Banjul)"
+      },
+      {
+        "rank": 12,
+        "code": "KW",
+        "value": "9 m (Kuwait City)"
+      },
+      {
+        "rank": 13,
+        "code": "QA",
+        "value": "10 m (Doha)"
+      },
+      {
+        "rank": 14,
+        "code": "SG",
+        "value": "15 m (Singapore)"
+      },
+      {
+        "rank": 15,
+        "code": "MC",
+        "value": "16 m (Monaco)"
+      }
+    ]
+  },
+  {
+    "id": "geography-capital-city-largest-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Capital city largest by area",
+    "prompt": "Name the countries whose capital city occupies the largest metropolitan area (city proper administrative area).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "Demographia World Urban Areas / national municipal boundary data",
+      "url": "https://en.wikipedia.org/wiki/List_of_capitals_and_largest_cities_by_area",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Area measured is the administrative boundary of the capital city proper, not metro region. Definitions of city limits vary between countries.",
+    "trivia": "Beijing's municipal boundary spans 16,411 km\u00b2 \u2014 larger than Connecticut, though only about a third of it is urbanized.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CN",
+        "value": "16,411 km\u00b2 (Beijing)"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "4,704 km\u00b2 (Ulaanbaatar)"
+      },
+      {
+        "rank": 3,
+        "code": "MY",
+        "value": "2,793 km\u00b2 (Kuala Lumpur/Putrajaya)"
+      },
+      {
+        "rank": 4,
+        "code": "TZ",
+        "value": "1,590 km\u00b2 (Dodoma)"
+      },
+      {
+        "rank": 5,
+        "code": "AU",
+        "value": "2,358 km\u00b2 (Canberra)"
+      },
+      {
+        "rank": 6,
+        "code": "BR",
+        "value": "5,760 km\u00b2 (Brasilia)"
+      },
+      {
+        "rank": 7,
+        "code": "RU",
+        "value": "2,511 km\u00b2 (Moscow)"
+      },
+      {
+        "rank": 8,
+        "code": "US",
+        "value": "177 km\u00b2 (Washington DC)"
+      },
+      {
+        "rank": 9,
+        "code": "ID",
+        "value": "664 km\u00b2 (Jakarta)"
+      },
+      {
+        "rank": 10,
+        "code": "JP",
+        "value": "2,194 km\u00b2 (Tokyo)"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "1,484 km\u00b2 (New Delhi/Delhi)"
+      },
+      {
+        "rank": 12,
+        "code": "NG",
+        "value": "1,769 km\u00b2 (Abuja)"
+      },
+      {
+        "rank": 13,
+        "code": "AR",
+        "value": "203 km\u00b2 (Buenos Aires)"
+      },
+      {
+        "rank": 14,
+        "code": "EG",
+        "value": "3,085 km\u00b2 (Cairo)"
+      },
+      {
+        "rank": 15,
+        "code": "MX",
+        "value": "1,485 km\u00b2 (Mexico City)"
+      }
+    ]
+  },
+  {
+    "id": "geography-capital-closest-to-the-equator-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Capital closest to the Equator",
+    "prompt": "Name the countries whose capital city sits closest to the Equator (smallest absolute latitude).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "National statistics offices \u2014 capital city coordinates",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by absolute distance in latitude from the Equator (0 degrees). Quito is by far the closest at just 0.18 degrees south.",
+    "trivia": "Quito is only about 22 km south of the Equator \u2014 a marker line and the Mitad del Mundo monument sit on the city's northern outskirts.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "EC",
+        "value": "0.18 S (Quito)"
+      },
+      {
+        "rank": 2,
+        "code": "SG",
+        "value": "1.35 N (Singapore)"
+      },
+      {
+        "rank": 3,
+        "code": "KE",
+        "value": "1.29 S (Nairobi)"
+      },
+      {
+        "rank": 4,
+        "code": "UG",
+        "value": "0.35 N (Kampala)"
+      },
+      {
+        "rank": 5,
+        "code": "CG",
+        "value": "4.27 S (Brazzaville)"
+      },
+      {
+        "rank": 6,
+        "code": "CD",
+        "value": "4.32 S (Kinshasa)"
+      },
+      {
+        "rank": 7,
+        "code": "GA",
+        "value": "0.42 N (Libreville)"
+      },
+      {
+        "rank": 8,
+        "code": "CO",
+        "value": "4.71 N (Bogota)"
+      },
+      {
+        "rank": 9,
+        "code": "RW",
+        "value": "1.95 S (Kigali)"
+      },
+      {
+        "rank": 10,
+        "code": "ID",
+        "value": "6.21 S (Jakarta)"
+      },
+      {
+        "rank": 11,
+        "code": "SO",
+        "value": "2.05 N (Mogadishu)"
+      },
+      {
+        "rank": 12,
+        "code": "MY",
+        "value": "3.14 N (Kuala Lumpur)"
+      },
+      {
+        "rank": 13,
+        "code": "PA",
+        "value": "8.98 N (Panama City)"
+      },
+      {
+        "rank": 14,
+        "code": "VE",
+        "value": "10.48 N (Caracas)"
+      },
+      {
+        "rank": 15,
+        "code": "PE",
+        "value": "12.05 S (Lima)"
+      }
+    ]
+  },
+  {
+    "id": "geography-shortest-country-name-short-form-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Shortest country name (short form)",
+    "prompt": "Name the countries whose common English short-form name has the fewest letters.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN \u2014 Country name short forms (English)",
+      "url": "https://unterm.un.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Uses UN-recognized common short-form English name (letters only, ignoring spaces and hyphens).",
+    "trivia": "Chad, Cuba, Fiji, Iran, Iraq, Laos, Mali, Niue, Oman, Peru, Togo and 12 others all tie at four letters \u2014 the shortest name is Chad at four.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TD",
+        "value": "4 letters (Chad)"
+      },
+      {
+        "rank": 1,
+        "code": "CU",
+        "value": "4 letters (Cuba, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "FJ",
+        "value": "4 letters (Fiji, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "IR",
+        "value": "4 letters (Iran, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "IQ",
+        "value": "4 letters (Iraq, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "LA",
+        "value": "4 letters (Laos, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "ML",
+        "value": "4 letters (Mali, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "OM",
+        "value": "4 letters (Oman, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "PE",
+        "value": "4 letters (Peru, tied)"
+      },
+      {
+        "rank": 1,
+        "code": "TG",
+        "value": "4 letters (Togo, tied)"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "5 letters (India)"
+      },
+      {
+        "rank": 11,
+        "code": "CN",
+        "value": "5 letters (China, tied)"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "5 letters (Japan, tied)"
+      },
+      {
+        "rank": 11,
+        "code": "IT",
+        "value": "5 letters (Italy, tied)"
+      },
+      {
+        "rank": 11,
+        "code": "SY",
+        "value": "5 letters (Syria, tied)"
+      }
+    ]
+  },
+  {
+    "id": "geography-longest-country-long-form-name-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Longest country long-form name",
+    "prompt": "Name the countries with the longest official long-form English name (full ceremonial name including 'Republic of', 'Kingdom of', etc.).",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Terminology Database \u2014 official long-form country names",
+      "url": "https://unterm.un.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by character count of the official English long-form name (spaces included). Where names are of equal length, ordered alphabetically.",
+    "trivia": "The UK's full ceremonial name \u2014 'United Kingdom of Great Britain and Northern Ireland' \u2014 clocks 55 characters, second only to Venezuela.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "VE",
+        "value": "60 chars (Bolivarian Republic of Venezuela)"
+      },
+      {
+        "rank": 2,
+        "code": "GB",
+        "value": "56 chars (United Kingdom of Great Britain and Northern Ireland)"
+      },
+      {
+        "rank": 3,
+        "code": "LY",
+        "value": "45 chars (State of Libya)"
+      },
+      {
+        "rank": 4,
+        "code": "LA",
+        "value": "40 chars (Lao People's Democratic Republic)"
+      },
+      {
+        "rank": 5,
+        "code": "DZ",
+        "value": "44 chars (People's Democratic Republic of Algeria)"
+      },
+      {
+        "rank": 6,
+        "code": "KP",
+        "value": "44 chars (Democratic People's Republic of Korea)"
+      },
+      {
+        "rank": 7,
+        "code": "LK",
+        "value": "43 chars (Democratic Socialist Republic of Sri Lanka)"
+      },
+      {
+        "rank": 8,
+        "code": "TZ",
+        "value": "35 chars (United Republic of Tanzania)"
+      },
+      {
+        "rank": 9,
+        "code": "IR",
+        "value": "31 chars (Islamic Republic of Iran)"
+      },
+      {
+        "rank": 10,
+        "code": "CD",
+        "value": "36 chars (Democratic Republic of the Congo)"
+      },
+      {
+        "rank": 11,
+        "code": "AE",
+        "value": "24 chars (United Arab Emirates)"
+      },
+      {
+        "rank": 12,
+        "code": "BO",
+        "value": "32 chars (Plurinational State of Bolivia)"
+      },
+      {
+        "rank": 13,
+        "code": "MG",
+        "value": "22 chars (Republic of Madagascar)"
+      },
+      {
+        "rank": 14,
+        "code": "MZ",
+        "value": "21 chars (Republic of Mozambique)"
+      },
+      {
+        "rank": 15,
+        "code": "CF",
+        "value": "27 chars (Central African Republic)"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-a-countries-by-population-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest A-countries by population",
+    "prompt": "Name the largest countries by population whose English name starts with the letter A.",
+    "answerType": "Countries",
+    "seededDepth": 12,
+    "source": {
+      "name": "UN World Population Prospects 2024",
+      "url": "https://population.un.org/wpp/",
+      "asOf": "2024 estimates"
+    },
+    "note": null,
+    "disclaimer": "Ranked by 2024 population estimate. Includes only sovereign UN member states whose English short-form name begins with A.",
+    "trivia": "Argentina, Algeria, and Angola all sit within 6 million of each other in the 45-48M band \u2014 a rare three-way clustering.",
+    "asOfDate": "2024 estimates",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DZ",
+        "value": "45.6M (Algeria)"
+      },
+      {
+        "rank": 2,
+        "code": "AR",
+        "value": "45.5M (Argentina)"
+      },
+      {
+        "rank": 3,
+        "code": "AF",
+        "value": "42.2M (Afghanistan)"
+      },
+      {
+        "rank": 4,
+        "code": "AO",
+        "value": "37.9M (Angola)"
+      },
+      {
+        "rank": 5,
+        "code": "AU",
+        "value": "26.6M (Australia)"
+      },
+      {
+        "rank": 6,
+        "code": "AZ",
+        "value": "10.4M (Azerbaijan)"
+      },
+      {
+        "rank": 7,
+        "code": "AT",
+        "value": "9.1M (Austria)"
+      },
+      {
+        "rank": 8,
+        "code": "AL",
+        "value": "2.8M (Albania)"
+      },
+      {
+        "rank": 9,
+        "code": "AM",
+        "value": "2.8M (Armenia)"
+      },
+      {
+        "rank": 10,
+        "code": "AE",
+        "value": "9.5M (Arab Emirates)"
+      },
+      {
+        "rank": 11,
+        "code": "AD",
+        "value": "80k (Andorra)"
+      },
+      {
+        "rank": 12,
+        "code": "AG",
+        "value": "94k (Antigua and Barbuda)"
+      }
+    ]
+  },
+  {
+    "id": "geography-largest-s-countries-by-area-2024",
+    "theme": "Countries",
+    "subtheme": "Geography",
+    "title": "Largest S-countries by area",
+    "prompt": "Name the largest countries by land area whose English name starts with the letter S.",
+    "answerType": "Countries",
+    "seededDepth": 15,
+    "source": {
+      "name": "UN Statistics Division \u2014 Country land area",
+      "url": "https://data.un.org/",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Ranked by total area in km\u00b2. Includes only sovereign UN member states whose English short-form name begins with S.",
+    "trivia": "Sudan lost its top spot in this list in 2011 when South Sudan seceded \u2014 Saudi Arabia inherited the crown among S-countries.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "SA",
+        "value": "2,149,690 km\u00b2 (Saudi Arabia)"
+      },
+      {
+        "rank": 2,
+        "code": "SD",
+        "value": "1,861,484 km\u00b2 (Sudan)"
+      },
+      {
+        "rank": 3,
+        "code": "SO",
+        "value": "637,657 km\u00b2 (Somalia)"
+      },
+      {
+        "rank": 4,
+        "code": "ZA",
+        "value": "1,221,037 km\u00b2 (South Africa)"
+      },
+      {
+        "rank": 5,
+        "code": "SS",
+        "value": "644,329 km\u00b2 (South Sudan)"
+      },
+      {
+        "rank": 6,
+        "code": "ES",
+        "value": "505,990 km\u00b2 (Spain)"
+      },
+      {
+        "rank": 7,
+        "code": "SE",
+        "value": "450,295 km\u00b2 (Sweden)"
+      },
+      {
+        "rank": 8,
+        "code": "SR",
+        "value": "163,820 km\u00b2 (Suriname)"
+      },
+      {
+        "rank": 9,
+        "code": "SN",
+        "value": "196,722 km\u00b2 (Senegal)"
+      },
+      {
+        "rank": 10,
+        "code": "SY",
+        "value": "185,180 km\u00b2 (Syria)"
+      },
+      {
+        "rank": 11,
+        "code": "SK",
+        "value": "49,035 km\u00b2 (Slovakia)"
+      },
+      {
+        "rank": 12,
+        "code": "SI",
+        "value": "20,273 km\u00b2 (Slovenia)"
+      },
+      {
+        "rank": 13,
+        "code": "LK",
+        "value": "65,610 km\u00b2 (Sri Lanka)"
+      },
+      {
+        "rank": 14,
+        "code": "SL",
+        "value": "71,740 km\u00b2 (Sierra Leone)"
+      },
+      {
+        "rank": 15,
+        "code": "RS",
+        "value": "77,474 km\u00b2 (Serbia)"
+      }
+    ]
   }
 ]
