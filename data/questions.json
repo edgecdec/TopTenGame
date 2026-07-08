@@ -1475,7 +1475,7 @@
     "title": "Highest share of electricity from renewables",
     "prompt": "Name the countries where renewables make up the largest share of electricity generation.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Ember \u2014 Global Electricity Review",
       "url": "https://ember-energy.org/data/electricity-data-explorer/",
@@ -1557,6 +1557,131 @@
         "rank": 14,
         "code": "SE",
         "value": "68% renewable electricity (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "AT",
+        "value": "80% renewable electricity"
+      },
+      {
+        "rank": 17,
+        "code": "DK",
+        "value": "82% renewable electricity"
+      },
+      {
+        "rank": 18,
+        "code": "UY",
+        "value": "94% renewable electricity"
+      },
+      {
+        "rank": 19,
+        "code": "GE",
+        "value": "82% renewable electricity"
+      },
+      {
+        "rank": 20,
+        "code": "KE",
+        "value": "85% renewable electricity"
+      },
+      {
+        "rank": 21,
+        "code": "LA",
+        "value": "85% renewable electricity"
+      },
+      {
+        "rank": 22,
+        "code": "MZ",
+        "value": "83% renewable electricity"
+      },
+      {
+        "rank": 23,
+        "code": "ZM",
+        "value": "84% renewable electricity"
+      },
+      {
+        "rank": 24,
+        "code": "MW",
+        "value": "88% renewable electricity"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "61% renewable electricity"
+      },
+      {
+        "rank": 26,
+        "code": "CH",
+        "value": "62% renewable electricity"
+      },
+      {
+        "rank": 27,
+        "code": "FI",
+        "value": "53% renewable electricity"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "50% renewable electricity"
+      },
+      {
+        "rank": 29,
+        "code": "DE",
+        "value": "56% renewable electricity"
+      },
+      {
+        "rank": 30,
+        "code": "GB",
+        "value": "46% renewable electricity"
+      },
+      {
+        "rank": 31,
+        "code": "IE",
+        "value": "39% renewable electricity"
+      },
+      {
+        "rank": 32,
+        "code": "IT",
+        "value": "43% renewable electricity"
+      },
+      {
+        "rank": 33,
+        "code": "GR",
+        "value": "48% renewable electricity"
+      },
+      {
+        "rank": 34,
+        "code": "PA",
+        "value": "76% renewable electricity"
+      },
+      {
+        "rank": 35,
+        "code": "GT",
+        "value": "70% renewable electricity"
+      },
+      {
+        "rank": 36,
+        "code": "SV",
+        "value": "70% renewable electricity"
+      },
+      {
+        "rank": 37,
+        "code": "HN",
+        "value": "58% renewable electricity"
+      },
+      {
+        "rank": 38,
+        "code": "EC",
+        "value": "78% renewable electricity"
+      },
+      {
+        "rank": 39,
+        "code": "PE",
+        "value": "60% renewable electricity"
+      },
+      {
+        "rank": 40,
+        "code": "VE",
+        "value": "70% renewable electricity"
       }
     ],
     "disclaimer": "Renewables = hydro + wind + solar + bioenergy + geothermal.",
@@ -1925,7 +2050,7 @@
     "title": "Largest forest cover (% of land area)",
     "prompt": "Name the countries where forests cover the largest share of the land area.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "FAO Global Forest Resources Assessment / World Bank",
       "url": "https://www.fao.org/forest-resources-assessment/",
@@ -2007,6 +2132,131 @@
         "rank": 15,
         "code": "ID",
         "value": "49% forest cover"
+      },
+      {
+        "rank": 16,
+        "code": "CG",
+        "value": "65% forest cover"
+      },
+      {
+        "rank": 17,
+        "code": "MY",
+        "value": "58% forest cover"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "53% forest cover"
+      },
+      {
+        "rank": 19,
+        "code": "VE",
+        "value": "53% forest cover"
+      },
+      {
+        "rank": 20,
+        "code": "BO",
+        "value": "50% forest cover"
+      },
+      {
+        "rank": 21,
+        "code": "PG",
+        "value": "79% forest cover"
+      },
+      {
+        "rank": 22,
+        "code": "GQ",
+        "value": "56% forest cover"
+      },
+      {
+        "rank": 23,
+        "code": "CF",
+        "value": "35% forest cover"
+      },
+      {
+        "rank": 24,
+        "code": "CM",
+        "value": "43% forest cover"
+      },
+      {
+        "rank": 25,
+        "code": "AO",
+        "value": "53% forest cover"
+      },
+      {
+        "rank": 26,
+        "code": "ZM",
+        "value": "60% forest cover"
+      },
+      {
+        "rank": 27,
+        "code": "MZ",
+        "value": "43% forest cover"
+      },
+      {
+        "rank": 28,
+        "code": "BT",
+        "value": "72% forest cover"
+      },
+      {
+        "rank": 29,
+        "code": "EE",
+        "value": "56% forest cover"
+      },
+      {
+        "rank": 30,
+        "code": "LV",
+        "value": "54% forest cover"
+      },
+      {
+        "rank": 31,
+        "code": "SI",
+        "value": "62% forest cover"
+      },
+      {
+        "rank": 32,
+        "code": "MM",
+        "value": "44% forest cover"
+      },
+      {
+        "rank": 33,
+        "code": "NO",
+        "value": "33% forest cover"
+      },
+      {
+        "rank": 34,
+        "code": "RU",
+        "value": "50% forest cover"
+      },
+      {
+        "rank": 35,
+        "code": "CA",
+        "value": "39% forest cover"
+      },
+      {
+        "rank": 36,
+        "code": "US",
+        "value": "34% forest cover"
+      },
+      {
+        "rank": 37,
+        "code": "MX",
+        "value": "34% forest cover"
+      },
+      {
+        "rank": 38,
+        "code": "CL",
+        "value": "24% forest cover"
+      },
+      {
+        "rank": 39,
+        "code": "DE",
+        "value": "33% forest cover"
+      },
+      {
+        "rank": 40,
+        "code": "AT",
+        "value": "47% forest cover"
       }
     ],
     "disclaimer": "Excludes overseas territories and dependencies.",
@@ -14380,7 +14630,7 @@
     "title": "Most recently independent UN member states",
     "prompt": "Name the UN member states that most recently gained (or re-established) independence, in chronological order from most recent.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 54,
     "source": {
       "name": "United Nations \u2014 Member States / Wikipedia \u2014 List of sovereign states by date of formation",
       "url": "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_formation",
@@ -14414,54 +14664,249 @@
         "value": "1993"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "CZ",
         "value": "1993 (tied)"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "SK",
         "value": "1993 (tied)"
       },
       {
         "rank": 8,
+        "code": "BA",
+        "value": "1992"
+      },
+      {
+        "rank": 9,
         "code": "MK",
         "value": "1991"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "HR",
         "value": "1991 (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "SI",
         "value": "1991 (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "BY",
         "value": "1991 (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "UA",
         "value": "1991 (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "AM",
         "value": "1991 (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "AZ",
         "value": "1991 (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "GE",
         "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "EE",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "LV",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "LT",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "KZ",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "KG",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "MD",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "TJ",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "TM",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "UZ",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "RU",
+        "value": "1991 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NA",
+        "value": "1990"
+      },
+      {
+        "rank": 27,
+        "code": "YE",
+        "value": "1990 (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "MH",
+        "value": "1986"
+      },
+      {
+        "rank": 29,
+        "code": "FM",
+        "value": "1986 (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "BN",
+        "value": "1984"
+      },
+      {
+        "rank": 32,
+        "code": "KN",
+        "value": "1983"
+      },
+      {
+        "rank": 33,
+        "code": "BZ",
+        "value": "1981"
+      },
+      {
+        "rank": 33,
+        "code": "AG",
+        "value": "1981 (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "ZW",
+        "value": "1980"
+      },
+      {
+        "rank": 35,
+        "code": "VU",
+        "value": "1980 (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "KI",
+        "value": "1979"
+      },
+      {
+        "rank": 37,
+        "code": "VC",
+        "value": "1979 (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "LC",
+        "value": "1979 (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "DM",
+        "value": "1978"
+      },
+      {
+        "rank": 40,
+        "code": "SB",
+        "value": "1978 (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "TV",
+        "value": "1978 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "DJ",
+        "value": "1977"
+      },
+      {
+        "rank": 44,
+        "code": "SC",
+        "value": "1976"
+      },
+      {
+        "rank": 45,
+        "code": "AO",
+        "value": "1975"
+      },
+      {
+        "rank": 45,
+        "code": "CV",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "MZ",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "PG",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "ST",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "KM",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "SR",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 52,
+        "code": "GD",
+        "value": "1974"
+      },
+      {
+        "rank": 52,
+        "code": "GW",
+        "value": "1974 (tied)"
+      },
+      {
+        "rank": 54,
+        "code": "BS",
+        "value": "1973"
       }
     ],
     "disclaimer": "Date of internationally recognized independence for currently UN-recognized sovereign states. Excludes reunification cases and states that returned to prior sovereign forms.",
@@ -18110,7 +18555,7 @@
     "title": "Highest share of protected land area",
     "prompt": "Name the countries where the highest percentage of the terrestrial area is under legal protection.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / UNEP-WCMC World Database on Protected Areas (WDPA)",
       "url": "https://data.worldbank.org/indicator/ER.LND.PTLD.ZS",
@@ -18187,6 +18632,136 @@
         "rank": 14,
         "code": "CR",
         "value": "27.3% protected"
+      },
+      {
+        "rank": 15,
+        "code": "GR",
+        "value": "27.2% protected"
+      },
+      {
+        "rank": 16,
+        "code": "LU",
+        "value": "27.0% protected"
+      },
+      {
+        "rank": 17,
+        "code": "FR",
+        "value": "26.5% protected"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "27.6% protected"
+      },
+      {
+        "rank": 19,
+        "code": "BW",
+        "value": "29.1% protected"
+      },
+      {
+        "rank": 20,
+        "code": "NA",
+        "value": "37.9% protected"
+      },
+      {
+        "rank": 21,
+        "code": "CO",
+        "value": "23.5% protected"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "19.3% protected"
+      },
+      {
+        "rank": 23,
+        "code": "CN",
+        "value": "16.3% protected"
+      },
+      {
+        "rank": 24,
+        "code": "US",
+        "value": "13.0% protected"
+      },
+      {
+        "rank": 25,
+        "code": "CA",
+        "value": "12.7% protected"
+      },
+      {
+        "rank": 26,
+        "code": "IN",
+        "value": "5.5% protected"
+      },
+      {
+        "rank": 27,
+        "code": "RU",
+        "value": "9.7% protected"
+      },
+      {
+        "rank": 28,
+        "code": "JP",
+        "value": "29.4% protected"
+      },
+      {
+        "rank": 29,
+        "code": "IT",
+        "value": "21.6% protected"
+      },
+      {
+        "rank": 30,
+        "code": "AT",
+        "value": "29.0% protected"
+      },
+      {
+        "rank": 31,
+        "code": "CH",
+        "value": "10.4% protected"
+      },
+      {
+        "rank": 32,
+        "code": "NL",
+        "value": "26.3% protected"
+      },
+      {
+        "rank": 33,
+        "code": "BE",
+        "value": "26.7% protected"
+      },
+      {
+        "rank": 34,
+        "code": "PT",
+        "value": "22.4% protected"
+      },
+      {
+        "rank": 35,
+        "code": "SE",
+        "value": "15.0% protected"
+      },
+      {
+        "rank": 36,
+        "code": "FI",
+        "value": "13.3% protected"
+      },
+      {
+        "rank": 37,
+        "code": "NO",
+        "value": "17.1% protected"
+      },
+      {
+        "rank": 38,
+        "code": "DK",
+        "value": "8.4% protected"
+      },
+      {
+        "rank": 39,
+        "code": "IE",
+        "value": "13.9% protected"
+      },
+      {
+        "rank": 40,
+        "code": "ZA",
+        "value": "8.6% protected"
       }
     ],
     "disclaimer": "Terrestrial protected areas as % of total land area (IUCN categories I-VI plus other effective conservation measures).",
@@ -19625,7 +20200,7 @@
     "title": "Highest Median Age",
     "prompt": "Which US states have the highest median age?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B01002)",
       "url": "https://data.census.gov/table?q=B01002",
@@ -19696,7 +20271,7 @@
       {
         "rank": 12,
         "code": "WI",
-        "value": "39.7 years"
+        "value": "39.7 years (tied)"
       },
       {
         "rank": 14,
@@ -19706,7 +20281,187 @@
       {
         "rank": 14,
         "code": "MA",
-        "value": "39.5 years"
+        "value": "39.5 years (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "OR",
+        "value": "39.4 years"
+      },
+      {
+        "rank": 17,
+        "code": "NJ",
+        "value": "39.3 years"
+      },
+      {
+        "rank": 18,
+        "code": "AL",
+        "value": "39.2 years"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "38.7 years"
+      },
+      {
+        "rank": 19,
+        "code": "KY",
+        "value": "38.7 years (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "TN",
+        "value": "38.7 years (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "SC",
+        "value": "38.6 years"
+      },
+      {
+        "rank": 23,
+        "code": "MO",
+        "value": "38.5 years"
+      },
+      {
+        "rank": 24,
+        "code": "MS",
+        "value": "38.3 years"
+      },
+      {
+        "rank": 24,
+        "code": "NM",
+        "value": "38.3 years (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "IA",
+        "value": "38.2 years"
+      },
+      {
+        "rank": 27,
+        "code": "MN",
+        "value": "38.1 years"
+      },
+      {
+        "rank": 28,
+        "code": "NC",
+        "value": "38.0 years"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "38.0 years (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "WA",
+        "value": "37.9 years"
+      },
+      {
+        "rank": 31,
+        "code": "MD",
+        "value": "37.8 years"
+      },
+      {
+        "rank": 32,
+        "code": "IN",
+        "value": "37.7 years"
+      },
+      {
+        "rank": 33,
+        "code": "VA",
+        "value": "37.6 years"
+      },
+      {
+        "rank": 34,
+        "code": "OK",
+        "value": "37.1 years"
+      },
+      {
+        "rank": 35,
+        "code": "AZ",
+        "value": "37.0 years"
+      },
+      {
+        "rank": 35,
+        "code": "WY",
+        "value": "37.0 years (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "SD",
+        "value": "36.9 years"
+      },
+      {
+        "rank": 38,
+        "code": "LA",
+        "value": "36.8 years"
+      },
+      {
+        "rank": 39,
+        "code": "NV",
+        "value": "36.7 years"
+      },
+      {
+        "rank": 40,
+        "code": "KS",
+        "value": "36.6 years"
+      },
+      {
+        "rank": 41,
+        "code": "NE",
+        "value": "36.5 years"
+      },
+      {
+        "rank": 42,
+        "code": "HI",
+        "value": "36.4 years"
+      },
+      {
+        "rank": 43,
+        "code": "GA",
+        "value": "36.3 years"
+      },
+      {
+        "rank": 44,
+        "code": "CO",
+        "value": "36.2 years"
+      },
+      {
+        "rank": 45,
+        "code": "CA",
+        "value": "36.1 years"
+      },
+      {
+        "rank": 46,
+        "code": "ND",
+        "value": "35.7 years"
+      },
+      {
+        "rank": 47,
+        "code": "AK",
+        "value": "34.8 years"
+      },
+      {
+        "rank": 48,
+        "code": "TX",
+        "value": "34.7 years"
+      },
+      {
+        "rank": 49,
+        "code": "DC",
+        "value": "34.6 years"
+      },
+      {
+        "rank": 50,
+        "code": "ID",
+        "value": "34.3 years"
+      },
+      {
+        "rank": 51,
+        "code": "UT",
+        "value": "31.4 years"
       }
     ],
     "disclaimer": "DC's median age skews younger due to its large young-adult professional population; DC is not among the leaders here.",
@@ -19720,7 +20475,7 @@
     "title": "Highest Foreign-Born Population Share",
     "prompt": "Which US states have the highest share of foreign-born residents?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B05002)",
       "url": "https://data.census.gov/table?q=B05002",
@@ -19802,6 +20557,186 @@
         "rank": 15,
         "code": "VA",
         "value": "12.9%"
+      },
+      {
+        "rank": 16,
+        "code": "GA",
+        "value": "10.6%"
+      },
+      {
+        "rank": 17,
+        "code": "RI",
+        "value": "14.0%"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "9.6%"
+      },
+      {
+        "rank": 19,
+        "code": "OR",
+        "value": "9.5%"
+      },
+      {
+        "rank": 20,
+        "code": "MN",
+        "value": "8.7%"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "9.9%"
+      },
+      {
+        "rank": 22,
+        "code": "NC",
+        "value": "8.4%"
+      },
+      {
+        "rank": 23,
+        "code": "UT",
+        "value": "7.9%"
+      },
+      {
+        "rank": 24,
+        "code": "PA",
+        "value": "7.4%"
+      },
+      {
+        "rank": 25,
+        "code": "NM",
+        "value": "9.5%"
+      },
+      {
+        "rank": 26,
+        "code": "MI",
+        "value": "7.1%"
+      },
+      {
+        "rank": 27,
+        "code": "NE",
+        "value": "7.5%"
+      },
+      {
+        "rank": 28,
+        "code": "KS",
+        "value": "7.4%"
+      },
+      {
+        "rank": 29,
+        "code": "OK",
+        "value": "6.0%"
+      },
+      {
+        "rank": 30,
+        "code": "TN",
+        "value": "5.6%"
+      },
+      {
+        "rank": 31,
+        "code": "ID",
+        "value": "5.9%"
+      },
+      {
+        "rank": 32,
+        "code": "IN",
+        "value": "5.5%"
+      },
+      {
+        "rank": 33,
+        "code": "AR",
+        "value": "5.3%"
+      },
+      {
+        "rank": 34,
+        "code": "NH",
+        "value": "6.8%"
+      },
+      {
+        "rank": 35,
+        "code": "IA",
+        "value": "5.7%"
+      },
+      {
+        "rank": 36,
+        "code": "WI",
+        "value": "5.1%"
+      },
+      {
+        "rank": 37,
+        "code": "SC",
+        "value": "5.4%"
+      },
+      {
+        "rank": 38,
+        "code": "AK",
+        "value": "7.7%"
+      },
+      {
+        "rank": 39,
+        "code": "MO",
+        "value": "4.4%"
+      },
+      {
+        "rank": 40,
+        "code": "OH",
+        "value": "4.7%"
+      },
+      {
+        "rank": 41,
+        "code": "AL",
+        "value": "3.7%"
+      },
+      {
+        "rank": 42,
+        "code": "KY",
+        "value": "4.1%"
+      },
+      {
+        "rank": 43,
+        "code": "LA",
+        "value": "4.4%"
+      },
+      {
+        "rank": 44,
+        "code": "SD",
+        "value": "4.1%"
+      },
+      {
+        "rank": 45,
+        "code": "VT",
+        "value": "4.7%"
+      },
+      {
+        "rank": 46,
+        "code": "ND",
+        "value": "4.4%"
+      },
+      {
+        "rank": 47,
+        "code": "ME",
+        "value": "3.8%"
+      },
+      {
+        "rank": 48,
+        "code": "MT",
+        "value": "2.2%"
+      },
+      {
+        "rank": 49,
+        "code": "WY",
+        "value": "3.4%"
+      },
+      {
+        "rank": 50,
+        "code": "MS",
+        "value": "1.9%"
+      },
+      {
+        "rank": 51,
+        "code": "WV",
+        "value": "1.7%"
       }
     ],
     "disclaimer": "Percentage of total population born outside the United States (includes naturalized citizens and non-citizens).",
@@ -19815,7 +20750,7 @@
     "title": "Highest Homeownership Rate",
     "prompt": "Which US states have the highest homeownership rate?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B25003)",
       "url": "https://data.census.gov/table?q=B25003",
@@ -19836,7 +20771,7 @@
       {
         "rank": 2,
         "code": "ME",
-        "value": "75.4%"
+        "value": "75.4% (tied)"
       },
       {
         "rank": 4,
@@ -19897,6 +20832,186 @@
         "rank": 15,
         "code": "MS",
         "value": "70.2%"
+      },
+      {
+        "rank": 16,
+        "code": "PA",
+        "value": "70.1%"
+      },
+      {
+        "rank": 17,
+        "code": "MT",
+        "value": "69.9%"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "69.7%"
+      },
+      {
+        "rank": 19,
+        "code": "KY",
+        "value": "69.6%"
+      },
+      {
+        "rank": 20,
+        "code": "TN",
+        "value": "69.2%"
+      },
+      {
+        "rank": 21,
+        "code": "MO",
+        "value": "68.5%"
+      },
+      {
+        "rank": 22,
+        "code": "AR",
+        "value": "68.0%"
+      },
+      {
+        "rank": 23,
+        "code": "OK",
+        "value": "67.6%"
+      },
+      {
+        "rank": 24,
+        "code": "NM",
+        "value": "67.5%"
+      },
+      {
+        "rank": 25,
+        "code": "NE",
+        "value": "67.3%"
+      },
+      {
+        "rank": 26,
+        "code": "KS",
+        "value": "66.8%"
+      },
+      {
+        "rank": 27,
+        "code": "WI",
+        "value": "66.8%"
+      },
+      {
+        "rank": 28,
+        "code": "VA",
+        "value": "66.7%"
+      },
+      {
+        "rank": 29,
+        "code": "NC",
+        "value": "66.1%"
+      },
+      {
+        "rank": 30,
+        "code": "ND",
+        "value": "65.6%"
+      },
+      {
+        "rank": 31,
+        "code": "OH",
+        "value": "65.5%"
+      },
+      {
+        "rank": 32,
+        "code": "CT",
+        "value": "65.3%"
+      },
+      {
+        "rank": 33,
+        "code": "FL",
+        "value": "65.2%"
+      },
+      {
+        "rank": 34,
+        "code": "GA",
+        "value": "65.0%"
+      },
+      {
+        "rank": 35,
+        "code": "LA",
+        "value": "64.9%"
+      },
+      {
+        "rank": 36,
+        "code": "AZ",
+        "value": "64.8%"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "64.6%"
+      },
+      {
+        "rank": 38,
+        "code": "MD",
+        "value": "64.4%"
+      },
+      {
+        "rank": 39,
+        "code": "NJ",
+        "value": "63.5%"
+      },
+      {
+        "rank": 40,
+        "code": "CO",
+        "value": "63.4%"
+      },
+      {
+        "rank": 41,
+        "code": "AK",
+        "value": "63.3%"
+      },
+      {
+        "rank": 42,
+        "code": "OR",
+        "value": "62.5%"
+      },
+      {
+        "rank": 43,
+        "code": "WA",
+        "value": "62.3%"
+      },
+      {
+        "rank": 44,
+        "code": "TX",
+        "value": "61.9%"
+      },
+      {
+        "rank": 45,
+        "code": "RI",
+        "value": "61.4%"
+      },
+      {
+        "rank": 46,
+        "code": "MA",
+        "value": "61.4%"
+      },
+      {
+        "rank": 47,
+        "code": "NV",
+        "value": "58.9%"
+      },
+      {
+        "rank": 48,
+        "code": "HI",
+        "value": "58.9%"
+      },
+      {
+        "rank": 49,
+        "code": "CA",
+        "value": "55.3%"
+      },
+      {
+        "rank": 50,
+        "code": "NY",
+        "value": "54.1%"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "42.0%"
       }
     ],
     "disclaimer": "Owner-occupied housing units as a share of all occupied housing units.",
@@ -19910,7 +21025,7 @@
     "title": "Highest Poverty Rate",
     "prompt": "Which US states have the highest poverty rate?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table S1701)",
       "url": "https://data.census.gov/table?q=S1701",
@@ -19946,7 +21061,7 @@
       {
         "rank": 5,
         "code": "DC",
-        "value": "16.5%"
+        "value": "16.5% (tied)"
       },
       {
         "rank": 7,
@@ -19976,7 +21091,7 @@
       {
         "rank": 11,
         "code": "TX",
-        "value": "14.0%"
+        "value": "14.0% (tied)"
       },
       {
         "rank": 13,
@@ -19986,12 +21101,192 @@
       {
         "rank": 13,
         "code": "GA",
-        "value": "13.9%"
+        "value": "13.9% (tied)"
       },
       {
         "rank": 15,
         "code": "AZ",
         "value": "12.9%"
+      },
+      {
+        "rank": 16,
+        "code": "NC",
+        "value": "12.8%"
+      },
+      {
+        "rank": 17,
+        "code": "OH",
+        "value": "13.4%"
+      },
+      {
+        "rank": 18,
+        "code": "MI",
+        "value": "13.4%"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "12.6%"
+      },
+      {
+        "rank": 20,
+        "code": "MO",
+        "value": "12.5%"
+      },
+      {
+        "rank": 21,
+        "code": "FL",
+        "value": "12.9%"
+      },
+      {
+        "rank": 22,
+        "code": "OR",
+        "value": "12.1%"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "11.9%"
+      },
+      {
+        "rank": 24,
+        "code": "PA",
+        "value": "12.0%"
+      },
+      {
+        "rank": 25,
+        "code": "CA",
+        "value": "12.2%"
+      },
+      {
+        "rank": 26,
+        "code": "NV",
+        "value": "12.0%"
+      },
+      {
+        "rank": 27,
+        "code": "WI",
+        "value": "10.6%"
+      },
+      {
+        "rank": 28,
+        "code": "SD",
+        "value": "12.3%"
+      },
+      {
+        "rank": 29,
+        "code": "MT",
+        "value": "12.0%"
+      },
+      {
+        "rank": 30,
+        "code": "KS",
+        "value": "11.4%"
+      },
+      {
+        "rank": 31,
+        "code": "ME",
+        "value": "10.9%"
+      },
+      {
+        "rank": 32,
+        "code": "DE",
+        "value": "11.6%"
+      },
+      {
+        "rank": 33,
+        "code": "RI",
+        "value": "11.4%"
+      },
+      {
+        "rank": 34,
+        "code": "IA",
+        "value": "11.1%"
+      },
+      {
+        "rank": 35,
+        "code": "NE",
+        "value": "10.7%"
+      },
+      {
+        "rank": 36,
+        "code": "VT",
+        "value": "10.4%"
+      },
+      {
+        "rank": 37,
+        "code": "WY",
+        "value": "10.1%"
+      },
+      {
+        "rank": 38,
+        "code": "ID",
+        "value": "10.7%"
+      },
+      {
+        "rank": 39,
+        "code": "WA",
+        "value": "10.0%"
+      },
+      {
+        "rank": 40,
+        "code": "CT",
+        "value": "10.1%"
+      },
+      {
+        "rank": 41,
+        "code": "ND",
+        "value": "10.5%"
+      },
+      {
+        "rank": 42,
+        "code": "VA",
+        "value": "10.2%"
+      },
+      {
+        "rank": 43,
+        "code": "AK",
+        "value": "10.7%"
+      },
+      {
+        "rank": 44,
+        "code": "HI",
+        "value": "10.2%"
+      },
+      {
+        "rank": 45,
+        "code": "MN",
+        "value": "9.6%"
+      },
+      {
+        "rank": 46,
+        "code": "MA",
+        "value": "10.4%"
+      },
+      {
+        "rank": 47,
+        "code": "MD",
+        "value": "9.6%"
+      },
+      {
+        "rank": 48,
+        "code": "CO",
+        "value": "9.6%"
+      },
+      {
+        "rank": 49,
+        "code": "NJ",
+        "value": "9.7%"
+      },
+      {
+        "rank": 50,
+        "code": "UT",
+        "value": "8.2%"
+      },
+      {
+        "rank": 51,
+        "code": "NH",
+        "value": "7.2%"
       }
     ],
     "disclaimer": "Share of the population with income below the official federal poverty threshold in the past 12 months.",
@@ -20005,7 +21300,7 @@
     "title": "Highest Bachelor's Degree Attainment",
     "prompt": "Which US states have the highest share of adults with a bachelor's degree or higher?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table S1501)",
       "url": "https://data.census.gov/table?q=S1501",
@@ -20087,6 +21382,186 @@
         "rank": 15,
         "code": "CA",
         "value": "37.2%"
+      },
+      {
+        "rank": 16,
+        "code": "OR",
+        "value": "36.4%"
+      },
+      {
+        "rank": 17,
+        "code": "RI",
+        "value": "36.4%"
+      },
+      {
+        "rank": 18,
+        "code": "HI",
+        "value": "35.5%"
+      },
+      {
+        "rank": 19,
+        "code": "KS",
+        "value": "35.2%"
+      },
+      {
+        "rank": 20,
+        "code": "ME",
+        "value": "34.6%"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "34.5%"
+      },
+      {
+        "rank": 22,
+        "code": "PA",
+        "value": "34.1%"
+      },
+      {
+        "rank": 23,
+        "code": "NE",
+        "value": "34.0%"
+      },
+      {
+        "rank": 24,
+        "code": "NC",
+        "value": "33.9%"
+      },
+      {
+        "rank": 25,
+        "code": "GA",
+        "value": "33.7%"
+      },
+      {
+        "rank": 26,
+        "code": "MT",
+        "value": "33.6%"
+      },
+      {
+        "rank": 27,
+        "code": "AZ",
+        "value": "32.6%"
+      },
+      {
+        "rank": 28,
+        "code": "TX",
+        "value": "32.3%"
+      },
+      {
+        "rank": 29,
+        "code": "FL",
+        "value": "32.3%"
+      },
+      {
+        "rank": 30,
+        "code": "MO",
+        "value": "31.5%"
+      },
+      {
+        "rank": 31,
+        "code": "ND",
+        "value": "31.4%"
+      },
+      {
+        "rank": 32,
+        "code": "WI",
+        "value": "31.3%"
+      },
+      {
+        "rank": 33,
+        "code": "SD",
+        "value": "31.0%"
+      },
+      {
+        "rank": 34,
+        "code": "MI",
+        "value": "30.6%"
+      },
+      {
+        "rank": 35,
+        "code": "IA",
+        "value": "30.6%"
+      },
+      {
+        "rank": 36,
+        "code": "OH",
+        "value": "30.4%"
+      },
+      {
+        "rank": 37,
+        "code": "ID",
+        "value": "30.3%"
+      },
+      {
+        "rank": 38,
+        "code": "AK",
+        "value": "30.2%"
+      },
+      {
+        "rank": 39,
+        "code": "WY",
+        "value": "29.5%"
+      },
+      {
+        "rank": 40,
+        "code": "SC",
+        "value": "30.3%"
+      },
+      {
+        "rank": 41,
+        "code": "NM",
+        "value": "29.5%"
+      },
+      {
+        "rank": 42,
+        "code": "TN",
+        "value": "30.1%"
+      },
+      {
+        "rank": 43,
+        "code": "IN",
+        "value": "28.6%"
+      },
+      {
+        "rank": 44,
+        "code": "AL",
+        "value": "28.1%"
+      },
+      {
+        "rank": 45,
+        "code": "NV",
+        "value": "27.1%"
+      },
+      {
+        "rank": 46,
+        "code": "OK",
+        "value": "27.0%"
+      },
+      {
+        "rank": 47,
+        "code": "KY",
+        "value": "26.5%"
+      },
+      {
+        "rank": 48,
+        "code": "LA",
+        "value": "26.0%"
+      },
+      {
+        "rank": 49,
+        "code": "AR",
+        "value": "25.3%"
+      },
+      {
+        "rank": 50,
+        "code": "MS",
+        "value": "24.8%"
+      },
+      {
+        "rank": 51,
+        "code": "WV",
+        "value": "23.4%"
       }
     ],
     "disclaimer": "Population age 25 and over holding at least a bachelor's degree.",
@@ -20100,7 +21575,7 @@
     "title": "Largest Hispanic or Latino Population Share",
     "prompt": "Which US states have the largest Hispanic or Latino population share?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B03003)",
       "url": "https://data.census.gov/table?q=B03003",
@@ -20182,6 +21657,186 @@
         "rank": 15,
         "code": "MA",
         "value": "13.1%"
+      },
+      {
+        "rank": 16,
+        "code": "OR",
+        "value": "13.9%"
+      },
+      {
+        "rank": 17,
+        "code": "WA",
+        "value": "13.7%"
+      },
+      {
+        "rank": 18,
+        "code": "KS",
+        "value": "12.9%"
+      },
+      {
+        "rank": 19,
+        "code": "DC",
+        "value": "11.5%"
+      },
+      {
+        "rank": 20,
+        "code": "NE",
+        "value": "12.0%"
+      },
+      {
+        "rank": 21,
+        "code": "OK",
+        "value": "12.2%"
+      },
+      {
+        "rank": 22,
+        "code": "MD",
+        "value": "11.5%"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "10.6%"
+      },
+      {
+        "rank": 24,
+        "code": "WY",
+        "value": "10.7%"
+      },
+      {
+        "rank": 25,
+        "code": "GA",
+        "value": "10.5%"
+      },
+      {
+        "rank": 26,
+        "code": "NC",
+        "value": "10.7%"
+      },
+      {
+        "rank": 27,
+        "code": "PA",
+        "value": "8.8%"
+      },
+      {
+        "rank": 28,
+        "code": "VA",
+        "value": "10.5%"
+      },
+      {
+        "rank": 29,
+        "code": "NH",
+        "value": "4.7%"
+      },
+      {
+        "rank": 30,
+        "code": "IN",
+        "value": "7.9%"
+      },
+      {
+        "rank": 31,
+        "code": "MN",
+        "value": "5.9%"
+      },
+      {
+        "rank": 32,
+        "code": "WI",
+        "value": "7.6%"
+      },
+      {
+        "rank": 33,
+        "code": "IA",
+        "value": "6.9%"
+      },
+      {
+        "rank": 34,
+        "code": "TN",
+        "value": "6.7%"
+      },
+      {
+        "rank": 35,
+        "code": "SC",
+        "value": "6.9%"
+      },
+      {
+        "rank": 36,
+        "code": "AK",
+        "value": "7.5%"
+      },
+      {
+        "rank": 37,
+        "code": "MI",
+        "value": "5.6%"
+      },
+      {
+        "rank": 38,
+        "code": "AR",
+        "value": "8.3%"
+      },
+      {
+        "rank": 39,
+        "code": "MO",
+        "value": "4.7%"
+      },
+      {
+        "rank": 40,
+        "code": "AL",
+        "value": "5.4%"
+      },
+      {
+        "rank": 41,
+        "code": "HI",
+        "value": "11.4%"
+      },
+      {
+        "rank": 42,
+        "code": "LA",
+        "value": "5.7%"
+      },
+      {
+        "rank": 43,
+        "code": "SD",
+        "value": "4.7%"
+      },
+      {
+        "rank": 44,
+        "code": "OH",
+        "value": "4.6%"
+      },
+      {
+        "rank": 45,
+        "code": "MT",
+        "value": "4.4%"
+      },
+      {
+        "rank": 46,
+        "code": "KY",
+        "value": "4.3%"
+      },
+      {
+        "rank": 47,
+        "code": "ND",
+        "value": "4.6%"
+      },
+      {
+        "rank": 48,
+        "code": "VT",
+        "value": "2.3%"
+      },
+      {
+        "rank": 49,
+        "code": "ME",
+        "value": "2.1%"
+      },
+      {
+        "rank": 50,
+        "code": "MS",
+        "value": "3.6%"
+      },
+      {
+        "rank": 51,
+        "code": "WV",
+        "value": "1.9%"
       }
     ],
     "disclaimer": "Hispanic or Latino origin can be of any race per Census methodology.",
@@ -20195,7 +21850,7 @@
     "title": "Largest Asian Population Share",
     "prompt": "Which US states have the largest Asian population share (alone or in combination)?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B02010)",
       "url": "https://data.census.gov/table?q=B02010",
@@ -20246,7 +21901,7 @@
       {
         "rank": 8,
         "code": "VA",
-        "value": "8.1%"
+        "value": "8.1% (tied)"
       },
       {
         "rank": 10,
@@ -20277,6 +21932,186 @@
         "rank": 15,
         "code": "GA",
         "value": "5.1%"
+      },
+      {
+        "rank": 16,
+        "code": "OR",
+        "value": "5.6%"
+      },
+      {
+        "rank": 17,
+        "code": "DC",
+        "value": "5.0%"
+      },
+      {
+        "rank": 18,
+        "code": "AZ",
+        "value": "4.4%"
+      },
+      {
+        "rank": 19,
+        "code": "PA",
+        "value": "4.4%"
+      },
+      {
+        "rank": 20,
+        "code": "NC",
+        "value": "3.9%"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "4.9%"
+      },
+      {
+        "rank": 22,
+        "code": "CO",
+        "value": "4.0%"
+      },
+      {
+        "rank": 23,
+        "code": "MI",
+        "value": "3.7%"
+      },
+      {
+        "rank": 24,
+        "code": "KS",
+        "value": "3.7%"
+      },
+      {
+        "rank": 25,
+        "code": "RI",
+        "value": "3.8%"
+      },
+      {
+        "rank": 26,
+        "code": "NH",
+        "value": "3.5%"
+      },
+      {
+        "rank": 27,
+        "code": "OH",
+        "value": "2.9%"
+      },
+      {
+        "rank": 28,
+        "code": "FL",
+        "value": "3.2%"
+      },
+      {
+        "rank": 29,
+        "code": "UT",
+        "value": "2.9%"
+      },
+      {
+        "rank": 30,
+        "code": "IN",
+        "value": "2.9%"
+      },
+      {
+        "rank": 31,
+        "code": "OK",
+        "value": "2.9%"
+      },
+      {
+        "rank": 32,
+        "code": "NE",
+        "value": "2.8%"
+      },
+      {
+        "rank": 33,
+        "code": "IA",
+        "value": "2.8%"
+      },
+      {
+        "rank": 34,
+        "code": "WI",
+        "value": "3.2%"
+      },
+      {
+        "rank": 35,
+        "code": "MO",
+        "value": "2.5%"
+      },
+      {
+        "rank": 36,
+        "code": "TN",
+        "value": "2.2%"
+      },
+      {
+        "rank": 37,
+        "code": "SC",
+        "value": "2.1%"
+      },
+      {
+        "rank": 38,
+        "code": "LA",
+        "value": "2.0%"
+      },
+      {
+        "rank": 39,
+        "code": "AL",
+        "value": "1.7%"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "1.9%"
+      },
+      {
+        "rank": 41,
+        "code": "NM",
+        "value": "2.1%"
+      },
+      {
+        "rank": 42,
+        "code": "KY",
+        "value": "1.9%"
+      },
+      {
+        "rank": 43,
+        "code": "ND",
+        "value": "2.0%"
+      },
+      {
+        "rank": 44,
+        "code": "SD",
+        "value": "2.0%"
+      },
+      {
+        "rank": 45,
+        "code": "ID",
+        "value": "1.9%"
+      },
+      {
+        "rank": 46,
+        "code": "ME",
+        "value": "1.7%"
+      },
+      {
+        "rank": 47,
+        "code": "VT",
+        "value": "2.2%"
+      },
+      {
+        "rank": 48,
+        "code": "MS",
+        "value": "1.4%"
+      },
+      {
+        "rank": 49,
+        "code": "WY",
+        "value": "1.4%"
+      },
+      {
+        "rank": 50,
+        "code": "MT",
+        "value": "1.3%"
+      },
+      {
+        "rank": 51,
+        "code": "WV",
+        "value": "0.9%"
       }
     ],
     "disclaimer": "Asian alone or in combination with one or more other races.",
@@ -20290,7 +22125,7 @@
     "title": "Largest Black or African American Population Share",
     "prompt": "Which US states have the largest Black or African American population share?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B02001)",
       "url": "https://data.census.gov/table?q=B02001",
@@ -20361,7 +22196,7 @@
       {
         "rank": 12,
         "code": "FL",
-        "value": "15.1%"
+        "value": "15.1% (tied)"
       },
       {
         "rank": 14,
@@ -20372,6 +22207,186 @@
         "rank": 15,
         "code": "IL",
         "value": "13.9%"
+      },
+      {
+        "rank": 16,
+        "code": "NJ",
+        "value": "12.6%"
+      },
+      {
+        "rank": 17,
+        "code": "OH",
+        "value": "12.1%"
+      },
+      {
+        "rank": 18,
+        "code": "MI",
+        "value": "13.6%"
+      },
+      {
+        "rank": 19,
+        "code": "TX",
+        "value": "11.8%"
+      },
+      {
+        "rank": 20,
+        "code": "MO",
+        "value": "11.4%"
+      },
+      {
+        "rank": 21,
+        "code": "PA",
+        "value": "10.8%"
+      },
+      {
+        "rank": 22,
+        "code": "CT",
+        "value": "10.5%"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "9.5%"
+      },
+      {
+        "rank": 24,
+        "code": "KY",
+        "value": "8.1%"
+      },
+      {
+        "rank": 25,
+        "code": "OK",
+        "value": "7.3%"
+      },
+      {
+        "rank": 26,
+        "code": "MA",
+        "value": "7.5%"
+      },
+      {
+        "rank": 27,
+        "code": "NV",
+        "value": "9.9%"
+      },
+      {
+        "rank": 28,
+        "code": "KS",
+        "value": "5.7%"
+      },
+      {
+        "rank": 29,
+        "code": "MN",
+        "value": "6.9%"
+      },
+      {
+        "rank": 30,
+        "code": "WI",
+        "value": "6.4%"
+      },
+      {
+        "rank": 31,
+        "code": "RI",
+        "value": "5.6%"
+      },
+      {
+        "rank": 32,
+        "code": "NE",
+        "value": "4.8%"
+      },
+      {
+        "rank": 33,
+        "code": "CA",
+        "value": "5.6%"
+      },
+      {
+        "rank": 34,
+        "code": "CO",
+        "value": "4.2%"
+      },
+      {
+        "rank": 35,
+        "code": "AZ",
+        "value": "4.9%"
+      },
+      {
+        "rank": 36,
+        "code": "WV",
+        "value": "3.6%"
+      },
+      {
+        "rank": 37,
+        "code": "WA",
+        "value": "4.0%"
+      },
+      {
+        "rank": 38,
+        "code": "IA",
+        "value": "4.1%"
+      },
+      {
+        "rank": 39,
+        "code": "AK",
+        "value": "3.2%"
+      },
+      {
+        "rank": 40,
+        "code": "HI",
+        "value": "1.8%"
+      },
+      {
+        "rank": 41,
+        "code": "NM",
+        "value": "2.6%"
+      },
+      {
+        "rank": 42,
+        "code": "OR",
+        "value": "2.2%"
+      },
+      {
+        "rank": 43,
+        "code": "NH",
+        "value": "1.8%"
+      },
+      {
+        "rank": 44,
+        "code": "UT",
+        "value": "1.5%"
+      },
+      {
+        "rank": 45,
+        "code": "ND",
+        "value": "3.4%"
+      },
+      {
+        "rank": 46,
+        "code": "SD",
+        "value": "2.6%"
+      },
+      {
+        "rank": 47,
+        "code": "ME",
+        "value": "1.9%"
+      },
+      {
+        "rank": 48,
+        "code": "WY",
+        "value": "1.3%"
+      },
+      {
+        "rank": 49,
+        "code": "VT",
+        "value": "1.5%"
+      },
+      {
+        "rank": 50,
+        "code": "ID",
+        "value": "0.9%"
+      },
+      {
+        "rank": 51,
+        "code": "MT",
+        "value": "0.6%"
       }
     ],
     "disclaimer": "Black or African American alone; DC included per ACS reporting.",
@@ -53615,7 +55630,7 @@
     "title": "Largest national legislatures (total seats)",
     "prompt": "Name the countries with the largest national legislatures by total number of seats (combining both chambers where bicameral).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 39,
     "source": {
       "name": "Inter-Parliamentary Union (IPU) \u2014 Parline database",
       "url": "https://data.ipu.org/",
@@ -53700,6 +55715,126 @@
         "rank": 15,
         "code": "US",
         "value": "535 seats"
+      },
+      {
+        "rank": 16,
+        "code": "VN",
+        "value": "500 seats"
+      },
+      {
+        "rank": 17,
+        "code": "ZA",
+        "value": "490 seats"
+      },
+      {
+        "rank": 18,
+        "code": "NG",
+        "value": "469 seats"
+      },
+      {
+        "rank": 19,
+        "code": "RO",
+        "value": "466 seats"
+      },
+      {
+        "rank": 20,
+        "code": "UA",
+        "value": "450 seats"
+      },
+      {
+        "rank": 21,
+        "code": "CA",
+        "value": "443 seats"
+      },
+      {
+        "rank": 22,
+        "code": "PK",
+        "value": "432 seats"
+      },
+      {
+        "rank": 23,
+        "code": "BD",
+        "value": "350 seats"
+      },
+      {
+        "rank": 24,
+        "code": "PH",
+        "value": "340 seats"
+      },
+      {
+        "rank": 25,
+        "code": "NP",
+        "value": "334 seats"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "329 seats"
+      },
+      {
+        "rank": 27,
+        "code": "KR",
+        "value": "300 seats"
+      },
+      {
+        "rank": 27,
+        "code": "GR",
+        "value": "300 seats"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "296 seats"
+      },
+      {
+        "rank": 30,
+        "code": "MY",
+        "value": "292 seats"
+      },
+      {
+        "rank": 31,
+        "code": "IR",
+        "value": "290 seats"
+      },
+      {
+        "rank": 32,
+        "code": "CZ",
+        "value": "281 seats"
+      },
+      {
+        "rank": 33,
+        "code": "RS",
+        "value": "250 seats"
+      },
+      {
+        "rank": 34,
+        "code": "CH",
+        "value": "246 seats"
+      },
+      {
+        "rank": 35,
+        "code": "AU",
+        "value": "227 seats"
+      },
+      {
+        "rank": 36,
+        "code": "NL",
+        "value": "225 seats"
+      },
+      {
+        "rank": 37,
+        "code": "BE",
+        "value": "210 seats"
+      },
+      {
+        "rank": 38,
+        "code": "CL",
+        "value": "205 seats"
+      },
+      {
+        "rank": 39,
+        "code": "HU",
+        "value": "199 seats"
       }
     ]
   },
@@ -53710,7 +55845,7 @@
     "title": "Smallest national lower houses",
     "prompt": "Name the countries with the fewest seats in their national parliament (or lower house where bicameral).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 31,
     "source": {
       "name": "Inter-Parliamentary Union (IPU) \u2014 Parline database",
       "url": "https://data.ipu.org/",
@@ -53732,69 +55867,149 @@
         "value": "15 seats"
       },
       {
-        "rank": 3,
+        "rank": 2,
+        "code": "GD",
+        "value": "15 seats"
+      },
+      {
+        "rank": 4,
         "code": "TV",
         "value": "16 seats"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "PW",
         "value": "16 seats"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "AG",
         "value": "17 seats"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "NR",
         "value": "19 seats"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "VC",
         "value": "23 seats"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "MC",
         "value": "24 seats"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "LI",
         "value": "25 seats"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "AD",
         "value": "28 seats"
       },
       {
-        "rank": 11,
+        "rank": 12,
+        "code": "BB",
+        "value": "30 seats"
+      },
+      {
+        "rank": 13,
+        "code": "BZ",
+        "value": "31 seats"
+      },
+      {
+        "rank": 14,
         "code": "DM",
         "value": "32 seats"
       },
       {
-        "rank": 12,
+        "rank": 15,
         "code": "MH",
         "value": "33 seats"
       },
       {
-        "rank": 13,
+        "rank": 16,
         "code": "SC",
         "value": "35 seats"
       },
       {
-        "rank": 14,
+        "rank": 17,
+        "code": "BS",
+        "value": "39 seats"
+      },
+      {
+        "rank": 18,
+        "code": "BH",
+        "value": "40 seats"
+      },
+      {
+        "rank": 19,
         "code": "KI",
         "value": "45 seats"
       },
       {
-        "rank": 15,
+        "rank": 19,
+        "code": "QA",
+        "value": "45 seats"
+      },
+      {
+        "rank": 21,
+        "code": "BT",
+        "value": "47 seats"
+      },
+      {
+        "rank": 22,
+        "code": "WS",
+        "value": "51 seats"
+      },
+      {
+        "rank": 23,
+        "code": "VU",
+        "value": "52 seats"
+      },
+      {
+        "rank": 24,
+        "code": "ST",
+        "value": "55 seats"
+      },
+      {
+        "rank": 25,
+        "code": "CY",
+        "value": "56 seats"
+      },
+      {
+        "rank": 26,
         "code": "SM",
         "value": "60 seats"
+      },
+      {
+        "rank": 26,
+        "code": "LU",
+        "value": "60 seats"
+      },
+      {
+        "rank": 28,
+        "code": "JM",
+        "value": "63 seats"
+      },
+      {
+        "rank": 28,
+        "code": "IS",
+        "value": "63 seats"
+      },
+      {
+        "rank": 30,
+        "code": "GY",
+        "value": "65 seats"
+      },
+      {
+        "rank": 31,
+        "code": "CV",
+        "value": "72 seats"
       }
     ]
   },
@@ -87185,7 +89400,7 @@
     "title": "Highest tertiary graduate unemployment",
     "prompt": "Name the countries with the highest unemployment rates among people with tertiary (post-secondary) education.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "ILOSTAT / World Bank \u2014 Unemployment with advanced education (% of total labor force with advanced education)",
       "url": "https://data.worldbank.org/indicator/SL.UEM.ADVN.ZS",
@@ -87255,6 +89470,96 @@
         "rank": 11,
         "code": "TR",
         "value": "11% unemployed (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "JO",
+        "value": "10% unemployed"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "10% unemployed (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CO",
+        "value": "10% unemployed (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "GE",
+        "value": "9% unemployed"
+      },
+      {
+        "rank": 16,
+        "code": "AL",
+        "value": "9% unemployed (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MK",
+        "value": "8% unemployed"
+      },
+      {
+        "rank": 18,
+        "code": "CL",
+        "value": "8% unemployed (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "SV",
+        "value": "8% unemployed (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "RS",
+        "value": "8% unemployed (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MA",
+        "value": "7% unemployed"
+      },
+      {
+        "rank": 22,
+        "code": "FR",
+        "value": "7% unemployed (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BA",
+        "value": "7% unemployed (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CR",
+        "value": "7% unemployed (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "7% unemployed (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "AR",
+        "value": "7% unemployed (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "PT",
+        "value": "6% unemployed"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "6% unemployed (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "ME",
+        "value": "6% unemployed (tied)"
       }
     ]
   },
@@ -95565,7 +97870,7 @@
     "title": "Largest ice cap or glacier area",
     "prompt": "Name the countries with the greatest area of glaciers and ice caps within their territory.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 33,
     "source": {
       "name": "USGS / Randolph Glacier Inventory \u2014 Global glacier area",
       "url": "https://www.usgs.gov/programs/climate-research-and-development-program",
@@ -95598,53 +97903,148 @@
       },
       {
         "rank": 5,
+        "code": "NO",
+        "value": "37,000 km2 glacier (incl. Svalbard)"
+      },
+      {
+        "rank": 6,
         "code": "CL",
         "value": "23,600 km2 glacier"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "PK",
         "value": "15,000 km2 glacier"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "IS",
         "value": "11,000 km2 glacier"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "AR",
         "value": "8,500 km2 glacier"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "TJ",
         "value": "8,500 km2 glacier"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "IN",
         "value": "8,000 km2 glacier"
       },
       {
-        "rank": 11,
+        "rank": 12,
+        "code": "KG",
+        "value": "6,700 km2 glacier"
+      },
+      {
+        "rank": 13,
         "code": "NP",
         "value": "3,900 km2 glacier"
       },
       {
-        "rank": 12,
-        "code": "NO",
-        "value": "3,000 km2 glacier (incl. Svalbard 34,000 km2)"
-      },
-      {
-        "rank": 13,
+        "rank": 14,
         "code": "PE",
         "value": "1,300 km2 glacier"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "NZ",
         "value": "1,160 km2 glacier"
+      },
+      {
+        "rank": 16,
+        "code": "KZ",
+        "value": "2,720 km2 glacier"
+      },
+      {
+        "rank": 17,
+        "code": "AF",
+        "value": "2,700 km2 glacier"
+      },
+      {
+        "rank": 18,
+        "code": "BO",
+        "value": "500 km2 glacier"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "890 km2 glacier"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "370 km2 glacier"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "415 km2 glacier"
+      },
+      {
+        "rank": 22,
+        "code": "FR",
+        "value": "275 km2 glacier"
+      },
+      {
+        "rank": 23,
+        "code": "SE",
+        "value": "260 km2 glacier"
+      },
+      {
+        "rank": 24,
+        "code": "EC",
+        "value": "80 km2 glacier"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "45 km2 glacier"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "1 km2 glacier"
+      },
+      {
+        "rank": 27,
+        "code": "ID",
+        "value": "0.2 km2 glacier (Puncak Jaya)"
+      },
+      {
+        "rank": 28,
+        "code": "UG",
+        "value": "1 km2 glacier (Rwenzori)"
+      },
+      {
+        "rank": 29,
+        "code": "TZ",
+        "value": "1 km2 glacier (Kilimanjaro)"
+      },
+      {
+        "rank": 30,
+        "code": "KE",
+        "value": "0.1 km2 glacier (Mt Kenya)"
+      },
+      {
+        "rank": 31,
+        "code": "VE",
+        "value": "0.01 km2 glacier (Humboldt)"
+      },
+      {
+        "rank": 32,
+        "code": "ES",
+        "value": "1 km2 glacier (Pyrenees)"
+      },
+      {
+        "rank": 33,
+        "code": "DE",
+        "value": "0.4 km2 glacier (Bavarian Alps)"
       }
     ]
   },
@@ -139410,7 +141810,7 @@
     "title": "Highest TIMSS math scores (Grade 8)",
     "prompt": "Name the countries with the highest average 8th-grade math scores on TIMSS.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 35,
     "source": {
       "name": "IEA \u2014 TIMSS 2023 International Results in Mathematics (Grade 8)",
       "url": "https://timss2023.org/results/",
@@ -139478,8 +141878,123 @@
       },
       {
         "rank": 12,
+        "code": "TR",
+        "value": "509"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "499"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "495"
+      },
+      {
+        "rank": 15,
+        "code": "HU",
+        "value": "494"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "492"
+      },
+      {
+        "rank": 17,
         "code": "US",
         "value": "488"
+      },
+      {
+        "rank": 18,
+        "code": "FI",
+        "value": "484"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "480"
+      },
+      {
+        "rank": 20,
+        "code": "NZ",
+        "value": "479"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "473"
+      },
+      {
+        "rank": 22,
+        "code": "MT",
+        "value": "468"
+      },
+      {
+        "rank": 23,
+        "code": "BH",
+        "value": "455"
+      },
+      {
+        "rank": 24,
+        "code": "RO",
+        "value": "454"
+      },
+      {
+        "rank": 25,
+        "code": "QA",
+        "value": "445"
+      },
+      {
+        "rank": 26,
+        "code": "GE",
+        "value": "436"
+      },
+      {
+        "rank": 26,
+        "code": "IR",
+        "value": "436 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "OM",
+        "value": "430"
+      },
+      {
+        "rank": 29,
+        "code": "MY",
+        "value": "429"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "424"
+      },
+      {
+        "rank": 31,
+        "code": "SA",
+        "value": "419"
+      },
+      {
+        "rank": 32,
+        "code": "KW",
+        "value": "403"
+      },
+      {
+        "rank": 33,
+        "code": "ZA",
+        "value": "397"
+      },
+      {
+        "rank": 34,
+        "code": "JO",
+        "value": "393"
+      },
+      {
+        "rank": 35,
+        "code": "MA",
+        "value": "365"
       }
     ]
   },
@@ -139490,7 +142005,7 @@
     "title": "Highest TIMSS science scores (Grade 8)",
     "prompt": "Name the countries with the highest average 8th-grade science scores on TIMSS.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 35,
     "source": {
       "name": "IEA \u2014 TIMSS 2023 International Results in Science (Grade 8)",
       "url": "https://timss2023.org/results/",
@@ -139560,6 +142075,121 @@
         "rank": 12,
         "code": "SE",
         "value": "509"
+      },
+      {
+        "rank": 13,
+        "code": "IL",
+        "value": "506"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "504"
+      },
+      {
+        "rank": 15,
+        "code": "NZ",
+        "value": "499"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "495"
+      },
+      {
+        "rank": 17,
+        "code": "PT",
+        "value": "494"
+      },
+      {
+        "rank": 18,
+        "code": "CY",
+        "value": "492"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "488"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "484"
+      },
+      {
+        "rank": 21,
+        "code": "MT",
+        "value": "466"
+      },
+      {
+        "rank": 22,
+        "code": "AE",
+        "value": "465"
+      },
+      {
+        "rank": 23,
+        "code": "RO",
+        "value": "460"
+      },
+      {
+        "rank": 24,
+        "code": "BH",
+        "value": "451"
+      },
+      {
+        "rank": 25,
+        "code": "GE",
+        "value": "444"
+      },
+      {
+        "rank": 26,
+        "code": "QA",
+        "value": "443"
+      },
+      {
+        "rank": 27,
+        "code": "OM",
+        "value": "436"
+      },
+      {
+        "rank": 28,
+        "code": "MY",
+        "value": "429"
+      },
+      {
+        "rank": 29,
+        "code": "IR",
+        "value": "425"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "422"
+      },
+      {
+        "rank": 31,
+        "code": "SA",
+        "value": "419"
+      },
+      {
+        "rank": 32,
+        "code": "JO",
+        "value": "410"
+      },
+      {
+        "rank": 33,
+        "code": "KW",
+        "value": "396"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "375"
+      },
+      {
+        "rank": 35,
+        "code": "MA",
+        "value": "371"
       }
     ]
   },
@@ -139950,7 +142580,7 @@
     "title": "Most doctorates awarded per year",
     "prompt": "Name the countries that award the most doctoral (PhD-level) degrees annually.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "OECD Education at a Glance / UNESCO Institute for Statistics \u2014 Doctoral Graduates (ISCED 8)",
       "url": "https://data.uis.unesco.org/",
@@ -139988,38 +142618,128 @@
       },
       {
         "rank": 6,
-        "code": "JP",
-        "value": "15,700 awarded"
-      },
-      {
-        "rank": 7,
-        "code": "FR",
-        "value": "13,900 awarded"
-      },
-      {
-        "rank": 8,
         "code": "BR",
         "value": "23,100 awarded"
       },
       {
+        "rank": 7,
+        "code": "KR",
+        "value": "16,400 awarded"
+      },
+      {
+        "rank": 8,
+        "code": "JP",
+        "value": "15,700 awarded"
+      },
+      {
         "rank": 9,
+        "code": "FR",
+        "value": "13,900 awarded"
+      },
+      {
+        "rank": 10,
         "code": "IT",
         "value": "10,600 awarded"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "AU",
         "value": "10,000 awarded"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "ES",
         "value": "9,800 awarded"
       },
       {
-        "rank": 12,
-        "code": "KR",
-        "value": "16,400 awarded"
+        "rank": 13,
+        "code": "RU",
+        "value": "9,000 awarded"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "8,900 awarded"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "6,200 awarded"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "6,000 awarded"
+      },
+      {
+        "rank": 17,
+        "code": "NL",
+        "value": "5,300 awarded"
+      },
+      {
+        "rank": 18,
+        "code": "TR",
+        "value": "5,100 awarded"
+      },
+      {
+        "rank": 19,
+        "code": "MX",
+        "value": "4,900 awarded"
+      },
+      {
+        "rank": 20,
+        "code": "CH",
+        "value": "4,700 awarded"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "3,000 awarded"
+      },
+      {
+        "rank": 22,
+        "code": "PT",
+        "value": "2,900 awarded"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "2,800 awarded"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "2,700 awarded"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "2,400 awarded"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "2,300 awarded"
+      },
+      {
+        "rank": 27,
+        "code": "FI",
+        "value": "2,100 awarded"
+      },
+      {
+        "rank": 28,
+        "code": "DK",
+        "value": "2,000 awarded"
+      },
+      {
+        "rank": 29,
+        "code": "RO",
+        "value": "1,900 awarded"
+      },
+      {
+        "rank": 30,
+        "code": "ZA",
+        "value": "1,700 awarded"
       }
     ]
   },
@@ -154730,7 +157450,7 @@
     "title": "Most Operating Nuclear Reactors",
     "prompt": "Name the US states with the most commercial nuclear power reactors currently in operation, from most to fewest.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 29,
     "source": {
       "name": "US Nuclear Regulatory Commission \u2014 Operating Reactors",
       "url": "https://www.nrc.gov/reactors/operating/list-power-reactor-units.html",
@@ -154815,6 +157535,76 @@
         "rank": 14,
         "code": "CA",
         "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "MI",
+        "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "MS",
+        "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NE",
+        "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "OH",
+        "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "WA",
+        "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "WI",
+        "value": "2 reactors (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CT",
+        "value": "1 reactor"
+      },
+      {
+        "rank": 22,
+        "code": "IA",
+        "value": "1 reactor (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "KS",
+        "value": "1 reactor (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "LA",
+        "value": "1 reactor (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MD",
+        "value": "1 reactor (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MO",
+        "value": "1 reactor (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NH",
+        "value": "1 reactor (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NJ",
+        "value": "1 reactor (tied)"
       }
     ]
   },
@@ -154825,7 +157615,7 @@
     "title": "Highest Coal Share of Electricity Generation",
     "prompt": "Name the US states where coal makes up the largest share of in-state electricity generation.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Energy Information Administration \u2014 State Electricity Profiles",
       "url": "https://www.eia.gov/electricity/state/",
@@ -154910,6 +157700,186 @@
         "rank": 15,
         "code": "OH",
         "value": "28% coal"
+      },
+      {
+        "rank": 16,
+        "code": "KS",
+        "value": "27% coal"
+      },
+      {
+        "rank": 17,
+        "code": "MN",
+        "value": "24% coal"
+      },
+      {
+        "rank": 18,
+        "code": "MI",
+        "value": "22% coal"
+      },
+      {
+        "rank": 19,
+        "code": "SD",
+        "value": "20% coal"
+      },
+      {
+        "rank": 20,
+        "code": "TN",
+        "value": "18% coal"
+      },
+      {
+        "rank": 21,
+        "code": "IL",
+        "value": "17% coal"
+      },
+      {
+        "rank": 22,
+        "code": "OK",
+        "value": "14% coal"
+      },
+      {
+        "rank": 23,
+        "code": "AZ",
+        "value": "13% coal"
+      },
+      {
+        "rank": 24,
+        "code": "AL",
+        "value": "13% coal (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "GA",
+        "value": "12% coal"
+      },
+      {
+        "rank": 26,
+        "code": "PA",
+        "value": "11% coal"
+      },
+      {
+        "rank": 27,
+        "code": "NC",
+        "value": "11% coal (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TX",
+        "value": "11% coal (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "NV",
+        "value": "5% coal"
+      },
+      {
+        "rank": 30,
+        "code": "MS",
+        "value": "4% coal"
+      },
+      {
+        "rank": 31,
+        "code": "NH",
+        "value": "4% coal (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "LA",
+        "value": "3% coal"
+      },
+      {
+        "rank": 33,
+        "code": "MD",
+        "value": "3% coal (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "SC",
+        "value": "3% coal (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "FL",
+        "value": "3% coal (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "OR",
+        "value": "2% coal"
+      },
+      {
+        "rank": 37,
+        "code": "AK",
+        "value": "2% coal (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "VA",
+        "value": "2% coal (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "HI",
+        "value": "2% coal (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "NY",
+        "value": "1% coal"
+      },
+      {
+        "rank": 41,
+        "code": "NJ",
+        "value": "1% coal (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "WA",
+        "value": "1% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "DE",
+        "value": "0% coal"
+      },
+      {
+        "rank": 43,
+        "code": "CA",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "CT",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ID",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ME",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "MA",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "RI",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "VT",
+        "value": "0% coal (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "DC",
+        "value": "0% coal (tied)"
       }
     ]
   },
@@ -154920,7 +157890,7 @@
     "title": "Highest Natural Gas Share of Electricity",
     "prompt": "Name the US states where natural gas makes up the largest share of in-state electricity generation.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Energy Information Administration \u2014 State Electricity Profiles",
       "url": "https://www.eia.gov/electricity/state/",
@@ -154952,7 +157922,7 @@
         "value": "74% gas"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "FL",
         "value": "74% gas (tied)"
       },
@@ -154982,7 +157952,7 @@
         "value": "43% gas"
       },
       {
-        "rank": 11,
+        "rank": 10,
         "code": "LA",
         "value": "43% gas (tied)"
       },
@@ -155005,6 +157975,186 @@
         "rank": 15,
         "code": "PA",
         "value": "36% gas"
+      },
+      {
+        "rank": 16,
+        "code": "MD",
+        "value": "35% gas"
+      },
+      {
+        "rank": 17,
+        "code": "VA",
+        "value": "34% gas"
+      },
+      {
+        "rank": 18,
+        "code": "OH",
+        "value": "32% gas"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "30% gas"
+      },
+      {
+        "rank": 20,
+        "code": "GA",
+        "value": "29% gas"
+      },
+      {
+        "rank": 21,
+        "code": "NM",
+        "value": "28% gas"
+      },
+      {
+        "rank": 22,
+        "code": "MI",
+        "value": "27% gas"
+      },
+      {
+        "rank": 23,
+        "code": "NY",
+        "value": "26% gas"
+      },
+      {
+        "rank": 24,
+        "code": "CO",
+        "value": "25% gas"
+      },
+      {
+        "rank": 25,
+        "code": "NC",
+        "value": "23% gas"
+      },
+      {
+        "rank": 26,
+        "code": "WI",
+        "value": "22% gas"
+      },
+      {
+        "rank": 27,
+        "code": "MN",
+        "value": "22% gas (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MO",
+        "value": "21% gas"
+      },
+      {
+        "rank": 29,
+        "code": "UT",
+        "value": "20% gas"
+      },
+      {
+        "rank": 30,
+        "code": "AK",
+        "value": "20% gas (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "TN",
+        "value": "18% gas"
+      },
+      {
+        "rank": 32,
+        "code": "IL",
+        "value": "15% gas"
+      },
+      {
+        "rank": 33,
+        "code": "IN",
+        "value": "14% gas"
+      },
+      {
+        "rank": 34,
+        "code": "SC",
+        "value": "13% gas"
+      },
+      {
+        "rank": 35,
+        "code": "IA",
+        "value": "12% gas"
+      },
+      {
+        "rank": 36,
+        "code": "KS",
+        "value": "11% gas"
+      },
+      {
+        "rank": 37,
+        "code": "OR",
+        "value": "10% gas"
+      },
+      {
+        "rank": 38,
+        "code": "NE",
+        "value": "10% gas (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "HI",
+        "value": "9% gas"
+      },
+      {
+        "rank": 40,
+        "code": "ME",
+        "value": "9% gas (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "WV",
+        "value": "5% gas"
+      },
+      {
+        "rank": 42,
+        "code": "KY",
+        "value": "5% gas (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "WA",
+        "value": "4% gas"
+      },
+      {
+        "rank": 44,
+        "code": "NH",
+        "value": "4% gas (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "WY",
+        "value": "3% gas"
+      },
+      {
+        "rank": 46,
+        "code": "MT",
+        "value": "2% gas"
+      },
+      {
+        "rank": 47,
+        "code": "ND",
+        "value": "2% gas (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "ID",
+        "value": "1% gas"
+      },
+      {
+        "rank": 49,
+        "code": "SD",
+        "value": "1% gas (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "VT",
+        "value": "0% gas"
+      },
+      {
+        "rank": 50,
+        "code": "DC",
+        "value": "0% gas (tied)"
       }
     ]
   },
@@ -155015,7 +158165,7 @@
     "title": "Highest Hydropower Share of Electricity",
     "prompt": "Name the US states where conventional hydroelectric power supplies the largest share of in-state electricity generation.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 44,
     "source": {
       "name": "US Energy Information Administration \u2014 State Electricity Profiles",
       "url": "https://www.eia.gov/electricity/state/",
@@ -155042,7 +158192,7 @@
         "value": "50% hydro"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "VT",
         "value": "50% hydro (tied)"
       },
@@ -155087,7 +158237,7 @@
         "value": "7% hydro"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "CA",
         "value": "7% hydro (tied)"
       },
@@ -155100,6 +158250,151 @@
         "rank": 15,
         "code": "NC",
         "value": "4% hydro"
+      },
+      {
+        "rank": 16,
+        "code": "SC",
+        "value": "3% hydro"
+      },
+      {
+        "rank": 17,
+        "code": "AR",
+        "value": "3% hydro (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "GA",
+        "value": "3% hydro (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "MA",
+        "value": "3% hydro (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NV",
+        "value": "2% hydro"
+      },
+      {
+        "rank": 21,
+        "code": "WI",
+        "value": "2% hydro (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MI",
+        "value": "1% hydro"
+      },
+      {
+        "rank": 23,
+        "code": "MN",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PA",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "VA",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "IA",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "MO",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "KY",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "WV",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CO",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "NM",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "UT",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "OK",
+        "value": "1% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "IL",
+        "value": "0% hydro"
+      },
+      {
+        "rank": 34,
+        "code": "IN",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "KS",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "LA",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "MD",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "MS",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "NE",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "ND",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "OH",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "TX",
+        "value": "0% hydro (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "WY",
+        "value": "0% hydro (tied)"
       }
     ]
   },
@@ -155110,7 +158405,7 @@
     "title": "Highest Nuclear Share of Electricity",
     "prompt": "Name the US states where nuclear power supplies the largest share of in-state electricity generation.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 29,
     "source": {
       "name": "US Energy Information Administration \u2014 State Electricity Profiles",
       "url": "https://www.eia.gov/electricity/state/",
@@ -155195,6 +158490,76 @@
         "rank": 14,
         "code": "NY",
         "value": "23% nuclear (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MI",
+        "value": "22% nuclear"
+      },
+      {
+        "rank": 17,
+        "code": "MS",
+        "value": "19% nuclear"
+      },
+      {
+        "rank": 18,
+        "code": "LA",
+        "value": "16% nuclear"
+      },
+      {
+        "rank": 19,
+        "code": "MN",
+        "value": "15% nuclear"
+      },
+      {
+        "rank": 20,
+        "code": "MO",
+        "value": "13% nuclear"
+      },
+      {
+        "rank": 21,
+        "code": "OH",
+        "value": "13% nuclear (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "WI",
+        "value": "13% nuclear (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "TX",
+        "value": "9% nuclear"
+      },
+      {
+        "rank": 24,
+        "code": "FL",
+        "value": "9% nuclear (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NE",
+        "value": "9% nuclear (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "KS",
+        "value": "8% nuclear"
+      },
+      {
+        "rank": 27,
+        "code": "IA",
+        "value": "7% nuclear"
+      },
+      {
+        "rank": 28,
+        "code": "WA",
+        "value": "6% nuclear"
+      },
+      {
+        "rank": 29,
+        "code": "CA",
+        "value": "5% nuclear"
       }
     ]
   },
@@ -155205,7 +158570,7 @@
     "title": "Most Total Electricity Generated",
     "prompt": "Name the US states that generate the most total electricity annually across all sources.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Energy Information Administration \u2014 State Electricity Profiles",
       "url": "https://www.eia.gov/electricity/state/",
@@ -155290,6 +158655,186 @@
         "rank": 15,
         "code": "VA",
         "value": "104 TWh"
+      },
+      {
+        "rank": 16,
+        "code": "SC",
+        "value": "97 TWh"
+      },
+      {
+        "rank": 17,
+        "code": "MI",
+        "value": "96 TWh"
+      },
+      {
+        "rank": 18,
+        "code": "OK",
+        "value": "89 TWh"
+      },
+      {
+        "rank": 19,
+        "code": "MO",
+        "value": "77 TWh"
+      },
+      {
+        "rank": 20,
+        "code": "MS",
+        "value": "77 TWh"
+      },
+      {
+        "rank": 21,
+        "code": "TN",
+        "value": "76 TWh"
+      },
+      {
+        "rank": 22,
+        "code": "KY",
+        "value": "68 TWh"
+      },
+      {
+        "rank": 23,
+        "code": "WI",
+        "value": "66 TWh"
+      },
+      {
+        "rank": 24,
+        "code": "MN",
+        "value": "60 TWh"
+      },
+      {
+        "rank": 25,
+        "code": "IA",
+        "value": "60 TWh"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "58 TWh"
+      },
+      {
+        "rank": 27,
+        "code": "KS",
+        "value": "56 TWh"
+      },
+      {
+        "rank": 28,
+        "code": "WV",
+        "value": "54 TWh"
+      },
+      {
+        "rank": 29,
+        "code": "NJ",
+        "value": "53 TWh"
+      },
+      {
+        "rank": 30,
+        "code": "MD",
+        "value": "45 TWh"
+      },
+      {
+        "rank": 31,
+        "code": "CO",
+        "value": "44 TWh"
+      },
+      {
+        "rank": 32,
+        "code": "MA",
+        "value": "43 TWh"
+      },
+      {
+        "rank": 33,
+        "code": "OR",
+        "value": "42 TWh"
+      },
+      {
+        "rank": 34,
+        "code": "WY",
+        "value": "40 TWh"
+      },
+      {
+        "rank": 35,
+        "code": "NE",
+        "value": "40 TWh"
+      },
+      {
+        "rank": 36,
+        "code": "ND",
+        "value": "40 TWh"
+      },
+      {
+        "rank": 37,
+        "code": "NM",
+        "value": "37 TWh"
+      },
+      {
+        "rank": 38,
+        "code": "NV",
+        "value": "37 TWh"
+      },
+      {
+        "rank": 39,
+        "code": "UT",
+        "value": "36 TWh"
+      },
+      {
+        "rank": 40,
+        "code": "MT",
+        "value": "26 TWh"
+      },
+      {
+        "rank": 41,
+        "code": "CT",
+        "value": "26 TWh"
+      },
+      {
+        "rank": 42,
+        "code": "SD",
+        "value": "17 TWh"
+      },
+      {
+        "rank": 43,
+        "code": "ME",
+        "value": "12 TWh"
+      },
+      {
+        "rank": 44,
+        "code": "NH",
+        "value": "12 TWh"
+      },
+      {
+        "rank": 45,
+        "code": "ID",
+        "value": "12 TWh"
+      },
+      {
+        "rank": 46,
+        "code": "HI",
+        "value": "9 TWh"
+      },
+      {
+        "rank": 47,
+        "code": "AK",
+        "value": "6 TWh"
+      },
+      {
+        "rank": 48,
+        "code": "DE",
+        "value": "5 TWh"
+      },
+      {
+        "rank": 49,
+        "code": "RI",
+        "value": "5 TWh"
+      },
+      {
+        "rank": 50,
+        "code": "VT",
+        "value": "2 TWh"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "0.1 TWh"
       }
     ]
   },
@@ -155300,7 +158845,7 @@
     "title": "Most Superfund NPL Sites",
     "prompt": "Name the US states with the most Superfund sites listed on the EPA National Priorities List, from most to fewest.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US EPA \u2014 Superfund National Priorities List",
       "url": "https://www.epa.gov/superfund/national-priorities-list-npl-sites-state",
@@ -155352,7 +158897,7 @@
         "value": "50 sites"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "code": "TX",
         "value": "50 sites (tied)"
       },
@@ -155367,7 +158912,7 @@
         "value": "36 sites"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "IN",
         "value": "36 sites (tied)"
       },
@@ -155377,7 +158922,7 @@
         "value": "31 sites"
       },
       {
-        "rank": 14,
+        "rank": 13,
         "code": "MO",
         "value": "31 sites (tied)"
       },
@@ -155385,6 +158930,186 @@
         "rank": 15,
         "code": "OH",
         "value": "29 sites"
+      },
+      {
+        "rank": 16,
+        "code": "MN",
+        "value": "26 sites"
+      },
+      {
+        "rank": 17,
+        "code": "NH",
+        "value": "22 sites"
+      },
+      {
+        "rank": 18,
+        "code": "NC",
+        "value": "22 sites (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "SC",
+        "value": "22 sites (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CO",
+        "value": "22 sites (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MT",
+        "value": "19 sites"
+      },
+      {
+        "rank": 22,
+        "code": "MD",
+        "value": "19 sites (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "IA",
+        "value": "17 sites"
+      },
+      {
+        "rank": 24,
+        "code": "CT",
+        "value": "16 sites"
+      },
+      {
+        "rank": 25,
+        "code": "ME",
+        "value": "15 sites"
+      },
+      {
+        "rank": 26,
+        "code": "OK",
+        "value": "14 sites"
+      },
+      {
+        "rank": 27,
+        "code": "KY",
+        "value": "14 sites (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "NM",
+        "value": "14 sites (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "AL",
+        "value": "13 sites"
+      },
+      {
+        "rank": 30,
+        "code": "OR",
+        "value": "13 sites (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "AR",
+        "value": "12 sites"
+      },
+      {
+        "rank": 32,
+        "code": "TN",
+        "value": "12 sites (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "NE",
+        "value": "12 sites (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "LA",
+        "value": "11 sites"
+      },
+      {
+        "rank": 35,
+        "code": "GA",
+        "value": "11 sites (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "RI",
+        "value": "10 sites"
+      },
+      {
+        "rank": 37,
+        "code": "KS",
+        "value": "10 sites (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "AZ",
+        "value": "9 sites"
+      },
+      {
+        "rank": 39,
+        "code": "ID",
+        "value": "9 sites (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "AK",
+        "value": "6 sites"
+      },
+      {
+        "rank": 41,
+        "code": "DE",
+        "value": "6 sites (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "VT",
+        "value": "5 sites"
+      },
+      {
+        "rank": 43,
+        "code": "UT",
+        "value": "5 sites (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "WV",
+        "value": "5 sites (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "HI",
+        "value": "4 sites"
+      },
+      {
+        "rank": 46,
+        "code": "MS",
+        "value": "4 sites (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "WY",
+        "value": "2 sites"
+      },
+      {
+        "rank": 48,
+        "code": "SD",
+        "value": "2 sites (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "NV",
+        "value": "1 site"
+      },
+      {
+        "rank": 50,
+        "code": "ND",
+        "value": "0 sites"
+      },
+      {
+        "rank": 50,
+        "code": "DC",
+        "value": "0 sites (tied)"
       }
     ]
   },
@@ -155395,7 +159120,7 @@
     "title": "Most Wind Turbines",
     "prompt": "Name the US states with the most utility-scale wind turbines installed.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "USGS \u2014 US Wind Turbine Database",
       "url": "https://eerscmap.usgs.gov/uswtdb/",
@@ -155467,7 +159192,7 @@
         "value": "1,300 turbines"
       },
       {
-        "rank": 13,
+        "rank": 12,
         "code": "NE",
         "value": "1,300 turbines (tied)"
       },
@@ -155477,9 +159202,134 @@
         "value": "1,000 turbines"
       },
       {
-        "rank": 15,
+        "rank": 14,
         "code": "SD",
         "value": "1,000 turbines (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "WA",
+        "value": "900 turbines"
+      },
+      {
+        "rank": 17,
+        "code": "WY",
+        "value": "900 turbines (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MO",
+        "value": "800 turbines"
+      },
+      {
+        "rank": 19,
+        "code": "PA",
+        "value": "800 turbines (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MI",
+        "value": "800 turbines (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "OH",
+        "value": "600 turbines"
+      },
+      {
+        "rank": 22,
+        "code": "MT",
+        "value": "500 turbines"
+      },
+      {
+        "rank": 23,
+        "code": "WI",
+        "value": "500 turbines (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "WV",
+        "value": "400 turbines"
+      },
+      {
+        "rank": 25,
+        "code": "ME",
+        "value": "400 turbines (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MD",
+        "value": "300 turbines"
+      },
+      {
+        "rank": 27,
+        "code": "NC",
+        "value": "200 turbines"
+      },
+      {
+        "rank": 28,
+        "code": "ID",
+        "value": "200 turbines (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "UT",
+        "value": "200 turbines (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "VT",
+        "value": "100 turbines"
+      },
+      {
+        "rank": 31,
+        "code": "NJ",
+        "value": "100 turbines (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "MA",
+        "value": "100 turbines (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "NH",
+        "value": "100 turbines (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "AK",
+        "value": "80 turbines"
+      },
+      {
+        "rank": 35,
+        "code": "HI",
+        "value": "70 turbines"
+      },
+      {
+        "rank": 36,
+        "code": "CT",
+        "value": "40 turbines"
+      },
+      {
+        "rank": 37,
+        "code": "TN",
+        "value": "20 turbines"
+      },
+      {
+        "rank": 38,
+        "code": "NV",
+        "value": "10 turbines"
+      },
+      {
+        "rank": 39,
+        "code": "DE",
+        "value": "5 turbines"
+      },
+      {
+        "rank": 40,
+        "code": "RI",
+        "value": "5 turbines (tied)"
       }
     ]
   },
@@ -156745,7 +160595,7 @@
     "title": "Highest Sorghum Production",
     "prompt": "Name the US states that produce the most grain sorghum by bushels.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "USDA NASS \u2014 Sorghum Production",
       "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
@@ -156815,6 +160665,96 @@
         "rank": 12,
         "code": "LA",
         "value": "400,000 bushels"
+      },
+      {
+        "rank": 13,
+        "code": "TN",
+        "value": "350,000 bushels"
+      },
+      {
+        "rank": 14,
+        "code": "KY",
+        "value": "250,000 bushels"
+      },
+      {
+        "rank": 15,
+        "code": "AL",
+        "value": "180,000 bushels"
+      },
+      {
+        "rank": 16,
+        "code": "GA",
+        "value": "150,000 bushels"
+      },
+      {
+        "rank": 17,
+        "code": "NC",
+        "value": "120,000 bushels"
+      },
+      {
+        "rank": 18,
+        "code": "SC",
+        "value": "90,000 bushels"
+      },
+      {
+        "rank": 19,
+        "code": "VA",
+        "value": "70,000 bushels"
+      },
+      {
+        "rank": 20,
+        "code": "AZ",
+        "value": "60,000 bushels"
+      },
+      {
+        "rank": 21,
+        "code": "CA",
+        "value": "50,000 bushels"
+      },
+      {
+        "rank": 22,
+        "code": "MD",
+        "value": "40,000 bushels"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "30,000 bushels"
+      },
+      {
+        "rank": 24,
+        "code": "OH",
+        "value": "25,000 bushels"
+      },
+      {
+        "rank": 25,
+        "code": "IA",
+        "value": "20,000 bushels"
+      },
+      {
+        "rank": 26,
+        "code": "PA",
+        "value": "15,000 bushels"
+      },
+      {
+        "rank": 27,
+        "code": "MN",
+        "value": "12,000 bushels"
+      },
+      {
+        "rank": 28,
+        "code": "WI",
+        "value": "10,000 bushels"
+      },
+      {
+        "rank": 29,
+        "code": "DE",
+        "value": "8,000 bushels"
+      },
+      {
+        "rank": 30,
+        "code": "NJ",
+        "value": "6,000 bushels"
       }
     ]
   },
@@ -157375,7 +161315,7 @@
     "title": "Highest Turkey Production",
     "prompt": "Name the US states that raise the most turkeys by head count.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "USDA NASS \u2014 Turkeys Raised",
       "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/turk0923.pdf",
@@ -157460,6 +161400,81 @@
         "rank": 15,
         "code": "MI",
         "value": "1,500,000 birds"
+      },
+      {
+        "rank": 16,
+        "code": "WI",
+        "value": "1,200,000 birds"
+      },
+      {
+        "rank": 17,
+        "code": "TX",
+        "value": "900,000 birds"
+      },
+      {
+        "rank": 18,
+        "code": "IL",
+        "value": "700,000 birds"
+      },
+      {
+        "rank": 19,
+        "code": "NY",
+        "value": "500,000 birds"
+      },
+      {
+        "rank": 20,
+        "code": "KY",
+        "value": "400,000 birds"
+      },
+      {
+        "rank": 21,
+        "code": "OR",
+        "value": "300,000 birds"
+      },
+      {
+        "rank": 22,
+        "code": "GA",
+        "value": "250,000 birds"
+      },
+      {
+        "rank": 23,
+        "code": "WA",
+        "value": "200,000 birds"
+      },
+      {
+        "rank": 24,
+        "code": "TN",
+        "value": "150,000 birds"
+      },
+      {
+        "rank": 25,
+        "code": "MA",
+        "value": "100,000 birds"
+      },
+      {
+        "rank": 26,
+        "code": "NJ",
+        "value": "80,000 birds"
+      },
+      {
+        "rank": 27,
+        "code": "MD",
+        "value": "60,000 birds"
+      },
+      {
+        "rank": 28,
+        "code": "CO",
+        "value": "45,000 birds"
+      },
+      {
+        "rank": 29,
+        "code": "OK",
+        "value": "35,000 birds"
+      },
+      {
+        "rank": 30,
+        "code": "VT",
+        "value": "25,000 birds"
       }
     ]
   },
@@ -157685,7 +161700,7 @@
     "title": "Most Toll Road Mileage",
     "prompt": "Name the US states with the most toll road mileage (public toll roads, in miles).",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 27,
     "source": {
       "name": "FHWA \u2014 Highway Statistics, Table HM-18 (Toll Facilities)",
       "url": "https://www.fhwa.dot.gov/policyinformation/tollpage/",
@@ -157708,18 +161723,18 @@
       },
       {
         "rank": 3,
-        "code": "PA",
-        "value": "552 miles"
-      },
-      {
-        "rank": 4,
         "code": "NY",
         "value": "570 miles"
       },
       {
+        "rank": 4,
+        "code": "PA",
+        "value": "552 miles"
+      },
+      {
         "rank": 5,
-        "code": "OH",
-        "value": "241 miles"
+        "code": "TX",
+        "value": "418 miles"
       },
       {
         "rank": 6,
@@ -157728,33 +161743,108 @@
       },
       {
         "rank": 7,
-        "code": "NJ",
-        "value": "217 miles"
+        "code": "OH",
+        "value": "241 miles"
       },
       {
         "rank": 8,
-        "code": "IN",
-        "value": "157 miles"
-      },
-      {
-        "rank": 9,
         "code": "KS",
         "value": "236 miles"
       },
       {
+        "rank": 9,
+        "code": "NJ",
+        "value": "217 miles"
+      },
+      {
         "rank": 10,
-        "code": "TX",
-        "value": "418 miles"
+        "code": "IN",
+        "value": "157 miles"
       },
       {
         "rank": 11,
+        "code": "MA",
+        "value": "138 miles"
+      },
+      {
+        "rank": 12,
         "code": "CO",
         "value": "115 miles"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "ME",
+        "value": "109 miles"
+      },
+      {
+        "rank": 14,
+        "code": "NH",
+        "value": "89 miles"
+      },
+      {
+        "rank": 15,
         "code": "WV",
         "value": "88 miles"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "78 miles"
+      },
+      {
+        "rank": 17,
+        "code": "VA",
+        "value": "77 miles"
+      },
+      {
+        "rank": 18,
+        "code": "MD",
+        "value": "51 miles"
+      },
+      {
+        "rank": 19,
+        "code": "DE",
+        "value": "51 miles (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "GA",
+        "value": "42 miles"
+      },
+      {
+        "rank": 21,
+        "code": "NC",
+        "value": "39 miles"
+      },
+      {
+        "rank": 22,
+        "code": "AL",
+        "value": "38 miles"
+      },
+      {
+        "rank": 23,
+        "code": "KY",
+        "value": "22 miles"
+      },
+      {
+        "rank": 24,
+        "code": "WA",
+        "value": "17 miles"
+      },
+      {
+        "rank": 25,
+        "code": "UT",
+        "value": "14 miles"
+      },
+      {
+        "rank": 26,
+        "code": "MN",
+        "value": "10 miles"
+      },
+      {
+        "rank": 27,
+        "code": "MI",
+        "value": "5 miles"
       }
     ]
   },
@@ -157765,7 +161855,7 @@
     "title": "Most Traffic Fatalities (Total)",
     "prompt": "Name the US states with the most total traffic fatalities in a recent year.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "NHTSA \u2014 Fatality Analysis Reporting System (FARS)",
       "url": "https://cdan.nhtsa.gov/tsftables/tsfar.htm",
@@ -157803,53 +161893,233 @@
       },
       {
         "rank": 6,
-        "code": "OH",
-        "value": "1,275 deaths"
-      },
-      {
-        "rank": 7,
         "code": "TN",
         "value": "1,346 deaths"
       },
       {
-        "rank": 8,
-        "code": "PA",
-        "value": "1,179 deaths"
-      },
-      {
-        "rank": 9,
+        "rank": 7,
         "code": "AZ",
         "value": "1,296 deaths"
       },
       {
-        "rank": 10,
-        "code": "SC",
-        "value": "1,096 deaths"
+        "rank": 8,
+        "code": "OH",
+        "value": "1,275 deaths"
       },
       {
-        "rank": 11,
-        "code": "MO",
-        "value": "1,057 deaths"
-      },
-      {
-        "rank": 12,
-        "code": "AL",
-        "value": "986 deaths"
-      },
-      {
-        "rank": 13,
+        "rank": 9,
         "code": "IL",
         "value": "1,268 deaths"
       },
       {
-        "rank": 14,
+        "rank": 10,
+        "code": "PA",
+        "value": "1,179 deaths"
+      },
+      {
+        "rank": 11,
         "code": "NY",
         "value": "1,175 deaths"
       },
       {
+        "rank": 12,
+        "code": "MI",
+        "value": "1,123 deaths"
+      },
+      {
+        "rank": 13,
+        "code": "SC",
+        "value": "1,096 deaths"
+      },
+      {
+        "rank": 14,
+        "code": "MO",
+        "value": "1,057 deaths"
+      },
+      {
         "rank": 15,
+        "code": "VA",
+        "value": "1,005 deaths"
+      },
+      {
+        "rank": 16,
+        "code": "AL",
+        "value": "986 deaths"
+      },
+      {
+        "rank": 17,
         "code": "LA",
         "value": "972 deaths"
+      },
+      {
+        "rank": 18,
+        "code": "IN",
+        "value": "907 deaths"
+      },
+      {
+        "rank": 19,
+        "code": "KY",
+        "value": "760 deaths"
+      },
+      {
+        "rank": 20,
+        "code": "MS",
+        "value": "747 deaths"
+      },
+      {
+        "rank": 21,
+        "code": "CO",
+        "value": "745 deaths"
+      },
+      {
+        "rank": 22,
+        "code": "WA",
+        "value": "743 deaths"
+      },
+      {
+        "rank": 23,
+        "code": "OK",
+        "value": "687 deaths"
+      },
+      {
+        "rank": 24,
+        "code": "AR",
+        "value": "685 deaths"
+      },
+      {
+        "rank": 25,
+        "code": "NJ",
+        "value": "684 deaths"
+      },
+      {
+        "rank": 26,
+        "code": "OR",
+        "value": "600 deaths"
+      },
+      {
+        "rank": 27,
+        "code": "WI",
+        "value": "586 deaths"
+      },
+      {
+        "rank": 28,
+        "code": "MD",
+        "value": "564 deaths"
+      },
+      {
+        "rank": 29,
+        "code": "NM",
+        "value": "471 deaths"
+      },
+      {
+        "rank": 30,
+        "code": "MN",
+        "value": "446 deaths"
+      },
+      {
+        "rank": 31,
+        "code": "KS",
+        "value": "422 deaths"
+      },
+      {
+        "rank": 32,
+        "code": "NV",
+        "value": "419 deaths"
+      },
+      {
+        "rank": 33,
+        "code": "MA",
+        "value": "417 deaths"
+      },
+      {
+        "rank": 34,
+        "code": "CT",
+        "value": "366 deaths"
+      },
+      {
+        "rank": 35,
+        "code": "IA",
+        "value": "338 deaths"
+      },
+      {
+        "rank": 36,
+        "code": "UT",
+        "value": "318 deaths"
+      },
+      {
+        "rank": 37,
+        "code": "ID",
+        "value": "271 deaths"
+      },
+      {
+        "rank": 38,
+        "code": "WV",
+        "value": "271 deaths (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "NE",
+        "value": "260 deaths"
+      },
+      {
+        "rank": 40,
+        "code": "MT",
+        "value": "241 deaths"
+      },
+      {
+        "rank": 41,
+        "code": "ME",
+        "value": "182 deaths"
+      },
+      {
+        "rank": 42,
+        "code": "DE",
+        "value": "165 deaths"
+      },
+      {
+        "rank": 43,
+        "code": "SD",
+        "value": "146 deaths"
+      },
+      {
+        "rank": 44,
+        "code": "NH",
+        "value": "142 deaths"
+      },
+      {
+        "rank": 45,
+        "code": "WY",
+        "value": "127 deaths"
+      },
+      {
+        "rank": 46,
+        "code": "HI",
+        "value": "117 deaths"
+      },
+      {
+        "rank": 47,
+        "code": "ND",
+        "value": "98 deaths"
+      },
+      {
+        "rank": 48,
+        "code": "AK",
+        "value": "76 deaths"
+      },
+      {
+        "rank": 49,
+        "code": "VT",
+        "value": "76 deaths (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "RI",
+        "value": "60 deaths"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "35 deaths"
       }
     ]
   },
@@ -157860,7 +162130,7 @@
     "title": "Highest Traffic Fatality Rate per 100M VMT",
     "prompt": "Name the US states with the highest traffic fatality rate per 100 million vehicle miles traveled.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "NHTSA \u2014 Traffic Safety Facts, State Fatality Rates",
       "url": "https://crashstats.nhtsa.dot.gov/",
@@ -157888,63 +162158,243 @@
       },
       {
         "rank": 4,
-        "code": "LA",
-        "value": "1.69 per 100M VMT"
-      },
-      {
-        "rank": 5,
         "code": "AR",
         "value": "1.71 per 100M VMT"
       },
       {
+        "rank": 5,
+        "code": "LA",
+        "value": "1.69 per 100M VMT"
+      },
+      {
         "rank": 6,
-        "code": "AL",
-        "value": "1.55 per 100M VMT"
-      },
-      {
-        "rank": 7,
-        "code": "TN",
-        "value": "1.62 per 100M VMT"
-      },
-      {
-        "rank": 8,
-        "code": "KY",
-        "value": "1.55 per 100M VMT"
-      },
-      {
-        "rank": 9,
-        "code": "MT",
-        "value": "1.65 per 100M VMT"
-      },
-      {
-        "rank": 10,
-        "code": "WV",
-        "value": "1.54 per 100M VMT"
-      },
-      {
-        "rank": 11,
-        "code": "OK",
-        "value": "1.44 per 100M VMT"
-      },
-      {
-        "rank": 12,
-        "code": "TX",
-        "value": "1.56 per 100M VMT"
-      },
-      {
-        "rank": 13,
         "code": "AZ",
         "value": "1.65 per 100M VMT"
       },
       {
-        "rank": 14,
+        "rank": 7,
+        "code": "MT",
+        "value": "1.65 per 100M VMT (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "TN",
+        "value": "1.62 per 100M VMT"
+      },
+      {
+        "rank": 9,
+        "code": "TX",
+        "value": "1.56 per 100M VMT"
+      },
+      {
+        "rank": 10,
+        "code": "AL",
+        "value": "1.55 per 100M VMT"
+      },
+      {
+        "rank": 11,
+        "code": "KY",
+        "value": "1.55 per 100M VMT (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "WV",
+        "value": "1.54 per 100M VMT"
+      },
+      {
+        "rank": 13,
         "code": "FL",
         "value": "1.53 per 100M VMT"
+      },
+      {
+        "rank": 14,
+        "code": "OK",
+        "value": "1.44 per 100M VMT"
       },
       {
         "rank": 15,
         "code": "GA",
         "value": "1.42 per 100M VMT"
+      },
+      {
+        "rank": 16,
+        "code": "MO",
+        "value": "1.40 per 100M VMT"
+      },
+      {
+        "rank": 17,
+        "code": "NC",
+        "value": "1.39 per 100M VMT"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "1.35 per 100M VMT"
+      },
+      {
+        "rank": 19,
+        "code": "WY",
+        "value": "1.32 per 100M VMT"
+      },
+      {
+        "rank": 20,
+        "code": "DE",
+        "value": "1.30 per 100M VMT"
+      },
+      {
+        "rank": 21,
+        "code": "ND",
+        "value": "1.28 per 100M VMT"
+      },
+      {
+        "rank": 22,
+        "code": "OR",
+        "value": "1.26 per 100M VMT"
+      },
+      {
+        "rank": 23,
+        "code": "PA",
+        "value": "1.24 per 100M VMT"
+      },
+      {
+        "rank": 24,
+        "code": "MI",
+        "value": "1.22 per 100M VMT"
+      },
+      {
+        "rank": 25,
+        "code": "WA",
+        "value": "1.20 per 100M VMT"
+      },
+      {
+        "rank": 26,
+        "code": "CO",
+        "value": "1.19 per 100M VMT"
+      },
+      {
+        "rank": 27,
+        "code": "KS",
+        "value": "1.17 per 100M VMT"
+      },
+      {
+        "rank": 28,
+        "code": "NV",
+        "value": "1.15 per 100M VMT"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "1.14 per 100M VMT"
+      },
+      {
+        "rank": 30,
+        "code": "CA",
+        "value": "1.13 per 100M VMT"
+      },
+      {
+        "rank": 31,
+        "code": "IN",
+        "value": "1.12 per 100M VMT"
+      },
+      {
+        "rank": 32,
+        "code": "OH",
+        "value": "1.10 per 100M VMT"
+      },
+      {
+        "rank": 33,
+        "code": "ID",
+        "value": "1.09 per 100M VMT"
+      },
+      {
+        "rank": 34,
+        "code": "HI",
+        "value": "1.08 per 100M VMT"
+      },
+      {
+        "rank": 35,
+        "code": "NE",
+        "value": "1.06 per 100M VMT"
+      },
+      {
+        "rank": 36,
+        "code": "VA",
+        "value": "1.04 per 100M VMT"
+      },
+      {
+        "rank": 37,
+        "code": "AK",
+        "value": "1.03 per 100M VMT"
+      },
+      {
+        "rank": 38,
+        "code": "UT",
+        "value": "1.00 per 100M VMT"
+      },
+      {
+        "rank": 39,
+        "code": "WI",
+        "value": "0.98 per 100M VMT"
+      },
+      {
+        "rank": 40,
+        "code": "IA",
+        "value": "0.96 per 100M VMT"
+      },
+      {
+        "rank": 41,
+        "code": "CT",
+        "value": "0.95 per 100M VMT"
+      },
+      {
+        "rank": 42,
+        "code": "MD",
+        "value": "0.93 per 100M VMT"
+      },
+      {
+        "rank": 43,
+        "code": "ME",
+        "value": "0.91 per 100M VMT"
+      },
+      {
+        "rank": 44,
+        "code": "NH",
+        "value": "0.89 per 100M VMT"
+      },
+      {
+        "rank": 45,
+        "code": "MN",
+        "value": "0.86 per 100M VMT"
+      },
+      {
+        "rank": 46,
+        "code": "NJ",
+        "value": "0.84 per 100M VMT"
+      },
+      {
+        "rank": 47,
+        "code": "VT",
+        "value": "0.82 per 100M VMT"
+      },
+      {
+        "rank": 48,
+        "code": "NY",
+        "value": "0.79 per 100M VMT"
+      },
+      {
+        "rank": 49,
+        "code": "RI",
+        "value": "0.76 per 100M VMT"
+      },
+      {
+        "rank": 50,
+        "code": "DC",
+        "value": "0.68 per 100M VMT"
+      },
+      {
+        "rank": 51,
+        "code": "MA",
+        "value": "0.65 per 100M VMT"
       }
     ]
   },
@@ -157955,7 +162405,7 @@
     "title": "Longest Average Commute Time",
     "prompt": "Name the US states (including DC) with the longest mean commute time to work.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau \u2014 American Community Survey 1-Year Estimates, Table B08303",
       "url": "https://data.census.gov/table/ACSST1Y2022.S0801",
@@ -157983,13 +162433,13 @@
       },
       {
         "rank": 4,
-        "code": "MA",
-        "value": "29.7 min"
+        "code": "DC",
+        "value": "29.9 min"
       },
       {
         "rank": 5,
-        "code": "DC",
-        "value": "29.9 min"
+        "code": "MA",
+        "value": "29.7 min"
       },
       {
         "rank": 6,
@@ -158009,7 +162459,7 @@
       {
         "rank": 9,
         "code": "GA",
-        "value": "28.4 min"
+        "value": "28.4 min (tied)"
       },
       {
         "rank": 10,
@@ -158023,23 +162473,203 @@
       },
       {
         "rank": 12,
-        "code": "PA",
-        "value": "26.8 min"
-      },
-      {
-        "rank": 13,
         "code": "WA",
         "value": "27.0 min"
       },
       {
+        "rank": 13,
+        "code": "PA",
+        "value": "26.8 min"
+      },
+      {
         "rank": 14,
+        "code": "NH",
+        "value": "26.5 min"
+      },
+      {
+        "rank": 15,
         "code": "CT",
         "value": "26.4 min"
       },
       {
-        "rank": 15,
-        "code": "NH",
-        "value": "26.5 min"
+        "rank": 16,
+        "code": "DE",
+        "value": "26.1 min"
+      },
+      {
+        "rank": 17,
+        "code": "TX",
+        "value": "26.0 min"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "25.4 min"
+      },
+      {
+        "rank": 19,
+        "code": "NV",
+        "value": "25.3 min"
+      },
+      {
+        "rank": 20,
+        "code": "AZ",
+        "value": "25.2 min"
+      },
+      {
+        "rank": 21,
+        "code": "LA",
+        "value": "25.0 min"
+      },
+      {
+        "rank": 22,
+        "code": "NC",
+        "value": "24.7 min"
+      },
+      {
+        "rank": 23,
+        "code": "SC",
+        "value": "24.6 min"
+      },
+      {
+        "rank": 24,
+        "code": "AL",
+        "value": "24.5 min"
+      },
+      {
+        "rank": 25,
+        "code": "TN",
+        "value": "24.5 min (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MS",
+        "value": "24.4 min"
+      },
+      {
+        "rank": 27,
+        "code": "MI",
+        "value": "24.3 min"
+      },
+      {
+        "rank": 28,
+        "code": "RI",
+        "value": "24.2 min"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "23.6 min"
+      },
+      {
+        "rank": 30,
+        "code": "OH",
+        "value": "23.4 min"
+      },
+      {
+        "rank": 31,
+        "code": "MO",
+        "value": "23.3 min"
+      },
+      {
+        "rank": 32,
+        "code": "KY",
+        "value": "23.2 min"
+      },
+      {
+        "rank": 33,
+        "code": "AR",
+        "value": "22.7 min"
+      },
+      {
+        "rank": 34,
+        "code": "OR",
+        "value": "22.6 min"
+      },
+      {
+        "rank": 35,
+        "code": "MN",
+        "value": "22.3 min"
+      },
+      {
+        "rank": 36,
+        "code": "WV",
+        "value": "22.2 min"
+      },
+      {
+        "rank": 37,
+        "code": "WI",
+        "value": "22.1 min"
+      },
+      {
+        "rank": 38,
+        "code": "NM",
+        "value": "21.9 min"
+      },
+      {
+        "rank": 39,
+        "code": "UT",
+        "value": "21.7 min"
+      },
+      {
+        "rank": 40,
+        "code": "ME",
+        "value": "21.6 min"
+      },
+      {
+        "rank": 41,
+        "code": "VT",
+        "value": "21.5 min"
+      },
+      {
+        "rank": 42,
+        "code": "OK",
+        "value": "21.4 min"
+      },
+      {
+        "rank": 43,
+        "code": "IA",
+        "value": "20.1 min"
+      },
+      {
+        "rank": 44,
+        "code": "ID",
+        "value": "20.0 min"
+      },
+      {
+        "rank": 45,
+        "code": "AK",
+        "value": "19.8 min"
+      },
+      {
+        "rank": 46,
+        "code": "KS",
+        "value": "19.6 min"
+      },
+      {
+        "rank": 47,
+        "code": "NE",
+        "value": "19.2 min"
+      },
+      {
+        "rank": 48,
+        "code": "MT",
+        "value": "18.5 min"
+      },
+      {
+        "rank": 49,
+        "code": "WY",
+        "value": "18.3 min"
+      },
+      {
+        "rank": 50,
+        "code": "ND",
+        "value": "17.4 min"
+      },
+      {
+        "rank": 51,
+        "code": "SD",
+        "value": "17.2 min"
       }
     ]
   },
@@ -158050,7 +162680,7 @@
     "title": "Highest Bike-to-Work Share",
     "prompt": "Name the US states (including DC) where the largest share of commuters bike to work.",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau \u2014 ACS 1-Year, Table B08301 (Means of Transportation)",
       "url": "https://data.census.gov/table/ACSST1Y2022.S0801",
@@ -158104,7 +162734,7 @@
       {
         "rank": 9,
         "code": "MN",
-        "value": "0.8%"
+        "value": "0.8% (tied)"
       },
       {
         "rank": 10,
@@ -158119,22 +162749,202 @@
       {
         "rank": 12,
         "code": "AZ",
-        "value": "0.6%"
+        "value": "0.6% (tied)"
       },
       {
         "rank": 13,
         "code": "HI",
-        "value": "0.6%"
+        "value": "0.6% (tied)"
       },
       {
         "rank": 14,
         "code": "NY",
-        "value": "0.6%"
+        "value": "0.6% (tied)"
       },
       {
         "rank": 15,
         "code": "IA",
         "value": "0.5%"
+      },
+      {
+        "rank": 16,
+        "code": "ID",
+        "value": "0.5% (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "NM",
+        "value": "0.5% (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "IL",
+        "value": "0.5% (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NE",
+        "value": "0.4%"
+      },
+      {
+        "rank": 20,
+        "code": "PA",
+        "value": "0.4% (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MI",
+        "value": "0.4% (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MD",
+        "value": "0.4% (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "UT",
+        "value": "0.4% (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "FL",
+        "value": "0.4% (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "OH",
+        "value": "0.3%"
+      },
+      {
+        "rank": 26,
+        "code": "ME",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "RI",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "NC",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "NV",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "MO",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "SD",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "NH",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "NJ",
+        "value": "0.3% (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "KS",
+        "value": "0.2%"
+      },
+      {
+        "rank": 36,
+        "code": "GA",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "TX",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "VA",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "CT",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "TN",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "KY",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "SC",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ND",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "WY",
+        "value": "0.2% (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "OK",
+        "value": "0.1%"
+      },
+      {
+        "rank": 46,
+        "code": "AR",
+        "value": "0.1% (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "LA",
+        "value": "0.1% (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "MS",
+        "value": "0.1% (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "AL",
+        "value": "0.1% (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "WV",
+        "value": "0.1% (tied)"
+      },
+      {
+        "rank": 51,
+        "code": "DE",
+        "value": "0.1% (tied)"
       }
     ]
   },
@@ -158430,7 +163240,7 @@
     "title": "Most DC Fast-Charging Ports",
     "prompt": "Name the US states with the most public DC fast-charging (Level 3) ports for electric vehicles.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "US DOE \u2014 Alternative Fuels Data Center (AFDC)",
       "url": "https://afdc.energy.gov/fuels/electricity_locations.html",
@@ -158474,7 +163284,7 @@
       {
         "rank": 7,
         "code": "AZ",
-        "value": "1,300 ports"
+        "value": "1,300 ports (tied)"
       },
       {
         "rank": 8,
@@ -158494,12 +163304,207 @@
       {
         "rank": 11,
         "code": "OR",
-        "value": "1,000 ports"
+        "value": "1,000 ports (tied)"
       },
       {
         "rank": 12,
         "code": "NJ",
         "value": "900 ports"
+      },
+      {
+        "rank": 13,
+        "code": "MA",
+        "value": "850 ports"
+      },
+      {
+        "rank": 14,
+        "code": "PA",
+        "value": "800 ports"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "800 ports (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "OH",
+        "value": "750 ports"
+      },
+      {
+        "rank": 17,
+        "code": "MI",
+        "value": "700 ports"
+      },
+      {
+        "rank": 18,
+        "code": "MD",
+        "value": "650 ports"
+      },
+      {
+        "rank": 19,
+        "code": "TN",
+        "value": "600 ports"
+      },
+      {
+        "rank": 20,
+        "code": "MO",
+        "value": "550 ports"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "500 ports"
+      },
+      {
+        "rank": 22,
+        "code": "MN",
+        "value": "480 ports"
+      },
+      {
+        "rank": 23,
+        "code": "UT",
+        "value": "450 ports"
+      },
+      {
+        "rank": 24,
+        "code": "CT",
+        "value": "430 ports"
+      },
+      {
+        "rank": 25,
+        "code": "NV",
+        "value": "420 ports"
+      },
+      {
+        "rank": 26,
+        "code": "WI",
+        "value": "400 ports"
+      },
+      {
+        "rank": 27,
+        "code": "SC",
+        "value": "380 ports"
+      },
+      {
+        "rank": 28,
+        "code": "KY",
+        "value": "340 ports"
+      },
+      {
+        "rank": 29,
+        "code": "OK",
+        "value": "320 ports"
+      },
+      {
+        "rank": 30,
+        "code": "AL",
+        "value": "300 ports"
+      },
+      {
+        "rank": 31,
+        "code": "IA",
+        "value": "280 ports"
+      },
+      {
+        "rank": 32,
+        "code": "KS",
+        "value": "260 ports"
+      },
+      {
+        "rank": 33,
+        "code": "NM",
+        "value": "240 ports"
+      },
+      {
+        "rank": 34,
+        "code": "AR",
+        "value": "220 ports"
+      },
+      {
+        "rank": 35,
+        "code": "LA",
+        "value": "210 ports"
+      },
+      {
+        "rank": 36,
+        "code": "NE",
+        "value": "200 ports"
+      },
+      {
+        "rank": 37,
+        "code": "ID",
+        "value": "180 ports"
+      },
+      {
+        "rank": 38,
+        "code": "HI",
+        "value": "170 ports"
+      },
+      {
+        "rank": 39,
+        "code": "MS",
+        "value": "160 ports"
+      },
+      {
+        "rank": 40,
+        "code": "ME",
+        "value": "150 ports"
+      },
+      {
+        "rank": 41,
+        "code": "NH",
+        "value": "140 ports"
+      },
+      {
+        "rank": 42,
+        "code": "MT",
+        "value": "130 ports"
+      },
+      {
+        "rank": 43,
+        "code": "DC",
+        "value": "120 ports"
+      },
+      {
+        "rank": 44,
+        "code": "WV",
+        "value": "110 ports"
+      },
+      {
+        "rank": 45,
+        "code": "RI",
+        "value": "100 ports"
+      },
+      {
+        "rank": 46,
+        "code": "VT",
+        "value": "95 ports"
+      },
+      {
+        "rank": 47,
+        "code": "DE",
+        "value": "90 ports"
+      },
+      {
+        "rank": 48,
+        "code": "AK",
+        "value": "80 ports"
+      },
+      {
+        "rank": 49,
+        "code": "SD",
+        "value": "70 ports"
+      },
+      {
+        "rank": 50,
+        "code": "WY",
+        "value": "65 ports"
+      },
+      {
+        "rank": 51,
+        "code": "ND",
+        "value": "60 ports"
       }
     ]
   },
@@ -158605,7 +163610,7 @@
     "title": "Highest Share of Structurally Deficient Bridges",
     "prompt": "Name the US states with the highest percentage of bridges rated in poor (structurally deficient) condition.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "FHWA \u2014 National Bridge Inventory",
       "url": "https://www.fhwa.dot.gov/bridge/nbi/no10/condition22.cfm",
@@ -158653,13 +163658,13 @@
       },
       {
         "rank": 8,
-        "code": "NE",
-        "value": "10.4%"
+        "code": "MI",
+        "value": "10.9%"
       },
       {
         "rank": 9,
-        "code": "MI",
-        "value": "10.9%"
+        "code": "NE",
+        "value": "10.4%"
       },
       {
         "rank": 10,
@@ -158675,6 +163680,201 @@
         "rank": 12,
         "code": "NH",
         "value": "9.6%"
+      },
+      {
+        "rank": 13,
+        "code": "OK",
+        "value": "8.8%"
+      },
+      {
+        "rank": 14,
+        "code": "ND",
+        "value": "8.6%"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "8.4%"
+      },
+      {
+        "rank": 16,
+        "code": "MT",
+        "value": "8.2%"
+      },
+      {
+        "rank": 17,
+        "code": "MA",
+        "value": "7.9%"
+      },
+      {
+        "rank": 18,
+        "code": "VT",
+        "value": "7.6%"
+      },
+      {
+        "rank": 19,
+        "code": "MS",
+        "value": "7.4%"
+      },
+      {
+        "rank": 20,
+        "code": "AK",
+        "value": "7.2%"
+      },
+      {
+        "rank": 21,
+        "code": "NJ",
+        "value": "7.0%"
+      },
+      {
+        "rank": 22,
+        "code": "WY",
+        "value": "6.8%"
+      },
+      {
+        "rank": 23,
+        "code": "KS",
+        "value": "6.6%"
+      },
+      {
+        "rank": 24,
+        "code": "OH",
+        "value": "6.4%"
+      },
+      {
+        "rank": 25,
+        "code": "CT",
+        "value": "6.2%"
+      },
+      {
+        "rank": 26,
+        "code": "IN",
+        "value": "6.0%"
+      },
+      {
+        "rank": 27,
+        "code": "CA",
+        "value": "5.7%"
+      },
+      {
+        "rank": 28,
+        "code": "MN",
+        "value": "5.5%"
+      },
+      {
+        "rank": 29,
+        "code": "WA",
+        "value": "5.3%"
+      },
+      {
+        "rank": 30,
+        "code": "AR",
+        "value": "5.1%"
+      },
+      {
+        "rank": 31,
+        "code": "MD",
+        "value": "4.9%"
+      },
+      {
+        "rank": 32,
+        "code": "CO",
+        "value": "4.7%"
+      },
+      {
+        "rank": 33,
+        "code": "OR",
+        "value": "4.5%"
+      },
+      {
+        "rank": 34,
+        "code": "KY",
+        "value": "4.3%"
+      },
+      {
+        "rank": 35,
+        "code": "NC",
+        "value": "4.1%"
+      },
+      {
+        "rank": 36,
+        "code": "VA",
+        "value": "3.9%"
+      },
+      {
+        "rank": 37,
+        "code": "WI",
+        "value": "3.7%"
+      },
+      {
+        "rank": 38,
+        "code": "SC",
+        "value": "3.5%"
+      },
+      {
+        "rank": 39,
+        "code": "GA",
+        "value": "3.3%"
+      },
+      {
+        "rank": 40,
+        "code": "AL",
+        "value": "3.1%"
+      },
+      {
+        "rank": 41,
+        "code": "TN",
+        "value": "2.9%"
+      },
+      {
+        "rank": 42,
+        "code": "ID",
+        "value": "2.7%"
+      },
+      {
+        "rank": 43,
+        "code": "HI",
+        "value": "2.5%"
+      },
+      {
+        "rank": 44,
+        "code": "NM",
+        "value": "2.3%"
+      },
+      {
+        "rank": 45,
+        "code": "DE",
+        "value": "2.1%"
+      },
+      {
+        "rank": 46,
+        "code": "FL",
+        "value": "1.9%"
+      },
+      {
+        "rank": 47,
+        "code": "AZ",
+        "value": "1.7%"
+      },
+      {
+        "rank": 48,
+        "code": "UT",
+        "value": "1.4%"
+      },
+      {
+        "rank": 49,
+        "code": "DC",
+        "value": "1.2%"
+      },
+      {
+        "rank": 50,
+        "code": "NV",
+        "value": "1.0%"
+      },
+      {
+        "rank": 51,
+        "code": "TX",
+        "value": "0.9%"
       }
     ]
   },
@@ -158780,7 +163980,7 @@
     "title": "Highest Public Transit Ridership per Capita",
     "prompt": "Name the US states (including DC) with the highest annual public transit ridership per resident.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "FTA \u2014 National Transit Database (Annual Unlinked Passenger Trips per capita)",
       "url": "https://www.transit.dot.gov/ntd/data-product/annual-database-service",
@@ -158834,7 +164034,7 @@
       {
         "rank": 9,
         "code": "PA",
-        "value": "27 trips"
+        "value": "27 trips (tied)"
       },
       {
         "rank": 10,
@@ -158850,6 +164050,201 @@
         "rank": 12,
         "code": "CT",
         "value": "18 trips"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "13 trips"
+      },
+      {
+        "rank": 14,
+        "code": "CO",
+        "value": "12 trips"
+      },
+      {
+        "rank": 15,
+        "code": "VA",
+        "value": "11 trips"
+      },
+      {
+        "rank": 16,
+        "code": "GA",
+        "value": "10 trips"
+      },
+      {
+        "rank": 17,
+        "code": "OH",
+        "value": "9 trips"
+      },
+      {
+        "rank": 18,
+        "code": "RI",
+        "value": "9 trips (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "UT",
+        "value": "8 trips"
+      },
+      {
+        "rank": 20,
+        "code": "NV",
+        "value": "8 trips (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AZ",
+        "value": "7 trips"
+      },
+      {
+        "rank": 22,
+        "code": "TX",
+        "value": "7 trips (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "FL",
+        "value": "6 trips"
+      },
+      {
+        "rank": 24,
+        "code": "MI",
+        "value": "6 trips (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "WI",
+        "value": "6 trips (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "NC",
+        "value": "5 trips"
+      },
+      {
+        "rank": 27,
+        "code": "MO",
+        "value": "5 trips (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TN",
+        "value": "5 trips (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "4 trips"
+      },
+      {
+        "rank": 30,
+        "code": "NM",
+        "value": "4 trips (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "AK",
+        "value": "4 trips (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "LA",
+        "value": "4 trips (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "KY",
+        "value": "3 trips"
+      },
+      {
+        "rank": 34,
+        "code": "IA",
+        "value": "3 trips (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "KS",
+        "value": "3 trips (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "NE",
+        "value": "3 trips (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "OK",
+        "value": "3 trips (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "AL",
+        "value": "2 trips"
+      },
+      {
+        "rank": 39,
+        "code": "SC",
+        "value": "2 trips (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "2 trips (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "ME",
+        "value": "2 trips (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "NH",
+        "value": "2 trips (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ID",
+        "value": "2 trips (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "DE",
+        "value": "2 trips (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "MT",
+        "value": "1 trips"
+      },
+      {
+        "rank": 46,
+        "code": "ND",
+        "value": "1 trips (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "SD",
+        "value": "1 trips (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "WY",
+        "value": "1 trips (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "WV",
+        "value": "1 trips (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "MS",
+        "value": "1 trips (tied)"
+      },
+      {
+        "rank": 51,
+        "code": "VT",
+        "value": "1 trips (tied)"
       }
     ]
   },
@@ -160325,6 +165720,1246 @@
         "rank": 12,
         "code": "HI",
         "value": "378,000 acres"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-public-aquariums-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Public Aquariums",
+    "prompt": "Name the US states with the largest number of public aquariums.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of aquaria in the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_aquaria_in_the_United_States",
+      "asOf": "2025"
+    },
+    "note": null,
+    "disclaimer": "Counts standalone aquariums plus aquarium sections of zoos and science centers as listed in the source. Includes both open and recently closed facilities.",
+    "trivia": "The Georgia Aquarium in Atlanta holds more than 11 million gallons of water, making it the largest aquarium in the United States by water volume.",
+    "asOfDate": "2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "FL",
+        "value": "20 aquariums"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "18 aquariums"
+      },
+      {
+        "rank": 3,
+        "code": "TX",
+        "value": "14 aquariums"
+      },
+      {
+        "rank": 4,
+        "code": "WA",
+        "value": "10 aquariums"
+      },
+      {
+        "rank": 5,
+        "code": "NC",
+        "value": "8 aquariums"
+      },
+      {
+        "rank": 6,
+        "code": "NJ",
+        "value": "7 aquariums"
+      },
+      {
+        "rank": 7,
+        "code": "MO",
+        "value": "6 aquariums"
+      },
+      {
+        "rank": 7,
+        "code": "NY",
+        "value": "6 aquariums (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "MA",
+        "value": "5 aquariums"
+      },
+      {
+        "rank": 10,
+        "code": "LA",
+        "value": "4 aquariums"
+      },
+      {
+        "rank": 10,
+        "code": "ME",
+        "value": "4 aquariums (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MD",
+        "value": "4 aquariums (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MS",
+        "value": "4 aquariums (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "OR",
+        "value": "4 aquariums (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "AZ",
+        "value": "4 aquariums (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-american-viticultural-areas-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most American Viticultural Areas",
+    "prompt": "Name the US states with the largest number of federally recognized American Viticultural Areas (AVAs), the appellations used to label American wine by region.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 List of American Viticultural Areas",
+      "url": "https://en.wikipedia.org/wiki/List_of_American_Viticultural_Areas",
+      "asOf": "2025 (279 AVAs across 34 states)"
+    },
+    "note": null,
+    "disclaimer": "AVAs that span state lines are counted for each state they touch, so totals sum to more than the 279 recognized AVAs.",
+    "trivia": "The Augusta AVA in Missouri, designated in 1980, was the first AVA ever recognized by the Alcohol and Tobacco Tax and Trade Bureau \u2014 beating California's Napa Valley to the honor by six months.",
+    "asOfDate": "2025 (279 AVAs across 34 states)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "154 AVAs"
+      },
+      {
+        "rank": 2,
+        "code": "OR",
+        "value": "23 AVAs"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "21 AVAs"
+      },
+      {
+        "rank": 4,
+        "code": "NY",
+        "value": "11 AVAs"
+      },
+      {
+        "rank": 5,
+        "code": "VA",
+        "value": "9 AVAs"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "8 AVAs"
+      },
+      {
+        "rank": 7,
+        "code": "NC",
+        "value": "7 AVAs"
+      },
+      {
+        "rank": 8,
+        "code": "MI",
+        "value": "5 AVAs"
+      },
+      {
+        "rank": 8,
+        "code": "MO",
+        "value": "5 AVAs (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "OH",
+        "value": "5 AVAs (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "PA",
+        "value": "5 AVAs (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "TN",
+        "value": "4 AVAs"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-national-historic-trails-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most National Historic Trails",
+    "prompt": "Name the US states that are crossed by the most National Historic Trails (federally designated long-distance heritage routes such as the Oregon Trail and the Lewis and Clark Trail).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 National Historic Trail",
+      "url": "https://en.wikipedia.org/wiki/National_Historic_Trail",
+      "asOf": "2025 (21 trails)"
+    },
+    "note": null,
+    "disclaimer": "Counts each trail once per state it enters. National Scenic Trails (Appalachian Trail, Pacific Crest Trail, etc.) are a separate program and are not included here.",
+    "trivia": "Seven of Missouri's national historic trails begin or converge near St. Louis and Independence, reflecting the state's role as the historical starting point of westward migration.",
+    "asOfDate": "2025 (21 trails)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MO",
+        "value": "7 trails"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "5 trails"
+      },
+      {
+        "rank": 2,
+        "code": "KS",
+        "value": "5 trails (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "NE",
+        "value": "5 trails (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "WY",
+        "value": "5 trails (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "CO",
+        "value": "4 trails"
+      },
+      {
+        "rank": 6,
+        "code": "ID",
+        "value": "4 trails (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NM",
+        "value": "4 trails (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "OR",
+        "value": "4 trails (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "UT",
+        "value": "4 trails (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "VA",
+        "value": "4 trails (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "AZ",
+        "value": "3 trails"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-rodeos-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Rodeos",
+    "prompt": "Name the US states hosting the most notable rodeos included on Wikipedia's list of rodeos.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 List of rodeos",
+      "url": "https://en.wikipedia.org/wiki/List_of_rodeos",
+      "asOf": "2025"
+    },
+    "note": null,
+    "disclaimer": "Counts notable annual rodeos listed on Wikipedia; not every county-fair rodeo is included.",
+    "trivia": "The Houston Livestock Show and Rodeo draws more than two million visitors a year, making it the largest rodeo in the world by attendance.",
+    "asOfDate": "2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "12 rodeos"
+      },
+      {
+        "rank": 2,
+        "code": "OR",
+        "value": "8 rodeos"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "7 rodeos"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "7 rodeos (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "7 rodeos (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "WY",
+        "value": "7 rodeos (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "CO",
+        "value": "6 rodeos"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "5 rodeos"
+      },
+      {
+        "rank": 8,
+        "code": "KS",
+        "value": "5 rodeos (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "OK",
+        "value": "5 rodeos (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "AZ",
+        "value": "4 rodeos"
+      },
+      {
+        "rank": 11,
+        "code": "MT",
+        "value": "4 rodeos (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-music-festivals-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Music Festivals",
+    "prompt": "Name the US states hosting the largest number of notable music festivals.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of music festivals in the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_music_festivals_in_the_United_States",
+      "asOf": "2025"
+    },
+    "note": null,
+    "disclaimer": "Counts festivals listed by Wikipedia as recurring notable events, past and present.",
+    "trivia": "Musikfest, held in Bethlehem, Pennsylvania, draws over 1.3 million attendees each summer and is billed as the largest free music festival in the United States.",
+    "asOfDate": "2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NY",
+        "value": "26 festivals"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "22 festivals"
+      },
+      {
+        "rank": 3,
+        "code": "IL",
+        "value": "10 festivals"
+      },
+      {
+        "rank": 3,
+        "code": "PA",
+        "value": "10 festivals (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "MO",
+        "value": "9 festivals"
+      },
+      {
+        "rank": 5,
+        "code": "WI",
+        "value": "9 festivals (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "FL",
+        "value": "8 festivals"
+      },
+      {
+        "rank": 7,
+        "code": "TX",
+        "value": "8 festivals (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "8 festivals (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "IA",
+        "value": "7 festivals"
+      },
+      {
+        "rank": 10,
+        "code": "LA",
+        "value": "7 festivals (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "OH",
+        "value": "7 festivals (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "GA",
+        "value": "6 festivals"
+      },
+      {
+        "rank": 14,
+        "code": "KS",
+        "value": "5 festivals"
+      },
+      {
+        "rank": 14,
+        "code": "MN",
+        "value": "5 festivals (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-convention-centers-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Convention Centers",
+    "prompt": "Name the US states with the largest number of convention and exhibition centers.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of convention centers in the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_convention_centers_in_the_United_States",
+      "asOf": "2025"
+    },
+    "note": null,
+    "disclaimer": "Counts all convention and civic exhibition venues listed on the Wikipedia page, including smaller regional facilities as well as major convention halls.",
+    "trivia": "Chicago's McCormick Place is the largest single convention center complex in North America at 2.6 million square feet of exhibit space.",
+    "asOfDate": "2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "34 centers"
+      },
+      {
+        "rank": 2,
+        "code": "MI",
+        "value": "26 centers"
+      },
+      {
+        "rank": 2,
+        "code": "TX",
+        "value": "26 centers (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "FL",
+        "value": "25 centers"
+      },
+      {
+        "rank": 5,
+        "code": "LA",
+        "value": "22 centers"
+      },
+      {
+        "rank": 6,
+        "code": "AR",
+        "value": "20 centers"
+      },
+      {
+        "rank": 7,
+        "code": "NY",
+        "value": "17 centers"
+      },
+      {
+        "rank": 8,
+        "code": "AL",
+        "value": "14 centers"
+      },
+      {
+        "rank": 9,
+        "code": "NV",
+        "value": "13 centers"
+      },
+      {
+        "rank": 9,
+        "code": "PA",
+        "value": "13 centers (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "IL",
+        "value": "11 centers"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "11 centers (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "WI",
+        "value": "10 centers"
+      },
+      {
+        "rank": 14,
+        "code": "MN",
+        "value": "9 centers"
+      },
+      {
+        "rank": 14,
+        "code": "OH",
+        "value": "9 centers (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-largest-state-fair-by-attendance-2019",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Largest State Fair by Attendance",
+    "prompt": "Name the US states whose flagship state fair drew the largest annual attendance in the source year.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 State fair (attendance table)",
+      "url": "https://en.wikipedia.org/wiki/State_fair",
+      "asOf": "2019-2023 (most recent published attendance per fair)"
+    },
+    "note": null,
+    "disclaimer": "Values reflect the single largest state fair in each state as reported on Wikipedia, not the sum of multiple regional fairs. Attendance years vary because state fairs report at different times.",
+    "trivia": "The State Fair of Texas at Dallas's Fair Park is anchored by Big Tex, a 55-foot cowboy statue that has greeted visitors since 1952.",
+    "asOfDate": "2019-2023 (most recent published attendance per fair)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "2,547,289 attendance"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "2,126,551 attendance"
+      },
+      {
+        "rank": 3,
+        "code": "MA",
+        "value": "1,629,527 attendance"
+      },
+      {
+        "rank": 4,
+        "code": "NY",
+        "value": "1,329,275 attendance"
+      },
+      {
+        "rank": 5,
+        "code": "OK",
+        "value": "1,206,000 attendance"
+      },
+      {
+        "rank": 6,
+        "code": "IA",
+        "value": "1,130,260 attendance"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "1,117,323 attendance"
+      },
+      {
+        "rank": 8,
+        "code": "AZ",
+        "value": "1,102,044 attendance"
+      },
+      {
+        "rank": 9,
+        "code": "NC",
+        "value": "1,028,364 attendance"
+      },
+      {
+        "rank": 10,
+        "code": "WI",
+        "value": "1,015,815 attendance"
+      },
+      {
+        "rank": 11,
+        "code": "OH",
+        "value": "921,000 attendance"
+      },
+      {
+        "rank": 12,
+        "code": "MS",
+        "value": "733,151 attendance"
+      },
+      {
+        "rank": 13,
+        "code": "IN",
+        "value": "730,000 attendance"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "673,237 attendance"
+      },
+      {
+        "rank": 15,
+        "code": "KY",
+        "value": "609,955 attendance"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-national-scenic-trails-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most National Scenic Trails",
+    "prompt": "Name the US states crossed by the largest number of National Scenic Trails (long-distance federal trail designations such as the Appalachian Trail and the Pacific Crest Trail).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 National Scenic Trail",
+      "url": "https://en.wikipedia.org/wiki/National_Scenic_Trail",
+      "asOf": "2025 (11 designated trails)"
+    },
+    "note": null,
+    "disclaimer": "National Historic Trails are administered separately and are not counted here. Each trail counts once per state it enters.",
+    "trivia": "The Appalachian Trail passes through 14 states, more than any other National Scenic Trail \u2014 three more than the Pacific Crest Trail's 3-state route.",
+    "asOfDate": "2025 (11 designated trails)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "PA",
+        "value": "3 trails"
+      },
+      {
+        "rank": 1,
+        "code": "VA",
+        "value": "3 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "CT",
+        "value": "2 trails"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "MA",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "MD",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "MT",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "NY",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "TN",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "VT",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "2 trails (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "WI",
+        "value": "2 trails (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-visited-single-national-park-by-state-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most-Visited Single National Park by State",
+    "prompt": "Name the US states whose most-visited national park drew the largest 2025 recreation visitor count (comparing each state's flagship National-Park unit).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of national parks of the United States (NPS 2025 visitor statistics)",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States",
+      "asOf": "2025 recreation visits"
+    },
+    "note": null,
+    "disclaimer": "Only units carrying the 'National Park' designation are considered \u2014 national monuments, seashores, historic sites, and recreation areas are excluded. Parks spanning two states are credited to each state; the value shown is that state's single busiest park.",
+    "trivia": "Great Smoky Mountains National Park has been the most-visited US national park every year since 1944 \u2014 visitation there is helped by its free admission and its location within a day's drive of two-thirds of the US population.",
+    "asOfDate": "2025 recreation visits",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TN",
+        "value": "11.53M visits"
+      },
+      {
+        "rank": 2,
+        "code": "NC",
+        "value": "11.53M visits (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "4.43M visits"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "4.17M visits"
+      },
+      {
+        "rank": 5,
+        "code": "ME",
+        "value": "4.08M visits"
+      },
+      {
+        "rank": 6,
+        "code": "WY",
+        "value": "3.80M visits"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "3.58M visits"
+      },
+      {
+        "rank": 8,
+        "code": "MT",
+        "value": "3.14M visits"
+      },
+      {
+        "rank": 9,
+        "code": "OH",
+        "value": "3.03M visits"
+      },
+      {
+        "rank": 10,
+        "code": "CA",
+        "value": "2.93M visits"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "2.63M visits"
+      },
+      {
+        "rank": 12,
+        "code": "AR",
+        "value": "2.49M visits"
+      },
+      {
+        "rank": 13,
+        "code": "MO",
+        "value": "2.21M visits"
+      },
+      {
+        "rank": 14,
+        "code": "UT",
+        "value": "1.97M visits"
+      },
+      {
+        "rank": 15,
+        "code": "WV",
+        "value": "1.96M visits"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-national-wildlife-refuges-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most National Wildlife Refuges",
+    "prompt": "Name the US states hosting the largest number of National Wildlife Refuges (units of the US Fish & Wildlife Service refuge system).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 List of National Wildlife Refuges of the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_National_Wildlife_Refuges_of_the_United_States",
+      "asOf": "2025 (573 refuges nationwide)"
+    },
+    "note": null,
+    "disclaimer": "Refuges whose boundaries cross state lines are counted in the state where the main visitor entrance is located, per the source's convention.",
+    "trivia": "Alaska hosts by far the largest refuge acreage \u2014 the Yukon Delta and Arctic refuges are each larger than the state of Vermont \u2014 even though several of the Lower 48 states have more refuges by count.",
+    "asOfDate": "2025 (573 refuges nationwide)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "39 refuges"
+      },
+      {
+        "rank": 2,
+        "code": "FL",
+        "value": "27 refuges"
+      },
+      {
+        "rank": 3,
+        "code": "LA",
+        "value": "24 refuges"
+      },
+      {
+        "rank": 4,
+        "code": "MN",
+        "value": "21 refuges"
+      },
+      {
+        "rank": 5,
+        "code": "AK",
+        "value": "16 refuges"
+      },
+      {
+        "rank": 6,
+        "code": "MA",
+        "value": "11 refuges"
+      },
+      {
+        "rank": 7,
+        "code": "AL",
+        "value": "10 refuges"
+      },
+      {
+        "rank": 7,
+        "code": "AR",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "AZ",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "ME",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "MS",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "GA",
+        "value": "9 refuges"
+      },
+      {
+        "rank": 12,
+        "code": "HI",
+        "value": "9 refuges (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-amusement-parks-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Amusement Parks",
+    "prompt": "Name the US states with the largest number of amusement parks (including regional parks, kiddie parks, and family entertainment centers on Wikipedia's US amusement-park list).",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 List of amusement parks in the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_amusement_parks_in_the_United_States",
+      "asOf": "2025"
+    },
+    "note": null,
+    "disclaimer": "Wikipedia's list uses a broad definition that includes regional parks, kiddie parks, family entertainment centers, and some seasonal parks. Central Florida's parks are counted from a linked sub-list.",
+    "trivia": "Tennessee's cluster of parks in the Pigeon Forge/Sevierville/Gatlinburg corridor \u2014 anchored by Dolly Parton's Dollywood \u2014 is one of the densest concentrations of amusement attractions in the country.",
+    "asOfDate": "2025",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "32 parks"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "22 parks"
+      },
+      {
+        "rank": 3,
+        "code": "TN",
+        "value": "19 parks"
+      },
+      {
+        "rank": 4,
+        "code": "NJ",
+        "value": "18 parks"
+      },
+      {
+        "rank": 5,
+        "code": "PA",
+        "value": "15 parks"
+      },
+      {
+        "rank": 6,
+        "code": "IL",
+        "value": "13 parks"
+      },
+      {
+        "rank": 7,
+        "code": "MO",
+        "value": "12 parks"
+      },
+      {
+        "rank": 8,
+        "code": "OH",
+        "value": "11 parks"
+      },
+      {
+        "rank": 9,
+        "code": "AZ",
+        "value": "10 parks"
+      },
+      {
+        "rank": 9,
+        "code": "TX",
+        "value": "10 parks (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "CO",
+        "value": "9 parks"
+      },
+      {
+        "rank": 12,
+        "code": "MI",
+        "value": "8 parks"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-michelin-starred-restaurants-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Michelin-Starred Restaurants",
+    "prompt": "Name the US states (or DC) with the most Michelin-starred restaurants in the current Michelin Guide.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 Michelin Guide (US regional editions)",
+      "url": "https://en.wikipedia.org/wiki/Michelin_Guide",
+      "asOf": "2025 US editions"
+    },
+    "note": null,
+    "disclaimer": "The Michelin Guide reviews only selected US regions \u2014 currently California, New York, Illinois, Florida, Texas, Colorado, Georgia (Atlanta), Washington DC, and the American South edition. Restaurants in states not covered by any current edition have zero stars regardless of their quality.",
+    "trivia": "California is the only US region to have a Michelin restaurant with three stars in every one of its major food cities, with San Francisco Bay Area, Los Angeles, and the Napa/Sonoma wine country all represented at the top level.",
+    "asOfDate": "2025 US editions",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "83 starred restaurants"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "71 starred restaurants"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "26 starred restaurants"
+      },
+      {
+        "rank": 4,
+        "code": "DC",
+        "value": "25 starred restaurants"
+      },
+      {
+        "rank": 5,
+        "code": "IL",
+        "value": "21 starred restaurants"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "15 starred restaurants"
+      },
+      {
+        "rank": 7,
+        "code": "CO",
+        "value": "8 starred restaurants"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "6 starred restaurants"
+      },
+      {
+        "rank": 9,
+        "code": "NC",
+        "value": "4 starred restaurants"
+      },
+      {
+        "rank": 10,
+        "code": "LA",
+        "value": "3 starred restaurants"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-national-monuments-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most National Monuments",
+    "prompt": "Name the US states with the largest number of federally designated National Monuments.",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 List of national monuments of the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States",
+      "asOf": "2025 (138 monuments)"
+    },
+    "note": null,
+    "disclaimer": "Counts monuments administered by all federal agencies (NPS, BLM, USFS, USFWS, etc.), not just the National Park Service. Monuments that span two states are counted in each.",
+    "trivia": "Devils Tower in Wyoming was the very first National Monument, proclaimed by President Theodore Roosevelt in 1906 under the newly signed Antiquities Act.",
+    "asOfDate": "2025 (138 monuments)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "20 monuments"
+      },
+      {
+        "rank": 2,
+        "code": "AZ",
+        "value": "19 monuments"
+      },
+      {
+        "rank": 3,
+        "code": "NM",
+        "value": "13 monuments"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "8 monuments"
+      },
+      {
+        "rank": 5,
+        "code": "UT",
+        "value": "7 monuments"
+      },
+      {
+        "rank": 6,
+        "code": "AK",
+        "value": "5 monuments"
+      },
+      {
+        "rank": 6,
+        "code": "NV",
+        "value": "5 monuments (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "FL",
+        "value": "4 monuments"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "4 monuments (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NY",
+        "value": "4 monuments (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-national-scenic-byways-2021",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most National Scenic Byways",
+    "prompt": "Name the US states with the largest number of National Scenic Byways and All-American Roads (designated by the US Department of Transportation).",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 National Scenic Byway",
+      "url": "https://en.wikipedia.org/wiki/National_Scenic_Byway",
+      "asOf": "2021 (184 byways in 48 states)"
+    },
+    "note": null,
+    "disclaimer": "Counts every state a byway passes through, so byways spanning multiple states are credited to each. Hawaii and Texas have no designated byways.",
+    "trivia": "Colorado's six byways \u2014 including the Trail Ridge Road that climbs above 12,000 feet in Rocky Mountain National Park \u2014 are more than any other state.",
+    "asOfDate": "2021 (184 byways in 48 states)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CO",
+        "value": "6 byways"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "5 byways"
+      },
+      {
+        "rank": 3,
+        "code": "CA",
+        "value": "4 byways"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "4 byways (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "LA",
+        "value": "4 byways (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "NM",
+        "value": "4 byways (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "OR",
+        "value": "4 byways (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "UT",
+        "value": "4 byways (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "AK",
+        "value": "4 byways (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "4 byways (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-tourism-recreation-most-lighthouses-2025",
+    "theme": "US States",
+    "subtheme": "US States - Tourism & Recreation",
+    "title": "Most Lighthouses",
+    "prompt": "Name the US states with the largest number of lighthouses identified by the US Coast Guard (including active, decommissioned, and historic light stations).",
+    "answerType": "US States",
+    "seededDepth": 10,
+    "source": {
+      "name": "Wikipedia \u2014 State-by-state lighthouse lists (aggregated from USCG data)",
+      "url": "https://en.wikipedia.org/wiki/List_of_lighthouses_in_the_United_States",
+      "asOf": "2025 (US Coast Guard rolls)"
+    },
+    "note": null,
+    "disclaimer": "Counts all lighthouses identified by the US Coast Guard on each state's Wikipedia list, including active, deactivated, destroyed, and historic structures.",
+    "trivia": "Michigan's long shorelines on four of the five Great Lakes give it more historical lighthouses than any other state \u2014 the Whitefish Point Light on Lake Superior has been in continuous service since 1849.",
+    "asOfDate": "2025 (US Coast Guard rolls)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MI",
+        "value": "129 lighthouses"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "74 lighthouses"
+      },
+      {
+        "rank": 3,
+        "code": "ME",
+        "value": "66 lighthouses"
+      },
+      {
+        "rank": 4,
+        "code": "MA",
+        "value": "60 lighthouses"
+      },
+      {
+        "rank": 5,
+        "code": "WI",
+        "value": "53 lighthouses"
+      },
+      {
+        "rank": 6,
+        "code": "CA",
+        "value": "46 lighthouses"
+      },
+      {
+        "rank": 7,
+        "code": "FL",
+        "value": "43 lighthouses"
+      },
+      {
+        "rank": 8,
+        "code": "NC",
+        "value": "26 lighthouses"
+      },
+      {
+        "rank": 8,
+        "code": "WA",
+        "value": "26 lighthouses (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "OH",
+        "value": "20 lighthouses"
       }
     ]
   }
