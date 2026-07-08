@@ -13065,7 +13065,7 @@
     "title": "Highest tobacco/cigarette consumption per capita",
     "prompt": "Name the countries with the highest number of cigarettes smoked per adult per year.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 35,
     "source": {
       "name": "WHO Report on the Global Tobacco Epidemic / Tobacco Atlas (Vital Strategies)",
       "url": "https://www.who.int/teams/health-promotion/tobacco-control/global-tobacco-report-2023",
@@ -13076,72 +13076,177 @@
       {
         "rank": 1,
         "code": "AD",
-        "value": "6,398/yr"
+        "value": "6,398 cigarettes/adult/yr"
       },
       {
         "rank": 2,
         "code": "LU",
-        "value": "6,330/yr"
+        "value": "6,330 cigarettes/adult/yr"
       },
       {
         "rank": 3,
         "code": "BA",
-        "value": "4,304/yr"
+        "value": "4,214 cigarettes/adult/yr"
       },
       {
         "rank": 4,
         "code": "BY",
-        "value": "3,831/yr"
+        "value": "3,831 cigarettes/adult/yr"
       },
       {
         "rank": 5,
         "code": "GR",
-        "value": "3,588/yr"
+        "value": "3,819 cigarettes/adult/yr"
       },
       {
         "rank": 6,
-        "code": "MK",
-        "value": "3,116/yr"
+        "code": "SI",
+        "value": "3,741 cigarettes/adult/yr"
       },
       {
         "rank": 7,
-        "code": "RU",
-        "value": "3,048/yr"
+        "code": "MK",
+        "value": "3,631 cigarettes/adult/yr"
       },
       {
         "rank": 8,
-        "code": "SI",
-        "value": "2,905/yr"
+        "code": "RS",
+        "value": "3,591 cigarettes/adult/yr"
       },
       {
         "rank": 9,
-        "code": "UA",
-        "value": "2,801/yr"
+        "code": "RU",
+        "value": "3,432 cigarettes/adult/yr"
       },
       {
-        "rank": 9,
-        "code": "BG",
-        "value": "2,801/yr (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "CN",
-        "value": "2,644/yr"
+        "rank": 10,
+        "code": "AT",
+        "value": "3,388 cigarettes/adult/yr"
       },
       {
         "rank": 11,
-        "code": "LB",
-        "value": "2,644/yr (tied)"
+        "code": "MD",
+        "value": "3,375 cigarettes/adult/yr"
+      },
+      {
+        "rank": 12,
+        "code": "CH",
+        "value": "3,318 cigarettes/adult/yr"
       },
       {
         "rank": 13,
-        "code": "KZ",
-        "value": "2,530/yr"
+        "code": "JP",
+        "value": "3,283 cigarettes/adult/yr"
       },
       {
         "rank": 14,
-        "code": "JP",
-        "value": "2,431/yr"
+        "code": "KR",
+        "value": "3,166 cigarettes/adult/yr"
+      },
+      {
+        "rank": 15,
+        "code": "UA",
+        "value": "3,097 cigarettes/adult/yr"
+      },
+      {
+        "rank": 16,
+        "code": "CZ",
+        "value": "3,062 cigarettes/adult/yr"
+      },
+      {
+        "rank": 17,
+        "code": "HU",
+        "value": "3,033 cigarettes/adult/yr"
+      },
+      {
+        "rank": 18,
+        "code": "BG",
+        "value": "2,969 cigarettes/adult/yr"
+      },
+      {
+        "rank": 19,
+        "code": "LB",
+        "value": "2,928 cigarettes/adult/yr"
+      },
+      {
+        "rank": 20,
+        "code": "KZ",
+        "value": "2,821 cigarettes/adult/yr"
+      },
+      {
+        "rank": 21,
+        "code": "CN",
+        "value": "2,782 cigarettes/adult/yr"
+      },
+      {
+        "rank": 22,
+        "code": "HR",
+        "value": "2,691 cigarettes/adult/yr"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "2,653 cigarettes/adult/yr"
+      },
+      {
+        "rank": 24,
+        "code": "DE",
+        "value": "2,635 cigarettes/adult/yr"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "2,590 cigarettes/adult/yr"
+      },
+      {
+        "rank": 26,
+        "code": "TR",
+        "value": "2,571 cigarettes/adult/yr"
+      },
+      {
+        "rank": 27,
+        "code": "IT",
+        "value": "2,556 cigarettes/adult/yr"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "2,504 cigarettes/adult/yr"
+      },
+      {
+        "rank": 29,
+        "code": "CY",
+        "value": "2,459 cigarettes/adult/yr"
+      },
+      {
+        "rank": 30,
+        "code": "RO",
+        "value": "2,438 cigarettes/adult/yr"
+      },
+      {
+        "rank": 31,
+        "code": "PT",
+        "value": "2,412 cigarettes/adult/yr"
+      },
+      {
+        "rank": 32,
+        "code": "TN",
+        "value": "2,387 cigarettes/adult/yr"
+      },
+      {
+        "rank": 33,
+        "code": "FR",
+        "value": "2,321 cigarettes/adult/yr"
+      },
+      {
+        "rank": 34,
+        "code": "SK",
+        "value": "2,289 cigarettes/adult/yr"
+      },
+      {
+        "rank": 35,
+        "code": "US",
+        "value": "2,231 cigarettes/adult/yr"
       }
     ],
     "disclaimer": "Cigarettes consumed per adult (15+) per year, from combined tax and sales data.",
@@ -13755,7 +13860,7 @@
     "title": "Tallest average adult male height",
     "prompt": "Name the countries with the tallest average adult male height.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 35,
     "source": {
       "name": "NCD Risk Factor Collaboration (NCD-RisC) \u2014 A century of trends in adult human height",
       "url": "https://ncdrisc.org/data-downloads-height.html",
@@ -13795,43 +13900,148 @@
       },
       {
         "rank": 7,
-        "code": "LV",
-        "value": "181.4 cm"
-      },
-      {
-        "rank": 8,
-        "code": "SK",
-        "value": "181.3 cm"
-      },
-      {
-        "rank": 9,
         "code": "CZ",
         "value": "181.2 cm"
       },
       {
+        "rank": 8,
+        "code": "LV",
+        "value": "181.2 cm (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "SK",
+        "value": "181.0 cm"
+      },
+      {
         "rank": 10,
-        "code": "PL",
-        "value": "180.7 cm"
+        "code": "SI",
+        "value": "180.9 cm"
       },
       {
         "rank": 11,
+        "code": "UA",
+        "value": "180.8 cm"
+      },
+      {
+        "rank": 12,
         "code": "HR",
         "value": "180.5 cm"
       },
       {
-        "rank": 12,
-        "code": "SI",
-        "value": "180.3 cm"
-      },
-      {
         "rank": 13,
-        "code": "UA",
-        "value": "180.2 cm"
+        "code": "SR",
+        "value": "180.4 cm"
       },
       {
         "rank": 14,
+        "code": "PL",
+        "value": "180.3 cm"
+      },
+      {
+        "rank": 15,
+        "code": "FI",
+        "value": "180.2 cm"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "180.1 cm"
+      },
+      {
+        "rank": 17,
         "code": "LT",
+        "value": "180.1 cm (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
         "value": "180.0 cm"
+      },
+      {
+        "rank": 19,
+        "code": "DE",
+        "value": "179.9 cm"
+      },
+      {
+        "rank": 20,
+        "code": "SE",
+        "value": "179.7 cm"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "179.4 cm"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "179.2 cm"
+      },
+      {
+        "rank": 23,
+        "code": "CA",
+        "value": "179.1 cm"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "179.1 cm (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "LU",
+        "value": "179.1 cm (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "GR",
+        "value": "178.9 cm"
+      },
+      {
+        "rank": 27,
+        "code": "BY",
+        "value": "178.8 cm"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "178.8 cm (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "RU",
+        "value": "178.7 cm"
+      },
+      {
+        "rank": 30,
+        "code": "NZ",
+        "value": "178.7 cm (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "HU",
+        "value": "178.6 cm"
+      },
+      {
+        "rank": 32,
+        "code": "BG",
+        "value": "178.3 cm"
+      },
+      {
+        "rank": 33,
+        "code": "GB",
+        "value": "178.2 cm"
+      },
+      {
+        "rank": 34,
+        "code": "FR",
+        "value": "178.1 cm"
+      },
+      {
+        "rank": 35,
+        "code": "US",
+        "value": "177.6 cm"
       }
     ],
     "disclaimer": "Mean height of adult men, in centimetres. Data compiled from national health surveys.",
@@ -20365,7 +20575,7 @@
     "title": "State GDP (Total)",
     "prompt": "Rank US states by total Gross Domestic Product (nominal, 2023).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "U.S. Bureau of Economic Analysis (BEA)",
       "url": "https://www.bea.gov/data/gdp/gdp-state",
@@ -20416,7 +20626,7 @@
       {
         "rank": 8,
         "code": "WA",
-        "value": "$795 B"
+        "value": "$795 B (tied)"
       },
       {
         "rank": 10,
@@ -20447,6 +20657,186 @@
         "rank": 15,
         "code": "CO",
         "value": "$524 B"
+      },
+      {
+        "rank": 16,
+        "code": "MD",
+        "value": "$518 B"
+      },
+      {
+        "rank": 17,
+        "code": "TN",
+        "value": "$505 B"
+      },
+      {
+        "rank": 18,
+        "code": "AZ",
+        "value": "$497 B"
+      },
+      {
+        "rank": 19,
+        "code": "MN",
+        "value": "$482 B"
+      },
+      {
+        "rank": 20,
+        "code": "IN",
+        "value": "$479 B"
+      },
+      {
+        "rank": 21,
+        "code": "MO",
+        "value": "$424 B"
+      },
+      {
+        "rank": 22,
+        "code": "WI",
+        "value": "$412 B"
+      },
+      {
+        "rank": 23,
+        "code": "CT",
+        "value": "$339 B"
+      },
+      {
+        "rank": 24,
+        "code": "SC",
+        "value": "$322 B"
+      },
+      {
+        "rank": 25,
+        "code": "OR",
+        "value": "$316 B"
+      },
+      {
+        "rank": 26,
+        "code": "LA",
+        "value": "$316 B (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "AL",
+        "value": "$300 B"
+      },
+      {
+        "rank": 28,
+        "code": "KY",
+        "value": "$293 B"
+      },
+      {
+        "rank": 29,
+        "code": "UT",
+        "value": "$282 B"
+      },
+      {
+        "rank": 30,
+        "code": "OK",
+        "value": "$254 B"
+      },
+      {
+        "rank": 31,
+        "code": "IA",
+        "value": "$253 B"
+      },
+      {
+        "rank": 32,
+        "code": "NV",
+        "value": "$243 B"
+      },
+      {
+        "rank": 33,
+        "code": "KS",
+        "value": "$221 B"
+      },
+      {
+        "rank": 34,
+        "code": "DC",
+        "value": "$180 B"
+      },
+      {
+        "rank": 35,
+        "code": "NE",
+        "value": "$180 B (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "AR",
+        "value": "$174 B"
+      },
+      {
+        "rank": 37,
+        "code": "MS",
+        "value": "$154 B"
+      },
+      {
+        "rank": 38,
+        "code": "NM",
+        "value": "$134 B"
+      },
+      {
+        "rank": 39,
+        "code": "ID",
+        "value": "$117 B"
+      },
+      {
+        "rank": 40,
+        "code": "NH",
+        "value": "$110 B"
+      },
+      {
+        "rank": 41,
+        "code": "HI",
+        "value": "$106 B"
+      },
+      {
+        "rank": 42,
+        "code": "WV",
+        "value": "$100 B"
+      },
+      {
+        "rank": 43,
+        "code": "DE",
+        "value": "$94 B"
+      },
+      {
+        "rank": 44,
+        "code": "ME",
+        "value": "$92 B"
+      },
+      {
+        "rank": 45,
+        "code": "ND",
+        "value": "$77 B"
+      },
+      {
+        "rank": 46,
+        "code": "SD",
+        "value": "$76 B"
+      },
+      {
+        "rank": 47,
+        "code": "RI",
+        "value": "$76 B (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "MT",
+        "value": "$70 B"
+      },
+      {
+        "rank": 49,
+        "code": "AK",
+        "value": "$66 B"
+      },
+      {
+        "rank": 50,
+        "code": "WY",
+        "value": "$48 B"
+      },
+      {
+        "rank": 51,
+        "code": "VT",
+        "value": "$41 B"
       }
     ],
     "disclaimer": "Nominal (current-dollar) GDP by state, annual 2023, from the U.S. Bureau of Economic Analysis. Values in billions of dollars.",
@@ -20460,7 +20850,7 @@
     "title": "GDP per Capita",
     "prompt": "Rank US states (and DC) by GDP per capita (2023).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "U.S. Bureau of Economic Analysis (BEA)",
       "url": "https://www.bea.gov/data/gdp/gdp-state",
@@ -20542,6 +20932,186 @@
         "rank": 15,
         "code": "NH",
         "value": "$77,867"
+      },
+      {
+        "rank": 16,
+        "code": "MN",
+        "value": "$76,635"
+      },
+      {
+        "rank": 17,
+        "code": "NE",
+        "value": "$74,432"
+      },
+      {
+        "rank": 18,
+        "code": "VA",
+        "value": "$74,326"
+      },
+      {
+        "rank": 19,
+        "code": "SD",
+        "value": "$72,918"
+      },
+      {
+        "rank": 20,
+        "code": "PA",
+        "value": "$71,780"
+      },
+      {
+        "rank": 21,
+        "code": "OR",
+        "value": "$71,342"
+      },
+      {
+        "rank": 22,
+        "code": "IA",
+        "value": "$71,254"
+      },
+      {
+        "rank": 23,
+        "code": "KS",
+        "value": "$70,957"
+      },
+      {
+        "rank": 24,
+        "code": "RI",
+        "value": "$69,532"
+      },
+      {
+        "rank": 25,
+        "code": "OH",
+        "value": "$69,485"
+      },
+      {
+        "rank": 26,
+        "code": "WI",
+        "value": "$68,730"
+      },
+      {
+        "rank": 27,
+        "code": "UT",
+        "value": "$68,540"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "$67,873"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "$67,516"
+      },
+      {
+        "rank": 30,
+        "code": "MO",
+        "value": "$67,472"
+      },
+      {
+        "rank": 31,
+        "code": "GA",
+        "value": "$67,255"
+      },
+      {
+        "rank": 32,
+        "code": "FL",
+        "value": "$67,246"
+      },
+      {
+        "rank": 33,
+        "code": "LA",
+        "value": "$66,977"
+      },
+      {
+        "rank": 34,
+        "code": "NV",
+        "value": "$65,769"
+      },
+      {
+        "rank": 35,
+        "code": "MI",
+        "value": "$65,730"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "$65,674"
+      },
+      {
+        "rank": 37,
+        "code": "NC",
+        "value": "$65,338"
+      },
+      {
+        "rank": 38,
+        "code": "VT",
+        "value": "$63,353"
+      },
+      {
+        "rank": 39,
+        "code": "AZ",
+        "value": "$63,285"
+      },
+      {
+        "rank": 40,
+        "code": "NM",
+        "value": "$59,833"
+      },
+      {
+        "rank": 41,
+        "code": "OK",
+        "value": "$59,647"
+      },
+      {
+        "rank": 42,
+        "code": "MT",
+        "value": "$59,570"
+      },
+      {
+        "rank": 43,
+        "code": "ME",
+        "value": "$58,878"
+      },
+      {
+        "rank": 44,
+        "code": "AL",
+        "value": "$57,153"
+      },
+      {
+        "rank": 45,
+        "code": "KY",
+        "value": "$57,138"
+      },
+      {
+        "rank": 46,
+        "code": "SC",
+        "value": "$56,908"
+      },
+      {
+        "rank": 47,
+        "code": "ID",
+        "value": "$55,762"
+      },
+      {
+        "rank": 48,
+        "code": "HI",
+        "value": "$54,915"
+      },
+      {
+        "rank": 49,
+        "code": "AR",
+        "value": "$54,347"
+      },
+      {
+        "rank": 50,
+        "code": "WV",
+        "value": "$54,043"
+      },
+      {
+        "rank": 51,
+        "code": "MS",
+        "value": "$50,896"
       }
     ],
     "disclaimer": "Nominal GDP divided by resident population, 2023.",
@@ -20555,7 +21125,7 @@
     "title": "Unemployment Rate",
     "prompt": "Rank US states by highest unemployment rate (annual average 2023).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "U.S. Bureau of Labor Statistics (BLS)",
       "url": "https://www.bls.gov/lau/",
@@ -20601,7 +21171,7 @@
       {
         "rank": 7,
         "code": "KY",
-        "value": "4.0%"
+        "value": "4.0% (tied)"
       },
       {
         "rank": 9,
@@ -20611,12 +21181,12 @@
       {
         "rank": 9,
         "code": "WA",
-        "value": "3.9%"
+        "value": "3.9% (tied)"
       },
       {
         "rank": 9,
         "code": "DE",
-        "value": "3.9%"
+        "value": "3.9% (tied)"
       },
       {
         "rank": 12,
@@ -20636,7 +21206,187 @@
       {
         "rank": 14,
         "code": "OH",
-        "value": "3.6%"
+        "value": "3.6% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "AK",
+        "value": "3.6% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NM",
+        "value": "3.6% (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "AZ",
+        "value": "3.5%"
+      },
+      {
+        "rank": 18,
+        "code": "LA",
+        "value": "3.5% (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MA",
+        "value": "3.4%"
+      },
+      {
+        "rank": 20,
+        "code": "RI",
+        "value": "3.4% (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "TN",
+        "value": "3.4% (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "3.3%"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "3.3% (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "WV",
+        "value": "3.3% (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "MS",
+        "value": "3.3% (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "3.2%"
+      },
+      {
+        "rank": 27,
+        "code": "GA",
+        "value": "3.2% (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "MO",
+        "value": "3.2% (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SC",
+        "value": "3.1%"
+      },
+      {
+        "rank": 31,
+        "code": "MD",
+        "value": "3.0%"
+      },
+      {
+        "rank": 31,
+        "code": "IA",
+        "value": "3.0% (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "NC",
+        "value": "3.0% (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "WI",
+        "value": "3.0% (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "OK",
+        "value": "2.9%"
+      },
+      {
+        "rank": 35,
+        "code": "ME",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "HI",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "FL",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "WY",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "MN",
+        "value": "2.8%"
+      },
+      {
+        "rank": 40,
+        "code": "KS",
+        "value": "2.8% (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "AL",
+        "value": "2.6%"
+      },
+      {
+        "rank": 42,
+        "code": "ID",
+        "value": "2.6% (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "NE",
+        "value": "2.5%"
+      },
+      {
+        "rank": 44,
+        "code": "NH",
+        "value": "2.5% (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "VA",
+        "value": "2.5% (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "UT",
+        "value": "2.5% (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "MT",
+        "value": "2.4%"
+      },
+      {
+        "rank": 49,
+        "code": "VT",
+        "value": "2.1%"
+      },
+      {
+        "rank": 50,
+        "code": "SD",
+        "value": "1.9%"
+      },
+      {
+        "rank": 50,
+        "code": "ND",
+        "value": "1.9% (tied)"
       }
     ],
     "disclaimer": "Seasonally adjusted annual average civilian unemployment rate, 2023.",
@@ -20745,7 +21495,7 @@
     "title": "State Sales Tax Rate",
     "prompt": "Rank US states by highest state-level general sales tax rate (2024).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "Tax Foundation",
       "url": "https://taxfoundation.org/data/all/state/2024-sales-taxes/",
@@ -20827,6 +21577,186 @@
         "rank": 13,
         "code": "TX",
         "value": "6.25% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "FL",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ID",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "IA",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "KY",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MD",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MI",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PA",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SC",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "VT",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "WV",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "DC",
+        "value": "6.00% (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "OH",
+        "value": "5.75%"
+      },
+      {
+        "rank": 27,
+        "code": "AZ",
+        "value": "5.60%"
+      },
+      {
+        "rank": 28,
+        "code": "ME",
+        "value": "5.50% (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "NE",
+        "value": "5.50% (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "VA",
+        "value": "5.30%"
+      },
+      {
+        "rank": 31,
+        "code": "ND",
+        "value": "5.00% (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "WI",
+        "value": "5.00% (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "NM",
+        "value": "4.875%"
+      },
+      {
+        "rank": 34,
+        "code": "UT",
+        "value": "4.85%"
+      },
+      {
+        "rank": 35,
+        "code": "NC",
+        "value": "4.75%"
+      },
+      {
+        "rank": 36,
+        "code": "OK",
+        "value": "4.50%"
+      },
+      {
+        "rank": 37,
+        "code": "LA",
+        "value": "4.45%"
+      },
+      {
+        "rank": 38,
+        "code": "MO",
+        "value": "4.225%"
+      },
+      {
+        "rank": 39,
+        "code": "SD",
+        "value": "4.20%"
+      },
+      {
+        "rank": 40,
+        "code": "NY",
+        "value": "4.00% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "AL",
+        "value": "4.00% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "GA",
+        "value": "4.00% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "HI",
+        "value": "4.00% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "WY",
+        "value": "4.00% (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "CO",
+        "value": "2.90%"
+      },
+      {
+        "rank": 46,
+        "code": "AK",
+        "value": "0.00% (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "DE",
+        "value": "0.00% (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "MT",
+        "value": "0.00% (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "NH",
+        "value": "0.00% (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "OR",
+        "value": "0.00% (tied)"
       }
     ],
     "disclaimer": "Statewide sales tax rate only; excludes local add-ons.",
@@ -20840,7 +21770,7 @@
     "title": "State Minimum Wage",
     "prompt": "Rank US states (and DC) by highest state minimum wage (2024).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "U.S. Department of Labor / state statutes",
       "url": "https://www.dol.gov/agencies/whd/minimum-wage/state",
@@ -20876,7 +21806,7 @@
       {
         "rank": 6,
         "code": "NY",
-        "value": "$15.00"
+        "value": "$15.00 (tied)"
       },
       {
         "rank": 6,
@@ -20911,7 +21841,7 @@
       {
         "rank": 13,
         "code": "IL",
-        "value": "$14.00"
+        "value": "$14.00 (tied)"
       },
       {
         "rank": 13,
@@ -20922,6 +21852,186 @@
         "rank": 13,
         "code": "HI",
         "value": "$14.00 (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "VT",
+        "value": "$13.67"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "$13.25"
+      },
+      {
+        "rank": 18,
+        "code": "MO",
+        "value": "$12.30"
+      },
+      {
+        "rank": 19,
+        "code": "FL",
+        "value": "$12.00 (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NE",
+        "value": "$12.00 (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "VA",
+        "value": "$12.00 (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NM",
+        "value": "$12.00 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "AK",
+        "value": "$11.73"
+      },
+      {
+        "rank": 24,
+        "code": "NV",
+        "value": "$11.25"
+      },
+      {
+        "rank": 25,
+        "code": "SD",
+        "value": "$11.20"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "$11.00"
+      },
+      {
+        "rank": 27,
+        "code": "MN",
+        "value": "$10.85"
+      },
+      {
+        "rank": 28,
+        "code": "OH",
+        "value": "$10.45"
+      },
+      {
+        "rank": 29,
+        "code": "MI",
+        "value": "$10.33"
+      },
+      {
+        "rank": 30,
+        "code": "MT",
+        "value": "$10.30"
+      },
+      {
+        "rank": 31,
+        "code": "WV",
+        "value": "$8.75"
+      },
+      {
+        "rank": 32,
+        "code": "AL",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "GA",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "ID",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "IN",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "IA",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "KS",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "KY",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "LA",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "MS",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "NH",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "NC",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "ND",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "OK",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "PA",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "SC",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "TN",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "TX",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "UT",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "WI",
+        "value": "$7.25 (federal floor) (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "WY",
+        "value": "$7.25 (federal floor) (tied)"
       }
     ],
     "disclaimer": "Basic state minimum wage as of January 1, 2024; excludes local ordinances and tipped-worker rates. DC is included as a state-level jurisdiction.",
@@ -20935,7 +22045,7 @@
     "title": "Fortune 500 HQs",
     "prompt": "Rank US states by number of Fortune 500 company headquarters (2023 list).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "Fortune",
       "url": "https://fortune.com/ranking/fortune500/2023/",
@@ -21017,6 +22127,186 @@
         "rank": 14,
         "code": "NC",
         "value": "13 (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "WA",
+        "value": "12"
+      },
+      {
+        "rank": 17,
+        "code": "MO",
+        "value": "10"
+      },
+      {
+        "rank": 17,
+        "code": "CO",
+        "value": "10 (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "8"
+      },
+      {
+        "rank": 20,
+        "code": "WI",
+        "value": "7"
+      },
+      {
+        "rank": 21,
+        "code": "TN",
+        "value": "6"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "6 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "MD",
+        "value": "5"
+      },
+      {
+        "rank": 23,
+        "code": "OK",
+        "value": "5 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NV",
+        "value": "4"
+      },
+      {
+        "rank": 25,
+        "code": "KY",
+        "value": "4 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NE",
+        "value": "4 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "IA",
+        "value": "3"
+      },
+      {
+        "rank": 28,
+        "code": "AZ",
+        "value": "3 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "AL",
+        "value": "3 (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "RI",
+        "value": "2"
+      },
+      {
+        "rank": 31,
+        "code": "LA",
+        "value": "2 (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "OR",
+        "value": "2 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "KS",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "DC",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "ID",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "MS",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "SD",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "UT",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "NH",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "ME",
+        "value": "1 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "AK",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "HI",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "MT",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ND",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "NM",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "SC",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "VT",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "WV",
+        "value": "0 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "WY",
+        "value": "0 (tied)"
       }
     ],
     "disclaimer": "Count of Fortune 500 (2023) company headquarters by state.",
@@ -53070,7 +54360,7 @@
     "title": "Highest diabetes prevalence",
     "prompt": "Name the countries with the highest age-adjusted prevalence of diabetes among adults aged 20-79.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 35,
     "source": {
       "name": "International Diabetes Federation \u2014 Diabetes Atlas (11th ed.)",
       "url": "https://diabetesatlas.org/",
@@ -53084,52 +54374,52 @@
       {
         "rank": 1,
         "code": "PK",
-        "value": "30.8%"
+        "value": "31.4%"
       },
       {
         "rank": 2,
         "code": "KW",
-        "value": "20.8%"
+        "value": "24.9%"
       },
       {
         "rank": 3,
         "code": "NR",
-        "value": "20.6%"
+        "value": "23.4%"
       },
       {
         "rank": 4,
-        "code": "EG",
-        "value": "20.5%"
+        "code": "MV",
+        "value": "22.0%"
       },
       {
         "rank": 5,
+        "code": "MU",
+        "value": "22.6%"
+      },
+      {
+        "rank": 6,
+        "code": "EG",
+        "value": "20.9%"
+      },
+      {
+        "rank": 7,
         "code": "QA",
         "value": "19.5%"
       },
       {
-        "rank": 6,
-        "code": "MU",
-        "value": "19.4%"
-      },
-      {
-        "rank": 7,
+        "rank": 8,
         "code": "MY",
         "value": "19.0%"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "MX",
         "value": "18.3%"
       },
       {
-        "rank": 9,
-        "code": "SA",
-        "value": "18.1%"
-      },
-      {
         "rank": 10,
-        "code": "AE",
-        "value": "17.4%"
+        "code": "SA",
+        "value": "17.7%"
       },
       {
         "rank": 11,
@@ -53138,18 +54428,123 @@
       },
       {
         "rank": 12,
-        "code": "SD",
-        "value": "17.1%"
+        "code": "AE",
+        "value": "16.4%"
       },
       {
         "rank": 13,
         "code": "TR",
-        "value": "14.5%"
+        "value": "15.3%"
       },
       {
         "rank": 14,
+        "code": "OM",
+        "value": "15.2%"
+      },
+      {
+        "rank": 15,
+        "code": "SD",
+        "value": "15.0%"
+      },
+      {
+        "rank": 16,
+        "code": "JO",
+        "value": "14.8%"
+      },
+      {
+        "rank": 17,
+        "code": "LB",
+        "value": "14.5%"
+      },
+      {
+        "rank": 18,
+        "code": "IQ",
+        "value": "14.0%"
+      },
+      {
+        "rank": 19,
+        "code": "TT",
+        "value": "13.5%"
+      },
+      {
+        "rank": 20,
+        "code": "IN",
+        "value": "12.8%"
+      },
+      {
+        "rank": 21,
         "code": "US",
-        "value": "12.5%"
+        "value": "12.2%"
+      },
+      {
+        "rank": 22,
+        "code": "CN",
+        "value": "11.9%"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "11.5%"
+      },
+      {
+        "rank": 24,
+        "code": "BR",
+        "value": "10.2%"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "10.1%"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "10.3%"
+      },
+      {
+        "rank": 27,
+        "code": "PL",
+        "value": "9.1%"
+      },
+      {
+        "rank": 28,
+        "code": "IT",
+        "value": "9.0%"
+      },
+      {
+        "rank": 29,
+        "code": "IR",
+        "value": "10.9%"
+      },
+      {
+        "rank": 30,
+        "code": "RU",
+        "value": "8.5%"
+      },
+      {
+        "rank": 31,
+        "code": "CA",
+        "value": "8.7%"
+      },
+      {
+        "rank": 32,
+        "code": "AU",
+        "value": "8.0%"
+      },
+      {
+        "rank": 33,
+        "code": "FR",
+        "value": "7.4%"
+      },
+      {
+        "rank": 34,
+        "code": "JP",
+        "value": "7.4%"
+      },
+      {
+        "rank": 35,
+        "code": "GB",
+        "value": "7.4%"
       }
     ]
   },
@@ -79655,7 +81050,7 @@
     "title": "Largest goods importers",
     "prompt": "Name the countries that import the most merchandise (goods) by total value in USD.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "WTO \u2014 World Trade Statistical Review / Trade Statistics",
       "url": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
@@ -79724,7 +81119,7 @@
       {
         "rank": 11,
         "code": "MX",
-        "value": "$625B"
+        "value": "$625B (tied)"
       },
       {
         "rank": 13,
@@ -79740,6 +81135,106 @@
         "rank": 15,
         "code": "ES",
         "value": "$481B"
+      },
+      {
+        "rank": 16,
+        "code": "SG",
+        "value": "$423B"
+      },
+      {
+        "rank": 17,
+        "code": "TR",
+        "value": "$362B"
+      },
+      {
+        "rank": 18,
+        "code": "TW",
+        "value": "$352B"
+      },
+      {
+        "rank": 19,
+        "code": "PL",
+        "value": "$347B"
+      },
+      {
+        "rank": 20,
+        "code": "CH",
+        "value": "$346B"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "$343B"
+      },
+      {
+        "rank": 22,
+        "code": "VN",
+        "value": "$326B"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "$310B"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "$290B"
+      },
+      {
+        "rank": 25,
+        "code": "MY",
+        "value": "$266B"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "$241B"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "$236B"
+      },
+      {
+        "rank": 28,
+        "code": "SE",
+        "value": "$226B"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "$223B"
+      },
+      {
+        "rank": 30,
+        "code": "ID",
+        "value": "$222B"
+      },
+      {
+        "rank": 31,
+        "code": "SA",
+        "value": "$183B"
+      },
+      {
+        "rank": 32,
+        "code": "HU",
+        "value": "$147B"
+      },
+      {
+        "rank": 33,
+        "code": "IE",
+        "value": "$142B"
+      },
+      {
+        "rank": 34,
+        "code": "DK",
+        "value": "$132B"
+      },
+      {
+        "rank": 35,
+        "code": "PH",
+        "value": "$127B"
       }
     ]
   },
@@ -79750,7 +81245,7 @@
     "title": "Largest services exporters",
     "prompt": "Name the countries that export the most commercial services by total value in USD.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 32,
     "source": {
       "name": "WTO \u2014 Services trade statistics",
       "url": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
@@ -79835,6 +81330,91 @@
         "rank": 15,
         "code": "LU",
         "value": "$149B"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "$146B"
+      },
+      {
+        "rank": 17,
+        "code": "AE",
+        "value": "$133B"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "$130B"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "$107B"
+      },
+      {
+        "rank": 20,
+        "code": "PL",
+        "value": "$102B"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "$99B"
+      },
+      {
+        "rank": 22,
+        "code": "HK",
+        "value": "$96B"
+      },
+      {
+        "rank": 23,
+        "code": "DK",
+        "value": "$91B"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "$86B"
+      },
+      {
+        "rank": 25,
+        "code": "IL",
+        "value": "$80B"
+      },
+      {
+        "rank": 26,
+        "code": "AU",
+        "value": "$79B"
+      },
+      {
+        "rank": 27,
+        "code": "TH",
+        "value": "$71B"
+      },
+      {
+        "rank": 28,
+        "code": "TW",
+        "value": "$63B"
+      },
+      {
+        "rank": 29,
+        "code": "NO",
+        "value": "$59B"
+      },
+      {
+        "rank": 30,
+        "code": "RU",
+        "value": "$56B"
+      },
+      {
+        "rank": 31,
+        "code": "PH",
+        "value": "$54B"
+      },
+      {
+        "rank": 32,
+        "code": "MX",
+        "value": "$51B"
       }
     ]
   },
@@ -79845,7 +81425,7 @@
     "title": "Largest services importers",
     "prompt": "Name the countries that import the most commercial services by total value in USD.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "WTO \u2014 Services trade statistics",
       "url": "https://www.wto.org/english/res_e/statis_e/statis_e.htm",
@@ -79930,6 +81510,81 @@
         "rank": 15,
         "code": "BE",
         "value": "$147B"
+      },
+      {
+        "rank": 16,
+        "code": "AE",
+        "value": "$132B"
+      },
+      {
+        "rank": 17,
+        "code": "LU",
+        "value": "$126B"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "$115B"
+      },
+      {
+        "rank": 19,
+        "code": "TW",
+        "value": "$81B"
+      },
+      {
+        "rank": 20,
+        "code": "HK",
+        "value": "$77B"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "$77B (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "$75B"
+      },
+      {
+        "rank": 23,
+        "code": "SA",
+        "value": "$74B"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "$74B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "BR",
+        "value": "$70B"
+      },
+      {
+        "rank": 26,
+        "code": "DK",
+        "value": "$70B (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "$69B"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "$63B"
+      },
+      {
+        "rank": 29,
+        "code": "TH",
+        "value": "$60B"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "$58B"
       }
     ]
   },
@@ -79940,7 +81595,7 @@
     "title": "Highest FDI inflows (annual)",
     "prompt": "Name the countries that attracted the most foreign direct investment (FDI) inflows in a recent year.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "UNCTAD \u2014 World Investment Report",
       "url": "https://unctad.org/publication/world-investment-report",
@@ -80008,23 +81663,73 @@
       },
       {
         "rank": 12,
+        "code": "PL",
+        "value": "$29B"
+      },
+      {
+        "rank": 13,
         "code": "IN",
         "value": "$28B"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "GB",
         "value": "$27B"
       },
       {
-        "rank": 14,
-        "code": "AU",
+        "rank": 15,
+        "code": "SA",
         "value": "$26B"
       },
       {
         "rank": 15,
+        "code": "AU",
+        "value": "$26B (tied)"
+      },
+      {
+        "rank": 17,
         "code": "SE",
         "value": "$25B"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "$22B"
+      },
+      {
+        "rank": 19,
+        "code": "JP",
+        "value": "$21B"
+      },
+      {
+        "rank": 19,
+        "code": "ID",
+        "value": "$21B (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CL",
+        "value": "$21B (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "$18B"
+      },
+      {
+        "rank": 22,
+        "code": "VN",
+        "value": "$18B (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "CO",
+        "value": "$17B"
+      },
+      {
+        "rank": 25,
+        "code": "IL",
+        "value": "$16B"
       }
     ]
   },
@@ -80035,7 +81740,7 @@
     "title": "Largest inward FDI stock",
     "prompt": "Name the countries with the largest total accumulated stock of foreign direct investment held inside their borders.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "UNCTAD \u2014 World Investment Report / FDI stocks database",
       "url": "https://unctad.org/publication/world-investment-report",
@@ -80120,6 +81825,106 @@
         "rank": 15,
         "code": "AU",
         "value": "$818B"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "$715B"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "$684B"
+      },
+      {
+        "rank": 18,
+        "code": "IN",
+        "value": "$566B"
+      },
+      {
+        "rank": 19,
+        "code": "SE",
+        "value": "$495B"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "$493B"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "$412B"
+      },
+      {
+        "rank": 22,
+        "code": "JP",
+        "value": "$339B"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "$332B"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "$309B"
+      },
+      {
+        "rank": 25,
+        "code": "SA",
+        "value": "$282B"
+      },
+      {
+        "rank": 26,
+        "code": "TR",
+        "value": "$268B"
+      },
+      {
+        "rank": 27,
+        "code": "CL",
+        "value": "$264B"
+      },
+      {
+        "rank": 28,
+        "code": "ID",
+        "value": "$260B"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "$260B (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "AT",
+        "value": "$253B"
+      },
+      {
+        "rank": 31,
+        "code": "VN",
+        "value": "$237B"
+      },
+      {
+        "rank": 32,
+        "code": "AE",
+        "value": "$232B"
+      },
+      {
+        "rank": 33,
+        "code": "CZ",
+        "value": "$219B"
+      },
+      {
+        "rank": 34,
+        "code": "PT",
+        "value": "$212B"
+      },
+      {
+        "rank": 35,
+        "code": "MY",
+        "value": "$205B"
       }
     ]
   },
@@ -80130,7 +81935,7 @@
     "title": "Largest current account surpluses",
     "prompt": "Name the countries with the largest current account surpluses by USD value.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "IMF \u2014 World Economic Outlook / Balance of Payments Statistics",
       "url": "https://www.imf.org/en/Publications/WEO",
@@ -80192,29 +81997,79 @@
         "value": "$50B"
       },
       {
-        "rank": 11,
+        "rank": 10,
+        "code": "KW",
+        "value": "$50B (tied)"
+      },
+      {
+        "rank": 12,
         "code": "IE",
         "value": "$47B"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "ES",
+        "value": "$41B"
+      },
+      {
+        "rank": 14,
+        "code": "DK",
+        "value": "$40B"
+      },
+      {
+        "rank": 15,
         "code": "SA",
         "value": "$34B"
       },
       {
-        "rank": 12,
+        "rank": 15,
         "code": "QA",
-        "value": "$34B"
+        "value": "$34B (tied)"
       },
       {
-        "rank": 14,
+        "rank": 17,
         "code": "KR",
         "value": "$33B"
       },
       {
-        "rank": 15,
+        "rank": 18,
+        "code": "SE",
+        "value": "$32B"
+      },
+      {
+        "rank": 19,
+        "code": "VN",
+        "value": "$28B"
+      },
+      {
+        "rank": 20,
         "code": "IT",
         "value": "$16B"
+      },
+      {
+        "rank": 21,
+        "code": "AU",
+        "value": "$14B"
+      },
+      {
+        "rank": 21,
+        "code": "IR",
+        "value": "$14B (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "MY",
+        "value": "$13B"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "$12B"
+      },
+      {
+        "rank": 25,
+        "code": "AZ",
+        "value": "$8B"
       }
     ]
   },
@@ -80225,7 +82080,7 @@
     "title": "Largest current account deficits",
     "prompt": "Name the countries with the largest current account deficits by USD value.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "IMF \u2014 World Economic Outlook / Balance of Payments Statistics",
       "url": "https://www.imf.org/en/Publications/WEO",
@@ -80264,7 +82119,7 @@
       {
         "rank": 5,
         "code": "RO",
-        "value": "-$29B"
+        "value": "-$29B (tied)"
       },
       {
         "rank": 7,
@@ -80277,39 +82132,114 @@
         "value": "-$21B"
       },
       {
-        "rank": 9,
+        "rank": 8,
+        "code": "NZ",
+        "value": "-$21B (tied)"
+      },
+      {
+        "rank": 10,
         "code": "EG",
         "value": "-$20B"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "CA",
         "value": "-$16B"
       },
       {
         "rank": 11,
+        "code": "GR",
+        "value": "-$16B (tied)"
+      },
+      {
+        "rank": 13,
         "code": "PL",
         "value": "-$14B"
       },
       {
-        "rank": 12,
+        "rank": 14,
         "code": "PH",
         "value": "-$11B"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "code": "CO",
         "value": "-$10B"
       },
       {
-        "rank": 14,
+        "rank": 15,
+        "code": "CL",
+        "value": "-$10B (tied)"
+      },
+      {
+        "rank": 17,
         "code": "ZA",
         "value": "-$6B"
       },
       {
-        "rank": 15,
+        "rank": 18,
         "code": "MX",
         "value": "-$5B"
+      },
+      {
+        "rank": 18,
+        "code": "BD",
+        "value": "-$5B (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "KE",
+        "value": "-$5B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "ET",
+        "value": "-$4B"
+      },
+      {
+        "rank": 21,
+        "code": "FI",
+        "value": "-$4B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "JO",
+        "value": "-$4B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "DO",
+        "value": "-$4B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "-$3B"
+      },
+      {
+        "rank": 25,
+        "code": "PK",
+        "value": "-$3B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "PA",
+        "value": "-$3B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "UY",
+        "value": "-$3B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CI",
+        "value": "-$3B (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "-$1B"
       }
     ]
   },
@@ -113955,7 +115885,7 @@
     "title": "Tallest average female height",
     "prompt": "Name the countries with the tallest average adult female height (women born around 1996, measured in early adulthood).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "NCD-RisC \u2014 A Century of Trends in Adult Human Height",
       "url": "https://ncdrisc.org/data-downloads-height.html",
@@ -113968,78 +115898,178 @@
     "answers": [
       {
         "rank": 1,
-        "code": "NL",
+        "code": "LV",
         "value": "170.4 cm"
       },
       {
         "rank": 2,
-        "code": "ME",
-        "value": "170.0 cm"
+        "code": "NL",
+        "value": "170.4 cm (tied)"
       },
       {
         "rank": 3,
-        "code": "DK",
-        "value": "169.5 cm"
+        "code": "EE",
+        "value": "169.8 cm"
       },
       {
         "rank": 4,
-        "code": "IS",
-        "value": "168.9 cm"
-      },
-      {
-        "rank": 5,
-        "code": "LV",
-        "value": "168.8 cm"
-      },
-      {
-        "rank": 6,
-        "code": "EE",
-        "value": "168.7 cm"
-      },
-      {
-        "rank": 7,
         "code": "CZ",
         "value": "168.5 cm"
       },
       {
-        "rank": 8,
-        "code": "SK",
+        "rank": 5,
+        "code": "SB",
         "value": "168.4 cm"
       },
       {
-        "rank": 9,
-        "code": "RS",
-        "value": "168.3 cm"
+        "rank": 6,
+        "code": "ME",
+        "value": "168.4 cm (tied)"
       },
       {
-        "rank": 9,
-        "code": "BA",
-        "value": "168.3 cm (tied)"
+        "rank": 7,
+        "code": "DK",
+        "value": "167.8 cm"
       },
       {
-        "rank": 11,
+        "rank": 8,
         "code": "LT",
-        "value": "168.1 cm"
+        "value": "167.6 cm"
+      },
+      {
+        "rank": 9,
+        "code": "BY",
+        "value": "167.5 cm"
+      },
+      {
+        "rank": 10,
+        "code": "UA",
+        "value": "167.2 cm"
       },
       {
         "rank": 11,
-        "code": "BE",
-        "value": "168.1 cm (tied)"
+        "code": "SK",
+        "value": "167.5 cm (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "BA",
+        "value": "167.4 cm"
       },
       {
         "rank": 13,
-        "code": "NO",
+        "code": "IS",
         "value": "168.0 cm"
       },
       {
         "rank": 14,
-        "code": "SE",
-        "value": "167.9 cm"
+        "code": "SI",
+        "value": "166.9 cm"
       },
       {
         "rank": 15,
+        "code": "AU",
+        "value": "166.9 cm (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "166.4 cm"
+      },
+      {
+        "rank": 17,
         "code": "FI",
-        "value": "167.8 cm"
+        "value": "166.5 cm"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "166.8 cm"
+      },
+      {
+        "rank": 19,
+        "code": "PL",
+        "value": "166.3 cm"
+      },
+      {
+        "rank": 20,
+        "code": "DE",
+        "value": "166.1 cm"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "165.7 cm"
+      },
+      {
+        "rank": 22,
+        "code": "HR",
+        "value": "165.6 cm"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "165.3 cm"
+      },
+      {
+        "rank": 24,
+        "code": "CH",
+        "value": "164.9 cm"
+      },
+      {
+        "rank": 25,
+        "code": "AT",
+        "value": "165.7 cm (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "IE",
+        "value": "165.1 cm"
+      },
+      {
+        "rank": 27,
+        "code": "NZ",
+        "value": "165.5 cm"
+      },
+      {
+        "rank": 28,
+        "code": "CA",
+        "value": "164.7 cm"
+      },
+      {
+        "rank": 29,
+        "code": "US",
+        "value": "163.5 cm"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "164.7 cm (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "GB",
+        "value": "164.4 cm"
+      },
+      {
+        "rank": 32,
+        "code": "FR",
+        "value": "164.9 cm (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "BG",
+        "value": "164.8 cm"
+      },
+      {
+        "rank": 34,
+        "code": "GR",
+        "value": "164.9 cm (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "IT",
+        "value": "164.5 cm"
       }
     ]
   },
@@ -114050,7 +116080,7 @@
     "title": "Shortest average male height",
     "prompt": "Name the countries with the shortest average adult male height (men born around 1996).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "NCD-RisC \u2014 A Century of Trends in Adult Human Height",
       "url": "https://ncdrisc.org/data-downloads-height.html",
@@ -114069,12 +116099,12 @@
       {
         "rank": 2,
         "code": "LA",
-        "value": "162.8 cm"
+        "value": "160.5 cm"
       },
       {
         "rank": 3,
         "code": "MG",
-        "value": "162.9 cm"
+        "value": "161.6 cm"
       },
       {
         "rank": 4,
@@ -114084,7 +116114,7 @@
       {
         "rank": 5,
         "code": "PH",
-        "value": "163.5 cm"
+        "value": "163.2 cm"
       },
       {
         "rank": 6,
@@ -114094,47 +116124,122 @@
       {
         "rank": 7,
         "code": "YE",
-        "value": "163.9 cm"
+        "value": "163.5 cm"
       },
       {
         "rank": 8,
-        "code": "MZ",
-        "value": "164.0 cm"
+        "code": "BD",
+        "value": "165.1 cm"
       },
       {
         "rank": 9,
-        "code": "BD",
-        "value": "164.1 cm"
+        "code": "KH",
+        "value": "162.9 cm"
       },
       {
         "rank": 10,
-        "code": "PG",
-        "value": "164.2 cm"
-      },
-      {
-        "rank": 11,
-        "code": "ID",
-        "value": "164.3 cm"
-      },
-      {
-        "rank": 12,
         "code": "VN",
         "value": "164.4 cm"
       },
       {
-        "rank": 13,
-        "code": "ET",
-        "value": "164.5 cm"
+        "rank": 11,
+        "code": "MZ",
+        "value": "164.8 cm"
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "code": "PE",
+        "value": "165.5 cm"
+      },
+      {
+        "rank": 13,
         "code": "IN",
         "value": "164.9 cm"
       },
       {
+        "rank": 14,
+        "code": "LK",
+        "value": "165.6 cm"
+      },
+      {
         "rank": 15,
-        "code": "KH",
-        "value": "165.1 cm"
+        "code": "ET",
+        "value": "165.4 cm"
+      },
+      {
+        "rank": 16,
+        "code": "BO",
+        "value": "165.3 cm"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "165.6 cm (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MM",
+        "value": "165.7 cm"
+      },
+      {
+        "rank": 19,
+        "code": "PK",
+        "value": "165.5 cm (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "ZM",
+        "value": "166.5 cm"
+      },
+      {
+        "rank": 21,
+        "code": "MW",
+        "value": "166.0 cm"
+      },
+      {
+        "rank": 22,
+        "code": "AF",
+        "value": "165.4 cm (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "RW",
+        "value": "166.5 cm (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "HN",
+        "value": "166.7 cm"
+      },
+      {
+        "rank": 25,
+        "code": "EC",
+        "value": "167.1 cm"
+      },
+      {
+        "rank": 26,
+        "code": "NI",
+        "value": "167.0 cm"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "170.6 cm"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "170.0 cm"
+      },
+      {
+        "rank": 29,
+        "code": "TH",
+        "value": "170.3 cm"
+      },
+      {
+        "rank": 30,
+        "code": "CN",
+        "value": "175.7 cm"
       }
     ]
   },
@@ -114145,7 +116250,7 @@
     "title": "Lowest crude birth rate",
     "prompt": "Name the countries with the lowest crude birth rate (fewest live births per 1,000 population per year).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "UN \u2014 World Population Prospects",
       "url": "https://population.un.org/wpp/",
@@ -114159,77 +116264,177 @@
       {
         "rank": 1,
         "code": "KR",
-        "value": "4.9 per 1,000"
+        "value": "4.9 births/1000"
       },
       {
         "rank": 2,
-        "code": "SM",
-        "value": "5.9 per 1,000"
+        "code": "JP",
+        "value": "6.2 births/1000"
       },
       {
         "rank": 3,
         "code": "IT",
-        "value": "6.4 per 1,000"
+        "value": "6.5 births/1000"
       },
       {
         "rank": 4,
-        "code": "JP",
-        "value": "6.5 per 1,000"
+        "code": "UA",
+        "value": "6.8 births/1000"
       },
       {
         "rank": 5,
-        "code": "ES",
-        "value": "6.6 per 1,000"
+        "code": "PT",
+        "value": "7.0 births/1000"
       },
       {
         "rank": 6,
-        "code": "AD",
-        "value": "6.7 per 1,000"
+        "code": "GR",
+        "value": "7.0 births/1000 (tied)"
       },
       {
         "rank": 7,
-        "code": "GR",
-        "value": "6.8 per 1,000"
+        "code": "ES",
+        "value": "7.1 births/1000"
       },
       {
         "rank": 8,
-        "code": "PT",
-        "value": "7.1 per 1,000"
+        "code": "SG",
+        "value": "8.7 births/1000"
       },
       {
-        "rank": 8,
-        "code": "UA",
-        "value": "7.1 per 1,000 (tied)"
+        "rank": 9,
+        "code": "TW",
+        "value": "6.8 births/1000 (tied)"
       },
       {
         "rank": 10,
-        "code": "BA",
-        "value": "7.2 per 1,000"
+        "code": "PL",
+        "value": "8.0 births/1000"
       },
       {
         "rank": 11,
-        "code": "MT",
-        "value": "7.3 per 1,000"
+        "code": "HR",
+        "value": "8.2 births/1000"
       },
       {
         "rank": 12,
-        "code": "SG",
-        "value": "7.4 per 1,000"
+        "code": "DE",
+        "value": "8.6 births/1000"
       },
       {
         "rank": 13,
-        "code": "TW",
-        "value": "7.5 per 1,000"
+        "code": "AT",
+        "value": "8.9 births/1000"
       },
       {
         "rank": 14,
-        "code": "RS",
-        "value": "7.6 per 1,000"
+        "code": "FI",
+        "value": "8.8 births/1000"
       },
       {
         "rank": 15,
-        "code": "DE",
-        "value": "7.7 per 1,000"
+        "code": "BG",
+        "value": "8.5 births/1000"
+      },
+      {
+        "rank": 16,
+        "code": "HU",
+        "value": "9.1 births/1000"
+      },
+      {
+        "rank": 17,
+        "code": "LV",
+        "value": "8.5 births/1000 (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "SI",
+        "value": "9.0 births/1000"
+      },
+      {
+        "rank": 19,
+        "code": "RS",
+        "value": "9.0 births/1000 (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CH",
+        "value": "9.5 births/1000"
+      },
+      {
+        "rank": 21,
+        "code": "LT",
+        "value": "8.9 births/1000 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "EE",
+        "value": "8.9 births/1000 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "9.2 births/1000"
+      },
+      {
+        "rank": 24,
+        "code": "BA",
+        "value": "8.5 births/1000 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "9.5 births/1000 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "RO",
+        "value": "9.4 births/1000"
+      },
+      {
+        "rank": 27,
+        "code": "BE",
+        "value": "9.7 births/1000"
+      },
+      {
+        "rank": 28,
+        "code": "CU",
+        "value": "9.5 births/1000 (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "TH",
+        "value": "8.7 births/1000 (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CN",
+        "value": "6.4 births/1000"
+      },
+      {
+        "rank": 31,
+        "code": "MT",
+        "value": "8.9 births/1000 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "MD",
+        "value": "8.7 births/1000 (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "SK",
+        "value": "9.4 births/1000 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "CA",
+        "value": "9.4 births/1000 (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "DK",
+        "value": "10.0 births/1000"
       }
     ]
   },
@@ -114240,7 +116445,7 @@
     "title": "Highest crude birth rate",
     "prompt": "Name the countries with the highest crude birth rate (most live births per 1,000 population per year).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "UN \u2014 World Population Prospects",
       "url": "https://population.un.org/wpp/",
@@ -114254,77 +116459,177 @@
       {
         "rank": 1,
         "code": "NE",
-        "value": "45.2 per 1,000"
+        "value": "45.8 births/1000"
       },
       {
         "rank": 2,
         "code": "TD",
-        "value": "42.4 per 1,000"
+        "value": "41.9 births/1000"
       },
       {
         "rank": 3,
         "code": "SO",
-        "value": "41.9 per 1,000"
+        "value": "41.8 births/1000"
       },
       {
         "rank": 4,
         "code": "CD",
-        "value": "40.7 per 1,000"
+        "value": "41.2 births/1000"
       },
       {
         "rank": 5,
-        "code": "AO",
-        "value": "39.8 per 1,000"
+        "code": "ML",
+        "value": "40.8 births/1000"
       },
       {
         "rank": 6,
-        "code": "BI",
-        "value": "39.5 per 1,000"
+        "code": "AO",
+        "value": "40.4 births/1000"
       },
       {
         "rank": 7,
-        "code": "ML",
-        "value": "39.3 per 1,000"
+        "code": "BI",
+        "value": "36.9 births/1000"
       },
       {
         "rank": 8,
-        "code": "BF",
-        "value": "38.4 per 1,000"
+        "code": "UG",
+        "value": "36.7 births/1000"
       },
       {
         "rank": 9,
-        "code": "UG",
-        "value": "37.4 per 1,000"
+        "code": "BF",
+        "value": "36.4 births/1000"
       },
       {
         "rank": 10,
-        "code": "MZ",
-        "value": "37.2 per 1,000"
+        "code": "NG",
+        "value": "36.5 births/1000"
       },
       {
         "rank": 11,
-        "code": "TZ",
-        "value": "36.7 per 1,000"
+        "code": "CF",
+        "value": "36.2 births/1000"
       },
       {
         "rank": 12,
-        "code": "NG",
-        "value": "36.4 per 1,000"
+        "code": "MZ",
+        "value": "36.0 births/1000"
       },
       {
         "rank": 13,
-        "code": "GN",
-        "value": "35.9 per 1,000"
+        "code": "TZ",
+        "value": "35.8 births/1000"
       },
       {
         "rank": 14,
-        "code": "CF",
-        "value": "35.6 per 1,000"
+        "code": "GN",
+        "value": "35.5 births/1000"
       },
       {
         "rank": 15,
+        "code": "BJ",
+        "value": "35.2 births/1000"
+      },
+      {
+        "rank": 16,
         "code": "SS",
-        "value": "35.4 per 1,000"
+        "value": "35.0 births/1000"
+      },
+      {
+        "rank": 17,
+        "code": "SN",
+        "value": "34.7 births/1000"
+      },
+      {
+        "rank": 18,
+        "code": "ZM",
+        "value": "34.4 births/1000"
+      },
+      {
+        "rank": 19,
+        "code": "AF",
+        "value": "34.2 births/1000"
+      },
+      {
+        "rank": 20,
+        "code": "GM",
+        "value": "33.9 births/1000"
+      },
+      {
+        "rank": 21,
+        "code": "CM",
+        "value": "33.5 births/1000"
+      },
+      {
+        "rank": 22,
+        "code": "MW",
+        "value": "33.2 births/1000"
+      },
+      {
+        "rank": 23,
+        "code": "GW",
+        "value": "33.0 births/1000"
+      },
+      {
+        "rank": 24,
+        "code": "MG",
+        "value": "32.7 births/1000"
+      },
+      {
+        "rank": 25,
+        "code": "TG",
+        "value": "32.5 births/1000"
+      },
+      {
+        "rank": 26,
+        "code": "CG",
+        "value": "32.3 births/1000"
+      },
+      {
+        "rank": 27,
+        "code": "ET",
+        "value": "31.9 births/1000"
+      },
+      {
+        "rank": 28,
+        "code": "MR",
+        "value": "31.7 births/1000"
+      },
+      {
+        "rank": 29,
+        "code": "SL",
+        "value": "30.5 births/1000"
+      },
+      {
+        "rank": 30,
+        "code": "LR",
+        "value": "30.2 births/1000"
+      },
+      {
+        "rank": 31,
+        "code": "SD",
+        "value": "30.0 births/1000"
+      },
+      {
+        "rank": 32,
+        "code": "GQ",
+        "value": "29.8 births/1000"
+      },
+      {
+        "rank": 33,
+        "code": "CI",
+        "value": "29.5 births/1000"
+      },
+      {
+        "rank": 34,
+        "code": "KE",
+        "value": "27.9 births/1000"
+      },
+      {
+        "rank": 35,
+        "code": "GH",
+        "value": "27.5 births/1000"
       }
     ]
   },
@@ -114335,7 +116640,7 @@
     "title": "Largest life-expectancy gender gap",
     "prompt": "Name the countries where female life expectancy at birth exceeds male life expectancy by the largest margin.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "WHO \u2014 Global Health Observatory",
       "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)",
@@ -114349,7 +116654,7 @@
       {
         "rank": 1,
         "code": "RU",
-        "value": "10.5 years"
+        "value": "10.9 years"
       },
       {
         "rank": 2,
@@ -114358,38 +116663,38 @@
       },
       {
         "rank": 3,
-        "code": "LT",
-        "value": "9.6 years"
+        "code": "UA",
+        "value": "10.0 years"
       },
       {
         "rank": 4,
-        "code": "UA",
-        "value": "9.5 years"
+        "code": "LT",
+        "value": "9.7 years"
       },
       {
         "rank": 5,
         "code": "LV",
-        "value": "9.2 years"
+        "value": "9.4 years"
       },
       {
         "rank": 6,
-        "code": "EE",
-        "value": "8.7 years"
+        "code": "MN",
+        "value": "9.0 years"
       },
       {
         "rank": 7,
         "code": "KZ",
-        "value": "8.5 years"
+        "value": "8.6 years"
       },
       {
         "rank": 8,
-        "code": "SY",
-        "value": "8.4 years"
+        "code": "EE",
+        "value": "8.5 years"
       },
       {
         "rank": 9,
-        "code": "MN",
-        "value": "8.3 years"
+        "code": "SY",
+        "value": "8.4 years"
       },
       {
         "rank": 10,
@@ -114398,28 +116703,128 @@
       },
       {
         "rank": 11,
-        "code": "PL",
-        "value": "7.7 years"
+        "code": "KG",
+        "value": "8.0 years"
       },
       {
         "rank": 12,
-        "code": "HU",
-        "value": "7.4 years"
+        "code": "PL",
+        "value": "7.9 years"
       },
       {
         "rank": 13,
+        "code": "MD",
+        "value": "7.8 years"
+      },
+      {
+        "rank": 14,
+        "code": "HU",
+        "value": "7.5 years"
+      },
+      {
+        "rank": 15,
         "code": "SK",
         "value": "7.2 years"
       },
       {
-        "rank": 14,
-        "code": "MD",
+        "rank": 16,
+        "code": "PT",
         "value": "7.1 years"
       },
       {
-        "rank": 15,
-        "code": "AM",
-        "value": "7.0 years"
+        "rank": 17,
+        "code": "FR",
+        "value": "6.9 years"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "6.8 years"
+      },
+      {
+        "rank": 19,
+        "code": "BG",
+        "value": "6.7 years"
+      },
+      {
+        "rank": 20,
+        "code": "RO",
+        "value": "6.8 years (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "JP",
+        "value": "6.1 years"
+      },
+      {
+        "rank": 22,
+        "code": "FI",
+        "value": "5.8 years"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "5.9 years"
+      },
+      {
+        "rank": 24,
+        "code": "HR",
+        "value": "6.2 years"
+      },
+      {
+        "rank": 25,
+        "code": "IT",
+        "value": "5.4 years"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "5.3 years"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "5.2 years"
+      },
+      {
+        "rank": 28,
+        "code": "DE",
+        "value": "5.1 years"
+      },
+      {
+        "rank": 29,
+        "code": "US",
+        "value": "5.9 years (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "5.0 years"
+      },
+      {
+        "rank": 31,
+        "code": "SI",
+        "value": "5.7 years"
+      },
+      {
+        "rank": 32,
+        "code": "CH",
+        "value": "4.5 years"
+      },
+      {
+        "rank": 33,
+        "code": "CA",
+        "value": "4.3 years"
+      },
+      {
+        "rank": 34,
+        "code": "AU",
+        "value": "4.2 years"
+      },
+      {
+        "rank": 35,
+        "code": "GB",
+        "value": "4.0 years"
       }
     ]
   },
@@ -134905,7 +137310,7 @@
     "title": "Highest Total Fertility Rate",
     "prompt": "Name the countries with the highest total fertility rate (average births per woman).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 45,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -134975,6 +137380,171 @@
         "rank": 12,
         "code": "UG",
         "value": "4.6 births/woman"
+      },
+      {
+        "rank": 13,
+        "code": "MZ",
+        "value": "4.5 births/woman"
+      },
+      {
+        "rank": 14,
+        "code": "GN",
+        "value": "4.4 births/woman"
+      },
+      {
+        "rank": 15,
+        "code": "SS",
+        "value": "4.4 births/woman (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BJ",
+        "value": "4.3 births/woman"
+      },
+      {
+        "rank": 17,
+        "code": "SL",
+        "value": "4.1 births/woman"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "4.1 births/woman (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "GM",
+        "value": "4.0 births/woman"
+      },
+      {
+        "rank": 20,
+        "code": "SN",
+        "value": "4.0 births/woman (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AF",
+        "value": "4.0 births/woman (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CI",
+        "value": "3.9 births/woman"
+      },
+      {
+        "rank": 23,
+        "code": "MR",
+        "value": "3.9 births/woman (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "GW",
+        "value": "3.9 births/woman (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "ET",
+        "value": "3.9 births/woman (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "TG",
+        "value": "3.8 births/woman"
+      },
+      {
+        "rank": 27,
+        "code": "LR",
+        "value": "3.8 births/woman (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "SD",
+        "value": "3.7 births/woman"
+      },
+      {
+        "rank": 29,
+        "code": "YE",
+        "value": "3.7 births/woman (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "MW",
+        "value": "3.6 births/woman"
+      },
+      {
+        "rank": 31,
+        "code": "TL",
+        "value": "3.5 births/woman"
+      },
+      {
+        "rank": 32,
+        "code": "KM",
+        "value": "3.5 births/woman (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "PS",
+        "value": "3.4 births/woman"
+      },
+      {
+        "rank": 34,
+        "code": "SB",
+        "value": "3.4 births/woman (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "PK",
+        "value": "3.3 births/woman"
+      },
+      {
+        "rank": 36,
+        "code": "GQ",
+        "value": "3.3 births/woman (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "ER",
+        "value": "3.3 births/woman (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "IQ",
+        "value": "3.2 births/woman"
+      },
+      {
+        "rank": 39,
+        "code": "TJ",
+        "value": "3.1 births/woman"
+      },
+      {
+        "rank": 40,
+        "code": "ZM",
+        "value": "3.1 births/woman (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "RW",
+        "value": "3.0 births/woman"
+      },
+      {
+        "rank": 42,
+        "code": "MG",
+        "value": "3.0 births/woman (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "KE",
+        "value": "3.0 births/woman (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "PG",
+        "value": "3.0 births/woman (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "GH",
+        "value": "2.9 births/woman"
       }
     ]
   },
@@ -134985,7 +137555,7 @@
     "title": "Lowest Total Fertility Rate",
     "prompt": "Name the countries with the lowest total fertility rate (fewest average births per woman).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 45,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -135055,6 +137625,171 @@
         "rank": 12,
         "code": "GR",
         "value": "1.24 births/woman"
+      },
+      {
+        "rank": 13,
+        "code": "CY",
+        "value": "1.27 births/woman"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "1.30 births/woman"
+      },
+      {
+        "rank": 15,
+        "code": "MT",
+        "value": "1.30 births/woman (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "1.35 births/woman"
+      },
+      {
+        "rank": 17,
+        "code": "TH",
+        "value": "1.35 births/woman (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "AT",
+        "value": "1.38 births/woman"
+      },
+      {
+        "rank": 19,
+        "code": "FI",
+        "value": "1.38 births/woman (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "LU",
+        "value": "1.39 births/woman"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "1.40 births/woman"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "1.42 births/woman"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "1.44 births/woman"
+      },
+      {
+        "rank": 24,
+        "code": "LT",
+        "value": "1.44 births/woman (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "HR",
+        "value": "1.45 births/woman"
+      },
+      {
+        "rank": 26,
+        "code": "LV",
+        "value": "1.46 births/woman"
+      },
+      {
+        "rank": 27,
+        "code": "EE",
+        "value": "1.47 births/woman"
+      },
+      {
+        "rank": 28,
+        "code": "RS",
+        "value": "1.47 births/woman (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "1.48 births/woman"
+      },
+      {
+        "rank": 30,
+        "code": "NL",
+        "value": "1.49 births/woman"
+      },
+      {
+        "rank": 31,
+        "code": "SK",
+        "value": "1.50 births/woman"
+      },
+      {
+        "rank": 32,
+        "code": "BA",
+        "value": "1.50 births/woman (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "SI",
+        "value": "1.51 births/woman"
+      },
+      {
+        "rank": 34,
+        "code": "HU",
+        "value": "1.52 births/woman"
+      },
+      {
+        "rank": 35,
+        "code": "US",
+        "value": "1.62 births/woman"
+      },
+      {
+        "rank": 36,
+        "code": "CZ",
+        "value": "1.62 births/woman (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "BG",
+        "value": "1.63 births/woman"
+      },
+      {
+        "rank": 38,
+        "code": "GB",
+        "value": "1.65 births/woman"
+      },
+      {
+        "rank": 39,
+        "code": "SE",
+        "value": "1.66 births/woman"
+      },
+      {
+        "rank": 40,
+        "code": "AU",
+        "value": "1.66 births/woman (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "DK",
+        "value": "1.67 births/woman"
+      },
+      {
+        "rank": 42,
+        "code": "IE",
+        "value": "1.68 births/woman"
+      },
+      {
+        "rank": 43,
+        "code": "RU",
+        "value": "1.72 births/woman"
+      },
+      {
+        "rank": 44,
+        "code": "NZ",
+        "value": "1.75 births/woman"
+      },
+      {
+        "rank": 45,
+        "code": "FR",
+        "value": "1.79 births/woman"
       }
     ]
   },
@@ -135065,7 +137800,7 @@
     "title": "Highest Crude Birth Rate",
     "prompt": "Name the countries with the highest crude birth rate (annual births per 1,000 people).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 45,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -135135,6 +137870,171 @@
         "rank": 12,
         "code": "BF",
         "value": "34.2 per 1,000"
+      },
+      {
+        "rank": 13,
+        "code": "TZ",
+        "value": "33.9 per 1,000"
+      },
+      {
+        "rank": 14,
+        "code": "GN",
+        "value": "32.5 per 1,000"
+      },
+      {
+        "rank": 15,
+        "code": "SS",
+        "value": "32.4 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "BJ",
+        "value": "32.2 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "SL",
+        "value": "31.6 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "31.4 per 1,000"
+      },
+      {
+        "rank": 19,
+        "code": "SN",
+        "value": "30.8 per 1,000"
+      },
+      {
+        "rank": 20,
+        "code": "AF",
+        "value": "30.6 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "GM",
+        "value": "30.2 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "CI",
+        "value": "29.9 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "MR",
+        "value": "29.7 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "GW",
+        "value": "29.6 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "TG",
+        "value": "29.4 per 1,000"
+      },
+      {
+        "rank": 26,
+        "code": "ET",
+        "value": "29.3 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "LR",
+        "value": "29.1 per 1,000"
+      },
+      {
+        "rank": 28,
+        "code": "SD",
+        "value": "28.4 per 1,000"
+      },
+      {
+        "rank": 29,
+        "code": "YE",
+        "value": "28.2 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "MW",
+        "value": "28.0 per 1,000"
+      },
+      {
+        "rank": 31,
+        "code": "KM",
+        "value": "27.4 per 1,000"
+      },
+      {
+        "rank": 32,
+        "code": "TL",
+        "value": "27.1 per 1,000"
+      },
+      {
+        "rank": 33,
+        "code": "MG",
+        "value": "26.7 per 1,000"
+      },
+      {
+        "rank": 34,
+        "code": "PS",
+        "value": "26.6 per 1,000"
+      },
+      {
+        "rank": 35,
+        "code": "RW",
+        "value": "26.4 per 1,000"
+      },
+      {
+        "rank": 36,
+        "code": "ZM",
+        "value": "26.3 per 1,000"
+      },
+      {
+        "rank": 37,
+        "code": "GQ",
+        "value": "26.2 per 1,000"
+      },
+      {
+        "rank": 38,
+        "code": "ER",
+        "value": "25.9 per 1,000"
+      },
+      {
+        "rank": 39,
+        "code": "IQ",
+        "value": "25.6 per 1,000"
+      },
+      {
+        "rank": 40,
+        "code": "PK",
+        "value": "25.4 per 1,000"
+      },
+      {
+        "rank": 41,
+        "code": "SB",
+        "value": "25.2 per 1,000"
+      },
+      {
+        "rank": 42,
+        "code": "TJ",
+        "value": "24.9 per 1,000"
+      },
+      {
+        "rank": 43,
+        "code": "KE",
+        "value": "24.4 per 1,000"
+      },
+      {
+        "rank": 44,
+        "code": "GH",
+        "value": "24.0 per 1,000"
+      },
+      {
+        "rank": 45,
+        "code": "PG",
+        "value": "23.9 per 1,000"
       }
     ]
   },
@@ -135145,7 +138045,7 @@
     "title": "Fastest Population Growth Rate",
     "prompt": "Name the countries with the fastest annual population growth rate.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 45,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -135215,6 +138115,171 @@
         "rank": 12,
         "code": "BF",
         "value": "2.6% per year"
+      },
+      {
+        "rank": 13,
+        "code": "CF",
+        "value": "2.6% per year (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "GN",
+        "value": "2.5% per year"
+      },
+      {
+        "rank": 15,
+        "code": "SS",
+        "value": "2.5% per year (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BJ",
+        "value": "2.5% per year (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "SN",
+        "value": "2.4% per year"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "2.4% per year (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "GM",
+        "value": "2.4% per year (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NG",
+        "value": "2.3% per year"
+      },
+      {
+        "rank": 21,
+        "code": "MR",
+        "value": "2.3% per year (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "TG",
+        "value": "2.3% per year (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "GW",
+        "value": "2.3% per year (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "LR",
+        "value": "2.2% per year"
+      },
+      {
+        "rank": 25,
+        "code": "SL",
+        "value": "2.2% per year (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "ET",
+        "value": "2.2% per year (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "CI",
+        "value": "2.1% per year"
+      },
+      {
+        "rank": 28,
+        "code": "MW",
+        "value": "2.1% per year (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "SD",
+        "value": "2.0% per year"
+      },
+      {
+        "rank": 30,
+        "code": "ZM",
+        "value": "2.0% per year (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "MG",
+        "value": "2.0% per year (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "RW",
+        "value": "2.0% per year (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "AF",
+        "value": "2.0% per year (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "PK",
+        "value": "1.9% per year"
+      },
+      {
+        "rank": 35,
+        "code": "YE",
+        "value": "1.9% per year (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "GH",
+        "value": "1.9% per year (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "TL",
+        "value": "1.8% per year"
+      },
+      {
+        "rank": 38,
+        "code": "KE",
+        "value": "1.8% per year (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "IQ",
+        "value": "1.8% per year (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "PS",
+        "value": "1.7% per year"
+      },
+      {
+        "rank": 41,
+        "code": "TJ",
+        "value": "1.7% per year (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "SB",
+        "value": "1.7% per year (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "PG",
+        "value": "1.7% per year (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "GQ",
+        "value": "1.6% per year"
+      },
+      {
+        "rank": 45,
+        "code": "KM",
+        "value": "1.6% per year (tied)"
       }
     ]
   },
@@ -135225,7 +138290,7 @@
     "title": "Fastest Shrinking Populations",
     "prompt": "Name the countries with the fastest declining populations (most negative annual growth rate).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 29,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -135295,6 +138360,91 @@
         "rank": 12,
         "code": "JP",
         "value": "-0.5% per year"
+      },
+      {
+        "rank": 13,
+        "code": "HU",
+        "value": "-0.5% per year (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "-0.4% per year"
+      },
+      {
+        "rank": 15,
+        "code": "EE",
+        "value": "-0.4% per year (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PL",
+        "value": "-0.4% per year (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "BY",
+        "value": "-0.4% per year (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "AL",
+        "value": "-0.3% per year"
+      },
+      {
+        "rank": 19,
+        "code": "BA",
+        "value": "-0.3% per year (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "PT",
+        "value": "-0.3% per year (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "GE",
+        "value": "-0.2% per year"
+      },
+      {
+        "rank": 22,
+        "code": "CU",
+        "value": "-0.2% per year (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "-0.1% per year"
+      },
+      {
+        "rank": 24,
+        "code": "MK",
+        "value": "-0.1% per year (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "AM",
+        "value": "-0.1% per year (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "FI",
+        "value": "-0.1% per year (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "TT",
+        "value": "-0.1% per year (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "SK",
+        "value": "-0.1% per year (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "CN",
+        "value": "0.0% per year"
       }
     ]
   },
@@ -135305,7 +138455,7 @@
     "title": "Largest Share of Population Under 15",
     "prompt": "Name the countries with the largest share of population under age 15.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 45,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -135375,6 +138525,171 @@
         "rank": 12,
         "code": "BF",
         "value": "42.1% under 15"
+      },
+      {
+        "rank": 13,
+        "code": "TZ",
+        "value": "42.0% under 15"
+      },
+      {
+        "rank": 14,
+        "code": "GN",
+        "value": "41.5% under 15"
+      },
+      {
+        "rank": 15,
+        "code": "BJ",
+        "value": "41.0% under 15"
+      },
+      {
+        "rank": 16,
+        "code": "SS",
+        "value": "40.9% under 15"
+      },
+      {
+        "rank": 17,
+        "code": "SL",
+        "value": "40.5% under 15"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "40.4% under 15"
+      },
+      {
+        "rank": 19,
+        "code": "AF",
+        "value": "40.3% under 15"
+      },
+      {
+        "rank": 20,
+        "code": "SN",
+        "value": "40.2% under 15"
+      },
+      {
+        "rank": 21,
+        "code": "GM",
+        "value": "40.0% under 15"
+      },
+      {
+        "rank": 22,
+        "code": "CI",
+        "value": "39.7% under 15"
+      },
+      {
+        "rank": 23,
+        "code": "MR",
+        "value": "39.5% under 15"
+      },
+      {
+        "rank": 24,
+        "code": "TG",
+        "value": "39.2% under 15"
+      },
+      {
+        "rank": 25,
+        "code": "ET",
+        "value": "39.1% under 15"
+      },
+      {
+        "rank": 26,
+        "code": "GW",
+        "value": "38.9% under 15"
+      },
+      {
+        "rank": 27,
+        "code": "LR",
+        "value": "38.7% under 15"
+      },
+      {
+        "rank": 28,
+        "code": "MW",
+        "value": "38.5% under 15"
+      },
+      {
+        "rank": 29,
+        "code": "SD",
+        "value": "38.3% under 15"
+      },
+      {
+        "rank": 30,
+        "code": "YE",
+        "value": "38.1% under 15"
+      },
+      {
+        "rank": 31,
+        "code": "PS",
+        "value": "38.0% under 15"
+      },
+      {
+        "rank": 32,
+        "code": "ZM",
+        "value": "37.8% under 15"
+      },
+      {
+        "rank": 33,
+        "code": "KM",
+        "value": "37.6% under 15"
+      },
+      {
+        "rank": 34,
+        "code": "MG",
+        "value": "37.5% under 15"
+      },
+      {
+        "rank": 35,
+        "code": "TL",
+        "value": "37.3% under 15"
+      },
+      {
+        "rank": 36,
+        "code": "RW",
+        "value": "37.0% under 15"
+      },
+      {
+        "rank": 37,
+        "code": "GQ",
+        "value": "36.8% under 15"
+      },
+      {
+        "rank": 38,
+        "code": "IQ",
+        "value": "36.5% under 15"
+      },
+      {
+        "rank": 39,
+        "code": "ER",
+        "value": "36.3% under 15"
+      },
+      {
+        "rank": 40,
+        "code": "PK",
+        "value": "36.0% under 15"
+      },
+      {
+        "rank": 41,
+        "code": "SB",
+        "value": "35.8% under 15"
+      },
+      {
+        "rank": 42,
+        "code": "TJ",
+        "value": "35.5% under 15"
+      },
+      {
+        "rank": 43,
+        "code": "PG",
+        "value": "35.2% under 15"
+      },
+      {
+        "rank": 44,
+        "code": "KE",
+        "value": "34.9% under 15"
+      },
+      {
+        "rank": 45,
+        "code": "GH",
+        "value": "34.6% under 15"
       }
     ]
   },
@@ -135385,7 +138700,7 @@
     "title": "Largest Female Life Expectancy Advantage",
     "prompt": "Name the countries where women outlive men by the largest number of years.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024 (life expectancy at birth by sex)",
       "url": "https://population.un.org/wpp/",
@@ -135455,6 +138770,146 @@
         "rank": 12,
         "code": "HU",
         "value": "7.4 year gap"
+      },
+      {
+        "rank": 13,
+        "code": "SK",
+        "value": "7.2 year gap"
+      },
+      {
+        "rank": 14,
+        "code": "RO",
+        "value": "7.1 year gap"
+      },
+      {
+        "rank": 15,
+        "code": "CZ",
+        "value": "6.9 year gap"
+      },
+      {
+        "rank": 16,
+        "code": "BG",
+        "value": "6.9 year gap (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "KG",
+        "value": "6.8 year gap"
+      },
+      {
+        "rank": 18,
+        "code": "TM",
+        "value": "6.7 year gap"
+      },
+      {
+        "rank": 19,
+        "code": "MD",
+        "value": "6.6 year gap"
+      },
+      {
+        "rank": 20,
+        "code": "UZ",
+        "value": "6.5 year gap"
+      },
+      {
+        "rank": 21,
+        "code": "TJ",
+        "value": "6.4 year gap"
+      },
+      {
+        "rank": 22,
+        "code": "PT",
+        "value": "6.3 year gap"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "6.2 year gap"
+      },
+      {
+        "rank": 24,
+        "code": "AZ",
+        "value": "6.1 year gap"
+      },
+      {
+        "rank": 25,
+        "code": "HR",
+        "value": "6.0 year gap"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "5.9 year gap"
+      },
+      {
+        "rank": 27,
+        "code": "GE",
+        "value": "5.8 year gap"
+      },
+      {
+        "rank": 28,
+        "code": "AM",
+        "value": "5.7 year gap"
+      },
+      {
+        "rank": 29,
+        "code": "SI",
+        "value": "5.6 year gap"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "5.5 year gap"
+      },
+      {
+        "rank": 31,
+        "code": "JP",
+        "value": "5.4 year gap"
+      },
+      {
+        "rank": 32,
+        "code": "RS",
+        "value": "5.4 year gap (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "BA",
+        "value": "5.3 year gap"
+      },
+      {
+        "rank": 34,
+        "code": "MK",
+        "value": "5.2 year gap"
+      },
+      {
+        "rank": 35,
+        "code": "GR",
+        "value": "5.1 year gap"
+      },
+      {
+        "rank": 36,
+        "code": "FI",
+        "value": "5.0 year gap"
+      },
+      {
+        "rank": 37,
+        "code": "AL",
+        "value": "4.9 year gap"
+      },
+      {
+        "rank": 38,
+        "code": "KR",
+        "value": "4.8 year gap"
+      },
+      {
+        "rank": 39,
+        "code": "BE",
+        "value": "4.7 year gap"
+      },
+      {
+        "rank": 40,
+        "code": "DE",
+        "value": "4.7 year gap (tied)"
       }
     ]
   },
@@ -135465,7 +138920,7 @@
     "title": "Highest Emigration Rate",
     "prompt": "Name the countries with the largest share of their citizens living abroad.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "UN DESA \u2014 International Migrant Stock 2020 (emigrant stock as % of origin-country population)",
       "url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
@@ -135535,6 +138990,96 @@
         "rank": 12,
         "code": "LB",
         "value": "22% abroad"
+      },
+      {
+        "rank": 13,
+        "code": "WS",
+        "value": "22% abroad (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "GE",
+        "value": "21% abroad"
+      },
+      {
+        "rank": 15,
+        "code": "SV",
+        "value": "20% abroad"
+      },
+      {
+        "rank": 16,
+        "code": "TO",
+        "value": "20% abroad (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "ME",
+        "value": "19% abroad"
+      },
+      {
+        "rank": 18,
+        "code": "KZ",
+        "value": "19% abroad (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CV",
+        "value": "18% abroad"
+      },
+      {
+        "rank": 20,
+        "code": "KG",
+        "value": "17% abroad"
+      },
+      {
+        "rank": 21,
+        "code": "HR",
+        "value": "17% abroad (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "RS",
+        "value": "16% abroad"
+      },
+      {
+        "rank": 23,
+        "code": "GD",
+        "value": "16% abroad (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "LT",
+        "value": "15% abroad"
+      },
+      {
+        "rank": 25,
+        "code": "MU",
+        "value": "15% abroad (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "IE",
+        "value": "14% abroad"
+      },
+      {
+        "rank": 27,
+        "code": "LV",
+        "value": "14% abroad (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "SY",
+        "value": "14% abroad (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "AZ",
+        "value": "13% abroad"
+      },
+      {
+        "rank": 30,
+        "code": "AF",
+        "value": "13% abroad (tied)"
       }
     ]
   },
