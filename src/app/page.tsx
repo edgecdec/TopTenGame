@@ -73,6 +73,26 @@ function HomeInner() {
             </Button>
           </Stack>
         </Paper>
+        <Paper sx={{ p: 4, width: "100%" }}>
+          <Stack spacing={2}>
+            <Typography variant="h6">Play Solo</Typography>
+            <Typography variant="body2" color="text.secondary">
+              10 questions, 30 seconds each. Compete on global leaderboards.
+            </Typography>
+            <Button
+              variant="contained"
+              color="secondary"
+              size="large"
+              disabled={!name.trim()}
+              onClick={() => router.push(`/solo?name=${encodeURIComponent(name)}`)}
+            >
+              Solo Play
+            </Button>
+            <Button variant="text" size="small" onClick={() => router.push("/leaderboard")}>
+              View Leaderboards
+            </Button>
+          </Stack>
+        </Paper>
       </Stack>
     </Container>
   );

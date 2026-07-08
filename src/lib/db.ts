@@ -56,6 +56,33 @@ export function getDb(): Database.Database {
     );
     CREATE INDEX IF NOT EXISTS idx_feedback_question ON feedback(question_id);
     CREATE INDEX IF NOT EXISTS idx_feedback_addressed ON feedback(addressed);
+    CREATE TABLE IF NOT EXISTS solo_sessions (
+      id TEXT PRIMARY KEY,
+      user_id TEXT NOT NULL,
+      display_name TEXT NOT NULL,
+      mode TEXT NOT NULL,               -- 'rank' | 'inverse' | 'flat'
+      theme TEXT NOT NULL,              -- specific theme, or '*' for all-mix
+      question_ids TEXT NOT NULL,       -- JSON array of 10 question ids
+      picks TEXT NOT NULL,              -- JSON array [null|code, ...] len 10
+      current_idx INTEGER NOT NULL,     -- 0..10 (10 = finished)
+      question_ends_at INTEGER,         -- ms epoch, null when finished
+      score INTEGER NOT NULL DEFAULT 0,
+      finished INTEGER NOT NULL DEFAULT 0,
+      created_at INTEGER NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS idx_solo_sessions_user ON solo_sessions(user_id);
+    CREATE TABLE IF NOT EXISTS solo_scores (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      session_id TEXT NOT NULL UNIQUE,
+      user_id TEXT NOT NULL,
+      display_name TEXT NOT NULL,
+      mode TEXT NOT NULL,
+      theme TEXT NOT NULL,              -- '*' for all-mix
+      score INTEGER NOT NULL,
+      created_at INTEGER NOT NULL
+    );
+    CREATE INDEX IF NOT EXISTS idx_solo_scores_board ON solo_scores(mode, theme, score DESC);
+    CREATE INDEX IF NOT EXISTS idx_solo_scores_user ON solo_scores(user_id);
   `);
   // In-place migration for legacy DBs
   const cols = _db.prepare("PRAGMA table_info(questions)").all() as Array<{ name: string }>;
@@ -63,6 +90,15 @@ export function getDb(): Database.Database {
   if (!has("disclaimer")) _db.exec("ALTER TABLE questions ADD COLUMN disclaimer TEXT");
   if (!has("trivia")) _db.exec("ALTER TABLE questions ADD COLUMN trivia TEXT");
   if (!has("as_of_date")) _db.exec("ALTER TABLE questions ADD COLUMN as_of_date TEXT");
+  const soloSessionCols = _db.prepare("PRAGMA table_info(solo_sessions)").all() as Array<{ name: string }>;
+  if (!soloSessionCols.some((c) => c.name === "theme")) {
+    _db.exec("ALTER TABLE solo_sessions ADD COLUMN theme TEXT NOT NULL DEFAULT '*'");
+  }
+  const soloScoreCols = _db.prepare("PRAGMA table_info(solo_scores)").all() as Array<{ name: string }>;
+  if (!soloScoreCols.some((c) => c.name === "theme")) {
+    _db.exec("ALTER TABLE solo_scores ADD COLUMN theme TEXT NOT NULL DEFAULT '*'");
+    _db.exec("CREATE INDEX IF NOT EXISTS idx_solo_scores_board ON solo_scores(mode, theme, score DESC)");
+  }
   return _db;
 }
 
