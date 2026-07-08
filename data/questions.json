@@ -2740,7 +2740,7 @@
     "title": "Highest beer consumption per capita",
     "prompt": "Name the countries with the highest per-capita beer consumption.",
     "answerType": "Countries",
-    "seededDepth": 35,
+    "seededDepth": 40,
     "source": {
       "name": "Wikipedia \u2014 List of countries by beer consumption per capita (Kirin Beer University Report)",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_beer_consumption_per_capita",
@@ -2922,6 +2922,31 @@
         "rank": 35,
         "code": "CY",
         "value": "~44 L per capita"
+      },
+      {
+        "rank": 36,
+        "code": "SI",
+        "value": "~43 L per capita"
+      },
+      {
+        "rank": 37,
+        "code": "JP",
+        "value": "~42 L per capita"
+      },
+      {
+        "rank": 38,
+        "code": "CH",
+        "value": "~41 L per capita"
+      },
+      {
+        "rank": 39,
+        "code": "AR",
+        "value": "~40 L per capita"
+      },
+      {
+        "rank": 40,
+        "code": "UY",
+        "value": "~39 L per capita"
       }
     ],
     "disclaimer": "Litres per person per year.",
@@ -3415,7 +3440,7 @@
     "title": "Highest meat consumption per capita",
     "prompt": "Name the countries with the highest per-capita meat consumption.",
     "answerType": "Countries",
-    "seededDepth": 35,
+    "seededDepth": 40,
     "source": {
       "name": "OECD-FAO Agricultural Outlook 2024-2033 (via Our World in Data)",
       "url": "https://ourworldindata.org/meat-production",
@@ -3597,6 +3622,31 @@
         "rank": 35,
         "code": "RU",
         "value": "~63 kg per capita"
+      },
+      {
+        "rank": 36,
+        "code": "NO",
+        "value": "~62 kg per capita"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "~61 kg per capita"
+      },
+      {
+        "rank": 38,
+        "code": "EE",
+        "value": "~60 kg per capita"
+      },
+      {
+        "rank": 39,
+        "code": "LT",
+        "value": "~59 kg per capita"
+      },
+      {
+        "rank": 40,
+        "code": "CN",
+        "value": "~58 kg per capita"
       }
     ],
     "disclaimer": "Kilograms of meat (beef, pork, poultry, sheep) per person per year, carcass weight equivalent. Excludes seafood.",
@@ -10970,7 +11020,7 @@
     "title": "Coldest countries (lowest annual average temperature)",
     "prompt": "Name the countries with the lowest annual mean surface temperature.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 30,
     "source": {
       "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual mean temperature",
       "url": "https://climateknowledgeportal.worldbank.org/",
@@ -11047,6 +11097,86 @@
         "rank": 14,
         "code": "LT",
         "value": "7.1 \u00b0C annual mean"
+      },
+      {
+        "rank": 15,
+        "code": "AM",
+        "value": "7.2 \u00b0C annual mean"
+      },
+      {
+        "rank": 16,
+        "code": "AT",
+        "value": "7.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "8.0 \u00b0C annual mean"
+      },
+      {
+        "rank": 18,
+        "code": "DK",
+        "value": "8.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "8.6 \u00b0C annual mean"
+      },
+      {
+        "rank": 20,
+        "code": "IE",
+        "value": "9.3 \u00b0C annual mean"
+      },
+      {
+        "rank": 21,
+        "code": "GB",
+        "value": "9.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "9.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "9.5 \u00b0C annual mean"
+      },
+      {
+        "rank": 24,
+        "code": "NL",
+        "value": "10.0 \u00b0C annual mean"
+      },
+      {
+        "rank": 25,
+        "code": "SK",
+        "value": "8.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 26,
+        "code": "AZ",
+        "value": "11.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 27,
+        "code": "GE",
+        "value": "5.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 28,
+        "code": "MD",
+        "value": "10.0 \u00b0C annual mean"
+      },
+      {
+        "rank": 29,
+        "code": "UA",
+        "value": "8.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 30,
+        "code": "RO",
+        "value": "9.5 \u00b0C annual mean"
       }
     ],
     "disclaimer": "Excludes Antarctica (not a country). Greenland is listed for its own climatology although it's part of the Kingdom of Denmark.",
@@ -11060,7 +11190,7 @@
     "title": "Wettest countries (highest annual precipitation)",
     "prompt": "Name the countries that receive the most rainfall averaged across their territory each year.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 30,
     "source": {
       "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual precipitation",
       "url": "https://climateknowledgeportal.worldbank.org/",
@@ -11137,6 +11267,86 @@
         "rank": 14,
         "code": "EC",
         "value": "2,274 mm/year"
+      },
+      {
+        "rank": 15,
+        "code": "NI",
+        "value": "2,280 mm/year"
+      },
+      {
+        "rank": 16,
+        "code": "LK",
+        "value": "2,180 mm/year"
+      },
+      {
+        "rank": 17,
+        "code": "MM",
+        "value": "2,090 mm/year"
+      },
+      {
+        "rank": 18,
+        "code": "GN",
+        "value": "2,027 mm/year"
+      },
+      {
+        "rank": 19,
+        "code": "VN",
+        "value": "1,996 mm/year"
+      },
+      {
+        "rank": 20,
+        "code": "GT",
+        "value": "1,996 mm/year"
+      },
+      {
+        "rank": 21,
+        "code": "KH",
+        "value": "1,980 mm/year"
+      },
+      {
+        "rank": 22,
+        "code": "LA",
+        "value": "1,881 mm/year"
+      },
+      {
+        "rank": 23,
+        "code": "JM",
+        "value": "2,051 mm/year"
+      },
+      {
+        "rank": 24,
+        "code": "HN",
+        "value": "1,976 mm/year"
+      },
+      {
+        "rank": 25,
+        "code": "CG",
+        "value": "1,646 mm/year"
+      },
+      {
+        "rank": 26,
+        "code": "TH",
+        "value": "1,622 mm/year"
+      },
+      {
+        "rank": 27,
+        "code": "GA",
+        "value": "1,831 mm/year"
+      },
+      {
+        "rank": 28,
+        "code": "CM",
+        "value": "1,604 mm/year"
+      },
+      {
+        "rank": 29,
+        "code": "CI",
+        "value": "1,348 mm/year"
+      },
+      {
+        "rank": 30,
+        "code": "GY",
+        "value": "2,387 mm/year"
       }
     ],
     "disclaimer": "National annual precipitation averages. Small tropical states near the Intertropical Convergence Zone tend to dominate.",
@@ -11150,7 +11360,7 @@
     "title": "Driest countries (lowest annual precipitation)",
     "prompt": "Name the countries that receive the least rainfall averaged across their territory each year.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 28,
     "source": {
       "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual precipitation",
       "url": "https://climateknowledgeportal.worldbank.org/",
@@ -11232,6 +11442,71 @@
         "rank": 15,
         "code": "IL",
         "value": "435 mm/year"
+      },
+      {
+        "rank": 16,
+        "code": "NE",
+        "value": "151 mm/year"
+      },
+      {
+        "rank": 17,
+        "code": "SD",
+        "value": "250 mm/year"
+      },
+      {
+        "rank": 18,
+        "code": "NA",
+        "value": "285 mm/year"
+      },
+      {
+        "rank": 19,
+        "code": "BW",
+        "value": "416 mm/year"
+      },
+      {
+        "rank": 20,
+        "code": "TD",
+        "value": "322 mm/year"
+      },
+      {
+        "rank": 21,
+        "code": "DJ",
+        "value": "220 mm/year"
+      },
+      {
+        "rank": 22,
+        "code": "ER",
+        "value": "384 mm/year"
+      },
+      {
+        "rank": 23,
+        "code": "SO",
+        "value": "282 mm/year"
+      },
+      {
+        "rank": 24,
+        "code": "IQ",
+        "value": "216 mm/year"
+      },
+      {
+        "rank": 25,
+        "code": "IR",
+        "value": "228 mm/year"
+      },
+      {
+        "rank": 26,
+        "code": "SY",
+        "value": "252 mm/year"
+      },
+      {
+        "rank": 27,
+        "code": "TM",
+        "value": "161 mm/year"
+      },
+      {
+        "rank": 28,
+        "code": "AF",
+        "value": "327 mm/year"
       }
     ],
     "disclaimer": "Annual precipitation averaged across the country's land area. Gulf states and central Sahara states dominate.",
@@ -11245,7 +11520,7 @@
     "title": "Countries with the highest elevation points",
     "prompt": "Name the countries whose highest point (or shared highest point) is the tallest mountain summit.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "National Geographic / Peakbagger \u2014 Country high points",
       "url": "https://www.peakbagger.com/",
@@ -11327,6 +11602,81 @@
         "rank": 15,
         "code": "MM",
         "value": "Hkakabo Razi \u2014 5,881 m"
+      },
+      {
+        "rank": 16,
+        "code": "CO",
+        "value": "Pico Crist\u00f3bal Col\u00f3n \u2014 5,700 m"
+      },
+      {
+        "rank": 17,
+        "code": "TZ",
+        "value": "Kilimanjaro \u2014 5,895 m"
+      },
+      {
+        "rank": 18,
+        "code": "RU",
+        "value": "Elbrus \u2014 5,642 m"
+      },
+      {
+        "rank": 19,
+        "code": "MX",
+        "value": "Pico de Orizaba \u2014 5,636 m"
+      },
+      {
+        "rank": 20,
+        "code": "IR",
+        "value": "Damavand \u2014 5,610 m"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "Mount Ararat \u2014 5,137 m"
+      },
+      {
+        "rank": 22,
+        "code": "KE",
+        "value": "Mount Kenya \u2014 5,199 m"
+      },
+      {
+        "rank": 23,
+        "code": "UG",
+        "value": "Margherita Peak \u2014 5,109 m"
+      },
+      {
+        "rank": 24,
+        "code": "GE",
+        "value": "Shkhara \u2014 5,193 m"
+      },
+      {
+        "rank": 25,
+        "code": "ID",
+        "value": "Puncak Jaya \u2014 4,884 m"
+      },
+      {
+        "rank": 26,
+        "code": "US",
+        "value": "Denali \u2014 6,190 m"
+      },
+      {
+        "rank": 27,
+        "code": "CA",
+        "value": "Mount Logan \u2014 5,959 m"
+      },
+      {
+        "rank": 28,
+        "code": "VE",
+        "value": "Pico Bol\u00edvar \u2014 4,978 m"
+      },
+      {
+        "rank": 29,
+        "code": "PG",
+        "value": "Mount Wilhelm \u2014 4,509 m"
+      },
+      {
+        "rank": 30,
+        "code": "CH",
+        "value": "Dufourspitze \u2014 4,634 m"
       }
     ],
     "disclaimer": "This list ranks countries by the elevation of their highest point regardless of whether the summit is shared with another country.",
@@ -11340,7 +11690,7 @@
     "title": "Countries with the largest desert coverage",
     "prompt": "Name the countries with the largest area of desert (hot or cold) within their borders.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 26,
     "source": {
       "name": "National Geographic / UNEP \u2014 World desert atlases",
       "url": "https://education.nationalgeographic.org/resource/desert/",
@@ -11422,6 +11772,61 @@
         "rank": 15,
         "code": "AR",
         "value": "~0.2 million km\u00b2 (Patagonian)"
+      },
+      {
+        "rank": 16,
+        "code": "KZ",
+        "value": "~0.3 million km\u00b2 (Betpak-Dala/Kyzylkum)"
+      },
+      {
+        "rank": 17,
+        "code": "TM",
+        "value": "~0.35 million km\u00b2 (Karakum)"
+      },
+      {
+        "rank": 18,
+        "code": "UZ",
+        "value": "~0.3 million km\u00b2 (Kyzylkum)"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "~0.2 million km\u00b2 (Thar)"
+      },
+      {
+        "rank": 20,
+        "code": "PK",
+        "value": "~0.2 million km\u00b2 (Thar/Cholistan)"
+      },
+      {
+        "rank": 21,
+        "code": "CL",
+        "value": "~0.1 million km\u00b2 (Atacama)"
+      },
+      {
+        "rank": 22,
+        "code": "PE",
+        "value": "~0.1 million km\u00b2 (Sechura/coastal)"
+      },
+      {
+        "rank": 23,
+        "code": "NA",
+        "value": "~0.08 million km\u00b2 (Namib)"
+      },
+      {
+        "rank": 24,
+        "code": "BW",
+        "value": "~0.25 million km\u00b2 (Kalahari)"
+      },
+      {
+        "rank": 25,
+        "code": "ZA",
+        "value": "~0.1 million km\u00b2 (Karoo/Kalahari)"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "~0.13 million km\u00b2 (Sonoran/Chihuahuan)"
       }
     ],
     "disclaimer": "Antarctica is technically the world's largest desert but is excluded here since it isn't a country.",
@@ -15320,7 +15725,7 @@
     "title": "Highest tea consumption per capita",
     "prompt": "Name the countries with the highest per-capita tea consumption.",
     "answerType": "Countries",
-    "seededDepth": 30,
+    "seededDepth": 35,
     "source": {
       "name": "Wikipedia \u2014 List of countries by tea consumption per capita",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_tea_consumption_per_capita",
@@ -15477,6 +15882,31 @@
         "rank": 30,
         "code": "ES",
         "value": "~0.25 kg per capita"
+      },
+      {
+        "rank": 31,
+        "code": "HK",
+        "value": "~0.23 kg per capita"
+      },
+      {
+        "rank": 32,
+        "code": "MY",
+        "value": "~0.22 kg per capita"
+      },
+      {
+        "rank": 33,
+        "code": "PK",
+        "value": "~0.20 kg per capita"
+      },
+      {
+        "rank": 34,
+        "code": "TH",
+        "value": "~0.18 kg per capita"
+      },
+      {
+        "rank": 35,
+        "code": "PT",
+        "value": "~0.16 kg per capita"
       }
     ],
     "disclaimer": "Kilograms of made tea per person per year.",
@@ -15970,7 +16400,7 @@
     "title": "Largest aquaculture producers",
     "prompt": "Name the world's largest aquaculture (fish/shellfish farming) producing countries.",
     "answerType": "Countries",
-    "seededDepth": 30,
+    "seededDepth": 35,
     "source": {
       "name": "FAO \u2014 The State of World Fisheries and Aquaculture (SOFIA)",
       "url": "https://www.fao.org/publications/sofia/en/",
@@ -16127,6 +16557,31 @@
         "rank": 30,
         "code": "AU",
         "value": "115,000 tonnes"
+      },
+      {
+        "rank": 31,
+        "code": "MX",
+        "value": "220,000 tonnes"
+      },
+      {
+        "rank": 32,
+        "code": "NG",
+        "value": "290,000 tonnes (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "KH",
+        "value": "400,000 tonnes (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "RU",
+        "value": "380,000 tonnes (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "DE",
+        "value": "35,000 tonnes"
       }
     ],
     "disclaimer": "Total aquaculture production including finfish, molluscs, crustaceans, and aquatic plants, in tonnes.",
@@ -20485,7 +20940,7 @@
     "title": "Highest AI private investment",
     "prompt": "Name the countries with the highest total private investment in AI companies.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Stanford AI Index Report 2024 (Global Vibrancy Tool)",
       "url": "https://aiindex.stanford.edu/report/",
@@ -20567,6 +21022,81 @@
         "rank": 14,
         "code": "NL",
         "value": "$0.5B"
+      },
+      {
+        "rank": 16,
+        "code": "AE",
+        "value": "$0.4B"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "$0.35B"
+      },
+      {
+        "rank": 18,
+        "code": "FI",
+        "value": "$0.30B"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "$0.25B"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "$0.22B"
+      },
+      {
+        "rank": 21,
+        "code": "DK",
+        "value": "$0.20B"
+      },
+      {
+        "rank": 22,
+        "code": "NO",
+        "value": "$0.18B"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "$0.15B"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "$0.13B"
+      },
+      {
+        "rank": 25,
+        "code": "HK",
+        "value": "$0.12B"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "$0.10B"
+      },
+      {
+        "rank": 27,
+        "code": "IT",
+        "value": "$0.09B"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "$0.08B"
+      },
+      {
+        "rank": 29,
+        "code": "TW",
+        "value": "$0.07B"
+      },
+      {
+        "rank": 30,
+        "code": "SA",
+        "value": "$0.06B"
       }
     ],
     "disclaimer": "Total private investment (venture capital, private equity, mergers, minority stakes) in AI-focused companies, in USD. Excludes government/state-directed AI spending.",
@@ -20580,7 +21110,7 @@
     "title": "Most Bitcoin mining hashrate share",
     "prompt": "Name the countries with the largest share of global Bitcoin network hashrate.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Cambridge Centre for Alternative Finance Bitcoin Mining Map",
       "url": "https://ccaf.io/cbnsi/cbeci/mining_map",
@@ -20662,6 +21192,81 @@
         "rank": 15,
         "code": "JP",
         "value": "0.05%"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "0.04%"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "0.03%"
+      },
+      {
+        "rank": 18,
+        "code": "FR",
+        "value": "0.03% (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NL",
+        "value": "0.02%"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "0.02% (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "TW",
+        "value": "0.02% (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "0.01%"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "SE",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "FI",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "CH",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "BR",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "ZA",
+        "value": "0.01% (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "PK",
+        "value": "0.01% (tied)"
       }
     ],
     "disclaimer": "Percent of global Bitcoin hashrate by miner IP location. Values sum below 100% because IP-obfuscated mining (~20%) is excluded.",
@@ -68760,7 +69365,7 @@
     "title": "Most military bases abroad",
     "prompt": "Name the countries with the most military installations located in foreign nations.",
     "answerType": "Countries",
-    "seededDepth": 30,
+    "seededDepth": 40,
     "source": {
       "name": "Wikipedia \u2014 List of United States overseas military bases (compiled from MoD / Politico sources)",
       "url": "https://en.wikipedia.org/wiki/List_of_United_States_overseas_military_bases",
@@ -68919,6 +69524,56 @@
       {
         "rank": 13,
         "code": "ET",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "PT",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "PL",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CZ",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "HU",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "RO",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "FI",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NZ",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "TW",
+        "value": "1 base (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CU",
         "value": "1 base (tied)"
       }
     ]
@@ -93715,7 +94370,7 @@
     "title": "Highest software engineer salaries",
     "prompt": "Name the countries with the highest average annual salary for software engineers.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Levels.fyi \u2014 Country Compensation Report",
       "url": "https://www.levels.fyi/reports/2024/end-of-year-pay-report",
@@ -93785,6 +94440,96 @@
         "rank": 12,
         "code": "IE",
         "value": "$78,000"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "$76,000"
+      },
+      {
+        "rank": 14,
+        "code": "NZ",
+        "value": "$74,000"
+      },
+      {
+        "rank": 15,
+        "code": "FI",
+        "value": "$72,000"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "$70,000"
+      },
+      {
+        "rank": 17,
+        "code": "AT",
+        "value": "$68,000"
+      },
+      {
+        "rank": 18,
+        "code": "FR",
+        "value": "$66,000"
+      },
+      {
+        "rank": 19,
+        "code": "JP",
+        "value": "$63,000"
+      },
+      {
+        "rank": 20,
+        "code": "AE",
+        "value": "$60,000"
+      },
+      {
+        "rank": 21,
+        "code": "KR",
+        "value": "$58,000"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "$55,000"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "$52,000"
+      },
+      {
+        "rank": 24,
+        "code": "HK",
+        "value": "$50,000"
+      },
+      {
+        "rank": 25,
+        "code": "TW",
+        "value": "$47,000"
+      },
+      {
+        "rank": 26,
+        "code": "EE",
+        "value": "$45,000"
+      },
+      {
+        "rank": 27,
+        "code": "CZ",
+        "value": "$43,000"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "$40,000"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "$38,000"
+      },
+      {
+        "rank": 30,
+        "code": "SA",
+        "value": "$36,000"
       }
     ]
   },
@@ -113060,7 +113805,7 @@
     "title": "Largest government space agency budgets",
     "prompt": "Name the countries with the largest state-funded space agency budgets.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Statista / OECD \u2014 Government space program budgets",
       "url": "https://www.statista.com/statistics/745717/global-governmental-spending-on-space-programs-leading-countries/",
@@ -113130,6 +113875,96 @@
         "rank": 12,
         "code": "CA",
         "value": "$0.4B"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "$0.35B"
+      },
+      {
+        "rank": 14,
+        "code": "IL",
+        "value": "$0.30B"
+      },
+      {
+        "rank": 15,
+        "code": "AE",
+        "value": "$0.27B"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "$0.25B"
+      },
+      {
+        "rank": 17,
+        "code": "CH",
+        "value": "$0.22B"
+      },
+      {
+        "rank": 18,
+        "code": "NL",
+        "value": "$0.19B"
+      },
+      {
+        "rank": 19,
+        "code": "SE",
+        "value": "$0.16B"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "$0.14B"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "$0.12B"
+      },
+      {
+        "rank": 22,
+        "code": "LU",
+        "value": "$0.10B"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "$0.09B"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "$0.08B"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "$0.07B"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "$0.06B"
+      },
+      {
+        "rank": 27,
+        "code": "MX",
+        "value": "$0.05B"
+      },
+      {
+        "rank": 28,
+        "code": "SA",
+        "value": "$0.05B (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "ZA",
+        "value": "$0.04B"
+      },
+      {
+        "rank": 30,
+        "code": "PT",
+        "value": "$0.03B"
       }
     ]
   },
@@ -113500,7 +114335,7 @@
     "title": "Most Antarctic Treaty consultative parties",
     "prompt": "Name the countries that became consultative (voting) parties to the Antarctic Treaty earliest \u2014 i.e. the founding signatories of 1959.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 29,
     "source": {
       "name": "Antarctic Treaty Secretariat \u2014 Parties list",
       "url": "https://www.ats.aq/devAS/Parties",
@@ -113570,6 +114405,91 @@
         "rank": 1,
         "code": "US",
         "value": "1959 signatory (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "PL",
+        "value": "1977 consultative"
+      },
+      {
+        "rank": 14,
+        "code": "DE",
+        "value": "1981 consultative"
+      },
+      {
+        "rank": 15,
+        "code": "BR",
+        "value": "1983 consultative"
+      },
+      {
+        "rank": 16,
+        "code": "IN",
+        "value": "1983 consultative (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "CN",
+        "value": "1985 consultative"
+      },
+      {
+        "rank": 18,
+        "code": "UY",
+        "value": "1985 consultative (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "1987 consultative"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "1988 consultative"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "1988 consultative (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "FI",
+        "value": "1989 consultative"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "1989 consultative (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "KR",
+        "value": "1989 consultative (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "EC",
+        "value": "1990 consultative"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "1990 consultative (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "BG",
+        "value": "1998 consultative"
+      },
+      {
+        "rank": 28,
+        "code": "UA",
+        "value": "2004 consultative"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "2014 consultative"
       }
     ]
   },
@@ -113580,7 +114500,7 @@
     "title": "Most orbital-class launch sites",
     "prompt": "Name the countries hosting the most active orbital-class rocket launch sites (spaceports).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "FAA Office of Commercial Space Transportation / Wikipedia \u2014 List of rocket launch sites",
       "url": "https://en.wikipedia.org/wiki/List_of_rocket_launch_sites",
@@ -113650,6 +114570,71 @@
         "rank": 6,
         "code": "NZ",
         "value": "1 active site (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "GB",
+        "value": "1 sub-orbital site (SaxaVord)"
+      },
+      {
+        "rank": 14,
+        "code": "AU",
+        "value": "1 developing site (Bowen)"
+      },
+      {
+        "rank": 15,
+        "code": "CA",
+        "value": "1 developing site (Canso)"
+      },
+      {
+        "rank": 16,
+        "code": "SE",
+        "value": "1 developing site (Esrange)"
+      },
+      {
+        "rank": 17,
+        "code": "NO",
+        "value": "1 developing site (Andoya)"
+      },
+      {
+        "rank": 18,
+        "code": "BR",
+        "value": "1 developing site (Alcantara)"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "1 developing site (Grottaglie)"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "1 developing site (El Arenosillo)"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "1 planned site"
+      },
+      {
+        "rank": 22,
+        "code": "SA",
+        "value": "1 planned site (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "TR",
+        "value": "1 planned site (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "ID",
+        "value": "1 planned site (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "PH",
+        "value": "1 planned site (tied)"
       }
     ]
   },
@@ -115870,7 +116855,7 @@
     "title": "Most Turing Award winners",
     "prompt": "Name the countries with the most Turing Award laureates by country of primary affiliation.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "ACM \u2014 A.M. Turing Award laureates",
       "url": "https://amturing.acm.org/",
@@ -115940,6 +116925,71 @@
         "rank": 7,
         "code": "IN",
         "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "JP",
+        "value": "0 laureates (top research nation, no primary-affiliation win)"
+      },
+      {
+        "rank": 13,
+        "code": "AU",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CN",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "DK",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "FI",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IE",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "SG",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "0 laureates (tied)"
       }
     ]
   },
@@ -115950,7 +117000,7 @@
     "title": "Most Fields Medal winners",
     "prompt": "Name the countries with the most Fields Medal laureates by country of primary affiliation.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "International Mathematical Union \u2014 Fields Medalists",
       "url": "https://www.mathunion.org/imu-awards/fields-medal",
@@ -116020,6 +117070,71 @@
         "rank": 8,
         "code": "DE",
         "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "FI",
+        "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NZ",
+        "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NO",
+        "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "UA",
+        "value": "1 laureate (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "0 laureates (top math nation, no primary-affiliation win)"
+      },
+      {
+        "rank": 18,
+        "code": "CH",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NL",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "IL",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "IN",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "CN",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "0 laureates (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "PL",
+        "value": "0 laureates (tied)"
       }
     ]
   },
@@ -129510,7 +130625,7 @@
     "title": "Largest honey producers",
     "prompt": "Name the countries that produce the most natural honey by volume.",
     "answerType": "Countries",
-    "seededDepth": 35,
+    "seededDepth": 40,
     "source": {
       "name": "FAOSTAT \u2014 Livestock primary (Honey, natural)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -129695,6 +130810,31 @@
         "rank": 35,
         "code": "GT",
         "value": "~7,500 tonnes"
+      },
+      {
+        "rank": 36,
+        "code": "MA",
+        "value": "~7,000 tonnes"
+      },
+      {
+        "rank": 37,
+        "code": "SK",
+        "value": "~6,500 tonnes"
+      },
+      {
+        "rank": 38,
+        "code": "RS",
+        "value": "~6,000 tonnes"
+      },
+      {
+        "rank": 39,
+        "code": "AT",
+        "value": "~5,800 tonnes"
+      },
+      {
+        "rank": 40,
+        "code": "CL",
+        "value": "~5,500 tonnes"
       }
     ]
   },
@@ -129825,7 +130965,7 @@
     "title": "Largest vanilla producers",
     "prompt": "Name the countries that produce the most vanilla beans by volume.",
     "answerType": "Countries",
-    "seededDepth": 30,
+    "seededDepth": 34,
     "source": {
       "name": "FAOSTAT \u2014 Crops (Vanilla, raw)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -129985,6 +131125,26 @@
         "rank": 30,
         "code": "MY",
         "value": "~1 tonne"
+      },
+      {
+        "rank": 31,
+        "code": "CM",
+        "value": "~1 tonne (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "VU",
+        "value": "~1 tonne (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "DO",
+        "value": "~1 tonne (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "WS",
+        "value": "~1 tonne (tied)"
       }
     ]
   },
@@ -129995,7 +131155,7 @@
     "title": "Countries with the most Michelin stars",
     "prompt": "Name the countries with the most Michelin-starred restaurants in the current guide.",
     "answerType": "Countries",
-    "seededDepth": 30,
+    "seededDepth": 35,
     "source": {
       "name": "Michelin Guide \u2014 Country totals of starred restaurants",
       "url": "https://guide.michelin.com/",
@@ -130155,6 +131315,31 @@
         "rank": 30,
         "code": "AE",
         "value": "~15 starred (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "HR",
+        "value": "~9 starred (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "SI",
+        "value": "~8 starred"
+      },
+      {
+        "rank": 33,
+        "code": "EE",
+        "value": "~2 starred"
+      },
+      {
+        "rank": 34,
+        "code": "MT",
+        "value": "~2 starred (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "TR",
+        "value": "~1 starred"
       }
     ]
   },
@@ -130165,7 +131350,7 @@
     "title": "Largest freshwater aquaculture producers",
     "prompt": "Name the countries that produce the most farmed freshwater fish by volume.",
     "answerType": "Countries",
-    "seededDepth": 30,
+    "seededDepth": 35,
     "source": {
       "name": "FAO \u2014 The State of World Fisheries and Aquaculture (freshwater aquaculture)",
       "url": "https://www.fao.org/fishery/en/statistics",
@@ -130325,6 +131510,31 @@
         "rank": 30,
         "code": "HU",
         "value": "~28,000 tonnes"
+      },
+      {
+        "rank": 31,
+        "code": "KE",
+        "value": "~25,000 tonnes"
+      },
+      {
+        "rank": 32,
+        "code": "MW",
+        "value": "~22,000 tonnes"
+      },
+      {
+        "rank": 33,
+        "code": "DE",
+        "value": "~20,000 tonnes"
+      },
+      {
+        "rank": 34,
+        "code": "FR",
+        "value": "~18,000 tonnes"
+      },
+      {
+        "rank": 35,
+        "code": "ES",
+        "value": "~16,000 tonnes"
       }
     ]
   },
@@ -153075,7 +154285,7 @@
     "title": "Most sunshine hours per year",
     "prompt": "Name the countries with the highest national-average annual sunshine hours.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 28,
     "source": {
       "name": "World Meteorological Organization / national meteorological agencies",
       "url": "https://public.wmo.int/en",
@@ -153155,6 +154365,76 @@
         "rank": 14,
         "code": "NA",
         "value": "3,100 hours"
+      },
+      {
+        "rank": 15,
+        "code": "ML",
+        "value": "3,050 hours"
+      },
+      {
+        "rank": 16,
+        "code": "TN",
+        "value": "3,000 hours"
+      },
+      {
+        "rank": 17,
+        "code": "BW",
+        "value": "2,950 hours"
+      },
+      {
+        "rank": 18,
+        "code": "IQ",
+        "value": "2,900 hours"
+      },
+      {
+        "rank": 19,
+        "code": "MA",
+        "value": "2,880 hours"
+      },
+      {
+        "rank": 20,
+        "code": "SY",
+        "value": "2,860 hours"
+      },
+      {
+        "rank": 21,
+        "code": "BH",
+        "value": "2,850 hours"
+      },
+      {
+        "rank": 22,
+        "code": "QA",
+        "value": "2,840 hours"
+      },
+      {
+        "rank": 23,
+        "code": "KW",
+        "value": "2,820 hours"
+      },
+      {
+        "rank": 24,
+        "code": "AU",
+        "value": "2,800 hours"
+      },
+      {
+        "rank": 25,
+        "code": "ZA",
+        "value": "2,770 hours"
+      },
+      {
+        "rank": 26,
+        "code": "US",
+        "value": "2,750 hours"
+      },
+      {
+        "rank": 27,
+        "code": "AR",
+        "value": "2,730 hours"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "2,710 hours"
       }
     ]
   },
@@ -153165,7 +154445,7 @@
     "title": "Largest savanna area",
     "prompt": "Name the countries with the largest area of tropical savanna (K\u00f6ppen 'Aw'/'As' plus wooded grassland).",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 28,
     "source": {
       "name": "Wikipedia \u2014 Tropical and subtropical grasslands, savannas, and shrublands",
       "url": "https://en.wikipedia.org/wiki/Tropical_and_subtropical_grasslands,_savannas,_and_shrublands",
@@ -153245,6 +154525,76 @@
         "rank": 14,
         "code": "ET",
         "value": "420,000 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "KE",
+        "value": "400,000 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "SS",
+        "value": "380,000 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "NE",
+        "value": "350,000 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "BF",
+        "value": "270,000 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "CO",
+        "value": "260,000 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "CM",
+        "value": "230,000 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "NA",
+        "value": "220,000 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "BW",
+        "value": "210,000 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "ZW",
+        "value": "200,000 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "SN",
+        "value": "190,000 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "PY",
+        "value": "170,000 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "IN",
+        "value": "160,000 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "MG",
+        "value": "150,000 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "GY",
+        "value": "80,000 km\u00b2"
       }
     ]
   },
@@ -153915,7 +155265,7 @@
     "title": "Most biodiversity hotspots",
     "prompt": "Name the countries that contain the most Conservation International biodiversity hotspots.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 25,
     "source": {
       "name": "Conservation International \u2014 Biodiversity Hotspots",
       "url": "https://www.conservation.org/priorities/biodiversity-hotspots",
@@ -153995,6 +155345,61 @@
         "rank": 14,
         "code": "BR",
         "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "TH",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "VN",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "LA",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "KH",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "ZA",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CO",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "PE",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "2 hotspots (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "PH",
+        "value": "1 hotspot"
+      },
+      {
+        "rank": 24,
+        "code": "JP",
+        "value": "1 hotspot"
+      },
+      {
+        "rank": 25,
+        "code": "NZ",
+        "value": "1 hotspot"
       }
     ]
   },
