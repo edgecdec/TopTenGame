@@ -6045,7 +6045,7 @@
     "title": "Highest Human Development Index",
     "prompt": "Which countries rank highest on the UNDP Human Development Index?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 45,
     "source": {
       "name": "UNDP Human Development Report 2023/2024",
       "url": "https://hdr.undp.org/data-center/human-development-index",
@@ -6142,6 +6142,141 @@
         "rank": 18,
         "code": "CA",
         "value": "0.935"
+      },
+      {
+        "rank": 19,
+        "code": "KR",
+        "value": "0.929"
+      },
+      {
+        "rank": 20,
+        "code": "LU",
+        "value": "0.927"
+      },
+      {
+        "rank": 21,
+        "code": "US",
+        "value": "0.927 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "AT",
+        "value": "0.926"
+      },
+      {
+        "rank": 23,
+        "code": "SI",
+        "value": "0.926 (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "JP",
+        "value": "0.920"
+      },
+      {
+        "rank": 25,
+        "code": "IL",
+        "value": "0.915"
+      },
+      {
+        "rank": 26,
+        "code": "MT",
+        "value": "0.915 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "ES",
+        "value": "0.911"
+      },
+      {
+        "rank": 28,
+        "code": "FR",
+        "value": "0.910"
+      },
+      {
+        "rank": 29,
+        "code": "CY",
+        "value": "0.907"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "0.906"
+      },
+      {
+        "rank": 31,
+        "code": "EE",
+        "value": "0.899"
+      },
+      {
+        "rank": 32,
+        "code": "CZ",
+        "value": "0.895"
+      },
+      {
+        "rank": 33,
+        "code": "GR",
+        "value": "0.893"
+      },
+      {
+        "rank": 34,
+        "code": "BH",
+        "value": "0.888"
+      },
+      {
+        "rank": 35,
+        "code": "AD",
+        "value": "0.884"
+      },
+      {
+        "rank": 36,
+        "code": "PL",
+        "value": "0.881"
+      },
+      {
+        "rank": 37,
+        "code": "LV",
+        "value": "0.879"
+      },
+      {
+        "rank": 38,
+        "code": "LT",
+        "value": "0.879 (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "0.860"
+      },
+      {
+        "rank": 40,
+        "code": "PT",
+        "value": "0.874"
+      },
+      {
+        "rank": 41,
+        "code": "HR",
+        "value": "0.878"
+      },
+      {
+        "rank": 42,
+        "code": "QA",
+        "value": "0.875"
+      },
+      {
+        "rank": 43,
+        "code": "SA",
+        "value": "0.875 (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "SK",
+        "value": "0.855"
+      },
+      {
+        "rank": 45,
+        "code": "HU",
+        "value": "0.851"
       }
     ],
     "disclaimer": "HDI is a composite of life expectancy, education, and GNI per capita. Scored 0-1.",
@@ -6350,7 +6485,7 @@
     "title": "Highest Press Freedom (Reporters Without Borders)",
     "prompt": "According to Reporters Without Borders, which countries have the most press freedom?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 45,
     "source": {
       "name": "RSF World Press Freedom Index 2024",
       "url": "https://rsf.org/en/index",
@@ -6447,6 +6582,141 @@
         "rank": 18,
         "code": "AT",
         "value": "80.20"
+      },
+      {
+        "rank": 19,
+        "code": "IS",
+        "value": "79.63"
+      },
+      {
+        "rank": 20,
+        "code": "NZ",
+        "value": "79.53"
+      },
+      {
+        "rank": 21,
+        "code": "TT",
+        "value": "79.11"
+      },
+      {
+        "rank": 22,
+        "code": "SM",
+        "value": "78.30"
+      },
+      {
+        "rank": 23,
+        "code": "JM",
+        "value": "77.86"
+      },
+      {
+        "rank": 24,
+        "code": "AD",
+        "value": "77.35"
+      },
+      {
+        "rank": 25,
+        "code": "SR",
+        "value": "76.86"
+      },
+      {
+        "rank": 26,
+        "code": "SI",
+        "value": "76.36"
+      },
+      {
+        "rank": 27,
+        "code": "FR",
+        "value": "76.34"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "75.48"
+      },
+      {
+        "rank": 29,
+        "code": "AU",
+        "value": "75.44"
+      },
+      {
+        "rank": 30,
+        "code": "SK",
+        "value": "74.29"
+      },
+      {
+        "rank": 31,
+        "code": "ZA",
+        "value": "73.86"
+      },
+      {
+        "rank": 32,
+        "code": "ES",
+        "value": "72.87"
+      },
+      {
+        "rank": 33,
+        "code": "CV",
+        "value": "72.35"
+      },
+      {
+        "rank": 34,
+        "code": "MD",
+        "value": "71.96"
+      },
+      {
+        "rank": 35,
+        "code": "CR",
+        "value": "71.86"
+      },
+      {
+        "rank": 36,
+        "code": "BE",
+        "value": "71.20"
+      },
+      {
+        "rank": 37,
+        "code": "TW",
+        "value": "70.69"
+      },
+      {
+        "rank": 38,
+        "code": "MU",
+        "value": "70.36"
+      },
+      {
+        "rank": 39,
+        "code": "TN",
+        "value": "70.24"
+      },
+      {
+        "rank": 40,
+        "code": "US",
+        "value": "69.87"
+      },
+      {
+        "rank": 41,
+        "code": "AR",
+        "value": "69.62"
+      },
+      {
+        "rank": 42,
+        "code": "SC",
+        "value": "69.39"
+      },
+      {
+        "rank": 43,
+        "code": "NA",
+        "value": "69.35"
+      },
+      {
+        "rank": 44,
+        "code": "PL",
+        "value": "68.87"
+      },
+      {
+        "rank": 45,
+        "code": "GH",
+        "value": "68.83"
       }
     ],
     "disclaimer": "Higher score (out of 100) = more press freedom.",
@@ -6460,7 +6730,7 @@
     "title": "Smallest Gender Gap (WEF Global Gender Gap Index)",
     "prompt": "According to the World Economic Forum, which countries have closed the largest share of their gender gap?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 40,
     "source": {
       "name": "World Economic Forum Global Gender Gap Report 2024",
       "url": "https://www.weforum.org/publications/global-gender-gap-report-2024/",
@@ -6557,6 +6827,116 @@
         "rank": 18,
         "code": "BB",
         "value": "0.781"
+      },
+      {
+        "rank": 19,
+        "code": "PT",
+        "value": "0.780"
+      },
+      {
+        "rank": 20,
+        "code": "PH",
+        "value": "0.779"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "0.777"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "0.775"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "0.778"
+      },
+      {
+        "rank": 24,
+        "code": "DK",
+        "value": "0.775 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "FR",
+        "value": "0.781 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "JM",
+        "value": "0.766"
+      },
+      {
+        "rank": 27,
+        "code": "CV",
+        "value": "0.766 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "0.768"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "0.767"
+      },
+      {
+        "rank": 30,
+        "code": "BO",
+        "value": "0.766 (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "CA",
+        "value": "0.771"
+      },
+      {
+        "rank": 32,
+        "code": "US",
+        "value": "0.747"
+      },
+      {
+        "rank": 33,
+        "code": "LV",
+        "value": "0.775 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "0.769"
+      },
+      {
+        "rank": 35,
+        "code": "LU",
+        "value": "0.767 (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "AR",
+        "value": "0.746"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "0.762"
+      },
+      {
+        "rank": 38,
+        "code": "RS",
+        "value": "0.755"
+      },
+      {
+        "rank": 39,
+        "code": "ZA",
+        "value": "0.775 (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "TL",
+        "value": "0.740"
       }
     ],
     "disclaimer": "Score is the share of the gender gap closed (0 = imparity, 1 = parity) across economic, education, health, and political dimensions.",
@@ -6740,7 +7120,7 @@
     "title": "Most Refugees Hosted",
     "prompt": "Which countries host the largest refugee populations?",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "UNHCR Global Trends: Forced Displacement in 2023",
       "url": "https://www.unhcr.org/global-trends-report-2023",
@@ -6815,38 +7195,163 @@
       },
       {
         "rank": 14,
-        "code": "FR",
-        "value": "610,000"
-      },
-      {
-        "rank": 15,
-        "code": "US",
-        "value": "605,000"
-      },
-      {
-        "rank": 16,
-        "code": "EG",
-        "value": "541,000"
-      },
-      {
-        "rank": 17,
-        "code": "CD",
-        "value": "524,000"
-      },
-      {
-        "rank": 18,
-        "code": "CM",
-        "value": "473,000"
-      },
-      {
-        "rank": 19,
         "code": "JO",
         "value": "699,000"
       },
       {
-        "rank": 20,
+        "rank": 15,
         "code": "KE",
         "value": "637,000"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "610,000"
+      },
+      {
+        "rank": 17,
+        "code": "US",
+        "value": "605,000"
+      },
+      {
+        "rank": 18,
+        "code": "EG",
+        "value": "541,000"
+      },
+      {
+        "rank": 19,
+        "code": "CD",
+        "value": "524,000"
+      },
+      {
+        "rank": 20,
+        "code": "CM",
+        "value": "473,000"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "434,000"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "422,000"
+      },
+      {
+        "rank": 23,
+        "code": "SS",
+        "value": "418,000"
+      },
+      {
+        "rank": 24,
+        "code": "IT",
+        "value": "376,000"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "365,000"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "334,000"
+      },
+      {
+        "rank": 27,
+        "code": "PE",
+        "value": "331,000"
+      },
+      {
+        "rank": 28,
+        "code": "SE",
+        "value": "273,000"
+      },
+      {
+        "rank": 29,
+        "code": "GB",
+        "value": "271,000"
+      },
+      {
+        "rank": 30,
+        "code": "MW",
+        "value": "255,000"
+      },
+      {
+        "rank": 31,
+        "code": "RW",
+        "value": "245,000"
+      },
+      {
+        "rank": 32,
+        "code": "CH",
+        "value": "234,000"
+      },
+      {
+        "rank": 33,
+        "code": "BE",
+        "value": "230,000"
+      },
+      {
+        "rank": 34,
+        "code": "IQ",
+        "value": "222,000"
+      },
+      {
+        "rank": 35,
+        "code": "BR",
+        "value": "215,000"
+      },
+      {
+        "rank": 36,
+        "code": "CZ",
+        "value": "213,000"
+      },
+      {
+        "rank": 37,
+        "code": "AR",
+        "value": "205,000"
+      },
+      {
+        "rank": 38,
+        "code": "CA",
+        "value": "199,000"
+      },
+      {
+        "rank": 39,
+        "code": "AO",
+        "value": "199,000 (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "ZM",
+        "value": "197,000"
+      },
+      {
+        "rank": 41,
+        "code": "ML",
+        "value": "184,000"
+      },
+      {
+        "rank": 42,
+        "code": "DK",
+        "value": "178,000"
+      },
+      {
+        "rank": 43,
+        "code": "IN",
+        "value": "173,000"
+      },
+      {
+        "rank": 44,
+        "code": "NE",
+        "value": "168,000"
+      },
+      {
+        "rank": 45,
+        "code": "MY",
+        "value": "160,000"
       }
     ],
     "disclaimer": "Includes refugees under UNHCR's mandate plus Palestine refugees under UNRWA's mandate where applicable. Absolute counts, not per capita.",
@@ -12190,7 +12695,7 @@
     "title": "Highest PISA Math Scores",
     "prompt": "Which countries scored highest in mathematics on the 2022 OECD PISA assessment?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 35,
     "source": {
       "name": "OECD PISA 2022 Results",
       "url": "https://www.oecd.org/pisa/publications/pisa-2022-results.htm",
@@ -12261,17 +12766,17 @@
       {
         "rank": 12,
         "code": "DK",
-        "value": "489 points"
+        "value": "489 points (tied)"
       },
       {
         "rank": 12,
         "code": "GB",
-        "value": "489 points"
+        "value": "489 points (tied)"
       },
       {
         "rank": 12,
         "code": "PL",
-        "value": "489 points"
+        "value": "489 points (tied)"
       },
       {
         "rank": 16,
@@ -12281,12 +12786,97 @@
       {
         "rank": 16,
         "code": "AT",
-        "value": "487 points"
+        "value": "487 points (tied)"
       },
       {
         "rank": 16,
         "code": "CZ",
-        "value": "487 points"
+        "value": "487 points (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "SI",
+        "value": "485 points"
+      },
+      {
+        "rank": 20,
+        "code": "FI",
+        "value": "484 points"
+      },
+      {
+        "rank": 21,
+        "code": "LV",
+        "value": "483 points"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "482 points"
+      },
+      {
+        "rank": 23,
+        "code": "NZ",
+        "value": "479 points"
+      },
+      {
+        "rank": 24,
+        "code": "LT",
+        "value": "475 points"
+      },
+      {
+        "rank": 25,
+        "code": "DE",
+        "value": "475 points (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "FR",
+        "value": "474 points"
+      },
+      {
+        "rank": 27,
+        "code": "ES",
+        "value": "473 points"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "473 points (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "472 points"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "471 points"
+      },
+      {
+        "rank": 31,
+        "code": "VN",
+        "value": "469 points"
+      },
+      {
+        "rank": 32,
+        "code": "NO",
+        "value": "468 points"
+      },
+      {
+        "rank": 33,
+        "code": "MT",
+        "value": "466 points"
+      },
+      {
+        "rank": 34,
+        "code": "US",
+        "value": "465 points"
+      },
+      {
+        "rank": 35,
+        "code": "SK",
+        "value": "464 points"
       }
     ],
     "disclaimer": "PISA tests 15-year-olds every three years. Some jurisdictions listed in the OECD PISA dataset are economies rather than sovereign states.",
@@ -12300,7 +12890,7 @@
     "title": "Highest PISA Reading Scores",
     "prompt": "Which countries scored highest in reading on the 2022 OECD PISA assessment?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 35,
     "source": {
       "name": "OECD PISA 2022 Results",
       "url": "https://www.oecd.org/pisa/publications/pisa-2022-results.htm",
@@ -12321,7 +12911,7 @@
       {
         "rank": 2,
         "code": "JP",
-        "value": "516 points"
+        "value": "516 points (tied)"
       },
       {
         "rank": 4,
@@ -12331,7 +12921,7 @@
       {
         "rank": 4,
         "code": "TW",
-        "value": "515 points"
+        "value": "515 points (tied)"
       },
       {
         "rank": 6,
@@ -12386,17 +12976,102 @@
       {
         "rank": 15,
         "code": "PL",
-        "value": "489 points"
+        "value": "489 points (tied)"
       },
       {
         "rank": 15,
         "code": "CZ",
-        "value": "489 points"
+        "value": "489 points (tied)"
       },
       {
         "rank": 18,
         "code": "SE",
         "value": "487 points"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "483 points"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "482 points"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "480 points"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "480 points (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "479 points"
+      },
+      {
+        "rank": 24,
+        "code": "PT",
+        "value": "477 points"
+      },
+      {
+        "rank": 25,
+        "code": "NO",
+        "value": "477 points (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "HR",
+        "value": "475 points"
+      },
+      {
+        "rank": 27,
+        "code": "LV",
+        "value": "475 points (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "474 points"
+      },
+      {
+        "rank": 29,
+        "code": "FR",
+        "value": "474 points (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "IL",
+        "value": "474 points (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "HU",
+        "value": "473 points"
+      },
+      {
+        "rank": 32,
+        "code": "LT",
+        "value": "472 points"
+      },
+      {
+        "rank": 33,
+        "code": "SI",
+        "value": "469 points"
+      },
+      {
+        "rank": 34,
+        "code": "VN",
+        "value": "462 points"
+      },
+      {
+        "rank": 35,
+        "code": "NL",
+        "value": "459 points"
       }
     ],
     "disclaimer": "Reading scores dropped globally in 2022 compared to 2018, largely attributed to pandemic disruptions.",
@@ -12410,7 +13085,7 @@
     "title": "Highest PISA Science Scores",
     "prompt": "Which countries scored highest in science on the 2022 OECD PISA assessment?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 35,
     "source": {
       "name": "OECD PISA 2022 Results",
       "url": "https://www.oecd.org/pisa/publications/pisa-2022-results.htm",
@@ -12476,7 +13151,7 @@
       {
         "rank": 11,
         "code": "IE",
-        "value": "504 points"
+        "value": "504 points (tied)"
       },
       {
         "rank": 13,
@@ -12491,7 +13166,7 @@
       {
         "rank": 14,
         "code": "GB",
-        "value": "500 points"
+        "value": "500 points (tied)"
       },
       {
         "rank": 16,
@@ -12501,12 +13176,97 @@
       {
         "rank": 16,
         "code": "PL",
-        "value": "499 points"
+        "value": "499 points (tied)"
       },
       {
         "rank": 18,
         "code": "CZ",
         "value": "498 points"
+      },
+      {
+        "rank": 19,
+        "code": "LV",
+        "value": "494 points"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "494 points (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "494 points (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "492 points"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "491 points"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "491 points (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "488 points"
+      },
+      {
+        "rank": 26,
+        "code": "HU",
+        "value": "486 points"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "484 points"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "485 points"
+      },
+      {
+        "rank": 29,
+        "code": "LT",
+        "value": "484 points (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "FR",
+        "value": "484 points (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "HR",
+        "value": "483 points"
+      },
+      {
+        "rank": 32,
+        "code": "NO",
+        "value": "478 points"
+      },
+      {
+        "rank": 33,
+        "code": "IT",
+        "value": "477 points"
+      },
+      {
+        "rank": 34,
+        "code": "TR",
+        "value": "476 points"
+      },
+      {
+        "rank": 35,
+        "code": "VN",
+        "value": "472 points"
       }
     ],
     "disclaimer": null,
@@ -12520,7 +13280,7 @@
     "title": "Most Universities in QS World Top 100",
     "prompt": "Which countries have the most universities ranked in the QS World University Top 100?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 30,
     "source": {
       "name": "QS World University Rankings 2025",
       "url": "https://www.topuniversities.com/world-university-rankings",
@@ -12556,7 +13316,7 @@
       {
         "rank": 5,
         "code": "KR",
-        "value": "5 universities"
+        "value": "5 universities (tied)"
       },
       {
         "rank": 7,
@@ -12566,12 +13326,12 @@
       {
         "rank": 7,
         "code": "JP",
-        "value": "4 universities"
+        "value": "4 universities (tied)"
       },
       {
         "rank": 7,
         "code": "FR",
-        "value": "4 universities"
+        "value": "4 universities (tied)"
       },
       {
         "rank": 10,
@@ -12581,7 +13341,7 @@
       {
         "rank": 10,
         "code": "CH",
-        "value": "3 universities"
+        "value": "3 universities (tied)"
       },
       {
         "rank": 12,
@@ -12591,7 +13351,7 @@
       {
         "rank": 12,
         "code": "NL",
-        "value": "2 universities"
+        "value": "2 universities (tied)"
       },
       {
         "rank": 14,
@@ -12601,22 +13361,82 @@
       {
         "rank": 14,
         "code": "AR",
-        "value": "1 university"
+        "value": "1 university (tied)"
       },
       {
         "rank": 14,
         "code": "TW",
-        "value": "1 university"
+        "value": "1 university (tied)"
       },
       {
         "rank": 14,
         "code": "NZ",
-        "value": "1 university"
+        "value": "1 university (tied)"
       },
       {
         "rank": 14,
         "code": "SE",
-        "value": "1 university"
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "BE",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "DK",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "IE",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "SA",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "MX",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "BR",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "FI",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "IN",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "1 university (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "RU",
+        "value": "1 university (tied)"
       }
     ],
     "disclaimer": "Counts universities from each country appearing in the QS World University Rankings top 100.",
@@ -12630,7 +13450,7 @@
     "title": "Highest Education Spending as % of GDP",
     "prompt": "Which countries spend the most on education as a share of GDP?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 35,
     "source": {
       "name": "World Bank / UNESCO Institute for Statistics",
       "url": "https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS",
@@ -12681,7 +13501,7 @@
       {
         "rank": 8,
         "code": "IS",
-        "value": "7.7% of GDP"
+        "value": "7.7% of GDP (tied)"
       },
       {
         "rank": 10,
@@ -12716,17 +13536,102 @@
       {
         "rank": 15,
         "code": "DK",
-        "value": "6.4% of GDP"
+        "value": "6.4% of GDP (tied)"
       },
       {
         "rank": 15,
         "code": "BE",
-        "value": "6.4% of GDP"
+        "value": "6.4% of GDP (tied)"
       },
       {
         "rank": 18,
         "code": "NZ",
         "value": "6.3% of GDP"
+      },
+      {
+        "rank": 19,
+        "code": "GB",
+        "value": "6.2% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "MZ",
+        "value": "6.2% of GDP (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "ZA",
+        "value": "6.2% of GDP (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "6.1% of GDP"
+      },
+      {
+        "rank": 23,
+        "code": "KE",
+        "value": "5.9% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "MA",
+        "value": "5.9% of GDP (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "FR",
+        "value": "5.5% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "5.5% of GDP (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "US",
+        "value": "5.4% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "KR",
+        "value": "5.3% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "5.2% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "CA",
+        "value": "5.2% of GDP (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "AU",
+        "value": "5.1% of GDP"
+      },
+      {
+        "rank": 32,
+        "code": "PT",
+        "value": "5.0% of GDP"
+      },
+      {
+        "rank": 33,
+        "code": "PL",
+        "value": "4.9% of GDP"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "4.7% of GDP"
+      },
+      {
+        "rank": 35,
+        "code": "ES",
+        "value": "4.6% of GDP"
       }
     ],
     "disclaimer": "Includes public expenditure on all levels of education. Small Pacific and African states often lead on this indicator relative to GDP.",
@@ -12740,7 +13645,7 @@
     "title": "Most International Students Hosted",
     "prompt": "Which countries host the most international tertiary students?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 30,
     "source": {
       "name": "UNESCO Institute for Statistics / OECD Education at a Glance",
       "url": "https://uis.unesco.org/en/uis-student-flow",
@@ -12837,6 +13742,66 @@
         "rank": 18,
         "code": "AT",
         "value": "89,000 students"
+      },
+      {
+        "rank": 19,
+        "code": "BE",
+        "value": "88,764 students"
+      },
+      {
+        "rank": 20,
+        "code": "SA",
+        "value": "83,278 students"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "80,364 students"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "58,548 students"
+      },
+      {
+        "rank": 23,
+        "code": "CH",
+        "value": "58,120 students"
+      },
+      {
+        "rank": 24,
+        "code": "IE",
+        "value": "52,591 students"
+      },
+      {
+        "rank": 25,
+        "code": "SE",
+        "value": "45,000 students"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "44,000 students"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "40,196 students"
+      },
+      {
+        "rank": 28,
+        "code": "DK",
+        "value": "37,000 students"
+      },
+      {
+        "rank": 29,
+        "code": "FI",
+        "value": "24,000 students"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "22,000 students"
       }
     ],
     "disclaimer": "Counts inbound international/foreign students enrolled in tertiary education.",
@@ -12850,7 +13815,7 @@
     "title": "Most Nobel Laureates Per Capita",
     "prompt": "Which countries have the most Nobel laureates per capita?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 30,
     "source": {
       "name": "Nobel Foundation / World Bank population data",
       "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/",
@@ -12896,7 +13861,7 @@
       {
         "rank": 7,
         "code": "NO",
-        "value": "2.4 per million"
+        "value": "2.4 per million (tied)"
       },
       {
         "rank": 9,
@@ -12921,12 +13886,12 @@
       {
         "rank": 12,
         "code": "DE",
-        "value": "1.3 per million"
+        "value": "1.3 per million (tied)"
       },
       {
         "rank": 12,
         "code": "HU",
-        "value": "1.3 per million"
+        "value": "1.3 per million (tied)"
       },
       {
         "rank": 15,
@@ -12946,7 +13911,67 @@
       {
         "rank": 17,
         "code": "FR",
-        "value": "1.0 per million"
+        "value": "1.0 per million (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "0.8 per million"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "0.6 per million"
+      },
+      {
+        "rank": 21,
+        "code": "CA",
+        "value": "0.6 per million (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "0.6 per million (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "IT",
+        "value": "0.4 per million"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "0.3 per million"
+      },
+      {
+        "rank": 25,
+        "code": "GR",
+        "value": "0.3 per million (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "0.2 per million"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "0.2 per million (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "AR",
+        "value": "0.1 per million"
+      },
+      {
+        "rank": 29,
+        "code": "JP",
+        "value": "0.2 per million (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "RU",
+        "value": "0.2 per million (tied)"
       }
     ],
     "disclaimer": "Attributed by country of birth.",
@@ -15665,7 +16690,7 @@
     "title": "Countries hosting the most foreign embassies",
     "prompt": "Which capital cities host the largest number of foreign embassies (bilateral diplomatic missions received)?",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Lowy Institute Global Diplomacy Index / Wikipedia \u2014 Diplomatic missions of and by country",
       "url": "https://globaldiplomacyindex.lowyinstitute.org/",
@@ -15772,6 +16797,131 @@
         "rank": 20,
         "code": "NL",
         "value": "102 embassies (The Hague)"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "100 embassies (Buenos Aires)"
+      },
+      {
+        "rank": 22,
+        "code": "AE",
+        "value": "99 embassies (Abu Dhabi)"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "97 embassies (Prague)"
+      },
+      {
+        "rank": 24,
+        "code": "SE",
+        "value": "96 embassies (Stockholm)"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "94 embassies (Lisbon)"
+      },
+      {
+        "rank": 26,
+        "code": "HU",
+        "value": "92 embassies (Budapest)"
+      },
+      {
+        "rank": 27,
+        "code": "GR",
+        "value": "91 embassies (Athens)"
+      },
+      {
+        "rank": 28,
+        "code": "DK",
+        "value": "90 embassies (Copenhagen)"
+      },
+      {
+        "rank": 29,
+        "code": "MX",
+        "value": "89 embassies (Mexico City)"
+      },
+      {
+        "rank": 30,
+        "code": "RO",
+        "value": "88 embassies (Bucharest)"
+      },
+      {
+        "rank": 31,
+        "code": "IE",
+        "value": "86 embassies (Dublin)"
+      },
+      {
+        "rank": 32,
+        "code": "NO",
+        "value": "85 embassies (Oslo)"
+      },
+      {
+        "rank": 33,
+        "code": "FI",
+        "value": "84 embassies (Helsinki)"
+      },
+      {
+        "rank": 34,
+        "code": "ID",
+        "value": "83 embassies (Jakarta)"
+      },
+      {
+        "rank": 35,
+        "code": "TH",
+        "value": "82 embassies (Bangkok)"
+      },
+      {
+        "rank": 36,
+        "code": "IL",
+        "value": "81 embassies (Tel Aviv)"
+      },
+      {
+        "rank": 37,
+        "code": "ZA",
+        "value": "80 embassies (Pretoria)"
+      },
+      {
+        "rank": 38,
+        "code": "MY",
+        "value": "79 embassies (Kuala Lumpur)"
+      },
+      {
+        "rank": 39,
+        "code": "PH",
+        "value": "78 embassies (Manila)"
+      },
+      {
+        "rank": 40,
+        "code": "SG",
+        "value": "77 embassies (Singapore)"
+      },
+      {
+        "rank": 41,
+        "code": "CL",
+        "value": "76 embassies (Santiago)"
+      },
+      {
+        "rank": 42,
+        "code": "UA",
+        "value": "74 embassies (Kyiv)"
+      },
+      {
+        "rank": 43,
+        "code": "PK",
+        "value": "73 embassies (Islamabad)"
+      },
+      {
+        "rank": 44,
+        "code": "CO",
+        "value": "72 embassies (Bogot\u00e1)"
+      },
+      {
+        "rank": 45,
+        "code": "MA",
+        "value": "71 embassies (Rabat)"
       }
     ],
     "disclaimer": "Counts the number of resident bilateral diplomatic posts (embassies/high commissions) accredited in the capital. Consulates and multilateral missions are excluded from this ranking.",
@@ -23050,7 +24200,7 @@
     "title": "Highest Veteran Population Share",
     "prompt": "Which US states have the highest share of veterans in the adult population?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table S2101)",
       "url": "https://data.census.gov/table?q=S2101",
@@ -23101,7 +24251,7 @@
       {
         "rank": 8,
         "code": "NM",
-        "value": "8.4%"
+        "value": "8.4% (tied)"
       },
       {
         "rank": 10,
@@ -23131,7 +24281,187 @@
       {
         "rank": 14,
         "code": "AR",
-        "value": "7.9%"
+        "value": "7.9% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "7.8%"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "7.7%"
+      },
+      {
+        "rank": 18,
+        "code": "VT",
+        "value": "7.6%"
+      },
+      {
+        "rank": 19,
+        "code": "NC",
+        "value": "7.5%"
+      },
+      {
+        "rank": 20,
+        "code": "GA",
+        "value": "7.4%"
+      },
+      {
+        "rank": 21,
+        "code": "MO",
+        "value": "7.3%"
+      },
+      {
+        "rank": 22,
+        "code": "KY",
+        "value": "7.2%"
+      },
+      {
+        "rank": 23,
+        "code": "TN",
+        "value": "7.1%"
+      },
+      {
+        "rank": 24,
+        "code": "AZ",
+        "value": "7.0%"
+      },
+      {
+        "rank": 25,
+        "code": "OR",
+        "value": "6.9%"
+      },
+      {
+        "rank": 26,
+        "code": "WA",
+        "value": "6.8%"
+      },
+      {
+        "rank": 27,
+        "code": "SD",
+        "value": "6.7%"
+      },
+      {
+        "rank": 28,
+        "code": "MS",
+        "value": "6.6%"
+      },
+      {
+        "rank": 29,
+        "code": "KS",
+        "value": "6.5%"
+      },
+      {
+        "rank": 30,
+        "code": "LA",
+        "value": "6.4%"
+      },
+      {
+        "rank": 31,
+        "code": "IN",
+        "value": "6.3%"
+      },
+      {
+        "rank": 32,
+        "code": "OH",
+        "value": "6.2%"
+      },
+      {
+        "rank": 33,
+        "code": "CO",
+        "value": "6.1%"
+      },
+      {
+        "rank": 34,
+        "code": "PA",
+        "value": "6.0%"
+      },
+      {
+        "rank": 35,
+        "code": "IA",
+        "value": "5.9%"
+      },
+      {
+        "rank": 36,
+        "code": "ND",
+        "value": "5.8%"
+      },
+      {
+        "rank": 37,
+        "code": "MI",
+        "value": "5.7%"
+      },
+      {
+        "rank": 38,
+        "code": "NE",
+        "value": "5.6%"
+      },
+      {
+        "rank": 39,
+        "code": "TX",
+        "value": "5.5%"
+      },
+      {
+        "rank": 40,
+        "code": "RI",
+        "value": "5.4%"
+      },
+      {
+        "rank": 41,
+        "code": "WI",
+        "value": "5.3%"
+      },
+      {
+        "rank": 42,
+        "code": "MD",
+        "value": "5.2%"
+      },
+      {
+        "rank": 43,
+        "code": "CT",
+        "value": "5.1%"
+      },
+      {
+        "rank": 44,
+        "code": "MN",
+        "value": "5.0%"
+      },
+      {
+        "rank": 45,
+        "code": "IL",
+        "value": "4.7%"
+      },
+      {
+        "rank": 46,
+        "code": "MA",
+        "value": "4.5%"
+      },
+      {
+        "rank": 47,
+        "code": "UT",
+        "value": "4.4%"
+      },
+      {
+        "rank": 48,
+        "code": "CA",
+        "value": "4.3%"
+      },
+      {
+        "rank": 49,
+        "code": "NJ",
+        "value": "4.2%"
+      },
+      {
+        "rank": 50,
+        "code": "NY",
+        "value": "4.0%"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "3.9%"
       }
     ],
     "disclaimer": "Civilian veterans as a share of the civilian population age 18 and over.",
@@ -23145,7 +24475,7 @@
     "title": "Highest Teen Birth Rate",
     "prompt": "Which US states have the highest teen birth rate (ages 15-19)?",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 51,
     "source": {
       "name": "CDC National Center for Health Statistics, National Vital Statistics Reports",
       "url": "https://www.cdc.gov/nchs/data/nvsr/nvsr73/nvsr73-02.pdf",
@@ -23227,6 +24557,186 @@
         "rank": 15,
         "code": "NC",
         "value": "15.5 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "OH",
+        "value": "14.9 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "AZ",
+        "value": "14.7 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "NV",
+        "value": "14.4 per 1,000"
+      },
+      {
+        "rank": 19,
+        "code": "FL",
+        "value": "14.1 per 1,000"
+      },
+      {
+        "rank": 20,
+        "code": "AK",
+        "value": "13.9 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "WY",
+        "value": "13.7 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "KS",
+        "value": "13.5 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "SD",
+        "value": "13.3 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "MI",
+        "value": "12.8 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "DE",
+        "value": "12.5 per 1,000"
+      },
+      {
+        "rank": 26,
+        "code": "IL",
+        "value": "12.1 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "NE",
+        "value": "11.9 per 1,000"
+      },
+      {
+        "rank": 28,
+        "code": "ID",
+        "value": "11.7 per 1,000"
+      },
+      {
+        "rank": 29,
+        "code": "MT",
+        "value": "11.5 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "PA",
+        "value": "11.2 per 1,000"
+      },
+      {
+        "rank": 31,
+        "code": "IA",
+        "value": "10.8 per 1,000"
+      },
+      {
+        "rank": 32,
+        "code": "VA",
+        "value": "10.6 per 1,000"
+      },
+      {
+        "rank": 33,
+        "code": "WI",
+        "value": "10.4 per 1,000"
+      },
+      {
+        "rank": 34,
+        "code": "MD",
+        "value": "10.2 per 1,000"
+      },
+      {
+        "rank": 35,
+        "code": "ND",
+        "value": "10.0 per 1,000"
+      },
+      {
+        "rank": 36,
+        "code": "UT",
+        "value": "9.6 per 1,000"
+      },
+      {
+        "rank": 37,
+        "code": "CO",
+        "value": "9.3 per 1,000"
+      },
+      {
+        "rank": 38,
+        "code": "MN",
+        "value": "9.1 per 1,000"
+      },
+      {
+        "rank": 39,
+        "code": "HI",
+        "value": "8.7 per 1,000"
+      },
+      {
+        "rank": 40,
+        "code": "OR",
+        "value": "8.5 per 1,000"
+      },
+      {
+        "rank": 41,
+        "code": "WA",
+        "value": "8.2 per 1,000"
+      },
+      {
+        "rank": 42,
+        "code": "NY",
+        "value": "7.5 per 1,000"
+      },
+      {
+        "rank": 43,
+        "code": "DC",
+        "value": "7.4 per 1,000"
+      },
+      {
+        "rank": 44,
+        "code": "RI",
+        "value": "7.2 per 1,000"
+      },
+      {
+        "rank": 45,
+        "code": "ME",
+        "value": "7.0 per 1,000"
+      },
+      {
+        "rank": 46,
+        "code": "CA",
+        "value": "6.9 per 1,000"
+      },
+      {
+        "rank": 47,
+        "code": "NJ",
+        "value": "6.5 per 1,000"
+      },
+      {
+        "rank": 48,
+        "code": "CT",
+        "value": "6.1 per 1,000"
+      },
+      {
+        "rank": 49,
+        "code": "VT",
+        "value": "5.9 per 1,000"
+      },
+      {
+        "rank": 50,
+        "code": "NH",
+        "value": "5.7 per 1,000"
+      },
+      {
+        "rank": 51,
+        "code": "MA",
+        "value": "5.4 per 1,000"
       }
     ],
     "disclaimer": "Births per 1,000 females ages 15-19; DC included.",
@@ -25080,7 +26590,7 @@
     "title": "Coal Production",
     "prompt": "Rank US states by coal production (2022).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 21,
     "source": {
       "name": "U.S. Energy Information Administration (EIA)",
       "url": "https://www.eia.gov/coal/annual/",
@@ -25091,77 +26601,107 @@
       {
         "rank": 1,
         "code": "WY",
-        "value": "244,538 kt"
+        "value": "244,730 kt"
       },
       {
         "rank": 2,
         "code": "WV",
-        "value": "83,657 kt"
+        "value": "83,448 kt"
       },
       {
         "rank": 3,
         "code": "PA",
-        "value": "42,124 kt"
+        "value": "39,701 kt"
       },
       {
         "rank": 4,
         "code": "IL",
-        "value": "40,932 kt"
+        "value": "37,488 kt"
       },
       {
         "rank": 5,
         "code": "KY",
-        "value": "28,384 kt"
+        "value": "28,527 kt"
       },
       {
         "rank": 6,
         "code": "MT",
-        "value": "27,973 kt"
+        "value": "28,233 kt"
       },
       {
         "rank": 7,
         "code": "ND",
-        "value": "26,124 kt"
+        "value": "26,731 kt"
       },
       {
         "rank": 8,
-        "code": "TX",
-        "value": "23,895 kt"
+        "code": "IN",
+        "value": "23,573 kt"
       },
       {
         "rank": 9,
-        "code": "IN",
-        "value": "17,873 kt"
+        "code": "TX",
+        "value": "17,084 kt"
       },
       {
         "rank": 10,
-        "code": "UT",
-        "value": "12,437 kt"
+        "code": "CO",
+        "value": "12,793 kt"
       },
       {
         "rank": 11,
-        "code": "CO",
-        "value": "12,036 kt"
+        "code": "VA",
+        "value": "10,855 kt"
       },
       {
         "rank": 12,
-        "code": "AL",
-        "value": "10,795 kt"
+        "code": "UT",
+        "value": "10,723 kt"
       },
       {
         "rank": 13,
         "code": "NM",
-        "value": "8,610 kt"
+        "value": "10,550 kt"
       },
       {
         "rank": 14,
-        "code": "OH",
-        "value": "5,796 kt"
+        "code": "AL",
+        "value": "10,408 kt"
       },
       {
         "rank": 15,
-        "code": "VA",
-        "value": "4,876 kt"
+        "code": "MS",
+        "value": "3,369 kt"
+      },
+      {
+        "rank": 16,
+        "code": "OH",
+        "value": "2,492 kt"
+      },
+      {
+        "rank": 17,
+        "code": "MD",
+        "value": "1,509 kt"
+      },
+      {
+        "rank": 18,
+        "code": "AK",
+        "value": "1,014 kt"
+      },
+      {
+        "rank": 19,
+        "code": "LA",
+        "value": "307 kt"
+      },
+      {
+        "rank": 20,
+        "code": "MO",
+        "value": "74 kt"
+      },
+      {
+        "rank": 21,
+        "code": "OK",
+        "value": "2 kt"
       }
     ],
     "disclaimer": "Total coal production in thousands of short tons, 2022.",
@@ -25175,7 +26715,7 @@
     "title": "Number of Farms",
     "prompt": "Rank US states by total number of farms (2022 Census of Agriculture).",
     "answerType": "US States",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "USDA National Agricultural Statistics Service (NASS)",
       "url": "https://www.nass.usda.gov/Publications/AgCensus/2022/",
@@ -25200,23 +26740,23 @@
       },
       {
         "rank": 4,
+        "code": "OH",
+        "value": "76,009"
+      },
+      {
+        "rank": 5,
         "code": "IL",
         "value": "71,123"
       },
       {
-        "rank": 5,
-        "code": "OK",
-        "value": "69,527"
-      },
-      {
         "rank": 6,
-        "code": "KY",
-        "value": "69,425"
+        "code": "OK",
+        "value": "70,378"
       },
       {
         "rank": 7,
-        "code": "OH",
-        "value": "67,281"
+        "code": "KY",
+        "value": "69,425"
       },
       {
         "rank": 8,
@@ -25250,13 +26790,188 @@
       },
       {
         "rank": 14,
-        "code": "MI",
-        "value": "45,867"
+        "code": "PA",
+        "value": "49,053"
       },
       {
         "rank": 15,
+        "code": "MI",
+        "value": "45,581"
+      },
+      {
+        "rank": 16,
+        "code": "FL",
+        "value": "44,703"
+      },
+      {
+        "rank": 17,
+        "code": "NE",
+        "value": "44,479"
+      },
+      {
+        "rank": 18,
         "code": "NC",
-        "value": "42,741"
+        "value": "42,817"
+      },
+      {
+        "rank": 19,
+        "code": "GA",
+        "value": "39,264"
+      },
+      {
+        "rank": 20,
+        "code": "VA",
+        "value": "38,995"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "37,756"
+      },
+      {
+        "rank": 22,
+        "code": "AL",
+        "value": "37,362"
+      },
+      {
+        "rank": 23,
+        "code": "CO",
+        "value": "36,056"
+      },
+      {
+        "rank": 24,
+        "code": "OR",
+        "value": "35,547"
+      },
+      {
+        "rank": 25,
+        "code": "WA",
+        "value": "32,076"
+      },
+      {
+        "rank": 26,
+        "code": "MS",
+        "value": "31,290"
+      },
+      {
+        "rank": 27,
+        "code": "NY",
+        "value": "30,650"
+      },
+      {
+        "rank": 28,
+        "code": "SD",
+        "value": "28,299"
+      },
+      {
+        "rank": 29,
+        "code": "ND",
+        "value": "25,068"
+      },
+      {
+        "rank": 30,
+        "code": "LA",
+        "value": "25,006"
+      },
+      {
+        "rank": 31,
+        "code": "MT",
+        "value": "24,266"
+      },
+      {
+        "rank": 32,
+        "code": "ID",
+        "value": "22,877"
+      },
+      {
+        "rank": 33,
+        "code": "WV",
+        "value": "22,787"
+      },
+      {
+        "rank": 34,
+        "code": "SC",
+        "value": "22,633"
+      },
+      {
+        "rank": 35,
+        "code": "NM",
+        "value": "20,976"
+      },
+      {
+        "rank": 36,
+        "code": "UT",
+        "value": "17,386"
+      },
+      {
+        "rank": 37,
+        "code": "AZ",
+        "value": "16,710"
+      },
+      {
+        "rank": 38,
+        "code": "MD",
+        "value": "12,550"
+      },
+      {
+        "rank": 39,
+        "code": "WY",
+        "value": "10,544"
+      },
+      {
+        "rank": 40,
+        "code": "NJ",
+        "value": "9,998"
+      },
+      {
+        "rank": 41,
+        "code": "MA",
+        "value": "7,083"
+      },
+      {
+        "rank": 42,
+        "code": "ME",
+        "value": "7,036"
+      },
+      {
+        "rank": 43,
+        "code": "HI",
+        "value": "6,569"
+      },
+      {
+        "rank": 44,
+        "code": "VT",
+        "value": "6,537"
+      },
+      {
+        "rank": 45,
+        "code": "CT",
+        "value": "5,058"
+      },
+      {
+        "rank": 46,
+        "code": "NH",
+        "value": "3,949"
+      },
+      {
+        "rank": 47,
+        "code": "NV",
+        "value": "3,122"
+      },
+      {
+        "rank": 48,
+        "code": "DE",
+        "value": "2,158"
+      },
+      {
+        "rank": 49,
+        "code": "AK",
+        "value": "1,173"
+      },
+      {
+        "rank": 50,
+        "code": "RI",
+        "value": "1,054"
       }
     ],
     "disclaimer": "Total farms per the 2022 Census of Agriculture.",
@@ -51780,7 +53495,7 @@
     "title": "Highest Elderly Share",
     "prompt": "Name the countries with the highest share of population aged 65 and over.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 32,
     "source": {
       "name": "World Bank \u2014 Population ages 65 and above (% of total)",
       "url": "https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS",
@@ -51794,102 +53509,162 @@
       {
         "rank": 1,
         "code": "MC",
-        "value": "36.0%"
+        "value": "36.36%"
       },
       {
         "rank": 2,
         "code": "JP",
-        "value": "29.9%"
+        "value": "29.56%"
       },
       {
         "rank": 3,
         "code": "IT",
-        "value": "24.4%"
+        "value": "24.22%"
       },
       {
         "rank": 4,
-        "code": "FI",
-        "value": "23.6%"
+        "code": "PT",
+        "value": "24.11%"
       },
       {
         "rank": 5,
-        "code": "PT",
-        "value": "23.4%"
+        "code": "FI",
+        "value": "23.58%"
       },
       {
         "rank": 6,
         "code": "GR",
-        "value": "23.3%"
+        "value": "23.48%"
       },
       {
         "rank": 7,
-        "code": "DE",
-        "value": "22.7%"
+        "code": "HR",
+        "value": "22.82%"
       },
       {
         "rank": 8,
-        "code": "BG",
-        "value": "22.6%"
+        "code": "DE",
+        "value": "22.79%"
       },
       {
         "rank": 9,
-        "code": "HR",
-        "value": "22.5%"
+        "code": "RS",
+        "value": "22.34%"
       },
       {
         "rank": 10,
-        "code": "MT",
-        "value": "22.4%"
+        "code": "BG",
+        "value": "21.83%"
       },
       {
         "rank": 11,
-        "code": "SI",
-        "value": "22.2%"
-      },
-      {
-        "rank": 12,
         "code": "FR",
-        "value": "22.1%"
+        "value": "21.75%"
       },
       {
         "rank": 12,
-        "code": "LV",
-        "value": "22.1%"
+        "code": "SM",
+        "value": "21.68%"
+      },
+      {
+        "rank": 13,
+        "code": "BA",
+        "value": "21.64%"
       },
       {
         "rank": 14,
-        "code": "DK",
-        "value": "21.4%"
+        "code": "LV",
+        "value": "21.33%"
       },
       {
-        "rank": 15,
-        "code": "SE",
-        "value": "20.7%"
+        "rank": 14,
+        "code": "SI",
+        "value": "21.33% (tied)"
       },
       {
         "rank": 16,
-        "code": "AT",
-        "value": "20.4%"
+        "code": "EE",
+        "value": "20.91%"
       },
       {
         "rank": 17,
-        "code": "NL",
-        "value": "20.3%"
+        "code": "HU",
+        "value": "20.82%"
       },
       {
         "rank": 18,
         "code": "ES",
-        "value": "20.2%"
+        "value": "20.65%"
       },
       {
         "rank": 19,
-        "code": "CH",
-        "value": "20.0%"
+        "code": "DK",
+        "value": "20.60%"
       },
       {
         "rank": 20,
-        "code": "EE",
-        "value": "20.0% (tied)"
+        "code": "CZ",
+        "value": "20.55%"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "20.54%"
+      },
+      {
+        "rank": 22,
+        "code": "AT",
+        "value": "20.16%"
+      },
+      {
+        "rank": 22,
+        "code": "LI",
+        "value": "20.16% (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "20.16% (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "BE",
+        "value": "20.15%"
+      },
+      {
+        "rank": 26,
+        "code": "LT",
+        "value": "19.86%"
+      },
+      {
+        "rank": 27,
+        "code": "MT",
+        "value": "19.80%"
+      },
+      {
+        "rank": 28,
+        "code": "RO",
+        "value": "19.75%"
+      },
+      {
+        "rank": 29,
+        "code": "CH",
+        "value": "19.61%"
+      },
+      {
+        "rank": 30,
+        "code": "PL",
+        "value": "19.56%"
+      },
+      {
+        "rank": 31,
+        "code": "CA",
+        "value": "19.36%"
+      },
+      {
+        "rank": 32,
+        "code": "GB",
+        "value": "19.24%"
       }
     ]
   },
@@ -56160,7 +57935,7 @@
     "title": "Oldest still-in-force written constitutions",
     "prompt": "Name the countries with the oldest written national constitutions still in effect today.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Comparative Constitutions Project / IDEA International / Wikipedia \u2014 List of national constitutions",
       "url": "https://comparativeconstitutionsproject.org/",
@@ -56270,6 +58045,131 @@
         "rank": 20,
         "code": "IT",
         "value": "1948"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "1949"
+      },
+      {
+        "rank": 22,
+        "code": "CR",
+        "value": "1949 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "1950"
+      },
+      {
+        "rank": 24,
+        "code": "SY",
+        "value": "1950 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "SM",
+        "value": "1600 (revised 1974)"
+      },
+      {
+        "rank": 26,
+        "code": "DK",
+        "value": "1953"
+      },
+      {
+        "rank": 27,
+        "code": "MC",
+        "value": "1962"
+      },
+      {
+        "rank": 28,
+        "code": "KW",
+        "value": "1962 (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "MT",
+        "value": "1964"
+      },
+      {
+        "rank": 30,
+        "code": "SG",
+        "value": "1965"
+      },
+      {
+        "rank": 31,
+        "code": "GY",
+        "value": "1966"
+      },
+      {
+        "rank": 32,
+        "code": "BB",
+        "value": "1966 (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "NR",
+        "value": "1968"
+      },
+      {
+        "rank": 34,
+        "code": "PG",
+        "value": "1975"
+      },
+      {
+        "rank": 35,
+        "code": "SE",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "GR",
+        "value": "1975 (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "CU",
+        "value": "1976"
+      },
+      {
+        "rank": 38,
+        "code": "PT",
+        "value": "1976 (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "LK",
+        "value": "1978"
+      },
+      {
+        "rank": 40,
+        "code": "ES",
+        "value": "1978 (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "IR",
+        "value": "1979"
+      },
+      {
+        "rank": 42,
+        "code": "GQ",
+        "value": "1982"
+      },
+      {
+        "rank": 43,
+        "code": "CN",
+        "value": "1982 (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "HN",
+        "value": "1982 (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "SV",
+        "value": "1983"
       }
     ]
   },
@@ -67355,7 +69255,7 @@
     "title": "Most amphibian species",
     "prompt": "Name the countries with the most native amphibian species recorded on the IUCN Red List.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "IUCN Red List \u2014 Country totals (amphibians)",
       "url": "https://www.iucnredlist.org/statistics",
@@ -67440,6 +69340,131 @@
         "rank": 15,
         "code": "VN",
         "value": "244 species"
+      },
+      {
+        "rank": 16,
+        "code": "CD",
+        "value": "228 species"
+      },
+      {
+        "rank": 17,
+        "code": "PH",
+        "value": "115 species"
+      },
+      {
+        "rank": 18,
+        "code": "MY",
+        "value": "212 species"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "196 species"
+      },
+      {
+        "rank": 20,
+        "code": "PA",
+        "value": "195 species"
+      },
+      {
+        "rank": 21,
+        "code": "GT",
+        "value": "153 species"
+      },
+      {
+        "rank": 22,
+        "code": "CR",
+        "value": "217 species"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "180 species"
+      },
+      {
+        "rank": 24,
+        "code": "IR",
+        "value": "23 species"
+      },
+      {
+        "rank": 25,
+        "code": "TH",
+        "value": "175 species"
+      },
+      {
+        "rank": 26,
+        "code": "MM",
+        "value": "168 species"
+      },
+      {
+        "rank": 27,
+        "code": "HN",
+        "value": "150 species"
+      },
+      {
+        "rank": 28,
+        "code": "LA",
+        "value": "121 species"
+      },
+      {
+        "rank": 29,
+        "code": "NG",
+        "value": "116 species"
+      },
+      {
+        "rank": 30,
+        "code": "KH",
+        "value": "110 species"
+      },
+      {
+        "rank": 31,
+        "code": "AU",
+        "value": "245 species"
+      },
+      {
+        "rank": 32,
+        "code": "LK",
+        "value": "112 species"
+      },
+      {
+        "rank": 33,
+        "code": "GN",
+        "value": "95 species"
+      },
+      {
+        "rank": 34,
+        "code": "GA",
+        "value": "97 species"
+      },
+      {
+        "rank": 35,
+        "code": "UG",
+        "value": "89 species"
+      },
+      {
+        "rank": 36,
+        "code": "GH",
+        "value": "85 species"
+      },
+      {
+        "rank": 37,
+        "code": "KE",
+        "value": "110 species"
+      },
+      {
+        "rank": 38,
+        "code": "CI",
+        "value": "89 species"
+      },
+      {
+        "rank": 39,
+        "code": "NI",
+        "value": "85 species"
+      },
+      {
+        "rank": 40,
+        "code": "ZA",
+        "value": "138 species"
       }
     ]
   },
@@ -67450,7 +69475,7 @@
     "title": "Most freshwater fish species",
     "prompt": "Name the countries with the most native freshwater fish species.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "IUCN Red List / FishBase \u2014 country species totals",
       "url": "https://www.fishbase.se/Country/CountryList.php",
@@ -67535,6 +69560,131 @@
         "rank": 15,
         "code": "AR",
         "value": "486 species"
+      },
+      {
+        "rank": 16,
+        "code": "VN",
+        "value": "482 species"
+      },
+      {
+        "rank": 17,
+        "code": "MM",
+        "value": "466 species"
+      },
+      {
+        "rank": 18,
+        "code": "PY",
+        "value": "398 species"
+      },
+      {
+        "rank": 19,
+        "code": "PG",
+        "value": "356 species"
+      },
+      {
+        "rank": 20,
+        "code": "CM",
+        "value": "343 species"
+      },
+      {
+        "rank": 21,
+        "code": "PH",
+        "value": "330 species"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "330 species"
+      },
+      {
+        "rank": 23,
+        "code": "GY",
+        "value": "322 species"
+      },
+      {
+        "rank": 24,
+        "code": "AU",
+        "value": "312 species"
+      },
+      {
+        "rank": 25,
+        "code": "TZ",
+        "value": "295 species"
+      },
+      {
+        "rank": 26,
+        "code": "SR",
+        "value": "286 species"
+      },
+      {
+        "rank": 27,
+        "code": "NG",
+        "value": "275 species"
+      },
+      {
+        "rank": 28,
+        "code": "LA",
+        "value": "268 species"
+      },
+      {
+        "rank": 29,
+        "code": "MW",
+        "value": "258 species"
+      },
+      {
+        "rank": 30,
+        "code": "KH",
+        "value": "245 species"
+      },
+      {
+        "rank": 31,
+        "code": "GA",
+        "value": "220 species"
+      },
+      {
+        "rank": 32,
+        "code": "CI",
+        "value": "210 species"
+      },
+      {
+        "rank": 33,
+        "code": "ZM",
+        "value": "205 species"
+      },
+      {
+        "rank": 34,
+        "code": "GH",
+        "value": "195 species"
+      },
+      {
+        "rank": 35,
+        "code": "KE",
+        "value": "190 species"
+      },
+      {
+        "rank": 36,
+        "code": "UG",
+        "value": "192 species"
+      },
+      {
+        "rank": 37,
+        "code": "SD",
+        "value": "180 species"
+      },
+      {
+        "rank": 38,
+        "code": "IR",
+        "value": "175 species"
+      },
+      {
+        "rank": 39,
+        "code": "MG",
+        "value": "165 species"
+      },
+      {
+        "rank": 40,
+        "code": "GN",
+        "value": "160 species"
       }
     ]
   },
@@ -67545,7 +69695,7 @@
     "title": "Most vascular plant species",
     "prompt": "Name the countries with the most native vascular plant species.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Kew Royal Botanic Gardens \u2014 State of the World's Plants; national floras",
       "url": "https://www.kew.org/science/state-of-the-worlds-plants-and-fungi",
@@ -67630,6 +69780,131 @@
         "rank": 14,
         "code": "MG",
         "value": "12,000 species (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BO",
+        "value": "11,500 species"
+      },
+      {
+        "rank": 17,
+        "code": "PH",
+        "value": "10,000 species"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "9,000 species"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "8,500 species"
+      },
+      {
+        "rank": 20,
+        "code": "TR",
+        "value": "8,700 species"
+      },
+      {
+        "rank": 21,
+        "code": "CD",
+        "value": "8,000 species"
+      },
+      {
+        "rank": 22,
+        "code": "VN",
+        "value": "10,500 species"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "9,700 species"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "8,200 species"
+      },
+      {
+        "rank": 25,
+        "code": "CR",
+        "value": "9,600 species"
+      },
+      {
+        "rank": 26,
+        "code": "PA",
+        "value": "9,900 species"
+      },
+      {
+        "rank": 27,
+        "code": "IR",
+        "value": "8,200 species"
+      },
+      {
+        "rank": 28,
+        "code": "GT",
+        "value": "8,000 species"
+      },
+      {
+        "rank": 29,
+        "code": "GR",
+        "value": "6,600 species"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "6,700 species"
+      },
+      {
+        "rank": 31,
+        "code": "ES",
+        "value": "8,300 species"
+      },
+      {
+        "rank": 32,
+        "code": "JP",
+        "value": "5,600 species"
+      },
+      {
+        "rank": 33,
+        "code": "NG",
+        "value": "4,715 species"
+      },
+      {
+        "rank": 34,
+        "code": "KE",
+        "value": "6,500 species"
+      },
+      {
+        "rank": 35,
+        "code": "ET",
+        "value": "6,600 species"
+      },
+      {
+        "rank": 36,
+        "code": "KR",
+        "value": "3,300 species"
+      },
+      {
+        "rank": 37,
+        "code": "DE",
+        "value": "3,600 species"
+      },
+      {
+        "rank": 38,
+        "code": "FR",
+        "value": "5,660 species"
+      },
+      {
+        "rank": 39,
+        "code": "GB",
+        "value": "3,800 species"
+      },
+      {
+        "rank": 40,
+        "code": "RU",
+        "value": "12,500 species"
       }
     ]
   },
@@ -67640,7 +69915,7 @@
     "title": "Largest African lion populations",
     "prompt": "Name the countries with the largest wild lion populations.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "IUCN / Panthera \u2014 African & Asiatic Lion population estimates",
       "url": "https://www.iucnredlist.org/species/15951/115130419",
@@ -67725,6 +70000,81 @@
         "rank": 15,
         "code": "BJ",
         "value": "~150 lions"
+      },
+      {
+        "rank": 16,
+        "code": "NE",
+        "value": "~120 lions"
+      },
+      {
+        "rank": 17,
+        "code": "AO",
+        "value": "~100 lions"
+      },
+      {
+        "rank": 18,
+        "code": "MW",
+        "value": "~90 lions"
+      },
+      {
+        "rank": 19,
+        "code": "SD",
+        "value": "~55 lions"
+      },
+      {
+        "rank": 20,
+        "code": "SN",
+        "value": "~30 lions"
+      },
+      {
+        "rank": 21,
+        "code": "CF",
+        "value": "~25 lions"
+      },
+      {
+        "rank": 22,
+        "code": "NG",
+        "value": "~40 lions"
+      },
+      {
+        "rank": 23,
+        "code": "CM",
+        "value": "~250 lions"
+      },
+      {
+        "rank": 24,
+        "code": "TD",
+        "value": "~150 lions"
+      },
+      {
+        "rank": 25,
+        "code": "SO",
+        "value": "~40 lions"
+      },
+      {
+        "rank": 26,
+        "code": "SZ",
+        "value": "~15 lions"
+      },
+      {
+        "rank": 27,
+        "code": "RW",
+        "value": "~35 lions"
+      },
+      {
+        "rank": 28,
+        "code": "MR",
+        "value": "extirpated recent"
+      },
+      {
+        "rank": 29,
+        "code": "ML",
+        "value": "extirpated (Bafing)"
+      },
+      {
+        "rank": 30,
+        "code": "ER",
+        "value": "extirpated recent"
       }
     ]
   },
@@ -67735,7 +70085,7 @@
     "title": "Largest elephant populations",
     "prompt": "Name the countries with the largest wild elephant populations (African savanna, African forest, and Asian elephants combined).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "IUCN African Elephant Status Report; WWF Asian Elephant estimates",
       "url": "https://www.iucnredlist.org/species/181008073/223031019",
@@ -67820,6 +70170,131 @@
         "rank": 15,
         "code": "TH",
         "value": "~3,700 elephants"
+      },
+      {
+        "rank": 16,
+        "code": "MM",
+        "value": "~2,000 elephants"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "~2,400 elephants"
+      },
+      {
+        "rank": 18,
+        "code": "MW",
+        "value": "~2,000 elephants"
+      },
+      {
+        "rank": 19,
+        "code": "CM",
+        "value": "~1,500 elephants"
+      },
+      {
+        "rank": 20,
+        "code": "ET",
+        "value": "~1,300 elephants"
+      },
+      {
+        "rank": 21,
+        "code": "CF",
+        "value": "~1,000 elephants"
+      },
+      {
+        "rank": 22,
+        "code": "MY",
+        "value": "~1,500 elephants"
+      },
+      {
+        "rank": 23,
+        "code": "SS",
+        "value": "~900 elephants"
+      },
+      {
+        "rank": 24,
+        "code": "TD",
+        "value": "~700 elephants"
+      },
+      {
+        "rank": 25,
+        "code": "SZ",
+        "value": "~40 elephants"
+      },
+      {
+        "rank": 26,
+        "code": "RW",
+        "value": "~120 elephants"
+      },
+      {
+        "rank": 27,
+        "code": "BF",
+        "value": "~7,000 elephants"
+      },
+      {
+        "rank": 28,
+        "code": "BJ",
+        "value": "~2,700 elephants"
+      },
+      {
+        "rank": 29,
+        "code": "NE",
+        "value": "~700 elephants"
+      },
+      {
+        "rank": 30,
+        "code": "GH",
+        "value": "~800 elephants"
+      },
+      {
+        "rank": 31,
+        "code": "NP",
+        "value": "~230 elephants"
+      },
+      {
+        "rank": 32,
+        "code": "BT",
+        "value": "~500 elephants"
+      },
+      {
+        "rank": 33,
+        "code": "BD",
+        "value": "~270 elephants"
+      },
+      {
+        "rank": 34,
+        "code": "LA",
+        "value": "~800 elephants"
+      },
+      {
+        "rank": 35,
+        "code": "KH",
+        "value": "~500 elephants"
+      },
+      {
+        "rank": 36,
+        "code": "VN",
+        "value": "~100 elephants"
+      },
+      {
+        "rank": 37,
+        "code": "CN",
+        "value": "~300 elephants"
+      },
+      {
+        "rank": 38,
+        "code": "CG",
+        "value": "~10,000 elephants"
+      },
+      {
+        "rank": 39,
+        "code": "GQ",
+        "value": "~800 elephants"
+      },
+      {
+        "rank": 40,
+        "code": "CI",
+        "value": "~250 elephants"
       }
     ]
   },
@@ -68035,7 +70510,7 @@
     "title": "Tallest waterfalls",
     "prompt": "Name the countries home to the world's tallest waterfalls (by total height of the country's tallest fall).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "World Waterfall Database",
       "url": "https://www.worldwaterfalldatabase.com/",
@@ -68120,6 +70595,106 @@
         "rank": 15,
         "code": "IS",
         "value": "228 m (Glymur)"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "200 m (Eas a' Chual Aluinn, Scotland)"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "350 m (Cascata delle Marmore, multi-tiered)"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "300 m (Salto del Nervi\u00f3n)"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "380 m (Krimml Falls)"
+      },
+      {
+        "rank": 20,
+        "code": "SI",
+        "value": "78 m (Boka Falls)"
+      },
+      {
+        "rank": 21,
+        "code": "JP",
+        "value": "133 m (Hannoki Falls)"
+      },
+      {
+        "rank": 22,
+        "code": "PH",
+        "value": "338 m (Aliwagwag Falls, multi-tier)"
+      },
+      {
+        "rank": 23,
+        "code": "ID",
+        "value": "250 m (Sipiso-piso)"
+      },
+      {
+        "rank": 24,
+        "code": "LA",
+        "value": "150 m (Tad Fane)"
+      },
+      {
+        "rank": 25,
+        "code": "ET",
+        "value": "45 m (Blue Nile Falls)"
+      },
+      {
+        "rank": 26,
+        "code": "ZM",
+        "value": "108 m (Victoria Falls, shared)"
+      },
+      {
+        "rank": 27,
+        "code": "ZW",
+        "value": "108 m (Victoria Falls, shared)"
+      },
+      {
+        "rank": 28,
+        "code": "AR",
+        "value": "82 m (Iguazu Falls, shared)"
+      },
+      {
+        "rank": 29,
+        "code": "CN",
+        "value": "353 m (Hukou Falls, multi-tier)"
+      },
+      {
+        "rank": 30,
+        "code": "MX",
+        "value": "246 m (Cascada de Basaseachi)"
+      },
+      {
+        "rank": 31,
+        "code": "SE",
+        "value": "125 m (Njupesk\u00e4r)"
+      },
+      {
+        "rank": 32,
+        "code": "RU",
+        "value": "162 m (Zeygalan Falls)"
+      },
+      {
+        "rank": 33,
+        "code": "CO",
+        "value": "590 m (Salto del Buey)"
+      },
+      {
+        "rank": 34,
+        "code": "EC",
+        "value": "150 m (San Rafael Falls, defunct)"
+      },
+      {
+        "rank": 35,
+        "code": "BO",
+        "value": "610 m (Arco Iris Falls)"
       }
     ]
   },
@@ -68130,7 +70705,7 @@
     "title": "Highest Environmental Performance Index (EPI) score",
     "prompt": "Name the countries with the highest overall Environmental Performance Index score from Yale.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "Yale Center for Environmental Law & Policy \u2014 Environmental Performance Index",
       "url": "https://epi.yale.edu/",
@@ -68215,6 +70790,181 @@
         "rank": 15,
         "code": "SI",
         "value": "64.9 score"
+      },
+      {
+        "rank": 16,
+        "code": "IT",
+        "value": "64.0 score"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "63.6 score"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "62.8 score"
+      },
+      {
+        "rank": 19,
+        "code": "JP",
+        "value": "62.4 score"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "62.1 score"
+      },
+      {
+        "rank": 21,
+        "code": "SK",
+        "value": "61.7 score"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "60.9 score"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "60.6 score"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "60.4 score"
+      },
+      {
+        "rank": 25,
+        "code": "NZ",
+        "value": "60.0 score"
+      },
+      {
+        "rank": 26,
+        "code": "IS",
+        "value": "59.7 score"
+      },
+      {
+        "rank": 27,
+        "code": "GR",
+        "value": "58.5 score"
+      },
+      {
+        "rank": 28,
+        "code": "US",
+        "value": "57.5 score"
+      },
+      {
+        "rank": 29,
+        "code": "LT",
+        "value": "57.0 score"
+      },
+      {
+        "rank": 30,
+        "code": "KR",
+        "value": "56.8 score"
+      },
+      {
+        "rank": 31,
+        "code": "HU",
+        "value": "56.2 score"
+      },
+      {
+        "rank": 32,
+        "code": "LV",
+        "value": "55.9 score"
+      },
+      {
+        "rank": 33,
+        "code": "HR",
+        "value": "55.5 score"
+      },
+      {
+        "rank": 34,
+        "code": "IL",
+        "value": "55.0 score"
+      },
+      {
+        "rank": 35,
+        "code": "MT",
+        "value": "54.6 score"
+      },
+      {
+        "rank": 36,
+        "code": "CY",
+        "value": "54.0 score"
+      },
+      {
+        "rank": 37,
+        "code": "RO",
+        "value": "53.5 score"
+      },
+      {
+        "rank": 38,
+        "code": "BG",
+        "value": "53.0 score"
+      },
+      {
+        "rank": 39,
+        "code": "SG",
+        "value": "52.6 score"
+      },
+      {
+        "rank": 40,
+        "code": "CL",
+        "value": "52.0 score"
+      },
+      {
+        "rank": 41,
+        "code": "UY",
+        "value": "51.4 score"
+      },
+      {
+        "rank": 42,
+        "code": "CR",
+        "value": "50.9 score"
+      },
+      {
+        "rank": 43,
+        "code": "AR",
+        "value": "50.4 score"
+      },
+      {
+        "rank": 44,
+        "code": "BR",
+        "value": "50.0 score"
+      },
+      {
+        "rank": 45,
+        "code": "MX",
+        "value": "49.6 score"
+      },
+      {
+        "rank": 46,
+        "code": "TR",
+        "value": "49.0 score"
+      },
+      {
+        "rank": 47,
+        "code": "ZA",
+        "value": "48.7 score"
+      },
+      {
+        "rank": 48,
+        "code": "CN",
+        "value": "48.5 score"
+      },
+      {
+        "rank": 49,
+        "code": "RU",
+        "value": "47.9 score"
+      },
+      {
+        "rank": 50,
+        "code": "IN",
+        "value": "27.6 score"
       }
     ]
   },
@@ -68465,7 +71215,7 @@
     "title": "Highest energy intensity of the economy",
     "prompt": "Name the countries whose economies use the most energy per unit of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / IEA \u2014 Energy intensity level of primary energy",
       "url": "https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD",
@@ -68550,6 +71300,131 @@
         "rank": 15,
         "code": "SA",
         "value": "6.9 MJ/$"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "6.7 MJ/$"
+      },
+      {
+        "rank": 17,
+        "code": "KP",
+        "value": "6.6 MJ/$"
+      },
+      {
+        "rank": 18,
+        "code": "TJ",
+        "value": "6.5 MJ/$"
+      },
+      {
+        "rank": 19,
+        "code": "KG",
+        "value": "6.4 MJ/$"
+      },
+      {
+        "rank": 20,
+        "code": "BY",
+        "value": "6.2 MJ/$"
+      },
+      {
+        "rank": 21,
+        "code": "SR",
+        "value": "6.0 MJ/$"
+      },
+      {
+        "rank": 22,
+        "code": "AZ",
+        "value": "5.9 MJ/$"
+      },
+      {
+        "rank": 23,
+        "code": "VE",
+        "value": "5.7 MJ/$"
+      },
+      {
+        "rank": 24,
+        "code": "CN",
+        "value": "5.6 MJ/$"
+      },
+      {
+        "rank": 25,
+        "code": "MM",
+        "value": "5.5 MJ/$"
+      },
+      {
+        "rank": 26,
+        "code": "NG",
+        "value": "5.4 MJ/$"
+      },
+      {
+        "rank": 27,
+        "code": "MD",
+        "value": "5.3 MJ/$"
+      },
+      {
+        "rank": 28,
+        "code": "PK",
+        "value": "5.2 MJ/$"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "5.1 MJ/$"
+      },
+      {
+        "rank": 30,
+        "code": "AM",
+        "value": "5.0 MJ/$"
+      },
+      {
+        "rank": 31,
+        "code": "US",
+        "value": "4.9 MJ/$"
+      },
+      {
+        "rank": 32,
+        "code": "AU",
+        "value": "4.8 MJ/$"
+      },
+      {
+        "rank": 33,
+        "code": "KR",
+        "value": "4.7 MJ/$"
+      },
+      {
+        "rank": 34,
+        "code": "ID",
+        "value": "4.6 MJ/$"
+      },
+      {
+        "rank": 35,
+        "code": "SE",
+        "value": "4.5 MJ/$"
+      },
+      {
+        "rank": 36,
+        "code": "FI",
+        "value": "4.4 MJ/$"
+      },
+      {
+        "rank": 37,
+        "code": "NO",
+        "value": "4.3 MJ/$"
+      },
+      {
+        "rank": 38,
+        "code": "ZA",
+        "value": "4.2 MJ/$"
+      },
+      {
+        "rank": 39,
+        "code": "BE",
+        "value": "4.1 MJ/$"
+      },
+      {
+        "rank": 40,
+        "code": "TW",
+        "value": "4.0 MJ/$"
       }
     ]
   },
@@ -81960,7 +84835,7 @@
     "title": "Highest income inequality (Gini index)",
     "prompt": "Name the countries with the highest income inequality as measured by the Gini index (higher = more unequal).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank \u2014 Gini index (World Development Indicators)",
       "url": "https://data.worldbank.org/indicator/SI.POV.GINI",
@@ -82029,27 +84904,27 @@
       {
         "rank": 11,
         "code": "PA",
-        "value": "48.9"
+        "value": "48.9 (tied)"
       },
       {
         "rank": 13,
+        "code": "GT",
+        "value": "48.3"
+      },
+      {
+        "rank": 14,
         "code": "HN",
         "value": "48.2"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "CR",
         "value": "47.2"
       },
       {
-        "rank": 15,
-        "code": "PY",
-        "value": "45.1"
-      },
-      {
         "rank": 16,
-        "code": "GT",
-        "value": "48.3"
+        "code": "NI",
+        "value": "46.2"
       },
       {
         "rank": 17,
@@ -82063,13 +84938,113 @@
       },
       {
         "rank": 19,
+        "code": "PY",
+        "value": "45.1"
+      },
+      {
+        "rank": 20,
+        "code": "PH",
+        "value": "44.0"
+      },
+      {
+        "rank": 21,
         "code": "PE",
         "value": "43.8"
       },
       {
-        "rank": 20,
-        "code": "NI",
-        "value": "46.2"
+        "rank": 22,
+        "code": "CL",
+        "value": "43.0"
+      },
+      {
+        "rank": 23,
+        "code": "CV",
+        "value": "42.4"
+      },
+      {
+        "rank": 24,
+        "code": "AR",
+        "value": "41.4"
+      },
+      {
+        "rank": 25,
+        "code": "DO",
+        "value": "39.6"
+      },
+      {
+        "rank": 26,
+        "code": "UY",
+        "value": "40.6"
+      },
+      {
+        "rank": 27,
+        "code": "SV",
+        "value": "38.8"
+      },
+      {
+        "rank": 28,
+        "code": "BO",
+        "value": "40.9"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "38.6"
+      },
+      {
+        "rank": 30,
+        "code": "MY",
+        "value": "41.1"
+      },
+      {
+        "rank": 31,
+        "code": "TR",
+        "value": "44.4"
+      },
+      {
+        "rank": 32,
+        "code": "US",
+        "value": "39.7"
+      },
+      {
+        "rank": 33,
+        "code": "CI",
+        "value": "35.3"
+      },
+      {
+        "rank": 34,
+        "code": "RW",
+        "value": "43.7"
+      },
+      {
+        "rank": 35,
+        "code": "CD",
+        "value": "42.1"
+      },
+      {
+        "rank": 36,
+        "code": "GH",
+        "value": "43.5"
+      },
+      {
+        "rank": 37,
+        "code": "TG",
+        "value": "43.1"
+      },
+      {
+        "rank": 38,
+        "code": "CM",
+        "value": "42.2"
+      },
+      {
+        "rank": 39,
+        "code": "MG",
+        "value": "42.6"
+      },
+      {
+        "rank": 40,
+        "code": "LR",
+        "value": "35.3 (tied)"
       }
     ]
   },
@@ -82080,7 +85055,7 @@
     "title": "Highest extreme poverty rate",
     "prompt": "Name the countries with the highest share of population living in extreme poverty (under $2.15/day, 2017 PPP).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank \u2014 Poverty and Inequality Platform",
       "url": "https://pip.worldbank.org/",
@@ -82109,7 +85084,7 @@
       {
         "rank": 3,
         "code": "MW",
-        "value": "70% of population"
+        "value": "70% of population (tied)"
       },
       {
         "rank": 5,
@@ -82124,7 +85099,7 @@
       {
         "rank": 6,
         "code": "MZ",
-        "value": "63% of population"
+        "value": "63% of population (tied)"
       },
       {
         "rank": 8,
@@ -82149,12 +85124,12 @@
       {
         "rank": 11,
         "code": "NG",
-        "value": "31% of population"
+        "value": "31% of population (tied)"
       },
       {
         "rank": 11,
         "code": "TD",
-        "value": "31% of population"
+        "value": "31% of population (tied)"
       },
       {
         "rank": 14,
@@ -82190,6 +85165,106 @@
         "rank": 20,
         "code": "ML",
         "value": "19% of population"
+      },
+      {
+        "rank": 21,
+        "code": "ET",
+        "value": "19% of population (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "UG",
+        "value": "18% of population"
+      },
+      {
+        "rank": 23,
+        "code": "HT",
+        "value": "17% of population"
+      },
+      {
+        "rank": 24,
+        "code": "PG",
+        "value": "17% of population (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "ZW",
+        "value": "17% of population (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "GW",
+        "value": "16% of population"
+      },
+      {
+        "rank": 27,
+        "code": "SO",
+        "value": "15% of population"
+      },
+      {
+        "rank": 28,
+        "code": "KM",
+        "value": "15% of population (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "BJ",
+        "value": "14% of population"
+      },
+      {
+        "rank": 30,
+        "code": "YE",
+        "value": "14% of population (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "TG",
+        "value": "13% of population"
+      },
+      {
+        "rank": 32,
+        "code": "CG",
+        "value": "12% of population"
+      },
+      {
+        "rank": 33,
+        "code": "SN",
+        "value": "9% of population"
+      },
+      {
+        "rank": 34,
+        "code": "KE",
+        "value": "8% of population"
+      },
+      {
+        "rank": 35,
+        "code": "CI",
+        "value": "8% of population (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "NP",
+        "value": "8% of population (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "GH",
+        "value": "7% of population"
+      },
+      {
+        "rank": 38,
+        "code": "AF",
+        "value": "7% of population (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "IN",
+        "value": "6% of population"
+      },
+      {
+        "rank": 40,
+        "code": "MR",
+        "value": "6% of population (tied)"
       }
     ]
   },
@@ -82200,7 +85275,7 @@
     "title": "Highest Social Progress Index",
     "prompt": "Name the countries with the highest score on the Social Progress Index, measuring basic human needs, wellbeing, and opportunity.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Social Progress Imperative \u2014 Social Progress Index",
       "url": "https://www.socialprogress.org/social-progress-index/",
@@ -82310,6 +85385,131 @@
         "rank": 20,
         "code": "PT",
         "value": "85.7"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "85.4"
+      },
+      {
+        "rank": 22,
+        "code": "EE",
+        "value": "84.7"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "84.3"
+      },
+      {
+        "rank": 24,
+        "code": "IT",
+        "value": "83.9"
+      },
+      {
+        "rank": 25,
+        "code": "US",
+        "value": "83.4"
+      },
+      {
+        "rank": 26,
+        "code": "KR",
+        "value": "82.9"
+      },
+      {
+        "rank": 27,
+        "code": "MT",
+        "value": "82.7"
+      },
+      {
+        "rank": 28,
+        "code": "CY",
+        "value": "82.3"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "82.0"
+      },
+      {
+        "rank": 30,
+        "code": "LT",
+        "value": "81.6"
+      },
+      {
+        "rank": 31,
+        "code": "GR",
+        "value": "81.3"
+      },
+      {
+        "rank": 32,
+        "code": "LV",
+        "value": "80.9"
+      },
+      {
+        "rank": 33,
+        "code": "SK",
+        "value": "80.6"
+      },
+      {
+        "rank": 34,
+        "code": "HU",
+        "value": "80.3"
+      },
+      {
+        "rank": 35,
+        "code": "HR",
+        "value": "79.8"
+      },
+      {
+        "rank": 36,
+        "code": "CR",
+        "value": "79.4"
+      },
+      {
+        "rank": 37,
+        "code": "UY",
+        "value": "78.9"
+      },
+      {
+        "rank": 38,
+        "code": "IL",
+        "value": "78.5"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "78.1"
+      },
+      {
+        "rank": 40,
+        "code": "BG",
+        "value": "77.7"
+      },
+      {
+        "rank": 41,
+        "code": "AR",
+        "value": "76.8"
+      },
+      {
+        "rank": 42,
+        "code": "RO",
+        "value": "76.4"
+      },
+      {
+        "rank": 43,
+        "code": "PA",
+        "value": "75.5"
+      },
+      {
+        "rank": 44,
+        "code": "AE",
+        "value": "75.0"
+      },
+      {
+        "rank": 45,
+        "code": "MU",
+        "value": "74.7"
       }
     ]
   },
@@ -82320,7 +85520,7 @@
     "title": "Highest social spending as % of GDP",
     "prompt": "Name the countries with the highest public social spending as a share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "OECD \u2014 Social Expenditure Database (SOCX)",
       "url": "https://www.oecd.org/en/data/datasets/social-expenditure-database-socx.html",
@@ -82404,7 +85604,7 @@
       {
         "rank": 14,
         "code": "PL",
-        "value": "22.7% of GDP"
+        "value": "22.7% of GDP (tied)"
       },
       {
         "rank": 16,
@@ -82413,23 +85613,123 @@
       },
       {
         "rank": 17,
+        "code": "GB",
+        "value": "22.1% of GDP"
+      },
+      {
+        "rank": 18,
         "code": "NL",
         "value": "20.9% of GDP"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "code": "HU",
         "value": "20.1% of GDP"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "code": "CZ",
         "value": "19.7% of GDP"
       },
       {
-        "rank": 20,
-        "code": "GB",
-        "value": "22.1% of GDP"
+        "rank": 21,
+        "code": "NZ",
+        "value": "19.4% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "19.3% of GDP"
+      },
+      {
+        "rank": 23,
+        "code": "IS",
+        "value": "18.9% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "SK",
+        "value": "18.8% of GDP"
+      },
+      {
+        "rank": 25,
+        "code": "CA",
+        "value": "18.5% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "EE",
+        "value": "18.2% of GDP"
+      },
+      {
+        "rank": 27,
+        "code": "US",
+        "value": "18.0% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "LV",
+        "value": "17.4% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "CH",
+        "value": "17.1% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "LT",
+        "value": "16.7% of GDP"
+      },
+      {
+        "rank": 31,
+        "code": "IE",
+        "value": "13.4% of GDP"
+      },
+      {
+        "rank": 32,
+        "code": "IL",
+        "value": "13.0% of GDP"
+      },
+      {
+        "rank": 33,
+        "code": "CR",
+        "value": "12.8% of GDP"
+      },
+      {
+        "rank": 34,
+        "code": "KR",
+        "value": "14.8% of GDP"
+      },
+      {
+        "rank": 35,
+        "code": "CL",
+        "value": "11.9% of GDP"
+      },
+      {
+        "rank": 36,
+        "code": "TR",
+        "value": "12.4% of GDP"
+      },
+      {
+        "rank": 37,
+        "code": "MX",
+        "value": "7.4% of GDP"
+      },
+      {
+        "rank": 38,
+        "code": "CO",
+        "value": "13.6% of GDP"
+      },
+      {
+        "rank": 39,
+        "code": "AR",
+        "value": "17.5% of GDP"
+      },
+      {
+        "rank": 40,
+        "code": "BR",
+        "value": "18.6% of GDP"
       }
     ]
   },
@@ -89925,7 +93225,7 @@
     "title": "Highest tertiary graduation rate (25-34)",
     "prompt": "Name the countries with the highest share of 25-34 year olds holding a tertiary (post-secondary) qualification.",
     "answerType": "Countries",
-    "seededDepth": 19,
+    "seededDepth": 35,
     "source": {
       "name": "OECD \u2014 Education at a Glance 2024, Table A1.2",
       "url": "https://www.oecd.org/education/education-at-a-glance/",
@@ -90029,12 +93329,87 @@
       {
         "rank": 19,
         "code": "ES",
-        "value": "47% tertiary (tied)"
+        "value": "47% tertiary"
       },
       {
         "rank": 19,
         "code": "SG",
         "value": "47% tertiary (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "GR",
+        "value": "46% tertiary"
+      },
+      {
+        "rank": 22,
+        "code": "SI",
+        "value": "46% tertiary (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "45% tertiary"
+      },
+      {
+        "rank": 24,
+        "code": "FI",
+        "value": "42% tertiary"
+      },
+      {
+        "rank": 25,
+        "code": "LV",
+        "value": "42% tertiary (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "EE",
+        "value": "42% tertiary (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "41% tertiary"
+      },
+      {
+        "rank": 28,
+        "code": "DE",
+        "value": "38% tertiary"
+      },
+      {
+        "rank": 29,
+        "code": "NZ",
+        "value": "38% tertiary (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CZ",
+        "value": "37% tertiary"
+      },
+      {
+        "rank": 31,
+        "code": "TR",
+        "value": "37% tertiary (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "SK",
+        "value": "36% tertiary"
+      },
+      {
+        "rank": 33,
+        "code": "HU",
+        "value": "33% tertiary"
+      },
+      {
+        "rank": 34,
+        "code": "CL",
+        "value": "33% tertiary (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "CR",
+        "value": "32% tertiary"
       }
     ]
   },
@@ -99380,7 +102755,7 @@
     "title": "Highest EIU Democracy Index score",
     "prompt": "Name the countries with the highest Democracy Index scores according to the Economist Intelligence Unit.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Economist Intelligence Unit \u2014 Democracy Index 2023",
       "url": "https://www.eiu.com/n/campaigns/democracy-index-2023/",
@@ -99490,6 +102865,131 @@
         "rank": 20,
         "code": "CR",
         "value": "8.00 score"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "8.28 score (revised)"
+      },
+      {
+        "rank": 22,
+        "code": "MU",
+        "value": "8.14 score"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "8.07 score (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "EE",
+        "value": "7.96 score"
+      },
+      {
+        "rank": 25,
+        "code": "US",
+        "value": "7.85 score"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "7.85 score (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "CV",
+        "value": "7.65 score"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "7.98 score (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "7.80 score"
+      },
+      {
+        "rank": 30,
+        "code": "CZ",
+        "value": "7.97 score"
+      },
+      {
+        "rank": 31,
+        "code": "GR",
+        "value": "7.50 score"
+      },
+      {
+        "rank": 32,
+        "code": "BW",
+        "value": "7.53 score"
+      },
+      {
+        "rank": 33,
+        "code": "IT",
+        "value": "7.69 score"
+      },
+      {
+        "rank": 34,
+        "code": "BE",
+        "value": "7.64 score"
+      },
+      {
+        "rank": 35,
+        "code": "SI",
+        "value": "7.75 score"
+      },
+      {
+        "rank": 36,
+        "code": "LT",
+        "value": "7.31 score"
+      },
+      {
+        "rank": 37,
+        "code": "CY",
+        "value": "7.38 score"
+      },
+      {
+        "rank": 38,
+        "code": "LV",
+        "value": "7.37 score"
+      },
+      {
+        "rank": 39,
+        "code": "JM",
+        "value": "7.13 score"
+      },
+      {
+        "rank": 40,
+        "code": "TT",
+        "value": "7.16 score"
+      },
+      {
+        "rank": 41,
+        "code": "MT",
+        "value": "7.90 score"
+      },
+      {
+        "rank": 42,
+        "code": "PL",
+        "value": "7.18 score"
+      },
+      {
+        "rank": 43,
+        "code": "ZA",
+        "value": "7.05 score"
+      },
+      {
+        "rank": 44,
+        "code": "SK",
+        "value": "7.07 score"
+      },
+      {
+        "rank": 45,
+        "code": "SC",
+        "value": "6.85 score"
       }
     ]
   },
@@ -99595,7 +103095,7 @@
     "title": "Highest V-Dem Liberal Democracy Index",
     "prompt": "Name the countries with the highest scores on the V-Dem Liberal Democracy Index.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "V-Dem Institute \u2014 Democracy Report 2024",
       "url": "https://v-dem.net/publications/democracy-reports/",
@@ -99705,6 +103205,131 @@
         "rank": 20,
         "code": "AT",
         "value": "0.70 score"
+      },
+      {
+        "rank": 21,
+        "code": "UY",
+        "value": "0.70 score (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "JP",
+        "value": "0.69 score"
+      },
+      {
+        "rank": 23,
+        "code": "GB",
+        "value": "0.68 score"
+      },
+      {
+        "rank": 24,
+        "code": "FR",
+        "value": "0.67 score"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "0.66 score"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "0.66 score (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "KR",
+        "value": "0.65 score"
+      },
+      {
+        "rank": 28,
+        "code": "US",
+        "value": "0.65 score (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "CL",
+        "value": "0.64 score"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "0.64 score (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "SI",
+        "value": "0.63 score"
+      },
+      {
+        "rank": 32,
+        "code": "LV",
+        "value": "0.62 score"
+      },
+      {
+        "rank": 33,
+        "code": "LT",
+        "value": "0.61 score"
+      },
+      {
+        "rank": 34,
+        "code": "MU",
+        "value": "0.60 score"
+      },
+      {
+        "rank": 35,
+        "code": "JM",
+        "value": "0.60 score (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "GR",
+        "value": "0.59 score"
+      },
+      {
+        "rank": 37,
+        "code": "MN",
+        "value": "0.58 score"
+      },
+      {
+        "rank": 38,
+        "code": "SK",
+        "value": "0.58 score (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "ZA",
+        "value": "0.57 score"
+      },
+      {
+        "rank": 40,
+        "code": "CY",
+        "value": "0.56 score"
+      },
+      {
+        "rank": 41,
+        "code": "IL",
+        "value": "0.56 score (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "TT",
+        "value": "0.55 score"
+      },
+      {
+        "rank": 43,
+        "code": "SR",
+        "value": "0.55 score (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "BW",
+        "value": "0.54 score"
+      },
+      {
+        "rank": 45,
+        "code": "AR",
+        "value": "0.53 score"
       }
     ]
   },
@@ -99715,7 +103340,7 @@
     "title": "Most successful coups d'\u00e9tat since 1950",
     "prompt": "Name the countries that have experienced the most successful coups d'\u00e9tat since 1950.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Cline Center Coup D'\u00e9tat Project (University of Illinois)",
       "url": "https://clinecenter.illinois.edu/project/research-themes/democracy-and-development/coup-detat-project-cdp",
@@ -99825,6 +103450,131 @@
         "rank": 20,
         "code": "CF",
         "value": "3 successful coups (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "BI",
+        "value": "3 successful coups (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CG",
+        "value": "3 successful coups (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "KM",
+        "value": "3 successful coups (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "TG",
+        "value": "2 successful coups"
+      },
+      {
+        "rank": 25,
+        "code": "GT",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "SL",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "LR",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "YE",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "PA",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "EC",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "UG",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "CD",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "GW",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "AF",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "LY",
+        "value": "2 successful coups (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "GA",
+        "value": "1 successful coup"
+      },
+      {
+        "rank": 37,
+        "code": "DZ",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "TN",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "EG",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "MM",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "FJ",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "CL",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "UY",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "PY",
+        "value": "1 successful coup (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "CI",
+        "value": "1 successful coup (tied)"
       }
     ]
   },
@@ -99835,7 +103585,7 @@
     "title": "Most coup attempts since 1950",
     "prompt": "Name the countries that have experienced the most coup attempts (successful and failed combined) since 1950.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Wikipedia \u2014 List of coups and coup attempts by country",
       "url": "https://en.wikipedia.org/wiki/List_of_coups_and_coup_attempts_by_country",
@@ -99945,6 +103695,131 @@
         "rank": 20,
         "code": "BD",
         "value": "6 attempts (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "ML",
+        "value": "6 attempts (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NE",
+        "value": "6 attempts (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "GN",
+        "value": "5 attempts"
+      },
+      {
+        "rank": 24,
+        "code": "MG",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CF",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "BI",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "SL",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TG",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "PA",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CG",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "SV",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "AF",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "PY",
+        "value": "5 attempts (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "UG",
+        "value": "4 attempts"
+      },
+      {
+        "rank": 35,
+        "code": "ID",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "LR",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "YE",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "KM",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "PH",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "GW",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "GA",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "HN",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "MM",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "LY",
+        "value": "4 attempts (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "DO",
+        "value": "4 attempts (tied)"
       }
     ]
   },
@@ -100065,7 +103940,7 @@
     "title": "Most 'Not Free' countries \u2014 worst Freedom House score",
     "prompt": "Name the countries with the worst (lowest) aggregate Freedom in the World score from Freedom House.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "Freedom House \u2014 Freedom in the World country scores",
       "url": "https://freedomhouse.org/countries/freedom-world/scores",
@@ -100175,6 +104050,131 @@
         "rank": 20,
         "code": "VE",
         "value": "15 / 100"
+      },
+      {
+        "rank": 21,
+        "code": "IR",
+        "value": "12 / 100 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "AE",
+        "value": "18 / 100"
+      },
+      {
+        "rank": 23,
+        "code": "VN",
+        "value": "19 / 100"
+      },
+      {
+        "rank": 24,
+        "code": "CF",
+        "value": "9 / 100 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "YE",
+        "value": "9 / 100 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "RU",
+        "value": "13 / 100 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "EG",
+        "value": "18 / 100 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "BI",
+        "value": "14 / 100"
+      },
+      {
+        "rank": 29,
+        "code": "CD",
+        "value": "20 / 100"
+      },
+      {
+        "rank": 30,
+        "code": "RW",
+        "value": "21 / 100"
+      },
+      {
+        "rank": 31,
+        "code": "CM",
+        "value": "15 / 100 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "IQ",
+        "value": "29 / 100"
+      },
+      {
+        "rank": 33,
+        "code": "OM",
+        "value": "24 / 100"
+      },
+      {
+        "rank": 34,
+        "code": "KH",
+        "value": "24 / 100 (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "ET",
+        "value": "21 / 100 (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "TD",
+        "value": "16 / 100"
+      },
+      {
+        "rank": 37,
+        "code": "AO",
+        "value": "27 / 100"
+      },
+      {
+        "rank": 38,
+        "code": "JO",
+        "value": "33 / 100"
+      },
+      {
+        "rank": 39,
+        "code": "DJ",
+        "value": "24 / 100 (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "MM",
+        "value": "8 / 100 (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "MZ",
+        "value": "40 / 100"
+      },
+      {
+        "rank": 42,
+        "code": "TR",
+        "value": "33 / 100 (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "QA",
+        "value": "25 / 100"
+      },
+      {
+        "rank": 44,
+        "code": "KZ",
+        "value": "23 / 100"
+      },
+      {
+        "rank": 45,
+        "code": "TH",
+        "value": "36 / 100"
       }
     ]
   },
@@ -100280,7 +104280,7 @@
     "title": "Highest V-Dem Political Violence Index",
     "prompt": "Name the countries with the highest levels of political violence according to V-Dem's index of state-perpetrated and non-state political violence.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 45,
     "source": {
       "name": "V-Dem Institute \u2014 Political Violence indicators",
       "url": "https://v-dem.net/data/the-v-dem-dataset/",
@@ -100390,6 +104390,131 @@
         "rank": 20,
         "code": "PK",
         "value": "0.65 index"
+      },
+      {
+        "rank": 21,
+        "code": "UA",
+        "value": "0.64 index"
+      },
+      {
+        "rank": 22,
+        "code": "CO",
+        "value": "0.63 index"
+      },
+      {
+        "rank": 23,
+        "code": "VE",
+        "value": "0.62 index"
+      },
+      {
+        "rank": 24,
+        "code": "HT",
+        "value": "0.61 index"
+      },
+      {
+        "rank": 25,
+        "code": "PS",
+        "value": "0.60 index"
+      },
+      {
+        "rank": 26,
+        "code": "TD",
+        "value": "0.59 index"
+      },
+      {
+        "rank": 27,
+        "code": "IL",
+        "value": "0.58 index"
+      },
+      {
+        "rank": 28,
+        "code": "PH",
+        "value": "0.57 index"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "0.56 index"
+      },
+      {
+        "rank": 30,
+        "code": "TR",
+        "value": "0.55 index"
+      },
+      {
+        "rank": 31,
+        "code": "KE",
+        "value": "0.54 index"
+      },
+      {
+        "rank": 32,
+        "code": "EG",
+        "value": "0.53 index"
+      },
+      {
+        "rank": 33,
+        "code": "BR",
+        "value": "0.52 index"
+      },
+      {
+        "rank": 34,
+        "code": "NI",
+        "value": "0.51 index"
+      },
+      {
+        "rank": 35,
+        "code": "HN",
+        "value": "0.50 index"
+      },
+      {
+        "rank": 36,
+        "code": "SV",
+        "value": "0.49 index"
+      },
+      {
+        "rank": 37,
+        "code": "BD",
+        "value": "0.48 index"
+      },
+      {
+        "rank": 38,
+        "code": "IR",
+        "value": "0.47 index"
+      },
+      {
+        "rank": 39,
+        "code": "UG",
+        "value": "0.46 index"
+      },
+      {
+        "rank": 40,
+        "code": "ZW",
+        "value": "0.45 index"
+      },
+      {
+        "rank": 41,
+        "code": "LK",
+        "value": "0.44 index"
+      },
+      {
+        "rank": 42,
+        "code": "BI",
+        "value": "0.43 index"
+      },
+      {
+        "rank": 43,
+        "code": "AZ",
+        "value": "0.42 index"
+      },
+      {
+        "rank": 44,
+        "code": "ID",
+        "value": "0.41 index"
+      },
+      {
+        "rank": 45,
+        "code": "TH",
+        "value": "0.40 index"
       }
     ]
   },
@@ -143875,7 +148000,7 @@
     "title": "Highest PIRLS reading scores (Grade 4)",
     "prompt": "Name the countries with the highest average 4th-grade reading scores on PIRLS.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "IEA \u2014 PIRLS 2021 International Results in Reading",
       "url": "https://pirls2021.org/results/",
@@ -143908,23 +148033,23 @@
       },
       {
         "rank": 5,
+        "code": "LT",
+        "value": "552"
+      },
+      {
+        "rank": 6,
         "code": "FI",
         "value": "549"
       },
       {
         "rank": 6,
         "code": "PL",
-        "value": "549"
-      },
-      {
-        "rank": 7,
-        "code": "DK",
-        "value": "547"
+        "value": "549 (tied)"
       },
       {
         "rank": 8,
-        "code": "NO",
-        "value": "539"
+        "code": "DK",
+        "value": "547"
       },
       {
         "rank": 9,
@@ -143937,29 +148062,204 @@
         "value": "540"
       },
       {
-        "rank": 11,
-        "code": "CZ",
-        "value": "540"
+        "rank": 10,
+        "code": "BG",
+        "value": "540 (tied)"
       },
       {
-        "rank": 12,
-        "code": "BG",
-        "value": "540"
+        "rank": 10,
+        "code": "CZ",
+        "value": "540 (tied)"
       },
       {
         "rank": 13,
-        "code": "IT",
-        "value": "537"
+        "code": "NO",
+        "value": "539"
       },
       {
         "rank": 14,
-        "code": "LT",
-        "value": "552"
+        "code": "IT",
+        "value": "537"
       },
       {
         "rank": 15,
         "code": "AT",
         "value": "530"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "529"
+      },
+      {
+        "rank": 17,
+        "code": "HU",
+        "value": "529"
+      },
+      {
+        "rank": 18,
+        "code": "NL",
+        "value": "527"
+      },
+      {
+        "rank": 19,
+        "code": "US",
+        "value": "525"
+      },
+      {
+        "rank": 20,
+        "code": "DE",
+        "value": "524"
+      },
+      {
+        "rank": 21,
+        "code": "MO",
+        "value": "524 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "LV",
+        "value": "522"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "519"
+      },
+      {
+        "rank": 24,
+        "code": "PT",
+        "value": "520"
+      },
+      {
+        "rank": 25,
+        "code": "CA",
+        "value": "518"
+      },
+      {
+        "rank": 26,
+        "code": "SI",
+        "value": "520"
+      },
+      {
+        "rank": 27,
+        "code": "NZ",
+        "value": "521"
+      },
+      {
+        "rank": 28,
+        "code": "AE",
+        "value": "483"
+      },
+      {
+        "rank": 29,
+        "code": "HR",
+        "value": "517"
+      },
+      {
+        "rank": 30,
+        "code": "SK",
+        "value": "515"
+      },
+      {
+        "rank": 31,
+        "code": "ES",
+        "value": "521"
+      },
+      {
+        "rank": 32,
+        "code": "FR",
+        "value": "514"
+      },
+      {
+        "rank": 33,
+        "code": "MT",
+        "value": "510"
+      },
+      {
+        "rank": 34,
+        "code": "SR",
+        "value": "514"
+      },
+      {
+        "rank": 35,
+        "code": "CY",
+        "value": "511"
+      },
+      {
+        "rank": 36,
+        "code": "TR",
+        "value": "496"
+      },
+      {
+        "rank": 37,
+        "code": "AL",
+        "value": "513"
+      },
+      {
+        "rank": 38,
+        "code": "BH",
+        "value": "457"
+      },
+      {
+        "rank": 39,
+        "code": "OM",
+        "value": "429"
+      },
+      {
+        "rank": 40,
+        "code": "QA",
+        "value": "461"
+      },
+      {
+        "rank": 41,
+        "code": "SA",
+        "value": "429"
+      },
+      {
+        "rank": 42,
+        "code": "AZ",
+        "value": "440"
+      },
+      {
+        "rank": 43,
+        "code": "KZ",
+        "value": "504"
+      },
+      {
+        "rank": 44,
+        "code": "GE",
+        "value": "482"
+      },
+      {
+        "rank": 45,
+        "code": "IR",
+        "value": "413"
+      },
+      {
+        "rank": 46,
+        "code": "MA",
+        "value": "372"
+      },
+      {
+        "rank": 47,
+        "code": "EG",
+        "value": "378"
+      },
+      {
+        "rank": 48,
+        "code": "JO",
+        "value": "381"
+      },
+      {
+        "rank": 49,
+        "code": "ZA",
+        "value": "288"
+      },
+      {
+        "rank": 50,
+        "code": "UZ",
+        "value": "449"
       }
     ]
   },
@@ -143970,7 +148270,7 @@
     "title": "Highest adult literacy rate",
     "prompt": "Name the countries with the highest adult (age 15+) literacy rate.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 45,
     "source": {
       "name": "UNESCO Institute for Statistics \u2014 Literacy Rate, Adult Total",
       "url": "http://data.uis.unesco.org/",
@@ -143992,9 +148292,9 @@
         "value": "99.9%"
       },
       {
-        "rank": 3,
-        "code": "GE",
-        "value": "99.6%"
+        "rank": 2,
+        "code": "LV",
+        "value": "99.9% (tied)"
       },
       {
         "rank": 4,
@@ -144002,59 +148302,209 @@
         "value": "99.8%"
       },
       {
-        "rank": 5,
+        "rank": 4,
         "code": "AM",
-        "value": "99.8%"
+        "value": "99.8% (tied)"
       },
       {
-        "rank": 6,
+        "rank": 4,
         "code": "TJ",
-        "value": "99.8%"
+        "value": "99.8% (tied)"
       },
       {
-        "rank": 7,
+        "rank": 4,
+        "code": "EE",
+        "value": "99.8% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "LT",
+        "value": "99.8% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "BY",
+        "value": "99.8% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "PL",
+        "value": "99.8% (tied)"
+      },
+      {
+        "rank": 11,
         "code": "CU",
         "value": "99.7%"
       },
       {
-        "rank": 8,
+        "rank": 11,
         "code": "UA",
-        "value": "99.7%"
-      },
-      {
-        "rank": 9,
-        "code": "RU",
-        "value": "99.7%"
-      },
-      {
-        "rank": 10,
-        "code": "LV",
-        "value": "99.9%"
+        "value": "99.7% (tied)"
       },
       {
         "rank": 11,
-        "code": "EE",
-        "value": "99.8%"
-      },
-      {
-        "rank": 12,
-        "code": "LT",
-        "value": "99.8%"
-      },
-      {
-        "rank": 13,
-        "code": "BY",
-        "value": "99.8%"
+        "code": "RU",
+        "value": "99.7% (tied)"
       },
       {
         "rank": 14,
-        "code": "PL",
-        "value": "99.8%"
+        "code": "GE",
+        "value": "99.6%"
       },
       {
-        "rank": 15,
+        "rank": 14,
+        "code": "KG",
+        "value": "99.6% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "SK",
+        "value": "99.6% (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "TM",
+        "value": "99.5%"
+      },
+      {
+        "rank": 18,
         "code": "MD",
         "value": "99.4%"
+      },
+      {
+        "rank": 18,
+        "code": "MN",
+        "value": "99.4% (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CZ",
+        "value": "99.3%"
+      },
+      {
+        "rank": 21,
+        "code": "HU",
+        "value": "99.1%"
+      },
+      {
+        "rank": 22,
+        "code": "SI",
+        "value": "99.7%"
+      },
+      {
+        "rank": 23,
+        "code": "BG",
+        "value": "98.4%"
+      },
+      {
+        "rank": 24,
+        "code": "IT",
+        "value": "99.2%"
+      },
+      {
+        "rank": 25,
+        "code": "HR",
+        "value": "99.3%"
+      },
+      {
+        "rank": 26,
+        "code": "RS",
+        "value": "99.5%"
+      },
+      {
+        "rank": 27,
+        "code": "AR",
+        "value": "99.0%"
+      },
+      {
+        "rank": 28,
+        "code": "RO",
+        "value": "99.0%"
+      },
+      {
+        "rank": 29,
+        "code": "TT",
+        "value": "99.0%"
+      },
+      {
+        "rank": 30,
+        "code": "MK",
+        "value": "98.4%"
+      },
+      {
+        "rank": 31,
+        "code": "PS",
+        "value": "98.2%"
+      },
+      {
+        "rank": 32,
+        "code": "AL",
+        "value": "98.5%"
+      },
+      {
+        "rank": 33,
+        "code": "GR",
+        "value": "98.5%"
+      },
+      {
+        "rank": 34,
+        "code": "ES",
+        "value": "98.6%"
+      },
+      {
+        "rank": 35,
+        "code": "CY",
+        "value": "99.1%"
+      },
+      {
+        "rank": 36,
+        "code": "MT",
+        "value": "94.9%"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "97.8%"
+      },
+      {
+        "rank": 38,
+        "code": "VE",
+        "value": "97.5%"
+      },
+      {
+        "rank": 39,
+        "code": "UY",
+        "value": "98.8%"
+      },
+      {
+        "rank": 40,
+        "code": "CL",
+        "value": "97.6%"
+      },
+      {
+        "rank": 41,
+        "code": "CR",
+        "value": "97.9%"
+      },
+      {
+        "rank": 42,
+        "code": "PT",
+        "value": "96.8%"
+      },
+      {
+        "rank": 43,
+        "code": "TH",
+        "value": "94.1%"
+      },
+      {
+        "rank": 44,
+        "code": "BN",
+        "value": "97.6%"
+      },
+      {
+        "rank": 45,
+        "code": "QA",
+        "value": "93.5%"
       }
     ]
   },
@@ -144065,7 +148515,7 @@
     "title": "Most average years of schooling",
     "prompt": "Name the countries where adults have completed the most years of formal schooling on average.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "UNDP \u2014 Human Development Report, Mean Years of Schooling",
       "url": "https://hdr.undp.org/data-center/documentation-and-downloads",
@@ -144088,38 +148538,38 @@
       },
       {
         "rank": 3,
-        "code": "AU",
-        "value": "12.7 years"
+        "code": "CA",
+        "value": "13.8 years"
       },
       {
-        "rank": 4,
+        "rank": 3,
+        "code": "IS",
+        "value": "13.8 years (tied)"
+      },
+      {
+        "rank": 5,
         "code": "US",
         "value": "13.7 years"
       },
       {
-        "rank": 5,
+        "rank": 6,
+        "code": "EE",
+        "value": "13.5 years"
+      },
+      {
+        "rank": 7,
         "code": "GB",
         "value": "13.4 years"
       },
       {
-        "rank": 6,
-        "code": "IS",
-        "value": "13.8 years"
-      },
-      {
         "rank": 7,
-        "code": "IE",
-        "value": "11.6 years"
-      },
-      {
-        "rank": 8,
         "code": "IL",
-        "value": "13.4 years"
+        "value": "13.4 years (tied)"
       },
       {
         "rank": 9,
-        "code": "CA",
-        "value": "13.8 years"
+        "code": "AU",
+        "value": "13.3 years"
       },
       {
         "rank": 10,
@@ -144132,24 +148582,149 @@
         "value": "12.9 years"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "FI",
-        "value": "12.9 years"
+        "value": "12.9 years (tied)"
       },
       {
         "rank": 13,
+        "code": "IE",
+        "value": "13.0 years"
+      },
+      {
+        "rank": 14,
+        "code": "LT",
+        "value": "13.6 years"
+      },
+      {
+        "rank": 15,
+        "code": "KZ",
+        "value": "12.3 years"
+      },
+      {
+        "rank": 16,
         "code": "NL",
         "value": "12.6 years"
       },
       {
-        "rank": 14,
+        "rank": 16,
         "code": "SE",
+        "value": "12.6 years (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "12.4 years"
+      },
+      {
+        "rank": 19,
+        "code": "DK",
+        "value": "13.0 years"
+      },
+      {
+        "rank": 20,
+        "code": "LV",
+        "value": "13.4 years"
+      },
+      {
+        "rank": 21,
+        "code": "KR",
         "value": "12.6 years"
       },
       {
-        "rank": 15,
-        "code": "EE",
-        "value": "13.5 years"
+        "rank": 22,
+        "code": "SI",
+        "value": "12.9 years"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "12.9 years"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "13.0 years"
+      },
+      {
+        "rank": 25,
+        "code": "SK",
+        "value": "12.9 years"
+      },
+      {
+        "rank": 26,
+        "code": "HU",
+        "value": "12.2 years"
+      },
+      {
+        "rank": 27,
+        "code": "JP",
+        "value": "13.4 years"
+      },
+      {
+        "rank": 28,
+        "code": "GE",
+        "value": "12.8 years"
+      },
+      {
+        "rank": 29,
+        "code": "RU",
+        "value": "12.7 years"
+      },
+      {
+        "rank": 30,
+        "code": "BY",
+        "value": "12.3 years"
+      },
+      {
+        "rank": 31,
+        "code": "FR",
+        "value": "11.6 years"
+      },
+      {
+        "rank": 32,
+        "code": "AT",
+        "value": "12.3 years"
+      },
+      {
+        "rank": 33,
+        "code": "LU",
+        "value": "13.0 years"
+      },
+      {
+        "rank": 34,
+        "code": "UA",
+        "value": "11.1 years"
+      },
+      {
+        "rank": 35,
+        "code": "IT",
+        "value": "10.7 years"
+      },
+      {
+        "rank": 36,
+        "code": "ES",
+        "value": "10.6 years"
+      },
+      {
+        "rank": 37,
+        "code": "CY",
+        "value": "12.4 years"
+      },
+      {
+        "rank": 38,
+        "code": "GR",
+        "value": "11.4 years"
+      },
+      {
+        "rank": 39,
+        "code": "PT",
+        "value": "9.7 years"
+      },
+      {
+        "rank": 40,
+        "code": "HR",
+        "value": "12.2 years"
       }
     ]
   },
@@ -144160,7 +148735,7 @@
     "title": "Highest English proficiency (non-native)",
     "prompt": "Name the countries with the highest EF English Proficiency Index score among nations where English is not the primary native language.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "EF Education First \u2014 English Proficiency Index (EF EPI)",
       "url": "https://www.ef.com/wwen/epi/",
@@ -144213,18 +148788,18 @@
       },
       {
         "rank": 9,
-        "code": "DE",
-        "value": "596"
-      },
-      {
-        "rank": 10,
         "code": "PL",
         "value": "597"
       },
       {
-        "rank": 11,
+        "rank": 9,
         "code": "BE",
-        "value": "597"
+        "value": "597 (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "DE",
+        "value": "596"
       },
       {
         "rank": 12,
@@ -144245,6 +148820,131 @@
         "rank": 15,
         "code": "SI",
         "value": "584"
+      },
+      {
+        "rank": 16,
+        "code": "RO",
+        "value": "583"
+      },
+      {
+        "rank": 17,
+        "code": "LU",
+        "value": "580"
+      },
+      {
+        "rank": 18,
+        "code": "BG",
+        "value": "579"
+      },
+      {
+        "rank": 19,
+        "code": "PH",
+        "value": "578"
+      },
+      {
+        "rank": 20,
+        "code": "SG",
+        "value": "631"
+      },
+      {
+        "rank": 21,
+        "code": "EE",
+        "value": "574"
+      },
+      {
+        "rank": 22,
+        "code": "LT",
+        "value": "574"
+      },
+      {
+        "rank": 23,
+        "code": "MY",
+        "value": "570"
+      },
+      {
+        "rank": 24,
+        "code": "SK",
+        "value": "569"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "567"
+      },
+      {
+        "rank": 26,
+        "code": "LV",
+        "value": "563"
+      },
+      {
+        "rank": 27,
+        "code": "ZA",
+        "value": "562"
+      },
+      {
+        "rank": 28,
+        "code": "AR",
+        "value": "560"
+      },
+      {
+        "rank": 29,
+        "code": "KE",
+        "value": "558"
+      },
+      {
+        "rank": 30,
+        "code": "CH",
+        "value": "563"
+      },
+      {
+        "rank": 31,
+        "code": "ES",
+        "value": "545"
+      },
+      {
+        "rank": 32,
+        "code": "IT",
+        "value": "548"
+      },
+      {
+        "rank": 33,
+        "code": "FR",
+        "value": "540"
+      },
+      {
+        "rank": 34,
+        "code": "BY",
+        "value": "541"
+      },
+      {
+        "rank": 35,
+        "code": "UA",
+        "value": "543"
+      },
+      {
+        "rank": 36,
+        "code": "CR",
+        "value": "530"
+      },
+      {
+        "rank": 37,
+        "code": "CU",
+        "value": "525"
+      },
+      {
+        "rank": 38,
+        "code": "GE",
+        "value": "540"
+      },
+      {
+        "rank": 39,
+        "code": "PY",
+        "value": "532"
+      },
+      {
+        "rank": 40,
+        "code": "AL",
+        "value": "520"
       }
     ]
   },
@@ -144425,7 +149125,7 @@
     "title": "Highest spending per student (secondary)",
     "prompt": "Name the countries that spend the most per secondary-school student on education.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "OECD \u2014 Education at a Glance 2024, Expenditure per Student (Secondary)",
       "url": "https://www.oecd.org/education/education-at-a-glance/",
@@ -144443,23 +149143,23 @@
       },
       {
         "rank": 2,
+        "code": "KR",
+        "value": "$18,600"
+      },
+      {
+        "rank": 3,
         "code": "US",
         "value": "$17,300"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "AT",
         "value": "$17,000"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "NO",
         "value": "$16,900"
-      },
-      {
-        "rank": 5,
-        "code": "KR",
-        "value": "$18,600"
       },
       {
         "rank": 6,
@@ -144510,6 +149210,131 @@
         "rank": 15,
         "code": "GB",
         "value": "$13,500"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "$12,800"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "$12,700"
+      },
+      {
+        "rank": 18,
+        "code": "JP",
+        "value": "$12,300"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "$21,200"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "$11,900"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "$11,700"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "$11,500"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "$11,300"
+      },
+      {
+        "rank": 24,
+        "code": "NZ",
+        "value": "$11,100"
+      },
+      {
+        "rank": 25,
+        "code": "EE",
+        "value": "$10,700"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "$10,300"
+      },
+      {
+        "rank": 27,
+        "code": "IL",
+        "value": "$10,100"
+      },
+      {
+        "rank": 28,
+        "code": "CZ",
+        "value": "$10,000"
+      },
+      {
+        "rank": 29,
+        "code": "SK",
+        "value": "$9,800"
+      },
+      {
+        "rank": 30,
+        "code": "LV",
+        "value": "$9,700"
+      },
+      {
+        "rank": 31,
+        "code": "LT",
+        "value": "$9,500"
+      },
+      {
+        "rank": 32,
+        "code": "HU",
+        "value": "$9,000"
+      },
+      {
+        "rank": 33,
+        "code": "CL",
+        "value": "$6,700"
+      },
+      {
+        "rank": 34,
+        "code": "TR",
+        "value": "$5,400"
+      },
+      {
+        "rank": 35,
+        "code": "MX",
+        "value": "$4,500"
+      },
+      {
+        "rank": 36,
+        "code": "CO",
+        "value": "$3,700"
+      },
+      {
+        "rank": 37,
+        "code": "CR",
+        "value": "$4,200"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "$3,800"
+      },
+      {
+        "rank": 39,
+        "code": "AR",
+        "value": "$4,000"
+      },
+      {
+        "rank": 40,
+        "code": "ID",
+        "value": "$1,900"
       }
     ]
   },
@@ -144520,7 +149345,7 @@
     "title": "Most students studying abroad",
     "prompt": "Name the countries whose citizens make up the largest populations of internationally mobile tertiary students studying abroad.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "UNESCO Institute for Statistics \u2014 Global Flow of Tertiary-Level Students",
       "url": "https://uis.unesco.org/en/uis-student-flow",
@@ -144589,7 +149414,7 @@
       {
         "rank": 12,
         "code": "NG",
-        "value": "72,000 students"
+        "value": "72,000 students (tied)"
       },
       {
         "rank": 13,
@@ -144605,6 +149430,131 @@
         "rank": 15,
         "code": "MA",
         "value": "61,000 students"
+      },
+      {
+        "rank": 16,
+        "code": "NP",
+        "value": "59,000 students"
+      },
+      {
+        "rank": 17,
+        "code": "SA",
+        "value": "58,000 students"
+      },
+      {
+        "rank": 18,
+        "code": "PK",
+        "value": "56,000 students"
+      },
+      {
+        "rank": 19,
+        "code": "UZ",
+        "value": "55,000 students"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "51,000 students"
+      },
+      {
+        "rank": 21,
+        "code": "ID",
+        "value": "50,000 students"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "49,000 students"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "48,000 students"
+      },
+      {
+        "rank": 24,
+        "code": "TW",
+        "value": "46,000 students"
+      },
+      {
+        "rank": 25,
+        "code": "IR",
+        "value": "44,000 students"
+      },
+      {
+        "rank": 26,
+        "code": "BD",
+        "value": "42,000 students"
+      },
+      {
+        "rank": 27,
+        "code": "TM",
+        "value": "41,000 students"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "40,000 students"
+      },
+      {
+        "rank": 29,
+        "code": "CM",
+        "value": "39,000 students"
+      },
+      {
+        "rank": 30,
+        "code": "GB",
+        "value": "38,000 students"
+      },
+      {
+        "rank": 31,
+        "code": "PL",
+        "value": "37,000 students"
+      },
+      {
+        "rank": 32,
+        "code": "GR",
+        "value": "36,000 students"
+      },
+      {
+        "rank": 33,
+        "code": "CO",
+        "value": "35,000 students"
+      },
+      {
+        "rank": 34,
+        "code": "RO",
+        "value": "34,000 students"
+      },
+      {
+        "rank": 35,
+        "code": "CA",
+        "value": "33,000 students"
+      },
+      {
+        "rank": 36,
+        "code": "MX",
+        "value": "32,000 students"
+      },
+      {
+        "rank": 37,
+        "code": "JP",
+        "value": "31,000 students"
+      },
+      {
+        "rank": 38,
+        "code": "AZ",
+        "value": "30,000 students"
+      },
+      {
+        "rank": 39,
+        "code": "NL",
+        "value": "29,000 students"
+      },
+      {
+        "rank": 40,
+        "code": "CI",
+        "value": "28,000 students"
       }
     ]
   },
@@ -144615,7 +149565,7 @@
     "title": "Lowest secondary student-teacher ratio",
     "prompt": "Name the countries with the smallest number of students per teacher in secondary education.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / UNESCO UIS \u2014 Pupil-Teacher Ratio, Secondary",
       "url": "https://data.worldbank.org/indicator/SE.SEC.ENRL.TC.ZS",
@@ -144638,58 +149588,58 @@
       },
       {
         "rank": 3,
+        "code": "LT",
+        "value": "8.0:1"
+      },
+      {
+        "rank": 4,
         "code": "AT",
         "value": "8.6:1"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "NO",
         "value": "8.9:1"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "BE",
         "value": "9.0:1"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "PL",
         "value": "9.3:1"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "LU",
         "value": "9.4:1"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "IT",
         "value": "9.5:1"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "LV",
         "value": "9.6:1"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "SI",
         "value": "9.7:1"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "HU",
         "value": "10.0:1"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "EE",
         "value": "10.1:1"
-      },
-      {
-        "rank": 13,
-        "code": "LT",
-        "value": "8.0:1"
       },
       {
         "rank": 14,
@@ -144698,8 +149648,133 @@
       },
       {
         "rank": 15,
+        "code": "FI",
+        "value": "10.5:1"
+      },
+      {
+        "rank": 16,
+        "code": "DK",
+        "value": "10.7:1"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "10.9:1"
+      },
+      {
+        "rank": 18,
+        "code": "HR",
+        "value": "11.2:1"
+      },
+      {
+        "rank": 19,
+        "code": "BG",
+        "value": "11.5:1"
+      },
+      {
+        "rank": 20,
+        "code": "SK",
+        "value": "11.7:1"
+      },
+      {
+        "rank": 21,
         "code": "DE",
         "value": "12.0:1"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "12.1:1"
+      },
+      {
+        "rank": 23,
+        "code": "SE",
+        "value": "12.2:1"
+      },
+      {
+        "rank": 24,
+        "code": "IE",
+        "value": "12.4:1"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "12.6:1"
+      },
+      {
+        "rank": 26,
+        "code": "CH",
+        "value": "12.7:1"
+      },
+      {
+        "rank": 27,
+        "code": "NL",
+        "value": "13.0:1"
+      },
+      {
+        "rank": 28,
+        "code": "FR",
+        "value": "13.1:1"
+      },
+      {
+        "rank": 29,
+        "code": "CY",
+        "value": "13.2:1"
+      },
+      {
+        "rank": 30,
+        "code": "GB",
+        "value": "13.5:1"
+      },
+      {
+        "rank": 31,
+        "code": "US",
+        "value": "14.4:1"
+      },
+      {
+        "rank": 32,
+        "code": "AU",
+        "value": "13.6:1"
+      },
+      {
+        "rank": 33,
+        "code": "CA",
+        "value": "14.7:1"
+      },
+      {
+        "rank": 34,
+        "code": "JP",
+        "value": "12.9:1"
+      },
+      {
+        "rank": 35,
+        "code": "KR",
+        "value": "13.0:1"
+      },
+      {
+        "rank": 36,
+        "code": "IL",
+        "value": "12.8:1"
+      },
+      {
+        "rank": 37,
+        "code": "NZ",
+        "value": "14.0:1"
+      },
+      {
+        "rank": 38,
+        "code": "TR",
+        "value": "15.3:1"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "16.5:1"
+      },
+      {
+        "rank": 40,
+        "code": "MX",
+        "value": "16.9:1"
       }
     ]
   },
@@ -144710,7 +149785,7 @@
     "title": "Highest adult numeracy (PIAAC)",
     "prompt": "Name the countries whose adults scored highest on the OECD PIAAC adult numeracy assessment.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 31,
     "source": {
       "name": "OECD \u2014 Survey of Adult Skills (PIAAC), Cycle 2",
       "url": "https://www.oecd.org/en/about/programmes/piaac.html",
@@ -144737,9 +149812,9 @@
         "value": "285"
       },
       {
-        "rank": 4,
+        "rank": 3,
         "code": "NO",
-        "value": "285"
+        "value": "285 (tied)"
       },
       {
         "rank": 5,
@@ -144777,9 +149852,9 @@
         "value": "272"
       },
       {
-        "rank": 12,
+        "rank": 11,
         "code": "AT",
-        "value": "272"
+        "value": "272 (tied)"
       },
       {
         "rank": 13,
@@ -144795,6 +149870,86 @@
         "rank": 15,
         "code": "FR",
         "value": "260"
+      },
+      {
+        "rank": 16,
+        "code": "SK",
+        "value": "260"
+      },
+      {
+        "rank": 17,
+        "code": "KR",
+        "value": "253"
+      },
+      {
+        "rank": 18,
+        "code": "HU",
+        "value": "254"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "259"
+      },
+      {
+        "rank": 20,
+        "code": "PL",
+        "value": "255"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "254"
+      },
+      {
+        "rank": 22,
+        "code": "GB",
+        "value": "254"
+      },
+      {
+        "rank": 23,
+        "code": "IT",
+        "value": "244"
+      },
+      {
+        "rank": 24,
+        "code": "US",
+        "value": "249"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "244"
+      },
+      {
+        "rank": 26,
+        "code": "LV",
+        "value": "247"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "241"
+      },
+      {
+        "rank": 28,
+        "code": "IL",
+        "value": "240"
+      },
+      {
+        "rank": 29,
+        "code": "LT",
+        "value": "252"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "215"
+      },
+      {
+        "rank": 31,
+        "code": "CR",
+        "value": "204"
       }
     ]
   },
