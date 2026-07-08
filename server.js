@@ -289,7 +289,14 @@ function endRound(io, room) {
       const rank = rankByCode.get(code) ?? null;
       const inRange = rank !== null && rank <= topN ? rank : null;
       const points = scorePick(mode, inRange, topN, penalty);
-      return { code, label: labelForCode(q.answerType, code), rank: inRange, points };
+      return {
+        code,
+        label: labelForCode(q.answerType, code),
+        rank: inRange,
+        // Full rank in the source ranking (null = not in the source at all).
+        fullRank: rank,
+        points,
+      };
     });
     const roundScore = picksScored.reduce((s, x) => s + x.points, 0);
     p.score += roundScore;
@@ -304,6 +311,7 @@ function endRound(io, room) {
     questionId: q.id,
     questionTitle: q.title,
     correctAnswers,
+    totalRanked: q.answers.length,
     perPlayer,
     source: q.source,
     note: q.note,

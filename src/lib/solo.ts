@@ -43,6 +43,11 @@ export type SoloRoundResult = {
   questionTitle: string;
   yourPick: { code: string; label: string } | null;
   yourRank: number | null;
+  // Full rank of the picked code if present anywhere in the ranking (even
+  // beyond seededDepth / topN). Null if the pick isn't in the source list at
+  // all. Used to display "you picked Panama — #91" or "not in the ranking".
+  yourFullRank: number | null;
+  totalRanked: number; // total ranked entries we know about (>= seededDepth)
   pointsEarned: number;
   correctAnswers: Array<{ rank: number; code: string; value: string; label: string }>;
   source: { name: string; url: string; asOf: string };
@@ -219,11 +224,14 @@ export function getState(sessionId: string, userId: string): SoloClientState | n
       const match = pick ? prevQ.answers.find((a) => a.code === pick) : null;
       const inRange = match && match.rank <= topN ? match.rank : null;
       const points = scorePick(s.mode as SoloMode, inRange, topN, SOLO_MISS_PENALTY);
+      const fullRank = match ? match.rank : null;
       lastResult = {
         questionId: prevQ.id,
         questionTitle: prevQ.title,
         yourPick: pick ? { code: pick, label: labelForCode(prevQ.answerType, pick) } : null,
         yourRank: inRange,
+        yourFullRank: fullRank,
+        totalRanked: prevQ.answers.length,
         pointsEarned: points,
         correctAnswers: prevQ.answers
           .filter((a) => a.rank <= topN)

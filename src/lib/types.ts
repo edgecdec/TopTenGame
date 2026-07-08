@@ -24,12 +24,19 @@ export type RoundResults = {
   questionId: string;
   questionTitle: string;
   correctAnswers: Array<{ rank: number; code: string; value: string; label: string }>;
+  totalRanked: number;
   perPlayer: Record<
     string,
     {
       picks: string[];
       roundScore: number;
-      picksScored: Array<{ code: string; label: string; rank: number | null; points: number }>;
+      picksScored: Array<{
+        code: string;
+        label: string;
+        rank: number | null;
+        fullRank: number | null;
+        points: number;
+      }>;
     }
   >;
   source: { name: string; url: string; asOf: string };

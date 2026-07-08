@@ -39,6 +39,8 @@ type SoloRoundResult = {
   questionTitle: string;
   yourPick: { code: string; label: string } | null;
   yourRank: number | null;
+  yourFullRank: number | null;
+  totalRanked: number;
   pointsEarned: number;
   correctAnswers: Array<{ rank: number; code: string; value: string; label: string }>;
   source: { name: string; url: string; asOf: string };
@@ -193,14 +195,28 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
           <Typography variant="h5">{r.questionTitle}</Typography>
           <Paper sx={{ p: 2 }}>
             {r.yourPick ? (
-              <Typography>
-                Your pick: <b>{r.yourPick.label}</b>{" "}
-                {r.yourRank !== null ? (
-                  <Chip label={`#${r.yourRank} · +${r.pointsEarned}`} color="success" size="small" />
-                ) : (
-                  <Chip label={`Miss · +${r.pointsEarned}`} size="small" />
+              <Stack spacing={0.5}>
+                <Typography>
+                  Your pick: <b>{r.yourPick.label}</b>{" "}
+                  {r.yourRank !== null ? (
+                    <Chip label={`#${r.yourRank} · +${r.pointsEarned}`} color="success" size="small" />
+                  ) : r.yourFullRank !== null ? (
+                    <Chip label={`#${r.yourFullRank} · +${r.pointsEarned}`} size="small" />
+                  ) : (
+                    <Chip label={`N/A · +${r.pointsEarned}`} size="small" />
+                  )}
+                </Typography>
+                {r.yourRank === null && r.yourFullRank !== null && (
+                  <Typography variant="caption" color="text.secondary">
+                    {r.yourPick.label} ranked #{r.yourFullRank} of {r.totalRanked} — outside the top {r.correctAnswers.length}.
+                  </Typography>
                 )}
-              </Typography>
+                {r.yourRank === null && r.yourFullRank === null && (
+                  <Typography variant="caption" color="text.secondary">
+                    {r.yourPick.label} isn&apos;t in this ranking.
+                  </Typography>
+                )}
+              </Stack>
             ) : (
               <Typography color="text.secondary">No pick this round.</Typography>
             )}

@@ -730,15 +730,22 @@ function IntermissionView({
                   {details.picksScored.length === 0 && (
                     <Chip label="(no pick)" variant="outlined" size="small" />
                   )}
-                  {details.picksScored.map((ps, i) => (
-                    <Chip
-                      key={i}
-                      label={ps.rank ? `${ps.label} #${ps.rank} (+${ps.points})` : `${ps.label} (miss${ps.points !== 0 ? ` ${ps.points}` : ""})`}
-                      color={ps.rank ? "success" : "default"}
-                      variant={ps.rank ? "filled" : "outlined"}
-                      size="small"
-                    />
-                  ))}
+                  {details.picksScored.map((ps, i) => {
+                    const label = ps.rank
+                      ? `${ps.label} #${ps.rank} (+${ps.points})`
+                      : ps.fullRank
+                        ? `${ps.label} #${ps.fullRank} (outside top ${r.correctAnswers.length}${ps.points !== 0 ? `, ${ps.points}` : ""})`
+                        : `${ps.label} (N/A${ps.points !== 0 ? `, ${ps.points}` : ""})`;
+                    return (
+                      <Chip
+                        key={i}
+                        label={label}
+                        color={ps.rank ? "success" : "default"}
+                        variant={ps.rank ? "filled" : "outlined"}
+                        size="small"
+                      />
+                    );
+                  })}
                 </Stack>
               </Box>
             );
