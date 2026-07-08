@@ -4025,7 +4025,7 @@
     "title": "Highest Life Expectancy at Birth",
     "prompt": "Which countries have the highest life expectancy at birth?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 30,
     "source": {
       "name": "UN World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -4122,6 +4122,66 @@
         "rank": 18,
         "code": "CA",
         "value": "82.2 years"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "82.0 years"
+      },
+      {
+        "rank": 20,
+        "code": "BE",
+        "value": "81.9 years"
+      },
+      {
+        "rank": 21,
+        "code": "FI",
+        "value": "81.8 years"
+      },
+      {
+        "rank": 22,
+        "code": "PT",
+        "value": "81.6 years"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "81.4 years"
+      },
+      {
+        "rank": 24,
+        "code": "CY",
+        "value": "81.3 years"
+      },
+      {
+        "rank": 25,
+        "code": "SI",
+        "value": "81.2 years"
+      },
+      {
+        "rank": 26,
+        "code": "GR",
+        "value": "81.0 years"
+      },
+      {
+        "rank": 27,
+        "code": "DK",
+        "value": "80.9 years"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "80.7 years"
+      },
+      {
+        "rank": 29,
+        "code": "CR",
+        "value": "80.4 years"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "80.2 years"
       }
     ],
     "disclaimer": "Microstates (Monaco, San Marino) are excluded per UN WPP methodology; this is the standard sovereign-state ranking.",
@@ -4135,7 +4195,7 @@
     "title": "Most Physicians per 1,000 People",
     "prompt": "Which countries have the most physicians per 1,000 people?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 25,
     "source": {
       "name": "World Bank / WHO Global Health Workforce Statistics",
       "url": "https://data.worldbank.org/indicator/SH.MED.PHYS.ZS",
@@ -4232,6 +4292,41 @@
         "rank": 18,
         "code": "AU",
         "value": "4.0 per 1,000"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "3.9 per 1,000"
+      },
+      {
+        "rank": 20,
+        "code": "EE",
+        "value": "3.8 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "MT",
+        "value": "3.7 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "3.6 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "3.4 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "FI",
+        "value": "3.3 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "IE",
+        "value": "3.2 per 1,000"
       }
     ],
     "disclaimer": null,
@@ -4355,7 +4450,7 @@
     "title": "Highest Obesity Rate (Adults)",
     "prompt": "Which countries have the highest adult obesity rates?",
     "answerType": "Countries",
-    "seededDepth": 16,
+    "seededDepth": 30,
     "source": {
       "name": "WHO Global Health Observatory (BMI \u2265 30)",
       "url": "https://www.who.int/data/gho/data/themes/topics/topic-details/GHO/body-mass-index",
@@ -4442,6 +4537,76 @@
         "rank": 16,
         "code": "EG",
         "value": "32.0%"
+      },
+      {
+        "rank": 17,
+        "code": "IQ",
+        "value": "31.6%"
+      },
+      {
+        "rank": 18,
+        "code": "BH",
+        "value": "31.1%"
+      },
+      {
+        "rank": 19,
+        "code": "AE",
+        "value": "30.9%"
+      },
+      {
+        "rank": 20,
+        "code": "NZ",
+        "value": "30.8%"
+      },
+      {
+        "rank": 21,
+        "code": "LB",
+        "value": "30.4%"
+      },
+      {
+        "rank": 22,
+        "code": "AR",
+        "value": "29.6%"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "28.5%"
+      },
+      {
+        "rank": 24,
+        "code": "GB",
+        "value": "28.3%"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "28.2%"
+      },
+      {
+        "rank": 26,
+        "code": "CA",
+        "value": "27.5%"
+      },
+      {
+        "rank": 27,
+        "code": "CL",
+        "value": "27.3%"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "27.0%"
+      },
+      {
+        "rank": 29,
+        "code": "IE",
+        "value": "26.5%"
+      },
+      {
+        "rank": 30,
+        "code": "MT",
+        "value": "26.4%"
       }
     ],
     "disclaimer": "Pacific Island nations dominate the top ranks; the game shows sovereign states only. Values reflect WHO age-standardized estimates for adults 18+.",
@@ -4565,7 +4730,7 @@
     "title": "Highest Cancer Incidence Rate",
     "prompt": "Which countries have the highest age-standardized cancer incidence rates?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 30,
     "source": {
       "name": "IARC Global Cancer Observatory (GLOBOCAN)",
       "url": "https://gco.iarc.fr/today/en/dataviz/tables",
@@ -4662,6 +4827,66 @@
         "rank": 18,
         "code": "IT",
         "value": "292.6 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "LU",
+        "value": "290.1 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "IS",
+        "value": "289.4 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "287.0 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "HR",
+        "value": "285.3 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "MT",
+        "value": "283.8 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "277.9 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "AT",
+        "value": "276.1 per 100k"
+      },
+      {
+        "rank": 26,
+        "code": "SK",
+        "value": "273.4 per 100k"
+      },
+      {
+        "rank": 27,
+        "code": "EE",
+        "value": "271.2 per 100k"
+      },
+      {
+        "rank": 28,
+        "code": "LV",
+        "value": "268.5 per 100k"
+      },
+      {
+        "rank": 29,
+        "code": "LT",
+        "value": "266.8 per 100k"
+      },
+      {
+        "rank": 30,
+        "code": "ES",
+        "value": "263.7 per 100k"
       }
     ],
     "disclaimer": "High rates in wealthy nations reflect longer lifespans and better cancer detection/registries, not necessarily worse cancer causation.",
@@ -5430,7 +5655,7 @@
     "title": "Highest World Happiness Report Score",
     "prompt": "Which countries have the highest happiness scores according to the World Happiness Report?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 35,
     "source": {
       "name": "World Happiness Report 2024 (Gallup / UN SDSN / Oxford Wellbeing Research Centre)",
       "url": "https://worldhappiness.report/ed/2024/",
@@ -5527,6 +5752,91 @@
         "rank": 18,
         "code": "CZ",
         "value": "6.822"
+      },
+      {
+        "rank": 19,
+        "code": "LT",
+        "value": "6.818"
+      },
+      {
+        "rank": 20,
+        "code": "GB",
+        "value": "6.749"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "6.743"
+      },
+      {
+        "rank": 22,
+        "code": "AE",
+        "value": "6.733"
+      },
+      {
+        "rank": 23,
+        "code": "US",
+        "value": "6.725"
+      },
+      {
+        "rank": 24,
+        "code": "DE",
+        "value": "6.719"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "6.678"
+      },
+      {
+        "rank": 26,
+        "code": "UY",
+        "value": "6.611"
+      },
+      {
+        "rank": 27,
+        "code": "FR",
+        "value": "6.609"
+      },
+      {
+        "rank": 28,
+        "code": "SA",
+        "value": "6.594"
+      },
+      {
+        "rank": 29,
+        "code": "KZ",
+        "value": "6.593"
+      },
+      {
+        "rank": 30,
+        "code": "SG",
+        "value": "6.523"
+      },
+      {
+        "rank": 31,
+        "code": "TW",
+        "value": "6.503"
+      },
+      {
+        "rank": 32,
+        "code": "RO",
+        "value": "6.491"
+      },
+      {
+        "rank": 33,
+        "code": "SV",
+        "value": "6.469"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "6.448"
+      },
+      {
+        "rank": 35,
+        "code": "PL",
+        "value": "6.442"
       }
     ],
     "disclaimer": "Score is a 0-10 life-evaluation ladder average from Gallup World Poll respondents.",
@@ -5540,7 +5850,7 @@
     "title": "Least Corrupt Countries (Corruption Perceptions Index)",
     "prompt": "According to Transparency International, which countries are perceived as least corrupt in the public sector?",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 35,
     "source": {
       "name": "Transparency International Corruption Perceptions Index 2023",
       "url": "https://www.transparency.org/en/cpi/2023",
@@ -5629,14 +5939,99 @@
         "value": "73"
       },
       {
-        "rank": 17,
+        "rank": 16,
+        "code": "BE",
+        "value": "73 (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "JP",
+        "value": "73 (tied)"
+      },
+      {
+        "rank": 19,
         "code": "IS",
         "value": "72"
       },
       {
-        "rank": 18,
+        "rank": 20,
         "code": "AT",
         "value": "71"
+      },
+      {
+        "rank": 20,
+        "code": "GB",
+        "value": "71 (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "FR",
+        "value": "71 (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "SC",
+        "value": "71 (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "US",
+        "value": "69"
+      },
+      {
+        "rank": 24,
+        "code": "BB",
+        "value": "69 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "AE",
+        "value": "68"
+      },
+      {
+        "rank": 26,
+        "code": "BT",
+        "value": "68 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TW",
+        "value": "67"
+      },
+      {
+        "rank": 29,
+        "code": "CL",
+        "value": "66"
+      },
+      {
+        "rank": 30,
+        "code": "CV",
+        "value": "64"
+      },
+      {
+        "rank": 31,
+        "code": "KR",
+        "value": "63"
+      },
+      {
+        "rank": 32,
+        "code": "LT",
+        "value": "61"
+      },
+      {
+        "rank": 32,
+        "code": "PT",
+        "value": "61 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "ES",
+        "value": "60"
+      },
+      {
+        "rank": 34,
+        "code": "LV",
+        "value": "60 (tied)"
       }
     ],
     "disclaimer": "Higher score (out of 100) = less perceived corruption. Ties share the same rank.",
@@ -5760,7 +6155,7 @@
     "title": "Most Peaceful Countries (Global Peace Index)",
     "prompt": "According to the Institute for Economics & Peace, which countries are the most peaceful?",
     "answerType": "Countries",
-    "seededDepth": 17,
+    "seededDepth": 35,
     "source": {
       "name": "Global Peace Index 2024 (Institute for Economics & Peace)",
       "url": "https://www.visionofhumanity.org/maps/#/",
@@ -5852,6 +6247,96 @@
         "rank": 17,
         "code": "NL",
         "value": "1.522"
+      },
+      {
+        "rank": 18,
+        "code": "AU",
+        "value": "1.525"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "1.534"
+      },
+      {
+        "rank": 20,
+        "code": "DE",
+        "value": "1.548"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "1.551"
+      },
+      {
+        "rank": 22,
+        "code": "MU",
+        "value": "1.567"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "1.576"
+      },
+      {
+        "rank": 24,
+        "code": "BT",
+        "value": "1.581"
+      },
+      {
+        "rank": 25,
+        "code": "HR",
+        "value": "1.615"
+      },
+      {
+        "rank": 26,
+        "code": "RO",
+        "value": "1.629"
+      },
+      {
+        "rank": 27,
+        "code": "TW",
+        "value": "1.639"
+      },
+      {
+        "rank": 28,
+        "code": "BG",
+        "value": "1.652"
+      },
+      {
+        "rank": 29,
+        "code": "IT",
+        "value": "1.658"
+      },
+      {
+        "rank": 30,
+        "code": "LT",
+        "value": "1.669"
+      },
+      {
+        "rank": 31,
+        "code": "MG",
+        "value": "1.678"
+      },
+      {
+        "rank": 32,
+        "code": "SK",
+        "value": "1.680"
+      },
+      {
+        "rank": 33,
+        "code": "KW",
+        "value": "1.697"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "1.700"
+      },
+      {
+        "rank": 35,
+        "code": "ES",
+        "value": "1.706"
       }
     ],
     "disclaimer": "Lower score = more peaceful. Composite of 23 indicators covering conflict, safety, and militarization.",
@@ -6085,7 +6570,7 @@
     "title": "Highest Incarceration Rate per Capita",
     "prompt": "Which countries have the highest prison population rate per 100,000 people?",
     "answerType": "Countries",
-    "seededDepth": 17,
+    "seededDepth": 30,
     "source": {
       "name": "World Prison Brief (Institute for Crime & Justice Policy Research)",
       "url": "https://www.prisonstudies.org/highest-to-lowest/prison_population_rate",
@@ -6177,6 +6662,71 @@
         "rank": 17,
         "code": "PE",
         "value": "297 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "AG",
+        "value": "295 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "ZA",
+        "value": "289 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "MN",
+        "value": "283 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "KN",
+        "value": "279 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "KG",
+        "value": "271 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "AZ",
+        "value": "266 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "CO",
+        "value": "263 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "LT",
+        "value": "236 per 100k"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "234 per 100k"
+      },
+      {
+        "rank": 27,
+        "code": "IL",
+        "value": "233 per 100k"
+      },
+      {
+        "rank": 28,
+        "code": "ZW",
+        "value": "227 per 100k"
+      },
+      {
+        "rank": 29,
+        "code": "AU",
+        "value": "213 per 100k"
+      },
+      {
+        "rank": 30,
+        "code": "PL",
+        "value": "194 per 100k"
       }
     ],
     "disclaimer": "Rate is prison population per 100,000 of the national population. Recent policy shifts have reordered the top of the list.",
@@ -10100,7 +10650,7 @@
     "title": "Highest Death Rate",
     "prompt": "Name the countries with the highest crude death rate (deaths per 1,000 people per year).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "UN DESA \u2014 World Population Prospects 2024 (Crude Death Rate)",
       "url": "https://population.un.org/wpp/",
@@ -10207,6 +10757,56 @@
         "rank": 20,
         "code": "PT",
         "value": "12.4 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "12.3 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "SK",
+        "value": "12.2 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "JP",
+        "value": "12.1 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "IT",
+        "value": "12.0 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "SI",
+        "value": "11.8 per 1,000"
+      },
+      {
+        "rank": 26,
+        "code": "FI",
+        "value": "11.5 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "BA",
+        "value": "11.2 per 1,000"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "11.0 per 1,000"
+      },
+      {
+        "rank": 29,
+        "code": "ME",
+        "value": "10.9 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "DK",
+        "value": "10.5 per 1,000"
       }
     ],
     "disclaimer": "Crude death rate is deaths per 1,000 population per year. It reflects age structure as much as underlying mortality \u2014 it does not measure life expectancy directly.",
@@ -10460,7 +11060,7 @@
     "title": "Largest Household Size",
     "prompt": "Name the countries with the largest average household size (persons per household).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "UN DESA \u2014 Household Size and Composition Database 2022",
       "url": "https://www.un.org/development/desa/pd/data/household-size-and-composition",
@@ -10567,6 +11167,56 @@
         "rank": 20,
         "code": "MR",
         "value": "5.3 persons"
+      },
+      {
+        "rank": 21,
+        "code": "AO",
+        "value": "5.2 persons"
+      },
+      {
+        "rank": 22,
+        "code": "ZM",
+        "value": "5.1 persons"
+      },
+      {
+        "rank": 23,
+        "code": "MW",
+        "value": "5.0 persons"
+      },
+      {
+        "rank": 23,
+        "code": "BI",
+        "value": "5.0 persons (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "ET",
+        "value": "4.9 persons"
+      },
+      {
+        "rank": 26,
+        "code": "RW",
+        "value": "4.8 persons"
+      },
+      {
+        "rank": 27,
+        "code": "PG",
+        "value": "4.7 persons"
+      },
+      {
+        "rank": 27,
+        "code": "CM",
+        "value": "4.7 persons (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "MG",
+        "value": "4.6 persons"
+      },
+      {
+        "rank": 29,
+        "code": "UG",
+        "value": "4.6 persons (tied)"
       }
     ],
     "disclaimer": "Sub-Saharan African and South Asian countries dominate due to high fertility and multi-generational co-residence. Values reflect the most recent census available per country.",
@@ -86175,7 +86825,7 @@
     "title": "Longest average work week",
     "prompt": "Name the countries where employed people work the longest average hours per week.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "ILOSTAT \u2014 Mean weekly hours actually worked per employed person",
       "url": "https://ilostat.ilo.org/topics/working-time/",
@@ -86219,7 +86869,7 @@
       {
         "rank": 6,
         "code": "IN",
-        "value": "47.7 hours"
+        "value": "47.7 hours (tied)"
       },
       {
         "rank": 8,
@@ -86260,6 +86910,106 @@
         "rank": 15,
         "code": "JO",
         "value": "44.7 hours"
+      },
+      {
+        "rank": 16,
+        "code": "BD",
+        "value": "44.4 hours"
+      },
+      {
+        "rank": 17,
+        "code": "MN",
+        "value": "44.3 hours"
+      },
+      {
+        "rank": 18,
+        "code": "TR",
+        "value": "44.1 hours"
+      },
+      {
+        "rank": 19,
+        "code": "PH",
+        "value": "43.9 hours"
+      },
+      {
+        "rank": 20,
+        "code": "TH",
+        "value": "43.7 hours"
+      },
+      {
+        "rank": 21,
+        "code": "KR",
+        "value": "43.4 hours"
+      },
+      {
+        "rank": 22,
+        "code": "MY",
+        "value": "43.0 hours"
+      },
+      {
+        "rank": 23,
+        "code": "CN",
+        "value": "42.9 hours"
+      },
+      {
+        "rank": 24,
+        "code": "KH",
+        "value": "42.7 hours"
+      },
+      {
+        "rank": 25,
+        "code": "HK",
+        "value": "42.5 hours"
+      },
+      {
+        "rank": 26,
+        "code": "CR",
+        "value": "42.3 hours"
+      },
+      {
+        "rank": 27,
+        "code": "PE",
+        "value": "42.1 hours"
+      },
+      {
+        "rank": 28,
+        "code": "CO",
+        "value": "42.0 hours"
+      },
+      {
+        "rank": 29,
+        "code": "PA",
+        "value": "41.9 hours"
+      },
+      {
+        "rank": 30,
+        "code": "TW",
+        "value": "41.7 hours"
+      },
+      {
+        "rank": 31,
+        "code": "VN",
+        "value": "41.5 hours"
+      },
+      {
+        "rank": 32,
+        "code": "GT",
+        "value": "41.4 hours"
+      },
+      {
+        "rank": 33,
+        "code": "DO",
+        "value": "41.2 hours"
+      },
+      {
+        "rank": 34,
+        "code": "HN",
+        "value": "41.0 hours"
+      },
+      {
+        "rank": 35,
+        "code": "CL",
+        "value": "40.9 hours"
       }
     ]
   },
@@ -86270,7 +87020,7 @@
     "title": "Shortest average work week",
     "prompt": "Name the countries where employed people work the fewest average hours per week.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "ILOSTAT \u2014 Mean weekly hours actually worked per employed person",
       "url": "https://ilostat.ilo.org/topics/working-time/",
@@ -86354,7 +87104,82 @@
       {
         "rank": 14,
         "code": "SE",
-        "value": "36.4 hours"
+        "value": "36.4 hours (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "FI",
+        "value": "36.7 hours"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "36.9 hours"
+      },
+      {
+        "rank": 18,
+        "code": "LU",
+        "value": "37.0 hours"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "37.2 hours"
+      },
+      {
+        "rank": 20,
+        "code": "NZ",
+        "value": "37.4 hours"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "37.5 hours"
+      },
+      {
+        "rank": 22,
+        "code": "US",
+        "value": "37.7 hours"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "37.9 hours"
+      },
+      {
+        "rank": 24,
+        "code": "SI",
+        "value": "38.4 hours"
+      },
+      {
+        "rank": 25,
+        "code": "IS",
+        "value": "38.6 hours"
+      },
+      {
+        "rank": 26,
+        "code": "JP",
+        "value": "38.8 hours"
+      },
+      {
+        "rank": 27,
+        "code": "EE",
+        "value": "38.9 hours"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "39.1 hours"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "39.4 hours"
+      },
+      {
+        "rank": 30,
+        "code": "SK",
+        "value": "39.6 hours"
       }
     ]
   },
@@ -86365,7 +87190,7 @@
     "title": "Strongest employment protection",
     "prompt": "Name the countries with the strictest employment protection laws for regular workers.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "OECD \u2014 Employment Protection Legislation Index",
       "url": "https://www.oecd.org/employment/emp/oecdindicatorsofemploymentprotection.htm",
@@ -86384,72 +87209,147 @@
       {
         "rank": 2,
         "code": "CZ",
-        "value": "2.87"
+        "value": "2.87 (0-6 scale)"
       },
       {
         "rank": 3,
         "code": "NL",
-        "value": "2.84"
+        "value": "2.84 (0-6 scale)"
       },
       {
         "rank": 4,
         "code": "IT",
-        "value": "2.76"
+        "value": "2.76 (0-6 scale)"
       },
       {
         "rank": 5,
         "code": "LV",
-        "value": "2.62"
+        "value": "2.62 (0-6 scale)"
       },
       {
         "rank": 5,
         "code": "LU",
-        "value": "2.62"
+        "value": "2.62 (0-6 scale) (tied)"
       },
       {
         "rank": 7,
         "code": "DE",
-        "value": "2.60"
+        "value": "2.60 (0-6 scale)"
       },
       {
         "rank": 8,
         "code": "BE",
-        "value": "2.53"
+        "value": "2.53 (0-6 scale)"
       },
       {
         "rank": 9,
         "code": "SE",
-        "value": "2.45"
+        "value": "2.45 (0-6 scale)"
       },
       {
         "rank": 10,
         "code": "FR",
-        "value": "2.44"
+        "value": "2.44 (0-6 scale)"
       },
       {
         "rank": 10,
         "code": "AT",
-        "value": "2.44"
+        "value": "2.44 (0-6 scale) (tied)"
       },
       {
         "rank": 12,
         "code": "SI",
-        "value": "2.39"
+        "value": "2.39 (0-6 scale)"
       },
       {
         "rank": 12,
         "code": "PL",
-        "value": "2.39"
+        "value": "2.39 (0-6 scale) (tied)"
       },
       {
         "rank": 14,
         "code": "GR",
-        "value": "2.07"
+        "value": "2.07 (0-6 scale)"
       },
       {
         "rank": 15,
         "code": "ES",
-        "value": "2.05"
+        "value": "2.05 (0-6 scale)"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "2.03 (0-6 scale)"
+      },
+      {
+        "rank": 17,
+        "code": "TR",
+        "value": "1.99 (0-6 scale)"
+      },
+      {
+        "rank": 18,
+        "code": "IL",
+        "value": "1.95 (0-6 scale)"
+      },
+      {
+        "rank": 19,
+        "code": "KR",
+        "value": "1.94 (0-6 scale)"
+      },
+      {
+        "rank": 20,
+        "code": "SK",
+        "value": "1.86 (0-6 scale)"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "1.85 (0-6 scale)"
+      },
+      {
+        "rank": 22,
+        "code": "FI",
+        "value": "1.84 (0-6 scale)"
+      },
+      {
+        "rank": 23,
+        "code": "IS",
+        "value": "1.71 (0-6 scale)"
+      },
+      {
+        "rank": 24,
+        "code": "EE",
+        "value": "1.70 (0-6 scale)"
+      },
+      {
+        "rank": 25,
+        "code": "HU",
+        "value": "1.63 (0-6 scale)"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "1.62 (0-6 scale)"
+      },
+      {
+        "rank": 27,
+        "code": "DK",
+        "value": "1.60 (0-6 scale)"
+      },
+      {
+        "rank": 28,
+        "code": "IE",
+        "value": "1.50 (0-6 scale)"
+      },
+      {
+        "rank": 29,
+        "code": "JP",
+        "value": "1.37 (0-6 scale)"
+      },
+      {
+        "rank": 30,
+        "code": "AU",
+        "value": "1.31 (0-6 scale)"
       }
     ]
   },
@@ -87410,7 +88310,7 @@
     "title": "Largest informal/shadow economy",
     "prompt": "Name the countries where the informal (shadow/gray) economy is the largest share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "IMF Working Paper \u2014 Shadow Economies Around the World (Medina & Schneider)",
       "url": "https://www.imf.org/en/Publications/WP/Issues/2018/01/25/Shadow-Economies-Around-the-World-What-Did-We-Learn-Over-the-Last-20-Years-45583",
@@ -87449,7 +88349,7 @@
       {
         "rank": 5,
         "code": "TZ",
-        "value": "51.5% of GDP"
+        "value": "51.5% of GDP (tied)"
       },
       {
         "rank": 7,
@@ -87495,6 +88395,106 @@
         "rank": 15,
         "code": "UY",
         "value": "43.5% of GDP"
+      },
+      {
+        "rank": 16,
+        "code": "SL",
+        "value": "43.2% of GDP"
+      },
+      {
+        "rank": 17,
+        "code": "GA",
+        "value": "42.7% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "SN",
+        "value": "42.4% of GDP"
+      },
+      {
+        "rank": 19,
+        "code": "CI",
+        "value": "41.4% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "BJ",
+        "value": "41.1% of GDP"
+      },
+      {
+        "rank": 21,
+        "code": "PH",
+        "value": "40.9% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "ZM",
+        "value": "40.5% of GDP"
+      },
+      {
+        "rank": 23,
+        "code": "BR",
+        "value": "38.6% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "MG",
+        "value": "38.3% of GDP"
+      },
+      {
+        "rank": 25,
+        "code": "SR",
+        "value": "37.6% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "HN",
+        "value": "37.3% of GDP"
+      },
+      {
+        "rank": 27,
+        "code": "NI",
+        "value": "37.1% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "AM",
+        "value": "36.5% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "35.9% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "KG",
+        "value": "35.7% of GDP"
+      },
+      {
+        "rank": 31,
+        "code": "DO",
+        "value": "35.4% of GDP"
+      },
+      {
+        "rank": 32,
+        "code": "RU",
+        "value": "33.7% of GDP"
+      },
+      {
+        "rank": 33,
+        "code": "CO",
+        "value": "33.5% of GDP"
+      },
+      {
+        "rank": 34,
+        "code": "AR",
+        "value": "32.7% of GDP"
+      },
+      {
+        "rank": 35,
+        "code": "EC",
+        "value": "31.9% of GDP"
       }
     ]
   },
@@ -87745,7 +88745,7 @@
     "title": "Most foreign-aid-reliant economies",
     "prompt": "Name the countries where net official development assistance (foreign aid) is the largest share of gross national income.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "World Bank \u2014 Net ODA received (% of GNI)",
       "url": "https://data.worldbank.org/indicator/DT.ODA.ODAT.GN.ZS",
@@ -87829,7 +88829,82 @@
       {
         "rank": 14,
         "code": "HT",
-        "value": "~12% of GNI"
+        "value": "~12% of GNI (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MR",
+        "value": "~11% of GNI"
+      },
+      {
+        "rank": 17,
+        "code": "NE",
+        "value": "~10% of GNI"
+      },
+      {
+        "rank": 17,
+        "code": "SL",
+        "value": "~10% of GNI (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "TD",
+        "value": "~9% of GNI"
+      },
+      {
+        "rank": 19,
+        "code": "GW",
+        "value": "~9% of GNI (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "UG",
+        "value": "~8% of GNI"
+      },
+      {
+        "rank": 21,
+        "code": "ML",
+        "value": "~8% of GNI (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "KM",
+        "value": "~7% of GNI"
+      },
+      {
+        "rank": 23,
+        "code": "CD",
+        "value": "~7% of GNI (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "BF",
+        "value": "~6% of GNI"
+      },
+      {
+        "rank": 25,
+        "code": "CV",
+        "value": "~6% of GNI (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "ET",
+        "value": "~5% of GNI"
+      },
+      {
+        "rank": 27,
+        "code": "TZ",
+        "value": "~5% of GNI (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "MG",
+        "value": "~4% of GNI"
+      },
+      {
+        "rank": 29,
+        "code": "SN",
+        "value": "~4% of GNI (tied)"
       }
     ]
   },
@@ -87840,7 +88915,7 @@
     "title": "Highest agriculture share of GDP",
     "prompt": "Name the countries where agriculture, forestry and fishing contribute the largest share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "World Bank \u2014 Agriculture, forestry and fishing, value added (% of GDP)",
       "url": "https://data.worldbank.org/indicator/NV.AGR.TOTL.ZS",
@@ -87879,7 +88954,7 @@
       {
         "rank": 5,
         "code": "ML",
-        "value": "~37% of GDP"
+        "value": "~37% of GDP (tied)"
       },
       {
         "rank": 7,
@@ -87914,7 +88989,7 @@
       {
         "rank": 12,
         "code": "MW",
-        "value": "~29% of GDP"
+        "value": "~29% of GDP (tied)"
       },
       {
         "rank": 14,
@@ -87924,7 +88999,82 @@
       {
         "rank": 14,
         "code": "TG",
-        "value": "~28% of GDP"
+        "value": "~28% of GDP (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SD",
+        "value": "~27% of GDP"
+      },
+      {
+        "rank": 17,
+        "code": "TZ",
+        "value": "~26% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "MG",
+        "value": "~25% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "PK",
+        "value": "~25% of GDP (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "AF",
+        "value": "~24% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "UG",
+        "value": "~24% of GDP (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NP",
+        "value": "~23% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "RW",
+        "value": "~23% of GDP (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "KE",
+        "value": "~22% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "CI",
+        "value": "~22% of GDP (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "BI",
+        "value": "~21% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "LR",
+        "value": "~21% of GDP (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "SS",
+        "value": "~20% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "GN",
+        "value": "~19% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "CM",
+        "value": "~17% of GDP"
       }
     ]
   },
@@ -87935,7 +89085,7 @@
     "title": "Highest industrial share of GDP",
     "prompt": "Name the countries where industry (mining, manufacturing, construction and utilities) contributes the largest share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "World Bank \u2014 Industry (including construction), value added (% of GDP)",
       "url": "https://data.worldbank.org/indicator/NV.IND.TOTL.ZS",
@@ -87979,7 +89129,7 @@
       {
         "rank": 6,
         "code": "IQ",
-        "value": "~50% of GDP"
+        "value": "~50% of GDP (tied)"
       },
       {
         "rank": 8,
@@ -87989,7 +89139,7 @@
       {
         "rank": 8,
         "code": "LY",
-        "value": "~48% of GDP"
+        "value": "~48% of GDP (tied)"
       },
       {
         "rank": 10,
@@ -88019,7 +89169,82 @@
       {
         "rank": 14,
         "code": "ID",
-        "value": "~39% of GDP"
+        "value": "~39% of GDP (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MY",
+        "value": "~38% of GDP"
+      },
+      {
+        "rank": 16,
+        "code": "UZ",
+        "value": "~38% of GDP (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "IR",
+        "value": "~37% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "KZ",
+        "value": "~37% of GDP (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "AE",
+        "value": "~36% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "RU",
+        "value": "~36% of GDP (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "~35% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "KR",
+        "value": "~35% of GDP (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "~34% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "NG",
+        "value": "~34% of GDP (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "VN",
+        "value": "~33% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "~33% of GDP (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "~32% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "~32% of GDP (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SK",
+        "value": "~31% of GDP"
       }
     ]
   },
@@ -88150,7 +89375,7 @@
     "title": "Largest agriculture labor force share",
     "prompt": "Name the countries where the largest share of workers are employed in agriculture (the primary sector).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "World Bank \u2014 Employment in agriculture (% of total employment, ILO modelled estimate)",
       "url": "https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS",
@@ -88194,7 +89419,7 @@
       {
         "rank": 6,
         "code": "MW",
-        "value": "~64% of workers"
+        "value": "~64% of workers (tied)"
       },
       {
         "rank": 8,
@@ -88204,7 +89429,7 @@
       {
         "rank": 8,
         "code": "NP",
-        "value": "~63% of workers"
+        "value": "~63% of workers (tied)"
       },
       {
         "rank": 10,
@@ -88214,12 +89439,12 @@
       {
         "rank": 10,
         "code": "GN",
-        "value": "~62% of workers"
+        "value": "~62% of workers (tied)"
       },
       {
         "rank": 10,
         "code": "TZ",
-        "value": "~62% of workers"
+        "value": "~62% of workers (tied)"
       },
       {
         "rank": 13,
@@ -88235,6 +89460,106 @@
         "rank": 15,
         "code": "RW",
         "value": "~55% of workers"
+      },
+      {
+        "rank": 16,
+        "code": "SS",
+        "value": "~53% of workers"
+      },
+      {
+        "rank": 17,
+        "code": "CF",
+        "value": "~52% of workers"
+      },
+      {
+        "rank": 18,
+        "code": "AF",
+        "value": "~50% of workers"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "~50% of workers (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "GW",
+        "value": "~48% of workers"
+      },
+      {
+        "rank": 20,
+        "code": "KE",
+        "value": "~48% of workers (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "ML",
+        "value": "~47% of workers"
+      },
+      {
+        "rank": 23,
+        "code": "ZM",
+        "value": "~46% of workers"
+      },
+      {
+        "rank": 24,
+        "code": "TL",
+        "value": "~45% of workers"
+      },
+      {
+        "rank": 25,
+        "code": "MM",
+        "value": "~44% of workers"
+      },
+      {
+        "rank": 26,
+        "code": "CI",
+        "value": "~43% of workers"
+      },
+      {
+        "rank": 27,
+        "code": "SL",
+        "value": "~42% of workers"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "~41% of workers"
+      },
+      {
+        "rank": 29,
+        "code": "SN",
+        "value": "~40% of workers"
+      },
+      {
+        "rank": 29,
+        "code": "BJ",
+        "value": "~40% of workers (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "GM",
+        "value": "~38% of workers"
+      },
+      {
+        "rank": 32,
+        "code": "VN",
+        "value": "~37% of workers"
+      },
+      {
+        "rank": 32,
+        "code": "KH",
+        "value": "~37% of workers (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "PK",
+        "value": "~36% of workers"
+      },
+      {
+        "rank": 35,
+        "code": "LR",
+        "value": "~35% of workers"
       }
     ]
   },
@@ -119235,7 +120560,7 @@
     "title": "Highest women's life expectancy",
     "prompt": "Name the countries with the highest female life expectancy at birth.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 28,
     "source": {
       "name": "WHO \u2014 Global Health Observatory",
       "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)",
@@ -119320,6 +120645,71 @@
         "rank": 15,
         "code": "IE",
         "value": "84.4 years"
+      },
+      {
+        "rank": 16,
+        "code": "MT",
+        "value": "84.3 years"
+      },
+      {
+        "rank": 17,
+        "code": "IL",
+        "value": "84.2 years"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "84.1 years"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "84.0 years"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "83.7 years"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "83.6 years"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "83.5 years"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "83.4 years"
+      },
+      {
+        "rank": 24,
+        "code": "SI",
+        "value": "83.3 years"
+      },
+      {
+        "rank": 25,
+        "code": "GR",
+        "value": "83.1 years"
+      },
+      {
+        "rank": 26,
+        "code": "DK",
+        "value": "83.0 years"
+      },
+      {
+        "rank": 27,
+        "code": "CY",
+        "value": "82.9 years"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "82.6 years"
       }
     ]
   },
@@ -119330,7 +120720,7 @@
     "title": "Highest men's life expectancy",
     "prompt": "Name the countries with the highest male life expectancy at birth.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "WHO \u2014 Global Health Observatory",
       "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/life-expectancy-at-birth-(years)",
@@ -119415,6 +120805,56 @@
         "rank": 15,
         "code": "LU",
         "value": "79.9 years"
+      },
+      {
+        "rank": 16,
+        "code": "KR",
+        "value": "79.8 years"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "79.6 years"
+      },
+      {
+        "rank": 18,
+        "code": "GB",
+        "value": "79.0 years"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "78.9 years"
+      },
+      {
+        "rank": 20,
+        "code": "FR",
+        "value": "78.8 years"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "78.6 years"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "78.5 years"
+      },
+      {
+        "rank": 23,
+        "code": "FI",
+        "value": "78.3 years"
+      },
+      {
+        "rank": 24,
+        "code": "DK",
+        "value": "78.2 years"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "78.0 years"
       }
     ]
   },
@@ -119425,7 +120865,7 @@
     "title": "Highest breast cancer incidence",
     "prompt": "Name the countries with the highest age-standardised incidence of female breast cancer.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "IARC \u2014 Globocan",
       "url": "https://gco.iarc.fr/today/en/dataviz/tables?types=0&sexes=2&cancers=20",
@@ -119510,6 +120950,56 @@
         "rank": 15,
         "code": "US",
         "value": "86.3 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "85.8 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "NO",
+        "value": "85.4 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "CH",
+        "value": "84.7 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "MT",
+        "value": "84.2 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "83.8 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "82.7 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "AT",
+        "value": "80.6 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "80.1 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "ES",
+        "value": "78.5 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "HR",
+        "value": "77.3 per 100k"
       }
     ]
   },
@@ -119520,7 +121010,7 @@
     "title": "Highest lung cancer incidence",
     "prompt": "Name the countries with the highest age-standardised incidence of lung cancer (both sexes).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "IARC \u2014 Globocan",
       "url": "https://gco.iarc.fr/today/en/dataviz/tables?types=0&sexes=0&cancers=15",
@@ -119605,6 +121095,56 @@
         "rank": 15,
         "code": "FR",
         "value": "37.9 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "BG",
+        "value": "37.5 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "RO",
+        "value": "37.0 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "36.5 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "SK",
+        "value": "36.0 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "35.4 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "35.1 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "LV",
+        "value": "34.4 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "33.9 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "EE",
+        "value": "33.6 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "LT",
+        "value": "33.1 per 100k"
       }
     ]
   },
@@ -119615,7 +121155,7 @@
     "title": "Highest cesarean section rate",
     "prompt": "Name the countries where cesarean section accounts for the largest share of live births.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "WHO Global Health Observatory \u2014 Births by caesarean section (indicator)",
       "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/births-by-caesarean-section-(-)",
@@ -119700,6 +121240,56 @@
         "rank": 15,
         "code": "PT",
         "value": "39.9%"
+      },
+      {
+        "rank": 16,
+        "code": "AL",
+        "value": "38.6%"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "36.0%"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "35.7%"
+      },
+      {
+        "rank": 19,
+        "code": "US",
+        "value": "32.1%"
+      },
+      {
+        "rank": 20,
+        "code": "AR",
+        "value": "31.6%"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "30.5%"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "29.9%"
+      },
+      {
+        "rank": 23,
+        "code": "GB",
+        "value": "29.7%"
+      },
+      {
+        "rank": 24,
+        "code": "CA",
+        "value": "28.8%"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "25.3%"
       }
     ]
   },
@@ -141650,7 +143240,7 @@
     "title": "Highest Rural Population Share",
     "prompt": "Name the countries with the largest share of population still living in rural areas.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 29,
     "source": {
       "name": "UN DESA \u2014 World Urbanization Prospects 2018 revision (updated 2024)",
       "url": "https://population.un.org/wup/",
@@ -141720,6 +143310,91 @@
         "rank": 12,
         "code": "TJ",
         "value": "72% rural"
+      },
+      {
+        "rank": 13,
+        "code": "SB",
+        "value": "72% rural (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "ER",
+        "value": "71% rural"
+      },
+      {
+        "rank": 15,
+        "code": "MM",
+        "value": "70% rural"
+      },
+      {
+        "rank": 16,
+        "code": "TL",
+        "value": "69% rural"
+      },
+      {
+        "rank": 17,
+        "code": "MZ",
+        "value": "68% rural"
+      },
+      {
+        "rank": 18,
+        "code": "LK",
+        "value": "67% rural"
+      },
+      {
+        "rank": 19,
+        "code": "MG",
+        "value": "66% rural"
+      },
+      {
+        "rank": 19,
+        "code": "BJ",
+        "value": "66% rural (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "HT",
+        "value": "64% rural"
+      },
+      {
+        "rank": 21,
+        "code": "TZ",
+        "value": "64% rural (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "GN",
+        "value": "62% rural"
+      },
+      {
+        "rank": 23,
+        "code": "LS",
+        "value": "62% rural (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "VN",
+        "value": "62% rural (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "LA",
+        "value": "62% rural (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "TG",
+        "value": "61% rural"
+      },
+      {
+        "rank": 28,
+        "code": "SL",
+        "value": "58% rural"
+      },
+      {
+        "rank": 29,
+        "code": "MR",
+        "value": "55% rural"
       }
     ]
   },
@@ -151370,7 +153045,7 @@
     "title": "Highest Rule of Law Index",
     "prompt": "Name the countries with the highest score on the World Justice Project Rule of Law Index.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 32,
     "source": {
       "name": "World Justice Project \u2014 Rule of Law Index",
       "url": "https://worldjusticeproject.org/rule-of-law-index/",
@@ -151455,6 +153130,91 @@
         "rank": 15,
         "code": "BE",
         "value": "0.79 rule-of-law score (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SG",
+        "value": "0.78 rule-of-law score"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "0.78 rule-of-law score (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "0.75 rule-of-law score"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "0.73 rule-of-law score"
+      },
+      {
+        "rank": 20,
+        "code": "CZ",
+        "value": "0.72 rule-of-law score"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "0.71 rule-of-law score"
+      },
+      {
+        "rank": 22,
+        "code": "LV",
+        "value": "0.71 rule-of-law score (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "UY",
+        "value": "0.71 rule-of-law score (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "LT",
+        "value": "0.70 rule-of-law score"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "0.70 rule-of-law score (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "US",
+        "value": "0.70 rule-of-law score (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "CR",
+        "value": "0.68 rule-of-law score"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "0.66 rule-of-law score"
+      },
+      {
+        "rank": 29,
+        "code": "SI",
+        "value": "0.66 rule-of-law score (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CY",
+        "value": "0.66 rule-of-law score (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "IT",
+        "value": "0.66 rule-of-law score (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "PL",
+        "value": "0.65 rule-of-law score"
       }
     ]
   },
@@ -151560,7 +153320,7 @@
     "title": "Highest Freedom in the World score",
     "prompt": "Name the countries with the highest total score on Freedom House's Freedom in the World civil/political liberties index.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Freedom House \u2014 Freedom in the World 2024",
       "url": "https://freedomhouse.org/report/freedom-world",
@@ -151628,23 +153388,98 @@
       },
       {
         "rank": 12,
-        "code": "AU",
-        "value": "95/100 freedom score"
-      },
-      {
-        "rank": 13,
         "code": "JP",
         "value": "96/100 freedom score (tied)"
       },
       {
+        "rank": 13,
+        "code": "PT",
+        "value": "96/100 freedom score (tied)"
+      },
+      {
         "rank": 14,
-        "code": "DE",
-        "value": "94/100 freedom score"
+        "code": "AU",
+        "value": "95/100 freedom score"
       },
       {
         "rank": 15,
-        "code": "PT",
-        "value": "96/100 freedom score (tied)"
+        "code": "EE",
+        "value": "94/100 freedom score"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "IS",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "SI",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "TW",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CL",
+        "value": "94/100 freedom score (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "93/100 freedom score"
+      },
+      {
+        "rank": 24,
+        "code": "BB",
+        "value": "93/100 freedom score (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CY",
+        "value": "93/100 freedom score (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "GB",
+        "value": "91/100 freedom score"
+      },
+      {
+        "rank": 27,
+        "code": "CR",
+        "value": "91/100 freedom score (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "90/100 freedom score"
+      },
+      {
+        "rank": 29,
+        "code": "SK",
+        "value": "90/100 freedom score (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "LT",
+        "value": "90/100 freedom score (tied)"
       }
     ]
   },
@@ -151655,7 +153490,7 @@
     "title": "Highest civic engagement",
     "prompt": "Name the countries with the highest score on the OECD Better Life Index civic engagement domain (voter turnout + stakeholder engagement).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "OECD Better Life Index \u2014 Civic Engagement",
       "url": "https://www.oecdbetterlifeindex.org/topics/civic-engagement/",
@@ -151740,6 +153575,81 @@
         "rank": 15,
         "code": "FR",
         "value": "6.4 civic engagement"
+      },
+      {
+        "rank": 16,
+        "code": "IE",
+        "value": "6.3 civic engagement"
+      },
+      {
+        "rank": 17,
+        "code": "US",
+        "value": "6.1 civic engagement"
+      },
+      {
+        "rank": 18,
+        "code": "CH",
+        "value": "6.0 civic engagement"
+      },
+      {
+        "rank": 19,
+        "code": "IL",
+        "value": "5.9 civic engagement"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "5.7 civic engagement"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "5.5 civic engagement"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "5.4 civic engagement"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "5.2 civic engagement"
+      },
+      {
+        "rank": 24,
+        "code": "EE",
+        "value": "5.1 civic engagement"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "5.0 civic engagement"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "4.8 civic engagement"
+      },
+      {
+        "rank": 27,
+        "code": "GR",
+        "value": "4.6 civic engagement"
+      },
+      {
+        "rank": 28,
+        "code": "SK",
+        "value": "4.5 civic engagement"
+      },
+      {
+        "rank": 29,
+        "code": "HU",
+        "value": "4.3 civic engagement"
+      },
+      {
+        "rank": 30,
+        "code": "LT",
+        "value": "4.1 civic engagement"
       }
     ]
   },
