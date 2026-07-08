@@ -6,13 +6,19 @@ import {
   Button,
   Chip,
   Container,
+  IconButton,
   LinearProgress,
   Paper,
   Stack,
   TextField,
+  Tooltip,
   Typography,
   Link as MuiLink,
 } from "@mui/material";
+import ThumbUpIcon from "@mui/icons-material/ThumbUp";
+import ThumbDownIcon from "@mui/icons-material/ThumbDown";
+import ThumbUpOutlinedIcon from "@mui/icons-material/ThumbUpOutlined";
+import ThumbDownOutlinedIcon from "@mui/icons-material/ThumbDownOutlined";
 import { use, useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { ScoringMode } from "@/lib/types";
@@ -53,8 +59,6 @@ type SoloState = {
 };
 
 type Option = { code: string; name: string };
-
-const INTERMISSION_MS = 6000;
 
 export default function PlayPage({ params }: { params: Promise<{ sid: string }> }) {
   const { sid } = use(params);
@@ -131,17 +135,12 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
     doSubmit(pick?.code ?? null);
   }, [now, state, showIntermission, pick, doSubmit]);
 
-  // Intermission -> next round
-  useEffect(() => {
-    if (!showIntermission) return;
-    const t = setTimeout(() => {
-      setShowIntermission(false);
-      if (state?.finished) {
-        router.push(`/solo/results/${sid}`);
-      }
-    }, INTERMISSION_MS);
-    return () => clearTimeout(t);
-  }, [showIntermission, state, sid, router]);
+  const advance = useCallback(() => {
+    setShowIntermission(false);
+    if (state?.finished) {
+      router.push(`/solo/results/${sid}`);
+    }
+  }, [state, sid, router]);
 
   if (error) {
     return (
@@ -157,6 +156,7 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
 
   if (showIntermission && state.lastResult) {
     const r = state.lastResult;
+    const isLast = state.finished;
     return (
       <Container maxWidth="sm" sx={{ py: 6 }}>
         <Stack spacing={2}>
@@ -197,7 +197,10 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
             ) : r.source.name}
             {r.source.asOf ? ` · ${r.source.asOf}` : ""}
           </Typography>
-          <LinearProgress />
+          <FeedbackWidget sessionId={sid} questionId={r.questionId} />
+          <Button variant="contained" size="large" onClick={advance}>
+            {isLast ? "See final score" : "Next question"}
+          </Button>
         </Stack>
       </Container>
     );
@@ -252,5 +255,84 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
         </Button>
       </Stack>
     </Container>
+  );
+}
+
+function FeedbackWidget({ sessionId, questionId }: { sessionId: string; questionId: string }) {
+  const [thumbs, setThumbs] = useState<number | null>(null);
+  const [text, setText] = useState("");
+  const [saved, setSaved] = useState(false);
+  const [expanded, setExpanded] = useState(false);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    if (!expanded && !thumbs) return;
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => {
+      fetch("/api/feedback", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sessionId, questionId, thumbs, text: text.trim() || null }),
+      })
+        .then(() => {
+          setSaved(true);
+          setTimeout(() => setSaved(false), 1500);
+        })
+        .catch(() => {});
+    }, 600);
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [thumbs, text]);
+
+  return (
+    <Box sx={{ borderTop: 1, borderColor: "divider", pt: 2 }}>
+      <Stack direction="row" spacing={1} alignItems="center" flexWrap="wrap">
+        <Typography variant="caption" color="text.secondary" sx={{ mr: 1 }}>
+          How was this question?
+        </Typography>
+        <Tooltip title="Good question">
+          <IconButton
+            size="small"
+            color={thumbs === 1 ? "success" : "default"}
+            onClick={() => setThumbs(thumbs === 1 ? null : 1)}
+          >
+            {thumbs === 1 ? <ThumbUpIcon fontSize="small" /> : <ThumbUpOutlinedIcon fontSize="small" />}
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Bad question">
+          <IconButton
+            size="small"
+            color={thumbs === -1 ? "error" : "default"}
+            onClick={() => setThumbs(thumbs === -1 ? null : -1)}
+          >
+            {thumbs === -1 ? <ThumbDownIcon fontSize="small" /> : <ThumbDownOutlinedIcon fontSize="small" />}
+          </IconButton>
+        </Tooltip>
+        <Button size="small" onClick={() => setExpanded(!expanded)} sx={{ ml: 0.5, textTransform: "none" }}>
+          {expanded ? "Hide comment" : "Add comment"}
+        </Button>
+        {saved && (
+          <Typography variant="caption" color="success.main">
+            Saved
+          </Typography>
+        )}
+      </Stack>
+      {expanded && (
+        <TextField
+          fullWidth
+          multiline
+          minRows={2}
+          maxRows={4}
+          size="small"
+          margin="dense"
+          value={text}
+          onChange={(e) => setText(e.target.value.slice(0, 500))}
+          placeholder="Anything wrong with this question? Confusing prompt, bad answer, wrong source, etc."
+          helperText={`${text.length}/500`}
+        />
+      )}
+    </Box>
   );
 }
