@@ -100,6 +100,19 @@ function listQuestionIdsInTheme(theme, subtheme) {
   return db.prepare("SELECT id FROM questions WHERE theme = ?").all(theme).map((r) => r.id);
 }
 
+function listQuestionIdsInThemeMinDepth(theme, subtheme, minDepth) {
+  if (subtheme && subtheme !== "*") {
+    return db
+      .prepare("SELECT id FROM questions WHERE theme = ? AND subtheme = ? AND seeded_depth >= ?")
+      .all(theme, subtheme, minDepth)
+      .map((r) => r.id);
+  }
+  return db
+    .prepare("SELECT id FROM questions WHERE theme = ? AND seeded_depth >= ?")
+    .all(theme, minDepth)
+    .map((r) => r.id);
+}
+
 function listThemes() {
   return db
     .prepare("SELECT theme, COUNT(*) as count FROM questions GROUP BY theme ORDER BY theme")
@@ -407,7 +420,11 @@ function advanceToNextQuestion(io, room) {
 function startGame(io, room) {
   const theme = room.settings.theme;
   const subtheme = room.settings.subtheme || "*";
-  const allIds = listQuestionIdsInTheme(theme, subtheme);
+  const minDepth = Math.max(1, room.settings.topN || 10);
+  // Only questions that have enough answers to fill the host-selected top-N
+  // are eligible. This prevents mid-game auto-cap surprises where a 12-answer
+  // question was picked for a top-20 game.
+  const allIds = listQuestionIdsInThemeMinDepth(theme, subtheme, minDepth);
   if (allIds.length === 0) return;
   const requested = Math.max(1, Math.min(room.settings.numQuestions, allIds.length));
   // Pick questions that minimize aggregate exposure across the roster.
@@ -609,6 +626,20 @@ app.prepare().then(() => {
       if (!currentRoomCode || !userId) return;
       const room = rooms.get(currentRoomCode);
       if (!room || room.hostId !== userId || room.phase !== "lobby") return;
+      const minDepth = Math.max(1, room.settings.topN || 10);
+      const eligible = listQuestionIdsInThemeMinDepth(
+        room.settings.theme,
+        room.settings.subtheme || "*",
+        minDepth
+      );
+      if (eligible.length === 0) {
+        socket.emit("start_game_error", {
+          message: `No questions in "${room.settings.theme}"${
+            room.settings.subtheme && room.settings.subtheme !== "*" ? ` / "${room.settings.subtheme}"` : ""
+          } have at least ${minDepth} answers. Try lowering top-N or picking a different category.`,
+        });
+        return;
+      }
       startGame(io, room);
     });
 

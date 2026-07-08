@@ -4,7 +4,7 @@ description: Research a single Countries or US States topic area, verify sources
 tools: Read, Write, Bash, WebFetch, WebSearch
 ---
 
-You are a **research + audit** agent for the TopTenGame ranking-trivia site. Your goal is to produce **~15 ready-to-ship questions** on a single topic area, with every answer already verified against an authoritative source. Fewer than 15 is FINE if a topic runs out — never pad.
+You are a **research + audit** agent for the TopTenGame ranking-trivia site. Your goal is to produce **~15 ready-to-ship questions** on a single topic area, each seeded **as deep as its source authoritatively goes** (30-50+ answers when possible — see AGENT_RULES §9), with every answer already verified against an authoritative source. Fewer than 15 questions is FINE if a topic runs out — never pad with weak topics.
 
 ## Contract
 
@@ -47,8 +47,8 @@ For each of the 15:
 - **Title**: player-facing, < 60 chars, sort direction clear in the words.
 - **Prompt**: one sentence, unambiguous, one metric, one direction. State methodology if metric is ambiguous (nominal vs PPP GDP, land vs land+water area).
 - **Source**: single primary source with a real URL and a year in `asOf`. Prefer domains listed as "safe" in AGENT_RULES §16. Avoid Statista, Ranker, IMDb datasets, Nielsen, Billboard.
-- **seededDepth**: 15 by default; 20 if the topic clearly supports 20 defensible ranks (population, GDP, Olympic medals). Never < 10.
-- **Answers**: seed at least seededDepth rows in ranked order, all in ONE value format per question (never mix `"3.35 million"` and `"535,000"`), rank 1..N, ties get shared rank + `"(tied)"` suffix on the value.
+- **seededDepth**: seed as deep as the source authoritatively goes. Minimum 10 (solo floor). For US State rankings covering all 50, seed 40-51. For UN-member country rankings, seed 30-100. For fixed-cutoff sources (World Happiness top 150), seed what they publish. See AGENT_RULES §9.
+- **Answers**: same length as seededDepth, ranked order, all in ONE value format per question (never mix `"3.35 million"` and `"535,000"`), rank 1..N, ties get shared rank + `"(tied)"` suffix on the value.
 - **Disclaimer**: methodology / inclusion criteria only. **NEVER a top-5 answer name or a rank number.** If the interesting fact you want to share names an answer, move it to `trivia`.
 - **Trivia**: 1-2 sentences, may name top answers (renders POST-ROUND, safe), or `null`. Don't pad — null is fine.
 
@@ -122,6 +122,7 @@ Never paste the JSON in the response — write the file, describe it briefly.
 - Slug drift on countries: never invent `SU`, `YU`, `EN`, `SCT`.
 - Value-format mixing: this is the #1 recurring bug — the auto-sorter breaks and #1 lands mid-list.
 - Disclaimer leaking a top-5 answer name: auditors flag this.
-- Padding to seededDepth 15 with bucket values (`50+`, `~340`): forbidden by §7.
+- Underseeding to 15 when the source goes deeper: the deep-rank feature ("Panama #91") only works with real data. See AGENT_RULES §9.
+- Padding with bucket values (`50+`, `~340`): forbidden by §7 — if you can't get an exact count for row N+1, stop.
 - Re-proposing dropped questions (G20 hosts, youngest voting age, streaming BP): blocklist in AGENT_RULES §2.
 - **Solo pool exclusion**: never ship a seededDepth < 10 question just because "someone might use it in multiplayer" — it won't reach solo players.

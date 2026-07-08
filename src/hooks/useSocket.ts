@@ -10,6 +10,7 @@ export function useSocket(roomCode: string, name: string) {
   const [userId, setUserId] = useState<string>("");
   const [connected, setConnected] = useState(false);
   const [restoredPicks, setRestoredPicks] = useState<string[] | null>(null);
+  const [toast, setToast] = useState<string | null>(null);
   const socketRef = useRef<Socket | null>(null);
 
   useEffect(() => {
@@ -42,6 +43,9 @@ export function useSocket(roomCode: string, name: string) {
     s.on("error_message", (msg: string) => {
       console.warn("Server error:", msg);
     });
+    s.on("start_game_error", (payload: { message: string }) => {
+      setToast(payload?.message || "Couldn't start game.");
+    });
 
     return () => {
       s.disconnect();
@@ -56,5 +60,5 @@ export function useSocket(roomCode: string, name: string) {
     return r;
   };
 
-  return { state, connected, emit, userId, restoredPicks, consumeRestoredPicks };
+  return { state, connected, emit, userId, restoredPicks, consumeRestoredPicks, toast, clearToast: () => setToast(null) };
 }

@@ -213,7 +213,7 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
                 )}
                 {r.yourRank === null && r.yourFullRank === null && (
                   <Typography variant="caption" color="text.secondary">
-                    {r.yourPick.label} isn&apos;t in this ranking.
+                    {r.yourPick.label} wasn&apos;t in the top {r.totalRanked}.
                   </Typography>
                 )}
               </Stack>

@@ -202,14 +202,25 @@ Two separate fields:
 
 ---
 
-## 9. Ties and depth
+## 9. Ties and depth — SEED AS DEEP AS THE SOURCE GOES
 
-- **Seed 15-20 answers per question when a top-20 is defensibly available.** 15 was our old floor because most agents produced exactly 15; that's fine for small topics but leaves the game capped at top-15 rounds even when the host sets top-20. If the topic clearly supports 20 defensible answers (population, GDP, Olympic medals, etc.), seed 20.
-- If the topic has a small pool (e.g. only 4 Rugby World Cup winners, 6 F1 constructor champions, 8 Great Lakes states), match `seededDepth` to the pool size — **don't pad with weak or unranked entries**.
+**The old "15 answers per question" rule is retired.** Solo mode shows players where their pick ranked (e.g. "Panama #91 of 199"), and that only works if the answer list is deep. Also: the multiplayer host may set top-N up to 20, and questions have to have at least that many defensible answers or they're filtered out of eligibility.
+
+**New depth policy:**
+
+- **Seed every question to the natural end of its authoritative source.** For US States questions where all 50 states + DC are ranked, seed 40-51. For Countries GDP/population where every UN member is listed, seed 40-100. For Olympic medals aggregate rankings, seed 30+.
+- **Minimum floor: 10.** Solo requires this. If a topic can't defensibly produce 10 answers, skip it entirely.
+- **When the natural pool is small** (Rugby World Cup winners = 4, F1 constructor champions = 6, Great Lakes states = 8), skip — don't ship the question.
+- **When the source only publishes a top-N cutoff** (e.g. World Happiness Report top 150), seed exactly what they publish, no padding.
 - **Do NOT include entries that don't belong in the ranking**:
   - ⚠️ WHY: "Films that lost Best Picture" question included 3 films that had actually WON Best Picture. That's a category error.
-- Ties get shared ranks. If ranks 1-3 are three-way tied, the next rank is 4.
-- **When you can't produce 20 exact-count answers, stop at the last exact-count row.** Never pad with bucketed values (`"50+"`) — that breaks the auto-sorter.
+- **Ties get shared ranks.** If ranks 1-3 are three-way tied, the next rank is 4. Include `"(tied)"` suffix on the value.
+- **Never pad with bucket values** (`"50+"`, `"~340"`, `"trace"`) — that breaks the auto-sorter. If you can't get an exact count for row N+1, stop at row N.
+- **Value-format consistency still applies** at depth: if the top-15 are in "million tonnes" and rows 16-40 drop to "tonnes", pick ONE format for the whole question. If you can't, split the question or truncate.
+
+**seededDepth in the JSON**: set it equal to the number of rows in `answers`. The game engine takes `min(host-selected topN, seededDepth)` at runtime.
+
+**Why this matters**: the multiplayer topN selector goes to 20. Solo shows "your pick ranked #X" for anything past top-10. A question with 15 answers can only show "Panama ranked #14" — a question with 50 answers can show "Panama ranked #42". Depth = better UX.
 
 ---
 
@@ -299,7 +310,7 @@ When you are a **fix agent** — reading an audit JSON and applying fixes — do
 12. **Historical entity codes** — inventing `SU`, `YU`, `DD`, `CS`, `EN`, `SCT`. Use modern successors with a disclaimer, or drop rows.
 13. **Value-format mixing** — the tea/aquaculture/butter class of bug. Never mix `"3.35 million"` with `"535,000"` in one question.
 14. **Bucket values** — `"50+ wins"` mixed with `"49 wins"` scrambles ranking. Use exact counts or drop.
-15. **Padding to seededDepth 15** — every subtheme having exactly 15 answers regardless of pool. Seed 20 when defensible; smaller when the pool is naturally small.
+15. **Underseeding to 15** — every question stopping at 15 regardless of source depth. Seed as deep as the source goes (30-50+ for wide topics like GDP/population/state rankings). §9 has the full policy.
 16. **Cross-file re-creation of dropped questions** — re-proposing G20 hosts / youngest voting age / streaming rankings after they were dropped in prior waves. Check questions.json first.
 17. **Bad patch schemas** — fix agents shipping `{operations:[...]}` instead of `{updates:[...],deletions:[...]}`. Match section 13 exactly.
 18. **Movies-Nominees vs winners confusion** — Movies non-Nominees subthemes require Best Picture WINNER codes only. Movies - Nominees uses the full 602-pool.

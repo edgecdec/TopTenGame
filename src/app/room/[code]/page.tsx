@@ -77,7 +77,16 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     }
   }, [name, code, router]);
 
-  const { state, connected, emit, userId, restoredPicks, consumeRestoredPicks } = useSocket(code, name ?? "");
+  const {
+    state,
+    connected,
+    emit,
+    userId,
+    restoredPicks,
+    consumeRestoredPicks,
+    toast: socketToast,
+    clearToast: clearSocketToast,
+  } = useSocket(code, name ?? "");
   const [optionsByType, setOptionsByType] = useState<Record<string, Option[]>>({});
   const [themes, setThemes] = useState<ThemeInfo[]>([]);
   const [picks, setPicks] = useState<Option[]>([]);
@@ -206,6 +215,13 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
         onClose={() => setToast(null)}
         message={toast}
         anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+      />
+      <Snackbar
+        open={!!socketToast}
+        autoHideDuration={5000}
+        onClose={clearSocketToast}
+        message={socketToast}
+        anchorOrigin={{ vertical: "top", horizontal: "center" }}
       />
     </Container>
   );

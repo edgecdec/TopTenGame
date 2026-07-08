@@ -160,7 +160,7 @@ export default function ResultsPage({ params }: { params: Promise<{ sid: string 
                               ? `— #${r.yourRank}, +${r.pointsEarned}`
                               : r.yourFullRank !== null
                                 ? `— ranked #${r.yourFullRank} of ${r.totalRanked} (outside top ${r.topN})`
-                                : `— not in this ranking`}
+                                : `— wasn't in the top ${r.totalRanked}`}
                           </>
                         ) : (
                           "no pick this round"
