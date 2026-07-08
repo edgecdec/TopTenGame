@@ -303,3 +303,62 @@ When you are a **fix agent** — reading an audit JSON and applying fixes — do
 16. **Cross-file re-creation of dropped questions** — re-proposing G20 hosts / youngest voting age / streaming rankings after they were dropped in prior waves. Check questions.json first.
 17. **Bad patch schemas** — fix agents shipping `{operations:[...]}` instead of `{updates:[...],deletions:[...]}`. Match section 13 exactly.
 18. **Movies-Nominees vs winners confusion** — Movies non-Nominees subthemes require Best Picture WINNER codes only. Movies - Nominees uses the full 602-pool.
+
+---
+
+## 15. Solo mode constraint — seededDepth >= 10 always
+
+Single-player mode was added after most questions were written. Solo has a fixed topN of 10 and shows the correct top-10 in the intermission. Questions with `seededDepth < 10` are excluded from the solo pool (see `pickQuestionIds` in `src/lib/solo.ts`).
+
+**Rule for new questions:** always produce `seededDepth >= 10`. If a topic can't defensibly reach 10 (e.g. FIS Freestyle Skiing WC medals — only 8 countries), skip it entirely rather than seed to 8 and hide it from solo. Multiplayer can still use short-pool questions when the host explicitly picks a top-N < 10, but that's a niche path — solo is the default.
+
+Applies to any wave where a research agent might pick a topic with a small natural pool.
+
+---
+
+## 16. Source URL hygiene (from Wave 8 heal audit, 2026-07)
+
+We ran a live health-check on every question's source URL. **297 of 982 unique URLs were broken (30%)**, touching 384 questions. Lessons:
+
+**Publishers whose direct URLs rot fast:**
+- `boxofficemojo.com/oscar/` — permanent 404s on Oscar landing pages
+- `oica.net/category/*` — OICA changes URL structure yearly
+- `motionpictures.org/research-docs/*` — MPA rotates report URLs each year
+- `forbes.com/sites/…` — specific article URLs disappear; use topic hubs
+- Individual OWID grapher URLs — some paths drift; the topic page usually stays
+
+**Publishers that block programmatic UAs (403 but the URL is fine):**
+- `data.census.gov`, `census.gov` (bot-filtered)
+- `www.oecd.org`, `data.oecd.org` (Cloudflare bot challenge)
+- `www.fas.usda.gov` (403 to non-browser UAs)
+- `britannica.com`, `topuniversities.com`, `spglobal.com`
+- `baseball-reference.com`, `basketball-reference.com`, `pro-football-reference.com`
+- `unctad.org`, `unhcr.org` (sometimes)
+
+If a URL 403s from `WebFetch` but browses fine, **do NOT drop it**. Include it with a note in your recap.
+
+**Preferred source domains** (rarely rot, allow scraping, well-attributed):
+- `en.wikipedia.org` — `List of countries by X` articles. CC-BY-SA; the workhorse.
+- `ourworldindata.org` — CC-BY, clean grapher URLs, updated frequently.
+- `data.worldbank.org` — CC-BY 4.0.
+- `data.un.org` / UN specialized agencies (WHO, FAO, UNESCO)
+- `who.int`, `imf.org`, `un.org` topic hubs
+- USGS PDFs and hub pages
+- FIFA / IOC / official governing-body hubs (rarely rot)
+
+**Avoid for redistribution** (may fetch fine but ToS-blocked): Statista, Ranker, IMDb datasets, Billboard, Nielsen. Fine to reference in disclaimer, unsafe as the citation URL.
+
+**Heal-agent rule:** if you're replacing a broken URL, prefer a URL on the same publisher. Only swap to Wikipedia if the primary publisher no longer hosts the data. Verify the replacement with a fetch before writing.
+
+---
+
+## 17. Recap format — what parent orchestrators need to see
+
+Every agent response should include a structured recap so the parent can consolidate multiple agents' outputs without re-reading each file. Include:
+
+- **Shipped**: how many questions written to file (or how many updates/deletions in patches)
+- **Skipped/dropped topics** (research agents): list each topic and a one-word reason (`pool<10`, `no-source`, `covered`, `bucket-only`, `tie-dominated`)
+- **Judgment calls**: any decision the parent might want to override (which subtheme a boundary question went into, which historical-entity mapping, which source when two were available)
+- **Bot-blocked-but-live URLs** (audit agents): list URLs where WebFetch 403'd but the endpoint is genuinely OK — parent won't re-audit these
+
+Under 250 words. Never paste the JSON in the response — write the file, describe it briefly.
