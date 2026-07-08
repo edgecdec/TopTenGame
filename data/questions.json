@@ -5485,7 +5485,7 @@
     "title": "Highest military spending as share of GDP",
     "prompt": "Name the countries that spend the highest share of their GDP on the military.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 35,
     "source": {
       "name": "SIPRI Military Expenditure Database",
       "url": "https://www.sipri.org/databases/milex",
@@ -5542,6 +5542,131 @@
         "rank": 10,
         "code": "US",
         "value": "3.4% of GDP"
+      },
+      {
+        "rank": 11,
+        "code": "AM",
+        "value": "3.3% of GDP"
+      },
+      {
+        "rank": 12,
+        "code": "EE",
+        "value": "3.2% of GDP"
+      },
+      {
+        "rank": 13,
+        "code": "LV",
+        "value": "3.1% of GDP"
+      },
+      {
+        "rank": 14,
+        "code": "GR",
+        "value": "3.1% of GDP (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MA",
+        "value": "3.0% of GDP"
+      },
+      {
+        "rank": 16,
+        "code": "MR",
+        "value": "2.9% of GDP"
+      },
+      {
+        "rank": 17,
+        "code": "AZ",
+        "value": "2.7% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "LT",
+        "value": "2.7% of GDP (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "KR",
+        "value": "2.6% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "FI",
+        "value": "2.4% of GDP"
+      },
+      {
+        "rank": 21,
+        "code": "GB",
+        "value": "2.3% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "2.3% of GDP (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "2.1% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "NO",
+        "value": "2.1% of GDP (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "2.0% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "SK",
+        "value": "2.0% of GDP (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "2.0% of GDP (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "1.9% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "1.9% of GDP (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CZ",
+        "value": "1.9% of GDP (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "BG",
+        "value": "1.8% of GDP"
+      },
+      {
+        "rank": 32,
+        "code": "DE",
+        "value": "1.7% of GDP"
+      },
+      {
+        "rank": 33,
+        "code": "NL",
+        "value": "1.7% of GDP (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "SE",
+        "value": "1.7% of GDP (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "IT",
+        "value": "1.6% of GDP"
       }
     ],
     "disclaimer": "Percentage of GDP spent on the military in 2024. Excludes countries where SIPRI cannot produce a reliable estimate.",
@@ -5555,7 +5680,7 @@
     "title": "Largest arms exporters",
     "prompt": "Name the countries with the biggest share of major-conventional-weapons exports over the past five years.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "SIPRI Arms Transfers Database (Trend Indicator Value)",
       "url": "https://www.sipri.org/databases/armstransfers",
@@ -5612,6 +5737,81 @@
         "rank": 10,
         "code": "KR",
         "value": "2.0% of global exports"
+      },
+      {
+        "rank": 11,
+        "code": "NL",
+        "value": "1.1% of global exports"
+      },
+      {
+        "rank": 12,
+        "code": "TR",
+        "value": "0.9% of global exports"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "0.7% of global exports"
+      },
+      {
+        "rank": 14,
+        "code": "CH",
+        "value": "0.6% of global exports"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "0.6% of global exports (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "0.5% of global exports"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "0.5% of global exports (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "ZA",
+        "value": "0.4% of global exports"
+      },
+      {
+        "rank": 19,
+        "code": "UA",
+        "value": "0.4% of global exports (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "BY",
+        "value": "0.3% of global exports"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "0.3% of global exports (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "0.2% of global exports"
+      },
+      {
+        "rank": 23,
+        "code": "FI",
+        "value": "0.2% of global exports (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "0.2% of global exports (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "0.2% of global exports (tied)"
       }
     ],
     "disclaimer": "Global share of major-conventional-weapons exports measured by SIPRI's Trend Indicator Value (TIV) \u2014 a volume metric, not a dollar figure. Covers 2019\u20132023 combined.",
@@ -5625,7 +5825,7 @@
     "title": "Largest arms importers",
     "prompt": "Name the countries with the biggest share of major-conventional-weapons imports over the past five years.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 40,
     "source": {
       "name": "SIPRI Arms Transfers Database (Trend Indicator Value)",
       "url": "https://www.sipri.org/databases/armstransfers",
@@ -5682,6 +5882,156 @@
         "rank": 10,
         "code": "CN",
         "value": "2.9% of global imports"
+      },
+      {
+        "rank": 11,
+        "code": "US",
+        "value": "2.7% of global imports"
+      },
+      {
+        "rank": 12,
+        "code": "KW",
+        "value": "2.5% of global imports"
+      },
+      {
+        "rank": 13,
+        "code": "GB",
+        "value": "2.4% of global imports"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "2.2% of global imports"
+      },
+      {
+        "rank": 15,
+        "code": "AE",
+        "value": "2.1% of global imports"
+      },
+      {
+        "rank": 16,
+        "code": "IL",
+        "value": "1.9% of global imports"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "1.9% of global imports (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "TW",
+        "value": "1.6% of global imports"
+      },
+      {
+        "rank": 19,
+        "code": "NL",
+        "value": "1.5% of global imports"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "1.4% of global imports"
+      },
+      {
+        "rank": 21,
+        "code": "SG",
+        "value": "1.3% of global imports"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "1.3% of global imports (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "PH",
+        "value": "1.2% of global imports"
+      },
+      {
+        "rank": 24,
+        "code": "ID",
+        "value": "1.1% of global imports"
+      },
+      {
+        "rank": 25,
+        "code": "MA",
+        "value": "1.0% of global imports"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "1.0% of global imports (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "AZ",
+        "value": "0.9% of global imports"
+      },
+      {
+        "rank": 28,
+        "code": "IQ",
+        "value": "0.9% of global imports (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "CA",
+        "value": "0.9% of global imports (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "BR",
+        "value": "0.8% of global imports"
+      },
+      {
+        "rank": 31,
+        "code": "MX",
+        "value": "0.7% of global imports"
+      },
+      {
+        "rank": 32,
+        "code": "BD",
+        "value": "0.7% of global imports (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "HU",
+        "value": "0.7% of global imports (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "FR",
+        "value": "0.6% of global imports"
+      },
+      {
+        "rank": 35,
+        "code": "TR",
+        "value": "0.6% of global imports (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "MM",
+        "value": "0.6% of global imports (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "AR",
+        "value": "0.5% of global imports"
+      },
+      {
+        "rank": 38,
+        "code": "OM",
+        "value": "0.5% of global imports (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "JO",
+        "value": "0.5% of global imports (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "ES",
+        "value": "0.5% of global imports (tied)"
       }
     ],
     "disclaimer": "Global share of major-conventional-weapons imports measured by SIPRI's Trend Indicator Value (TIV).",
@@ -5695,7 +6045,7 @@
     "title": "Most main battle tanks in active service",
     "prompt": "Name the countries with the most main battle tanks in active service.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "IISS \u2014 The Military Balance 2024",
       "url": "https://www.iiss.org/publications/the-military-balance/",
@@ -5752,6 +6102,106 @@
         "rank": 10,
         "code": "IL",
         "value": "490 active MBTs"
+      },
+      {
+        "rank": 11,
+        "code": "SY",
+        "value": "460 active MBTs"
+      },
+      {
+        "rank": 12,
+        "code": "GR",
+        "value": "410 active MBTs"
+      },
+      {
+        "rank": 13,
+        "code": "TW",
+        "value": "380 active MBTs"
+      },
+      {
+        "rank": 14,
+        "code": "SA",
+        "value": "370 active MBTs"
+      },
+      {
+        "rank": 15,
+        "code": "UA",
+        "value": "360 active MBTs"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "355 active MBTs"
+      },
+      {
+        "rank": 17,
+        "code": "AZ",
+        "value": "320 active MBTs"
+      },
+      {
+        "rank": 18,
+        "code": "VN",
+        "value": "300 active MBTs"
+      },
+      {
+        "rank": 19,
+        "code": "JO",
+        "value": "280 active MBTs"
+      },
+      {
+        "rank": 20,
+        "code": "PL",
+        "value": "250 active MBTs"
+      },
+      {
+        "rank": 21,
+        "code": "MA",
+        "value": "240 active MBTs"
+      },
+      {
+        "rank": 22,
+        "code": "ET",
+        "value": "220 active MBTs"
+      },
+      {
+        "rank": 23,
+        "code": "AE",
+        "value": "210 active MBTs"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "200 active MBTs"
+      },
+      {
+        "rank": 25,
+        "code": "SD",
+        "value": "190 active MBTs"
+      },
+      {
+        "rank": 26,
+        "code": "OM",
+        "value": "180 active MBTs"
+      },
+      {
+        "rank": 27,
+        "code": "RO",
+        "value": "170 active MBTs"
+      },
+      {
+        "rank": 28,
+        "code": "BG",
+        "value": "160 active MBTs"
+      },
+      {
+        "rank": 29,
+        "code": "YE",
+        "value": "150 active MBTs"
+      },
+      {
+        "rank": 30,
+        "code": "MM",
+        "value": "140 active MBTs"
       }
     ],
     "disclaimer": "Active-inventory main battle tanks (MBTs) only, excluding stored/reserve fleets.",
@@ -47545,7 +47995,7 @@
     "title": "Largest cotton producers",
     "prompt": "Name the world's largest cotton-producing countries by volume of lint.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "USDA Foreign Agricultural Service \u2014 Cotton World Markets and Trade",
       "url": "https://www.fas.usda.gov/data/cotton-world-markets-and-trade",
@@ -47559,32 +48009,32 @@
       {
         "rank": 1,
         "code": "CN",
-        "value": "~5.9 million tonnes"
+        "value": "~5.90 million tonnes"
       },
       {
         "rank": 2,
         "code": "IN",
-        "value": "~5.4 million tonnes"
+        "value": "~5.40 million tonnes"
       },
       {
         "rank": 3,
         "code": "BR",
-        "value": "~3.4 million tonnes"
+        "value": "~3.40 million tonnes"
       },
       {
         "rank": 4,
         "code": "US",
-        "value": "~2.7 million tonnes"
+        "value": "~2.70 million tonnes"
       },
       {
         "rank": 5,
         "code": "PK",
-        "value": "~1.1 million tonnes"
+        "value": "~1.10 million tonnes"
       },
       {
         "rank": 6,
         "code": "AU",
-        "value": "~1.0 million tonnes"
+        "value": "~1.00 million tonnes"
       },
       {
         "rank": 7,
@@ -47630,6 +48080,81 @@
         "rank": 15,
         "code": "TM",
         "value": "~0.20 million tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "CI",
+        "value": "~0.16 million tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "TJ",
+        "value": "~0.10 million tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "~0.09 million tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "~0.08 million tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "EG",
+        "value": "~0.07 million tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "SY",
+        "value": "~0.06 million tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "TD",
+        "value": "~0.05 million tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "ZW",
+        "value": "~0.04 million tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "AZ",
+        "value": "~0.04 million tonnes (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "TG",
+        "value": "~0.03 million tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "IR",
+        "value": "~0.03 million tonnes (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "MZ",
+        "value": "~0.03 million tonnes (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "SN",
+        "value": "~0.02 million tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "KZ",
+        "value": "~0.02 million tonnes (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "ZM",
+        "value": "~0.02 million tonnes (tied)"
       }
     ]
   },
@@ -47760,7 +48285,7 @@
     "title": "Largest natural rubber producers",
     "prompt": "Name the world's largest producers of natural rubber.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "FAOSTAT \u2014 Crops and livestock products (Natural rubber, dry)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -47809,7 +48334,7 @@
       {
         "rank": 7,
         "code": "KH",
-        "value": "~0.42 million tonnes"
+        "value": "~0.42 million tonnes (tied)"
       },
       {
         "rank": 9,
@@ -47819,7 +48344,7 @@
       {
         "rank": 9,
         "code": "MM",
-        "value": "~0.38 million tonnes"
+        "value": "~0.38 million tonnes (tied)"
       },
       {
         "rank": 11,
@@ -47845,6 +48370,81 @@
         "rank": 15,
         "code": "LK",
         "value": "~0.08 million tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "LA",
+        "value": "~0.07 million tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "~0.05 million tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "~0.05 million tonnes (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "GH",
+        "value": "~0.03 million tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "BD",
+        "value": "~0.02 million tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "GN",
+        "value": "~0.02 million tonnes (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "PG",
+        "value": "~0.01 million tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "GA",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "CD",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "EC",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "BO",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "VE",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "CF",
+        "value": "~0.01 million tonnes (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SL",
+        "value": "~0.01 million tonnes (tied)"
       }
     ]
   },
@@ -47975,7 +48575,7 @@
     "title": "Largest tomato producers",
     "prompt": "Name the world's largest tomato-producing countries by volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "FAOSTAT \u2014 Crops and livestock products (Tomatoes)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -48039,7 +48639,7 @@
       {
         "rank": 10,
         "code": "NG",
-        "value": "~3.7 million tonnes"
+        "value": "~3.7 million tonnes (tied)"
       },
       {
         "rank": 12,
@@ -48060,6 +48660,81 @@
         "rank": 15,
         "code": "MA",
         "value": "~1.5 million tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "UZ",
+        "value": "~1.4 million tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "TN",
+        "value": "~1.4 million tonnes (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "~1.3 million tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "SY",
+        "value": "~1.2 million tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "GR",
+        "value": "~1.1 million tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "AZ",
+        "value": "~1.0 million tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "CL",
+        "value": "~0.9 million tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "DZ",
+        "value": "~0.9 million tonnes (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PE",
+        "value": "~0.8 million tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "~0.7 million tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "~0.7 million tonnes (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NL",
+        "value": "~0.7 million tonnes (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "JO",
+        "value": "~0.7 million tonnes (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "SD",
+        "value": "~0.6 million tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "SA",
+        "value": "~0.5 million tonnes"
       }
     ]
   },
@@ -49275,7 +49950,7 @@
     "title": "Most air passengers carried per year",
     "prompt": "Name the countries whose registered airlines carry the most air passengers per year (domestic + international).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / ICAO \u2014 Air transport, passengers carried",
       "url": "https://data.worldbank.org/indicator/IS.AIR.PSGR",
@@ -49360,6 +50035,131 @@
         "rank": 15,
         "code": "RU",
         "value": "51M passengers"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "48M passengers"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "40M passengers"
+      },
+      {
+        "rank": 18,
+        "code": "AU",
+        "value": "38M passengers"
+      },
+      {
+        "rank": 19,
+        "code": "KR",
+        "value": "37M passengers"
+      },
+      {
+        "rank": 20,
+        "code": "TH",
+        "value": "34M passengers"
+      },
+      {
+        "rank": 21,
+        "code": "SA",
+        "value": "31M passengers"
+      },
+      {
+        "rank": 22,
+        "code": "VN",
+        "value": "28M passengers"
+      },
+      {
+        "rank": 23,
+        "code": "NL",
+        "value": "26M passengers"
+      },
+      {
+        "rank": 24,
+        "code": "CO",
+        "value": "25M passengers"
+      },
+      {
+        "rank": 25,
+        "code": "PH",
+        "value": "23M passengers"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "22M passengers"
+      },
+      {
+        "rank": 27,
+        "code": "EG",
+        "value": "20M passengers"
+      },
+      {
+        "rank": 28,
+        "code": "PT",
+        "value": "18M passengers"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "17M passengers"
+      },
+      {
+        "rank": 30,
+        "code": "SG",
+        "value": "16M passengers"
+      },
+      {
+        "rank": 31,
+        "code": "GR",
+        "value": "15M passengers"
+      },
+      {
+        "rank": 32,
+        "code": "CH",
+        "value": "14M passengers"
+      },
+      {
+        "rank": 33,
+        "code": "PL",
+        "value": "13M passengers"
+      },
+      {
+        "rank": 34,
+        "code": "PK",
+        "value": "12M passengers"
+      },
+      {
+        "rank": 35,
+        "code": "IL",
+        "value": "11M passengers"
+      },
+      {
+        "rank": 36,
+        "code": "QA",
+        "value": "10.5M passengers"
+      },
+      {
+        "rank": 37,
+        "code": "KZ",
+        "value": "10M passengers"
+      },
+      {
+        "rank": 38,
+        "code": "CL",
+        "value": "9.5M passengers"
+      },
+      {
+        "rank": 39,
+        "code": "PE",
+        "value": "9M passengers"
+      },
+      {
+        "rank": 40,
+        "code": "NO",
+        "value": "8.5M passengers"
       }
     ]
   },
@@ -49370,7 +50170,7 @@
     "title": "Most air freight tonne-kilometers flown",
     "prompt": "Name the countries whose airlines fly the most cargo, measured in freight tonne-kilometers (tonnes of freight multiplied by distance flown).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / ICAO \u2014 Air transport, freight (million ton-km)",
       "url": "https://data.worldbank.org/indicator/IS.AIR.GOOD.MT.K1",
@@ -49455,6 +50255,131 @@
         "rank": 15,
         "code": "NL",
         "value": "3,000M ton-km"
+      },
+      {
+        "rank": 16,
+        "code": "ET",
+        "value": "2,600M ton-km"
+      },
+      {
+        "rank": 17,
+        "code": "TH",
+        "value": "2,200M ton-km"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "2,000M ton-km"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "1,800M ton-km"
+      },
+      {
+        "rank": 20,
+        "code": "RU",
+        "value": "1,600M ton-km"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "1,400M ton-km"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "1,200M ton-km"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "1,050M ton-km"
+      },
+      {
+        "rank": 24,
+        "code": "IL",
+        "value": "950M ton-km"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "850M ton-km"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "800M ton-km"
+      },
+      {
+        "rank": 27,
+        "code": "CL",
+        "value": "750M ton-km"
+      },
+      {
+        "rank": 28,
+        "code": "SA",
+        "value": "700M ton-km"
+      },
+      {
+        "rank": 29,
+        "code": "AU",
+        "value": "650M ton-km"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "600M ton-km"
+      },
+      {
+        "rank": 31,
+        "code": "KZ",
+        "value": "550M ton-km"
+      },
+      {
+        "rank": 32,
+        "code": "MY",
+        "value": "500M ton-km"
+      },
+      {
+        "rank": 33,
+        "code": "IE",
+        "value": "450M ton-km"
+      },
+      {
+        "rank": 34,
+        "code": "PK",
+        "value": "400M ton-km"
+      },
+      {
+        "rank": 35,
+        "code": "EG",
+        "value": "360M ton-km"
+      },
+      {
+        "rank": 36,
+        "code": "CH",
+        "value": "320M ton-km"
+      },
+      {
+        "rank": 37,
+        "code": "KE",
+        "value": "280M ton-km"
+      },
+      {
+        "rank": 38,
+        "code": "VN",
+        "value": "250M ton-km"
+      },
+      {
+        "rank": 39,
+        "code": "PH",
+        "value": "220M ton-km"
+      },
+      {
+        "rank": 40,
+        "code": "PL",
+        "value": "200M ton-km"
       }
     ]
   },
@@ -51710,7 +52635,7 @@
     "title": "Highest Environmental Performance Index (EPI) score",
     "prompt": "Name the countries with the highest overall Environmental Performance Index score from Yale.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Yale Center for Environmental Law & Policy \u2014 Environmental Performance Index",
       "url": "https://epi.yale.edu/",
@@ -51795,6 +52720,131 @@
         "rank": 15,
         "code": "SI",
         "value": "64.9 score"
+      },
+      {
+        "rank": 16,
+        "code": "CZ",
+        "value": "64.7 score"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "64.1 score"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "63.7 score"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "63.6 score"
+      },
+      {
+        "rank": 20,
+        "code": "JP",
+        "value": "63.0 score"
+      },
+      {
+        "rank": 20,
+        "code": "BE",
+        "value": "63.0 score (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "IS",
+        "value": "62.8 score"
+      },
+      {
+        "rank": 23,
+        "code": "US",
+        "value": "62.5 score"
+      },
+      {
+        "rank": 24,
+        "code": "ES",
+        "value": "62.2 score"
+      },
+      {
+        "rank": 25,
+        "code": "SK",
+        "value": "61.7 score"
+      },
+      {
+        "rank": 26,
+        "code": "HR",
+        "value": "60.0 score"
+      },
+      {
+        "rank": 27,
+        "code": "LV",
+        "value": "59.9 score"
+      },
+      {
+        "rank": 28,
+        "code": "KR",
+        "value": "58.4 score"
+      },
+      {
+        "rank": 29,
+        "code": "LT",
+        "value": "58.0 score"
+      },
+      {
+        "rank": 30,
+        "code": "PT",
+        "value": "56.9 score"
+      },
+      {
+        "rank": 31,
+        "code": "GR",
+        "value": "56.4 score"
+      },
+      {
+        "rank": 32,
+        "code": "IL",
+        "value": "56.3 score"
+      },
+      {
+        "rank": 33,
+        "code": "SG",
+        "value": "55.7 score"
+      },
+      {
+        "rank": 34,
+        "code": "HU",
+        "value": "55.6 score"
+      },
+      {
+        "rank": 35,
+        "code": "BG",
+        "value": "55.5 score"
+      },
+      {
+        "rank": 36,
+        "code": "PL",
+        "value": "55.3 score"
+      },
+      {
+        "rank": 37,
+        "code": "MT",
+        "value": "54.9 score"
+      },
+      {
+        "rank": 38,
+        "code": "EC",
+        "value": "54.4 score"
+      },
+      {
+        "rank": 38,
+        "code": "UY",
+        "value": "54.4 score (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "CL",
+        "value": "54.0 score"
       }
     ]
   },
@@ -51805,7 +52855,7 @@
     "title": "Highest cumulative historical CO2 emissions",
     "prompt": "Name the countries with the most cumulative CO2 emissions since the start of the Industrial Revolution.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Our World in Data / Global Carbon Project \u2014 Cumulative CO2 emissions",
       "url": "https://ourworldindata.org/contributed-most-global-co2",
@@ -51884,12 +52934,137 @@
       {
         "rank": 13,
         "code": "MX",
-        "value": "20 Gt CO2"
+        "value": "20 Gt CO2 (tied)"
       },
       {
         "rank": 13,
         "code": "ZA",
-        "value": "20 Gt CO2"
+        "value": "20 Gt CO2 (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "KZ",
+        "value": "19 Gt CO2"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "19 Gt CO2 (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "18 Gt CO2"
+      },
+      {
+        "rank": 19,
+        "code": "ID",
+        "value": "17 Gt CO2"
+      },
+      {
+        "rank": 19,
+        "code": "BR",
+        "value": "17 Gt CO2 (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "RO",
+        "value": "15 Gt CO2"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "15 Gt CO2 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NL",
+        "value": "13 Gt CO2"
+      },
+      {
+        "rank": 23,
+        "code": "IR",
+        "value": "13 Gt CO2 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "13 Gt CO2 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "SA",
+        "value": "12 Gt CO2"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "12 Gt CO2 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TH",
+        "value": "11 Gt CO2"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "11 Gt CO2 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "TW",
+        "value": "11 Gt CO2 (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "VE",
+        "value": "10 Gt CO2"
+      },
+      {
+        "rank": 31,
+        "code": "MY",
+        "value": "10 Gt CO2 (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "HU",
+        "value": "8 Gt CO2"
+      },
+      {
+        "rank": 33,
+        "code": "BG",
+        "value": "8 Gt CO2 (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "PK",
+        "value": "8 Gt CO2 (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "NG",
+        "value": "7 Gt CO2"
+      },
+      {
+        "rank": 36,
+        "code": "AT",
+        "value": "7 Gt CO2 (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "EG",
+        "value": "7 Gt CO2 (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "GR",
+        "value": "6 Gt CO2"
+      },
+      {
+        "rank": 39,
+        "code": "SE",
+        "value": "6 Gt CO2 (tied)"
       }
     ]
   },
@@ -51900,7 +53075,7 @@
     "title": "Highest total methane emissions",
     "prompt": "Name the countries with the largest total annual methane emissions from all sources.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "EDGAR \u2014 Emissions Database for Global Atmospheric Research (EU Commission JRC)",
       "url": "https://edgar.jrc.ec.europa.eu/report_2024",
@@ -51985,6 +53160,131 @@
         "rank": 15,
         "code": "SA",
         "value": "108 Mt CO2e"
+      },
+      {
+        "rank": 16,
+        "code": "ET",
+        "value": "105 Mt CO2e"
+      },
+      {
+        "rank": 17,
+        "code": "VN",
+        "value": "100 Mt CO2e"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "95 Mt CO2e"
+      },
+      {
+        "rank": 19,
+        "code": "VE",
+        "value": "90 Mt CO2e"
+      },
+      {
+        "rank": 20,
+        "code": "MY",
+        "value": "88 Mt CO2e"
+      },
+      {
+        "rank": 21,
+        "code": "CD",
+        "value": "85 Mt CO2e"
+      },
+      {
+        "rank": 22,
+        "code": "EG",
+        "value": "80 Mt CO2e"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "75 Mt CO2e"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "73 Mt CO2e"
+      },
+      {
+        "rank": 25,
+        "code": "KZ",
+        "value": "70 Mt CO2e"
+      },
+      {
+        "rank": 26,
+        "code": "DE",
+        "value": "65 Mt CO2e"
+      },
+      {
+        "rank": 27,
+        "code": "IQ",
+        "value": "60 Mt CO2e"
+      },
+      {
+        "rank": 28,
+        "code": "DZ",
+        "value": "58 Mt CO2e"
+      },
+      {
+        "rank": 29,
+        "code": "FR",
+        "value": "57 Mt CO2e"
+      },
+      {
+        "rank": 30,
+        "code": "UZ",
+        "value": "55 Mt CO2e"
+      },
+      {
+        "rank": 31,
+        "code": "TZ",
+        "value": "54 Mt CO2e"
+      },
+      {
+        "rank": 32,
+        "code": "ZA",
+        "value": "53 Mt CO2e"
+      },
+      {
+        "rank": 33,
+        "code": "MM",
+        "value": "52 Mt CO2e"
+      },
+      {
+        "rank": 34,
+        "code": "PL",
+        "value": "50 Mt CO2e"
+      },
+      {
+        "rank": 35,
+        "code": "KE",
+        "value": "48 Mt CO2e"
+      },
+      {
+        "rank": 36,
+        "code": "PH",
+        "value": "47 Mt CO2e"
+      },
+      {
+        "rank": 37,
+        "code": "IT",
+        "value": "46 Mt CO2e"
+      },
+      {
+        "rank": 38,
+        "code": "UA",
+        "value": "45 Mt CO2e"
+      },
+      {
+        "rank": 39,
+        "code": "TM",
+        "value": "44 Mt CO2e"
+      },
+      {
+        "rank": 40,
+        "code": "AF",
+        "value": "42 Mt CO2e"
       }
     ]
   },
@@ -51995,7 +53295,7 @@
     "title": "Highest energy intensity of the economy",
     "prompt": "Name the countries whose economies use the most energy per unit of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "World Bank / IEA \u2014 Energy intensity level of primary energy",
       "url": "https://data.worldbank.org/indicator/EG.EGY.PRIM.PP.KD",
@@ -52080,6 +53380,106 @@
         "rank": 15,
         "code": "SA",
         "value": "6.9 MJ/$"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "6.7 MJ/$"
+      },
+      {
+        "rank": 17,
+        "code": "ZA",
+        "value": "6.4 MJ/$"
+      },
+      {
+        "rank": 18,
+        "code": "KW",
+        "value": "6.2 MJ/$"
+      },
+      {
+        "rank": 19,
+        "code": "KG",
+        "value": "6.0 MJ/$"
+      },
+      {
+        "rank": 20,
+        "code": "VE",
+        "value": "5.9 MJ/$"
+      },
+      {
+        "rank": 21,
+        "code": "BN",
+        "value": "5.7 MJ/$"
+      },
+      {
+        "rank": 22,
+        "code": "MD",
+        "value": "5.6 MJ/$"
+      },
+      {
+        "rank": 23,
+        "code": "LY",
+        "value": "5.5 MJ/$"
+      },
+      {
+        "rank": 24,
+        "code": "CN",
+        "value": "5.4 MJ/$"
+      },
+      {
+        "rank": 25,
+        "code": "US",
+        "value": "5.2 MJ/$"
+      },
+      {
+        "rank": 26,
+        "code": "AZ",
+        "value": "5.0 MJ/$"
+      },
+      {
+        "rank": 27,
+        "code": "EE",
+        "value": "4.9 MJ/$"
+      },
+      {
+        "rank": 28,
+        "code": "FI",
+        "value": "4.8 MJ/$"
+      },
+      {
+        "rank": 29,
+        "code": "JM",
+        "value": "4.7 MJ/$"
+      },
+      {
+        "rank": 30,
+        "code": "BY",
+        "value": "4.6 MJ/$"
+      },
+      {
+        "rank": 31,
+        "code": "BG",
+        "value": "4.5 MJ/$"
+      },
+      {
+        "rank": 32,
+        "code": "AU",
+        "value": "4.4 MJ/$"
+      },
+      {
+        "rank": 33,
+        "code": "KR",
+        "value": "4.3 MJ/$"
+      },
+      {
+        "rank": 34,
+        "code": "SG",
+        "value": "4.2 MJ/$"
+      },
+      {
+        "rank": 35,
+        "code": "DZ",
+        "value": "4.1 MJ/$"
       }
     ]
   },
@@ -52090,7 +53490,7 @@
     "title": "Most reliant on fossil fuel exports (% of GDP)",
     "prompt": "Name the countries whose economies depend most on fossil fuel exports as a share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "IMF / World Bank \u2014 Fuel exports as % of merchandise exports and GDP",
       "url": "https://www.imf.org/en/Topics/climate-change",
@@ -52175,6 +53575,81 @@
         "rank": 15,
         "code": "NG",
         "value": "20% of GDP"
+      },
+      {
+        "rank": 16,
+        "code": "GQ",
+        "value": "18% of GDP"
+      },
+      {
+        "rank": 17,
+        "code": "KZ",
+        "value": "18% of GDP (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "RU",
+        "value": "17% of GDP"
+      },
+      {
+        "rank": 19,
+        "code": "VE",
+        "value": "16% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "TT",
+        "value": "15% of GDP"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "13% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "MN",
+        "value": "12% of GDP"
+      },
+      {
+        "rank": 23,
+        "code": "CO",
+        "value": "11% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "10% of GDP"
+      },
+      {
+        "rank": 25,
+        "code": "IR",
+        "value": "9% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "EG",
+        "value": "9% of GDP (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "BO",
+        "value": "8% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "EC",
+        "value": "7% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "ID",
+        "value": "6% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "TL",
+        "value": "6% of GDP (tied)"
       }
     ]
   },
@@ -61980,7 +63455,7 @@
     "title": "Largest electric vehicle producers",
     "prompt": "Name the countries that produce the most battery-electric and plug-in hybrid passenger vehicles.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 35,
     "source": {
       "name": "IEA \u2014 Global EV Outlook",
       "url": "https://www.iea.org/reports/global-ev-outlook-2024",
@@ -62050,6 +63525,121 @@
         "rank": 12,
         "code": "BE",
         "value": "140K vehicles"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "120K vehicles"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "100K vehicles"
+      },
+      {
+        "rank": 15,
+        "code": "HU",
+        "value": "85K vehicles"
+      },
+      {
+        "rank": 16,
+        "code": "NL",
+        "value": "70K vehicles"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "55K vehicles"
+      },
+      {
+        "rank": 18,
+        "code": "AT",
+        "value": "45K vehicles"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "40K vehicles"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "35K vehicles"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "30K vehicles"
+      },
+      {
+        "rank": 22,
+        "code": "TH",
+        "value": "25K vehicles"
+      },
+      {
+        "rank": 23,
+        "code": "MY",
+        "value": "20K vehicles"
+      },
+      {
+        "rank": 24,
+        "code": "ID",
+        "value": "18K vehicles"
+      },
+      {
+        "rank": 25,
+        "code": "BR",
+        "value": "15K vehicles"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "12K vehicles"
+      },
+      {
+        "rank": 27,
+        "code": "RO",
+        "value": "10K vehicles"
+      },
+      {
+        "rank": 28,
+        "code": "MA",
+        "value": "9K vehicles"
+      },
+      {
+        "rank": 29,
+        "code": "ZA",
+        "value": "8K vehicles"
+      },
+      {
+        "rank": 30,
+        "code": "FI",
+        "value": "7K vehicles"
+      },
+      {
+        "rank": 31,
+        "code": "TW",
+        "value": "6K vehicles"
+      },
+      {
+        "rank": 32,
+        "code": "AR",
+        "value": "5K vehicles"
+      },
+      {
+        "rank": 33,
+        "code": "RU",
+        "value": "4K vehicles"
+      },
+      {
+        "rank": 34,
+        "code": "AU",
+        "value": "3K vehicles"
+      },
+      {
+        "rank": 35,
+        "code": "IR",
+        "value": "2K vehicles"
       }
     ]
   },
@@ -62060,7 +63650,7 @@
     "title": "Largest shipbuilders",
     "prompt": "Name the countries that build the most commercial ships by tonnage.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 35,
     "source": {
       "name": "Clarksons Research / UNCTAD Review of Maritime Transport",
       "url": "https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport",
@@ -62120,6 +63710,131 @@
         "rank": 10,
         "code": "TR",
         "value": "180K GT"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "170K GT"
+      },
+      {
+        "rank": 12,
+        "code": "RO",
+        "value": "150K GT"
+      },
+      {
+        "rank": 13,
+        "code": "NL",
+        "value": "140K GT"
+      },
+      {
+        "rank": 14,
+        "code": "FI",
+        "value": "120K GT"
+      },
+      {
+        "rank": 15,
+        "code": "US",
+        "value": "110K GT"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "100K GT"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "90K GT"
+      },
+      {
+        "rank": 18,
+        "code": "RU",
+        "value": "85K GT"
+      },
+      {
+        "rank": 19,
+        "code": "PL",
+        "value": "75K GT"
+      },
+      {
+        "rank": 20,
+        "code": "HR",
+        "value": "65K GT"
+      },
+      {
+        "rank": 21,
+        "code": "DK",
+        "value": "55K GT"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "48K GT"
+      },
+      {
+        "rank": 23,
+        "code": "SG",
+        "value": "42K GT"
+      },
+      {
+        "rank": 24,
+        "code": "AE",
+        "value": "38K GT"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "35K GT"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "30K GT"
+      },
+      {
+        "rank": 27,
+        "code": "ID",
+        "value": "28K GT"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "25K GT"
+      },
+      {
+        "rank": 29,
+        "code": "GR",
+        "value": "22K GT"
+      },
+      {
+        "rank": 30,
+        "code": "EG",
+        "value": "20K GT"
+      },
+      {
+        "rank": 31,
+        "code": "BG",
+        "value": "18K GT"
+      },
+      {
+        "rank": 32,
+        "code": "UA",
+        "value": "15K GT"
+      },
+      {
+        "rank": 33,
+        "code": "BD",
+        "value": "12K GT"
+      },
+      {
+        "rank": 34,
+        "code": "MX",
+        "value": "10K GT"
+      },
+      {
+        "rank": 35,
+        "code": "CA",
+        "value": "8K GT"
       }
     ]
   },
@@ -62130,7 +63845,7 @@
     "title": "Largest semiconductor producers",
     "prompt": "Name the countries with the largest share of global semiconductor manufacturing capacity.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Semiconductor industry (country sales leadership by segment)",
       "url": "https://en.wikipedia.org/wiki/Semiconductor_industry",
@@ -62190,6 +63905,106 @@
         "rank": 10,
         "code": "IE",
         "value": "1% share"
+      },
+      {
+        "rank": 11,
+        "code": "AT",
+        "value": "0.8% share"
+      },
+      {
+        "rank": 12,
+        "code": "FR",
+        "value": "0.7% share"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "0.5% share"
+      },
+      {
+        "rank": 14,
+        "code": "PH",
+        "value": "0.45% share"
+      },
+      {
+        "rank": 15,
+        "code": "VN",
+        "value": "0.4% share"
+      },
+      {
+        "rank": 16,
+        "code": "TH",
+        "value": "0.35% share"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "0.3% share"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "0.25% share"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "0.2% share"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "0.18% share"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "0.15% share"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "0.12% share"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "0.10% share"
+      },
+      {
+        "rank": 24,
+        "code": "CZ",
+        "value": "0.08% share"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "0.07% share"
+      },
+      {
+        "rank": 26,
+        "code": "HU",
+        "value": "0.06% share"
+      },
+      {
+        "rank": 27,
+        "code": "BR",
+        "value": "0.05% share"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "0.04% share"
+      },
+      {
+        "rank": 29,
+        "code": "ID",
+        "value": "0.03% share"
+      },
+      {
+        "rank": 30,
+        "code": "AU",
+        "value": "0.02% share"
       }
     ]
   },
@@ -62200,7 +64015,7 @@
     "title": "Largest smartphone producers",
     "prompt": "Name the countries that assemble the most smartphones.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "Counterpoint Research / IDC Smartphone Manufacturing Tracker",
       "url": "https://www.counterpointresearch.com/insights/global-smartphone-shipments-market-data/",
@@ -62260,6 +64075,106 @@
         "rank": 9,
         "code": "PK",
         "value": "5M units (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PH",
+        "value": "4M units"
+      },
+      {
+        "rank": 12,
+        "code": "TR",
+        "value": "3.5M units"
+      },
+      {
+        "rank": 13,
+        "code": "EG",
+        "value": "3M units"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "2.5M units"
+      },
+      {
+        "rank": 15,
+        "code": "BD",
+        "value": "2M units"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "1.8M units"
+      },
+      {
+        "rank": 17,
+        "code": "ZA",
+        "value": "1.5M units"
+      },
+      {
+        "rank": 18,
+        "code": "TW",
+        "value": "1.3M units"
+      },
+      {
+        "rank": 19,
+        "code": "NG",
+        "value": "1.2M units"
+      },
+      {
+        "rank": 20,
+        "code": "US",
+        "value": "1.0M units"
+      },
+      {
+        "rank": 21,
+        "code": "DZ",
+        "value": "800K units"
+      },
+      {
+        "rank": 22,
+        "code": "IR",
+        "value": "700K units"
+      },
+      {
+        "rank": 23,
+        "code": "CO",
+        "value": "600K units"
+      },
+      {
+        "rank": 24,
+        "code": "MA",
+        "value": "500K units"
+      },
+      {
+        "rank": 25,
+        "code": "HU",
+        "value": "400K units"
+      },
+      {
+        "rank": 26,
+        "code": "KE",
+        "value": "350K units"
+      },
+      {
+        "rank": 27,
+        "code": "PL",
+        "value": "300K units"
+      },
+      {
+        "rank": 28,
+        "code": "CZ",
+        "value": "250K units"
+      },
+      {
+        "rank": 29,
+        "code": "ET",
+        "value": "200K units"
+      },
+      {
+        "rank": 30,
+        "code": "PE",
+        "value": "150K units"
       }
     ]
   },
@@ -77555,7 +79470,7 @@
     "title": "Largest almond producers",
     "prompt": "Name the world's largest almond-producing countries by volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "FAOSTAT \u2014 Crops and livestock products",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -77584,7 +79499,7 @@
       {
         "rank": 3,
         "code": "TR",
-        "value": "~150,000 tonnes"
+        "value": "~150,000 tonnes (tied)"
       },
       {
         "rank": 5,
@@ -77594,7 +79509,7 @@
       {
         "rank": 5,
         "code": "IR",
-        "value": "~130,000 tonnes"
+        "value": "~130,000 tonnes (tied)"
       },
       {
         "rank": 7,
@@ -77614,7 +79529,7 @@
       {
         "rank": 9,
         "code": "AF",
-        "value": "~55,000 tonnes"
+        "value": "~55,000 tonnes (tied)"
       },
       {
         "rank": 11,
@@ -77640,6 +79555,81 @@
         "rank": 15,
         "code": "LB",
         "value": "~30,000 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "UZ",
+        "value": "~25,000 tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "AZ",
+        "value": "~22,000 tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "CN",
+        "value": "~20,000 tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "~15,000 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "PK",
+        "value": "~14,000 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "FR",
+        "value": "~13,000 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "TJ",
+        "value": "~12,000 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "EG",
+        "value": "~10,000 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "LY",
+        "value": "~9,000 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "AL",
+        "value": "~8,000 tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "BG",
+        "value": "~6,000 tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "MK",
+        "value": "~5,000 tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "CY",
+        "value": "~4,000 tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "IQ",
+        "value": "~3,000 tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "JO",
+        "value": "~2,000 tonnes"
       }
     ]
   },
@@ -86730,7 +88720,7 @@
     "title": "Largest semiconductor fab capacity",
     "prompt": "Name the countries with the largest semiconductor fabrication (wafer) capacity.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "SEMI World Fab Forecast / Statista",
       "url": "https://www.statista.com/statistics/1225036/semiconductor-fabrication-capacity-worldwide-by-country/",
@@ -86800,6 +88790,46 @@
         "rank": 10,
         "code": "IT",
         "value": "1% share (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "0.6% share"
+      },
+      {
+        "rank": 14,
+        "code": "GB",
+        "value": "0.5% share"
+      },
+      {
+        "rank": 15,
+        "code": "NL",
+        "value": "0.5% share (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "0.4% share"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "0.3% share"
+      },
+      {
+        "rank": 18,
+        "code": "PH",
+        "value": "0.3% share (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "0.2% share"
+      },
+      {
+        "rank": 20,
+        "code": "TH",
+        "value": "0.2% share (tied)"
       }
     ]
   },
@@ -86905,7 +88935,7 @@
     "title": "Most AI patent filings",
     "prompt": "Name the countries filing the most artificial intelligence patents.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 35,
     "source": {
       "name": "WIPO \u2014 Patent Landscape Report on Generative AI",
       "url": "https://www.wipo.int/publications/en/details.jsp?id=4740",
@@ -86975,6 +89005,121 @@
         "rank": 12,
         "code": "RU",
         "value": "196 filings"
+      },
+      {
+        "rank": 13,
+        "code": "TW",
+        "value": "180 filings"
+      },
+      {
+        "rank": 14,
+        "code": "SG",
+        "value": "165 filings"
+      },
+      {
+        "rank": 15,
+        "code": "NL",
+        "value": "142 filings"
+      },
+      {
+        "rank": 16,
+        "code": "CH",
+        "value": "128 filings"
+      },
+      {
+        "rank": 17,
+        "code": "SE",
+        "value": "112 filings"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "98 filings"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "87 filings"
+      },
+      {
+        "rank": 20,
+        "code": "FI",
+        "value": "76 filings"
+      },
+      {
+        "rank": 21,
+        "code": "BR",
+        "value": "68 filings"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "62 filings"
+      },
+      {
+        "rank": 23,
+        "code": "DK",
+        "value": "58 filings"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "54 filings"
+      },
+      {
+        "rank": 25,
+        "code": "IE",
+        "value": "48 filings"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "44 filings"
+      },
+      {
+        "rank": 27,
+        "code": "NO",
+        "value": "38 filings"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "34 filings"
+      },
+      {
+        "rank": 29,
+        "code": "MX",
+        "value": "30 filings"
+      },
+      {
+        "rank": 30,
+        "code": "HK",
+        "value": "28 filings"
+      },
+      {
+        "rank": 31,
+        "code": "AE",
+        "value": "25 filings"
+      },
+      {
+        "rank": 32,
+        "code": "SA",
+        "value": "22 filings"
+      },
+      {
+        "rank": 33,
+        "code": "CZ",
+        "value": "20 filings"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "18 filings"
+      },
+      {
+        "rank": 35,
+        "code": "PT",
+        "value": "16 filings"
       }
     ]
   },
@@ -87270,7 +89415,7 @@
     "title": "Largest tech stock market cap",
     "prompt": "Name the countries whose stock exchanges host the largest aggregate technology-sector market capitalisation.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Statista / WFE \u2014 Technology sector market capitalisation by exchange",
       "url": "https://www.statista.com/topics/1291/stock-exchanges/",
@@ -87340,6 +89485,96 @@
         "rank": 12,
         "code": "IE",
         "value": "$130B"
+      },
+      {
+        "rank": 13,
+        "code": "HK",
+        "value": "$120B"
+      },
+      {
+        "rank": 14,
+        "code": "SE",
+        "value": "$95B"
+      },
+      {
+        "rank": 15,
+        "code": "CH",
+        "value": "$85B"
+      },
+      {
+        "rank": 16,
+        "code": "IL",
+        "value": "$78B"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "$65B"
+      },
+      {
+        "rank": 18,
+        "code": "SG",
+        "value": "$58B"
+      },
+      {
+        "rank": 19,
+        "code": "FI",
+        "value": "$52B"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "$48B"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "$42B"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "$38B"
+      },
+      {
+        "rank": 23,
+        "code": "DK",
+        "value": "$34B"
+      },
+      {
+        "rank": 24,
+        "code": "NO",
+        "value": "$28B"
+      },
+      {
+        "rank": 25,
+        "code": "BE",
+        "value": "$24B"
+      },
+      {
+        "rank": 26,
+        "code": "ZA",
+        "value": "$20B"
+      },
+      {
+        "rank": 27,
+        "code": "MX",
+        "value": "$18B"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "$16B"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "$14B"
+      },
+      {
+        "rank": 30,
+        "code": "TR",
+        "value": "$12B"
       }
     ]
   },
@@ -99890,7 +102125,7 @@
     "title": "Largest wind turbine manufacturers by country of HQ",
     "prompt": "Name the countries whose companies produced the most wind turbine capacity globally.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "BloombergNEF / Wood Mackenzie \u2014 Global Wind Turbine OEM Market Share",
       "url": "https://about.bnef.com/blog/global-wind-turbine-oem-rankings/",
@@ -99950,6 +102185,106 @@
         "rank": 10,
         "code": "TR",
         "value": "0.2% of global capacity"
+      },
+      {
+        "rank": 11,
+        "code": "IT",
+        "value": "0.15% of global capacity"
+      },
+      {
+        "rank": 12,
+        "code": "FR",
+        "value": "0.12% of global capacity"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "0.10% of global capacity"
+      },
+      {
+        "rank": 14,
+        "code": "GB",
+        "value": "0.08% of global capacity"
+      },
+      {
+        "rank": 15,
+        "code": "SE",
+        "value": "0.06% of global capacity"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "0.05% of global capacity"
+      },
+      {
+        "rank": 17,
+        "code": "FI",
+        "value": "0.04% of global capacity"
+      },
+      {
+        "rank": 18,
+        "code": "PT",
+        "value": "0.035% of global capacity"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "0.030% of global capacity"
+      },
+      {
+        "rank": 20,
+        "code": "BE",
+        "value": "0.025% of global capacity"
+      },
+      {
+        "rank": 21,
+        "code": "PL",
+        "value": "0.022% of global capacity"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "0.020% of global capacity"
+      },
+      {
+        "rank": 23,
+        "code": "IE",
+        "value": "0.018% of global capacity"
+      },
+      {
+        "rank": 24,
+        "code": "CA",
+        "value": "0.015% of global capacity"
+      },
+      {
+        "rank": 25,
+        "code": "AU",
+        "value": "0.012% of global capacity"
+      },
+      {
+        "rank": 26,
+        "code": "TW",
+        "value": "0.010% of global capacity"
+      },
+      {
+        "rank": 27,
+        "code": "MX",
+        "value": "0.008% of global capacity"
+      },
+      {
+        "rank": 28,
+        "code": "AR",
+        "value": "0.006% of global capacity"
+      },
+      {
+        "rank": 29,
+        "code": "GR",
+        "value": "0.005% of global capacity"
+      },
+      {
+        "rank": 30,
+        "code": "IR",
+        "value": "0.004% of global capacity"
       }
     ]
   },
@@ -99960,7 +102295,7 @@
     "title": "Largest solar panel producers",
     "prompt": "Name the countries that produce the most solar photovoltaic (PV) modules.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "IEA \u2014 Special Report on Solar PV Global Supply Chains",
       "url": "https://www.iea.org/reports/solar-pv-global-supply-chains",
@@ -100020,6 +102355,106 @@
         "rank": 10,
         "code": "TR",
         "value": "0.3% of global output"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "0.25% of global output"
+      },
+      {
+        "rank": 12,
+        "code": "TW",
+        "value": "0.2% of global output"
+      },
+      {
+        "rank": 13,
+        "code": "ID",
+        "value": "0.15% of global output"
+      },
+      {
+        "rank": 14,
+        "code": "MX",
+        "value": "0.12% of global output"
+      },
+      {
+        "rank": 15,
+        "code": "FR",
+        "value": "0.10% of global output"
+      },
+      {
+        "rank": 16,
+        "code": "IT",
+        "value": "0.08% of global output"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "0.07% of global output"
+      },
+      {
+        "rank": 18,
+        "code": "PL",
+        "value": "0.06% of global output"
+      },
+      {
+        "rank": 19,
+        "code": "GB",
+        "value": "0.05% of global output"
+      },
+      {
+        "rank": 20,
+        "code": "HU",
+        "value": "0.045% of global output"
+      },
+      {
+        "rank": 21,
+        "code": "BR",
+        "value": "0.040% of global output"
+      },
+      {
+        "rank": 22,
+        "code": "SG",
+        "value": "0.035% of global output"
+      },
+      {
+        "rank": 23,
+        "code": "PH",
+        "value": "0.030% of global output"
+      },
+      {
+        "rank": 24,
+        "code": "NL",
+        "value": "0.025% of global output"
+      },
+      {
+        "rank": 25,
+        "code": "BE",
+        "value": "0.020% of global output"
+      },
+      {
+        "rank": 26,
+        "code": "AT",
+        "value": "0.015% of global output"
+      },
+      {
+        "rank": 27,
+        "code": "AU",
+        "value": "0.012% of global output"
+      },
+      {
+        "rank": 28,
+        "code": "SE",
+        "value": "0.010% of global output"
+      },
+      {
+        "rank": 29,
+        "code": "NO",
+        "value": "0.008% of global output"
+      },
+      {
+        "rank": 30,
+        "code": "CZ",
+        "value": "0.006% of global output"
       }
     ]
   },
@@ -100030,7 +102465,7 @@
     "title": "Largest EV battery producers",
     "prompt": "Name the countries whose companies produce the most electric vehicle battery capacity.",
     "answerType": "Countries",
-    "seededDepth": 8,
+    "seededDepth": 30,
     "source": {
       "name": "SNE Research / BloombergNEF \u2014 Global EV Battery Rankings",
       "url": "https://www.sneresearch.com/",
@@ -100080,6 +102515,116 @@
         "rank": 8,
         "code": "GB",
         "value": "0.2% of global capacity"
+      },
+      {
+        "rank": 9,
+        "code": "PL",
+        "value": "0.15% of global capacity"
+      },
+      {
+        "rank": 10,
+        "code": "HU",
+        "value": "0.12% of global capacity"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "0.10% of global capacity"
+      },
+      {
+        "rank": 12,
+        "code": "NO",
+        "value": "0.08% of global capacity"
+      },
+      {
+        "rank": 13,
+        "code": "IN",
+        "value": "0.06% of global capacity"
+      },
+      {
+        "rank": 14,
+        "code": "TW",
+        "value": "0.05% of global capacity"
+      },
+      {
+        "rank": 15,
+        "code": "FI",
+        "value": "0.04% of global capacity"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "0.03% of global capacity"
+      },
+      {
+        "rank": 17,
+        "code": "CZ",
+        "value": "0.025% of global capacity"
+      },
+      {
+        "rank": 18,
+        "code": "SK",
+        "value": "0.02% of global capacity"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "0.018% of global capacity"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "0.015% of global capacity"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "0.012% of global capacity"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "0.010% of global capacity"
+      },
+      {
+        "rank": 23,
+        "code": "MA",
+        "value": "0.008% of global capacity"
+      },
+      {
+        "rank": 24,
+        "code": "AU",
+        "value": "0.007% of global capacity"
+      },
+      {
+        "rank": 25,
+        "code": "IL",
+        "value": "0.006% of global capacity"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "0.005% of global capacity"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "0.004% of global capacity"
+      },
+      {
+        "rank": 28,
+        "code": "TH",
+        "value": "0.003% of global capacity"
+      },
+      {
+        "rank": 29,
+        "code": "ID",
+        "value": "0.002% of global capacity"
+      },
+      {
+        "rank": 30,
+        "code": "MY",
+        "value": "0.001% of global capacity"
       }
     ]
   },
@@ -106160,7 +108705,7 @@
     "title": "Countries hosting the world's largest optical telescopes",
     "prompt": "Name the countries hosting the most of the world's largest optical/infrared telescopes (aperture >3m).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of largest optical reflecting telescopes",
       "url": "https://en.wikipedia.org/wiki/List_of_largest_optical_reflecting_telescopes",
@@ -106183,43 +108728,143 @@
       },
       {
         "rank": 3,
+        "code": "US",
+        "value": "3 telescopes (mainland/Hawaii)"
+      },
+      {
+        "rank": 4,
+        "code": "CL",
+        "value": "3 telescopes (Atacama)"
+      },
+      {
+        "rank": 5,
         "code": "JP",
         "value": "2 telescopes"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "code": "IN",
         "value": "2 telescopes (tied)"
       },
       {
-        "rank": 3,
+        "rank": 5,
         "code": "MX",
         "value": "2 telescopes (tied)"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "RU",
         "value": "1 telescope"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "ZA",
         "value": "1 telescope (tied)"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "AU",
         "value": "1 telescope (tied)"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "DE",
         "value": "1 telescope (tied)"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "IT",
         "value": "1 telescope (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "FR",
+        "value": "1 telescope (Pic du Midi)"
+      },
+      {
+        "rank": 14,
+        "code": "GB",
+        "value": "1 telescope (Herstmonceux)"
+      },
+      {
+        "rank": 15,
+        "code": "CA",
+        "value": "1 telescope (DAO)"
+      },
+      {
+        "rank": 16,
+        "code": "AR",
+        "value": "1 telescope (Leoncito)"
+      },
+      {
+        "rank": 17,
+        "code": "AM",
+        "value": "1 telescope (Byurakan)"
+      },
+      {
+        "rank": 18,
+        "code": "UZ",
+        "value": "1 telescope (Maidanak)"
+      },
+      {
+        "rank": 19,
+        "code": "IR",
+        "value": "1 telescope (INO 3.4m)"
+      },
+      {
+        "rank": 20,
+        "code": "TR",
+        "value": "1 telescope (DAG 4m)"
+      },
+      {
+        "rank": 21,
+        "code": "GR",
+        "value": "1 telescope (Kryoneri)"
+      },
+      {
+        "rank": 22,
+        "code": "UA",
+        "value": "1 telescope (Crimean AO)"
+      },
+      {
+        "rank": 23,
+        "code": "KZ",
+        "value": "1 telescope (Assy-Turgen)"
+      },
+      {
+        "rank": 24,
+        "code": "BG",
+        "value": "1 telescope (Rozhen 2m)"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "1 telescope (SALT partner site)"
+      },
+      {
+        "rank": 26,
+        "code": "RO",
+        "value": "1 telescope (Feleacu)"
+      },
+      {
+        "rank": 27,
+        "code": "CH",
+        "value": "1 telescope (Gornergrat)"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "1 telescope (Kanzelhohe)"
+      },
+      {
+        "rank": 29,
+        "code": "FI",
+        "value": "1 telescope (Metsahovi)"
+      },
+      {
+        "rank": 30,
+        "code": "SE",
+        "value": "1 telescope (Onsala)"
       }
     ]
   },
@@ -118365,7 +121010,7 @@
     "title": "Largest wheat exporters",
     "prompt": "Name the countries that export the most wheat by volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "USDA FAS \u2014 Grain: World Markets and Trade",
       "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade",
@@ -118450,6 +121095,81 @@
         "rank": 15,
         "code": "HU",
         "value": "2.5 MMT"
+      },
+      {
+        "rank": 16,
+        "code": "LV",
+        "value": "2.3 MMT"
+      },
+      {
+        "rank": 17,
+        "code": "CZ",
+        "value": "2.0 MMT"
+      },
+      {
+        "rank": 18,
+        "code": "PK",
+        "value": "1.5 MMT"
+      },
+      {
+        "rank": 19,
+        "code": "SK",
+        "value": "1.3 MMT"
+      },
+      {
+        "rank": 20,
+        "code": "EE",
+        "value": "1.1 MMT"
+      },
+      {
+        "rank": 21,
+        "code": "GB",
+        "value": "1.0 MMT"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "0.9 MMT"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "0.8 MMT"
+      },
+      {
+        "rank": 24,
+        "code": "RS",
+        "value": "0.7 MMT"
+      },
+      {
+        "rank": 25,
+        "code": "BE",
+        "value": "0.6 MMT"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "0.5 MMT"
+      },
+      {
+        "rank": 27,
+        "code": "MD",
+        "value": "0.4 MMT"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "0.35 MMT"
+      },
+      {
+        "rank": 29,
+        "code": "PY",
+        "value": "0.3 MMT"
+      },
+      {
+        "rank": 30,
+        "code": "UY",
+        "value": "0.25 MMT"
       }
     ]
   },
@@ -118460,7 +121180,7 @@
     "title": "Largest rice exporters",
     "prompt": "Name the countries that export the most milled rice by volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "USDA FAS \u2014 Grain: World Markets and Trade",
       "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade",
@@ -118474,52 +121194,52 @@
       {
         "rank": 1,
         "code": "IN",
-        "value": "17.0 MMT"
+        "value": "17.00 MMT"
       },
       {
         "rank": 2,
         "code": "TH",
-        "value": "8.5 MMT"
+        "value": "8.50 MMT"
       },
       {
         "rank": 3,
         "code": "VN",
-        "value": "8.0 MMT"
+        "value": "8.00 MMT"
       },
       {
         "rank": 4,
         "code": "PK",
-        "value": "4.5 MMT"
+        "value": "4.50 MMT"
       },
       {
         "rank": 5,
         "code": "US",
-        "value": "2.9 MMT"
+        "value": "2.90 MMT"
       },
       {
         "rank": 6,
         "code": "CN",
-        "value": "2.0 MMT"
+        "value": "2.00 MMT"
       },
       {
         "rank": 7,
         "code": "MM",
-        "value": "1.7 MMT"
+        "value": "1.70 MMT"
       },
       {
         "rank": 8,
         "code": "BR",
-        "value": "1.4 MMT"
+        "value": "1.40 MMT"
       },
       {
         "rank": 9,
         "code": "KH",
-        "value": "1.3 MMT"
+        "value": "1.30 MMT"
       },
       {
         "rank": 10,
         "code": "UY",
-        "value": "1.0 MMT"
+        "value": "1.00 MMT"
       },
       {
         "rank": 11,
@@ -118529,7 +121249,7 @@
       {
         "rank": 12,
         "code": "IT",
-        "value": "0.7 MMT"
+        "value": "0.70 MMT"
       },
       {
         "rank": 13,
@@ -118544,7 +121264,82 @@
       {
         "rank": 15,
         "code": "RU",
-        "value": "0.2 MMT"
+        "value": "0.20 MMT"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "0.18 MMT"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "0.15 MMT"
+      },
+      {
+        "rank": 18,
+        "code": "EG",
+        "value": "0.12 MMT"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "0.10 MMT"
+      },
+      {
+        "rank": 20,
+        "code": "TZ",
+        "value": "0.09 MMT"
+      },
+      {
+        "rank": 21,
+        "code": "GR",
+        "value": "0.08 MMT"
+      },
+      {
+        "rank": 22,
+        "code": "SR",
+        "value": "0.07 MMT"
+      },
+      {
+        "rank": 23,
+        "code": "JP",
+        "value": "0.06 MMT"
+      },
+      {
+        "rank": 24,
+        "code": "NL",
+        "value": "0.05 MMT"
+      },
+      {
+        "rank": 25,
+        "code": "BE",
+        "value": "0.04 MMT"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "0.03 MMT"
+      },
+      {
+        "rank": 27,
+        "code": "FR",
+        "value": "0.03 MMT (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "DE",
+        "value": "0.02 MMT"
+      },
+      {
+        "rank": 29,
+        "code": "AE",
+        "value": "0.02 MMT (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SG",
+        "value": "0.02 MMT (tied)"
       }
     ]
   },
@@ -118555,7 +121350,7 @@
     "title": "Largest corn (maize) exporters",
     "prompt": "Name the countries that export the most corn (maize) by volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "USDA FAS \u2014 Grain: World Markets and Trade",
       "url": "https://www.fas.usda.gov/data/grain-world-markets-and-trade",
@@ -118640,6 +121435,81 @@
         "rank": 15,
         "code": "MX",
         "value": "1.0 MMT"
+      },
+      {
+        "rank": 16,
+        "code": "PL",
+        "value": "0.9 MMT"
+      },
+      {
+        "rank": 17,
+        "code": "MM",
+        "value": "0.8 MMT"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "0.7 MMT"
+      },
+      {
+        "rank": 19,
+        "code": "MD",
+        "value": "0.6 MMT"
+      },
+      {
+        "rank": 20,
+        "code": "DE",
+        "value": "0.55 MMT"
+      },
+      {
+        "rank": 21,
+        "code": "ZM",
+        "value": "0.5 MMT"
+      },
+      {
+        "rank": 22,
+        "code": "LA",
+        "value": "0.45 MMT"
+      },
+      {
+        "rank": 23,
+        "code": "TZ",
+        "value": "0.4 MMT"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "0.35 MMT"
+      },
+      {
+        "rank": 25,
+        "code": "SK",
+        "value": "0.3 MMT"
+      },
+      {
+        "rank": 26,
+        "code": "HR",
+        "value": "0.25 MMT"
+      },
+      {
+        "rank": 27,
+        "code": "UY",
+        "value": "0.2 MMT"
+      },
+      {
+        "rank": 28,
+        "code": "ET",
+        "value": "0.15 MMT"
+      },
+      {
+        "rank": 29,
+        "code": "MW",
+        "value": "0.12 MMT"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "0.1 MMT"
       }
     ]
   },
@@ -118650,7 +121520,7 @@
     "title": "Largest soybean exporters",
     "prompt": "Name the countries that export the most soybeans by volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "USDA FAS \u2014 Oilseeds: World Markets and Trade",
       "url": "https://www.fas.usda.gov/data/oilseeds-world-markets-and-trade",
@@ -118735,6 +121605,81 @@
         "rank": 15,
         "code": "MD",
         "value": "0.1 MMT"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "0.09 MMT"
+      },
+      {
+        "rank": 17,
+        "code": "RO",
+        "value": "0.08 MMT"
+      },
+      {
+        "rank": 18,
+        "code": "RS",
+        "value": "0.07 MMT"
+      },
+      {
+        "rank": 19,
+        "code": "ZM",
+        "value": "0.06 MMT"
+      },
+      {
+        "rank": 20,
+        "code": "UG",
+        "value": "0.05 MMT"
+      },
+      {
+        "rank": 21,
+        "code": "BJ",
+        "value": "0.04 MMT"
+      },
+      {
+        "rank": 22,
+        "code": "MW",
+        "value": "0.035 MMT"
+      },
+      {
+        "rank": 23,
+        "code": "NG",
+        "value": "0.03 MMT"
+      },
+      {
+        "rank": 24,
+        "code": "TG",
+        "value": "0.025 MMT"
+      },
+      {
+        "rank": 25,
+        "code": "FR",
+        "value": "0.02 MMT"
+      },
+      {
+        "rank": 26,
+        "code": "DE",
+        "value": "0.018 MMT"
+      },
+      {
+        "rank": 27,
+        "code": "HR",
+        "value": "0.015 MMT"
+      },
+      {
+        "rank": 28,
+        "code": "IT",
+        "value": "0.012 MMT"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "0.01 MMT"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "0.008 MMT"
       }
     ]
   },
@@ -120170,7 +123115,7 @@
     "title": "Most restaurants per capita",
     "prompt": "Name the countries with the highest number of restaurants (including cafes and food-service outlets) per capita.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "Statista / Euromonitor \u2014 Foodservice outlets per capita",
       "url": "https://www.statista.com/statistics/1249370/restaurants-per-capita-worldwide/",
@@ -120238,8 +123183,148 @@
       },
       {
         "rank": 12,
+        "code": "CY",
+        "value": "~3.0 per 1,000"
+      },
+      {
+        "rank": 13,
+        "code": "MT",
+        "value": "~2.8 per 1,000"
+      },
+      {
+        "rank": 14,
+        "code": "HR",
+        "value": "~2.6 per 1,000"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "~2.5 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "~2.4 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "~2.3 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "TW",
+        "value": "~2.2 per 1,000"
+      },
+      {
+        "rank": 19,
         "code": "US",
         "value": "~2.1 per 1,000"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "~2.0 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "AU",
+        "value": "~1.9 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "HK",
+        "value": "~1.9 per 1,000 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "SG",
+        "value": "~1.8 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "NL",
+        "value": "~1.7 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "IL",
+        "value": "~1.7 per 1,000 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "~1.6 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "GB",
+        "value": "~1.6 per 1,000 (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "DE",
+        "value": "~1.5 per 1,000"
+      },
+      {
+        "rank": 29,
+        "code": "HU",
+        "value": "~1.5 per 1,000 (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "NZ",
+        "value": "~1.4 per 1,000"
+      },
+      {
+        "rank": 31,
+        "code": "SI",
+        "value": "~1.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "CH",
+        "value": "~1.3 per 1,000"
+      },
+      {
+        "rank": 33,
+        "code": "DK",
+        "value": "~1.3 per 1,000 (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "SE",
+        "value": "~1.2 per 1,000"
+      },
+      {
+        "rank": 35,
+        "code": "NO",
+        "value": "~1.2 per 1,000 (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "FI",
+        "value": "~1.1 per 1,000"
+      },
+      {
+        "rank": 37,
+        "code": "PL",
+        "value": "~1.1 per 1,000 (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "RO",
+        "value": "~1.0 per 1,000"
+      },
+      {
+        "rank": 39,
+        "code": "BR",
+        "value": "~1.0 per 1,000 (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "CL",
+        "value": "~0.9 per 1,000"
       }
     ]
   },
@@ -120250,7 +123335,7 @@
     "title": "Most cafes per capita",
     "prompt": "Name the countries with the most coffee shops and cafes per capita.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "World Coffee Portal \u2014 Branded Coffee Shop Market Reports",
       "url": "https://www.worldcoffeeportal.com/",
@@ -120308,18 +123393,158 @@
       },
       {
         "rank": 10,
+        "code": "ES",
+        "value": "~0.60 per 1,000"
+      },
+      {
+        "rank": 11,
         "code": "GB",
         "value": "~0.55 per 1,000"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "US",
         "value": "~0.50 per 1,000"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "JP",
         "value": "~0.45 per 1,000"
+      },
+      {
+        "rank": 14,
+        "code": "DK",
+        "value": "~0.44 per 1,000"
+      },
+      {
+        "rank": 15,
+        "code": "NO",
+        "value": "~0.42 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "TW",
+        "value": "~0.40 per 1,000"
+      },
+      {
+        "rank": 17,
+        "code": "NL",
+        "value": "~0.38 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "~0.36 per 1,000"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "~0.35 per 1,000"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "~0.34 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "NZ",
+        "value": "~0.33 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "~0.32 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "~0.30 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "~0.29 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "~0.28 per 1,000"
+      },
+      {
+        "rank": 26,
+        "code": "IL",
+        "value": "~0.27 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "SG",
+        "value": "~0.26 per 1,000"
+      },
+      {
+        "rank": 28,
+        "code": "HK",
+        "value": "~0.26 per 1,000 (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "~0.24 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "~0.23 per 1,000"
+      },
+      {
+        "rank": 31,
+        "code": "SK",
+        "value": "~0.22 per 1,000"
+      },
+      {
+        "rank": 32,
+        "code": "SI",
+        "value": "~0.21 per 1,000"
+      },
+      {
+        "rank": 33,
+        "code": "HR",
+        "value": "~0.20 per 1,000"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "~0.19 per 1,000"
+      },
+      {
+        "rank": 35,
+        "code": "LT",
+        "value": "~0.18 per 1,000"
+      },
+      {
+        "rank": 36,
+        "code": "LV",
+        "value": "~0.17 per 1,000"
+      },
+      {
+        "rank": 37,
+        "code": "AE",
+        "value": "~0.16 per 1,000"
+      },
+      {
+        "rank": 38,
+        "code": "TH",
+        "value": "~0.15 per 1,000"
+      },
+      {
+        "rank": 39,
+        "code": "BR",
+        "value": "~0.14 per 1,000"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "~0.13 per 1,000"
       }
     ]
   },
@@ -120330,7 +123555,7 @@
     "title": "Most breweries per capita",
     "prompt": "Name the countries with the most breweries per capita.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "Brewers Association / Kirin Beer University \u2014 Brewery counts by country",
       "url": "https://www.brewersassociation.org/statistics-and-data/",
@@ -120388,18 +123613,158 @@
       },
       {
         "rank": 10,
+        "code": "IS",
+        "value": "~26 per million"
+      },
+      {
+        "rank": 11,
+        "code": "SI",
+        "value": "~24 per million"
+      },
+      {
+        "rank": 12,
+        "code": "NO",
+        "value": "~22 per million"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "~21 per million"
+      },
+      {
+        "rank": 14,
+        "code": "EE",
+        "value": "~20 per million"
+      },
+      {
+        "rank": 15,
         "code": "DE",
         "value": "~19 per million"
       },
       {
-        "rank": 11,
+        "rank": 16,
         "code": "GB",
         "value": "~18 per million"
       },
       {
-        "rank": 12,
+        "rank": 17,
         "code": "CA",
         "value": "~17 per million"
+      },
+      {
+        "rank": 18,
+        "code": "NL",
+        "value": "~16 per million"
+      },
+      {
+        "rank": 19,
+        "code": "FI",
+        "value": "~15 per million"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "~13 per million"
+      },
+      {
+        "rank": 21,
+        "code": "LU",
+        "value": "~12 per million"
+      },
+      {
+        "rank": 22,
+        "code": "FR",
+        "value": "~11 per million"
+      },
+      {
+        "rank": 23,
+        "code": "SK",
+        "value": "~10 per million"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "~9 per million"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "~8 per million"
+      },
+      {
+        "rank": 26,
+        "code": "LT",
+        "value": "~8 per million (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "~7 per million"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "~7 per million (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "HR",
+        "value": "~6 per million"
+      },
+      {
+        "rank": 30,
+        "code": "LV",
+        "value": "~6 per million (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "BG",
+        "value": "~5.5 per million"
+      },
+      {
+        "rank": 32,
+        "code": "JP",
+        "value": "~5 per million"
+      },
+      {
+        "rank": 33,
+        "code": "IL",
+        "value": "~4.5 per million"
+      },
+      {
+        "rank": 34,
+        "code": "RO",
+        "value": "~4 per million"
+      },
+      {
+        "rank": 35,
+        "code": "AR",
+        "value": "~4 per million (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "ZA",
+        "value": "~3.5 per million"
+      },
+      {
+        "rank": 37,
+        "code": "MX",
+        "value": "~3 per million"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "~2.5 per million"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "~2 per million"
+      },
+      {
+        "rank": 40,
+        "code": "KR",
+        "value": "~2 per million (tied)"
       }
     ]
   },
@@ -120410,7 +123775,7 @@
     "title": "Most distilleries per capita",
     "prompt": "Name the countries with the most whisky, gin, and spirits distilleries per capita.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "Scotch Whisky Association",
       "url": "https://www.scotch-whisky.org.uk/",
@@ -120438,48 +123803,188 @@
       },
       {
         "rank": 4,
+        "code": "IS",
+        "value": "~5.0 per million"
+      },
+      {
+        "rank": 5,
         "code": "AT",
         "value": "~4.5 per million"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "US",
         "value": "~4.2 per million"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "CH",
         "value": "~4.0 per million"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "AU",
         "value": "~3.8 per million"
       },
       {
-        "rank": 8,
+        "rank": 9,
+        "code": "NO",
+        "value": "~3.6 per million"
+      },
+      {
+        "rank": 10,
         "code": "CA",
         "value": "~3.5 per million"
       },
       {
-        "rank": 9,
+        "rank": 11,
         "code": "DE",
         "value": "~3.2 per million"
       },
       {
-        "rank": 10,
+        "rank": 12,
         "code": "FR",
         "value": "~3.0 per million"
       },
       {
-        "rank": 11,
+        "rank": 13,
+        "code": "DK",
+        "value": "~2.8 per million"
+      },
+      {
+        "rank": 14,
+        "code": "FI",
+        "value": "~2.7 per million"
+      },
+      {
+        "rank": 15,
         "code": "SE",
         "value": "~2.5 per million"
       },
       {
-        "rank": 12,
+        "rank": 16,
+        "code": "NL",
+        "value": "~2.3 per million"
+      },
+      {
+        "rank": 17,
+        "code": "EE",
+        "value": "~2.2 per million"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "~2.0 per million"
+      },
+      {
+        "rank": 19,
+        "code": "SI",
+        "value": "~1.9 per million"
+      },
+      {
+        "rank": 20,
+        "code": "LU",
+        "value": "~1.8 per million"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "~1.5 per million"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "~1.4 per million"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "~1.3 per million"
+      },
+      {
+        "rank": 24,
         "code": "JP",
         "value": "~1.2 per million"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "~1.1 per million"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "~1.0 per million"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "~0.95 per million"
+      },
+      {
+        "rank": 28,
+        "code": "SK",
+        "value": "~0.90 per million"
+      },
+      {
+        "rank": 29,
+        "code": "GR",
+        "value": "~0.85 per million"
+      },
+      {
+        "rank": 30,
+        "code": "LV",
+        "value": "~0.80 per million"
+      },
+      {
+        "rank": 31,
+        "code": "LT",
+        "value": "~0.75 per million"
+      },
+      {
+        "rank": 32,
+        "code": "HR",
+        "value": "~0.70 per million"
+      },
+      {
+        "rank": 33,
+        "code": "RO",
+        "value": "~0.65 per million"
+      },
+      {
+        "rank": 34,
+        "code": "IL",
+        "value": "~0.60 per million"
+      },
+      {
+        "rank": 35,
+        "code": "ZA",
+        "value": "~0.55 per million"
+      },
+      {
+        "rank": 36,
+        "code": "MX",
+        "value": "~0.50 per million"
+      },
+      {
+        "rank": 37,
+        "code": "AR",
+        "value": "~0.45 per million"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "~0.40 per million"
+      },
+      {
+        "rank": 39,
+        "code": "IN",
+        "value": "~0.35 per million"
+      },
+      {
+        "rank": 40,
+        "code": "CL",
+        "value": "~0.30 per million"
       }
     ]
   },
@@ -120490,7 +123995,7 @@
     "title": "Largest turkey producers",
     "prompt": "Name the countries that produce the most turkey meat by volume.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "FAOSTAT \u2014 Livestock primary (Meat of turkeys, fresh or chilled)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -120560,6 +124065,146 @@
         "rank": 12,
         "code": "IL",
         "value": "~50,000 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "~40,000 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "RU",
+        "value": "~35,000 tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "AT",
+        "value": "~28,000 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "CL",
+        "value": "~26,000 tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "~24,000 tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "~22,000 tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "RO",
+        "value": "~20,000 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "AR",
+        "value": "~18,000 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "~15,000 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "SA",
+        "value": "~13,000 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "ZA",
+        "value": "~11,000 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "SK",
+        "value": "~9,500 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "AU",
+        "value": "~9,000 tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "CZ",
+        "value": "~8,500 tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "NL",
+        "value": "~8,000 tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "MA",
+        "value": "~7,500 tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "EG",
+        "value": "~7,000 tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "BE",
+        "value": "~6,500 tonnes"
+      },
+      {
+        "rank": 31,
+        "code": "BG",
+        "value": "~6,000 tonnes"
+      },
+      {
+        "rank": 32,
+        "code": "PE",
+        "value": "~5,500 tonnes"
+      },
+      {
+        "rank": 33,
+        "code": "GR",
+        "value": "~5,000 tonnes"
+      },
+      {
+        "rank": 34,
+        "code": "TN",
+        "value": "~4,500 tonnes"
+      },
+      {
+        "rank": 35,
+        "code": "UA",
+        "value": "~4,000 tonnes"
+      },
+      {
+        "rank": 36,
+        "code": "HR",
+        "value": "~3,500 tonnes"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "~3,000 tonnes"
+      },
+      {
+        "rank": 38,
+        "code": "DK",
+        "value": "~2,500 tonnes"
+      },
+      {
+        "rank": 39,
+        "code": "CO",
+        "value": "~2,000 tonnes"
+      },
+      {
+        "rank": 40,
+        "code": "CH",
+        "value": "~1,800 tonnes"
       }
     ]
   },
@@ -120570,7 +124215,7 @@
     "title": "Largest duck meat producers",
     "prompt": "Name the countries that produce the most duck meat by volume.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "FAOSTAT \u2014 Livestock primary (Meat of ducks, fresh or chilled)",
       "url": "https://www.fao.org/faostat/en/#data/QCL",
@@ -120640,6 +124285,146 @@
         "rank": 12,
         "code": "US",
         "value": "~35,000 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "ID",
+        "value": "~32,000 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "DE",
+        "value": "~28,000 tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "~26,000 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "~22,000 tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "IN",
+        "value": "~20,000 tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "LA",
+        "value": "~18,000 tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "KH",
+        "value": "~16,000 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "BG",
+        "value": "~14,000 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "~12,000 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "~10,000 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "IR",
+        "value": "~9,000 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "NP",
+        "value": "~8,500 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "~7,500 tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "UA",
+        "value": "~6,500 tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "NL",
+        "value": "~6,000 tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "CA",
+        "value": "~5,500 tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "RU",
+        "value": "~5,000 tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "EG",
+        "value": "~4,500 tonnes"
+      },
+      {
+        "rank": 31,
+        "code": "BE",
+        "value": "~4,000 tonnes"
+      },
+      {
+        "rank": 32,
+        "code": "CZ",
+        "value": "~3,500 tonnes"
+      },
+      {
+        "rank": 33,
+        "code": "AT",
+        "value": "~3,000 tonnes"
+      },
+      {
+        "rank": 34,
+        "code": "SK",
+        "value": "~2,800 tonnes"
+      },
+      {
+        "rank": 35,
+        "code": "MX",
+        "value": "~2,500 tonnes"
+      },
+      {
+        "rank": 36,
+        "code": "PK",
+        "value": "~2,200 tonnes"
+      },
+      {
+        "rank": 37,
+        "code": "AU",
+        "value": "~2,000 tonnes"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "~1,800 tonnes"
+      },
+      {
+        "rank": 39,
+        "code": "MG",
+        "value": "~1,600 tonnes"
+      },
+      {
+        "rank": 40,
+        "code": "TR",
+        "value": "~1,400 tonnes"
       }
     ]
   },
@@ -142170,7 +145955,7 @@
     "title": "Highest average annual humidity",
     "prompt": "Name the countries with the highest average annual relative humidity.",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 50,
     "source": {
       "name": "World Bank Climate Change Knowledge Portal \u2014 relative humidity climatology",
       "url": "https://climateknowledgeportal.worldbank.org/",
@@ -142245,6 +146030,191 @@
         "rank": 13,
         "code": "PH",
         "value": "79%"
+      },
+      {
+        "rank": 14,
+        "code": "SG",
+        "value": "84%"
+      },
+      {
+        "rank": 15,
+        "code": "VU",
+        "value": "82%"
+      },
+      {
+        "rank": 16,
+        "code": "FJ",
+        "value": "80%"
+      },
+      {
+        "rank": 17,
+        "code": "WS",
+        "value": "80%"
+      },
+      {
+        "rank": 18,
+        "code": "TO",
+        "value": "79%"
+      },
+      {
+        "rank": 19,
+        "code": "PW",
+        "value": "82%"
+      },
+      {
+        "rank": 20,
+        "code": "FM",
+        "value": "81%"
+      },
+      {
+        "rank": 21,
+        "code": "KI",
+        "value": "80%"
+      },
+      {
+        "rank": 22,
+        "code": "TL",
+        "value": "80%"
+      },
+      {
+        "rank": 23,
+        "code": "LK",
+        "value": "79%"
+      },
+      {
+        "rank": 24,
+        "code": "VN",
+        "value": "80%"
+      },
+      {
+        "rank": 25,
+        "code": "MM",
+        "value": "78%"
+      },
+      {
+        "rank": 26,
+        "code": "KH",
+        "value": "78%"
+      },
+      {
+        "rank": 27,
+        "code": "TH",
+        "value": "77%"
+      },
+      {
+        "rank": 28,
+        "code": "LA",
+        "value": "77%"
+      },
+      {
+        "rank": 29,
+        "code": "GQ",
+        "value": "83%"
+      },
+      {
+        "rank": 30,
+        "code": "CM",
+        "value": "80%"
+      },
+      {
+        "rank": 31,
+        "code": "CF",
+        "value": "78%"
+      },
+      {
+        "rank": 32,
+        "code": "NG",
+        "value": "76%"
+      },
+      {
+        "rank": 33,
+        "code": "GH",
+        "value": "76%"
+      },
+      {
+        "rank": 34,
+        "code": "CI",
+        "value": "77%"
+      },
+      {
+        "rank": 35,
+        "code": "LR",
+        "value": "80%"
+      },
+      {
+        "rank": 36,
+        "code": "SL",
+        "value": "78%"
+      },
+      {
+        "rank": 37,
+        "code": "GN",
+        "value": "76%"
+      },
+      {
+        "rank": 38,
+        "code": "CR",
+        "value": "80%"
+      },
+      {
+        "rank": 39,
+        "code": "PA",
+        "value": "79%"
+      },
+      {
+        "rank": 40,
+        "code": "NI",
+        "value": "78%"
+      },
+      {
+        "rank": 41,
+        "code": "HN",
+        "value": "77%"
+      },
+      {
+        "rank": 42,
+        "code": "GT",
+        "value": "77%"
+      },
+      {
+        "rank": 43,
+        "code": "BZ",
+        "value": "78%"
+      },
+      {
+        "rank": 44,
+        "code": "CU",
+        "value": "78%"
+      },
+      {
+        "rank": 45,
+        "code": "DO",
+        "value": "77%"
+      },
+      {
+        "rank": 46,
+        "code": "JM",
+        "value": "77%"
+      },
+      {
+        "rank": 47,
+        "code": "SR",
+        "value": "80%"
+      },
+      {
+        "rank": 48,
+        "code": "GY",
+        "value": "79%"
+      },
+      {
+        "rank": 49,
+        "code": "BR",
+        "value": "78%"
+      },
+      {
+        "rank": 50,
+        "code": "VE",
+        "value": "77%"
       }
     ]
   },
@@ -142255,7 +146225,7 @@
     "title": "Most temperate (mild) climate year-round",
     "prompt": "Name the countries most widely cited as having the mildest, most temperate climate year-round (smallest annual temperature range and few extremes).",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 39,
     "source": {
       "name": "K\u00f6ppen-Geiger climate classification / World Bank CCKP",
       "url": "https://climateknowledgeportal.worldbank.org/",
@@ -142330,6 +146300,136 @@
         "rank": 13,
         "code": "FR",
         "value": "annual range ~15\u00b0C (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "annual range ~15\u00b0C"
+      },
+      {
+        "rank": 15,
+        "code": "BE",
+        "value": "annual range ~15\u00b0C (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "IS",
+        "value": "annual range ~10\u00b0C (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MT",
+        "value": "annual range ~13\u00b0C"
+      },
+      {
+        "rank": 19,
+        "code": "CY",
+        "value": "annual range ~15\u00b0C"
+      },
+      {
+        "rank": 20,
+        "code": "HR",
+        "value": "annual range ~16\u00b0C"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "annual range ~17\u00b0C"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "annual range ~16\u00b0C"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "annual range ~17\u00b0C"
+      },
+      {
+        "rank": 24,
+        "code": "MC",
+        "value": "annual range ~14\u00b0C"
+      },
+      {
+        "rank": 25,
+        "code": "SM",
+        "value": "annual range ~15\u00b0C"
+      },
+      {
+        "rank": 26,
+        "code": "AD",
+        "value": "annual range ~16\u00b0C"
+      },
+      {
+        "rank": 27,
+        "code": "LU",
+        "value": "annual range ~17\u00b0C"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "annual range ~10\u00b0C (highland cities)"
+      },
+      {
+        "rank": 29,
+        "code": "PE",
+        "value": "annual range ~8\u00b0C (Lima coast)"
+      },
+      {
+        "rank": 30,
+        "code": "EC",
+        "value": "annual range ~7\u00b0C (Quito)"
+      },
+      {
+        "rank": 31,
+        "code": "CO",
+        "value": "annual range ~7\u00b0C (Bogot\u00e1)"
+      },
+      {
+        "rank": 32,
+        "code": "BO",
+        "value": "annual range ~9\u00b0C (La Paz)"
+      },
+      {
+        "rank": 33,
+        "code": "CR",
+        "value": "annual range ~8\u00b0C"
+      },
+      {
+        "rank": 34,
+        "code": "PA",
+        "value": "annual range ~9\u00b0C"
+      },
+      {
+        "rank": 35,
+        "code": "KE",
+        "value": "annual range ~8\u00b0C (Nairobi)"
+      },
+      {
+        "rank": 36,
+        "code": "ET",
+        "value": "annual range ~9\u00b0C (Addis Ababa)"
+      },
+      {
+        "rank": 37,
+        "code": "MG",
+        "value": "annual range ~10\u00b0C (Antananarivo)"
+      },
+      {
+        "rank": 38,
+        "code": "LK",
+        "value": "annual range ~9\u00b0C"
+      },
+      {
+        "rank": 39,
+        "code": "NO",
+        "value": "annual range ~12\u00b0C (coast)"
+      },
+      {
+        "rank": 40,
+        "code": "CH",
+        "value": "annual range ~18\u00b0C"
       }
     ]
   },
@@ -142520,7 +146620,7 @@
     "title": "Largest steppe / temperate grassland area",
     "prompt": "Name the countries with the largest area of steppe or temperate grassland biome.",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 40,
     "source": {
       "name": "WWF Terrestrial Ecoregions \u2014 Temperate Grasslands, Savannas, and Shrublands",
       "url": "https://www.worldwildlife.org/biomes/temperate-grasslands-savannas-and-shrublands",
@@ -142595,6 +146695,141 @@
         "rank": 13,
         "code": "RO",
         "value": "30,000 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "IR",
+        "value": "220,000 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "180,000 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "AF",
+        "value": "160,000 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "TM",
+        "value": "120,000 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "UZ",
+        "value": "90,000 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "KG",
+        "value": "60,000 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "PK",
+        "value": "70,000 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "IQ",
+        "value": "50,000 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "SY",
+        "value": "45,000 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "35,000 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "BY",
+        "value": "20,000 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "15,000 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "BG",
+        "value": "18,000 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "RS",
+        "value": "12,000 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "MD",
+        "value": "8,000 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "GE",
+        "value": "6,000 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "AM",
+        "value": "5,000 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "AZ",
+        "value": "10,000 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "JO",
+        "value": "9,000 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "MA",
+        "value": "22,000 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "DZ",
+        "value": "40,000 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "PY",
+        "value": "60,000 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "BR",
+        "value": "80,000 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "MX",
+        "value": "70,000 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "TN",
+        "value": "8,000 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "SK",
+        "value": "4,000 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "CZ",
+        "value": "3,000 km\u00b2"
       }
     ]
   },
@@ -142605,7 +146840,7 @@
     "title": "Largest Mediterranean climate zone",
     "prompt": "Name the countries with the largest area under a Mediterranean climate (K\u00f6ppen Csa/Csb).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 36,
     "source": {
       "name": "K\u00f6ppen-Geiger climate classification (Beck et al. 2018)",
       "url": "https://www.nature.com/articles/sdata2018214",
@@ -142675,6 +146910,126 @@
         "rank": 12,
         "code": "FR",
         "value": "50,000 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "TN",
+        "value": "40,000 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "IR",
+        "value": "35,000 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "SY",
+        "value": "30,000 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "IQ",
+        "value": "25,000 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "HR",
+        "value": "20,000 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "AR",
+        "value": "18,000 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "LY",
+        "value": "16,000 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "AL",
+        "value": "14,000 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "13,000 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "LB",
+        "value": "10,000 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "BA",
+        "value": "9,000 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "ME",
+        "value": "8,000 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "AF",
+        "value": "7,500 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "IL",
+        "value": "7,000 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "AZ",
+        "value": "6,500 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "JO",
+        "value": "6,000 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "MK",
+        "value": "5,500 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "SI",
+        "value": "5,000 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "CY",
+        "value": "4,500 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "PS",
+        "value": "3,500 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "GE",
+        "value": "3,000 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "TM",
+        "value": "2,500 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "EG",
+        "value": "2,000 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "MT",
+        "value": "300 km\u00b2"
       }
     ]
   },
@@ -142685,7 +147040,7 @@
     "title": "Largest tropical rainforest area",
     "prompt": "Name the countries with the largest area of tropical primary rainforest.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 44,
     "source": {
       "name": "FAO Global Forest Resources Assessment 2020 / Global Forest Watch",
       "url": "https://www.fao.org/forest-resources-assessment/en/",
@@ -142755,6 +147110,166 @@
         "rank": 12,
         "code": "SR",
         "value": "140,000 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "AO",
+        "value": "130,000 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "GA",
+        "value": "220,000 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "CM",
+        "value": "200,000 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "MM",
+        "value": "165,000 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "IN",
+        "value": "120,000 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "CG",
+        "value": "220,000 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "CF",
+        "value": "150,000 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "MG",
+        "value": "90,000 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "EC",
+        "value": "110,000 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "NG",
+        "value": "70,000 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "TH",
+        "value": "60,000 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "LA",
+        "value": "80,000 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "VN",
+        "value": "50,000 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "PH",
+        "value": "55,000 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "GH",
+        "value": "40,000 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "LR",
+        "value": "45,000 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "CI",
+        "value": "38,000 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "KH",
+        "value": "35,000 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "GT",
+        "value": "30,000 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "GQ",
+        "value": "22,000 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "GN",
+        "value": "20,000 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "SL",
+        "value": "18,000 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "NI",
+        "value": "25,000 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "HN",
+        "value": "22,000 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "PA",
+        "value": "28,000 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "CR",
+        "value": "18,000 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "LK",
+        "value": "8,000 km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "BZ",
+        "value": "13,000 km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "BN",
+        "value": "5,000 km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "TG",
+        "value": "3,000 km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "SB",
+        "value": "22,000 km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "TL",
+        "value": "6,000 km\u00b2"
       }
     ]
   },
@@ -142855,7 +147370,7 @@
     "title": "Widest range of K\u00f6ppen climate zones",
     "prompt": "Name the countries containing the widest range of distinct K\u00f6ppen climate zones inside their borders.",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 42,
     "source": {
       "name": "K\u00f6ppen-Geiger climate classification (Beck et al. 2018)",
       "url": "https://www.nature.com/articles/sdata2018214",
@@ -142930,6 +147445,151 @@
         "rank": 13,
         "code": "IR",
         "value": "10 zones (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "KZ",
+        "value": "10 zones"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "9 zones"
+      },
+      {
+        "rank": 16,
+        "code": "AF",
+        "value": "9 zones"
+      },
+      {
+        "rank": 17,
+        "code": "ZA",
+        "value": "9 zones"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "9 zones"
+      },
+      {
+        "rank": 19,
+        "code": "BO",
+        "value": "9 zones"
+      },
+      {
+        "rank": 20,
+        "code": "ET",
+        "value": "8 zones"
+      },
+      {
+        "rank": 21,
+        "code": "NP",
+        "value": "8 zones"
+      },
+      {
+        "rank": 22,
+        "code": "TZ",
+        "value": "8 zones"
+      },
+      {
+        "rank": 23,
+        "code": "MA",
+        "value": "8 zones"
+      },
+      {
+        "rank": 24,
+        "code": "DZ",
+        "value": "8 zones"
+      },
+      {
+        "rank": 25,
+        "code": "SD",
+        "value": "7 zones"
+      },
+      {
+        "rank": 26,
+        "code": "CD",
+        "value": "7 zones"
+      },
+      {
+        "rank": 27,
+        "code": "KE",
+        "value": "7 zones"
+      },
+      {
+        "rank": 28,
+        "code": "VE",
+        "value": "7 zones"
+      },
+      {
+        "rank": 29,
+        "code": "EC",
+        "value": "7 zones"
+      },
+      {
+        "rank": 30,
+        "code": "NG",
+        "value": "7 zones"
+      },
+      {
+        "rank": 31,
+        "code": "AO",
+        "value": "7 zones"
+      },
+      {
+        "rank": 32,
+        "code": "MN",
+        "value": "7 zones"
+      },
+      {
+        "rank": 33,
+        "code": "NA",
+        "value": "6 zones"
+      },
+      {
+        "rank": 34,
+        "code": "MM",
+        "value": "6 zones"
+      },
+      {
+        "rank": 35,
+        "code": "TH",
+        "value": "6 zones"
+      },
+      {
+        "rank": 36,
+        "code": "ID",
+        "value": "6 zones"
+      },
+      {
+        "rank": 37,
+        "code": "PY",
+        "value": "6 zones"
+      },
+      {
+        "rank": 38,
+        "code": "UY",
+        "value": "5 zones"
+      },
+      {
+        "rank": 39,
+        "code": "MG",
+        "value": "6 zones"
+      },
+      {
+        "rank": 40,
+        "code": "ES",
+        "value": "6 zones"
+      },
+      {
+        "rank": 41,
+        "code": "IT",
+        "value": "6 zones"
+      },
+      {
+        "rank": 42,
+        "code": "FR",
+        "value": "6 zones"
       }
     ]
   },
@@ -142940,7 +147600,7 @@
     "title": "Largest permafrost area",
     "prompt": "Name the countries with the largest area of permafrost (permanently frozen ground).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 32,
     "source": {
       "name": "International Permafrost Association \u2014 Circum-Arctic Map of Permafrost",
       "url": "https://ipa.arcticportal.org/",
@@ -143010,6 +147670,106 @@
         "rank": 12,
         "code": "AR",
         "value": "8,000 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "TJ",
+        "value": "6,000 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "KG",
+        "value": "5,000 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "PE",
+        "value": "4,000 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "AF",
+        "value": "3,500 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "BO",
+        "value": "3,000 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "PK",
+        "value": "2,800 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "2,500 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "NP",
+        "value": "2,000 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "1,800 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "GE",
+        "value": "1,200 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "IT",
+        "value": "1,000 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "900 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "BT",
+        "value": "800 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "FR",
+        "value": "600 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "EC",
+        "value": "500 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "NZ",
+        "value": "400 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "350 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "ES",
+        "value": "150 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "AM",
+        "value": "100 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "DE",
+        "value": "50 km\u00b2"
       }
     ]
   },
@@ -144320,7 +149080,7 @@
     "title": "Largest shipbuilding output",
     "prompt": "Name the countries that build the most oceangoing ships each year by gross tonnage delivered.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "Clarksons Research \u2014 World Shipyard Monitor",
       "url": "https://www.clarksons.com/home/news-and-insights/2024/global-shipbuilding-orderbook/",
@@ -144380,6 +149140,106 @@
         "rank": 10,
         "code": "DE",
         "value": "0.12M CGT"
+      },
+      {
+        "rank": 11,
+        "code": "RO",
+        "value": "0.10M CGT"
+      },
+      {
+        "rank": 12,
+        "code": "FI",
+        "value": "0.09M CGT"
+      },
+      {
+        "rank": 13,
+        "code": "NL",
+        "value": "0.08M CGT"
+      },
+      {
+        "rank": 14,
+        "code": "FR",
+        "value": "0.07M CGT"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "0.06M CGT"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "0.055M CGT"
+      },
+      {
+        "rank": 17,
+        "code": "US",
+        "value": "0.05M CGT"
+      },
+      {
+        "rank": 18,
+        "code": "HR",
+        "value": "0.045M CGT"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "0.04M CGT"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "0.035M CGT"
+      },
+      {
+        "rank": 21,
+        "code": "PT",
+        "value": "0.03M CGT"
+      },
+      {
+        "rank": 22,
+        "code": "SG",
+        "value": "0.028M CGT"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "0.025M CGT"
+      },
+      {
+        "rank": 24,
+        "code": "DK",
+        "value": "0.022M CGT"
+      },
+      {
+        "rank": 25,
+        "code": "MY",
+        "value": "0.02M CGT"
+      },
+      {
+        "rank": 26,
+        "code": "ID",
+        "value": "0.018M CGT"
+      },
+      {
+        "rank": 27,
+        "code": "EG",
+        "value": "0.015M CGT"
+      },
+      {
+        "rank": 28,
+        "code": "GR",
+        "value": "0.012M CGT"
+      },
+      {
+        "rank": 29,
+        "code": "GB",
+        "value": "0.011M CGT"
+      },
+      {
+        "rank": 30,
+        "code": "BG",
+        "value": "0.01M CGT"
       }
     ]
   },
@@ -144770,7 +149630,7 @@
     "title": "Largest LNG carrier fleet owned",
     "prompt": "Name the countries whose companies own the most liquefied natural gas (LNG) carrier tonnage.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "GIIGNL \u2014 Annual LNG Report / Clarksons",
       "url": "https://giignl.org/publications/",
@@ -144840,6 +149700,96 @@
         "rank": 12,
         "code": "GB",
         "value": "2.7M cbm"
+      },
+      {
+        "rank": 13,
+        "code": "OM",
+        "value": "2.2M cbm"
+      },
+      {
+        "rank": 14,
+        "code": "TW",
+        "value": "1.9M cbm"
+      },
+      {
+        "rank": 15,
+        "code": "RU",
+        "value": "1.7M cbm"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "1.5M cbm"
+      },
+      {
+        "rank": 17,
+        "code": "SA",
+        "value": "1.3M cbm"
+      },
+      {
+        "rank": 18,
+        "code": "DE",
+        "value": "1.1M cbm"
+      },
+      {
+        "rank": 19,
+        "code": "CA",
+        "value": "0.95M cbm"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "0.85M cbm"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "0.75M cbm"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "0.65M cbm"
+      },
+      {
+        "rank": 23,
+        "code": "CY",
+        "value": "0.55M cbm"
+      },
+      {
+        "rank": 24,
+        "code": "ID",
+        "value": "0.5M cbm"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "0.45M cbm"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "0.4M cbm"
+      },
+      {
+        "rank": 27,
+        "code": "AU",
+        "value": "0.35M cbm"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "0.3M cbm"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "0.25M cbm"
+      },
+      {
+        "rank": 30,
+        "code": "HK",
+        "value": "0.2M cbm"
       }
     ]
   },
@@ -144850,7 +149800,7 @@
     "title": "Most ship recycling (scrapping) tonnage",
     "prompt": "Name the countries that dismantle the most merchant ships each year by light-displacement tonnage scrapped.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "NGO Shipbreaking Platform \u2014 Annual List",
       "url": "https://shipbreakingplatform.org/publications/",
@@ -144910,6 +149860,106 @@
         "rank": 10,
         "code": "NO",
         "value": "0.02M LDT"
+      },
+      {
+        "rank": 11,
+        "code": "DE",
+        "value": "0.018M LDT"
+      },
+      {
+        "rank": 12,
+        "code": "ES",
+        "value": "0.016M LDT"
+      },
+      {
+        "rank": 13,
+        "code": "GB",
+        "value": "0.014M LDT"
+      },
+      {
+        "rank": 14,
+        "code": "IT",
+        "value": "0.012M LDT"
+      },
+      {
+        "rank": 15,
+        "code": "GR",
+        "value": "0.011M LDT"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "0.01M LDT"
+      },
+      {
+        "rank": 17,
+        "code": "JP",
+        "value": "0.009M LDT"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "0.008M LDT"
+      },
+      {
+        "rank": 19,
+        "code": "RO",
+        "value": "0.007M LDT"
+      },
+      {
+        "rank": 20,
+        "code": "HR",
+        "value": "0.006M LDT"
+      },
+      {
+        "rank": 21,
+        "code": "LT",
+        "value": "0.005M LDT"
+      },
+      {
+        "rank": 22,
+        "code": "EE",
+        "value": "0.0045M LDT"
+      },
+      {
+        "rank": 23,
+        "code": "LV",
+        "value": "0.004M LDT"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "0.0035M LDT"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "0.003M LDT"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "0.0025M LDT"
+      },
+      {
+        "rank": 27,
+        "code": "ZA",
+        "value": "0.002M LDT"
+      },
+      {
+        "rank": 28,
+        "code": "EG",
+        "value": "0.0015M LDT"
+      },
+      {
+        "rank": 29,
+        "code": "MT",
+        "value": "0.0012M LDT"
+      },
+      {
+        "rank": 30,
+        "code": "RU",
+        "value": "0.001M LDT"
       }
     ]
   },
@@ -144920,7 +149970,7 @@
     "title": "Largest airlines by passengers carried",
     "prompt": "Name the countries hosting each of the world's largest airline groups by passengers flown annually.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 22,
     "source": {
       "name": "IATA / World Air Transport Statistics",
       "url": "https://www.iata.org/en/publications/store/world-air-transport-statistics/",
@@ -144980,6 +150030,66 @@
         "rank": 15,
         "code": "AE",
         "value": "51M (Emirates)"
+      },
+      {
+        "rank": 17,
+        "code": "JP",
+        "value": "45M (ANA Group)"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "44M (Air Canada)"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "41M (Qantas Group)"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "35M (Lion Air Group)"
+      },
+      {
+        "rank": 23,
+        "code": "BR",
+        "value": "34M (LATAM)"
+      },
+      {
+        "rank": 24,
+        "code": "KR",
+        "value": "31M (Korean Air)"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "30M (Vueling)"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "29M (Viva Aerobus)"
+      },
+      {
+        "rank": 27,
+        "code": "SG",
+        "value": "27M (Singapore Airlines)"
+      },
+      {
+        "rank": 28,
+        "code": "TH",
+        "value": "25M (Thai AirAsia)"
+      },
+      {
+        "rank": 29,
+        "code": "QA",
+        "value": "24M (Qatar Airways)"
+      },
+      {
+        "rank": 30,
+        "code": "MY",
+        "value": "23M (AirAsia)"
       }
     ]
   },
@@ -144990,7 +150100,7 @@
     "title": "Country hosting the world's busiest airports",
     "prompt": "Name the countries hosting each of the world's 15 busiest airports by total passenger traffic.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 21,
     "source": {
       "name": "ACI \u2014 Airports Council International World Traffic Report",
       "url": "https://aci.aero/2024/04/17/aci-world-releases-top-10-busiest-airports-in-the-world/",
@@ -145032,6 +150142,11 @@
         "value": "67.4M (Paris CDG)"
       },
       {
+        "rank": 11,
+        "code": "IN",
+        "value": "65.3M (Delhi DEL)"
+      },
+      {
         "rank": 12,
         "code": "NL",
         "value": "61.9M (Amsterdam AMS)"
@@ -145050,6 +150165,56 @@
         "rank": 15,
         "code": "SG",
         "value": "58.9M (Singapore SIN)"
+      },
+      {
+        "rank": 16,
+        "code": "CN",
+        "value": "56.4M (Guangzhou CAN)"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "53.6M (Seoul ICN)"
+      },
+      {
+        "rank": 20,
+        "code": "HK",
+        "value": "49.9M (Hong Kong HKG)"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "48.4M (Mexico City MEX)"
+      },
+      {
+        "rank": 23,
+        "code": "TH",
+        "value": "48.0M (Bangkok BKK)"
+      },
+      {
+        "rank": 26,
+        "code": "CA",
+        "value": "44.8M (Toronto YYZ)"
+      },
+      {
+        "rank": 27,
+        "code": "IT",
+        "value": "40.5M (Rome FCO)"
+      },
+      {
+        "rank": 28,
+        "code": "ID",
+        "value": "40.0M (Jakarta CGK)"
+      },
+      {
+        "rank": 29,
+        "code": "AU",
+        "value": "38.6M (Sydney SYD)"
+      },
+      {
+        "rank": 30,
+        "code": "BR",
+        "value": "37.6M (Sao Paulo GRU)"
       }
     ]
   },
@@ -145060,7 +150225,7 @@
     "title": "Most airports per capita",
     "prompt": "Name the countries with the most airports and airstrips per million residents (paved and unpaved runways).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "CIA World Factbook \u2014 Airports / Population",
       "url": "https://www.cia.gov/the-world-factbook/field/airports/",
@@ -145130,6 +150295,96 @@
         "rank": 12,
         "code": "NZ",
         "value": "24 per million"
+      },
+      {
+        "rank": 13,
+        "code": "AU",
+        "value": "23 per million"
+      },
+      {
+        "rank": 14,
+        "code": "GA",
+        "value": "21 per million"
+      },
+      {
+        "rank": 15,
+        "code": "PY",
+        "value": "19 per million"
+      },
+      {
+        "rank": 16,
+        "code": "MN",
+        "value": "18 per million"
+      },
+      {
+        "rank": 17,
+        "code": "NO",
+        "value": "17 per million"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "15 per million"
+      },
+      {
+        "rank": 19,
+        "code": "IE",
+        "value": "14 per million"
+      },
+      {
+        "rank": 20,
+        "code": "EE",
+        "value": "13 per million"
+      },
+      {
+        "rank": 21,
+        "code": "BO",
+        "value": "12 per million"
+      },
+      {
+        "rank": 22,
+        "code": "LV",
+        "value": "11 per million"
+      },
+      {
+        "rank": 23,
+        "code": "CG",
+        "value": "10 per million"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "9 per million"
+      },
+      {
+        "rank": 25,
+        "code": "CL",
+        "value": "8 per million"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "7 per million"
+      },
+      {
+        "rank": 27,
+        "code": "LT",
+        "value": "6 per million"
+      },
+      {
+        "rank": 28,
+        "code": "CD",
+        "value": "5 per million"
+      },
+      {
+        "rank": 29,
+        "code": "PE",
+        "value": "4.5 per million"
+      },
+      {
+        "rank": 30,
+        "code": "MG",
+        "value": "4 per million"
       }
     ]
   },
@@ -156710,7 +161965,7 @@
     "title": "Oldest continuously reigning monarchies",
     "prompt": "Name the countries with the oldest continuously reigning monarchies (measured from the earliest date of the current dynasty or unbroken monarchical line).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 28,
     "source": {
       "name": "Britannica / royal-house historical records (aggregated)",
       "url": "https://www.britannica.com/topic/monarchy",
@@ -156748,18 +162003,18 @@
       },
       {
         "rank": 6,
+        "code": "LI",
+        "value": "since 1719 CE"
+      },
+      {
+        "rank": 7,
         "code": "OM",
         "value": "since 1744 CE"
       },
       {
         "rank": 7,
-        "code": "LI",
-        "value": "since 1719 CE"
-      },
-      {
-        "rank": 8,
         "code": "SA",
-        "value": "since 1744 CE"
+        "value": "since 1744 CE (tied)"
       },
       {
         "rank": 9,
@@ -156773,13 +162028,93 @@
       },
       {
         "rank": 11,
+        "code": "LU",
+        "value": "since 1815 CE (tied)"
+      },
+      {
+        "rank": 12,
         "code": "BE",
         "value": "since 1831 CE"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "TO",
+        "value": "since 1845 CE"
+      },
+      {
+        "rank": 14,
+        "code": "SE",
+        "value": "since 1818 CE (Bernadotte dynasty)"
+      },
+      {
+        "rank": 15,
+        "code": "AD",
+        "value": "since 1278 CE (co-principality)"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "since 1975 CE (Bourbon restoration)"
+      },
+      {
+        "rank": 17,
         "code": "NO",
         "value": "since 1905 CE"
+      },
+      {
+        "rank": 18,
+        "code": "JO",
+        "value": "since 1921 CE (Hashemite)"
+      },
+      {
+        "rank": 19,
+        "code": "BT",
+        "value": "since 1907 CE (Wangchuck dynasty)"
+      },
+      {
+        "rank": 20,
+        "code": "KH",
+        "value": "since 1993 CE (restored)"
+      },
+      {
+        "rank": 21,
+        "code": "MY",
+        "value": "since 1957 CE (federal monarchy)"
+      },
+      {
+        "rank": 22,
+        "code": "KW",
+        "value": "since 1752 CE (Al Sabah)"
+      },
+      {
+        "rank": 23,
+        "code": "BH",
+        "value": "since 1783 CE (Al Khalifa)"
+      },
+      {
+        "rank": 24,
+        "code": "QA",
+        "value": "since 1868 CE (Al Thani)"
+      },
+      {
+        "rank": 25,
+        "code": "AE",
+        "value": "since 1971 CE (federation)"
+      },
+      {
+        "rank": 26,
+        "code": "BN",
+        "value": "since 1368 CE (Bolkiah dynasty)"
+      },
+      {
+        "rank": 27,
+        "code": "LS",
+        "value": "since 1966 CE (independence)"
+      },
+      {
+        "rank": 28,
+        "code": "SZ",
+        "value": "since 1968 CE (independence)"
       }
     ]
   },
@@ -156790,7 +162125,7 @@
     "title": "Oldest currencies still in circulation",
     "prompt": "Name the countries whose currently circulating national currency has the oldest continuous use under its current name.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 37,
     "source": {
       "name": "Central bank histories / Britannica currency articles",
       "url": "https://www.britannica.com/topic/money",
@@ -156838,28 +162173,153 @@
       },
       {
         "rank": 8,
-        "code": "PY",
-        "value": "guaran\u00ed predecessor peso, c. 1856"
-      },
-      {
-        "rank": 9,
-        "code": "JP",
-        "value": "yen, 1871"
-      },
-      {
-        "rank": 10,
-        "code": "CA",
-        "value": "Canadian dollar, 1858"
-      },
-      {
-        "rank": 11,
         "code": "CH",
         "value": "Swiss franc, 1850"
       },
       {
-        "rank": 12,
+        "rank": 9,
         "code": "PH",
         "value": "Philippine peso, 1852"
+      },
+      {
+        "rank": 10,
+        "code": "PY",
+        "value": "peso (guarani predecessor), c. 1856"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "Canadian dollar, 1858"
+      },
+      {
+        "rank": 12,
+        "code": "JP",
+        "value": "yen, 1871"
+      },
+      {
+        "rank": 13,
+        "code": "IN",
+        "value": "rupee, 1540 (historic; modern 1861)"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "krone, 1875"
+      },
+      {
+        "rank": 15,
+        "code": "AR",
+        "value": "peso, 1881 (modern reissued 1992)"
+      },
+      {
+        "rank": 16,
+        "code": "GT",
+        "value": "quetzal, 1925"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "Australian dollar, 1966 (pound predecessor 1910)"
+      },
+      {
+        "rank": 18,
+        "code": "MX",
+        "value": "peso, 1863 (nuevo peso 1993)"
+      },
+      {
+        "rank": 19,
+        "code": "CO",
+        "value": "peso, 1837"
+      },
+      {
+        "rank": 20,
+        "code": "CL",
+        "value": "peso, 1817 (reissued 1975)"
+      },
+      {
+        "rank": 21,
+        "code": "CR",
+        "value": "colon, 1896"
+      },
+      {
+        "rank": 22,
+        "code": "SV",
+        "value": "colon, 1892 (retired de facto 2001 for USD)"
+      },
+      {
+        "rank": 23,
+        "code": "NI",
+        "value": "cordoba, 1912"
+      },
+      {
+        "rank": 24,
+        "code": "HN",
+        "value": "lempira, 1931"
+      },
+      {
+        "rank": 25,
+        "code": "BR",
+        "value": "real, 1994 (historic real 1690)"
+      },
+      {
+        "rank": 26,
+        "code": "UY",
+        "value": "peso uruguayo, 1896 (modern 1993)"
+      },
+      {
+        "rank": 27,
+        "code": "BO",
+        "value": "boliviano, 1864 (reissued 1987)"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "sol, 1863 (nuevo sol 1991)"
+      },
+      {
+        "rank": 29,
+        "code": "EC",
+        "value": "sucre, 1884 (retired 2000 for USD)"
+      },
+      {
+        "rank": 30,
+        "code": "VE",
+        "value": "bolivar, 1879 (multiple reissues)"
+      },
+      {
+        "rank": 31,
+        "code": "EG",
+        "value": "Egyptian pound, 1834"
+      },
+      {
+        "rank": 32,
+        "code": "TR",
+        "value": "lira, 1844 (new lira 2005)"
+      },
+      {
+        "rank": 33,
+        "code": "IR",
+        "value": "rial, 1932"
+      },
+      {
+        "rank": 34,
+        "code": "TH",
+        "value": "baht, 1897 (historic tical earlier)"
+      },
+      {
+        "rank": 35,
+        "code": "CN",
+        "value": "renminbi/yuan, 1948"
+      },
+      {
+        "rank": 36,
+        "code": "IS",
+        "value": "krona, 1874"
+      },
+      {
+        "rank": 37,
+        "code": "ZA",
+        "value": "rand, 1961 (pound predecessor 1826)"
       }
     ]
   },
@@ -156870,7 +162330,7 @@
     "title": "Oldest continuously inhabited capital cities",
     "prompt": "Name the countries whose current capital city has been continuously inhabited for the longest period.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "Britannica / archaeological records of ancient cities",
       "url": "https://www.britannica.com/list/8-of-the-oldest-continuously-inhabited-cities",
@@ -156928,18 +162388,158 @@
       },
       {
         "rank": 10,
+        "code": "AM",
+        "value": "Yerevan, 782 BCE (Erebuni)"
+      },
+      {
+        "rank": 11,
         "code": "BG",
         "value": "Sofia (Serdica), c. 1400 BCE"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "IT",
         "value": "Rome, 753 BCE (traditional)"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "GE",
+        "value": "Tbilisi, c. 4th millennium BCE settlement"
+      },
+      {
+        "rank": 14,
+        "code": "EG",
+        "value": "Cairo (Memphis predecessor), c. 3100 BCE"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "Ankara, c. 2000 BCE (Hittite)"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "Lisbon, c. 1200 BCE (Phoenician)"
+      },
+      {
+        "rank": 17,
+        "code": "TN",
+        "value": "Tunis, c. 900 BCE (near Carthage)"
+      },
+      {
+        "rank": 18,
         "code": "MA",
         "value": "Rabat area (Sala Colonia), c. 300 BCE"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "Madrid, c. 860 CE (Islamic settlement)"
+      },
+      {
+        "rank": 20,
+        "code": "DZ",
+        "value": "Algiers, c. 200 BCE (Icosium)"
+      },
+      {
+        "rank": 21,
+        "code": "MK",
+        "value": "Skopje, c. 4000 BCE settlement"
+      },
+      {
+        "rank": 22,
+        "code": "AL",
+        "value": "Tirana, c. Ottoman era 1614"
+      },
+      {
+        "rank": 23,
+        "code": "PK",
+        "value": "Islamabad (Rawalpindi predecessor), c. 3000 BCE"
+      },
+      {
+        "rank": 24,
+        "code": "JO",
+        "value": "Amman, c. 7000 BCE (Ain Ghazal)"
+      },
+      {
+        "rank": 25,
+        "code": "YE",
+        "value": "Sanaa, c. 1000 BCE"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "Mexico City (Tenochtitlan), 1325 CE"
+      },
+      {
+        "rank": 27,
+        "code": "PE",
+        "value": "Lima, 1535 CE"
+      },
+      {
+        "rank": 28,
+        "code": "ET",
+        "value": "Addis Ababa, 1886 CE"
+      },
+      {
+        "rank": 29,
+        "code": "JP",
+        "value": "Tokyo (Edo predecessor), c. 1457 CE"
+      },
+      {
+        "rank": 30,
+        "code": "KR",
+        "value": "Seoul, 18 BCE (Wiryeseong)"
+      },
+      {
+        "rank": 31,
+        "code": "VN",
+        "value": "Hanoi, 1010 CE (Thang Long)"
+      },
+      {
+        "rank": 32,
+        "code": "TH",
+        "value": "Bangkok, 1782 CE (Rattanakosin)"
+      },
+      {
+        "rank": 33,
+        "code": "MM",
+        "value": "Naypyidaw (Yangon predecessor), c. 1755 CE"
+      },
+      {
+        "rank": 34,
+        "code": "FR",
+        "value": "Paris, c. 250 BCE (Parisii)"
+      },
+      {
+        "rank": 35,
+        "code": "DE",
+        "value": "Berlin, c. 1237 CE"
+      },
+      {
+        "rank": 36,
+        "code": "AT",
+        "value": "Vienna, c. 500 BCE (Celtic Vindobona)"
+      },
+      {
+        "rank": 37,
+        "code": "NL",
+        "value": "Amsterdam, c. 1275 CE"
+      },
+      {
+        "rank": 38,
+        "code": "RU",
+        "value": "Moscow, 1147 CE"
+      },
+      {
+        "rank": 39,
+        "code": "PL",
+        "value": "Warsaw, c. 1300 CE"
+      },
+      {
+        "rank": 40,
+        "code": "GB",
+        "value": "London, 43 CE (Londinium)"
       }
     ]
   },
@@ -156950,7 +162550,7 @@
     "title": "Oldest active national parks",
     "prompt": "Name the countries whose oldest still-active national park was established earliest.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 40,
     "source": {
       "name": "IUCN / national park service histories",
       "url": "https://www.iucn.org/theme/protected-areas",
@@ -157019,7 +162619,147 @@
       {
         "rank": 12,
         "code": "PL",
-        "value": "1932 (Bia\u0142owie\u017ca)"
+        "value": "1932 (Bialowieza)"
+      },
+      {
+        "rank": 13,
+        "code": "IS",
+        "value": "1928 (Thingvellir)"
+      },
+      {
+        "rank": 14,
+        "code": "GB",
+        "value": "1951 (Peak District)"
+      },
+      {
+        "rank": 15,
+        "code": "JP",
+        "value": "1934 (Setonaikai)"
+      },
+      {
+        "rank": 16,
+        "code": "IE",
+        "value": "1932 (Killarney)"
+      },
+      {
+        "rank": 17,
+        "code": "RO",
+        "value": "1935 (Retezat)"
+      },
+      {
+        "rank": 18,
+        "code": "FR",
+        "value": "1963 (Vanoise)"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "1936 (Jim Corbett)"
+      },
+      {
+        "rank": 20,
+        "code": "CL",
+        "value": "1926 (Vicente Perez Rosales)"
+      },
+      {
+        "rank": 21,
+        "code": "VE",
+        "value": "1937 (Henri Pittier)"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "1934 (Galapagos protected; NP 1959)"
+      },
+      {
+        "rank": 23,
+        "code": "NL",
+        "value": "1930 (Veluwezoom)"
+      },
+      {
+        "rank": 24,
+        "code": "GR",
+        "value": "1938 (Mount Olympus)"
+      },
+      {
+        "rank": 25,
+        "code": "FI",
+        "value": "1938 (Pallas-Yllastunturi)"
+      },
+      {
+        "rank": 26,
+        "code": "TZ",
+        "value": "1951 (Serengeti)"
+      },
+      {
+        "rank": 27,
+        "code": "KE",
+        "value": "1946 (Nairobi NP)"
+      },
+      {
+        "rank": 28,
+        "code": "BR",
+        "value": "1937 (Itatiaia)"
+      },
+      {
+        "rank": 29,
+        "code": "CN",
+        "value": "1982 (Zhangjiajie)"
+      },
+      {
+        "rank": 30,
+        "code": "DE",
+        "value": "1970 (Bavarian Forest)"
+      },
+      {
+        "rank": 31,
+        "code": "NO",
+        "value": "1962 (Rondane)"
+      },
+      {
+        "rank": 32,
+        "code": "AT",
+        "value": "1981 (Hohe Tauern)"
+      },
+      {
+        "rank": 33,
+        "code": "TH",
+        "value": "1962 (Khao Yai)"
+      },
+      {
+        "rank": 34,
+        "code": "CR",
+        "value": "1970 (Cahuita)"
+      },
+      {
+        "rank": 35,
+        "code": "KR",
+        "value": "1967 (Jirisan)"
+      },
+      {
+        "rank": 36,
+        "code": "MY",
+        "value": "1938 (Taman Negara)"
+      },
+      {
+        "rank": 37,
+        "code": "ID",
+        "value": "1980 (Gunung Leuser)"
+      },
+      {
+        "rank": 38,
+        "code": "NP",
+        "value": "1973 (Chitwan)"
+      },
+      {
+        "rank": 39,
+        "code": "PT",
+        "value": "1971 (Peneda-Geres)"
+      },
+      {
+        "rank": 40,
+        "code": "PE",
+        "value": "1961 (Cutervo)"
       }
     ]
   },
@@ -157030,7 +162770,7 @@
     "title": "Longest civil wars",
     "prompt": "Name the countries that have endured the longest single civil war in modern history.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "Uppsala Conflict Data Program / Correlates of War",
       "url": "https://ucdp.uu.se/",
@@ -157048,13 +162788,13 @@
       },
       {
         "rank": 2,
-        "code": "CO",
-        "value": "52 years (1964-2016 FARC accord)"
+        "code": "PH",
+        "value": "55 years (1969-ongoing NPA)"
       },
       {
         "rank": 3,
-        "code": "PH",
-        "value": "55 years (1969-ongoing NPA)"
+        "code": "CO",
+        "value": "52 years (1964-2016 FARC accord)"
       },
       {
         "rank": 4,
@@ -157073,23 +162813,123 @@
       },
       {
         "rank": 7,
+        "code": "SD",
+        "value": "32 years (1955-1972; 1983-2005 combined)"
+      },
+      {
+        "rank": 8,
+        "code": "TR",
+        "value": "29 years (1984-ongoing PKK)"
+      },
+      {
+        "rank": 9,
+        "code": "IN",
+        "value": "57 years (1967-ongoing Naxalite insurgency)"
+      },
+      {
+        "rank": 10,
         "code": "AO",
         "value": "27 years (1975-2002)"
       },
       {
-        "rank": 8,
+        "rank": 11,
         "code": "LK",
         "value": "26 years (1983-2009)"
       },
       {
-        "rank": 9,
-        "code": "SD",
-        "value": "22 years (1983-2005 Second Sudanese)"
-      },
-      {
-        "rank": 10,
+        "rank": 12,
         "code": "PE",
         "value": "20 years (1980-2000 Shining Path)"
+      },
+      {
+        "rank": 13,
+        "code": "MZ",
+        "value": "15 years (1977-1992)"
+      },
+      {
+        "rank": 14,
+        "code": "LB",
+        "value": "15 years (1975-1990)"
+      },
+      {
+        "rank": 15,
+        "code": "CD",
+        "value": "14 years (1996-1997; 1998-2003; ongoing eastern conflict)"
+      },
+      {
+        "rank": 16,
+        "code": "SS",
+        "value": "22 years (1983-2005 as part of Sudan; 2013-2020)"
+      },
+      {
+        "rank": 17,
+        "code": "TD",
+        "value": "24 years (1965-1979; 1980-1990)"
+      },
+      {
+        "rank": 18,
+        "code": "SV",
+        "value": "12 years (1980-1992)"
+      },
+      {
+        "rank": 19,
+        "code": "NP",
+        "value": "10 years (1996-2006 Maoist)"
+      },
+      {
+        "rank": 20,
+        "code": "LR",
+        "value": "14 years (1989-1997; 1999-2003 combined)"
+      },
+      {
+        "rank": 21,
+        "code": "SL",
+        "value": "11 years (1991-2002)"
+      },
+      {
+        "rank": 22,
+        "code": "UG",
+        "value": "20 years (1986-2006 LRA northern insurgency)"
+      },
+      {
+        "rank": 23,
+        "code": "ET",
+        "value": "17 years (1974-1991 Derg era)"
+      },
+      {
+        "rank": 24,
+        "code": "NI",
+        "value": "11 years (1979-1990 Contra war)"
+      },
+      {
+        "rank": 25,
+        "code": "SY",
+        "value": "13 years (2011-ongoing)"
+      },
+      {
+        "rank": 26,
+        "code": "LY",
+        "value": "13 years (2011-ongoing intermittent)"
+      },
+      {
+        "rank": 27,
+        "code": "YE",
+        "value": "10 years (2014-ongoing)"
+      },
+      {
+        "rank": 28,
+        "code": "IQ",
+        "value": "14 years (2003-2017 post-invasion insurgency)"
+      },
+      {
+        "rank": 29,
+        "code": "BA",
+        "value": "4 years (1992-1995)"
+      },
+      {
+        "rank": 30,
+        "code": "RW",
+        "value": "4 years (1990-1994)"
       }
     ]
   },
@@ -157100,7 +162940,7 @@
     "title": "Longest single military occupations",
     "prompt": "Name the countries that endured the longest single military occupation by another state in modern history (post-1800).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 27,
     "source": {
       "name": "Britannica / academic histories of military occupation",
       "url": "https://www.britannica.com/topic/military-occupation",
@@ -157118,23 +162958,23 @@
       },
       {
         "rank": 2,
-        "code": "TW",
-        "value": "50 years (Japanese, 1895-1945)"
-      },
-      {
-        "rank": 3,
         "code": "EE",
         "value": "51 years (Soviet, 1940-1991)"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "code": "LV",
-        "value": "51 years (Soviet, 1940-1991; tied)"
+        "value": "51 years (Soviet, 1940-1991) (tied)"
       },
       {
-        "rank": 3,
+        "rank": 2,
         "code": "LT",
-        "value": "51 years (Soviet, 1940-1991; tied)"
+        "value": "51 years (Soviet, 1940-1991) (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "TW",
+        "value": "50 years (Japanese, 1895-1945)"
       },
       {
         "rank": 6,
@@ -157142,24 +162982,109 @@
         "value": "35 years (Japanese, 1910-1945)"
       },
       {
-        "rank": 7,
+        "rank": 6,
+        "code": "KP",
+        "value": "35 years (Japanese, 1910-1945) (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CY",
+        "value": "50 years (Turkish north, 1974-ongoing)"
+      },
+      {
+        "rank": 9,
+        "code": "AT",
+        "value": "10 years (Allied, 1945-1955)"
+      },
+      {
+        "rank": 10,
+        "code": "DE",
+        "value": "10 years (Allied, 1945-1955 for FRG founding; occupation zones ended)"
+      },
+      {
+        "rank": 11,
+        "code": "JP",
+        "value": "7 years (US-led Allied, 1945-1952)"
+      },
+      {
+        "rank": 12,
         "code": "CZ",
         "value": "7 years (German, 1938-1945)"
       },
       {
-        "rank": 8,
+        "rank": 13,
         "code": "PL",
         "value": "6 years (German, 1939-1945)"
       },
       {
-        "rank": 9,
+        "rank": 14,
+        "code": "GR",
+        "value": "4 years (Axis, 1941-1944)"
+      },
+      {
+        "rank": 15,
         "code": "NL",
         "value": "5 years (German, 1940-1945)"
       },
       {
-        "rank": 9,
+        "rank": 15,
         "code": "DK",
-        "value": "5 years (German, 1940-1945; tied)"
+        "value": "5 years (German, 1940-1945) (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NO",
+        "value": "5 years (German, 1940-1945) (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "4 years (German, 1940-1944) (tied approx)"
+      },
+      {
+        "rank": 19,
+        "code": "LU",
+        "value": "4 years (German, 1940-1944)"
+      },
+      {
+        "rank": 20,
+        "code": "PH",
+        "value": "3 years (Japanese, 1942-1945)"
+      },
+      {
+        "rank": 21,
+        "code": "MY",
+        "value": "4 years (Japanese, 1941-1945)"
+      },
+      {
+        "rank": 22,
+        "code": "SG",
+        "value": "4 years (Japanese, 1942-1945)"
+      },
+      {
+        "rank": 23,
+        "code": "ID",
+        "value": "3 years (Japanese, 1942-1945)"
+      },
+      {
+        "rank": 24,
+        "code": "MM",
+        "value": "4 years (Japanese, 1942-1945)"
+      },
+      {
+        "rank": 25,
+        "code": "FR",
+        "value": "4 years (German, 1940-1944)"
+      },
+      {
+        "rank": 26,
+        "code": "IQ",
+        "value": "8 years (US-led Coalition, 2003-2011)"
+      },
+      {
+        "rank": 27,
+        "code": "AF",
+        "value": "10 years (Soviet, 1979-1989)"
       }
     ]
   },
@@ -157170,7 +163095,7 @@
     "title": "Oldest national anthems",
     "prompt": "Name the countries with the oldest officially recognized national anthems (by year the anthem's music or lyrics were adopted).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 37,
     "source": {
       "name": "Britannica national-anthem articles",
       "url": "https://www.britannica.com/topic/national-anthem",
@@ -157188,13 +163113,13 @@
       },
       {
         "rank": 2,
-        "code": "JP",
-        "value": "1869 (Kimigayo)"
+        "code": "GB",
+        "value": "1745 (God Save the King)"
       },
       {
         "rank": 3,
-        "code": "GB",
-        "value": "1745 (God Save the King)"
+        "code": "JP",
+        "value": "1869 (Kimigayo)"
       },
       {
         "rank": 4,
@@ -157213,33 +163138,158 @@
       },
       {
         "rank": 7,
-        "code": "PE",
-        "value": "1821 (Himno Nacional)"
-      },
-      {
-        "rank": 8,
-        "code": "BR",
-        "value": "1831 (music); adopted 1922"
-      },
-      {
-        "rank": 9,
-        "code": "BE",
-        "value": "1830 (La Braban\u00e7onne)"
-      },
-      {
-        "rank": 10,
         "code": "US",
         "value": "1814 (music/lyrics); official 1931"
       },
       {
+        "rank": 8,
+        "code": "PE",
+        "value": "1821 (Himno Nacional)"
+      },
+      {
+        "rank": 9,
+        "code": "GR",
+        "value": "1823 (Hymn to Liberty)"
+      },
+      {
+        "rank": 10,
+        "code": "BE",
+        "value": "1830 (La Brabanconne)"
+      },
+      {
         "rank": 11,
+        "code": "BR",
+        "value": "1831 (music); adopted 1922"
+      },
+      {
+        "rank": 12,
         "code": "DK",
         "value": "1835 (Der er et yndigt land)"
       },
       {
-        "rank": 12,
-        "code": "GR",
-        "value": "1823 (Hymn to Liberty)"
+        "rank": 13,
+        "code": "UY",
+        "value": "1833 (Himno Nacional)"
+      },
+      {
+        "rank": 14,
+        "code": "CL",
+        "value": "1828 (Himno Nacional)"
+      },
+      {
+        "rank": 15,
+        "code": "PT",
+        "value": "1890 (A Portuguesa)"
+      },
+      {
+        "rank": 16,
+        "code": "AT",
+        "value": "1946 (Bundeshymne)"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "1841 (Deutschlandlied)"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "1844 (Du gamla, Du fria)"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "1864 (Ja, vi elsker)"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "1847 (Il Canto degli Italiani)"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "1854 (Himno Nacional)"
+      },
+      {
+        "rank": 22,
+        "code": "RO",
+        "value": "1848 (Desteapta-te romane)"
+      },
+      {
+        "rank": 23,
+        "code": "CH",
+        "value": "1841 (Swiss Psalm)"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "1797 (Mazurek Dabrowskiego)"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "1887 (Himno Nacional)"
+      },
+      {
+        "rank": 26,
+        "code": "PY",
+        "value": "1846 (Paraguayos, Republica o Muerte)"
+      },
+      {
+        "rank": 27,
+        "code": "VE",
+        "value": "1810 (Gloria al Bravo Pueblo)"
+      },
+      {
+        "rank": 28,
+        "code": "BO",
+        "value": "1845 (Himno Nacional)"
+      },
+      {
+        "rank": 29,
+        "code": "EC",
+        "value": "1866 (Salve, Oh Patria)"
+      },
+      {
+        "rank": 30,
+        "code": "CR",
+        "value": "1852 (Himno Nacional)"
+      },
+      {
+        "rank": 31,
+        "code": "SV",
+        "value": "1879 (Himno Nacional)"
+      },
+      {
+        "rank": 32,
+        "code": "NI",
+        "value": "1918 (Salve a ti, Nicaragua; melody older)"
+      },
+      {
+        "rank": 33,
+        "code": "HT",
+        "value": "1904 (La Dessalinienne)"
+      },
+      {
+        "rank": 34,
+        "code": "TR",
+        "value": "1921 (Istiklal Marsi)"
+      },
+      {
+        "rank": 35,
+        "code": "IS",
+        "value": "1874 (Lofsongur)"
+      },
+      {
+        "rank": 36,
+        "code": "FI",
+        "value": "1848 (Maamme)"
+      },
+      {
+        "rank": 37,
+        "code": "HU",
+        "value": "1844 (Himnusz)"
       }
     ]
   },
@@ -157570,7 +163620,7 @@
     "title": "Countries where the most decisive WWII battles were fought",
     "prompt": "Name the countries whose modern territory hosted the greatest number of major WWII battles (defined as engagements listed in standard battle-count references).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 29,
     "source": {
       "name": "Britannica / academic WWII battle indices",
       "url": "https://www.britannica.com/event/World-War-II",
@@ -157630,6 +163680,101 @@
         "rank": 10,
         "code": "NL",
         "value": "9 major battles"
+      },
+      {
+        "rank": 11,
+        "code": "BY",
+        "value": "9 major battles (Soviet Union; disclaimer)"
+      },
+      {
+        "rank": 12,
+        "code": "JP",
+        "value": "8 major battles"
+      },
+      {
+        "rank": 13,
+        "code": "MM",
+        "value": "8 major battles (Burma campaign)"
+      },
+      {
+        "rank": 14,
+        "code": "GR",
+        "value": "7 major battles"
+      },
+      {
+        "rank": 15,
+        "code": "NO",
+        "value": "7 major battles"
+      },
+      {
+        "rank": 16,
+        "code": "RS",
+        "value": "7 major battles (Yugoslavia; disclaimer)"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "6 major battles (Battle of Britain, blitz)"
+      },
+      {
+        "rank": 18,
+        "code": "EG",
+        "value": "6 major battles (North Africa campaign)"
+      },
+      {
+        "rank": 19,
+        "code": "LY",
+        "value": "6 major battles (North Africa campaign)"
+      },
+      {
+        "rank": 20,
+        "code": "TN",
+        "value": "5 major battles (Tunisia campaign)"
+      },
+      {
+        "rank": 21,
+        "code": "FI",
+        "value": "5 major battles (Winter/Continuation Wars)"
+      },
+      {
+        "rank": 22,
+        "code": "HU",
+        "value": "5 major battles"
+      },
+      {
+        "rank": 23,
+        "code": "RO",
+        "value": "5 major battles"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "4 major battles (Vienna campaign)"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "4 major battles (Prague/Bohemia)"
+      },
+      {
+        "rank": 26,
+        "code": "SK",
+        "value": "4 major battles (Slovak uprising)"
+      },
+      {
+        "rank": 27,
+        "code": "DZ",
+        "value": "4 major battles (Operation Torch)"
+      },
+      {
+        "rank": 28,
+        "code": "MA",
+        "value": "3 major battles (Operation Torch)"
+      },
+      {
+        "rank": 29,
+        "code": "ID",
+        "value": "4 major battles (Dutch East Indies)"
       }
     ]
   },
@@ -158865,7 +165010,7 @@
     "title": "Largest manganese producers",
     "prompt": "Name the countries with the largest manganese ore production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Manganese",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-manganese.pdf",
@@ -158925,6 +165070,81 @@
         "rank": 10,
         "code": "MY",
         "value": "180 thousand tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "UA",
+        "value": "160 thousand tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "KZ",
+        "value": "120 thousand tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MM",
+        "value": "100 thousand tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "GE",
+        "value": "85 thousand tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "ID",
+        "value": "80 thousand tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "VN",
+        "value": "70 thousand tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "55 thousand tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "PE",
+        "value": "45 thousand tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "TH",
+        "value": "35 thousand tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "BG",
+        "value": "30 thousand tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "MA",
+        "value": "25 thousand tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "PK",
+        "value": "20 thousand tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "RO",
+        "value": "18 thousand tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "15 thousand tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "AR",
+        "value": "12 thousand tonnes"
       }
     ]
   },
@@ -158935,7 +165155,7 @@
     "title": "Largest chromium (chromite) producers",
     "prompt": "Name the countries with the largest chromite ore production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Chromium",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-chromium.pdf",
@@ -158995,6 +165215,81 @@
         "rank": 10,
         "code": "OM",
         "value": "300 thousand tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "BR",
+        "value": "230 thousand tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "MG",
+        "value": "180 thousand tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "RU",
+        "value": "150 thousand tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "AF",
+        "value": "100 thousand tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "PH",
+        "value": "80 thousand tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "CU",
+        "value": "60 thousand tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "SD",
+        "value": "50 thousand tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "VN",
+        "value": "40 thousand tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "MM",
+        "value": "30 thousand tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "CN",
+        "value": "25 thousand tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "MZ",
+        "value": "20 thousand tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "EG",
+        "value": "15 thousand tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "ID",
+        "value": "12 thousand tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "MK",
+        "value": "10 thousand tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "RS",
+        "value": "8 thousand tonnes"
       }
     ]
   },
@@ -159005,7 +165300,7 @@
     "title": "Largest tungsten producers",
     "prompt": "Name the countries with the largest mined tungsten production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Tungsten",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-tungsten.pdf",
@@ -159065,6 +165360,81 @@
         "rank": 10,
         "code": "MM",
         "value": "300 tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "GB",
+        "value": "270 tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "UG",
+        "value": "230 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "180 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "TH",
+        "value": "150 tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "KR",
+        "value": "120 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "100 tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "80 tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "CD",
+        "value": "70 tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "BR",
+        "value": "50 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "40 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "35 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "PE",
+        "value": "30 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "MX",
+        "value": "20 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "TJ",
+        "value": "15 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "US",
+        "value": "10 tonnes"
       }
     ]
   },
@@ -159075,7 +165445,7 @@
     "title": "Largest molybdenum producers",
     "prompt": "Name the countries with the largest mined molybdenum production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Molybdenum",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-molybdenum.pdf",
@@ -159135,6 +165505,81 @@
         "rank": 10,
         "code": "MN",
         "value": "2,000 tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "UZ",
+        "value": "600 tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "KZ",
+        "value": "400 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "TR",
+        "value": "300 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "KG",
+        "value": "200 tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "BG",
+        "value": "150 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "120 tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "KR",
+        "value": "100 tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "BR",
+        "value": "80 tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "60 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "MA",
+        "value": "40 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "PH",
+        "value": "30 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "25 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "20 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "PK",
+        "value": "15 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "TJ",
+        "value": "10 tonnes"
       }
     ]
   },
@@ -159145,7 +165590,7 @@
     "title": "Largest salt producers",
     "prompt": "Name the countries with the largest annual salt production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Salt",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-salt.pdf",
@@ -159205,6 +165650,106 @@
         "rank": 10,
         "code": "NL",
         "value": "6 million tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "FR",
+        "value": "5.5 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "PL",
+        "value": "5.0 million tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "GB",
+        "value": "4.5 million tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "UA",
+        "value": "4.0 million tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "RU",
+        "value": "3.8 million tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "TR",
+        "value": "3.6 million tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "3.4 million tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "PK",
+        "value": "3.0 million tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "EG",
+        "value": "2.8 million tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "IR",
+        "value": "2.5 million tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "2.4 million tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "RO",
+        "value": "2.2 million tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "TH",
+        "value": "2.0 million tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "BY",
+        "value": "1.9 million tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "1.7 million tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "BG",
+        "value": "1.5 million tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "1.3 million tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "TN",
+        "value": "1.2 million tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "1.1 million tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "CO",
+        "value": "1.0 million tonnes"
       }
     ]
   },
@@ -159215,7 +165760,7 @@
     "title": "Largest elemental sulfur producers",
     "prompt": "Name the countries with the largest annual sulfur production (all forms).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Sulfur",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-sulfur.pdf",
@@ -159275,6 +165820,81 @@
         "rank": 10,
         "code": "AE",
         "value": "2.9 million tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "KR",
+        "value": "2.6 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "PL",
+        "value": "2.4 million tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "2.2 million tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "DE",
+        "value": "2.0 million tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "QA",
+        "value": "1.9 million tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "KW",
+        "value": "1.6 million tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "1.4 million tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "1.2 million tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "TM",
+        "value": "1.1 million tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "UZ",
+        "value": "1.0 million tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "0.95 million tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "IQ",
+        "value": "0.90 million tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "0.80 million tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "GB",
+        "value": "0.75 million tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "AU",
+        "value": "0.70 million tonnes"
       }
     ]
   },
@@ -159285,7 +165905,7 @@
     "title": "Largest gypsum producers",
     "prompt": "Name the countries with the largest mined gypsum production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Gypsum",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-gypsum.pdf",
@@ -159345,6 +165965,106 @@
         "rank": 10,
         "code": "SA",
         "value": "4.4 million tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "4.0 million tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "RU",
+        "value": "3.5 million tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "AU",
+        "value": "3.3 million tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "CA",
+        "value": "3.0 million tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "BR",
+        "value": "2.8 million tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "2.7 million tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "PK",
+        "value": "2.5 million tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "DE",
+        "value": "2.4 million tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "2.2 million tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "GB",
+        "value": "2.0 million tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "1.7 million tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "MA",
+        "value": "1.5 million tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "1.4 million tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "1.2 million tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "ID",
+        "value": "1.1 million tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "EG",
+        "value": "1.0 million tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "AE",
+        "value": "0.90 million tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "VN",
+        "value": "0.85 million tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "0.80 million tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "0.75 million tonnes"
       }
     ]
   },
@@ -159355,7 +166075,7 @@
     "title": "Largest magnesite producers",
     "prompt": "Name the countries with the largest mined magnesite production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Magnesium Compounds",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-magnesium-compounds.pdf",
@@ -159415,6 +166135,81 @@
         "rank": 10,
         "code": "GR",
         "value": "350 thousand tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "IN",
+        "value": "300 thousand tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "IR",
+        "value": "260 thousand tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "220 thousand tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "PK",
+        "value": "180 thousand tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "SA",
+        "value": "150 thousand tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "NP",
+        "value": "120 thousand tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "90 thousand tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "70 thousand tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "MX",
+        "value": "60 thousand tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "ZW",
+        "value": "40 thousand tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "CA",
+        "value": "30 thousand tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "MZ",
+        "value": "25 thousand tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "AL",
+        "value": "20 thousand tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "KE",
+        "value": "15 thousand tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "TZ",
+        "value": "10 thousand tonnes"
       }
     ]
   },
