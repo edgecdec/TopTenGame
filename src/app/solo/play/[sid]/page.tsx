@@ -70,7 +70,14 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
   const [showIntermission, setShowIntermission] = useState(false);
   const [now, setNow] = useState(() => Date.now());
   const [error, setError] = useState<string | null>(null);
+  const [devMode, setDevMode] = useState(false);
+  const [feedbackGiven, setFeedbackGiven] = useState(false);
   const autoSubmittedFor = useRef<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    setDevMode(localStorage.getItem("topten_dev_mode") === "1");
+  }, []);
 
   useEffect(() => {
     fetch("/api/data")
@@ -158,6 +165,7 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
       /* keep existing state; setShowIntermission still flips */
     }
     autoSubmittedFor.current = null;
+    setFeedbackGiven(false);
     setShowIntermission(false);
   }, [state, sid, router]);
 
@@ -216,10 +224,24 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
             ) : r.source.name}
             {r.source.asOf ? ` · ${r.source.asOf}` : ""}
           </Typography>
-          <FeedbackWidget sessionId={sid} questionId={r.questionId} />
-          <Button variant="contained" size="large" onClick={advance}>
+          <FeedbackWidget
+            sessionId={sid}
+            questionId={r.questionId}
+            onGiven={setFeedbackGiven}
+          />
+          <Button
+            variant="contained"
+            size="large"
+            onClick={advance}
+            disabled={devMode && !feedbackGiven}
+          >
             {isLast ? "See final score" : "Next question"}
           </Button>
+          {devMode && !feedbackGiven && (
+            <Typography variant="caption" color="text.secondary" textAlign="center">
+              Dev mode: leave a thumbs-up/down or comment to continue.
+            </Typography>
+          )}
         </Stack>
       </Container>
     );
@@ -277,12 +299,26 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
   );
 }
 
-function FeedbackWidget({ sessionId, questionId }: { sessionId: string; questionId: string }) {
+function FeedbackWidget({
+  sessionId,
+  questionId,
+  onGiven,
+}: {
+  sessionId: string;
+  questionId: string;
+  onGiven?: (given: boolean) => void;
+}) {
   const [thumbs, setThumbs] = useState<number | null>(null);
   const [text, setText] = useState("");
   const [saved, setSaved] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Broadcast whether any feedback signal exists — dev mode gates Next on this.
+  useEffect(() => {
+    if (!onGiven) return;
+    onGiven(thumbs !== null || text.trim().length > 0);
+  }, [thumbs, text, onGiven]);
 
   useEffect(() => {
     if (!expanded && !thumbs) return;

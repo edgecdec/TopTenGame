@@ -79,6 +79,12 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const [picks, setPicks] = useState<Option[]>([]);
   const [now, setNow] = useState(() => Date.now());
   const [toast, setToast] = useState<string | null>(null);
+  const [devMode, setDevMode] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    setDevMode(localStorage.getItem("topten_dev_mode") === "1");
+  }, []);
 
   useEffect(() => {
     fetch("/api/data")
@@ -184,6 +190,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
           onSubmitFeedback={(questionId, thumbs, text) =>
             emit("submit_feedback", { questionId, thumbs, text })
           }
+          devMode={devMode}
         />
       )}
       {state.phase === "final_results" && (
@@ -627,13 +634,19 @@ function IntermissionView({
   isHost,
   onNext,
   onSubmitFeedback,
+  devMode,
 }: {
   state: ClientRoomState;
   isHost: boolean;
   onNext: () => void;
   onSubmitFeedback: (questionId: string, thumbs: number | null, text: string | null) => void;
+  devMode: boolean;
 }) {
   const r = state.lastResults;
+  const [feedbackGiven, setFeedbackGiven] = useState(false);
+  useEffect(() => {
+    setFeedbackGiven(false);
+  }, [r?.questionId]);
   if (!r) return null;
   const scoreboard = [...state.players].sort((a, b) => b.score - a.score);
   const isLast = state.currentQuestionIdx + 1 >= state.totalQuestions;
@@ -694,6 +707,7 @@ function IntermissionView({
             key={r.questionId}
             questionId={r.questionId}
             onSubmit={onSubmitFeedback}
+            onGiven={setFeedbackGiven}
           />
         </Box>
       </Paper>
@@ -752,9 +766,21 @@ function IntermissionView({
       </Paper>
 
       {isHost ? (
-        <Button variant="contained" size="large" onClick={onNext}>
-          {isLast ? "See final results" : "Next question"}
-        </Button>
+        <>
+          <Button
+            variant="contained"
+            size="large"
+            onClick={onNext}
+            disabled={devMode && !feedbackGiven}
+          >
+            {isLast ? "See final results" : "Next question"}
+          </Button>
+          {devMode && !feedbackGiven && (
+            <Typography variant="caption" color="text.secondary" textAlign="center">
+              Dev mode: leave a thumbs-up/down or comment to continue.
+            </Typography>
+          )}
+        </>
       ) : (
         <Typography variant="body2" color="text.secondary" textAlign="center">
           Waiting for host to continue...
@@ -954,15 +980,22 @@ function ScoreboardRow({
 function FeedbackWidget({
   questionId,
   onSubmit,
+  onGiven,
 }: {
   questionId: string;
   onSubmit: (questionId: string, thumbs: number | null, text: string | null) => void;
+  onGiven?: (given: boolean) => void;
 }) {
   const [thumbs, setThumbs] = useState<number | null>(null);
   const [text, setText] = useState("");
   const [saved, setSaved] = useState(false);
   const [expanded, setExpanded] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    if (!onGiven) return;
+    onGiven(thumbs !== null || text.trim().length > 0);
+  }, [thumbs, text, onGiven]);
 
   // Debounce text saves so we don't spam the server on every keystroke.
   useEffect(() => {

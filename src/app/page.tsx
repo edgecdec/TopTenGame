@@ -1,5 +1,5 @@
 "use client";
-import { Box, Button, Container, Stack, TextField, Typography, Paper } from "@mui/material";
+import { Box, Button, Container, FormControlLabel, Stack, Switch, TextField, Typography, Paper } from "@mui/material";
 import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
@@ -8,13 +8,20 @@ function HomeInner() {
   const search = useSearchParams();
   const [name, setName] = useState("");
   const [code, setCode] = useState("");
+  const [devMode, setDevMode] = useState(false);
 
   useEffect(() => {
     const savedName = localStorage.getItem("topten_name");
     if (savedName) setName(savedName);
     const joinCode = search.get("joinCode");
     if (joinCode) setCode(joinCode.toUpperCase());
+    setDevMode(localStorage.getItem("topten_dev_mode") === "1");
   }, [search]);
+
+  const toggleDevMode = (v: boolean) => {
+    setDevMode(v);
+    localStorage.setItem("topten_dev_mode", v ? "1" : "0");
+  };
 
   const persistName = (n: string) => {
     setName(n);
@@ -93,6 +100,14 @@ function HomeInner() {
             </Button>
           </Stack>
         </Paper>
+        <FormControlLabel
+          control={<Switch checked={devMode} onChange={(_, v) => toggleDevMode(v)} />}
+          label={
+            <Typography variant="caption" color="text.secondary">
+              Dev mode — require feedback before advancing each round
+            </Typography>
+          }
+        />
       </Stack>
     </Container>
   );
