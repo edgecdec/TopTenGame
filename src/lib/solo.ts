@@ -101,17 +101,23 @@ function getQuestionFull(id: string): Question | null {
 function pickQuestionIds(count: number, theme: string): string[] {
   const rows =
     theme === ALL_THEME
-      ? (getDb().prepare("SELECT id FROM questions ORDER BY RANDOM() LIMIT ?").all(count) as Array<{ id: string }>)
+      ? (getDb()
+          .prepare(`SELECT id FROM questions WHERE seeded_depth >= ? ORDER BY RANDOM() LIMIT ?`)
+          .all(SOLO_TOP_N, count) as Array<{ id: string }>)
       : (getDb()
-          .prepare("SELECT id FROM questions WHERE theme = ? ORDER BY RANDOM() LIMIT ?")
-          .all(theme, count) as Array<{ id: string }>);
+          .prepare(`SELECT id FROM questions WHERE theme = ? AND seeded_depth >= ? ORDER BY RANDOM() LIMIT ?`)
+          .all(theme, SOLO_TOP_N, count) as Array<{ id: string }>);
   return rows.map((r) => r.id);
 }
 
 export function listSoloThemes(): Array<{ theme: string; count: number }> {
   return getDb()
-    .prepare("SELECT theme, COUNT(*) as count FROM questions GROUP BY theme ORDER BY theme")
-    .all() as Array<{ theme: string; count: number }>;
+    .prepare(
+      `SELECT theme, COUNT(*) as count FROM questions
+       WHERE seeded_depth >= ?
+       GROUP BY theme ORDER BY theme`
+    )
+    .all(SOLO_TOP_N) as Array<{ theme: string; count: number }>;
 }
 
 function toPublic(q: Question, endsAt: number | null): SoloQuestionPublic {
