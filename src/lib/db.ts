@@ -83,6 +83,14 @@ export function getDb(): Database.Database {
     );
     CREATE INDEX IF NOT EXISTS idx_solo_scores_board ON solo_scores(mode, theme, score DESC);
     CREATE INDEX IF NOT EXISTS idx_solo_scores_user ON solo_scores(user_id);
+    CREATE TABLE IF NOT EXISTS question_exposures (
+      question_id TEXT NOT NULL,
+      user_id TEXT NOT NULL,
+      seen_count INTEGER NOT NULL DEFAULT 0,
+      last_seen_at INTEGER NOT NULL,
+      PRIMARY KEY (question_id, user_id)
+    );
+    CREATE INDEX IF NOT EXISTS idx_exposures_user ON question_exposures(user_id);
   `);
   // In-place migration for legacy DBs
   const cols = _db.prepare("PRAGMA table_info(questions)").all() as Array<{ name: string }>;

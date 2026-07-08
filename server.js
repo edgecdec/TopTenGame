@@ -381,6 +381,7 @@ function advanceToNextQuestion(io, room) {
   }
   if (room.roundTimer) clearTimeout(room.roundTimer);
   room.roundTimer = setTimeout(() => endRound(io, room), room.settings.roundDurationSec * 1000);
+  recordRoomExposure(room);
   broadcast(io, room);
 }
 
@@ -390,7 +391,31 @@ function startGame(io, room) {
   const allIds = listQuestionIdsInTheme(theme, subtheme);
   if (allIds.length === 0) return;
   const requested = Math.max(1, Math.min(room.settings.numQuestions, allIds.length));
-  room.questionQueue = shuffle(allIds).slice(0, requested);
+  // Pick questions that minimize aggregate exposure across the roster.
+  // For each candidate, sum seen_count over every active player; sort asc,
+  // random-tiebreak within each exposure bucket.
+  const playerIds = Array.from(room.players.keys());
+  let queue;
+  if (playerIds.length === 0) {
+    queue = shuffle(allIds).slice(0, requested);
+  } else {
+    const placeholders = playerIds.map(() => "?").join(",");
+    const rows = db
+      .prepare(
+        `SELECT q.id, COALESCE(SUM(e.seen_count), 0) AS total_seen
+         FROM questions q
+         LEFT JOIN question_exposures e
+           ON e.question_id = q.id AND e.user_id IN (${placeholders})
+         WHERE q.id IN (${allIds.map(() => "?").join(",")})
+         GROUP BY q.id`
+      )
+      .all(...playerIds, ...allIds);
+    // Shuffle first so ties break randomly, then stable-sort by total_seen.
+    shuffle(rows);
+    rows.sort((a, b) => a.total_seen - b.total_seen);
+    queue = rows.slice(0, requested).map((r) => r.id);
+  }
+  room.questionQueue = queue;
   room.currentQuestionIdx = -1;
   room.finalScoreboard = null;
   for (const p of room.players.values()) {
@@ -399,6 +424,26 @@ function startGame(io, room) {
     p.submitted = false;
   }
   advanceToNextQuestion(io, room);
+}
+
+function recordRoomExposure(room) {
+  const q = room.currentQuestionId;
+  if (!q) return;
+  const now = Date.now();
+  const stmt = db.prepare(
+    `INSERT INTO question_exposures (question_id, user_id, seen_count, last_seen_at)
+     VALUES (?, ?, 1, ?)
+     ON CONFLICT(question_id, user_id) DO UPDATE SET
+       seen_count = seen_count + 1,
+       last_seen_at = excluded.last_seen_at`
+  );
+  const tx = db.transaction((players) => {
+    for (const p of players) {
+      if (!p.connected) continue;
+      stmt.run(q, p.id, now);
+    }
+  });
+  tx(Array.from(room.players.values()));
 }
 
 function parseCookie(str, name) {

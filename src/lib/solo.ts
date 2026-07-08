@@ -98,16 +98,43 @@ function getQuestionFull(id: string): Question | null {
   };
 }
 
-function pickQuestionIds(count: number, theme: string): string[] {
+function pickQuestionIds(count: number, theme: string, userId: string): string[] {
+  // Prefer unseen questions first, then least-seen. Randomize within each
+  // exposure tier so replaying doesn't produce identical sequences.
+  const sql =
+    theme === ALL_THEME
+      ? `SELECT q.id, COALESCE(e.seen_count, 0) AS seen
+         FROM questions q
+         LEFT JOIN question_exposures e
+           ON e.question_id = q.id AND e.user_id = ?
+         WHERE q.seeded_depth >= ?
+         ORDER BY seen ASC, RANDOM()
+         LIMIT ?`
+      : `SELECT q.id, COALESCE(e.seen_count, 0) AS seen
+         FROM questions q
+         LEFT JOIN question_exposures e
+           ON e.question_id = q.id AND e.user_id = ?
+         WHERE q.theme = ? AND q.seeded_depth >= ?
+         ORDER BY seen ASC, RANDOM()
+         LIMIT ?`;
   const rows =
     theme === ALL_THEME
-      ? (getDb()
-          .prepare(`SELECT id FROM questions WHERE seeded_depth >= ? ORDER BY RANDOM() LIMIT ?`)
-          .all(SOLO_TOP_N, count) as Array<{ id: string }>)
-      : (getDb()
-          .prepare(`SELECT id FROM questions WHERE theme = ? AND seeded_depth >= ? ORDER BY RANDOM() LIMIT ?`)
-          .all(theme, SOLO_TOP_N, count) as Array<{ id: string }>);
+      ? (getDb().prepare(sql).all(userId, SOLO_TOP_N, count) as Array<{ id: string }>)
+      : (getDb().prepare(sql).all(userId, theme, SOLO_TOP_N, count) as Array<{ id: string }>);
   return rows.map((r) => r.id);
+}
+
+export function recordExposure(questionId: string, userId: string): void {
+  const now = Date.now();
+  getDb()
+    .prepare(
+      `INSERT INTO question_exposures (question_id, user_id, seen_count, last_seen_at)
+       VALUES (?, ?, 1, ?)
+       ON CONFLICT(question_id, user_id) DO UPDATE SET
+         seen_count = seen_count + 1,
+         last_seen_at = excluded.last_seen_at`
+    )
+    .run(questionId, userId, now);
 }
 
 export function listSoloThemes(): Array<{ theme: string; count: number }> {
@@ -134,7 +161,7 @@ function toPublic(q: Question, endsAt: number | null): SoloQuestionPublic {
 }
 
 export function createSession(userId: string, displayName: string, mode: SoloMode, theme: string): SoloClientState | null {
-  const ids = pickQuestionIds(SOLO_QUESTIONS_PER_GAME, theme);
+  const ids = pickQuestionIds(SOLO_QUESTIONS_PER_GAME, theme, userId);
   if (ids.length < SOLO_QUESTIONS_PER_GAME) return null;
   const id = randomUUID();
   const endsAt = Date.now() + SOLO_SECONDS_PER_QUESTION * 1000;
@@ -146,6 +173,8 @@ export function createSession(userId: string, displayName: string, mode: SoloMod
        VALUES (?, ?, ?, ?, ?, ?, ?, 0, ?, 0, 0, ?)`
     )
     .run(id, userId, displayName.slice(0, 24), mode, theme, JSON.stringify(ids), JSON.stringify([]), endsAt, now);
+  // Record exposure for the first question at session-start (it's now visible).
+  recordExposure(ids[0], userId);
   const first = getQuestionFull(ids[0]);
   return {
     sessionId: id,
@@ -270,12 +299,17 @@ export function startRound(sessionId: string, userId: string): SoloClientState |
   const s = loadSession(sessionId);
   if (!s || s.user_id !== userId) return null;
   if (s.finished) return getState(sessionId, userId);
+  const ids: string[] = JSON.parse(s.question_ids);
   // Idempotent: if a timer is already set and not expired, don't reset it.
   const now = Date.now();
-  if (!s.question_ends_at || s.question_ends_at < now) {
+  const isFresh = !s.question_ends_at || s.question_ends_at < now;
+  if (isFresh) {
     getDb()
       .prepare("UPDATE solo_sessions SET question_ends_at = ? WHERE id = ?")
       .run(now + SOLO_SECONDS_PER_QUESTION * 1000, sessionId);
+    if (s.current_idx < ids.length) {
+      recordExposure(ids[s.current_idx], userId);
+    }
   }
   return getState(sessionId, userId);
 }
