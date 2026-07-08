@@ -303,6 +303,61 @@ export function submitPick(sessionId: string, userId: string, pick: string | nul
   return getState(sessionId, userId);
 }
 
+export type SoloRoundSummary = {
+  idx: number;
+  questionId: string;
+  questionTitle: string;
+  answerType: string;
+  yourPick: { code: string; label: string } | null;
+  yourRank: number | null;
+  yourFullRank: number | null;
+  totalRanked: number;
+  pointsEarned: number;
+  topN: number;
+  correctAnswers: Array<{ rank: number; code: string; value: string; label: string }>;
+  source: { name: string; url: string; asOf: string };
+  disclaimer: string | null;
+  trivia: string | null;
+  asOfDate: string | null;
+};
+
+export function getRoundSummaries(sessionId: string, userId: string): SoloRoundSummary[] | null {
+  const s = loadSession(sessionId);
+  if (!s || s.user_id !== userId) return null;
+  const ids: string[] = JSON.parse(s.question_ids);
+  const picks: Array<string | null> = JSON.parse(s.picks);
+  const rounds: SoloRoundSummary[] = [];
+  for (let i = 0; i < picks.length; i++) {
+    const q = getQuestionFull(ids[i]);
+    if (!q) continue;
+    const pick = picks[i] ?? null;
+    const topN = Math.min(SOLO_TOP_N, q.seededDepth);
+    const match = pick ? q.answers.find((a) => a.code === pick) : null;
+    const inRange = match && match.rank <= topN ? match.rank : null;
+    const points = scorePick(s.mode as SoloMode, inRange, topN, SOLO_MISS_PENALTY);
+    rounds.push({
+      idx: i,
+      questionId: q.id,
+      questionTitle: q.title,
+      answerType: q.answerType,
+      yourPick: pick ? { code: pick, label: labelForCode(q.answerType, pick) } : null,
+      yourRank: inRange,
+      yourFullRank: match ? match.rank : null,
+      totalRanked: q.answers.length,
+      pointsEarned: points,
+      topN,
+      correctAnswers: q.answers
+        .filter((a) => a.rank <= topN)
+        .map((a) => ({ ...a, label: labelForCode(q.answerType, a.code) })),
+      source: q.source,
+      disclaimer: q.disclaimer,
+      trivia: q.trivia,
+      asOfDate: q.asOfDate,
+    });
+  }
+  return rounds;
+}
+
 export function startRound(sessionId: string, userId: string): SoloClientState | null {
   const s = loadSession(sessionId);
   if (!s || s.user_id !== userId) return null;

@@ -2,6 +2,9 @@
 import { use, useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import {
+  Accordion,
+  AccordionDetails,
+  AccordionSummary,
   Alert,
   Autocomplete,
   Box,
@@ -22,6 +25,7 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import ContentCopyIcon from "@mui/icons-material/ContentCopy";
 import ShareIcon from "@mui/icons-material/Share";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
@@ -194,7 +198,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
         />
       )}
       {state.phase === "final_results" && (
-        <FinalResultsView state={state} isHost={isHost} onLobby={() => emit("return_to_lobby")} />
+        <FinalResultsView state={state} isHost={isHost} onLobby={() => emit("return_to_lobby")} userId={userId} />
       )}
       <Snackbar
         open={!!toast}
@@ -801,13 +805,144 @@ function FinalResultsView({
   state,
   isHost,
   onLobby,
+  userId,
 }: {
   state: ClientRoomState;
   isHost: boolean;
   onLobby: () => void;
+  userId: string | null;
 }) {
   const scoreboard = state.finalScoreboard ?? [];
-  return <AnimatedFinalScoreboard scoreboard={scoreboard} isHost={isHost} onLobby={onLobby} />;
+  return (
+    <Stack spacing={3}>
+      <AnimatedFinalScoreboard scoreboard={scoreboard} isHost={isHost} onLobby={onLobby} />
+      {state.roundHistory && state.roundHistory.length > 0 && (
+        <RoundHistoryReview rounds={state.roundHistory} userId={userId} />
+      )}
+    </Stack>
+  );
+}
+
+function RoundHistoryReview({
+  rounds,
+  userId,
+}: {
+  rounds: Array<ClientRoomState["roundHistory"][number]>;
+  userId: string | null;
+}) {
+  return (
+    <Paper sx={{ p: 3 }}>
+      <Typography variant="h6" gutterBottom>
+        Round-by-round
+      </Typography>
+      <Typography variant="caption" color="text.secondary" display="block" mb={1}>
+        Click any question to review the correct answers and everyone&apos;s picks.
+      </Typography>
+      <Stack spacing={1}>
+        {rounds.map((r) => {
+          const mine = userId ? r.perPlayer[userId] : null;
+          const myPickChip = (() => {
+            if (!mine) return null;
+            if (mine.picksScored.length === 0) return <Chip size="small" variant="outlined" label="no pick" />;
+            const ps = mine.picksScored[0];
+            if (ps.rank) return <Chip size="small" color="success" label={`${ps.label} #${ps.rank} · +${ps.points}`} />;
+            if (ps.fullRank) return <Chip size="small" label={`${ps.label} #${ps.fullRank}${ps.points !== 0 ? ` · ${ps.points}` : ""}`} />;
+            return <Chip size="small" label={`${ps.label} · N/A${ps.points !== 0 ? ` · ${ps.points}` : ""}`} />;
+          })();
+          return (
+            <Accordion key={r.idx ?? r.questionId} disableGutters sx={{ bgcolor: "transparent" }}>
+              <AccordionSummary expandIcon={<ExpandMoreIcon />}>
+                <Stack direction="row" spacing={1} alignItems="center" sx={{ width: "100%" }}>
+                  <Typography sx={{ width: 32, color: "text.secondary" }}>
+                    Q{(r.idx ?? 0) + 1}
+                  </Typography>
+                  <Typography sx={{ flex: 1, fontWeight: 500 }}>{r.questionTitle}</Typography>
+                  {myPickChip}
+                </Stack>
+              </AccordionSummary>
+              <AccordionDetails>
+                <Stack spacing={1.5}>
+                  <Box>
+                    <Typography variant="subtitle2" gutterBottom>
+                      Correct top {r.correctAnswers.length}
+                    </Typography>
+                    <Stack spacing={0.5}>
+                      {r.correctAnswers.map((a) => (
+                        <Stack key={a.code} direction="row" spacing={1}>
+                          <Typography sx={{ width: 32, fontWeight: 700 }}>#{a.rank}</Typography>
+                          <Typography sx={{ flex: 1 }}>{a.label}</Typography>
+                          <Typography color="text.secondary">{a.value}</Typography>
+                        </Stack>
+                      ))}
+                    </Stack>
+                  </Box>
+                  {r.disclaimer && <Alert severity="info" icon={false}>{r.disclaimer}</Alert>}
+                  {r.trivia && (
+                    <Alert
+                      severity="warning"
+                      icon={false}
+                      sx={{ backgroundColor: "rgba(124,92,255,0.12)", color: "inherit" }}
+                    >
+                      {r.trivia}
+                    </Alert>
+                  )}
+                  <Box>
+                    <Typography variant="subtitle2" gutterBottom>
+                      Player picks
+                    </Typography>
+                    <Stack spacing={0.5}>
+                      {Object.entries(r.perPlayer).map(([pid, details]) => (
+                        <Stack key={pid} direction="row" spacing={1} alignItems="center" flexWrap="wrap">
+                          <Typography sx={{ minWidth: 100, fontWeight: pid === userId ? 700 : 400 }}>
+                            {pid === userId ? "You" : pid.slice(0, 6)}
+                          </Typography>
+                          <Typography color="text.secondary" sx={{ minWidth: 60 }}>
+                            {details.roundScore >= 0 ? "+" : ""}
+                            {details.roundScore}
+                          </Typography>
+                          <Stack direction="row" gap={0.5} flexWrap="wrap">
+                            {details.picksScored.length === 0 && (
+                              <Chip size="small" variant="outlined" label="(no pick)" />
+                            )}
+                            {details.picksScored.map((ps, i) => (
+                              <Chip
+                                key={i}
+                                size="small"
+                                variant={ps.rank ? "filled" : "outlined"}
+                                color={ps.rank ? "success" : "default"}
+                                label={
+                                  ps.rank
+                                    ? `${ps.label} #${ps.rank}`
+                                    : ps.fullRank
+                                      ? `${ps.label} #${ps.fullRank}`
+                                      : `${ps.label} N/A`
+                                }
+                              />
+                            ))}
+                          </Stack>
+                        </Stack>
+                      ))}
+                    </Stack>
+                  </Box>
+                  <Typography variant="caption" color="text.secondary">
+                    Source:{" "}
+                    {r.source.url ? (
+                      <MuiLink href={r.source.url} target="_blank" rel="noreferrer">
+                        {r.source.name}
+                      </MuiLink>
+                    ) : (
+                      r.source.name
+                    )}
+                    {r.source.asOf ? ` · ${r.source.asOf}` : ""}
+                  </Typography>
+                </Stack>
+              </AccordionDetails>
+            </Accordion>
+          );
+        })}
+      </Stack>
+    </Paper>
+  );
 }
 
 function AnimatedFinalScoreboard({

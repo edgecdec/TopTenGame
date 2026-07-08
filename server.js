@@ -146,6 +146,7 @@ function serializeRooms() {
       endsAt: room.endsAt,
       lastResults: room.lastResults,
       finalScoreboard: room.finalScoreboard,
+      roundHistory: room.roundHistory || [],
       players: Array.from(room.players.values()).map((p) => ({
         id: p.id,
         name: p.name,
@@ -201,6 +202,7 @@ function restoreSnapshot(io) {
         endsAt: r.endsAt,
         lastResults: r.lastResults,
         finalScoreboard: r.finalScoreboard,
+        roundHistory: r.roundHistory || [],
         roundTimer: null,
       };
       // If a round was in progress and the timer hadn't expired yet, re-arm it.
@@ -266,6 +268,9 @@ function publicState(room) {
     endsAt: room.endsAt,
     lastResults: room.lastResults,
     finalScoreboard: room.finalScoreboard,
+    // Only send the full history on final_results — cheap-ish (10 rounds *
+    // ~200 bytes per player) and lets the client render per-round review.
+    roundHistory: room.phase === "final_results" ? room.roundHistory || [] : [],
   };
 }
 
@@ -319,6 +324,12 @@ function endRound(io, room) {
     trivia: q.trivia || null,
     asOfDate: q.asOfDate || q.source.asOf || null,
   };
+  if (!Array.isArray(room.roundHistory)) room.roundHistory = [];
+  room.roundHistory.push({
+    idx: room.currentQuestionIdx,
+    answerType: q.answerType,
+    ...room.lastResults,
+  });
   room.phase = "intermission";
   room.endsAt = null;
 
@@ -426,6 +437,7 @@ function startGame(io, room) {
   room.questionQueue = queue;
   room.currentQuestionIdx = -1;
   room.finalScoreboard = null;
+  room.roundHistory = [];
   for (const p of room.players.values()) {
     p.score = 0;
     p.picks = [];
@@ -650,6 +662,7 @@ app.prepare().then(() => {
       room.endsAt = null;
       room.lastResults = null;
       room.finalScoreboard = null;
+      room.roundHistory = [];
       for (const p of room.players.values()) {
         p.picks = [];
         p.submitted = false;

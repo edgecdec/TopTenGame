@@ -72,6 +72,7 @@ export type ClientRoomState = {
   endsAt: number | null;
   lastResults: RoundResults | null;
   finalScoreboard: FinalScoreboardEntry[] | null;
+  roundHistory: Array<RoundResults & { idx: number; answerType: string }>;
 };
 
 export type ThemeInfo = { theme: string; count: number };
