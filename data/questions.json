@@ -675,7 +675,7 @@
     "title": "Most Oscar wins for Best International Feature Film",
     "prompt": "Name the countries with the most Academy Awards for Best International Feature Film (formerly Best Foreign Language Film).",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 25,
     "source": {
       "name": "Academy of Motion Picture Arts and Sciences (AMPAS) \u2014 Best International Feature Film records",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_number_of_Academy_Awards_for_Best_International_Feature_Film",
@@ -752,6 +752,61 @@
         "rank": 9,
         "code": "IR",
         "value": "2 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "RU",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CA",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "KR",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "BE",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "TW",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "BA",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CL",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "GB",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "ZA",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CI",
+        "value": "1 win (tied)"
       }
     ],
     "disclaimer": "Includes Special/Honorary Awards for foreign-language films (e.g., prior to the competitive category's 1956 inception). Germany and West Germany, and the Soviet Union and Russia, are counted separately per Academy convention.",
@@ -1025,7 +1080,7 @@
     "title": "Largest global native-speaker populations by origin country",
     "prompt": "For each of the world's most widely spoken native languages, name the country most closely associated with the language's origin. Values shown are that language's global native (L1) speaker total.",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 25,
     "source": {
       "name": "Ethnologue (26th edition) \u2014 Languages by number of native (L1) speakers",
       "url": "https://www.ethnologue.com/insights/ethnologue200/",
@@ -1091,17 +1146,72 @@
       {
         "rank": 12,
         "code": "EG",
-        "value": "~83M native speakers (tied)"
+        "value": "~83M native speakers"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "~82M native speakers"
       },
       {
         "rank": 14,
-        "code": "KR",
-        "value": "~82M native speakers"
+        "code": "DE",
+        "value": "~76M native speakers"
       },
       {
         "rank": 15,
         "code": "FR",
         "value": "~74M native speakers"
+      },
+      {
+        "rank": 16,
+        "code": "IT",
+        "value": "~64M native speakers"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "~62M native speakers"
+      },
+      {
+        "rank": 18,
+        "code": "TH",
+        "value": "~60M native speakers"
+      },
+      {
+        "rank": 19,
+        "code": "MM",
+        "value": "~43M native speakers"
+      },
+      {
+        "rank": 20,
+        "code": "PL",
+        "value": "~40M native speakers"
+      },
+      {
+        "rank": 21,
+        "code": "UA",
+        "value": "~35M native speakers"
+      },
+      {
+        "rank": 22,
+        "code": "TZ",
+        "value": "~30M native speakers"
+      },
+      {
+        "rank": 23,
+        "code": "NL",
+        "value": "~24M native speakers"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "~19M native speakers"
+      },
+      {
+        "rank": 25,
+        "code": "GR",
+        "value": "~13M native speakers"
       }
     ],
     "disclaimer": "Each entry pairs a top-ranked language with its origin country. Ethnologue splits Chinese and Arabic into individual varieties (Mandarin, Yue, Wu; Egyptian Arabic, etc.) rather than treating each as a single macrolanguage. Values are worldwide L1 speaker totals for the language, not the population of the origin country.",
@@ -11065,7 +11175,7 @@
     "title": "Most FIDE-ranked chess grandmasters by federation",
     "prompt": "Name the countries (chess federations) with the most active FIDE grandmasters (GMs).",
     "answerType": "Countries",
-    "seededDepth": 14,
+    "seededDepth": 35,
     "source": {
       "name": "FIDE \u2014 Titled Players database (International Chess Federation)",
       "url": "https://ratings.fide.com/",
@@ -11111,17 +11221,17 @@
       {
         "rank": 8,
         "code": "PL",
-        "value": "~50 GMs"
+        "value": "~50 GMs (tied)"
       },
       {
         "rank": 8,
         "code": "FR",
-        "value": "~50 GMs"
+        "value": "~50 GMs (tied)"
       },
       {
         "rank": 8,
         "code": "CN",
-        "value": "~50 GMs"
+        "value": "~50 GMs (tied)"
       },
       {
         "rank": 11,
@@ -11131,17 +11241,122 @@
       {
         "rank": 12,
         "code": "CZ",
-        "value": "~40 GMs"
+        "value": "~40 GMs (tied)"
       },
       {
         "rank": 12,
         "code": "AM",
-        "value": "~40 GMs"
+        "value": "~40 GMs (tied)"
       },
       {
         "rank": 12,
         "code": "IL",
-        "value": "~40 GMs"
+        "value": "~40 GMs (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "RS",
+        "value": "~38 GMs"
+      },
+      {
+        "rank": 16,
+        "code": "AZ",
+        "value": "~35 GMs"
+      },
+      {
+        "rank": 17,
+        "code": "BR",
+        "value": "~30 GMs (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "AR",
+        "value": "~30 GMs (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "GE",
+        "value": "~30 GMs (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "~28 GMs"
+      },
+      {
+        "rank": 21,
+        "code": "NL",
+        "value": "~26 GMs"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "~24 GMs"
+      },
+      {
+        "rank": 23,
+        "code": "BY",
+        "value": "~22 GMs"
+      },
+      {
+        "rank": 24,
+        "code": "CU",
+        "value": "~21 GMs"
+      },
+      {
+        "rank": 25,
+        "code": "BG",
+        "value": "~20 GMs"
+      },
+      {
+        "rank": 26,
+        "code": "PE",
+        "value": "~18 GMs"
+      },
+      {
+        "rank": 27,
+        "code": "IR",
+        "value": "~17 GMs"
+      },
+      {
+        "rank": 28,
+        "code": "VN",
+        "value": "~16 GMs"
+      },
+      {
+        "rank": 29,
+        "code": "CA",
+        "value": "~15 GMs"
+      },
+      {
+        "rank": 30,
+        "code": "PH",
+        "value": "~14 GMs"
+      },
+      {
+        "rank": 31,
+        "code": "GR",
+        "value": "~13 GMs"
+      },
+      {
+        "rank": 32,
+        "code": "NO",
+        "value": "~12 GMs"
+      },
+      {
+        "rank": 33,
+        "code": "AU",
+        "value": "~11 GMs"
+      },
+      {
+        "rank": 34,
+        "code": "DK",
+        "value": "~10 GMs (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "RO",
+        "value": "~10 GMs (tied)"
       }
     ],
     "disclaimer": "Counts active Grandmasters (GM title, the highest FIDE title) by federation of registration, not birthplace.",
@@ -117110,7 +117325,7 @@
     "title": "Most Miss World titles won",
     "prompt": "Name the countries whose delegates have won the most Miss World pageants (since 1951).",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 26,
     "source": {
       "name": "Miss World Organization \u2014 Titleholders",
       "url": "https://www.missworld.com/",
@@ -117185,6 +117400,71 @@
         "rank": 9,
         "code": "PE",
         "value": "2 titles (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "BS",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "CN",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "DO",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "EG",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "FI",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "GR",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "IE",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "KE",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "LB",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "RU",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -117275,7 +117555,7 @@
     "title": "Most Blue Flag beaches",
     "prompt": "Name the countries with the most beaches certified with the Blue Flag eco-label for water quality and environmental standards.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 29,
     "source": {
       "name": "Foundation for Environmental Education \u2014 Blue Flag Programme",
       "url": "https://www.blueflag.global/",
@@ -117345,6 +117625,91 @@
         "rank": 12,
         "code": "TN",
         "value": "35 beaches"
+      },
+      {
+        "rank": 13,
+        "code": "IE",
+        "value": "32 beaches"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "31 beaches"
+      },
+      {
+        "rank": 15,
+        "code": "DE",
+        "value": "30 beaches"
+      },
+      {
+        "rank": 16,
+        "code": "DO",
+        "value": "29 beaches"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "26 beaches"
+      },
+      {
+        "rank": 18,
+        "code": "MA",
+        "value": "25 beaches"
+      },
+      {
+        "rank": 19,
+        "code": "BR",
+        "value": "22 beaches"
+      },
+      {
+        "rank": 20,
+        "code": "IL",
+        "value": "21 beaches"
+      },
+      {
+        "rank": 21,
+        "code": "NZ",
+        "value": "18 beaches"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "15 beaches"
+      },
+      {
+        "rank": 23,
+        "code": "RO",
+        "value": "13 beaches"
+      },
+      {
+        "rank": 24,
+        "code": "MT",
+        "value": "12 beaches"
+      },
+      {
+        "rank": 25,
+        "code": "ZA",
+        "value": "11 beaches"
+      },
+      {
+        "rank": 26,
+        "code": "SI",
+        "value": "10 beaches (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "AE",
+        "value": "10 beaches (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "JP",
+        "value": "8 beaches"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "7 beaches"
       }
     ]
   },
@@ -117355,7 +117720,7 @@
     "title": "Most Michelin-starred restaurants per capita",
     "prompt": "Name the countries with the most Michelin-starred restaurants per million residents.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "Michelin Guide \u2014 Restaurants directory",
       "url": "https://guide.michelin.com/",
@@ -117425,6 +117790,46 @@
         "rank": 12,
         "code": "JP",
         "value": "3.4 per million"
+      },
+      {
+        "rank": 13,
+        "code": "IE",
+        "value": "3.2 per million"
+      },
+      {
+        "rank": 14,
+        "code": "NO",
+        "value": "2.9 per million"
+      },
+      {
+        "rank": 15,
+        "code": "SE",
+        "value": "2.6 per million"
+      },
+      {
+        "rank": 16,
+        "code": "IT",
+        "value": "2.5 per million"
+      },
+      {
+        "rank": 17,
+        "code": "SG",
+        "value": "2.4 per million"
+      },
+      {
+        "rank": 18,
+        "code": "FI",
+        "value": "2.2 per million"
+      },
+      {
+        "rank": 19,
+        "code": "DE",
+        "value": "2.0 per million"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "1.9 per million"
       }
     ]
   },
@@ -117495,7 +117900,7 @@
     "title": "Highest average FIDE rating (top 10 players)",
     "prompt": "Name the countries with the highest average FIDE classical chess rating among their top 10 active players.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "FIDE \u2014 International Chess Federation ratings",
       "url": "https://ratings.fide.com/",
@@ -117565,6 +117970,71 @@
         "rank": 12,
         "code": "NL",
         "value": "2620 avg"
+      },
+      {
+        "rank": 13,
+        "code": "DE",
+        "value": "2618 avg"
+      },
+      {
+        "rank": 14,
+        "code": "IR",
+        "value": "2612 avg"
+      },
+      {
+        "rank": 15,
+        "code": "ES",
+        "value": "2605 avg"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "2600 avg"
+      },
+      {
+        "rank": 17,
+        "code": "IL",
+        "value": "2598 avg"
+      },
+      {
+        "rank": 18,
+        "code": "GB",
+        "value": "2595 avg"
+      },
+      {
+        "rank": 19,
+        "code": "RO",
+        "value": "2585 avg"
+      },
+      {
+        "rank": 20,
+        "code": "CZ",
+        "value": "2580 avg"
+      },
+      {
+        "rank": 21,
+        "code": "CU",
+        "value": "2575 avg"
+      },
+      {
+        "rank": 22,
+        "code": "GE",
+        "value": "2570 avg"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "2565 avg"
+      },
+      {
+        "rank": 24,
+        "code": "BG",
+        "value": "2560 avg"
+      },
+      {
+        "rank": 25,
+        "code": "PE",
+        "value": "2555 avg"
       }
     ]
   },
@@ -117575,7 +118045,7 @@
     "title": "Most tourist arrivals per capita",
     "prompt": "Name the countries with the most international tourist arrivals relative to their resident population.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "UN Tourism (UNWTO) \u2014 Tourism Highlights",
       "url": "https://www.unwto.org/tourism-data/global-and-regional-tourism-performance",
@@ -117645,6 +118115,96 @@
         "rank": 12,
         "code": "PT",
         "value": "2.9 per resident"
+      },
+      {
+        "rank": 13,
+        "code": "AL",
+        "value": "2.7 per resident"
+      },
+      {
+        "rank": 14,
+        "code": "ES",
+        "value": "1.8 per resident"
+      },
+      {
+        "rank": 15,
+        "code": "HU",
+        "value": "1.7 per resident"
+      },
+      {
+        "rank": 16,
+        "code": "CH",
+        "value": "1.5 per resident"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "1.4 per resident (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "DK",
+        "value": "1.4 per resident (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "1.4 per resident"
+      },
+      {
+        "rank": 20,
+        "code": "EE",
+        "value": "1.3 per resident"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "1.2 per resident"
+      },
+      {
+        "rank": 22,
+        "code": "GE",
+        "value": "1.2 per resident (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "SI",
+        "value": "1.2 per resident (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MU",
+        "value": "1.0 per resident"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "1.0 per resident (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "IT",
+        "value": "0.98 per resident"
+      },
+      {
+        "rank": 27,
+        "code": "BE",
+        "value": "0.83 per resident"
+      },
+      {
+        "rank": 28,
+        "code": "SE",
+        "value": "0.72 per resident"
+      },
+      {
+        "rank": 29,
+        "code": "FI",
+        "value": "0.62 per resident"
+      },
+      {
+        "rank": 30,
+        "code": "TR",
+        "value": "0.60 per resident"
       }
     ]
   },
@@ -120530,7 +121090,7 @@
     "title": "Most Netflix subscribers",
     "prompt": "Name the countries with the most Netflix paid subscribers.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "Statista / Netflix corporate \u2014 Netflix subscribers by country",
       "url": "https://www.statista.com/statistics/1013794/netflix-subscribers-usa-canada/",
@@ -120584,22 +121144,87 @@
       {
         "rank": 8,
         "code": "JP",
-        "value": "6M subscribers"
+        "value": "6M subscribers (tied)"
       },
       {
         "rank": 8,
         "code": "IN",
-        "value": "6M subscribers"
+        "value": "6M subscribers (tied)"
       },
       {
         "rank": 11,
         "code": "AR",
-        "value": "5M subscribers"
+        "value": "5M subscribers (tied)"
       },
       {
         "rank": 11,
         "code": "ES",
-        "value": "5M subscribers"
+        "value": "5M subscribers (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "4M subscribers (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NL",
+        "value": "4M subscribers (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "KR",
+        "value": "3.5M subscribers"
+      },
+      {
+        "rank": 16,
+        "code": "CO",
+        "value": "3M subscribers (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PL",
+        "value": "3M subscribers (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "TR",
+        "value": "3M subscribers (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "SE",
+        "value": "2.5M subscribers (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "BE",
+        "value": "2.5M subscribers (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CL",
+        "value": "2.5M subscribers (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "TH",
+        "value": "2M subscribers (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "PT",
+        "value": "2M subscribers (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "PH",
+        "value": "2M subscribers (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "2M subscribers (tied)"
       }
     ]
   },
@@ -120610,7 +121235,7 @@
     "title": "Most feature films produced annually (Bollywood + all)",
     "prompt": "Name the countries that produce the largest number of feature films each year.",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 35,
     "source": {
       "name": "UNESCO Institute for Statistics \u2014 Feature film production",
       "url": "http://data.uis.unesco.org/",
@@ -120685,6 +121310,116 @@
         "rank": 13,
         "code": "MX",
         "value": "~180 films/year"
+      },
+      {
+        "rank": 14,
+        "code": "BR",
+        "value": "~160 films/year"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "~150 films/year"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "~140 films/year"
+      },
+      {
+        "rank": 17,
+        "code": "PH",
+        "value": "~125 films/year"
+      },
+      {
+        "rank": 18,
+        "code": "ID",
+        "value": "~120 films/year"
+      },
+      {
+        "rank": 19,
+        "code": "CA",
+        "value": "~110 films/year"
+      },
+      {
+        "rank": 20,
+        "code": "IR",
+        "value": "~100 films/year"
+      },
+      {
+        "rank": 21,
+        "code": "PL",
+        "value": "~90 films/year"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "~80 films/year"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "~75 films/year"
+      },
+      {
+        "rank": 24,
+        "code": "TH",
+        "value": "~70 films/year"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "~65 films/year"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "~60 films/year"
+      },
+      {
+        "rank": 27,
+        "code": "EG",
+        "value": "~55 films/year"
+      },
+      {
+        "rank": 28,
+        "code": "DK",
+        "value": "~50 films/year"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "~48 films/year"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "~45 films/year"
+      },
+      {
+        "rank": 31,
+        "code": "FI",
+        "value": "~42 films/year"
+      },
+      {
+        "rank": 32,
+        "code": "CH",
+        "value": "~40 films/year"
+      },
+      {
+        "rank": 33,
+        "code": "AT",
+        "value": "~38 films/year"
+      },
+      {
+        "rank": 34,
+        "code": "CO",
+        "value": "~35 films/year"
+      },
+      {
+        "rank": 35,
+        "code": "PT",
+        "value": "~32 films/year"
       }
     ]
   },
@@ -120695,7 +121430,7 @@
     "title": "Highest per-capita music streaming",
     "prompt": "Name the countries with the highest per-capita paid music streaming subscriptions.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "IFPI Global Music Report \u2014 engagement and subscription penetration",
       "url": "https://www.ifpi.org/resources/",
@@ -120765,6 +121500,71 @@
         "rank": 12,
         "code": "IE",
         "value": "~45% penetration"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "~42% penetration"
+      },
+      {
+        "rank": 14,
+        "code": "IS",
+        "value": "~40% penetration"
+      },
+      {
+        "rank": 15,
+        "code": "FR",
+        "value": "~38% penetration"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "~36% penetration"
+      },
+      {
+        "rank": 17,
+        "code": "AT",
+        "value": "~34% penetration"
+      },
+      {
+        "rank": 18,
+        "code": "CH",
+        "value": "~33% penetration"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "~30% penetration"
+      },
+      {
+        "rank": 20,
+        "code": "JP",
+        "value": "~28% penetration"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "~25% penetration"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "~22% penetration"
+      },
+      {
+        "rank": 23,
+        "code": "MX",
+        "value": "~20% penetration"
+      },
+      {
+        "rank": 24,
+        "code": "AR",
+        "value": "~18% penetration"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "~16% penetration"
       }
     ]
   },
@@ -120775,7 +121575,7 @@
     "title": "Most opera houses",
     "prompt": "Name the countries with the largest number of active opera houses and opera-producing companies.",
     "answerType": "Countries",
-    "seededDepth": 13,
+    "seededDepth": 25,
     "source": {
       "name": "Operabase \u2014 opera performance and venue database",
       "url": "https://www.operabase.com/statistics/en",
@@ -120799,7 +121599,7 @@
       {
         "rank": 3,
         "code": "US",
-        "value": "~45 opera companies"
+        "value": "~45 opera houses"
       },
       {
         "rank": 4,
@@ -120814,12 +121614,12 @@
       {
         "rank": 6,
         "code": "GB",
-        "value": "~18 opera companies"
+        "value": "~18 opera houses (tied)"
       },
       {
         "rank": 6,
         "code": "RU",
-        "value": "~18 opera houses"
+        "value": "~18 opera houses (tied)"
       },
       {
         "rank": 8,
@@ -120850,6 +121650,66 @@
         "rank": 13,
         "code": "NL",
         "value": "~7 opera houses"
+      },
+      {
+        "rank": 14,
+        "code": "SE",
+        "value": "~6 opera houses (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "BE",
+        "value": "~6 opera houses (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "FI",
+        "value": "~5 opera houses (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "RO",
+        "value": "~5 opera houses (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "UA",
+        "value": "~5 opera houses (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "DK",
+        "value": "~4 opera houses (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "~4 opera houses (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "~4 opera houses (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "~3 opera houses (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "~3 opera houses (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "~3 opera houses (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "~3 opera houses (tied)"
       }
     ]
   },
@@ -120860,7 +121720,7 @@
     "title": "Most active broadcast TV networks",
     "prompt": "Name the countries with the largest number of active licensed broadcast television networks (free-to-air and cable).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "CIA World Factbook \u2014 Media / European Audiovisual Observatory",
       "url": "https://www.cia.gov/the-world-factbook/field/media/",
@@ -120930,6 +121790,96 @@
         "rank": 12,
         "code": "MX",
         "value": "~120 networks"
+      },
+      {
+        "rank": 13,
+        "code": "CA",
+        "value": "~110 networks"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "~100 networks"
+      },
+      {
+        "rank": 15,
+        "code": "TR",
+        "value": "~95 networks"
+      },
+      {
+        "rank": 16,
+        "code": "KR",
+        "value": "~90 networks"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "~85 networks"
+      },
+      {
+        "rank": 18,
+        "code": "PL",
+        "value": "~80 networks"
+      },
+      {
+        "rank": 19,
+        "code": "ID",
+        "value": "~75 networks"
+      },
+      {
+        "rank": 20,
+        "code": "TH",
+        "value": "~70 networks"
+      },
+      {
+        "rank": 21,
+        "code": "NL",
+        "value": "~65 networks"
+      },
+      {
+        "rank": 22,
+        "code": "GR",
+        "value": "~60 networks"
+      },
+      {
+        "rank": 23,
+        "code": "UA",
+        "value": "~55 networks"
+      },
+      {
+        "rank": 24,
+        "code": "RO",
+        "value": "~50 networks"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "~48 networks"
+      },
+      {
+        "rank": 26,
+        "code": "EG",
+        "value": "~45 networks"
+      },
+      {
+        "rank": 27,
+        "code": "SE",
+        "value": "~42 networks"
+      },
+      {
+        "rank": 28,
+        "code": "PT",
+        "value": "~40 networks"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "~38 networks"
+      },
+      {
+        "rank": 30,
+        "code": "AT",
+        "value": "~35 networks"
       }
     ]
   },
@@ -120940,7 +121890,7 @@
     "title": "Most Twitch streamers in the top 500",
     "prompt": "Name the countries with the most streamers in Twitch's top 500 by average concurrent viewers.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "TwitchTracker \u2014 top channels by average viewers",
       "url": "https://twitchtracker.com/channels/viewership",
@@ -120994,7 +121944,7 @@
       {
         "rank": 8,
         "code": "GB",
-        "value": "~15 channels"
+        "value": "~15 channels (tied)"
       },
       {
         "rank": 10,
@@ -121004,12 +121954,52 @@
       {
         "rank": 10,
         "code": "PL",
-        "value": "~10 channels"
+        "value": "~10 channels (tied)"
       },
       {
         "rank": 12,
         "code": "CL",
         "value": "~8 channels"
+      },
+      {
+        "rank": 13,
+        "code": "CO",
+        "value": "~7 channels"
+      },
+      {
+        "rank": 14,
+        "code": "RU",
+        "value": "~6 channels"
+      },
+      {
+        "rank": 15,
+        "code": "IT",
+        "value": "~5 channels"
+      },
+      {
+        "rank": 15,
+        "code": "PE",
+        "value": "~5 channels (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "PT",
+        "value": "~4 channels"
+      },
+      {
+        "rank": 17,
+        "code": "JP",
+        "value": "~4 channels (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "~3 channels"
+      },
+      {
+        "rank": 19,
+        "code": "NL",
+        "value": "~3 channels (tied)"
       }
     ]
   },
@@ -123150,7 +124140,7 @@
     "title": "Most Squash World Open titles (men)",
     "prompt": "Name the countries whose players have won the most PSA Men's World Squash Championships.",
     "answerType": "Countries",
-    "seededDepth": 6,
+    "seededDepth": 7,
     "source": {
       "name": "PSA \u2014 World Championships archive",
       "url": "https://www.psaworldtour.com/tournaments/world-championships/",
@@ -123189,7 +124179,12 @@
       {
         "rank": 6,
         "code": "CA",
-        "value": "1 title"
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NZ",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -131865,7 +132860,7 @@
     "title": "States with the fewest neighbors",
     "prompt": "Name the US states that share a land border with the fewest other US states.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 50,
     "source": {
       "name": "Wikipedia \u2014 List of states and territories of the United States",
       "url": "https://en.wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States",
@@ -131889,52 +132884,242 @@
       {
         "rank": 3,
         "code": "ME",
-        "value": "1 neighbor (NH)"
+        "value": "1 neighbor"
       },
       {
         "rank": 4,
         "code": "FL",
-        "value": "2 neighbors (GA, AL)"
-      },
-      {
-        "rank": 4,
-        "code": "SC",
-        "value": "2 neighbors (NC, GA, tied)"
+        "value": "2 neighbors"
       },
       {
         "rank": 4,
         "code": "RI",
-        "value": "2 neighbors (CT, MA, tied)"
+        "value": "2 neighbors (tied)"
       },
       {
-        "rank": 7,
-        "code": "AZ",
+        "rank": 4,
+        "code": "SC",
+        "value": "2 neighbors (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "WA",
+        "value": "2 neighbors (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
         "value": "3 neighbors"
       },
       {
-        "rank": 7,
-        "code": "WA",
-        "value": "3 neighbors (tied)"
-      },
-      {
-        "rank": 7,
+        "rank": 8,
         "code": "CT",
         "value": "3 neighbors (tied)"
       },
       {
-        "rank": 7,
-        "code": "VT",
+        "rank": 8,
+        "code": "DE",
         "value": "3 neighbors (tied)"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "LA",
         "value": "3 neighbors (tied)"
       },
       {
-        "rank": 12,
+        "rank": 8,
+        "code": "MI",
+        "value": "3 neighbors (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "ND",
+        "value": "3 neighbors (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NH",
+        "value": "3 neighbors (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NJ",
+        "value": "3 neighbors (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "VT",
+        "value": "3 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "AL",
+        "value": "4 neighbors"
+      },
+      {
+        "rank": 17,
+        "code": "IN",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "KS",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "MN",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
         "code": "MS",
-        "value": "4 neighbors (LA, AR, TN, AL)"
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "MT",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "NC",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "OR",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "TX",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "WI",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "AZ",
+        "value": "5 neighbors"
+      },
+      {
+        "rank": 27,
+        "code": "GA",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "IL",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "MA",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "MD",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NM",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NV",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NY",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "OH",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "WV",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "AR",
+        "value": "6 neighbors"
+      },
+      {
+        "rank": 37,
+        "code": "IA",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "ID",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "NE",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "OK",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "PA",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "SD",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "UT",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "VA",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "WY",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "CO",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 47,
+        "code": "KY",
+        "value": "7 neighbors (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "MO",
+        "value": "8 neighbors"
+      },
+      {
+        "rank": 49,
+        "code": "TN",
+        "value": "8 neighbors (tied)"
       }
     ]
   },
@@ -132175,7 +133360,7 @@
     "title": "States with the largest wetlands area",
     "prompt": "Name the US states with the greatest total wetland acreage.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 31,
     "source": {
       "name": "US Fish & Wildlife Service \u2014 National Wetlands Inventory",
       "url": "https://www.fws.gov/program/national-wetlands-inventory",
@@ -132227,7 +133412,7 @@
         "value": "~5.3 million acres"
       },
       {
-        "rank": 9,
+        "rank": 8,
         "code": "GA",
         "value": "~5.3 million acres (tied)"
       },
@@ -132243,8 +133428,103 @@
       },
       {
         "rank": 12,
+        "code": "MS",
+        "value": "~4.0 million acres"
+      },
+      {
+        "rank": 13,
         "code": "AL",
         "value": "~3.6 million acres"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "~2.8 million acres"
+      },
+      {
+        "rank": 15,
+        "code": "ND",
+        "value": "~2.5 million acres"
+      },
+      {
+        "rank": 16,
+        "code": "NY",
+        "value": "~2.4 million acres"
+      },
+      {
+        "rank": 17,
+        "code": "NE",
+        "value": "~1.9 million acres"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "~1.8 million acres"
+      },
+      {
+        "rank": 19,
+        "code": "OR",
+        "value": "~1.4 million acres"
+      },
+      {
+        "rank": 20,
+        "code": "WY",
+        "value": "~1.2 million acres"
+      },
+      {
+        "rank": 21,
+        "code": "VA",
+        "value": "~1.1 million acres"
+      },
+      {
+        "rank": 22,
+        "code": "CO",
+        "value": "~1.0 million acres"
+      },
+      {
+        "rank": 23,
+        "code": "OK",
+        "value": "~949 thousand acres"
+      },
+      {
+        "rank": 24,
+        "code": "IL",
+        "value": "~940 thousand acres"
+      },
+      {
+        "rank": 25,
+        "code": "WA",
+        "value": "~938 thousand acres"
+      },
+      {
+        "rank": 26,
+        "code": "NJ",
+        "value": "~916 thousand acres"
+      },
+      {
+        "rank": 27,
+        "code": "MT",
+        "value": "~840 thousand acres"
+      },
+      {
+        "rank": 28,
+        "code": "TN",
+        "value": "~785 thousand acres"
+      },
+      {
+        "rank": 29,
+        "code": "MO",
+        "value": "~640 thousand acres"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "~640 thousand acres (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "KY",
+        "value": "~630 thousand acres"
       }
     ]
   },
@@ -132405,7 +133685,7 @@
     "title": "States with the highest average elevation",
     "prompt": "Name the US states with the highest average elevation above sea level.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "USGS \u2014 Elevations and Distances in the United States",
       "url": "https://pubs.usgs.gov/gip/Elevations-Distances/elvadist.html",
@@ -132463,18 +133743,213 @@
       },
       {
         "rank": 10,
+        "code": "HI",
+        "value": "3,030 ft avg"
+      },
+      {
+        "rank": 11,
         "code": "CA",
         "value": "2,900 ft avg"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "NE",
         "value": "2,600 ft avg"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "SD",
         "value": "2,200 ft avg"
+      },
+      {
+        "rank": 14,
+        "code": "KS",
+        "value": "2,000 ft avg"
+      },
+      {
+        "rank": 15,
+        "code": "ND",
+        "value": "1,900 ft avg"
+      },
+      {
+        "rank": 15,
+        "code": "AK",
+        "value": "1,900 ft avg (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "TX",
+        "value": "1,700 ft avg"
+      },
+      {
+        "rank": 17,
+        "code": "WA",
+        "value": "1,700 ft avg (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "WV",
+        "value": "1,500 ft avg"
+      },
+      {
+        "rank": 20,
+        "code": "OK",
+        "value": "1,300 ft avg"
+      },
+      {
+        "rank": 21,
+        "code": "MN",
+        "value": "1,200 ft avg"
+      },
+      {
+        "rank": 22,
+        "code": "PA",
+        "value": "1,100 ft avg"
+      },
+      {
+        "rank": 22,
+        "code": "IA",
+        "value": "1,100 ft avg (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "WI",
+        "value": "1,050 ft avg"
+      },
+      {
+        "rank": 25,
+        "code": "VT",
+        "value": "1,000 ft avg"
+      },
+      {
+        "rank": 25,
+        "code": "NH",
+        "value": "1,000 ft avg (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NY",
+        "value": "1,000 ft avg (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "VA",
+        "value": "950 ft avg"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "900 ft avg"
+      },
+      {
+        "rank": 29,
+        "code": "MI",
+        "value": "900 ft avg (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "OH",
+        "value": "850 ft avg"
+      },
+      {
+        "rank": 32,
+        "code": "MO",
+        "value": "800 ft avg"
+      },
+      {
+        "rank": 33,
+        "code": "KY",
+        "value": "750 ft avg"
+      },
+      {
+        "rank": 34,
+        "code": "NC",
+        "value": "700 ft avg"
+      },
+      {
+        "rank": 34,
+        "code": "IN",
+        "value": "700 ft avg (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "AR",
+        "value": "650 ft avg"
+      },
+      {
+        "rank": 37,
+        "code": "ME",
+        "value": "600 ft avg"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "600 ft avg (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "GA",
+        "value": "600 ft avg (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "MA",
+        "value": "500 ft avg"
+      },
+      {
+        "rank": 40,
+        "code": "AL",
+        "value": "500 ft avg (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "CT",
+        "value": "500 ft avg (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "SC",
+        "value": "350 ft avg"
+      },
+      {
+        "rank": 43,
+        "code": "MD",
+        "value": "350 ft avg (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "MS",
+        "value": "300 ft avg"
+      },
+      {
+        "rank": 46,
+        "code": "NJ",
+        "value": "250 ft avg"
+      },
+      {
+        "rank": 47,
+        "code": "RI",
+        "value": "200 ft avg"
+      },
+      {
+        "rank": 48,
+        "code": "DC",
+        "value": "150 ft avg"
+      },
+      {
+        "rank": 49,
+        "code": "LA",
+        "value": "100 ft avg"
+      },
+      {
+        "rank": 49,
+        "code": "FL",
+        "value": "100 ft avg (tied)"
+      },
+      {
+        "rank": 51,
+        "code": "DE",
+        "value": "60 ft avg"
       }
     ]
   },
@@ -132565,7 +134040,7 @@
     "title": "Wettest States (Most Annual Precipitation)",
     "prompt": "Rank the US states with the highest average annual precipitation (rain + melted snow), by statewide average.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
       "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
@@ -132635,6 +134110,201 @@
         "rank": 12,
         "code": "KY",
         "value": "48.9 in"
+      },
+      {
+        "rank": 13,
+        "code": "NJ",
+        "value": "47.9 in"
+      },
+      {
+        "rank": 13,
+        "code": "RI",
+        "value": "47.9 in (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MA",
+        "value": "47.7 in"
+      },
+      {
+        "rank": 16,
+        "code": "NY",
+        "value": "47.4 in"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "46.2 in"
+      },
+      {
+        "rank": 18,
+        "code": "WV",
+        "value": "45.2 in"
+      },
+      {
+        "rank": 19,
+        "code": "MD",
+        "value": "44.5 in"
+      },
+      {
+        "rank": 20,
+        "code": "VA",
+        "value": "43.7 in"
+      },
+      {
+        "rank": 21,
+        "code": "ME",
+        "value": "43.6 in"
+      },
+      {
+        "rank": 22,
+        "code": "NH",
+        "value": "43.4 in"
+      },
+      {
+        "rank": 23,
+        "code": "PA",
+        "value": "43.0 in"
+      },
+      {
+        "rank": 24,
+        "code": "IN",
+        "value": "42.8 in"
+      },
+      {
+        "rank": 25,
+        "code": "VT",
+        "value": "42.7 in"
+      },
+      {
+        "rank": 26,
+        "code": "MO",
+        "value": "42.6 in"
+      },
+      {
+        "rank": 27,
+        "code": "OH",
+        "value": "41.7 in"
+      },
+      {
+        "rank": 28,
+        "code": "DC",
+        "value": "40.8 in"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "39.6 in"
+      },
+      {
+        "rank": 30,
+        "code": "WA",
+        "value": "38.5 in"
+      },
+      {
+        "rank": 31,
+        "code": "OK",
+        "value": "36.5 in"
+      },
+      {
+        "rank": 32,
+        "code": "IA",
+        "value": "35.5 in"
+      },
+      {
+        "rank": 33,
+        "code": "MI",
+        "value": "34.7 in"
+      },
+      {
+        "rank": 34,
+        "code": "WI",
+        "value": "34.6 in"
+      },
+      {
+        "rank": 35,
+        "code": "MN",
+        "value": "30.7 in"
+      },
+      {
+        "rank": 36,
+        "code": "KS",
+        "value": "29.2 in"
+      },
+      {
+        "rank": 37,
+        "code": "TX",
+        "value": "28.9 in"
+      },
+      {
+        "rank": 38,
+        "code": "OR",
+        "value": "27.5 in"
+      },
+      {
+        "rank": 39,
+        "code": "NE",
+        "value": "24.0 in"
+      },
+      {
+        "rank": 40,
+        "code": "AK",
+        "value": "22.5 in"
+      },
+      {
+        "rank": 41,
+        "code": "SD",
+        "value": "22.4 in"
+      },
+      {
+        "rank": 41,
+        "code": "CA",
+        "value": "22.4 in (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ID",
+        "value": "19.9 in"
+      },
+      {
+        "rank": 44,
+        "code": "ND",
+        "value": "18.0 in"
+      },
+      {
+        "rank": 45,
+        "code": "CO",
+        "value": "15.9 in"
+      },
+      {
+        "rank": 46,
+        "code": "MT",
+        "value": "15.3 in"
+      },
+      {
+        "rank": 47,
+        "code": "NM",
+        "value": "14.6 in"
+      },
+      {
+        "rank": 48,
+        "code": "AZ",
+        "value": "13.6 in"
+      },
+      {
+        "rank": 49,
+        "code": "WY",
+        "value": "12.9 in"
+      },
+      {
+        "rank": 50,
+        "code": "UT",
+        "value": "12.2 in"
+      },
+      {
+        "rank": 51,
+        "code": "NV",
+        "value": "9.5 in"
       }
     ]
   },
@@ -132645,7 +134315,7 @@
     "title": "Driest States (Least Annual Precipitation)",
     "prompt": "Rank the US states with the lowest average annual precipitation, by statewide average.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
       "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
@@ -132713,8 +134383,203 @@
       },
       {
         "rank": 12,
+        "code": "AK",
+        "value": "22.5 in"
+      },
+      {
+        "rank": 13,
+        "code": "NE",
+        "value": "24.1 in"
+      },
+      {
+        "rank": 14,
         "code": "OR",
         "value": "27.4 in"
+      },
+      {
+        "rank": 15,
+        "code": "MN",
+        "value": "27.5 in"
+      },
+      {
+        "rank": 16,
+        "code": "KS",
+        "value": "28.9 in"
+      },
+      {
+        "rank": 17,
+        "code": "TX",
+        "value": "29.1 in"
+      },
+      {
+        "rank": 18,
+        "code": "WI",
+        "value": "32.6 in"
+      },
+      {
+        "rank": 19,
+        "code": "MI",
+        "value": "33.0 in"
+      },
+      {
+        "rank": 20,
+        "code": "IA",
+        "value": "34.0 in"
+      },
+      {
+        "rank": 21,
+        "code": "OK",
+        "value": "36.5 in"
+      },
+      {
+        "rank": 22,
+        "code": "WA",
+        "value": "38.4 in"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "39.2 in"
+      },
+      {
+        "rank": 24,
+        "code": "OH",
+        "value": "40.2 in"
+      },
+      {
+        "rank": 25,
+        "code": "DC",
+        "value": "40.8 in"
+      },
+      {
+        "rank": 26,
+        "code": "NY",
+        "value": "42.3 in"
+      },
+      {
+        "rank": 27,
+        "code": "MO",
+        "value": "42.4 in"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "42.6 in"
+      },
+      {
+        "rank": 29,
+        "code": "PA",
+        "value": "42.9 in"
+      },
+      {
+        "rank": 30,
+        "code": "VT",
+        "value": "43.0 in"
+      },
+      {
+        "rank": 31,
+        "code": "NH",
+        "value": "43.4 in"
+      },
+      {
+        "rank": 32,
+        "code": "VA",
+        "value": "44.3 in"
+      },
+      {
+        "rank": 33,
+        "code": "ME",
+        "value": "44.4 in"
+      },
+      {
+        "rank": 34,
+        "code": "MD",
+        "value": "44.5 in"
+      },
+      {
+        "rank": 35,
+        "code": "WV",
+        "value": "45.2 in"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "45.7 in"
+      },
+      {
+        "rank": 37,
+        "code": "NJ",
+        "value": "47.1 in"
+      },
+      {
+        "rank": 38,
+        "code": "RI",
+        "value": "47.9 in"
+      },
+      {
+        "rank": 39,
+        "code": "MA",
+        "value": "48.0 in"
+      },
+      {
+        "rank": 40,
+        "code": "KY",
+        "value": "48.9 in"
+      },
+      {
+        "rank": 41,
+        "code": "SC",
+        "value": "49.8 in"
+      },
+      {
+        "rank": 42,
+        "code": "CT",
+        "value": "50.3 in"
+      },
+      {
+        "rank": 43,
+        "code": "NC",
+        "value": "50.4 in"
+      },
+      {
+        "rank": 44,
+        "code": "AR",
+        "value": "50.6 in"
+      },
+      {
+        "rank": 45,
+        "code": "GA",
+        "value": "50.7 in"
+      },
+      {
+        "rank": 46,
+        "code": "TN",
+        "value": "54.2 in"
+      },
+      {
+        "rank": 47,
+        "code": "FL",
+        "value": "54.5 in"
+      },
+      {
+        "rank": 48,
+        "code": "AL",
+        "value": "58.3 in"
+      },
+      {
+        "rank": 49,
+        "code": "MS",
+        "value": "59.0 in"
+      },
+      {
+        "rank": 50,
+        "code": "LA",
+        "value": "60.1 in"
+      },
+      {
+        "rank": 51,
+        "code": "HI",
+        "value": "63.7 in"
       }
     ]
   },
@@ -132725,7 +134590,7 @@
     "title": "Most Tornadoes Per Year",
     "prompt": "Rank the US states by average number of tornadoes reported per year.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA NWS Storm Prediction Center \u2014 Annual Tornado Averages by State",
       "url": "https://www.spc.noaa.gov/wcm/",
@@ -132795,6 +134660,201 @@
         "rank": 12,
         "code": "CO",
         "value": "39/yr (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "GA",
+        "value": "34/yr"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "33/yr"
+      },
+      {
+        "rank": 15,
+        "code": "MN",
+        "value": "31/yr"
+      },
+      {
+        "rank": 16,
+        "code": "SD",
+        "value": "29/yr"
+      },
+      {
+        "rank": 17,
+        "code": "IN",
+        "value": "24/yr"
+      },
+      {
+        "rank": 18,
+        "code": "TN",
+        "value": "24/yr (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "KY",
+        "value": "23/yr"
+      },
+      {
+        "rank": 20,
+        "code": "OH",
+        "value": "22/yr"
+      },
+      {
+        "rank": 21,
+        "code": "NC",
+        "value": "20/yr"
+      },
+      {
+        "rank": 22,
+        "code": "WI",
+        "value": "20/yr (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "ND",
+        "value": "20/yr (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PA",
+        "value": "16/yr"
+      },
+      {
+        "rank": 25,
+        "code": "MI",
+        "value": "15/yr"
+      },
+      {
+        "rank": 26,
+        "code": "NM",
+        "value": "12/yr"
+      },
+      {
+        "rank": 27,
+        "code": "SC",
+        "value": "12/yr (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "VA",
+        "value": "11/yr"
+      },
+      {
+        "rank": 29,
+        "code": "NY",
+        "value": "10/yr"
+      },
+      {
+        "rank": 30,
+        "code": "WY",
+        "value": "10/yr (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "MT",
+        "value": "9/yr"
+      },
+      {
+        "rank": 32,
+        "code": "MD",
+        "value": "7/yr"
+      },
+      {
+        "rank": 33,
+        "code": "AZ",
+        "value": "5/yr"
+      },
+      {
+        "rank": 34,
+        "code": "WV",
+        "value": "5/yr (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "NJ",
+        "value": "3/yr"
+      },
+      {
+        "rank": 36,
+        "code": "ME",
+        "value": "3/yr (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "MA",
+        "value": "3/yr (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "CA",
+        "value": "3/yr (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "ID",
+        "value": "3/yr (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "UT",
+        "value": "2/yr"
+      },
+      {
+        "rank": 41,
+        "code": "CT",
+        "value": "2/yr (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "NV",
+        "value": "2/yr (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "OR",
+        "value": "2/yr (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "WA",
+        "value": "2/yr (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "NH",
+        "value": "2/yr (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "DE",
+        "value": "1/yr"
+      },
+      {
+        "rank": 47,
+        "code": "VT",
+        "value": "1/yr (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "RI",
+        "value": "1/yr (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "HI",
+        "value": "1/yr (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "AK",
+        "value": "0/yr"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "0/yr (tied)"
       }
     ]
   },
@@ -132805,7 +134865,7 @@
     "title": "Most Hurricane Landfalls (1851-2020)",
     "prompt": "Rank the US states by total number of hurricane landfalls in the historical record.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 19,
     "source": {
       "name": "NOAA NHC \u2014 Continental U.S. Hurricane Impacts/Landfalls 1851-2020",
       "url": "https://www.aoml.noaa.gov/hrd/hurdat/All_U.S._Hurricanes.html",
@@ -132875,6 +134935,41 @@
         "rank": 11,
         "code": "VA",
         "value": "12 landfalls (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "RI",
+        "value": "9 landfalls"
+      },
+      {
+        "rank": 14,
+        "code": "ME",
+        "value": "6 landfalls"
+      },
+      {
+        "rank": 15,
+        "code": "MD",
+        "value": "3 landfalls"
+      },
+      {
+        "rank": 16,
+        "code": "NJ",
+        "value": "2 landfalls"
+      },
+      {
+        "rank": 16,
+        "code": "NH",
+        "value": "2 landfalls (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "PA",
+        "value": "1 landfall"
+      },
+      {
+        "rank": 18,
+        "code": "DE",
+        "value": "1 landfall (tied)"
       }
     ]
   },
@@ -132885,7 +134980,7 @@
     "title": "Highest Recorded Temperature",
     "prompt": "Rank the US states by highest temperature ever officially recorded within their borders.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA NCEI \u2014 State Climate Extremes Committee records",
       "url": "https://www.ncei.noaa.gov/access/monitoring/scec/records",
@@ -132922,7 +135017,7 @@
         "value": "121 F"
       },
       {
-        "rank": 6,
+        "rank": 5,
         "code": "KS",
         "value": "121 F (tied)"
       },
@@ -132932,29 +135027,224 @@
         "value": "120 F"
       },
       {
-        "rank": 8,
+        "rank": 7,
         "code": "TX",
         "value": "120 F (tied)"
       },
       {
-        "rank": 9,
+        "rank": 7,
         "code": "AR",
         "value": "120 F (tied)"
       },
       {
-        "rank": 10,
+        "rank": 7,
         "code": "SD",
         "value": "120 F (tied)"
       },
       {
-        "rank": 11,
+        "rank": 7,
+        "code": "WA",
+        "value": "120 F (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "OR",
+        "value": "119 F"
+      },
+      {
+        "rank": 13,
         "code": "UT",
         "value": "118 F"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "IA",
+        "value": "118 F (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NE",
+        "value": "118 F (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MO",
+        "value": "118 F (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "ID",
+        "value": "118 F (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MT",
+        "value": "117 F"
+      },
+      {
+        "rank": 18,
+        "code": "IL",
+        "value": "117 F (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "IN",
+        "value": "116 F"
+      },
+      {
+        "rank": 21,
         "code": "CO",
         "value": "115 F"
+      },
+      {
+        "rank": 21,
+        "code": "MN",
+        "value": "115 F (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MS",
+        "value": "115 F (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "WY",
+        "value": "115 F (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "LA",
+        "value": "114 F"
+      },
+      {
+        "rank": 25,
+        "code": "KY",
+        "value": "114 F (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "WI",
+        "value": "114 F (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "SC",
+        "value": "113 F"
+      },
+      {
+        "rank": 28,
+        "code": "TN",
+        "value": "113 F (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "OH",
+        "value": "113 F (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "AL",
+        "value": "112 F"
+      },
+      {
+        "rank": 31,
+        "code": "GA",
+        "value": "112 F (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "MI",
+        "value": "112 F (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "WV",
+        "value": "112 F (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "PA",
+        "value": "111 F"
+      },
+      {
+        "rank": 36,
+        "code": "NC",
+        "value": "110 F"
+      },
+      {
+        "rank": 36,
+        "code": "VA",
+        "value": "110 F (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "110 F (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "NJ",
+        "value": "110 F (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "FL",
+        "value": "109 F"
+      },
+      {
+        "rank": 40,
+        "code": "MD",
+        "value": "109 F (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "NY",
+        "value": "108 F"
+      },
+      {
+        "rank": 43,
+        "code": "MA",
+        "value": "107 F"
+      },
+      {
+        "rank": 43,
+        "code": "VT",
+        "value": "107 F (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "CT",
+        "value": "106 F"
+      },
+      {
+        "rank": 45,
+        "code": "NH",
+        "value": "106 F (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "DC",
+        "value": "106 F (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "ME",
+        "value": "105 F"
+      },
+      {
+        "rank": 49,
+        "code": "RI",
+        "value": "104 F"
+      },
+      {
+        "rank": 50,
+        "code": "HI",
+        "value": "100 F"
+      },
+      {
+        "rank": 50,
+        "code": "AK",
+        "value": "100 F (tied)"
       }
     ]
   },
@@ -132965,7 +135255,7 @@
     "title": "Lowest Recorded Temperature",
     "prompt": "Rank the US states by lowest temperature ever officially recorded within their borders (rank 1 = coldest).",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA NCEI \u2014 State Climate Extremes Committee records",
       "url": "https://www.ncei.noaa.gov/access/monitoring/scec/records",
@@ -133007,12 +135297,12 @@
         "value": "-60 F"
       },
       {
-        "rank": 7,
+        "rank": 6,
         "code": "ND",
         "value": "-60 F (tied)"
       },
       {
-        "rank": 8,
+        "rank": 6,
         "code": "MN",
         "value": "-60 F (tied)"
       },
@@ -133028,13 +135318,208 @@
       },
       {
         "rank": 11,
+        "code": "OR",
+        "value": "-54 F"
+      },
+      {
+        "rank": 12,
+        "code": "NY",
+        "value": "-52 F"
+      },
+      {
+        "rank": 12,
+        "code": "NV",
+        "value": "-52 F (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "MI",
+        "value": "-51 F"
+      },
+      {
+        "rank": 15,
         "code": "NH",
         "value": "-50 F"
       },
       {
-        "rank": 12,
+        "rank": 15,
         "code": "ME",
         "value": "-50 F (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "VT",
+        "value": "-50 F (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NM",
+        "value": "-50 F (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "WA",
+        "value": "-48 F"
+      },
+      {
+        "rank": 20,
+        "code": "IA",
+        "value": "-47 F"
+      },
+      {
+        "rank": 20,
+        "code": "NE",
+        "value": "-47 F (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "-45 F"
+      },
+      {
+        "rank": 23,
+        "code": "PA",
+        "value": "-42 F"
+      },
+      {
+        "rank": 24,
+        "code": "MA",
+        "value": "-40 F"
+      },
+      {
+        "rank": 24,
+        "code": "KS",
+        "value": "-40 F (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MO",
+        "value": "-40 F (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "AZ",
+        "value": "-40 F (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MD",
+        "value": "-40 F (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "OH",
+        "value": "-39 F"
+      },
+      {
+        "rank": 30,
+        "code": "IL",
+        "value": "-38 F"
+      },
+      {
+        "rank": 31,
+        "code": "WV",
+        "value": "-37 F"
+      },
+      {
+        "rank": 31,
+        "code": "KY",
+        "value": "-37 F (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "IN",
+        "value": "-36 F"
+      },
+      {
+        "rank": 34,
+        "code": "NJ",
+        "value": "-34 F"
+      },
+      {
+        "rank": 34,
+        "code": "NC",
+        "value": "-34 F (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "CT",
+        "value": "-32 F"
+      },
+      {
+        "rank": 36,
+        "code": "TN",
+        "value": "-32 F (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "OK",
+        "value": "-31 F"
+      },
+      {
+        "rank": 39,
+        "code": "VA",
+        "value": "-30 F"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "-29 F"
+      },
+      {
+        "rank": 41,
+        "code": "RI",
+        "value": "-28 F"
+      },
+      {
+        "rank": 42,
+        "code": "AL",
+        "value": "-27 F"
+      },
+      {
+        "rank": 43,
+        "code": "TX",
+        "value": "-23 F"
+      },
+      {
+        "rank": 44,
+        "code": "MS",
+        "value": "-19 F"
+      },
+      {
+        "rank": 44,
+        "code": "SC",
+        "value": "-19 F (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "GA",
+        "value": "-17 F"
+      },
+      {
+        "rank": 46,
+        "code": "DE",
+        "value": "-17 F (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "LA",
+        "value": "-16 F"
+      },
+      {
+        "rank": 49,
+        "code": "DC",
+        "value": "-15 F"
+      },
+      {
+        "rank": 50,
+        "code": "FL",
+        "value": "-2 F"
+      },
+      {
+        "rank": 51,
+        "code": "HI",
+        "value": "12 F"
       }
     ]
   },
@@ -133045,7 +135530,7 @@
     "title": "Most Sunshine Hours Per Year",
     "prompt": "Rank the US states by average annual sunshine hours (statewide average).",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Hours of Sunshine",
       "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
@@ -133115,6 +135600,201 @@
         "rank": 12,
         "code": "WY",
         "value": "2,810 hrs/yr"
+      },
+      {
+        "rank": 13,
+        "code": "MT",
+        "value": "2,700 hrs/yr"
+      },
+      {
+        "rank": 14,
+        "code": "SD",
+        "value": "2,680 hrs/yr"
+      },
+      {
+        "rank": 15,
+        "code": "GA",
+        "value": "2,634 hrs/yr"
+      },
+      {
+        "rank": 16,
+        "code": "NE",
+        "value": "2,614 hrs/yr"
+      },
+      {
+        "rank": 17,
+        "code": "AR",
+        "value": "2,590 hrs/yr"
+      },
+      {
+        "rank": 18,
+        "code": "AL",
+        "value": "2,570 hrs/yr"
+      },
+      {
+        "rank": 19,
+        "code": "SC",
+        "value": "2,565 hrs/yr"
+      },
+      {
+        "rank": 20,
+        "code": "MS",
+        "value": "2,540 hrs/yr"
+      },
+      {
+        "rank": 21,
+        "code": "LA",
+        "value": "2,500 hrs/yr"
+      },
+      {
+        "rank": 22,
+        "code": "NC",
+        "value": "2,490 hrs/yr"
+      },
+      {
+        "rank": 23,
+        "code": "ND",
+        "value": "2,480 hrs/yr"
+      },
+      {
+        "rank": 24,
+        "code": "VA",
+        "value": "2,470 hrs/yr"
+      },
+      {
+        "rank": 25,
+        "code": "IA",
+        "value": "2,460 hrs/yr"
+      },
+      {
+        "rank": 26,
+        "code": "TN",
+        "value": "2,440 hrs/yr"
+      },
+      {
+        "rank": 27,
+        "code": "MN",
+        "value": "2,430 hrs/yr"
+      },
+      {
+        "rank": 28,
+        "code": "MO",
+        "value": "2,420 hrs/yr"
+      },
+      {
+        "rank": 29,
+        "code": "ID",
+        "value": "2,400 hrs/yr"
+      },
+      {
+        "rank": 30,
+        "code": "IL",
+        "value": "2,380 hrs/yr"
+      },
+      {
+        "rank": 31,
+        "code": "DE",
+        "value": "2,370 hrs/yr"
+      },
+      {
+        "rank": 32,
+        "code": "MD",
+        "value": "2,360 hrs/yr"
+      },
+      {
+        "rank": 33,
+        "code": "NJ",
+        "value": "2,350 hrs/yr"
+      },
+      {
+        "rank": 34,
+        "code": "KY",
+        "value": "2,330 hrs/yr"
+      },
+      {
+        "rank": 35,
+        "code": "WI",
+        "value": "2,320 hrs/yr"
+      },
+      {
+        "rank": 36,
+        "code": "IN",
+        "value": "2,310 hrs/yr"
+      },
+      {
+        "rank": 37,
+        "code": "DC",
+        "value": "2,300 hrs/yr"
+      },
+      {
+        "rank": 38,
+        "code": "CT",
+        "value": "2,280 hrs/yr"
+      },
+      {
+        "rank": 39,
+        "code": "MA",
+        "value": "2,270 hrs/yr"
+      },
+      {
+        "rank": 40,
+        "code": "RI",
+        "value": "2,260 hrs/yr"
+      },
+      {
+        "rank": 41,
+        "code": "NY",
+        "value": "2,220 hrs/yr"
+      },
+      {
+        "rank": 42,
+        "code": "OH",
+        "value": "2,180 hrs/yr"
+      },
+      {
+        "rank": 43,
+        "code": "PA",
+        "value": "2,150 hrs/yr"
+      },
+      {
+        "rank": 44,
+        "code": "WV",
+        "value": "2,120 hrs/yr"
+      },
+      {
+        "rank": 45,
+        "code": "NH",
+        "value": "2,100 hrs/yr"
+      },
+      {
+        "rank": 46,
+        "code": "ME",
+        "value": "2,090 hrs/yr"
+      },
+      {
+        "rank": 47,
+        "code": "MI",
+        "value": "2,050 hrs/yr"
+      },
+      {
+        "rank": 48,
+        "code": "VT",
+        "value": "2,030 hrs/yr"
+      },
+      {
+        "rank": 49,
+        "code": "OR",
+        "value": "1,980 hrs/yr"
+      },
+      {
+        "rank": 50,
+        "code": "WA",
+        "value": "1,920 hrs/yr"
+      },
+      {
+        "rank": 51,
+        "code": "AK",
+        "value": "1,845 hrs/yr"
       }
     ]
   },
@@ -133125,7 +135805,7 @@
     "title": "Cloudiest States (Fewest Sunny Days)",
     "prompt": "Rank the US states by cloudiest skies \u2014 states with the fewest average clear or sunny days per year (rank 1 = cloudiest).",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Clear Days",
       "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
@@ -133195,6 +135875,201 @@
         "rank": 12,
         "code": "ME",
         "value": "185 cloudy days/yr"
+      },
+      {
+        "rank": 13,
+        "code": "WI",
+        "value": "184 cloudy days/yr"
+      },
+      {
+        "rank": 14,
+        "code": "MA",
+        "value": "180 cloudy days/yr"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "178 cloudy days/yr"
+      },
+      {
+        "rank": 16,
+        "code": "CT",
+        "value": "175 cloudy days/yr"
+      },
+      {
+        "rank": 17,
+        "code": "RI",
+        "value": "173 cloudy days/yr"
+      },
+      {
+        "rank": 18,
+        "code": "NJ",
+        "value": "170 cloudy days/yr"
+      },
+      {
+        "rank": 19,
+        "code": "MN",
+        "value": "168 cloudy days/yr"
+      },
+      {
+        "rank": 20,
+        "code": "KY",
+        "value": "165 cloudy days/yr"
+      },
+      {
+        "rank": 21,
+        "code": "MD",
+        "value": "162 cloudy days/yr"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "160 cloudy days/yr"
+      },
+      {
+        "rank": 23,
+        "code": "IA",
+        "value": "158 cloudy days/yr"
+      },
+      {
+        "rank": 24,
+        "code": "MO",
+        "value": "156 cloudy days/yr"
+      },
+      {
+        "rank": 25,
+        "code": "TN",
+        "value": "154 cloudy days/yr"
+      },
+      {
+        "rank": 26,
+        "code": "DC",
+        "value": "152 cloudy days/yr"
+      },
+      {
+        "rank": 27,
+        "code": "VA",
+        "value": "150 cloudy days/yr"
+      },
+      {
+        "rank": 28,
+        "code": "NC",
+        "value": "148 cloudy days/yr"
+      },
+      {
+        "rank": 29,
+        "code": "ND",
+        "value": "146 cloudy days/yr"
+      },
+      {
+        "rank": 30,
+        "code": "AR",
+        "value": "144 cloudy days/yr"
+      },
+      {
+        "rank": 31,
+        "code": "SD",
+        "value": "142 cloudy days/yr"
+      },
+      {
+        "rank": 32,
+        "code": "ID",
+        "value": "140 cloudy days/yr"
+      },
+      {
+        "rank": 33,
+        "code": "MS",
+        "value": "138 cloudy days/yr"
+      },
+      {
+        "rank": 34,
+        "code": "SC",
+        "value": "136 cloudy days/yr"
+      },
+      {
+        "rank": 35,
+        "code": "GA",
+        "value": "134 cloudy days/yr"
+      },
+      {
+        "rank": 36,
+        "code": "AL",
+        "value": "132 cloudy days/yr"
+      },
+      {
+        "rank": 37,
+        "code": "LA",
+        "value": "130 cloudy days/yr"
+      },
+      {
+        "rank": 38,
+        "code": "MT",
+        "value": "128 cloudy days/yr"
+      },
+      {
+        "rank": 39,
+        "code": "KS",
+        "value": "125 cloudy days/yr"
+      },
+      {
+        "rank": 40,
+        "code": "NE",
+        "value": "122 cloudy days/yr"
+      },
+      {
+        "rank": 41,
+        "code": "OK",
+        "value": "118 cloudy days/yr"
+      },
+      {
+        "rank": 42,
+        "code": "WY",
+        "value": "115 cloudy days/yr"
+      },
+      {
+        "rank": 43,
+        "code": "FL",
+        "value": "110 cloudy days/yr"
+      },
+      {
+        "rank": 44,
+        "code": "TX",
+        "value": "108 cloudy days/yr"
+      },
+      {
+        "rank": 45,
+        "code": "HI",
+        "value": "100 cloudy days/yr"
+      },
+      {
+        "rank": 46,
+        "code": "UT",
+        "value": "95 cloudy days/yr"
+      },
+      {
+        "rank": 47,
+        "code": "CO",
+        "value": "90 cloudy days/yr"
+      },
+      {
+        "rank": 48,
+        "code": "CA",
+        "value": "85 cloudy days/yr"
+      },
+      {
+        "rank": 49,
+        "code": "NM",
+        "value": "80 cloudy days/yr"
+      },
+      {
+        "rank": 50,
+        "code": "NV",
+        "value": "75 cloudy days/yr"
+      },
+      {
+        "rank": 51,
+        "code": "AZ",
+        "value": "65 cloudy days/yr"
       }
     ]
   },
@@ -133205,7 +136080,7 @@
     "title": "Most Days Above 90\u00b0F Per Year",
     "prompt": "Rank the US states by average number of days per year with a maximum temperature at or above 90\u00b0F.",
     "answerType": "US States",
-    "seededDepth": 12,
+    "seededDepth": 51,
     "source": {
       "name": "NOAA NCEI \u2014 Comparative Climatic Data, Mean Number of Days Maximum Temperature >= 90\u00b0F",
       "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
@@ -133275,6 +136150,201 @@
         "rank": 12,
         "code": "NV",
         "value": "65 days/yr"
+      },
+      {
+        "rank": 13,
+        "code": "KS",
+        "value": "62 days/yr"
+      },
+      {
+        "rank": 14,
+        "code": "UT",
+        "value": "56 days/yr"
+      },
+      {
+        "rank": 15,
+        "code": "NC",
+        "value": "55 days/yr"
+      },
+      {
+        "rank": 16,
+        "code": "TN",
+        "value": "50 days/yr"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "50 days/yr (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MO",
+        "value": "48 days/yr"
+      },
+      {
+        "rank": 19,
+        "code": "VA",
+        "value": "42 days/yr"
+      },
+      {
+        "rank": 20,
+        "code": "CO",
+        "value": "40 days/yr"
+      },
+      {
+        "rank": 21,
+        "code": "KY",
+        "value": "38 days/yr"
+      },
+      {
+        "rank": 22,
+        "code": "DC",
+        "value": "37 days/yr"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "35 days/yr"
+      },
+      {
+        "rank": 24,
+        "code": "NE",
+        "value": "34 days/yr"
+      },
+      {
+        "rank": 25,
+        "code": "MD",
+        "value": "33 days/yr"
+      },
+      {
+        "rank": 26,
+        "code": "DE",
+        "value": "30 days/yr"
+      },
+      {
+        "rank": 27,
+        "code": "SD",
+        "value": "28 days/yr"
+      },
+      {
+        "rank": 28,
+        "code": "IA",
+        "value": "26 days/yr"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "24 days/yr"
+      },
+      {
+        "rank": 30,
+        "code": "NJ",
+        "value": "22 days/yr"
+      },
+      {
+        "rank": 31,
+        "code": "WV",
+        "value": "20 days/yr"
+      },
+      {
+        "rank": 32,
+        "code": "OH",
+        "value": "18 days/yr"
+      },
+      {
+        "rank": 33,
+        "code": "PA",
+        "value": "16 days/yr"
+      },
+      {
+        "rank": 34,
+        "code": "ND",
+        "value": "15 days/yr"
+      },
+      {
+        "rank": 35,
+        "code": "WY",
+        "value": "14 days/yr"
+      },
+      {
+        "rank": 36,
+        "code": "MT",
+        "value": "12 days/yr"
+      },
+      {
+        "rank": 36,
+        "code": "ID",
+        "value": "12 days/yr (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "CT",
+        "value": "10 days/yr"
+      },
+      {
+        "rank": 39,
+        "code": "NY",
+        "value": "9 days/yr"
+      },
+      {
+        "rank": 40,
+        "code": "WI",
+        "value": "8 days/yr"
+      },
+      {
+        "rank": 40,
+        "code": "MN",
+        "value": "8 days/yr (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "MI",
+        "value": "7 days/yr"
+      },
+      {
+        "rank": 43,
+        "code": "MA",
+        "value": "6 days/yr"
+      },
+      {
+        "rank": 44,
+        "code": "RI",
+        "value": "5 days/yr"
+      },
+      {
+        "rank": 44,
+        "code": "OR",
+        "value": "5 days/yr (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "NH",
+        "value": "4 days/yr"
+      },
+      {
+        "rank": 47,
+        "code": "ME",
+        "value": "3 days/yr"
+      },
+      {
+        "rank": 47,
+        "code": "VT",
+        "value": "3 days/yr (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "WA",
+        "value": "3 days/yr (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "AK",
+        "value": "0 days/yr"
+      },
+      {
+        "rank": 50,
+        "code": "HI",
+        "value": "0 days/yr (tied)"
       }
     ]
   },
@@ -134730,7 +137800,7 @@
     "title": "States Bordering Canada",
     "prompt": "Name the US states that share a land or water border with Canada.",
     "answerType": "US States",
-    "seededDepth": 10,
+    "seededDepth": 13,
     "source": {
       "name": "US Census Bureau \u2014 State boundary data / International Boundary Commission",
       "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html",
@@ -134790,6 +137860,21 @@
         "rank": 10,
         "code": "ID",
         "value": "45 mi border"
+      },
+      {
+        "rank": 11,
+        "code": "MI",
+        "value": "721 mi border (Great Lakes water border)"
+      },
+      {
+        "rank": 12,
+        "code": "OH",
+        "value": "146 mi border (Lake Erie water border)"
+      },
+      {
+        "rank": 13,
+        "code": "PA",
+        "value": "42 mi border (Lake Erie water border)"
       }
     ]
   },
@@ -137280,7 +140365,7 @@
     "title": "Countries in the Congo River basin",
     "prompt": "Name the countries that contain the largest shares of the Congo River drainage basin (by drainage area within borders).",
     "answerType": "Countries",
-    "seededDepth": 9,
+    "seededDepth": 10,
     "source": {
       "name": "Wikipedia / Congo River basin (referencing GRDC and CICOS basin data)",
       "url": "https://en.wikipedia.org/wiki/Congo_River",
@@ -137335,6 +140420,11 @@
         "rank": 9,
         "code": "RW",
         "value": "5,000 km\u00b2"
+      },
+      {
+        "rank": 10,
+        "code": "BI",
+        "value": "3,700 km\u00b2"
       }
     ]
   },
