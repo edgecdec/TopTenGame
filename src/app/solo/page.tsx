@@ -32,13 +32,32 @@ const MODE_DESC: Record<ScoringMode, string> = {
   flat: "Every correct answer scores 1 point",
 };
 
+const VALID_MODES: ScoringMode[] = ["rank", "inverse", "flat"];
+
 function SoloInner() {
   const router = useRouter();
   const search = useSearchParams();
   const [name, setName] = useState(search.get("name") || "");
   const [themes, setThemes] = useState<ThemeInfo[]>([]);
-  const [theme, setTheme] = useState<string>(ALL_THEME);
-  const [mode, setMode] = useState<ScoringMode>("rank");
+  // Read initial mode/theme from URL params first, then localStorage, then defaults.
+  const [theme, setTheme] = useState<string>(() => {
+    const urlTheme = search.get("theme");
+    if (urlTheme) return urlTheme;
+    if (typeof window !== "undefined") {
+      const cached = localStorage.getItem("topten_last_theme");
+      if (cached) return cached;
+    }
+    return ALL_THEME;
+  });
+  const [mode, setMode] = useState<ScoringMode>(() => {
+    const urlMode = search.get("mode");
+    if (urlMode && VALID_MODES.includes(urlMode as ScoringMode)) return urlMode as ScoringMode;
+    if (typeof window !== "undefined") {
+      const cached = localStorage.getItem("topten_last_mode");
+      if (cached && VALID_MODES.includes(cached as ScoringMode)) return cached as ScoringMode;
+    }
+    return "rank";
+  });
   const [error, setError] = useState<string | null>(null);
   const [starting, setStarting] = useState(false);
 
@@ -65,6 +84,9 @@ function SoloInner() {
     if (!name.trim()) return;
     setStarting(true);
     setError(null);
+    // Remember this pair for next time (Play Again + returning visits).
+    localStorage.setItem("topten_last_mode", mode);
+    localStorage.setItem("topten_last_theme", theme);
     try {
       const res = await fetch("/api/solo/start", {
         method: "POST",
@@ -84,6 +106,16 @@ function SoloInner() {
       setStarting(false);
     }
   };
+
+  // Auto-start when caller passes ?auto=1 (results page Play Again path).
+  const autoStart = search.get("auto") === "1";
+  useEffect(() => {
+    if (!autoStart) return;
+    if (!name.trim()) return;
+    if (starting) return;
+    start();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [autoStart, name]);
 
   return (
     <Container maxWidth="sm" sx={{ py: 6 }}>

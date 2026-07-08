@@ -54,9 +54,33 @@ export default function ResultsPage({ params }: { params: Promise<{ sid: string 
             {state.displayName} · {state.totalQuestions} questions
           </Typography>
         </Box>
-        <Stack direction="row" spacing={2} justifyContent="center">
-          <Button variant="contained" onClick={() => router.push(`/solo?name=${encodeURIComponent(state.displayName)}`)}>
+        <Stack direction="row" spacing={2} justifyContent="center" flexWrap="wrap">
+          <Button
+            variant="contained"
+            onClick={() => {
+              const p = new URLSearchParams({
+                name: state.displayName,
+                mode: state.mode,
+                theme: state.theme,
+                auto: "1",
+              });
+              router.push(`/solo?${p.toString()}`);
+            }}
+          >
             Play again
+          </Button>
+          <Button
+            variant="outlined"
+            onClick={() => {
+              const p = new URLSearchParams({
+                name: state.displayName,
+                mode: state.mode,
+                theme: state.theme,
+              });
+              router.push(`/solo?${p.toString()}`);
+            }}
+          >
+            Change settings
           </Button>
           <Button variant="outlined" onClick={() => router.push(`/leaderboard?mode=${state.mode}&theme=${encodeURIComponent(state.theme)}`)}>
             Full leaderboard
