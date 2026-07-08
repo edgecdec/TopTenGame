@@ -86,6 +86,12 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
         setState(s);
         if (s.finished) {
           router.replace(`/solo/results/${sid}`);
+          return;
+        }
+        // Mid-intermission on load: server has lastResult but hasn't started
+        // the next question's timer yet — restore the intermission view.
+        if (s.lastResult && s.currentQuestion && !s.currentQuestion.endsAt) {
+          setShowIntermission(true);
         }
       })
       .catch(() => setError("Session not found."));
@@ -135,11 +141,24 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
     doSubmit(pick?.code ?? null);
   }, [now, state, showIntermission, pick, doSubmit]);
 
-  const advance = useCallback(() => {
-    setShowIntermission(false);
-    if (state?.finished) {
+  const advance = useCallback(async () => {
+    if (!state) return;
+    if (state.finished) {
       router.push(`/solo/results/${sid}`);
+      return;
     }
+    // Start the next round's timer server-side before flipping out of intermission.
+    try {
+      const res = await fetch(`/api/solo/${sid}/start-round`, { method: "POST" });
+      if (res.ok) {
+        const next: SoloState = await res.json();
+        setState(next);
+      }
+    } catch {
+      /* keep existing state; setShowIntermission still flips */
+    }
+    autoSubmittedFor.current = null;
+    setShowIntermission(false);
   }, [state, sid, router]);
 
   if (error) {

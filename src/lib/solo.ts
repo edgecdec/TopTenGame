@@ -244,13 +244,15 @@ export function submitPick(sessionId: string, userId: string, pick: string | nul
   const nextIdx = s.current_idx + 1;
   const nextScore = s.score + points;
   const isDone = nextIdx >= ids.length;
-  const nextEndsAt = isDone ? null : now + SOLO_SECONDS_PER_QUESTION * 1000;
 
+  // Do NOT start the next round's timer here — the player is now on the
+  // intermission and the timer must only start when they click Next.
+  // startRound() handles that transition.
   getDb()
     .prepare(
-      `UPDATE solo_sessions SET picks = ?, current_idx = ?, score = ?, question_ends_at = ?, finished = ? WHERE id = ?`
+      `UPDATE solo_sessions SET picks = ?, current_idx = ?, score = ?, question_ends_at = NULL, finished = ? WHERE id = ?`
     )
-    .run(JSON.stringify(picks), nextIdx, nextScore, nextEndsAt, isDone ? 1 : 0, sessionId);
+    .run(JSON.stringify(picks), nextIdx, nextScore, isDone ? 1 : 0, sessionId);
 
   if (isDone) {
     getDb()
@@ -261,6 +263,20 @@ export function submitPick(sessionId: string, userId: string, pick: string | nul
       .run(sessionId, userId, s.display_name, s.mode, s.theme, nextScore, now);
   }
 
+  return getState(sessionId, userId);
+}
+
+export function startRound(sessionId: string, userId: string): SoloClientState | null {
+  const s = loadSession(sessionId);
+  if (!s || s.user_id !== userId) return null;
+  if (s.finished) return getState(sessionId, userId);
+  // Idempotent: if a timer is already set and not expired, don't reset it.
+  const now = Date.now();
+  if (!s.question_ends_at || s.question_ends_at < now) {
+    getDb()
+      .prepare("UPDATE solo_sessions SET question_ends_at = ? WHERE id = ?")
+      .run(now + SOLO_SECONDS_PER_QUESTION * 1000, sessionId);
+  }
   return getState(sessionId, userId);
 }
 
