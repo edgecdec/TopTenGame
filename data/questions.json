@@ -159042,5 +159042,1290 @@
         "value": "3,300 miles"
       }
     ]
+  },
+  {
+    "id": "us-states-geography-most-national-historic-landmarks-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most National Historic Landmarks",
+    "prompt": "Name the US states with the most designated National Historic Landmarks.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "National Park Service \u2014 National Historic Landmarks Program (per-state totals compiled on Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_National_Historic_Landmarks_by_state",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Landmarks that span more than one state are counted once for each state they touch, so state totals include a small amount of double-counting.",
+    "trivia": "New York's tally is dominated by New York City alone, which contains more NHLs than most entire states.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NY",
+        "value": "277 landmarks"
+      },
+      {
+        "rank": 2,
+        "code": "MA",
+        "value": "192 landmarks"
+      },
+      {
+        "rank": 3,
+        "code": "PA",
+        "value": "169 landmarks"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "148 landmarks"
+      },
+      {
+        "rank": 5,
+        "code": "VA",
+        "value": "126 landmarks"
+      },
+      {
+        "rank": 6,
+        "code": "IL",
+        "value": "88 landmarks"
+      },
+      {
+        "rank": 7,
+        "code": "MD",
+        "value": "76 landmarks"
+      },
+      {
+        "rank": 7,
+        "code": "OH",
+        "value": "76 landmarks (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "SC",
+        "value": "76 landmarks (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "CT",
+        "value": "65 landmarks"
+      },
+      {
+        "rank": 11,
+        "code": "NJ",
+        "value": "58 landmarks"
+      },
+      {
+        "rank": 12,
+        "code": "LA",
+        "value": "54 landmarks"
+      },
+      {
+        "rank": 13,
+        "code": "AK",
+        "value": "50 landmarks"
+      },
+      {
+        "rank": 13,
+        "code": "TX",
+        "value": "50 landmarks (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "GA",
+        "value": "49 landmarks"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-national-natural-landmarks-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most National Natural Landmarks",
+    "prompt": "Name the US states with the most designated National Natural Landmarks.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "National Park Service \u2014 National Natural Landmarks Program (per-state totals on Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_National_Natural_Landmarks",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "A handful of landmarks span two states and are counted for each state they touch.",
+    "trivia": "The NNL program, established in 1962, honors geologic and biologic features of national significance \u2014 separate from historic-landmark designations.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "37 landmarks"
+      },
+      {
+        "rank": 2,
+        "code": "IN",
+        "value": "30 landmarks"
+      },
+      {
+        "rank": 3,
+        "code": "NY",
+        "value": "29 landmarks"
+      },
+      {
+        "rank": 4,
+        "code": "PA",
+        "value": "27 landmarks"
+      },
+      {
+        "rank": 5,
+        "code": "OH",
+        "value": "23 landmarks"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "21 landmarks"
+      },
+      {
+        "rank": 7,
+        "code": "FL",
+        "value": "18 landmarks"
+      },
+      {
+        "rank": 7,
+        "code": "IL",
+        "value": "18 landmarks (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "WA",
+        "value": "18 landmarks (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "WI",
+        "value": "18 landmarks (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "CO",
+        "value": "17 landmarks"
+      },
+      {
+        "rank": 12,
+        "code": "AK",
+        "value": "16 landmarks"
+      },
+      {
+        "rank": 12,
+        "code": "MO",
+        "value": "16 landmarks (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "WV",
+        "value": "16 landmarks (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "ME",
+        "value": "14 landmarks"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-highest-peak-inside-a-national-park-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Highest Peak Inside a National Park",
+    "prompt": "Rank US states by the elevation of the highest named summit located inside a National Park within the state.",
+    "answerType": "US States",
+    "seededDepth": 13,
+    "source": {
+      "name": "National Park Service \u2014 park summit data (elevations from USGS and NPS park pages)",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Only formally designated National Parks are counted (not National Monuments, Preserves, or Recreation Areas). Multi-state parks are credited to the state where the highest in-park summit lies.",
+    "trivia": "Denali is more than 5,500 feet taller than any peak in any other US national park.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "20,310 ft (Denali)"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "14,505 ft (Mount Whitney, Sequoia NP)"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "14,411 ft (Mount Rainier)"
+      },
+      {
+        "rank": 4,
+        "code": "CO",
+        "value": "14,259 ft (Longs Peak, Rocky Mountain NP)"
+      },
+      {
+        "rank": 5,
+        "code": "WY",
+        "value": "13,775 ft (Grand Teton)"
+      },
+      {
+        "rank": 6,
+        "code": "HI",
+        "value": "13,679 ft (Mauna Loa, Hawaii Volcanoes NP)"
+      },
+      {
+        "rank": 7,
+        "code": "NV",
+        "value": "13,065 ft (Wheeler Peak, Great Basin NP)"
+      },
+      {
+        "rank": 8,
+        "code": "MT",
+        "value": "10,466 ft (Mount Cleveland, Glacier NP)"
+      },
+      {
+        "rank": 9,
+        "code": "OR",
+        "value": "8,929 ft (Mount Scott, Crater Lake NP)"
+      },
+      {
+        "rank": 10,
+        "code": "AZ",
+        "value": "8,803 ft (Point Imperial, Grand Canyon NP)"
+      },
+      {
+        "rank": 11,
+        "code": "TX",
+        "value": "8,751 ft (Guadalupe Peak)"
+      },
+      {
+        "rank": 12,
+        "code": "UT",
+        "value": "8,733 ft (Horse Ranch Mountain, Zion NP)"
+      },
+      {
+        "rank": 13,
+        "code": "TN",
+        "value": "6,643 ft (Clingmans Dome, Great Smoky Mountains NP)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-fully-in-state-lake-by-surface-area-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest Fully In-State Lake by Surface Area",
+    "prompt": "Name the US states with the largest single lake located entirely within the state's borders (by surface area).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of largest lakes of the United States by area (compiled from USGS and state sources)",
+      "url": "https://en.wikipedia.org/wiki/List_of_largest_lakes_of_the_United_States_by_area",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Excludes lakes that cross state or international borders (Great Lakes, Lake Champlain, Lake Tahoe, Lake Powell, Kentucky Lake, Toledo Bend, Lake Mead, etc.). Great Salt Lake and Salton Sea are included despite being saline.",
+    "trivia": "Iliamna Lake in Alaska is by far the largest lake fully within any US state; the next-largest, Utah's Great Salt Lake, is only about the size of Rhode Island.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "1,014 sq mi (Iliamna Lake)"
+      },
+      {
+        "rank": 2,
+        "code": "UT",
+        "value": "950 sq mi (Great Salt Lake)"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "730 sq mi (Lake Okeechobee)"
+      },
+      {
+        "rank": 4,
+        "code": "LA",
+        "value": "631 sq mi (Lake Pontchartrain)"
+      },
+      {
+        "rank": 5,
+        "code": "ND",
+        "value": "520 sq mi (Lake Sakakawea)"
+      },
+      {
+        "rank": 6,
+        "code": "MN",
+        "value": "427 sq mi (Red Lake)"
+      },
+      {
+        "rank": 7,
+        "code": "MT",
+        "value": "393 sq mi (Fort Peck Lake)"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "347 sq mi (Salton Sea)"
+      },
+      {
+        "rank": 9,
+        "code": "WI",
+        "value": "215 sq mi (Lake Winnebago)"
+      },
+      {
+        "rank": 10,
+        "code": "NV",
+        "value": "183 sq mi (Pyramid Lake)"
+      },
+      {
+        "rank": 11,
+        "code": "TX",
+        "value": "179 sq mi (Sam Rayburn Reservoir)"
+      },
+      {
+        "rank": 12,
+        "code": "OK",
+        "value": "169 sq mi (Eufaula Lake)"
+      },
+      {
+        "rank": 13,
+        "code": "SC",
+        "value": "165 sq mi (Lake Marion)"
+      },
+      {
+        "rank": 14,
+        "code": "MS",
+        "value": "153 sq mi (Sardis Lake)"
+      },
+      {
+        "rank": 15,
+        "code": "SD",
+        "value": "149 sq mi (Lake Francis Case)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-highest-forest-cover-percentage-2016",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Highest Forest Cover Percentage",
+    "prompt": "Rank US states by percent of the state's land area covered by forest.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "USDA Forest Service \u2014 Forest Inventory and Analysis (FIA) 2016 Business Report",
+      "url": "https://en.wikipedia.org/wiki/Forest_cover_by_state_and_territory_in_the_United_States",
+      "asOf": "2016 FIA report"
+    },
+    "note": null,
+    "disclaimer": "Percent forested is computed on land area only (excluding inland water). US territories such as American Samoa are excluded from this state-only ranking.",
+    "trivia": "Only two US states are more than 80% forested \u2014 both are in northern New England.",
+    "asOfDate": "2016 FIA report",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ME",
+        "value": "89.5% forested"
+      },
+      {
+        "rank": 2,
+        "code": "NH",
+        "value": "84.3% forested"
+      },
+      {
+        "rank": 3,
+        "code": "WV",
+        "value": "79.0% forested"
+      },
+      {
+        "rank": 4,
+        "code": "VT",
+        "value": "77.8% forested"
+      },
+      {
+        "rank": 5,
+        "code": "AL",
+        "value": "70.6% forested"
+      },
+      {
+        "rank": 6,
+        "code": "SC",
+        "value": "68.2% forested"
+      },
+      {
+        "rank": 7,
+        "code": "GA",
+        "value": "67.3% forested"
+      },
+      {
+        "rank": 8,
+        "code": "MS",
+        "value": "65.1% forested"
+      },
+      {
+        "rank": 9,
+        "code": "VA",
+        "value": "62.9% forested"
+      },
+      {
+        "rank": 10,
+        "code": "NY",
+        "value": "62.9% forested (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "MA",
+        "value": "60.6% forested"
+      },
+      {
+        "rank": 12,
+        "code": "NC",
+        "value": "59.7% forested"
+      },
+      {
+        "rank": 13,
+        "code": "PA",
+        "value": "58.6% forested"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "56.3% forested"
+      },
+      {
+        "rank": 15,
+        "code": "MI",
+        "value": "55.6% forested"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-counties-or-county-equivalents-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Counties or County Equivalents",
+    "prompt": "Name the US states with the most counties (or county-equivalent divisions such as parishes and independent cities).",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Census Bureau \u2014 Counties and County Equivalents (via Wikipedia list)",
+      "url": "https://en.wikipedia.org/wiki/List_of_United_States_counties_and_county_equivalents",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "County-equivalent divisions (parishes, boroughs, and independent cities) are counted alongside counties. States that combine a county and an independent city count both.",
+    "trivia": "Texas leads with 254 counties, more than 90 ahead of runner-up Georgia; Delaware, Hawaii, and Rhode Island each have fewer than six.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "254 counties"
+      },
+      {
+        "rank": 2,
+        "code": "GA",
+        "value": "159 counties"
+      },
+      {
+        "rank": 3,
+        "code": "VA",
+        "value": "133 county-equivalents"
+      },
+      {
+        "rank": 4,
+        "code": "KY",
+        "value": "120 counties"
+      },
+      {
+        "rank": 5,
+        "code": "MO",
+        "value": "115 county-equivalents"
+      },
+      {
+        "rank": 6,
+        "code": "KS",
+        "value": "105 counties"
+      },
+      {
+        "rank": 7,
+        "code": "IL",
+        "value": "102 counties"
+      },
+      {
+        "rank": 8,
+        "code": "NC",
+        "value": "100 counties"
+      },
+      {
+        "rank": 9,
+        "code": "IA",
+        "value": "99 counties"
+      },
+      {
+        "rank": 10,
+        "code": "TN",
+        "value": "95 counties"
+      },
+      {
+        "rank": 11,
+        "code": "NE",
+        "value": "93 counties"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "92 counties"
+      },
+      {
+        "rank": 13,
+        "code": "OH",
+        "value": "88 counties"
+      },
+      {
+        "rank": 14,
+        "code": "MN",
+        "value": "87 counties"
+      },
+      {
+        "rank": 15,
+        "code": "MI",
+        "value": "83 counties"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-greatest-elevation-range-within-a-state-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Greatest Elevation Range Within a State",
+    "prompt": "Rank US states by the difference between the state's highest point and its lowest point.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "USGS \u2014 state high-point and low-point data (compiled on Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_by_elevation",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Range equals the state high point minus the state low point. States with sub-sea-level low points get a small boost in range from the negative minimum.",
+    "trivia": "Alaska's range spans from sea level all the way to Denali's 20,310-foot summit \u2014 the greatest elevation range of any US state.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "20,310 ft range"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "14,787 ft range"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "14,400 ft range"
+      },
+      {
+        "rank": 4,
+        "code": "HI",
+        "value": "13,803 ft range"
+      },
+      {
+        "rank": 5,
+        "code": "NV",
+        "value": "12,668 ft range"
+      },
+      {
+        "rank": 6,
+        "code": "AZ",
+        "value": "12,567 ft range"
+      },
+      {
+        "rank": 7,
+        "code": "ID",
+        "value": "11,958 ft range"
+      },
+      {
+        "rank": 8,
+        "code": "UT",
+        "value": "11,534 ft range"
+      },
+      {
+        "rank": 9,
+        "code": "OR",
+        "value": "11,249 ft range"
+      },
+      {
+        "rank": 10,
+        "code": "CO",
+        "value": "11,123 ft range"
+      },
+      {
+        "rank": 11,
+        "code": "MT",
+        "value": "11,007 ft range"
+      },
+      {
+        "rank": 12,
+        "code": "WY",
+        "value": "10,709 ft range"
+      },
+      {
+        "rank": 13,
+        "code": "NM",
+        "value": "10,325 ft range"
+      },
+      {
+        "rank": 14,
+        "code": "TX",
+        "value": "8,751 ft range"
+      },
+      {
+        "rank": 15,
+        "code": "NC",
+        "value": "6,684 ft range"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-state-fair-by-attendance-2019",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest State Fair by Attendance",
+    "prompt": "Rank US states by the annual attendance of their state fair.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 State fair (attendance figures cited from each fair's official reports)",
+      "url": "https://en.wikipedia.org/wiki/State_fair",
+      "asOf": "2019-2022 (varies by fair)"
+    },
+    "note": null,
+    "disclaimer": "Only official single-state fairs are counted here; regional/multi-state exhibitions (such as the New England Big E) are excluded.",
+    "trivia": "The State Fair of Texas draws over 2.5 million visitors annually \u2014 more than the total home attendance of many pro sports teams' full seasons.",
+    "asOfDate": "2019-2022 (varies by fair)",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "2,547,289 attendees"
+      },
+      {
+        "rank": 2,
+        "code": "MN",
+        "value": "2,126,551 attendees"
+      },
+      {
+        "rank": 3,
+        "code": "NY",
+        "value": "1,329,275 attendees"
+      },
+      {
+        "rank": 4,
+        "code": "OK",
+        "value": "1,206,000 attendees"
+      },
+      {
+        "rank": 5,
+        "code": "IA",
+        "value": "1,130,260 attendees"
+      },
+      {
+        "rank": 6,
+        "code": "WA",
+        "value": "1,117,323 attendees"
+      },
+      {
+        "rank": 7,
+        "code": "AZ",
+        "value": "1,102,044 attendees"
+      },
+      {
+        "rank": 8,
+        "code": "NC",
+        "value": "1,028,364 attendees"
+      },
+      {
+        "rank": 9,
+        "code": "WI",
+        "value": "1,015,815 attendees"
+      },
+      {
+        "rank": 10,
+        "code": "OH",
+        "value": "921,000 attendees"
+      },
+      {
+        "rank": 11,
+        "code": "MS",
+        "value": "733,151 attendees"
+      },
+      {
+        "rank": 12,
+        "code": "IN",
+        "value": "730,000 attendees"
+      },
+      {
+        "rank": 13,
+        "code": "CA",
+        "value": "673,237 attendees"
+      },
+      {
+        "rank": 14,
+        "code": "TN",
+        "value": "620,000 attendees"
+      },
+      {
+        "rank": 15,
+        "code": "GA",
+        "value": "500,000 attendees"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-total-forest-land-area-acres-2016",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Total Forest Land Area (Acres)",
+    "prompt": "Rank US states by total forest land area, in acres.",
+    "answerType": "US States",
+    "seededDepth": 14,
+    "source": {
+      "name": "USDA Forest Service \u2014 Forest Inventory and Analysis (FIA) state totals",
+      "url": "https://en.wikipedia.org/wiki/Forest_cover_by_state_and_territory_in_the_United_States",
+      "asOf": "2016-2020 FIA"
+    },
+    "note": null,
+    "disclaimer": "Measures absolute forest land in acres, not percent of state forested. FIA counts all forested land (public, private, and tribal).",
+    "trivia": "Alaska leads with over 127 million forested acres \u2014 more than the next four states combined \u2014 thanks largely to the Tongass and Chugach National Forests.",
+    "asOfDate": "2016-2020 FIA",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "127.0M acres"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "33.0M acres"
+      },
+      {
+        "rank": 3,
+        "code": "OR",
+        "value": "30.0M acres"
+      },
+      {
+        "rank": 4,
+        "code": "GA",
+        "value": "24.0M acres"
+      },
+      {
+        "rank": 5,
+        "code": "MT",
+        "value": "24.0M acres (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "AL",
+        "value": "23.0M acres"
+      },
+      {
+        "rank": 7,
+        "code": "ID",
+        "value": "22.0M acres"
+      },
+      {
+        "rank": 8,
+        "code": "WA",
+        "value": "22.0M acres (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "MI",
+        "value": "20.0M acres"
+      },
+      {
+        "rank": 10,
+        "code": "NC",
+        "value": "19.0M acres"
+      },
+      {
+        "rank": 11,
+        "code": "MN",
+        "value": "17.0M acres"
+      },
+      {
+        "rank": 12,
+        "code": "WI",
+        "value": "17.0M acres (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "VA",
+        "value": "16.0M acres"
+      },
+      {
+        "rank": 14,
+        "code": "TN",
+        "value": "14.0M acres"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-wilderness-acreage-2023",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Wilderness Acreage",
+    "prompt": "Rank US states by the number of acres protected under the National Wilderness Preservation System.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "National Wilderness Preservation System \u2014 Wilderness.net & Wikipedia state totals",
+      "url": "https://en.wikipedia.org/wiki/National_Wilderness_Preservation_System",
+      "asOf": "2023"
+    },
+    "note": null,
+    "disclaimer": "Wilderness areas that cross state boundaries have their acreage split by state. Six states (Connecticut, Delaware, Iowa, Kansas, Maryland, Rhode Island) contain no designated wilderness.",
+    "trivia": "One state alone contains roughly 54% of all wilderness acreage in the country.",
+    "asOfDate": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "57,400,000 acres"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "15,000,000 acres"
+      },
+      {
+        "rank": 3,
+        "code": "ID",
+        "value": "4,522,000 acres"
+      },
+      {
+        "rank": 4,
+        "code": "AZ",
+        "value": "4,506,000 acres"
+      },
+      {
+        "rank": 5,
+        "code": "WA",
+        "value": "4,479,000 acres"
+      },
+      {
+        "rank": 6,
+        "code": "CO",
+        "value": "3,738,000 acres"
+      },
+      {
+        "rank": 7,
+        "code": "MT",
+        "value": "3,443,000 acres"
+      },
+      {
+        "rank": 8,
+        "code": "NV",
+        "value": "3,442,000 acres"
+      },
+      {
+        "rank": 9,
+        "code": "WY",
+        "value": "3,111,000 acres"
+      },
+      {
+        "rank": 10,
+        "code": "OR",
+        "value": "2,474,000 acres"
+      },
+      {
+        "rank": 11,
+        "code": "NM",
+        "value": "1,689,000 acres"
+      },
+      {
+        "rank": 12,
+        "code": "FL",
+        "value": "1,441,000 acres"
+      },
+      {
+        "rank": 13,
+        "code": "UT",
+        "value": "1,097,000 acres"
+      },
+      {
+        "rank": 14,
+        "code": "MN",
+        "value": "816,000 acres"
+      },
+      {
+        "rank": 15,
+        "code": "GA",
+        "value": "487,000 acres"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-national-wildlife-refuges-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most National Wildlife Refuges",
+    "prompt": "Rank US states by the number of National Wildlife Refuges (NWRs) located within the state.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "US Fish & Wildlife Service \u2014 National Wildlife Refuge System (per-state totals on Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_National_Wildlife_Refuges_of_the_United_States",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Refuges that span two states are attributed to the state where the main visitor entrance is located. Wetland Management Districts (in some Midwestern states) are included alongside refuges.",
+    "trivia": "California's Sacramento NWR Complex and the Klamath Basin refuges anchor its nation-leading count.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "39 refuges"
+      },
+      {
+        "rank": 2,
+        "code": "FL",
+        "value": "29 refuges"
+      },
+      {
+        "rank": 3,
+        "code": "LA",
+        "value": "24 refuges"
+      },
+      {
+        "rank": 4,
+        "code": "MN",
+        "value": "20 refuges"
+      },
+      {
+        "rank": 5,
+        "code": "AK",
+        "value": "16 refuges"
+      },
+      {
+        "rank": 6,
+        "code": "MA",
+        "value": "11 refuges"
+      },
+      {
+        "rank": 7,
+        "code": "AL",
+        "value": "10 refuges"
+      },
+      {
+        "rank": 7,
+        "code": "AR",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "AZ",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "HI",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "ME",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "MS",
+        "value": "10 refuges (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "GA",
+        "value": "9 refuges"
+      },
+      {
+        "rank": 13,
+        "code": "IL",
+        "value": "9 refuges (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CO",
+        "value": "8 refuges"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-ski-areas-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Ski Areas",
+    "prompt": "Rank US states by the total number of operating lift-served ski areas.",
+    "answerType": "US States",
+    "seededDepth": 15,
+    "source": {
+      "name": "Wikipedia \u2014 List of ski areas and resorts in the United States",
+      "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Includes all ski areas with lift-served terrain, from major destination resorts down to small local hills. Only 37 US states host any operating ski areas.",
+    "trivia": "Ski-area count and skier volume are very different metrics: New York's many small areas host far fewer total skier-days than a smaller number of destination resorts in Colorado.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MI",
+        "value": "34 ski areas"
+      },
+      {
+        "rank": 1,
+        "code": "NY",
+        "value": "34 ski areas (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "WI",
+        "value": "34 ski areas (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "NH",
+        "value": "28 ski areas"
+      },
+      {
+        "rank": 5,
+        "code": "VT",
+        "value": "27 ski areas"
+      },
+      {
+        "rank": 6,
+        "code": "PA",
+        "value": "22 ski areas"
+      },
+      {
+        "rank": 7,
+        "code": "ME",
+        "value": "19 ski areas"
+      },
+      {
+        "rank": 8,
+        "code": "MN",
+        "value": "18 ski areas"
+      },
+      {
+        "rank": 9,
+        "code": "MA",
+        "value": "12 ski areas"
+      },
+      {
+        "rank": 10,
+        "code": "OH",
+        "value": "5 ski areas"
+      },
+      {
+        "rank": 10,
+        "code": "IL",
+        "value": "5 ski areas (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "WV",
+        "value": "5 ski areas (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CT",
+        "value": "4 ski areas"
+      },
+      {
+        "rank": 13,
+        "code": "NJ",
+        "value": "4 ski areas (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IA",
+        "value": "4 ski areas (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-most-long-rivers-500-miles-passing-through-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Most Long Rivers (500+ Miles) Passing Through",
+    "prompt": "Rank US states by the number of main-stem rivers longer than 500 miles that flow through the state.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "Wikipedia \u2014 List of longest rivers of the United States (by main stem)",
+      "url": "https://en.wikipedia.org/wiki/List_of_longest_rivers_of_the_United_States_(by_main_stem)",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "A river is credited to every state it flows through, whether as source, mouth, or intermediate section. Only main-stem rivers 500 miles or longer are counted.",
+    "trivia": "Texas hosts the Rio Grande, Red River, Canadian, Brazos, Pecos, Sabine, Trinity and Texas Colorado \u2014 all main-stem rivers of at least 500 miles.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "TX",
+        "value": "8 long rivers"
+      },
+      {
+        "rank": 2,
+        "code": "CO",
+        "value": "7 long rivers"
+      },
+      {
+        "rank": 3,
+        "code": "OK",
+        "value": "5 long rivers"
+      },
+      {
+        "rank": 3,
+        "code": "MO",
+        "value": "5 long rivers (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "AR",
+        "value": "5 long rivers (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NM",
+        "value": "4 long rivers"
+      },
+      {
+        "rank": 6,
+        "code": "KS",
+        "value": "4 long rivers (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "WY",
+        "value": "4 long rivers (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "MT",
+        "value": "4 long rivers (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "ND",
+        "value": "4 long rivers (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "NE",
+        "value": "4 long rivers (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "LA",
+        "value": "4 long rivers (tied)"
+      }
+    ]
+  },
+  {
+    "id": "us-states-geography-largest-total-national-park-acreage-2024",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Largest Total National Park Acreage",
+    "prompt": "Rank US states by the total acreage of designated National Parks located within the state.",
+    "answerType": "US States",
+    "seededDepth": 12,
+    "source": {
+      "name": "National Park Service \u2014 park acreage totals (via Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States",
+      "asOf": "2024"
+    },
+    "note": null,
+    "disclaimer": "Counts only formally designated National Parks (not monuments, preserves, or historic sites). Multi-state parks have their acreage split at the state boundary.",
+    "trivia": "Alaska's national parks alone cover roughly 30 million acres \u2014 more national-park land than the rest of the country combined.",
+    "asOfDate": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "29,468,000 acres"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "6,050,000 acres"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "1,746,000 acres"
+      },
+      {
+        "rank": 4,
+        "code": "WA",
+        "value": "1,663,000 acres"
+      },
+      {
+        "rank": 5,
+        "code": "AZ",
+        "value": "1,515,000 acres"
+      },
+      {
+        "rank": 6,
+        "code": "MT",
+        "value": "1,013,000 acres"
+      },
+      {
+        "rank": 7,
+        "code": "TX",
+        "value": "887,000 acres"
+      },
+      {
+        "rank": 8,
+        "code": "UT",
+        "value": "692,000 acres"
+      },
+      {
+        "rank": 9,
+        "code": "MI",
+        "value": "571,000 acres"
+      },
+      {
+        "rank": 10,
+        "code": "WY",
+        "value": "540,000 acres"
+      },
+      {
+        "rank": 11,
+        "code": "CO",
+        "value": "456,000 acres"
+      },
+      {
+        "rank": 12,
+        "code": "HI",
+        "value": "378,000 acres"
+      }
+    ]
   }
 ]
