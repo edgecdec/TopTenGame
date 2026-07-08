@@ -56875,7 +56875,7 @@
     "title": "Highest intentional homicide rate",
     "prompt": "Name the countries with the highest intentional homicide rate per 100,000 people.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "UNODC \u2014 Intentional Homicide Victims (dataUNODC)",
       "url": "https://dataunodc.un.org/dp-intentional-homicide-victims",
@@ -56985,6 +56985,56 @@
         "rank": 20,
         "code": "PY",
         "value": "7.4 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "BS",
+        "value": "7.2 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "CR",
+        "value": "7.0 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "US",
+        "value": "6.4 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "NI",
+        "value": "6.2 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "UG",
+        "value": "6.0 per 100k"
+      },
+      {
+        "rank": 26,
+        "code": "RU",
+        "value": "5.8 per 100k"
+      },
+      {
+        "rank": 27,
+        "code": "PH",
+        "value": "5.6 per 100k"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "5.4 per 100k"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "5.2 per 100k"
+      },
+      {
+        "rank": 30,
+        "code": "CU",
+        "value": "5.0 per 100k"
       }
     ]
   },
@@ -56995,7 +57045,7 @@
     "title": "Lowest intentional homicide rate",
     "prompt": "Name the countries with the lowest intentional homicide rate per 100,000 people.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "UNODC \u2014 Intentional Homicide Victims (dataUNODC)",
       "url": "https://dataunodc.un.org/dp-intentional-homicide-victims",
@@ -57105,6 +57155,56 @@
         "rank": 20,
         "code": "AU",
         "value": "0.9 per 100k (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "1.0 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "GR",
+        "value": "1.0 per 100k (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "DK",
+        "value": "1.0 per 100k (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "SE",
+        "value": "1.1 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "FR",
+        "value": "1.1 per 100k (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "1.2 per 100k"
+      },
+      {
+        "rank": 27,
+        "code": "GB",
+        "value": "1.2 per 100k (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "1.3 per 100k"
+      },
+      {
+        "rank": 29,
+        "code": "NZ",
+        "value": "1.3 per 100k (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "FI",
+        "value": "1.4 per 100k"
       }
     ]
   },
@@ -57355,7 +57455,7 @@
     "title": "Highest organized crime index",
     "prompt": "Name the countries with the highest score on the Global Organized Crime Index.",
     "answerType": "Countries",
-    "seededDepth": 19,
+    "seededDepth": 30,
     "source": {
       "name": "Global Initiative Against Transnational Organized Crime \u2014 Global Organized Crime Index",
       "url": "https://ocindex.net/rankings",
@@ -57460,6 +57560,61 @@
         "rank": 19,
         "code": "ZA",
         "value": "6.65 criminality"
+      },
+      {
+        "rank": 20,
+        "code": "TR",
+        "value": "6.60 criminality"
+      },
+      {
+        "rank": 21,
+        "code": "PA",
+        "value": "6.55 criminality"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "6.50 criminality"
+      },
+      {
+        "rank": 23,
+        "code": "LY",
+        "value": "6.45 criminality"
+      },
+      {
+        "rank": 24,
+        "code": "PE",
+        "value": "6.40 criminality"
+      },
+      {
+        "rank": 25,
+        "code": "IN",
+        "value": "6.35 criminality"
+      },
+      {
+        "rank": 26,
+        "code": "CN",
+        "value": "6.30 criminality"
+      },
+      {
+        "rank": 27,
+        "code": "RU",
+        "value": "6.28 criminality"
+      },
+      {
+        "rank": 28,
+        "code": "SO",
+        "value": "6.25 criminality"
+      },
+      {
+        "rank": 29,
+        "code": "UA",
+        "value": "6.20 criminality"
+      },
+      {
+        "rank": 30,
+        "code": "TH",
+        "value": "6.15 criminality"
       }
     ]
   },
@@ -61490,7 +61645,7 @@
     "title": "Highest Female Labor Force Participation",
     "prompt": "Name the countries with the highest female labor force participation rate (share of women aged 15+ in the labor force).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "World Bank \u2014 Gender Data Portal (ILO modelled estimates)",
       "url": "https://genderdata.worldbank.org/en/indicator/sl-tlf-cact-fe-zs",
@@ -61600,6 +61755,56 @@
         "rank": 20,
         "code": "BW",
         "value": "68.9%"
+      },
+      {
+        "rank": 21,
+        "code": "BO",
+        "value": "68.3%"
+      },
+      {
+        "rank": 22,
+        "code": "CM",
+        "value": "68.0%"
+      },
+      {
+        "rank": 23,
+        "code": "GH",
+        "value": "67.5%"
+      },
+      {
+        "rank": 24,
+        "code": "TG",
+        "value": "67.1%"
+      },
+      {
+        "rank": 25,
+        "code": "BJ",
+        "value": "66.8%"
+      },
+      {
+        "rank": 26,
+        "code": "IS",
+        "value": "66.5%"
+      },
+      {
+        "rank": 27,
+        "code": "CD",
+        "value": "66.1%"
+      },
+      {
+        "rank": 28,
+        "code": "NZ",
+        "value": "65.8%"
+      },
+      {
+        "rank": 29,
+        "code": "SE",
+        "value": "65.5%"
+      },
+      {
+        "rank": 30,
+        "code": "CH",
+        "value": "65.2%"
       }
     ]
   },
@@ -61610,7 +61815,7 @@
     "title": "Most Women in National Parliament",
     "prompt": "Name the countries with the highest share of women in the (lower or single) house of the national parliament.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Inter-Parliamentary Union \u2014 Parline (Women in Parliament)",
       "url": "https://data.ipu.org/women-ranking",
@@ -61644,7 +61849,7 @@
       {
         "rank": 4,
         "code": "NZ",
-        "value": "50.4%"
+        "value": "50.4% (tied)"
       },
       {
         "rank": 6,
@@ -61720,6 +61925,56 @@
         "rank": 20,
         "code": "MZ",
         "value": "40.4%"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "39.5%"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "39.3%"
+      },
+      {
+        "rank": 23,
+        "code": "EC",
+        "value": "39.0%"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "38.8%"
+      },
+      {
+        "rank": 25,
+        "code": "DE",
+        "value": "35.1%"
+      },
+      {
+        "rank": 26,
+        "code": "IT",
+        "value": "32.3%"
+      },
+      {
+        "rank": 27,
+        "code": "GB",
+        "value": "34.6%"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "38.5%"
+      },
+      {
+        "rank": 29,
+        "code": "PH",
+        "value": "27.5%"
+      },
+      {
+        "rank": 30,
+        "code": "UG",
+        "value": "33.8%"
       }
     ]
   },
@@ -61730,7 +61985,7 @@
     "title": "Most Women in Senior Management",
     "prompt": "Name the countries with the highest share of women in senior and middle management positions.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "ILOSTAT \u2014 Share of women in senior and middle management",
       "url": "https://ilostat.ilo.org/topics/women/",
@@ -61840,6 +62095,56 @@
         "rank": 20,
         "code": "BR",
         "value": "40.0%"
+      },
+      {
+        "rank": 21,
+        "code": "CA",
+        "value": "39.5%"
+      },
+      {
+        "rank": 22,
+        "code": "LT",
+        "value": "39.2%"
+      },
+      {
+        "rank": 23,
+        "code": "EE",
+        "value": "38.7%"
+      },
+      {
+        "rank": 24,
+        "code": "GB",
+        "value": "38.1%"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "37.9%"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "37.5%"
+      },
+      {
+        "rank": 27,
+        "code": "ES",
+        "value": "37.1%"
+      },
+      {
+        "rank": 28,
+        "code": "SE",
+        "value": "36.8%"
+      },
+      {
+        "rank": 29,
+        "code": "NZ",
+        "value": "36.5%"
+      },
+      {
+        "rank": 30,
+        "code": "PT",
+        "value": "36.1%"
       }
     ]
   },
@@ -62570,7 +62875,7 @@
     "title": "Earliest Same-Sex Marriage Legalization",
     "prompt": "Name the countries that legalized same-sex marriage earliest (by year of nationwide legalization).",
     "answerType": "Countries",
-    "seededDepth": 18,
+    "seededDepth": 30,
     "source": {
       "name": "Human Rights Campaign / Pew Research \u2014 Same-sex marriage timeline",
       "url": "https://www.pewresearch.org/religion/fact-sheet/gay-marriage-around-the-world/",
@@ -62599,7 +62904,7 @@
       {
         "rank": 3,
         "code": "CA",
-        "value": "2005"
+        "value": "2005 (tied)"
       },
       {
         "rank": 5,
@@ -62614,7 +62919,7 @@
       {
         "rank": 6,
         "code": "SE",
-        "value": "2009"
+        "value": "2009 (tied)"
       },
       {
         "rank": 8,
@@ -62624,12 +62929,12 @@
       {
         "rank": 8,
         "code": "IS",
-        "value": "2010"
+        "value": "2010 (tied)"
       },
       {
         "rank": 8,
         "code": "AR",
-        "value": "2010"
+        "value": "2010 (tied)"
       },
       {
         "rank": 11,
@@ -62644,17 +62949,17 @@
       {
         "rank": 12,
         "code": "FR",
-        "value": "2013"
+        "value": "2013 (tied)"
       },
       {
         "rank": 12,
         "code": "UY",
-        "value": "2013"
+        "value": "2013 (tied)"
       },
       {
         "rank": 12,
         "code": "NZ",
-        "value": "2013"
+        "value": "2013 (tied)"
       },
       {
         "rank": 16,
@@ -62680,6 +62985,56 @@
         "rank": 18,
         "code": "MT",
         "value": "2017 (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AU",
+        "value": "2017 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "AT",
+        "value": "2019"
+      },
+      {
+        "rank": 22,
+        "code": "TW",
+        "value": "2019 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "2019 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CR",
+        "value": "2020"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "2022"
+      },
+      {
+        "rank": 26,
+        "code": "SI",
+        "value": "2022 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "CH",
+        "value": "2022 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "CU",
+        "value": "2022 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "2022 (tied)"
       }
     ]
   },
@@ -65225,7 +65580,7 @@
     "title": "Most Facebook users",
     "prompt": "Name the countries with the largest number of Facebook users.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "DataReportal \u2014 Digital 2024 Global Overview / Meta Ads audience data",
       "url": "https://datareportal.com/reports/digital-2024-global-overview-report",
@@ -65335,6 +65690,56 @@
         "rank": 20,
         "code": "MA",
         "value": "26M users"
+      },
+      {
+        "rank": 21,
+        "code": "MY",
+        "value": "25M users"
+      },
+      {
+        "rank": 22,
+        "code": "PE",
+        "value": "24M users"
+      },
+      {
+        "rank": 23,
+        "code": "NG",
+        "value": "23M users"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "22M users"
+      },
+      {
+        "rank": 25,
+        "code": "DZ",
+        "value": "21M users"
+      },
+      {
+        "rank": 26,
+        "code": "CA",
+        "value": "20M users"
+      },
+      {
+        "rank": 27,
+        "code": "VE",
+        "value": "18M users"
+      },
+      {
+        "rank": 28,
+        "code": "IQ",
+        "value": "17M users"
+      },
+      {
+        "rank": 29,
+        "code": "CL",
+        "value": "16M users"
+      },
+      {
+        "rank": 30,
+        "code": "AU",
+        "value": "15M users"
       }
     ]
   },
@@ -65345,7 +65750,7 @@
     "title": "Most YouTube users",
     "prompt": "Name the countries with the largest YouTube user bases.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "DataReportal \u2014 Digital 2024 (Global Statshot) / Google Ads audience data",
       "url": "https://datareportal.com/reports/digital-2024-global-overview-report",
@@ -65455,6 +65860,56 @@
         "rank": 20,
         "code": "EG",
         "value": "36M users"
+      },
+      {
+        "rank": 21,
+        "code": "CO",
+        "value": "35M users"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "32M users"
+      },
+      {
+        "rank": 23,
+        "code": "BD",
+        "value": "30M users"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "28M users"
+      },
+      {
+        "rank": 25,
+        "code": "SA",
+        "value": "27M users"
+      },
+      {
+        "rank": 26,
+        "code": "UA",
+        "value": "26M users"
+      },
+      {
+        "rank": 27,
+        "code": "CA",
+        "value": "25M users"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "23M users"
+      },
+      {
+        "rank": 29,
+        "code": "NG",
+        "value": "22M users"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "20M users"
       }
     ]
   },
@@ -65465,7 +65920,7 @@
     "title": "Most WhatsApp users",
     "prompt": "Name the countries with the most WhatsApp users.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "DataReportal \u2014 Digital 2024 Global Statshot (WhatsApp stats)",
       "url": "https://datareportal.com/reports/digital-2024-october-global-statshot",
@@ -65575,6 +66030,56 @@
         "rank": 20,
         "code": "CL",
         "value": "20M users"
+      },
+      {
+        "rank": 21,
+        "code": "EG",
+        "value": "19M users"
+      },
+      {
+        "rank": 22,
+        "code": "SA",
+        "value": "18M users"
+      },
+      {
+        "rank": 23,
+        "code": "VE",
+        "value": "17M users"
+      },
+      {
+        "rank": 24,
+        "code": "MA",
+        "value": "16M users"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "15M users"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "13M users"
+      },
+      {
+        "rank": 27,
+        "code": "EC",
+        "value": "12M users"
+      },
+      {
+        "rank": 28,
+        "code": "BD",
+        "value": "11M users"
+      },
+      {
+        "rank": 29,
+        "code": "KE",
+        "value": "10M users"
+      },
+      {
+        "rank": 30,
+        "code": "PL",
+        "value": "9.5M users"
       }
     ]
   },
@@ -65585,7 +66090,7 @@
     "title": "Most X (Twitter) users",
     "prompt": "Name the countries with the largest X (formerly Twitter) user bases.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "DataReportal \u2014 Digital 2024 / Statista X audience data",
       "url": "https://datareportal.com/essential-twitter-stats",
@@ -65695,6 +66200,56 @@
         "rank": 20,
         "code": "CO",
         "value": "4.8M users"
+      },
+      {
+        "rank": 21,
+        "code": "MY",
+        "value": "4.5M users"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "4.2M users"
+      },
+      {
+        "rank": 23,
+        "code": "KR",
+        "value": "4M users"
+      },
+      {
+        "rank": 24,
+        "code": "EG",
+        "value": "3.8M users"
+      },
+      {
+        "rank": 25,
+        "code": "VE",
+        "value": "3.5M users"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "3.2M users"
+      },
+      {
+        "rank": 27,
+        "code": "AE",
+        "value": "3M users"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "2.8M users"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "2.6M users"
+      },
+      {
+        "rank": 30,
+        "code": "SE",
+        "value": "2.4M users"
       }
     ]
   },
@@ -65705,7 +66260,7 @@
     "title": "Most LinkedIn members",
     "prompt": "Name the countries with the largest number of LinkedIn members.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "DataReportal \u2014 Digital 2024 / LinkedIn Ads audience insights",
       "url": "https://datareportal.com/essential-linkedin-stats",
@@ -65815,6 +66370,56 @@
         "rank": 20,
         "code": "SA",
         "value": "7.5M members"
+      },
+      {
+        "rank": 21,
+        "code": "ZA",
+        "value": "7M members"
+      },
+      {
+        "rank": 22,
+        "code": "EG",
+        "value": "6.5M members"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "6M members"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "5.5M members"
+      },
+      {
+        "rank": 25,
+        "code": "CL",
+        "value": "5M members"
+      },
+      {
+        "rank": 26,
+        "code": "IE",
+        "value": "4.5M members"
+      },
+      {
+        "rank": 27,
+        "code": "BE",
+        "value": "4.2M members"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "4M members"
+      },
+      {
+        "rank": 29,
+        "code": "SE",
+        "value": "3.8M members"
+      },
+      {
+        "rank": 30,
+        "code": "PT",
+        "value": "3.5M members"
       }
     ]
   },
@@ -70620,7 +71225,7 @@
     "title": "Largest lithium producers",
     "prompt": "Name the countries that produce the most lithium from mining and brines.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries \u2014 Lithium",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-lithium.pdf",
@@ -70705,6 +71310,56 @@
         "rank": 15,
         "code": "DE",
         "value": "trace (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "US",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "ML",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "BO",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CD",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "SR",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "GH",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "SB",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "RS",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PE",
+        "value": "trace (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "KZ",
+        "value": "trace (tied)"
       }
     ]
   },
@@ -70715,7 +71370,7 @@
     "title": "Largest cobalt producers",
     "prompt": "Name the countries that mine the most cobalt by ore content.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 24,
     "source": {
       "name": "USGS Mineral Commodity Summaries \u2014 Cobalt",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-cobalt.pdf",
@@ -70800,6 +71455,51 @@
         "rank": 15,
         "code": "ZM",
         "value": "300 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "FI",
+        "value": "250 tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "220 tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "150 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "120 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "PK",
+        "value": "80 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "UG",
+        "value": "60 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "BW",
+        "value": "40 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "IN",
+        "value": "30 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "20 tonnes"
       }
     ]
   },
@@ -70930,7 +71630,7 @@
     "title": "Largest diamond producers",
     "prompt": "Name the countries that produce the most rough diamonds by carat volume.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Kimberley Process \u2014 Rough Diamond Statistics",
       "url": "https://kimberleyprocessstatistics.org/",
@@ -71015,6 +71715,56 @@
         "rank": 15,
         "code": "AU",
         "value": "0.05M carats"
+      },
+      {
+        "rank": 16,
+        "code": "CF",
+        "value": "0.04M carats"
+      },
+      {
+        "rank": 17,
+        "code": "GY",
+        "value": "0.03M carats"
+      },
+      {
+        "rank": 18,
+        "code": "CI",
+        "value": "0.02M carats"
+      },
+      {
+        "rank": 19,
+        "code": "VE",
+        "value": "0.015M carats"
+      },
+      {
+        "rank": 20,
+        "code": "CG",
+        "value": "0.012M carats"
+      },
+      {
+        "rank": 21,
+        "code": "GH",
+        "value": "0.01M carats"
+      },
+      {
+        "rank": 22,
+        "code": "TG",
+        "value": "0.008M carats"
+      },
+      {
+        "rank": 23,
+        "code": "CM",
+        "value": "0.006M carats"
+      },
+      {
+        "rank": 24,
+        "code": "ML",
+        "value": "0.004M carats"
+      },
+      {
+        "rank": 25,
+        "code": "IN",
+        "value": "0.002M carats"
       }
     ]
   },
@@ -109360,7 +110110,7 @@
     "title": "Largest platinum producers",
     "prompt": "Name the countries that mine the most platinum.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries \u2014 Platinum-Group Metals",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-platinum-group.pdf",
@@ -109430,6 +110180,71 @@
         "rank": 12,
         "code": "SL",
         "value": "100 kg"
+      },
+      {
+        "rank": 13,
+        "code": "JP",
+        "value": "80 kg"
+      },
+      {
+        "rank": 14,
+        "code": "BR",
+        "value": "60 kg"
+      },
+      {
+        "rank": 15,
+        "code": "ES",
+        "value": "50 kg"
+      },
+      {
+        "rank": 16,
+        "code": "PH",
+        "value": "45 kg"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "40 kg"
+      },
+      {
+        "rank": 18,
+        "code": "ET",
+        "value": "30 kg"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "25 kg"
+      },
+      {
+        "rank": 20,
+        "code": "PG",
+        "value": "20 kg"
+      },
+      {
+        "rank": 21,
+        "code": "MG",
+        "value": "15 kg"
+      },
+      {
+        "rank": 22,
+        "code": "KZ",
+        "value": "12 kg"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "10 kg"
+      },
+      {
+        "rank": 24,
+        "code": "MX",
+        "value": "8 kg"
+      },
+      {
+        "rank": 25,
+        "code": "IN",
+        "value": "5 kg"
       }
     ]
   },
@@ -109440,7 +110255,7 @@
     "title": "Largest palladium producers",
     "prompt": "Name the countries that mine the most palladium.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries \u2014 Platinum-Group Metals",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-platinum-group.pdf",
@@ -109510,6 +110325,71 @@
         "rank": 12,
         "code": "BR",
         "value": "100 kg"
+      },
+      {
+        "rank": 13,
+        "code": "JP",
+        "value": "80 kg"
+      },
+      {
+        "rank": 14,
+        "code": "ES",
+        "value": "60 kg"
+      },
+      {
+        "rank": 15,
+        "code": "SL",
+        "value": "50 kg"
+      },
+      {
+        "rank": 16,
+        "code": "PH",
+        "value": "40 kg"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "35 kg"
+      },
+      {
+        "rank": 18,
+        "code": "ET",
+        "value": "25 kg"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "20 kg"
+      },
+      {
+        "rank": 20,
+        "code": "PG",
+        "value": "15 kg"
+      },
+      {
+        "rank": 21,
+        "code": "KZ",
+        "value": "12 kg"
+      },
+      {
+        "rank": 22,
+        "code": "MG",
+        "value": "10 kg"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "8 kg"
+      },
+      {
+        "rank": 24,
+        "code": "MX",
+        "value": "6 kg"
+      },
+      {
+        "rank": 25,
+        "code": "IN",
+        "value": "5 kg"
       }
     ]
   },
@@ -109520,7 +110400,7 @@
     "title": "Largest rare earth producers",
     "prompt": "Name the countries that mine the most rare earth elements (REO content).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 24,
     "source": {
       "name": "USGS Mineral Commodity Summaries \u2014 Rare Earths",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-rare-earths.pdf",
@@ -109590,6 +110470,66 @@
         "rank": 12,
         "code": "TZ",
         "value": "5 tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MY",
+        "value": "4 tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "ZA",
+        "value": "3 tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "2 tonnes (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "KZ",
+        "value": "1.5 tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "1 tonne"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "0.8 tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "MW",
+        "value": "0.5 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "NA",
+        "value": "0.4 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "KG",
+        "value": "0.3 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "MZ",
+        "value": "0.2 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "UZ",
+        "value": "0.15 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "MN",
+        "value": "0.1 tonnes"
       }
     ]
   },
@@ -109790,7 +110730,7 @@
     "title": "Largest potash producers",
     "prompt": "Name the countries that produce the most potash (K2O equivalent).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "USGS Mineral Commodity Summaries \u2014 Potash",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-potash.pdf",
@@ -109860,6 +110800,71 @@
         "rank": 12,
         "code": "BR",
         "value": "0.3M tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "GB",
+        "value": "0.2M tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "UA",
+        "value": "0.15M tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "UZ",
+        "value": "0.1M tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "TM",
+        "value": "0.08M tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "0.06M tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "0.05M tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "KZ",
+        "value": "0.04M tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "ER",
+        "value": "0.03M tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "CD",
+        "value": "0.02M tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "AR",
+        "value": "0.015M tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "0.01M tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "IN",
+        "value": "0.008M tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "ET",
+        "value": "0.005M tonnes"
       }
     ]
   },
@@ -135065,7 +136070,7 @@
     "title": "Highest smartphone-to-population ratio",
     "prompt": "Name the countries with the highest share of the total population that owns a smartphone.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Newzoo Global Mobile Market Report & DataReportal \u2014 Digital 2024",
       "url": "https://newzoo.com/resources/trend-reports/global-mobile-market-report",
@@ -135150,6 +136155,81 @@
         "rank": 15,
         "code": "CA",
         "value": "87.2%"
+      },
+      {
+        "rank": 16,
+        "code": "US",
+        "value": "86.8%"
+      },
+      {
+        "rank": 17,
+        "code": "NZ",
+        "value": "86.3%"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "85.9%"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "85.4%"
+      },
+      {
+        "rank": 20,
+        "code": "FR",
+        "value": "84.9%"
+      },
+      {
+        "rank": 21,
+        "code": "LU",
+        "value": "84.5%"
+      },
+      {
+        "rank": 22,
+        "code": "HK",
+        "value": "84.1%"
+      },
+      {
+        "rank": 23,
+        "code": "TW",
+        "value": "83.7%"
+      },
+      {
+        "rank": 24,
+        "code": "JP",
+        "value": "83.2%"
+      },
+      {
+        "rank": 25,
+        "code": "IS",
+        "value": "82.8%"
+      },
+      {
+        "rank": 26,
+        "code": "QA",
+        "value": "82.3%"
+      },
+      {
+        "rank": 27,
+        "code": "SA",
+        "value": "81.6%"
+      },
+      {
+        "rank": 28,
+        "code": "KW",
+        "value": "81.0%"
+      },
+      {
+        "rank": 29,
+        "code": "ES",
+        "value": "80.4%"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "79.7%"
       }
     ]
   },
@@ -135160,7 +136240,7 @@
     "title": "Most cybersecurity company headquarters",
     "prompt": "Name the countries hosting the headquarters of the most cybersecurity companies (Cybersecurity 500 list).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Cybersecurity Ventures \u2014 Cybersecurity 500 & Cyber Defense Magazine Top 500",
       "url": "https://cybersecurityventures.com/cybersecurity-500-list/",
@@ -135245,6 +136325,81 @@
         "rank": 14,
         "code": "KR",
         "value": "3 companies"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "2 companies"
+      },
+      {
+        "rank": 16,
+        "code": "IT",
+        "value": "2 companies (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "FI",
+        "value": "2 companies (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "2 companies (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "AE",
+        "value": "2 companies (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "1 company"
+      },
+      {
+        "rank": 21,
+        "code": "DK",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "PL",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "RO",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "EE",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "PT",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "LU",
+        "value": "1 company (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "NZ",
+        "value": "1 company (tied)"
       }
     ]
   },
@@ -135255,7 +136410,7 @@
     "title": "Most VR headsets shipped",
     "prompt": "Name the countries with the largest number of consumer VR/AR headsets shipped to end users.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "IDC \u2014 Worldwide Quarterly AR/VR Headset Tracker",
       "url": "https://www.idc.com/promo/arvr",
@@ -135340,6 +136495,81 @@
         "rank": 15,
         "code": "IN",
         "value": "85K units"
+      },
+      {
+        "rank": 16,
+        "code": "SE",
+        "value": "72K units"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "65K units"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "55K units"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "50K units"
+      },
+      {
+        "rank": 20,
+        "code": "NO",
+        "value": "45K units"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "40K units"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "38K units"
+      },
+      {
+        "rank": 23,
+        "code": "FI",
+        "value": "34K units"
+      },
+      {
+        "rank": 24,
+        "code": "TW",
+        "value": "32K units"
+      },
+      {
+        "rank": 25,
+        "code": "SG",
+        "value": "28K units"
+      },
+      {
+        "rank": 26,
+        "code": "AE",
+        "value": "26K units"
+      },
+      {
+        "rank": 27,
+        "code": "IE",
+        "value": "22K units"
+      },
+      {
+        "rank": 28,
+        "code": "SA",
+        "value": "20K units"
+      },
+      {
+        "rank": 29,
+        "code": "TR",
+        "value": "18K units"
+      },
+      {
+        "rank": 30,
+        "code": "RU",
+        "value": "16K units"
       }
     ]
   },
@@ -160435,7 +161665,7 @@
     "title": "Safest Cities in the World",
     "prompt": "Name the countries whose leading city scores highest on the EIU Safe Cities Index (personal, digital, health, infrastructure security).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Economist Intelligence Unit \u2014 Safe Cities Index",
       "url": "https://safecities.economist.com/",
@@ -160520,6 +161750,81 @@
         "rank": 15,
         "code": "ES",
         "value": "71.8 (Madrid)"
+      },
+      {
+        "rank": 16,
+        "code": "AE",
+        "value": "71.5 (Abu Dhabi)"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "70.6 (Brussels)"
+      },
+      {
+        "rank": 18,
+        "code": "FR",
+        "value": "70.2 (Paris)"
+      },
+      {
+        "rank": 19,
+        "code": "IE",
+        "value": "69.9 (Dublin)"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "69.3 (Milan)"
+      },
+      {
+        "rank": 21,
+        "code": "CL",
+        "value": "68.7 (Santiago)"
+      },
+      {
+        "rank": 22,
+        "code": "AR",
+        "value": "68.4 (Buenos Aires)"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "68.0 (Prague)"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "67.5 (Kuala Lumpur)"
+      },
+      {
+        "rank": 25,
+        "code": "CN",
+        "value": "67.1 (Shanghai)"
+      },
+      {
+        "rank": 26,
+        "code": "GR",
+        "value": "66.4 (Athens)"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "66.0 (Lisbon)"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "65.7 (Warsaw)"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "65.4 (Tel Aviv)"
+      },
+      {
+        "rank": 30,
+        "code": "BR",
+        "value": "64.6 (Sao Paulo)"
       }
     ]
   },
@@ -160530,7 +161835,7 @@
     "title": "Most Billionaires in One City",
     "prompt": "Name the countries whose leading city has the most resident billionaires per the Forbes World's Billionaires list.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Forbes \u2014 World's Billionaires (city rankings)",
       "url": "https://www.forbes.com/billionaires/",
@@ -160615,6 +161920,81 @@
         "rank": 15,
         "code": "JP",
         "value": "17 (Tokyo)"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "15 (Toronto)"
+      },
+      {
+        "rank": 17,
+        "code": "FR",
+        "value": "14 (Paris)"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "13 (Milan)"
+      },
+      {
+        "rank": 19,
+        "code": "SE",
+        "value": "12 (Stockholm)"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "11 (Sydney)"
+      },
+      {
+        "rank": 21,
+        "code": "ID",
+        "value": "10 (Jakarta)"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "9 (Mexico City)"
+      },
+      {
+        "rank": 23,
+        "code": "KR",
+        "value": "8 (Seoul)"
+      },
+      {
+        "rank": 24,
+        "code": "IL",
+        "value": "7 (Tel Aviv)"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "6 (Madrid)"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "5 (Kuala Lumpur)"
+      },
+      {
+        "rank": 27,
+        "code": "SA",
+        "value": "4 (Riyadh)"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "4 (Vienna)"
+      },
+      {
+        "rank": 29,
+        "code": "PH",
+        "value": "4 (Manila)"
+      },
+      {
+        "rank": 30,
+        "code": "MC",
+        "value": "3 (Monaco)"
       }
     ]
   },
@@ -160625,7 +162005,7 @@
     "title": "Most Fortune Global 500 HQs in One City",
     "prompt": "Name the countries whose leading city hosts the most Fortune Global 500 company headquarters.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Fortune \u2014 Global 500",
       "url": "https://fortune.com/ranking/global500/",
@@ -160710,6 +162090,81 @@
         "rank": 14,
         "code": "CA",
         "value": "2 HQs (Toronto)"
+      },
+      {
+        "rank": 16,
+        "code": "BR",
+        "value": "2 HQs (Sao Paulo)"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "2 HQs (Melbourne)"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "2 HQs (Stockholm)"
+      },
+      {
+        "rank": 19,
+        "code": "IE",
+        "value": "1 HQ (Dublin)"
+      },
+      {
+        "rank": 19,
+        "code": "SG",
+        "value": "1 HQ (Singapore)"
+      },
+      {
+        "rank": 19,
+        "code": "BE",
+        "value": "1 HQ (Brussels)"
+      },
+      {
+        "rank": 19,
+        "code": "TH",
+        "value": "1 HQ (Bangkok)"
+      },
+      {
+        "rank": 19,
+        "code": "MY",
+        "value": "1 HQ (Kuala Lumpur)"
+      },
+      {
+        "rank": 19,
+        "code": "MX",
+        "value": "1 HQ (Mexico City)"
+      },
+      {
+        "rank": 19,
+        "code": "SA",
+        "value": "1 HQ (Dhahran)"
+      },
+      {
+        "rank": 19,
+        "code": "AE",
+        "value": "1 HQ (Abu Dhabi)"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "1 HQ (Istanbul)"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "1 HQ (Vienna)"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "1 HQ (Oslo)"
+      },
+      {
+        "rank": 19,
+        "code": "PL",
+        "value": "1 HQ (Warsaw)"
       }
     ]
   },
@@ -160720,7 +162175,7 @@
     "title": "Densest Cities in the World",
     "prompt": "Name the countries with the world's most densely populated large cities by residents per square kilometre.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Demographia \u2014 World Urban Areas (built-up area density)",
       "url": "http://www.demographia.com/db-worldua.pdf",
@@ -160805,6 +162260,81 @@
         "rank": 15,
         "code": "ID",
         "value": "~10,800/km\u00b2 (Jakarta)"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "~10,500/km\u00b2 (Tehran)"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "~10,200/km\u00b2 (Mexico City)"
+      },
+      {
+        "rank": 18,
+        "code": "CL",
+        "value": "~9,800/km\u00b2 (Santiago)"
+      },
+      {
+        "rank": 19,
+        "code": "VE",
+        "value": "~9,500/km\u00b2 (Caracas)"
+      },
+      {
+        "rank": 20,
+        "code": "TR",
+        "value": "~9,200/km\u00b2 (Istanbul)"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "~9,000/km\u00b2 (Buenos Aires)"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "~8,500/km\u00b2 (Sao Paulo)"
+      },
+      {
+        "rank": 23,
+        "code": "TH",
+        "value": "~8,300/km\u00b2 (Bangkok)"
+      },
+      {
+        "rank": 24,
+        "code": "JP",
+        "value": "~8,100/km\u00b2 (Tokyo)"
+      },
+      {
+        "rank": 25,
+        "code": "FR",
+        "value": "~7,700/km\u00b2 (Paris)"
+      },
+      {
+        "rank": 26,
+        "code": "GT",
+        "value": "~7,500/km\u00b2 (Guatemala City)"
+      },
+      {
+        "rank": 27,
+        "code": "MA",
+        "value": "~7,300/km\u00b2 (Casablanca)"
+      },
+      {
+        "rank": 28,
+        "code": "DZ",
+        "value": "~7,100/km\u00b2 (Algiers)"
+      },
+      {
+        "rank": 29,
+        "code": "ES",
+        "value": "~6,900/km\u00b2 (Barcelona)"
+      },
+      {
+        "rank": 30,
+        "code": "GB",
+        "value": "~5,700/km\u00b2 (London)"
       }
     ]
   },
@@ -160815,7 +162345,7 @@
     "title": "Longest Metro Rail Networks",
     "prompt": "Name the countries whose leading city has the world's longest metro/subway rail network by route length.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UITP \u2014 World Metro Figures",
       "url": "https://www.uitp.org/publications/world-metro-figures/",
@@ -160900,6 +162430,81 @@
         "rank": 15,
         "code": "TR",
         "value": "353 km (Istanbul)"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "76 km (Toronto)"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "103 km (Milan)"
+      },
+      {
+        "rank": 18,
+        "code": "HK",
+        "value": "175 km (Hong Kong)"
+      },
+      {
+        "rank": 19,
+        "code": "IR",
+        "value": "251 km (Tehran)"
+      },
+      {
+        "rank": 20,
+        "code": "AE",
+        "value": "90 km (Dubai)"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "108 km (Stockholm)"
+      },
+      {
+        "rank": 22,
+        "code": "TH",
+        "value": "148 km (Bangkok)"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "83 km (Vienna)"
+      },
+      {
+        "rank": 24,
+        "code": "AR",
+        "value": "63 km (Buenos Aires)"
+      },
+      {
+        "rank": 25,
+        "code": "CL",
+        "value": "140 km (Santiago)"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "60 km (Kuala Lumpur)"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "44 km (Lisbon)"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "42 km (Warsaw)"
+      },
+      {
+        "rank": 29,
+        "code": "VN",
+        "value": "20 km (Hanoi)"
+      },
+      {
+        "rank": 30,
+        "code": "PH",
+        "value": "35 km (Manila)"
       }
     ]
   },
@@ -160910,7 +162515,7 @@
     "title": "Highest-Elevation Capital Cities",
     "prompt": "Name the countries whose capital city sits at the highest elevation above sea level.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "United Nations Statistics Division / Britannica capital city elevations",
       "url": "https://www.britannica.com/topic/list-of-national-capitals-1667012",
@@ -160995,6 +162600,81 @@
         "rank": 15,
         "code": "AD",
         "value": "1,023 m (Andorra la Vella)"
+      },
+      {
+        "rank": 16,
+        "code": "ZA",
+        "value": "1,753 m (Pretoria)"
+      },
+      {
+        "rank": 17,
+        "code": "ER",
+        "value": "2,325 m (Asmara)"
+      },
+      {
+        "rank": 18,
+        "code": "MN",
+        "value": "1,350 m (Ulaanbaatar)"
+      },
+      {
+        "rank": 19,
+        "code": "SV",
+        "value": "670 m (San Salvador)"
+      },
+      {
+        "rank": 20,
+        "code": "MA",
+        "value": "1,913 m (Ifrane area) \u2014 Rabat 75 m"
+      },
+      {
+        "rank": 21,
+        "code": "TJ",
+        "value": "800 m (Dushanbe)"
+      },
+      {
+        "rank": 22,
+        "code": "AL",
+        "value": "110 m (Tirana)"
+      },
+      {
+        "rank": 23,
+        "code": "AZ",
+        "value": "28 m (Baku)"
+      },
+      {
+        "rank": 24,
+        "code": "KG",
+        "value": "800 m (Bishkek)"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "938 m (Ankara)"
+      },
+      {
+        "rank": 26,
+        "code": "IQ",
+        "value": "34 m (Baghdad) \u2014 Erbil 415 m"
+      },
+      {
+        "rank": 27,
+        "code": "ES",
+        "value": "667 m (Madrid)"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "216 m (New Delhi)"
+      },
+      {
+        "rank": 29,
+        "code": "PK",
+        "value": "540 m (Islamabad)"
+      },
+      {
+        "rank": 30,
+        "code": "NP",
+        "value": "1,400 m (Kathmandu)"
       }
     ]
   },
@@ -161005,7 +162685,7 @@
     "title": "Most GaWC Alpha+ World Cities",
     "prompt": "Name the countries with cities classified Alpha+, Alpha or Alpha- in the GaWC World Cities ranking of global connectivity.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Globalization and World Cities (GaWC) Research Network \u2014 World Cities Roster",
       "url": "https://www.lboro.ac.uk/microsites/geography/gawc/world2020t.html",
@@ -161090,6 +162770,81 @@
         "rank": 8,
         "code": "KR",
         "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "TR",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "RU",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "TH",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "TW",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "ID",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "MY",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "IE",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "PL",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "ZA",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "AR",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "CL",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "CO",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "PH",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "VN",
+        "value": "1 Alpha city"
+      },
+      {
+        "rank": 8,
+        "code": "EG",
+        "value": "1 Alpha city"
       }
     ]
   },
@@ -161100,7 +162855,7 @@
     "title": "Busiest Airport Metros",
     "prompt": "Name the countries whose leading city has the most total passenger traffic across its metropolitan-area airport system.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Airports Council International \u2014 World Airport Traffic Report",
       "url": "https://aci.aero/",
@@ -161185,6 +162940,81 @@
         "rank": 15,
         "code": "MX",
         "value": "~48M pax (Mexico City)"
+      },
+      {
+        "rank": 16,
+        "code": "ID",
+        "value": "~54M pax (Jakarta)"
+      },
+      {
+        "rank": 17,
+        "code": "HK",
+        "value": "~40M pax (Hong Kong)"
+      },
+      {
+        "rank": 18,
+        "code": "TW",
+        "value": "~35M pax (Taipei)"
+      },
+      {
+        "rank": 19,
+        "code": "MY",
+        "value": "~48M pax (Kuala Lumpur)"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "~40M pax (Sao Paulo)"
+      },
+      {
+        "rank": 21,
+        "code": "CA",
+        "value": "~44M pax (Toronto)"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "~40M pax (Rome)"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "~38M pax (Sydney)"
+      },
+      {
+        "rank": 24,
+        "code": "SA",
+        "value": "~40M pax (Jeddah)"
+      },
+      {
+        "rank": 25,
+        "code": "CH",
+        "value": "~28M pax (Zurich)"
+      },
+      {
+        "rank": 26,
+        "code": "IE",
+        "value": "~32M pax (Dublin)"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "~33M pax (Lisbon)"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "~29M pax (Vienna)"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "~29M pax (Copenhagen)"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "~28M pax (Athens)"
       }
     ]
   },
@@ -162390,7 +164220,7 @@
     "title": "Highest cybercrime victim rate",
     "prompt": "Name the countries with the highest cybercrime victim density on the Cybercrime Index (score 0-100).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "World Cybercrime Index \u2014 University of Oxford / UNSW (Bruce & Lusthaus)",
       "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0297312",
@@ -162475,6 +164305,81 @@
         "rank": 15,
         "code": "MD",
         "value": "2.7 score"
+      },
+      {
+        "rank": 16,
+        "code": "IL",
+        "value": "2.5 score"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "2.2 score"
+      },
+      {
+        "rank": 18,
+        "code": "DE",
+        "value": "2.0 score"
+      },
+      {
+        "rank": 19,
+        "code": "LV",
+        "value": "1.9 score"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "1.8 score"
+      },
+      {
+        "rank": 21,
+        "code": "BG",
+        "value": "1.7 score"
+      },
+      {
+        "rank": 22,
+        "code": "FR",
+        "value": "1.6 score"
+      },
+      {
+        "rank": 23,
+        "code": "PK",
+        "value": "1.5 score"
+      },
+      {
+        "rank": 24,
+        "code": "TR",
+        "value": "1.4 score"
+      },
+      {
+        "rank": 25,
+        "code": "AR",
+        "value": "1.3 score"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "1.2 score"
+      },
+      {
+        "rank": 27,
+        "code": "ES",
+        "value": "1.1 score"
+      },
+      {
+        "rank": 28,
+        "code": "MY",
+        "value": "1.0 score"
+      },
+      {
+        "rank": 29,
+        "code": "VN",
+        "value": "0.9 score"
+      },
+      {
+        "rank": 30,
+        "code": "ID",
+        "value": "0.8 score"
       }
     ]
   },
@@ -162925,7 +164830,7 @@
     "title": "Highest opioid overdose death rate",
     "prompt": "Name the countries with the highest rate of opioid-related overdose deaths per 100,000 people.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "UNODC World Drug Report / Our World in Data \u2014 Opioid overdose mortality",
       "url": "https://ourworldindata.org/illicit-drug-use",
@@ -163010,6 +164915,56 @@
         "rank": 15,
         "code": "DE",
         "value": "2.8 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "SI",
+        "value": "2.6 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "LV",
+        "value": "2.4 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "CH",
+        "value": "2.2 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "LU",
+        "value": "2.0 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "1.8 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "1.6 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "1.4 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "1.2 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "1.0 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "0.9 per 100k"
       }
     ]
   },
@@ -163020,7 +164975,7 @@
     "title": "Highest judicial independence",
     "prompt": "Name the countries ranked highest for judicial independence.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "WEF Global Competitiveness Report / World Justice Project \u2014 Judicial Independence Sub-factor",
       "url": "https://worldjusticeproject.org/rule-of-law-index/factors/2024/Constraints%20on%20Government%20Powers",
@@ -163105,6 +165060,56 @@
         "rank": 15,
         "code": "BE",
         "value": "0.82 score"
+      },
+      {
+        "rank": 16,
+        "code": "IS",
+        "value": "0.81 score"
+      },
+      {
+        "rank": 17,
+        "code": "JP",
+        "value": "0.80 score"
+      },
+      {
+        "rank": 18,
+        "code": "GB",
+        "value": "0.79 score"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "0.78 score"
+      },
+      {
+        "rank": 20,
+        "code": "SG",
+        "value": "0.77 score"
+      },
+      {
+        "rank": 21,
+        "code": "KR",
+        "value": "0.76 score"
+      },
+      {
+        "rank": 22,
+        "code": "US",
+        "value": "0.75 score"
+      },
+      {
+        "rank": 23,
+        "code": "ES",
+        "value": "0.74 score"
+      },
+      {
+        "rank": 24,
+        "code": "PT",
+        "value": "0.73 score"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "0.72 score"
       }
     ]
   },
@@ -163115,7 +165120,7 @@
     "title": "Highest sexual violence rate",
     "prompt": "Name the countries with the highest police-recorded rate of sexual violence offences per 100,000 people.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "UNODC Data Portal \u2014 Crime and Criminal Justice (Sexual Violence)",
       "url": "https://dataunodc.un.org/dp-crime-violent-offences",
@@ -163200,6 +165205,56 @@
         "rank": 15,
         "code": "FR",
         "value": "70 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "68 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "CH",
+        "value": "62 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "NL",
+        "value": "58 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "DE",
+        "value": "54 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "50 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "44 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "CR",
+        "value": "42 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "UY",
+        "value": "40 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "CL",
+        "value": "38 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "PA",
+        "value": "36 per 100k"
       }
     ]
   },
@@ -163210,7 +165265,7 @@
     "title": "Lowest prison population per capita",
     "prompt": "Name the countries with the smallest prison population per 100,000 residents.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "World Prison Brief \u2014 Institute for Crime & Justice Policy Research",
       "url": "https://www.prisonstudies.org/highest-to-lowest/prison_population_rate",
@@ -163295,6 +165350,56 @@
         "rank": 15,
         "code": "NP",
         "value": "65 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "IN",
+        "value": "67 per 100k"
+      },
+      {
+        "rank": 17,
+        "code": "BJ",
+        "value": "68 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "72 per 100k"
+      },
+      {
+        "rank": 19,
+        "code": "TG",
+        "value": "74 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "75 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "76 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "PK",
+        "value": "77 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "GH",
+        "value": "78 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "LR",
+        "value": "80 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "DE",
+        "value": "84 per 100k"
       }
     ]
   },
@@ -170690,7 +172795,7 @@
     "title": "Highest Single-Parent Household Share",
     "prompt": "Name the countries with the highest share of children living in single-parent households.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Pew Research Center \u2014 Children living with a single parent (global)",
       "url": "https://www.pewresearch.org/short-reads/2019/12/12/u-s-children-more-likely-than-children-in-other-countries-to-live-with-just-one-parent/",
@@ -170734,7 +172839,7 @@
       {
         "rank": 7,
         "code": "SE",
-        "value": "15%"
+        "value": "15% (tied)"
       },
       {
         "rank": 8,
@@ -170759,7 +172864,7 @@
       {
         "rank": 12,
         "code": "IE",
-        "value": "11%"
+        "value": "11% (tied)"
       },
       {
         "rank": 13,
@@ -170769,12 +172874,87 @@
       {
         "rank": 14,
         "code": "AR",
-        "value": "10%"
+        "value": "10% (tied)"
       },
       {
         "rank": 15,
         "code": "ES",
-        "value": "10%"
+        "value": "10% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "10% (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "FI",
+        "value": "10% (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NZ",
+        "value": "10% (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CZ",
+        "value": "9%"
+      },
+      {
+        "rank": 20,
+        "code": "HU",
+        "value": "9% (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "9% (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "9% (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "8%"
+      },
+      {
+        "rank": 24,
+        "code": "IT",
+        "value": "8% (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CH",
+        "value": "8% (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "GR",
+        "value": "7%"
+      },
+      {
+        "rank": 27,
+        "code": "SK",
+        "value": "7% (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "JP",
+        "value": "7% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "RO",
+        "value": "6%"
+      },
+      {
+        "rank": 30,
+        "code": "KR",
+        "value": "6% (tied)"
       }
     ]
   },
@@ -170785,7 +172965,7 @@
     "title": "Best UN Gender Inequality Index (Lowest GII)",
     "prompt": "Name the countries with the lowest score on the UN Gender Inequality Index (the most gender-equal countries).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UNDP Human Development Report \u2014 Gender Inequality Index (GII)",
       "url": "https://hdr.undp.org/data-center/thematic-composite-indices/gender-inequality-index",
@@ -170870,6 +173050,81 @@
         "rank": 15,
         "code": "FR",
         "value": "0.084 GII"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "0.088 GII"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "0.098 GII"
+      },
+      {
+        "rank": 18,
+        "code": "EE",
+        "value": "0.101 GII"
+      },
+      {
+        "rank": 19,
+        "code": "CA",
+        "value": "0.069 GII"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "0.063 GII"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "0.057 GII"
+      },
+      {
+        "rank": 22,
+        "code": "CY",
+        "value": "0.115 GII"
+      },
+      {
+        "rank": 23,
+        "code": "KR",
+        "value": "0.067 GII"
+      },
+      {
+        "rank": 24,
+        "code": "JP",
+        "value": "0.078 GII"
+      },
+      {
+        "rank": 25,
+        "code": "GB",
+        "value": "0.094 GII"
+      },
+      {
+        "rank": 26,
+        "code": "NZ",
+        "value": "0.088 GII (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "IL",
+        "value": "0.083 GII"
+      },
+      {
+        "rank": 28,
+        "code": "CZ",
+        "value": "0.121 GII"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "0.105 GII"
+      },
+      {
+        "rank": 30,
+        "code": "HR",
+        "value": "0.087 GII"
       }
     ]
   },
@@ -171150,7 +173405,7 @@
     "title": "Best Women's Economic Participation Score (WEF)",
     "prompt": "Name the countries with the highest score on the WEF Global Gender Gap Report's Economic Participation and Opportunity subindex.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "World Economic Forum \u2014 Global Gender Gap Report 2023",
       "url": "https://www.weforum.org/publications/global-gender-gap-report-2023/",
@@ -171235,6 +173490,81 @@
         "rank": 15,
         "code": "SE",
         "value": "0.810 score"
+      },
+      {
+        "rank": 16,
+        "code": "FI",
+        "value": "0.808 score"
+      },
+      {
+        "rank": 17,
+        "code": "LV",
+        "value": "0.805 score"
+      },
+      {
+        "rank": 18,
+        "code": "NA",
+        "value": "0.803 score"
+      },
+      {
+        "rank": 19,
+        "code": "EE",
+        "value": "0.802 score"
+      },
+      {
+        "rank": 20,
+        "code": "PH",
+        "value": "0.799 score"
+      },
+      {
+        "rank": 21,
+        "code": "CV",
+        "value": "0.795 score"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "0.792 score"
+      },
+      {
+        "rank": 23,
+        "code": "MG",
+        "value": "0.790 score"
+      },
+      {
+        "rank": 24,
+        "code": "US",
+        "value": "0.788 score"
+      },
+      {
+        "rank": 25,
+        "code": "NZ",
+        "value": "0.786 score"
+      },
+      {
+        "rank": 26,
+        "code": "CA",
+        "value": "0.784 score"
+      },
+      {
+        "rank": 27,
+        "code": "AU",
+        "value": "0.782 score"
+      },
+      {
+        "rank": 28,
+        "code": "SG",
+        "value": "0.780 score"
+      },
+      {
+        "rank": 29,
+        "code": "MZ",
+        "value": "0.778 score"
+      },
+      {
+        "rank": 30,
+        "code": "UG",
+        "value": "0.775 score"
       }
     ]
   },
@@ -171785,7 +174115,7 @@
     "title": "Lowest Marriage Rate",
     "prompt": "Name the countries with the lowest crude marriage rate (marriages per 1,000 people per year).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UN Demographic Yearbook \u2014 Marriages and Crude Marriage Rates",
       "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
@@ -171870,6 +174200,81 @@
         "rank": 15,
         "code": "CL",
         "value": "3.2 per 1,000"
+      },
+      {
+        "rank": 16,
+        "code": "AT",
+        "value": "3.2 per 1,000 (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "EE",
+        "value": "3.4 per 1,000"
+      },
+      {
+        "rank": 18,
+        "code": "GR",
+        "value": "3.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "3.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "SE",
+        "value": "3.5 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "FI",
+        "value": "3.5 per 1,000 (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "HR",
+        "value": "3.6 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "BG",
+        "value": "3.6 per 1,000 (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "CZ",
+        "value": "3.8 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "DE",
+        "value": "3.9 per 1,000"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "3.9 per 1,000 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "SK",
+        "value": "4.0 per 1,000"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "4.0 per 1,000 (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "CH",
+        "value": "4.1 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "4.3 per 1,000"
       }
     ]
   },
@@ -178375,7 +180780,7 @@
     "title": "Largest natural graphite producers",
     "prompt": "Name the countries with the largest mined natural graphite production.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 30,
     "source": {
       "name": "USGS Mineral Commodity Summaries 2024 \u2014 Graphite",
       "url": "https://pubs.usgs.gov/periodicals/mcs2024/mcs2024-graphite.pdf",
@@ -178435,6 +180840,106 @@
         "rank": 10,
         "code": "UA",
         "value": "6 thousand tonnes"
+      },
+      {
+        "rank": 11,
+        "code": "TR",
+        "value": "5 thousand tonnes"
+      },
+      {
+        "rank": 12,
+        "code": "TZ",
+        "value": "4 thousand tonnes"
+      },
+      {
+        "rank": 13,
+        "code": "MX",
+        "value": "3.5 thousand tonnes"
+      },
+      {
+        "rank": 14,
+        "code": "VN",
+        "value": "3 thousand tonnes"
+      },
+      {
+        "rank": 15,
+        "code": "AT",
+        "value": "2 thousand tonnes"
+      },
+      {
+        "rank": 16,
+        "code": "PK",
+        "value": "1.5 thousand tonnes"
+      },
+      {
+        "rank": 17,
+        "code": "ZW",
+        "value": "1.2 thousand tonnes"
+      },
+      {
+        "rank": 18,
+        "code": "US",
+        "value": "1 thousand tonnes"
+      },
+      {
+        "rank": 19,
+        "code": "SE",
+        "value": "0.9 thousand tonnes"
+      },
+      {
+        "rank": 20,
+        "code": "CZ",
+        "value": "0.8 thousand tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "0.7 thousand tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "KP",
+        "value": "0.6 thousand tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "LK",
+        "value": "0.5 thousand tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "0.4 thousand tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "NA",
+        "value": "0.3 thousand tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "FI",
+        "value": "0.25 thousand tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "AU",
+        "value": "0.2 thousand tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "0.15 thousand tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "RO",
+        "value": "0.1 thousand tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "0.05 thousand tonnes"
       }
     ]
   },
