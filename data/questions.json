@@ -10905,7 +10905,7 @@
     "title": "Hottest countries (highest annual average temperature)",
     "prompt": "Name the countries with the highest annual mean surface temperature.",
     "answerType": "Countries",
-    "seededDepth": 19,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank Climate Change Knowledge Portal \u2014 Historical annual mean temperature",
       "url": "https://climateknowledgeportal.worldbank.org/",
@@ -11007,6 +11007,111 @@
         "rank": 19,
         "code": "SS",
         "value": "27.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 20,
+        "code": "GH",
+        "value": "27.3 \u00b0C annual mean"
+      },
+      {
+        "rank": 21,
+        "code": "NG",
+        "value": "27.2 \u00b0C annual mean"
+      },
+      {
+        "rank": 22,
+        "code": "CI",
+        "value": "27.1 \u00b0C annual mean"
+      },
+      {
+        "rank": 23,
+        "code": "SG",
+        "value": "27.0 \u00b0C annual mean"
+      },
+      {
+        "rank": 24,
+        "code": "QA",
+        "value": "27.0 \u00b0C annual mean"
+      },
+      {
+        "rank": 25,
+        "code": "GW",
+        "value": "26.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 26,
+        "code": "AE",
+        "value": "26.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 27,
+        "code": "CF",
+        "value": "26.8 \u00b0C annual mean"
+      },
+      {
+        "rank": 28,
+        "code": "SL",
+        "value": "26.7 \u00b0C annual mean"
+      },
+      {
+        "rank": 29,
+        "code": "LR",
+        "value": "26.6 \u00b0C annual mean"
+      },
+      {
+        "rank": 30,
+        "code": "GN",
+        "value": "26.5 \u00b0C annual mean"
+      },
+      {
+        "rank": 31,
+        "code": "CM",
+        "value": "26.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 32,
+        "code": "NR",
+        "value": "26.4 \u00b0C annual mean"
+      },
+      {
+        "rank": 33,
+        "code": "PW",
+        "value": "26.3 \u00b0C annual mean"
+      },
+      {
+        "rank": 34,
+        "code": "FM",
+        "value": "26.3 \u00b0C annual mean"
+      },
+      {
+        "rank": 35,
+        "code": "KW",
+        "value": "26.2 \u00b0C annual mean"
+      },
+      {
+        "rank": 36,
+        "code": "BN",
+        "value": "26.2 \u00b0C annual mean"
+      },
+      {
+        "rank": 37,
+        "code": "CG",
+        "value": "26.1 \u00b0C annual mean"
+      },
+      {
+        "rank": 38,
+        "code": "CD",
+        "value": "26.0 \u00b0C annual mean"
+      },
+      {
+        "rank": 39,
+        "code": "UG",
+        "value": "25.9 \u00b0C annual mean"
+      },
+      {
+        "rank": 40,
+        "code": "ST",
+        "value": "25.9 \u00b0C annual mean"
       }
     ],
     "disclaimer": "Annual mean surface temperature averaged across the country's land area. Sahel and Horn of Africa states plus small island nations near the equator run hottest.",
@@ -18880,7 +18985,7 @@
     "title": "Most Christians total",
     "prompt": "Name the countries with the largest total Christian populations.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Pew Research Center \u2014 Global Christianity",
       "url": "https://www.pewresearch.org/religion/2011/12/19/global-christianity-exec/",
@@ -18987,6 +19092,56 @@
         "rank": 20,
         "code": "ES",
         "value": "31 million"
+      },
+      {
+        "rank": 21,
+        "code": "UA",
+        "value": "36 million"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "34 million"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "29 million"
+      },
+      {
+        "rank": 24,
+        "code": "VE",
+        "value": "27 million"
+      },
+      {
+        "rank": 25,
+        "code": "AO",
+        "value": "26 million"
+      },
+      {
+        "rank": 26,
+        "code": "GH",
+        "value": "20 million"
+      },
+      {
+        "rank": 27,
+        "code": "MZ",
+        "value": "18 million"
+      },
+      {
+        "rank": 28,
+        "code": "CA",
+        "value": "24 million"
+      },
+      {
+        "rank": 29,
+        "code": "KR",
+        "value": "15 million"
+      },
+      {
+        "rank": 30,
+        "code": "AU",
+        "value": "13 million"
       }
     ],
     "disclaimer": "Total number of people identifying as Christian (all denominations combined). Figures rounded to the nearest million. Includes Catholic, Protestant, Orthodox, and other Christian traditions.",
@@ -19000,7 +19155,7 @@
     "title": "Most Muslims total",
     "prompt": "Name the countries with the largest total Muslim populations.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Pew Research Center \u2014 The Future of World Religions",
       "url": "https://www.pewresearch.org/religion/2017/04/05/the-changing-global-religious-landscape/",
@@ -19107,6 +19262,56 @@
         "rank": 20,
         "code": "NE",
         "value": "18 million"
+      },
+      {
+        "rank": 21,
+        "code": "ML",
+        "value": "17 million"
+      },
+      {
+        "rank": 22,
+        "code": "SO",
+        "value": "16 million"
+      },
+      {
+        "rank": 23,
+        "code": "TZ",
+        "value": "15 million"
+      },
+      {
+        "rank": 24,
+        "code": "SN",
+        "value": "15 million"
+      },
+      {
+        "rank": 25,
+        "code": "TN",
+        "value": "12 million"
+      },
+      {
+        "rank": 26,
+        "code": "GN",
+        "value": "12 million"
+      },
+      {
+        "rank": 27,
+        "code": "MY",
+        "value": "20 million"
+      },
+      {
+        "rank": 28,
+        "code": "UZ",
+        "value": "30 million"
+      },
+      {
+        "rank": 29,
+        "code": "KZ",
+        "value": "13 million"
+      },
+      {
+        "rank": 30,
+        "code": "AZ",
+        "value": "10 million"
       }
     ],
     "disclaimer": "Total number of people identifying as Muslim (all denominations combined). Figures rounded. Includes Sunni, Shia, and other Islamic traditions.",
@@ -19970,7 +20175,7 @@
     "title": "Most languages spoken (linguistic diversity)",
     "prompt": "Name the countries with the greatest number of distinct living languages spoken.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Ethnologue \u2014 Languages of the World",
       "url": "https://www.ethnologue.com/statistics/country/",
@@ -20077,6 +20282,56 @@
         "rank": 20,
         "code": "LA",
         "value": "84 languages"
+      },
+      {
+        "rank": 21,
+        "code": "SB",
+        "value": "72 languages"
+      },
+      {
+        "rank": 22,
+        "code": "CO",
+        "value": "83 languages"
+      },
+      {
+        "rank": 23,
+        "code": "MY",
+        "value": "137 languages"
+      },
+      {
+        "rank": 24,
+        "code": "NP",
+        "value": "124 languages"
+      },
+      {
+        "rank": 25,
+        "code": "VN",
+        "value": "109 languages"
+      },
+      {
+        "rank": 26,
+        "code": "RU",
+        "value": "105 languages"
+      },
+      {
+        "rank": 27,
+        "code": "TZ",
+        "value": "125 languages"
+      },
+      {
+        "rank": 28,
+        "code": "KE",
+        "value": "68 languages"
+      },
+      {
+        "rank": 29,
+        "code": "SS",
+        "value": "68 languages"
+      },
+      {
+        "rank": 30,
+        "code": "IR",
+        "value": "78 languages"
       }
     ],
     "disclaimer": "Count of distinct living languages spoken as a first language in each country, per Ethnologue.",
@@ -21765,7 +22020,7 @@
     "title": "Longest Total Road Network",
     "prompt": "Name the countries with the longest total road network (paved plus unpaved).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "CIA World Factbook \u2014 Roadways / International Road Federation (IRF) World Road Statistics",
       "url": "https://www.cia.gov/the-world-factbook/field/roadways/",
@@ -21872,6 +22127,106 @@
         "rank": 20,
         "code": "SE",
         "value": "~215,000 km"
+      },
+      {
+        "rank": 21,
+        "code": "ID",
+        "value": "~496,000 km"
+      },
+      {
+        "rank": 22,
+        "code": "RO",
+        "value": "~198,000 km"
+      },
+      {
+        "rank": 23,
+        "code": "UA",
+        "value": "~170,000 km"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "~204,000 km"
+      },
+      {
+        "rank": 25,
+        "code": "FI",
+        "value": "~454,000 km"
+      },
+      {
+        "rank": 26,
+        "code": "AT",
+        "value": "~137,000 km"
+      },
+      {
+        "rank": 27,
+        "code": "NL",
+        "value": "~140,000 km"
+      },
+      {
+        "rank": 28,
+        "code": "BE",
+        "value": "~155,000 km"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "~130,000 km"
+      },
+      {
+        "rank": 30,
+        "code": "IR",
+        "value": "~223,000 km"
+      },
+      {
+        "rank": 31,
+        "code": "KR",
+        "value": "~112,000 km"
+      },
+      {
+        "rank": 32,
+        "code": "CO",
+        "value": "~207,000 km"
+      },
+      {
+        "rank": 33,
+        "code": "TH",
+        "value": "~180,000 km"
+      },
+      {
+        "rank": 34,
+        "code": "VN",
+        "value": "~195,000 km"
+      },
+      {
+        "rank": 35,
+        "code": "PH",
+        "value": "~217,000 km"
+      },
+      {
+        "rank": 36,
+        "code": "MY",
+        "value": "~145,000 km"
+      },
+      {
+        "rank": 37,
+        "code": "EG",
+        "value": "~137,000 km"
+      },
+      {
+        "rank": 38,
+        "code": "NG",
+        "value": "~195,000 km"
+      },
+      {
+        "rank": 39,
+        "code": "SA",
+        "value": "~221,000 km"
+      },
+      {
+        "rank": 40,
+        "code": "GR",
+        "value": "~117,000 km"
       }
     ],
     "disclaimer": "Rural/village roads inflate figures for some countries; methodology varies on whether every public road is counted.",
@@ -21885,7 +22240,7 @@
     "title": "Longest Total Rail Network",
     "prompt": "Name the countries with the longest total railway network (all gauges, in-use track).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "CIA World Factbook \u2014 Railways / World Bank Rail Lines (total route-km)",
       "url": "https://data.worldbank.org/indicator/IS.RRS.TOTL.KM",
@@ -21992,6 +22347,106 @@
         "rank": 20,
         "code": "HU",
         "value": "~8,000 km"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "~23,400 km"
+      },
+      {
+        "rank": 22,
+        "code": "KZ",
+        "value": "~16,600 km"
+      },
+      {
+        "rank": 23,
+        "code": "SE",
+        "value": "~10,900 km"
+      },
+      {
+        "rank": 24,
+        "code": "PK",
+        "value": "~11,900 km"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "~12,700 km"
+      },
+      {
+        "rank": 26,
+        "code": "IR",
+        "value": "~8,500 km"
+      },
+      {
+        "rank": 27,
+        "code": "FI",
+        "value": "~5,900 km"
+      },
+      {
+        "rank": 28,
+        "code": "AT",
+        "value": "~5,800 km"
+      },
+      {
+        "rank": 29,
+        "code": "BY",
+        "value": "~5,500 km"
+      },
+      {
+        "rank": 30,
+        "code": "BG",
+        "value": "~4,000 km"
+      },
+      {
+        "rank": 31,
+        "code": "CH",
+        "value": "~5,300 km"
+      },
+      {
+        "rank": 32,
+        "code": "NL",
+        "value": "~3,400 km"
+      },
+      {
+        "rank": 33,
+        "code": "BE",
+        "value": "~3,600 km"
+      },
+      {
+        "rank": 34,
+        "code": "SK",
+        "value": "~3,600 km"
+      },
+      {
+        "rank": 35,
+        "code": "PT",
+        "value": "~2,500 km"
+      },
+      {
+        "rank": 36,
+        "code": "DK",
+        "value": "~2,600 km"
+      },
+      {
+        "rank": 37,
+        "code": "NO",
+        "value": "~4,200 km"
+      },
+      {
+        "rank": 38,
+        "code": "CU",
+        "value": "~8,200 km"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "~7,300 km"
+      },
+      {
+        "rank": 40,
+        "code": "EG",
+        "value": "~5,100 km"
       }
     ],
     "disclaimer": "Counts route-length (in-service track); if track-km with double/quad tracks were counted separately, some countries would leap higher. Freight-only vs. passenger-only lines are not split out here.",
@@ -22175,7 +22630,7 @@
     "title": "Most Airports",
     "prompt": "Name the countries with the most airports (paved and unpaved runways).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "CIA World Factbook \u2014 Airports",
       "url": "https://www.cia.gov/the-world-factbook/field/airports/",
@@ -22282,6 +22737,106 @@
         "rank": 20,
         "code": "IT",
         "value": "129 airports"
+      },
+      {
+        "rank": 21,
+        "code": "CL",
+        "value": "481 airports"
+      },
+      {
+        "rank": 22,
+        "code": "VE",
+        "value": "444 airports"
+      },
+      {
+        "rank": 23,
+        "code": "EC",
+        "value": "432 airports"
+      },
+      {
+        "rank": 24,
+        "code": "PG",
+        "value": "561 airports"
+      },
+      {
+        "rank": 25,
+        "code": "KE",
+        "value": "197 airports"
+      },
+      {
+        "rank": 26,
+        "code": "PH",
+        "value": "247 airports"
+      },
+      {
+        "rank": 27,
+        "code": "TR",
+        "value": "98 airports"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "135 airports"
+      },
+      {
+        "rank": 29,
+        "code": "SE",
+        "value": "231 airports"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "95 airports"
+      },
+      {
+        "rank": 31,
+        "code": "FI",
+        "value": "148 airports"
+      },
+      {
+        "rank": 32,
+        "code": "PL",
+        "value": "126 airports"
+      },
+      {
+        "rank": 33,
+        "code": "UA",
+        "value": "187 airports"
+      },
+      {
+        "rank": 34,
+        "code": "KZ",
+        "value": "96 airports"
+      },
+      {
+        "rank": 35,
+        "code": "SA",
+        "value": "214 airports"
+      },
+      {
+        "rank": 36,
+        "code": "IR",
+        "value": "319 airports"
+      },
+      {
+        "rank": 37,
+        "code": "TH",
+        "value": "101 airports"
+      },
+      {
+        "rank": 38,
+        "code": "NZ",
+        "value": "123 airports"
+      },
+      {
+        "rank": 39,
+        "code": "MY",
+        "value": "114 airports"
+      },
+      {
+        "rank": 40,
+        "code": "KR",
+        "value": "111 airports"
       }
     ],
     "disclaimer": "Totals include private airstrips and heliports in some countries; if restricted to commercial airports with scheduled service the ranking looks very different.",
@@ -22295,7 +22850,7 @@
     "title": "Largest Merchant Shipping Fleet by Deadweight Tonnage",
     "prompt": "Name the countries owning the largest merchant shipping fleets by deadweight tonnage (beneficial owner, not flag of registration).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 39,
     "source": {
       "name": "UNCTAD \u2014 Review of Maritime Transport",
       "url": "https://unctad.org/topic/transport-and-trade-logistics/review-of-maritime-transport",
@@ -22402,6 +22957,101 @@
         "rank": 20,
         "code": "BE",
         "value": "~18 million DWT"
+      },
+      {
+        "rank": 21,
+        "code": "MC",
+        "value": "~17 million DWT"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "~16 million DWT"
+      },
+      {
+        "rank": 23,
+        "code": "SA",
+        "value": "~15 million DWT"
+      },
+      {
+        "rank": 24,
+        "code": "FR",
+        "value": "~14 million DWT"
+      },
+      {
+        "rank": 25,
+        "code": "CY",
+        "value": "~13 million DWT"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "~12 million DWT"
+      },
+      {
+        "rank": 27,
+        "code": "ID",
+        "value": "~11 million DWT"
+      },
+      {
+        "rank": 28,
+        "code": "QA",
+        "value": "~10 million DWT"
+      },
+      {
+        "rank": 29,
+        "code": "KW",
+        "value": "~9 million DWT"
+      },
+      {
+        "rank": 30,
+        "code": "OM",
+        "value": "~8 million DWT"
+      },
+      {
+        "rank": 31,
+        "code": "VN",
+        "value": "~7 million DWT"
+      },
+      {
+        "rank": 32,
+        "code": "TH",
+        "value": "~7 million DWT"
+      },
+      {
+        "rank": 33,
+        "code": "PH",
+        "value": "~6 million DWT"
+      },
+      {
+        "rank": 34,
+        "code": "MY",
+        "value": "~6 million DWT"
+      },
+      {
+        "rank": 35,
+        "code": "ES",
+        "value": "~5 million DWT"
+      },
+      {
+        "rank": 36,
+        "code": "SE",
+        "value": "~5 million DWT"
+      },
+      {
+        "rank": 37,
+        "code": "PL",
+        "value": "~4 million DWT"
+      },
+      {
+        "rank": 38,
+        "code": "AZ",
+        "value": "~4 million DWT"
+      },
+      {
+        "rank": 40,
+        "code": "EG",
+        "value": "~3 million DWT"
       }
     ],
     "disclaimer": "This ranks by beneficial owner (country of the parent shipping company), which differs sharply from flag-of-registration rankings dominated by Panama, Liberia, and the Marshall Islands.",
@@ -22415,7 +23065,7 @@
     "title": "Highest Container Port Throughput",
     "prompt": "Name the countries with the highest annual container port throughput (TEU, twenty-foot equivalent units).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UNCTAD \u2014 Container port throughput / World Bank & IHS Markit",
       "url": "https://unctadstat.unctad.org/wds/TableViewer/tableView.aspx?ReportId=13321",
@@ -22522,6 +23172,106 @@
         "rank": 20,
         "code": "IT",
         "value": "~9 million TEU"
+      },
+      {
+        "rank": 21,
+        "code": "PA",
+        "value": "~8.5 million TEU"
+      },
+      {
+        "rank": 22,
+        "code": "TR",
+        "value": "~8.4 million TEU"
+      },
+      {
+        "rank": 23,
+        "code": "EG",
+        "value": "~7.7 million TEU"
+      },
+      {
+        "rank": 24,
+        "code": "PH",
+        "value": "~7.5 million TEU"
+      },
+      {
+        "rank": 25,
+        "code": "BR",
+        "value": "~6.9 million TEU"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "~6.8 million TEU"
+      },
+      {
+        "rank": 27,
+        "code": "MA",
+        "value": "~6.0 million TEU"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "~5.8 million TEU"
+      },
+      {
+        "rank": 29,
+        "code": "LK",
+        "value": "~5.5 million TEU"
+      },
+      {
+        "rank": 30,
+        "code": "CO",
+        "value": "~4.8 million TEU"
+      },
+      {
+        "rank": 31,
+        "code": "AU",
+        "value": "~4.2 million TEU"
+      },
+      {
+        "rank": 32,
+        "code": "GR",
+        "value": "~5.0 million TEU"
+      },
+      {
+        "rank": 33,
+        "code": "PT",
+        "value": "~2.8 million TEU"
+      },
+      {
+        "rank": 34,
+        "code": "FR",
+        "value": "~4.7 million TEU"
+      },
+      {
+        "rank": 35,
+        "code": "PK",
+        "value": "~3.3 million TEU"
+      },
+      {
+        "rank": 36,
+        "code": "BD",
+        "value": "~3.2 million TEU"
+      },
+      {
+        "rank": 37,
+        "code": "CL",
+        "value": "~4.4 million TEU"
+      },
+      {
+        "rank": 38,
+        "code": "PE",
+        "value": "~2.9 million TEU"
+      },
+      {
+        "rank": 39,
+        "code": "AR",
+        "value": "~2.0 million TEU"
+      },
+      {
+        "rank": 40,
+        "code": "IL",
+        "value": "~2.9 million TEU"
       }
     ],
     "disclaimer": null,
@@ -54465,7 +55215,7 @@
     "title": "Most ATMs per 100,000 adults",
     "prompt": "Name the countries with the highest ATM density per 100,000 adults.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / IMF Financial Access Survey",
       "url": "https://data.imf.org/FAS",
@@ -54575,6 +55325,106 @@
         "rank": 20,
         "code": "TR",
         "value": "78.9 per 100k adults"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "77.5 per 100k adults"
+      },
+      {
+        "rank": 22,
+        "code": "BG",
+        "value": "75.8 per 100k adults"
+      },
+      {
+        "rank": 23,
+        "code": "IR",
+        "value": "74.6 per 100k adults"
+      },
+      {
+        "rank": 24,
+        "code": "HR",
+        "value": "72.3 per 100k adults"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "70.4 per 100k adults"
+      },
+      {
+        "rank": 26,
+        "code": "GR",
+        "value": "68.9 per 100k adults"
+      },
+      {
+        "rank": 27,
+        "code": "AR",
+        "value": "66.5 per 100k adults"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "64.8 per 100k adults"
+      },
+      {
+        "rank": 29,
+        "code": "RO",
+        "value": "63.1 per 100k adults"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "61.4 per 100k adults"
+      },
+      {
+        "rank": 31,
+        "code": "CZ",
+        "value": "59.7 per 100k adults"
+      },
+      {
+        "rank": 32,
+        "code": "SK",
+        "value": "57.8 per 100k adults"
+      },
+      {
+        "rank": 33,
+        "code": "SI",
+        "value": "55.9 per 100k adults"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "53.6 per 100k adults"
+      },
+      {
+        "rank": 35,
+        "code": "LV",
+        "value": "51.2 per 100k adults"
+      },
+      {
+        "rank": 36,
+        "code": "LT",
+        "value": "49.4 per 100k adults"
+      },
+      {
+        "rank": 37,
+        "code": "FI",
+        "value": "47.8 per 100k adults"
+      },
+      {
+        "rank": 38,
+        "code": "CY",
+        "value": "46.2 per 100k adults"
+      },
+      {
+        "rank": 39,
+        "code": "MT",
+        "value": "44.8 per 100k adults"
+      },
+      {
+        "rank": 40,
+        "code": "ZA",
+        "value": "43.5 per 100k adults"
       }
     ]
   },
@@ -54900,7 +55750,7 @@
     "title": "Largest hedge fund industry AUM",
     "prompt": "Name the countries with the largest hedge fund industry by assets under management.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 39,
     "source": {
       "name": "Preqin \u2014 Hedge Funds coverage",
       "url": "https://www.preqin.com/",
@@ -55010,6 +55860,101 @@
         "rank": 20,
         "code": "AT",
         "value": "$7 billion AUM"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "$6 billion AUM"
+      },
+      {
+        "rank": 22,
+        "code": "LU",
+        "value": "$5.5 billion AUM"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "$5 billion AUM"
+      },
+      {
+        "rank": 25,
+        "code": "CN",
+        "value": "$4 billion AUM"
+      },
+      {
+        "rank": 26,
+        "code": "ZA",
+        "value": "$3.5 billion AUM"
+      },
+      {
+        "rank": 27,
+        "code": "KR",
+        "value": "$3 billion AUM"
+      },
+      {
+        "rank": 28,
+        "code": "IL",
+        "value": "$2.5 billion AUM"
+      },
+      {
+        "rank": 29,
+        "code": "MX",
+        "value": "$2 billion AUM"
+      },
+      {
+        "rank": 30,
+        "code": "AE",
+        "value": "$1.8 billion AUM"
+      },
+      {
+        "rank": 31,
+        "code": "PT",
+        "value": "$1.5 billion AUM"
+      },
+      {
+        "rank": 32,
+        "code": "PL",
+        "value": "$1.2 billion AUM"
+      },
+      {
+        "rank": 33,
+        "code": "GR",
+        "value": "$1.0 billion AUM"
+      },
+      {
+        "rank": 34,
+        "code": "TR",
+        "value": "$0.9 billion AUM"
+      },
+      {
+        "rank": 35,
+        "code": "AR",
+        "value": "$0.8 billion AUM"
+      },
+      {
+        "rank": 36,
+        "code": "CL",
+        "value": "$0.7 billion AUM"
+      },
+      {
+        "rank": 37,
+        "code": "MY",
+        "value": "$0.6 billion AUM"
+      },
+      {
+        "rank": 38,
+        "code": "TH",
+        "value": "$0.5 billion AUM"
+      },
+      {
+        "rank": 39,
+        "code": "NZ",
+        "value": "$0.45 billion AUM"
+      },
+      {
+        "rank": 40,
+        "code": "ID",
+        "value": "$0.4 billion AUM"
       }
     ]
   },
@@ -55020,7 +55965,7 @@
     "title": "Largest pension fund assets",
     "prompt": "Name the countries with the largest total pension fund assets.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Thinking Ahead Institute (WTW) \u2014 Global Pension Assets Study",
       "url": "https://www.thinkingaheadinstitute.org/research-papers/global-pension-assets-study-2024/",
@@ -55130,6 +56075,106 @@
         "rank": 20,
         "code": "ES",
         "value": "$0.13 trillion"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "$0.12 trillion"
+      },
+      {
+        "rank": 22,
+        "code": "NO",
+        "value": "$0.10 trillion"
+      },
+      {
+        "rank": 23,
+        "code": "MY",
+        "value": "$0.09 trillion"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "$0.08 trillion"
+      },
+      {
+        "rank": 25,
+        "code": "AT",
+        "value": "$0.07 trillion"
+      },
+      {
+        "rank": 26,
+        "code": "IS",
+        "value": "$0.065 trillion"
+      },
+      {
+        "rank": 27,
+        "code": "IL",
+        "value": "$0.06 trillion"
+      },
+      {
+        "rank": 28,
+        "code": "PT",
+        "value": "$0.05 trillion"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "$0.045 trillion"
+      },
+      {
+        "rank": 30,
+        "code": "NZ",
+        "value": "$0.04 trillion"
+      },
+      {
+        "rank": 31,
+        "code": "TH",
+        "value": "$0.035 trillion"
+      },
+      {
+        "rank": 32,
+        "code": "CO",
+        "value": "$0.03 trillion"
+      },
+      {
+        "rank": 33,
+        "code": "PE",
+        "value": "$0.028 trillion"
+      },
+      {
+        "rank": 34,
+        "code": "ID",
+        "value": "$0.025 trillion"
+      },
+      {
+        "rank": 35,
+        "code": "TR",
+        "value": "$0.022 trillion"
+      },
+      {
+        "rank": 36,
+        "code": "AR",
+        "value": "$0.02 trillion"
+      },
+      {
+        "rank": 37,
+        "code": "HK",
+        "value": "$0.018 trillion"
+      },
+      {
+        "rank": 38,
+        "code": "SG",
+        "value": "$0.017 trillion"
+      },
+      {
+        "rank": 39,
+        "code": "CZ",
+        "value": "$0.015 trillion"
+      },
+      {
+        "rank": 40,
+        "code": "HU",
+        "value": "$0.012 trillion"
       }
     ]
   },
@@ -55140,7 +56185,7 @@
     "title": "Highest gross national savings rate",
     "prompt": "Name the countries with the highest gross national savings rate as a share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "IMF World Economic Outlook",
       "url": "https://www.imf.org/en/Publications/WEO",
@@ -55250,6 +56295,106 @@
         "rank": 20,
         "code": "AT",
         "value": "28.0% of GDP"
+      },
+      {
+        "rank": 21,
+        "code": "DK",
+        "value": "27.5% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "FI",
+        "value": "27.0% of GDP"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "26.5% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "26.0% of GDP"
+      },
+      {
+        "rank": 25,
+        "code": "VN",
+        "value": "25.8% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "IR",
+        "value": "25.5% of GDP"
+      },
+      {
+        "rank": 27,
+        "code": "MY",
+        "value": "25.0% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "PH",
+        "value": "24.5% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "IS",
+        "value": "24.0% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "CZ",
+        "value": "23.8% of GDP"
+      },
+      {
+        "rank": 31,
+        "code": "MX",
+        "value": "23.5% of GDP"
+      },
+      {
+        "rank": 32,
+        "code": "AZ",
+        "value": "23.2% of GDP"
+      },
+      {
+        "rank": 33,
+        "code": "OM",
+        "value": "23.0% of GDP"
+      },
+      {
+        "rank": 34,
+        "code": "PL",
+        "value": "22.8% of GDP"
+      },
+      {
+        "rank": 35,
+        "code": "BH",
+        "value": "22.5% of GDP"
+      },
+      {
+        "rank": 36,
+        "code": "HU",
+        "value": "22.0% of GDP"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "21.8% of GDP"
+      },
+      {
+        "rank": 38,
+        "code": "IT",
+        "value": "21.5% of GDP"
+      },
+      {
+        "rank": 39,
+        "code": "FR",
+        "value": "21.0% of GDP"
+      },
+      {
+        "rank": 40,
+        "code": "ES",
+        "value": "20.8% of GDP"
       }
     ]
   },
@@ -55355,7 +56500,7 @@
     "title": "Most 200m+ Skyscrapers",
     "prompt": "Name the countries with the most completed buildings 200 metres or taller.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "CTBUH Skyscraper Center \u2014 Tallest 200m+ Buildings by Country",
       "url": "https://www.skyscrapercenter.com/countries",
@@ -55465,6 +56610,106 @@
         "rank": 20,
         "code": "QA",
         "value": "~18 buildings"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "~16 buildings"
+      },
+      {
+        "rank": 22,
+        "code": "IN",
+        "value": "~14 buildings"
+      },
+      {
+        "rank": 23,
+        "code": "BH",
+        "value": "~10 buildings"
+      },
+      {
+        "rank": 23,
+        "code": "TW",
+        "value": "~10 buildings"
+      },
+      {
+        "rank": 25,
+        "code": "DE",
+        "value": "~8 buildings"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "~8 buildings"
+      },
+      {
+        "rank": 27,
+        "code": "FR",
+        "value": "~7 buildings"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "~6 buildings"
+      },
+      {
+        "rank": 28,
+        "code": "AZ",
+        "value": "~6 buildings"
+      },
+      {
+        "rank": 30,
+        "code": "OM",
+        "value": "~5 buildings"
+      },
+      {
+        "rank": 30,
+        "code": "IL",
+        "value": "~5 buildings"
+      },
+      {
+        "rank": 32,
+        "code": "EG",
+        "value": "~4 buildings"
+      },
+      {
+        "rank": 32,
+        "code": "ES",
+        "value": "~4 buildings"
+      },
+      {
+        "rank": 32,
+        "code": "BR",
+        "value": "~4 buildings"
+      },
+      {
+        "rank": 35,
+        "code": "IT",
+        "value": "~3 buildings"
+      },
+      {
+        "rank": 35,
+        "code": "AT",
+        "value": "~3 buildings"
+      },
+      {
+        "rank": 35,
+        "code": "NZ",
+        "value": "~3 buildings"
+      },
+      {
+        "rank": 38,
+        "code": "ZA",
+        "value": "~2 buildings"
+      },
+      {
+        "rank": 38,
+        "code": "CO",
+        "value": "~2 buildings"
+      },
+      {
+        "rank": 38,
+        "code": "IQ",
+        "value": "~2 buildings"
       }
     ]
   },
@@ -55475,7 +56720,7 @@
     "title": "Most Cities Over 1 Million People",
     "prompt": "Name the countries with the most urban agglomerations exceeding one million inhabitants.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN Department of Economic and Social Affairs \u2014 World Urbanization Prospects",
       "url": "https://population.un.org/wup/",
@@ -55585,6 +56830,106 @@
         "rank": 20,
         "code": "AU",
         "value": "~4 cities (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "ZA",
+        "value": "~4 cities (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "~3 cities"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "~3 cities"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "~3 cities"
+      },
+      {
+        "rank": 22,
+        "code": "FR",
+        "value": "~3 cities"
+      },
+      {
+        "rank": 26,
+        "code": "VN",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 26,
+        "code": "PE",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "~3 cities"
+      },
+      {
+        "rank": 26,
+        "code": "UA",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 26,
+        "code": "MA",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 31,
+        "code": "TZ",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 31,
+        "code": "CD",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 31,
+        "code": "AO",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 31,
+        "code": "KZ",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 31,
+        "code": "SD",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 31,
+        "code": "MM",
+        "value": "~2 cities"
+      },
+      {
+        "rank": 37,
+        "code": "TH",
+        "value": "~1 city (Bangkok)"
+      },
+      {
+        "rank": 37,
+        "code": "SG",
+        "value": "~1 city"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "~1 city"
+      },
+      {
+        "rank": 37,
+        "code": "CL",
+        "value": "~1 city"
       }
     ]
   },
@@ -55690,7 +57035,7 @@
     "title": "Largest Metropolitan Area",
     "prompt": "Name the countries whose largest metropolitan area is the biggest in the world by population.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN DESA \u2014 World Urbanization Prospects (urban agglomeration population)",
       "url": "https://population.un.org/wup/",
@@ -55800,6 +57145,106 @@
         "rank": 20,
         "code": "IR",
         "value": "~9.5M (Tehran)"
+      },
+      {
+        "rank": 21,
+        "code": "CO",
+        "value": "~10.9M (Bogota)"
+      },
+      {
+        "rank": 22,
+        "code": "FR",
+        "value": "~11.2M (Paris)"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "~10.7M (Lima)"
+      },
+      {
+        "rank": 24,
+        "code": "AO",
+        "value": "~8.9M (Luanda)"
+      },
+      {
+        "rank": 25,
+        "code": "VN",
+        "value": "~9.3M (Ho Chi Minh City)"
+      },
+      {
+        "rank": 26,
+        "code": "TZ",
+        "value": "~7.4M (Dar es Salaam)"
+      },
+      {
+        "rank": 27,
+        "code": "MM",
+        "value": "~5.6M (Yangon)"
+      },
+      {
+        "rank": 28,
+        "code": "SA",
+        "value": "~7.5M (Riyadh)"
+      },
+      {
+        "rank": 29,
+        "code": "IQ",
+        "value": "~7.5M (Baghdad)"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "~6.9M (Santiago)"
+      },
+      {
+        "rank": 31,
+        "code": "SG",
+        "value": "~6.0M (Singapore)"
+      },
+      {
+        "rank": 32,
+        "code": "HK",
+        "value": "~7.5M (Hong Kong)"
+      },
+      {
+        "rank": 33,
+        "code": "ES",
+        "value": "~6.7M (Madrid)"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "~5.7M (Rhine-Ruhr)"
+      },
+      {
+        "rank": 35,
+        "code": "CA",
+        "value": "~6.4M (Toronto)"
+      },
+      {
+        "rank": 36,
+        "code": "SD",
+        "value": "~6.0M (Khartoum)"
+      },
+      {
+        "rank": 37,
+        "code": "ZA",
+        "value": "~5.7M (Johannesburg)"
+      },
+      {
+        "rank": 38,
+        "code": "ET",
+        "value": "~5.2M (Addis Ababa)"
+      },
+      {
+        "rank": 39,
+        "code": "KE",
+        "value": "~5.1M (Nairobi)"
+      },
+      {
+        "rank": 40,
+        "code": "IT",
+        "value": "~4.3M (Milan)"
       }
     ]
   },
@@ -55905,7 +57350,7 @@
     "title": "Most-Visited Cities by Tourists",
     "prompt": "Name the countries whose top city receives the most international overnight visitors annually.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Wikipedia \u2014 List of cities by international visitors",
       "url": "https://en.wikipedia.org/wiki/List_of_cities_by_international_visitors",
@@ -56015,6 +57460,106 @@
         "rank": 20,
         "code": "AT",
         "value": "~6M visitors (Vienna)"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "~5.6M visitors (Dublin)"
+      },
+      {
+        "rank": 22,
+        "code": "HU",
+        "value": "~5.5M visitors (Budapest)"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "~5.3M visitors (Lisbon)"
+      },
+      {
+        "rank": 24,
+        "code": "GR",
+        "value": "~5.1M visitors (Athens)"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "~4.8M visitors (Warsaw)"
+      },
+      {
+        "rank": 26,
+        "code": "DK",
+        "value": "~4.5M visitors (Copenhagen)"
+      },
+      {
+        "rank": 27,
+        "code": "SE",
+        "value": "~4.3M visitors (Stockholm)"
+      },
+      {
+        "rank": 28,
+        "code": "RU",
+        "value": "~4.2M visitors (Moscow)"
+      },
+      {
+        "rank": 29,
+        "code": "MX",
+        "value": "~4.1M visitors (Cancun/Mexico City)"
+      },
+      {
+        "rank": 30,
+        "code": "BE",
+        "value": "~4.0M visitors (Brussels)"
+      },
+      {
+        "rank": 31,
+        "code": "CH",
+        "value": "~3.8M visitors (Zurich)"
+      },
+      {
+        "rank": 32,
+        "code": "CN",
+        "value": "~3.5M visitors (Shanghai)"
+      },
+      {
+        "rank": 33,
+        "code": "VN",
+        "value": "~3.4M visitors (Ho Chi Minh City)"
+      },
+      {
+        "rank": 34,
+        "code": "ID",
+        "value": "~3.3M visitors (Bali/Denpasar)"
+      },
+      {
+        "rank": 35,
+        "code": "CA",
+        "value": "~3.2M visitors (Toronto)"
+      },
+      {
+        "rank": 36,
+        "code": "EG",
+        "value": "~3.1M visitors (Cairo)"
+      },
+      {
+        "rank": 37,
+        "code": "AU",
+        "value": "~3.0M visitors (Sydney)"
+      },
+      {
+        "rank": 38,
+        "code": "MA",
+        "value": "~2.9M visitors (Marrakech)"
+      },
+      {
+        "rank": 39,
+        "code": "IL",
+        "value": "~2.8M visitors (Jerusalem)"
+      },
+      {
+        "rank": 40,
+        "code": "IN",
+        "value": "~2.7M visitors (Delhi)"
       }
     ]
   },
@@ -58540,7 +60085,7 @@
     "title": "Highest firearm-related death rate",
     "prompt": "Name the countries with the highest rate of firearm-related deaths per 100,000 people (all causes, incl. homicide and suicide).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "IHME Global Burden of Disease \u2014 Firearm Mortality",
       "url": "https://www.healthdata.org/research-analysis/library/global-mortality-firearms-1990-2016",
@@ -58650,6 +60195,106 @@
         "rank": 20,
         "code": "TH",
         "value": "4.0 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "DO",
+        "value": "3.8 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "NI",
+        "value": "3.6 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "JM",
+        "value": "3.5 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "MN",
+        "value": "3.3 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "EC",
+        "value": "3.2 per 100k"
+      },
+      {
+        "rank": 26,
+        "code": "BO",
+        "value": "3.0 per 100k"
+      },
+      {
+        "rank": 27,
+        "code": "PE",
+        "value": "2.9 per 100k"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "2.7 per 100k"
+      },
+      {
+        "rank": 29,
+        "code": "MZ",
+        "value": "2.6 per 100k"
+      },
+      {
+        "rank": 30,
+        "code": "CU",
+        "value": "2.5 per 100k"
+      },
+      {
+        "rank": 31,
+        "code": "SY",
+        "value": "2.4 per 100k"
+      },
+      {
+        "rank": 32,
+        "code": "LY",
+        "value": "2.3 per 100k"
+      },
+      {
+        "rank": 33,
+        "code": "AF",
+        "value": "2.2 per 100k"
+      },
+      {
+        "rank": 34,
+        "code": "YE",
+        "value": "2.1 per 100k"
+      },
+      {
+        "rank": 35,
+        "code": "MW",
+        "value": "2.0 per 100k"
+      },
+      {
+        "rank": 36,
+        "code": "ZW",
+        "value": "1.9 per 100k"
+      },
+      {
+        "rank": 37,
+        "code": "PK",
+        "value": "1.8 per 100k"
+      },
+      {
+        "rank": 38,
+        "code": "MM",
+        "value": "1.7 per 100k"
+      },
+      {
+        "rank": 39,
+        "code": "TR",
+        "value": "1.6 per 100k"
+      },
+      {
+        "rank": 40,
+        "code": "FI",
+        "value": "1.5 per 100k"
       }
     ]
   },
@@ -58660,7 +60305,7 @@
     "title": "Highest terrorism impact score",
     "prompt": "Name the countries most impacted by terrorism according to the Global Terrorism Index.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 39,
     "source": {
       "name": "Institute for Economics & Peace \u2014 Global Terrorism Index",
       "url": "https://www.economicsandpeace.org/global-terrorism-index/",
@@ -58770,6 +60415,101 @@
         "rank": 20,
         "code": "TR",
         "value": "5.723 GTI"
+      },
+      {
+        "rank": 21,
+        "code": "YE",
+        "value": "5.696 GTI"
+      },
+      {
+        "rank": 22,
+        "code": "KE",
+        "value": "5.567 GTI"
+      },
+      {
+        "rank": 23,
+        "code": "TH",
+        "value": "5.412 GTI"
+      },
+      {
+        "rank": 24,
+        "code": "LY",
+        "value": "5.311 GTI"
+      },
+      {
+        "rank": 25,
+        "code": "EG",
+        "value": "5.204 GTI"
+      },
+      {
+        "rank": 26,
+        "code": "TD",
+        "value": "5.117 GTI"
+      },
+      {
+        "rank": 27,
+        "code": "SD",
+        "value": "5.023 GTI"
+      },
+      {
+        "rank": 28,
+        "code": "UG",
+        "value": "4.856 GTI"
+      },
+      {
+        "rank": 29,
+        "code": "BJ",
+        "value": "4.712 GTI"
+      },
+      {
+        "rank": 30,
+        "code": "TG",
+        "value": "4.598 GTI"
+      },
+      {
+        "rank": 31,
+        "code": "FR",
+        "value": "4.487 GTI"
+      },
+      {
+        "rank": 32,
+        "code": "US",
+        "value": "4.401 GTI"
+      },
+      {
+        "rank": 33,
+        "code": "GB",
+        "value": "4.325 GTI"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "4.213 GTI"
+      },
+      {
+        "rank": 35,
+        "code": "GR",
+        "value": "4.108 GTI"
+      },
+      {
+        "rank": 36,
+        "code": "RU",
+        "value": "4.024 GTI"
+      },
+      {
+        "rank": 38,
+        "code": "ET",
+        "value": "3.912 GTI"
+      },
+      {
+        "rank": 39,
+        "code": "BD",
+        "value": "3.845 GTI"
+      },
+      {
+        "rank": 40,
+        "code": "ID",
+        "value": "3.782 GTI"
       }
     ]
   },
@@ -58950,7 +60690,7 @@
     "title": "Highest Rule of Law Index score",
     "prompt": "Name the countries scoring highest on the World Justice Project Rule of Law Index.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "World Justice Project \u2014 Rule of Law Index",
       "url": "https://worldjusticeproject.org/rule-of-law-index/global",
@@ -59060,6 +60800,106 @@
         "rank": 20,
         "code": "CZ",
         "value": "0.71 score"
+      },
+      {
+        "rank": 21,
+        "code": "LV",
+        "value": "0.71 score (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "LT",
+        "value": "0.70 score"
+      },
+      {
+        "rank": 23,
+        "code": "US",
+        "value": "0.70 score (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "ES",
+        "value": "0.70 score (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "UY",
+        "value": "0.69 score"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "0.69 score (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "PL",
+        "value": "0.67 score"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "0.66 score"
+      },
+      {
+        "rank": 29,
+        "code": "CR",
+        "value": "0.66 score (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SI",
+        "value": "0.66 score (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "IT",
+        "value": "0.66 score (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "GE",
+        "value": "0.64 score"
+      },
+      {
+        "rank": 33,
+        "code": "MT",
+        "value": "0.63 score"
+      },
+      {
+        "rank": 34,
+        "code": "GR",
+        "value": "0.62 score"
+      },
+      {
+        "rank": 35,
+        "code": "CY",
+        "value": "0.62 score (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "SK",
+        "value": "0.62 score (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "AR",
+        "value": "0.58 score"
+      },
+      {
+        "rank": 38,
+        "code": "MU",
+        "value": "0.58 score (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "AE",
+        "value": "0.57 score"
+      },
+      {
+        "rank": 40,
+        "code": "RO",
+        "value": "0.57 score (tied)"
       }
     ]
   },
@@ -59290,7 +61130,7 @@
     "title": "Largest police force per capita",
     "prompt": "Name the countries with the most police officers per 100,000 people.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UNODC \u2014 Criminal Justice System Resources (Police personnel)",
       "url": "https://dataunodc.un.org/dp-cjs-resources-police",
@@ -59400,6 +61240,106 @@
         "rank": 20,
         "code": "AZ",
         "value": "325 per 100k"
+      },
+      {
+        "rank": 21,
+        "code": "BA",
+        "value": "319 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "MT",
+        "value": "312 per 100k"
+      },
+      {
+        "rank": 23,
+        "code": "AL",
+        "value": "308 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "SK",
+        "value": "302 per 100k"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "296 per 100k"
+      },
+      {
+        "rank": 26,
+        "code": "RO",
+        "value": "289 per 100k"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "285 per 100k"
+      },
+      {
+        "rank": 28,
+        "code": "BE",
+        "value": "278 per 100k"
+      },
+      {
+        "rank": 29,
+        "code": "DE",
+        "value": "272 per 100k"
+      },
+      {
+        "rank": 30,
+        "code": "FR",
+        "value": "267 per 100k"
+      },
+      {
+        "rank": 31,
+        "code": "LV",
+        "value": "261 per 100k"
+      },
+      {
+        "rank": 32,
+        "code": "LT",
+        "value": "254 per 100k"
+      },
+      {
+        "rank": 33,
+        "code": "IE",
+        "value": "248 per 100k"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "243 per 100k"
+      },
+      {
+        "rank": 35,
+        "code": "GB",
+        "value": "237 per 100k"
+      },
+      {
+        "rank": 36,
+        "code": "MD",
+        "value": "231 per 100k"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "226 per 100k"
+      },
+      {
+        "rank": 38,
+        "code": "NL",
+        "value": "221 per 100k"
+      },
+      {
+        "rank": 39,
+        "code": "LU",
+        "value": "217 per 100k"
+      },
+      {
+        "rank": 40,
+        "code": "SE",
+        "value": "212 per 100k"
       }
     ]
   },
@@ -61030,7 +62970,7 @@
     "title": "Largest apparel exporters",
     "prompt": "Name the countries with the largest exports of clothing (apparel and garments) by value.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "WTO \u2014 World Trade Statistical Review (Clothing)",
       "url": "https://www.wto.org/english/res_e/statis_e/wts_e/wts2023_e/wts2023_e.pdf",
@@ -61140,6 +63080,106 @@
         "rank": 20,
         "code": "LK",
         "value": "$5B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "$3B"
+      },
+      {
+        "rank": 22,
+        "code": "TN",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "MM",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "RO",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "HK",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "BG",
+        "value": "$2B"
+      },
+      {
+        "rank": 27,
+        "code": "DK",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "CZ",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "HN",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "JO",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "SE",
+        "value": "$1.5B"
+      },
+      {
+        "rank": 33,
+        "code": "EG",
+        "value": "$1.4B"
+      },
+      {
+        "rank": 34,
+        "code": "SK",
+        "value": "$1.3B"
+      },
+      {
+        "rank": 35,
+        "code": "LT",
+        "value": "$1.2B"
+      },
+      {
+        "rank": 36,
+        "code": "HU",
+        "value": "$1.1B"
+      },
+      {
+        "rank": 37,
+        "code": "JP",
+        "value": "$1.0B"
+      },
+      {
+        "rank": 38,
+        "code": "KR",
+        "value": "$0.9B"
+      },
+      {
+        "rank": 39,
+        "code": "TH",
+        "value": "$0.9B (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "CA",
+        "value": "$0.8B"
       }
     ]
   },
@@ -61150,7 +63190,7 @@
     "title": "Largest cosmetics markets",
     "prompt": "Name the countries with the largest cosmetics and personal-care markets by retail sales value.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Statista \u2014 Beauty & Personal Care market outlook",
       "url": "https://www.statista.com/outlook/cmo/beauty-personal-care/worldwide",
@@ -61260,6 +63300,106 @@
         "rank": 20,
         "code": "ID",
         "value": "$4B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "SA",
+        "value": "$4B (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "$3B"
+      },
+      {
+        "rank": 23,
+        "code": "AE",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "PH",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "VN",
+        "value": "$3B (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "BE",
+        "value": "$2B"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "SE",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "AT",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "CO",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "CL",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "MY",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "EG",
+        "value": "$1.5B"
+      },
+      {
+        "rank": 35,
+        "code": "IR",
+        "value": "$1.5B (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "GR",
+        "value": "$1.3B"
+      },
+      {
+        "rank": 37,
+        "code": "IE",
+        "value": "$1.2B"
+      },
+      {
+        "rank": 38,
+        "code": "PT",
+        "value": "$1.1B"
+      },
+      {
+        "rank": 39,
+        "code": "NO",
+        "value": "$1.1B (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "DK",
+        "value": "$1.0B"
       }
     ]
   },
@@ -61270,7 +63410,7 @@
     "title": "Highest luxury goods spend per capita",
     "prompt": "Name the countries with the highest per-capita spending on personal luxury goods.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Bain & Company \u2014 Luxury Goods Worldwide Market Study",
       "url": "https://www.bain.com/insights/luxury-goods-worldwide-market-study-fall-2023/",
@@ -61380,6 +63520,106 @@
         "rank": 20,
         "code": "CA",
         "value": "~$340/person"
+      },
+      {
+        "rank": 21,
+        "code": "FI",
+        "value": "~$320/person"
+      },
+      {
+        "rank": 22,
+        "code": "IE",
+        "value": "~$310/person"
+      },
+      {
+        "rank": 23,
+        "code": "QA",
+        "value": "~$300/person"
+      },
+      {
+        "rank": 24,
+        "code": "TW",
+        "value": "~$290/person"
+      },
+      {
+        "rank": 25,
+        "code": "IS",
+        "value": "~$280/person"
+      },
+      {
+        "rank": 26,
+        "code": "MO",
+        "value": "~$270/person"
+      },
+      {
+        "rank": 27,
+        "code": "NZ",
+        "value": "~$260/person"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "~$250/person"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "~$240/person"
+      },
+      {
+        "rank": 30,
+        "code": "KW",
+        "value": "~$230/person"
+      },
+      {
+        "rank": 31,
+        "code": "PT",
+        "value": "~$210/person"
+      },
+      {
+        "rank": 32,
+        "code": "SI",
+        "value": "~$190/person"
+      },
+      {
+        "rank": 33,
+        "code": "BH",
+        "value": "~$180/person"
+      },
+      {
+        "rank": 34,
+        "code": "CZ",
+        "value": "~$160/person"
+      },
+      {
+        "rank": 35,
+        "code": "GR",
+        "value": "~$150/person"
+      },
+      {
+        "rank": 36,
+        "code": "EE",
+        "value": "~$140/person"
+      },
+      {
+        "rank": 37,
+        "code": "SA",
+        "value": "~$130/person"
+      },
+      {
+        "rank": 38,
+        "code": "MT",
+        "value": "~$120/person"
+      },
+      {
+        "rank": 39,
+        "code": "CY",
+        "value": "~$110/person"
+      },
+      {
+        "rank": 40,
+        "code": "PL",
+        "value": "~$100/person"
       }
     ]
   },
@@ -61390,7 +63630,7 @@
     "title": "Largest jewelry markets",
     "prompt": "Name the countries with the largest jewelry markets by retail sales value.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 39,
     "source": {
       "name": "Statista \u2014 Jewelry market outlook",
       "url": "https://www.statista.com/outlook/cmo/luxury-goods/luxury-watches-jewelry/jewelry/worldwide",
@@ -61500,6 +63740,101 @@
         "rank": 20,
         "code": "MX",
         "value": "$2B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "BR",
+        "value": "$2B (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "TH",
+        "value": "$1.5B"
+      },
+      {
+        "rank": 23,
+        "code": "ID",
+        "value": "$1.4B"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "$1.3B"
+      },
+      {
+        "rank": 25,
+        "code": "TW",
+        "value": "$1.2B"
+      },
+      {
+        "rank": 26,
+        "code": "VN",
+        "value": "$1.1B"
+      },
+      {
+        "rank": 27,
+        "code": "PL",
+        "value": "$1.0B"
+      },
+      {
+        "rank": 28,
+        "code": "NL",
+        "value": "$0.9B"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "$0.8B"
+      },
+      {
+        "rank": 30,
+        "code": "BE",
+        "value": "$0.8B (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "EG",
+        "value": "$0.75B"
+      },
+      {
+        "rank": 32,
+        "code": "QA",
+        "value": "$0.7B"
+      },
+      {
+        "rank": 33,
+        "code": "KW",
+        "value": "$0.7B (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "$0.65B"
+      },
+      {
+        "rank": 35,
+        "code": "PH",
+        "value": "$0.6B"
+      },
+      {
+        "rank": 36,
+        "code": "SE",
+        "value": "$0.55B"
+      },
+      {
+        "rank": 37,
+        "code": "IR",
+        "value": "$0.5B"
+      },
+      {
+        "rank": 39,
+        "code": "CO",
+        "value": "$0.45B"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "$0.4B"
       }
     ]
   },
@@ -61995,7 +64330,7 @@
     "title": "Largest wool producers",
     "prompt": "Name the world's largest producers of wool.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "International Wool Textile Organisation (IWTO) \u2014 Market Information",
       "url": "https://iwto.org/resources/market-information/",
@@ -62105,6 +64440,106 @@
         "rank": 20,
         "code": "ES",
         "value": "~8,000 tonnes"
+      },
+      {
+        "rank": 21,
+        "code": "FR",
+        "value": "~7,500 tonnes"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "~7,000 tonnes"
+      },
+      {
+        "rank": 23,
+        "code": "DZ",
+        "value": "~6,500 tonnes"
+      },
+      {
+        "rank": 24,
+        "code": "AF",
+        "value": "~6,000 tonnes"
+      },
+      {
+        "rank": 25,
+        "code": "BR",
+        "value": "~5,500 tonnes"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "~5,200 tonnes"
+      },
+      {
+        "rank": 27,
+        "code": "PE",
+        "value": "~5,000 tonnes"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "~4,500 tonnes"
+      },
+      {
+        "rank": 29,
+        "code": "IE",
+        "value": "~4,200 tonnes"
+      },
+      {
+        "rank": 30,
+        "code": "DE",
+        "value": "~4,000 tonnes"
+      },
+      {
+        "rank": 31,
+        "code": "BG",
+        "value": "~3,800 tonnes"
+      },
+      {
+        "rank": 32,
+        "code": "GR",
+        "value": "~3,500 tonnes"
+      },
+      {
+        "rank": 33,
+        "code": "TN",
+        "value": "~3,200 tonnes"
+      },
+      {
+        "rank": 34,
+        "code": "PT",
+        "value": "~3,000 tonnes"
+      },
+      {
+        "rank": 35,
+        "code": "TM",
+        "value": "~2,800 tonnes"
+      },
+      {
+        "rank": 36,
+        "code": "UZ",
+        "value": "~2,500 tonnes"
+      },
+      {
+        "rank": 37,
+        "code": "NP",
+        "value": "~2,300 tonnes"
+      },
+      {
+        "rank": 38,
+        "code": "PL",
+        "value": "~2,000 tonnes"
+      },
+      {
+        "rank": 39,
+        "code": "HU",
+        "value": "~1,800 tonnes"
+      },
+      {
+        "rank": 40,
+        "code": "CZ",
+        "value": "~1,500 tonnes"
       }
     ]
   },
@@ -64355,7 +66790,7 @@
     "title": "Highest Age at First Marriage (Women)",
     "prompt": "Name the countries where women marry latest, ranked by mean age at first marriage for women.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN DESA \u2014 World Marriage Data 2019",
       "url": "https://www.un.org/development/desa/pd/data/world-marriage-data",
@@ -64465,6 +66900,106 @@
         "rank": 20,
         "code": "SI",
         "value": "29.5 years"
+      },
+      {
+        "rank": 21,
+        "code": "MT",
+        "value": "29.3 years"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "29.2 years"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "29.1 years"
+      },
+      {
+        "rank": 24,
+        "code": "CA",
+        "value": "29.0 years"
+      },
+      {
+        "rank": 25,
+        "code": "EE",
+        "value": "28.9 years"
+      },
+      {
+        "rank": 26,
+        "code": "NZ",
+        "value": "28.8 years"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "28.7 years"
+      },
+      {
+        "rank": 28,
+        "code": "US",
+        "value": "28.6 years"
+      },
+      {
+        "rank": 29,
+        "code": "HR",
+        "value": "28.5 years"
+      },
+      {
+        "rank": 30,
+        "code": "LV",
+        "value": "28.4 years"
+      },
+      {
+        "rank": 31,
+        "code": "LT",
+        "value": "28.2 years"
+      },
+      {
+        "rank": 32,
+        "code": "SK",
+        "value": "28.1 years"
+      },
+      {
+        "rank": 33,
+        "code": "BG",
+        "value": "28.0 years"
+      },
+      {
+        "rank": 34,
+        "code": "PL",
+        "value": "27.8 years"
+      },
+      {
+        "rank": 35,
+        "code": "RO",
+        "value": "27.5 years"
+      },
+      {
+        "rank": 36,
+        "code": "RS",
+        "value": "27.3 years"
+      },
+      {
+        "rank": 37,
+        "code": "JP",
+        "value": "29.6 years"
+      },
+      {
+        "rank": 38,
+        "code": "KR",
+        "value": "30.4 years"
+      },
+      {
+        "rank": 39,
+        "code": "IL",
+        "value": "27.0 years"
+      },
+      {
+        "rank": 40,
+        "code": "SG",
+        "value": "28.3 years"
       }
     ]
   },
@@ -64475,7 +67010,7 @@
     "title": "Highest Divorce Rate",
     "prompt": "Name the countries with the highest crude divorce rate (divorces per 1,000 people per year).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN DESA \u2014 Demographic Yearbook (Crude Divorce Rate)",
       "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
@@ -64585,6 +67120,106 @@
         "rank": 20,
         "code": "ES",
         "value": "1.9 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "DE",
+        "value": "1.8 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "HU",
+        "value": "1.8 per 1,000 (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "1.7 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "1.7 per 1,000 (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "GB",
+        "value": "1.6 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "1.6 per 1,000 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "CH",
+        "value": "1.5 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "1.5 per 1,000 (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "FR",
+        "value": "1.5 per 1,000 (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "CA",
+        "value": "1.4 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "IS",
+        "value": "1.4 per 1,000 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "NZ",
+        "value": "1.3 per 1,000"
+      },
+      {
+        "rank": 32,
+        "code": "PL",
+        "value": "1.3 per 1,000 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "JP",
+        "value": "1.3 per 1,000 (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "BG",
+        "value": "1.2 per 1,000"
+      },
+      {
+        "rank": 35,
+        "code": "SK",
+        "value": "1.2 per 1,000 (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "RO",
+        "value": "1.1 per 1,000"
+      },
+      {
+        "rank": 37,
+        "code": "KR",
+        "value": "1.1 per 1,000 (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "GR",
+        "value": "1.0 per 1,000"
+      },
+      {
+        "rank": 40,
+        "code": "SI",
+        "value": "1.0 per 1,000 (tied)"
       }
     ]
   },
@@ -64595,7 +67230,7 @@
     "title": "Highest Cohabitation Rate",
     "prompt": "Name the countries with the highest share of partnered adults living in unmarried cohabitation rather than marriage.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN DESA \u2014 World Marriage Data (share cohabiting among partnered women 25-29)",
       "url": "https://www.un.org/development/desa/pd/data/world-marriage-data",
@@ -64705,6 +67340,106 @@
         "rank": 20,
         "code": "CA",
         "value": "40% cohabiting"
+      },
+      {
+        "rank": 21,
+        "code": "AU",
+        "value": "38% cohabiting"
+      },
+      {
+        "rank": 22,
+        "code": "DO",
+        "value": "37% cohabiting"
+      },
+      {
+        "rank": 23,
+        "code": "VE",
+        "value": "36% cohabiting"
+      },
+      {
+        "rank": 24,
+        "code": "EC",
+        "value": "35% cohabiting"
+      },
+      {
+        "rank": 25,
+        "code": "BO",
+        "value": "33% cohabiting"
+      },
+      {
+        "rank": 26,
+        "code": "PY",
+        "value": "32% cohabiting"
+      },
+      {
+        "rank": 27,
+        "code": "PA",
+        "value": "31% cohabiting"
+      },
+      {
+        "rank": 28,
+        "code": "IE",
+        "value": "30% cohabiting"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "29% cohabiting"
+      },
+      {
+        "rank": 30,
+        "code": "CH",
+        "value": "27% cohabiting"
+      },
+      {
+        "rank": 31,
+        "code": "DE",
+        "value": "25% cohabiting"
+      },
+      {
+        "rank": 32,
+        "code": "CR",
+        "value": "24% cohabiting"
+      },
+      {
+        "rank": 33,
+        "code": "NI",
+        "value": "23% cohabiting"
+      },
+      {
+        "rank": 34,
+        "code": "HN",
+        "value": "22% cohabiting"
+      },
+      {
+        "rank": 35,
+        "code": "PT",
+        "value": "20% cohabiting"
+      },
+      {
+        "rank": 36,
+        "code": "LU",
+        "value": "19% cohabiting"
+      },
+      {
+        "rank": 37,
+        "code": "ES",
+        "value": "17% cohabiting"
+      },
+      {
+        "rank": 38,
+        "code": "SI",
+        "value": "16% cohabiting"
+      },
+      {
+        "rank": 39,
+        "code": "LV",
+        "value": "15% cohabiting"
+      },
+      {
+        "rank": 40,
+        "code": "US",
+        "value": "14% cohabiting"
       }
     ]
   },
@@ -64715,7 +67450,7 @@
     "title": "Longest Paid Maternity Leave",
     "prompt": "Name the countries that provide the most weeks of paid statutory maternity leave.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Wikipedia \u2014 Parental leave (country tables)",
       "url": "https://en.wikipedia.org/wiki/Parental_leave",
@@ -64825,6 +67560,106 @@
         "rank": 20,
         "code": "CN",
         "value": "14.3 weeks"
+      },
+      {
+        "rank": 21,
+        "code": "RO",
+        "value": "18.0 weeks"
+      },
+      {
+        "rank": 22,
+        "code": "SI",
+        "value": "15.0 weeks"
+      },
+      {
+        "rank": 23,
+        "code": "LV",
+        "value": "16.0 weeks"
+      },
+      {
+        "rank": 24,
+        "code": "LU",
+        "value": "20.0 weeks"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "16.0 weeks (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "AT",
+        "value": "16.0 weeks (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "ES",
+        "value": "16.0 weeks (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "BE",
+        "value": "15.0 weeks (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "FR",
+        "value": "16.0 weeks (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "DE",
+        "value": "14.0 weeks"
+      },
+      {
+        "rank": 31,
+        "code": "CH",
+        "value": "14.0 weeks (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "JP",
+        "value": "14.0 weeks (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "KR",
+        "value": "12.9 weeks"
+      },
+      {
+        "rank": 34,
+        "code": "IL",
+        "value": "15.0 weeks (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "PT",
+        "value": "17.1 weeks"
+      },
+      {
+        "rank": 36,
+        "code": "IS",
+        "value": "13.0 weeks"
+      },
+      {
+        "rank": 37,
+        "code": "CA",
+        "value": "17.0 weeks"
+      },
+      {
+        "rank": 38,
+        "code": "AU",
+        "value": "18.0 weeks (unpaid at replacement \u2014 flat rate)"
+      },
+      {
+        "rank": 39,
+        "code": "NZ",
+        "value": "26.0 weeks (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "TR",
+        "value": "16.0 weeks (tied)"
       }
     ]
   },
@@ -64835,7 +67670,7 @@
     "title": "Longest Paid Paternity Leave",
     "prompt": "Name the countries that provide the most weeks of paid statutory paternity leave (father-specific, not shared parental).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 39,
     "source": {
       "name": "OECD Family Database \u2014 PF2.1 Parental leave systems",
       "url": "https://www.oecd.org/els/family/database.htm",
@@ -64945,6 +67780,101 @@
         "rank": 20,
         "code": "IT",
         "value": "1.4 weeks (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "GR",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NL",
+        "value": "1.0 weeks"
+      },
+      {
+        "rank": 23,
+        "code": "IE",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "GB",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "AU",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "DK",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "CZ",
+        "value": "1.0 weeks (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "SK",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "HR",
+        "value": "1.4 weeks (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "RO",
+        "value": "1.0 weeks (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "BG",
+        "value": "2.1 weeks"
+      },
+      {
+        "rank": 33,
+        "code": "DE",
+        "value": "0.0 weeks (no father-specific paid leave)"
+      },
+      {
+        "rank": 34,
+        "code": "CH",
+        "value": "2.0 weeks (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "US",
+        "value": "0.0 weeks (no federal paid paternity)"
+      },
+      {
+        "rank": 36,
+        "code": "CA",
+        "value": "5.0 weeks (Quebec only)"
+      },
+      {
+        "rank": 37,
+        "code": "NZ",
+        "value": "0.0 weeks"
+      },
+      {
+        "rank": 38,
+        "code": "IL",
+        "value": "1.0 weeks"
+      },
+      {
+        "rank": 39,
+        "code": "MX",
+        "value": "0.7 weeks"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "0.4 weeks"
       }
     ]
   },
@@ -64955,7 +67885,7 @@
     "title": "Highest Teen Birth Rate",
     "prompt": "Name the countries with the highest adolescent birth rate (births per 1,000 women aged 15\u201319).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "World Bank / UN Population Division \u2014 Adolescent fertility rate",
       "url": "https://data.worldbank.org/indicator/SP.ADO.TFRT",
@@ -65065,6 +67995,106 @@
         "rank": 20,
         "code": "ET",
         "value": "85 per 1,000"
+      },
+      {
+        "rank": 21,
+        "code": "MW",
+        "value": "83 per 1,000"
+      },
+      {
+        "rank": 22,
+        "code": "NG",
+        "value": "82 per 1,000"
+      },
+      {
+        "rank": 23,
+        "code": "TG",
+        "value": "80 per 1,000"
+      },
+      {
+        "rank": 24,
+        "code": "GQ",
+        "value": "78 per 1,000"
+      },
+      {
+        "rank": 25,
+        "code": "GW",
+        "value": "77 per 1,000"
+      },
+      {
+        "rank": 26,
+        "code": "BJ",
+        "value": "75 per 1,000"
+      },
+      {
+        "rank": 27,
+        "code": "GA",
+        "value": "74 per 1,000"
+      },
+      {
+        "rank": 28,
+        "code": "SN",
+        "value": "72 per 1,000"
+      },
+      {
+        "rank": 29,
+        "code": "CG",
+        "value": "70 per 1,000"
+      },
+      {
+        "rank": 30,
+        "code": "AF",
+        "value": "68 per 1,000"
+      },
+      {
+        "rank": 31,
+        "code": "DO",
+        "value": "66 per 1,000"
+      },
+      {
+        "rank": 32,
+        "code": "VE",
+        "value": "64 per 1,000"
+      },
+      {
+        "rank": 33,
+        "code": "NI",
+        "value": "63 per 1,000"
+      },
+      {
+        "rank": 34,
+        "code": "HN",
+        "value": "62 per 1,000"
+      },
+      {
+        "rank": 35,
+        "code": "GT",
+        "value": "60 per 1,000"
+      },
+      {
+        "rank": 36,
+        "code": "EC",
+        "value": "58 per 1,000"
+      },
+      {
+        "rank": 37,
+        "code": "PA",
+        "value": "57 per 1,000"
+      },
+      {
+        "rank": 38,
+        "code": "PY",
+        "value": "56 per 1,000"
+      },
+      {
+        "rank": 39,
+        "code": "BO",
+        "value": "55 per 1,000"
+      },
+      {
+        "rank": 40,
+        "code": "CO",
+        "value": "54 per 1,000"
       }
     ]
   },
@@ -68780,7 +71810,7 @@
     "title": "Most Snapchat users",
     "prompt": "Name the countries with the most Snapchat users.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "DataReportal \u2014 Digital 2024 / Snap Inc. ad audience data",
       "url": "https://datareportal.com/essential-snapchat-stats",
@@ -68890,6 +71920,56 @@
         "rank": 20,
         "code": "AR",
         "value": "3.8M users"
+      },
+      {
+        "rank": 21,
+        "code": "KW",
+        "value": "3.5M users"
+      },
+      {
+        "rank": 22,
+        "code": "MA",
+        "value": "3.3M users"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "3.1M users"
+      },
+      {
+        "rank": 24,
+        "code": "DZ",
+        "value": "3M users"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "2.9M users"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "2.7M users"
+      },
+      {
+        "rank": 27,
+        "code": "QA",
+        "value": "2.5M users"
+      },
+      {
+        "rank": 28,
+        "code": "SE",
+        "value": "2.3M users"
+      },
+      {
+        "rank": 29,
+        "code": "OM",
+        "value": "2.1M users"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "2M users"
       }
     ]
   },
@@ -69170,7 +72250,7 @@
     "title": "Most Android smartphone users",
     "prompt": "Name the countries with the most Android smartphone users.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Statista Market Insights \u2014 Smartphone users by OS",
       "url": "https://www.statista.com/statistics/272307/market-share-forecast-for-smartphone-operating-systems/",
@@ -69280,6 +72360,56 @@
         "rank": 20,
         "code": "GB",
         "value": "30M users"
+      },
+      {
+        "rank": 21,
+        "code": "FR",
+        "value": "28M users"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "26M users"
+      },
+      {
+        "rank": 23,
+        "code": "ET",
+        "value": "24M users"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "23M users"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "22M users"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "21M users"
+      },
+      {
+        "rank": 27,
+        "code": "PL",
+        "value": "20M users"
+      },
+      {
+        "rank": 28,
+        "code": "KE",
+        "value": "18M users"
+      },
+      {
+        "rank": 29,
+        "code": "SA",
+        "value": "17M users"
+      },
+      {
+        "rank": 30,
+        "code": "MA",
+        "value": "16M users"
       }
     ]
   },
@@ -69290,7 +72420,7 @@
     "title": "Most iOS (iPhone) users",
     "prompt": "Name the countries with the most active iOS (iPhone) users.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Statista Market Insights / StatCounter smartphone OS share applied to national handset totals",
       "url": "https://gs.statcounter.com/os-market-share/mobile",
@@ -69400,6 +72530,56 @@
         "rank": 20,
         "code": "SA",
         "value": "4.5M users"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "4.2M users"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "4M users"
+      },
+      {
+        "rank": 23,
+        "code": "HK",
+        "value": "3.8M users"
+      },
+      {
+        "rank": 24,
+        "code": "TR",
+        "value": "3.6M users"
+      },
+      {
+        "rank": 25,
+        "code": "BE",
+        "value": "3.4M users"
+      },
+      {
+        "rank": 26,
+        "code": "DK",
+        "value": "3.2M users"
+      },
+      {
+        "rank": 27,
+        "code": "NO",
+        "value": "3M users"
+      },
+      {
+        "rank": 28,
+        "code": "IL",
+        "value": "2.8M users"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "2.6M users"
+      },
+      {
+        "rank": 30,
+        "code": "IE",
+        "value": "2.4M users"
       }
     ]
   },
@@ -71240,7 +74420,7 @@
     "title": "Most Cannes Best Actor and Actress winners by country",
     "prompt": "Name the countries with the most Cannes Film Festival Best Actor and Best Actress prize winners combined (by performer's country of nationality).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Festival de Cannes \u2014 Best Performance prize archive",
       "url": "https://www.festival-cannes.com/en/palmares",
@@ -71325,6 +74505,56 @@
         "rank": 10,
         "code": "TR",
         "value": "2 wins"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "IE",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "NZ",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "AR",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "PL",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "SE",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "1 win"
+      },
+      {
+        "rank": 16,
+        "code": "MX",
+        "value": "1 win"
       }
     ]
   },
@@ -71335,7 +74565,7 @@
     "title": "Most FIAPF-accredited international film festivals hosted",
     "prompt": "Name the countries hosting the most FIAPF-accredited (International Federation of Film Producers Associations) international film festivals.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "FIAPF \u2014 Accredited Festivals Directory",
       "url": "https://www.fiapf.org/intfilmfestivals_accredited.asp",
@@ -71419,6 +74649,56 @@
       {
         "rank": 12,
         "code": "EG",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "BR",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "KR",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "MX",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "AU",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "AT",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "BE",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "NL",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "GR",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "TR",
+        "value": "1 festival"
+      },
+      {
+        "rank": 12,
+        "code": "IR",
         "value": "1 festival"
       }
     ]
@@ -74925,7 +78205,7 @@
     "title": "Most Starbucks locations",
     "prompt": "Name the countries with the most Starbucks coffee stores.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Starbucks Corporation 10-K filing and store counts",
       "url": "https://s25.q4cdn.com/396678660/files/doc_financials/2024/ar/2024-annual-report.pdf",
@@ -75035,6 +78315,56 @@
         "rank": 20,
         "code": "AR",
         "value": "160 stores (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "SG",
+        "value": "145 stores"
+      },
+      {
+        "rank": 22,
+        "code": "CL",
+        "value": "135 stores"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "88 stores"
+      },
+      {
+        "rank": 24,
+        "code": "KW",
+        "value": "85 stores"
+      },
+      {
+        "rank": 25,
+        "code": "ES",
+        "value": "80 stores"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "78 stores"
+      },
+      {
+        "rank": 27,
+        "code": "EG",
+        "value": "72 stores"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "65 stores"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "60 stores"
+      },
+      {
+        "rank": 30,
+        "code": "NL",
+        "value": "58 stores"
       }
     ]
   },
@@ -75190,7 +78520,7 @@
     "title": "Largest personal luxury goods market",
     "prompt": "Name the countries with the highest personal luxury goods spending.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Bain & Company \u2014 Altagamma Worldwide Luxury Market Monitor",
       "url": "https://www.bain.com/insights/long-live-luxury-converge-to-expand-through-turbulence/",
@@ -75300,6 +78630,56 @@
         "rank": 20,
         "code": "TH",
         "value": "\u20ac2B (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "BR",
+        "value": "\u20ac2B (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "\u20ac2B (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "QA",
+        "value": "\u20ac2B (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "KW",
+        "value": "\u20ac1B"
+      },
+      {
+        "rank": 24,
+        "code": "MO",
+        "value": "\u20ac1B (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "\u20ac1B (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "\u20ac1B (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MY",
+        "value": "\u20ac1B (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "\u20ac1B (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SE",
+        "value": "\u20ac1B (tied)"
       }
     ]
   },
@@ -75310,7 +78690,7 @@
     "title": "Highest online shopping penetration",
     "prompt": "Name the countries with the highest share of the population who shop online.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Statista Digital Market Outlook \u2014 eCommerce user penetration",
       "url": "https://www.statista.com/outlook/emo/ecommerce/worldwide",
@@ -75420,6 +78800,56 @@
         "rank": 20,
         "code": "NZ",
         "value": "71% of population"
+      },
+      {
+        "rank": 21,
+        "code": "JP",
+        "value": "70% of population"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "69% of population"
+      },
+      {
+        "rank": 23,
+        "code": "CZ",
+        "value": "68% of population"
+      },
+      {
+        "rank": 24,
+        "code": "SI",
+        "value": "67% of population"
+      },
+      {
+        "rank": 25,
+        "code": "IS",
+        "value": "66% of population"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "65% of population"
+      },
+      {
+        "rank": 27,
+        "code": "MT",
+        "value": "64% of population"
+      },
+      {
+        "rank": 28,
+        "code": "HK",
+        "value": "63% of population"
+      },
+      {
+        "rank": 29,
+        "code": "IL",
+        "value": "62% of population"
+      },
+      {
+        "rank": 30,
+        "code": "AE",
+        "value": "61% of population"
       }
     ]
   },
@@ -75520,7 +78950,7 @@
     "title": "Most IKEA stores",
     "prompt": "Name the countries with the most IKEA retail stores.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 IKEA (store count by country)",
       "url": "https://en.wikipedia.org/wiki/IKEA",
@@ -75630,6 +79060,56 @@
         "rank": 20,
         "code": "PT",
         "value": "5 stores (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "4 stores"
+      },
+      {
+        "rank": 21,
+        "code": "FI",
+        "value": "4 stores (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "4 stores (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "SA",
+        "value": "4 stores (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "AE",
+        "value": "3 stores"
+      },
+      {
+        "rank": 25,
+        "code": "HU",
+        "value": "3 stores (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "3 stores (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "IE",
+        "value": "2 stores"
+      },
+      {
+        "rank": 28,
+        "code": "GR",
+        "value": "2 stores (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "SK",
+        "value": "2 stores (tied)"
       }
     ]
   },
@@ -75640,7 +79120,7 @@
     "title": "Highest smartphone ownership rate",
     "prompt": "Name the countries with the highest share of adults who own a smartphone.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Pew Research Center Global Attitudes Survey; Newzoo Global Mobile Market Report",
       "url": "https://www.pewresearch.org/global/",
@@ -75750,6 +79230,56 @@
         "rank": 20,
         "code": "FR",
         "value": "83% of adults (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "82% of adults"
+      },
+      {
+        "rank": 22,
+        "code": "NZ",
+        "value": "81% of adults"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "80% of adults"
+      },
+      {
+        "rank": 24,
+        "code": "SA",
+        "value": "79% of adults"
+      },
+      {
+        "rank": 25,
+        "code": "TW",
+        "value": "78% of adults"
+      },
+      {
+        "rank": 26,
+        "code": "HK",
+        "value": "77% of adults"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "76% of adults"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "75% of adults"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "74% of adults"
+      },
+      {
+        "rank": 30,
+        "code": "EE",
+        "value": "73% of adults"
       }
     ]
   },
@@ -76890,7 +80420,7 @@
     "title": "Highest international tourism receipts",
     "prompt": "Name the countries that earn the most from international tourism (inbound tourist spending, USD).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN Tourism (UNWTO) \u2014 International Tourism Highlights / World Bank",
       "url": "https://www.unwto.org/tourism-statistics/key-tourism-statistics",
@@ -77000,6 +80530,106 @@
         "rank": 20,
         "code": "SG",
         "value": "$19B"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "$18B"
+      },
+      {
+        "rank": 22,
+        "code": "KR",
+        "value": "$16B"
+      },
+      {
+        "rank": 23,
+        "code": "SA",
+        "value": "$15B"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "$14B"
+      },
+      {
+        "rank": 25,
+        "code": "AT",
+        "value": "$13B"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "$12B"
+      },
+      {
+        "rank": 27,
+        "code": "IE",
+        "value": "$11B"
+      },
+      {
+        "rank": 28,
+        "code": "DK",
+        "value": "$10B"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "$9.5B"
+      },
+      {
+        "rank": 30,
+        "code": "HR",
+        "value": "$9.0B"
+      },
+      {
+        "rank": 31,
+        "code": "DO",
+        "value": "$8.7B"
+      },
+      {
+        "rank": 32,
+        "code": "SE",
+        "value": "$8.4B"
+      },
+      {
+        "rank": 33,
+        "code": "EG",
+        "value": "$8.0B"
+      },
+      {
+        "rank": 34,
+        "code": "CZ",
+        "value": "$7.5B"
+      },
+      {
+        "rank": 35,
+        "code": "IL",
+        "value": "$7.0B"
+      },
+      {
+        "rank": 36,
+        "code": "ID",
+        "value": "$6.8B"
+      },
+      {
+        "rank": 37,
+        "code": "HU",
+        "value": "$6.5B"
+      },
+      {
+        "rank": 38,
+        "code": "MA",
+        "value": "$6.2B"
+      },
+      {
+        "rank": 39,
+        "code": "PH",
+        "value": "$6.0B"
+      },
+      {
+        "rank": 40,
+        "code": "VN",
+        "value": "$5.8B"
       }
     ]
   },
@@ -77010,7 +80640,7 @@
     "title": "Biggest outbound tourism spenders",
     "prompt": "Name the countries whose residents spend the most abroad on international travel.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "UN Tourism (UNWTO) \u2014 Outbound Tourism Expenditure",
       "url": "https://www.unwto.org/tourism-statistics/key-tourism-statistics",
@@ -77120,6 +80750,106 @@
         "rank": 20,
         "code": "KW",
         "value": "$17B"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "$16B"
+      },
+      {
+        "rank": 22,
+        "code": "QA",
+        "value": "$15B"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "$14B"
+      },
+      {
+        "rank": 24,
+        "code": "DK",
+        "value": "$13B"
+      },
+      {
+        "rank": 25,
+        "code": "IL",
+        "value": "$12B"
+      },
+      {
+        "rank": 26,
+        "code": "JP",
+        "value": "$11B"
+      },
+      {
+        "rank": 27,
+        "code": "MY",
+        "value": "$10B"
+      },
+      {
+        "rank": 28,
+        "code": "TW",
+        "value": "$9.5B"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "$9.0B"
+      },
+      {
+        "rank": 30,
+        "code": "IE",
+        "value": "$8.5B"
+      },
+      {
+        "rank": 31,
+        "code": "TH",
+        "value": "$8.0B"
+      },
+      {
+        "rank": 32,
+        "code": "MX",
+        "value": "$7.5B"
+      },
+      {
+        "rank": 33,
+        "code": "BR",
+        "value": "$7.0B"
+      },
+      {
+        "rank": 34,
+        "code": "FI",
+        "value": "$6.5B"
+      },
+      {
+        "rank": 35,
+        "code": "TR",
+        "value": "$6.2B"
+      },
+      {
+        "rank": 36,
+        "code": "CZ",
+        "value": "$6.0B"
+      },
+      {
+        "rank": 37,
+        "code": "PT",
+        "value": "$5.8B"
+      },
+      {
+        "rank": 38,
+        "code": "PH",
+        "value": "$5.5B"
+      },
+      {
+        "rank": 39,
+        "code": "HU",
+        "value": "$5.2B"
+      },
+      {
+        "rank": 40,
+        "code": "ID",
+        "value": "$5.0B"
       }
     ]
   },
@@ -77130,7 +80860,7 @@
     "title": "Most Michelin-starred restaurants",
     "prompt": "Name the countries with the most Michelin-starred restaurants (any star level).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Michelin Guide \u2014 official restaurant database",
       "url": "https://guide.michelin.com/",
@@ -77240,6 +80970,106 @@
         "rank": 20,
         "code": "TH",
         "value": "~20 restaurants"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "~15 restaurants"
+      },
+      {
+        "rank": 22,
+        "code": "LU",
+        "value": "~12 restaurants"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "~10 restaurants"
+      },
+      {
+        "rank": 24,
+        "code": "FI",
+        "value": "~9 restaurants"
+      },
+      {
+        "rank": 25,
+        "code": "IE",
+        "value": "~8 restaurants"
+      },
+      {
+        "rank": 26,
+        "code": "MO",
+        "value": "~7 restaurants"
+      },
+      {
+        "rank": 27,
+        "code": "CZ",
+        "value": "~6 restaurants"
+      },
+      {
+        "rank": 28,
+        "code": "HR",
+        "value": "~5 restaurants"
+      },
+      {
+        "rank": 29,
+        "code": "SI",
+        "value": "~5 restaurants"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "~4 restaurants"
+      },
+      {
+        "rank": 31,
+        "code": "IS",
+        "value": "~4 restaurants"
+      },
+      {
+        "rank": 32,
+        "code": "EE",
+        "value": "~3 restaurants"
+      },
+      {
+        "rank": 33,
+        "code": "HU",
+        "value": "~3 restaurants"
+      },
+      {
+        "rank": 34,
+        "code": "MT",
+        "value": "~3 restaurants"
+      },
+      {
+        "rank": 35,
+        "code": "AE",
+        "value": "~3 restaurants"
+      },
+      {
+        "rank": 36,
+        "code": "TR",
+        "value": "~2 restaurants"
+      },
+      {
+        "rank": 37,
+        "code": "BR",
+        "value": "~2 restaurants"
+      },
+      {
+        "rank": 38,
+        "code": "MC",
+        "value": "~2 restaurants"
+      },
+      {
+        "rank": 39,
+        "code": "VN",
+        "value": "~2 restaurants"
+      },
+      {
+        "rank": 40,
+        "code": "MY",
+        "value": "~2 restaurants"
       }
     ]
   },
@@ -77440,7 +81270,7 @@
     "title": "Highest business travel spend",
     "prompt": "Name the countries where corporate/business travel spending is highest.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "Global Business Travel Association (GBTA) \u2014 Annual Global Report",
       "url": "https://www.gbta.org/",
@@ -77550,6 +81380,106 @@
         "rank": 20,
         "code": "SE",
         "value": "$12B"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "$11B"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "$10B"
+      },
+      {
+        "rank": 23,
+        "code": "ID",
+        "value": "$9.5B"
+      },
+      {
+        "rank": 24,
+        "code": "TR",
+        "value": "$9.0B"
+      },
+      {
+        "rank": 25,
+        "code": "AT",
+        "value": "$8.5B"
+      },
+      {
+        "rank": 26,
+        "code": "TH",
+        "value": "$8.0B"
+      },
+      {
+        "rank": 27,
+        "code": "NO",
+        "value": "$7.5B"
+      },
+      {
+        "rank": 28,
+        "code": "MY",
+        "value": "$7.0B"
+      },
+      {
+        "rank": 29,
+        "code": "TW",
+        "value": "$6.8B"
+      },
+      {
+        "rank": 30,
+        "code": "DK",
+        "value": "$6.5B"
+      },
+      {
+        "rank": 31,
+        "code": "IE",
+        "value": "$6.0B"
+      },
+      {
+        "rank": 32,
+        "code": "AR",
+        "value": "$5.5B"
+      },
+      {
+        "rank": 33,
+        "code": "RU",
+        "value": "$5.2B"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "$5.0B"
+      },
+      {
+        "rank": 35,
+        "code": "FI",
+        "value": "$4.8B"
+      },
+      {
+        "rank": 36,
+        "code": "PH",
+        "value": "$4.5B"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "$4.2B"
+      },
+      {
+        "rank": 38,
+        "code": "CO",
+        "value": "$4.0B"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "$3.8B"
+      },
+      {
+        "rank": 40,
+        "code": "VN",
+        "value": "$3.5B"
       }
     ]
   },
@@ -77850,7 +81780,7 @@
     "title": "Most hotel rooms",
     "prompt": "Name the countries with the largest total hotel room inventory.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "STR / CoStar Global Hotel Study \u2014 hotel room supply by country",
       "url": "https://str.com/data-insights/market-reports",
@@ -77960,6 +81890,106 @@
         "rank": 20,
         "code": "AT",
         "value": "~180K rooms"
+      },
+      {
+        "rank": 21,
+        "code": "EG",
+        "value": "~170K rooms"
+      },
+      {
+        "rank": 22,
+        "code": "RU",
+        "value": "~165K rooms"
+      },
+      {
+        "rank": 23,
+        "code": "KR",
+        "value": "~160K rooms"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "~150K rooms"
+      },
+      {
+        "rank": 25,
+        "code": "MY",
+        "value": "~145K rooms"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "~140K rooms"
+      },
+      {
+        "rank": 27,
+        "code": "VN",
+        "value": "~135K rooms"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "~130K rooms"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "~125K rooms"
+      },
+      {
+        "rank": 30,
+        "code": "MA",
+        "value": "~120K rooms"
+      },
+      {
+        "rank": 31,
+        "code": "SA",
+        "value": "~115K rooms"
+      },
+      {
+        "rank": 32,
+        "code": "PH",
+        "value": "~110K rooms"
+      },
+      {
+        "rank": 33,
+        "code": "CZ",
+        "value": "~105K rooms"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "~100K rooms"
+      },
+      {
+        "rank": 35,
+        "code": "HR",
+        "value": "~95K rooms"
+      },
+      {
+        "rank": 36,
+        "code": "CO",
+        "value": "~90K rooms"
+      },
+      {
+        "rank": 37,
+        "code": "CU",
+        "value": "~85K rooms"
+      },
+      {
+        "rank": 38,
+        "code": "BE",
+        "value": "~80K rooms"
+      },
+      {
+        "rank": 39,
+        "code": "DO",
+        "value": "~78K rooms"
+      },
+      {
+        "rank": 40,
+        "code": "HU",
+        "value": "~75K rooms"
       }
     ]
   },
@@ -77970,7 +82000,7 @@
     "title": "Most Airbnb listings",
     "prompt": "Name the countries with the most active Airbnb short-term rental listings.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "AirDNA \u2014 Global Airbnb & Vrbo listing data / Statista",
       "url": "https://www.airdna.co/",
@@ -78080,6 +82110,106 @@
         "rank": 20,
         "code": "HR",
         "value": "~75K listings"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "~70K listings"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "~65K listings"
+      },
+      {
+        "rank": 23,
+        "code": "ZA",
+        "value": "~60K listings"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "~55K listings"
+      },
+      {
+        "rank": 25,
+        "code": "IE",
+        "value": "~50K listings"
+      },
+      {
+        "rank": 26,
+        "code": "BE",
+        "value": "~48K listings"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "~46K listings"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "~44K listings"
+      },
+      {
+        "rank": 29,
+        "code": "PH",
+        "value": "~42K listings"
+      },
+      {
+        "rank": 30,
+        "code": "CZ",
+        "value": "~40K listings"
+      },
+      {
+        "rank": 31,
+        "code": "DK",
+        "value": "~38K listings"
+      },
+      {
+        "rank": 32,
+        "code": "SE",
+        "value": "~36K listings"
+      },
+      {
+        "rank": 33,
+        "code": "NZ",
+        "value": "~34K listings"
+      },
+      {
+        "rank": 34,
+        "code": "MA",
+        "value": "~32K listings"
+      },
+      {
+        "rank": 35,
+        "code": "PE",
+        "value": "~30K listings"
+      },
+      {
+        "rank": 36,
+        "code": "HU",
+        "value": "~28K listings"
+      },
+      {
+        "rank": 37,
+        "code": "MY",
+        "value": "~26K listings"
+      },
+      {
+        "rank": 38,
+        "code": "DO",
+        "value": "~24K listings"
+      },
+      {
+        "rank": 39,
+        "code": "VN",
+        "value": "~22K listings"
+      },
+      {
+        "rank": 40,
+        "code": "IN",
+        "value": "~20K listings"
       }
     ]
   },
@@ -78285,7 +82415,7 @@
     "title": "Deadliest Roads (Fatality Rate)",
     "prompt": "Name the countries with the highest road-traffic fatality rate per 100,000 population.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "WHO \u2014 Global Status Report on Road Safety",
       "url": "https://www.who.int/publications/i/item/9789240086517",
@@ -78370,6 +82500,131 @@
         "rank": 14,
         "code": "IR",
         "value": "28 per 100k (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "LR",
+        "value": "27 per 100k"
+      },
+      {
+        "rank": 16,
+        "code": "GM",
+        "value": "27 per 100k (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "SL",
+        "value": "26 per 100k"
+      },
+      {
+        "rank": 18,
+        "code": "NG",
+        "value": "26 per 100k (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MW",
+        "value": "25 per 100k"
+      },
+      {
+        "rank": 20,
+        "code": "NE",
+        "value": "25 per 100k (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "SN",
+        "value": "24 per 100k"
+      },
+      {
+        "rank": 22,
+        "code": "CI",
+        "value": "24 per 100k (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "AF",
+        "value": "23 per 100k"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "23 per 100k (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "PY",
+        "value": "22 per 100k"
+      },
+      {
+        "rank": 26,
+        "code": "MY",
+        "value": "22 per 100k (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "IQ",
+        "value": "21 per 100k"
+      },
+      {
+        "rank": 28,
+        "code": "OM",
+        "value": "21 per 100k (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "BR",
+        "value": "20 per 100k"
+      },
+      {
+        "rank": 30,
+        "code": "PE",
+        "value": "20 per 100k (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "IN",
+        "value": "19 per 100k"
+      },
+      {
+        "rank": 32,
+        "code": "KH",
+        "value": "19 per 100k (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "VN",
+        "value": "18 per 100k"
+      },
+      {
+        "rank": 34,
+        "code": "ID",
+        "value": "18 per 100k (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "EC",
+        "value": "17 per 100k"
+      },
+      {
+        "rank": 36,
+        "code": "CO",
+        "value": "17 per 100k (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "MX",
+        "value": "16 per 100k"
+      },
+      {
+        "rank": 38,
+        "code": "AR",
+        "value": "16 per 100k (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "PH",
+        "value": "15 per 100k"
       }
     ]
   },
@@ -78380,7 +82635,7 @@
     "title": "Highest EV Market Share (New Cars)",
     "prompt": "Name the countries where electric vehicles account for the highest share of new car sales.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "IEA \u2014 Global EV Outlook",
       "url": "https://www.iea.org/reports/global-ev-outlook-2024",
@@ -78465,6 +82720,131 @@
         "rank": 15,
         "code": "IE",
         "value": "19% of new cars"
+      },
+      {
+        "rank": 16,
+        "code": "LU",
+        "value": "18% of new cars"
+      },
+      {
+        "rank": 17,
+        "code": "SI",
+        "value": "17% of new cars"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "12% of new cars"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "11% of new cars"
+      },
+      {
+        "rank": 19,
+        "code": "CA",
+        "value": "11% of new cars (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "GR",
+        "value": "10% of new cars"
+      },
+      {
+        "rank": 21,
+        "code": "HU",
+        "value": "10% of new cars (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "9% of new cars"
+      },
+      {
+        "rank": 23,
+        "code": "NZ",
+        "value": "9% of new cars (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "8% of new cars"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "8% of new cars (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "US",
+        "value": "7.6% of new cars"
+      },
+      {
+        "rank": 28,
+        "code": "KR",
+        "value": "7% of new cars"
+      },
+      {
+        "rank": 28,
+        "code": "IL",
+        "value": "7% of new cars (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "TH",
+        "value": "6% of new cars"
+      },
+      {
+        "rank": 31,
+        "code": "PL",
+        "value": "5% of new cars"
+      },
+      {
+        "rank": 31,
+        "code": "SK",
+        "value": "5% of new cars (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "JP",
+        "value": "3.5% of new cars"
+      },
+      {
+        "rank": 34,
+        "code": "TR",
+        "value": "3% of new cars"
+      },
+      {
+        "rank": 34,
+        "code": "BR",
+        "value": "3% of new cars (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "MX",
+        "value": "2% of new cars"
+      },
+      {
+        "rank": 36,
+        "code": "IN",
+        "value": "2% of new cars (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "ZA",
+        "value": "1.5% of new cars"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "1% of new cars"
+      },
+      {
+        "rank": 39,
+        "code": "MY",
+        "value": "1% of new cars (tied)"
       }
     ]
   },
@@ -78475,7 +82855,7 @@
     "title": "Most Electric Cars on the Road",
     "prompt": "Name the countries with the largest electric-car fleets (cumulative stock of BEV + PHEV passenger vehicles).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "IEA \u2014 Global EV Outlook",
       "url": "https://www.iea.org/reports/global-ev-outlook-2024",
@@ -78560,6 +82940,131 @@
         "rank": 15,
         "code": "DK",
         "value": "0.25M EVs"
+      },
+      {
+        "rank": 16,
+        "code": "CH",
+        "value": "0.23M EVs"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "0.18M EVs"
+      },
+      {
+        "rank": 18,
+        "code": "PT",
+        "value": "0.17M EVs"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "0.16M EVs"
+      },
+      {
+        "rank": 20,
+        "code": "IN",
+        "value": "0.15M EVs"
+      },
+      {
+        "rank": 21,
+        "code": "TH",
+        "value": "0.11M EVs"
+      },
+      {
+        "rank": 22,
+        "code": "IE",
+        "value": "0.10M EVs"
+      },
+      {
+        "rank": 23,
+        "code": "FI",
+        "value": "0.095M EVs"
+      },
+      {
+        "rank": 24,
+        "code": "IL",
+        "value": "0.085M EVs"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "0.080M EVs"
+      },
+      {
+        "rank": 26,
+        "code": "IS",
+        "value": "0.070M EVs"
+      },
+      {
+        "rank": 27,
+        "code": "BR",
+        "value": "0.065M EVs"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "0.060M EVs"
+      },
+      {
+        "rank": 29,
+        "code": "NZ",
+        "value": "0.055M EVs"
+      },
+      {
+        "rank": 30,
+        "code": "TR",
+        "value": "0.050M EVs"
+      },
+      {
+        "rank": 31,
+        "code": "LU",
+        "value": "0.045M EVs"
+      },
+      {
+        "rank": 32,
+        "code": "GR",
+        "value": "0.040M EVs"
+      },
+      {
+        "rank": 33,
+        "code": "CZ",
+        "value": "0.035M EVs"
+      },
+      {
+        "rank": 34,
+        "code": "HU",
+        "value": "0.032M EVs"
+      },
+      {
+        "rank": 35,
+        "code": "RO",
+        "value": "0.028M EVs"
+      },
+      {
+        "rank": 36,
+        "code": "ID",
+        "value": "0.025M EVs"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "0.022M EVs"
+      },
+      {
+        "rank": 38,
+        "code": "ZA",
+        "value": "0.020M EVs"
+      },
+      {
+        "rank": 39,
+        "code": "MY",
+        "value": "0.018M EVs"
+      },
+      {
+        "rank": 40,
+        "code": "SG",
+        "value": "0.015M EVs"
       }
     ]
   },
@@ -78570,7 +83075,7 @@
     "title": "Longest Expressway Network",
     "prompt": "Name the countries with the most kilometres of expressway or motorway (limited-access, grade-separated highway).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "International Road Federation (IRF) \u2014 World Road Statistics / national transport ministries",
       "url": "https://worldroadstatistics.org/",
@@ -78655,6 +83160,131 @@
         "rank": 15,
         "code": "AU",
         "value": "3,132 km"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "3,065 km"
+      },
+      {
+        "rank": 17,
+        "code": "NL",
+        "value": "2,650 km"
+      },
+      {
+        "rank": 18,
+        "code": "KR",
+        "value": "5,000 km"
+      },
+      {
+        "rank": 19,
+        "code": "SA",
+        "value": "3,900 km"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "2,249 km"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "2,100 km"
+      },
+      {
+        "rank": 22,
+        "code": "HU",
+        "value": "2,019 km"
+      },
+      {
+        "rank": 23,
+        "code": "GR",
+        "value": "2,000 km"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "1,900 km"
+      },
+      {
+        "rank": 25,
+        "code": "CZ",
+        "value": "1,388 km"
+      },
+      {
+        "rank": 26,
+        "code": "RO",
+        "value": "1,050 km"
+      },
+      {
+        "rank": 27,
+        "code": "HR",
+        "value": "1,313 km"
+      },
+      {
+        "rank": 28,
+        "code": "BE",
+        "value": "1,763 km"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "1,300 km"
+      },
+      {
+        "rank": 30,
+        "code": "SE",
+        "value": "2,120 km"
+      },
+      {
+        "rank": 31,
+        "code": "IE",
+        "value": "1,224 km"
+      },
+      {
+        "rank": 32,
+        "code": "CL",
+        "value": "3,347 km"
+      },
+      {
+        "rank": 33,
+        "code": "AR",
+        "value": "3,000 km"
+      },
+      {
+        "rank": 34,
+        "code": "CH",
+        "value": "1,458 km"
+      },
+      {
+        "rank": 35,
+        "code": "MY",
+        "value": "2,333 km"
+      },
+      {
+        "rank": 36,
+        "code": "ID",
+        "value": "2,499 km"
+      },
+      {
+        "rank": 37,
+        "code": "BY",
+        "value": "1,910 km"
+      },
+      {
+        "rank": 38,
+        "code": "UA",
+        "value": "1,700 km"
+      },
+      {
+        "rank": 39,
+        "code": "IR",
+        "value": "2,500 km"
+      },
+      {
+        "rank": 40,
+        "code": "TH",
+        "value": "525 km"
       }
     ]
   },
@@ -78665,7 +83295,7 @@
     "title": "Largest Rail Passenger Volume",
     "prompt": "Name the countries whose railways move the most passenger-kilometres per year.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "International Union of Railways (UIC) \u2014 Railway Statistics Synopsis",
       "url": "https://uic.org/support-activities/statistics/",
@@ -78750,6 +83380,131 @@
         "rank": 15,
         "code": "AT",
         "value": "13B pass-km"
+      },
+      {
+        "rank": 16,
+        "code": "NL",
+        "value": "12B pass-km"
+      },
+      {
+        "rank": 17,
+        "code": "CZ",
+        "value": "10B pass-km"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "9B pass-km"
+      },
+      {
+        "rank": 19,
+        "code": "TR",
+        "value": "8B pass-km"
+      },
+      {
+        "rank": 20,
+        "code": "HU",
+        "value": "7B pass-km"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "13B pass-km"
+      },
+      {
+        "rank": 22,
+        "code": "US",
+        "value": "10B pass-km"
+      },
+      {
+        "rank": 23,
+        "code": "RO",
+        "value": "5B pass-km"
+      },
+      {
+        "rank": 24,
+        "code": "PT",
+        "value": "4.5B pass-km"
+      },
+      {
+        "rank": 25,
+        "code": "DK",
+        "value": "4B pass-km"
+      },
+      {
+        "rank": 26,
+        "code": "NO",
+        "value": "3.5B pass-km"
+      },
+      {
+        "rank": 27,
+        "code": "FI",
+        "value": "3.5B pass-km"
+      },
+      {
+        "rank": 28,
+        "code": "BY",
+        "value": "3B pass-km"
+      },
+      {
+        "rank": 29,
+        "code": "SK",
+        "value": "3B pass-km"
+      },
+      {
+        "rank": 30,
+        "code": "IE",
+        "value": "2.5B pass-km"
+      },
+      {
+        "rank": 31,
+        "code": "KZ",
+        "value": "16B pass-km"
+      },
+      {
+        "rank": 32,
+        "code": "MA",
+        "value": "2B pass-km"
+      },
+      {
+        "rank": 33,
+        "code": "HR",
+        "value": "1.5B pass-km"
+      },
+      {
+        "rank": 34,
+        "code": "BG",
+        "value": "1.4B pass-km"
+      },
+      {
+        "rank": 35,
+        "code": "SI",
+        "value": "0.9B pass-km"
+      },
+      {
+        "rank": 36,
+        "code": "GR",
+        "value": "0.7B pass-km"
+      },
+      {
+        "rank": 37,
+        "code": "TN",
+        "value": "0.6B pass-km"
+      },
+      {
+        "rank": 38,
+        "code": "DZ",
+        "value": "0.5B pass-km"
+      },
+      {
+        "rank": 39,
+        "code": "AR",
+        "value": "0.5B pass-km"
+      },
+      {
+        "rank": 40,
+        "code": "AU",
+        "value": "0.4B pass-km"
       }
     ]
   },
@@ -78760,7 +83515,7 @@
     "title": "Largest Rail Freight Volume",
     "prompt": "Name the countries whose railways move the most freight (tonne-kilometres) per year.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "International Union of Railways (UIC) \u2014 Railway Statistics Synopsis",
       "url": "https://uic.org/support-activities/statistics/",
@@ -78845,6 +83600,131 @@
         "rank": 15,
         "code": "FR",
         "value": "37B tonne-km"
+      },
+      {
+        "rank": 16,
+        "code": "AT",
+        "value": "27B tonne-km"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "25B tonne-km"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "18B tonne-km"
+      },
+      {
+        "rank": 19,
+        "code": "LV",
+        "value": "15B tonne-km"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "23B tonne-km"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "22B tonne-km"
+      },
+      {
+        "rank": 22,
+        "code": "LT",
+        "value": "14B tonne-km"
+      },
+      {
+        "rank": 23,
+        "code": "TR",
+        "value": "13B tonne-km"
+      },
+      {
+        "rank": 24,
+        "code": "ES",
+        "value": "12B tonne-km"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "12B tonne-km"
+      },
+      {
+        "rank": 26,
+        "code": "UZ",
+        "value": "23B tonne-km"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "10B tonne-km"
+      },
+      {
+        "rank": 28,
+        "code": "FI",
+        "value": "9B tonne-km"
+      },
+      {
+        "rank": 29,
+        "code": "SK",
+        "value": "8B tonne-km"
+      },
+      {
+        "rank": 30,
+        "code": "BE",
+        "value": "7B tonne-km"
+      },
+      {
+        "rank": 31,
+        "code": "JP",
+        "value": "18B tonne-km"
+      },
+      {
+        "rank": 32,
+        "code": "NL",
+        "value": "6B tonne-km"
+      },
+      {
+        "rank": 33,
+        "code": "MN",
+        "value": "27B tonne-km"
+      },
+      {
+        "rank": 34,
+        "code": "CH",
+        "value": "10B tonne-km"
+      },
+      {
+        "rank": 35,
+        "code": "AR",
+        "value": "10B tonne-km"
+      },
+      {
+        "rank": 36,
+        "code": "BG",
+        "value": "3.5B tonne-km"
+      },
+      {
+        "rank": 37,
+        "code": "GB",
+        "value": "17B tonne-km"
+      },
+      {
+        "rank": 38,
+        "code": "DK",
+        "value": "2.5B tonne-km"
+      },
+      {
+        "rank": 39,
+        "code": "NO",
+        "value": "3.8B tonne-km"
+      },
+      {
+        "rank": 40,
+        "code": "EG",
+        "value": "4B tonne-km"
       }
     ]
   },
@@ -78855,7 +83735,7 @@
     "title": "Highest Gasoline Prices",
     "prompt": "Name the countries where petrol (gasoline) costs the most per litre at the pump.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "GlobalPetrolPrices.com \u2014 Gasoline Prices",
       "url": "https://www.globalpetrolprices.com/gasoline_prices/",
@@ -78940,6 +83820,131 @@
         "rank": 15,
         "code": "DE",
         "value": "$1.95/L"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "$1.93/L"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "$1.88/L"
+      },
+      {
+        "rank": 18,
+        "code": "SG",
+        "value": "$1.85/L"
+      },
+      {
+        "rank": 19,
+        "code": "IL",
+        "value": "$1.83/L"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "$1.79/L"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "$1.75/L"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "$1.72/L"
+      },
+      {
+        "rank": 23,
+        "code": "SK",
+        "value": "$1.70/L"
+      },
+      {
+        "rank": 24,
+        "code": "LU",
+        "value": "$1.68/L"
+      },
+      {
+        "rank": 25,
+        "code": "SI",
+        "value": "$1.66/L"
+      },
+      {
+        "rank": 26,
+        "code": "HR",
+        "value": "$1.65/L"
+      },
+      {
+        "rank": 27,
+        "code": "EE",
+        "value": "$1.63/L"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "$1.62/L"
+      },
+      {
+        "rank": 29,
+        "code": "LV",
+        "value": "$1.60/L"
+      },
+      {
+        "rank": 30,
+        "code": "LT",
+        "value": "$1.58/L"
+      },
+      {
+        "rank": 31,
+        "code": "NZ",
+        "value": "$1.57/L"
+      },
+      {
+        "rank": 32,
+        "code": "PL",
+        "value": "$1.55/L"
+      },
+      {
+        "rank": 33,
+        "code": "RO",
+        "value": "$1.52/L"
+      },
+      {
+        "rank": 34,
+        "code": "BG",
+        "value": "$1.50/L"
+      },
+      {
+        "rank": 35,
+        "code": "AU",
+        "value": "$1.47/L"
+      },
+      {
+        "rank": 36,
+        "code": "TR",
+        "value": "$1.45/L"
+      },
+      {
+        "rank": 37,
+        "code": "JP",
+        "value": "$1.20/L"
+      },
+      {
+        "rank": 38,
+        "code": "KR",
+        "value": "$1.28/L"
+      },
+      {
+        "rank": 39,
+        "code": "MX",
+        "value": "$1.30/L"
+      },
+      {
+        "rank": 40,
+        "code": "CA",
+        "value": "$1.15/L"
       }
     ]
   },
@@ -78950,7 +83955,7 @@
     "title": "Cheapest Gasoline",
     "prompt": "Name the countries where petrol (gasoline) costs the least per litre at the pump.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "GlobalPetrolPrices.com \u2014 Gasoline Prices",
       "url": "https://www.globalpetrolprices.com/gasoline_prices/",
@@ -79035,6 +84040,131 @@
         "rank": 15,
         "code": "AE",
         "value": "$0.83/L"
+      },
+      {
+        "rank": 16,
+        "code": "NG",
+        "value": "$0.85/L"
+      },
+      {
+        "rank": 17,
+        "code": "AZ",
+        "value": "$0.88/L"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "$0.90/L"
+      },
+      {
+        "rank": 19,
+        "code": "BO",
+        "value": "$0.55/L"
+      },
+      {
+        "rank": 20,
+        "code": "SY",
+        "value": "$0.75/L"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "$0.63/L"
+      },
+      {
+        "rank": 22,
+        "code": "ET",
+        "value": "$0.92/L"
+      },
+      {
+        "rank": 23,
+        "code": "US",
+        "value": "$0.95/L"
+      },
+      {
+        "rank": 24,
+        "code": "EC",
+        "value": "$0.65/L"
+      },
+      {
+        "rank": 25,
+        "code": "IQ",
+        "value": "$0.72/L"
+      },
+      {
+        "rank": 26,
+        "code": "BY",
+        "value": "$0.86/L"
+      },
+      {
+        "rank": 27,
+        "code": "PA",
+        "value": "$0.99/L"
+      },
+      {
+        "rank": 28,
+        "code": "TT",
+        "value": "$0.93/L"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "$0.87/L"
+      },
+      {
+        "rank": 30,
+        "code": "PY",
+        "value": "$1.00/L"
+      },
+      {
+        "rank": 31,
+        "code": "VN",
+        "value": "$0.94/L"
+      },
+      {
+        "rank": 32,
+        "code": "MM",
+        "value": "$0.96/L"
+      },
+      {
+        "rank": 33,
+        "code": "PK",
+        "value": "$0.98/L"
+      },
+      {
+        "rank": 34,
+        "code": "IN",
+        "value": "$1.15/L"
+      },
+      {
+        "rank": 35,
+        "code": "CO",
+        "value": "$0.80/L"
+      },
+      {
+        "rank": 36,
+        "code": "GT",
+        "value": "$1.05/L"
+      },
+      {
+        "rank": 37,
+        "code": "HN",
+        "value": "$1.08/L"
+      },
+      {
+        "rank": 38,
+        "code": "GH",
+        "value": "$1.02/L"
+      },
+      {
+        "rank": 39,
+        "code": "PH",
+        "value": "$1.10/L"
+      },
+      {
+        "rank": 40,
+        "code": "ID",
+        "value": "$0.85/L"
       }
     ]
   },
@@ -83220,7 +88350,7 @@
     "title": "Axis powers and co-belligerents in WWII",
     "prompt": "Name the countries that fought on the Axis side (or as Axis co-belligerents) during World War II.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 Axis powers",
       "url": "https://en.wikipedia.org/wiki/Axis_powers",
@@ -83305,6 +88435,56 @@
         "rank": 15,
         "code": "PH",
         "value": "Philippines (Second Republic puppet)"
+      },
+      {
+        "rank": 16,
+        "code": "RS",
+        "value": "Serbia (Nedic government / occupied)"
+      },
+      {
+        "rank": 17,
+        "code": "VN",
+        "value": "Vietnam (Empire of Vietnam puppet, 1945)"
+      },
+      {
+        "rank": 18,
+        "code": "LA",
+        "value": "Laos (Japanese-backed Luang Prabang, 1945)"
+      },
+      {
+        "rank": 19,
+        "code": "KH",
+        "value": "Cambodia (Japanese-backed Kingdom, 1945)"
+      },
+      {
+        "rank": 20,
+        "code": "MN",
+        "value": "Mengjiang (Inner Mongolia puppet)"
+      },
+      {
+        "rank": 21,
+        "code": "CN",
+        "value": "Reorganized Government of China (Wang Jingwei regime)"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "Dutch East Indies (Japanese-sponsored PETA)"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "Vichy France (collaborationist regime)"
+      },
+      {
+        "rank": 24,
+        "code": "NO",
+        "value": "Norway (Quisling government)"
+      },
+      {
+        "rank": 25,
+        "code": "LT",
+        "value": "Lithuania (Provisional Government, 1941)"
       }
     ]
   },
@@ -83315,7 +88495,7 @@
     "title": "Oldest continuously inhabited civilizations",
     "prompt": "Name the countries whose modern territory hosts the earliest recorded urban or state-level civilization (oldest first).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Cradle of civilization (aggregating UNESCO and archaeological consensus)",
       "url": "https://en.wikipedia.org/wiki/Cradle_of_civilization",
@@ -83400,6 +88580,81 @@
         "rank": 15,
         "code": "JP",
         "value": "c. 660 BC (traditional Yamato)"
+      },
+      {
+        "rank": 16,
+        "code": "LB",
+        "value": "c. 2500 BC (Phoenician city-states)"
+      },
+      {
+        "rank": 17,
+        "code": "JO",
+        "value": "c. 2000 BC (Ammon, Moab, Edom)"
+      },
+      {
+        "rank": 18,
+        "code": "YE",
+        "value": "c. 1200 BC (Sabaean kingdom)"
+      },
+      {
+        "rank": 19,
+        "code": "AM",
+        "value": "c. 860 BC (Urartu)"
+      },
+      {
+        "rank": 20,
+        "code": "GE",
+        "value": "c. 1200 BC (Colchis / Diauehi)"
+      },
+      {
+        "rank": 21,
+        "code": "AF",
+        "value": "c. 2200 BC (Bactria-Margiana / BMAC)"
+      },
+      {
+        "rank": 22,
+        "code": "GT",
+        "value": "c. 1800 BC (early Maya)"
+      },
+      {
+        "rank": 23,
+        "code": "IT",
+        "value": "c. 900 BC (Etruscan civilization)"
+      },
+      {
+        "rank": 24,
+        "code": "KH",
+        "value": "c. 2000 BC (early Cambodia / bronze age)"
+      },
+      {
+        "rank": 25,
+        "code": "VN",
+        "value": "c. 2000 BC (Dong Son / Van Lang)"
+      },
+      {
+        "rank": 26,
+        "code": "KR",
+        "value": "c. 2333 BC (Gojoseon, traditional)"
+      },
+      {
+        "rank": 27,
+        "code": "TH",
+        "value": "c. 1500 BC (Ban Chiang culture)"
+      },
+      {
+        "rank": 28,
+        "code": "MT",
+        "value": "c. 3600 BC (Megalithic Temple builders)"
+      },
+      {
+        "rank": 29,
+        "code": "CY",
+        "value": "c. 2500 BC (Bronze Age Cypriot)"
+      },
+      {
+        "rank": 30,
+        "code": "OM",
+        "value": "c. 3000 BC (Magan civilization)"
       }
     ]
   },
@@ -83410,7 +88665,7 @@
     "title": "Largest colonial empires (by peak territory)",
     "prompt": "Name the countries that ruled the largest colonial empires at their peak extent.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 24,
     "source": {
       "name": "Wikipedia \u2014 List of largest empires (aggregating Rein Taagepera, Turchin)",
       "url": "https://en.wikipedia.org/wiki/List_of_largest_empires",
@@ -83495,6 +88750,51 @@
         "rank": 15,
         "code": "US",
         "value": "1.8M km\u00b2 (US overseas territories, 1898-1946)"
+      },
+      {
+        "rank": 17,
+        "code": "IR",
+        "value": "8.0M km\u00b2 (Achaemenid Empire, c. 480 BC)"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "1.1M km\u00b2 (Swedish Empire, 1658)"
+      },
+      {
+        "rank": 19,
+        "code": "NO",
+        "value": "2.6M km\u00b2 (Danish-Norwegian union share, c. 1800)"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "0.7M km\u00b2 (Austro-Hungarian Empire, 1914)"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "5.0M km\u00b2 (Maurya Empire, c. 250 BC)"
+      },
+      {
+        "rank": 22,
+        "code": "MA",
+        "value": "3.0M km\u00b2 (Almohad Caliphate, c. 1200)"
+      },
+      {
+        "rank": 23,
+        "code": "ML",
+        "value": "1.3M km\u00b2 (Mali Empire, c. 1350)"
+      },
+      {
+        "rank": 24,
+        "code": "MX",
+        "value": "2.0M km\u00b2 (Aztec Empire tributary zone, c. 1519)"
+      },
+      {
+        "rank": 25,
+        "code": "PE",
+        "value": "2.0M km\u00b2 (Inca Empire, c. 1527)"
       }
     ]
   },
@@ -83505,7 +88805,7 @@
     "title": "Longest continuous royal dynasties",
     "prompt": "Name the countries with the longest continuous monarchical dynasty (single unbroken line).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 Dynasty (Longevity section)",
       "url": "https://en.wikipedia.org/wiki/Dynasty",
@@ -83590,6 +88890,56 @@
         "rank": 15,
         "code": "NO",
         "value": "Monarchy since c. 872 (Harald Fairhair)"
+      },
+      {
+        "rank": 16,
+        "code": "MC",
+        "value": "House of Grimaldi \u2014 since 1297"
+      },
+      {
+        "rank": 17,
+        "code": "LI",
+        "value": "House of Liechtenstein \u2014 since 1608 (principality 1719)"
+      },
+      {
+        "rank": 18,
+        "code": "KW",
+        "value": "House of Sabah \u2014 since 1752"
+      },
+      {
+        "rank": 19,
+        "code": "BH",
+        "value": "House of Khalifa \u2014 since 1783"
+      },
+      {
+        "rank": 20,
+        "code": "QA",
+        "value": "House of Thani \u2014 since 1825"
+      },
+      {
+        "rank": 21,
+        "code": "MY",
+        "value": "Perak Sultanate \u2014 since 1528"
+      },
+      {
+        "rank": 22,
+        "code": "BN",
+        "value": "Bolkiah dynasty \u2014 since 1363"
+      },
+      {
+        "rank": 23,
+        "code": "TO",
+        "value": "House of Tupou \u2014 since 1875 (line to 10th c.)"
+      },
+      {
+        "rank": 24,
+        "code": "LS",
+        "value": "House of Moshesh \u2014 since 1822"
+      },
+      {
+        "rank": 25,
+        "code": "SZ",
+        "value": "House of Dlamini \u2014 since c. 1745"
       }
     ]
   },
@@ -83600,7 +88950,7 @@
     "title": "Countries never colonized by European powers",
     "prompt": "Name the countries that were never colonized or made a formal protectorate by a European power.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 Colonialism (uncolonized countries)",
       "url": "https://en.wikipedia.org/wiki/Colonialism",
@@ -83685,6 +89035,56 @@
         "rank": 15,
         "code": "YE",
         "value": "North Yemen never colonized (Ottoman then independent)"
+      },
+      {
+        "rank": 16,
+        "code": "OM",
+        "value": "Never colonized (British-protected but sovereign)"
+      },
+      {
+        "rank": 17,
+        "code": "AL",
+        "value": "Ottoman rule then independent 1912 \u2014 never European-colonized"
+      },
+      {
+        "rank": 18,
+        "code": "BG",
+        "value": "Ottoman rule then independent 1878 \u2014 never European-colonized"
+      },
+      {
+        "rank": 19,
+        "code": "RS",
+        "value": "Ottoman rule then independent 1878 \u2014 never European-colonized"
+      },
+      {
+        "rank": 20,
+        "code": "RO",
+        "value": "Ottoman suzerainty then independent 1878 \u2014 never European-colonized"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "Never colonized (colonizer itself)"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "Never colonized (European power itself)"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "Never colonized (union partner, then independent)"
+      },
+      {
+        "rank": 24,
+        "code": "IS",
+        "value": "Never colonized (union with Denmark, sovereign 1918)"
+      },
+      {
+        "rank": 25,
+        "code": "VA",
+        "value": "Never colonized (sovereign since antiquity)"
       }
     ]
   },
@@ -83695,7 +89095,7 @@
     "title": "Countries occupied longest during WWII",
     "prompt": "Name the countries that spent the longest continuous period under Axis occupation during World War II.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 German-occupied Europe / Japanese-occupied territories",
       "url": "https://en.wikipedia.org/wiki/German-occupied_Europe",
@@ -83780,6 +89180,81 @@
         "rank": 15,
         "code": "PH",
         "value": "3 years under Japan (Jan 1942 - 1945) (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "RS",
+        "value": "3+ years (Yugoslavia Apr 1941 - Oct 1944)"
+      },
+      {
+        "rank": 17,
+        "code": "MY",
+        "value": "3+ years under Japan (Dec 1941 - Aug 1945)"
+      },
+      {
+        "rank": 18,
+        "code": "SG",
+        "value": "3+ years under Japan (Feb 1942 - Sep 1945)"
+      },
+      {
+        "rank": 19,
+        "code": "MM",
+        "value": "3+ years under Japan (Jan 1942 - 1945)"
+      },
+      {
+        "rank": 20,
+        "code": "VN",
+        "value": "5 years under Japan (Sep 1940 - Aug 1945)"
+      },
+      {
+        "rank": 21,
+        "code": "KH",
+        "value": "5 years under Japan (1940 - Aug 1945)"
+      },
+      {
+        "rank": 22,
+        "code": "LA",
+        "value": "5 years under Japan (1940 - Aug 1945)"
+      },
+      {
+        "rank": 23,
+        "code": "HK",
+        "value": "3.8 years under Japan (Dec 1941 - Aug 1945)"
+      },
+      {
+        "rank": 24,
+        "code": "AL",
+        "value": "4 years (Italian then German occupation 1939-1944)"
+      },
+      {
+        "rank": 25,
+        "code": "EE",
+        "value": "4 years (German occupation 1941-1944) plus Soviet"
+      },
+      {
+        "rank": 26,
+        "code": "LV",
+        "value": "3 years (German occupation 1941-1944) plus Soviet"
+      },
+      {
+        "rank": 27,
+        "code": "LT",
+        "value": "3 years (German occupation 1941-1944) plus Soviet"
+      },
+      {
+        "rank": 28,
+        "code": "UA",
+        "value": "3 years (German occupation 1941-1944)"
+      },
+      {
+        "rank": 29,
+        "code": "BY",
+        "value": "3 years (German occupation 1941-1944)"
+      },
+      {
+        "rank": 30,
+        "code": "MD",
+        "value": "3 years (German/Romanian occupation 1941-1944)"
       }
     ]
   },
@@ -85625,7 +91100,7 @@
     "title": "Busiest Single Airport (Passengers)",
     "prompt": "Name the countries whose busiest single airport handles the most passengers per year.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 40,
     "source": {
       "name": "ACI World \u2014 Airport Traffic Data Centre",
       "url": "https://aci.aero/data-centre/",
@@ -85735,6 +91210,106 @@
         "rank": 20,
         "code": "IE",
         "value": "31.9M (Dublin DUB)"
+      },
+      {
+        "rank": 21,
+        "code": "QA",
+        "value": "45.9M (Doha DOH)"
+      },
+      {
+        "rank": 22,
+        "code": "TW",
+        "value": "35.4M (Taipei TPE)"
+      },
+      {
+        "rank": 23,
+        "code": "IT",
+        "value": "40.5M (Rome FCO)"
+      },
+      {
+        "rank": 24,
+        "code": "MY",
+        "value": "43.0M (Kuala Lumpur KUL)"
+      },
+      {
+        "rank": 25,
+        "code": "CH",
+        "value": "28.9M (Zurich ZRH)"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "33.6M (Lisbon LIS)"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "29.5M (Vienna VIE)"
+      },
+      {
+        "rank": 28,
+        "code": "GR",
+        "value": "28.2M (Athens ATH)"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "27.1M (Copenhagen CPH)"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "24.9M (Oslo OSL)"
+      },
+      {
+        "rank": 31,
+        "code": "PH",
+        "value": "45.4M (Manila MNL)"
+      },
+      {
+        "rank": 32,
+        "code": "VN",
+        "value": "40.0M (Ho Chi Minh SGN)"
+      },
+      {
+        "rank": 33,
+        "code": "CO",
+        "value": "35.4M (Bogot\u00e1 BOG)"
+      },
+      {
+        "rank": 34,
+        "code": "SA",
+        "value": "39.5M (Jeddah JED)"
+      },
+      {
+        "rank": 35,
+        "code": "ZA",
+        "value": "21.0M (Johannesburg JNB)"
+      },
+      {
+        "rank": 36,
+        "code": "EG",
+        "value": "26.3M (Cairo CAI)"
+      },
+      {
+        "rank": 37,
+        "code": "PL",
+        "value": "18.5M (Warsaw WAW)"
+      },
+      {
+        "rank": 38,
+        "code": "BE",
+        "value": "22.2M (Brussels BRU)"
+      },
+      {
+        "rank": 39,
+        "code": "SE",
+        "value": "22.6M (Stockholm ARN)"
+      },
+      {
+        "rank": 40,
+        "code": "FI",
+        "value": "12.9M (Helsinki HEL)"
       }
     ]
   },
@@ -86515,7 +92090,7 @@
     "title": "Highest Gasoline Prices",
     "prompt": "Name the countries where petrol (gasoline) costs the most per litre at the pump.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "GlobalPetrolPrices.com \u2014 Gasoline Prices",
       "url": "https://www.globalpetrolprices.com/gasoline_prices/",
@@ -86600,6 +92175,131 @@
         "rank": 15,
         "code": "DE",
         "value": "$1.95/L"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "$1.93/L"
+      },
+      {
+        "rank": 17,
+        "code": "SG",
+        "value": "$1.92/L"
+      },
+      {
+        "rank": 18,
+        "code": "GB",
+        "value": "$1.88/L"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "$1.72/L"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "$1.70/L"
+      },
+      {
+        "rank": 21,
+        "code": "LU",
+        "value": "$1.66/L"
+      },
+      {
+        "rank": 22,
+        "code": "IL",
+        "value": "$1.99/L"
+      },
+      {
+        "rank": 23,
+        "code": "SK",
+        "value": "$1.68/L"
+      },
+      {
+        "rank": 24,
+        "code": "CZ",
+        "value": "$1.65/L"
+      },
+      {
+        "rank": 25,
+        "code": "SI",
+        "value": "$1.63/L"
+      },
+      {
+        "rank": 26,
+        "code": "HR",
+        "value": "$1.60/L"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "$1.58/L"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "$1.55/L"
+      },
+      {
+        "rank": 29,
+        "code": "EE",
+        "value": "$1.62/L"
+      },
+      {
+        "rank": 30,
+        "code": "LV",
+        "value": "$1.60/L"
+      },
+      {
+        "rank": 31,
+        "code": "LT",
+        "value": "$1.58/L"
+      },
+      {
+        "rank": 32,
+        "code": "RO",
+        "value": "$1.45/L"
+      },
+      {
+        "rank": 33,
+        "code": "BG",
+        "value": "$1.40/L"
+      },
+      {
+        "rank": 34,
+        "code": "AU",
+        "value": "$1.30/L"
+      },
+      {
+        "rank": 35,
+        "code": "NZ",
+        "value": "$1.65/L"
+      },
+      {
+        "rank": 36,
+        "code": "JP",
+        "value": "$1.15/L"
+      },
+      {
+        "rank": 37,
+        "code": "KR",
+        "value": "$1.30/L"
+      },
+      {
+        "rank": 38,
+        "code": "CA",
+        "value": "$1.20/L"
+      },
+      {
+        "rank": 39,
+        "code": "MT",
+        "value": "$1.55/L"
+      },
+      {
+        "rank": 40,
+        "code": "CY",
+        "value": "$1.60/L"
       }
     ]
   },
@@ -86610,7 +92310,7 @@
     "title": "Cheapest Gasoline",
     "prompt": "Name the countries where petrol (gasoline) costs the least per litre at the pump.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "GlobalPetrolPrices.com \u2014 Gasoline Prices",
       "url": "https://www.globalpetrolprices.com/gasoline_prices/",
@@ -86695,6 +92395,131 @@
         "rank": 15,
         "code": "AE",
         "value": "$0.83/L"
+      },
+      {
+        "rank": 16,
+        "code": "SY",
+        "value": "$0.85/L"
+      },
+      {
+        "rank": 17,
+        "code": "RU",
+        "value": "$0.60/L"
+      },
+      {
+        "rank": 18,
+        "code": "BO",
+        "value": "$0.55/L"
+      },
+      {
+        "rank": 19,
+        "code": "SD",
+        "value": "$0.70/L"
+      },
+      {
+        "rank": 20,
+        "code": "NG",
+        "value": "$0.70/L"
+      },
+      {
+        "rank": 21,
+        "code": "AZ",
+        "value": "$0.65/L"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "$0.65/L"
+      },
+      {
+        "rank": 23,
+        "code": "IQ",
+        "value": "$0.75/L"
+      },
+      {
+        "rank": 24,
+        "code": "TT",
+        "value": "$0.85/L"
+      },
+      {
+        "rank": 25,
+        "code": "TN",
+        "value": "$0.88/L"
+      },
+      {
+        "rank": 26,
+        "code": "US",
+        "value": "$0.91/L"
+      },
+      {
+        "rank": 27,
+        "code": "VN",
+        "value": "$0.90/L"
+      },
+      {
+        "rank": 28,
+        "code": "UZ",
+        "value": "$0.90/L"
+      },
+      {
+        "rank": 29,
+        "code": "PK",
+        "value": "$0.95/L"
+      },
+      {
+        "rank": 30,
+        "code": "PY",
+        "value": "$0.95/L"
+      },
+      {
+        "rank": 31,
+        "code": "BD",
+        "value": "$1.00/L"
+      },
+      {
+        "rank": 32,
+        "code": "AR",
+        "value": "$1.00/L"
+      },
+      {
+        "rank": 33,
+        "code": "MX",
+        "value": "$1.10/L"
+      },
+      {
+        "rank": 34,
+        "code": "BR",
+        "value": "$1.10/L"
+      },
+      {
+        "rank": 35,
+        "code": "LB",
+        "value": "$1.05/L"
+      },
+      {
+        "rank": 36,
+        "code": "MM",
+        "value": "$1.05/L"
+      },
+      {
+        "rank": 37,
+        "code": "CO",
+        "value": "$1.05/L"
+      },
+      {
+        "rank": 38,
+        "code": "ID",
+        "value": "$0.83/L"
+      },
+      {
+        "rank": 39,
+        "code": "PH",
+        "value": "$1.10/L"
+      },
+      {
+        "rank": 40,
+        "code": "GT",
+        "value": "$1.10/L"
       }
     ]
   },
@@ -94650,7 +100475,7 @@
     "title": "Most Catholics total",
     "prompt": "Name the countries with the largest Roman Catholic populations.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Vatican Annuarium Statisticum Ecclesiae / Pew Research",
       "url": "https://www.pewresearch.org/religion/2013/02/13/the-global-catholic-population/",
@@ -94760,6 +100585,56 @@
         "rank": 20,
         "code": "AO",
         "value": "12 million"
+      },
+      {
+        "rank": 21,
+        "code": "KE",
+        "value": "11 million"
+      },
+      {
+        "rank": 22,
+        "code": "MZ",
+        "value": "10 million"
+      },
+      {
+        "rank": 23,
+        "code": "GT",
+        "value": "9 million"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "6 million"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "9 million"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "9 million"
+      },
+      {
+        "rank": 27,
+        "code": "NL",
+        "value": "4 million"
+      },
+      {
+        "rank": 28,
+        "code": "BE",
+        "value": "6 million"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "5 million"
+      },
+      {
+        "rank": 30,
+        "code": "IE",
+        "value": "4 million"
       }
     ]
   },
@@ -94770,7 +100645,7 @@
     "title": "Most Protestants total",
     "prompt": "Name the countries with the largest Protestant Christian populations.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Pew Research Center \u2014 Global Christianity",
       "url": "https://www.pewresearch.org/religion/2011/12/19/global-christianity-exec/",
@@ -94880,6 +100755,56 @@
         "rank": 20,
         "code": "PH",
         "value": "6 million"
+      },
+      {
+        "rank": 21,
+        "code": "MZ",
+        "value": "6 million"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "16 million"
+      },
+      {
+        "rank": 23,
+        "code": "MW",
+        "value": "8 million"
+      },
+      {
+        "rank": 24,
+        "code": "ZM",
+        "value": "9 million"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "5 million"
+      },
+      {
+        "rank": 26,
+        "code": "SE",
+        "value": "6 million"
+      },
+      {
+        "rank": 27,
+        "code": "CM",
+        "value": "5 million"
+      },
+      {
+        "rank": 28,
+        "code": "RW",
+        "value": "4 million"
+      },
+      {
+        "rank": 29,
+        "code": "FI",
+        "value": "4 million"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "4 million"
       }
     ]
   },
@@ -110950,7 +116875,7 @@
     "title": "Countries using Arabic script officially",
     "prompt": "Name the countries whose official state language is written primarily in Arabic script.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "National constitutions / Ethnologue",
       "url": "https://www.ethnologue.com/language/arb/",
@@ -111035,6 +116960,56 @@
         "rank": 15,
         "code": "LB",
         "value": "5.5M (Arabic)"
+      },
+      {
+        "rank": 16,
+        "code": "OM",
+        "value": "4.6M (Arabic)"
+      },
+      {
+        "rank": 17,
+        "code": "MR",
+        "value": "4.7M (Arabic)"
+      },
+      {
+        "rank": 18,
+        "code": "KW",
+        "value": "4.3M (Arabic)"
+      },
+      {
+        "rank": 19,
+        "code": "PS",
+        "value": "5.4M (Arabic)"
+      },
+      {
+        "rank": 20,
+        "code": "QA",
+        "value": "2.9M (Arabic)"
+      },
+      {
+        "rank": 21,
+        "code": "BH",
+        "value": "1.5M (Arabic)"
+      },
+      {
+        "rank": 22,
+        "code": "DJ",
+        "value": "1.1M (Arabic)"
+      },
+      {
+        "rank": 23,
+        "code": "KM",
+        "value": "0.85M (Arabic)"
+      },
+      {
+        "rank": 24,
+        "code": "DZ",
+        "value": "45M (Arabic)"
+      },
+      {
+        "rank": 25,
+        "code": "SO",
+        "value": "17M (Arabic co-official)"
       }
     ]
   },
@@ -111045,7 +117020,7 @@
     "title": "Countries with sign language officially recognized",
     "prompt": "Name the countries that have officially recognized a national sign language in law or constitution.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 Legal recognition of sign languages",
       "url": "https://en.wikipedia.org/wiki/Legal_recognition_of_sign_languages",
@@ -111130,6 +117105,56 @@
         "rank": 13,
         "code": "SK",
         "value": "1995 (statutory)"
+      },
+      {
+        "rank": 16,
+        "code": "CO",
+        "value": "1996 (statutory)"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "2003 (statutory)"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "2017 (official language)"
+      },
+      {
+        "rank": 19,
+        "code": "MT",
+        "value": "2016 (official language)"
+      },
+      {
+        "rank": 20,
+        "code": "ES",
+        "value": "2007 (statutory)"
+      },
+      {
+        "rank": 21,
+        "code": "CY",
+        "value": "2006 (statutory)"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "2002 (statutory)"
+      },
+      {
+        "rank": 23,
+        "code": "GB",
+        "value": "2003 (recognition)"
+      },
+      {
+        "rank": 24,
+        "code": "AU",
+        "value": "1991 (recognition)"
+      },
+      {
+        "rank": 25,
+        "code": "CH",
+        "value": "2005 (statutory recognition)"
       }
     ]
   },
@@ -111140,7 +117165,7 @@
     "title": "Countries where a Romance language is dominant",
     "prompt": "Name the countries where a Romance language (Spanish, Portuguese, French, Italian, Romanian) is the dominant national language, ranked by population.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 Romance languages",
       "url": "https://en.wikipedia.org/wiki/Romance_languages",
@@ -111225,6 +117250,56 @@
         "rank": 15,
         "code": "PT",
         "value": "10M (Portuguese)"
+      },
+      {
+        "rank": 16,
+        "code": "AO",
+        "value": "36M (Portuguese)"
+      },
+      {
+        "rank": 17,
+        "code": "MZ",
+        "value": "33M (Portuguese)"
+      },
+      {
+        "rank": 18,
+        "code": "BO",
+        "value": "12M (Spanish)"
+      },
+      {
+        "rank": 19,
+        "code": "DO",
+        "value": "11M (Spanish)"
+      },
+      {
+        "rank": 20,
+        "code": "HN",
+        "value": "10M (Spanish)"
+      },
+      {
+        "rank": 21,
+        "code": "HT",
+        "value": "12M (French co-official)"
+      },
+      {
+        "rank": 22,
+        "code": "PY",
+        "value": "7M (Spanish)"
+      },
+      {
+        "rank": 23,
+        "code": "SV",
+        "value": "6.3M (Spanish)"
+      },
+      {
+        "rank": 24,
+        "code": "NI",
+        "value": "6.8M (Spanish)"
+      },
+      {
+        "rank": 25,
+        "code": "CR",
+        "value": "5.2M (Spanish)"
       }
     ]
   },
@@ -125290,7 +131365,7 @@
     "title": "Countries with the most skyscrapers under construction",
     "prompt": "Which countries currently have the most 150m+ skyscrapers under construction?",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "CTBUH \u2014 Skyscraper Center, Buildings Under Construction",
       "url": "https://www.skyscrapercenter.com/buildings?status=UC&heightRange=150-1000",
@@ -125400,6 +131475,56 @@
         "rank": 20,
         "code": "PL",
         "value": "~4 under construction"
+      },
+      {
+        "rank": 21,
+        "code": "GB",
+        "value": "~4 under construction"
+      },
+      {
+        "rank": 22,
+        "code": "EG",
+        "value": "~4 under construction"
+      },
+      {
+        "rank": 23,
+        "code": "KW",
+        "value": "~3 under construction"
+      },
+      {
+        "rank": 24,
+        "code": "BH",
+        "value": "~3 under construction"
+      },
+      {
+        "rank": 25,
+        "code": "BD",
+        "value": "~3 under construction"
+      },
+      {
+        "rank": 26,
+        "code": "PK",
+        "value": "~3 under construction"
+      },
+      {
+        "rank": 27,
+        "code": "DE",
+        "value": "~3 under construction"
+      },
+      {
+        "rank": 28,
+        "code": "BR",
+        "value": "~2 under construction"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "~2 under construction"
+      },
+      {
+        "rank": 30,
+        "code": "IL",
+        "value": "~2 under construction"
       }
     ]
   },
@@ -125410,7 +131535,7 @@
     "title": "Countries with the most zoos",
     "prompt": "Which countries have the most zoos and aquariums (as counted by major zoological association memberships and public zoo directories)?",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Lists of zoos by country / WAZA member directory",
       "url": "https://en.wikipedia.org/wiki/List_of_zoos_by_country",
@@ -125520,6 +131645,56 @@
         "rank": 20,
         "code": "ZA",
         "value": "~25 zoos"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "~22 zoos"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "~20 zoos"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "~18 zoos"
+      },
+      {
+        "rank": 24,
+        "code": "CH",
+        "value": "~17 zoos"
+      },
+      {
+        "rank": 25,
+        "code": "TH",
+        "value": "~16 zoos"
+      },
+      {
+        "rank": 26,
+        "code": "HU",
+        "value": "~15 zoos"
+      },
+      {
+        "rank": 27,
+        "code": "DK",
+        "value": "~14 zoos"
+      },
+      {
+        "rank": 28,
+        "code": "TW",
+        "value": "~13 zoos"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "~12 zoos"
+      },
+      {
+        "rank": 30,
+        "code": "NZ",
+        "value": "~11 zoos"
       }
     ]
   },
@@ -125530,7 +131705,7 @@
     "title": "Countries with the most lighthouses",
     "prompt": "Which countries have the most operational lighthouses along their coastlines?",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Lists of lighthouses / ARLHS World List of Lights",
       "url": "https://wlol.arlhs.com/",
@@ -125640,6 +131815,56 @@
         "rank": 20,
         "code": "TR",
         "value": "~35 lighthouses"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "~32 lighthouses"
+      },
+      {
+        "rank": 22,
+        "code": "CN",
+        "value": "~30 lighthouses"
+      },
+      {
+        "rank": 23,
+        "code": "MX",
+        "value": "~28 lighthouses"
+      },
+      {
+        "rank": 24,
+        "code": "BR",
+        "value": "~26 lighthouses"
+      },
+      {
+        "rank": 25,
+        "code": "AR",
+        "value": "~24 lighthouses"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "~22 lighthouses"
+      },
+      {
+        "rank": 27,
+        "code": "IN",
+        "value": "~20 lighthouses"
+      },
+      {
+        "rank": 28,
+        "code": "ZA",
+        "value": "~18 lighthouses"
+      },
+      {
+        "rank": 29,
+        "code": "EE",
+        "value": "~16 lighthouses"
+      },
+      {
+        "rank": 30,
+        "code": "HR",
+        "value": "~15 lighthouses"
       }
     ]
   },
@@ -127290,7 +133515,7 @@
     "title": "Highest daily newspaper circulation",
     "prompt": "Name the countries with the highest total daily newspaper circulation (paid print copies per day, all titles combined).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "WAN-IFRA \u2014 World Press Trends Report",
       "url": "https://wan-ifra.org/insight/world-press-trends-outlook/",
@@ -127400,6 +133625,56 @@
         "rank": 20,
         "code": "TH",
         "value": "1.1M copies/day"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "1.0M copies/day"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "0.95M copies/day"
+      },
+      {
+        "rank": 23,
+        "code": "PH",
+        "value": "0.85M copies/day"
+      },
+      {
+        "rank": 24,
+        "code": "VN",
+        "value": "0.80M copies/day"
+      },
+      {
+        "rank": 25,
+        "code": "EG",
+        "value": "0.75M copies/day"
+      },
+      {
+        "rank": 26,
+        "code": "ZA",
+        "value": "0.70M copies/day"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "0.65M copies/day"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "0.60M copies/day"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "0.55M copies/day"
+      },
+      {
+        "rank": 30,
+        "code": "SE",
+        "value": "0.50M copies/day"
       }
     ]
   },
@@ -127410,7 +133685,7 @@
     "title": "Most books published per year",
     "prompt": "Name the countries publishing the most new book titles per year (new and revised editions across all subjects).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "UNESCO Institute for Statistics / International Publishers Association",
       "url": "https://www.internationalpublishers.org/annual-report",
@@ -127520,6 +133795,56 @@
         "rank": 20,
         "code": "AR",
         "value": "25,000 titles"
+      },
+      {
+        "rank": 21,
+        "code": "UA",
+        "value": "22,000 titles"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "19,000 titles"
+      },
+      {
+        "rank": 23,
+        "code": "MX",
+        "value": "18,000 titles"
+      },
+      {
+        "rank": 24,
+        "code": "SE",
+        "value": "16,000 titles"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "15,000 titles"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "14,000 titles"
+      },
+      {
+        "rank": 27,
+        "code": "HU",
+        "value": "13,000 titles"
+      },
+      {
+        "rank": 28,
+        "code": "BE",
+        "value": "12,000 titles"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "11,000 titles"
+      },
+      {
+        "rank": 30,
+        "code": "FI",
+        "value": "10,500 titles"
       }
     ]
   },
@@ -127530,7 +133855,7 @@
     "title": "Largest podcast markets by revenue",
     "prompt": "Name the countries with the largest podcast advertising and subscription revenue markets.",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "IAB / PwC Global Entertainment & Media Outlook \u2014 Podcast segment",
       "url": "https://www.pwc.com/gx/en/industries/tmt/media/outlook.html",
@@ -127640,6 +133965,56 @@
         "rank": 20,
         "code": "AR",
         "value": "$18M revenue"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "$16M revenue"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "$14M revenue"
+      },
+      {
+        "rank": 23,
+        "code": "CH",
+        "value": "$13M revenue"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "$11M revenue"
+      },
+      {
+        "rank": 25,
+        "code": "NZ",
+        "value": "$10M revenue"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "$9M revenue"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "$8M revenue"
+      },
+      {
+        "rank": 28,
+        "code": "CL",
+        "value": "$7M revenue"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "$6M revenue"
+      },
+      {
+        "rank": 30,
+        "code": "ZA",
+        "value": "$5.5M revenue"
       }
     ]
   },
@@ -127650,7 +134025,7 @@
     "title": "Most cinema screens per capita",
     "prompt": "Name the countries with the most cinema screens per capita (screens per 100,000 residents).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "MPA Theme Report / UNESCO Institute for Statistics \u2014 Feature Films and Cinema data",
       "url": "https://www.motionpictures.org/research-policy/",
@@ -127735,6 +134110,56 @@
         "rank": 15,
         "code": "CH",
         "value": "7.5 screens/100k"
+      },
+      {
+        "rank": 16,
+        "code": "LU",
+        "value": "7.3 screens/100k"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "7.0 screens/100k"
+      },
+      {
+        "rank": 18,
+        "code": "MT",
+        "value": "6.8 screens/100k"
+      },
+      {
+        "rank": 19,
+        "code": "SI",
+        "value": "6.5 screens/100k"
+      },
+      {
+        "rank": 20,
+        "code": "LV",
+        "value": "6.3 screens/100k"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "6.1 screens/100k"
+      },
+      {
+        "rank": 22,
+        "code": "GB",
+        "value": "6.0 screens/100k"
+      },
+      {
+        "rank": 23,
+        "code": "PT",
+        "value": "5.8 screens/100k"
+      },
+      {
+        "rank": 24,
+        "code": "DE",
+        "value": "5.6 screens/100k"
+      },
+      {
+        "rank": 25,
+        "code": "NL",
+        "value": "5.4 screens/100k"
       }
     ]
   },
@@ -127745,7 +134170,7 @@
     "title": "Largest print advertising markets",
     "prompt": "Name the countries with the largest print advertising markets (newspaper + magazine ad spend combined).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "GroupM / Zenith / Dentsu \u2014 Global Ad Spend Forecast: Print segment",
       "url": "https://www.groupm.com/newsroom/this-year-next-year/",
@@ -127855,6 +134280,56 @@
         "rank": 20,
         "code": "AT",
         "value": "$300M ad spend"
+      },
+      {
+        "rank": 21,
+        "code": "RU",
+        "value": "$280M ad spend"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "$260M ad spend"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "$240M ad spend"
+      },
+      {
+        "rank": 24,
+        "code": "DK",
+        "value": "$220M ad spend"
+      },
+      {
+        "rank": 25,
+        "code": "NO",
+        "value": "$200M ad spend"
+      },
+      {
+        "rank": 26,
+        "code": "ID",
+        "value": "$185M ad spend"
+      },
+      {
+        "rank": 27,
+        "code": "TH",
+        "value": "$170M ad spend"
+      },
+      {
+        "rank": 28,
+        "code": "FI",
+        "value": "$155M ad spend"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "$140M ad spend"
+      },
+      {
+        "rank": 30,
+        "code": "ZA",
+        "value": "$125M ad spend"
       }
     ]
   },
@@ -127865,7 +134340,7 @@
     "title": "Highest press freedom score",
     "prompt": "Name the countries with the highest press freedom scores (i.e. freest media environments).",
     "answerType": "Countries",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Reporters Without Borders \u2014 World Press Freedom Index",
       "url": "https://rsf.org/en/index",
@@ -127975,6 +134450,56 @@
         "rank": 20,
         "code": "AT",
         "value": "77.4 score"
+      },
+      {
+        "rank": 21,
+        "code": "TL",
+        "value": "77.1 score"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "76.9 score"
+      },
+      {
+        "rank": 23,
+        "code": "JM",
+        "value": "76.5 score"
+      },
+      {
+        "rank": 24,
+        "code": "MD",
+        "value": "76.0 score"
+      },
+      {
+        "rank": 25,
+        "code": "SR",
+        "value": "75.6 score"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "75.4 score"
+      },
+      {
+        "rank": 27,
+        "code": "CV",
+        "value": "75.1 score"
+      },
+      {
+        "rank": 28,
+        "code": "TT",
+        "value": "74.9 score"
+      },
+      {
+        "rank": 29,
+        "code": "AU",
+        "value": "74.5 score"
+      },
+      {
+        "rank": 30,
+        "code": "CR",
+        "value": "74.2 score"
       }
     ]
   },
@@ -169150,7 +175675,7 @@
     "title": "Oldest Continuously Inhabited Capitals",
     "prompt": "Name the countries whose capital city has been continuously inhabited the longest.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "UNESCO World Heritage Centre + Britannica city histories",
       "url": "https://whc.unesco.org/",
@@ -169235,6 +175760,131 @@
         "rank": 15,
         "code": "FR",
         "value": "~250 BC (Paris)"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "~200 BC (Lisbon)"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "~200 BC (Madrid-region)"
+      },
+      {
+        "rank": 18,
+        "code": "GE",
+        "value": "~458 AD (Tbilisi)"
+      },
+      {
+        "rank": 19,
+        "code": "MA",
+        "value": "~789 AD (Fez-region / Rabat)"
+      },
+      {
+        "rank": 20,
+        "code": "JP",
+        "value": "~794 AD (Kyoto-era, then Tokyo/Edo)"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "~800 AD (Vienna)"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "~825 AD (Berlin-region)"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "~1147 AD (Moscow)"
+      },
+      {
+        "rank": 24,
+        "code": "KR",
+        "value": "~1394 AD (Seoul)"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "~1325 AD (Mexico City / Tenochtitlan)"
+      },
+      {
+        "rank": 26,
+        "code": "PE",
+        "value": "~1535 AD (Lima)"
+      },
+      {
+        "rank": 27,
+        "code": "CU",
+        "value": "~1519 AD (Havana)"
+      },
+      {
+        "rank": 28,
+        "code": "PL",
+        "value": "~965 AD (Warsaw-region)"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "~880 AD (Prague)"
+      },
+      {
+        "rank": 30,
+        "code": "HU",
+        "value": "~896 AD (Budapest)"
+      },
+      {
+        "rank": 31,
+        "code": "GB",
+        "value": "~50 AD (London / Londinium)"
+      },
+      {
+        "rank": 32,
+        "code": "NL",
+        "value": "~1275 AD (Amsterdam)"
+      },
+      {
+        "rank": 33,
+        "code": "BE",
+        "value": "~979 AD (Brussels)"
+      },
+      {
+        "rank": 34,
+        "code": "DK",
+        "value": "~1043 AD (Copenhagen)"
+      },
+      {
+        "rank": 35,
+        "code": "SE",
+        "value": "~1252 AD (Stockholm)"
+      },
+      {
+        "rank": 36,
+        "code": "NO",
+        "value": "~1040 AD (Oslo)"
+      },
+      {
+        "rank": 37,
+        "code": "FI",
+        "value": "~1550 AD (Helsinki)"
+      },
+      {
+        "rank": 38,
+        "code": "AR",
+        "value": "~1580 AD (Buenos Aires)"
+      },
+      {
+        "rank": 39,
+        "code": "BR",
+        "value": "~1960 AD (Brasilia; Rio ~1565)"
+      },
+      {
+        "rank": 40,
+        "code": "US",
+        "value": "~1790 AD (Washington DC)"
       }
     ]
   },
@@ -189065,7 +195715,7 @@
     "title": "Highest interpersonal trust",
     "prompt": "Name the countries where the highest share of people say 'most people can be trusted' in the World Values Survey / OECD Trust indicator.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "OECD Trust in others (WVS aggregated)",
       "url": "https://www.oecd.org/en/data/indicators/trust-in-others.html",
@@ -189150,6 +195800,181 @@
         "rank": 15,
         "code": "JP",
         "value": "39% trust others"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "39% trust others"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "38% trust others"
+      },
+      {
+        "rank": 18,
+        "code": "BY",
+        "value": "37% trust others"
+      },
+      {
+        "rank": 19,
+        "code": "TW",
+        "value": "36% trust others"
+      },
+      {
+        "rank": 20,
+        "code": "KZ",
+        "value": "36% trust others"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "35% trust others"
+      },
+      {
+        "rank": 22,
+        "code": "US",
+        "value": "35% trust others"
+      },
+      {
+        "rank": 23,
+        "code": "UY",
+        "value": "34% trust others"
+      },
+      {
+        "rank": 24,
+        "code": "ID",
+        "value": "33% trust others"
+      },
+      {
+        "rank": 25,
+        "code": "BD",
+        "value": "32% trust others"
+      },
+      {
+        "rank": 26,
+        "code": "KR",
+        "value": "32% trust others"
+      },
+      {
+        "rank": 27,
+        "code": "PL",
+        "value": "31% trust others"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "31% trust others"
+      },
+      {
+        "rank": 29,
+        "code": "FR",
+        "value": "30% trust others"
+      },
+      {
+        "rank": 30,
+        "code": "IN",
+        "value": "30% trust others"
+      },
+      {
+        "rank": 31,
+        "code": "IT",
+        "value": "28% trust others"
+      },
+      {
+        "rank": 32,
+        "code": "HU",
+        "value": "28% trust others"
+      },
+      {
+        "rank": 33,
+        "code": "RU",
+        "value": "27% trust others"
+      },
+      {
+        "rank": 34,
+        "code": "CZ",
+        "value": "27% trust others"
+      },
+      {
+        "rank": 35,
+        "code": "AR",
+        "value": "26% trust others"
+      },
+      {
+        "rank": 36,
+        "code": "UA",
+        "value": "25% trust others"
+      },
+      {
+        "rank": 37,
+        "code": "MX",
+        "value": "24% trust others"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "23% trust others"
+      },
+      {
+        "rank": 39,
+        "code": "TR",
+        "value": "22% trust others"
+      },
+      {
+        "rank": 40,
+        "code": "TH",
+        "value": "22% trust others"
+      },
+      {
+        "rank": 41,
+        "code": "GR",
+        "value": "21% trust others"
+      },
+      {
+        "rank": 42,
+        "code": "PT",
+        "value": "21% trust others"
+      },
+      {
+        "rank": 43,
+        "code": "RO",
+        "value": "20% trust others"
+      },
+      {
+        "rank": 44,
+        "code": "CL",
+        "value": "19% trust others"
+      },
+      {
+        "rank": 45,
+        "code": "PE",
+        "value": "18% trust others"
+      },
+      {
+        "rank": 46,
+        "code": "CO",
+        "value": "17% trust others"
+      },
+      {
+        "rank": 47,
+        "code": "ZA",
+        "value": "16% trust others"
+      },
+      {
+        "rank": 48,
+        "code": "PH",
+        "value": "16% trust others"
+      },
+      {
+        "rank": 49,
+        "code": "EC",
+        "value": "15% trust others"
+      },
+      {
+        "rank": 50,
+        "code": "BO",
+        "value": "14% trust others"
       }
     ]
   },
@@ -189160,7 +195985,7 @@
     "title": "Highest volunteering rate",
     "prompt": "Name the countries with the highest share of people who volunteered time to an organization in the past month (CAF World Giving Index).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Charities Aid Foundation \u2014 World Giving Index 2023",
       "url": "https://www.cafonline.org/insights/research/world-giving-index",
@@ -189245,6 +196070,131 @@
         "rank": 15,
         "code": "NZ",
         "value": "37% volunteered"
+      },
+      {
+        "rank": 16,
+        "code": "GH",
+        "value": "36% volunteered"
+      },
+      {
+        "rank": 17,
+        "code": "MW",
+        "value": "35% volunteered"
+      },
+      {
+        "rank": 18,
+        "code": "NO",
+        "value": "34% volunteered"
+      },
+      {
+        "rank": 19,
+        "code": "CA",
+        "value": "33% volunteered"
+      },
+      {
+        "rank": 20,
+        "code": "IE",
+        "value": "32% volunteered"
+      },
+      {
+        "rank": 21,
+        "code": "IS",
+        "value": "31% volunteered"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "30% volunteered"
+      },
+      {
+        "rank": 23,
+        "code": "GB",
+        "value": "29% volunteered"
+      },
+      {
+        "rank": 24,
+        "code": "DK",
+        "value": "28% volunteered"
+      },
+      {
+        "rank": 25,
+        "code": "TH",
+        "value": "28% volunteered"
+      },
+      {
+        "rank": 26,
+        "code": "MM",
+        "value": "27% volunteered"
+      },
+      {
+        "rank": 27,
+        "code": "CH",
+        "value": "27% volunteered"
+      },
+      {
+        "rank": 28,
+        "code": "MN",
+        "value": "26% volunteered"
+      },
+      {
+        "rank": 29,
+        "code": "FI",
+        "value": "25% volunteered"
+      },
+      {
+        "rank": 30,
+        "code": "IN",
+        "value": "24% volunteered"
+      },
+      {
+        "rank": 31,
+        "code": "AT",
+        "value": "24% volunteered"
+      },
+      {
+        "rank": 32,
+        "code": "SG",
+        "value": "23% volunteered"
+      },
+      {
+        "rank": 33,
+        "code": "DE",
+        "value": "22% volunteered"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "22% volunteered"
+      },
+      {
+        "rank": 35,
+        "code": "AE",
+        "value": "21% volunteered"
+      },
+      {
+        "rank": 36,
+        "code": "MX",
+        "value": "20% volunteered"
+      },
+      {
+        "rank": 37,
+        "code": "CO",
+        "value": "20% volunteered"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "19% volunteered"
+      },
+      {
+        "rank": 39,
+        "code": "PE",
+        "value": "18% volunteered"
+      },
+      {
+        "rank": 40,
+        "code": "AR",
+        "value": "17% volunteered"
       }
     ]
   },
@@ -189255,7 +196205,7 @@
     "title": "Highest 'helped a stranger' rate",
     "prompt": "Name the countries with the highest share of people who reported helping a stranger in the past month (CAF World Giving Index).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Charities Aid Foundation \u2014 World Giving Index 2023",
       "url": "https://www.cafonline.org/insights/research/world-giving-index",
@@ -189340,6 +196290,131 @@
         "rank": 15,
         "code": "SN",
         "value": "69% helped a stranger"
+      },
+      {
+        "rank": 16,
+        "code": "GM",
+        "value": "68% helped a stranger"
+      },
+      {
+        "rank": 17,
+        "code": "TZ",
+        "value": "68% helped a stranger"
+      },
+      {
+        "rank": 18,
+        "code": "SA",
+        "value": "67% helped a stranger"
+      },
+      {
+        "rank": 19,
+        "code": "GH",
+        "value": "67% helped a stranger"
+      },
+      {
+        "rank": 20,
+        "code": "UG",
+        "value": "66% helped a stranger"
+      },
+      {
+        "rank": 21,
+        "code": "MW",
+        "value": "66% helped a stranger"
+      },
+      {
+        "rank": 22,
+        "code": "AE",
+        "value": "65% helped a stranger"
+      },
+      {
+        "rank": 23,
+        "code": "IE",
+        "value": "65% helped a stranger"
+      },
+      {
+        "rank": 24,
+        "code": "GB",
+        "value": "64% helped a stranger"
+      },
+      {
+        "rank": 25,
+        "code": "PH",
+        "value": "64% helped a stranger"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "63% helped a stranger"
+      },
+      {
+        "rank": 27,
+        "code": "IS",
+        "value": "63% helped a stranger"
+      },
+      {
+        "rank": 28,
+        "code": "NO",
+        "value": "62% helped a stranger"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "62% helped a stranger"
+      },
+      {
+        "rank": 30,
+        "code": "ID",
+        "value": "61% helped a stranger"
+      },
+      {
+        "rank": 31,
+        "code": "MX",
+        "value": "61% helped a stranger"
+      },
+      {
+        "rank": 32,
+        "code": "SE",
+        "value": "60% helped a stranger"
+      },
+      {
+        "rank": 33,
+        "code": "FI",
+        "value": "60% helped a stranger"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "59% helped a stranger"
+      },
+      {
+        "rank": 35,
+        "code": "BR",
+        "value": "59% helped a stranger"
+      },
+      {
+        "rank": 36,
+        "code": "CH",
+        "value": "58% helped a stranger"
+      },
+      {
+        "rank": 37,
+        "code": "AT",
+        "value": "58% helped a stranger"
+      },
+      {
+        "rank": 38,
+        "code": "ZA",
+        "value": "57% helped a stranger"
+      },
+      {
+        "rank": 39,
+        "code": "CO",
+        "value": "57% helped a stranger"
+      },
+      {
+        "rank": 40,
+        "code": "PE",
+        "value": "56% helped a stranger"
       }
     ]
   },
@@ -189350,7 +196425,7 @@
     "title": "Highest share of vegetarians",
     "prompt": "Name the countries with the highest share of the population identifying as vegetarian.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Ipsos Global Advisor / national dietary surveys (aggregated)",
       "url": "https://www.ipsos.com/en/exploring-attitudes-towards-plant-based-diets",
@@ -189435,6 +196510,81 @@
         "rank": 15,
         "code": "CA",
         "value": "6% vegetarian (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "CH",
+        "value": "6% vegetarian (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "US",
+        "value": "5% vegetarian"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "5% vegetarian (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "IE",
+        "value": "5% vegetarian (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "PT",
+        "value": "5% vegetarian (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "FR",
+        "value": "4% vegetarian"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "4% vegetarian (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "4% vegetarian (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "FI",
+        "value": "4% vegetarian (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NZ",
+        "value": "4% vegetarian (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "PL",
+        "value": "3% vegetarian"
+      },
+      {
+        "rank": 27,
+        "code": "CZ",
+        "value": "3% vegetarian (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "3% vegetarian (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "GR",
+        "value": "3% vegetarian (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "JP",
+        "value": "3% vegetarian (tied)"
       }
     ]
   },
@@ -189445,7 +196595,7 @@
     "title": "Highest share of vegans",
     "prompt": "Name the countries with the highest share of the population identifying as vegan.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Ipsos Global Advisor / national dietary surveys",
       "url": "https://www.ipsos.com/en/exploring-attitudes-towards-plant-based-diets",
@@ -189530,6 +196680,81 @@
         "rank": 15,
         "code": "BR",
         "value": "1% vegan"
+      },
+      {
+        "rank": 16,
+        "code": "MX",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "IE",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "FI",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NZ",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "AR",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "TW",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "JP",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "CZ",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "HU",
+        "value": "1% vegan (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "1% vegan (tied)"
       }
     ]
   },
@@ -189540,7 +196765,7 @@
     "title": "Highest LGBT+ Equality Index",
     "prompt": "Name the countries with the highest score on the Equaldex LGBT+ Equality Index (legal rights + public opinion).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "Equaldex \u2014 LGBT+ Equality Index",
       "url": "https://www.equaldex.com/equality-index",
@@ -189625,6 +196850,131 @@
         "rank": 15,
         "code": "AR",
         "value": "86 index score"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "85 index score"
+      },
+      {
+        "rank": 17,
+        "code": "LU",
+        "value": "85 index score (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "84 index score"
+      },
+      {
+        "rank": 19,
+        "code": "GB",
+        "value": "82 index score"
+      },
+      {
+        "rank": 20,
+        "code": "FR",
+        "value": "82 index score (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "81 index score"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "80 index score"
+      },
+      {
+        "rank": 23,
+        "code": "MX",
+        "value": "79 index score"
+      },
+      {
+        "rank": 24,
+        "code": "US",
+        "value": "78 index score"
+      },
+      {
+        "rank": 25,
+        "code": "CL",
+        "value": "77 index score"
+      },
+      {
+        "rank": 26,
+        "code": "TW",
+        "value": "77 index score (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "BR",
+        "value": "76 index score"
+      },
+      {
+        "rank": 28,
+        "code": "CO",
+        "value": "75 index score"
+      },
+      {
+        "rank": 29,
+        "code": "EC",
+        "value": "74 index score"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "73 index score"
+      },
+      {
+        "rank": 31,
+        "code": "ZA",
+        "value": "72 index score"
+      },
+      {
+        "rank": 32,
+        "code": "SI",
+        "value": "72 index score (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "CZ",
+        "value": "71 index score"
+      },
+      {
+        "rank": 34,
+        "code": "AD",
+        "value": "71 index score (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "EE",
+        "value": "70 index score"
+      },
+      {
+        "rank": 36,
+        "code": "IT",
+        "value": "69 index score"
+      },
+      {
+        "rank": 37,
+        "code": "CR",
+        "value": "68 index score"
+      },
+      {
+        "rank": 38,
+        "code": "HR",
+        "value": "67 index score"
+      },
+      {
+        "rank": 39,
+        "code": "IL",
+        "value": "66 index score"
+      },
+      {
+        "rank": 40,
+        "code": "CU",
+        "value": "65 index score"
       }
     ]
   },
@@ -189635,7 +196985,7 @@
     "title": "Highest home ownership rate",
     "prompt": "Name the countries with the highest share of households that own (rather than rent) their home.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 37,
     "source": {
       "name": "Eurostat, Trading Economics, national statistics offices",
       "url": "https://tradingeconomics.com/country-list/home-ownership-rate",
@@ -189720,6 +197070,116 @@
         "rank": 15,
         "code": "ES",
         "value": "75.3% home ownership"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "74.8% home ownership"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "74.1% home ownership"
+      },
+      {
+        "rank": 18,
+        "code": "GR",
+        "value": "73.4% home ownership"
+      },
+      {
+        "rank": 19,
+        "code": "CY",
+        "value": "73.0% home ownership"
+      },
+      {
+        "rank": 20,
+        "code": "MX",
+        "value": "71.7% home ownership"
+      },
+      {
+        "rank": 21,
+        "code": "IS",
+        "value": "70.5% home ownership"
+      },
+      {
+        "rank": 22,
+        "code": "FI",
+        "value": "70.0% home ownership"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "69.9% home ownership"
+      },
+      {
+        "rank": 24,
+        "code": "LU",
+        "value": "69.3% home ownership"
+      },
+      {
+        "rank": 25,
+        "code": "IE",
+        "value": "69.0% home ownership"
+      },
+      {
+        "rank": 26,
+        "code": "NL",
+        "value": "68.9% home ownership"
+      },
+      {
+        "rank": 27,
+        "code": "CA",
+        "value": "66.5% home ownership"
+      },
+      {
+        "rank": 28,
+        "code": "US",
+        "value": "66.0% home ownership"
+      },
+      {
+        "rank": 29,
+        "code": "AU",
+        "value": "66.0% home ownership (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "GB",
+        "value": "65.2% home ownership"
+      },
+      {
+        "rank": 31,
+        "code": "SE",
+        "value": "64.2% home ownership"
+      },
+      {
+        "rank": 32,
+        "code": "FR",
+        "value": "63.4% home ownership"
+      },
+      {
+        "rank": 33,
+        "code": "JP",
+        "value": "61.2% home ownership"
+      },
+      {
+        "rank": 34,
+        "code": "DK",
+        "value": "60.7% home ownership"
+      },
+      {
+        "rank": 35,
+        "code": "AT",
+        "value": "54.2% home ownership"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "49.1% home ownership"
+      },
+      {
+        "rank": 37,
+        "code": "CH",
+        "value": "42.3% home ownership"
       }
     ]
   },
@@ -189730,7 +197190,7 @@
     "title": "Most museums by country",
     "prompt": "Name the countries with the largest total number of museums.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UNESCO Institute for Statistics / national museum registries",
       "url": "https://uis.unesco.org/en/topic/culture",
@@ -189815,6 +197275,81 @@
         "rank": 15,
         "code": "BR",
         "value": "860 museums"
+      },
+      {
+        "rank": 16,
+        "code": "KR",
+        "value": "820 museums"
+      },
+      {
+        "rank": 17,
+        "code": "CZ",
+        "value": "780 museums"
+      },
+      {
+        "rank": 18,
+        "code": "IN",
+        "value": "750 museums"
+      },
+      {
+        "rank": 19,
+        "code": "SE",
+        "value": "700 museums"
+      },
+      {
+        "rank": 20,
+        "code": "AR",
+        "value": "680 museums"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "670 museums"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "660 museums"
+      },
+      {
+        "rank": 23,
+        "code": "TR",
+        "value": "600 museums"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "580 museums"
+      },
+      {
+        "rank": 25,
+        "code": "UA",
+        "value": "570 museums"
+      },
+      {
+        "rank": 26,
+        "code": "HU",
+        "value": "540 museums"
+      },
+      {
+        "rank": 27,
+        "code": "RO",
+        "value": "510 museums"
+      },
+      {
+        "rank": 28,
+        "code": "PT",
+        "value": "440 museums"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "420 museums"
+      },
+      {
+        "rank": 30,
+        "code": "NO",
+        "value": "400 museums"
       }
     ]
   },
