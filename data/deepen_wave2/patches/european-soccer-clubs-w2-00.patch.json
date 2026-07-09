@@ -1,0 +1,193 @@
+{
+  "cluster": "european-soccer-clubs-w2-00",
+  "updates": [
+    {
+      "id": "european-soccer-ligue-1-most-uefa-champions-league-appearances-2024",
+      "changes": {
+        "title": "Most European Cup / UCL appearances (French clubs)",
+        "prompt": "Name the French clubs with the most seasons contested in the European Cup / UEFA Champions League proper (from the first round onward), all-time.",
+        "source": {
+          "name": "UEFA / Wikipedia — List of European Cup and UEFA Champions League seasons by French clubs",
+          "url": "https://en.wikipedia.org/wiki/List_of_French_football_clubs_in_European_competitions",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Counts entries into the European Cup / UEFA Champions League main draw (qualifying-only entries excluded). Seasons are counted per club regardless of stage reached.",
+        "trivia": "PSG's Champions League run since Qatari ownership in 2011 pushed them well ahead of Marseille, whose 1993 title remains the only European Cup won by a French club until PSG's 2025 triumph.",
+        "seededDepth": 11,
+        "answers": [
+          {"rank": 1, "code": "L1-PSG", "value": "17 appearances"},
+          {"rank": 2, "code": "L1-MAR", "value": "14 appearances"},
+          {"rank": 3, "code": "L1-LYN", "value": "12 appearances"},
+          {"rank": 4, "code": "L1-MON", "value": "10 appearances"},
+          {"rank": 5, "code": "L1-SET", "value": "8 appearances"},
+          {"rank": 5, "code": "L1-BOR", "value": "8 appearances (tied)"},
+          {"rank": 7, "code": "L1-NAN", "value": "7 appearances"},
+          {"rank": 8, "code": "L1-LIL", "value": "6 appearances"},
+          {"rank": 9, "code": "L1-REI", "value": "4 appearances"},
+          {"rank": 10, "code": "L1-AUX", "value": "2 appearances"},
+          {"rank": 11, "code": "L1-MTP", "value": "1 appearance"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-most-supercoppa-italiana-wins-2024",
+      "changes": {
+        "source": {
+          "name": "Lega Serie A / Wikipedia — Supercoppa Italiana",
+          "url": "https://en.wikipedia.org/wiki/Supercoppa_Italiana",
+          "asOf": "through 2024 edition"
+        },
+        "disclaimer": "Supercoppa Italiana has been contested annually since 1988, traditionally between the Serie A champion and the Coppa Italia winner (final-four format from 2023).",
+        "trivia": "Juventus lifted the trophy nine times but also holds the record for most runner-up finishes; the 2023 format switch to a four-team final tournament introduced Coppa Italia semi-finalists into the competition.",
+        "seededDepth": 10,
+        "answers": [
+          {"rank": 1, "code": "SEA-JUV", "value": "9 titles"},
+          {"rank": 2, "code": "SEA-MIL", "value": "8 titles"},
+          {"rank": 2, "code": "SEA-INT", "value": "8 titles (tied)"},
+          {"rank": 4, "code": "SEA-LAZ", "value": "5 titles"},
+          {"rank": 5, "code": "SEA-NAP", "value": "2 titles"},
+          {"rank": 5, "code": "SEA-ROM", "value": "2 titles (tied)"},
+          {"rank": 7, "code": "SEA-FIO", "value": "1 title"},
+          {"rank": 7, "code": "SEA-PAR", "value": "1 title (tied)"},
+          {"rank": 7, "code": "SEA-BOL", "value": "1 title (tied)"},
+          {"rank": 7, "code": "SEA-SMP", "value": "1 title (tied)"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-most-bundesliga-titles-since-1963-2024",
+      "changes": {
+        "source": {
+          "name": "DFL / Wikipedia — List of German football champions (Bundesliga era)",
+          "url": "https://en.wikipedia.org/wiki/List_of_German_football_champions",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Only counts Bundesliga titles from 1963-64 onward. Pre-1963 German championships (Deutsche Meisterschaft) are excluded.",
+        "trivia": "Bayern Munich's 11 consecutive titles from 2012-13 to 2022-23 is the longest top-flight championship streak in any of Europe's top five leagues; Bayer Leverkusen ended it in 2023-24.",
+        "seededDepth": 11,
+        "answers": [
+          {"rank": 1, "code": "BUN-BAY", "value": "34 titles"},
+          {"rank": 2, "code": "BUN-BVB", "value": "5 titles"},
+          {"rank": 2, "code": "BUN-BMG", "value": "5 titles (tied)"},
+          {"rank": 4, "code": "BUN-BRE", "value": "4 titles"},
+          {"rank": 5, "code": "BUN-HAM", "value": "3 titles"},
+          {"rank": 5, "code": "BUN-VFB", "value": "3 titles (tied)"},
+          {"rank": 7, "code": "BUN-KOL", "value": "2 titles"},
+          {"rank": 7, "code": "BUN-KAI", "value": "2 titles (tied)"},
+          {"rank": 9, "code": "BUN-BER", "value": "1 title"},
+          {"rank": 9, "code": "BUN-N90", "value": "1 title (tied)"},
+          {"rank": 9, "code": "BUN-WOB", "value": "1 title (tied)"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-la-liga-most-la-liga-runner-up-finishes-2025",
+      "changes": {
+        "source": {
+          "name": "La Liga / Wikipedia — List of La Liga seasons",
+          "url": "https://en.wikipedia.org/wiki/List_of_La_Liga_seasons",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Counts second-place finishes in La Liga (Primera División) from the league's 1928-29 founding onward.",
+        "trivia": "Barcelona's runner-up count exceeds their title count; only three clubs outside Real Madrid and Barcelona have ever finished as high as second more than five times in La Liga history.",
+        "seededDepth": 11,
+        "answers": [
+          {"rank": 1, "code": "LAL-BAR", "value": "28 runner-up finishes"},
+          {"rank": 2, "code": "LAL-RM", "value": "27 runner-up finishes"},
+          {"rank": 3, "code": "LAL-ATM", "value": "10 runner-up finishes"},
+          {"rank": 4, "code": "LAL-ATH", "value": "7 runner-up finishes"},
+          {"rank": 5, "code": "LAL-VAL", "value": "6 runner-up finishes"},
+          {"rank": 6, "code": "LAL-DEP", "value": "5 runner-up finishes"},
+          {"rank": 7, "code": "LAL-SEV", "value": "4 runner-up finishes"},
+          {"rank": 8, "code": "LAL-RS", "value": "3 runner-up finishes"},
+          {"rank": 9, "code": "LAL-LPA", "value": "1 runner-up finish"},
+          {"rank": 9, "code": "LAL-ZAR", "value": "1 runner-up finish (tied)"},
+          {"rank": 9, "code": "LAL-VLL", "value": "1 runner-up finish (tied)"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-most-european-trophies-won-by-italian-clubs-2024",
+      "changes": {
+        "source": {
+          "name": "UEFA / Wikipedia — Italian football clubs in European competitions",
+          "url": "https://en.wikipedia.org/wiki/Italian_football_clubs_in_European_competitions",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Combines UEFA-organised senior men's competitions only: European Cup / Champions League, UEFA Cup / Europa League, Cup Winners' Cup, and Conference League. UEFA Super Cup and defunct Intertoto Cup excluded.",
+        "trivia": "AC Milan and Juventus are the only Italian clubs to have won all three of the pre-2021 UEFA competitions; Atalanta's 2024 Europa League triumph was the club's first major European trophy.",
+        "seededDepth": 11,
+        "answers": [
+          {"rank": 1, "code": "SEA-MIL", "value": "10 trophies"},
+          {"rank": 2, "code": "SEA-JUV", "value": "9 trophies"},
+          {"rank": 3, "code": "SEA-INT", "value": "6 trophies"},
+          {"rank": 4, "code": "SEA-PAR", "value": "3 trophies"},
+          {"rank": 5, "code": "SEA-ATA", "value": "1 trophy"},
+          {"rank": 5, "code": "SEA-FIO", "value": "1 trophy (tied)"},
+          {"rank": 5, "code": "SEA-LAZ", "value": "1 trophy (tied)"},
+          {"rank": 5, "code": "SEA-NAP", "value": "1 trophy (tied)"},
+          {"rank": 5, "code": "SEA-ROM", "value": "1 trophy (tied)"},
+          {"rank": 5, "code": "SEA-SMP", "value": "1 trophy (tied)"},
+          {"rank": 5, "code": "SEA-BOL", "value": "1 trophy (tied)"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-most-uefa-champions-league-editions-reached-2024",
+      "changes": {
+        "source": {
+          "name": "UEFA / Wikipedia — German football clubs in European competitions",
+          "url": "https://en.wikipedia.org/wiki/German_football_clubs_in_European_competitions",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Counts entries into the European Cup / UEFA Champions League main draw (any round from the first round onward) since 1955-56. West German era and post-reunification entries are combined.",
+        "trivia": "Bayern Munich have qualified for every European Cup / Champions League edition since 1998-99 — a streak of more than 25 consecutive appearances that no other Bundesliga club has approached.",
+        "seededDepth": 12,
+        "answers": [
+          {"rank": 1, "code": "BUN-BAY", "value": "36 editions"},
+          {"rank": 2, "code": "BUN-BVB", "value": "22 editions"},
+          {"rank": 3, "code": "BUN-BER", "value": "13 editions"},
+          {"rank": 4, "code": "BUN-BRE", "value": "9 editions"},
+          {"rank": 4, "code": "BUN-SCH", "value": "9 editions (tied)"},
+          {"rank": 4, "code": "BUN-VFB", "value": "9 editions (tied)"},
+          {"rank": 7, "code": "BUN-BMG", "value": "8 editions"},
+          {"rank": 8, "code": "BUN-HAM", "value": "7 editions"},
+          {"rank": 9, "code": "BUN-RBL", "value": "6 editions"},
+          {"rank": 10, "code": "BUN-KOL", "value": "4 editions"},
+          {"rank": 10, "code": "BUN-WOB", "value": "4 editions (tied)"},
+          {"rank": 12, "code": "BUN-SGE", "value": "3 editions"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-pl-seasons-as-ever-presents-plus-challengers",
+      "changes": {
+        "title": "Most Premier League seasons played",
+        "prompt": "Name the clubs that have played the most seasons in the Premier League since its 1992-93 founding.",
+        "source": {
+          "name": "Premier League / Wikipedia — List of Premier League clubs",
+          "url": "https://en.wikipedia.org/wiki/List_of_Premier_League_clubs",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Counts Premier League seasons only (1992-93 onward). Pre-1992 First Division seasons excluded.",
+        "trivia": "Only six clubs have never been relegated from the Premier League since its inception; Arsenal's streak of top-four Champions League qualifications between 1996-97 and 2015-16 is the longest in the competition's history.",
+        "seededDepth": 12,
+        "answers": [
+          {"rank": 1, "code": "EPL-ARS", "value": "33 seasons"},
+          {"rank": 1, "code": "EPL-CHE", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-EVE", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-LIV", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-MUN", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-TOT", "value": "33 seasons (tied)"},
+          {"rank": 7, "code": "EPL-AVL", "value": "30 seasons"},
+          {"rank": 8, "code": "EPL-NEW", "value": "29 seasons"},
+          {"rank": 9, "code": "EPL-WHU", "value": "28 seasons"},
+          {"rank": 10, "code": "EPL-MCI", "value": "27 seasons"},
+          {"rank": 11, "code": "EPL-SOU", "value": "25 seasons"},
+          {"rank": 12, "code": "EPL-FUL", "value": "18 seasons"}
+        ]
+      }
+    }
+  ],
+  "deletions": ["european-soccer-ligue-1-most-european-trophies-won-2024"]
+}

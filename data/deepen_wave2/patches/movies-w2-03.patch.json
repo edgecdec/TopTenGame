@@ -1,0 +1,62 @@
+{
+  "cluster": "movies-w2-03",
+  "updates": [
+    {
+      "id": "movies-nominees-most-best-picture-nominations-without-ever-winning-2025",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "la-la-land-2016", "value": "14 nominations, 6 wins (not BP)" },
+          { "rank": 2, "code": "mary-poppins-1964", "value": "13 nominations, 5 wins (not BP)" },
+          { "rank": 3, "code": "reds-1981", "value": "12 nominations, 3 wins (not BP)" },
+          { "rank": 4, "code": "turning-point-1977", "value": "11 nominations, 0 wins" },
+          { "rank": 4, "code": "color-purple-1985", "value": "11 nominations, 0 wins (tied)" },
+          { "rank": 4, "code": "chinatown-1974", "value": "11 nominations, 1 win (not BP) (tied)" },
+          { "rank": 4, "code": "julia-1977", "value": "11 nominations, 3 wins (not BP) (tied)" },
+          { "rank": 4, "code": "aviator-2004", "value": "11 nominations, 5 wins (not BP) (tied)" },
+          { "rank": 9, "code": "gangs-of-new-york-2002", "value": "10 nominations, 0 wins" },
+          { "rank": 9, "code": "bonnie-and-clyde-1967", "value": "10 nominations, 2 wins (not BP) (tied)" },
+          { "rank": 9, "code": "doctor-zhivago-1965", "value": "10 nominations, 5 wins (not BP) (tied)" },
+          { "rank": 9, "code": "dune-2021", "value": "10 nominations, 6 wins (not BP) (tied)" },
+          { "rank": 13, "code": "citizen-kane-1941", "value": "9 nominations, 1 win (not BP)" },
+          { "rank": 14, "code": "raging-bull-1980", "value": "8 nominations, 2 wins (not BP)" },
+          { "rank": 15, "code": "shawshank-redemption-1994", "value": "7 nominations, 0 wins" },
+          { "rank": 15, "code": "pulp-fiction-1994", "value": "7 nominations, 1 win (not BP) (tied)" },
+          { "rank": 15, "code": "fargo-1996", "value": "7 nominations, 2 wins (not BP) (tied)" }
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-whose-lead-actor-also-won-best-actor-that-nig",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "it-happened-one-night-1934", "value": "Clark Gable" },
+          { "rank": 2, "code": "going-my-way-1944", "value": "Bing Crosby" },
+          { "rank": 3, "code": "lost-weekend-1945", "value": "Ray Milland" },
+          { "rank": 4, "code": "best-years-of-our-lives-1946", "value": "Fredric March" },
+          { "rank": 5, "code": "all-the-kings-men-1949", "value": "Broderick Crawford" },
+          { "rank": 6, "code": "on-the-waterfront-1954", "value": "Marlon Brando" },
+          { "rank": 7, "code": "marty-1955", "value": "Ernest Borgnine" },
+          { "rank": 8, "code": "bridge-on-the-river-kwai-1957", "value": "Alec Guinness" },
+          { "rank": 9, "code": "ben-hur-1959", "value": "Charlton Heston" },
+          { "rank": 10, "code": "my-fair-lady-1964", "value": "Rex Harrison" },
+          { "rank": 11, "code": "man-for-all-seasons-1966", "value": "Paul Scofield" },
+          { "rank": 12, "code": "patton-1970", "value": "George C. Scott" },
+          { "rank": 13, "code": "french-connection-1971", "value": "Gene Hackman" },
+          { "rank": 14, "code": "godfather-1972", "value": "Marlon Brando" },
+          { "rank": 15, "code": "one-flew-over-the-cuckoos-nest-1975", "value": "Jack Nicholson" },
+          { "rank": 16, "code": "kramer-vs-kramer-1979", "value": "Dustin Hoffman" },
+          { "rank": 17, "code": "amadeus-1984", "value": "F. Murray Abraham" },
+          { "rank": 18, "code": "rain-man-1988", "value": "Dustin Hoffman" },
+          { "rank": 19, "code": "silence-of-the-lambs-1991", "value": "Anthony Hopkins" },
+          { "rank": 20, "code": "forrest-gump-1994", "value": "Tom Hanks" },
+          { "rank": 21, "code": "gladiator-2000", "value": "Russell Crowe" },
+          { "rank": 22, "code": "kings-speech-2010", "value": "Colin Firth" },
+          { "rank": 23, "code": "oppenheimer-2023", "value": "Cillian Murphy" }
+        ],
+        "seededDepth": 23
+      }
+    }
+  ],
+  "deletions": []
+}

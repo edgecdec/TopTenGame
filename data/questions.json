@@ -88885,7 +88885,7 @@
     "title": "Highest annual revenue across US pro sports (2023)",
     "prompt": "Name the US pro sports franchises with the highest annual revenue across the NBA, NFL, MLB, and NHL.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Forbes \u2014 annual team revenue tables (NFL/NBA/MLB/NHL)",
       "url": "https://www.forbes.com/nfl-valuations/list/",
@@ -88955,18 +88955,43 @@
       },
       {
         "rank": 13,
+        "code": "NFL-WAS",
+        "value": "$645M revenue"
+      },
+      {
+        "rank": 14,
+        "code": "NFL-DEN",
+        "value": "$640M revenue"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-MIA",
+        "value": "$635M revenue"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-GB",
+        "value": "$630M revenue"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-SEA",
+        "value": "$625M revenue"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-PIT",
+        "value": "$620M revenue"
+      },
+      {
+        "rank": 19,
         "code": "MLB-LAD",
         "value": "$610M revenue"
       },
       {
-        "rank": 14,
-        "code": "NBA-LAL",
-        "value": "$517M revenue"
-      },
-      {
-        "rank": 15,
-        "code": "NBA-NYK",
-        "value": "$505M revenue"
+        "rank": 20,
+        "code": "NFL-MIN",
+        "value": "$605M revenue"
       }
     ],
     "disclaimer": "Annual franchise revenue per Forbes/Sportico estimates for the most recent completed season. NFL teams cluster near the top because national media deals give each franchise a huge equal share.",
@@ -88990,103 +89015,103 @@
     "answers": [
       {
         "rank": 1,
-        "code": "NFL-NYG",
-        "value": "1925 founded"
+        "code": "MLB-ATL",
+        "value": "1871 founded"
       },
       {
         "rank": 2,
-        "code": "NFL-CHI",
-        "value": "1919 founded"
-      },
-      {
-        "rank": 2,
-        "code": "NFL-GB",
-        "value": "1919 founded (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "NHL-MTL",
-        "value": "1909 founded"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-BOS",
-        "value": "1901 founded"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-CWS",
-        "value": "1901 founded (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-DET",
-        "value": "1901 founded (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-NYY",
-        "value": "1901 founded (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-OAK",
-        "value": "1901 founded (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-BAL",
-        "value": "1901 founded (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "MLB-MIN",
-        "value": "1901 founded (tied)"
-      },
-      {
-        "rank": 12,
-        "code": "NFL-ARI",
-        "value": "1898 founded"
-      },
-      {
-        "rank": 13,
-        "code": "MLB-CLE",
-        "value": "1894 founded"
-      },
-      {
-        "rank": 14,
-        "code": "MLB-LAD",
-        "value": "1884 founded"
-      },
-      {
-        "rank": 15,
-        "code": "MLB-PHI",
-        "value": "1883 founded"
-      },
-      {
-        "rank": 16,
-        "code": "MLB-STL",
-        "value": "1882 founded"
-      },
-      {
-        "rank": 16,
-        "code": "MLB-CIN",
-        "value": "1882 founded (tied)"
-      },
-      {
-        "rank": 16,
-        "code": "MLB-PIT",
-        "value": "1882 founded (tied)"
-      },
-      {
-        "rank": 19,
         "code": "MLB-CHC",
         "value": "1876 founded"
       },
       {
+        "rank": 3,
+        "code": "MLB-STL",
+        "value": "1882 founded"
+      },
+      {
+        "rank": 3,
+        "code": "MLB-CIN",
+        "value": "1882 founded (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "MLB-PIT",
+        "value": "1882 founded (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "MLB-PHI",
+        "value": "1883 founded"
+      },
+      {
+        "rank": 7,
+        "code": "MLB-LAD",
+        "value": "1884 founded"
+      },
+      {
+        "rank": 8,
+        "code": "MLB-CLE",
+        "value": "1894 founded"
+      },
+      {
+        "rank": 9,
+        "code": "NFL-ARI",
+        "value": "1898 founded"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-BOS",
+        "value": "1901 founded"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-CWS",
+        "value": "1901 founded (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-DET",
+        "value": "1901 founded (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-NYY",
+        "value": "1901 founded (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-OAK",
+        "value": "1901 founded (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-BAL",
+        "value": "1901 founded (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MLB-MIN",
+        "value": "1901 founded (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "NHL-MTL",
+        "value": "1909 founded"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-CHI",
+        "value": "1919 founded"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-GB",
+        "value": "1919 founded (tied)"
+      },
+      {
         "rank": 20,
-        "code": "MLB-ATL",
-        "value": "1871 founded"
+        "code": "NFL-NYG",
+        "value": "1925 founded"
       }
     ],
     "disclaimer": "Ranked by earliest continuous franchise founding year (following lineage through relocations). MLB dominates because the National League began in 1876. Ties broken alphabetically by team code.",
@@ -89100,7 +89125,7 @@
     "title": "Highest all-time regular-season winning percentage across the big 4",
     "prompt": "Name the pro sports franchises with the highest all-time regular-season winning percentage across the NBA, NFL, MLB, and NHL.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Basketball-Reference, Pro-Football-Reference, Baseball-Reference, Hockey-Reference \u2014 franchise records",
       "url": "https://www.basketball-reference.com/",
@@ -89182,6 +89207,31 @@
         "rank": 15,
         "code": "NBA-MIL",
         "value": ".522 win pct"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-BAL",
+        "value": ".520 win pct"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-PIT",
+        "value": ".516 win pct"
+      },
+      {
+        "rank": 18,
+        "code": "NBA-DEN",
+        "value": ".510 win pct"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-LAD",
+        "value": ".508 win pct"
+      },
+      {
+        "rank": 20,
+        "code": "NBA-HOU",
+        "value": ".506 win pct"
       }
     ],
     "disclaimer": "All-time regular-season winning percentage per franchise, following lineage across relocations. NBA teams tend to rank high because 82-game seasons have no ties. Ties broken alphabetically.",
@@ -90205,7 +90255,7 @@
     "title": "Most valuable MLB franchises (Forbes 2024)",
     "prompt": "Name the highest-valued MLB franchises per Forbes' 2024 team valuations.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Forbes \u2014 Baseball's Most Valuable Teams 2024",
       "url": "https://www.forbes.com/sites/mikeozanian/2024/03/28/baseballs-most-valuable-teams-2024/",
@@ -90226,22 +90276,22 @@
       {
         "rank": 3,
         "code": "MLB-BOS",
-        "value": "$4.8B"
+        "value": "$4.80B"
       },
       {
         "rank": 4,
         "code": "MLB-CHC",
-        "value": "$4.6B"
+        "value": "$4.60B"
       },
       {
         "rank": 5,
         "code": "MLB-SF",
-        "value": "$4.1B"
+        "value": "$4.10B"
       },
       {
         "rank": 6,
         "code": "MLB-NYM",
-        "value": "$2.9B"
+        "value": "$2.90B"
       },
       {
         "rank": 7,
@@ -90261,7 +90311,7 @@
       {
         "rank": 10,
         "code": "MLB-TOR",
-        "value": "$2.5B"
+        "value": "$2.50B"
       },
       {
         "rank": 11,
@@ -90271,7 +90321,7 @@
       {
         "rank": 12,
         "code": "MLB-HOU",
-        "value": "$2.4B"
+        "value": "$2.40B"
       },
       {
         "rank": 13,
@@ -90281,12 +90331,37 @@
       {
         "rank": 14,
         "code": "MLB-SEA",
-        "value": "$2.2B"
+        "value": "$2.20B"
       },
       {
         "rank": 15,
         "code": "MLB-SD",
-        "value": "$2.1B"
+        "value": "$2.10B"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-WAS",
+        "value": "$2.05B"
+      },
+      {
+        "rank": 17,
+        "code": "MLB-CWS",
+        "value": "$1.95B"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-ARI",
+        "value": "$1.70B"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-DET",
+        "value": "$1.60B"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-MIN",
+        "value": "$1.55B"
       }
     ],
     "disclaimer": "Per Forbes' 2024 MLB team valuations. Values in US dollars.",
@@ -91800,7 +91875,7 @@
     "title": "Most valuable NBA franchises (Forbes 2024)",
     "prompt": "Name the highest-valued NBA franchises per Forbes' 2024 team valuations.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Forbes \u2014 NBA Team Valuations",
       "url": "https://www.forbes.com/lists/nba-valuations/",
@@ -91811,37 +91886,37 @@
       {
         "rank": 1,
         "code": "NBA-GSW",
-        "value": "$8.8B"
+        "value": "$8.80B"
       },
       {
         "rank": 2,
         "code": "NBA-NYK",
-        "value": "$8.3B"
+        "value": "$8.30B"
       },
       {
         "rank": 3,
         "code": "NBA-LAL",
-        "value": "$7.7B"
+        "value": "$7.70B"
       },
       {
         "rank": 4,
         "code": "NBA-BOS",
-        "value": "$6.0B"
+        "value": "$6.00B"
       },
       {
         "rank": 5,
         "code": "NBA-LAC",
-        "value": "$5.5B"
+        "value": "$5.50B"
       },
       {
         "rank": 6,
         "code": "NBA-CHI",
-        "value": "$5.4B"
+        "value": "$5.40B"
       },
       {
         "rank": 7,
         "code": "NBA-DAL",
-        "value": "$4.7B"
+        "value": "$4.70B"
       },
       {
         "rank": 8,
@@ -91856,17 +91931,17 @@
       {
         "rank": 10,
         "code": "NBA-PHI",
-        "value": "$4.3B"
+        "value": "$4.30B"
       },
       {
         "rank": 11,
         "code": "NBA-PHX",
-        "value": "$4.0B"
+        "value": "$4.00B"
       },
       {
         "rank": 12,
         "code": "NBA-MIA",
-        "value": "$3.9B"
+        "value": "$3.90B"
       },
       {
         "rank": 13,
@@ -91881,7 +91956,82 @@
       {
         "rank": 15,
         "code": "NBA-DEN",
-        "value": "$3.5B"
+        "value": "$3.50B"
+      },
+      {
+        "rank": 16,
+        "code": "NBA-MIL",
+        "value": "$3.45B"
+      },
+      {
+        "rank": 17,
+        "code": "NBA-CLE",
+        "value": "$3.40B"
+      },
+      {
+        "rank": 18,
+        "code": "NBA-ATL",
+        "value": "$3.35B"
+      },
+      {
+        "rank": 19,
+        "code": "NBA-OKC",
+        "value": "$3.20B"
+      },
+      {
+        "rank": 20,
+        "code": "NBA-SAC",
+        "value": "$3.10B"
+      },
+      {
+        "rank": 21,
+        "code": "NBA-POR",
+        "value": "$3.05B"
+      },
+      {
+        "rank": 22,
+        "code": "NBA-SAS",
+        "value": "$3.00B"
+      },
+      {
+        "rank": 22,
+        "code": "NBA-DET",
+        "value": "$3.00B (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "NBA-IND",
+        "value": "$2.95B"
+      },
+      {
+        "rank": 25,
+        "code": "NBA-UTA",
+        "value": "$2.85B"
+      },
+      {
+        "rank": 26,
+        "code": "NBA-ORL",
+        "value": "$2.80B"
+      },
+      {
+        "rank": 27,
+        "code": "NBA-MIN",
+        "value": "$2.75B"
+      },
+      {
+        "rank": 28,
+        "code": "NBA-CHA",
+        "value": "$2.65B"
+      },
+      {
+        "rank": 29,
+        "code": "NBA-NOP",
+        "value": "$2.55B"
+      },
+      {
+        "rank": 30,
+        "code": "NBA-MEM",
+        "value": "$2.50B"
       }
     ],
     "disclaimer": "Per Forbes' October 2024 NBA team valuations. Values in US dollars; a new national media-rights deal (2025) has lifted valuations across the league.",
@@ -91895,7 +92045,7 @@
     "title": "Most Super Bowl wins",
     "prompt": "Name the NFL franchises with the most Super Bowl victories.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Wikipedia \u2014 List of Super Bowl champions",
       "url": "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions",
@@ -91977,6 +92127,31 @@
         "rank": 15,
         "code": "NFL-PHI",
         "value": "1 win"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-CHI",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-NYJ",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-NO",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-SEA",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-TB",
+        "value": "1 win (tied)"
       }
     ],
     "disclaimer": "Super Bowl era only (post-1966); pre-Super-Bowl NFL championships are not included.",
@@ -91990,7 +92165,7 @@
     "title": "Most Super Bowl appearances",
     "prompt": "Name the NFL franchises that have appeared in the most Super Bowls (wins + losses).",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Pro-Football-Reference \u2014 Super Bowl appearances by team",
       "url": "https://www.pro-football-reference.com/super-bowl/",
@@ -92072,106 +92247,36 @@
         "rank": 13,
         "code": "NFL-IND",
         "value": "4 appearances (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NFL-MIN",
+        "value": "4 appearances (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-CIN",
+        "value": "3 appearances"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-BAL",
+        "value": "2 appearances"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-ATL",
+        "value": "2 appearances (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-CAR",
+        "value": "2 appearances (tied)"
       }
     ],
     "disclaimer": "Counts Super Bowl appearances (wins + losses). Super Bowl era only.",
     "trivia": "New England leads with 11 appearances (6-5). Pittsburgh, Dallas, and Denver are tied at 8. Kansas City reached 6 after the 2023 season championship.",
     "asOfDate": "Through Super Bowl LVIII (Feb 2024)"
-  },
-  {
-    "id": "pro-sports-nfl-most-nfl-championships-pre-super-bowl-era",
-    "theme": "US Big 4 Sports",
-    "subtheme": "Pro Sports - NFL",
-    "title": "Most NFL championships pre-Super Bowl era",
-    "prompt": "Name the NFL franchises with the most league championships won before the Super Bowl era (1920-1965).",
-    "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
-    "source": {
-      "name": "Pro-Football-Reference \u2014 NFL championship history",
-      "url": "https://www.pro-football-reference.com/years/champions.htm",
-      "asOf": "Pre-Super Bowl era (1920-1965)"
-    },
-    "note": "Green Bay's 9 pre-Super Bowl titles include championships won under Curly Lambeau and Vince Lombardi. Chicago Bears have 8 pre-Super Bowl titles including the 1920 APFA championship.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "NFL-GB",
-        "value": "9 pre-SB titles"
-      },
-      {
-        "rank": 2,
-        "code": "NFL-CHI",
-        "value": "8 pre-SB titles"
-      },
-      {
-        "rank": 3,
-        "code": "NFL-NYG",
-        "value": "4 pre-SB titles"
-      },
-      {
-        "rank": 3,
-        "code": "NFL-DET",
-        "value": "4 pre-SB titles (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "NFL-CLE",
-        "value": "4 pre-SB titles (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "NFL-PHI",
-        "value": "3 pre-SB titles"
-      },
-      {
-        "rank": 6,
-        "code": "NFL-IND",
-        "value": "3 pre-SB titles (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "NFL-KC",
-        "value": "3 AFL titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "NFL-WAS",
-        "value": "2 pre-SB titles"
-      },
-      {
-        "rank": 9,
-        "code": "NFL-ARI",
-        "value": "2 pre-SB titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "NFL-BUF",
-        "value": "2 AFL titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "NFL-TEN",
-        "value": "2 AFL titles (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "NFL-LAR",
-        "value": "1 pre-SB title"
-      },
-      {
-        "rank": 13,
-        "code": "NFL-LV",
-        "value": "1 AFL title (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "NFL-NYJ",
-        "value": "1 AFL title (tied)"
-      }
-    ],
-    "disclaimer": "NFL championships won before the Super Bowl era (1920-1965). AAFC and other rival-league titles not included.",
-    "trivia": "Green Bay's 9 pre-Super Bowl titles include championships under Curly Lambeau and Vince Lombardi. The Bears' 8 include the 1920 APFA (pre-NFL) championship.",
-    "asOfDate": "Pre-Super Bowl era (1920-1965)"
   },
   {
     "id": "pro-sports-nfl-all-time-regular-season-wins-2023",
@@ -92180,7 +92285,7 @@
     "title": "All-time regular-season wins",
     "prompt": "Name the NFL franchises with the most all-time regular-season wins in league history.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Pro-Football-Reference \u2014 NFL Team Records",
       "url": "https://www.pro-football-reference.com/teams/",
@@ -92262,6 +92367,31 @@
         "rank": 15,
         "code": "NFL-MIA",
         "value": "497 wins"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-MIN",
+        "value": "494 wins"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-NE",
+        "value": "492 wins"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-IND",
+        "value": "462 wins"
+      },
+      {
+        "rank": 19,
+        "code": "NFL-BUF",
+        "value": "424 wins"
+      },
+      {
+        "rank": 20,
+        "code": "NFL-NYJ",
+        "value": "413 wins"
       }
     ],
     "disclaimer": "Includes all regular-season wins in franchise history (including pre-NFL merger AAFC/AFL wins for legacy teams).",
@@ -92275,7 +92405,7 @@
     "title": "Most playoff appearances",
     "prompt": "Name the NFL franchises with the most all-time playoff appearances.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 26,
     "source": {
       "name": "Pro-Football-Reference \u2014 Playoff appearances by team",
       "url": "https://www.pro-football-reference.com/teams/",
@@ -92357,6 +92487,61 @@
         "rank": 15,
         "code": "NFL-LV",
         "value": "22 appearances"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-BAL",
+        "value": "17 appearances"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-MIA",
+        "value": "17 appearances (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-SEA",
+        "value": "17 appearances (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-BUF",
+        "value": "17 appearances (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NFL-CIN",
+        "value": "16 appearances"
+      },
+      {
+        "rank": 20,
+        "code": "NFL-CLE",
+        "value": "16 appearances (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NFL-ATL",
+        "value": "15 appearances"
+      },
+      {
+        "rank": 22,
+        "code": "NFL-TEN",
+        "value": "15 appearances (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "NFL-NYJ",
+        "value": "14 appearances"
+      },
+      {
+        "rank": 24,
+        "code": "NFL-DET",
+        "value": "14 appearances (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "NFL-LAC",
+        "value": "14 appearances (tied)"
       }
     ],
     "disclaimer": "All-time regular-season postseason appearances (any playoff berth counts). Includes AFL playoff appearances for pre-merger AFL clubs.",
@@ -92370,7 +92555,7 @@
     "title": "Most division titles",
     "prompt": "Name the NFL franchises with the most division titles all-time.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 26,
     "source": {
       "name": "Pro-Football-Reference \u2014 Division championships by team",
       "url": "https://www.pro-football-reference.com/teams/",
@@ -92452,6 +92637,61 @@
         "rank": 15,
         "code": "NFL-CLE",
         "value": "12 division titles"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-BAL",
+        "value": "10 division titles"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-WAS",
+        "value": "10 division titles (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-NYG",
+        "value": "9 division titles"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-SEA",
+        "value": "9 division titles (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NFL-BUF",
+        "value": "8 division titles"
+      },
+      {
+        "rank": 21,
+        "code": "NFL-TEN",
+        "value": "7 division titles"
+      },
+      {
+        "rank": 21,
+        "code": "NFL-NO",
+        "value": "7 division titles (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NFL-CIN",
+        "value": "5 division titles"
+      },
+      {
+        "rank": 23,
+        "code": "NFL-TB",
+        "value": "5 division titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NFL-ATL",
+        "value": "4 division titles"
+      },
+      {
+        "rank": 25,
+        "code": "NFL-CAR",
+        "value": "4 division titles (tied)"
       }
     ],
     "disclaimer": "Regular-season division championships since divisional play began in 1970 (pre-merger conference/division titles for AFL and NFL both counted).",
@@ -92465,7 +92705,7 @@
     "title": "Most valuable NFL franchises (Forbes 2024)",
     "prompt": "Name the highest-valued NFL franchises per Forbes' 2024 team valuations.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 32,
     "source": {
       "name": "Forbes \u2014 The Most Valuable NFL Teams",
       "url": "https://www.forbes.com/nfl-valuations/list/",
@@ -92547,6 +92787,91 @@
         "rank": 15,
         "code": "NFL-GB",
         "value": "$5.85B"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-BAL",
+        "value": "$5.7B"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-PIT",
+        "value": "$5.6B"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-ATL",
+        "value": "$5.4B"
+      },
+      {
+        "rank": 19,
+        "code": "NFL-CLE",
+        "value": "$5.15B"
+      },
+      {
+        "rank": 20,
+        "code": "NFL-TB",
+        "value": "$5.1B"
+      },
+      {
+        "rank": 21,
+        "code": "NFL-MIN",
+        "value": "$5.05B"
+      },
+      {
+        "rank": 22,
+        "code": "NFL-LAC",
+        "value": "$5.0B"
+      },
+      {
+        "rank": 23,
+        "code": "NFL-KC",
+        "value": "$4.85B"
+      },
+      {
+        "rank": 24,
+        "code": "NFL-IND",
+        "value": "$4.8B"
+      },
+      {
+        "rank": 25,
+        "code": "NFL-TEN",
+        "value": "$4.7B"
+      },
+      {
+        "rank": 26,
+        "code": "NFL-JAX",
+        "value": "$4.6B"
+      },
+      {
+        "rank": 27,
+        "code": "NFL-CAR",
+        "value": "$4.55B"
+      },
+      {
+        "rank": 28,
+        "code": "NFL-ARI",
+        "value": "$4.5B"
+      },
+      {
+        "rank": 29,
+        "code": "NFL-NO",
+        "value": "$4.45B"
+      },
+      {
+        "rank": 30,
+        "code": "NFL-BUF",
+        "value": "$4.4B"
+      },
+      {
+        "rank": 31,
+        "code": "NFL-DET",
+        "value": "$4.35B"
+      },
+      {
+        "rank": 32,
+        "code": "NFL-CIN",
+        "value": "$4.3B"
       }
     ],
     "disclaimer": "Per Forbes' 2024 NFL team valuations. Values in US dollars.",
@@ -92560,7 +92885,7 @@
     "title": "Largest stadium capacity",
     "prompt": "Name the NFL franchises with the largest home-stadium seating capacity (two teams sharing one venue both count).",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 21,
     "source": {
       "name": "NFL.com \u2014 NFL stadium information / Pro-Football-Reference",
       "url": "https://www.pro-football-reference.com/stadiums/",
@@ -92610,36 +92935,66 @@
       },
       {
         "rank": 9,
+        "code": "NFL-HOU",
+        "value": "72,220"
+      },
+      {
+        "rank": 10,
         "code": "NFL-BUF",
         "value": "71,608"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "NFL-BAL",
         "value": "71,008"
       },
       {
-        "rank": 11,
+        "rank": 12,
+        "code": "NFL-ATL",
+        "value": "71,000"
+      },
+      {
+        "rank": 13,
         "code": "NFL-PHI",
         "value": "69,796"
       },
       {
-        "rank": 12,
+        "rank": 14,
         "code": "NFL-TEN",
         "value": "69,143"
       },
       {
-        "rank": 13,
+        "rank": 15,
+        "code": "NFL-SEA",
+        "value": "68,740"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-CLE",
+        "value": "67,895"
+      },
+      {
+        "rank": 17,
         "code": "NFL-JAX",
         "value": "67,838"
       },
       {
-        "rank": 14,
+        "rank": 18,
+        "code": "NFL-TB",
+        "value": "65,890"
+      },
+      {
+        "rank": 19,
         "code": "NFL-NE",
         "value": "65,878"
       },
       {
-        "rank": 15,
+        "rank": 20,
+        "code": "NFL-CIN",
+        "value": "65,515"
+      },
+      {
+        "rank": 21,
         "code": "NFL-MIA",
         "value": "65,326"
       }
@@ -92930,7 +93285,7 @@
     "title": "Most Stanley Cups won (all-time)",
     "prompt": "Name the NHL franchises with the most Stanley Cup championships in league history.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 14,
+    "seededDepth": 22,
     "source": {
       "name": "NHL.com \u2014 Stanley Cup champions by franchise",
       "url": "https://records.nhl.com/records/team-records/stanley-cup-championships/all-time-stanley-cup-winners",
@@ -92994,19 +93349,59 @@
         "value": "3 Cups (tied)"
       },
       {
-        "rank": 12,
+        "rank": 10,
+        "code": "NHL-TBL",
+        "value": "3 Cups (tied)"
+      },
+      {
+        "rank": 13,
         "code": "NHL-PHI",
         "value": "2 Cups"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "NHL-LAK",
         "value": "2 Cups (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "NHL-DAL",
         "value": "1 Cup"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-ANA",
+        "value": "1 Cup (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-CGY",
+        "value": "1 Cup (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-CAR",
+        "value": "1 Cup (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-STL",
+        "value": "1 Cup (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-WSH",
+        "value": "1 Cup (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-VGK",
+        "value": "1 Cup (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-FLA",
+        "value": "1 Cup (tied)"
       }
     ],
     "disclaimer": "NHL-era Stanley Cup wins only (post-1917); pre-NHL Cup wins by historical clubs (e.g. the original Ottawa Senators) are not counted for the modern franchise. Detroit's total includes their Cougars/Falcons era.",
@@ -93020,7 +93415,7 @@
     "title": "Most Stanley Cup Finals appearances",
     "prompt": "Name the NHL franchises with the most Stanley Cup Finals appearances (wins + losses).",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 14,
+    "seededDepth": 20,
     "source": {
       "name": "Hockey Reference \u2014 Stanley Cup Finals appearances by franchise",
       "url": "https://www.hockey-reference.com/playoffs/",
@@ -93097,6 +93492,36 @@
         "rank": 14,
         "code": "NHL-VAN",
         "value": "3 appearances"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-FLA",
+        "value": "3 appearances (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-TBL",
+        "value": "3 appearances (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-LAK",
+        "value": "3 appearances (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-CGY",
+        "value": "2 appearances"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-BUF",
+        "value": "2 appearances (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-CAR",
+        "value": "2 appearances (tied)"
       }
     ],
     "disclaimer": "Stanley Cup Finals appearances (wins + losses) in the NHL era (post-1926 for pre-NHL merger teams).",
@@ -93110,7 +93535,7 @@
     "title": "Most division titles (all-time)",
     "prompt": "Name the NHL franchises with the most regular-season division titles in league history.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 23,
     "source": {
       "name": "Hockey Reference \u2014 Division titles by franchise",
       "url": "https://www.hockey-reference.com/leagues/",
@@ -93192,6 +93617,46 @@
         "rank": 15,
         "code": "NHL-VGK",
         "value": "5 titles"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-BUF",
+        "value": "4 titles"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-TOR",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-NJD",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-VAN",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NHL-CAR",
+        "value": "3 titles"
+      },
+      {
+        "rank": 20,
+        "code": "NHL-TBL",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NHL-ANA",
+        "value": "2 titles"
+      },
+      {
+        "rank": 22,
+        "code": "NHL-NSH",
+        "value": "2 titles (tied)"
       }
     ],
     "disclaimer": "Regular-season division championships since divisional play began in 1967-68.",
@@ -93205,7 +93670,7 @@
     "title": "Most all-time regular-season wins",
     "prompt": "Name the NHL franchises with the most all-time regular-season wins.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Hockey Reference \u2014 Franchise win totals",
       "url": "https://www.hockey-reference.com/teams/",
@@ -93287,6 +93752,81 @@
         "rank": 15,
         "code": "NHL-NYI",
         "value": "1,833 wins"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-VAN",
+        "value": "1,822 wins"
+      },
+      {
+        "rank": 17,
+        "code": "NHL-COL",
+        "value": "1,808 wins"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-LAK",
+        "value": "1,795 wins"
+      },
+      {
+        "rank": 19,
+        "code": "NHL-NJD",
+        "value": "1,631 wins"
+      },
+      {
+        "rank": 20,
+        "code": "NHL-CAR",
+        "value": "1,585 wins"
+      },
+      {
+        "rank": 21,
+        "code": "NHL-ANA",
+        "value": "1,090 wins"
+      },
+      {
+        "rank": 22,
+        "code": "NHL-SJS",
+        "value": "1,082 wins"
+      },
+      {
+        "rank": 23,
+        "code": "NHL-TBL",
+        "value": "1,071 wins"
+      },
+      {
+        "rank": 24,
+        "code": "NHL-FLA",
+        "value": "1,010 wins"
+      },
+      {
+        "rank": 25,
+        "code": "NHL-OTT",
+        "value": "1,005 wins"
+      },
+      {
+        "rank": 26,
+        "code": "NHL-NSH",
+        "value": "944 wins"
+      },
+      {
+        "rank": 27,
+        "code": "NHL-WPG",
+        "value": "784 wins"
+      },
+      {
+        "rank": 28,
+        "code": "NHL-MIN",
+        "value": "782 wins"
+      },
+      {
+        "rank": 29,
+        "code": "NHL-CBJ",
+        "value": "744 wins"
+      },
+      {
+        "rank": 30,
+        "code": "NHL-VGK",
+        "value": "310 wins"
       }
     ],
     "disclaimer": "Original Six clubs dominate due to longevity. Includes shootout wins from 2005-06 onward.",
@@ -93300,7 +93840,7 @@
     "title": "Most playoff appearances (all-time)",
     "prompt": "Name the NHL franchises with the most all-time playoff appearances.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Hockey Reference \u2014 Playoff appearances by franchise",
       "url": "https://www.hockey-reference.com/playoffs/",
@@ -93382,6 +93922,81 @@
         "rank": 15,
         "code": "NHL-NJD",
         "value": "26 appearances"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-COL",
+        "value": "25 appearances"
+      },
+      {
+        "rank": 17,
+        "code": "NHL-NYI",
+        "value": "24 appearances"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-LAK",
+        "value": "22 appearances"
+      },
+      {
+        "rank": 19,
+        "code": "NHL-VAN",
+        "value": "20 appearances"
+      },
+      {
+        "rank": 20,
+        "code": "NHL-CAR",
+        "value": "18 appearances"
+      },
+      {
+        "rank": 21,
+        "code": "NHL-ANA",
+        "value": "14 appearances"
+      },
+      {
+        "rank": 21,
+        "code": "NHL-SJS",
+        "value": "14 appearances (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "NHL-OTT",
+        "value": "13 appearances"
+      },
+      {
+        "rank": 23,
+        "code": "NHL-TBL",
+        "value": "13 appearances (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NHL-FLA",
+        "value": "9 appearances"
+      },
+      {
+        "rank": 25,
+        "code": "NHL-NSH",
+        "value": "9 appearances (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "NHL-CBJ",
+        "value": "6 appearances"
+      },
+      {
+        "rank": 27,
+        "code": "NHL-VGK",
+        "value": "6 appearances (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "NHL-WPG",
+        "value": "5 appearances"
+      },
+      {
+        "rank": 29,
+        "code": "NHL-MIN",
+        "value": "5 appearances (tied)"
       }
     ],
     "disclaimer": "All-time playoff appearances since NHL inception (1917). Includes only NHL-era appearances for pre-merger teams.",
@@ -93395,7 +94010,7 @@
     "title": "Longest current Stanley Cup drought",
     "prompt": "Name the NHL franchises with the longest current Stanley Cup drought (years since their last Cup, or since franchise founding if never won).",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 16,
+    "seededDepth": 30,
     "source": {
       "name": "NHL.com \u2014 Stanley Cup winners by year",
       "url": "https://records.nhl.com/records/team-records/stanley-cup-championships/all-time-stanley-cup-winners",
@@ -93465,23 +94080,93 @@
       },
       {
         "rank": 13,
-        "code": "NHL-WPG",
-        "value": "25 years (never in current form, est. 1999)"
+        "code": "NHL-DAL",
+        "value": "25 years (last 1999)"
       },
       {
-        "rank": 14,
+        "rank": 13,
+        "code": "NHL-WPG",
+        "value": "25 years (never in current form, est. 1999) (tied)"
+      },
+      {
+        "rank": 15,
         "code": "NHL-MIN",
         "value": "24 years (never won, est. 2000)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "NHL-CBJ",
         "value": "24 years (never won, est. 2000) (tied)"
       },
       {
-        "rank": 16,
+        "rank": 17,
+        "code": "NHL-NJD",
+        "value": "21 years (last 2003)"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-CAR",
+        "value": "18 years (last 2006)"
+      },
+      {
+        "rank": 19,
+        "code": "NHL-ANA",
+        "value": "17 years (last 2007)"
+      },
+      {
+        "rank": 20,
+        "code": "NHL-DET",
+        "value": "16 years (last 2008)"
+      },
+      {
+        "rank": 21,
         "code": "NHL-BOS",
         "value": "13 years (last 2011)"
+      },
+      {
+        "rank": 22,
+        "code": "NHL-LAK",
+        "value": "10 years (last 2014)"
+      },
+      {
+        "rank": 23,
+        "code": "NHL-CHI",
+        "value": "9 years (last 2015)"
+      },
+      {
+        "rank": 24,
+        "code": "NHL-PIT",
+        "value": "8 years (last 2016)"
+      },
+      {
+        "rank": 25,
+        "code": "NHL-WSH",
+        "value": "6 years (last 2018)"
+      },
+      {
+        "rank": 26,
+        "code": "NHL-STL",
+        "value": "5 years (last 2019)"
+      },
+      {
+        "rank": 27,
+        "code": "NHL-TBL",
+        "value": "3 years (last 2021)"
+      },
+      {
+        "rank": 28,
+        "code": "NHL-COL",
+        "value": "2 years (last 2022)"
+      },
+      {
+        "rank": 29,
+        "code": "NHL-VGK",
+        "value": "1 year (last 2023)"
+      },
+      {
+        "rank": 30,
+        "code": "NHL-FLA",
+        "value": "0 years (last 2024)"
       }
     ],
     "disclaimer": "Years since the franchise's last Stanley Cup, entering the 2024 season. For franchises that have never won a Cup, the drought counts from franchise founding.",
@@ -108275,7 +108960,7 @@
     "title": "Highest grossing Best Picture winners (worldwide box office)",
     "prompt": "Name the Best Picture winners with the highest worldwide box office gross (unadjusted).",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 22,
     "source": {
       "name": "Wikipedia \u2014 Academy Award-winning films (Best Picture)",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
@@ -108360,6 +109045,41 @@
         "rank": 15,
         "code": "shakespeare-in-love-1998",
         "value": "$289M worldwide"
+      },
+      {
+        "rank": 16,
+        "code": "sound-of-music-1965",
+        "value": "$286M worldwide"
+      },
+      {
+        "rank": 17,
+        "code": "silence-of-the-lambs-1991",
+        "value": "$272M worldwide"
+      },
+      {
+        "rank": 18,
+        "code": "godfather-1972",
+        "value": "$246M worldwide"
+      },
+      {
+        "rank": 19,
+        "code": "english-patient-1996",
+        "value": "$232M worldwide"
+      },
+      {
+        "rank": 19,
+        "code": "argo-2012",
+        "value": "$232M worldwide (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "million-dollar-baby-2004",
+        "value": "$217M worldwide"
+      },
+      {
+        "rank": 22,
+        "code": "braveheart-1995",
+        "value": "$213M worldwide"
       }
     ]
   },
@@ -108370,7 +109090,7 @@
     "title": "Highest grossing Best Picture winners (adjusted for inflation)",
     "prompt": "Name the Best Picture winners with the highest domestic box office adjusted for ticket-price inflation.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 17,
     "source": {
       "name": "Box Office Mojo (adjusted for ticket price inflation)",
       "url": "https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/",
@@ -108438,21 +109158,31 @@
       },
       {
         "rank": 12,
+        "code": "my-fair-lady-1964",
+        "value": "~$610M adjusted domestic"
+      },
+      {
+        "rank": 13,
+        "code": "patton-1970",
+        "value": "~$490M adjusted domestic"
+      },
+      {
+        "rank": 14,
         "code": "rain-man-1988",
         "value": "~$430M adjusted domestic"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "code": "dances-with-wolves-1990",
         "value": "~$425M adjusted domestic"
       },
       {
-        "rank": 14,
+        "rank": 16,
         "code": "gladiator-2000",
         "value": "~$405M adjusted domestic"
       },
       {
-        "rank": 15,
+        "rank": 17,
         "code": "oppenheimer-2023",
         "value": "~$340M adjusted domestic"
       }
@@ -108465,7 +109195,7 @@
     "title": "Highest IMDb user rating among Best Picture winners",
     "prompt": "Name the Best Picture winners with the highest IMDb user rating.",
     "answerType": "Movies",
-    "seededDepth": 14,
+    "seededDepth": 24,
     "source": {
       "name": "IMDb",
       "url": "https://www.imdb.com/list/ls055592025/",
@@ -108512,39 +109242,89 @@
         "value": "8.6 IMDb"
       },
       {
-        "rank": 8,
+        "rank": 7,
+        "code": "lawrence-of-arabia-1962",
+        "value": "8.6 IMDb (tied)"
+      },
+      {
+        "rank": 9,
         "code": "casablanca-1943",
         "value": "8.5 IMDb"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "gladiator-2000",
         "value": "8.5 IMDb (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "parasite-2019",
         "value": "8.5 IMDb (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "departed-2006",
         "value": "8.5 IMDb (tied)"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "amadeus-1984",
         "value": "8.4 IMDb"
       },
       {
-        "rank": 13,
-        "code": "oppenheimer-2023",
+        "rank": 14,
+        "code": "sting-1973",
         "value": "8.3 IMDb"
       },
       {
-        "rank": 13,
+        "rank": 14,
+        "code": "oppenheimer-2023",
+        "value": "8.3 IMDb (tied)"
+      },
+      {
+        "rank": 14,
         "code": "braveheart-1995",
         "value": "8.3 IMDb (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "on-the-waterfront-1954",
+        "value": "8.2 IMDb"
+      },
+      {
+        "rank": 17,
+        "code": "apartment-1960",
+        "value": "8.2 IMDb (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "all-about-eve-1950",
+        "value": "8.2 IMDb (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "all-quiet-on-the-western-front-1930",
+        "value": "8.1 IMDb"
+      },
+      {
+        "rank": 20,
+        "code": "platoon-1986",
+        "value": "8.1 IMDb (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "unforgiven-1992",
+        "value": "8.1 IMDb (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "no-country-for-old-men-2007",
+        "value": "8.1 IMDb (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "deer-hunter-1978",
+        "value": "8.1 IMDb (tied)"
       }
     ]
   },
@@ -108650,7 +109430,7 @@
     "title": "Most Oscar wins by a Best Picture winner",
     "prompt": "Name the Best Picture winners that took home the most total Oscars in a single ceremony.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 22,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -108683,17 +109463,17 @@
       },
       {
         "rank": 5,
-        "code": "english-patient-1996",
+        "code": "gigi-1958",
         "value": "9 wins"
       },
       {
         "rank": 5,
-        "code": "gigi-1958",
+        "code": "last-emperor-1987",
         "value": "9 wins (tied)"
       },
       {
         "rank": 5,
-        "code": "last-emperor-1987",
+        "code": "english-patient-1996",
         "value": "9 wins (tied)"
       },
       {
@@ -108733,8 +109513,43 @@
       },
       {
         "rank": 15,
-        "code": "everything-everywhere-all-at-once-2022",
+        "code": "best-years-of-our-lives-1946",
         "value": "7 wins"
+      },
+      {
+        "rank": 15,
+        "code": "bridge-on-the-river-kwai-1957",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "patton-1970",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "schindlers-list-1993",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "dances-with-wolves-1990",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "shakespeare-in-love-1998",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "everything-everywhere-all-at-once-2022",
+        "value": "7 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "oppenheimer-2023",
+        "value": "7 wins (tied)"
       }
     ]
   },
@@ -108745,7 +109560,7 @@
     "title": "Most Oscar nominations received by a Best Picture winner",
     "prompt": "Name the Best Picture winners that received the most total Oscar nominations at their ceremony.",
     "answerType": "Movies",
-    "seededDepth": 14,
+    "seededDepth": 23,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -108825,6 +109640,51 @@
         "rank": 11,
         "code": "amadeus-1984",
         "value": "11 nominations (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "west-side-story-1961",
+        "value": "11 nominations (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "forrest-gump-1994",
+        "value": "11 nominations (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "shape-of-water-2017",
+        "value": "11 nominations (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "everything-everywhere-all-at-once-2022",
+        "value": "11 nominations (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "mrs-miniver-1942",
+        "value": "10 nominations"
+      },
+      {
+        "rank": 20,
+        "code": "gigi-1958",
+        "value": "9 nominations"
+      },
+      {
+        "rank": 20,
+        "code": "my-fair-lady-1964",
+        "value": "9 nominations (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "sound-of-music-1965",
+        "value": "9 nominations (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "million-dollar-baby-2004",
+        "value": "9 nominations (tied)"
       }
     ]
   },
@@ -108835,7 +109695,7 @@
     "title": "Longest runtime among Best Picture winners",
     "prompt": "Name the Best Picture winners with the longest theatrical runtimes.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 21,
     "source": {
       "name": "Wikipedia / AFI Catalog",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award_winners_and_nominees_for_Best_Picture",
@@ -108908,18 +109768,48 @@
       },
       {
         "rank": 13,
-        "code": "godfather-1972",
+        "code": "around-the-world-in-80-days-1956",
         "value": "175 min"
       },
       {
-        "rank": 14,
+        "rank": 13,
+        "code": "godfather-1972",
+        "value": "175 min (tied)"
+      },
+      {
+        "rank": 15,
         "code": "sound-of-music-1965",
         "value": "174 min"
       },
       {
-        "rank": 15,
+        "rank": 16,
+        "code": "best-years-of-our-lives-1946",
+        "value": "172 min"
+      },
+      {
+        "rank": 16,
+        "code": "patton-1970",
+        "value": "172 min (tied)"
+      },
+      {
+        "rank": 18,
         "code": "english-patient-1996",
         "value": "162 min"
+      },
+      {
+        "rank": 19,
+        "code": "amadeus-1984",
+        "value": "161 min"
+      },
+      {
+        "rank": 19,
+        "code": "out-of-africa-1985",
+        "value": "161 min (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "west-side-story-1961",
+        "value": "153 min"
       }
     ]
   },
@@ -110175,7 +111065,7 @@
     "title": "Best Picture winners whose lead actor also won Best Actor that night",
     "prompt": "Name Best Picture winners where the film's lead actor also took home the Best Actor Oscar at the same ceremony.",
     "answerType": "Movies",
-    "seededDepth": 19,
+    "seededDepth": 23,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -110233,53 +111123,73 @@
       },
       {
         "rank": 10,
+        "code": "my-fair-lady-1964",
+        "value": "Rex Harrison"
+      },
+      {
+        "rank": 11,
         "code": "man-for-all-seasons-1966",
         "value": "Paul Scofield"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "patton-1970",
         "value": "George C. Scott"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "french-connection-1971",
         "value": "Gene Hackman"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "godfather-1972",
         "value": "Marlon Brando"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "one-flew-over-the-cuckoos-nest-1975",
         "value": "Jack Nicholson"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "kramer-vs-kramer-1979",
         "value": "Dustin Hoffman"
       },
       {
-        "rank": 16,
+        "rank": 17,
+        "code": "amadeus-1984",
+        "value": "F. Murray Abraham"
+      },
+      {
+        "rank": 18,
         "code": "rain-man-1988",
         "value": "Dustin Hoffman"
       },
       {
-        "rank": 17,
+        "rank": 19,
         "code": "silence-of-the-lambs-1991",
         "value": "Anthony Hopkins"
       },
       {
-        "rank": 18,
+        "rank": 20,
         "code": "forrest-gump-1994",
         "value": "Tom Hanks"
       },
       {
-        "rank": 19,
+        "rank": 21,
+        "code": "gladiator-2000",
+        "value": "Russell Crowe"
+      },
+      {
+        "rank": 22,
         "code": "kings-speech-2010",
         "value": "Colin Firth"
+      },
+      {
+        "rank": 23,
+        "code": "oppenheimer-2023",
+        "value": "Cillian Murphy"
       }
     ]
   },
@@ -110675,81 +111585,6 @@
         "rank": 14,
         "code": "birdman-2014",
         "value": "4 wins (tied)"
-      }
-    ]
-  },
-  {
-    "id": "movies-awards-best-picture-winners-with-zero-acting-nominations-2024",
-    "theme": "Movies",
-    "subtheme": "Movies - Awards",
-    "title": "Best Picture winners with zero acting nominations",
-    "prompt": "Name Best Picture winners that received NO acting nominations (no Actor, Actress, Supporting Actor or Supporting Actress noms).",
-    "answerType": "Movies",
-    "seededDepth": 11,
-    "source": {
-      "name": "Academy Awards Database",
-      "url": "https://awardsdatabase.oscars.org/",
-      "asOf": "Best Picture winners through the 96th ceremony (2024)"
-    },
-    "note": null,
-    "disclaimer": "A film needs zero nominations across all four acting categories (Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress) to qualify. Extremely rare, and even rarer in the modern era.",
-    "trivia": "Wings (1927) and Grand Hotel (1932) went acting-nomination-free before the Supporting categories even existed. The Lord of the Rings: The Return of the King is the modern outlier \u2014 it won 11 Oscars including Best Picture with zero acting nominations, a feat unmatched since.",
-    "asOfDate": "Best Picture winners through the 96th ceremony (2024)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "wings-1927",
-        "value": "0 acting noms"
-      },
-      {
-        "rank": 1,
-        "code": "all-quiet-on-the-western-front-1930",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "grand-hotel-1932",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "cavalcade-1933",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "american-in-paris-1951",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "around-the-world-in-80-days-1956",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "gigi-1958",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "last-emperor-1987",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "braveheart-1995",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "lord-of-the-rings-return-of-the-king-2003",
-        "value": "0 acting noms (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "slumdog-millionaire-2008",
-        "value": "0 acting noms (tied)"
       }
     ]
   },
@@ -111190,7 +112025,7 @@
     "title": "Highest domestic (US) box office among Best Picture winners (unadjusted)",
     "prompt": "Name the Best Picture winners with the highest lifetime US domestic box office (unadjusted).",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 18,
     "source": {
       "name": "Wikipedia \u2014 Academy Award-winning films (Best Picture)",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
@@ -111243,36 +112078,51 @@
       },
       {
         "rank": 9,
-        "code": "chicago-2002",
+        "code": "beautiful-mind-2001",
         "value": "$171M domestic"
       },
       {
-        "rank": 10,
+        "rank": 9,
+        "code": "chicago-2002",
+        "value": "$171M domestic (tied)"
+      },
+      {
+        "rank": 11,
         "code": "sound-of-music-1965",
         "value": "$163M domestic"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "sting-1973",
         "value": "$156M domestic"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "slumdog-millionaire-2008",
+        "value": "$141M domestic"
+      },
+      {
+        "rank": 14,
+        "code": "kings-speech-2010",
+        "value": "$139M domestic"
+      },
+      {
+        "rank": 15,
         "code": "godfather-1972",
         "value": "$134M domestic"
       },
       {
-        "rank": 13,
+        "rank": 16,
         "code": "departed-2006",
         "value": "$132M domestic"
       },
       {
-        "rank": 14,
+        "rank": 17,
         "code": "american-beauty-1999",
         "value": "$130M domestic"
       },
       {
-        "rank": 15,
+        "rank": 18,
         "code": "rocky-1976",
         "value": "$117M domestic"
       }
@@ -111380,7 +112230,7 @@
     "title": "Lowest domestic box office among modern Best Picture winners",
     "prompt": "Name the modern (post-2000) Best Picture winners with the LOWEST US domestic box office at the time of their Oscar win.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 24,
     "source": {
       "name": "Wikipedia \u2014 Academy Award-winning films (Best Picture)",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
@@ -111394,17 +112244,17 @@
       {
         "rank": 1,
         "code": "coda-2021",
-        "value": "$1.0M domestic (Apple TV+ release)"
+        "value": "$1.0M domestic"
       },
       {
         "rank": 2,
         "code": "nomadland-2020",
-        "value": "$3.7M domestic (COVID/Hulu release)"
+        "value": "$3.7M domestic"
       },
       {
         "rank": 3,
         "code": "hurt-locker-2009",
-        "value": "$17M domestic"
+        "value": "$17.0M domestic"
       },
       {
         "rank": 4,
@@ -111424,7 +112274,7 @@
       {
         "rank": 7,
         "code": "spotlight-2015",
-        "value": "$45M domestic"
+        "value": "$45.1M domestic"
       },
       {
         "rank": 8,
@@ -111464,7 +112314,52 @@
       {
         "rank": 15,
         "code": "million-dollar-baby-2004",
-        "value": "$100M domestic"
+        "value": "$100.5M domestic"
+      },
+      {
+        "rank": 16,
+        "code": "departed-2006",
+        "value": "$132.4M domestic"
+      },
+      {
+        "rank": 17,
+        "code": "argo-2012",
+        "value": "$136.0M domestic"
+      },
+      {
+        "rank": 18,
+        "code": "kings-speech-2010",
+        "value": "$138.8M domestic"
+      },
+      {
+        "rank": 19,
+        "code": "slumdog-millionaire-2008",
+        "value": "$141.3M domestic"
+      },
+      {
+        "rank": 20,
+        "code": "chicago-2002",
+        "value": "$170.7M domestic"
+      },
+      {
+        "rank": 20,
+        "code": "beautiful-mind-2001",
+        "value": "$170.7M domestic (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "gladiator-2000",
+        "value": "$187.7M domestic"
+      },
+      {
+        "rank": 23,
+        "code": "oppenheimer-2023",
+        "value": "$330.1M domestic"
+      },
+      {
+        "rank": 24,
+        "code": "lord-of-the-rings-return-of-the-king-2003",
+        "value": "$377.8M domestic"
       }
     ]
   },
@@ -111475,7 +112370,7 @@
     "title": "Highest production budget among Best Picture winners",
     "prompt": "Name the Best Picture winners with the largest production budget (unadjusted).",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "The Numbers",
       "url": "https://www.the-numbers.com/",
@@ -111504,7 +112399,7 @@
       {
         "rank": 4,
         "code": "lord-of-the-rings-return-of-the-king-2003",
-        "value": "$94M budget (part of $281M trilogy)"
+        "value": "$94M budget"
       },
       {
         "rank": 5,
@@ -111518,48 +112413,73 @@
       },
       {
         "rank": 7,
+        "code": "beautiful-mind-2001",
+        "value": "$58M budget"
+      },
+      {
+        "rank": 8,
         "code": "chicago-2002",
         "value": "$45M budget"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "argo-2012",
         "value": "$44.5M budget"
       },
       {
-        "rank": 9,
+        "rank": 10,
+        "code": "million-dollar-baby-2004",
+        "value": "$30M budget"
+      },
+      {
+        "rank": 11,
+        "code": "out-of-africa-1985",
+        "value": "$28M budget"
+      },
+      {
+        "rank": 12,
         "code": "english-patient-1996",
         "value": "$27M budget"
       },
       {
-        "rank": 10,
+        "rank": 13,
         "code": "last-emperor-1987",
         "value": "$23.8M budget"
       },
       {
-        "rank": 11,
+        "rank": 14,
         "code": "green-book-2018",
         "value": "$23M budget"
       },
       {
-        "rank": 12,
+        "rank": 15,
         "code": "dances-with-wolves-1990",
         "value": "$22M budget"
       },
       {
-        "rank": 13,
-        "code": "ben-hur-1959",
-        "value": "$15.2M budget (~$160M adjusted)"
+        "rank": 16,
+        "code": "amadeus-1984",
+        "value": "$18M budget"
       },
       {
-        "rank": 14,
+        "rank": 17,
+        "code": "ben-hur-1959",
+        "value": "$15.2M budget"
+      },
+      {
+        "rank": 18,
         "code": "american-beauty-1999",
         "value": "$15M budget"
       },
       {
-        "rank": 15,
+        "rank": 18,
+        "code": "kings-speech-2010",
+        "value": "$15M budget (tied)"
+      },
+      {
+        "rank": 20,
         "code": "gone-with-the-wind-1939",
-        "value": "$3.85M budget (~$85M adjusted)"
+        "value": "$3.85M budget"
       }
     ]
   },
@@ -111989,17 +112909,17 @@
       {
         "rank": 4,
         "code": "chinatown-1974",
-        "value": "11 nominations, 1 win (not BP; tied) (tied)"
+        "value": "11 nominations, 1 win (not BP) (tied)"
       },
       {
         "rank": 4,
         "code": "julia-1977",
-        "value": "11 nominations, 3 wins (not BP; tied) (tied)"
+        "value": "11 nominations, 3 wins (not BP) (tied)"
       },
       {
         "rank": 4,
         "code": "aviator-2004",
-        "value": "11 nominations, 5 wins (not BP; tied) (tied)"
+        "value": "11 nominations, 5 wins (not BP) (tied)"
       },
       {
         "rank": 9,
@@ -112008,18 +112928,18 @@
       },
       {
         "rank": 9,
-        "code": "doctor-zhivago-1965",
-        "value": "10 nominations, 5 wins (not BP; tied) (tied)"
+        "code": "bonnie-and-clyde-1967",
+        "value": "10 nominations, 2 wins (not BP) (tied)"
       },
       {
         "rank": 9,
-        "code": "bonnie-and-clyde-1967",
-        "value": "10 nominations, 2 wins (not BP; tied) (tied)"
+        "code": "doctor-zhivago-1965",
+        "value": "10 nominations, 5 wins (not BP) (tied)"
       },
       {
         "rank": 9,
         "code": "dune-2021",
-        "value": "10 nominations, 6 wins (not BP; tied) (tied)"
+        "value": "10 nominations, 6 wins (not BP) (tied)"
       },
       {
         "rank": 13,
@@ -112039,12 +112959,12 @@
       {
         "rank": 15,
         "code": "pulp-fiction-1994",
-        "value": "7 nominations, 1 win (not BP; tied) (tied)"
+        "value": "7 nominations, 1 win (not BP) (tied)"
       },
       {
         "rank": 15,
         "code": "fargo-1996",
-        "value": "7 nominations, 2 wins (not BP; tied) (tied)"
+        "value": "7 nominations, 2 wins (not BP) (tied)"
       }
     ]
   },
@@ -112175,7 +113095,7 @@
     "title": "Highest IMDb rating among Best Picture nominees that did NOT win",
     "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by current IMDb user rating.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 17,
     "source": {
       "name": "IMDb",
       "url": "https://www.imdb.com/",
@@ -112257,9 +113177,19 @@
         "value": "8.3 / 10"
       },
       {
-        "rank": 15,
+        "rank": 14,
+        "code": "clockwork-orange-1971",
+        "value": "8.3 / 10 (tied)"
+      },
+      {
+        "rank": 16,
         "code": "taxi-driver-1976",
         "value": "8.2 / 10"
+      },
+      {
+        "rank": 16,
+        "code": "fargo-1996",
+        "value": "8.2 / 10 (tied)"
       }
     ]
   },
@@ -112270,7 +113200,7 @@
     "title": "Highest Rotten Tomatoes score among Best Picture nominees that did NOT win",
     "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by Rotten Tomatoes Tomatometer critic score.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Rotten Tomatoes",
       "url": "https://www.rottentomatoes.com/",
@@ -112322,39 +113252,64 @@
         "value": "97%"
       },
       {
-        "rank": 9,
+        "rank": 8,
+        "code": "philadelphia-story-1940",
+        "value": "97% (tied)"
+      },
+      {
+        "rank": 10,
         "code": "roma-2018",
         "value": "96%"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "black-panther-2018",
         "value": "96% (tied)"
       },
       {
-        "rank": 11,
+        "rank": 10,
+        "code": "maltese-falcon-1941",
+        "value": "96% (tied)"
+      },
+      {
+        "rank": 13,
         "code": "little-women-2019",
         "value": "95%"
       },
       {
-        "rank": 11,
+        "rank": 13,
         "code": "marriage-story-2019",
         "value": "95% (tied)"
       },
       {
         "rank": 13,
+        "code": "high-noon-1952",
+        "value": "95% (tied)"
+      },
+      {
+        "rank": 16,
         "code": "pulp-fiction-1994",
         "value": "92%"
       },
       {
-        "rank": 13,
+        "rank": 16,
         "code": "grand-budapest-hotel-2014",
         "value": "92% (tied)"
       },
       {
-        "rank": 15,
+        "rank": 16,
+        "code": "shane-1953",
+        "value": "92% (tied)"
+      },
+      {
+        "rank": 19,
         "code": "la-la-land-2016",
         "value": "91%"
+      },
+      {
+        "rank": 19,
+        "code": "1917-2019",
+        "value": "91% (tied)"
       }
     ]
   },
@@ -112525,7 +113480,7 @@
     "title": "Best-Selling Video Games of All Time",
     "prompt": "Rank the best-selling video games of all time across all platforms combined.",
     "answerType": "Video Games",
-    "seededDepth": 17,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia - List of best-selling video games",
       "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_games",
@@ -112598,26 +113553,66 @@
       },
       {
         "rank": 13,
+        "code": "pokemon-red-and-blue-1996",
+        "value": "47M copies"
+      },
+      {
+        "rank": 14,
         "code": "call-of-duty-modern-warfare-2019",
         "value": "41M copies"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "diablo-iii-2012",
         "value": "40M copies"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "mario-kart-wii-2008",
         "value": "37.4M copies"
       },
       {
-        "rank": 16,
+        "rank": 17,
+        "code": "wii-sports-resort-2009",
+        "value": "33M copies"
+      },
+      {
+        "rank": 18,
+        "code": "new-super-mario-bros-2006",
+        "value": "30.8M copies"
+      },
+      {
+        "rank": 19,
+        "code": "new-super-mario-bros-wii-2009",
+        "value": "30.3M copies"
+      },
+      {
+        "rank": 20,
+        "code": "wii-play-2006",
+        "value": "28.9M copies"
+      },
+      {
+        "rank": 21,
         "code": "elden-ring-2022",
         "value": "28M copies"
       },
       {
-        "rank": 17,
+        "rank": 21,
+        "code": "duck-hunt-1984",
+        "value": "28M copies (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "super-mario-odyssey-2017",
+        "value": "27M copies"
+      },
+      {
+        "rank": 24,
+        "code": "pokemon-gold-and-silver-1999",
+        "value": "23.7M copies"
+      },
+      {
+        "rank": 25,
         "code": "wii-fit-2007",
         "value": "22.7M copies"
       }
@@ -112794,72 +113789,72 @@
       {
         "rank": 1,
         "code": "grand-theft-auto-v-2013",
-        "value": "205M+ copies"
+        "value": "205M copies"
       },
       {
         "rank": 2,
         "code": "red-dead-redemption-2-2018",
-        "value": "65M+ copies"
+        "value": "65M copies"
       },
       {
         "rank": 3,
         "code": "call-of-duty-black-ops-iii-2015",
-        "value": "43M+ copies"
+        "value": "43M copies"
       },
       {
         "rank": 4,
         "code": "call-of-duty-modern-warfare-2019",
-        "value": "41M+ copies"
+        "value": "41M copies"
       },
       {
         "rank": 5,
         "code": "fifa-18-2017",
-        "value": "24M+ copies"
+        "value": "24M copies"
       },
       {
         "rank": 6,
         "code": "god-of-war-2018",
-        "value": "23M+ copies"
+        "value": "23M copies"
       },
       {
         "rank": 7,
         "code": "horizon-zero-dawn-2017",
-        "value": "20M+ copies"
+        "value": "20M copies"
       },
       {
         "rank": 7,
         "code": "fifa-19-2018",
-        "value": "20M+ copies (tied)"
+        "value": "20M copies (tied)"
       },
       {
         "rank": 9,
         "code": "call-of-duty-wwii-2017",
-        "value": "19M+ copies"
+        "value": "19M copies"
       },
       {
         "rank": 10,
         "code": "fifa-20-2019",
-        "value": "18M+ copies"
+        "value": "18M copies"
       },
       {
         "rank": 11,
         "code": "uncharted-4-a-thiefs-end-2016",
-        "value": "16M+ copies"
+        "value": "16M copies"
       },
       {
         "rank": 12,
         "code": "ghost-of-tsushima-2020",
-        "value": "13M+ copies"
+        "value": "13M copies"
       },
       {
         "rank": 13,
         "code": "fallout-4-2015",
-        "value": "12M+ copies"
+        "value": "12M copies"
       },
       {
         "rank": 14,
         "code": "last-of-us-part-ii-2020",
-        "value": "10M+ copies"
+        "value": "10M copies"
       }
     ]
   },
@@ -113120,7 +114115,7 @@
     "title": "Games with a perfect Metacritic score of 100",
     "prompt": "Name games that received a perfect score of 100 from at least one Metacritic-tracked critic.",
     "answerType": "Video Games",
-    "seededDepth": 14,
+    "seededDepth": 20,
     "source": {
       "name": "Metacritic",
       "url": "https://www.metacritic.com/browse/game/",
@@ -113134,72 +114129,102 @@
       {
         "rank": 1,
         "code": "legend-of-zelda-ocarina-of-time-1998",
-        "value": "Multiple 100s"
+        "value": "Perfect 100 score"
       },
       {
         "rank": 1,
-        "code": "grand-theft-auto-iv-2008",
-        "value": "Multiple 100s (tied)"
+        "code": "tony-hawks-pro-skater-2-2000",
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
-        "code": "grand-theft-auto-v-2013",
-        "value": "Multiple 100s (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "red-dead-redemption-2-2018",
-        "value": "Multiple 100s (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "legend-of-zelda-breath-of-the-wild-2017",
-        "value": "Multiple 100s (tied)"
+        "code": "grand-theft-auto-iii-2001",
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
         "code": "super-mario-galaxy-2007",
-        "value": "Multiple 100s (tied)"
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "grand-theft-auto-iv-2008",
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
         "code": "super-mario-galaxy-2-2010",
-        "value": "Multiple 100s (tied)"
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "red-dead-redemption-2010",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-breath-of-the-wild-2017",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "super-mario-odyssey-2017",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "grand-theft-auto-v-2013",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "red-dead-redemption-2-2018",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "legend-of-zelda-tears-of-the-kingdom-2023",
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
         "code": "elden-ring-2022",
-        "value": "Multiple 100s (tied)"
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
-        "code": "bioshock-2007",
-        "value": "Multiple 100s (tied)"
+        "code": "metroid-prime-2002",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "halo-combat-evolved-2001",
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "half-life-2-2004",
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
         "code": "portal-2-2011",
-        "value": "Multiple 100s (tied)"
+        "value": "Perfect 100 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "bioshock-2007",
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
         "code": "mass-effect-2-2010",
-        "value": "Multiple 100s (tied)"
+        "value": "Perfect 100 score (tied)"
       },
       {
         "rank": 1,
         "code": "uncharted-2-among-thieves-2009",
-        "value": "Multiple 100s (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "last-of-us-2013",
-        "value": "Multiple 100s (tied)"
-      },
-      {
-        "rank": 1,
-        "code": "god-of-war-2018",
-        "value": "Multiple 100s (tied)"
+        "value": "Perfect 100 score (tied)"
       }
     ]
   },
@@ -113350,7 +114375,7 @@
     "title": "Highest User Score on Metacritic",
     "prompt": "Name games with the highest Metacritic User Score (aggregated user ratings on a 0-10 scale).",
     "answerType": "Video Games",
-    "seededDepth": 12,
+    "seededDepth": 21,
     "source": {
       "name": "Metacritic User Reviews",
       "url": "https://www.metacritic.com/browse/game/",
@@ -113420,6 +114445,51 @@
         "rank": 9,
         "code": "bioshock-2007",
         "value": "9.1 user (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "hollow-knight-2017",
+        "value": "9.1 user (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "chrono-trigger-1995",
+        "value": "9.1 user (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "9.0 user"
+      },
+      {
+        "rank": 15,
+        "code": "super-mario-galaxy-2-2010",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "undertale-2015",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "final-fantasy-vii-1997",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "super-mario-odyssey-2017",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "stardew-valley-2016",
+        "value": "8.9 user"
+      },
+      {
+        "rank": 20,
+        "code": "dark-souls-2011",
+        "value": "8.9 user (tied)"
       }
     ]
   },
@@ -113785,7 +114855,7 @@
     "title": "Golden Joystick Ultimate Game of the Year winners",
     "prompt": "Name the games that have won the Golden Joysticks' Ultimate Game of the Year prize since the award adopted its current name in 2011.",
     "answerType": "Video Games",
-    "seededDepth": 13,
+    "seededDepth": 14,
     "source": {
       "name": "Golden Joystick Awards",
       "url": "https://www.gamesradar.com/uk/golden-joystick-awards/",
@@ -113798,66 +114868,71 @@
     "answers": [
       {
         "rank": 1,
+        "code": "black-myth-wukong-2024",
+        "value": "2024 (Game Science)"
+      },
+      {
+        "rank": 2,
         "code": "baldurs-gate-3-2023",
         "value": "2023 (Larian Studios)"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "elden-ring-2022",
         "value": "2022 (FromSoftware)"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "resident-evil-village-2021",
         "value": "2021 (Capcom)"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "last-of-us-part-ii-2020",
         "value": "2020 (Naughty Dog)"
       },
       {
-        "rank": 5,
+        "rank": 6,
         "code": "resident-evil-2-2019",
         "value": "2019 (Capcom)"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "fortnite-2017",
         "value": "2018 (Epic Games)"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "legend-of-zelda-breath-of-the-wild-2017",
         "value": "2017 (Nintendo EPD)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "dark-souls-iii-2016",
         "value": "2016 (FromSoftware / Bandai Namco)"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "witcher-3-wild-hunt-2015",
         "value": "2015 (CD Projekt Red)"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "dark-souls-ii-2014",
         "value": "2014 (FromSoftware / Bandai Namco)"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "grand-theft-auto-v-2013",
         "value": "2013 (Rockstar North)"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "elder-scrolls-v-skyrim-2011",
         "value": "2012 (Bethesda Game Studios)"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "dark-souls-2011",
         "value": "2011 (FromSoftware / Namco Bandai)"
       }
@@ -114280,7 +115355,7 @@
     "title": "Most 'Game of the Year' awards won by a single game (all-time)",
     "prompt": "Name the games famous for sweeping the year-end awards circuit \u2014 titles that collected the most 'Game of the Year' prizes across all major outlets in a single release year.",
     "answerType": "Video Games",
-    "seededDepth": 12,
+    "seededDepth": 18,
     "source": {
       "name": "Wikipedia \u2014 Game of the Year 'sweep' tallies (aggregated GOTY prizes across outlets)",
       "url": "https://en.wikipedia.org/wiki/List_of_Game_of_the_Year_awards",
@@ -114294,62 +115369,92 @@
       {
         "rank": 1,
         "code": "elden-ring-2022",
-        "value": "~325 aggregated GOTY prizes (2022)"
+        "value": "~325 aggregated GOTY prizes"
       },
       {
         "rank": 2,
         "code": "last-of-us-part-ii-2020",
-        "value": "~320 aggregated GOTY prizes (2020)"
+        "value": "~320 aggregated GOTY prizes"
       },
       {
         "rank": 3,
         "code": "baldurs-gate-3-2023",
-        "value": "~275+ GOTY prizes (2023)"
+        "value": "~275 aggregated GOTY prizes"
       },
       {
         "rank": 4,
         "code": "witcher-3-wild-hunt-2015",
-        "value": "~250 aggregated GOTY prizes (2015)"
+        "value": "~250 aggregated GOTY prizes"
       },
       {
         "rank": 5,
         "code": "last-of-us-2013",
-        "value": "~240 aggregated GOTY prizes (2013)"
+        "value": "~240 aggregated GOTY prizes"
       },
       {
         "rank": 6,
         "code": "legend-of-zelda-breath-of-the-wild-2017",
-        "value": "~210 aggregated GOTY prizes (2017)"
+        "value": "~210 aggregated GOTY prizes"
       },
       {
         "rank": 7,
         "code": "god-of-war-2018",
-        "value": "~200 aggregated GOTY prizes (2018)"
+        "value": "~200 aggregated GOTY prizes"
       },
       {
         "rank": 8,
         "code": "red-dead-redemption-2-2018",
-        "value": "~175 aggregated GOTY prizes (2018)"
+        "value": "~175 aggregated GOTY prizes"
       },
       {
         "rank": 9,
         "code": "overwatch-2016",
-        "value": "~120 aggregated GOTY prizes (2016)"
+        "value": "~120 aggregated GOTY prizes"
       },
       {
         "rank": 9,
         "code": "grand-theft-auto-iv-2008",
-        "value": "~120 aggregated GOTY prizes (2008) (tied)"
+        "value": "~120 aggregated GOTY prizes (tied)"
       },
       {
         "rank": 11,
         "code": "elder-scrolls-v-skyrim-2011",
-        "value": "~70 aggregated GOTY prizes (2011)"
+        "value": "~70 aggregated GOTY prizes"
       },
       {
         "rank": 12,
         "code": "grand-theft-auto-v-2013",
-        "value": "~65 aggregated GOTY prizes (2013)"
+        "value": "~65 aggregated GOTY prizes"
+      },
+      {
+        "rank": 13,
+        "code": "bioshock-2007",
+        "value": "~55 aggregated GOTY prizes"
+      },
+      {
+        "rank": 14,
+        "code": "mass-effect-2-2010",
+        "value": "~50 aggregated GOTY prizes"
+      },
+      {
+        "rank": 15,
+        "code": "half-life-2-2004",
+        "value": "~45 aggregated GOTY prizes"
+      },
+      {
+        "rank": 16,
+        "code": "portal-2-2011",
+        "value": "~40 aggregated GOTY prizes"
+      },
+      {
+        "rank": 17,
+        "code": "sekiro-shadows-die-twice-2019",
+        "value": "~35 aggregated GOTY prizes"
+      },
+      {
+        "rank": 18,
+        "code": "hades-2020",
+        "value": "~30 aggregated GOTY prizes"
       }
     ]
   },
@@ -114360,7 +115465,7 @@
     "title": "Best-Selling Video Game Franchises of All Time",
     "prompt": "Rank the best-selling video game franchises of all time by total units sold across all platforms.",
     "answerType": "Video Game Franchises",
-    "seededDepth": 18,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 List of best-selling video game franchises",
       "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises",
@@ -114403,12 +115508,12 @@
       },
       {
         "rank": 7,
-        "code": "sims",
+        "code": "assassins-creed",
         "value": "~200M units"
       },
       {
         "rank": 7,
-        "code": "assassins-creed",
+        "code": "sims",
         "value": "~200M units (tied)"
       },
       {
@@ -114427,37 +115532,72 @@
         "value": "~155M units"
       },
       {
-        "rank": 12,
+        "rank": 11,
+        "code": "zelda",
+        "value": "~155M units (tied)"
+      },
+      {
+        "rank": 13,
         "code": "need-for-speed",
         "value": "~150M units"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "madden-nfl",
         "value": "~130M units"
       },
       {
         "rank": 14,
+        "code": "nba-2k",
+        "value": "~130M units (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "monster-hunter",
+        "value": "~100M units"
+      },
+      {
+        "rank": 17,
         "code": "tomb-raider",
         "value": "~95M units"
       },
       {
-        "rank": 15,
+        "rank": 18,
+        "code": "gran-turismo",
+        "value": "~90M units"
+      },
+      {
+        "rank": 19,
+        "code": "dragon-quest",
+        "value": "~88M units"
+      },
+      {
+        "rank": 20,
         "code": "wii-sports",
         "value": "~83M units"
       },
       {
-        "rank": 16,
+        "rank": 21,
+        "code": "halo",
+        "value": "~81M units"
+      },
+      {
+        "rank": 22,
         "code": "mortal-kombat",
         "value": "~80M units"
       },
       {
-        "rank": 17,
+        "rank": 23,
+        "code": "metal-gear",
+        "value": "~62M units"
+      },
+      {
+        "rank": 24,
         "code": "tekken",
         "value": "~60M units"
       },
       {
-        "rank": 18,
+        "rank": 25,
         "code": "street-fighter",
         "value": "~55M units"
       }
@@ -114600,7 +115740,7 @@
     "title": "Oldest Continuously Active Video Game Franchises",
     "prompt": "Rank these long-running video game franchises by how long they have been continuously producing new releases (oldest first).",
     "answerType": "Video Game Franchises",
-    "seededDepth": 18,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 List of video game franchises",
       "url": "https://en.wikipedia.org/wiki/List_of_video_game_franchises",
@@ -114613,93 +115753,128 @@
     "answers": [
       {
         "rank": 1,
-        "code": "silent-hill",
-        "value": "1999 (debut)"
+        "code": "pac-man",
+        "value": "1980 (debut)"
       },
       {
         "rank": 2,
-        "code": "warcraft",
-        "value": "1994 (debut)"
-      },
-      {
-        "rank": 3,
-        "code": "doom",
-        "value": "1993 (debut)"
-      },
-      {
-        "rank": 4,
-        "code": "kirby",
-        "value": "1992 (debut)"
-      },
-      {
-        "rank": 5,
-        "code": "sonic",
-        "value": "1991 (debut)"
-      },
-      {
-        "rank": 6,
-        "code": "madden-nfl",
-        "value": "1988 (debut)"
-      },
-      {
-        "rank": 6,
-        "code": "simcity",
-        "value": "1988 (debut, tied) (tied)"
-      },
-      {
-        "rank": 8,
-        "code": "final-fantasy",
-        "value": "1987 (debut)"
-      },
-      {
-        "rank": 8,
-        "code": "mega-man",
-        "value": "1987 (debut, tied) (tied)"
-      },
-      {
-        "rank": 8,
-        "code": "street-fighter",
-        "value": "1987 (debut, tied) (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "castlevania",
-        "value": "1986 (debut)"
-      },
-      {
-        "rank": 11,
-        "code": "zelda",
-        "value": "1986 (debut, tied) (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "metroid",
-        "value": "1986 (debut, tied) (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "dragon-quest",
-        "value": "1986 (debut, tied) (tied)"
-      },
-      {
-        "rank": 15,
         "code": "donkey-kong",
         "value": "1981 (debut)"
       },
       {
-        "rank": 15,
+        "rank": 2,
+        "code": "frogger",
+        "value": "1981 (debut) (tied)"
+      },
+      {
+        "rank": 2,
         "code": "mario",
-        "value": "1981 (debut, tied) (tied)"
+        "value": "1981 (debut) (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "castlevania",
+        "value": "1986 (debut)"
+      },
+      {
+        "rank": 5,
+        "code": "dragon-quest",
+        "value": "1986 (debut) (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "metroid",
+        "value": "1986 (debut) (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "zelda",
+        "value": "1986 (debut) (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "final-fantasy",
+        "value": "1987 (debut)"
+      },
+      {
+        "rank": 9,
+        "code": "mega-man",
+        "value": "1987 (debut) (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "metal-gear",
+        "value": "1987 (debut) (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "street-fighter",
+        "value": "1987 (debut) (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "madden-nfl",
+        "value": "1988 (debut)"
+      },
+      {
+        "rank": 13,
+        "code": "simcity",
+        "value": "1988 (debut) (tied)"
       },
       {
         "rank": 15,
-        "code": "frogger",
-        "value": "1981 (debut, tied) (tied)"
+        "code": "sonic",
+        "value": "1991 (debut)"
+      },
+      {
+        "rank": 16,
+        "code": "kirby",
+        "value": "1992 (debut)"
+      },
+      {
+        "rank": 17,
+        "code": "doom",
+        "value": "1993 (debut)"
       },
       {
         "rank": 18,
-        "code": "pac-man",
-        "value": "1980 (debut)"
+        "code": "tekken",
+        "value": "1994 (debut)"
+      },
+      {
+        "rank": 18,
+        "code": "warcraft",
+        "value": "1994 (debut) (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "resident-evil",
+        "value": "1996 (debut)"
+      },
+      {
+        "rank": 20,
+        "code": "tomb-raider",
+        "value": "1996 (debut) (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "gran-turismo",
+        "value": "1997 (debut)"
+      },
+      {
+        "rank": 22,
+        "code": "grand-theft-auto",
+        "value": "1997 (debut) (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "silent-hill",
+        "value": "1999 (debut)"
+      },
+      {
+        "rank": 24,
+        "code": "smash-bros",
+        "value": "1999 (debut) (tied)"
       }
     ],
     "source_name": "Wikipedia \u2014 List of video game franchises",
@@ -114713,7 +115888,7 @@
     "title": "Best-Selling Nintendo-Owned Franchises",
     "prompt": "Rank Nintendo's first-party franchises by lifetime unit sales.",
     "answerType": "Video Game Franchises",
-    "seededDepth": 10,
+    "seededDepth": 13,
     "source": {
       "name": "Wikipedia \u2014 List of best-selling video game franchises",
       "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises",
@@ -114771,8 +115946,23 @@
       },
       {
         "rank": 10,
+        "code": "metroid",
+        "value": "~19M units"
+      },
+      {
+        "rank": 11,
         "code": "fire-emblem",
-        "value": "~20M units"
+        "value": "~18M units"
+      },
+      {
+        "rank": 12,
+        "code": "star-fox",
+        "value": "~13M units"
+      },
+      {
+        "rank": 13,
+        "code": "pikmin",
+        "value": "~11M units"
       }
     ]
   },
@@ -114783,7 +115973,7 @@
     "title": "Video game franchises with the most mainline entries",
     "prompt": "Rank these franchises by the number of numbered or mainline installments in their core series.",
     "answerType": "Video Game Franchises",
-    "seededDepth": 18,
+    "seededDepth": 27,
     "source": {
       "name": "Wikipedia \u2014 List of video game franchises",
       "url": "https://en.wikipedia.org/wiki/List_of_video_game_franchises",
@@ -114825,64 +116015,109 @@
         "value": "8 mainline"
       },
       {
-        "rank": 6,
-        "code": "far-cry",
-        "value": "8 mainline (tied)"
-      },
-      {
-        "rank": 8,
-        "code": "gran-turismo",
+        "rank": 7,
+        "code": "assassins-creed",
         "value": "7 mainline"
       },
       {
-        "rank": 8,
-        "code": "assassins-creed",
+        "rank": 7,
+        "code": "gran-turismo",
         "value": "7 mainline (tied)"
       },
       {
-        "rank": 10,
-        "code": "grand-theft-auto",
+        "rank": 9,
+        "code": "elder-scrolls",
         "value": "6 mainline"
       },
       {
-        "rank": 10,
-        "code": "halo",
-        "value": "6 mainline (tied)"
-      },
-      {
-        "rank": 10,
-        "code": "elder-scrolls",
-        "value": "6 mainline (tied)"
-      },
-      {
-        "rank": 10,
+        "rank": 9,
         "code": "fallout",
         "value": "6 mainline (tied)"
       },
       {
-        "rank": 14,
-        "code": "smash-bros",
+        "rank": 9,
+        "code": "far-cry",
+        "value": "6 mainline (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "grand-theft-auto",
+        "value": "6 mainline (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "halo",
+        "value": "6 mainline (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "street-fighter",
+        "value": "6 mainline (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "diablo",
         "value": "5 mainline"
       },
       {
-        "rank": 14,
+        "rank": 15,
+        "code": "gears-of-war",
+        "value": "5 mainline (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "god-of-war",
+        "value": "5 mainline (tied)"
+      },
+      {
+        "rank": 15,
         "code": "metal-gear",
         "value": "5 mainline (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "silent-hill",
         "value": "5 mainline (tied)"
       },
       {
-        "rank": 14,
-        "code": "diablo",
+        "rank": 15,
+        "code": "smash-bros",
         "value": "5 mainline (tied)"
       },
       {
-        "rank": 14,
-        "code": "god-of-war",
-        "value": "5 mainline (tied)"
+        "rank": 21,
+        "code": "borderlands",
+        "value": "4 mainline"
+      },
+      {
+        "rank": 21,
+        "code": "kingdom-hearts",
+        "value": "4 mainline (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "mass-effect",
+        "value": "4 mainline (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "uncharted",
+        "value": "4 mainline (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "bioshock",
+        "value": "3 mainline"
+      },
+      {
+        "rank": 25,
+        "code": "dark-souls",
+        "value": "3 mainline (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "witcher",
+        "value": "3 mainline (tied)"
       }
     ]
   },
@@ -269083,7 +270318,7 @@
     "title": "Most Pro Bowl selections in NFL history",
     "prompt": "Name the NFL franchises whose players have earned the most Pro Bowl selections all-time.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "Pro Football Reference \u2014 Pro Bowl selections by franchise",
       "url": "https://www.pro-football-reference.com/",
@@ -269097,62 +270332,102 @@
       {
         "rank": 1,
         "code": "NFL-PIT",
-        "value": "296 selections"
+        "value": "309 selections"
       },
       {
         "rank": 2,
         "code": "NFL-DAL",
-        "value": "292 selections"
+        "value": "296 selections"
       },
       {
         "rank": 3,
         "code": "NFL-GB",
-        "value": "283 selections"
+        "value": "289 selections"
       },
       {
         "rank": 4,
         "code": "NFL-SF",
-        "value": "270 selections"
+        "value": "275 selections"
       },
       {
         "rank": 5,
         "code": "NFL-WAS",
-        "value": "254 selections"
+        "value": "256 selections"
       },
       {
         "rank": 6,
         "code": "NFL-CHI",
-        "value": "253 selections"
+        "value": "255 selections"
       },
       {
         "rank": 7,
         "code": "NFL-NYG",
-        "value": "246 selections"
+        "value": "248 selections"
       },
       {
         "rank": 8,
         "code": "NFL-MIN",
-        "value": "235 selections"
+        "value": "241 selections"
       },
       {
         "rank": 9,
         "code": "NFL-KC",
-        "value": "232 selections"
+        "value": "238 selections"
       },
       {
         "rank": 10,
         "code": "NFL-DEN",
-        "value": "225 selections"
+        "value": "230 selections"
       },
       {
         "rank": 11,
         "code": "NFL-IND",
-        "value": "224 selections"
+        "value": "227 selections"
       },
       {
         "rank": 12,
         "code": "NFL-NE",
+        "value": "225 selections"
+      },
+      {
+        "rank": 13,
+        "code": "NFL-MIA",
         "value": "220 selections"
+      },
+      {
+        "rank": 14,
+        "code": "NFL-BAL",
+        "value": "205 selections"
+      },
+      {
+        "rank": 15,
+        "code": "NFL-PHI",
+        "value": "202 selections"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-CLE",
+        "value": "195 selections"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-DET",
+        "value": "180 selections"
+      },
+      {
+        "rank": 18,
+        "code": "NFL-LAR",
+        "value": "175 selections"
+      },
+      {
+        "rank": 19,
+        "code": "NFL-TEN",
+        "value": "168 selections"
+      },
+      {
+        "rank": 20,
+        "code": "NFL-SEA",
+        "value": "160 selections"
       }
     ]
   },
@@ -269163,7 +270438,7 @@
     "title": "Most NFL playoff wins all-time",
     "prompt": "Name the NFL franchises with the most playoff-game victories in league history.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 12,
+    "seededDepth": 19,
     "source": {
       "name": "Pro Football Reference \u2014 franchise playoff records",
       "url": "https://www.pro-football-reference.com/",
@@ -269233,6 +270508,41 @@
         "rank": 12,
         "code": "NFL-BAL",
         "value": "17 wins"
+      },
+      {
+        "rank": 13,
+        "code": "NFL-LAR",
+        "value": "16 wins"
+      },
+      {
+        "rank": 14,
+        "code": "NFL-CHI",
+        "value": "15 wins"
+      },
+      {
+        "rank": 14,
+        "code": "NFL-IND",
+        "value": "15 wins (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NFL-MIN",
+        "value": "13 wins"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-BUF",
+        "value": "10 wins"
+      },
+      {
+        "rank": 17,
+        "code": "NFL-SEA",
+        "value": "10 wins (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "NFL-TB",
+        "value": "9 wins"
       }
     ]
   },
@@ -269893,7 +271203,7 @@
     "title": "Most NHL playoff series wins (all-time)",
     "prompt": "Name the NHL franchises that have won the most playoff series in league history.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "Hockey Reference \u2014 playoff series records",
       "url": "https://www.hockey-reference.com/playoffs/",
@@ -269963,6 +271273,46 @@
         "rank": 12,
         "code": "NHL-DAL",
         "value": "31 series wins"
+      },
+      {
+        "rank": 13,
+        "code": "NHL-STL",
+        "value": "30 series wins"
+      },
+      {
+        "rank": 14,
+        "code": "NHL-NYI",
+        "value": "29 series wins"
+      },
+      {
+        "rank": 15,
+        "code": "NHL-LAK",
+        "value": "22 series wins"
+      },
+      {
+        "rank": 16,
+        "code": "NHL-WSH",
+        "value": "20 series wins"
+      },
+      {
+        "rank": 17,
+        "code": "NHL-BUF",
+        "value": "19 series wins"
+      },
+      {
+        "rank": 18,
+        "code": "NHL-CGY",
+        "value": "17 series wins"
+      },
+      {
+        "rank": 19,
+        "code": "NHL-VAN",
+        "value": "16 series wins"
+      },
+      {
+        "rank": 20,
+        "code": "NHL-TBL",
+        "value": "15 series wins"
       }
     ]
   },
@@ -270043,7 +271393,7 @@
     "title": "Most coaching wins by franchise (NBA)",
     "prompt": "Name the NBA franchises with the most regular-season head-coaching wins accumulated across their history.",
     "answerType": "US Big 4 Sports",
-    "seededDepth": 12,
+    "seededDepth": 15,
     "source": {
       "name": "Basketball Reference \u2014 franchise coaching records",
       "url": "https://www.basketball-reference.com/teams/",
@@ -270057,62 +271407,77 @@
       {
         "rank": 1,
         "code": "NBA-LAL",
-        "value": "3,600+ wins"
+        "value": "3,617 wins"
       },
       {
         "rank": 2,
         "code": "NBA-BOS",
-        "value": "3,540+ wins"
+        "value": "3,545 wins"
       },
       {
         "rank": 3,
         "code": "NBA-NYK",
-        "value": "2,970+ wins"
+        "value": "2,973 wins"
       },
       {
         "rank": 4,
         "code": "NBA-GSW",
-        "value": "2,930+ wins"
+        "value": "2,935 wins"
       },
       {
         "rank": 5,
         "code": "NBA-PHI",
-        "value": "2,910+ wins"
+        "value": "2,912 wins"
       },
       {
         "rank": 6,
         "code": "NBA-DET",
-        "value": "2,720+ wins"
+        "value": "2,724 wins"
       },
       {
         "rank": 7,
         "code": "NBA-ATL",
-        "value": "2,700+ wins"
+        "value": "2,703 wins"
       },
       {
         "rank": 8,
         "code": "NBA-SAC",
-        "value": "2,660+ wins"
+        "value": "2,663 wins"
       },
       {
         "rank": 9,
         "code": "NBA-SAS",
-        "value": "2,410+ wins"
+        "value": "2,415 wins"
       },
       {
         "rank": 10,
         "code": "NBA-PHX",
-        "value": "2,400+ wins"
+        "value": "2,402 wins"
       },
       {
         "rank": 11,
         "code": "NBA-CHI",
-        "value": "2,290+ wins"
+        "value": "2,293 wins"
       },
       {
         "rank": 12,
         "code": "NBA-POR",
-        "value": "2,270+ wins"
+        "value": "2,271 wins"
+      },
+      {
+        "rank": 13,
+        "code": "NBA-WAS",
+        "value": "2,180 wins"
+      },
+      {
+        "rank": 14,
+        "code": "NBA-MIL",
+        "value": "2,150 wins"
+      },
+      {
+        "rank": 15,
+        "code": "NBA-HOU",
+        "value": "2,100 wins"
       }
     ]
   },
@@ -272141,7 +273506,7 @@
     "title": "Highest scoring FPS games (Metacritic)",
     "prompt": "Name the highest-rated first-person shooter games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 18,
+    "seededDepth": 21,
     "source": {
       "name": "Metacritic \u2014 Shooter rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=shooter",
@@ -272164,7 +273529,7 @@
       },
       {
         "rank": 3,
-        "code": "half-life-2-2004",
+        "code": "bioshock-2007",
         "value": "96 Metacritic"
       },
       {
@@ -272179,7 +273544,7 @@
       },
       {
         "rank": 3,
-        "code": "bioshock-2007",
+        "code": "half-life-2-2004",
         "value": "96 Metacritic (tied)"
       },
       {
@@ -272199,12 +273564,12 @@
       },
       {
         "rank": 10,
-        "code": "call-of-duty-4-modern-warfare-2007",
+        "code": "bioshock-infinite-2013",
         "value": "94 Metacritic"
       },
       {
         "rank": 10,
-        "code": "bioshock-infinite-2013",
+        "code": "call-of-duty-4-modern-warfare-2007",
         "value": "94 Metacritic (tied)"
       },
       {
@@ -272223,22 +273588,37 @@
         "value": "92 Metacritic"
       },
       {
-        "rank": 15,
-        "code": "overwatch-2016",
+        "rank": 14,
+        "code": "system-shock-2-1999",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "borderlands-2-2012",
         "value": "91 Metacritic"
       },
       {
         "rank": 16,
-        "code": "portal-2007",
+        "code": "halo-reach-2010",
+        "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "overwatch-2016",
+        "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "call-of-duty-2-2005",
         "value": "90 Metacritic"
       },
       {
-        "rank": 16,
-        "code": "call-of-duty-2-2005",
+        "rank": 19,
+        "code": "portal-2007",
         "value": "90 Metacritic (tied)"
       },
       {
-        "rank": 16,
+        "rank": 19,
         "code": "team-fortress-2-2007",
         "value": "90 Metacritic (tied)"
       }
@@ -272337,7 +273717,7 @@
     "title": "Highest scoring platformers (Metacritic)",
     "prompt": "Name the highest-rated platformer games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 18,
+    "seededDepth": 21,
     "source": {
       "name": "Metacritic \u2014 Platformer rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=platformer",
@@ -272350,12 +273730,12 @@
     "answers": [
       {
         "rank": 1,
-        "code": "super-mario-galaxy-2007",
+        "code": "super-mario-galaxy-2-2010",
         "value": "97 Metacritic"
       },
       {
         "rank": 1,
-        "code": "super-mario-galaxy-2-2010",
+        "code": "super-mario-galaxy-2007",
         "value": "97 Metacritic (tied)"
       },
       {
@@ -272365,17 +273745,17 @@
       },
       {
         "rank": 4,
-        "code": "super-mario-64-1996",
+        "code": "astro-bot-2024",
         "value": "94 Metacritic"
       },
       {
         "rank": 4,
-        "code": "astro-bot-2024",
+        "code": "celeste-2018",
         "value": "94 Metacritic (tied)"
       },
       {
         "rank": 4,
-        "code": "celeste-2018",
+        "code": "super-mario-64-1996",
         "value": "94 Metacritic (tied)"
       },
       {
@@ -272385,56 +273765,71 @@
       },
       {
         "rank": 8,
+        "code": "braid-2008",
+        "value": "93 Metacritic"
+      },
+      {
+        "rank": 9,
         "code": "banjo-kazooie-1998",
         "value": "92 Metacritic"
       },
       {
-        "rank": 8,
-        "code": "super-metroid-1994",
-        "value": "92 Metacritic (tied)"
-      },
-      {
-        "rank": 8,
+        "rank": 9,
         "code": "castlevania-symphony-of-the-night-1997",
         "value": "92 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "donkey-kong-country-1994",
         "value": "92 Metacritic (tied)"
       },
       {
-        "rank": 12,
+        "rank": 9,
+        "code": "super-metroid-1994",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 13,
         "code": "crash-bandicoot-warped-1998",
         "value": "91 Metacritic"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "inside-2016",
+        "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 13,
         "code": "shovel-knight-2014",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "yoshis-island-1995",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 15,
+        "rank": 17,
         "code": "hollow-knight-2017",
         "value": "90 Metacritic"
       },
       {
-        "rank": 15,
-        "code": "super-meat-boy-2010",
+        "rank": 17,
+        "code": "limbo-2010",
         "value": "90 Metacritic (tied)"
       },
       {
         "rank": 17,
+        "code": "super-meat-boy-2010",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 20,
         "code": "new-super-mario-bros-2006",
         "value": "89 Metacritic"
       },
       {
-        "rank": 17,
+        "rank": 20,
         "code": "psychonauts-2005",
         "value": "89 Metacritic (tied)"
       }
@@ -272450,7 +273845,7 @@
     "title": "Highest scoring open-world games (Metacritic)",
     "prompt": "Name the highest-rated open-world games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 19,
+    "seededDepth": 23,
     "source": {
       "name": "Metacritic \u2014 Open-world rankings",
       "url": "https://www.metacritic.com/browse/game/",
@@ -272468,7 +273863,7 @@
       },
       {
         "rank": 2,
-        "code": "red-dead-redemption-2-2018",
+        "code": "grand-theft-auto-iii-2001",
         "value": "97 Metacritic"
       },
       {
@@ -272483,13 +273878,18 @@
       },
       {
         "rank": 2,
-        "code": "grand-theft-auto-iii-2001",
+        "code": "red-dead-redemption-2-2018",
         "value": "97 Metacritic (tied)"
       },
       {
         "rank": 6,
-        "code": "elden-ring-2022",
+        "code": "batman-arkham-city-2011",
         "value": "96 Metacritic"
+      },
+      {
+        "rank": 6,
+        "code": "elden-ring-2022",
+        "value": "96 Metacritic (tied)"
       },
       {
         "rank": 6,
@@ -272497,64 +273897,79 @@
         "value": "96 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "grand-theft-auto-san-andreas-2004",
         "value": "95 Metacritic"
       },
       {
-        "rank": 8,
-        "code": "red-dead-redemption-2010",
-        "value": "95 Metacritic (tied)"
-      },
-      {
-        "rank": 8,
+        "rank": 9,
         "code": "grand-theft-auto-vice-city-2002",
         "value": "95 Metacritic (tied)"
       },
       {
-        "rank": 11,
+        "rank": 9,
+        "code": "red-dead-redemption-2010",
+        "value": "95 Metacritic (tied)"
+      },
+      {
+        "rank": 12,
         "code": "elder-scrolls-iv-oblivion-2006",
         "value": "94 Metacritic"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "fallout-3-2008",
         "value": "94 Metacritic (tied)"
       },
       {
-        "rank": 13,
-        "code": "witcher-3-wild-hunt-2015",
+        "rank": 14,
+        "code": "fallout-new-vegas-2010",
         "value": "93 Metacritic"
       },
       {
-        "rank": 13,
-        "code": "fallout-new-vegas-2010",
+        "rank": 14,
+        "code": "metal-gear-solid-v-the-phantom-pain-2015",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 15,
+        "rank": 14,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "93 Metacritic (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "batman-arkham-asylum-2009",
+        "value": "92 Metacritic"
+      },
+      {
+        "rank": 18,
         "code": "assassins-creed-ii-2009",
         "value": "91 Metacritic"
       },
       {
-        "rank": 15,
-        "code": "horizon-zero-dawn-2017",
-        "value": "91 Metacritic (tied)"
-      },
-      {
-        "rank": 15,
+        "rank": 18,
         "code": "assassins-creed-iv-black-flag-2013",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 15,
+        "rank": 18,
         "code": "far-cry-3-2012",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 15,
+        "rank": 18,
         "code": "ghost-of-tsushima-2020",
         "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "horizon-zero-dawn-2017",
+        "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "monster-hunter-world-2018",
+        "value": "90 Metacritic"
       }
     ],
     "source_name": "Metacritic \u2014 Highest-scoring open-world games",
@@ -272568,7 +273983,7 @@
     "title": "Highest scoring RTS games (Metacritic)",
     "prompt": "Name the highest-rated real-time strategy games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 10,
+    "seededDepth": 12,
     "source": {
       "name": "Metacritic \u2014 Strategy rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=strategy",
@@ -272628,6 +274043,16 @@
         "rank": 10,
         "code": "total-annihilation-1997",
         "value": "86 Metacritic"
+      },
+      {
+        "rank": 11,
+        "code": "warcraft-ii-tides-of-darkness-1995",
+        "value": "84 Metacritic"
+      },
+      {
+        "rank": 12,
+        "code": "command-and-conquer-1995",
+        "value": "83 Metacritic"
       }
     ]
   },
@@ -272801,7 +274226,7 @@
     "title": "Highest scoring fighting games (Metacritic)",
     "prompt": "Name the highest-rated fighting games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 11,
+    "seededDepth": 12,
     "source": {
       "name": "Metacritic \u2014 Fighting rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=fighting",
@@ -272849,21 +274274,26 @@
       },
       {
         "rank": 8,
+        "code": "soulcalibur-1999",
+        "value": "90 Metacritic"
+      },
+      {
+        "rank": 9,
         "code": "marvel-vs-capcom-2-new-age-of-heroes-2000",
         "value": "89 Metacritic"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "street-fighter-ii-1991",
         "value": "88 Metacritic"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "mortal-kombat-ii-1993",
         "value": "87 Metacritic"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "mortal-kombat-1992",
         "value": "85 Metacritic"
       }
@@ -273404,7 +274834,7 @@
     "title": "Best Picture winners with the oldest lead actor",
     "prompt": "Name Best Picture winners whose lead (top-billed) actor or actress was oldest at the time of the film's release.",
     "answerType": "Movies",
-    "seededDepth": 10,
+    "seededDepth": 20,
     "source": {
       "name": "IMDb / AMPAS",
       "url": "https://www.imdb.com/list/ls055592025/",
@@ -273462,8 +274892,58 @@
       },
       {
         "rank": 10,
+        "code": "anora-2024",
+        "value": "Mark Eydelshteyn \u2014 52"
+      },
+      {
+        "rank": 11,
+        "code": "rain-man-1988",
+        "value": "Dustin Hoffman \u2014 51"
+      },
+      {
+        "rank": 12,
         "code": "kings-speech-2010",
         "value": "Colin Firth \u2014 50"
+      },
+      {
+        "rank": 13,
+        "code": "out-of-africa-1985",
+        "value": "Robert Redford \u2014 48"
+      },
+      {
+        "rank": 13,
+        "code": "godfather-1972",
+        "value": "Marlon Brando \u2014 48 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "amadeus-1984",
+        "value": "F. Murray Abraham \u2014 45"
+      },
+      {
+        "rank": 16,
+        "code": "patton-1970",
+        "value": "George C. Scott \u2014 43"
+      },
+      {
+        "rank": 17,
+        "code": "argo-2012",
+        "value": "Ben Affleck \u2014 40"
+      },
+      {
+        "rank": 18,
+        "code": "gandhi-1982",
+        "value": "Ben Kingsley \u2014 39"
+      },
+      {
+        "rank": 19,
+        "code": "beautiful-mind-2001",
+        "value": "Russell Crowe \u2014 37"
+      },
+      {
+        "rank": 20,
+        "code": "gladiator-2000",
+        "value": "Russell Crowe \u2014 36"
       }
     ]
   },
@@ -273584,96 +275064,6 @@
         "rank": 20,
         "code": "12-years-a-slave-2013",
         "value": "1,411 theaters (peak)"
-      }
-    ]
-  },
-  {
-    "id": "movies-awards-most-best-picture-nominations-across-a-director-s-career-2024",
-    "theme": "Movies",
-    "subtheme": "Movies - Awards",
-    "title": "Most Best Picture nominations across a director's career",
-    "prompt": "Name Best Picture winners whose director has amassed the most Best Picture nominations across their whole career. (Answer = one representative winner per director.)",
-    "answerType": "Movies",
-    "seededDepth": 14,
-    "source": {
-      "name": "Academy Awards Database",
-      "url": "https://awardsdatabase.oscars.org/",
-      "asOf": "Career Best Picture nominations through the 96th ceremony (2024)"
-    },
-    "note": null,
-    "disclaimer": "Counts Best Picture nominations across a director's entire career, regardless of whether they were credited as director, producer, or both. Only directors who won Best Picture at least once are eligible; the answer code is their Best Picture-winning film.",
-    "trivia": "William Wyler (Ben-Hur, Best Years of Our Lives, Mrs. Miniver) received Best Picture nominations for 13 different films across his career \u2014 a record that still stands. Steven Spielberg has directed 11 Best Picture nominees but only Schindler's List won.",
-    "asOfDate": "Career Best Picture nominations through the 96th ceremony (2024)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "ben-hur-1959",
-        "value": "William Wyler \u2014 13 BP-nominated films"
-      },
-      {
-        "rank": 2,
-        "code": "schindlers-list-1993",
-        "value": "Steven Spielberg \u2014 11 BP-nominated films"
-      },
-      {
-        "rank": 2,
-        "code": "gone-with-the-wind-1939",
-        "value": "David O. Selznick (producer) \u2014 11 BP-nominated films (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "from-here-to-eternity-1953",
-        "value": "Fred Zinnemann \u2014 8 BP-nominated films"
-      },
-      {
-        "rank": 5,
-        "code": "godfather-part-ii-1974",
-        "value": "Francis Ford Coppola \u2014 7 BP-nominated films"
-      },
-      {
-        "rank": 5,
-        "code": "no-country-for-old-men-2007",
-        "value": "Joel & Ethan Coen \u2014 7 BP-nominated films (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "on-the-waterfront-1954",
-        "value": "Elia Kazan \u2014 6 BP-nominated films"
-      },
-      {
-        "rank": 8,
-        "code": "unforgiven-1992",
-        "value": "Clint Eastwood \u2014 5 BP-nominated films"
-      },
-      {
-        "rank": 9,
-        "code": "titanic-1997",
-        "value": "James Cameron \u2014 3 BP-nominated films"
-      },
-      {
-        "rank": 9,
-        "code": "birdman-2014",
-        "value": "Alejandro G. I\u00f1\u00e1rritu \u2014 3 BP-nominated films (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "chicago-2002",
-        "value": "Rob Marshall \u2014 2 BP-nominated films"
-      },
-      {
-        "rank": 11,
-        "code": "12-years-a-slave-2013",
-        "value": "Steve McQueen \u2014 2 BP-nominated films (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "shape-of-water-2017",
-        "value": "Guillermo del Toro \u2014 2 BP-nominated films (tied)"
-      },
-      {
-        "rank": 14,
-        "code": "godfather-1972",
-        "value": "Coppola \u2014 see rank 6 (same director)"
       }
     ]
   },
@@ -352036,8 +353426,8 @@
       "asOf": "2024-25 season"
     },
     "note": null,
-    "disclaimer": "Counts only Bundesliga-era titles (1963-64 onward). Pre-1963 German championships are excluded. Ties broken alphabetically.",
-    "trivia": "Bayern Munich won 11 straight Bundesliga titles from 2012-13 through 2022-23 before Bayer Leverkusen ended the streak in 2023-24 with an unbeaten league campaign.",
+    "disclaimer": "Only counts Bundesliga titles from 1963-64 onward. Pre-1963 German championships (Deutsche Meisterschaft) are excluded.",
+    "trivia": "Bayern Munich's 11 consecutive titles from 2012-13 to 2022-23 is the longest top-flight championship streak in any of Europe's top five leagues; Bayer Leverkusen ended it in 2023-24.",
     "asOfDate": "2024-25 season",
     "answers": [
       {
@@ -352095,7 +353485,10 @@
         "code": "BUN-WOB",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "source_name": "DFL / Wikipedia \u2014 List of German football champions (Bundesliga era)",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_German_football_champions",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-bundesliga-most-dfb-pokal-wins-2024",
@@ -352619,8 +354012,8 @@
       "asOf": "End of 2024-25 season"
     },
     "note": null,
-    "disclaimer": "Counts distinct editions entered (from any qualifying round). European Cup era (1955-1992) is counted alongside Champions League era.",
-    "trivia": "Bayern Munich reached the final of the very first Champions League in 1992-93 season after the rebrand \u2014 Marseille beat Milan that year, but Bayern have since won 4 more.",
+    "disclaimer": "Counts entries into the European Cup / UEFA Champions League main draw (any round from the first round onward) since 1955-56. West German era and post-reunification entries are combined.",
+    "trivia": "Bayern Munich have qualified for every European Cup / Champions League edition since 1998-99 \u2014 a streak of more than 25 consecutive appearances that no other Bundesliga club has approached.",
     "asOfDate": "End of 2024-25 season",
     "answers": [
       {
@@ -352683,7 +354076,10 @@
         "code": "BUN-SGE",
         "value": "3 editions"
       }
-    ]
+    ],
+    "source_name": "UEFA / Wikipedia \u2014 German football clubs in European competitions",
+    "source_url": "https://en.wikipedia.org/wiki/German_football_clubs_in_European_competitions",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-bundesliga-most-dfl-supercup-wins-2024",
@@ -352857,111 +354253,6 @@
         "rank": 16,
         "code": "BUN-HOF",
         "value": "1 top-3 (tied)"
-      }
-    ]
-  },
-  {
-    "id": "european-soccer-bundesliga-most-bundesliga-matches-played-2024",
-    "theme": "European Soccer Clubs",
-    "subtheme": "European Soccer - Bundesliga",
-    "title": "Most Bundesliga seasons all-time",
-    "prompt": "Name the clubs that have played the most seasons in the top-flight Bundesliga since 1963-64.",
-    "answerType": "European Soccer Clubs",
-    "seededDepth": 17,
-    "source": {
-      "name": "Kicker \u2014 Bundesliga ewige Tabelle",
-      "url": "https://www.kicker.de/bundesliga/ewige-tabelle",
-      "asOf": "End of 2024-25 season"
-    },
-    "note": null,
-    "disclaimer": "Counts total seasons in the top-flight Bundesliga through 2023-24. No club has appeared in every season.",
-    "trivia": "Bayern Munich and Werder Bremen are tied at the top with 62 Bundesliga seasons each, having been ever-presents for most of the league's history.",
-    "asOfDate": "End of 2024-25 season",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "BUN-BAY",
-        "value": "62 seasons"
-      },
-      {
-        "rank": 1,
-        "code": "BUN-BRE",
-        "value": "62 seasons (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "BUN-BVB",
-        "value": "60 seasons"
-      },
-      {
-        "rank": 3,
-        "code": "BUN-VFB",
-        "value": "60 seasons (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "BUN-BMG",
-        "value": "59 seasons"
-      },
-      {
-        "rank": 6,
-        "code": "BUN-SGE",
-        "value": "58 seasons"
-      },
-      {
-        "rank": 7,
-        "code": "BUN-HAM",
-        "value": "57 seasons"
-      },
-      {
-        "rank": 8,
-        "code": "BUN-SCH",
-        "value": "55 seasons"
-      },
-      {
-        "rank": 9,
-        "code": "BUN-KOL",
-        "value": "54 seasons"
-      },
-      {
-        "rank": 10,
-        "code": "BUN-KAI",
-        "value": "44 seasons"
-      },
-      {
-        "rank": 11,
-        "code": "BUN-HER",
-        "value": "40 seasons"
-      },
-      {
-        "rank": 12,
-        "code": "BUN-BOC",
-        "value": "38 seasons"
-      },
-      {
-        "rank": 13,
-        "code": "BUN-N90",
-        "value": "33 seasons"
-      },
-      {
-        "rank": 14,
-        "code": "BUN-WOB",
-        "value": "29 seasons"
-      },
-      {
-        "rank": 15,
-        "code": "BUN-SCF",
-        "value": "27 seasons"
-      },
-      {
-        "rank": 16,
-        "code": "BUN-MZ",
-        "value": "21 seasons"
-      },
-      {
-        "rank": 17,
-        "code": "BUN-HOF",
-        "value": "19 seasons"
       }
     ]
   },
@@ -353332,7 +354623,7 @@
     "title": "Most FA Community Shield titles",
     "prompt": "Name the English clubs with the most FA Community Shield (formerly Charity Shield) titles.",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 15,
+    "seededDepth": 16,
     "source": {
       "name": "Wikipedia \u2014 FA Community Shield",
       "url": "https://en.wikipedia.org/wiki/FA_Community_Shield",
@@ -353416,6 +354707,11 @@
       {
         "rank": 13,
         "code": "EPL-LEI",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "EPL-IPS",
         "value": "1 title (tied)"
       }
     ]
@@ -353629,8 +354925,8 @@
     "id": "european-soccer-premier-league-most-pl-seasons-as-ever-presents-plus-challengers",
     "theme": "European Soccer Clubs",
     "subtheme": "European Soccer - Premier League",
-    "title": "Most PL seasons as ever-presents plus challengers",
-    "prompt": "Name the clubs that have played the most seasons in the Premier League since its 1992 founding.",
+    "title": "Most Premier League seasons played",
+    "prompt": "Name the clubs that have played the most seasons in the Premier League since its 1992-93 founding.",
     "answerType": "European Soccer Clubs",
     "seededDepth": 12,
     "source": {
@@ -353639,8 +354935,8 @@
       "asOf": "Through 2024-25 season (33 completed PL seasons)"
     },
     "note": null,
-    "disclaimer": "Counts total completed PL seasons; six ever-present clubs share the top rank.",
-    "trivia": "Six clubs \u2014 Arsenal, Chelsea, Everton, Liverpool, Manchester United, and Tottenham \u2014 have appeared in every Premier League season since 1992.",
+    "disclaimer": "Counts Premier League seasons only (1992-93 onward). Pre-1992 First Division seasons excluded.",
+    "trivia": "Only six clubs have never been relegated from the Premier League since its inception; Arsenal's streak of top-four Champions League qualifications between 1996-97 and 2015-16 is the longest in the competition's history.",
     "asOfDate": "Through 2024-25 season (33 completed PL seasons)",
     "answers": [
       {
@@ -353703,7 +354999,10 @@
         "code": "EPL-FUL",
         "value": "18 seasons"
       }
-    ]
+    ],
+    "source_name": "Premier League / Wikipedia \u2014 List of Premier League clubs",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Premier_League_clubs",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-premier-league-most-premier-league-titles-2024",
@@ -353902,7 +355201,7 @@
     "title": "Most FA Cup final appearances",
     "prompt": "Name the English clubs with the most appearances in FA Cup finals (winners plus runners-up combined).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 15,
+    "seededDepth": 22,
     "source": {
       "name": "Wikipedia \u2014 List of FA Cup finals",
       "url": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
@@ -353987,6 +355286,41 @@
         "rank": 15,
         "code": "EPL-SUN",
         "value": "5 finals"
+      },
+      {
+        "rank": 15,
+        "code": "EPL-LEI",
+        "value": "5 finals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "EPL-BUR",
+        "value": "4 finals"
+      },
+      {
+        "rank": 17,
+        "code": "EPL-SOU",
+        "value": "4 finals (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "EPL-NFO",
+        "value": "3 finals"
+      },
+      {
+        "rank": 20,
+        "code": "EPL-CRY",
+        "value": "2 finals"
+      },
+      {
+        "rank": 20,
+        "code": "EPL-STK",
+        "value": "2 finals (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "EPL-WAT",
+        "value": "2 finals (tied)"
       }
     ]
   },
@@ -353997,7 +355331,7 @@
     "title": "Most seasons in the English top flight (all-time)",
     "prompt": "Name the English clubs that have spent the most seasons in the top division of English football (First Division plus Premier League).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 12,
+    "seededDepth": 13,
     "source": {
       "name": "Wikipedia \u2014 List of English football champions",
       "url": "https://en.wikipedia.org/wiki/List_of_English_football_champions",
@@ -354065,6 +355399,11 @@
       },
       {
         "rank": 12,
+        "code": "EPL-BLA",
+        "value": "72 seasons"
+      },
+      {
+        "rank": 13,
         "code": "EPL-WOL",
         "value": "68 seasons"
       }
@@ -354167,7 +355506,7 @@
     "title": "Most UEFA Champions League final appearances",
     "prompt": "Name the clubs with the most appearances in UEFA Champions League / European Cup finals (all-time).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 15,
+    "seededDepth": 27,
     "source": {
       "name": "UEFA \u2014 European Cup / Champions League finals",
       "url": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
@@ -354244,13 +355583,73 @@
         "value": "2 finals (tied)"
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "code": "LAL-VAL",
+        "value": "2 finals (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "BUN-BMG",
+        "value": "2 finals (tied)"
+      },
+      {
+        "rank": 16,
         "code": "EPL-ARS",
         "value": "1 final"
       },
       {
-        "rank": 14,
+        "rank": 16,
         "code": "EPL-LEE",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "EPL-TOT",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "L1-REI",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "L1-PSG",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "L1-MON",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SEA-ROM",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SEA-FIO",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SEA-SMP",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BUN-HAM",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BUN-BER",
+        "value": "1 final (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "LAL-ATH",
         "value": "1 final (tied)"
       }
     ]
@@ -354962,7 +356361,7 @@
     "title": "Most European Cup / Champions League semifinal appearances",
     "prompt": "Name the clubs with the most European Cup / UEFA Champions League semifinal appearances (all-time).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 13,
+    "seededDepth": 14,
     "source": {
       "name": "UEFA \u2014 Champions League records",
       "url": "https://en.wikipedia.org/wiki/List_of_European_Cup_and_UEFA_Champions_League_finals",
@@ -355025,17 +356424,22 @@
       },
       {
         "rank": 11,
-        "code": "BUN-BVB",
+        "code": "L1-PSG",
         "value": "5 semifinals"
       },
       {
         "rank": 12,
-        "code": "EPL-ARS",
+        "code": "BUN-BVB",
         "value": "4 semifinals"
       },
       {
         "rank": 12,
-        "code": "L1-PSG",
+        "code": "EPL-ARS",
+        "value": "4 semifinals (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "EPL-MCI",
         "value": "4 semifinals (tied)"
       }
     ]
@@ -355047,7 +356451,7 @@
     "title": "Most seasons in La Liga (top flight)",
     "prompt": "Name the clubs with the most seasons played in Spain's top flight (La Liga / Primera Divisi\u00f3n) all-time.",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 18,
+    "seededDepth": 21,
     "source": {
       "name": "Wikipedia \u2014 List of La Liga clubs (all-time table, sourced from Marca's Clasificaci\u00f3n Hist\u00f3rica)",
       "url": "https://en.wikipedia.org/wiki/List_of_La_Liga_clubs",
@@ -355147,6 +356551,21 @@
         "rank": 17,
         "code": "LAL-VLL",
         "value": "27 seasons (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "LAL-RAY",
+        "value": "20 seasons"
+      },
+      {
+        "rank": 19,
+        "code": "LAL-GET",
+        "value": "20 seasons (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "LAL-ALA",
+        "value": "19 seasons"
       }
     ],
     "source_name": "Wikipedia \u2014 List of La Liga clubs",
@@ -355382,8 +356801,8 @@
       "asOf": "Through 2025-26 season"
     },
     "note": null,
-    "disclaimer": "Counts second-place finishes only. Title wins are excluded from this ranking.",
-    "trivia": "Barcelona has actually been runner-up more times (28) than they have won the title (29) \u2014 a remarkably narrow margin for the second-most-decorated club in Spain.",
+    "disclaimer": "Counts second-place finishes in La Liga (Primera Divisi\u00f3n) from the league's 1928-29 founding onward.",
+    "trivia": "Barcelona's runner-up count exceeds their title count; only three clubs outside Real Madrid and Barcelona have ever finished as high as second more than five times in La Liga history.",
     "asOfDate": "Through 2025-26 season",
     "answers": [
       {
@@ -355441,7 +356860,10 @@
         "code": "LAL-VLL",
         "value": "1 runner-up finish (tied)"
       }
-    ]
+    ],
+    "source_name": "La Liga / Wikipedia \u2014 List of La Liga seasons",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_La_Liga_seasons",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-la-liga-most-copa-del-rey-wins-2024",
@@ -356125,7 +357547,7 @@
     "title": "Most Coupe de France wins",
     "prompt": "Name the clubs that have won the Coupe de France (French Cup) most often.",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 12,
+    "seededDepth": 15,
     "source": {
       "name": "F\u00e9d\u00e9ration Fran\u00e7aise de Football \u2014 Coupe de France history",
       "url": "https://en.wikipedia.org/wiki/Coupe_de_France",
@@ -356187,12 +357609,27 @@
         "value": "3 cups (tied)"
       },
       {
-        "rank": 11,
+        "rank": 9,
+        "code": "L1-NIC",
+        "value": "3 cups (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "L1-METZ",
+        "value": "2 cups"
+      },
+      {
+        "rank": 12,
+        "code": "L1-REI",
+        "value": "2 cups (tied)"
+      },
+      {
+        "rank": 14,
         "code": "L1-AUX",
         "value": "1 cup"
       },
       {
-        "rank": 11,
+        "rank": 14,
         "code": "L1-MTP",
         "value": "1 cup (tied)"
       }
@@ -356813,91 +358250,21 @@
     "source_as_of": "2022-23 season"
   },
   {
-    "id": "european-soccer-ligue-1-most-european-trophies-won-2024",
-    "theme": "European Soccer Clubs",
-    "subtheme": "European Soccer - Ligue 1",
-    "title": "Most European trophies won",
-    "prompt": "Name the French clubs that have won the most major UEFA competition trophies (Champions League, UEFA Cup/Europa League, Cup Winners' Cup, Conference League, Intertoto).",
-    "answerType": "European Soccer Clubs",
-    "seededDepth": 10,
-    "source": {
-      "name": "UEFA \u2014 European competition archives",
-      "url": "https://en.wikipedia.org/wiki/List_of_French_football_clubs_in_European_competitions",
-      "asOf": "2024 (through 2023-24 European season)"
-    },
-    "note": null,
-    "disclaimer": "Counts wins in UEFA-sanctioned senior men's club competitions. Excludes friendlies, Ligue 1 super-cups, and the discontinued Latin Cup.",
-    "trivia": "Marseille remains the only French club to have won the UEFA Champions League / European Cup, defeating AC Milan 1-0 in the 1993 final in Munich.",
-    "asOfDate": "2024 (through 2023-24 European season)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "L1-MAR",
-        "value": "1 major title"
-      },
-      {
-        "rank": 1,
-        "code": "L1-PSG",
-        "value": "1 major title (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "L1-BOR",
-        "value": "2 Intertoto Cups"
-      },
-      {
-        "rank": 4,
-        "code": "L1-LYN",
-        "value": "1 Intertoto Cup"
-      },
-      {
-        "rank": 4,
-        "code": "L1-MON",
-        "value": "1 Intertoto Cup (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-STR",
-        "value": "1 Intertoto Cup (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-METZ",
-        "value": "1 Intertoto Cup (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-LIL",
-        "value": "1 Intertoto Cup (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-LEN",
-        "value": "1 Intertoto Cup (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-AUX",
-        "value": "1 Intertoto Cup (tied)"
-      }
-    ]
-  },
-  {
     "id": "european-soccer-ligue-1-most-uefa-champions-league-appearances-2024",
     "theme": "European Soccer Clubs",
     "subtheme": "European Soccer - Ligue 1",
-    "title": "Most UEFA Champions League appearances",
-    "prompt": "Name the French clubs with the most seasons contested in the European Cup / UEFA Champions League (group stage or knockout, all-time).",
+    "title": "Most European Cup / UCL appearances (French clubs)",
+    "prompt": "Name the French clubs with the most seasons contested in the European Cup / UEFA Champions League proper (from the first round onward), all-time.",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 10,
+    "seededDepth": 11,
     "source": {
       "name": "UEFA \u2014 Champions League participation records",
       "url": "https://en.wikipedia.org/wiki/List_of_French_football_clubs_in_European_competitions",
       "asOf": "2024 (through 2023-24 UCL)"
     },
     "note": null,
-    "disclaimer": "Counts every European Cup / Champions League edition a club entered from the preliminary/qualifying rounds onward, from 1955-56 to present.",
-    "trivia": "PSG's streak of consecutive Champions League group-stage appearances beginning in 2012-13 is the longest active run by any French club.",
+    "disclaimer": "Counts entries into the European Cup / UEFA Champions League main draw (qualifying-only entries excluded). Seasons are counted per club regardless of stage reached.",
+    "trivia": "PSG's Champions League run since Qatari ownership in 2011 pushed them well ahead of Marseille, whose 1993 title remains the only European Cup won by a French club until PSG's 2025 triumph.",
     "asOfDate": "2024 (through 2023-24 UCL)",
     "answers": [
       {
@@ -356955,7 +358322,10 @@
         "code": "L1-MTP",
         "value": "1 appearance"
       }
-    ]
+    ],
+    "source_name": "UEFA / Wikipedia \u2014 List of European Cup and UEFA Champions League seasons by French clubs",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_French_football_clubs_in_European_competitions",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-serie-a-most-serie-a-titles-scudetti-all-time-2024",
@@ -357141,8 +358511,8 @@
       "asOf": "2024-25 edition (January 2025)"
     },
     "note": null,
-    "disclaimer": "Contested annually between the Serie A champion and Coppa Italia winner (expanded to a 4-team format starting 2023-24). Since inception in 1988.",
-    "trivia": "The Supercoppa has been staged outside Italy multiple times \u2014 including Beijing, Doha, and Riyadh \u2014 as a commercial showcase for the league.",
+    "disclaimer": "Supercoppa Italiana has been contested annually since 1988, traditionally between the Serie A champion and the Coppa Italia winner (final-four format from 2023).",
+    "trivia": "Juventus lifted the trophy nine times but also holds the record for most runner-up finishes; the 2023 format switch to a four-team final tournament introduced Coppa Italia semi-finalists into the competition.",
     "asOfDate": "2024-25 edition (January 2025)",
     "answers": [
       {
@@ -357195,7 +358565,10 @@
         "code": "SEA-SMP",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "source_name": "Lega Serie A / Wikipedia \u2014 Supercoppa Italiana",
+    "source_url": "https://en.wikipedia.org/wiki/Supercoppa_Italiana",
+    "source_as_of": "through 2024 edition"
   },
   {
     "id": "european-soccer-serie-a-most-seasons-in-serie-a-2024",
@@ -357309,8 +358682,8 @@
       "asOf": "Through 2024-25 European season"
     },
     "note": null,
-    "disclaimer": "Counts European Cup/UCL, UEFA Cup/Europa League, Cup Winners' Cup (defunct 1999), and Conference League. Excludes Inter-Cities Fairs Cup (not officially recognized by UEFA) and UEFA Super Cup / Intercontinental / Club World Cup.",
-    "trivia": "Milan's seven European Cup/Champions League titles are the second-most of any European club, behind only Real Madrid.",
+    "disclaimer": "Combines UEFA-organised senior men's competitions only: European Cup / Champions League, UEFA Cup / Europa League, Cup Winners' Cup, and Conference League. UEFA Super Cup and defunct Intertoto Cup excluded.",
+    "trivia": "AC Milan and Juventus are the only Italian clubs to have won all three of the pre-2021 UEFA competitions; Atalanta's 2024 Europa League triumph was the club's first major European trophy.",
     "asOfDate": "Through 2024-25 European season",
     "answers": [
       {
@@ -357368,7 +358741,10 @@
         "code": "SEA-BOL",
         "value": "1 trophy (tied)"
       }
-    ]
+    ],
+    "source_name": "UEFA / Wikipedia \u2014 Italian football clubs in European competitions",
+    "source_url": "https://en.wikipedia.org/wiki/Italian_football_clubs_in_European_competitions",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-serie-a-most-serie-a-wins-all-time-2024",

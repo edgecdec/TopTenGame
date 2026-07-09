@@ -1,0 +1,663 @@
+{
+  "cluster": "us-big-4-sports-w2-00",
+  "questions": [
+    {
+      "id": "pro-sports-deep-dive-most-pro-bowl-selections-in-nfl-history-2023",
+      "current": {
+        "title": "Most Pro Bowl selections in NFL history",
+        "prompt": "Name the NFL franchises whose players have earned the most Pro Bowl selections all-time.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-PIT",
+            "value": "296 selections"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DAL",
+            "value": "292 selections"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-GB",
+            "value": "283 selections"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-SF",
+            "value": "270 selections"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-WAS",
+            "value": "254 selections"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-CHI",
+            "value": "253 selections"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYG",
+            "value": "246 selections"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-MIN",
+            "value": "235 selections"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-KC",
+            "value": "232 selections"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-DEN",
+            "value": "225 selections"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-IND",
+            "value": "224 selections"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-NE",
+            "value": "220 selections"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-deep-dive-most-nfl-playoff-wins-all-time-2024",
+      "current": {
+        "title": "Most NFL playoff wins all-time",
+        "prompt": "Name the NFL franchises with the most playoff-game victories in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NE",
+            "value": "37 wins"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-PIT",
+            "value": "36 wins"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-DAL",
+            "value": "35 wins"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-GB",
+            "value": "35 wins (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-SF",
+            "value": "35 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "27 wins"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYG",
+            "value": "24 wins"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-PHI",
+            "value": "24 wins (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-DEN",
+            "value": "23 wins"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-WAS",
+            "value": "23 wins (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIA",
+            "value": "20 wins"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-BAL",
+            "value": "17 wins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-deep-dive-most-nhl-playoff-series-wins-all-time-2024",
+      "current": {
+        "title": "Most NHL playoff series wins (all-time)",
+        "prompt": "Name the NHL franchises that have won the most playoff series in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "88 series wins"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-DET",
+            "value": "70 series wins"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-BOS",
+            "value": "69 series wins"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-TOR",
+            "value": "63 series wins"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-CHI",
+            "value": "58 series wins"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-NYR",
+            "value": "56 series wins"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-EDM",
+            "value": "48 series wins"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-PIT",
+            "value": "44 series wins"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-PHI",
+            "value": "42 series wins"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-COL",
+            "value": "40 series wins"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-NJD",
+            "value": "34 series wins"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-DAL",
+            "value": "31 series wins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-deep-dive-most-coaching-wins-by-franchise-nba-2023",
+      "current": {
+        "title": "Most coaching wins by franchise (NBA)",
+        "prompt": "Name the NBA franchises with the most regular-season head-coaching wins accumulated across their history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": "3,600+ wins"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-BOS",
+            "value": "3,540+ wins"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-NYK",
+            "value": "2,970+ wins"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-GSW",
+            "value": "2,930+ wins"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-PHI",
+            "value": "2,910+ wins"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "2,720+ wins"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-ATL",
+            "value": "2,700+ wins"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-SAC",
+            "value": "2,660+ wins"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-SAS",
+            "value": "2,410+ wins"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-PHX",
+            "value": "2,400+ wins"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-CHI",
+            "value": "2,290+ wins"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-POR",
+            "value": "2,270+ wins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-stanley-cups-won-all-time-2024",
+      "current": {
+        "title": "Most Stanley Cups won (all-time)",
+        "prompt": "Name the NHL franchises with the most Stanley Cup championships in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "24 Cups"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-TOR",
+            "value": "13 Cups"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-DET",
+            "value": "11 Cups"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-BOS",
+            "value": "6 Cups"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-CHI",
+            "value": "6 Cups (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-EDM",
+            "value": "5 Cups"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-PIT",
+            "value": "5 Cups (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-NYR",
+            "value": "4 Cups"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-NYI",
+            "value": "4 Cups (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-NJD",
+            "value": "3 Cups"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-COL",
+            "value": "3 Cups (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-PHI",
+            "value": "2 Cups"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-LAK",
+            "value": "2 Cups (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-DAL",
+            "value": "1 Cup"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-stanley-cup-finals-appearances-2024",
+      "current": {
+        "title": "Most Stanley Cup Finals appearances",
+        "prompt": "Name the NHL franchises with the most Stanley Cup Finals appearances (wins + losses).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "34 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-DET",
+            "value": "24 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-TOR",
+            "value": "21 appearances"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-BOS",
+            "value": "20 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-CHI",
+            "value": "13 appearances"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-NYR",
+            "value": "11 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-EDM",
+            "value": "8 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-PHI",
+            "value": "8 appearances (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-PIT",
+            "value": "6 appearances"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-NYI",
+            "value": "5 appearances"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-NJD",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-DAL",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-STL",
+            "value": "4 appearances"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-VAN",
+            "value": "3 appearances"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-highest-annual-revenue-across-us-pro-sports-2023-2023",
+      "current": {
+        "title": "Highest annual revenue across US pro sports (2023)",
+        "prompt": "Name the US pro sports franchises with the highest annual revenue across the NBA, NFL, MLB, and NHL.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "$1220M revenue"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-GSW",
+            "value": "$800M revenue"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-LAR",
+            "value": "$775M revenue"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-NE",
+            "value": "$730M revenue"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-SF",
+            "value": "$720M revenue"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-NYG",
+            "value": "$710M revenue"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LV",
+            "value": "$700M revenue"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-NYJ",
+            "value": "$685M revenue"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-NYY",
+            "value": "$679M revenue"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-PHI",
+            "value": "$675M revenue"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-HOU",
+            "value": "$670M revenue"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-CHI",
+            "value": "$660M revenue"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-LAD",
+            "value": "$610M revenue"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-LAL",
+            "value": "$517M revenue"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-NYK",
+            "value": "$505M revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-highest-all-time-regular-season-winning-percentage-acros",
+      "current": {
+        "title": "Highest all-time regular-season winning percentage across the big 4",
+        "prompt": "Name the pro sports franchises with the highest all-time regular-season winning percentage across the NBA, NFL, MLB, and NHL.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": ".593 win pct"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-SAS",
+            "value": ".586 win pct"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-BOS",
+            "value": ".586 win pct (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-MTL",
+            "value": ".584 win pct"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-DAL",
+            "value": ".571 win pct"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-GB",
+            "value": ".570 win pct"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-NYY",
+            "value": ".569 win pct"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-CHI",
+            "value": ".562 win pct"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-OKC",
+            "value": ".559 win pct"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-NE",
+            "value": ".556 win pct"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIA",
+            "value": ".551 win pct"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-PHX",
+            "value": ".536 win pct"
+          },
+          {
+            "rank": 12,
+            "code": "MLB-SF",
+            "value": ".536 win pct (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-UTA",
+            "value": ".534 win pct"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-MIL",
+            "value": ".522 win pct"
+          }
+        ]
+      }
+    }
+  ]
+}

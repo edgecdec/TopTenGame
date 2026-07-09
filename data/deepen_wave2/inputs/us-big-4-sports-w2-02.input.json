@@ -1,0 +1,733 @@
+{
+  "cluster": "us-big-4-sports-w2-02",
+  "questions": [
+    {
+      "id": "pro-sports-nfl-most-playoff-appearances-2023",
+      "current": {
+        "title": "Most playoff appearances",
+        "prompt": "Name the NFL franchises with the most all-time playoff appearances.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "36 appearances"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-GB",
+            "value": "36 appearances (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-PIT",
+            "value": "33 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NYG",
+            "value": "33 appearances (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-LAR",
+            "value": "31 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-MIN",
+            "value": "31 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-SF",
+            "value": "29 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-PHI",
+            "value": "29 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-IND",
+            "value": "29 appearances (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-NE",
+            "value": "28 appearances"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-CHI",
+            "value": "27 appearances"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-WAS",
+            "value": "25 appearances"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-KC",
+            "value": "24 appearances"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-DEN",
+            "value": "23 appearances"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-LV",
+            "value": "22 appearances"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-division-titles-2023",
+      "current": {
+        "title": "Most division titles",
+        "prompt": "Name the NFL franchises with the most division titles all-time.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "25 division titles"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-PIT",
+            "value": "24 division titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NE",
+            "value": "22 division titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-SF",
+            "value": "22 division titles (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-GB",
+            "value": "22 division titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-MIN",
+            "value": "21 division titles"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LAR",
+            "value": "20 division titles"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-IND",
+            "value": "20 division titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-CHI",
+            "value": "19 division titles"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-LV",
+            "value": "16 division titles"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-DEN",
+            "value": "15 division titles"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-KC",
+            "value": "15 division titles (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-MIA",
+            "value": "14 division titles"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-PHI",
+            "value": "14 division titles (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-CLE",
+            "value": "12 division titles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-valuable-nfl-franchises-forbes-2024-2024",
+      "current": {
+        "title": "Most valuable NFL franchises (Forbes 2024)",
+        "prompt": "Name the highest-valued NFL franchises per Forbes' 2024 team valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "$10.32B"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-LAR",
+            "value": "$8.0B"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NE",
+            "value": "$7.7B"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-NYG",
+            "value": "$7.3B"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-CHI",
+            "value": "$7.06B"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-SF",
+            "value": "$7.0B"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYJ",
+            "value": "$6.9B"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-WAS",
+            "value": "$6.7B"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-PHI",
+            "value": "$6.6B"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-HOU",
+            "value": "$6.35B"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIA",
+            "value": "$6.2B"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-DEN",
+            "value": "$6.15B"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-LV",
+            "value": "$6.1B"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-SEA",
+            "value": "$5.9B"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-GB",
+            "value": "$5.85B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-largest-stadium-capacity-2024",
+      "current": {
+        "title": "Largest stadium capacity",
+        "prompt": "Name the NFL franchises with the largest home-stadium seating capacity (two teams sharing one venue both count).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NYG",
+            "value": "82,500"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-NYJ",
+            "value": "82,500 (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-WAS",
+            "value": "82,000"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-GB",
+            "value": "81,441"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-DAL",
+            "value": "80,000"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "76,416"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-DEN",
+            "value": "76,125"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-CAR",
+            "value": "74,867"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-BUF",
+            "value": "71,608"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-BAL",
+            "value": "71,008"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-PHI",
+            "value": "69,796"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-TEN",
+            "value": "69,143"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-JAX",
+            "value": "67,838"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-NE",
+            "value": "65,878"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-MIA",
+            "value": "65,326"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-longest-current-playoff-drought-2023",
+      "current": {
+        "title": "Longest current playoff drought",
+        "prompt": "Name the NFL franchises with the longest active droughts since their last playoff appearance.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NYJ",
+            "value": "13 seasons (since 2010)"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DEN",
+            "value": "8 seasons (since 2015)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-CAR",
+            "value": "6 seasons (since 2017)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-ATL",
+            "value": "6 seasons (since 2017) (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-WAS",
+            "value": "3 seasons (since 2020)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-CHI",
+            "value": "3 seasons (since 2020) (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-NO",
+            "value": "3 seasons (since 2020) (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-IND",
+            "value": "3 seasons (since 2020) (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-LV",
+            "value": "2 seasons (since 2021)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-TEN",
+            "value": "2 seasons (since 2021) (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-NE",
+            "value": "2 seasons (since 2021) (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-ARI",
+            "value": "2 seasons (since 2021) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-NYG",
+            "value": "1 season (since 2022)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-MIN",
+            "value": "1 season (since 2022) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-JAX",
+            "value": "1 season (since 2022) (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-division-titles-all-time-2023",
+      "current": {
+        "title": "Most division titles (all-time)",
+        "prompt": "Name the NHL franchises with the most regular-season division titles in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "24 titles"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-BOS",
+            "value": "22 titles"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-DET",
+            "value": "18 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-PHI",
+            "value": "13 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-CHI",
+            "value": "13 titles (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-WSH",
+            "value": "13 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-DAL",
+            "value": "10 titles"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-COL",
+            "value": "10 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-STL",
+            "value": "10 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-EDM",
+            "value": "9 titles"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-PIT",
+            "value": "9 titles (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-NYR",
+            "value": "8 titles"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-NYI",
+            "value": "6 titles"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-CGY",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-VGK",
+            "value": "5 titles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-all-time-regular-season-wins-2023",
+      "current": {
+        "title": "Most all-time regular-season wins",
+        "prompt": "Name the NHL franchises with the most all-time regular-season wins.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "3,564 wins"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-BOS",
+            "value": "3,364 wins"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-TOR",
+            "value": "3,097 wins"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-DET",
+            "value": "3,061 wins"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-NYR",
+            "value": "3,051 wins"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-CHI",
+            "value": "2,912 wins"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-PHI",
+            "value": "2,146 wins"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-STL",
+            "value": "2,015 wins"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-BUF",
+            "value": "1,955 wins"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-PIT",
+            "value": "1,948 wins"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-DAL",
+            "value": "1,942 wins"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-WSH",
+            "value": "1,896 wins"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-EDM",
+            "value": "1,872 wins"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-CGY",
+            "value": "1,858 wins"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-NYI",
+            "value": "1,833 wins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-playoff-appearances-all-time-2024",
+      "current": {
+        "title": "Most playoff appearances (all-time)",
+        "prompt": "Name the NHL franchises with the most all-time playoff appearances.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "86 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-BOS",
+            "value": "76 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-TOR",
+            "value": "73 appearances"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-DET",
+            "value": "66 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-CHI",
+            "value": "63 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-NYR",
+            "value": "63 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-STL",
+            "value": "46 appearances"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-PHI",
+            "value": "40 appearances"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-PIT",
+            "value": "37 appearances"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-DAL",
+            "value": "34 appearances"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-WSH",
+            "value": "32 appearances"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-CGY",
+            "value": "31 appearances"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-BUF",
+            "value": "29 appearances"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-EDM",
+            "value": "27 appearances"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-NJD",
+            "value": "26 appearances"
+          }
+        ]
+      }
+    }
+  ]
+}

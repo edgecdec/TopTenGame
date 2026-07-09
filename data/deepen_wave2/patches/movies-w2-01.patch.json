@@ -1,0 +1,91 @@
+{
+  "cluster": "movies-w2-01",
+  "updates": [
+    {
+      "id": "movies-most-oscar-wins-by-a-best-picture-winner-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "ben-hur-1959", "value": "11 wins" },
+          { "rank": 1, "code": "titanic-1997", "value": "11 wins (tied)" },
+          { "rank": 1, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "11 wins (tied)" },
+          { "rank": 4, "code": "west-side-story-1961", "value": "10 wins" },
+          { "rank": 5, "code": "gigi-1958", "value": "9 wins" },
+          { "rank": 5, "code": "last-emperor-1987", "value": "9 wins (tied)" },
+          { "rank": 5, "code": "english-patient-1996", "value": "9 wins (tied)" },
+          { "rank": 8, "code": "gone-with-the-wind-1939", "value": "8 wins" },
+          { "rank": 8, "code": "from-here-to-eternity-1953", "value": "8 wins (tied)" },
+          { "rank": 8, "code": "on-the-waterfront-1954", "value": "8 wins (tied)" },
+          { "rank": 8, "code": "my-fair-lady-1964", "value": "8 wins (tied)" },
+          { "rank": 8, "code": "gandhi-1982", "value": "8 wins (tied)" },
+          { "rank": 8, "code": "amadeus-1984", "value": "8 wins (tied)" },
+          { "rank": 8, "code": "slumdog-millionaire-2008", "value": "8 wins (tied)" },
+          { "rank": 15, "code": "best-years-of-our-lives-1946", "value": "7 wins" },
+          { "rank": 15, "code": "bridge-on-the-river-kwai-1957", "value": "7 wins (tied)" },
+          { "rank": 15, "code": "patton-1970", "value": "7 wins (tied)" },
+          { "rank": 15, "code": "schindlers-list-1993", "value": "7 wins (tied)" },
+          { "rank": 15, "code": "dances-with-wolves-1990", "value": "7 wins (tied)" },
+          { "rank": 15, "code": "shakespeare-in-love-1998", "value": "7 wins (tied)" },
+          { "rank": 15, "code": "everything-everywhere-all-at-once-2022", "value": "7 wins (tied)" },
+          { "rank": 15, "code": "oppenheimer-2023", "value": "7 wins (tied)" }
+        ],
+        "seededDepth": 22
+      }
+    },
+    {
+      "id": "movies-longest-runtime-among-best-picture-winners-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "gone-with-the-wind-1939", "value": "238 min" },
+          { "rank": 2, "code": "lawrence-of-arabia-1962", "value": "228 min" },
+          { "rank": 3, "code": "ben-hur-1959", "value": "212 min" },
+          { "rank": 4, "code": "godfather-part-ii-1974", "value": "202 min" },
+          { "rank": 5, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "201 min" },
+          { "rank": 6, "code": "schindlers-list-1993", "value": "195 min" },
+          { "rank": 7, "code": "titanic-1997", "value": "194 min" },
+          { "rank": 8, "code": "gandhi-1982", "value": "191 min" },
+          { "rank": 9, "code": "deer-hunter-1978", "value": "183 min" },
+          { "rank": 10, "code": "dances-with-wolves-1990", "value": "181 min" },
+          { "rank": 11, "code": "oppenheimer-2023", "value": "180 min" },
+          { "rank": 12, "code": "braveheart-1995", "value": "178 min" },
+          { "rank": 13, "code": "around-the-world-in-80-days-1956", "value": "175 min" },
+          { "rank": 13, "code": "godfather-1972", "value": "175 min (tied)" },
+          { "rank": 15, "code": "sound-of-music-1965", "value": "174 min" },
+          { "rank": 16, "code": "best-years-of-our-lives-1946", "value": "172 min" },
+          { "rank": 16, "code": "patton-1970", "value": "172 min (tied)" },
+          { "rank": 18, "code": "english-patient-1996", "value": "162 min" },
+          { "rank": 19, "code": "amadeus-1984", "value": "161 min" },
+          { "rank": 19, "code": "out-of-africa-1985", "value": "161 min (tied)" },
+          { "rank": 21, "code": "west-side-story-1961", "value": "153 min" }
+        ],
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "movies-box-office-highest-domestic-us-box-office-among-best-picture-winners-unad",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "titanic-1997", "value": "$674M domestic" },
+          { "rank": 2, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "$378M domestic" },
+          { "rank": 3, "code": "forrest-gump-1994", "value": "$330M domestic" },
+          { "rank": 3, "code": "oppenheimer-2023", "value": "$330M domestic (tied)" },
+          { "rank": 5, "code": "gone-with-the-wind-1939", "value": "$200M domestic (with re-releases)" },
+          { "rank": 6, "code": "gladiator-2000", "value": "$188M domestic" },
+          { "rank": 7, "code": "dances-with-wolves-1990", "value": "$184M domestic" },
+          { "rank": 8, "code": "rain-man-1988", "value": "$173M domestic" },
+          { "rank": 9, "code": "beautiful-mind-2001", "value": "$171M domestic" },
+          { "rank": 9, "code": "chicago-2002", "value": "$171M domestic (tied)" },
+          { "rank": 11, "code": "sound-of-music-1965", "value": "$163M domestic" },
+          { "rank": 12, "code": "sting-1973", "value": "$156M domestic" },
+          { "rank": 13, "code": "slumdog-millionaire-2008", "value": "$141M domestic" },
+          { "rank": 14, "code": "kings-speech-2010", "value": "$139M domestic" },
+          { "rank": 15, "code": "godfather-1972", "value": "$134M domestic" },
+          { "rank": 16, "code": "departed-2006", "value": "$132M domestic" },
+          { "rank": 17, "code": "american-beauty-1999", "value": "$130M domestic" },
+          { "rank": 18, "code": "rocky-1976", "value": "$117M domestic" }
+        ],
+        "seededDepth": 18
+      }
+    }
+  ],
+  "deletions": []
+}

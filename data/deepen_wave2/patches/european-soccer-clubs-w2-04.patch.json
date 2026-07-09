@@ -1,0 +1,71 @@
+{
+  "cluster": "european-soccer-clubs-w2-04",
+  "updates": [
+    {
+      "id": "european-soccer-bundesliga-most-bundesliga-top-scorer-awards-2024",
+      "changes": {
+        "source_name": "Wikipedia — Torjägerkanone (Bundesliga top scorer)",
+        "source_url": "https://en.wikipedia.org/wiki/Kicker-Torj%C3%A4gerkanone",
+        "source_as_of": "Through 2023-24 season",
+        "seededDepth": 16,
+        "answers": [
+          {"rank": 1, "code": "BUN-BAY", "value": "26 awards"},
+          {"rank": 2, "code": "BUN-BVB", "value": "5 awards"},
+          {"rank": 2, "code": "BUN-BRE", "value": "5 awards (tied)"},
+          {"rank": 2, "code": "BUN-KOL", "value": "5 awards (tied)"},
+          {"rank": 5, "code": "BUN-BER", "value": "4 awards"},
+          {"rank": 5, "code": "BUN-BMG", "value": "4 awards (tied)"},
+          {"rank": 5, "code": "BUN-SGE", "value": "4 awards (tied)"},
+          {"rank": 8, "code": "BUN-BOC", "value": "3 awards"},
+          {"rank": 8, "code": "BUN-HAM", "value": "3 awards (tied)"},
+          {"rank": 8, "code": "BUN-SCH", "value": "3 awards (tied)"},
+          {"rank": 8, "code": "BUN-VFB", "value": "3 awards (tied)"},
+          {"rank": 12, "code": "BUN-WOB", "value": "2 awards"},
+          {"rank": 13, "code": "BUN-HER", "value": "1 award"},
+          {"rank": 13, "code": "BUN-KAI", "value": "1 award (tied)"},
+          {"rank": 13, "code": "BUN-N90", "value": "1 award (tied)"},
+          {"rank": 13, "code": "BUN-RBL", "value": "1 award (tied)"}
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-highest-all-time-bundesliga-finishes-top-3-2024",
+      "changes": {
+        "source_name": "Wikipedia — Bundesliga records and statistics",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_German_football_champions",
+        "source_as_of": "Through 2023-24 season",
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-efl-league-cup-wins-2024",
+      "changes": {
+        "source_name": "Wikipedia — EFL Cup",
+        "source_url": "https://en.wikipedia.org/wiki/EFL_Cup",
+        "source_as_of": "Through 2023-24 final",
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "european-soccer-european-most-uefa-europa-league-uefa-cup-titles-2024",
+      "changes": {
+        "source_name": "Wikipedia — UEFA Europa League",
+        "source_url": "https://en.wikipedia.org/wiki/UEFA_Europa_League",
+        "source_as_of": "Through 2023-24 final",
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-most-bundesliga-seasons-played-2024",
+      "changes": {
+        "source_name": "Wikipedia — List of Bundesliga clubs",
+        "source_url": "https://en.wikipedia.org/wiki/List_of_Bundesliga_clubs",
+        "source_as_of": "Through 2023-24 season",
+        "seededDepth": 18
+      }
+    }
+  ],
+  "deletions": [
+    "european-soccer-bundesliga-most-bundesliga-matches-played-2024"
+  ]
+}

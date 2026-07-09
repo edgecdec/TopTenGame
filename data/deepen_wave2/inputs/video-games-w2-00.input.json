@@ -1,0 +1,558 @@
+{
+  "cluster": "video-games-w2-00",
+  "questions": [
+    {
+      "id": "video-games-franchise-best-selling-nintendo-owned-franchises-2024",
+      "current": {
+        "title": "Best-Selling Nintendo-Owned Franchises",
+        "prompt": "Rank Nintendo's first-party franchises by lifetime unit sales.",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "mario",
+            "value": "~830M units"
+          },
+          {
+            "rank": 2,
+            "code": "pokemon",
+            "value": "~480M units"
+          },
+          {
+            "rank": 3,
+            "code": "zelda",
+            "value": "~150M units"
+          },
+          {
+            "rank": 4,
+            "code": "wii-sports",
+            "value": "~83M units"
+          },
+          {
+            "rank": 5,
+            "code": "donkey-kong",
+            "value": "~75M units"
+          },
+          {
+            "rank": 5,
+            "code": "smash-bros",
+            "value": "~75M units (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "animal-crossing",
+            "value": "~72M units"
+          },
+          {
+            "rank": 8,
+            "code": "kirby",
+            "value": "~50M units"
+          },
+          {
+            "rank": 9,
+            "code": "splatoon",
+            "value": "~40M units"
+          },
+          {
+            "rank": 10,
+            "code": "fire-emblem",
+            "value": "~20M units"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-rts-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring RTS games (Metacritic)",
+        "prompt": "Name the highest-rated real-time strategy games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "starcraft-ii-wings-of-liberty-2010",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "company-of-heroes-2006",
+            "value": "93 Metacritic (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "homeworld-1999",
+            "value": "93 Metacritic (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "age-of-empires-ii-1999",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "warcraft-iii-reign-of-chaos-2002",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "rome-total-war-2004",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "command-and-conquer-red-alert-1996",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "starcraft-1998",
+            "value": "88 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "age-of-empires-1997",
+            "value": "87 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "total-annihilation-1997",
+            "value": "86 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-survival-horror-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring survival horror games (Metacritic)",
+        "prompt": "Name the highest-rated survival horror games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "resident-evil-4-2005",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "eternal-darkness-sanitys-requiem-2002",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "resident-evil-2-2019",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "resident-evil-1996",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "silent-hill-2-2001",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "dead-space-2008",
+            "value": "89 Metacritic (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "resident-evil-2-1998",
+            "value": "89 Metacritic (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "silent-hill-1999",
+            "value": "86 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "resident-evil-village-2021",
+            "value": "84 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "alien-isolation-2014",
+            "value": "81 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-mmo-online-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring MMO/online games (Metacritic)",
+        "prompt": "Name the highest-rated MMO or persistent-world online games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "world-of-warcraft-2004",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "team-fortress-2-2007",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "overwatch-2016",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "guild-wars-2-2012",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "dota-2-2013",
+            "value": "90 Metacritic (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "everquest-1999",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "final-fantasy-xiv-a-realm-reborn-2013",
+            "value": "86 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "rocket-league-2015",
+            "value": "86 Metacritic (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "counter-strike-global-offensive-2012",
+            "value": "83 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "league-of-legends-2009",
+            "value": "78 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-games-with-the-largest-esports-prize-pools-all-time-2025",
+      "current": {
+        "title": "Games with the largest esports prize pools (all-time)",
+        "prompt": "Name the games that have paid out the largest cumulative esports prize money across all events all-time.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "dota-2-2013",
+            "value": "$355M in prize money"
+          },
+          {
+            "rank": 2,
+            "code": "counter-strike-global-offensive-2012",
+            "value": "$170M in prize money"
+          },
+          {
+            "rank": 3,
+            "code": "fortnite-2017",
+            "value": "$165M in prize money"
+          },
+          {
+            "rank": 4,
+            "code": "league-of-legends-2009",
+            "value": "$105M in prize money"
+          },
+          {
+            "rank": 5,
+            "code": "valorant-2020",
+            "value": "$52M in prize money"
+          },
+          {
+            "rank": 6,
+            "code": "pubg-battlegrounds-2017",
+            "value": "$40M in prize money"
+          },
+          {
+            "rank": 7,
+            "code": "starcraft-ii-wings-of-liberty-2010",
+            "value": "$38M in prize money"
+          },
+          {
+            "rank": 8,
+            "code": "overwatch-2016",
+            "value": "$36M in prize money"
+          },
+          {
+            "rank": 9,
+            "code": "hearthstone-2014",
+            "value": "$27M in prize money"
+          },
+          {
+            "rank": 10,
+            "code": "call-of-duty-modern-warfare-2019",
+            "value": "$21M in prize money"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-fighting-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring fighting games (Metacritic)",
+        "prompt": "Name the highest-rated fighting games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "tekken-3-1997",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "super-smash-bros-ultimate-2018",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "super-smash-bros-brawl-2008",
+            "value": "93 Metacritic (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "street-fighter-iv-2008",
+            "value": "93 Metacritic (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "super-smash-bros-melee-2001",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "soulcalibur-ii-2002",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "virtua-fighter-2-1994",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "marvel-vs-capcom-2-new-age-of-heroes-2000",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "street-fighter-ii-1991",
+            "value": "88 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "mortal-kombat-ii-1993",
+            "value": "87 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "mortal-kombat-1992",
+            "value": "85 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-critical-highest-user-score-on-metacritic-2025",
+      "current": {
+        "title": "Highest User Score on Metacritic",
+        "prompt": "Name games with the highest Metacritic User Score (aggregated user ratings on a 0-10 scale).",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Critical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "red-dead-redemption-2-2018",
+            "value": "9.6 user"
+          },
+          {
+            "rank": 2,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "9.4 user"
+          },
+          {
+            "rank": 2,
+            "code": "baldurs-gate-3-2023",
+            "value": "9.4 user (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "9.3 user"
+          },
+          {
+            "rank": 4,
+            "code": "god-of-war-2018",
+            "value": "9.3 user (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "elden-ring-2022",
+            "value": "9.2 user"
+          },
+          {
+            "rank": 6,
+            "code": "last-of-us-2013",
+            "value": "9.2 user (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "half-life-2-2004",
+            "value": "9.2 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "portal-2-2011",
+            "value": "9.1 user"
+          },
+          {
+            "rank": 9,
+            "code": "mass-effect-2-2010",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "super-mario-galaxy-2007",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "bioshock-2007",
+            "value": "9.1 user (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-awards-most-game-of-the-year-awards-won-by-a-single-game-all-time-20",
+      "current": {
+        "title": "Most 'Game of the Year' awards won by a single game (all-time)",
+        "prompt": "Name the games famous for sweeping the year-end awards circuit \u2014 titles that collected the most 'Game of the Year' prizes across all major outlets in a single release year.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "elden-ring-2022",
+            "value": "~325 aggregated GOTY prizes (2022)"
+          },
+          {
+            "rank": 2,
+            "code": "last-of-us-part-ii-2020",
+            "value": "~320 aggregated GOTY prizes (2020)"
+          },
+          {
+            "rank": 3,
+            "code": "baldurs-gate-3-2023",
+            "value": "~275+ GOTY prizes (2023)"
+          },
+          {
+            "rank": 4,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "~250 aggregated GOTY prizes (2015)"
+          },
+          {
+            "rank": 5,
+            "code": "last-of-us-2013",
+            "value": "~240 aggregated GOTY prizes (2013)"
+          },
+          {
+            "rank": 6,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "~210 aggregated GOTY prizes (2017)"
+          },
+          {
+            "rank": 7,
+            "code": "god-of-war-2018",
+            "value": "~200 aggregated GOTY prizes (2018)"
+          },
+          {
+            "rank": 8,
+            "code": "red-dead-redemption-2-2018",
+            "value": "~175 aggregated GOTY prizes (2018)"
+          },
+          {
+            "rank": 9,
+            "code": "overwatch-2016",
+            "value": "~120 aggregated GOTY prizes (2016)"
+          },
+          {
+            "rank": 9,
+            "code": "grand-theft-auto-iv-2008",
+            "value": "~120 aggregated GOTY prizes (2008) (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "elder-scrolls-v-skyrim-2011",
+            "value": "~70 aggregated GOTY prizes (2011)"
+          },
+          {
+            "rank": 12,
+            "code": "grand-theft-auto-v-2013",
+            "value": "~65 aggregated GOTY prizes (2013)"
+          }
+        ]
+      }
+    }
+  ]
+}

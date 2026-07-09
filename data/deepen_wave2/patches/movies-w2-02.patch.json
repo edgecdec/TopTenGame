@@ -1,0 +1,119 @@
+{
+  "cluster": "movies-w2-02",
+  "updates": [
+    {
+      "id": "movies-box-office-lowest-domestic-box-office-among-modern-best-picture-winners-2",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "coda-2021", "value": "$1.0M domestic" },
+          { "rank": 2, "code": "nomadland-2020", "value": "$3.7M domestic" },
+          { "rank": 3, "code": "hurt-locker-2009", "value": "$17.0M domestic" },
+          { "rank": 4, "code": "moonlight-2016", "value": "$27.9M domestic" },
+          { "rank": 5, "code": "birdman-2014", "value": "$42.3M domestic" },
+          { "rank": 6, "code": "artist-2011", "value": "$44.7M domestic" },
+          { "rank": 7, "code": "spotlight-2015", "value": "$45.1M domestic" },
+          { "rank": 8, "code": "parasite-2019", "value": "$53.4M domestic" },
+          { "rank": 9, "code": "crash-2005", "value": "$54.6M domestic" },
+          { "rank": 10, "code": "12-years-a-slave-2013", "value": "$56.7M domestic" },
+          { "rank": 11, "code": "shape-of-water-2017", "value": "$63.9M domestic" },
+          { "rank": 12, "code": "no-country-for-old-men-2007", "value": "$74.3M domestic" },
+          { "rank": 13, "code": "everything-everywhere-all-at-once-2022", "value": "$77.2M domestic" },
+          { "rank": 14, "code": "green-book-2018", "value": "$85.1M domestic" },
+          { "rank": 15, "code": "million-dollar-baby-2004", "value": "$100.5M domestic" },
+          { "rank": 16, "code": "departed-2006", "value": "$132.4M domestic" },
+          { "rank": 17, "code": "argo-2012", "value": "$136.0M domestic" },
+          { "rank": 18, "code": "kings-speech-2010", "value": "$138.8M domestic" },
+          { "rank": 19, "code": "slumdog-millionaire-2008", "value": "$141.3M domestic" },
+          { "rank": 20, "code": "chicago-2002", "value": "$170.7M domestic" },
+          { "rank": 21, "code": "beautiful-mind-2001", "value": "$170.7M domestic (tied)" },
+          { "rank": 22, "code": "gladiator-2000", "value": "$187.7M domestic" },
+          { "rank": 23, "code": "oppenheimer-2023", "value": "$330.1M domestic" },
+          { "rank": 24, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "$377.8M domestic" }
+        ],
+        "seededDepth": 24
+      }
+    },
+    {
+      "id": "movies-box-office-highest-production-budget-among-best-picture-winners-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "titanic-1997", "value": "$200M budget" },
+          { "rank": 2, "code": "gladiator-2000", "value": "$103M budget" },
+          { "rank": 3, "code": "oppenheimer-2023", "value": "$100M budget" },
+          { "rank": 4, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "$94M budget" },
+          { "rank": 5, "code": "departed-2006", "value": "$90M budget" },
+          { "rank": 6, "code": "braveheart-1995", "value": "$72M budget" },
+          { "rank": 7, "code": "beautiful-mind-2001", "value": "$58M budget" },
+          { "rank": 8, "code": "chicago-2002", "value": "$45M budget" },
+          { "rank": 9, "code": "argo-2012", "value": "$44.5M budget" },
+          { "rank": 10, "code": "million-dollar-baby-2004", "value": "$30M budget" },
+          { "rank": 11, "code": "out-of-africa-1985", "value": "$28M budget" },
+          { "rank": 12, "code": "english-patient-1996", "value": "$27M budget" },
+          { "rank": 13, "code": "last-emperor-1987", "value": "$23.8M budget" },
+          { "rank": 14, "code": "green-book-2018", "value": "$23M budget" },
+          { "rank": 15, "code": "dances-with-wolves-1990", "value": "$22M budget" },
+          { "rank": 16, "code": "amadeus-1984", "value": "$18M budget" },
+          { "rank": 17, "code": "ben-hur-1959", "value": "$15.2M budget" },
+          { "rank": 18, "code": "american-beauty-1999", "value": "$15M budget" },
+          { "rank": 18, "code": "kings-speech-2010", "value": "$15M budget (tied)" },
+          { "rank": 20, "code": "gone-with-the-wind-1939", "value": "$3.85M budget" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "movies-nominees-highest-imdb-rating-among-best-picture-nominees-that-did-not-win",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "shawshank-redemption-1994", "value": "9.3 / 10" },
+          { "rank": 2, "code": "12-angry-men-1957", "value": "9.0 / 10" },
+          { "rank": 3, "code": "pulp-fiction-1994", "value": "8.9 / 10" },
+          { "rank": 3, "code": "lord-of-the-rings-fellowship-of-the-ring-2001", "value": "8.9 / 10 (tied)" },
+          { "rank": 5, "code": "inception-2010", "value": "8.8 / 10" },
+          { "rank": 5, "code": "lord-of-the-rings-two-towers-2002", "value": "8.8 / 10 (tied)" },
+          { "rank": 7, "code": "goodfellas-1990", "value": "8.7 / 10" },
+          { "rank": 8, "code": "star-wars-1977", "value": "8.6 / 10" },
+          { "rank": 8, "code": "saving-private-ryan-1998", "value": "8.6 / 10 (tied)" },
+          { "rank": 10, "code": "whiplash-2014", "value": "8.5 / 10" },
+          { "rank": 11, "code": "raiders-of-the-lost-ark-1981", "value": "8.4 / 10" },
+          { "rank": 11, "code": "apocalypse-now-1979", "value": "8.4 / 10 (tied)" },
+          { "rank": 11, "code": "dr-strangelove-1964", "value": "8.4 / 10 (tied)" },
+          { "rank": 14, "code": "citizen-kane-1941", "value": "8.3 / 10" },
+          { "rank": 14, "code": "clockwork-orange-1971", "value": "8.3 / 10 (tied)" },
+          { "rank": 16, "code": "taxi-driver-1976", "value": "8.2 / 10" },
+          { "rank": 16, "code": "fargo-1996", "value": "8.2 / 10 (tied)" }
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "movies-nominees-highest-rotten-tomatoes-score-among-best-picture-nominees-that-d",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "12-angry-men-1957", "value": "100%" },
+          { "rank": 2, "code": "citizen-kane-1941", "value": "99%" },
+          { "rank": 2, "code": "lady-bird-2017", "value": "99% (tied)" },
+          { "rank": 4, "code": "toy-story-3-2010", "value": "98%" },
+          { "rank": 4, "code": "get-out-2017", "value": "98% (tied)" },
+          { "rank": 4, "code": "up-2009", "value": "98% (tied)" },
+          { "rank": 4, "code": "wizard-of-oz-1939", "value": "98% (tied)" },
+          { "rank": 8, "code": "boyhood-2014", "value": "97%" },
+          { "rank": 8, "code": "philadelphia-story-1940", "value": "97% (tied)" },
+          { "rank": 10, "code": "roma-2018", "value": "96%" },
+          { "rank": 10, "code": "black-panther-2018", "value": "96% (tied)" },
+          { "rank": 10, "code": "maltese-falcon-1941", "value": "96% (tied)" },
+          { "rank": 13, "code": "little-women-2019", "value": "95%" },
+          { "rank": 13, "code": "marriage-story-2019", "value": "95% (tied)" },
+          { "rank": 13, "code": "high-noon-1952", "value": "95% (tied)" },
+          { "rank": 16, "code": "pulp-fiction-1994", "value": "92%" },
+          { "rank": 16, "code": "grand-budapest-hotel-2014", "value": "92% (tied)" },
+          { "rank": 16, "code": "shane-1953", "value": "92% (tied)" },
+          { "rank": 19, "code": "la-la-land-2016", "value": "91%" },
+          { "rank": 19, "code": "1917-2019", "value": "91% (tied)" }
+        ],
+        "seededDepth": 20
+      }
+    }
+  ],
+  "deletions": []
+}

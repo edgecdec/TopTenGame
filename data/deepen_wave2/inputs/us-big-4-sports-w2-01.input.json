@@ -1,0 +1,733 @@
+{
+  "cluster": "us-big-4-sports-w2-01",
+  "questions": [
+    {
+      "id": "pro-sports-mlb-most-valuable-mlb-franchises-forbes-2024-2024",
+      "current": {
+        "title": "Most valuable MLB franchises (Forbes 2024)",
+        "prompt": "Name the highest-valued MLB franchises per Forbes' 2024 team valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - MLB",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-NYY",
+            "value": "$7.55B"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-LAD",
+            "value": "$5.45B"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-BOS",
+            "value": "$4.8B"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-CHC",
+            "value": "$4.6B"
+          },
+          {
+            "rank": 5,
+            "code": "MLB-SF",
+            "value": "$4.1B"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-NYM",
+            "value": "$2.9B"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-PHI",
+            "value": "$2.75B"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-ATL",
+            "value": "$2.75B (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-STL",
+            "value": "$2.55B"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-TOR",
+            "value": "$2.5B"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-TEX",
+            "value": "$2.45B"
+          },
+          {
+            "rank": 12,
+            "code": "MLB-HOU",
+            "value": "$2.4B"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-LAA",
+            "value": "$2.35B"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-SEA",
+            "value": "$2.2B"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-SD",
+            "value": "$2.1B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-regular-season-wins-all-time-2023",
+      "current": {
+        "title": "Most regular-season wins all-time",
+        "prompt": "Name the NBA franchises with the most regular-season wins in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": "~3,570 wins"
+          },
+          {
+            "rank": 1,
+            "code": "NBA-BOS",
+            "value": "~3,570 wins (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-PHI",
+            "value": "~2,930 wins"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-GSW",
+            "value": "~2,900 wins"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-NYK",
+            "value": "~2,900 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-ATL",
+            "value": "~2,850 wins"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-DET",
+            "value": "~2,780 wins"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-SAC",
+            "value": "~2,700 wins"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-CHI",
+            "value": "~2,340 wins"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-SAS",
+            "value": "~2,330 wins"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-POR",
+            "value": "~2,290 wins"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-MIL",
+            "value": "~2,280 wins"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-PHX",
+            "value": "~2,270 wins"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-HOU",
+            "value": "~2,260 wins"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-WAS",
+            "value": "~2,240 wins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-hall-of-famers-per-franchise-2024",
+      "current": {
+        "title": "Most Hall of Famers per franchise",
+        "prompt": "Name the NBA franchises with the most Naismith Basketball Hall of Fame inductees (players who played for that team).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-BOS",
+            "value": "~40 HoFers"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-LAL",
+            "value": "~30 HoFers"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-NYK",
+            "value": "~25 HoFers"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-PHI",
+            "value": "~24 HoFers"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-GSW",
+            "value": "~21 HoFers"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "~19 HoFers"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-ATL",
+            "value": "~17 HoFers"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-CHI",
+            "value": "~15 HoFers"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-HOU",
+            "value": "~14 HoFers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-SAS",
+            "value": "~12 HoFers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-PHX",
+            "value": "~12 HoFers (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-MIL",
+            "value": "~11 HoFers"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-WAS",
+            "value": "~11 HoFers (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-POR",
+            "value": "~10 HoFers"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-SAC",
+            "value": "~10 HoFers (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-valuable-nba-franchises-forbes-2024-2024",
+      "current": {
+        "title": "Most valuable NBA franchises (Forbes 2024)",
+        "prompt": "Name the highest-valued NBA franchises per Forbes' 2024 team valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-GSW",
+            "value": "$8.8B"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-NYK",
+            "value": "$8.3B"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-LAL",
+            "value": "$7.7B"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-BOS",
+            "value": "$6.0B"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-LAC",
+            "value": "$5.5B"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-CHI",
+            "value": "$5.4B"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-DAL",
+            "value": "$4.7B"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-HOU",
+            "value": "$4.65B"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-BKN",
+            "value": "$4.55B"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-PHI",
+            "value": "$4.3B"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-PHX",
+            "value": "$4.0B"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-MIA",
+            "value": "$3.9B"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-TOR",
+            "value": "$3.85B"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-WAS",
+            "value": "$3.55B"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-DEN",
+            "value": "$3.5B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-super-bowl-wins-2024",
+      "current": {
+        "title": "Most Super Bowl wins",
+        "prompt": "Name the NFL franchises with the most Super Bowl victories.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-PIT",
+            "value": "6 wins"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-NE",
+            "value": "6 wins (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-DAL",
+            "value": "5 wins"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-SF",
+            "value": "5 wins (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-GB",
+            "value": "4 wins"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-NYG",
+            "value": "4 wins (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-KC",
+            "value": "4 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-DEN",
+            "value": "3 wins"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-LV",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-WAS",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIA",
+            "value": "2 wins"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-BAL",
+            "value": "2 wins (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-IND",
+            "value": "2 wins (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-LAR",
+            "value": "2 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-PHI",
+            "value": "1 win"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-super-bowl-appearances-2024",
+      "current": {
+        "title": "Most Super Bowl appearances",
+        "prompt": "Name the NFL franchises that have appeared in the most Super Bowls (wins + losses).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NE",
+            "value": "11 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-PIT",
+            "value": "8 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DAL",
+            "value": "8 appearances (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DEN",
+            "value": "8 appearances (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-SF",
+            "value": "7 appearances"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "6 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-GB",
+            "value": "5 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYG",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-MIA",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LV",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-WAS",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LAR",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-PHI",
+            "value": "4 appearances"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-BUF",
+            "value": "4 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-IND",
+            "value": "4 appearances (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-nfl-championships-pre-super-bowl-era",
+      "current": {
+        "title": "Most NFL championships pre-Super Bowl era",
+        "prompt": "Name the NFL franchises with the most league championships won before the Super Bowl era (1920-1965).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-GB",
+            "value": "9 pre-SB titles"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-CHI",
+            "value": "8 pre-SB titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NYG",
+            "value": "4 pre-SB titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-DET",
+            "value": "4 pre-SB titles (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-CLE",
+            "value": "4 pre-SB titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-PHI",
+            "value": "3 pre-SB titles"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-IND",
+            "value": "3 pre-SB titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "3 AFL titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-WAS",
+            "value": "2 pre-SB titles"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-ARI",
+            "value": "2 pre-SB titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-BUF",
+            "value": "2 AFL titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-TEN",
+            "value": "2 AFL titles (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-LAR",
+            "value": "1 pre-SB title"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-LV",
+            "value": "1 AFL title (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-NYJ",
+            "value": "1 AFL title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-all-time-regular-season-wins-2023",
+      "current": {
+        "title": "All-time regular-season wins",
+        "prompt": "Name the NFL franchises with the most all-time regular-season wins in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-CHI",
+            "value": "790 wins"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-GB",
+            "value": "788 wins"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NYG",
+            "value": "722 wins"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-PIT",
+            "value": "676 wins"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-WAS",
+            "value": "634 wins"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-LAR",
+            "value": "618 wins"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-PHI",
+            "value": "618 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-SF",
+            "value": "605 wins"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-DET",
+            "value": "584 wins"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-CLE",
+            "value": "573 wins"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-DAL",
+            "value": "561 wins"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-LV",
+            "value": "509 wins"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-KC",
+            "value": "509 wins (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-DEN",
+            "value": "506 wins"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-MIA",
+            "value": "497 wins"
+          }
+        ]
+      }
+    }
+  ]
+}

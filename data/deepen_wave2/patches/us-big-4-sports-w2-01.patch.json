@@ -1,0 +1,204 @@
+{
+  "cluster": "us-big-4-sports-w2-01",
+  "updates": [
+    {
+      "id": "pro-sports-mlb-most-valuable-mlb-franchises-forbes-2024-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "MLB-NYY", "value": "$7.55B" },
+          { "rank": 2, "code": "MLB-LAD", "value": "$5.45B" },
+          { "rank": 3, "code": "MLB-BOS", "value": "$4.80B" },
+          { "rank": 4, "code": "MLB-CHC", "value": "$4.60B" },
+          { "rank": 5, "code": "MLB-SF", "value": "$4.10B" },
+          { "rank": 6, "code": "MLB-NYM", "value": "$2.90B" },
+          { "rank": 7, "code": "MLB-PHI", "value": "$2.75B" },
+          { "rank": 7, "code": "MLB-ATL", "value": "$2.75B (tied)" },
+          { "rank": 9, "code": "MLB-STL", "value": "$2.55B" },
+          { "rank": 10, "code": "MLB-TOR", "value": "$2.50B" },
+          { "rank": 11, "code": "MLB-TEX", "value": "$2.45B" },
+          { "rank": 12, "code": "MLB-HOU", "value": "$2.40B" },
+          { "rank": 13, "code": "MLB-LAA", "value": "$2.35B" },
+          { "rank": 14, "code": "MLB-SEA", "value": "$2.20B" },
+          { "rank": 15, "code": "MLB-SD", "value": "$2.10B" },
+          { "rank": 16, "code": "MLB-WAS", "value": "$2.05B" },
+          { "rank": 17, "code": "MLB-CWS", "value": "$1.95B" },
+          { "rank": 18, "code": "MLB-ARI", "value": "$1.70B" },
+          { "rank": 19, "code": "MLB-DET", "value": "$1.60B" },
+          { "rank": 20, "code": "MLB-MIN", "value": "$1.55B" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-regular-season-wins-all-time-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-LAL", "value": "~3,570 wins" },
+          { "rank": 1, "code": "NBA-BOS", "value": "~3,570 wins (tied)" },
+          { "rank": 3, "code": "NBA-PHI", "value": "~2,930 wins" },
+          { "rank": 4, "code": "NBA-GSW", "value": "~2,900 wins" },
+          { "rank": 4, "code": "NBA-NYK", "value": "~2,900 wins (tied)" },
+          { "rank": 6, "code": "NBA-ATL", "value": "~2,850 wins" },
+          { "rank": 7, "code": "NBA-DET", "value": "~2,780 wins" },
+          { "rank": 8, "code": "NBA-SAC", "value": "~2,700 wins" },
+          { "rank": 9, "code": "NBA-CHI", "value": "~2,340 wins" },
+          { "rank": 10, "code": "NBA-SAS", "value": "~2,330 wins" },
+          { "rank": 11, "code": "NBA-POR", "value": "~2,290 wins" },
+          { "rank": 12, "code": "NBA-MIL", "value": "~2,280 wins" },
+          { "rank": 13, "code": "NBA-PHX", "value": "~2,270 wins" },
+          { "rank": 14, "code": "NBA-HOU", "value": "~2,260 wins" },
+          { "rank": 15, "code": "NBA-WAS", "value": "~2,240 wins" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-hall-of-famers-per-franchise-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-BOS", "value": "~40 HoFers" },
+          { "rank": 2, "code": "NBA-LAL", "value": "~30 HoFers" },
+          { "rank": 3, "code": "NBA-NYK", "value": "~25 HoFers" },
+          { "rank": 4, "code": "NBA-PHI", "value": "~24 HoFers" },
+          { "rank": 5, "code": "NBA-GSW", "value": "~21 HoFers" },
+          { "rank": 6, "code": "NBA-DET", "value": "~19 HoFers" },
+          { "rank": 7, "code": "NBA-ATL", "value": "~17 HoFers" },
+          { "rank": 8, "code": "NBA-CHI", "value": "~15 HoFers" },
+          { "rank": 9, "code": "NBA-HOU", "value": "~14 HoFers" },
+          { "rank": 10, "code": "NBA-SAS", "value": "~12 HoFers" },
+          { "rank": 10, "code": "NBA-PHX", "value": "~12 HoFers (tied)" },
+          { "rank": 12, "code": "NBA-MIL", "value": "~11 HoFers" },
+          { "rank": 12, "code": "NBA-WAS", "value": "~11 HoFers (tied)" },
+          { "rank": 14, "code": "NBA-POR", "value": "~10 HoFers" },
+          { "rank": 14, "code": "NBA-SAC", "value": "~10 HoFers (tied)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-valuable-nba-franchises-forbes-2024-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-GSW", "value": "$8.80B" },
+          { "rank": 2, "code": "NBA-NYK", "value": "$8.30B" },
+          { "rank": 3, "code": "NBA-LAL", "value": "$7.70B" },
+          { "rank": 4, "code": "NBA-BOS", "value": "$6.00B" },
+          { "rank": 5, "code": "NBA-LAC", "value": "$5.50B" },
+          { "rank": 6, "code": "NBA-CHI", "value": "$5.40B" },
+          { "rank": 7, "code": "NBA-DAL", "value": "$4.70B" },
+          { "rank": 8, "code": "NBA-HOU", "value": "$4.65B" },
+          { "rank": 9, "code": "NBA-BKN", "value": "$4.55B" },
+          { "rank": 10, "code": "NBA-PHI", "value": "$4.30B" },
+          { "rank": 11, "code": "NBA-PHX", "value": "$4.00B" },
+          { "rank": 12, "code": "NBA-MIA", "value": "$3.90B" },
+          { "rank": 13, "code": "NBA-TOR", "value": "$3.85B" },
+          { "rank": 14, "code": "NBA-WAS", "value": "$3.55B" },
+          { "rank": 15, "code": "NBA-DEN", "value": "$3.50B" },
+          { "rank": 16, "code": "NBA-MIL", "value": "$3.45B" },
+          { "rank": 17, "code": "NBA-CLE", "value": "$3.40B" },
+          { "rank": 18, "code": "NBA-ATL", "value": "$3.35B" },
+          { "rank": 19, "code": "NBA-OKC", "value": "$3.20B" },
+          { "rank": 20, "code": "NBA-SAC", "value": "$3.10B" },
+          { "rank": 21, "code": "NBA-POR", "value": "$3.05B" },
+          { "rank": 22, "code": "NBA-SAS", "value": "$3.00B" },
+          { "rank": 23, "code": "NBA-DET", "value": "$3.00B (tied)" },
+          { "rank": 24, "code": "NBA-IND", "value": "$2.95B" },
+          { "rank": 25, "code": "NBA-UTA", "value": "$2.85B" },
+          { "rank": 26, "code": "NBA-ORL", "value": "$2.80B" },
+          { "rank": 27, "code": "NBA-MIN", "value": "$2.75B" },
+          { "rank": 28, "code": "NBA-CHA", "value": "$2.65B" },
+          { "rank": 29, "code": "NBA-NOP", "value": "$2.55B" },
+          { "rank": 30, "code": "NBA-MEM", "value": "$2.50B" }
+        ],
+        "seededDepth": 30
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-super-bowl-wins-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NFL-PIT", "value": "6 wins" },
+          { "rank": 1, "code": "NFL-NE", "value": "6 wins (tied)" },
+          { "rank": 3, "code": "NFL-DAL", "value": "5 wins" },
+          { "rank": 3, "code": "NFL-SF", "value": "5 wins (tied)" },
+          { "rank": 5, "code": "NFL-GB", "value": "4 wins" },
+          { "rank": 5, "code": "NFL-NYG", "value": "4 wins (tied)" },
+          { "rank": 5, "code": "NFL-KC", "value": "4 wins (tied)" },
+          { "rank": 8, "code": "NFL-DEN", "value": "3 wins" },
+          { "rank": 8, "code": "NFL-LV", "value": "3 wins (tied)" },
+          { "rank": 8, "code": "NFL-WAS", "value": "3 wins (tied)" },
+          { "rank": 11, "code": "NFL-MIA", "value": "2 wins" },
+          { "rank": 11, "code": "NFL-BAL", "value": "2 wins (tied)" },
+          { "rank": 11, "code": "NFL-IND", "value": "2 wins (tied)" },
+          { "rank": 11, "code": "NFL-LAR", "value": "2 wins (tied)" },
+          { "rank": 15, "code": "NFL-PHI", "value": "1 win" },
+          { "rank": 15, "code": "NFL-CHI", "value": "1 win (tied)" },
+          { "rank": 15, "code": "NFL-NYJ", "value": "1 win (tied)" },
+          { "rank": 15, "code": "NFL-NO", "value": "1 win (tied)" },
+          { "rank": 15, "code": "NFL-SEA", "value": "1 win (tied)" },
+          { "rank": 15, "code": "NFL-TB", "value": "1 win (tied)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-super-bowl-appearances-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NFL-NE", "value": "11 appearances" },
+          { "rank": 2, "code": "NFL-PIT", "value": "8 appearances" },
+          { "rank": 2, "code": "NFL-DAL", "value": "8 appearances (tied)" },
+          { "rank": 2, "code": "NFL-DEN", "value": "8 appearances (tied)" },
+          { "rank": 5, "code": "NFL-SF", "value": "7 appearances" },
+          { "rank": 6, "code": "NFL-KC", "value": "6 appearances" },
+          { "rank": 7, "code": "NFL-GB", "value": "5 appearances" },
+          { "rank": 7, "code": "NFL-NYG", "value": "5 appearances (tied)" },
+          { "rank": 7, "code": "NFL-MIA", "value": "5 appearances (tied)" },
+          { "rank": 7, "code": "NFL-LV", "value": "5 appearances (tied)" },
+          { "rank": 7, "code": "NFL-WAS", "value": "5 appearances (tied)" },
+          { "rank": 7, "code": "NFL-LAR", "value": "5 appearances (tied)" },
+          { "rank": 13, "code": "NFL-PHI", "value": "4 appearances" },
+          { "rank": 13, "code": "NFL-BUF", "value": "4 appearances (tied)" },
+          { "rank": 13, "code": "NFL-IND", "value": "4 appearances (tied)" },
+          { "rank": 13, "code": "NFL-MIN", "value": "4 appearances (tied)" },
+          { "rank": 17, "code": "NFL-CIN", "value": "3 appearances" },
+          { "rank": 18, "code": "NFL-BAL", "value": "2 appearances" },
+          { "rank": 18, "code": "NFL-ATL", "value": "2 appearances (tied)" },
+          { "rank": 18, "code": "NFL-CAR", "value": "2 appearances (tied)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-nfl-all-time-regular-season-wins-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NFL-CHI", "value": "790 wins" },
+          { "rank": 2, "code": "NFL-GB", "value": "788 wins" },
+          { "rank": 3, "code": "NFL-NYG", "value": "722 wins" },
+          { "rank": 4, "code": "NFL-PIT", "value": "676 wins" },
+          { "rank": 5, "code": "NFL-WAS", "value": "634 wins" },
+          { "rank": 6, "code": "NFL-LAR", "value": "618 wins" },
+          { "rank": 6, "code": "NFL-PHI", "value": "618 wins (tied)" },
+          { "rank": 8, "code": "NFL-SF", "value": "605 wins" },
+          { "rank": 9, "code": "NFL-DET", "value": "584 wins" },
+          { "rank": 10, "code": "NFL-CLE", "value": "573 wins" },
+          { "rank": 11, "code": "NFL-DAL", "value": "561 wins" },
+          { "rank": 12, "code": "NFL-LV", "value": "509 wins" },
+          { "rank": 12, "code": "NFL-KC", "value": "509 wins (tied)" },
+          { "rank": 14, "code": "NFL-DEN", "value": "506 wins" },
+          { "rank": 15, "code": "NFL-MIA", "value": "497 wins" },
+          { "rank": 16, "code": "NFL-MIN", "value": "494 wins" },
+          { "rank": 17, "code": "NFL-NE", "value": "492 wins" },
+          { "rank": 18, "code": "NFL-IND", "value": "462 wins" },
+          { "rank": 19, "code": "NFL-BUF", "value": "424 wins" },
+          { "rank": 20, "code": "NFL-NYJ", "value": "413 wins" }
+        ],
+        "seededDepth": 20
+      }
+    }
+  ],
+  "deletions": [
+    "pro-sports-nfl-most-nfl-championships-pre-super-bowl-era"
+  ]
+}
