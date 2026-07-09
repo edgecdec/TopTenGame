@@ -1,0 +1,226 @@
+{
+  "batch": 11,
+  "findings": [
+    {
+      "id": "us-states-food-agriculture-highest-milk-production-2023",
+      "issues": [
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 15 OR (2,600) < rank 16 CO (5,100); descending order violated."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 19 VT (2,500) < rank 20 UT (2,200) is fine, but rank 15 OR (2,600) is below rank 14 IN (4,300) — OK; however subsequent CO 5,100 at rank 16 is much larger than OR/VT above it."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 23 MO (1,300) < rank 24 IL (1,700); IL should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 29 ME (580) < rank 35 CT (400) is fine, but rank 35 CT (400) is greater than rank 32 MT (300) above it."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 34 MA (220) < rank 35 CT (400); CT should be higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 37 SC (140) < rank 38 NH (260); NH should be higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 43 HI (50) < rank 44 ND (500); ND should be much higher (~rank 31)."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 45 WY (30) < rank 46 NV (700); NV should be much higher (~rank 24)."
+        },
+        {
+          "flag": "fact-error",
+          "detail": "Several state values appear implausible vs USDA NASS 2023 milk production (e.g. ND ~500M lbs at rank 44, NV ~700M lbs at rank 46, CT 400M lbs at rank 35, NH 260M at rank 38) — placements contradict listed values, suggesting either wrong values or wrong ranks."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-traffic-fatality-rate-per-100m-vmt-2021",
+      "issues": [
+        {
+          "flag": "false-tie",
+          "detail": "rank 6 AZ (1.65) and rank 7 MT (1.65 tied) — only MT labeled '(tied)'. Per §18 tie handling, both tied entries should be labeled consistently, or neither."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 10 AL (1.55) and rank 11 KY (1.55 tied) — only KY labeled '(tied)'; same inconsistency."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 37 ID (271) and rank 38 WV (271 tied) — same inconsistency (note: this issue appears in the total-fatalities question, but is repeated pattern)."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-traffic-fatalities-total-2022",
+      "issues": [
+        {
+          "flag": "false-tie",
+          "detail": "rank 37 ID (271 deaths) and rank 38 WV (271 deaths tied) — only WV labeled '(tied)'."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 48 AK (76 deaths) and rank 49 VT (76 deaths tied) — only VT labeled '(tied)'."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-longest-average-commute-time-2022",
+      "issues": [
+        {
+          "flag": "false-tie",
+          "detail": "rank 8 VA (28.4) and rank 9 GA (28.4 tied) — only GA labeled '(tied)'; both tied entries should be labeled consistently."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 24 AL (24.5) and rank 25 TN (24.5 tied) — only TN labeled '(tied)'."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-bike-to-work-share-2022",
+      "issues": [
+        {
+          "flag": "false-tie",
+          "detail": "rank 8 VT (0.8%) and rank 9 MN (0.8% tied) — only MN labeled '(tied)'."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 11 WI (0.6%) not marked tied, but rank 12 AZ, rank 13 HI, rank 14 NY are all 0.6% and labeled '(tied)'. WI should also be marked '(tied)' or none should be."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 15 IA (0.5%) not marked tied, but rank 16 ID, rank 17 NM, rank 18 IL all '0.5% (tied)'. First member of the tie group is not consistently labeled."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 19 NE (0.4%) not marked tied but rank 20 PA, rank 21 MI, rank 22 MD, rank 23 UT, rank 24 FL all '0.4% (tied)'. Same inconsistency."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 25 OH (0.3%) not marked tied but ranks 26-34 (ME, RI, NC, IN, NV, MO, SD, NH, NJ) all '0.3% (tied)'."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 35 KS (0.2%) not marked tied but ranks 36-44 all '0.2% (tied)'."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 45 OK (0.1%) not marked tied but ranks 46-51 all '0.1% (tied)'."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-walk-to-work-share-2022",
+      "issues": [
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 2 MA (4.2%) < rank 3 NY (5.6%); NY should be ranked higher than MA."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 2 MA (4.2%) tied with rank 5 VT (4.2%) but appear at non-adjacent ranks with AK and NY between them; neither labeled '(tied)'."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 8 RI (3.2%) < rank 9 WY (3.4%); WY should be higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 13 CT (2.7%) < rank 14 NJ (2.9%); NJ should be higher."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "Multiple identical values without '(tied)' labels — e.g., rank 6 PA (3.6%) vs rank 7 MT (3.5%) is OK; but rank 15 HI (2.7%) and rank 13 CT (2.7%) share values across non-adjacent ranks; rank 16 OR (2.6%) and rank 17 ME (2.6%) both 2.6% unlabeled; rank 18 MN (2.5%) and rank 19 WI (2.5%) unlabeled; rank 20 IA / rank 21 WA (2.4%) unlabeled; rank 22 CO / rank 23 SD (2.3%) unlabeled; rank 24 NE / rank 25 OH / rank 26 MD (2.2%) unlabeled; rank 27 CA / 28 KS / 29 VA (2.1%) unlabeled; rank 30 MI / 31 IN / 32 MO / 33 NM (2.0%) unlabeled; rank 34 ID / 35 UT / 36 WV / 37 KY (1.9%) unlabeled; rank 38 AR / 39 OK / 40 DE (1.8%) unlabeled; rank 41 NC / 42 SC (1.7%) unlabeled; rank 43-46 TN/GA/LA/MS (1.6%) unlabeled; rank 47 NV / 48 FL (1.5%) unlabeled; rank 49 TX / 50 AZ (1.4%) unlabeled. All ties should follow §18 tie-labeling convention."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-registered-motor-vehicles-2022",
+      "issues": [
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 7 GA (9.4M) < rank 8 IL (10.1M); IL should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 9 NC (8.4M) < rank 10 MI (8.6M); MI should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 11 NJ (6.6M) < rank 12 VA (7.5M); VA should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 13 IN (6.0M) < rank 14 WA (6.6M) < rank 15 TN (6.1M); order broken."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 25 OK (3.7M) < rank 26 LA (3.8M) < rank 27 KY (3.9M); descending order violated."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 29 CT (2.9M) < rank 30 IA (3.5M); IA should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 33 NV (2.5M) tied with rank 35 UT (2.5M) but MS (2.4M) at rank 34 is in between and lower; sort broken and no '(tied)' labels."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 36 NM (1.9M) < rank 37 NE (2.0M); NE should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 38 WV (1.6M) < rank 39 ID (1.9M); ID should rank higher."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 40 ME (1.2M) < rank 41 NH (1.4M) < rank 42 HI (1.2M) < rank 43 MT (1.5M); order broken."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 44 RI (890K) < rank 45 SD (1.1M) < rank 46 ND (970K); order broken."
+        },
+        {
+          "flag": "sort-inversion",
+          "detail": "rank 48 AK (770K) < rank 49 VT (600K) < rank 50 WY (760K); order broken."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-dc-fast-charging-ports-2024",
+      "issues": [
+        {
+          "flag": "false-tie",
+          "detail": "rank 6 CO (1,300) and rank 7 AZ (1,300 tied) — only AZ labeled '(tied)'. First tie member also needs consistent labeling."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 10 VA (1,000) and rank 11 OR (1,000 tied) — only OR labeled '(tied)'."
+        },
+        {
+          "flag": "false-tie",
+          "detail": "rank 14 PA (800) and rank 15 IL (800 tied) — only IL labeled '(tied)'."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-toll-road-mileage-2022",
+      "issues": [
+        {
+          "flag": "false-tie",
+          "detail": "rank 18 MD (51) and rank 19 DE (51 tied) — only DE labeled '(tied)'."
+        }
+      ]
+    }
+  ]
+}

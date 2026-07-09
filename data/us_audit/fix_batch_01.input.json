@@ -1,0 +1,2480 @@
+{
+  "cluster": "us-fix-01",
+  "questions": [
+    {
+      "id": "us-states-deep-dive-most-billionaires-2024",
+      "current": {
+        "title": "Most Billionaires",
+        "prompt": "Rank US states by the total number of resident billionaires on the Forbes 400 list.",
+        "disclaimer": "Billionaires counted by their primary state of residence, not their business's HQ state. DC not included (source omits it).",
+        "trivia": "Roughly two out of every three Forbes 400 members live in just five states.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "94 billionaires"
+          },
+          {
+            "rank": 2,
+            "code": "NY",
+            "value": "63 billionaires"
+          },
+          {
+            "rank": 3,
+            "code": "FL",
+            "value": "51 billionaires"
+          },
+          {
+            "rank": 4,
+            "code": "TX",
+            "value": "43 billionaires"
+          },
+          {
+            "rank": 5,
+            "code": "WA",
+            "value": "16 billionaires"
+          },
+          {
+            "rank": 6,
+            "code": "IL",
+            "value": "15 billionaires"
+          },
+          {
+            "rank": 7,
+            "code": "MA",
+            "value": "13 billionaires"
+          },
+          {
+            "rank": 8,
+            "code": "CT",
+            "value": "12 billionaires"
+          },
+          {
+            "rank": 9,
+            "code": "MI",
+            "value": "10 billionaires"
+          },
+          {
+            "rank": 10,
+            "code": "NV",
+            "value": "9 billionaires"
+          },
+          {
+            "rank": 11,
+            "code": "GA",
+            "value": "8 billionaires"
+          },
+          {
+            "rank": 11,
+            "code": "PA",
+            "value": "8 billionaires (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "CO",
+            "value": "7 billionaires"
+          },
+          {
+            "rank": 14,
+            "code": "TN",
+            "value": "6 billionaires"
+          },
+          {
+            "rank": 15,
+            "code": "AR",
+            "value": "5 billionaires"
+          },
+          {
+            "rank": 15,
+            "code": "MN",
+            "value": "5 billionaires (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "OH",
+            "value": "5 billionaires (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "NJ",
+            "value": "4 billionaires"
+          },
+          {
+            "rank": 18,
+            "code": "VA",
+            "value": "4 billionaires (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "MO",
+            "value": "3 billionaires"
+          },
+          {
+            "rank": 20,
+            "code": "NC",
+            "value": "3 billionaires (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "OR",
+            "value": "3 billionaires (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "WI",
+            "value": "3 billionaires (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "WY",
+            "value": "3 billionaires (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "AZ",
+            "value": "2 billionaires"
+          },
+          {
+            "rank": 25,
+            "code": "IN",
+            "value": "2 billionaires (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "MD",
+            "value": "2 billionaires (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "OK",
+            "value": "2 billionaires (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "SC",
+            "value": "2 billionaires (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "AL",
+            "value": "1 billionaire"
+          },
+          {
+            "rank": 30,
+            "code": "HI",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "IA",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "KS",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "KY",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "LA",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "MS",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "MT",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NE",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NH",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NM",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "RI",
+            "value": "1 billionaire (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "UT",
+            "value": "1 billionaire (tied)"
+          }
+        ],
+        "seededDepth": 42,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "value-format-mix",
+          "detail": "Value string format is inconsistent across tied entries. Some tied entries carry '(tied)' suffix, others do not: rank 15 AR='5 billionaires' but MN/OH='5 billionaires (tied)'; rank 20 MO='3 billionaires' but NC/OR/WI/WY='3 billionaires (tied)'; rank 25 AZ='2 billionaires' vs others '2 billionaires (tied)'; rank 30 AL='1 billionaire' vs others '1 billionaire (tied)'. Also singular/plural switches ('billionaire' vs 'billionaires').",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+      "current": {
+        "title": "Most Federally-Owned Public Land",
+        "prompt": "Rank US states by percentage of total land area owned by the federal government.",
+        "disclaimer": "Includes BLM, USFS, NPS, FWS, and DoD holdings; expressed as a percent of the state's total land area. Includes Washington DC.",
+        "trivia": "Nevada is over 80% federally owned \u2014 a legacy of Bureau of Land Management holdings across the Great Basin.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NV",
+            "value": "80.1%"
+          },
+          {
+            "rank": 2,
+            "code": "UT",
+            "value": "63.1%"
+          },
+          {
+            "rank": 3,
+            "code": "ID",
+            "value": "61.6%"
+          },
+          {
+            "rank": 4,
+            "code": "AK",
+            "value": "60.9%"
+          },
+          {
+            "rank": 5,
+            "code": "OR",
+            "value": "52.9%"
+          },
+          {
+            "rank": 6,
+            "code": "WY",
+            "value": "46.7%"
+          },
+          {
+            "rank": 7,
+            "code": "CA",
+            "value": "45.8%"
+          },
+          {
+            "rank": 8,
+            "code": "AZ",
+            "value": "38.6%"
+          },
+          {
+            "rank": 9,
+            "code": "CO",
+            "value": "35.9%"
+          },
+          {
+            "rank": 10,
+            "code": "NM",
+            "value": "34.7%"
+          },
+          {
+            "rank": 11,
+            "code": "MT",
+            "value": "29.0%"
+          },
+          {
+            "rank": 12,
+            "code": "WA",
+            "value": "28.5%"
+          },
+          {
+            "rank": 13,
+            "code": "DC",
+            "value": "24.7%"
+          },
+          {
+            "rank": 14,
+            "code": "HI",
+            "value": "19.4%"
+          },
+          {
+            "rank": 15,
+            "code": "NH",
+            "value": "13.3%"
+          },
+          {
+            "rank": 16,
+            "code": "MI",
+            "value": "9.9%"
+          },
+          {
+            "rank": 16,
+            "code": "VA",
+            "value": "9.9% (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "AR",
+            "value": "9.2%"
+          },
+          {
+            "rank": 19,
+            "code": "FL",
+            "value": "8.4%"
+          },
+          {
+            "rank": 20,
+            "code": "VT",
+            "value": "7.5%"
+          },
+          {
+            "rank": 21,
+            "code": "WV",
+            "value": "7.4%"
+          },
+          {
+            "rank": 22,
+            "code": "NC",
+            "value": "7.3%"
+          },
+          {
+            "rank": 23,
+            "code": "MN",
+            "value": "6.9%"
+          },
+          {
+            "rank": 24,
+            "code": "MS",
+            "value": "5.4%"
+          },
+          {
+            "rank": 24,
+            "code": "SC",
+            "value": "5.4% (tied)"
+          },
+          {
+            "rank": 24,
+            "code": "SD",
+            "value": "5.4% (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "TN",
+            "value": "5.3%"
+          },
+          {
+            "rank": 28,
+            "code": "WI",
+            "value": "5.2%"
+          },
+          {
+            "rank": 28,
+            "code": "MO",
+            "value": "5.2% (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "LA",
+            "value": "4.7%"
+          },
+          {
+            "rank": 30,
+            "code": "KY",
+            "value": "4.7% (tied)"
+          },
+          {
+            "rank": 32,
+            "code": "GA",
+            "value": "4.2%"
+          },
+          {
+            "rank": 33,
+            "code": "ND",
+            "value": "3.9%"
+          },
+          {
+            "rank": 34,
+            "code": "NJ",
+            "value": "3.5%"
+          },
+          {
+            "rank": 35,
+            "code": "AL",
+            "value": "3.1%"
+          },
+          {
+            "rank": 35,
+            "code": "MD",
+            "value": "3.1% (tied)"
+          },
+          {
+            "rank": 37,
+            "code": "DE",
+            "value": "2.4%"
+          },
+          {
+            "rank": 38,
+            "code": "PA",
+            "value": "2.1%"
+          },
+          {
+            "rank": 39,
+            "code": "IN",
+            "value": "1.9%"
+          },
+          {
+            "rank": 40,
+            "code": "TX",
+            "value": "1.8%"
+          },
+          {
+            "rank": 41,
+            "code": "OK",
+            "value": "1.6%"
+          },
+          {
+            "rank": 42,
+            "code": "OH",
+            "value": "1.2%"
+          },
+          {
+            "rank": 43,
+            "code": "ME",
+            "value": "1.1%"
+          },
+          {
+            "rank": 43,
+            "code": "MA",
+            "value": "1.1% (tied)"
+          },
+          {
+            "rank": 43,
+            "code": "IL",
+            "value": "1.1% (tied)"
+          },
+          {
+            "rank": 43,
+            "code": "NE",
+            "value": "1.1% (tied)"
+          },
+          {
+            "rank": 47,
+            "code": "NY",
+            "value": "0.8%"
+          },
+          {
+            "rank": 48,
+            "code": "KS",
+            "value": "0.5%"
+          },
+          {
+            "rank": 49,
+            "code": "RI",
+            "value": "0.4%"
+          },
+          {
+            "rank": 50,
+            "code": "IA",
+            "value": "0.3%"
+          },
+          {
+            "rank": 50,
+            "code": "CT",
+            "value": "0.3% (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "DC listed at r51 with 24.7%. Actual federal ownership of DC land is very high (federal buildings, National Mall, monuments) \u2014 CRS reports typically exclude DC or show ~28%+. Regardless, 24.7% is inconsistent with rank 51 (last place); at that value DC should rank around 13-14, above HI (19.4%). This is both a sort-inversion and a bucket/rank fact error.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-native-american-reservation-land-area-2023",
+      "current": {
+        "title": "Most Native American Reservation Land Area",
+        "prompt": "Name the US states with the most Native American reservation and trust land area.",
+        "disclaimer": "Total federal trust and reservation acreage held for tribes and individuals; excludes Alaska Native Corporation lands (ANCSA) which have a different legal status. Includes Washington DC.",
+        "trivia": "Arizona edges Alaska because most Alaska Native land was converted to corporate ownership under the 1971 ANCSA settlement rather than held as reservations.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AZ",
+            "value": "20.6M acres"
+          },
+          {
+            "rank": 2,
+            "code": "NM",
+            "value": "8.4M acres"
+          },
+          {
+            "rank": 3,
+            "code": "MT",
+            "value": "8.2M acres"
+          },
+          {
+            "rank": 4,
+            "code": "SD",
+            "value": "5.0M acres"
+          },
+          {
+            "rank": 5,
+            "code": "WA",
+            "value": "3.2M acres"
+          },
+          {
+            "rank": 6,
+            "code": "UT",
+            "value": "2.4M acres"
+          },
+          {
+            "rank": 7,
+            "code": "WY",
+            "value": "1.9M acres"
+          },
+          {
+            "rank": 8,
+            "code": "ND",
+            "value": "1.5M acres"
+          },
+          {
+            "rank": 9,
+            "code": "NV",
+            "value": "1.16M acres"
+          },
+          {
+            "rank": 10,
+            "code": "OR",
+            "value": "0.94M acres"
+          },
+          {
+            "rank": 11,
+            "code": "MN",
+            "value": "0.83M acres"
+          },
+          {
+            "rank": 12,
+            "code": "ID",
+            "value": "0.78M acres"
+          },
+          {
+            "rank": 12,
+            "code": "CO",
+            "value": "0.78M acres (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "CA",
+            "value": "0.63M acres"
+          },
+          {
+            "rank": 15,
+            "code": "WI",
+            "value": "0.45M acres"
+          },
+          {
+            "rank": 16,
+            "code": "OK",
+            "value": "0.42M acres"
+          },
+          {
+            "rank": 17,
+            "code": "NE",
+            "value": "0.24M acres"
+          },
+          {
+            "rank": 18,
+            "code": "MI",
+            "value": "0.12M acres"
+          },
+          {
+            "rank": 19,
+            "code": "NY",
+            "value": "0.11M acres"
+          },
+          {
+            "rank": 20,
+            "code": "ME",
+            "value": "0.10M acres"
+          },
+          {
+            "rank": 21,
+            "code": "FL",
+            "value": "0.09M acres"
+          },
+          {
+            "rank": 22,
+            "code": "NC",
+            "value": "0.057M acres"
+          },
+          {
+            "rank": 23,
+            "code": "MS",
+            "value": "0.035M acres"
+          },
+          {
+            "rank": 24,
+            "code": "KS",
+            "value": "0.032M acres"
+          },
+          {
+            "rank": 25,
+            "code": "LA",
+            "value": "0.024M acres"
+          },
+          {
+            "rank": 26,
+            "code": "IA",
+            "value": "0.008M acres"
+          },
+          {
+            "rank": 27,
+            "code": "MA",
+            "value": "0.006M acres"
+          },
+          {
+            "rank": 28,
+            "code": "CT",
+            "value": "0.003M acres"
+          },
+          {
+            "rank": 28,
+            "code": "TX",
+            "value": "0.003M acres (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "VA",
+            "value": "0.002M acres"
+          },
+          {
+            "rank": 30,
+            "code": "AL",
+            "value": "0.002M acres (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "RI",
+            "value": "0.002M acres (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "AK",
+            "value": "0.001M acres (Metlakatla only)"
+          },
+          {
+            "rank": 33,
+            "code": "SC",
+            "value": "0.001M acres (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "AR",
+            "value": "0 acres (no reservations)"
+          },
+          {
+            "rank": 35,
+            "code": "DE",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "DC",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "GA",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "HI",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "IL",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "IN",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "KY",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "MD",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "MO",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "NH",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "NJ",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "OH",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "PA",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "TN",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "VT",
+            "value": "0 acres (no reservations) (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "WV",
+            "value": "0 acres (no reservations) (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Disclaimer says 'excludes Alaska Native Corporation lands (ANCSA)' but AK's rank 33 value '0.001M acres (Metlakatla only)' inconsistently adds a per-row qualifier not applied to other states. If ANCSA exclusion is uniform, the Metlakatla note is redundant; if AK's number is materially different, it belongs in the disclaimer.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-retail-sales-per-capita-2022",
+      "current": {
+        "title": "Most Retail Sales per Capita",
+        "prompt": "Rank US states (and DC) by highest per-capita retail sales.",
+        "disclaimer": "Total retail sales divided by resident population; low-population, tourism-heavy states punch above their weight. Includes Washington DC.",
+        "trivia": "New Hampshire's rate is inflated by Massachusetts shoppers crossing the border to avoid sales tax.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NH",
+            "value": "$25,900 per capita"
+          },
+          {
+            "rank": 2,
+            "code": "DE",
+            "value": "$22,300 per capita"
+          },
+          {
+            "rank": 3,
+            "code": "ND",
+            "value": "$21,800 per capita"
+          },
+          {
+            "rank": 4,
+            "code": "VT",
+            "value": "$21,100 per capita"
+          },
+          {
+            "rank": 5,
+            "code": "ME",
+            "value": "$20,900 per capita"
+          },
+          {
+            "rank": 6,
+            "code": "MT",
+            "value": "$20,600 per capita"
+          },
+          {
+            "rank": 7,
+            "code": "SD",
+            "value": "$20,000 per capita"
+          },
+          {
+            "rank": 8,
+            "code": "WY",
+            "value": "$19,800 per capita"
+          },
+          {
+            "rank": 9,
+            "code": "FL",
+            "value": "$19,500 per capita"
+          },
+          {
+            "rank": 10,
+            "code": "OK",
+            "value": "$19,000 per capita"
+          },
+          {
+            "rank": 11,
+            "code": "TN",
+            "value": "$18,900 per capita"
+          },
+          {
+            "rank": 12,
+            "code": "TX",
+            "value": "$18,700 per capita"
+          },
+          {
+            "rank": 13,
+            "code": "AR",
+            "value": "$18,500 per capita"
+          },
+          {
+            "rank": 14,
+            "code": "MO",
+            "value": "$18,300 per capita"
+          },
+          {
+            "rank": 15,
+            "code": "IA",
+            "value": "$18,100 per capita"
+          },
+          {
+            "rank": 16,
+            "code": "KS",
+            "value": "$17,900 per capita"
+          },
+          {
+            "rank": 17,
+            "code": "NE",
+            "value": "$17,700 per capita"
+          },
+          {
+            "rank": 18,
+            "code": "CO",
+            "value": "$17,500 per capita"
+          },
+          {
+            "rank": 19,
+            "code": "MN",
+            "value": "$17,300 per capita"
+          },
+          {
+            "rank": 20,
+            "code": "WI",
+            "value": "$17,100 per capita"
+          },
+          {
+            "rank": 21,
+            "code": "GA",
+            "value": "$16,900 per capita"
+          },
+          {
+            "rank": 22,
+            "code": "NC",
+            "value": "$16,700 per capita"
+          },
+          {
+            "rank": 23,
+            "code": "SC",
+            "value": "$16,500 per capita"
+          },
+          {
+            "rank": 24,
+            "code": "AL",
+            "value": "$16,300 per capita"
+          },
+          {
+            "rank": 25,
+            "code": "IN",
+            "value": "$16,100 per capita"
+          },
+          {
+            "rank": 26,
+            "code": "KY",
+            "value": "$15,900 per capita"
+          },
+          {
+            "rank": 27,
+            "code": "VA",
+            "value": "$15,700 per capita"
+          },
+          {
+            "rank": 28,
+            "code": "MI",
+            "value": "$15,500 per capita"
+          },
+          {
+            "rank": 29,
+            "code": "AZ",
+            "value": "$15,300 per capita"
+          },
+          {
+            "rank": 30,
+            "code": "OR",
+            "value": "$15,100 per capita"
+          },
+          {
+            "rank": 31,
+            "code": "OH",
+            "value": "$14,900 per capita"
+          },
+          {
+            "rank": 32,
+            "code": "LA",
+            "value": "$14,700 per capita"
+          },
+          {
+            "rank": 33,
+            "code": "PA",
+            "value": "$14,500 per capita"
+          },
+          {
+            "rank": 34,
+            "code": "WA",
+            "value": "$14,300 per capita"
+          },
+          {
+            "rank": 35,
+            "code": "MS",
+            "value": "$14,100 per capita"
+          },
+          {
+            "rank": 36,
+            "code": "NV",
+            "value": "$13,900 per capita"
+          },
+          {
+            "rank": 37,
+            "code": "AK",
+            "value": "$13,700 per capita"
+          },
+          {
+            "rank": 38,
+            "code": "ID",
+            "value": "$13,500 per capita"
+          },
+          {
+            "rank": 39,
+            "code": "IL",
+            "value": "$13,300 per capita"
+          },
+          {
+            "rank": 40,
+            "code": "MA",
+            "value": "$13,100 per capita"
+          },
+          {
+            "rank": 41,
+            "code": "NM",
+            "value": "$12,900 per capita"
+          },
+          {
+            "rank": 42,
+            "code": "WV",
+            "value": "$12,700 per capita"
+          },
+          {
+            "rank": 43,
+            "code": "RI",
+            "value": "$12,500 per capita"
+          },
+          {
+            "rank": 44,
+            "code": "CT",
+            "value": "$12,300 per capita"
+          },
+          {
+            "rank": 45,
+            "code": "MD",
+            "value": "$12,100 per capita"
+          },
+          {
+            "rank": 46,
+            "code": "UT",
+            "value": "$11,900 per capita"
+          },
+          {
+            "rank": 47,
+            "code": "NJ",
+            "value": "$11,700 per capita"
+          },
+          {
+            "rank": 48,
+            "code": "CA",
+            "value": "$11,500 per capita"
+          },
+          {
+            "rank": 49,
+            "code": "NY",
+            "value": "$11,300 per capita"
+          },
+          {
+            "rank": 50,
+            "code": "HI",
+            "value": "$11,100 per capita"
+          },
+          {
+            "rank": 51,
+            "code": "DC",
+            "value": "$10,500 per capita"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "bucket-value",
+          "detail": "Values decrease by exactly $200 across almost all ranks from ~r10 onward ($19,000, $18,900, $18,700, $18,500, $18,300 ... $10,500). Uniform $200 stepping across 40+ states is not consistent with real Census retail-sales-per-capita data; values appear synthesized.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-demographics-largest-asian-population-share-2022",
+      "current": {
+        "title": "Largest Asian Population Share",
+        "prompt": "Which US states have the largest Asian population share (alone or in combination)?",
+        "disclaimer": "Asian alone or in combination with one or more other races. Includes Washington DC.",
+        "trivia": null,
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "HI",
+            "value": "56.5%"
+          },
+          {
+            "rank": 2,
+            "code": "CA",
+            "value": "17.1%"
+          },
+          {
+            "rank": 3,
+            "code": "WA",
+            "value": "11.4%"
+          },
+          {
+            "rank": 4,
+            "code": "NJ",
+            "value": "11.0%"
+          },
+          {
+            "rank": 5,
+            "code": "NV",
+            "value": "10.9%"
+          },
+          {
+            "rank": 6,
+            "code": "NY",
+            "value": "10.3%"
+          },
+          {
+            "rank": 7,
+            "code": "AK",
+            "value": "8.6%"
+          },
+          {
+            "rank": 8,
+            "code": "MA",
+            "value": "8.1%"
+          },
+          {
+            "rank": 8,
+            "code": "VA",
+            "value": "8.1% (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MD",
+            "value": "7.8%"
+          },
+          {
+            "rank": 11,
+            "code": "IL",
+            "value": "6.8%"
+          },
+          {
+            "rank": 12,
+            "code": "TX",
+            "value": "6.0%"
+          },
+          {
+            "rank": 13,
+            "code": "MN",
+            "value": "5.9%"
+          },
+          {
+            "rank": 14,
+            "code": "OR",
+            "value": "5.6%"
+          },
+          {
+            "rank": 15,
+            "code": "CT",
+            "value": "5.5%"
+          },
+          {
+            "rank": 16,
+            "code": "GA",
+            "value": "5.1%"
+          },
+          {
+            "rank": 17,
+            "code": "DC",
+            "value": "5.0%"
+          },
+          {
+            "rank": 18,
+            "code": "DE",
+            "value": "4.9%"
+          },
+          {
+            "rank": 19,
+            "code": "AZ",
+            "value": "4.4%"
+          },
+          {
+            "rank": 19,
+            "code": "PA",
+            "value": "4.4% (tied)"
+          },
+          {
+            "rank": 21,
+            "code": "CO",
+            "value": "4.0%"
+          },
+          {
+            "rank": 22,
+            "code": "NC",
+            "value": "3.9%"
+          },
+          {
+            "rank": 23,
+            "code": "RI",
+            "value": "3.8%"
+          },
+          {
+            "rank": 24,
+            "code": "MI",
+            "value": "3.7%"
+          },
+          {
+            "rank": 24,
+            "code": "KS",
+            "value": "3.7% (tied)"
+          },
+          {
+            "rank": 26,
+            "code": "NH",
+            "value": "3.5%"
+          },
+          {
+            "rank": 27,
+            "code": "FL",
+            "value": "3.2%"
+          },
+          {
+            "rank": 27,
+            "code": "WI",
+            "value": "3.2% (tied)"
+          },
+          {
+            "rank": 29,
+            "code": "OH",
+            "value": "2.9%"
+          },
+          {
+            "rank": 29,
+            "code": "UT",
+            "value": "2.9% (tied)"
+          },
+          {
+            "rank": 29,
+            "code": "IN",
+            "value": "2.9% (tied)"
+          },
+          {
+            "rank": 29,
+            "code": "OK",
+            "value": "2.9% (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "NE",
+            "value": "2.8%"
+          },
+          {
+            "rank": 33,
+            "code": "IA",
+            "value": "2.8% (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "MO",
+            "value": "2.5%"
+          },
+          {
+            "rank": 36,
+            "code": "TN",
+            "value": "2.2%"
+          },
+          {
+            "rank": 36,
+            "code": "VT",
+            "value": "2.2% (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "SC",
+            "value": "2.1%"
+          },
+          {
+            "rank": 38,
+            "code": "NM",
+            "value": "2.1% (tied)"
+          },
+          {
+            "rank": 40,
+            "code": "LA",
+            "value": "2.0%"
+          },
+          {
+            "rank": 40,
+            "code": "ND",
+            "value": "2.0% (tied)"
+          },
+          {
+            "rank": 40,
+            "code": "SD",
+            "value": "2.0% (tied)"
+          },
+          {
+            "rank": 43,
+            "code": "AR",
+            "value": "1.9%"
+          },
+          {
+            "rank": 43,
+            "code": "KY",
+            "value": "1.9% (tied)"
+          },
+          {
+            "rank": 43,
+            "code": "ID",
+            "value": "1.9% (tied)"
+          },
+          {
+            "rank": 46,
+            "code": "AL",
+            "value": "1.7%"
+          },
+          {
+            "rank": 46,
+            "code": "ME",
+            "value": "1.7% (tied)"
+          },
+          {
+            "rank": 48,
+            "code": "MS",
+            "value": "1.4%"
+          },
+          {
+            "rank": 48,
+            "code": "WY",
+            "value": "1.4% (tied)"
+          },
+          {
+            "rank": 50,
+            "code": "MT",
+            "value": "1.3%"
+          },
+          {
+            "rank": 51,
+            "code": "WV",
+            "value": "0.9%"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Demographics",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "value-format-mix",
+          "detail": "Tie at rank 8 uses '8.1% (tied)' for VA but plain '8.1%' for MA. Inconsistent tie-suffix formatting within the same question.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-electric-vehicle-registrations-2023",
+      "current": {
+        "title": "Most Electric Vehicle Registrations",
+        "prompt": "Name the US states with the most registered plug-in electric vehicles (BEVs).",
+        "disclaimer": "Counts light-duty battery-electric vehicles registered in the state; excludes plug-in hybrids in some tallies. Includes Washington DC.",
+        "trivia": "California alone accounts for roughly 37% of all registered electric vehicles in the United States.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "1,256,646 EVs"
+          },
+          {
+            "rank": 2,
+            "code": "FL",
+            "value": "254,878 EVs"
+          },
+          {
+            "rank": 3,
+            "code": "TX",
+            "value": "230,125 EVs"
+          },
+          {
+            "rank": 4,
+            "code": "WA",
+            "value": "152,101 EVs"
+          },
+          {
+            "rank": 5,
+            "code": "NJ",
+            "value": "134,753 EVs"
+          },
+          {
+            "rank": 6,
+            "code": "NY",
+            "value": "131,250 EVs"
+          },
+          {
+            "rank": 7,
+            "code": "IL",
+            "value": "99,573 EVs"
+          },
+          {
+            "rank": 8,
+            "code": "CO",
+            "value": "90,986 EVs"
+          },
+          {
+            "rank": 9,
+            "code": "AZ",
+            "value": "89,798 EVs"
+          },
+          {
+            "rank": 10,
+            "code": "VA",
+            "value": "84,936 EVs"
+          },
+          {
+            "rank": 11,
+            "code": "GA",
+            "value": "82,065 EVs"
+          },
+          {
+            "rank": 12,
+            "code": "MA",
+            "value": "73,514 EVs"
+          },
+          {
+            "rank": 13,
+            "code": "MD",
+            "value": "72,139 EVs"
+          },
+          {
+            "rank": 14,
+            "code": "NC",
+            "value": "70,164 EVs"
+          },
+          {
+            "rank": 15,
+            "code": "PA",
+            "value": "70,154 EVs"
+          },
+          {
+            "rank": 16,
+            "code": "OR",
+            "value": "68,500 EVs"
+          },
+          {
+            "rank": 17,
+            "code": "OH",
+            "value": "50,393 EVs"
+          },
+          {
+            "rank": 18,
+            "code": "MI",
+            "value": "49,861 EVs"
+          },
+          {
+            "rank": 19,
+            "code": "CT",
+            "value": "36,472 EVs"
+          },
+          {
+            "rank": 20,
+            "code": "MN",
+            "value": "34,538 EVs"
+          },
+          {
+            "rank": 21,
+            "code": "UT",
+            "value": "32,325 EVs"
+          },
+          {
+            "rank": 22,
+            "code": "NV",
+            "value": "31,558 EVs"
+          },
+          {
+            "rank": 23,
+            "code": "TN",
+            "value": "31,072 EVs"
+          },
+          {
+            "rank": 24,
+            "code": "MO",
+            "value": "26,861 EVs"
+          },
+          {
+            "rank": 25,
+            "code": "IN",
+            "value": "23,555 EVs"
+          },
+          {
+            "rank": 26,
+            "code": "WI",
+            "value": "22,412 EVs"
+          },
+          {
+            "rank": 27,
+            "code": "SC",
+            "value": "20,873 EVs"
+          },
+          {
+            "rank": 28,
+            "code": "HI",
+            "value": "20,822 EVs"
+          },
+          {
+            "rank": 29,
+            "code": "OK",
+            "value": "17,662 EVs"
+          },
+          {
+            "rank": 30,
+            "code": "AL",
+            "value": "15,076 EVs"
+          },
+          {
+            "rank": 31,
+            "code": "KY",
+            "value": "12,437 EVs"
+          },
+          {
+            "rank": 32,
+            "code": "NM",
+            "value": "11,977 EVs"
+          },
+          {
+            "rank": 33,
+            "code": "KS",
+            "value": "11,271 EVs"
+          },
+          {
+            "rank": 34,
+            "code": "IA",
+            "value": "10,433 EVs"
+          },
+          {
+            "rank": 35,
+            "code": "AR",
+            "value": "9,613 EVs"
+          },
+          {
+            "rank": 36,
+            "code": "LA",
+            "value": "9,077 EVs"
+          },
+          {
+            "rank": 37,
+            "code": "NH",
+            "value": "8,393 EVs"
+          },
+          {
+            "rank": 38,
+            "code": "DC",
+            "value": "8,150 EVs"
+          },
+          {
+            "rank": 39,
+            "code": "RI",
+            "value": "6,396 EVs"
+          },
+          {
+            "rank": 40,
+            "code": "ID",
+            "value": "5,809 EVs"
+          },
+          {
+            "rank": 41,
+            "code": "DE",
+            "value": "5,563 EVs"
+          },
+          {
+            "rank": 42,
+            "code": "ME",
+            "value": "5,353 EVs"
+          },
+          {
+            "rank": 43,
+            "code": "NE",
+            "value": "4,835 EVs"
+          },
+          {
+            "rank": 44,
+            "code": "MT",
+            "value": "3,861 EVs"
+          },
+          {
+            "rank": 45,
+            "code": "VT",
+            "value": "3,730 EVs"
+          },
+          {
+            "rank": 46,
+            "code": "MS",
+            "value": "3,590 EVs"
+          },
+          {
+            "rank": 47,
+            "code": "AK",
+            "value": "3,246 EVs"
+          },
+          {
+            "rank": 48,
+            "code": "WV",
+            "value": "2,758 EVs"
+          },
+          {
+            "rank": 49,
+            "code": "SD",
+            "value": "1,675 EVs"
+          },
+          {
+            "rank": 50,
+            "code": "WY",
+            "value": "1,502 EVs"
+          },
+          {
+            "rank": 51,
+            "code": "ND",
+            "value": "1,105 EVs"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Environment",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "prompt-ambiguous",
+          "detail": "Prompt says 'plug-in electric vehicles (BEVs)' \u2014 'plug-in' typically includes PHEVs while BEV means battery-electric only. Disclaimer says 'excludes plug-in hybrids in some tallies', which further hedges. Should specify BEV-only or plug-in (BEV+PHEV) consistently.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+      "current": {
+        "title": "Cloudiest States (Fewest Sunny Days)",
+        "prompt": "Rank the US states by cloudiest skies \u2014 states with the fewest average clear or sunny days per year (rank 1 = cloudiest).",
+        "disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals. Includes Washington DC.",
+        "trivia": "Seattle averages only about 71 clear days per year \u2014 but famously receives less annual rainfall than New York City despite its reputation.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AZ",
+            "value": "65 cloudy days/yr"
+          },
+          {
+            "rank": 2,
+            "code": "NV",
+            "value": "75 cloudy days/yr"
+          },
+          {
+            "rank": 3,
+            "code": "NM",
+            "value": "80 cloudy days/yr"
+          },
+          {
+            "rank": 4,
+            "code": "CA",
+            "value": "85 cloudy days/yr"
+          },
+          {
+            "rank": 5,
+            "code": "CO",
+            "value": "90 cloudy days/yr"
+          },
+          {
+            "rank": 6,
+            "code": "UT",
+            "value": "95 cloudy days/yr"
+          },
+          {
+            "rank": 7,
+            "code": "HI",
+            "value": "100 cloudy days/yr"
+          },
+          {
+            "rank": 8,
+            "code": "TX",
+            "value": "108 cloudy days/yr"
+          },
+          {
+            "rank": 9,
+            "code": "FL",
+            "value": "110 cloudy days/yr"
+          },
+          {
+            "rank": 10,
+            "code": "WY",
+            "value": "115 cloudy days/yr"
+          },
+          {
+            "rank": 11,
+            "code": "OK",
+            "value": "118 cloudy days/yr"
+          },
+          {
+            "rank": 12,
+            "code": "NE",
+            "value": "122 cloudy days/yr"
+          },
+          {
+            "rank": 13,
+            "code": "KS",
+            "value": "125 cloudy days/yr"
+          },
+          {
+            "rank": 14,
+            "code": "MT",
+            "value": "128 cloudy days/yr"
+          },
+          {
+            "rank": 15,
+            "code": "LA",
+            "value": "130 cloudy days/yr"
+          },
+          {
+            "rank": 16,
+            "code": "AL",
+            "value": "132 cloudy days/yr"
+          },
+          {
+            "rank": 17,
+            "code": "GA",
+            "value": "134 cloudy days/yr"
+          },
+          {
+            "rank": 18,
+            "code": "SC",
+            "value": "136 cloudy days/yr"
+          },
+          {
+            "rank": 19,
+            "code": "MS",
+            "value": "138 cloudy days/yr"
+          },
+          {
+            "rank": 20,
+            "code": "ID",
+            "value": "140 cloudy days/yr"
+          },
+          {
+            "rank": 21,
+            "code": "SD",
+            "value": "142 cloudy days/yr"
+          },
+          {
+            "rank": 22,
+            "code": "AR",
+            "value": "144 cloudy days/yr"
+          },
+          {
+            "rank": 23,
+            "code": "ND",
+            "value": "146 cloudy days/yr"
+          },
+          {
+            "rank": 24,
+            "code": "NC",
+            "value": "148 cloudy days/yr"
+          },
+          {
+            "rank": 25,
+            "code": "VA",
+            "value": "150 cloudy days/yr"
+          },
+          {
+            "rank": 26,
+            "code": "DC",
+            "value": "152 cloudy days/yr"
+          },
+          {
+            "rank": 27,
+            "code": "TN",
+            "value": "154 cloudy days/yr"
+          },
+          {
+            "rank": 28,
+            "code": "MO",
+            "value": "156 cloudy days/yr"
+          },
+          {
+            "rank": 29,
+            "code": "IA",
+            "value": "158 cloudy days/yr"
+          },
+          {
+            "rank": 30,
+            "code": "DE",
+            "value": "160 cloudy days/yr"
+          },
+          {
+            "rank": 31,
+            "code": "MD",
+            "value": "162 cloudy days/yr"
+          },
+          {
+            "rank": 32,
+            "code": "KY",
+            "value": "165 cloudy days/yr"
+          },
+          {
+            "rank": 33,
+            "code": "MN",
+            "value": "168 cloudy days/yr"
+          },
+          {
+            "rank": 34,
+            "code": "NJ",
+            "value": "170 cloudy days/yr"
+          },
+          {
+            "rank": 35,
+            "code": "RI",
+            "value": "173 cloudy days/yr"
+          },
+          {
+            "rank": 36,
+            "code": "CT",
+            "value": "175 cloudy days/yr"
+          },
+          {
+            "rank": 37,
+            "code": "IL",
+            "value": "178 cloudy days/yr"
+          },
+          {
+            "rank": 38,
+            "code": "MA",
+            "value": "180 cloudy days/yr"
+          },
+          {
+            "rank": 39,
+            "code": "WI",
+            "value": "184 cloudy days/yr"
+          },
+          {
+            "rank": 40,
+            "code": "ME",
+            "value": "185 cloudy days/yr"
+          },
+          {
+            "rank": 41,
+            "code": "NH",
+            "value": "187 cloudy days/yr"
+          },
+          {
+            "rank": 42,
+            "code": "IN",
+            "value": "189 cloudy days/yr"
+          },
+          {
+            "rank": 43,
+            "code": "WV",
+            "value": "192 cloudy days/yr"
+          },
+          {
+            "rank": 44,
+            "code": "PA",
+            "value": "194 cloudy days/yr"
+          },
+          {
+            "rank": 45,
+            "code": "OH",
+            "value": "195 cloudy days/yr"
+          },
+          {
+            "rank": 46,
+            "code": "MI",
+            "value": "198 cloudy days/yr"
+          },
+          {
+            "rank": 47,
+            "code": "NY",
+            "value": "201 cloudy days/yr"
+          },
+          {
+            "rank": 48,
+            "code": "VT",
+            "value": "204 cloudy days/yr"
+          },
+          {
+            "rank": 49,
+            "code": "AK",
+            "value": "220 cloudy days/yr"
+          },
+          {
+            "rank": 50,
+            "code": "OR",
+            "value": "222 cloudy days/yr"
+          },
+          {
+            "rank": 51,
+            "code": "WA",
+            "value": "226 cloudy days/yr"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "prompt-ambiguous",
+          "detail": "Prompt says 'fewest average clear or sunny days per year (rank 1 = cloudiest)' but values are reported as 'cloudy days/yr'. The disclaimer refers to 'mean number of overcast days' while the source name is 'Mean Number of Clear Days'. Player is asked to rank by cloudy days but source metric per its title is clear days \u2014 inverse of value shown. Metric definition is inconsistent between prompt, disclaimer, source, and value label.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+      "current": {
+        "title": "Driest States (Least Annual Precipitation)",
+        "prompt": "Rank the US states with the lowest average annual precipitation, by statewide average.",
+        "disclaimer": "Rank 1 is the driest state (lowest inches per year). Statewide averages, not local extremes. Includes Washington DC.",
+        "trivia": "Nevada is the driest US state \u2014 parts of the Amargosa Desert receive under 3 inches per year, drier than many places in the Sahara.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NV",
+            "value": "10.3 in"
+          },
+          {
+            "rank": 2,
+            "code": "UT",
+            "value": "12.2 in"
+          },
+          {
+            "rank": 3,
+            "code": "AZ",
+            "value": "13.6 in"
+          },
+          {
+            "rank": 4,
+            "code": "WY",
+            "value": "14.5 in"
+          },
+          {
+            "rank": 5,
+            "code": "NM",
+            "value": "14.6 in"
+          },
+          {
+            "rank": 6,
+            "code": "MT",
+            "value": "15.3 in"
+          },
+          {
+            "rank": 7,
+            "code": "CO",
+            "value": "16.1 in"
+          },
+          {
+            "rank": 8,
+            "code": "ND",
+            "value": "17.8 in"
+          },
+          {
+            "rank": 9,
+            "code": "ID",
+            "value": "19.0 in"
+          },
+          {
+            "rank": 10,
+            "code": "SD",
+            "value": "20.6 in"
+          },
+          {
+            "rank": 11,
+            "code": "CA",
+            "value": "21.4 in"
+          },
+          {
+            "rank": 12,
+            "code": "AK",
+            "value": "22.5 in"
+          },
+          {
+            "rank": 13,
+            "code": "NE",
+            "value": "24.1 in"
+          },
+          {
+            "rank": 14,
+            "code": "OR",
+            "value": "27.4 in"
+          },
+          {
+            "rank": 15,
+            "code": "MN",
+            "value": "27.5 in"
+          },
+          {
+            "rank": 16,
+            "code": "KS",
+            "value": "28.9 in"
+          },
+          {
+            "rank": 17,
+            "code": "TX",
+            "value": "29.1 in"
+          },
+          {
+            "rank": 18,
+            "code": "WI",
+            "value": "32.6 in"
+          },
+          {
+            "rank": 19,
+            "code": "MI",
+            "value": "33.0 in"
+          },
+          {
+            "rank": 20,
+            "code": "IA",
+            "value": "34.0 in"
+          },
+          {
+            "rank": 21,
+            "code": "OK",
+            "value": "36.5 in"
+          },
+          {
+            "rank": 22,
+            "code": "WA",
+            "value": "38.4 in"
+          },
+          {
+            "rank": 23,
+            "code": "IL",
+            "value": "39.2 in"
+          },
+          {
+            "rank": 24,
+            "code": "OH",
+            "value": "40.2 in"
+          },
+          {
+            "rank": 25,
+            "code": "DC",
+            "value": "40.8 in"
+          },
+          {
+            "rank": 26,
+            "code": "NY",
+            "value": "42.3 in"
+          },
+          {
+            "rank": 27,
+            "code": "MO",
+            "value": "42.4 in"
+          },
+          {
+            "rank": 28,
+            "code": "IN",
+            "value": "42.6 in"
+          },
+          {
+            "rank": 29,
+            "code": "PA",
+            "value": "42.9 in"
+          },
+          {
+            "rank": 30,
+            "code": "VT",
+            "value": "43.0 in"
+          },
+          {
+            "rank": 31,
+            "code": "NH",
+            "value": "43.4 in"
+          },
+          {
+            "rank": 32,
+            "code": "VA",
+            "value": "44.3 in"
+          },
+          {
+            "rank": 33,
+            "code": "ME",
+            "value": "44.4 in"
+          },
+          {
+            "rank": 34,
+            "code": "MD",
+            "value": "44.5 in"
+          },
+          {
+            "rank": 35,
+            "code": "WV",
+            "value": "45.2 in"
+          },
+          {
+            "rank": 36,
+            "code": "DE",
+            "value": "45.7 in"
+          },
+          {
+            "rank": 37,
+            "code": "NJ",
+            "value": "47.1 in"
+          },
+          {
+            "rank": 38,
+            "code": "RI",
+            "value": "47.9 in"
+          },
+          {
+            "rank": 39,
+            "code": "MA",
+            "value": "48.0 in"
+          },
+          {
+            "rank": 40,
+            "code": "KY",
+            "value": "48.9 in"
+          },
+          {
+            "rank": 41,
+            "code": "SC",
+            "value": "49.8 in"
+          },
+          {
+            "rank": 42,
+            "code": "CT",
+            "value": "50.3 in"
+          },
+          {
+            "rank": 43,
+            "code": "NC",
+            "value": "50.4 in"
+          },
+          {
+            "rank": 44,
+            "code": "AR",
+            "value": "50.6 in"
+          },
+          {
+            "rank": 45,
+            "code": "GA",
+            "value": "50.7 in"
+          },
+          {
+            "rank": 46,
+            "code": "TN",
+            "value": "54.2 in"
+          },
+          {
+            "rank": 47,
+            "code": "FL",
+            "value": "54.5 in"
+          },
+          {
+            "rank": 48,
+            "code": "AL",
+            "value": "58.3 in"
+          },
+          {
+            "rank": 49,
+            "code": "MS",
+            "value": "59.0 in"
+          },
+          {
+            "rank": 50,
+            "code": "LA",
+            "value": "60.1 in"
+          },
+          {
+            "rank": 51,
+            "code": "HI",
+            "value": "63.7 in"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "See paired 'Wettest States' finding \u2014 the two lists disagree on many statewide 1991-2020 NOAA normals (NV, WY, CO, ND, ID, SD, MN, NY, WI, MI, IA, WA, IL, OH, MO, VT, VA, ME, DE, NJ, MA, NC, and more). Same source is cited for both. At least one of the two questions has bad values.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-highest-peak-elevation-2024",
+      "current": {
+        "title": "Highest Peak Elevation",
+        "prompt": "Rank the US states by the elevation of their highest natural point (USGS).",
+        "disclaimer": "All top-10 state high points are in the West except (technically) they all are \u2014 the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15. Includes Washington DC.",
+        "trivia": "Denali (Alaska) at 20,310 ft is the highest point in North America.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AK",
+            "value": "20,310 ft (Denali)"
+          },
+          {
+            "rank": 2,
+            "code": "CA",
+            "value": "14,505 ft (Mt Whitney)"
+          },
+          {
+            "rank": 3,
+            "code": "CO",
+            "value": "14,440 ft (Mt Elbert)"
+          },
+          {
+            "rank": 4,
+            "code": "WA",
+            "value": "14,417 ft (Mt Rainier)"
+          },
+          {
+            "rank": 5,
+            "code": "WY",
+            "value": "13,809 ft (Gannett Peak)"
+          },
+          {
+            "rank": 6,
+            "code": "HI",
+            "value": "13,796 ft (Mauna Kea)"
+          },
+          {
+            "rank": 7,
+            "code": "UT",
+            "value": "13,528 ft (Kings Peak)"
+          },
+          {
+            "rank": 8,
+            "code": "NM",
+            "value": "13,167 ft (Wheeler Peak)"
+          },
+          {
+            "rank": 9,
+            "code": "NV",
+            "value": "13,147 ft (Boundary Peak)"
+          },
+          {
+            "rank": 10,
+            "code": "MT",
+            "value": "12,807 ft (Granite Peak)"
+          },
+          {
+            "rank": 11,
+            "code": "ID",
+            "value": "12,668 ft (Borah Peak)"
+          },
+          {
+            "rank": 12,
+            "code": "AZ",
+            "value": "12,637 ft (Humphreys Peak)"
+          },
+          {
+            "rank": 13,
+            "code": "OR",
+            "value": "11,249 ft (Mt Hood)"
+          },
+          {
+            "rank": 14,
+            "code": "TX",
+            "value": "8,751 ft (Guadalupe Peak)"
+          },
+          {
+            "rank": 15,
+            "code": "SD",
+            "value": "7,242 ft (Black Elk Peak)"
+          },
+          {
+            "rank": 16,
+            "code": "NC",
+            "value": "6,684 ft (Mt Mitchell)"
+          },
+          {
+            "rank": 17,
+            "code": "TN",
+            "value": "6,643 ft (Clingmans Dome)"
+          },
+          {
+            "rank": 18,
+            "code": "NH",
+            "value": "6,288 ft (Mt Washington)"
+          },
+          {
+            "rank": 19,
+            "code": "VA",
+            "value": "5,729 ft (Mt Rogers)"
+          },
+          {
+            "rank": 20,
+            "code": "NE",
+            "value": "5,424 ft (Panorama Point)"
+          },
+          {
+            "rank": 21,
+            "code": "NY",
+            "value": "5,344 ft (Mt Marcy)"
+          },
+          {
+            "rank": 22,
+            "code": "ME",
+            "value": "5,269 ft (Mt Katahdin)"
+          },
+          {
+            "rank": 23,
+            "code": "OK",
+            "value": "4,975 ft (Black Mesa)"
+          },
+          {
+            "rank": 24,
+            "code": "WV",
+            "value": "4,863 ft (Spruce Knob)"
+          },
+          {
+            "rank": 25,
+            "code": "GA",
+            "value": "4,784 ft (Brasstown Bald)"
+          },
+          {
+            "rank": 26,
+            "code": "VT",
+            "value": "4,395 ft (Mt Mansfield)"
+          },
+          {
+            "rank": 27,
+            "code": "KY",
+            "value": "4,145 ft (Black Mountain)"
+          },
+          {
+            "rank": 28,
+            "code": "KS",
+            "value": "4,041 ft (Mt Sunflower)"
+          },
+          {
+            "rank": 29,
+            "code": "SC",
+            "value": "3,560 ft (Sassafras Mtn)"
+          },
+          {
+            "rank": 30,
+            "code": "ND",
+            "value": "3,506 ft (White Butte)"
+          },
+          {
+            "rank": 31,
+            "code": "MA",
+            "value": "3,489 ft (Mt Greylock)"
+          },
+          {
+            "rank": 32,
+            "code": "MD",
+            "value": "3,360 ft (Backbone Mtn)"
+          },
+          {
+            "rank": 33,
+            "code": "PA",
+            "value": "3,213 ft (Mt Davis)"
+          },
+          {
+            "rank": 34,
+            "code": "AR",
+            "value": "2,753 ft (Mt Magazine)"
+          },
+          {
+            "rank": 35,
+            "code": "AL",
+            "value": "2,413 ft (Cheaha Mtn)"
+          },
+          {
+            "rank": 36,
+            "code": "CT",
+            "value": "2,379 ft (Mt Frissell shoulder)"
+          },
+          {
+            "rank": 37,
+            "code": "MN",
+            "value": "2,301 ft (Eagle Mtn)"
+          },
+          {
+            "rank": 38,
+            "code": "MI",
+            "value": "1,979 ft (Mt Arvon)"
+          },
+          {
+            "rank": 39,
+            "code": "WI",
+            "value": "1,951 ft (Timms Hill)"
+          },
+          {
+            "rank": 40,
+            "code": "NJ",
+            "value": "1,803 ft (High Point)"
+          },
+          {
+            "rank": 41,
+            "code": "MO",
+            "value": "1,772 ft (Taum Sauk Mtn)"
+          },
+          {
+            "rank": 42,
+            "code": "IA",
+            "value": "1,671 ft (Hawkeye Point)"
+          },
+          {
+            "rank": 43,
+            "code": "OH",
+            "value": "1,549 ft (Campbell Hill)"
+          },
+          {
+            "rank": 44,
+            "code": "IN",
+            "value": "1,257 ft (Hoosier Hill)"
+          },
+          {
+            "rank": 45,
+            "code": "IL",
+            "value": "1,235 ft (Charles Mound)"
+          },
+          {
+            "rank": 46,
+            "code": "RI",
+            "value": "812 ft (Jerimoth Hill)"
+          },
+          {
+            "rank": 47,
+            "code": "MS",
+            "value": "807 ft (Woodall Mtn)"
+          },
+          {
+            "rank": 48,
+            "code": "LA",
+            "value": "535 ft (Driskill Mtn)"
+          },
+          {
+            "rank": 49,
+            "code": "DE",
+            "value": "448 ft (Ebright Azimuth)"
+          },
+          {
+            "rank": 50,
+            "code": "DC",
+            "value": "409 ft (Fort Reno)"
+          },
+          {
+            "rank": 51,
+            "code": "FL",
+            "value": "345 ft (Britton Hill)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Disclaimer text is garbled/self-contradictory: 'All top-10 state high points are in the West except (technically) they all are'. Reads as an unfinished edit. Should be clarified (e.g., 'All top-10 state high points are in the West' or clarify the caveat).",
+          "severity": "low"
+        }
+      ]
+    }
+  ]
+}

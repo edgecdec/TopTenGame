@@ -1,0 +1,1590 @@
+{
+  "cluster": "us-fix-03",
+  "questions": [
+    {
+      "id": "us-states-geography-states-crossed-by-the-pacific-crest-trail-2024",
+      "current": {
+        "title": "States Crossed by the Pacific Crest Trail",
+        "prompt": "Name the US states the Pacific Crest National Scenic Trail passes through.",
+        "disclaimer": "The PCT crosses only three states between the Mexican and Canadian borders. Ordered south to north. DC not included (topic is state-scoped).",
+        "trivia": "The trail runs 2,650 miles from Campo, California to Manning Park in British Columbia; California holds two-thirds of its length.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "1,700 mi (southern terminus)"
+          },
+          {
+            "rank": 2,
+            "code": "WA",
+            "value": "506 mi (northern terminus)"
+          },
+          {
+            "rank": 3,
+            "code": "OR",
+            "value": "455 mi"
+          }
+        ],
+        "seededDepth": 3,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "value-format-mix",
+          "detail": "Values are trail-miles (1,700 mi / 455 mi / 506 mi) but ranks follow geographic south-to-north order, not descending mileage. If ranked by miles, order would be CA, WA (506), OR (455). Mixing an ordered rank with an unrelated metric is confusing.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+      "current": {
+        "title": "States that touch a Great Lake",
+        "prompt": "Name the US states with a shoreline on one of the five Great Lakes.",
+        "disclaimer": "Eight US states have a Great Lakes shoreline; the pool is exactly 8. DC not included (topic is state-scoped).",
+        "trivia": "Michigan is the only state that borders four of the five Great Lakes (Superior, Michigan, Huron, Erie).",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MI",
+            "value": "4 Great Lakes (Superior, Michigan, Huron, Erie)"
+          },
+          {
+            "rank": 2,
+            "code": "WI",
+            "value": "2 Great Lakes (Superior, Michigan)"
+          },
+          {
+            "rank": 2,
+            "code": "NY",
+            "value": "2 Great Lakes (Erie, Ontario, tied) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "OH",
+            "value": "1 Great Lake (Erie)"
+          },
+          {
+            "rank": 4,
+            "code": "IL",
+            "value": "1 Great Lake (Michigan, tied) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "IN",
+            "value": "1 Great Lake (Michigan, tied) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "MN",
+            "value": "1 Great Lake (Superior, tied) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "PA",
+            "value": "1 Great Lake (Erie, tied) (tied)"
+          }
+        ],
+        "seededDepth": 8,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "value-format-mix",
+          "detail": "Rank-4 tie is inconsistently annotated. OH (rank 4) value is '1 Great Lake (Erie)' with no '(tied)' suffix, while the other four rank-4 entries (IL, IN, MN, PA) all include '(tied)'. Same rank, same count, but marker missing on OH.",
+          "severity": "low"
+        },
+        {
+          "issue": "value-format-mix",
+          "detail": "NY (rank 2) value '2 Great Lakes (Erie, Ontario, tied)' embeds 'tied' inside the parenthetical lake list, while WI (rank 2) '2 Great Lakes (Superior, Michigan)' omits the tie marker entirely. The two rank-2 entries use different formats.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-lowest-point-below-sea-level-2024",
+      "current": {
+        "title": "States with the lowest point below sea level",
+        "prompt": "Name the US states whose lowest elevation point sits below sea level.",
+        "disclaimer": "Ranked by depth below sea level; rank 1 is the deepest below sea level. DC not included (topic is state-scoped).",
+        "trivia": "California's Badwater Basin in Death Valley at -282 ft is the lowest point in North America.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "-282 ft (Badwater Basin)"
+          },
+          {
+            "rank": 2,
+            "code": "LA",
+            "value": "-8 ft (New Orleans)"
+          }
+        ],
+        "seededDepth": 2,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Only 2 states listed (CA, LA). This is likely incomplete \u2014 several other states have depressions at or below sea level in specific locations (e.g., NY's parts of NYC below MSL, WA has areas near sea level). However, if strictly 'lowest official point' per USGS, only CA (Badwater -282) and LA (-8, New Orleans) have official state low-points below sea level, so this may be correct. Ambiguity: seededDepth=2 is legitimate only if USGS methodology is strict. Flag for prompt clarity \u2014 the current prompt phrasing 'lowest elevation point sits below sea level' is unambiguous and only CA/LA qualify, so this is arguably OK. Downgrading severity.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+      "current": {
+        "title": "States with the most active volcanoes",
+        "prompt": "Name the US states with the most active or potentially active volcanoes.",
+        "disclaimer": "Includes volcanoes classified by USGS as historically active or potentially active. DC not included (topic is state-scoped).",
+        "trivia": "Alaska alone has over 130 volcanoes considered active in geologic time, more than the rest of the US combined.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AK",
+            "value": "141 volcanoes"
+          },
+          {
+            "rank": 2,
+            "code": "CA",
+            "value": "18 volcanoes"
+          },
+          {
+            "rank": 3,
+            "code": "OR",
+            "value": "17 volcanoes"
+          },
+          {
+            "rank": 4,
+            "code": "NV",
+            "value": "13 volcanoes"
+          },
+          {
+            "rank": 5,
+            "code": "NM",
+            "value": "12 volcanoes"
+          },
+          {
+            "rank": 6,
+            "code": "UT",
+            "value": "9 volcanoes"
+          },
+          {
+            "rank": 7,
+            "code": "WA",
+            "value": "7 volcanoes"
+          },
+          {
+            "rank": 8,
+            "code": "ID",
+            "value": "6 volcanoes"
+          },
+          {
+            "rank": 9,
+            "code": "AZ",
+            "value": "5 volcanoes"
+          },
+          {
+            "rank": 9,
+            "code": "HI",
+            "value": "5 volcanoes (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "WY",
+            "value": "4 volcanoes (Yellowstone area)"
+          },
+          {
+            "rank": 12,
+            "code": "CO",
+            "value": "3 volcanoes"
+          },
+          {
+            "rank": 13,
+            "code": "MT",
+            "value": "1 volcano"
+          }
+        ],
+        "seededDepth": 13,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Ranking is implausible against USGS. Washington (Rainier, St. Helens, Adams, Baker, Glacier Peak plus vent complexes) is listed at only 7 volcanoes and ranked below NV (13) and NM (12). Per USGS Cascades/Volcano Hazards inventories, WA is one of the top volcanic states in the lower 48 and should rank above NV and NM. NV/NM counts also look inflated relative to standard USGS active/potentially-active lists.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-tallest-building-2024",
+      "current": {
+        "title": "Tallest Building",
+        "prompt": "Rank the US states by the height of their single tallest completed building (roof/architectural height).",
+        "disclaimer": "Uses architectural height (top of spire/roof) per CTBUH, not antenna height. Only completed buildings \u2014 under-construction towers excluded. Includes Washington DC.",
+        "trivia": "One World Trade Center's 1,776 ft height was chosen to symbolize the year of American independence.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NY",
+            "value": "1,776 ft (One WTC)"
+          },
+          {
+            "rank": 2,
+            "code": "IL",
+            "value": "1,451 ft (Willis Tower)"
+          },
+          {
+            "rank": 3,
+            "code": "PA",
+            "value": "1,121 ft (Comcast Technology Center)"
+          },
+          {
+            "rank": 4,
+            "code": "CA",
+            "value": "1,070 ft (Wilshire Grand)"
+          },
+          {
+            "rank": 5,
+            "code": "GA",
+            "value": "1,023 ft (Bank of America Plaza, Atlanta)"
+          },
+          {
+            "rank": 6,
+            "code": "TX",
+            "value": "1,002 ft (JPMorgan Chase Tower, Houston)"
+          },
+          {
+            "rank": 7,
+            "code": "OH",
+            "value": "947 ft (Key Tower, Cleveland)"
+          },
+          {
+            "rank": 8,
+            "code": "WA",
+            "value": "933 ft (Columbia Center, Seattle)"
+          },
+          {
+            "rank": 9,
+            "code": "NC",
+            "value": "871 ft (Bank of America Corporate Center)"
+          },
+          {
+            "rank": 10,
+            "code": "FL",
+            "value": "868 ft (Panorama Tower, Miami)"
+          },
+          {
+            "rank": 11,
+            "code": "OK",
+            "value": "845 ft (Devon Tower)"
+          },
+          {
+            "rank": 12,
+            "code": "WI",
+            "value": "833 ft (US Bank Center, Milwaukee)"
+          },
+          {
+            "rank": 13,
+            "code": "IN",
+            "value": "811 ft (Salesforce Tower, Indianapolis)"
+          },
+          {
+            "rank": 14,
+            "code": "IA",
+            "value": "801 ft (Principal Financial Group 801 Grand)"
+          },
+          {
+            "rank": 15,
+            "code": "MN",
+            "value": "792 ft (IDS Center)"
+          },
+          {
+            "rank": 16,
+            "code": "MA",
+            "value": "790 ft (200 Clarendon)"
+          },
+          {
+            "rank": 17,
+            "code": "NJ",
+            "value": "781 ft (99 Hudson Street, Jersey City)"
+          },
+          {
+            "rank": 18,
+            "code": "NV",
+            "value": "735 ft (Resorts World Las Vegas)"
+          },
+          {
+            "rank": 19,
+            "code": "MI",
+            "value": "727 ft (Ren Cen Tower 100, Detroit)"
+          },
+          {
+            "rank": 20,
+            "code": "CO",
+            "value": "714 ft (Republic Plaza, Denver)"
+          },
+          {
+            "rank": 21,
+            "code": "LA",
+            "value": "697 ft (Hancock Whitney Center)"
+          },
+          {
+            "rank": 22,
+            "code": "NE",
+            "value": "634 ft (First National Bank Tower, Omaha)"
+          },
+          {
+            "rank": 23,
+            "code": "TN",
+            "value": "617 ft (AT&T Building, Nashville)"
+          },
+          {
+            "rank": 24,
+            "code": "MO",
+            "value": "593 ft (One Kansas City Place)"
+          },
+          {
+            "rank": 25,
+            "code": "KY",
+            "value": "549 ft (400 West Market, Louisville)"
+          },
+          {
+            "rank": 26,
+            "code": "OR",
+            "value": "546 ft (Wells Fargo Center, Portland)"
+          },
+          {
+            "rank": 27,
+            "code": "MD",
+            "value": "529 ft (Transamerica Tower, Baltimore)"
+          },
+          {
+            "rank": 28,
+            "code": "CT",
+            "value": "527 ft (City Place I, Hartford)"
+          },
+          {
+            "rank": 29,
+            "code": "VA",
+            "value": "508 ft (Westin Virginia Beach)"
+          },
+          {
+            "rank": 30,
+            "code": "AZ",
+            "value": "483 ft (Chase Tower, Phoenix)"
+          },
+          {
+            "rank": 31,
+            "code": "AR",
+            "value": "454 ft (Simmons Tower, Little Rock)"
+          },
+          {
+            "rank": 31,
+            "code": "AL",
+            "value": "454 ft (Wells Fargo Tower, Birmingham) (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "RI",
+            "value": "428 ft (Industrial Trust Building, Providence)"
+          },
+          {
+            "rank": 34,
+            "code": "SC",
+            "value": "425 ft (Capitol Center, Columbia)"
+          },
+          {
+            "rank": 35,
+            "code": "UT",
+            "value": "422 ft (Wells Fargo Center, Salt Lake City)"
+          },
+          {
+            "rank": 36,
+            "code": "HI",
+            "value": "418 ft (First Hawaiian Center)"
+          },
+          {
+            "rank": 37,
+            "code": "DE",
+            "value": "395 ft (Chase Manhattan Centre, Wilmington)"
+          },
+          {
+            "rank": 38,
+            "code": "NM",
+            "value": "351 ft (Albuquerque Plaza)"
+          },
+          {
+            "rank": 39,
+            "code": "MS",
+            "value": "348 ft (Regions Plaza, Jackson)"
+          },
+          {
+            "rank": 40,
+            "code": "WV",
+            "value": "330 ft (Chase Tower, Charleston)"
+          },
+          {
+            "rank": 41,
+            "code": "DC",
+            "value": "329 ft (Washington Monument, non-building 555)"
+          },
+          {
+            "rank": 42,
+            "code": "ID",
+            "value": "323 ft (Zions Bank Building, Boise)"
+          },
+          {
+            "rank": 43,
+            "code": "KS",
+            "value": "310 ft (Epic Center, Wichita)"
+          },
+          {
+            "rank": 44,
+            "code": "AK",
+            "value": "296 ft (Conoco-Phillips Building, Anchorage)"
+          },
+          {
+            "rank": 45,
+            "code": "NH",
+            "value": "275 ft (City Hall Plaza, Manchester)"
+          },
+          {
+            "rank": 46,
+            "code": "MT",
+            "value": "272 ft (First Interstate Center, Billings)"
+          },
+          {
+            "rank": 47,
+            "code": "ND",
+            "value": "241 fkt (North Dakota State Capitol, Bismarck)"
+          },
+          {
+            "rank": 48,
+            "code": "ME",
+            "value": "213 ft (Franklin Towers, Portland)"
+          },
+          {
+            "rank": 49,
+            "code": "WY",
+            "value": "191 ft (White Hall, Laramie)"
+          },
+          {
+            "rank": 50,
+            "code": "SD",
+            "value": "174 ft (CenturyLink Tower, Sioux Falls)"
+          },
+          {
+            "rank": 51,
+            "code": "VT",
+            "value": "124 ft (Decker Towers, Burlington)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Rank 41 DC value labeled 'Washington Monument, non-building 555' \u2014 directly contradicts disclaimer restricting to completed buildings (CTBUH classifies the Monument as a non-building structure). Also the value shows '329 ft' rather than 555 ft; the entry is internally inconsistent.",
+          "severity": "high"
+        },
+        {
+          "issue": "value-format-mix",
+          "detail": "Rank 48 ND value string reads '241 fkt (North Dakota State Capitol, Bismarck)' \u2014 typo for 'ft'.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+      "current": {
+        "title": "Wettest States (Most Annual Precipitation)",
+        "prompt": "Rank the US states with the highest average annual precipitation (rain + melted snow), by statewide average.",
+        "disclaimer": "Statewide averages from NOAA 1991-2020 normals. Individual sites (e.g. Mount Waialeale) far exceed statewide means. Includes Washington DC.",
+        "trivia": "Hawaii's statewide average masks huge extremes \u2014 leeward Kona coasts get under 10 inches while Mount Waialeale on Kauai averages over 400 inches annually.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "HI",
+            "value": "63.7 in"
+          },
+          {
+            "rank": 2,
+            "code": "LA",
+            "value": "60.1 in"
+          },
+          {
+            "rank": 3,
+            "code": "MS",
+            "value": "59.0 in"
+          },
+          {
+            "rank": 4,
+            "code": "AL",
+            "value": "58.3 in"
+          },
+          {
+            "rank": 5,
+            "code": "FL",
+            "value": "54.5 in"
+          },
+          {
+            "rank": 6,
+            "code": "TN",
+            "value": "54.2 in"
+          },
+          {
+            "rank": 7,
+            "code": "GA",
+            "value": "50.7 in"
+          },
+          {
+            "rank": 8,
+            "code": "AR",
+            "value": "50.6 in"
+          },
+          {
+            "rank": 9,
+            "code": "CT",
+            "value": "50.3 in"
+          },
+          {
+            "rank": 10,
+            "code": "SC",
+            "value": "49.8 in"
+          },
+          {
+            "rank": 11,
+            "code": "NC",
+            "value": "49.0 in"
+          },
+          {
+            "rank": 12,
+            "code": "KY",
+            "value": "48.9 in"
+          },
+          {
+            "rank": 13,
+            "code": "NJ",
+            "value": "47.9 in"
+          },
+          {
+            "rank": 13,
+            "code": "RI",
+            "value": "47.9 in (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "MA",
+            "value": "47.7 in"
+          },
+          {
+            "rank": 16,
+            "code": "NY",
+            "value": "47.4 in"
+          },
+          {
+            "rank": 17,
+            "code": "DE",
+            "value": "46.2 in"
+          },
+          {
+            "rank": 18,
+            "code": "WV",
+            "value": "45.2 in"
+          },
+          {
+            "rank": 19,
+            "code": "MD",
+            "value": "44.5 in"
+          },
+          {
+            "rank": 20,
+            "code": "VA",
+            "value": "43.7 in"
+          },
+          {
+            "rank": 21,
+            "code": "ME",
+            "value": "43.6 in"
+          },
+          {
+            "rank": 22,
+            "code": "NH",
+            "value": "43.4 in"
+          },
+          {
+            "rank": 23,
+            "code": "PA",
+            "value": "43.0 in"
+          },
+          {
+            "rank": 24,
+            "code": "IN",
+            "value": "42.8 in"
+          },
+          {
+            "rank": 25,
+            "code": "VT",
+            "value": "42.7 in"
+          },
+          {
+            "rank": 26,
+            "code": "MO",
+            "value": "42.6 in"
+          },
+          {
+            "rank": 27,
+            "code": "OH",
+            "value": "41.7 in"
+          },
+          {
+            "rank": 28,
+            "code": "DC",
+            "value": "40.8 in"
+          },
+          {
+            "rank": 29,
+            "code": "IL",
+            "value": "39.6 in"
+          },
+          {
+            "rank": 30,
+            "code": "WA",
+            "value": "38.5 in"
+          },
+          {
+            "rank": 31,
+            "code": "OK",
+            "value": "36.5 in"
+          },
+          {
+            "rank": 32,
+            "code": "IA",
+            "value": "35.5 in"
+          },
+          {
+            "rank": 33,
+            "code": "MI",
+            "value": "34.7 in"
+          },
+          {
+            "rank": 34,
+            "code": "WI",
+            "value": "34.6 in"
+          },
+          {
+            "rank": 35,
+            "code": "MN",
+            "value": "30.7 in"
+          },
+          {
+            "rank": 36,
+            "code": "KS",
+            "value": "29.2 in"
+          },
+          {
+            "rank": 37,
+            "code": "TX",
+            "value": "28.9 in"
+          },
+          {
+            "rank": 38,
+            "code": "OR",
+            "value": "27.5 in"
+          },
+          {
+            "rank": 39,
+            "code": "NE",
+            "value": "24.0 in"
+          },
+          {
+            "rank": 40,
+            "code": "AK",
+            "value": "22.5 in"
+          },
+          {
+            "rank": 41,
+            "code": "SD",
+            "value": "22.4 in"
+          },
+          {
+            "rank": 41,
+            "code": "CA",
+            "value": "22.4 in (tied)"
+          },
+          {
+            "rank": 43,
+            "code": "ID",
+            "value": "19.9 in"
+          },
+          {
+            "rank": 44,
+            "code": "ND",
+            "value": "18.0 in"
+          },
+          {
+            "rank": 45,
+            "code": "CO",
+            "value": "15.9 in"
+          },
+          {
+            "rank": 46,
+            "code": "MT",
+            "value": "15.3 in"
+          },
+          {
+            "rank": 47,
+            "code": "NM",
+            "value": "14.6 in"
+          },
+          {
+            "rank": 48,
+            "code": "AZ",
+            "value": "13.6 in"
+          },
+          {
+            "rank": 49,
+            "code": "WY",
+            "value": "12.9 in"
+          },
+          {
+            "rank": 50,
+            "code": "UT",
+            "value": "12.2 in"
+          },
+          {
+            "rank": 51,
+            "code": "NV",
+            "value": "9.5 in"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Cross-question inconsistency with the paired 'Driest States' question, which cites the identical NOAA 1991-2020 source. Same-state values disagree: NV 9.5 vs 10.3 in, WY 12.9 vs 14.5, CO 15.9 vs 16.1, ND 18.0 vs 17.8, ID 19.9 vs 19.0, SD 22.4 vs 20.6, OR 27.5 vs 27.4, MN 30.7 vs 27.5, TX 28.9 vs 29.1, WI 34.6 vs 32.6, MI 34.7 vs 33.0, IA 35.5 vs 34.0, WA 38.5 vs 38.4, IL 39.6 vs 39.2, OH 41.7 vs 40.2, NY 47.4 vs 42.3, MO 42.6 vs 42.4, IN 42.8 vs 42.6, PA 43.0 vs 42.9, VT 42.7 vs 43.0, VA 43.7 vs 44.3, ME 43.6 vs 44.4, WV 45.2 vs 45.2, DE 46.2 vs 45.7, NJ 47.9 vs 47.1, MA 47.7 vs 48.0, NC 49.0 vs 50.4, AR 50.6 vs 50.6, MS 59.0 vs 59.0. One or both questions carry incorrect numbers.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-health-largest-wind-electricity-generation-2023",
+      "current": {
+        "title": "Largest Wind Electricity Generation",
+        "prompt": "Rank the US states by wind electricity generation (EIA, 2023).",
+        "disclaimer": "Total wind electricity generation in gigawatt-hours (GWh), 2023. DC not included (source omits it).",
+        "trivia": null,
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "TX",
+            "value": "119,836 GWh"
+          },
+          {
+            "rank": 2,
+            "code": "IA",
+            "value": "36,196 GWh"
+          },
+          {
+            "rank": 3,
+            "code": "OK",
+            "value": "35,838 GWh"
+          },
+          {
+            "rank": 4,
+            "code": "KS",
+            "value": "26,708 GWh"
+          },
+          {
+            "rank": 5,
+            "code": "IL",
+            "value": "20,232 GWh"
+          },
+          {
+            "rank": 6,
+            "code": "CO",
+            "value": "17,881 GWh"
+          },
+          {
+            "rank": 7,
+            "code": "NM",
+            "value": "13,802 GWh"
+          },
+          {
+            "rank": 8,
+            "code": "NE",
+            "value": "12,378 GWh"
+          },
+          {
+            "rank": 9,
+            "code": "MN",
+            "value": "12,362 GWh"
+          },
+          {
+            "rank": 10,
+            "code": "ND",
+            "value": "11,976 GWh"
+          },
+          {
+            "rank": 11,
+            "code": "CA",
+            "value": "11,714 GWh"
+          },
+          {
+            "rank": 12,
+            "code": "SD",
+            "value": "9,933 GWh"
+          },
+          {
+            "rank": 13,
+            "code": "OR",
+            "value": "8,146 GWh"
+          },
+          {
+            "rank": 14,
+            "code": "IN",
+            "value": "7,847 GWh"
+          },
+          {
+            "rank": 15,
+            "code": "MO",
+            "value": "7,092 GWh"
+          },
+          {
+            "rank": 16,
+            "code": "MI",
+            "value": "6,500 GWh"
+          },
+          {
+            "rank": 17,
+            "code": "WY",
+            "value": "5,900 GWh"
+          },
+          {
+            "rank": 18,
+            "code": "NY",
+            "value": "5,000 GWh"
+          },
+          {
+            "rank": 19,
+            "code": "PA",
+            "value": "3,800 GWh"
+          },
+          {
+            "rank": 20,
+            "code": "WA",
+            "value": "3,700 GWh"
+          },
+          {
+            "rank": 21,
+            "code": "OH",
+            "value": "3,300 GWh"
+          },
+          {
+            "rank": 22,
+            "code": "MT",
+            "value": "3,000 GWh"
+          },
+          {
+            "rank": 23,
+            "code": "WI",
+            "value": "2,300 GWh"
+          },
+          {
+            "rank": 24,
+            "code": "ME",
+            "value": "2,100 GWh"
+          },
+          {
+            "rank": 25,
+            "code": "NC",
+            "value": "1,700 GWh"
+          },
+          {
+            "rank": 26,
+            "code": "WV",
+            "value": "1,500 GWh"
+          },
+          {
+            "rank": 27,
+            "code": "ID",
+            "value": "1,400 GWh"
+          },
+          {
+            "rank": 28,
+            "code": "UT",
+            "value": "700 GWh"
+          },
+          {
+            "rank": 29,
+            "code": "MD",
+            "value": "550 GWh"
+          },
+          {
+            "rank": 29,
+            "code": "AZ",
+            "value": "550 GWh (tied)"
+          },
+          {
+            "rank": 31,
+            "code": "NH",
+            "value": "500 GWh"
+          },
+          {
+            "rank": 32,
+            "code": "VT",
+            "value": "375 GWh"
+          },
+          {
+            "rank": 33,
+            "code": "HI",
+            "value": "350 GWh"
+          },
+          {
+            "rank": 34,
+            "code": "MA",
+            "value": "260 GWh"
+          },
+          {
+            "rank": 35,
+            "code": "AK",
+            "value": "170 GWh"
+          },
+          {
+            "rank": 36,
+            "code": "RI",
+            "value": "125 GWh"
+          },
+          {
+            "rank": 37,
+            "code": "TN",
+            "value": "75 GWh"
+          },
+          {
+            "rank": 38,
+            "code": "NJ",
+            "value": "25 GWh"
+          },
+          {
+            "rank": 39,
+            "code": "DE",
+            "value": "5 GWh"
+          },
+          {
+            "rank": 40,
+            "code": "CT",
+            "value": "3 GWh"
+          },
+          {
+            "rank": 41,
+            "code": "NV",
+            "value": "0 GWh"
+          }
+        ],
+        "seededDepth": 41,
+        "theme": "US States",
+        "subtheme": "US States - Health",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Subtheme is 'US States - Health' but the question is about wind electricity generation (energy topic, not health). Mis-categorized.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-most-electoral-college-votes-2024",
+      "current": {
+        "title": "Most Electoral College Votes",
+        "prompt": "Rank the US states (and DC) by number of Electoral College votes for the 2024 presidential election.",
+        "disclaimer": "Electoral votes = House seats + 2 senators; DC has 3 (23rd Amendment). Effective for 2024 and 2028 elections.",
+        "trivia": null,
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "54"
+          },
+          {
+            "rank": 2,
+            "code": "TX",
+            "value": "40"
+          },
+          {
+            "rank": 3,
+            "code": "FL",
+            "value": "30"
+          },
+          {
+            "rank": 4,
+            "code": "NY",
+            "value": "28"
+          },
+          {
+            "rank": 5,
+            "code": "IL",
+            "value": "19"
+          },
+          {
+            "rank": 5,
+            "code": "PA",
+            "value": "19 (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "OH",
+            "value": "17"
+          },
+          {
+            "rank": 8,
+            "code": "GA",
+            "value": "16"
+          },
+          {
+            "rank": 8,
+            "code": "NC",
+            "value": "16 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MI",
+            "value": "15"
+          },
+          {
+            "rank": 11,
+            "code": "NJ",
+            "value": "14"
+          },
+          {
+            "rank": 12,
+            "code": "VA",
+            "value": "13"
+          },
+          {
+            "rank": 13,
+            "code": "WA",
+            "value": "12"
+          },
+          {
+            "rank": 14,
+            "code": "AZ",
+            "value": "11"
+          },
+          {
+            "rank": 14,
+            "code": "IN",
+            "value": "11 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "MA",
+            "value": "11 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "TN",
+            "value": "11 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "MD",
+            "value": "10"
+          },
+          {
+            "rank": 18,
+            "code": "MN",
+            "value": "10 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "MO",
+            "value": "10 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "WI",
+            "value": "10 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "CO",
+            "value": "10 (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "AL",
+            "value": "9"
+          },
+          {
+            "rank": 23,
+            "code": "SC",
+            "value": "9 (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "KY",
+            "value": "8"
+          },
+          {
+            "rank": 25,
+            "code": "LA",
+            "value": "8 (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "OR",
+            "value": "8 (tied)"
+          },
+          {
+            "rank": 28,
+            "code": "CT",
+            "value": "7"
+          },
+          {
+            "rank": 28,
+            "code": "OK",
+            "value": "7 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "AR",
+            "value": "6"
+          },
+          {
+            "rank": 30,
+            "code": "IA",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "KS",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "MS",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NV",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "UT",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 36,
+            "code": "NE",
+            "value": "5"
+          },
+          {
+            "rank": 36,
+            "code": "NM",
+            "value": "5 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "WV",
+            "value": "4"
+          },
+          {
+            "rank": 38,
+            "code": "HI",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "ID",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "ME",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "MT",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "NH",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "RI",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "AK",
+            "value": "3"
+          },
+          {
+            "rank": 45,
+            "code": "DC",
+            "value": "3 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "DE",
+            "value": "3 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "ND",
+            "value": "3 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "SD",
+            "value": "3 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "VT",
+            "value": "3 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "WY",
+            "value": "3 (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Politics",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Rank 22 CO listed with value '10' but grouped/ranked below AL (9) and tied with SC (9). CO has 10 electoral votes and should be ranked with the '10' bucket at rank 18. Also rank 27 OR listed as '8' with CT/OK (7); OR has 8 EVs and belongs one tier up. Rank 36 WV shown as '4' but grouped with NE/NM at 5.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-most-us-house-representatives-2023",
+      "current": {
+        "title": "Most US House Representatives",
+        "prompt": "Rank the US states by number of US House of Representatives seats (118th/119th Congress).",
+        "disclaimer": "Based on 2020 Census apportionment; DC has a non-voting delegate (not counted here).",
+        "trivia": null,
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "52"
+          },
+          {
+            "rank": 2,
+            "code": "TX",
+            "value": "38"
+          },
+          {
+            "rank": 3,
+            "code": "FL",
+            "value": "28"
+          },
+          {
+            "rank": 4,
+            "code": "NY",
+            "value": "26"
+          },
+          {
+            "rank": 5,
+            "code": "IL",
+            "value": "17"
+          },
+          {
+            "rank": 5,
+            "code": "PA",
+            "value": "17 (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "OH",
+            "value": "15"
+          },
+          {
+            "rank": 8,
+            "code": "GA",
+            "value": "14"
+          },
+          {
+            "rank": 8,
+            "code": "NC",
+            "value": "14 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MI",
+            "value": "13"
+          },
+          {
+            "rank": 11,
+            "code": "NJ",
+            "value": "12"
+          },
+          {
+            "rank": 12,
+            "code": "VA",
+            "value": "11"
+          },
+          {
+            "rank": 13,
+            "code": "WA",
+            "value": "10"
+          },
+          {
+            "rank": 14,
+            "code": "AZ",
+            "value": "9"
+          },
+          {
+            "rank": 14,
+            "code": "IN",
+            "value": "9 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "MA",
+            "value": "9 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "TN",
+            "value": "9 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "MD",
+            "value": "8"
+          },
+          {
+            "rank": 18,
+            "code": "MN",
+            "value": "8 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "MO",
+            "value": "8 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "WI",
+            "value": "8 (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "CO",
+            "value": "8 (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "AL",
+            "value": "7"
+          },
+          {
+            "rank": 23,
+            "code": "SC",
+            "value": "7 (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "KY",
+            "value": "6"
+          },
+          {
+            "rank": 25,
+            "code": "LA",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "OR",
+            "value": "6 (tied)"
+          },
+          {
+            "rank": 28,
+            "code": "CT",
+            "value": "5"
+          },
+          {
+            "rank": 28,
+            "code": "OK",
+            "value": "5 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "AR",
+            "value": "4"
+          },
+          {
+            "rank": 30,
+            "code": "IA",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "KS",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "MS",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NV",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "UT",
+            "value": "4 (tied)"
+          },
+          {
+            "rank": 36,
+            "code": "NE",
+            "value": "3"
+          },
+          {
+            "rank": 36,
+            "code": "NM",
+            "value": "3 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "WV",
+            "value": "2"
+          },
+          {
+            "rank": 38,
+            "code": "HI",
+            "value": "2 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "ID",
+            "value": "2 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "ME",
+            "value": "2 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "MT",
+            "value": "2 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "NH",
+            "value": "2 (tied)"
+          },
+          {
+            "rank": 38,
+            "code": "RI",
+            "value": "2 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "AK",
+            "value": "1"
+          },
+          {
+            "rank": 45,
+            "code": "DE",
+            "value": "1 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "ND",
+            "value": "1 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "SD",
+            "value": "1 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "VT",
+            "value": "1 (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "WY",
+            "value": "1 (tied)"
+          }
+        ],
+        "seededDepth": 50,
+        "theme": "US States",
+        "subtheme": "US States - Politics",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Same pattern as electoral question: rank 22 CO=8 grouped with AL/SC=7; rank 27 OR=6 grouped with CT/OK=5; rank 36 WV=2 grouped with NE/NM=3. Actual seat counts: CO=8, OR=6, WV=2 \u2014 but ranks/tie groupings are wrong.",
+          "severity": "high"
+        }
+      ]
+    }
+  ]
+}

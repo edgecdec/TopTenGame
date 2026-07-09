@@ -1,0 +1,59 @@
+{
+  "batch": 7,
+  "findings": [
+    {
+      "id": "us-states-geography-longest-ocean-coastline-2023",
+      "issue": "sort-inversion",
+      "detail": "Ranks 18-20 are out of order by the stated metric (miles descending). MD=31 mi is ranked 18, above AL=53 mi (rank 19) and MS=44 mi (rank 20). Correct descending order should be AL (53), MS (44), then MD (31).",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-largest-landlocked-states-2010",
+      "issue": "sort-inversion",
+      "detail": "Rank 15 AR=53,179 sq mi is placed above rank 16 IA=56,273 sq mi. IA is larger and should be ranked ahead of AR.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-states-crossed-by-the-continental-divide-2024",
+      "issue": "fact-error",
+      "detail": "AK listed as on the Continental Divide of the Americas (Brooks Range). The Continental Divide of the Americas as commonly defined ends at Cape Prince of Wales area; the Brooks Range hosts the Arctic Divide, not the Continental Divide of the Americas. Disclaimer even acknowledges 'five contiguous states plus Alaska' — inconsistent framing.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-states-crossed-by-the-pacific-crest-trail-2024",
+      "issue": "value-format-mix",
+      "detail": "Values are trail-miles (1,700 mi / 455 mi / 506 mi) but ranks follow geographic south-to-north order, not descending mileage. If ranked by miles, order would be CA, WA (506), OR (455). Mixing an ordered rank with an unrelated metric is confusing.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-interstate-highway-mileage-2022",
+      "issue": "sort-inversion",
+      "detail": "Numerous ranks are not in descending mi order. Examples: rank 15 AL=905 above rank 16 VA=1,118; rank 20 WY=913 above rank 21 MT=1,192; rank 27 NM=1,000 above rank 26 AR=743 (OK) but rank 31 AZ=1,169 sits below rank 15 AL=905; rank 37 UT=938 below rank 35 NE=482. The entire back half of the list is scrambled relative to the stated 'longest to shortest' ordering.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-public-use-airports-2023",
+      "issue": "sort-inversion",
+      "detail": "Multiple ranks violate descending order. Examples: rank 17 KS=138 above rank 12 MN=123 by value but ranked lower; rank 33 MT=119 above rank 11 IN=127 by value; rank 25 AR=90 above rank 22 AL=85; rank 36 ND=89 above rank 34 ID=82. The tail of the list is not sorted by airport count.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-bridges-by-count-2023",
+      "issue": "sort-inversion",
+      "detail": "Ranks not in descending bridge-count order. Examples: rank 15 MN=13,477 above rank 16 VA=13,900; rank 17 MS=17,068 (would rank ~13); rank 19 AL=16,151 (would rank ~14); rank 26 NE=15,364 (would rank ~15). Multiple states in the middle of the list have counts exceeding states ranked far above them.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-named-peaks-over-5-000-ft-2023",
+      "issue": "fact-error",
+      "detail": "CO=5,281 peaks is identical to CO=5,281 summits reported in the sibling 'Most Named Mountain Peaks' question (all GNIS summits regardless of elevation). It's implausible that 100% of Colorado's GNIS-named summits are above 5,000 ft — value appears copied from the other question rather than filtered by elevation.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-largest-tribal-land-area-2020",
+      "issue": "sort-inversion",
+      "detail": "Rank 25 IA=8,500 acres is placed above rank 26 MS=35,000 acres and neighbors. IA at 8,500 acres should rank far lower (roughly rank 32), and MS/TX/LA etc. above it should shift up.",
+      "severity": "high"
+    }
+  ]
+}

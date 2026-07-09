@@ -1,0 +1,2535 @@
+{
+  "batch": 7,
+  "questions": [
+    {
+      "id": "us-states-geography-longest-ocean-coastline-2023",
+      "title": "Longest Ocean Coastline",
+      "prompt": "Name the US states with the longest ocean/tidal coastline, excluding Great Lakes shoreline.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 23,
+      "disclaimer": "Uses NOAA's 'general coastline' figures (straight-line, excludes bays and river tidal reaches). Great Lakes shorelines excluded \u2014 this ranks ocean/tidal coastline only. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "NOAA \u2014 State Coastline Lengths (general coastline)",
+        "url": "https://coast.noaa.gov/data/docs/states/shorelines.pdf",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "6,640 mi"
+        },
+        {
+          "rank": 2,
+          "code": "FL",
+          "value": "1,350 mi"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "840 mi"
+        },
+        {
+          "rank": 4,
+          "code": "HI",
+          "value": "750 mi"
+        },
+        {
+          "rank": 5,
+          "code": "LA",
+          "value": "397 mi"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "367 mi"
+        },
+        {
+          "rank": 7,
+          "code": "NC",
+          "value": "301 mi"
+        },
+        {
+          "rank": 8,
+          "code": "OR",
+          "value": "296 mi"
+        },
+        {
+          "rank": 9,
+          "code": "ME",
+          "value": "228 mi"
+        },
+        {
+          "rank": 10,
+          "code": "MA",
+          "value": "192 mi"
+        },
+        {
+          "rank": 11,
+          "code": "SC",
+          "value": "187 mi"
+        },
+        {
+          "rank": 12,
+          "code": "WA",
+          "value": "157 mi"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "130 mi"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "127 mi"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "112 mi"
+        },
+        {
+          "rank": 16,
+          "code": "GA",
+          "value": "100 mi"
+        },
+        {
+          "rank": 17,
+          "code": "CT",
+          "value": "96 mi"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "31 mi"
+        },
+        {
+          "rank": 19,
+          "code": "AL",
+          "value": "53 mi"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "44 mi"
+        },
+        {
+          "rank": 21,
+          "code": "RI",
+          "value": "40 mi"
+        },
+        {
+          "rank": 22,
+          "code": "DE",
+          "value": "28 mi"
+        },
+        {
+          "rank": 23,
+          "code": "NH",
+          "value": "13 mi"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-bordering-canada-2024",
+      "title": "States Bordering Canada",
+      "prompt": "Name the US states that share a land or water border with Canada.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 13,
+      "disclaimer": "Includes states with a shared land or river border with Canada, ordered by length of shared border in miles. States whose only Canadian boundary is a Great Lake shoreline are excluded. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "US Census Bureau \u2014 State boundary data / International Boundary Commission",
+        "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "1,538 mi border"
+        },
+        {
+          "rank": 2,
+          "code": "ME",
+          "value": "611 mi border"
+        },
+        {
+          "rank": 3,
+          "code": "MN",
+          "value": "547 mi border"
+        },
+        {
+          "rank": 4,
+          "code": "MT",
+          "value": "545 mi border"
+        },
+        {
+          "rank": 5,
+          "code": "NY",
+          "value": "445 mi border"
+        },
+        {
+          "rank": 6,
+          "code": "WA",
+          "value": "427 mi border"
+        },
+        {
+          "rank": 7,
+          "code": "ND",
+          "value": "310 mi border"
+        },
+        {
+          "rank": 8,
+          "code": "VT",
+          "value": "90 mi border"
+        },
+        {
+          "rank": 9,
+          "code": "NH",
+          "value": "58 mi border"
+        },
+        {
+          "rank": 10,
+          "code": "ID",
+          "value": "45 mi border"
+        },
+        {
+          "rank": 11,
+          "code": "MI",
+          "value": "721 mi border (Great Lakes water border)"
+        },
+        {
+          "rank": 12,
+          "code": "OH",
+          "value": "146 mi border (Lake Erie water border)"
+        },
+        {
+          "rank": 13,
+          "code": "PA",
+          "value": "42 mi border (Lake Erie water border)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-bordering-mexico-2024",
+      "title": "States Bordering Mexico",
+      "prompt": "Name the US states that share a land border with Mexico.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 4,
+      "disclaimer": "Only 4 states share a land border with Mexico. Ordered by length of shared border. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "International Boundary and Water Commission (IBWC)",
+        "url": "https://www.ibwc.gov/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "1,254 mi border"
+        },
+        {
+          "rank": 2,
+          "code": "AZ",
+          "value": "373 mi border"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "180 mi border"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "140 mi border"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-landlocked-states-2010",
+      "title": "Largest Landlocked States",
+      "prompt": "Name the largest landlocked US states by total area (states with no ocean coastline and no Great Lakes shoreline).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 22,
+      "disclaimer": "'Landlocked' here means no ocean coast and no Great Lakes shoreline. States along the Mississippi or other inland rivers still qualify. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 State Area Measurements",
+        "url": "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html",
+        "asOf": "2010 Census reference"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MT",
+          "value": "147,040 sq mi"
+        },
+        {
+          "rank": 2,
+          "code": "NM",
+          "value": "121,590 sq mi"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "113,990 sq mi"
+        },
+        {
+          "rank": 4,
+          "code": "NV",
+          "value": "110,572 sq mi"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "104,094 sq mi"
+        },
+        {
+          "rank": 6,
+          "code": "WY",
+          "value": "97,813 sq mi"
+        },
+        {
+          "rank": 7,
+          "code": "UT",
+          "value": "84,897 sq mi"
+        },
+        {
+          "rank": 8,
+          "code": "ID",
+          "value": "83,569 sq mi"
+        },
+        {
+          "rank": 9,
+          "code": "KS",
+          "value": "82,278 sq mi"
+        },
+        {
+          "rank": 10,
+          "code": "NE",
+          "value": "77,348 sq mi"
+        },
+        {
+          "rank": 11,
+          "code": "SD",
+          "value": "77,116 sq mi"
+        },
+        {
+          "rank": 12,
+          "code": "ND",
+          "value": "70,698 sq mi"
+        },
+        {
+          "rank": 13,
+          "code": "OK",
+          "value": "69,899 sq mi"
+        },
+        {
+          "rank": 14,
+          "code": "MO",
+          "value": "69,707 sq mi"
+        },
+        {
+          "rank": 15,
+          "code": "AR",
+          "value": "53,179 sq mi"
+        },
+        {
+          "rank": 16,
+          "code": "IA",
+          "value": "56,273 sq mi"
+        },
+        {
+          "rank": 17,
+          "code": "TN",
+          "value": "42,144 sq mi"
+        },
+        {
+          "rank": 18,
+          "code": "KY",
+          "value": "40,408 sq mi"
+        },
+        {
+          "rank": 19,
+          "code": "IN",
+          "value": "36,420 sq mi"
+        },
+        {
+          "rank": 20,
+          "code": "WV",
+          "value": "24,230 sq mi"
+        },
+        {
+          "rank": 21,
+          "code": "VT",
+          "value": "9,616 sq mi"
+        },
+        {
+          "rank": 22,
+          "code": "DC",
+          "value": "68 sq mi"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-on-the-mississippi-river-2024",
+      "title": "States on the Mississippi River",
+      "prompt": "Name the US states whose borders are directly touched or crossed by the main stem of the Mississippi River.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 10,
+      "disclaimer": "The Mississippi's main stem forms all or part of the border of, or flows through, exactly 10 states. Ordered north to south. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 Mississippi River (states bordered section, sourced from USGS)",
+        "url": "https://en.wikipedia.org/wiki/Mississippi_River",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MN",
+          "value": "source state"
+        },
+        {
+          "rank": 2,
+          "code": "WI",
+          "value": "east bank"
+        },
+        {
+          "rank": 3,
+          "code": "IA",
+          "value": "east border"
+        },
+        {
+          "rank": 4,
+          "code": "IL",
+          "value": "west border"
+        },
+        {
+          "rank": 5,
+          "code": "MO",
+          "value": "east border"
+        },
+        {
+          "rank": 6,
+          "code": "KY",
+          "value": "west border"
+        },
+        {
+          "rank": 7,
+          "code": "TN",
+          "value": "west border"
+        },
+        {
+          "rank": 8,
+          "code": "AR",
+          "value": "east border"
+        },
+        {
+          "rank": 9,
+          "code": "MS",
+          "value": "west border"
+        },
+        {
+          "rank": 10,
+          "code": "LA",
+          "value": "mouth"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-crossed-by-the-continental-divide-2024",
+      "title": "States Crossed by the Continental Divide",
+      "prompt": "Name the US states through which the Great (Continental) Divide of the Americas runs.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 6,
+      "disclaimer": "The Continental Divide separates Pacific-draining watersheds from Atlantic/Gulf-draining watersheds. In the US, it runs through five contiguous states plus Alaska. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USGS \u2014 Continental Divide of the Americas",
+        "url": "https://www.usgs.gov/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MT",
+          "value": "on divide"
+        },
+        {
+          "rank": 2,
+          "code": "ID",
+          "value": "on divide"
+        },
+        {
+          "rank": 3,
+          "code": "WY",
+          "value": "on divide"
+        },
+        {
+          "rank": 4,
+          "code": "CO",
+          "value": "on divide"
+        },
+        {
+          "rank": 5,
+          "code": "NM",
+          "value": "on divide"
+        },
+        {
+          "rank": 6,
+          "code": "AK",
+          "value": "on divide (Brooks Range)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-crossed-by-the-appalachian-trail-2024",
+      "title": "States Crossed by the Appalachian Trail",
+      "prompt": "Name the US states the Appalachian National Scenic Trail passes through.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 14,
+      "disclaimer": "The AT passes through 14 states between Springer Mountain (GA) and Mount Katahdin (ME). Ordered south to north. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "National Park Service \u2014 Appalachian Trail",
+        "url": "https://www.nps.gov/appa/index.htm",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "GA",
+          "value": "southern terminus"
+        },
+        {
+          "rank": 2,
+          "code": "NC",
+          "value": "trail state"
+        },
+        {
+          "rank": 3,
+          "code": "TN",
+          "value": "trail state"
+        },
+        {
+          "rank": 4,
+          "code": "VA",
+          "value": "longest section"
+        },
+        {
+          "rank": 5,
+          "code": "WV",
+          "value": "trail state"
+        },
+        {
+          "rank": 6,
+          "code": "MD",
+          "value": "trail state"
+        },
+        {
+          "rank": 7,
+          "code": "PA",
+          "value": "trail state"
+        },
+        {
+          "rank": 8,
+          "code": "NJ",
+          "value": "trail state"
+        },
+        {
+          "rank": 9,
+          "code": "NY",
+          "value": "trail state"
+        },
+        {
+          "rank": 10,
+          "code": "CT",
+          "value": "trail state"
+        },
+        {
+          "rank": 11,
+          "code": "MA",
+          "value": "trail state"
+        },
+        {
+          "rank": 12,
+          "code": "VT",
+          "value": "trail state"
+        },
+        {
+          "rank": 13,
+          "code": "NH",
+          "value": "trail state"
+        },
+        {
+          "rank": 14,
+          "code": "ME",
+          "value": "northern terminus"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-crossed-by-the-pacific-crest-trail-2024",
+      "title": "States Crossed by the Pacific Crest Trail",
+      "prompt": "Name the US states the Pacific Crest National Scenic Trail passes through.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 3,
+      "disclaimer": "The PCT crosses only three states between the Mexican and Canadian borders. Ordered south to north. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 Pacific Crest Trail",
+        "url": "https://en.wikipedia.org/wiki/Pacific_Crest_Trail",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "1,700 mi (southern terminus)"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "455 mi"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "506 mi (northern terminus)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-interstate-highway-mileage-2022",
+      "title": "Most Interstate Highway Mileage",
+      "prompt": "Name the US states with the most miles of Interstate Highway System within their borders.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts centerline miles of designated Interstate routes only (not other freeways). Ordered longest to shortest. Includes Washington DC.",
+      "source": {
+        "name": "Federal Highway Administration \u2014 Highway Statistics, Table HM-20",
+        "url": "https://www.fhwa.dot.gov/policyinformation/statistics.cfm",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "3,498 mi"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "2,461 mi"
+        },
+        {
+          "rank": 3,
+          "code": "IL",
+          "value": "2,185 mi"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "1,864 mi"
+        },
+        {
+          "rank": 5,
+          "code": "NY",
+          "value": "1,730 mi"
+        },
+        {
+          "rank": 6,
+          "code": "OH",
+          "value": "1,575 mi"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "1,495 mi"
+        },
+        {
+          "rank": 8,
+          "code": "MO",
+          "value": "1,381 mi"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "1,321 mi"
+        },
+        {
+          "rank": 10,
+          "code": "IN",
+          "value": "1,275 mi"
+        },
+        {
+          "rank": 11,
+          "code": "GA",
+          "value": "1,246 mi"
+        },
+        {
+          "rank": 12,
+          "code": "MI",
+          "value": "1,243 mi"
+        },
+        {
+          "rank": 13,
+          "code": "TN",
+          "value": "1,104 mi"
+        },
+        {
+          "rank": 14,
+          "code": "OK",
+          "value": "1,001 mi"
+        },
+        {
+          "rank": 15,
+          "code": "AL",
+          "value": "905 mi"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "1,118 mi"
+        },
+        {
+          "rank": 17,
+          "code": "KY",
+          "value": "913 mi"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "914 mi"
+        },
+        {
+          "rank": 19,
+          "code": "WA",
+          "value": "764 mi"
+        },
+        {
+          "rank": 20,
+          "code": "WY",
+          "value": "913 mi"
+        },
+        {
+          "rank": 21,
+          "code": "MT",
+          "value": "1,192 mi"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "953 mi"
+        },
+        {
+          "rank": 23,
+          "code": "KS",
+          "value": "874 mi"
+        },
+        {
+          "rank": 24,
+          "code": "MS",
+          "value": "800 mi"
+        },
+        {
+          "rank": 25,
+          "code": "IA",
+          "value": "782 mi"
+        },
+        {
+          "rank": 26,
+          "code": "AR",
+          "value": "743 mi"
+        },
+        {
+          "rank": 27,
+          "code": "NM",
+          "value": "1,000 mi"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "854 mi"
+        },
+        {
+          "rank": 29,
+          "code": "LA",
+          "value": "904 mi"
+        },
+        {
+          "rank": 30,
+          "code": "WI",
+          "value": "882 mi"
+        },
+        {
+          "rank": 31,
+          "code": "AZ",
+          "value": "1,169 mi"
+        },
+        {
+          "rank": 32,
+          "code": "ND",
+          "value": "571 mi"
+        },
+        {
+          "rank": 33,
+          "code": "SD",
+          "value": "679 mi"
+        },
+        {
+          "rank": 34,
+          "code": "OR",
+          "value": "728 mi"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "482 mi"
+        },
+        {
+          "rank": 36,
+          "code": "ID",
+          "value": "612 mi"
+        },
+        {
+          "rank": 37,
+          "code": "UT",
+          "value": "938 mi"
+        },
+        {
+          "rank": 38,
+          "code": "NV",
+          "value": "612 mi"
+        },
+        {
+          "rank": 39,
+          "code": "MD",
+          "value": "481 mi"
+        },
+        {
+          "rank": 40,
+          "code": "WV",
+          "value": "555 mi"
+        },
+        {
+          "rank": 41,
+          "code": "MA",
+          "value": "570 mi"
+        },
+        {
+          "rank": 42,
+          "code": "NJ",
+          "value": "431 mi"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "367 mi"
+        },
+        {
+          "rank": 44,
+          "code": "CT",
+          "value": "346 mi"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "224 mi"
+        },
+        {
+          "rank": 46,
+          "code": "VT",
+          "value": "320 mi"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "71 mi"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "41 mi"
+        },
+        {
+          "rank": 49,
+          "code": "DC",
+          "value": "13 mi"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "55 mi"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "0 mi (no Interstates)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-public-use-airports-2023",
+      "title": "Most Public-Use Airports",
+      "prompt": "Name the US states with the most public-use airports.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts public-use airports (public and private-owned but open to the public) as tallied by the FAA. Includes Washington DC.",
+      "source": {
+        "name": "FAA \u2014 National Plan of Integrated Airport Systems (NPIAS)",
+        "url": "https://www.faa.gov/airports/planning_capacity/npias",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "728 airports"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "379 airports"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "247 airports"
+        },
+        {
+          "rank": 4,
+          "code": "OH",
+          "value": "197 airports"
+        },
+        {
+          "rank": 5,
+          "code": "FL",
+          "value": "192 airports"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "175 airports"
+        },
+        {
+          "rank": 7,
+          "code": "PA",
+          "value": "170 airports"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "158 airports"
+        },
+        {
+          "rank": 9,
+          "code": "NY",
+          "value": "148 airports"
+        },
+        {
+          "rank": 10,
+          "code": "MI",
+          "value": "146 airports"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "127 airports"
+        },
+        {
+          "rank": 12,
+          "code": "MN",
+          "value": "123 airports"
+        },
+        {
+          "rank": 13,
+          "code": "WI",
+          "value": "121 airports"
+        },
+        {
+          "rank": 14,
+          "code": "OK",
+          "value": "115 airports"
+        },
+        {
+          "rank": 15,
+          "code": "GA",
+          "value": "109 airports"
+        },
+        {
+          "rank": 16,
+          "code": "IA",
+          "value": "108 airports"
+        },
+        {
+          "rank": 17,
+          "code": "KS",
+          "value": "138 airports"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "127 airports"
+        },
+        {
+          "rank": 19,
+          "code": "NC",
+          "value": "108 airports"
+        },
+        {
+          "rank": 20,
+          "code": "OR",
+          "value": "97 airports"
+        },
+        {
+          "rank": 21,
+          "code": "NE",
+          "value": "84 airports"
+        },
+        {
+          "rank": 22,
+          "code": "AL",
+          "value": "85 airports"
+        },
+        {
+          "rank": 23,
+          "code": "TN",
+          "value": "78 airports"
+        },
+        {
+          "rank": 24,
+          "code": "VA",
+          "value": "66 airports"
+        },
+        {
+          "rank": 25,
+          "code": "AR",
+          "value": "90 airports"
+        },
+        {
+          "rank": 26,
+          "code": "LA",
+          "value": "69 airports"
+        },
+        {
+          "rank": 27,
+          "code": "MS",
+          "value": "75 airports"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "62 airports"
+        },
+        {
+          "rank": 29,
+          "code": "CO",
+          "value": "74 airports"
+        },
+        {
+          "rank": 30,
+          "code": "AZ",
+          "value": "70 airports"
+        },
+        {
+          "rank": 31,
+          "code": "KY",
+          "value": "60 airports"
+        },
+        {
+          "rank": 32,
+          "code": "NM",
+          "value": "60 airports"
+        },
+        {
+          "rank": 33,
+          "code": "MT",
+          "value": "119 airports"
+        },
+        {
+          "rank": 34,
+          "code": "ID",
+          "value": "82 airports"
+        },
+        {
+          "rank": 35,
+          "code": "SD",
+          "value": "70 airports"
+        },
+        {
+          "rank": 36,
+          "code": "ND",
+          "value": "89 airports"
+        },
+        {
+          "rank": 37,
+          "code": "WV",
+          "value": "35 airports"
+        },
+        {
+          "rank": 38,
+          "code": "NJ",
+          "value": "48 airports"
+        },
+        {
+          "rank": 39,
+          "code": "MA",
+          "value": "38 airports"
+        },
+        {
+          "rank": 40,
+          "code": "MD",
+          "value": "35 airports"
+        },
+        {
+          "rank": 41,
+          "code": "UT",
+          "value": "45 airports"
+        },
+        {
+          "rank": 42,
+          "code": "NV",
+          "value": "50 airports"
+        },
+        {
+          "rank": 43,
+          "code": "WY",
+          "value": "40 airports"
+        },
+        {
+          "rank": 44,
+          "code": "CT",
+          "value": "22 airports"
+        },
+        {
+          "rank": 45,
+          "code": "ME",
+          "value": "36 airports"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "24 airports"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "16 airports"
+        },
+        {
+          "rank": 48,
+          "code": "HI",
+          "value": "15 airports"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "6 airports"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "10 airports"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1 airport"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-bridges-by-count-2023",
+      "title": "Most Bridges (by Count)",
+      "prompt": "Name the US states with the greatest number of bridges (highway bridges of all sizes).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts entries in the National Bridge Inventory (spans of at least 20 feet on public roads). Includes both state-owned and locally-owned bridges. Includes Washington DC.",
+      "source": {
+        "name": "Federal Highway Administration \u2014 National Bridge Inventory",
+        "url": "https://www.fhwa.dot.gov/bridge/nbi.cfm",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "55,175 bridges"
+        },
+        {
+          "rank": 2,
+          "code": "OH",
+          "value": "27,132 bridges"
+        },
+        {
+          "rank": 3,
+          "code": "IL",
+          "value": "26,846 bridges"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "25,975 bridges"
+        },
+        {
+          "rank": 5,
+          "code": "KS",
+          "value": "25,171 bridges"
+        },
+        {
+          "rank": 6,
+          "code": "MO",
+          "value": "24,525 bridges"
+        },
+        {
+          "rank": 7,
+          "code": "IA",
+          "value": "23,943 bridges"
+        },
+        {
+          "rank": 8,
+          "code": "OK",
+          "value": "23,090 bridges"
+        },
+        {
+          "rank": 9,
+          "code": "PA",
+          "value": "22,969 bridges"
+        },
+        {
+          "rank": 10,
+          "code": "TN",
+          "value": "20,326 bridges"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "19,331 bridges"
+        },
+        {
+          "rank": 12,
+          "code": "NC",
+          "value": "18,864 bridges"
+        },
+        {
+          "rank": 13,
+          "code": "NY",
+          "value": "17,462 bridges"
+        },
+        {
+          "rank": 14,
+          "code": "GA",
+          "value": "14,981 bridges"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "13,477 bridges"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "13,900 bridges"
+        },
+        {
+          "rank": 17,
+          "code": "MS",
+          "value": "17,068 bridges"
+        },
+        {
+          "rank": 18,
+          "code": "LA",
+          "value": "12,927 bridges"
+        },
+        {
+          "rank": 19,
+          "code": "AL",
+          "value": "16,151 bridges"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "14,297 bridges"
+        },
+        {
+          "rank": 21,
+          "code": "MI",
+          "value": "11,300 bridges"
+        },
+        {
+          "rank": 22,
+          "code": "KY",
+          "value": "14,383 bridges"
+        },
+        {
+          "rank": 23,
+          "code": "AR",
+          "value": "12,974 bridges"
+        },
+        {
+          "rank": 24,
+          "code": "FL",
+          "value": "12,652 bridges"
+        },
+        {
+          "rank": 25,
+          "code": "WA",
+          "value": "8,437 bridges"
+        },
+        {
+          "rank": 26,
+          "code": "NE",
+          "value": "15,364 bridges"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "9,414 bridges"
+        },
+        {
+          "rank": 28,
+          "code": "CO",
+          "value": "8,893 bridges"
+        },
+        {
+          "rank": 29,
+          "code": "OR",
+          "value": "8,222 bridges"
+        },
+        {
+          "rank": 30,
+          "code": "SD",
+          "value": "5,890 bridges"
+        },
+        {
+          "rank": 31,
+          "code": "WV",
+          "value": "7,290 bridges"
+        },
+        {
+          "rank": 32,
+          "code": "AZ",
+          "value": "8,461 bridges"
+        },
+        {
+          "rank": 33,
+          "code": "MD",
+          "value": "5,412 bridges"
+        },
+        {
+          "rank": 34,
+          "code": "MA",
+          "value": "5,282 bridges"
+        },
+        {
+          "rank": 35,
+          "code": "ND",
+          "value": "4,470 bridges"
+        },
+        {
+          "rank": 36,
+          "code": "MT",
+          "value": "5,367 bridges"
+        },
+        {
+          "rank": 37,
+          "code": "NM",
+          "value": "3,970 bridges"
+        },
+        {
+          "rank": 38,
+          "code": "ME",
+          "value": "2,478 bridges"
+        },
+        {
+          "rank": 39,
+          "code": "NJ",
+          "value": "6,798 bridges"
+        },
+        {
+          "rank": 40,
+          "code": "CT",
+          "value": "4,299 bridges"
+        },
+        {
+          "rank": 41,
+          "code": "ID",
+          "value": "4,522 bridges"
+        },
+        {
+          "rank": 42,
+          "code": "UT",
+          "value": "3,105 bridges"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "2,505 bridges"
+        },
+        {
+          "rank": 44,
+          "code": "WY",
+          "value": "3,141 bridges"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "2,809 bridges"
+        },
+        {
+          "rank": 46,
+          "code": "NV",
+          "value": "2,067 bridges"
+        },
+        {
+          "rank": 47,
+          "code": "AK",
+          "value": "1,626 bridges"
+        },
+        {
+          "rank": 48,
+          "code": "RI",
+          "value": "780 bridges"
+        },
+        {
+          "rank": 49,
+          "code": "HI",
+          "value": "1,141 bridges"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "878 bridges"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "244 bridges"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-mountain-peaks-2023",
+      "title": "Most Named Mountain Peaks",
+      "prompt": "Name the US states with the most named mountain peaks catalogued in the USGS Geographic Names Information System (GNIS).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts of GNIS features with feature class 'Summit' by state. Every named summit is counted regardless of elevation. Includes Washington DC.",
+      "source": {
+        "name": "USGS Geographic Names Information System (GNIS) \u2014 feature class 'Summit'",
+        "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NV",
+          "value": "10,633 summits"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "8,847 summits"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "7,340 summits"
+        },
+        {
+          "rank": 4,
+          "code": "NM",
+          "value": "5,779 summits"
+        },
+        {
+          "rank": 5,
+          "code": "AK",
+          "value": "5,540 summits"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "5,281 summits"
+        },
+        {
+          "rank": 7,
+          "code": "ID",
+          "value": "4,940 summits"
+        },
+        {
+          "rank": 8,
+          "code": "UT",
+          "value": "4,761 summits"
+        },
+        {
+          "rank": 9,
+          "code": "OR",
+          "value": "4,538 summits"
+        },
+        {
+          "rank": 10,
+          "code": "MT",
+          "value": "4,489 summits"
+        },
+        {
+          "rank": 11,
+          "code": "WY",
+          "value": "3,268 summits"
+        },
+        {
+          "rank": 12,
+          "code": "WA",
+          "value": "3,067 summits"
+        },
+        {
+          "rank": 13,
+          "code": "TX",
+          "value": "2,678 summits"
+        },
+        {
+          "rank": 14,
+          "code": "PA",
+          "value": "2,146 summits"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "1,983 summits"
+        },
+        {
+          "rank": 16,
+          "code": "NY",
+          "value": "1,842 summits"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "1,720 summits"
+        },
+        {
+          "rank": 18,
+          "code": "WV",
+          "value": "1,585 summits"
+        },
+        {
+          "rank": 19,
+          "code": "KY",
+          "value": "1,470 summits"
+        },
+        {
+          "rank": 20,
+          "code": "AR",
+          "value": "1,395 summits"
+        },
+        {
+          "rank": 21,
+          "code": "TN",
+          "value": "1,310 summits"
+        },
+        {
+          "rank": 22,
+          "code": "SD",
+          "value": "1,180 summits"
+        },
+        {
+          "rank": 23,
+          "code": "MO",
+          "value": "1,095 summits"
+        },
+        {
+          "rank": 24,
+          "code": "GA",
+          "value": "985 summits"
+        },
+        {
+          "rank": 25,
+          "code": "OK",
+          "value": "870 summits"
+        },
+        {
+          "rank": 26,
+          "code": "AL",
+          "value": "790 summits"
+        },
+        {
+          "rank": 27,
+          "code": "MA",
+          "value": "705 summits"
+        },
+        {
+          "rank": 28,
+          "code": "ME",
+          "value": "670 summits"
+        },
+        {
+          "rank": 29,
+          "code": "NH",
+          "value": "625 summits"
+        },
+        {
+          "rank": 30,
+          "code": "VT",
+          "value": "580 summits"
+        },
+        {
+          "rank": 31,
+          "code": "HI",
+          "value": "540 summits"
+        },
+        {
+          "rank": 32,
+          "code": "NJ",
+          "value": "495 summits"
+        },
+        {
+          "rank": 33,
+          "code": "CT",
+          "value": "430 summits"
+        },
+        {
+          "rank": 34,
+          "code": "MI",
+          "value": "395 summits"
+        },
+        {
+          "rank": 35,
+          "code": "MD",
+          "value": "360 summits"
+        },
+        {
+          "rank": 36,
+          "code": "SC",
+          "value": "310 summits"
+        },
+        {
+          "rank": 37,
+          "code": "MN",
+          "value": "265 summits"
+        },
+        {
+          "rank": 38,
+          "code": "WI",
+          "value": "230 summits"
+        },
+        {
+          "rank": 39,
+          "code": "ND",
+          "value": "185 summits"
+        },
+        {
+          "rank": 40,
+          "code": "NE",
+          "value": "150 summits"
+        },
+        {
+          "rank": 41,
+          "code": "KS",
+          "value": "125 summits"
+        },
+        {
+          "rank": 42,
+          "code": "MS",
+          "value": "110 summits"
+        },
+        {
+          "rank": 43,
+          "code": "LA",
+          "value": "85 summits"
+        },
+        {
+          "rank": 44,
+          "code": "OH",
+          "value": "72 summits"
+        },
+        {
+          "rank": 45,
+          "code": "IN",
+          "value": "58 summits"
+        },
+        {
+          "rank": 46,
+          "code": "IA",
+          "value": "45 summits"
+        },
+        {
+          "rank": 47,
+          "code": "IL",
+          "value": "36 summits"
+        },
+        {
+          "rank": 48,
+          "code": "RI",
+          "value": "24 summits"
+        },
+        {
+          "rank": 49,
+          "code": "FL",
+          "value": "18 summits"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "9 summits"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "3 summits"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-peaks-over-5-000-ft-2023",
+      "title": "Most Named Peaks Over 5,000 ft",
+      "prompt": "Name the US states with the most named summits above 5,000 feet in elevation.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 24,
+      "disclaimer": "Named summits above 5,000 ft (1,524 m) with recognized names in Peakbagger's state databases. Elevation cutoff is fixed, not prominence-adjusted. DC not included (source omits it).",
+      "source": {
+        "name": "Peakbagger.com \u2014 state summit databases",
+        "url": "https://www.peakbagger.com/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CO",
+          "value": "5,281 peaks"
+        },
+        {
+          "rank": 2,
+          "code": "NV",
+          "value": "4,140 peaks"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "3,981 peaks"
+        },
+        {
+          "rank": 4,
+          "code": "AZ",
+          "value": "3,650 peaks"
+        },
+        {
+          "rank": 5,
+          "code": "NM",
+          "value": "3,470 peaks"
+        },
+        {
+          "rank": 6,
+          "code": "UT",
+          "value": "3,321 peaks"
+        },
+        {
+          "rank": 7,
+          "code": "ID",
+          "value": "3,215 peaks"
+        },
+        {
+          "rank": 8,
+          "code": "WY",
+          "value": "2,940 peaks"
+        },
+        {
+          "rank": 9,
+          "code": "MT",
+          "value": "2,510 peaks"
+        },
+        {
+          "rank": 10,
+          "code": "OR",
+          "value": "1,712 peaks"
+        },
+        {
+          "rank": 11,
+          "code": "WA",
+          "value": "1,588 peaks"
+        },
+        {
+          "rank": 12,
+          "code": "AK",
+          "value": "1,320 peaks"
+        },
+        {
+          "rank": 13,
+          "code": "HI",
+          "value": "82 peaks"
+        },
+        {
+          "rank": 14,
+          "code": "TX",
+          "value": "68 peaks"
+        },
+        {
+          "rank": 15,
+          "code": "SD",
+          "value": "42 peaks"
+        },
+        {
+          "rank": 16,
+          "code": "NC",
+          "value": "38 peaks"
+        },
+        {
+          "rank": 17,
+          "code": "TN",
+          "value": "24 peaks"
+        },
+        {
+          "rank": 18,
+          "code": "NH",
+          "value": "18 peaks"
+        },
+        {
+          "rank": 19,
+          "code": "VA",
+          "value": "12 peaks"
+        },
+        {
+          "rank": 20,
+          "code": "WV",
+          "value": "8 peaks"
+        },
+        {
+          "rank": 21,
+          "code": "GA",
+          "value": "4 peaks"
+        },
+        {
+          "rank": 22,
+          "code": "NY",
+          "value": "3 peaks"
+        },
+        {
+          "rank": 23,
+          "code": "ME",
+          "value": "2 peaks"
+        },
+        {
+          "rank": 24,
+          "code": "OK",
+          "value": "1 peak"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-tribal-land-area-2020",
+      "title": "Largest Tribal Land Area",
+      "prompt": "Name the US states with the largest total area of federally recognized tribal (reservation and trust) lands.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 34,
+      "disclaimer": "Total land area of federally recognized American Indian reservations plus off-reservation trust lands within each state's boundaries. DC not included (source omits it).",
+      "source": {
+        "name": "US Bureau of Indian Affairs / US Census Bureau \u2014 American Indian Areas",
+        "url": "https://www.bia.gov/",
+        "asOf": "2020 Census"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AZ",
+          "value": "20,687,000 acres"
+        },
+        {
+          "rank": 2,
+          "code": "NM",
+          "value": "8,570,000 acres"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "8,270,000 acres"
+        },
+        {
+          "rank": 4,
+          "code": "SD",
+          "value": "7,865,000 acres"
+        },
+        {
+          "rank": 5,
+          "code": "AK",
+          "value": "4,900,000 acres"
+        },
+        {
+          "rank": 6,
+          "code": "WA",
+          "value": "4,150,000 acres"
+        },
+        {
+          "rank": 7,
+          "code": "ND",
+          "value": "2,290,000 acres"
+        },
+        {
+          "rank": 8,
+          "code": "UT",
+          "value": "2,270,000 acres"
+        },
+        {
+          "rank": 9,
+          "code": "WY",
+          "value": "1,955,000 acres"
+        },
+        {
+          "rank": 10,
+          "code": "NV",
+          "value": "1,585,000 acres"
+        },
+        {
+          "rank": 11,
+          "code": "CA",
+          "value": "1,140,000 acres"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "1,040,000 acres"
+        },
+        {
+          "rank": 13,
+          "code": "OR",
+          "value": "800,000 acres"
+        },
+        {
+          "rank": 14,
+          "code": "MN",
+          "value": "780,000 acres"
+        },
+        {
+          "rank": 15,
+          "code": "ID",
+          "value": "770,000 acres"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "225,000 acres"
+        },
+        {
+          "rank": 17,
+          "code": "WI",
+          "value": "195,000 acres"
+        },
+        {
+          "rank": 18,
+          "code": "CO",
+          "value": "175,000 acres"
+        },
+        {
+          "rank": 19,
+          "code": "MI",
+          "value": "155,000 acres"
+        },
+        {
+          "rank": 20,
+          "code": "NY",
+          "value": "125,000 acres"
+        },
+        {
+          "rank": 21,
+          "code": "ME",
+          "value": "110,000 acres"
+        },
+        {
+          "rank": 22,
+          "code": "NC",
+          "value": "72,000 acres"
+        },
+        {
+          "rank": 23,
+          "code": "FL",
+          "value": "60,000 acres"
+        },
+        {
+          "rank": 24,
+          "code": "KS",
+          "value": "48,000 acres"
+        },
+        {
+          "rank": 25,
+          "code": "IA",
+          "value": "8,500 acres"
+        },
+        {
+          "rank": 26,
+          "code": "MS",
+          "value": "35,000 acres"
+        },
+        {
+          "rank": 27,
+          "code": "TX",
+          "value": "6,200 acres"
+        },
+        {
+          "rank": 28,
+          "code": "LA",
+          "value": "5,500 acres"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "2,200 acres"
+        },
+        {
+          "rank": 30,
+          "code": "MA",
+          "value": "1,900 acres"
+        },
+        {
+          "rank": 31,
+          "code": "RI",
+          "value": "1,800 acres"
+        },
+        {
+          "rank": 32,
+          "code": "VA",
+          "value": "1,600 acres"
+        },
+        {
+          "rank": 33,
+          "code": "AL",
+          "value": "550 acres"
+        },
+        {
+          "rank": 34,
+          "code": "SC",
+          "value": "265 acres"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-reservoir-storage-capacity-2023",
+      "title": "Largest Reservoir Storage Capacity",
+      "prompt": "Name the US states with the largest total surface-water reservoir storage capacity.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Sum of maximum normal storage across all dams in each state as recorded in the National Inventory of Dams. Interstate reservoirs are credited to the state hosting the dam. Includes Washington DC.",
+      "source": {
+        "name": "US Army Corps of Engineers \u2014 National Inventory of Dams (NID)",
+        "url": "https://nid.sec.usace.army.mil/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NV",
+          "value": "30,880,000 acre-ft"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "30,200,000 acre-ft"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "27,900,000 acre-ft"
+        },
+        {
+          "rank": 4,
+          "code": "ND",
+          "value": "24,900,000 acre-ft"
+        },
+        {
+          "rank": 5,
+          "code": "CA",
+          "value": "23,800,000 acre-ft"
+        },
+        {
+          "rank": 6,
+          "code": "AZ",
+          "value": "22,100,000 acre-ft"
+        },
+        {
+          "rank": 7,
+          "code": "SD",
+          "value": "20,300,000 acre-ft"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "18,500,000 acre-ft"
+        },
+        {
+          "rank": 9,
+          "code": "KY",
+          "value": "16,900,000 acre-ft"
+        },
+        {
+          "rank": 10,
+          "code": "TN",
+          "value": "15,700,000 acre-ft"
+        },
+        {
+          "rank": 11,
+          "code": "OK",
+          "value": "14,400,000 acre-ft"
+        },
+        {
+          "rank": 12,
+          "code": "GA",
+          "value": "13,200,000 acre-ft"
+        },
+        {
+          "rank": 13,
+          "code": "NY",
+          "value": "12,600,000 acre-ft"
+        },
+        {
+          "rank": 14,
+          "code": "MO",
+          "value": "12,200,000 acre-ft"
+        },
+        {
+          "rank": 15,
+          "code": "AR",
+          "value": "11,900,000 acre-ft"
+        },
+        {
+          "rank": 16,
+          "code": "AL",
+          "value": "10,800,000 acre-ft"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "9,700,000 acre-ft"
+        },
+        {
+          "rank": 18,
+          "code": "SC",
+          "value": "8,900,000 acre-ft"
+        },
+        {
+          "rank": 19,
+          "code": "NM",
+          "value": "8,200,000 acre-ft"
+        },
+        {
+          "rank": 20,
+          "code": "OR",
+          "value": "7,800,000 acre-ft"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "7,400,000 acre-ft"
+        },
+        {
+          "rank": 22,
+          "code": "WY",
+          "value": "6,900,000 acre-ft"
+        },
+        {
+          "rank": 23,
+          "code": "MS",
+          "value": "6,300,000 acre-ft"
+        },
+        {
+          "rank": 24,
+          "code": "LA",
+          "value": "5,800,000 acre-ft"
+        },
+        {
+          "rank": 25,
+          "code": "ID",
+          "value": "5,400,000 acre-ft"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "5,100,000 acre-ft"
+        },
+        {
+          "rank": 27,
+          "code": "UT",
+          "value": "4,700,000 acre-ft"
+        },
+        {
+          "rank": 28,
+          "code": "MN",
+          "value": "4,300,000 acre-ft"
+        },
+        {
+          "rank": 29,
+          "code": "PA",
+          "value": "3,900,000 acre-ft"
+        },
+        {
+          "rank": 30,
+          "code": "VA",
+          "value": "3,600,000 acre-ft"
+        },
+        {
+          "rank": 31,
+          "code": "NE",
+          "value": "3,300,000 acre-ft"
+        },
+        {
+          "rank": 32,
+          "code": "MI",
+          "value": "2,900,000 acre-ft"
+        },
+        {
+          "rank": 33,
+          "code": "FL",
+          "value": "2,600,000 acre-ft"
+        },
+        {
+          "rank": 34,
+          "code": "WV",
+          "value": "2,300,000 acre-ft"
+        },
+        {
+          "rank": 35,
+          "code": "WI",
+          "value": "2,000,000 acre-ft"
+        },
+        {
+          "rank": 36,
+          "code": "IL",
+          "value": "1,750,000 acre-ft"
+        },
+        {
+          "rank": 37,
+          "code": "OH",
+          "value": "1,500,000 acre-ft"
+        },
+        {
+          "rank": 38,
+          "code": "IN",
+          "value": "1,300,000 acre-ft"
+        },
+        {
+          "rank": 39,
+          "code": "IA",
+          "value": "1,100,000 acre-ft"
+        },
+        {
+          "rank": 40,
+          "code": "MA",
+          "value": "850,000 acre-ft"
+        },
+        {
+          "rank": 41,
+          "code": "ME",
+          "value": "720,000 acre-ft"
+        },
+        {
+          "rank": 42,
+          "code": "CT",
+          "value": "560,000 acre-ft"
+        },
+        {
+          "rank": 43,
+          "code": "NJ",
+          "value": "420,000 acre-ft"
+        },
+        {
+          "rank": 44,
+          "code": "MD",
+          "value": "340,000 acre-ft"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "280,000 acre-ft"
+        },
+        {
+          "rank": 46,
+          "code": "VT",
+          "value": "220,000 acre-ft"
+        },
+        {
+          "rank": 47,
+          "code": "AK",
+          "value": "170,000 acre-ft"
+        },
+        {
+          "rank": 48,
+          "code": "HI",
+          "value": "95,000 acre-ft"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "60,000 acre-ft"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "28,000 acre-ft"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1,200 acre-ft"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-waterfalls-2023",
+      "title": "Most Named Waterfalls",
+      "prompt": "Name the US states with the most named waterfalls catalogued in the USGS Geographic Names Information System.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 50,
+      "disclaimer": "Counts of GNIS features classified as 'Falls' by state. Includes all named cascades regardless of drop height. DC not included (source omits it).",
+      "source": {
+        "name": "USGS Geographic Names Information System (GNIS) \u2014 feature class 'Falls'",
+        "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "WA",
+          "value": "870 waterfalls"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "780 waterfalls"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "690 waterfalls"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "540 waterfalls"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "460 waterfalls"
+        },
+        {
+          "rank": 6,
+          "code": "TN",
+          "value": "430 waterfalls"
+        },
+        {
+          "rank": 7,
+          "code": "NC",
+          "value": "410 waterfalls"
+        },
+        {
+          "rank": 8,
+          "code": "WV",
+          "value": "370 waterfalls"
+        },
+        {
+          "rank": 9,
+          "code": "AK",
+          "value": "355 waterfalls"
+        },
+        {
+          "rank": 10,
+          "code": "MT",
+          "value": "320 waterfalls"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "290 waterfalls"
+        },
+        {
+          "rank": 12,
+          "code": "GA",
+          "value": "270 waterfalls"
+        },
+        {
+          "rank": 13,
+          "code": "ID",
+          "value": "260 waterfalls"
+        },
+        {
+          "rank": 14,
+          "code": "CO",
+          "value": "250 waterfalls"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "230 waterfalls"
+        },
+        {
+          "rank": 16,
+          "code": "WI",
+          "value": "205 waterfalls"
+        },
+        {
+          "rank": 17,
+          "code": "HI",
+          "value": "185 waterfalls"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "170 waterfalls"
+        },
+        {
+          "rank": 19,
+          "code": "VT",
+          "value": "155 waterfalls"
+        },
+        {
+          "rank": 20,
+          "code": "NH",
+          "value": "145 waterfalls"
+        },
+        {
+          "rank": 21,
+          "code": "ME",
+          "value": "135 waterfalls"
+        },
+        {
+          "rank": 22,
+          "code": "MA",
+          "value": "120 waterfalls"
+        },
+        {
+          "rank": 23,
+          "code": "SC",
+          "value": "110 waterfalls"
+        },
+        {
+          "rank": 24,
+          "code": "KY",
+          "value": "100 waterfalls"
+        },
+        {
+          "rank": 25,
+          "code": "AR",
+          "value": "90 waterfalls"
+        },
+        {
+          "rank": 26,
+          "code": "AZ",
+          "value": "82 waterfalls"
+        },
+        {
+          "rank": 27,
+          "code": "UT",
+          "value": "76 waterfalls"
+        },
+        {
+          "rank": 28,
+          "code": "WY",
+          "value": "70 waterfalls"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "62 waterfalls"
+        },
+        {
+          "rank": 30,
+          "code": "NM",
+          "value": "55 waterfalls"
+        },
+        {
+          "rank": 31,
+          "code": "NV",
+          "value": "48 waterfalls"
+        },
+        {
+          "rank": 32,
+          "code": "AL",
+          "value": "42 waterfalls"
+        },
+        {
+          "rank": 33,
+          "code": "NJ",
+          "value": "36 waterfalls"
+        },
+        {
+          "rank": 34,
+          "code": "MO",
+          "value": "32 waterfalls"
+        },
+        {
+          "rank": 35,
+          "code": "MD",
+          "value": "28 waterfalls"
+        },
+        {
+          "rank": 36,
+          "code": "OH",
+          "value": "24 waterfalls"
+        },
+        {
+          "rank": 37,
+          "code": "SD",
+          "value": "20 waterfalls"
+        },
+        {
+          "rank": 38,
+          "code": "OK",
+          "value": "17 waterfalls"
+        },
+        {
+          "rank": 39,
+          "code": "IN",
+          "value": "14 waterfalls"
+        },
+        {
+          "rank": 40,
+          "code": "IA",
+          "value": "12 waterfalls"
+        },
+        {
+          "rank": 41,
+          "code": "IL",
+          "value": "10 waterfalls"
+        },
+        {
+          "rank": 42,
+          "code": "TX",
+          "value": "9 waterfalls"
+        },
+        {
+          "rank": 43,
+          "code": "RI",
+          "value": "7 waterfalls"
+        },
+        {
+          "rank": 44,
+          "code": "MS",
+          "value": "6 waterfalls"
+        },
+        {
+          "rank": 45,
+          "code": "LA",
+          "value": "4 waterfalls"
+        },
+        {
+          "rank": 46,
+          "code": "NE",
+          "value": "3 waterfalls"
+        },
+        {
+          "rank": 47,
+          "code": "KS",
+          "value": "3 waterfalls"
+        },
+        {
+          "rank": 48,
+          "code": "FL",
+          "value": "2 waterfalls"
+        },
+        {
+          "rank": 49,
+          "code": "ND",
+          "value": "2 waterfalls"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "1 waterfall"
+        }
+      ]
+    }
+  ]
+}

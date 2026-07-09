@@ -1,0 +1,279 @@
+{
+  "cluster": "us-inverse-06",
+  "source_question": {
+    "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Cloudiest States (Fewest Sunny Days)",
+    "prompt": "Rank the US states by cloudiest skies \u2014 states with the fewest average clear or sunny days per year (rank 1 = cloudiest).",
+    "answerType": "US States",
+    "seededDepth": 51,
+    "source": {
+      "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Clear Days",
+      "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+      "asOf": "30-year normals through 2020"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals. Includes Washington DC.",
+    "trivia": "Seattle averages only about 71 clear days per year \u2014 but famously receives less annual rainfall than New York City despite its reputation.",
+    "asOfDate": "30-year normals through 2020",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AZ",
+        "value": "65 cloudy days/yr"
+      },
+      {
+        "rank": 2,
+        "code": "NV",
+        "value": "75 cloudy days/yr"
+      },
+      {
+        "rank": 3,
+        "code": "NM",
+        "value": "80 cloudy days/yr"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "85 cloudy days/yr"
+      },
+      {
+        "rank": 5,
+        "code": "CO",
+        "value": "90 cloudy days/yr"
+      },
+      {
+        "rank": 6,
+        "code": "UT",
+        "value": "95 cloudy days/yr"
+      },
+      {
+        "rank": 7,
+        "code": "HI",
+        "value": "100 cloudy days/yr"
+      },
+      {
+        "rank": 8,
+        "code": "TX",
+        "value": "108 cloudy days/yr"
+      },
+      {
+        "rank": 9,
+        "code": "FL",
+        "value": "110 cloudy days/yr"
+      },
+      {
+        "rank": 10,
+        "code": "WY",
+        "value": "115 cloudy days/yr"
+      },
+      {
+        "rank": 11,
+        "code": "OK",
+        "value": "118 cloudy days/yr"
+      },
+      {
+        "rank": 12,
+        "code": "NE",
+        "value": "122 cloudy days/yr"
+      },
+      {
+        "rank": 13,
+        "code": "KS",
+        "value": "125 cloudy days/yr"
+      },
+      {
+        "rank": 14,
+        "code": "MT",
+        "value": "128 cloudy days/yr"
+      },
+      {
+        "rank": 15,
+        "code": "LA",
+        "value": "130 cloudy days/yr"
+      },
+      {
+        "rank": 16,
+        "code": "AL",
+        "value": "132 cloudy days/yr"
+      },
+      {
+        "rank": 17,
+        "code": "GA",
+        "value": "134 cloudy days/yr"
+      },
+      {
+        "rank": 18,
+        "code": "SC",
+        "value": "136 cloudy days/yr"
+      },
+      {
+        "rank": 19,
+        "code": "MS",
+        "value": "138 cloudy days/yr"
+      },
+      {
+        "rank": 20,
+        "code": "ID",
+        "value": "140 cloudy days/yr"
+      },
+      {
+        "rank": 21,
+        "code": "SD",
+        "value": "142 cloudy days/yr"
+      },
+      {
+        "rank": 22,
+        "code": "AR",
+        "value": "144 cloudy days/yr"
+      },
+      {
+        "rank": 23,
+        "code": "ND",
+        "value": "146 cloudy days/yr"
+      },
+      {
+        "rank": 24,
+        "code": "NC",
+        "value": "148 cloudy days/yr"
+      },
+      {
+        "rank": 25,
+        "code": "VA",
+        "value": "150 cloudy days/yr"
+      },
+      {
+        "rank": 26,
+        "code": "DC",
+        "value": "152 cloudy days/yr"
+      },
+      {
+        "rank": 27,
+        "code": "TN",
+        "value": "154 cloudy days/yr"
+      },
+      {
+        "rank": 28,
+        "code": "MO",
+        "value": "156 cloudy days/yr"
+      },
+      {
+        "rank": 29,
+        "code": "IA",
+        "value": "158 cloudy days/yr"
+      },
+      {
+        "rank": 30,
+        "code": "DE",
+        "value": "160 cloudy days/yr"
+      },
+      {
+        "rank": 31,
+        "code": "MD",
+        "value": "162 cloudy days/yr"
+      },
+      {
+        "rank": 32,
+        "code": "KY",
+        "value": "165 cloudy days/yr"
+      },
+      {
+        "rank": 33,
+        "code": "MN",
+        "value": "168 cloudy days/yr"
+      },
+      {
+        "rank": 34,
+        "code": "NJ",
+        "value": "170 cloudy days/yr"
+      },
+      {
+        "rank": 35,
+        "code": "RI",
+        "value": "173 cloudy days/yr"
+      },
+      {
+        "rank": 36,
+        "code": "CT",
+        "value": "175 cloudy days/yr"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "178 cloudy days/yr"
+      },
+      {
+        "rank": 38,
+        "code": "MA",
+        "value": "180 cloudy days/yr"
+      },
+      {
+        "rank": 39,
+        "code": "WI",
+        "value": "184 cloudy days/yr"
+      },
+      {
+        "rank": 40,
+        "code": "ME",
+        "value": "185 cloudy days/yr"
+      },
+      {
+        "rank": 41,
+        "code": "NH",
+        "value": "187 cloudy days/yr"
+      },
+      {
+        "rank": 42,
+        "code": "IN",
+        "value": "189 cloudy days/yr"
+      },
+      {
+        "rank": 43,
+        "code": "WV",
+        "value": "192 cloudy days/yr"
+      },
+      {
+        "rank": 44,
+        "code": "PA",
+        "value": "194 cloudy days/yr"
+      },
+      {
+        "rank": 45,
+        "code": "OH",
+        "value": "195 cloudy days/yr"
+      },
+      {
+        "rank": 46,
+        "code": "MI",
+        "value": "198 cloudy days/yr"
+      },
+      {
+        "rank": 47,
+        "code": "NY",
+        "value": "201 cloudy days/yr"
+      },
+      {
+        "rank": 48,
+        "code": "VT",
+        "value": "204 cloudy days/yr"
+      },
+      {
+        "rank": 49,
+        "code": "AK",
+        "value": "220 cloudy days/yr"
+      },
+      {
+        "rank": 50,
+        "code": "OR",
+        "value": "222 cloudy days/yr"
+      },
+      {
+        "rank": 51,
+        "code": "WA",
+        "value": "226 cloudy days/yr"
+      }
+    ]
+  },
+  "note": "Direct inverse of 'Most Sunshine Hours Per Year' \u2014 same 51 jurisdictions, same NOAA Comparative Climatic Data source, same 30-year normals. Ranking is essentially the reverse of the sunshine list and provides limited independent play value."
+}

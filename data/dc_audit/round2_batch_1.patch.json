@@ -1,0 +1,85 @@
+{
+  "batch": 1,
+  "patches": [
+    {
+      "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+      "new_disclaimer": "Includes BLM, USFS, NPS, FWS, and DoD holdings; expressed as a percent of the state's total land area. Includes Washington DC."
+    },
+    {
+      "id": "us-states-deep-dive-most-retail-sales-per-capita-2022",
+      "new_disclaimer": "Total retail sales divided by resident population; low-population, tourism-heavy states punch above their weight. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-states-with-the-fewest-neighbors-2024",
+      "new_disclaimer": "Counts land borders only; states separated only by water are not counted as neighbors. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-lowest-point-below-sea-level-2024",
+      "new_disclaimer": "Ranked by depth below sea level; rank 1 is the deepest below sea level. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+      "new_disclaimer": "Eight US states have a Great Lakes shoreline; the pool is exactly 8. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+      "new_disclaimer": "Includes volcanoes classified by USGS as historically active or potentially active. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-largest-desert-area-2024",
+      "new_disclaimer": "Includes the Great Basin, Mojave, Sonoran, and Chihuahuan deserts. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-largest-wetlands-area-2024",
+      "new_disclaimer": "Includes all classes of wetlands per NWI: freshwater, estuarine, and marine. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-known-caves-2024",
+      "new_disclaimer": "Counts documented caves per NSS state surveys; includes both wild and show caves. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-longest-surveyed-cave-systems-2024",
+      "new_disclaimer": "Ranked by the longest single surveyed cave system located in each state. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-states-with-the-highest-average-elevation-2024",
+      "new_disclaimer": "Mean elevation is measured across the entire state land area, so terrain distribution matters more than the highest peak alone. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-mississippi-watershed-drainage-2024",
+      "new_disclaimer": "Ranked by area of each state that drains to the Mississippi River (not total state area). DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+      "new_disclaimer": "Statewide averages from NOAA 1991-2020 normals. Individual sites (e.g. Mount Waialeale) far exceed statewide means. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+      "new_disclaimer": "Rank 1 is the driest state (lowest inches per year). Statewide averages, not local extremes. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-most-tornadoes-per-year-2020",
+      "new_disclaimer": "Based on NWS annual counts for 1991-2020. Includes all confirmed tornadoes regardless of EF rating. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-most-hurricane-landfalls-1851-2020-2020",
+      "new_disclaimer": "Counts direct hurricane landfalls on each state's coast, per NOAA HURDAT2. A single storm crossing multiple states is counted once per state. DC not included (topic is state-scoped)."
+    },
+    {
+      "id": "us-states-geography-highest-recorded-temperature-2024",
+      "new_disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee. Death Valley's 134°F (1913) remains debated but is the accepted official record. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-lowest-recorded-temperature-2024",
+      "new_disclaimer": "Rank 1 is the coldest ever recorded (most negative Fahrenheit). All-time official state minima per NOAA SCEC. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+      "new_disclaimer": "Statewide averages derived from NOAA/NWS first-order station normals. Some states are averaged across multiple reporting stations. Includes Washington DC."
+    },
+    {
+      "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+      "new_disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals. Includes Washington DC."
+    }
+  ]
+}

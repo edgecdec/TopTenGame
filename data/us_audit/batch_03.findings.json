@@ -1,0 +1,95 @@
+{
+  "batch": 3,
+  "findings": [
+    {
+      "id": "us-states-health-largest-wind-electricity-generation-2023",
+      "issue": "fact-error",
+      "detail": "Subtheme is 'US States - Health' but the question is about wind electricity generation (energy topic, not health). Mis-categorized.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-health-largest-wind-electricity-generation-2023",
+      "issue": "sort-inversion",
+      "detail": "Ranks 28-41 are wildly out of numeric order: rank 28 MD=550, 29 VT=375, 30 HI=350, 31 AZ=550, 32 UT=700, 33 MA=260, 34 NH=500, 35 NJ=25, 36 AK=170, 37 NV=0, 38 TN=75, 39 RI=125, 40 DE=5, 41 CT=3. UT (700) and AZ (550) should rank near 27-28, not 31-32; NV at 0 ranks above NJ/AK/DE/CT which have positive values.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-health-highest-co2-emissions-per-capita-2021",
+      "issue": "sort-inversion",
+      "detail": "Rank 49 CA=8.0 t/person is placed below rank 47 MA=7.4 and rank 48 RI=7.4 despite having a higher value. CA (8.0) should rank above MA/RI (7.4). Rank order 47-50 (RI 7.4, MA 7.4, CA 8.0, NY 6.8) is inconsistent with value descending.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-most-electoral-college-votes-2024",
+      "issue": "fact-error",
+      "detail": "Rank 22 CO listed with value '10' but grouped/ranked below AL (9) and tied with SC (9). CO has 10 electoral votes and should be ranked with the '10' bucket at rank 18. Also rank 27 OR listed as '8' with CT/OK (7); OR has 8 EVs and belongs one tier up. Rank 36 WV shown as '4' but grouped with NE/NM at 5.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-most-electoral-college-votes-2024",
+      "issue": "sort-inversion",
+      "detail": "Multiple value/rank mismatches: CO=10 at rank 22 below rank 21 (WI=10); OR=8 at rank 27 (below rank 25 KY/LA=8); WV=4 at rank 36 alongside NE/NM=5.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-most-us-house-representatives-2023",
+      "issue": "fact-error",
+      "detail": "Same pattern as electoral question: rank 22 CO=8 grouped with AL/SC=7; rank 27 OR=6 grouped with CT/OK=5; rank 36 WV=2 grouped with NE/NM=3. Actual seat counts: CO=8, OR=6, WV=2 — but ranks/tie groupings are wrong.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-highest-presidential-winning-margin-2024-election-2024",
+      "issue": "sort-inversion",
+      "detail": "Values badly out of order after rank ~18: e.g. rank 19 HI=15.8 then rank 20 LA=22.2; rank 22 MO=18.4 then rank 23 UT=21.7; rank 25 SC=17.6 with rank 24 KS=16.0; rank 30 NJ=5.9 then rank 31 OH=11.2; rank 34 AK=13.1 then rank 35 OR=13.4 then 36 WA=17.7; rank 40 NM=5.9 above rank 41 VA=5.8 OK but ordered inconsistently overall. Sort by descending margin is broken across a large portion of the list.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-highest-governor-s-salary-2023",
+      "issue": "sort-inversion",
+      "detail": "Ranks 19 onward are severely out of order. Rank 19 DE=$182,441 placed below rank 9 GA=$182,406 correctly but rank 19 exceeds rank 10 VA/NJ=$175,000. Rank 41 VT=$186,362 would place ~rank 8. Rank 39 AR=$158,850 above many higher-ranked entries. Rank 34 RI=$145,755, rank 36 ND=$140,679, rank 37 WV=$150,000 all inconsistent with descending sort.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-highest-voter-turnout-2020-presidential-election-2020",
+      "issue": "sort-inversion",
+      "detail": "Multiple inversions: rank 17 VT=70.8% below rank 18 PA=70.9%; rank 20 OH=68.4% above rank 21 NC=71.5% and rank 22 CT=71.5%; rank 29 ID=68.6% above lower-ranked higher values; rank 31 AK=68.7%; rank 37 CA=68.5% (ranked below values like 63.5%). Ranking is not consistent with descending turnout across the entire lower half.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-politics-highest-voter-turnout-2020-presidential-election-2020",
+      "issue": "false-tie",
+      "detail": "Rank 21 NC=71.5% and rank 22 CT=71.5% have identical values but are given distinct ranks; they should share a rank (tied).",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-politics-highest-share-of-population-born-in-state-2018",
+      "issue": "sort-inversion",
+      "detail": "Rank 51 DC=36.3% is placed below rank 50 NV=26.9%, but 36.3% > 26.9%. DC should rank higher (around rank 49 between FL 34.6% and AZ 37.4%). Also disclaimer is nearly empty (' Includes Washington DC.') — should specify metric definition.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-most-populous-states-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 18 MD=6.18M placed above rank 19 MO=6.20M — MO has larger population and should be ranked higher. Similar minor swap: rank 41 NH=1.40M above rank 42 ME=1.40M (potential false-tie).",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-highest-median-household-income-2022",
+      "issue": "sort-inversion",
+      "detail": "Ranks 17-40 are largely out of descending order. Examples: rank 17 OR=$76,362 above rank 18 DE=$79,325; rank 22 WY=$72,495 below rank 23 PA=$73,170; rank 27 NE=$71,722 below rank 28 WI=$72,458 and rank 29 ND=$73,959; rank 30 ME=$68,251 above lower-ranked higher values; rank 39 ID=$70,214 above many higher-income states ranked below. Sort is broken in the mid-to-lower portion.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-highest-population-density-2022",
+      "issue": "sort-inversion",
+      "detail": "Numerous inversions: rank 20 NH=154 above rank 21 SC=173; rank 22 KY=114 above rank 23 MI=178; rank 24 LA=108 above rank 26 WA=117 and rank 27 TX=115; rank 31 VT=70 above rank 32 MN=72; rank 33 MS=63 above rank 34 AZ=65; rank 41 KS=36 above rank 42 UT=42. Sort by descending density is broken in many places.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-billionaires-2024",
+      "issue": "value-format-mix",
+      "detail": "Value string format is inconsistent across tied entries. Some tied entries carry '(tied)' suffix, others do not: rank 15 AR='5 billionaires' but MN/OH='5 billionaires (tied)'; rank 20 MO='3 billionaires' but NC/OR/WI/WY='3 billionaires (tied)'; rank 25 AZ='2 billionaires' vs others '2 billionaires (tied)'; rank 30 AL='1 billionaire' vs others '1 billionaire (tied)'. Also singular/plural switches ('billionaire' vs 'billionaires').",
+      "severity": "medium"
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "cluster": "us-inverse-05",
+  "source_question": {
+    "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+    "theme": "US States",
+    "subtheme": "US States - Geography",
+    "title": "Driest States (Least Annual Precipitation)",
+    "prompt": "Rank the US states with the lowest average annual precipitation, by statewide average.",
+    "answerType": "US States",
+    "seededDepth": 51,
+    "source": {
+      "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
+      "asOf": "1991-2020 climate normals"
+    },
+    "note": null,
+    "disclaimer": "Rank 1 is the driest state (lowest inches per year). Statewide averages, not local extremes. Includes Washington DC.",
+    "trivia": "Nevada is the driest US state \u2014 parts of the Amargosa Desert receive under 3 inches per year, drier than many places in the Sahara.",
+    "asOfDate": "1991-2020 climate normals",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "NV",
+        "value": "10.3 in"
+      },
+      {
+        "rank": 2,
+        "code": "UT",
+        "value": "12.2 in"
+      },
+      {
+        "rank": 3,
+        "code": "AZ",
+        "value": "13.6 in"
+      },
+      {
+        "rank": 4,
+        "code": "WY",
+        "value": "14.5 in"
+      },
+      {
+        "rank": 5,
+        "code": "NM",
+        "value": "14.6 in"
+      },
+      {
+        "rank": 6,
+        "code": "MT",
+        "value": "15.3 in"
+      },
+      {
+        "rank": 7,
+        "code": "CO",
+        "value": "16.1 in"
+      },
+      {
+        "rank": 8,
+        "code": "ND",
+        "value": "17.8 in"
+      },
+      {
+        "rank": 9,
+        "code": "ID",
+        "value": "19.0 in"
+      },
+      {
+        "rank": 10,
+        "code": "SD",
+        "value": "20.6 in"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "21.4 in"
+      },
+      {
+        "rank": 12,
+        "code": "AK",
+        "value": "22.5 in"
+      },
+      {
+        "rank": 13,
+        "code": "NE",
+        "value": "24.1 in"
+      },
+      {
+        "rank": 14,
+        "code": "OR",
+        "value": "27.4 in"
+      },
+      {
+        "rank": 15,
+        "code": "MN",
+        "value": "27.5 in"
+      },
+      {
+        "rank": 16,
+        "code": "KS",
+        "value": "28.9 in"
+      },
+      {
+        "rank": 17,
+        "code": "TX",
+        "value": "29.1 in"
+      },
+      {
+        "rank": 18,
+        "code": "WI",
+        "value": "32.6 in"
+      },
+      {
+        "rank": 19,
+        "code": "MI",
+        "value": "33.0 in"
+      },
+      {
+        "rank": 20,
+        "code": "IA",
+        "value": "34.0 in"
+      },
+      {
+        "rank": 21,
+        "code": "OK",
+        "value": "36.5 in"
+      },
+      {
+        "rank": 22,
+        "code": "WA",
+        "value": "38.4 in"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "39.2 in"
+      },
+      {
+        "rank": 24,
+        "code": "OH",
+        "value": "40.2 in"
+      },
+      {
+        "rank": 25,
+        "code": "DC",
+        "value": "40.8 in"
+      },
+      {
+        "rank": 26,
+        "code": "NY",
+        "value": "42.3 in"
+      },
+      {
+        "rank": 27,
+        "code": "MO",
+        "value": "42.4 in"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "42.6 in"
+      },
+      {
+        "rank": 29,
+        "code": "PA",
+        "value": "42.9 in"
+      },
+      {
+        "rank": 30,
+        "code": "VT",
+        "value": "43.0 in"
+      },
+      {
+        "rank": 31,
+        "code": "NH",
+        "value": "43.4 in"
+      },
+      {
+        "rank": 32,
+        "code": "VA",
+        "value": "44.3 in"
+      },
+      {
+        "rank": 33,
+        "code": "ME",
+        "value": "44.4 in"
+      },
+      {
+        "rank": 34,
+        "code": "MD",
+        "value": "44.5 in"
+      },
+      {
+        "rank": 35,
+        "code": "WV",
+        "value": "45.2 in"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "45.7 in"
+      },
+      {
+        "rank": 37,
+        "code": "NJ",
+        "value": "47.1 in"
+      },
+      {
+        "rank": 38,
+        "code": "RI",
+        "value": "47.9 in"
+      },
+      {
+        "rank": 39,
+        "code": "MA",
+        "value": "48.0 in"
+      },
+      {
+        "rank": 40,
+        "code": "KY",
+        "value": "48.9 in"
+      },
+      {
+        "rank": 41,
+        "code": "SC",
+        "value": "49.8 in"
+      },
+      {
+        "rank": 42,
+        "code": "CT",
+        "value": "50.3 in"
+      },
+      {
+        "rank": 43,
+        "code": "NC",
+        "value": "50.4 in"
+      },
+      {
+        "rank": 44,
+        "code": "AR",
+        "value": "50.6 in"
+      },
+      {
+        "rank": 45,
+        "code": "GA",
+        "value": "50.7 in"
+      },
+      {
+        "rank": 46,
+        "code": "TN",
+        "value": "54.2 in"
+      },
+      {
+        "rank": 47,
+        "code": "FL",
+        "value": "54.5 in"
+      },
+      {
+        "rank": 48,
+        "code": "AL",
+        "value": "58.3 in"
+      },
+      {
+        "rank": 49,
+        "code": "MS",
+        "value": "59.0 in"
+      },
+      {
+        "rank": 50,
+        "code": "LA",
+        "value": "60.1 in"
+      },
+      {
+        "rank": 51,
+        "code": "HI",
+        "value": "63.7 in"
+      }
+    ]
+  },
+  "note": "This question is the direct inverse of 'Wettest States (Most Annual Precipitation)'. Two lists over the same 51 jurisdictions with the same statewide-normal source produce essentially the same ranking reversed \u2014 one adds little independent play value beyond the other."
+}

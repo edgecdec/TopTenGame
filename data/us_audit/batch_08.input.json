@@ -1,0 +1,3495 @@
+{
+  "batch": 8,
+  "questions": [
+    {
+      "id": "us-states-geography-largest-rangeland-grassland-area-2017",
+      "title": "Largest Rangeland (Grassland) Area",
+      "prompt": "Name the US states with the largest total area of rangeland (native grassland, shrubland, and open range).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 40,
+      "disclaimer": "Non-federal plus federal rangeland acres as classified by NRCS. Rangeland is distinct from cropland and pastureland. DC not included (source omits it).",
+      "source": {
+        "name": "USDA Natural Resources Conservation Service \u2014 Natural Resources Inventory",
+        "url": "https://www.nrcs.usda.gov/resources/data-and-reports/natural-resources-inventory",
+        "asOf": "2017 NRI"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "97,500,000 acres"
+        },
+        {
+          "rank": 2,
+          "code": "NV",
+          "value": "46,800,000 acres"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "42,200,000 acres"
+        },
+        {
+          "rank": 4,
+          "code": "MT",
+          "value": "38,600,000 acres"
+        },
+        {
+          "rank": 5,
+          "code": "WY",
+          "value": "31,900,000 acres"
+        },
+        {
+          "rank": 6,
+          "code": "AZ",
+          "value": "31,700,000 acres"
+        },
+        {
+          "rank": 7,
+          "code": "SD",
+          "value": "23,400,000 acres"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "23,100,000 acres"
+        },
+        {
+          "rank": 9,
+          "code": "OR",
+          "value": "22,000,000 acres"
+        },
+        {
+          "rank": 10,
+          "code": "CA",
+          "value": "18,600,000 acres"
+        },
+        {
+          "rank": 11,
+          "code": "UT",
+          "value": "18,000,000 acres"
+        },
+        {
+          "rank": 12,
+          "code": "KS",
+          "value": "15,900,000 acres"
+        },
+        {
+          "rank": 13,
+          "code": "ID",
+          "value": "13,200,000 acres"
+        },
+        {
+          "rank": 14,
+          "code": "ND",
+          "value": "10,700,000 acres"
+        },
+        {
+          "rank": 15,
+          "code": "OK",
+          "value": "10,300,000 acres"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "9,200,000 acres"
+        },
+        {
+          "rank": 17,
+          "code": "WA",
+          "value": "6,400,000 acres"
+        },
+        {
+          "rank": 18,
+          "code": "FL",
+          "value": "3,800,000 acres"
+        },
+        {
+          "rank": 19,
+          "code": "MO",
+          "value": "2,100,000 acres"
+        },
+        {
+          "rank": 20,
+          "code": "MN",
+          "value": "1,600,000 acres"
+        },
+        {
+          "rank": 21,
+          "code": "IA",
+          "value": "1,300,000 acres"
+        },
+        {
+          "rank": 22,
+          "code": "AR",
+          "value": "1,050,000 acres"
+        },
+        {
+          "rank": 23,
+          "code": "LA",
+          "value": "920,000 acres"
+        },
+        {
+          "rank": 24,
+          "code": "WI",
+          "value": "790,000 acres"
+        },
+        {
+          "rank": 25,
+          "code": "MI",
+          "value": "620,000 acres"
+        },
+        {
+          "rank": 26,
+          "code": "MS",
+          "value": "540,000 acres"
+        },
+        {
+          "rank": 27,
+          "code": "GA",
+          "value": "470,000 acres"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "410,000 acres"
+        },
+        {
+          "rank": 29,
+          "code": "KY",
+          "value": "360,000 acres"
+        },
+        {
+          "rank": 30,
+          "code": "TN",
+          "value": "310,000 acres"
+        },
+        {
+          "rank": 31,
+          "code": "IL",
+          "value": "270,000 acres"
+        },
+        {
+          "rank": 32,
+          "code": "IN",
+          "value": "220,000 acres"
+        },
+        {
+          "rank": 33,
+          "code": "SC",
+          "value": "185,000 acres"
+        },
+        {
+          "rank": 34,
+          "code": "NC",
+          "value": "160,000 acres"
+        },
+        {
+          "rank": 35,
+          "code": "VA",
+          "value": "140,000 acres"
+        },
+        {
+          "rank": 36,
+          "code": "OH",
+          "value": "115,000 acres"
+        },
+        {
+          "rank": 37,
+          "code": "PA",
+          "value": "95,000 acres"
+        },
+        {
+          "rank": 38,
+          "code": "NY",
+          "value": "80,000 acres"
+        },
+        {
+          "rank": 39,
+          "code": "WV",
+          "value": "62,000 acres"
+        },
+        {
+          "rank": 40,
+          "code": "HI",
+          "value": "1,100,000 acres"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-coniferous-forest-area-2022",
+      "title": "Largest Coniferous Forest Area",
+      "prompt": "Name the US states with the largest area of coniferous (softwood) forest.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 50,
+      "disclaimer": "Timberland and other forestland classified by FIA as softwood forest-type groups (pine, fir, spruce, hemlock, cedar, redwood). Alaska's boreal forests are included. DC not included (source omits it).",
+      "source": {
+        "name": "USDA Forest Service \u2014 Forest Inventory and Analysis (FIA)",
+        "url": "https://www.fs.usda.gov/research/programs/fia",
+        "asOf": "2022 FIA"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "48,200,000 acres"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "21,800,000 acres"
+        },
+        {
+          "rank": 3,
+          "code": "GA",
+          "value": "20,100,000 acres"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "18,300,000 acres"
+        },
+        {
+          "rank": 5,
+          "code": "AL",
+          "value": "17,700,000 acres"
+        },
+        {
+          "rank": 6,
+          "code": "ID",
+          "value": "16,900,000 acres"
+        },
+        {
+          "rank": 7,
+          "code": "MT",
+          "value": "16,600,000 acres"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "16,300,000 acres"
+        },
+        {
+          "rank": 9,
+          "code": "FL",
+          "value": "13,900,000 acres"
+        },
+        {
+          "rank": 10,
+          "code": "MS",
+          "value": "12,800,000 acres"
+        },
+        {
+          "rank": 11,
+          "code": "NC",
+          "value": "11,200,000 acres"
+        },
+        {
+          "rank": 12,
+          "code": "AR",
+          "value": "10,700,000 acres"
+        },
+        {
+          "rank": 13,
+          "code": "LA",
+          "value": "9,900,000 acres"
+        },
+        {
+          "rank": 14,
+          "code": "SC",
+          "value": "8,800,000 acres"
+        },
+        {
+          "rank": 15,
+          "code": "TX",
+          "value": "8,400,000 acres"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "7,600,000 acres"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "6,900,000 acres"
+        },
+        {
+          "rank": 18,
+          "code": "ME",
+          "value": "6,400,000 acres"
+        },
+        {
+          "rank": 19,
+          "code": "MN",
+          "value": "5,800,000 acres"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "5,200,000 acres"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "4,700,000 acres"
+        },
+        {
+          "rank": 22,
+          "code": "NM",
+          "value": "4,300,000 acres"
+        },
+        {
+          "rank": 23,
+          "code": "AZ",
+          "value": "3,900,000 acres"
+        },
+        {
+          "rank": 24,
+          "code": "PA",
+          "value": "3,500,000 acres"
+        },
+        {
+          "rank": 25,
+          "code": "UT",
+          "value": "3,100,000 acres"
+        },
+        {
+          "rank": 26,
+          "code": "WY",
+          "value": "2,700,000 acres"
+        },
+        {
+          "rank": 27,
+          "code": "NV",
+          "value": "2,300,000 acres"
+        },
+        {
+          "rank": 28,
+          "code": "OK",
+          "value": "1,900,000 acres"
+        },
+        {
+          "rank": 29,
+          "code": "TN",
+          "value": "1,600,000 acres"
+        },
+        {
+          "rank": 30,
+          "code": "NY",
+          "value": "1,400,000 acres"
+        },
+        {
+          "rank": 31,
+          "code": "SD",
+          "value": "1,200,000 acres"
+        },
+        {
+          "rank": 32,
+          "code": "NH",
+          "value": "1,050,000 acres"
+        },
+        {
+          "rank": 33,
+          "code": "WV",
+          "value": "900,000 acres"
+        },
+        {
+          "rank": 34,
+          "code": "VT",
+          "value": "780,000 acres"
+        },
+        {
+          "rank": 35,
+          "code": "KY",
+          "value": "650,000 acres"
+        },
+        {
+          "rank": 36,
+          "code": "MA",
+          "value": "520,000 acres"
+        },
+        {
+          "rank": 37,
+          "code": "NJ",
+          "value": "410,000 acres"
+        },
+        {
+          "rank": 38,
+          "code": "MO",
+          "value": "340,000 acres"
+        },
+        {
+          "rank": 39,
+          "code": "MD",
+          "value": "270,000 acres"
+        },
+        {
+          "rank": 40,
+          "code": "CT",
+          "value": "200,000 acres"
+        },
+        {
+          "rank": 41,
+          "code": "HI",
+          "value": "155,000 acres"
+        },
+        {
+          "rank": 42,
+          "code": "OH",
+          "value": "120,000 acres"
+        },
+        {
+          "rank": 43,
+          "code": "IN",
+          "value": "85,000 acres"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "60,000 acres"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "45,000 acres"
+        },
+        {
+          "rank": 46,
+          "code": "IL",
+          "value": "38,000 acres"
+        },
+        {
+          "rank": 47,
+          "code": "KS",
+          "value": "24,000 acres"
+        },
+        {
+          "rank": 48,
+          "code": "NE",
+          "value": "18,000 acres"
+        },
+        {
+          "rank": 49,
+          "code": "IA",
+          "value": "12,000 acres"
+        },
+        {
+          "rank": 50,
+          "code": "ND",
+          "value": "7,000 acres"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-island-area-under-state-jurisdiction-2022",
+      "title": "Largest Island Area Under State Jurisdiction",
+      "prompt": "Name the US states with the largest total land area of islands (river, lake, coastal, and offshore) under their jurisdiction.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 35,
+      "disclaimer": "Total land area of all islands lying within a state's legal boundaries, including inhabited and uninhabited islands in oceans, gulfs, sounds, lakes, and rivers. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USGS National Hydrography Dataset \u2014 Island features",
+        "url": "https://www.usgs.gov/national-hydrography",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "31,570 sq mi"
+        },
+        {
+          "rank": 2,
+          "code": "HI",
+          "value": "6,423 sq mi"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "3,860 sq mi"
+        },
+        {
+          "rank": 4,
+          "code": "LA",
+          "value": "2,090 sq mi"
+        },
+        {
+          "rank": 5,
+          "code": "NY",
+          "value": "1,590 sq mi"
+        },
+        {
+          "rank": 6,
+          "code": "MI",
+          "value": "1,540 sq mi"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "1,275 sq mi"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "1,150 sq mi"
+        },
+        {
+          "rank": 9,
+          "code": "MA",
+          "value": "425 sq mi"
+        },
+        {
+          "rank": 10,
+          "code": "NC",
+          "value": "395 sq mi"
+        },
+        {
+          "rank": 11,
+          "code": "CA",
+          "value": "340 sq mi"
+        },
+        {
+          "rank": 12,
+          "code": "MN",
+          "value": "305 sq mi"
+        },
+        {
+          "rank": 13,
+          "code": "MD",
+          "value": "225 sq mi"
+        },
+        {
+          "rank": 14,
+          "code": "VA",
+          "value": "195 sq mi"
+        },
+        {
+          "rank": 15,
+          "code": "SC",
+          "value": "175 sq mi"
+        },
+        {
+          "rank": 16,
+          "code": "WI",
+          "value": "150 sq mi"
+        },
+        {
+          "rank": 17,
+          "code": "GA",
+          "value": "125 sq mi"
+        },
+        {
+          "rank": 18,
+          "code": "ME",
+          "value": "110 sq mi"
+        },
+        {
+          "rank": 19,
+          "code": "NJ",
+          "value": "85 sq mi"
+        },
+        {
+          "rank": 20,
+          "code": "AL",
+          "value": "70 sq mi"
+        },
+        {
+          "rank": 21,
+          "code": "MS",
+          "value": "55 sq mi"
+        },
+        {
+          "rank": 22,
+          "code": "OR",
+          "value": "42 sq mi"
+        },
+        {
+          "rank": 23,
+          "code": "RI",
+          "value": "38 sq mi"
+        },
+        {
+          "rank": 24,
+          "code": "OH",
+          "value": "32 sq mi"
+        },
+        {
+          "rank": 25,
+          "code": "CT",
+          "value": "24 sq mi"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "18 sq mi"
+        },
+        {
+          "rank": 27,
+          "code": "IL",
+          "value": "14 sq mi"
+        },
+        {
+          "rank": 28,
+          "code": "NH",
+          "value": "10 sq mi"
+        },
+        {
+          "rank": 29,
+          "code": "DE",
+          "value": "7 sq mi"
+        },
+        {
+          "rank": 30,
+          "code": "IN",
+          "value": "5 sq mi"
+        },
+        {
+          "rank": 31,
+          "code": "VT",
+          "value": "4 sq mi"
+        },
+        {
+          "rank": 32,
+          "code": "TN",
+          "value": "3 sq mi"
+        },
+        {
+          "rank": 33,
+          "code": "KY",
+          "value": "2 sq mi"
+        },
+        {
+          "rank": 34,
+          "code": "MO",
+          "value": "2 sq mi"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "1 sq mi"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-barrier-islands-2020",
+      "title": "Most Named Barrier Islands",
+      "prompt": "Name the US states with the most named barrier islands along their coasts.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 18,
+      "disclaimer": "Named barrier islands as inventoried by USGS coastal geology surveys. Excludes barrier spits still attached to the mainland. DC not included (source omits it).",
+      "source": {
+        "name": "USGS Coastal and Marine Geology Program \u2014 Barrier Island inventory",
+        "url": "https://www.usgs.gov/programs/cmhrp",
+        "asOf": "2020"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "FL",
+          "value": "35 barrier islands"
+        },
+        {
+          "rank": 2,
+          "code": "NC",
+          "value": "23 barrier islands"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "18 barrier islands"
+        },
+        {
+          "rank": 4,
+          "code": "NJ",
+          "value": "17 barrier islands"
+        },
+        {
+          "rank": 5,
+          "code": "SC",
+          "value": "16 barrier islands"
+        },
+        {
+          "rank": 6,
+          "code": "GA",
+          "value": "15 barrier islands"
+        },
+        {
+          "rank": 7,
+          "code": "VA",
+          "value": "14 barrier islands"
+        },
+        {
+          "rank": 8,
+          "code": "NY",
+          "value": "11 barrier islands"
+        },
+        {
+          "rank": 9,
+          "code": "MA",
+          "value": "9 barrier islands"
+        },
+        {
+          "rank": 10,
+          "code": "MD",
+          "value": "6 barrier islands"
+        },
+        {
+          "rank": 11,
+          "code": "AL",
+          "value": "5 barrier islands"
+        },
+        {
+          "rank": 12,
+          "code": "LA",
+          "value": "5 barrier islands (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MS",
+          "value": "4 barrier islands"
+        },
+        {
+          "rank": 14,
+          "code": "RI",
+          "value": "3 barrier islands"
+        },
+        {
+          "rank": 15,
+          "code": "CT",
+          "value": "2 barrier islands"
+        },
+        {
+          "rank": 16,
+          "code": "DE",
+          "value": "2 barrier islands"
+        },
+        {
+          "rank": 17,
+          "code": "ME",
+          "value": "1 barrier island"
+        },
+        {
+          "rank": 18,
+          "code": "NH",
+          "value": "1 barrier island"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-canyons-2023",
+      "title": "Most Named Canyons",
+      "prompt": "Name the US states with the most named canyons catalogued in the USGS Geographic Names Information System.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 43,
+      "disclaimer": "Counts of GNIS features whose names include 'Canyon' by state. Reflects naming convention as much as underlying topography. DC not included (source omits it).",
+      "source": {
+        "name": "USGS Geographic Names Information System (GNIS) \u2014 feature class 'Valley' filtered to canyon names",
+        "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "UT",
+          "value": "6,240 canyons"
+        },
+        {
+          "rank": 2,
+          "code": "AZ",
+          "value": "5,470 canyons"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "5,010 canyons"
+        },
+        {
+          "rank": 4,
+          "code": "NM",
+          "value": "4,830 canyons"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "3,970 canyons"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "3,720 canyons"
+        },
+        {
+          "rank": 7,
+          "code": "NV",
+          "value": "3,240 canyons"
+        },
+        {
+          "rank": 8,
+          "code": "WY",
+          "value": "1,940 canyons"
+        },
+        {
+          "rank": 9,
+          "code": "OR",
+          "value": "1,760 canyons"
+        },
+        {
+          "rank": 10,
+          "code": "ID",
+          "value": "1,690 canyons"
+        },
+        {
+          "rank": 11,
+          "code": "MT",
+          "value": "1,510 canyons"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "1,180 canyons"
+        },
+        {
+          "rank": 13,
+          "code": "WA",
+          "value": "830 canyons"
+        },
+        {
+          "rank": 14,
+          "code": "SD",
+          "value": "620 canyons"
+        },
+        {
+          "rank": 15,
+          "code": "KS",
+          "value": "410 canyons"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "345 canyons"
+        },
+        {
+          "rank": 17,
+          "code": "AK",
+          "value": "290 canyons"
+        },
+        {
+          "rank": 18,
+          "code": "ND",
+          "value": "245 canyons"
+        },
+        {
+          "rank": 19,
+          "code": "AR",
+          "value": "205 canyons"
+        },
+        {
+          "rank": 20,
+          "code": "MO",
+          "value": "170 canyons"
+        },
+        {
+          "rank": 21,
+          "code": "IA",
+          "value": "140 canyons"
+        },
+        {
+          "rank": 22,
+          "code": "KY",
+          "value": "115 canyons"
+        },
+        {
+          "rank": 23,
+          "code": "TN",
+          "value": "95 canyons"
+        },
+        {
+          "rank": 24,
+          "code": "WV",
+          "value": "78 canyons"
+        },
+        {
+          "rank": 25,
+          "code": "PA",
+          "value": "64 canyons"
+        },
+        {
+          "rank": 26,
+          "code": "VA",
+          "value": "52 canyons"
+        },
+        {
+          "rank": 27,
+          "code": "NY",
+          "value": "42 canyons"
+        },
+        {
+          "rank": 28,
+          "code": "GA",
+          "value": "34 canyons"
+        },
+        {
+          "rank": 29,
+          "code": "AL",
+          "value": "28 canyons"
+        },
+        {
+          "rank": 30,
+          "code": "NC",
+          "value": "23 canyons"
+        },
+        {
+          "rank": 31,
+          "code": "MN",
+          "value": "19 canyons"
+        },
+        {
+          "rank": 32,
+          "code": "WI",
+          "value": "16 canyons"
+        },
+        {
+          "rank": 33,
+          "code": "OH",
+          "value": "13 canyons"
+        },
+        {
+          "rank": 34,
+          "code": "IL",
+          "value": "10 canyons"
+        },
+        {
+          "rank": 35,
+          "code": "IN",
+          "value": "8 canyons"
+        },
+        {
+          "rank": 36,
+          "code": "MI",
+          "value": "7 canyons"
+        },
+        {
+          "rank": 37,
+          "code": "HI",
+          "value": "6 canyons"
+        },
+        {
+          "rank": 38,
+          "code": "SC",
+          "value": "5 canyons"
+        },
+        {
+          "rank": 39,
+          "code": "MS",
+          "value": "4 canyons"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "3 canyons"
+        },
+        {
+          "rank": 41,
+          "code": "NH",
+          "value": "2 canyons"
+        },
+        {
+          "rank": 42,
+          "code": "VT",
+          "value": "2 canyons"
+        },
+        {
+          "rank": 43,
+          "code": "MA",
+          "value": "1 canyon"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-longest-river-wholly-within-borders-2022",
+      "title": "Longest River Wholly Within Borders",
+      "prompt": "Name the US states with the longest single river that flows entirely within their own borders.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Longest single named river whose entire course lies within one state's boundaries. Rivers that cross state lines are excluded. Includes Washington DC.",
+      "source": {
+        "name": "USGS National Hydrography Dataset \u2014 river length by state",
+        "url": "https://www.usgs.gov/national-hydrography",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "702 mi (Kuskokwim)"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "600 mi (Brazos)"
+        },
+        {
+          "rank": 3,
+          "code": "NC",
+          "value": "445 mi (Neuse)"
+        },
+        {
+          "rank": 4,
+          "code": "GA",
+          "value": "434 mi (Ocmulgee-Altamaha)"
+        },
+        {
+          "rank": 5,
+          "code": "FL",
+          "value": "410 mi (St. Johns)"
+        },
+        {
+          "rank": 6,
+          "code": "AL",
+          "value": "374 mi (Alabama)"
+        },
+        {
+          "rank": 7,
+          "code": "MI",
+          "value": "260 mi (Grand)"
+        },
+        {
+          "rank": 8,
+          "code": "OK",
+          "value": "255 mi (Cimarron in-state segment)"
+        },
+        {
+          "rank": 9,
+          "code": "SC",
+          "value": "233 mi (Santee)"
+        },
+        {
+          "rank": 10,
+          "code": "OH",
+          "value": "225 mi (Scioto)"
+        },
+        {
+          "rank": 11,
+          "code": "WI",
+          "value": "220 mi (Wisconsin)"
+        },
+        {
+          "rank": 12,
+          "code": "IL",
+          "value": "216 mi (Sangamon)"
+        },
+        {
+          "rank": 13,
+          "code": "VA",
+          "value": "200 mi (James in-state segment)"
+        },
+        {
+          "rank": 14,
+          "code": "PA",
+          "value": "195 mi (Juniata)"
+        },
+        {
+          "rank": 15,
+          "code": "IN",
+          "value": "175 mi (White)"
+        },
+        {
+          "rank": 16,
+          "code": "MO",
+          "value": "170 mi (Meramec)"
+        },
+        {
+          "rank": 17,
+          "code": "IA",
+          "value": "168 mi (Des Moines in-state segment)"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "164 mi (St. Croix in-state segment)"
+        },
+        {
+          "rank": 19,
+          "code": "AR",
+          "value": "160 mi (Ouachita in-state segment)"
+        },
+        {
+          "rank": 20,
+          "code": "TN",
+          "value": "158 mi (Duck)"
+        },
+        {
+          "rank": 21,
+          "code": "KY",
+          "value": "155 mi (Kentucky)"
+        },
+        {
+          "rank": 22,
+          "code": "LA",
+          "value": "150 mi (Calcasieu)"
+        },
+        {
+          "rank": 23,
+          "code": "ME",
+          "value": "148 mi (Penobscot)"
+        },
+        {
+          "rank": 24,
+          "code": "NY",
+          "value": "143 mi (Susquehanna in-state segment)"
+        },
+        {
+          "rank": 25,
+          "code": "MS",
+          "value": "140 mi (Pearl in-state segment)"
+        },
+        {
+          "rank": 26,
+          "code": "NE",
+          "value": "138 mi (Loup)"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "135 mi (Kansas)"
+        },
+        {
+          "rank": 28,
+          "code": "WV",
+          "value": "132 mi (Elk)"
+        },
+        {
+          "rank": 29,
+          "code": "MT",
+          "value": "128 mi (Bighorn in-state segment)"
+        },
+        {
+          "rank": 30,
+          "code": "OR",
+          "value": "125 mi (Willamette)"
+        },
+        {
+          "rank": 31,
+          "code": "WA",
+          "value": "122 mi (Chehalis)"
+        },
+        {
+          "rank": 32,
+          "code": "CA",
+          "value": "120 mi (San Joaquin in-state segment)"
+        },
+        {
+          "rank": 33,
+          "code": "SD",
+          "value": "115 mi (James in-state segment)"
+        },
+        {
+          "rank": 34,
+          "code": "ND",
+          "value": "112 mi (Sheyenne in-state segment)"
+        },
+        {
+          "rank": 35,
+          "code": "NM",
+          "value": "108 mi (Pecos in-state segment)"
+        },
+        {
+          "rank": 36,
+          "code": "CO",
+          "value": "105 mi (Cache la Poudre)"
+        },
+        {
+          "rank": 37,
+          "code": "AZ",
+          "value": "100 mi (Salt in-state segment)"
+        },
+        {
+          "rank": 38,
+          "code": "NV",
+          "value": "95 mi (Humboldt in-state segment)"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "90 mi (Sevier)"
+        },
+        {
+          "rank": 40,
+          "code": "WY",
+          "value": "85 mi (Wind in-state segment)"
+        },
+        {
+          "rank": 41,
+          "code": "ID",
+          "value": "82 mi (Payette)"
+        },
+        {
+          "rank": 42,
+          "code": "MD",
+          "value": "78 mi (Patuxent)"
+        },
+        {
+          "rank": 43,
+          "code": "NJ",
+          "value": "75 mi (Raritan)"
+        },
+        {
+          "rank": 44,
+          "code": "MA",
+          "value": "70 mi (Housatonic in-state segment)"
+        },
+        {
+          "rank": 45,
+          "code": "CT",
+          "value": "68 mi (Housatonic in-state segment)"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "65 mi (Merrimack in-state segment)"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "60 mi (Winooski)"
+        },
+        {
+          "rank": 48,
+          "code": "HI",
+          "value": "33 mi (Kaukonahua)"
+        },
+        {
+          "rank": 49,
+          "code": "DE",
+          "value": "30 mi (Christina)"
+        },
+        {
+          "rank": 50,
+          "code": "RI",
+          "value": "22 mi (Pawtuxet)"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "5 mi (Rock Creek in-DC segment)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-plateaus-2023",
+      "title": "Most Named Plateaus",
+      "prompt": "Name the US states with the most named plateaus catalogued in the USGS Geographic Names Information System.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 30,
+      "disclaimer": "Counts of GNIS features whose names include 'Plateau' or 'Mesa' by state. Reflects Southwestern mesa-country naming density. DC not included (source omits it).",
+      "source": {
+        "name": "USGS Geographic Names Information System (GNIS) \u2014 feature class 'Flat' filtered to plateau/mesa names",
+        "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AZ",
+          "value": "780 plateaus/mesas"
+        },
+        {
+          "rank": 2,
+          "code": "NM",
+          "value": "640 plateaus/mesas"
+        },
+        {
+          "rank": 3,
+          "code": "UT",
+          "value": "540 plateaus/mesas"
+        },
+        {
+          "rank": 4,
+          "code": "CO",
+          "value": "410 plateaus/mesas"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "260 plateaus/mesas"
+        },
+        {
+          "rank": 6,
+          "code": "CA",
+          "value": "170 plateaus/mesas"
+        },
+        {
+          "rank": 7,
+          "code": "NV",
+          "value": "140 plateaus/mesas"
+        },
+        {
+          "rank": 8,
+          "code": "WY",
+          "value": "95 plateaus/mesas"
+        },
+        {
+          "rank": 9,
+          "code": "OR",
+          "value": "82 plateaus/mesas"
+        },
+        {
+          "rank": 10,
+          "code": "MT",
+          "value": "60 plateaus/mesas"
+        },
+        {
+          "rank": 11,
+          "code": "ID",
+          "value": "51 plateaus/mesas"
+        },
+        {
+          "rank": 12,
+          "code": "WA",
+          "value": "38 plateaus/mesas"
+        },
+        {
+          "rank": 13,
+          "code": "SD",
+          "value": "32 plateaus/mesas"
+        },
+        {
+          "rank": 14,
+          "code": "OK",
+          "value": "28 plateaus/mesas"
+        },
+        {
+          "rank": 15,
+          "code": "KS",
+          "value": "22 plateaus/mesas"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "18 plateaus/mesas"
+        },
+        {
+          "rank": 17,
+          "code": "AK",
+          "value": "16 plateaus/mesas"
+        },
+        {
+          "rank": 18,
+          "code": "ND",
+          "value": "14 plateaus/mesas"
+        },
+        {
+          "rank": 19,
+          "code": "AR",
+          "value": "12 plateaus/mesas"
+        },
+        {
+          "rank": 20,
+          "code": "MO",
+          "value": "10 plateaus/mesas"
+        },
+        {
+          "rank": 21,
+          "code": "HI",
+          "value": "9 plateaus/mesas"
+        },
+        {
+          "rank": 22,
+          "code": "WV",
+          "value": "8 plateaus/mesas"
+        },
+        {
+          "rank": 23,
+          "code": "KY",
+          "value": "7 plateaus/mesas"
+        },
+        {
+          "rank": 24,
+          "code": "TN",
+          "value": "6 plateaus/mesas"
+        },
+        {
+          "rank": 25,
+          "code": "VA",
+          "value": "5 plateaus/mesas"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "4 plateaus/mesas"
+        },
+        {
+          "rank": 27,
+          "code": "NC",
+          "value": "4 plateaus/mesas"
+        },
+        {
+          "rank": 28,
+          "code": "NY",
+          "value": "3 plateaus/mesas"
+        },
+        {
+          "rank": 29,
+          "code": "GA",
+          "value": "3 plateaus/mesas"
+        },
+        {
+          "rank": 30,
+          "code": "AL",
+          "value": "2 plateaus/mesas"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-bays-2023",
+      "title": "Most Named Bays",
+      "prompt": "Name the US states with the most named bays catalogued in the USGS Geographic Names Information System.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts of GNIS features classified as 'Bay' by state, including tidal, lake, and river bays. Includes Washington DC.",
+      "source": {
+        "name": "USGS Geographic Names Information System (GNIS) \u2014 feature class 'Bay'",
+        "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "3,240 bays"
+        },
+        {
+          "rank": 2,
+          "code": "LA",
+          "value": "1,120 bays"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "830 bays"
+        },
+        {
+          "rank": 4,
+          "code": "MI",
+          "value": "780 bays"
+        },
+        {
+          "rank": 5,
+          "code": "MN",
+          "value": "620 bays"
+        },
+        {
+          "rank": 6,
+          "code": "WI",
+          "value": "460 bays"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "410 bays"
+        },
+        {
+          "rank": 8,
+          "code": "MA",
+          "value": "390 bays"
+        },
+        {
+          "rank": 9,
+          "code": "ME",
+          "value": "375 bays"
+        },
+        {
+          "rank": 10,
+          "code": "NY",
+          "value": "350 bays"
+        },
+        {
+          "rank": 11,
+          "code": "WA",
+          "value": "320 bays"
+        },
+        {
+          "rank": 12,
+          "code": "MD",
+          "value": "260 bays"
+        },
+        {
+          "rank": 13,
+          "code": "NC",
+          "value": "240 bays"
+        },
+        {
+          "rank": 14,
+          "code": "VA",
+          "value": "230 bays"
+        },
+        {
+          "rank": 15,
+          "code": "NJ",
+          "value": "180 bays"
+        },
+        {
+          "rank": 16,
+          "code": "SC",
+          "value": "165 bays"
+        },
+        {
+          "rank": 17,
+          "code": "MS",
+          "value": "150 bays"
+        },
+        {
+          "rank": 18,
+          "code": "OR",
+          "value": "140 bays"
+        },
+        {
+          "rank": 19,
+          "code": "CA",
+          "value": "130 bays"
+        },
+        {
+          "rank": 20,
+          "code": "AL",
+          "value": "120 bays"
+        },
+        {
+          "rank": 21,
+          "code": "GA",
+          "value": "105 bays"
+        },
+        {
+          "rank": 22,
+          "code": "CT",
+          "value": "85 bays"
+        },
+        {
+          "rank": 23,
+          "code": "RI",
+          "value": "78 bays"
+        },
+        {
+          "rank": 24,
+          "code": "NH",
+          "value": "65 bays"
+        },
+        {
+          "rank": 25,
+          "code": "HI",
+          "value": "60 bays"
+        },
+        {
+          "rank": 26,
+          "code": "DE",
+          "value": "48 bays"
+        },
+        {
+          "rank": 27,
+          "code": "OH",
+          "value": "42 bays"
+        },
+        {
+          "rank": 28,
+          "code": "IL",
+          "value": "38 bays"
+        },
+        {
+          "rank": 29,
+          "code": "PA",
+          "value": "35 bays"
+        },
+        {
+          "rank": 30,
+          "code": "IN",
+          "value": "30 bays"
+        },
+        {
+          "rank": 31,
+          "code": "NV",
+          "value": "24 bays"
+        },
+        {
+          "rank": 32,
+          "code": "UT",
+          "value": "22 bays"
+        },
+        {
+          "rank": 33,
+          "code": "ID",
+          "value": "20 bays"
+        },
+        {
+          "rank": 34,
+          "code": "TN",
+          "value": "18 bays"
+        },
+        {
+          "rank": 35,
+          "code": "MT",
+          "value": "17 bays"
+        },
+        {
+          "rank": 36,
+          "code": "KY",
+          "value": "16 bays"
+        },
+        {
+          "rank": 37,
+          "code": "MO",
+          "value": "15 bays"
+        },
+        {
+          "rank": 38,
+          "code": "OK",
+          "value": "14 bays"
+        },
+        {
+          "rank": 39,
+          "code": "ND",
+          "value": "13 bays"
+        },
+        {
+          "rank": 40,
+          "code": "SD",
+          "value": "12 bays"
+        },
+        {
+          "rank": 41,
+          "code": "AR",
+          "value": "11 bays"
+        },
+        {
+          "rank": 42,
+          "code": "VT",
+          "value": "10 bays"
+        },
+        {
+          "rank": 43,
+          "code": "CO",
+          "value": "8 bays"
+        },
+        {
+          "rank": 44,
+          "code": "WY",
+          "value": "7 bays"
+        },
+        {
+          "rank": 45,
+          "code": "WV",
+          "value": "6 bays"
+        },
+        {
+          "rank": 46,
+          "code": "AZ",
+          "value": "5 bays"
+        },
+        {
+          "rank": 47,
+          "code": "NM",
+          "value": "4 bays"
+        },
+        {
+          "rank": 48,
+          "code": "IA",
+          "value": "4 bays"
+        },
+        {
+          "rank": 49,
+          "code": "NE",
+          "value": "3 bays"
+        },
+        {
+          "rank": 50,
+          "code": "KS",
+          "value": "2 bays"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1 bay"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-sounds-2023",
+      "title": "Most Named Sounds",
+      "prompt": "Name the US states with the most named sounds (elongated coastal or inland water bodies) catalogued in the USGS GNIS.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 24,
+      "disclaimer": "Counts of GNIS features whose names include 'Sound' by state, covering marine straits between islands and mainland as well as broad estuarine passages. DC not included (source omits it).",
+      "source": {
+        "name": "USGS Geographic Names Information System (GNIS) \u2014 feature class 'Channel/Sound'",
+        "url": "https://www.usgs.gov/tools/geographic-names-information-system-gnis",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "180 sounds"
+        },
+        {
+          "rank": 2,
+          "code": "NC",
+          "value": "24 sounds"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "22 sounds"
+        },
+        {
+          "rank": 4,
+          "code": "FL",
+          "value": "18 sounds"
+        },
+        {
+          "rank": 5,
+          "code": "ME",
+          "value": "16 sounds"
+        },
+        {
+          "rank": 6,
+          "code": "NY",
+          "value": "12 sounds"
+        },
+        {
+          "rank": 7,
+          "code": "MA",
+          "value": "11 sounds"
+        },
+        {
+          "rank": 8,
+          "code": "MS",
+          "value": "9 sounds"
+        },
+        {
+          "rank": 9,
+          "code": "VA",
+          "value": "8 sounds"
+        },
+        {
+          "rank": 10,
+          "code": "SC",
+          "value": "7 sounds"
+        },
+        {
+          "rank": 11,
+          "code": "HI",
+          "value": "6 sounds"
+        },
+        {
+          "rank": 12,
+          "code": "GA",
+          "value": "5 sounds"
+        },
+        {
+          "rank": 13,
+          "code": "TX",
+          "value": "4 sounds"
+        },
+        {
+          "rank": 13,
+          "code": "MD",
+          "value": "4 sounds (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "LA",
+          "value": "3 sounds"
+        },
+        {
+          "rank": 15,
+          "code": "OR",
+          "value": "3 sounds (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "NJ",
+          "value": "3 sounds (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "CT",
+          "value": "2 sounds"
+        },
+        {
+          "rank": 18,
+          "code": "AL",
+          "value": "2 sounds (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "RI",
+          "value": "2 sounds (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "2 sounds (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "CA",
+          "value": "1 sound"
+        },
+        {
+          "rank": 22,
+          "code": "DE",
+          "value": "1 sound (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "NH",
+          "value": "1 sound (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-peak-snowpack-swe-2010",
+      "title": "Largest Peak Snowpack (SWE)",
+      "prompt": "Name the US states with the largest peak-season snowpack, measured as snow water equivalent (SWE) averaged across NRCS SNOTEL sites.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 13,
+      "disclaimer": "Average April 1 snow water equivalent across all SNOTEL sites in each state. April 1 is the traditional peak for the Western U.S. snowpack cycle. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA Natural Resources Conservation Service \u2014 SNOTEL network",
+        "url": "https://www.nrcs.usda.gov/resources/data-and-reports/snow-water-and-climate-monitoring",
+        "asOf": "2010-2020 average"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "42.8 in SWE"
+        },
+        {
+          "rank": 2,
+          "code": "WA",
+          "value": "38.6 in SWE"
+        },
+        {
+          "rank": 3,
+          "code": "OR",
+          "value": "31.2 in SWE"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "28.4 in SWE"
+        },
+        {
+          "rank": 5,
+          "code": "ID",
+          "value": "22.7 in SWE"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "19.8 in SWE"
+        },
+        {
+          "rank": 7,
+          "code": "WY",
+          "value": "18.9 in SWE"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "17.6 in SWE"
+        },
+        {
+          "rank": 9,
+          "code": "UT",
+          "value": "16.4 in SWE"
+        },
+        {
+          "rank": 10,
+          "code": "NV",
+          "value": "13.2 in SWE"
+        },
+        {
+          "rank": 11,
+          "code": "NM",
+          "value": "9.8 in SWE"
+        },
+        {
+          "rank": 12,
+          "code": "AZ",
+          "value": "8.6 in SWE"
+        },
+        {
+          "rank": 13,
+          "code": "SD",
+          "value": "5.4 in SWE"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-craft-distilleries-2023",
+      "title": "Most Craft Distilleries",
+      "prompt": "Name the US states with the most licensed craft distilleries.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Count of DSP-licensed craft distilleries operating in each state (ACSA definition). Includes Washington DC.",
+      "source": {
+        "name": "American Craft Spirits Association \u2014 Annual Economic Impact Report",
+        "url": "https://americancraftspirits.org/economic-impact/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "236 distilleries"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "217 distilleries"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "150 distilleries"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "142 distilleries"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "132 distilleries"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "125 distilleries"
+        },
+        {
+          "rank": 7,
+          "code": "NC",
+          "value": "104 distilleries"
+        },
+        {
+          "rank": 8,
+          "code": "OR",
+          "value": "99 distilleries"
+        },
+        {
+          "rank": 9,
+          "code": "MI",
+          "value": "92 distilleries"
+        },
+        {
+          "rank": 10,
+          "code": "OH",
+          "value": "88 distilleries"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "84 distilleries"
+        },
+        {
+          "rank": 12,
+          "code": "KY",
+          "value": "80 distilleries"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "77 distilleries"
+        },
+        {
+          "rank": 14,
+          "code": "IL",
+          "value": "71 distilleries"
+        },
+        {
+          "rank": 15,
+          "code": "WI",
+          "value": "65 distilleries"
+        },
+        {
+          "rank": 16,
+          "code": "MA",
+          "value": "60 distilleries"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "55 distilleries"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "52 distilleries"
+        },
+        {
+          "rank": 19,
+          "code": "TN",
+          "value": "50 distilleries"
+        },
+        {
+          "rank": 20,
+          "code": "GA",
+          "value": "48 distilleries"
+        },
+        {
+          "rank": 21,
+          "code": "MO",
+          "value": "45 distilleries"
+        },
+        {
+          "rank": 22,
+          "code": "AZ",
+          "value": "42 distilleries"
+        },
+        {
+          "rank": 23,
+          "code": "MD",
+          "value": "40 distilleries"
+        },
+        {
+          "rank": 24,
+          "code": "NJ",
+          "value": "38 distilleries"
+        },
+        {
+          "rank": 25,
+          "code": "SC",
+          "value": "36 distilleries"
+        },
+        {
+          "rank": 26,
+          "code": "MT",
+          "value": "34 distilleries"
+        },
+        {
+          "rank": 27,
+          "code": "ID",
+          "value": "32 distilleries"
+        },
+        {
+          "rank": 28,
+          "code": "CT",
+          "value": "30 distilleries"
+        },
+        {
+          "rank": 29,
+          "code": "IA",
+          "value": "28 distilleries"
+        },
+        {
+          "rank": 30,
+          "code": "ME",
+          "value": "27 distilleries"
+        },
+        {
+          "rank": 31,
+          "code": "NM",
+          "value": "25 distilleries"
+        },
+        {
+          "rank": 32,
+          "code": "OK",
+          "value": "24 distilleries"
+        },
+        {
+          "rank": 33,
+          "code": "AL",
+          "value": "22 distilleries"
+        },
+        {
+          "rank": 34,
+          "code": "NH",
+          "value": "21 distilleries"
+        },
+        {
+          "rank": 35,
+          "code": "VT",
+          "value": "20 distilleries"
+        },
+        {
+          "rank": 36,
+          "code": "AR",
+          "value": "19 distilleries"
+        },
+        {
+          "rank": 37,
+          "code": "KS",
+          "value": "18 distilleries"
+        },
+        {
+          "rank": 38,
+          "code": "UT",
+          "value": "17 distilleries"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "16 distilleries"
+        },
+        {
+          "rank": 40,
+          "code": "LA",
+          "value": "15 distilleries"
+        },
+        {
+          "rank": 41,
+          "code": "HI",
+          "value": "14 distilleries"
+        },
+        {
+          "rank": 42,
+          "code": "NV",
+          "value": "13 distilleries"
+        },
+        {
+          "rank": 43,
+          "code": "AK",
+          "value": "12 distilleries"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "11 distilleries"
+        },
+        {
+          "rank": 45,
+          "code": "MS",
+          "value": "10 distilleries"
+        },
+        {
+          "rank": 46,
+          "code": "SD",
+          "value": "9 distilleries"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "8 distilleries"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "7 distilleries"
+        },
+        {
+          "rank": 49,
+          "code": "ND",
+          "value": "6 distilleries"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "5 distilleries"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "4 distilleries"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-wineries-2023",
+      "title": "Most Wineries",
+      "prompt": "Name the US states with the most bonded wineries.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 50,
+      "disclaimer": "Bonded winery count includes all TTB-permitted winery premises, from major producers to boutique operations. DC not included (source omits it).",
+      "source": {
+        "name": "Wines Vines Analytics \u2014 Winery Database",
+        "url": "https://winesvinesanalytics.com/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "5,900 wineries"
+        },
+        {
+          "rank": 2,
+          "code": "WA",
+          "value": "1,050 wineries"
+        },
+        {
+          "rank": 3,
+          "code": "OR",
+          "value": "1,030 wineries"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "480 wineries"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "460 wineries"
+        },
+        {
+          "rank": 6,
+          "code": "VA",
+          "value": "310 wineries"
+        },
+        {
+          "rank": 7,
+          "code": "PA",
+          "value": "300 wineries"
+        },
+        {
+          "rank": 8,
+          "code": "MI",
+          "value": "220 wineries"
+        },
+        {
+          "rank": 9,
+          "code": "OH",
+          "value": "310 wineries"
+        },
+        {
+          "rank": 10,
+          "code": "NC",
+          "value": "215 wineries"
+        },
+        {
+          "rank": 11,
+          "code": "IL",
+          "value": "180 wineries"
+        },
+        {
+          "rank": 12,
+          "code": "MO",
+          "value": "150 wineries"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "60 wineries"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "125 wineries"
+        },
+        {
+          "rank": 15,
+          "code": "CO",
+          "value": "165 wineries"
+        },
+        {
+          "rank": 16,
+          "code": "WI",
+          "value": "150 wineries"
+        },
+        {
+          "rank": 17,
+          "code": "AZ",
+          "value": "130 wineries"
+        },
+        {
+          "rank": 18,
+          "code": "MA",
+          "value": "115 wineries"
+        },
+        {
+          "rank": 19,
+          "code": "MN",
+          "value": "95 wineries"
+        },
+        {
+          "rank": 20,
+          "code": "GA",
+          "value": "90 wineries"
+        },
+        {
+          "rank": 21,
+          "code": "NM",
+          "value": "85 wineries"
+        },
+        {
+          "rank": 22,
+          "code": "FL",
+          "value": "80 wineries"
+        },
+        {
+          "rank": 23,
+          "code": "MD",
+          "value": "115 wineries"
+        },
+        {
+          "rank": 24,
+          "code": "TN",
+          "value": "75 wineries"
+        },
+        {
+          "rank": 25,
+          "code": "KY",
+          "value": "70 wineries"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "105 wineries"
+        },
+        {
+          "rank": 27,
+          "code": "CT",
+          "value": "50 wineries"
+        },
+        {
+          "rank": 28,
+          "code": "ID",
+          "value": "70 wineries"
+        },
+        {
+          "rank": 29,
+          "code": "SC",
+          "value": "45 wineries"
+        },
+        {
+          "rank": 30,
+          "code": "NH",
+          "value": "45 wineries"
+        },
+        {
+          "rank": 31,
+          "code": "AR",
+          "value": "40 wineries"
+        },
+        {
+          "rank": 32,
+          "code": "OK",
+          "value": "40 wineries"
+        },
+        {
+          "rank": 33,
+          "code": "VT",
+          "value": "35 wineries"
+        },
+        {
+          "rank": 34,
+          "code": "AL",
+          "value": "30 wineries"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "35 wineries"
+        },
+        {
+          "rank": 36,
+          "code": "KS",
+          "value": "30 wineries"
+        },
+        {
+          "rank": 37,
+          "code": "ME",
+          "value": "25 wineries"
+        },
+        {
+          "rank": 38,
+          "code": "WV",
+          "value": "25 wineries"
+        },
+        {
+          "rank": 39,
+          "code": "MS",
+          "value": "20 wineries"
+        },
+        {
+          "rank": 40,
+          "code": "RI",
+          "value": "15 wineries"
+        },
+        {
+          "rank": 41,
+          "code": "MT",
+          "value": "15 wineries"
+        },
+        {
+          "rank": 42,
+          "code": "HI",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 43,
+          "code": "DE",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 44,
+          "code": "UT",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 45,
+          "code": "LA",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 46,
+          "code": "SD",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 47,
+          "code": "NV",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 48,
+          "code": "ND",
+          "value": "10 wineries"
+        },
+        {
+          "rank": 49,
+          "code": "WY",
+          "value": "5 wineries"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "5 wineries"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-farmers-markets-2023",
+      "title": "Most Farmers Markets",
+      "prompt": "Name the US states with the most farmers markets registered with the USDA.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Total count of currently listed farmers markets in the USDA Local Food Portal directory. Includes Washington DC.",
+      "source": {
+        "name": "USDA AMS \u2014 National Farmers Market Directory",
+        "url": "https://www.usdalocalfoodportal.com/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "710 markets"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "690 markets"
+        },
+        {
+          "rank": 3,
+          "code": "MI",
+          "value": "365 markets"
+        },
+        {
+          "rank": 4,
+          "code": "OH",
+          "value": "360 markets"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "355 markets"
+        },
+        {
+          "rank": 6,
+          "code": "PA",
+          "value": "330 markets"
+        },
+        {
+          "rank": 7,
+          "code": "MA",
+          "value": "310 markets"
+        },
+        {
+          "rank": 8,
+          "code": "NC",
+          "value": "295 markets"
+        },
+        {
+          "rank": 9,
+          "code": "WI",
+          "value": "290 markets"
+        },
+        {
+          "rank": 10,
+          "code": "TX",
+          "value": "270 markets"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "245 markets"
+        },
+        {
+          "rank": 12,
+          "code": "MO",
+          "value": "240 markets"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "225 markets"
+        },
+        {
+          "rank": 14,
+          "code": "IA",
+          "value": "215 markets"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "205 markets"
+        },
+        {
+          "rank": 16,
+          "code": "IN",
+          "value": "195 markets"
+        },
+        {
+          "rank": 17,
+          "code": "WA",
+          "value": "185 markets"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "160 markets"
+        },
+        {
+          "rank": 19,
+          "code": "NJ",
+          "value": "155 markets"
+        },
+        {
+          "rank": 20,
+          "code": "OR",
+          "value": "150 markets"
+        },
+        {
+          "rank": 21,
+          "code": "TN",
+          "value": "145 markets"
+        },
+        {
+          "rank": 22,
+          "code": "GA",
+          "value": "140 markets"
+        },
+        {
+          "rank": 23,
+          "code": "KY",
+          "value": "135 markets"
+        },
+        {
+          "rank": 24,
+          "code": "CO",
+          "value": "125 markets"
+        },
+        {
+          "rank": 25,
+          "code": "CT",
+          "value": "120 markets"
+        },
+        {
+          "rank": 26,
+          "code": "AL",
+          "value": "115 markets"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "110 markets"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "105 markets"
+        },
+        {
+          "rank": 29,
+          "code": "ME",
+          "value": "100 markets"
+        },
+        {
+          "rank": 30,
+          "code": "AZ",
+          "value": "95 markets"
+        },
+        {
+          "rank": 31,
+          "code": "AR",
+          "value": "90 markets"
+        },
+        {
+          "rank": 32,
+          "code": "OK",
+          "value": "85 markets"
+        },
+        {
+          "rank": 33,
+          "code": "MS",
+          "value": "80 markets"
+        },
+        {
+          "rank": 34,
+          "code": "NE",
+          "value": "75 markets"
+        },
+        {
+          "rank": 35,
+          "code": "LA",
+          "value": "70 markets"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "65 markets"
+        },
+        {
+          "rank": 37,
+          "code": "WV",
+          "value": "60 markets"
+        },
+        {
+          "rank": 38,
+          "code": "NH",
+          "value": "55 markets"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "55 markets"
+        },
+        {
+          "rank": 40,
+          "code": "UT",
+          "value": "50 markets"
+        },
+        {
+          "rank": 41,
+          "code": "VT",
+          "value": "50 markets"
+        },
+        {
+          "rank": 42,
+          "code": "MT",
+          "value": "45 markets"
+        },
+        {
+          "rank": 43,
+          "code": "SD",
+          "value": "35 markets"
+        },
+        {
+          "rank": 44,
+          "code": "HI",
+          "value": "30 markets"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "30 markets"
+        },
+        {
+          "rank": 46,
+          "code": "DE",
+          "value": "30 markets"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "30 markets"
+        },
+        {
+          "rank": 48,
+          "code": "NV",
+          "value": "25 markets"
+        },
+        {
+          "rank": 49,
+          "code": "DC",
+          "value": "25 markets"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "20 markets"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "15 markets"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-highest-ev-share-of-new-vehicle-sales-2024",
+      "title": "Highest EV Share of New Vehicle Sales",
+      "prompt": "Name the US states where electric vehicles make up the highest share of new light-duty vehicle registrations.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Battery-electric vehicles as share of new light-duty registrations; hybrids and plug-in hybrids excluded. Includes Washington DC.",
+      "source": {
+        "name": "Alliance for Automotive Innovation \u2014 Get Connected EV Report",
+        "url": "https://www.autosinnovate.org/posts/papers-reports/Get%20Connected%20EV%20Quarterly%20Report",
+        "asOf": "2024 Q1"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "21.4%"
+        },
+        {
+          "rank": 2,
+          "code": "WA",
+          "value": "18.2%"
+        },
+        {
+          "rank": 3,
+          "code": "HI",
+          "value": "13.9%"
+        },
+        {
+          "rank": 4,
+          "code": "OR",
+          "value": "13.7%"
+        },
+        {
+          "rank": 5,
+          "code": "NV",
+          "value": "12.1%"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "11.8%"
+        },
+        {
+          "rank": 7,
+          "code": "AZ",
+          "value": "10.6%"
+        },
+        {
+          "rank": 8,
+          "code": "NJ",
+          "value": "10.2%"
+        },
+        {
+          "rank": 9,
+          "code": "MA",
+          "value": "9.8%"
+        },
+        {
+          "rank": 10,
+          "code": "VA",
+          "value": "9.5%"
+        },
+        {
+          "rank": 11,
+          "code": "MD",
+          "value": "9.3%"
+        },
+        {
+          "rank": 12,
+          "code": "CT",
+          "value": "9.0%"
+        },
+        {
+          "rank": 13,
+          "code": "NY",
+          "value": "8.7%"
+        },
+        {
+          "rank": 14,
+          "code": "FL",
+          "value": "8.5%"
+        },
+        {
+          "rank": 15,
+          "code": "UT",
+          "value": "8.3%"
+        },
+        {
+          "rank": 16,
+          "code": "DC",
+          "value": "8.1%"
+        },
+        {
+          "rank": 17,
+          "code": "GA",
+          "value": "7.4%"
+        },
+        {
+          "rank": 18,
+          "code": "RI",
+          "value": "7.2%"
+        },
+        {
+          "rank": 19,
+          "code": "TX",
+          "value": "6.9%"
+        },
+        {
+          "rank": 20,
+          "code": "IL",
+          "value": "6.7%"
+        },
+        {
+          "rank": 21,
+          "code": "NM",
+          "value": "6.5%"
+        },
+        {
+          "rank": 22,
+          "code": "VT",
+          "value": "6.4%"
+        },
+        {
+          "rank": 23,
+          "code": "MN",
+          "value": "6.2%"
+        },
+        {
+          "rank": 24,
+          "code": "NC",
+          "value": "6.0%"
+        },
+        {
+          "rank": 25,
+          "code": "DE",
+          "value": "5.9%"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "5.6%"
+        },
+        {
+          "rank": 27,
+          "code": "NH",
+          "value": "5.4%"
+        },
+        {
+          "rank": 28,
+          "code": "TN",
+          "value": "5.1%"
+        },
+        {
+          "rank": 29,
+          "code": "SC",
+          "value": "4.8%"
+        },
+        {
+          "rank": 30,
+          "code": "ME",
+          "value": "4.7%"
+        },
+        {
+          "rank": 31,
+          "code": "OH",
+          "value": "4.4%"
+        },
+        {
+          "rank": 32,
+          "code": "MI",
+          "value": "4.3%"
+        },
+        {
+          "rank": 33,
+          "code": "WI",
+          "value": "4.1%"
+        },
+        {
+          "rank": 34,
+          "code": "ID",
+          "value": "4.0%"
+        },
+        {
+          "rank": 35,
+          "code": "IN",
+          "value": "3.8%"
+        },
+        {
+          "rank": 36,
+          "code": "AK",
+          "value": "3.6%"
+        },
+        {
+          "rank": 37,
+          "code": "MO",
+          "value": "3.4%"
+        },
+        {
+          "rank": 38,
+          "code": "KY",
+          "value": "3.2%"
+        },
+        {
+          "rank": 39,
+          "code": "OK",
+          "value": "3.1%"
+        },
+        {
+          "rank": 40,
+          "code": "AL",
+          "value": "3.0%"
+        },
+        {
+          "rank": 41,
+          "code": "IA",
+          "value": "2.9%"
+        },
+        {
+          "rank": 42,
+          "code": "KS",
+          "value": "2.8%"
+        },
+        {
+          "rank": 43,
+          "code": "MT",
+          "value": "2.7%"
+        },
+        {
+          "rank": 44,
+          "code": "NE",
+          "value": "2.5%"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "2.3%"
+        },
+        {
+          "rank": 46,
+          "code": "LA",
+          "value": "2.2%"
+        },
+        {
+          "rank": 47,
+          "code": "AR",
+          "value": "2.1%"
+        },
+        {
+          "rank": 48,
+          "code": "SD",
+          "value": "2.0%"
+        },
+        {
+          "rank": 49,
+          "code": "MS",
+          "value": "1.8%"
+        },
+        {
+          "rank": 50,
+          "code": "WV",
+          "value": "1.6%"
+        },
+        {
+          "rank": 51,
+          "code": "ND",
+          "value": "1.5%"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-utility-scale-solar-capacity-installed-2023",
+      "title": "Most Utility-Scale Solar Capacity Installed",
+      "prompt": "Name the US states with the most installed utility-scale solar electricity generating capacity.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Cumulative installed utility-scale + distributed PV capacity in gigawatts (AC-DC mixed by SEIA convention).",
+      "source": {
+        "name": "SEIA / Wood Mackenzie \u2014 US Solar Market Insight",
+        "url": "https://www.seia.org/us-solar-market-insight",
+        "asOf": "2023 year-end"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "43.4 GW"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "22.9 GW"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "14.4 GW"
+        },
+        {
+          "rank": 4,
+          "code": "NC",
+          "value": "8.9 GW"
+        },
+        {
+          "rank": 5,
+          "code": "AZ",
+          "value": "7.3 GW"
+        },
+        {
+          "rank": 6,
+          "code": "NV",
+          "value": "6.4 GW"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "6.0 GW"
+        },
+        {
+          "rank": 8,
+          "code": "VA",
+          "value": "5.9 GW"
+        },
+        {
+          "rank": 9,
+          "code": "NY",
+          "value": "5.6 GW"
+        },
+        {
+          "rank": 10,
+          "code": "NJ",
+          "value": "4.7 GW"
+        },
+        {
+          "rank": 11,
+          "code": "MA",
+          "value": "4.4 GW"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "2.5 GW"
+        },
+        {
+          "rank": 13,
+          "code": "MN",
+          "value": "2.2 GW"
+        },
+        {
+          "rank": 14,
+          "code": "UT",
+          "value": "2.6 GW"
+        },
+        {
+          "rank": 15,
+          "code": "IN",
+          "value": "2.4 GW"
+        },
+        {
+          "rank": 16,
+          "code": "IL",
+          "value": "2.1 GW"
+        },
+        {
+          "rank": 17,
+          "code": "PA",
+          "value": "1.9 GW"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "1.7 GW"
+        },
+        {
+          "rank": 19,
+          "code": "MD",
+          "value": "1.6 GW"
+        },
+        {
+          "rank": 20,
+          "code": "SC",
+          "value": "1.9 GW"
+        },
+        {
+          "rank": 21,
+          "code": "TN",
+          "value": "1.5 GW"
+        },
+        {
+          "rank": 22,
+          "code": "OR",
+          "value": "1.4 GW"
+        },
+        {
+          "rank": 23,
+          "code": "CT",
+          "value": "1.1 GW"
+        },
+        {
+          "rank": 24,
+          "code": "OH",
+          "value": "1.5 GW"
+        },
+        {
+          "rank": 25,
+          "code": "MS",
+          "value": "1.3 GW"
+        },
+        {
+          "rank": 26,
+          "code": "HI",
+          "value": "1.9 GW"
+        },
+        {
+          "rank": 27,
+          "code": "NM",
+          "value": "1.4 GW"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "0.9 GW"
+        },
+        {
+          "rank": 29,
+          "code": "AR",
+          "value": "1.1 GW"
+        },
+        {
+          "rank": 30,
+          "code": "WI",
+          "value": "1.0 GW"
+        },
+        {
+          "rank": 31,
+          "code": "IA",
+          "value": "0.7 GW"
+        },
+        {
+          "rank": 32,
+          "code": "MO",
+          "value": "0.6 GW"
+        },
+        {
+          "rank": 33,
+          "code": "ID",
+          "value": "0.6 GW"
+        },
+        {
+          "rank": 34,
+          "code": "WA",
+          "value": "0.5 GW"
+        },
+        {
+          "rank": 35,
+          "code": "VT",
+          "value": "0.5 GW"
+        },
+        {
+          "rank": 36,
+          "code": "KY",
+          "value": "0.4 GW"
+        },
+        {
+          "rank": 37,
+          "code": "OK",
+          "value": "0.3 GW"
+        },
+        {
+          "rank": 38,
+          "code": "NH",
+          "value": "0.3 GW"
+        },
+        {
+          "rank": 39,
+          "code": "DE",
+          "value": "0.4 GW"
+        },
+        {
+          "rank": 40,
+          "code": "RI",
+          "value": "0.6 GW"
+        },
+        {
+          "rank": 41,
+          "code": "ME",
+          "value": "0.9 GW"
+        },
+        {
+          "rank": 42,
+          "code": "LA",
+          "value": "0.3 GW"
+        },
+        {
+          "rank": 43,
+          "code": "NE",
+          "value": "0.3 GW"
+        },
+        {
+          "rank": 44,
+          "code": "KS",
+          "value": "0.2 GW"
+        },
+        {
+          "rank": 45,
+          "code": "MT",
+          "value": "0.2 GW"
+        },
+        {
+          "rank": 46,
+          "code": "WV",
+          "value": "0.1 GW"
+        },
+        {
+          "rank": 47,
+          "code": "SD",
+          "value": "0.1 GW"
+        },
+        {
+          "rank": 48,
+          "code": "WY",
+          "value": "0.1 GW"
+        },
+        {
+          "rank": 49,
+          "code": "ND",
+          "value": "0.1 GW"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "0.1 GW"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0.1 GW"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-wind-capacity-installed-2023",
+      "title": "Most Wind Capacity Installed",
+      "prompt": "Name the US states with the most installed wind electricity generating capacity.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 41,
+      "disclaimer": "Cumulative installed onshore + offshore wind nameplate capacity in gigawatts. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "US Energy Information Administration \u2014 Electricity Data Browser",
+        "url": "https://www.eia.gov/electricity/data.php",
+        "asOf": "2023 year-end"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "40.5 GW"
+        },
+        {
+          "rank": 2,
+          "code": "IA",
+          "value": "12.3 GW"
+        },
+        {
+          "rank": 3,
+          "code": "OK",
+          "value": "11.8 GW"
+        },
+        {
+          "rank": 4,
+          "code": "KS",
+          "value": "8.6 GW"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "7.0 GW"
+        },
+        {
+          "rank": 6,
+          "code": "CA",
+          "value": "6.1 GW"
+        },
+        {
+          "rank": 7,
+          "code": "NM",
+          "value": "5.5 GW"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "5.2 GW"
+        },
+        {
+          "rank": 9,
+          "code": "MN",
+          "value": "4.7 GW"
+        },
+        {
+          "rank": 10,
+          "code": "ND",
+          "value": "4.6 GW"
+        },
+        {
+          "rank": 11,
+          "code": "NY",
+          "value": "2.3 GW"
+        },
+        {
+          "rank": 12,
+          "code": "OR",
+          "value": "3.9 GW"
+        },
+        {
+          "rank": 13,
+          "code": "IN",
+          "value": "3.1 GW"
+        },
+        {
+          "rank": 14,
+          "code": "WA",
+          "value": "3.4 GW"
+        },
+        {
+          "rank": 15,
+          "code": "MO",
+          "value": "1.9 GW"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "3.3 GW"
+        },
+        {
+          "rank": 17,
+          "code": "SD",
+          "value": "3.0 GW"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "3.0 GW (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "WY",
+          "value": "2.9 GW"
+        },
+        {
+          "rank": 20,
+          "code": "PA",
+          "value": "1.5 GW"
+        },
+        {
+          "rank": 21,
+          "code": "MT",
+          "value": "1.2 GW"
+        },
+        {
+          "rank": 22,
+          "code": "OH",
+          "value": "1.1 GW"
+        },
+        {
+          "rank": 23,
+          "code": "ME",
+          "value": "0.9 GW"
+        },
+        {
+          "rank": 24,
+          "code": "WI",
+          "value": "0.75 GW"
+        },
+        {
+          "rank": 25,
+          "code": "WV",
+          "value": "0.74 GW"
+        },
+        {
+          "rank": 26,
+          "code": "VT",
+          "value": "0.15 GW"
+        },
+        {
+          "rank": 27,
+          "code": "ID",
+          "value": "0.97 GW"
+        },
+        {
+          "rank": 28,
+          "code": "MD",
+          "value": "0.19 GW"
+        },
+        {
+          "rank": 29,
+          "code": "NH",
+          "value": "0.19 GW (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MA",
+          "value": "0.13 GW"
+        },
+        {
+          "rank": 31,
+          "code": "UT",
+          "value": "0.39 GW"
+        },
+        {
+          "rank": 32,
+          "code": "AK",
+          "value": "0.06 GW"
+        },
+        {
+          "rank": 33,
+          "code": "HI",
+          "value": "0.24 GW"
+        },
+        {
+          "rank": 34,
+          "code": "NJ",
+          "value": "0.01 GW"
+        },
+        {
+          "rank": 35,
+          "code": "NC",
+          "value": "0.21 GW"
+        },
+        {
+          "rank": 36,
+          "code": "RI",
+          "value": "0.10 GW"
+        },
+        {
+          "rank": 37,
+          "code": "TN",
+          "value": "0.03 GW"
+        },
+        {
+          "rank": 38,
+          "code": "CT",
+          "value": "0.01 GW (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "VA",
+          "value": "0.01 GW (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "AZ",
+          "value": "0.27 GW"
+        },
+        {
+          "rank": 41,
+          "code": "NV",
+          "value": "0.15 GW (tied)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4070 @@
+{
+  "batch": 9,
+  "questions": [
+    {
+      "id": "us-states-deep-dive-highest-residential-electricity-price-2024",
+      "title": "Highest Residential Electricity Price",
+      "prompt": "Name the US states with the highest average residential electricity price.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Average residential retail price of electricity in cents per kilowatt-hour, all sectors annualized. Includes Washington DC.",
+      "source": {
+        "name": "US Energy Information Administration \u2014 Electric Power Monthly Table 5.6.A",
+        "url": "https://www.eia.gov/electricity/monthly/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "HI",
+          "value": "42.4 cents/kWh"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "31.8 cents/kWh"
+        },
+        {
+          "rank": 3,
+          "code": "MA",
+          "value": "29.9 cents/kWh"
+        },
+        {
+          "rank": 4,
+          "code": "CT",
+          "value": "28.4 cents/kWh"
+        },
+        {
+          "rank": 5,
+          "code": "RI",
+          "value": "27.9 cents/kWh"
+        },
+        {
+          "rank": 6,
+          "code": "NH",
+          "value": "25.5 cents/kWh"
+        },
+        {
+          "rank": 7,
+          "code": "NY",
+          "value": "24.1 cents/kWh"
+        },
+        {
+          "rank": 8,
+          "code": "AK",
+          "value": "23.5 cents/kWh"
+        },
+        {
+          "rank": 9,
+          "code": "VT",
+          "value": "22.1 cents/kWh"
+        },
+        {
+          "rank": 10,
+          "code": "ME",
+          "value": "21.7 cents/kWh"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "18.3 cents/kWh"
+        },
+        {
+          "rank": 12,
+          "code": "MD",
+          "value": "17.2 cents/kWh"
+        },
+        {
+          "rank": 13,
+          "code": "MI",
+          "value": "18.9 cents/kWh"
+        },
+        {
+          "rank": 14,
+          "code": "PA",
+          "value": "17.1 cents/kWh"
+        },
+        {
+          "rank": 15,
+          "code": "DC",
+          "value": "16.4 cents/kWh"
+        },
+        {
+          "rank": 16,
+          "code": "MN",
+          "value": "15.3 cents/kWh"
+        },
+        {
+          "rank": 17,
+          "code": "WI",
+          "value": "16.6 cents/kWh"
+        },
+        {
+          "rank": 18,
+          "code": "OH",
+          "value": "15.9 cents/kWh"
+        },
+        {
+          "rank": 19,
+          "code": "IL",
+          "value": "15.8 cents/kWh"
+        },
+        {
+          "rank": 20,
+          "code": "SC",
+          "value": "14.6 cents/kWh"
+        },
+        {
+          "rank": 21,
+          "code": "DE",
+          "value": "15.1 cents/kWh"
+        },
+        {
+          "rank": 22,
+          "code": "GA",
+          "value": "14.3 cents/kWh"
+        },
+        {
+          "rank": 23,
+          "code": "IN",
+          "value": "14.9 cents/kWh"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "14.7 cents/kWh"
+        },
+        {
+          "rank": 25,
+          "code": "AZ",
+          "value": "14.5 cents/kWh"
+        },
+        {
+          "rank": 26,
+          "code": "FL",
+          "value": "14.2 cents/kWh"
+        },
+        {
+          "rank": 27,
+          "code": "TX",
+          "value": "14.1 cents/kWh"
+        },
+        {
+          "rank": 28,
+          "code": "VA",
+          "value": "14.0 cents/kWh"
+        },
+        {
+          "rank": 29,
+          "code": "NC",
+          "value": "13.5 cents/kWh"
+        },
+        {
+          "rank": 30,
+          "code": "TN",
+          "value": "13.2 cents/kWh"
+        },
+        {
+          "rank": 31,
+          "code": "MS",
+          "value": "13.9 cents/kWh"
+        },
+        {
+          "rank": 32,
+          "code": "CO",
+          "value": "14.5 cents/kWh (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "NV",
+          "value": "14.6 cents/kWh (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "NM",
+          "value": "14.2 cents/kWh (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "KY",
+          "value": "12.9 cents/kWh"
+        },
+        {
+          "rank": 36,
+          "code": "WV",
+          "value": "14.5 cents/kWh (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "IA",
+          "value": "13.7 cents/kWh"
+        },
+        {
+          "rank": 38,
+          "code": "MO",
+          "value": "12.9 cents/kWh (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "AR",
+          "value": "12.6 cents/kWh"
+        },
+        {
+          "rank": 40,
+          "code": "SD",
+          "value": "13.1 cents/kWh"
+        },
+        {
+          "rank": 41,
+          "code": "MT",
+          "value": "12.7 cents/kWh"
+        },
+        {
+          "rank": 42,
+          "code": "KS",
+          "value": "13.9 cents/kWh (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "OR",
+          "value": "13.6 cents/kWh"
+        },
+        {
+          "rank": 44,
+          "code": "OK",
+          "value": "12.3 cents/kWh"
+        },
+        {
+          "rank": 45,
+          "code": "LA",
+          "value": "12.6 cents/kWh (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "WA",
+          "value": "12.2 cents/kWh"
+        },
+        {
+          "rank": 47,
+          "code": "WY",
+          "value": "12.1 cents/kWh"
+        },
+        {
+          "rank": 48,
+          "code": "UT",
+          "value": "11.5 cents/kWh"
+        },
+        {
+          "rank": 49,
+          "code": "ID",
+          "value": "11.4 cents/kWh"
+        },
+        {
+          "rank": 50,
+          "code": "NE",
+          "value": "11.7 cents/kWh"
+        },
+        {
+          "rank": 51,
+          "code": "ND",
+          "value": "11.6 cents/kWh"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-zip-codes-2023",
+      "title": "Most ZIP Codes",
+      "prompt": "Name the US states with the most ZIP codes assigned by the US Postal Service.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Total count includes standard, PO Box, unique (single-recipient) and military ZIP codes. Includes Washington DC.",
+      "source": {
+        "name": "USPS ZIP Code Directory (aggregated by UnitedStatesZipCodes.org)",
+        "url": "https://www.unitedstateszipcodes.org/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "2,617 ZIPs"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "2,589 ZIPs"
+        },
+        {
+          "rank": 3,
+          "code": "NY",
+          "value": "2,239 ZIPs"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "2,190 ZIPs"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "1,536 ZIPs"
+        },
+        {
+          "rank": 6,
+          "code": "OH",
+          "value": "1,436 ZIPs"
+        },
+        {
+          "rank": 7,
+          "code": "VA",
+          "value": "1,244 ZIPs"
+        },
+        {
+          "rank": 8,
+          "code": "MI",
+          "value": "1,220 ZIPs"
+        },
+        {
+          "rank": 9,
+          "code": "MO",
+          "value": "1,203 ZIPs"
+        },
+        {
+          "rank": 10,
+          "code": "GA",
+          "value": "1,143 ZIPs"
+        },
+        {
+          "rank": 11,
+          "code": "NC",
+          "value": "1,090 ZIPs"
+        },
+        {
+          "rank": 12,
+          "code": "FL",
+          "value": "1,467 ZIPs"
+        },
+        {
+          "rank": 13,
+          "code": "WV",
+          "value": "996 ZIPs"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "981 ZIPs"
+        },
+        {
+          "rank": 15,
+          "code": "KY",
+          "value": "979 ZIPs"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "902 ZIPs"
+        },
+        {
+          "rank": 17,
+          "code": "MN",
+          "value": "891 ZIPs"
+        },
+        {
+          "rank": 18,
+          "code": "AL",
+          "value": "873 ZIPs"
+        },
+        {
+          "rank": 19,
+          "code": "IA",
+          "value": "935 ZIPs"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "893 ZIPs"
+        },
+        {
+          "rank": 21,
+          "code": "MA",
+          "value": "685 ZIPs"
+        },
+        {
+          "rank": 22,
+          "code": "AR",
+          "value": "718 ZIPs"
+        },
+        {
+          "rank": 23,
+          "code": "OK",
+          "value": "747 ZIPs"
+        },
+        {
+          "rank": 24,
+          "code": "KS",
+          "value": "756 ZIPs"
+        },
+        {
+          "rank": 25,
+          "code": "MS",
+          "value": "537 ZIPs"
+        },
+        {
+          "rank": 26,
+          "code": "NJ",
+          "value": "731 ZIPs"
+        },
+        {
+          "rank": 27,
+          "code": "MD",
+          "value": "622 ZIPs"
+        },
+        {
+          "rank": 28,
+          "code": "WA",
+          "value": "728 ZIPs"
+        },
+        {
+          "rank": 29,
+          "code": "SC",
+          "value": "552 ZIPs"
+        },
+        {
+          "rank": 30,
+          "code": "LA",
+          "value": "587 ZIPs"
+        },
+        {
+          "rank": 31,
+          "code": "CO",
+          "value": "624 ZIPs"
+        },
+        {
+          "rank": 32,
+          "code": "OR",
+          "value": "484 ZIPs"
+        },
+        {
+          "rank": 33,
+          "code": "AZ",
+          "value": "551 ZIPs"
+        },
+        {
+          "rank": 34,
+          "code": "NE",
+          "value": "614 ZIPs"
+        },
+        {
+          "rank": 35,
+          "code": "CT",
+          "value": "417 ZIPs"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "429 ZIPs"
+        },
+        {
+          "rank": 37,
+          "code": "ME",
+          "value": "484 ZIPs (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "MT",
+          "value": "406 ZIPs"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "353 ZIPs"
+        },
+        {
+          "rank": 40,
+          "code": "ND",
+          "value": "384 ZIPs"
+        },
+        {
+          "rank": 41,
+          "code": "SD",
+          "value": "376 ZIPs"
+        },
+        {
+          "rank": 42,
+          "code": "ID",
+          "value": "336 ZIPs"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "285 ZIPs"
+        },
+        {
+          "rank": 44,
+          "code": "VT",
+          "value": "310 ZIPs"
+        },
+        {
+          "rank": 45,
+          "code": "NV",
+          "value": "245 ZIPs"
+        },
+        {
+          "rank": 46,
+          "code": "HI",
+          "value": "137 ZIPs"
+        },
+        {
+          "rank": 47,
+          "code": "WY",
+          "value": "196 ZIPs"
+        },
+        {
+          "rank": 48,
+          "code": "AK",
+          "value": "273 ZIPs"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "90 ZIPs"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "104 ZIPs"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "62 ZIPs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-licensed-drivers-2022",
+      "title": "Most Licensed Drivers",
+      "prompt": "Name the US states with the most licensed drivers.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Count of active licensed drivers (all classes) by state of residence, in millions. Includes Washington DC.",
+      "source": {
+        "name": "US Federal Highway Administration \u2014 Highway Statistics Series Table DL-1C",
+        "url": "https://www.fhwa.dot.gov/policyinformation/statistics.cfm",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "27.0M drivers"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "18.7M drivers"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "16.2M drivers"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "12.5M drivers"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "9.1M drivers"
+        },
+        {
+          "rank": 6,
+          "code": "OH",
+          "value": "8.4M drivers"
+        },
+        {
+          "rank": 7,
+          "code": "IL",
+          "value": "8.2M drivers"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "7.7M drivers"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "7.6M drivers"
+        },
+        {
+          "rank": 10,
+          "code": "MI",
+          "value": "7.2M drivers"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "6.4M drivers"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "6.3M drivers"
+        },
+        {
+          "rank": 13,
+          "code": "WA",
+          "value": "5.9M drivers"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "5.7M drivers"
+        },
+        {
+          "rank": 15,
+          "code": "TN",
+          "value": "5.4M drivers"
+        },
+        {
+          "rank": 16,
+          "code": "MA",
+          "value": "5.2M drivers"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "4.9M drivers"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "4.5M drivers"
+        },
+        {
+          "rank": 19,
+          "code": "MD",
+          "value": "4.3M drivers"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "4.2M drivers"
+        },
+        {
+          "rank": 21,
+          "code": "MN",
+          "value": "3.5M drivers"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "4.4M drivers"
+        },
+        {
+          "rank": 23,
+          "code": "AL",
+          "value": "4.0M drivers"
+        },
+        {
+          "rank": 24,
+          "code": "SC",
+          "value": "3.9M drivers"
+        },
+        {
+          "rank": 25,
+          "code": "LA",
+          "value": "3.2M drivers"
+        },
+        {
+          "rank": 26,
+          "code": "KY",
+          "value": "3.1M drivers"
+        },
+        {
+          "rank": 27,
+          "code": "OR",
+          "value": "3.0M drivers"
+        },
+        {
+          "rank": 28,
+          "code": "OK",
+          "value": "2.6M drivers"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "2.7M drivers"
+        },
+        {
+          "rank": 30,
+          "code": "UT",
+          "value": "2.2M drivers"
+        },
+        {
+          "rank": 31,
+          "code": "IA",
+          "value": "2.3M drivers"
+        },
+        {
+          "rank": 32,
+          "code": "NV",
+          "value": "2.1M drivers"
+        },
+        {
+          "rank": 33,
+          "code": "AR",
+          "value": "2.2M drivers (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "MS",
+          "value": "2.0M drivers"
+        },
+        {
+          "rank": 35,
+          "code": "KS",
+          "value": "2.1M drivers (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "1.5M drivers"
+        },
+        {
+          "rank": 37,
+          "code": "NE",
+          "value": "1.5M drivers (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "WV",
+          "value": "1.4M drivers"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "1.3M drivers"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "1.1M drivers"
+        },
+        {
+          "rank": 41,
+          "code": "HI",
+          "value": "1.0M drivers"
+        },
+        {
+          "rank": 42,
+          "code": "NH",
+          "value": "1.1M drivers (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "MT",
+          "value": "0.83M drivers"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "0.79M drivers"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "0.65M drivers"
+        },
+        {
+          "rank": 46,
+          "code": "DE",
+          "value": "0.79M drivers (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "ND",
+          "value": "0.57M drivers"
+        },
+        {
+          "rank": 48,
+          "code": "AK",
+          "value": "0.55M drivers"
+        },
+        {
+          "rank": 49,
+          "code": "VT",
+          "value": "0.58M drivers"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "0.44M drivers"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0.41M drivers"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-highest-firearm-death-rate-2022",
+      "title": "Highest Firearm Death Rate",
+      "prompt": "Name the US states with the highest age-adjusted firearm death rate.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Deaths from all firearm-related injuries (suicide, homicide, accidental) per 100,000 residents, age-adjusted. Includes Washington DC.",
+      "source": {
+        "name": "CDC WONDER \u2014 Firearm Mortality by State",
+        "url": "https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MS",
+          "value": "29.6 per 100k"
+        },
+        {
+          "rank": 2,
+          "code": "LA",
+          "value": "28.1 per 100k"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "26.9 per 100k"
+        },
+        {
+          "rank": 4,
+          "code": "AL",
+          "value": "25.5 per 100k"
+        },
+        {
+          "rank": 5,
+          "code": "WY",
+          "value": "24.5 per 100k"
+        },
+        {
+          "rank": 6,
+          "code": "AK",
+          "value": "24.0 per 100k"
+        },
+        {
+          "rank": 7,
+          "code": "MT",
+          "value": "23.9 per 100k"
+        },
+        {
+          "rank": 8,
+          "code": "MO",
+          "value": "23.2 per 100k"
+        },
+        {
+          "rank": 9,
+          "code": "AR",
+          "value": "22.6 per 100k"
+        },
+        {
+          "rank": 10,
+          "code": "TN",
+          "value": "22.5 per 100k"
+        },
+        {
+          "rank": 11,
+          "code": "SC",
+          "value": "22.0 per 100k"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "20.9 per 100k"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "19.8 per 100k"
+        },
+        {
+          "rank": 14,
+          "code": "KY",
+          "value": "19.7 per 100k"
+        },
+        {
+          "rank": 15,
+          "code": "WV",
+          "value": "19.3 per 100k"
+        },
+        {
+          "rank": 16,
+          "code": "AZ",
+          "value": "18.4 per 100k"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "17.5 per 100k"
+        },
+        {
+          "rank": 18,
+          "code": "IN",
+          "value": "17.4 per 100k"
+        },
+        {
+          "rank": 19,
+          "code": "NV",
+          "value": "17.2 per 100k"
+        },
+        {
+          "rank": 20,
+          "code": "FL",
+          "value": "15.4 per 100k"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "15.2 per 100k"
+        },
+        {
+          "rank": 22,
+          "code": "TX",
+          "value": "14.5 per 100k"
+        },
+        {
+          "rank": 23,
+          "code": "MI",
+          "value": "14.4 per 100k"
+        },
+        {
+          "rank": 24,
+          "code": "ID",
+          "value": "14.3 per 100k"
+        },
+        {
+          "rank": 25,
+          "code": "PA",
+          "value": "14.1 per 100k"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "14.0 per 100k"
+        },
+        {
+          "rank": 27,
+          "code": "MD",
+          "value": "13.5 per 100k"
+        },
+        {
+          "rank": 28,
+          "code": "CO",
+          "value": "13.4 per 100k"
+        },
+        {
+          "rank": 29,
+          "code": "DE",
+          "value": "13.3 per 100k"
+        },
+        {
+          "rank": 30,
+          "code": "DC",
+          "value": "13.0 per 100k"
+        },
+        {
+          "rank": 31,
+          "code": "VA",
+          "value": "12.7 per 100k"
+        },
+        {
+          "rank": 32,
+          "code": "WI",
+          "value": "12.5 per 100k"
+        },
+        {
+          "rank": 33,
+          "code": "OR",
+          "value": "12.4 per 100k"
+        },
+        {
+          "rank": 34,
+          "code": "IL",
+          "value": "12.3 per 100k"
+        },
+        {
+          "rank": 35,
+          "code": "SD",
+          "value": "11.9 per 100k"
+        },
+        {
+          "rank": 36,
+          "code": "ND",
+          "value": "11.7 per 100k"
+        },
+        {
+          "rank": 37,
+          "code": "UT",
+          "value": "11.5 per 100k"
+        },
+        {
+          "rank": 38,
+          "code": "IA",
+          "value": "11.3 per 100k"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "10.6 per 100k"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "10.4 per 100k"
+        },
+        {
+          "rank": 41,
+          "code": "MN",
+          "value": "9.9 per 100k"
+        },
+        {
+          "rank": 42,
+          "code": "VT",
+          "value": "9.8 per 100k"
+        },
+        {
+          "rank": 43,
+          "code": "WA",
+          "value": "9.7 per 100k"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "9.5 per 100k"
+        },
+        {
+          "rank": 45,
+          "code": "CA",
+          "value": "8.7 per 100k"
+        },
+        {
+          "rank": 46,
+          "code": "CT",
+          "value": "6.7 per 100k"
+        },
+        {
+          "rank": 47,
+          "code": "NJ",
+          "value": "5.2 per 100k"
+        },
+        {
+          "rank": 48,
+          "code": "NY",
+          "value": "5.4 per 100k"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "5.1 per 100k"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "4.6 per 100k"
+        },
+        {
+          "rank": 51,
+          "code": "MA",
+          "value": "3.4 per 100k"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-bird-species-observed-2024",
+      "title": "Most Bird Species Observed",
+      "prompt": "Name the US states with the most bird species ever observed and accepted by state records committees.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Cumulative all-time count of species accepted on official state checklists. Includes Washington DC.",
+      "source": {
+        "name": "American Birding Association / eBird State Totals",
+        "url": "https://ebird.org/region/US/regions?yr=all",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "684 species"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "665 species"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "570 species"
+        },
+        {
+          "rank": 4,
+          "code": "NM",
+          "value": "550 species"
+        },
+        {
+          "rank": 5,
+          "code": "FL",
+          "value": "540 species"
+        },
+        {
+          "rank": 6,
+          "code": "AK",
+          "value": "540 species (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "525 species"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "515 species"
+        },
+        {
+          "rank": 9,
+          "code": "OR",
+          "value": "515 species (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "MA",
+          "value": "515 species (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "LA",
+          "value": "500 species"
+        },
+        {
+          "rank": 12,
+          "code": "NY",
+          "value": "500 species (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "495 species"
+        },
+        {
+          "rank": 14,
+          "code": "OK",
+          "value": "485 species"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "480 species"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "475 species"
+        },
+        {
+          "rank": 17,
+          "code": "PA",
+          "value": "465 species"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "460 species"
+        },
+        {
+          "rank": 19,
+          "code": "OH",
+          "value": "455 species"
+        },
+        {
+          "rank": 20,
+          "code": "MI",
+          "value": "455 species (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "IL",
+          "value": "450 species"
+        },
+        {
+          "rank": 22,
+          "code": "CT",
+          "value": "445 species"
+        },
+        {
+          "rank": 23,
+          "code": "MN",
+          "value": "445 species (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "GA",
+          "value": "440 species"
+        },
+        {
+          "rank": 25,
+          "code": "WI",
+          "value": "440 species (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "SC",
+          "value": "435 species"
+        },
+        {
+          "rank": 27,
+          "code": "TN",
+          "value": "425 species"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "420 species"
+        },
+        {
+          "rank": 29,
+          "code": "AL",
+          "value": "420 species (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "ME",
+          "value": "415 species"
+        },
+        {
+          "rank": 31,
+          "code": "RI",
+          "value": "410 species"
+        },
+        {
+          "rank": 32,
+          "code": "NV",
+          "value": "410 species (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "KS",
+          "value": "405 species"
+        },
+        {
+          "rank": 34,
+          "code": "MS",
+          "value": "400 species"
+        },
+        {
+          "rank": 35,
+          "code": "IN",
+          "value": "400 species (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "AR",
+          "value": "395 species"
+        },
+        {
+          "rank": 37,
+          "code": "DE",
+          "value": "390 species"
+        },
+        {
+          "rank": 38,
+          "code": "KY",
+          "value": "385 species"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "385 species (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "IA",
+          "value": "380 species"
+        },
+        {
+          "rank": 41,
+          "code": "UT",
+          "value": "375 species"
+        },
+        {
+          "rank": 42,
+          "code": "MT",
+          "value": "375 species (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "370 species"
+        },
+        {
+          "rank": 44,
+          "code": "ID",
+          "value": "365 species"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "360 species"
+        },
+        {
+          "rank": 46,
+          "code": "ND",
+          "value": "360 species (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "WV",
+          "value": "355 species"
+        },
+        {
+          "rank": 48,
+          "code": "VT",
+          "value": "345 species"
+        },
+        {
+          "rank": 49,
+          "code": "WY",
+          "value": "345 species (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "DC",
+          "value": "335 species"
+        },
+        {
+          "rank": 51,
+          "code": "HI",
+          "value": "330 species"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-native-american-reservation-land-area-2023",
+      "title": "Most Native American Reservation Land Area",
+      "prompt": "Name the US states with the most Native American reservation and trust land area.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Total federal trust and reservation acreage held for tribes and individuals; excludes Alaska Native Corporation lands (ANCSA) which have a different legal status. Includes Washington DC.",
+      "source": {
+        "name": "US Bureau of Indian Affairs \u2014 Land Area Representation Data",
+        "url": "https://www.bia.gov/bia/ots/dris",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AZ",
+          "value": "20.6M acres"
+        },
+        {
+          "rank": 2,
+          "code": "NM",
+          "value": "8.4M acres"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "8.2M acres"
+        },
+        {
+          "rank": 4,
+          "code": "SD",
+          "value": "5.0M acres"
+        },
+        {
+          "rank": 5,
+          "code": "WA",
+          "value": "3.2M acres"
+        },
+        {
+          "rank": 6,
+          "code": "UT",
+          "value": "2.4M acres"
+        },
+        {
+          "rank": 7,
+          "code": "WY",
+          "value": "1.9M acres"
+        },
+        {
+          "rank": 8,
+          "code": "ND",
+          "value": "1.5M acres"
+        },
+        {
+          "rank": 9,
+          "code": "NV",
+          "value": "1.16M acres"
+        },
+        {
+          "rank": 10,
+          "code": "OR",
+          "value": "0.94M acres"
+        },
+        {
+          "rank": 11,
+          "code": "MN",
+          "value": "0.83M acres"
+        },
+        {
+          "rank": 12,
+          "code": "ID",
+          "value": "0.78M acres"
+        },
+        {
+          "rank": 13,
+          "code": "CA",
+          "value": "0.63M acres"
+        },
+        {
+          "rank": 14,
+          "code": "WI",
+          "value": "0.45M acres"
+        },
+        {
+          "rank": 15,
+          "code": "OK",
+          "value": "0.42M acres"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "0.24M acres"
+        },
+        {
+          "rank": 17,
+          "code": "CO",
+          "value": "0.78M acres (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "0.12M acres"
+        },
+        {
+          "rank": 19,
+          "code": "NY",
+          "value": "0.11M acres"
+        },
+        {
+          "rank": 20,
+          "code": "ME",
+          "value": "0.10M acres"
+        },
+        {
+          "rank": 21,
+          "code": "FL",
+          "value": "0.09M acres"
+        },
+        {
+          "rank": 22,
+          "code": "MS",
+          "value": "0.035M acres"
+        },
+        {
+          "rank": 23,
+          "code": "NC",
+          "value": "0.057M acres"
+        },
+        {
+          "rank": 24,
+          "code": "KS",
+          "value": "0.032M acres"
+        },
+        {
+          "rank": 25,
+          "code": "IA",
+          "value": "0.008M acres"
+        },
+        {
+          "rank": 26,
+          "code": "LA",
+          "value": "0.024M acres"
+        },
+        {
+          "rank": 27,
+          "code": "MA",
+          "value": "0.006M acres"
+        },
+        {
+          "rank": 28,
+          "code": "CT",
+          "value": "0.003M acres"
+        },
+        {
+          "rank": 29,
+          "code": "TX",
+          "value": "0.003M acres (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "VA",
+          "value": "0.002M acres"
+        },
+        {
+          "rank": 31,
+          "code": "AL",
+          "value": "0.002M acres (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "RI",
+          "value": "0.002M acres (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "AK",
+          "value": "0.001M acres (Metlakatla only)"
+        },
+        {
+          "rank": 34,
+          "code": "SC",
+          "value": "0.001M acres (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "DE",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "DC",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "GA",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "HI",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "IL",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "IN",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "KY",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "MD",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "MO",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "NH",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "NJ",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "OH",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "PA",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "TN",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "VT",
+          "value": "0 acres (no reservations)"
+        },
+        {
+          "rank": 35,
+          "code": "WV",
+          "value": "0 acres (no reservations)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-h-1b-approvals-2023",
+      "title": "Most H-1B Approvals",
+      "prompt": "Name the US states where the most H-1B specialty-occupation petitions are approved.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Number of initial + continuing H-1B approvals for beneficiaries whose worksite is located in each state. Includes Washington DC.",
+      "source": {
+        "name": "USCIS \u2014 H-1B Employer Data Hub",
+        "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub",
+        "asOf": "FY 2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "112,500 approvals"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "77,300 approvals"
+        },
+        {
+          "rank": 3,
+          "code": "NY",
+          "value": "51,400 approvals"
+        },
+        {
+          "rank": 4,
+          "code": "NJ",
+          "value": "44,900 approvals"
+        },
+        {
+          "rank": 5,
+          "code": "WA",
+          "value": "31,800 approvals"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "30,200 approvals"
+        },
+        {
+          "rank": 7,
+          "code": "MA",
+          "value": "26,500 approvals"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "23,700 approvals"
+        },
+        {
+          "rank": 9,
+          "code": "VA",
+          "value": "22,900 approvals"
+        },
+        {
+          "rank": 10,
+          "code": "PA",
+          "value": "20,400 approvals"
+        },
+        {
+          "rank": 11,
+          "code": "FL",
+          "value": "19,800 approvals"
+        },
+        {
+          "rank": 12,
+          "code": "NC",
+          "value": "18,200 approvals"
+        },
+        {
+          "rank": 13,
+          "code": "MI",
+          "value": "16,700 approvals"
+        },
+        {
+          "rank": 14,
+          "code": "OH",
+          "value": "15,900 approvals"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "12,300 approvals"
+        },
+        {
+          "rank": 16,
+          "code": "MD",
+          "value": "11,500 approvals"
+        },
+        {
+          "rank": 17,
+          "code": "CT",
+          "value": "9,400 approvals"
+        },
+        {
+          "rank": 18,
+          "code": "CO",
+          "value": "8,700 approvals"
+        },
+        {
+          "rank": 19,
+          "code": "AZ",
+          "value": "8,400 approvals"
+        },
+        {
+          "rank": 20,
+          "code": "MO",
+          "value": "6,900 approvals"
+        },
+        {
+          "rank": 21,
+          "code": "WI",
+          "value": "5,800 approvals"
+        },
+        {
+          "rank": 22,
+          "code": "IN",
+          "value": "5,600 approvals"
+        },
+        {
+          "rank": 23,
+          "code": "TN",
+          "value": "5,400 approvals"
+        },
+        {
+          "rank": 24,
+          "code": "OR",
+          "value": "4,800 approvals"
+        },
+        {
+          "rank": 25,
+          "code": "AL",
+          "value": "3,600 approvals"
+        },
+        {
+          "rank": 26,
+          "code": "SC",
+          "value": "3,300 approvals"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "3,000 approvals"
+        },
+        {
+          "rank": 28,
+          "code": "IA",
+          "value": "2,800 approvals"
+        },
+        {
+          "rank": 29,
+          "code": "UT",
+          "value": "2,700 approvals"
+        },
+        {
+          "rank": 30,
+          "code": "KY",
+          "value": "2,500 approvals"
+        },
+        {
+          "rank": 31,
+          "code": "OK",
+          "value": "2,400 approvals"
+        },
+        {
+          "rank": 32,
+          "code": "DC",
+          "value": "2,200 approvals"
+        },
+        {
+          "rank": 33,
+          "code": "NE",
+          "value": "1,900 approvals"
+        },
+        {
+          "rank": 34,
+          "code": "AR",
+          "value": "1,700 approvals"
+        },
+        {
+          "rank": 35,
+          "code": "LA",
+          "value": "1,600 approvals"
+        },
+        {
+          "rank": 36,
+          "code": "NV",
+          "value": "1,500 approvals"
+        },
+        {
+          "rank": 37,
+          "code": "MS",
+          "value": "1,100 approvals"
+        },
+        {
+          "rank": 38,
+          "code": "NH",
+          "value": "1,050 approvals"
+        },
+        {
+          "rank": 39,
+          "code": "DE",
+          "value": "1,000 approvals"
+        },
+        {
+          "rank": 40,
+          "code": "ND",
+          "value": "700 approvals"
+        },
+        {
+          "rank": 41,
+          "code": "RI",
+          "value": "680 approvals"
+        },
+        {
+          "rank": 42,
+          "code": "SD",
+          "value": "560 approvals"
+        },
+        {
+          "rank": 43,
+          "code": "NM",
+          "value": "540 approvals"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "460 approvals"
+        },
+        {
+          "rank": 45,
+          "code": "HI",
+          "value": "420 approvals"
+        },
+        {
+          "rank": 46,
+          "code": "ID",
+          "value": "400 approvals"
+        },
+        {
+          "rank": 47,
+          "code": "ME",
+          "value": "360 approvals"
+        },
+        {
+          "rank": 48,
+          "code": "VT",
+          "value": "260 approvals"
+        },
+        {
+          "rank": 49,
+          "code": "MT",
+          "value": "220 approvals"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "180 approvals"
+        },
+        {
+          "rank": 51,
+          "code": "WY",
+          "value": "120 approvals"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-pickleball-courts-2024",
+      "title": "Most Pickleball Courts",
+      "prompt": "Name the US states with the most known pickleball courts (dedicated + shared-use lined).",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Total known playable courts including dedicated pickleball courts and tennis/multi-use courts lined for pickleball. Includes Washington DC.",
+      "source": {
+        "name": "USA Pickleball \u2014 Places2Play Directory",
+        "url": "https://www.places2play.org/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "FL",
+          "value": "1,850 courts"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "1,560 courts"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "1,120 courts"
+        },
+        {
+          "rank": 4,
+          "code": "AZ",
+          "value": "980 courts"
+        },
+        {
+          "rank": 5,
+          "code": "NY",
+          "value": "790 courts"
+        },
+        {
+          "rank": 6,
+          "code": "PA",
+          "value": "760 courts"
+        },
+        {
+          "rank": 7,
+          "code": "MI",
+          "value": "720 courts"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "690 courts"
+        },
+        {
+          "rank": 9,
+          "code": "WA",
+          "value": "670 courts"
+        },
+        {
+          "rank": 10,
+          "code": "CO",
+          "value": "650 courts"
+        },
+        {
+          "rank": 11,
+          "code": "NC",
+          "value": "630 courts"
+        },
+        {
+          "rank": 12,
+          "code": "MN",
+          "value": "610 courts"
+        },
+        {
+          "rank": 13,
+          "code": "UT",
+          "value": "580 courts"
+        },
+        {
+          "rank": 14,
+          "code": "IL",
+          "value": "540 courts"
+        },
+        {
+          "rank": 15,
+          "code": "WI",
+          "value": "510 courts"
+        },
+        {
+          "rank": 16,
+          "code": "GA",
+          "value": "490 courts"
+        },
+        {
+          "rank": 17,
+          "code": "VA",
+          "value": "470 courts"
+        },
+        {
+          "rank": 18,
+          "code": "MA",
+          "value": "460 courts"
+        },
+        {
+          "rank": 19,
+          "code": "NJ",
+          "value": "440 courts"
+        },
+        {
+          "rank": 20,
+          "code": "OR",
+          "value": "420 courts"
+        },
+        {
+          "rank": 21,
+          "code": "IN",
+          "value": "400 courts"
+        },
+        {
+          "rank": 22,
+          "code": "TN",
+          "value": "380 courts"
+        },
+        {
+          "rank": 23,
+          "code": "SC",
+          "value": "370 courts"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "350 courts"
+        },
+        {
+          "rank": 25,
+          "code": "MD",
+          "value": "330 courts"
+        },
+        {
+          "rank": 26,
+          "code": "CT",
+          "value": "310 courts"
+        },
+        {
+          "rank": 27,
+          "code": "IA",
+          "value": "295 courts"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "285 courts"
+        },
+        {
+          "rank": 29,
+          "code": "KY",
+          "value": "275 courts"
+        },
+        {
+          "rank": 30,
+          "code": "NV",
+          "value": "270 courts"
+        },
+        {
+          "rank": 31,
+          "code": "OK",
+          "value": "255 courts"
+        },
+        {
+          "rank": 32,
+          "code": "KS",
+          "value": "240 courts"
+        },
+        {
+          "rank": 33,
+          "code": "AR",
+          "value": "220 courts"
+        },
+        {
+          "rank": 34,
+          "code": "ID",
+          "value": "210 courts"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "195 courts"
+        },
+        {
+          "rank": 36,
+          "code": "LA",
+          "value": "185 courts"
+        },
+        {
+          "rank": 37,
+          "code": "MS",
+          "value": "170 courts"
+        },
+        {
+          "rank": 38,
+          "code": "NM",
+          "value": "160 courts"
+        },
+        {
+          "rank": 39,
+          "code": "NH",
+          "value": "145 courts"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "135 courts"
+        },
+        {
+          "rank": 41,
+          "code": "MT",
+          "value": "120 courts"
+        },
+        {
+          "rank": 42,
+          "code": "WV",
+          "value": "110 courts"
+        },
+        {
+          "rank": 43,
+          "code": "SD",
+          "value": "95 courts"
+        },
+        {
+          "rank": 44,
+          "code": "ND",
+          "value": "85 courts"
+        },
+        {
+          "rank": 45,
+          "code": "HI",
+          "value": "80 courts"
+        },
+        {
+          "rank": 46,
+          "code": "RI",
+          "value": "75 courts"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "70 courts"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "65 courts"
+        },
+        {
+          "rank": 49,
+          "code": "AK",
+          "value": "55 courts"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "50 courts"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "35 courts"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-highest-dui-arrest-rate-2022",
+      "title": "Highest DUI Arrest Rate",
+      "prompt": "Name the US states with the highest rate of DUI arrests per 100,000 residents.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 51,
+      "disclaimer": "Driving-under-the-influence arrests per 100,000 residents. Rates reflect enforcement intensity and legal thresholds as much as underlying impaired-driving prevalence. Includes Washington DC.",
+      "source": {
+        "name": "FBI Uniform Crime Reporting \u2014 Crime in the US, Arrests by State",
+        "url": "https://ucr.fbi.gov/crime-in-the-u.s/",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "SD",
+          "value": "638 per 100k"
+        },
+        {
+          "rank": 2,
+          "code": "WY",
+          "value": "610 per 100k"
+        },
+        {
+          "rank": 3,
+          "code": "ND",
+          "value": "580 per 100k"
+        },
+        {
+          "rank": 4,
+          "code": "ID",
+          "value": "560 per 100k"
+        },
+        {
+          "rank": 5,
+          "code": "MT",
+          "value": "540 per 100k"
+        },
+        {
+          "rank": 6,
+          "code": "MN",
+          "value": "500 per 100k"
+        },
+        {
+          "rank": 7,
+          "code": "OR",
+          "value": "480 per 100k"
+        },
+        {
+          "rank": 8,
+          "code": "NM",
+          "value": "465 per 100k"
+        },
+        {
+          "rank": 9,
+          "code": "NE",
+          "value": "450 per 100k"
+        },
+        {
+          "rank": 10,
+          "code": "WI",
+          "value": "440 per 100k"
+        },
+        {
+          "rank": 11,
+          "code": "AK",
+          "value": "425 per 100k"
+        },
+        {
+          "rank": 12,
+          "code": "MS",
+          "value": "415 per 100k"
+        },
+        {
+          "rank": 13,
+          "code": "IA",
+          "value": "395 per 100k"
+        },
+        {
+          "rank": 14,
+          "code": "CO",
+          "value": "385 per 100k"
+        },
+        {
+          "rank": 15,
+          "code": "PA",
+          "value": "370 per 100k"
+        },
+        {
+          "rank": 16,
+          "code": "UT",
+          "value": "360 per 100k"
+        },
+        {
+          "rank": 17,
+          "code": "AZ",
+          "value": "355 per 100k"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "345 per 100k"
+        },
+        {
+          "rank": 19,
+          "code": "NV",
+          "value": "335 per 100k"
+        },
+        {
+          "rank": 20,
+          "code": "KS",
+          "value": "325 per 100k"
+        },
+        {
+          "rank": 21,
+          "code": "OK",
+          "value": "315 per 100k"
+        },
+        {
+          "rank": 22,
+          "code": "AR",
+          "value": "305 per 100k"
+        },
+        {
+          "rank": 23,
+          "code": "OH",
+          "value": "295 per 100k"
+        },
+        {
+          "rank": 24,
+          "code": "IN",
+          "value": "285 per 100k"
+        },
+        {
+          "rank": 25,
+          "code": "WV",
+          "value": "280 per 100k"
+        },
+        {
+          "rank": 26,
+          "code": "TN",
+          "value": "275 per 100k"
+        },
+        {
+          "rank": 27,
+          "code": "KY",
+          "value": "270 per 100k"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "265 per 100k"
+        },
+        {
+          "rank": 29,
+          "code": "MI",
+          "value": "260 per 100k"
+        },
+        {
+          "rank": 30,
+          "code": "VA",
+          "value": "250 per 100k"
+        },
+        {
+          "rank": 31,
+          "code": "NC",
+          "value": "245 per 100k"
+        },
+        {
+          "rank": 32,
+          "code": "SC",
+          "value": "240 per 100k"
+        },
+        {
+          "rank": 33,
+          "code": "LA",
+          "value": "230 per 100k"
+        },
+        {
+          "rank": 34,
+          "code": "ME",
+          "value": "225 per 100k"
+        },
+        {
+          "rank": 35,
+          "code": "NH",
+          "value": "215 per 100k"
+        },
+        {
+          "rank": 36,
+          "code": "GA",
+          "value": "210 per 100k"
+        },
+        {
+          "rank": 37,
+          "code": "TX",
+          "value": "205 per 100k"
+        },
+        {
+          "rank": 38,
+          "code": "WA",
+          "value": "200 per 100k"
+        },
+        {
+          "rank": 39,
+          "code": "VT",
+          "value": "195 per 100k"
+        },
+        {
+          "rank": 40,
+          "code": "FL",
+          "value": "185 per 100k"
+        },
+        {
+          "rank": 41,
+          "code": "IL",
+          "value": "180 per 100k"
+        },
+        {
+          "rank": 42,
+          "code": "CA",
+          "value": "175 per 100k"
+        },
+        {
+          "rank": 43,
+          "code": "CT",
+          "value": "165 per 100k"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "160 per 100k"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "150 per 100k"
+        },
+        {
+          "rank": 46,
+          "code": "MA",
+          "value": "140 per 100k"
+        },
+        {
+          "rank": 47,
+          "code": "NY",
+          "value": "130 per 100k"
+        },
+        {
+          "rank": 48,
+          "code": "MD",
+          "value": "125 per 100k"
+        },
+        {
+          "rank": 49,
+          "code": "NJ",
+          "value": "115 per 100k"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "110 per 100k"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "95 per 100k"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-operating-nuclear-reactors-2024",
+      "title": "Most Operating Nuclear Reactors",
+      "prompt": "Name the US states with the most commercial nuclear power reactors currently in operation, from most to fewest.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 29,
+      "disclaimer": "Counts operating commercial reactors licensed by the NRC; excludes research reactors and units in decommissioning. DC not included (source omits it).",
+      "source": {
+        "name": "US Nuclear Regulatory Commission \u2014 Operating Reactors",
+        "url": "https://www.nrc.gov/reactors/operating/list-power-reactor-units.html",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "IL",
+          "value": "11 reactors"
+        },
+        {
+          "rank": 2,
+          "code": "PA",
+          "value": "9 reactors"
+        },
+        {
+          "rank": 3,
+          "code": "SC",
+          "value": "7 reactors"
+        },
+        {
+          "rank": 4,
+          "code": "AL",
+          "value": "5 reactors"
+        },
+        {
+          "rank": 4,
+          "code": "NC",
+          "value": "5 reactors (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "GA",
+          "value": "4 reactors"
+        },
+        {
+          "rank": 6,
+          "code": "TN",
+          "value": "4 reactors (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "4 reactors (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "3 reactors"
+        },
+        {
+          "rank": 9,
+          "code": "FL",
+          "value": "3 reactors (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "MN",
+          "value": "3 reactors (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "NY",
+          "value": "3 reactors (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "VA",
+          "value": "3 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "AR",
+          "value": "2 reactors"
+        },
+        {
+          "rank": 14,
+          "code": "CA",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "MI",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "MS",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "NE",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "OH",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "WA",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "WI",
+          "value": "2 reactors (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "CT",
+          "value": "1 reactor"
+        },
+        {
+          "rank": 22,
+          "code": "IA",
+          "value": "1 reactor (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "KS",
+          "value": "1 reactor (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "LA",
+          "value": "1 reactor (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "MD",
+          "value": "1 reactor (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "MO",
+          "value": "1 reactor (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "NH",
+          "value": "1 reactor (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "NJ",
+          "value": "1 reactor (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-highest-coal-share-of-electricity-generation-2023",
+      "title": "Highest Coal Share of Electricity Generation",
+      "prompt": "Name the US states where coal makes up the largest share of in-state electricity generation.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Share of total electricity generated within the state that comes from coal-fired power plants; excludes imported power. Includes Washington DC.",
+      "source": {
+        "name": "US Energy Information Administration \u2014 State Electricity Profiles",
+        "url": "https://www.eia.gov/electricity/state/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "WV",
+          "value": "91% coal"
+        },
+        {
+          "rank": 2,
+          "code": "KY",
+          "value": "68% coal"
+        },
+        {
+          "rank": 3,
+          "code": "WY",
+          "value": "66% coal"
+        },
+        {
+          "rank": 4,
+          "code": "MO",
+          "value": "60% coal"
+        },
+        {
+          "rank": 5,
+          "code": "ND",
+          "value": "53% coal"
+        },
+        {
+          "rank": 6,
+          "code": "UT",
+          "value": "50% coal"
+        },
+        {
+          "rank": 7,
+          "code": "IN",
+          "value": "47% coal"
+        },
+        {
+          "rank": 8,
+          "code": "MT",
+          "value": "45% coal"
+        },
+        {
+          "rank": 9,
+          "code": "NE",
+          "value": "45% coal (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "NM",
+          "value": "38% coal"
+        },
+        {
+          "rank": 11,
+          "code": "CO",
+          "value": "36% coal"
+        },
+        {
+          "rank": 12,
+          "code": "IA",
+          "value": "33% coal"
+        },
+        {
+          "rank": 13,
+          "code": "AR",
+          "value": "31% coal"
+        },
+        {
+          "rank": 14,
+          "code": "WI",
+          "value": "30% coal"
+        },
+        {
+          "rank": 15,
+          "code": "OH",
+          "value": "28% coal"
+        },
+        {
+          "rank": 16,
+          "code": "KS",
+          "value": "27% coal"
+        },
+        {
+          "rank": 17,
+          "code": "MN",
+          "value": "24% coal"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "22% coal"
+        },
+        {
+          "rank": 19,
+          "code": "SD",
+          "value": "20% coal"
+        },
+        {
+          "rank": 20,
+          "code": "TN",
+          "value": "18% coal"
+        },
+        {
+          "rank": 21,
+          "code": "IL",
+          "value": "17% coal"
+        },
+        {
+          "rank": 22,
+          "code": "OK",
+          "value": "14% coal"
+        },
+        {
+          "rank": 23,
+          "code": "AZ",
+          "value": "13% coal"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "13% coal (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "GA",
+          "value": "12% coal"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "11% coal"
+        },
+        {
+          "rank": 27,
+          "code": "NC",
+          "value": "11% coal (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "TX",
+          "value": "11% coal (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "NV",
+          "value": "5% coal"
+        },
+        {
+          "rank": 30,
+          "code": "MS",
+          "value": "4% coal"
+        },
+        {
+          "rank": 31,
+          "code": "NH",
+          "value": "4% coal (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "LA",
+          "value": "3% coal"
+        },
+        {
+          "rank": 33,
+          "code": "MD",
+          "value": "3% coal (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "SC",
+          "value": "3% coal (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "FL",
+          "value": "3% coal (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "OR",
+          "value": "2% coal"
+        },
+        {
+          "rank": 37,
+          "code": "AK",
+          "value": "2% coal (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "VA",
+          "value": "2% coal (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "2% coal (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "NY",
+          "value": "1% coal"
+        },
+        {
+          "rank": 41,
+          "code": "NJ",
+          "value": "1% coal (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "WA",
+          "value": "1% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "DE",
+          "value": "0% coal"
+        },
+        {
+          "rank": 43,
+          "code": "CA",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "CT",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "ID",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "MA",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "RI",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "VT",
+          "value": "0% coal (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "DC",
+          "value": "0% coal (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-highest-natural-gas-share-of-electricity-2023",
+      "title": "Highest Natural Gas Share of Electricity",
+      "prompt": "Name the US states where natural gas makes up the largest share of in-state electricity generation.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Share of in-state electricity generation from natural gas; excludes imports and behind-the-meter generation. Includes Washington DC.",
+      "source": {
+        "name": "US Energy Information Administration \u2014 State Electricity Profiles",
+        "url": "https://www.eia.gov/electricity/state/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "RI",
+          "value": "90% gas"
+        },
+        {
+          "rank": 2,
+          "code": "DE",
+          "value": "86% gas"
+        },
+        {
+          "rank": 3,
+          "code": "MS",
+          "value": "80% gas"
+        },
+        {
+          "rank": 4,
+          "code": "MA",
+          "value": "74% gas"
+        },
+        {
+          "rank": 4,
+          "code": "FL",
+          "value": "74% gas (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "NV",
+          "value": "58% gas"
+        },
+        {
+          "rank": 7,
+          "code": "CT",
+          "value": "56% gas"
+        },
+        {
+          "rank": 8,
+          "code": "TX",
+          "value": "48% gas"
+        },
+        {
+          "rank": 9,
+          "code": "AL",
+          "value": "45% gas"
+        },
+        {
+          "rank": 10,
+          "code": "CA",
+          "value": "43% gas"
+        },
+        {
+          "rank": 10,
+          "code": "LA",
+          "value": "43% gas (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "42% gas"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "40% gas"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "38% gas"
+        },
+        {
+          "rank": 15,
+          "code": "PA",
+          "value": "36% gas"
+        },
+        {
+          "rank": 16,
+          "code": "MD",
+          "value": "35% gas"
+        },
+        {
+          "rank": 17,
+          "code": "VA",
+          "value": "34% gas"
+        },
+        {
+          "rank": 18,
+          "code": "OH",
+          "value": "32% gas"
+        },
+        {
+          "rank": 19,
+          "code": "AR",
+          "value": "30% gas"
+        },
+        {
+          "rank": 20,
+          "code": "GA",
+          "value": "29% gas"
+        },
+        {
+          "rank": 21,
+          "code": "NM",
+          "value": "28% gas"
+        },
+        {
+          "rank": 22,
+          "code": "MI",
+          "value": "27% gas"
+        },
+        {
+          "rank": 23,
+          "code": "NY",
+          "value": "26% gas"
+        },
+        {
+          "rank": 24,
+          "code": "CO",
+          "value": "25% gas"
+        },
+        {
+          "rank": 25,
+          "code": "NC",
+          "value": "23% gas"
+        },
+        {
+          "rank": 26,
+          "code": "WI",
+          "value": "22% gas"
+        },
+        {
+          "rank": 27,
+          "code": "MN",
+          "value": "22% gas (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "21% gas"
+        },
+        {
+          "rank": 29,
+          "code": "UT",
+          "value": "20% gas"
+        },
+        {
+          "rank": 30,
+          "code": "AK",
+          "value": "20% gas (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "TN",
+          "value": "18% gas"
+        },
+        {
+          "rank": 32,
+          "code": "IL",
+          "value": "15% gas"
+        },
+        {
+          "rank": 33,
+          "code": "IN",
+          "value": "14% gas"
+        },
+        {
+          "rank": 34,
+          "code": "SC",
+          "value": "13% gas"
+        },
+        {
+          "rank": 35,
+          "code": "IA",
+          "value": "12% gas"
+        },
+        {
+          "rank": 36,
+          "code": "KS",
+          "value": "11% gas"
+        },
+        {
+          "rank": 37,
+          "code": "OR",
+          "value": "10% gas"
+        },
+        {
+          "rank": 38,
+          "code": "NE",
+          "value": "10% gas (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "9% gas"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "9% gas (tied)"
+        },
+        {
+          "rank": 41,
+          "code": "WV",
+          "value": "5% gas"
+        },
+        {
+          "rank": 42,
+          "code": "KY",
+          "value": "5% gas (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "WA",
+          "value": "4% gas"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "4% gas (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "3% gas"
+        },
+        {
+          "rank": 46,
+          "code": "MT",
+          "value": "2% gas"
+        },
+        {
+          "rank": 47,
+          "code": "ND",
+          "value": "2% gas (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "ID",
+          "value": "1% gas"
+        },
+        {
+          "rank": 49,
+          "code": "SD",
+          "value": "1% gas (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "VT",
+          "value": "0% gas"
+        },
+        {
+          "rank": 50,
+          "code": "DC",
+          "value": "0% gas (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-highest-hydropower-share-of-electricity-2023",
+      "title": "Highest Hydropower Share of Electricity",
+      "prompt": "Name the US states where conventional hydroelectric power supplies the largest share of in-state electricity generation.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 44,
+      "disclaimer": "Conventional hydroelectric only; excludes pumped-storage hydro (which is net-consumer of electricity). DC not included (source omits it).",
+      "source": {
+        "name": "US Energy Information Administration \u2014 State Electricity Profiles",
+        "url": "https://www.eia.gov/electricity/state/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "WA",
+          "value": "66% hydro"
+        },
+        {
+          "rank": 2,
+          "code": "ID",
+          "value": "52% hydro"
+        },
+        {
+          "rank": 3,
+          "code": "OR",
+          "value": "50% hydro"
+        },
+        {
+          "rank": 3,
+          "code": "VT",
+          "value": "50% hydro (tied)"
+        },
+        {
+          "rank": 5,
+          "code": "SD",
+          "value": "44% hydro"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "34% hydro"
+        },
+        {
+          "rank": 7,
+          "code": "ME",
+          "value": "28% hydro"
+        },
+        {
+          "rank": 8,
+          "code": "NY",
+          "value": "22% hydro"
+        },
+        {
+          "rank": 9,
+          "code": "AK",
+          "value": "20% hydro"
+        },
+        {
+          "rank": 10,
+          "code": "TN",
+          "value": "9% hydro"
+        },
+        {
+          "rank": 11,
+          "code": "AL",
+          "value": "8% hydro"
+        },
+        {
+          "rank": 12,
+          "code": "NH",
+          "value": "7% hydro"
+        },
+        {
+          "rank": 12,
+          "code": "CA",
+          "value": "7% hydro (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "6% hydro"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "4% hydro"
+        },
+        {
+          "rank": 16,
+          "code": "SC",
+          "value": "3% hydro"
+        },
+        {
+          "rank": 17,
+          "code": "AR",
+          "value": "3% hydro (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "GA",
+          "value": "3% hydro (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "MA",
+          "value": "3% hydro (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "NV",
+          "value": "2% hydro"
+        },
+        {
+          "rank": 21,
+          "code": "WI",
+          "value": "2% hydro (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "MI",
+          "value": "1% hydro"
+        },
+        {
+          "rank": 23,
+          "code": "MN",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "PA",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "VA",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "MO",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "KY",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "WV",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "CO",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "NM",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "UT",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "OK",
+          "value": "1% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "IL",
+          "value": "0% hydro"
+        },
+        {
+          "rank": 34,
+          "code": "IN",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "KS",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "LA",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "MD",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "MS",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "NE",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "ND",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "OH",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "TX",
+          "value": "0% hydro (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "WY",
+          "value": "0% hydro (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-highest-nuclear-share-of-electricity-2023",
+      "title": "Highest Nuclear Share of Electricity",
+      "prompt": "Name the US states where nuclear power supplies the largest share of in-state electricity generation.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 29,
+      "disclaimer": "Share of net in-state generation from nuclear power reactors. DC not included (source omits it).",
+      "source": {
+        "name": "US Energy Information Administration \u2014 State Electricity Profiles",
+        "url": "https://www.eia.gov/electricity/state/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NH",
+          "value": "57% nuclear"
+        },
+        {
+          "rank": 2,
+          "code": "SC",
+          "value": "55% nuclear"
+        },
+        {
+          "rank": 3,
+          "code": "IL",
+          "value": "54% nuclear"
+        },
+        {
+          "rank": 4,
+          "code": "NJ",
+          "value": "44% nuclear"
+        },
+        {
+          "rank": 4,
+          "code": "TN",
+          "value": "44% nuclear (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "CT",
+          "value": "41% nuclear"
+        },
+        {
+          "rank": 7,
+          "code": "MD",
+          "value": "40% nuclear"
+        },
+        {
+          "rank": 8,
+          "code": "NC",
+          "value": "34% nuclear"
+        },
+        {
+          "rank": 9,
+          "code": "VA",
+          "value": "31% nuclear"
+        },
+        {
+          "rank": 9,
+          "code": "AL",
+          "value": "31% nuclear (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "PA",
+          "value": "31% nuclear (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "AZ",
+          "value": "28% nuclear"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "26% nuclear"
+        },
+        {
+          "rank": 14,
+          "code": "AR",
+          "value": "23% nuclear"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "23% nuclear (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "MI",
+          "value": "22% nuclear"
+        },
+        {
+          "rank": 17,
+          "code": "MS",
+          "value": "19% nuclear"
+        },
+        {
+          "rank": 18,
+          "code": "LA",
+          "value": "16% nuclear"
+        },
+        {
+          "rank": 19,
+          "code": "MN",
+          "value": "15% nuclear"
+        },
+        {
+          "rank": 20,
+          "code": "MO",
+          "value": "13% nuclear"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "13% nuclear (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "WI",
+          "value": "13% nuclear (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "TX",
+          "value": "9% nuclear"
+        },
+        {
+          "rank": 24,
+          "code": "FL",
+          "value": "9% nuclear (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "NE",
+          "value": "9% nuclear (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "8% nuclear"
+        },
+        {
+          "rank": 27,
+          "code": "IA",
+          "value": "7% nuclear"
+        },
+        {
+          "rank": 28,
+          "code": "WA",
+          "value": "6% nuclear"
+        },
+        {
+          "rank": 29,
+          "code": "CA",
+          "value": "5% nuclear"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-total-electricity-generated-2023",
+      "title": "Most Total Electricity Generated",
+      "prompt": "Name the US states that generate the most total electricity annually across all sources.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Total net electricity generation from all fuels (utility-scale + small-scale) measured in terawatt-hours (TWh). Includes Washington DC.",
+      "source": {
+        "name": "US Energy Information Administration \u2014 State Electricity Profiles",
+        "url": "https://www.eia.gov/electricity/state/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "509 TWh"
+        },
+        {
+          "rank": 2,
+          "code": "FL",
+          "value": "262 TWh"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "232 TWh"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "205 TWh"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "180 TWh"
+        },
+        {
+          "rank": 6,
+          "code": "AL",
+          "value": "152 TWh"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "138 TWh"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "137 TWh"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "133 TWh"
+        },
+        {
+          "rank": 10,
+          "code": "NY",
+          "value": "128 TWh"
+        },
+        {
+          "rank": 11,
+          "code": "AZ",
+          "value": "122 TWh"
+        },
+        {
+          "rank": 12,
+          "code": "LA",
+          "value": "111 TWh"
+        },
+        {
+          "rank": 13,
+          "code": "IN",
+          "value": "110 TWh"
+        },
+        {
+          "rank": 14,
+          "code": "WA",
+          "value": "108 TWh"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "104 TWh"
+        },
+        {
+          "rank": 16,
+          "code": "SC",
+          "value": "97 TWh"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "96 TWh"
+        },
+        {
+          "rank": 18,
+          "code": "OK",
+          "value": "89 TWh"
+        },
+        {
+          "rank": 19,
+          "code": "MO",
+          "value": "77 TWh"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "77 TWh"
+        },
+        {
+          "rank": 21,
+          "code": "TN",
+          "value": "76 TWh"
+        },
+        {
+          "rank": 22,
+          "code": "KY",
+          "value": "68 TWh"
+        },
+        {
+          "rank": 23,
+          "code": "WI",
+          "value": "66 TWh"
+        },
+        {
+          "rank": 24,
+          "code": "MN",
+          "value": "60 TWh"
+        },
+        {
+          "rank": 25,
+          "code": "IA",
+          "value": "60 TWh"
+        },
+        {
+          "rank": 26,
+          "code": "AR",
+          "value": "58 TWh"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "56 TWh"
+        },
+        {
+          "rank": 28,
+          "code": "WV",
+          "value": "54 TWh"
+        },
+        {
+          "rank": 29,
+          "code": "NJ",
+          "value": "53 TWh"
+        },
+        {
+          "rank": 30,
+          "code": "MD",
+          "value": "45 TWh"
+        },
+        {
+          "rank": 31,
+          "code": "CO",
+          "value": "44 TWh"
+        },
+        {
+          "rank": 32,
+          "code": "MA",
+          "value": "43 TWh"
+        },
+        {
+          "rank": 33,
+          "code": "OR",
+          "value": "42 TWh"
+        },
+        {
+          "rank": 34,
+          "code": "WY",
+          "value": "40 TWh"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "40 TWh"
+        },
+        {
+          "rank": 36,
+          "code": "ND",
+          "value": "40 TWh"
+        },
+        {
+          "rank": 37,
+          "code": "NM",
+          "value": "37 TWh"
+        },
+        {
+          "rank": 38,
+          "code": "NV",
+          "value": "37 TWh"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "36 TWh"
+        },
+        {
+          "rank": 40,
+          "code": "MT",
+          "value": "26 TWh"
+        },
+        {
+          "rank": 41,
+          "code": "CT",
+          "value": "26 TWh"
+        },
+        {
+          "rank": 42,
+          "code": "SD",
+          "value": "17 TWh"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "12 TWh"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "12 TWh"
+        },
+        {
+          "rank": 45,
+          "code": "ID",
+          "value": "12 TWh"
+        },
+        {
+          "rank": 46,
+          "code": "HI",
+          "value": "9 TWh"
+        },
+        {
+          "rank": 47,
+          "code": "AK",
+          "value": "6 TWh"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "5 TWh"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "5 TWh"
+        },
+        {
+          "rank": 50,
+          "code": "VT",
+          "value": "2 TWh"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0.1 TWh"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-superfund-npl-sites-2024",
+      "title": "Most Superfund NPL Sites",
+      "prompt": "Name the US states with the most Superfund sites listed on the EPA National Priorities List, from most to fewest.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Counts current and proposed final NPL sites; excludes deleted sites and federal facilities may be listed separately by some tallies. Includes Washington DC.",
+      "source": {
+        "name": "US EPA \u2014 Superfund National Priorities List",
+        "url": "https://www.epa.gov/superfund/national-priorities-list-npl-sites-state",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NJ",
+          "value": "114 sites"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "99 sites"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "96 sites"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "85 sites"
+        },
+        {
+          "rank": 5,
+          "code": "MI",
+          "value": "65 sites"
+        },
+        {
+          "rank": 6,
+          "code": "FL",
+          "value": "54 sites"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "51 sites"
+        },
+        {
+          "rank": 8,
+          "code": "IL",
+          "value": "50 sites"
+        },
+        {
+          "rank": 8,
+          "code": "TX",
+          "value": "50 sites (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "WI",
+          "value": "38 sites"
+        },
+        {
+          "rank": 11,
+          "code": "MA",
+          "value": "36 sites"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "36 sites (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "VA",
+          "value": "31 sites"
+        },
+        {
+          "rank": 13,
+          "code": "MO",
+          "value": "31 sites (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "OH",
+          "value": "29 sites"
+        },
+        {
+          "rank": 16,
+          "code": "MN",
+          "value": "26 sites"
+        },
+        {
+          "rank": 17,
+          "code": "NH",
+          "value": "22 sites"
+        },
+        {
+          "rank": 18,
+          "code": "NC",
+          "value": "22 sites (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "SC",
+          "value": "22 sites (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "CO",
+          "value": "22 sites (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MT",
+          "value": "19 sites"
+        },
+        {
+          "rank": 22,
+          "code": "MD",
+          "value": "19 sites (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "IA",
+          "value": "17 sites"
+        },
+        {
+          "rank": 24,
+          "code": "CT",
+          "value": "16 sites"
+        },
+        {
+          "rank": 25,
+          "code": "ME",
+          "value": "15 sites"
+        },
+        {
+          "rank": 26,
+          "code": "OK",
+          "value": "14 sites"
+        },
+        {
+          "rank": 27,
+          "code": "KY",
+          "value": "14 sites (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NM",
+          "value": "14 sites (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "AL",
+          "value": "13 sites"
+        },
+        {
+          "rank": 30,
+          "code": "OR",
+          "value": "13 sites (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "AR",
+          "value": "12 sites"
+        },
+        {
+          "rank": 32,
+          "code": "TN",
+          "value": "12 sites (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "NE",
+          "value": "12 sites (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "LA",
+          "value": "11 sites"
+        },
+        {
+          "rank": 35,
+          "code": "GA",
+          "value": "11 sites (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "RI",
+          "value": "10 sites"
+        },
+        {
+          "rank": 37,
+          "code": "KS",
+          "value": "10 sites (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "AZ",
+          "value": "9 sites"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "9 sites (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "AK",
+          "value": "6 sites"
+        },
+        {
+          "rank": 41,
+          "code": "DE",
+          "value": "6 sites (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "VT",
+          "value": "5 sites"
+        },
+        {
+          "rank": 43,
+          "code": "UT",
+          "value": "5 sites (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "5 sites (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "HI",
+          "value": "4 sites"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "4 sites (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "WY",
+          "value": "2 sites"
+        },
+        {
+          "rank": 48,
+          "code": "SD",
+          "value": "2 sites (tied)"
+        },
+        {
+          "rank": 49,
+          "code": "NV",
+          "value": "1 site"
+        },
+        {
+          "rank": 50,
+          "code": "ND",
+          "value": "0 sites"
+        },
+        {
+          "rank": 50,
+          "code": "DC",
+          "value": "0 sites (tied)"
+        }
+      ]
+    }
+  ]
+}

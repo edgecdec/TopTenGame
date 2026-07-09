@@ -1,0 +1,279 @@
+{
+  "cluster": "us-inverse-03",
+  "source_question": {
+    "id": "us-states-demographics-highest-veteran-population-share-2022",
+    "theme": "US States",
+    "subtheme": "US States - Demographics",
+    "title": "Highest Veteran Population Share",
+    "prompt": "Which US states have the highest share of veterans in the adult population?",
+    "answerType": "US States",
+    "seededDepth": 51,
+    "source": {
+      "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table S2101)",
+      "url": "https://data.census.gov/table?q=S2101",
+      "asOf": "2022"
+    },
+    "note": "Civilian veterans as a share of the civilian population age 18 and over.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "AK",
+        "value": "10.8%"
+      },
+      {
+        "rank": 2,
+        "code": "VA",
+        "value": "9.7%"
+      },
+      {
+        "rank": 3,
+        "code": "MT",
+        "value": "9.4%"
+      },
+      {
+        "rank": 4,
+        "code": "WY",
+        "value": "9.3%"
+      },
+      {
+        "rank": 5,
+        "code": "ME",
+        "value": "8.9%"
+      },
+      {
+        "rank": 6,
+        "code": "OK",
+        "value": "8.7%"
+      },
+      {
+        "rank": 7,
+        "code": "SC",
+        "value": "8.5%"
+      },
+      {
+        "rank": 8,
+        "code": "WV",
+        "value": "8.4%"
+      },
+      {
+        "rank": 8,
+        "code": "NM",
+        "value": "8.4% (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "HI",
+        "value": "8.3%"
+      },
+      {
+        "rank": 11,
+        "code": "NH",
+        "value": "8.2%"
+      },
+      {
+        "rank": 12,
+        "code": "AL",
+        "value": "8.1%"
+      },
+      {
+        "rank": 13,
+        "code": "NV",
+        "value": "8.0%"
+      },
+      {
+        "rank": 14,
+        "code": "FL",
+        "value": "7.9%"
+      },
+      {
+        "rank": 14,
+        "code": "AR",
+        "value": "7.9% (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "7.8%"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "7.7%"
+      },
+      {
+        "rank": 18,
+        "code": "VT",
+        "value": "7.6%"
+      },
+      {
+        "rank": 19,
+        "code": "NC",
+        "value": "7.5%"
+      },
+      {
+        "rank": 20,
+        "code": "GA",
+        "value": "7.4%"
+      },
+      {
+        "rank": 21,
+        "code": "MO",
+        "value": "7.3%"
+      },
+      {
+        "rank": 22,
+        "code": "KY",
+        "value": "7.2%"
+      },
+      {
+        "rank": 23,
+        "code": "TN",
+        "value": "7.1%"
+      },
+      {
+        "rank": 24,
+        "code": "AZ",
+        "value": "7.0%"
+      },
+      {
+        "rank": 25,
+        "code": "OR",
+        "value": "6.9%"
+      },
+      {
+        "rank": 26,
+        "code": "WA",
+        "value": "6.8%"
+      },
+      {
+        "rank": 27,
+        "code": "SD",
+        "value": "6.7%"
+      },
+      {
+        "rank": 28,
+        "code": "MS",
+        "value": "6.6%"
+      },
+      {
+        "rank": 29,
+        "code": "KS",
+        "value": "6.5%"
+      },
+      {
+        "rank": 30,
+        "code": "LA",
+        "value": "6.4%"
+      },
+      {
+        "rank": 31,
+        "code": "IN",
+        "value": "6.3%"
+      },
+      {
+        "rank": 32,
+        "code": "OH",
+        "value": "6.2%"
+      },
+      {
+        "rank": 33,
+        "code": "CO",
+        "value": "6.1%"
+      },
+      {
+        "rank": 34,
+        "code": "PA",
+        "value": "6.0%"
+      },
+      {
+        "rank": 35,
+        "code": "IA",
+        "value": "5.9%"
+      },
+      {
+        "rank": 36,
+        "code": "ND",
+        "value": "5.8%"
+      },
+      {
+        "rank": 37,
+        "code": "MI",
+        "value": "5.7%"
+      },
+      {
+        "rank": 38,
+        "code": "NE",
+        "value": "5.6%"
+      },
+      {
+        "rank": 39,
+        "code": "TX",
+        "value": "5.5%"
+      },
+      {
+        "rank": 40,
+        "code": "RI",
+        "value": "5.4%"
+      },
+      {
+        "rank": 41,
+        "code": "WI",
+        "value": "5.3%"
+      },
+      {
+        "rank": 42,
+        "code": "MD",
+        "value": "5.2%"
+      },
+      {
+        "rank": 43,
+        "code": "CT",
+        "value": "5.1%"
+      },
+      {
+        "rank": 44,
+        "code": "MN",
+        "value": "5.0%"
+      },
+      {
+        "rank": 45,
+        "code": "IL",
+        "value": "4.7%"
+      },
+      {
+        "rank": 46,
+        "code": "MA",
+        "value": "4.5%"
+      },
+      {
+        "rank": 47,
+        "code": "UT",
+        "value": "4.4%"
+      },
+      {
+        "rank": 48,
+        "code": "CA",
+        "value": "4.3%"
+      },
+      {
+        "rank": 49,
+        "code": "NJ",
+        "value": "4.2%"
+      },
+      {
+        "rank": 50,
+        "code": "NY",
+        "value": "4.0%"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "3.9%"
+      }
+    ],
+    "disclaimer": "Civilian veterans as a share of the civilian population age 18 and over. Includes Washington DC.",
+    "trivia": null,
+    "asOfDate": "2022"
+  },
+  "note": "Covers 50+DC monotonically; inverse (lowest veteran share \u2014 NY, NJ, DC at bottom) would be interesting."
+}

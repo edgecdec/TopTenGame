@@ -1,0 +1,3415 @@
+{
+  "batch": 11,
+  "questions": [
+    {
+      "id": "us-states-food-agriculture-highest-sugar-beet-production-2023",
+      "title": "Highest Sugar Beet Production",
+      "prompt": "Name the US states that produce the most sugar beets by tons.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 11,
+      "disclaimer": "Sugar beet root tonnage harvested for processing; short tons. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Sugar Beet Production",
+        "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MN",
+          "value": "11,000,000 tons"
+        },
+        {
+          "rank": 2,
+          "code": "ND",
+          "value": "6,500,000 tons"
+        },
+        {
+          "rank": 3,
+          "code": "ID",
+          "value": "6,200,000 tons"
+        },
+        {
+          "rank": 4,
+          "code": "MI",
+          "value": "4,000,000 tons"
+        },
+        {
+          "rank": 5,
+          "code": "MT",
+          "value": "1,200,000 tons"
+        },
+        {
+          "rank": 6,
+          "code": "NE",
+          "value": "1,100,000 tons"
+        },
+        {
+          "rank": 7,
+          "code": "WY",
+          "value": "900,000 tons"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "800,000 tons"
+        },
+        {
+          "rank": 9,
+          "code": "CA",
+          "value": "700,000 tons"
+        },
+        {
+          "rank": 10,
+          "code": "OR",
+          "value": "400,000 tons"
+        },
+        {
+          "rank": 11,
+          "code": "WA",
+          "value": "300,000 tons"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-egg-production-2023",
+      "title": "Highest Egg Production",
+      "prompt": "Name the US states that produce the most chicken eggs.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 40,
+      "disclaimer": "Total table + hatching eggs from layers; measured in millions of eggs annually. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA NASS \u2014 Chickens and Eggs",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/ckeg0224.pdf",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "IA",
+          "value": "14,700 million eggs"
+        },
+        {
+          "rank": 2,
+          "code": "OH",
+          "value": "10,500 million eggs"
+        },
+        {
+          "rank": 3,
+          "code": "IN",
+          "value": "10,000 million eggs"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "7,800 million eggs"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "6,500 million eggs"
+        },
+        {
+          "rank": 6,
+          "code": "MI",
+          "value": "4,500 million eggs"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "4,200 million eggs"
+        },
+        {
+          "rank": 8,
+          "code": "AR",
+          "value": "3,700 million eggs"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "3,300 million eggs"
+        },
+        {
+          "rank": 10,
+          "code": "CA",
+          "value": "3,200 million eggs"
+        },
+        {
+          "rank": 11,
+          "code": "MN",
+          "value": "2,900 million eggs"
+        },
+        {
+          "rank": 12,
+          "code": "MO",
+          "value": "2,700 million eggs"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "2,500 million eggs"
+        },
+        {
+          "rank": 14,
+          "code": "AL",
+          "value": "2,200 million eggs"
+        },
+        {
+          "rank": 15,
+          "code": "MS",
+          "value": "1,700 million eggs"
+        },
+        {
+          "rank": 16,
+          "code": "SC",
+          "value": "1,600 million eggs"
+        },
+        {
+          "rank": 17,
+          "code": "WI",
+          "value": "1,500 million eggs"
+        },
+        {
+          "rank": 18,
+          "code": "NE",
+          "value": "1,400 million eggs"
+        },
+        {
+          "rank": 19,
+          "code": "SD",
+          "value": "1,300 million eggs"
+        },
+        {
+          "rank": 20,
+          "code": "OR",
+          "value": "1,100 million eggs"
+        },
+        {
+          "rank": 21,
+          "code": "VA",
+          "value": "1,000 million eggs"
+        },
+        {
+          "rank": 22,
+          "code": "WA",
+          "value": "900 million eggs"
+        },
+        {
+          "rank": 23,
+          "code": "KY",
+          "value": "800 million eggs"
+        },
+        {
+          "rank": 24,
+          "code": "TN",
+          "value": "700 million eggs"
+        },
+        {
+          "rank": 25,
+          "code": "OK",
+          "value": "600 million eggs"
+        },
+        {
+          "rank": 26,
+          "code": "MD",
+          "value": "500 million eggs"
+        },
+        {
+          "rank": 27,
+          "code": "IL",
+          "value": "450 million eggs"
+        },
+        {
+          "rank": 28,
+          "code": "CT",
+          "value": "400 million eggs"
+        },
+        {
+          "rank": 29,
+          "code": "KS",
+          "value": "350 million eggs"
+        },
+        {
+          "rank": 30,
+          "code": "ID",
+          "value": "300 million eggs"
+        },
+        {
+          "rank": 31,
+          "code": "CO",
+          "value": "250 million eggs"
+        },
+        {
+          "rank": 32,
+          "code": "NY",
+          "value": "230 million eggs"
+        },
+        {
+          "rank": 33,
+          "code": "ME",
+          "value": "200 million eggs"
+        },
+        {
+          "rank": 34,
+          "code": "NJ",
+          "value": "150 million eggs"
+        },
+        {
+          "rank": 35,
+          "code": "UT",
+          "value": "130 million eggs"
+        },
+        {
+          "rank": 36,
+          "code": "ND",
+          "value": "100 million eggs"
+        },
+        {
+          "rank": 37,
+          "code": "MT",
+          "value": "80 million eggs"
+        },
+        {
+          "rank": 38,
+          "code": "AZ",
+          "value": "70 million eggs"
+        },
+        {
+          "rank": 39,
+          "code": "MA",
+          "value": "50 million eggs"
+        },
+        {
+          "rank": 40,
+          "code": "NH",
+          "value": "35 million eggs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-milk-production-2023",
+      "title": "Highest Milk Production",
+      "prompt": "Name the US states that produce the most cow's milk by pounds.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 50,
+      "disclaimer": "Total cow's milk production; measured in pounds annually. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA NASS \u2014 Milk Production",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/mkpr0224.pdf",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "41,800 million lbs"
+        },
+        {
+          "rank": 2,
+          "code": "WI",
+          "value": "31,900 million lbs"
+        },
+        {
+          "rank": 3,
+          "code": "ID",
+          "value": "16,700 million lbs"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "16,600 million lbs"
+        },
+        {
+          "rank": 5,
+          "code": "NY",
+          "value": "15,600 million lbs"
+        },
+        {
+          "rank": 6,
+          "code": "MI",
+          "value": "12,000 million lbs"
+        },
+        {
+          "rank": 7,
+          "code": "PA",
+          "value": "9,800 million lbs"
+        },
+        {
+          "rank": 8,
+          "code": "MN",
+          "value": "9,700 million lbs"
+        },
+        {
+          "rank": 9,
+          "code": "NM",
+          "value": "7,900 million lbs"
+        },
+        {
+          "rank": 10,
+          "code": "WA",
+          "value": "6,700 million lbs"
+        },
+        {
+          "rank": 11,
+          "code": "IA",
+          "value": "5,900 million lbs"
+        },
+        {
+          "rank": 12,
+          "code": "OH",
+          "value": "5,700 million lbs"
+        },
+        {
+          "rank": 13,
+          "code": "AZ",
+          "value": "5,300 million lbs"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "4,300 million lbs"
+        },
+        {
+          "rank": 15,
+          "code": "OR",
+          "value": "2,600 million lbs"
+        },
+        {
+          "rank": 16,
+          "code": "CO",
+          "value": "5,100 million lbs"
+        },
+        {
+          "rank": 17,
+          "code": "KS",
+          "value": "3,800 million lbs"
+        },
+        {
+          "rank": 18,
+          "code": "SD",
+          "value": "3,500 million lbs"
+        },
+        {
+          "rank": 19,
+          "code": "VT",
+          "value": "2,500 million lbs"
+        },
+        {
+          "rank": 20,
+          "code": "UT",
+          "value": "2,200 million lbs"
+        },
+        {
+          "rank": 21,
+          "code": "FL",
+          "value": "2,100 million lbs"
+        },
+        {
+          "rank": 22,
+          "code": "VA",
+          "value": "1,600 million lbs"
+        },
+        {
+          "rank": 23,
+          "code": "MO",
+          "value": "1,300 million lbs"
+        },
+        {
+          "rank": 24,
+          "code": "IL",
+          "value": "1,700 million lbs"
+        },
+        {
+          "rank": 25,
+          "code": "NC",
+          "value": "800 million lbs"
+        },
+        {
+          "rank": 26,
+          "code": "MD",
+          "value": "650 million lbs"
+        },
+        {
+          "rank": 27,
+          "code": "KY",
+          "value": "620 million lbs"
+        },
+        {
+          "rank": 28,
+          "code": "GA",
+          "value": "600 million lbs"
+        },
+        {
+          "rank": 29,
+          "code": "ME",
+          "value": "580 million lbs"
+        },
+        {
+          "rank": 30,
+          "code": "TN",
+          "value": "550 million lbs"
+        },
+        {
+          "rank": 31,
+          "code": "OK",
+          "value": "500 million lbs"
+        },
+        {
+          "rank": 32,
+          "code": "MT",
+          "value": "300 million lbs"
+        },
+        {
+          "rank": 33,
+          "code": "NE",
+          "value": "290 million lbs"
+        },
+        {
+          "rank": 34,
+          "code": "MA",
+          "value": "220 million lbs"
+        },
+        {
+          "rank": 35,
+          "code": "CT",
+          "value": "400 million lbs"
+        },
+        {
+          "rank": 36,
+          "code": "WV",
+          "value": "150 million lbs"
+        },
+        {
+          "rank": 37,
+          "code": "SC",
+          "value": "140 million lbs"
+        },
+        {
+          "rank": 38,
+          "code": "NH",
+          "value": "260 million lbs"
+        },
+        {
+          "rank": 39,
+          "code": "AR",
+          "value": "100 million lbs"
+        },
+        {
+          "rank": 40,
+          "code": "LA",
+          "value": "90 million lbs"
+        },
+        {
+          "rank": 41,
+          "code": "MS",
+          "value": "80 million lbs"
+        },
+        {
+          "rank": 42,
+          "code": "AL",
+          "value": "70 million lbs"
+        },
+        {
+          "rank": 43,
+          "code": "HI",
+          "value": "50 million lbs"
+        },
+        {
+          "rank": 44,
+          "code": "ND",
+          "value": "500 million lbs"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "30 million lbs"
+        },
+        {
+          "rank": 46,
+          "code": "NV",
+          "value": "700 million lbs"
+        },
+        {
+          "rank": 47,
+          "code": "NJ",
+          "value": "60 million lbs"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "40 million lbs"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "15 million lbs"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "5 million lbs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-broiler-chicken-production-2023",
+      "title": "Highest Broiler Chicken Production",
+      "prompt": "Name the US states that produce the most broiler chickens by pounds of live weight.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 30,
+      "disclaimer": "Broilers are meat chickens; measured in pounds of live weight produced annually. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA NASS \u2014 Poultry Production and Value",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/plva0424.pdf",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "GA",
+          "value": "8,800 million lbs"
+        },
+        {
+          "rank": 2,
+          "code": "AL",
+          "value": "8,000 million lbs"
+        },
+        {
+          "rank": 3,
+          "code": "AR",
+          "value": "7,300 million lbs"
+        },
+        {
+          "rank": 4,
+          "code": "NC",
+          "value": "6,300 million lbs"
+        },
+        {
+          "rank": 5,
+          "code": "MS",
+          "value": "5,700 million lbs"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "4,400 million lbs"
+        },
+        {
+          "rank": 7,
+          "code": "KY",
+          "value": "3,000 million lbs"
+        },
+        {
+          "rank": 8,
+          "code": "OK",
+          "value": "1,900 million lbs"
+        },
+        {
+          "rank": 9,
+          "code": "VA",
+          "value": "1,600 million lbs"
+        },
+        {
+          "rank": 10,
+          "code": "MD",
+          "value": "1,500 million lbs"
+        },
+        {
+          "rank": 11,
+          "code": "DE",
+          "value": "1,400 million lbs"
+        },
+        {
+          "rank": 12,
+          "code": "TN",
+          "value": "1,100 million lbs"
+        },
+        {
+          "rank": 13,
+          "code": "SC",
+          "value": "1,000 million lbs"
+        },
+        {
+          "rank": 14,
+          "code": "MO",
+          "value": "900 million lbs"
+        },
+        {
+          "rank": 15,
+          "code": "LA",
+          "value": "700 million lbs"
+        },
+        {
+          "rank": 16,
+          "code": "WV",
+          "value": "500 million lbs"
+        },
+        {
+          "rank": 17,
+          "code": "PA",
+          "value": "450 million lbs"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "400 million lbs"
+        },
+        {
+          "rank": 19,
+          "code": "OH",
+          "value": "350 million lbs"
+        },
+        {
+          "rank": 20,
+          "code": "CA",
+          "value": "300 million lbs"
+        },
+        {
+          "rank": 21,
+          "code": "FL",
+          "value": "260 million lbs"
+        },
+        {
+          "rank": 22,
+          "code": "IN",
+          "value": "220 million lbs"
+        },
+        {
+          "rank": 23,
+          "code": "WI",
+          "value": "180 million lbs"
+        },
+        {
+          "rank": 24,
+          "code": "IA",
+          "value": "150 million lbs"
+        },
+        {
+          "rank": 25,
+          "code": "NY",
+          "value": "120 million lbs"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "90 million lbs"
+        },
+        {
+          "rank": 27,
+          "code": "MI",
+          "value": "70 million lbs"
+        },
+        {
+          "rank": 28,
+          "code": "NJ",
+          "value": "50 million lbs"
+        },
+        {
+          "rank": 29,
+          "code": "OR",
+          "value": "35 million lbs"
+        },
+        {
+          "rank": 30,
+          "code": "WA",
+          "value": "25 million lbs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-turkey-production-2023",
+      "title": "Highest Turkey Production",
+      "prompt": "Name the US states that raise the most turkeys by head count.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 30,
+      "disclaimer": "Number of turkeys raised annually. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA NASS \u2014 Turkeys Raised",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/turk0923.pdf",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MN",
+          "value": "39,000,000 birds"
+        },
+        {
+          "rank": 2,
+          "code": "NC",
+          "value": "27,000,000 birds"
+        },
+        {
+          "rank": 3,
+          "code": "AR",
+          "value": "26,000,000 birds"
+        },
+        {
+          "rank": 4,
+          "code": "IN",
+          "value": "20,000,000 birds"
+        },
+        {
+          "rank": 5,
+          "code": "MO",
+          "value": "18,000,000 birds"
+        },
+        {
+          "rank": 6,
+          "code": "VA",
+          "value": "14,000,000 birds"
+        },
+        {
+          "rank": 7,
+          "code": "IA",
+          "value": "12,000,000 birds"
+        },
+        {
+          "rank": 8,
+          "code": "CA",
+          "value": "9,000,000 birds"
+        },
+        {
+          "rank": 9,
+          "code": "SC",
+          "value": "8,500,000 birds"
+        },
+        {
+          "rank": 10,
+          "code": "PA",
+          "value": "6,500,000 birds"
+        },
+        {
+          "rank": 11,
+          "code": "OH",
+          "value": "5,000,000 birds"
+        },
+        {
+          "rank": 12,
+          "code": "SD",
+          "value": "3,700,000 birds"
+        },
+        {
+          "rank": 13,
+          "code": "WV",
+          "value": "2,500,000 birds"
+        },
+        {
+          "rank": 14,
+          "code": "UT",
+          "value": "2,000,000 birds"
+        },
+        {
+          "rank": 15,
+          "code": "MI",
+          "value": "1,500,000 birds"
+        },
+        {
+          "rank": 16,
+          "code": "WI",
+          "value": "1,200,000 birds"
+        },
+        {
+          "rank": 17,
+          "code": "TX",
+          "value": "900,000 birds"
+        },
+        {
+          "rank": 18,
+          "code": "IL",
+          "value": "700,000 birds"
+        },
+        {
+          "rank": 19,
+          "code": "NY",
+          "value": "500,000 birds"
+        },
+        {
+          "rank": 20,
+          "code": "KY",
+          "value": "400,000 birds"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "300,000 birds"
+        },
+        {
+          "rank": 22,
+          "code": "GA",
+          "value": "250,000 birds"
+        },
+        {
+          "rank": 23,
+          "code": "WA",
+          "value": "200,000 birds"
+        },
+        {
+          "rank": 24,
+          "code": "TN",
+          "value": "150,000 birds"
+        },
+        {
+          "rank": 25,
+          "code": "MA",
+          "value": "100,000 birds"
+        },
+        {
+          "rank": 26,
+          "code": "NJ",
+          "value": "80,000 birds"
+        },
+        {
+          "rank": 27,
+          "code": "MD",
+          "value": "60,000 birds"
+        },
+        {
+          "rank": 28,
+          "code": "CO",
+          "value": "45,000 birds"
+        },
+        {
+          "rank": 29,
+          "code": "OK",
+          "value": "35,000 birds"
+        },
+        {
+          "rank": 30,
+          "code": "VT",
+          "value": "25,000 birds"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-honey-production-2023",
+      "title": "Highest Honey Production",
+      "prompt": "Name the US states that produce the most honey by pounds.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 25,
+      "disclaimer": "Honey production from colonies with 5 or more hives; measured in pounds. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA NASS \u2014 Honey Report",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/hony0324.pdf",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "ND",
+          "value": "34,000,000 lbs"
+        },
+        {
+          "rank": 2,
+          "code": "SD",
+          "value": "18,000,000 lbs"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "10,000,000 lbs"
+        },
+        {
+          "rank": 4,
+          "code": "MT",
+          "value": "9,000,000 lbs"
+        },
+        {
+          "rank": 5,
+          "code": "FL",
+          "value": "8,500,000 lbs"
+        },
+        {
+          "rank": 6,
+          "code": "MN",
+          "value": "7,500,000 lbs"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "7,000,000 lbs"
+        },
+        {
+          "rank": 8,
+          "code": "MI",
+          "value": "3,500,000 lbs"
+        },
+        {
+          "rank": 9,
+          "code": "GA",
+          "value": "3,000,000 lbs"
+        },
+        {
+          "rank": 10,
+          "code": "WI",
+          "value": "2,700,000 lbs"
+        },
+        {
+          "rank": 11,
+          "code": "MS",
+          "value": "2,500,000 lbs"
+        },
+        {
+          "rank": 12,
+          "code": "ID",
+          "value": "2,400,000 lbs"
+        },
+        {
+          "rank": 13,
+          "code": "OR",
+          "value": "2,200,000 lbs"
+        },
+        {
+          "rank": 14,
+          "code": "IA",
+          "value": "2,100,000 lbs"
+        },
+        {
+          "rank": 15,
+          "code": "NY",
+          "value": "2,000,000 lbs"
+        },
+        {
+          "rank": 16,
+          "code": "WA",
+          "value": "1,900,000 lbs"
+        },
+        {
+          "rank": 17,
+          "code": "OH",
+          "value": "1,600,000 lbs"
+        },
+        {
+          "rank": 18,
+          "code": "PA",
+          "value": "1,500,000 lbs"
+        },
+        {
+          "rank": 19,
+          "code": "IN",
+          "value": "1,300,000 lbs"
+        },
+        {
+          "rank": 20,
+          "code": "AR",
+          "value": "1,200,000 lbs"
+        },
+        {
+          "rank": 21,
+          "code": "LA",
+          "value": "1,100,000 lbs"
+        },
+        {
+          "rank": 22,
+          "code": "NE",
+          "value": "1,000,000 lbs"
+        },
+        {
+          "rank": 23,
+          "code": "TN",
+          "value": "900,000 lbs"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "800,000 lbs"
+        },
+        {
+          "rank": 25,
+          "code": "CO",
+          "value": "700,000 lbs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-maple-syrup-production-2023",
+      "title": "Highest Maple Syrup Production",
+      "prompt": "Name the US states that produce the most maple syrup by gallons.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 13,
+      "disclaimer": "Finished maple syrup, standard density; measured in gallons. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "USDA NASS \u2014 Maple Syrup Production",
+        "url": "https://www.nass.usda.gov/Statistics_by_State/New_England_includes/Publications/Current_News_Release/2024/Maple-Syrup-2024.pdf",
+        "asOf": "2023 season"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "VT",
+          "value": "2,900,000 gallons"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "800,000 gallons"
+        },
+        {
+          "rank": 3,
+          "code": "ME",
+          "value": "570,000 gallons"
+        },
+        {
+          "rank": 4,
+          "code": "WI",
+          "value": "310,000 gallons"
+        },
+        {
+          "rank": 5,
+          "code": "MI",
+          "value": "230,000 gallons"
+        },
+        {
+          "rank": 6,
+          "code": "NH",
+          "value": "140,000 gallons"
+        },
+        {
+          "rank": 7,
+          "code": "PA",
+          "value": "130,000 gallons"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "120,000 gallons"
+        },
+        {
+          "rank": 9,
+          "code": "MA",
+          "value": "70,000 gallons"
+        },
+        {
+          "rank": 10,
+          "code": "CT",
+          "value": "16,000 gallons"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "9,000 gallons"
+        },
+        {
+          "rank": 12,
+          "code": "MN",
+          "value": "8,000 gallons"
+        },
+        {
+          "rank": 13,
+          "code": "MD",
+          "value": "3,000 gallons"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-toll-road-mileage-2022",
+      "title": "Most Toll Road Mileage",
+      "prompt": "Name the US states with the most toll road mileage (public toll roads, in miles).",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 27,
+      "disclaimer": "Miles of public toll roads (mainline toll facilities). Excludes toll bridges and tunnels reported separately. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "FHWA \u2014 Highway Statistics, Table HM-18 (Toll Facilities)",
+        "url": "https://www.fhwa.dot.gov/policyinformation/tollpage/",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "FL",
+          "value": "719 miles"
+        },
+        {
+          "rank": 2,
+          "code": "OK",
+          "value": "605 miles"
+        },
+        {
+          "rank": 3,
+          "code": "NY",
+          "value": "570 miles"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "552 miles"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "418 miles"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "294 miles"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "241 miles"
+        },
+        {
+          "rank": 8,
+          "code": "KS",
+          "value": "236 miles"
+        },
+        {
+          "rank": 9,
+          "code": "NJ",
+          "value": "217 miles"
+        },
+        {
+          "rank": 10,
+          "code": "IN",
+          "value": "157 miles"
+        },
+        {
+          "rank": 11,
+          "code": "MA",
+          "value": "138 miles"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "115 miles"
+        },
+        {
+          "rank": 13,
+          "code": "ME",
+          "value": "109 miles"
+        },
+        {
+          "rank": 14,
+          "code": "NH",
+          "value": "89 miles"
+        },
+        {
+          "rank": 15,
+          "code": "WV",
+          "value": "88 miles"
+        },
+        {
+          "rank": 16,
+          "code": "CA",
+          "value": "78 miles"
+        },
+        {
+          "rank": 17,
+          "code": "VA",
+          "value": "77 miles"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "51 miles"
+        },
+        {
+          "rank": 19,
+          "code": "DE",
+          "value": "51 miles (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "GA",
+          "value": "42 miles"
+        },
+        {
+          "rank": 21,
+          "code": "NC",
+          "value": "39 miles"
+        },
+        {
+          "rank": 22,
+          "code": "AL",
+          "value": "38 miles"
+        },
+        {
+          "rank": 23,
+          "code": "KY",
+          "value": "22 miles"
+        },
+        {
+          "rank": 24,
+          "code": "WA",
+          "value": "17 miles"
+        },
+        {
+          "rank": 25,
+          "code": "UT",
+          "value": "14 miles"
+        },
+        {
+          "rank": 26,
+          "code": "MN",
+          "value": "10 miles"
+        },
+        {
+          "rank": 27,
+          "code": "MI",
+          "value": "5 miles"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-traffic-fatalities-total-2022",
+      "title": "Most Traffic Fatalities (Total)",
+      "prompt": "Name the US states with the most total traffic fatalities in a recent year.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Absolute counts, not adjusted for population or vehicle miles traveled. Includes Washington DC.",
+      "source": {
+        "name": "NHTSA \u2014 Fatality Analysis Reporting System (FARS)",
+        "url": "https://cdan.nhtsa.gov/tsftables/tsfar.htm",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "4,481 deaths"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "4,407 deaths"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "3,530 deaths"
+        },
+        {
+          "rank": 4,
+          "code": "GA",
+          "value": "1,797 deaths"
+        },
+        {
+          "rank": 5,
+          "code": "NC",
+          "value": "1,665 deaths"
+        },
+        {
+          "rank": 6,
+          "code": "TN",
+          "value": "1,346 deaths"
+        },
+        {
+          "rank": 7,
+          "code": "AZ",
+          "value": "1,296 deaths"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "1,275 deaths"
+        },
+        {
+          "rank": 9,
+          "code": "IL",
+          "value": "1,268 deaths"
+        },
+        {
+          "rank": 10,
+          "code": "PA",
+          "value": "1,179 deaths"
+        },
+        {
+          "rank": 11,
+          "code": "NY",
+          "value": "1,175 deaths"
+        },
+        {
+          "rank": 12,
+          "code": "MI",
+          "value": "1,123 deaths"
+        },
+        {
+          "rank": 13,
+          "code": "SC",
+          "value": "1,096 deaths"
+        },
+        {
+          "rank": 14,
+          "code": "MO",
+          "value": "1,057 deaths"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "1,005 deaths"
+        },
+        {
+          "rank": 16,
+          "code": "AL",
+          "value": "986 deaths"
+        },
+        {
+          "rank": 17,
+          "code": "LA",
+          "value": "972 deaths"
+        },
+        {
+          "rank": 18,
+          "code": "IN",
+          "value": "907 deaths"
+        },
+        {
+          "rank": 19,
+          "code": "KY",
+          "value": "760 deaths"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "747 deaths"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "745 deaths"
+        },
+        {
+          "rank": 22,
+          "code": "WA",
+          "value": "743 deaths"
+        },
+        {
+          "rank": 23,
+          "code": "OK",
+          "value": "687 deaths"
+        },
+        {
+          "rank": 24,
+          "code": "AR",
+          "value": "685 deaths"
+        },
+        {
+          "rank": 25,
+          "code": "NJ",
+          "value": "684 deaths"
+        },
+        {
+          "rank": 26,
+          "code": "OR",
+          "value": "600 deaths"
+        },
+        {
+          "rank": 27,
+          "code": "WI",
+          "value": "586 deaths"
+        },
+        {
+          "rank": 28,
+          "code": "MD",
+          "value": "564 deaths"
+        },
+        {
+          "rank": 29,
+          "code": "NM",
+          "value": "471 deaths"
+        },
+        {
+          "rank": 30,
+          "code": "MN",
+          "value": "446 deaths"
+        },
+        {
+          "rank": 31,
+          "code": "KS",
+          "value": "422 deaths"
+        },
+        {
+          "rank": 32,
+          "code": "NV",
+          "value": "419 deaths"
+        },
+        {
+          "rank": 33,
+          "code": "MA",
+          "value": "417 deaths"
+        },
+        {
+          "rank": 34,
+          "code": "CT",
+          "value": "366 deaths"
+        },
+        {
+          "rank": 35,
+          "code": "IA",
+          "value": "338 deaths"
+        },
+        {
+          "rank": 36,
+          "code": "UT",
+          "value": "318 deaths"
+        },
+        {
+          "rank": 37,
+          "code": "ID",
+          "value": "271 deaths"
+        },
+        {
+          "rank": 38,
+          "code": "WV",
+          "value": "271 deaths (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "260 deaths"
+        },
+        {
+          "rank": 40,
+          "code": "MT",
+          "value": "241 deaths"
+        },
+        {
+          "rank": 41,
+          "code": "ME",
+          "value": "182 deaths"
+        },
+        {
+          "rank": 42,
+          "code": "DE",
+          "value": "165 deaths"
+        },
+        {
+          "rank": 43,
+          "code": "SD",
+          "value": "146 deaths"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "142 deaths"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "127 deaths"
+        },
+        {
+          "rank": 46,
+          "code": "HI",
+          "value": "117 deaths"
+        },
+        {
+          "rank": 47,
+          "code": "ND",
+          "value": "98 deaths"
+        },
+        {
+          "rank": 48,
+          "code": "AK",
+          "value": "76 deaths"
+        },
+        {
+          "rank": 49,
+          "code": "VT",
+          "value": "76 deaths (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "RI",
+          "value": "60 deaths"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "35 deaths"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-traffic-fatality-rate-per-100m-vmt-2021",
+      "title": "Highest Traffic Fatality Rate per 100M VMT",
+      "prompt": "Name the US states with the highest traffic fatality rate per 100 million vehicle miles traveled.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Deaths per 100 million VMT normalizes for how much driving each state actually does. Includes Washington DC.",
+      "source": {
+        "name": "NHTSA \u2014 Traffic Safety Facts, State Fatality Rates",
+        "url": "https://crashstats.nhtsa.dot.gov/",
+        "asOf": "2021"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MS",
+          "value": "1.99 per 100M VMT"
+        },
+        {
+          "rank": 2,
+          "code": "SC",
+          "value": "1.97 per 100M VMT"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "1.72 per 100M VMT"
+        },
+        {
+          "rank": 4,
+          "code": "AR",
+          "value": "1.71 per 100M VMT"
+        },
+        {
+          "rank": 5,
+          "code": "LA",
+          "value": "1.69 per 100M VMT"
+        },
+        {
+          "rank": 6,
+          "code": "AZ",
+          "value": "1.65 per 100M VMT"
+        },
+        {
+          "rank": 7,
+          "code": "MT",
+          "value": "1.65 per 100M VMT (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "TN",
+          "value": "1.62 per 100M VMT"
+        },
+        {
+          "rank": 9,
+          "code": "TX",
+          "value": "1.56 per 100M VMT"
+        },
+        {
+          "rank": 10,
+          "code": "AL",
+          "value": "1.55 per 100M VMT"
+        },
+        {
+          "rank": 11,
+          "code": "KY",
+          "value": "1.55 per 100M VMT (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "WV",
+          "value": "1.54 per 100M VMT"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "1.53 per 100M VMT"
+        },
+        {
+          "rank": 14,
+          "code": "OK",
+          "value": "1.44 per 100M VMT"
+        },
+        {
+          "rank": 15,
+          "code": "GA",
+          "value": "1.42 per 100M VMT"
+        },
+        {
+          "rank": 16,
+          "code": "MO",
+          "value": "1.40 per 100M VMT"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "1.39 per 100M VMT"
+        },
+        {
+          "rank": 18,
+          "code": "SD",
+          "value": "1.35 per 100M VMT"
+        },
+        {
+          "rank": 19,
+          "code": "WY",
+          "value": "1.32 per 100M VMT"
+        },
+        {
+          "rank": 20,
+          "code": "DE",
+          "value": "1.30 per 100M VMT"
+        },
+        {
+          "rank": 21,
+          "code": "ND",
+          "value": "1.28 per 100M VMT"
+        },
+        {
+          "rank": 22,
+          "code": "OR",
+          "value": "1.26 per 100M VMT"
+        },
+        {
+          "rank": 23,
+          "code": "PA",
+          "value": "1.24 per 100M VMT"
+        },
+        {
+          "rank": 24,
+          "code": "MI",
+          "value": "1.22 per 100M VMT"
+        },
+        {
+          "rank": 25,
+          "code": "WA",
+          "value": "1.20 per 100M VMT"
+        },
+        {
+          "rank": 26,
+          "code": "CO",
+          "value": "1.19 per 100M VMT"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "1.17 per 100M VMT"
+        },
+        {
+          "rank": 28,
+          "code": "NV",
+          "value": "1.15 per 100M VMT"
+        },
+        {
+          "rank": 29,
+          "code": "IL",
+          "value": "1.14 per 100M VMT"
+        },
+        {
+          "rank": 30,
+          "code": "CA",
+          "value": "1.13 per 100M VMT"
+        },
+        {
+          "rank": 31,
+          "code": "IN",
+          "value": "1.12 per 100M VMT"
+        },
+        {
+          "rank": 32,
+          "code": "OH",
+          "value": "1.10 per 100M VMT"
+        },
+        {
+          "rank": 33,
+          "code": "ID",
+          "value": "1.09 per 100M VMT"
+        },
+        {
+          "rank": 34,
+          "code": "HI",
+          "value": "1.08 per 100M VMT"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "1.06 per 100M VMT"
+        },
+        {
+          "rank": 36,
+          "code": "VA",
+          "value": "1.04 per 100M VMT"
+        },
+        {
+          "rank": 37,
+          "code": "AK",
+          "value": "1.03 per 100M VMT"
+        },
+        {
+          "rank": 38,
+          "code": "UT",
+          "value": "1.00 per 100M VMT"
+        },
+        {
+          "rank": 39,
+          "code": "WI",
+          "value": "0.98 per 100M VMT"
+        },
+        {
+          "rank": 40,
+          "code": "IA",
+          "value": "0.96 per 100M VMT"
+        },
+        {
+          "rank": 41,
+          "code": "CT",
+          "value": "0.95 per 100M VMT"
+        },
+        {
+          "rank": 42,
+          "code": "MD",
+          "value": "0.93 per 100M VMT"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "0.91 per 100M VMT"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "0.89 per 100M VMT"
+        },
+        {
+          "rank": 45,
+          "code": "MN",
+          "value": "0.86 per 100M VMT"
+        },
+        {
+          "rank": 46,
+          "code": "NJ",
+          "value": "0.84 per 100M VMT"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "0.82 per 100M VMT"
+        },
+        {
+          "rank": 48,
+          "code": "NY",
+          "value": "0.79 per 100M VMT"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "0.76 per 100M VMT"
+        },
+        {
+          "rank": 50,
+          "code": "DC",
+          "value": "0.68 per 100M VMT"
+        },
+        {
+          "rank": 51,
+          "code": "MA",
+          "value": "0.65 per 100M VMT"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-longest-average-commute-time-2022",
+      "title": "Longest Average Commute Time",
+      "prompt": "Name the US states (including DC) with the longest mean commute time to work.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Mean travel time to work (minutes), one-way, workers age 16+. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 American Community Survey 1-Year Estimates, Table B08303",
+        "url": "https://data.census.gov/table/ACSST1Y2022.S0801",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "33.0 min"
+        },
+        {
+          "rank": 2,
+          "code": "MD",
+          "value": "32.8 min"
+        },
+        {
+          "rank": 3,
+          "code": "NJ",
+          "value": "31.7 min"
+        },
+        {
+          "rank": 4,
+          "code": "DC",
+          "value": "29.9 min"
+        },
+        {
+          "rank": 5,
+          "code": "MA",
+          "value": "29.7 min"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "29.4 min"
+        },
+        {
+          "rank": 7,
+          "code": "CA",
+          "value": "29.0 min"
+        },
+        {
+          "rank": 8,
+          "code": "VA",
+          "value": "28.4 min"
+        },
+        {
+          "rank": 9,
+          "code": "GA",
+          "value": "28.4 min (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "HI",
+          "value": "27.6 min"
+        },
+        {
+          "rank": 11,
+          "code": "FL",
+          "value": "27.5 min"
+        },
+        {
+          "rank": 12,
+          "code": "WA",
+          "value": "27.0 min"
+        },
+        {
+          "rank": 13,
+          "code": "PA",
+          "value": "26.8 min"
+        },
+        {
+          "rank": 14,
+          "code": "NH",
+          "value": "26.5 min"
+        },
+        {
+          "rank": 15,
+          "code": "CT",
+          "value": "26.4 min"
+        },
+        {
+          "rank": 16,
+          "code": "DE",
+          "value": "26.1 min"
+        },
+        {
+          "rank": 17,
+          "code": "TX",
+          "value": "26.0 min"
+        },
+        {
+          "rank": 18,
+          "code": "CO",
+          "value": "25.4 min"
+        },
+        {
+          "rank": 19,
+          "code": "NV",
+          "value": "25.3 min"
+        },
+        {
+          "rank": 20,
+          "code": "AZ",
+          "value": "25.2 min"
+        },
+        {
+          "rank": 21,
+          "code": "LA",
+          "value": "25.0 min"
+        },
+        {
+          "rank": 22,
+          "code": "NC",
+          "value": "24.7 min"
+        },
+        {
+          "rank": 23,
+          "code": "SC",
+          "value": "24.6 min"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "24.5 min"
+        },
+        {
+          "rank": 25,
+          "code": "TN",
+          "value": "24.5 min (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "MS",
+          "value": "24.4 min"
+        },
+        {
+          "rank": 27,
+          "code": "MI",
+          "value": "24.3 min"
+        },
+        {
+          "rank": 28,
+          "code": "RI",
+          "value": "24.2 min"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "23.6 min"
+        },
+        {
+          "rank": 30,
+          "code": "OH",
+          "value": "23.4 min"
+        },
+        {
+          "rank": 31,
+          "code": "MO",
+          "value": "23.3 min"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "23.2 min"
+        },
+        {
+          "rank": 33,
+          "code": "AR",
+          "value": "22.7 min"
+        },
+        {
+          "rank": 34,
+          "code": "OR",
+          "value": "22.6 min"
+        },
+        {
+          "rank": 35,
+          "code": "MN",
+          "value": "22.3 min"
+        },
+        {
+          "rank": 36,
+          "code": "WV",
+          "value": "22.2 min"
+        },
+        {
+          "rank": 37,
+          "code": "WI",
+          "value": "22.1 min"
+        },
+        {
+          "rank": 38,
+          "code": "NM",
+          "value": "21.9 min"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "21.7 min"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "21.6 min"
+        },
+        {
+          "rank": 41,
+          "code": "VT",
+          "value": "21.5 min"
+        },
+        {
+          "rank": 42,
+          "code": "OK",
+          "value": "21.4 min"
+        },
+        {
+          "rank": 43,
+          "code": "IA",
+          "value": "20.1 min"
+        },
+        {
+          "rank": 44,
+          "code": "ID",
+          "value": "20.0 min"
+        },
+        {
+          "rank": 45,
+          "code": "AK",
+          "value": "19.8 min"
+        },
+        {
+          "rank": 46,
+          "code": "KS",
+          "value": "19.6 min"
+        },
+        {
+          "rank": 47,
+          "code": "NE",
+          "value": "19.2 min"
+        },
+        {
+          "rank": 48,
+          "code": "MT",
+          "value": "18.5 min"
+        },
+        {
+          "rank": 49,
+          "code": "WY",
+          "value": "18.3 min"
+        },
+        {
+          "rank": 50,
+          "code": "ND",
+          "value": "17.4 min"
+        },
+        {
+          "rank": 51,
+          "code": "SD",
+          "value": "17.2 min"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-bike-to-work-share-2022",
+      "title": "Highest Bike-to-Work Share",
+      "prompt": "Name the US states (including DC) where the largest share of commuters bike to work.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Share of workers age 16+ whose primary means of commuting is bicycle. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 ACS 1-Year, Table B08301 (Means of Transportation)",
+        "url": "https://data.census.gov/table/ACSST1Y2022.S0801",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "3.5%"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "1.7%"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "1.4%"
+        },
+        {
+          "rank": 4,
+          "code": "CO",
+          "value": "1.2%"
+        },
+        {
+          "rank": 5,
+          "code": "WA",
+          "value": "1.1%"
+        },
+        {
+          "rank": 6,
+          "code": "CA",
+          "value": "1.0%"
+        },
+        {
+          "rank": 7,
+          "code": "MA",
+          "value": "0.9%"
+        },
+        {
+          "rank": 8,
+          "code": "VT",
+          "value": "0.8%"
+        },
+        {
+          "rank": 9,
+          "code": "MN",
+          "value": "0.8% (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "AK",
+          "value": "0.7%"
+        },
+        {
+          "rank": 11,
+          "code": "WI",
+          "value": "0.6%"
+        },
+        {
+          "rank": 12,
+          "code": "AZ",
+          "value": "0.6% (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "HI",
+          "value": "0.6% (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "0.6% (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "IA",
+          "value": "0.5%"
+        },
+        {
+          "rank": 16,
+          "code": "ID",
+          "value": "0.5% (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "NM",
+          "value": "0.5% (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "IL",
+          "value": "0.5% (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "NE",
+          "value": "0.4%"
+        },
+        {
+          "rank": 20,
+          "code": "PA",
+          "value": "0.4% (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MI",
+          "value": "0.4% (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "MD",
+          "value": "0.4% (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "UT",
+          "value": "0.4% (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "FL",
+          "value": "0.4% (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "OH",
+          "value": "0.3%"
+        },
+        {
+          "rank": 26,
+          "code": "ME",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "RI",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NC",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NV",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "MO",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "SD",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "NH",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "NJ",
+          "value": "0.3% (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "KS",
+          "value": "0.2%"
+        },
+        {
+          "rank": 36,
+          "code": "GA",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "TX",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "VA",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "CT",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "TN",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 41,
+          "code": "KY",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "SC",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "ND",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "WY",
+          "value": "0.2% (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "OK",
+          "value": "0.1%"
+        },
+        {
+          "rank": 46,
+          "code": "AR",
+          "value": "0.1% (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "LA",
+          "value": "0.1% (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "MS",
+          "value": "0.1% (tied)"
+        },
+        {
+          "rank": 49,
+          "code": "AL",
+          "value": "0.1% (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "WV",
+          "value": "0.1% (tied)"
+        },
+        {
+          "rank": 51,
+          "code": "DE",
+          "value": "0.1% (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-walk-to-work-share-2022",
+      "title": "Highest Walk-to-Work Share",
+      "prompt": "Name the US states (including DC) where the largest share of commuters walk to work.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Share of workers age 16+ whose primary commute mode is walking. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 ACS 1-Year, Table S0801",
+        "url": "https://data.census.gov/table/ACSST1Y2022.S0801",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "12.9%"
+        },
+        {
+          "rank": 2,
+          "code": "MA",
+          "value": "4.2%"
+        },
+        {
+          "rank": 3,
+          "code": "NY",
+          "value": "5.6%"
+        },
+        {
+          "rank": 4,
+          "code": "AK",
+          "value": "5.5%"
+        },
+        {
+          "rank": 5,
+          "code": "VT",
+          "value": "4.2%"
+        },
+        {
+          "rank": 6,
+          "code": "PA",
+          "value": "3.6%"
+        },
+        {
+          "rank": 7,
+          "code": "MT",
+          "value": "3.5%"
+        },
+        {
+          "rank": 8,
+          "code": "RI",
+          "value": "3.2%"
+        },
+        {
+          "rank": 9,
+          "code": "WY",
+          "value": "3.4%"
+        },
+        {
+          "rank": 10,
+          "code": "ND",
+          "value": "3.1%"
+        },
+        {
+          "rank": 11,
+          "code": "NH",
+          "value": "3.0%"
+        },
+        {
+          "rank": 12,
+          "code": "IL",
+          "value": "2.8%"
+        },
+        {
+          "rank": 13,
+          "code": "CT",
+          "value": "2.7%"
+        },
+        {
+          "rank": 14,
+          "code": "NJ",
+          "value": "2.9%"
+        },
+        {
+          "rank": 15,
+          "code": "HI",
+          "value": "2.7%"
+        },
+        {
+          "rank": 16,
+          "code": "OR",
+          "value": "2.6%"
+        },
+        {
+          "rank": 17,
+          "code": "ME",
+          "value": "2.6%"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "2.5%"
+        },
+        {
+          "rank": 19,
+          "code": "WI",
+          "value": "2.5%"
+        },
+        {
+          "rank": 20,
+          "code": "IA",
+          "value": "2.4%"
+        },
+        {
+          "rank": 21,
+          "code": "WA",
+          "value": "2.4%"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "2.3%"
+        },
+        {
+          "rank": 23,
+          "code": "SD",
+          "value": "2.3%"
+        },
+        {
+          "rank": 24,
+          "code": "NE",
+          "value": "2.2%"
+        },
+        {
+          "rank": 25,
+          "code": "OH",
+          "value": "2.2%"
+        },
+        {
+          "rank": 26,
+          "code": "MD",
+          "value": "2.2%"
+        },
+        {
+          "rank": 27,
+          "code": "CA",
+          "value": "2.1%"
+        },
+        {
+          "rank": 28,
+          "code": "KS",
+          "value": "2.1%"
+        },
+        {
+          "rank": 29,
+          "code": "VA",
+          "value": "2.1%"
+        },
+        {
+          "rank": 30,
+          "code": "MI",
+          "value": "2.0%"
+        },
+        {
+          "rank": 31,
+          "code": "IN",
+          "value": "2.0%"
+        },
+        {
+          "rank": 32,
+          "code": "MO",
+          "value": "2.0%"
+        },
+        {
+          "rank": 33,
+          "code": "NM",
+          "value": "2.0%"
+        },
+        {
+          "rank": 34,
+          "code": "ID",
+          "value": "1.9%"
+        },
+        {
+          "rank": 35,
+          "code": "UT",
+          "value": "1.9%"
+        },
+        {
+          "rank": 36,
+          "code": "WV",
+          "value": "1.9%"
+        },
+        {
+          "rank": 37,
+          "code": "KY",
+          "value": "1.9%"
+        },
+        {
+          "rank": 38,
+          "code": "AR",
+          "value": "1.8%"
+        },
+        {
+          "rank": 39,
+          "code": "OK",
+          "value": "1.8%"
+        },
+        {
+          "rank": 40,
+          "code": "DE",
+          "value": "1.8%"
+        },
+        {
+          "rank": 41,
+          "code": "NC",
+          "value": "1.7%"
+        },
+        {
+          "rank": 42,
+          "code": "SC",
+          "value": "1.7%"
+        },
+        {
+          "rank": 43,
+          "code": "TN",
+          "value": "1.6%"
+        },
+        {
+          "rank": 44,
+          "code": "GA",
+          "value": "1.6%"
+        },
+        {
+          "rank": 45,
+          "code": "LA",
+          "value": "1.6%"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "1.6%"
+        },
+        {
+          "rank": 47,
+          "code": "NV",
+          "value": "1.5%"
+        },
+        {
+          "rank": 48,
+          "code": "FL",
+          "value": "1.5%"
+        },
+        {
+          "rank": 49,
+          "code": "TX",
+          "value": "1.4%"
+        },
+        {
+          "rank": 50,
+          "code": "AZ",
+          "value": "1.4%"
+        },
+        {
+          "rank": 51,
+          "code": "AL",
+          "value": "1.3%"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-registered-motor-vehicles-2022",
+      "title": "Most Registered Motor Vehicles",
+      "prompt": "Name the US states with the most registered motor vehicles (cars, trucks, buses, motorcycles).",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "All registered motor vehicles, including personal, commercial, and government fleets. Includes Washington DC.",
+      "source": {
+        "name": "FHWA \u2014 Highway Statistics, Table MV-1",
+        "url": "https://www.fhwa.dot.gov/policyinformation/statistics/2022/",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "30.4 million"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "23.2 million"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "17.8 million"
+        },
+        {
+          "rank": 4,
+          "code": "OH",
+          "value": "12.3 million"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "10.9 million"
+        },
+        {
+          "rank": 6,
+          "code": "NY",
+          "value": "10.7 million"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "9.4 million"
+        },
+        {
+          "rank": 8,
+          "code": "IL",
+          "value": "10.1 million"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "8.4 million"
+        },
+        {
+          "rank": 10,
+          "code": "MI",
+          "value": "8.6 million"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "6.6 million"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "7.5 million"
+        },
+        {
+          "rank": 13,
+          "code": "IN",
+          "value": "6.0 million"
+        },
+        {
+          "rank": 14,
+          "code": "WA",
+          "value": "6.6 million"
+        },
+        {
+          "rank": 15,
+          "code": "TN",
+          "value": "6.1 million"
+        },
+        {
+          "rank": 16,
+          "code": "MO",
+          "value": "5.6 million"
+        },
+        {
+          "rank": 17,
+          "code": "AZ",
+          "value": "5.5 million"
+        },
+        {
+          "rank": 18,
+          "code": "MA",
+          "value": "5.4 million"
+        },
+        {
+          "rank": 19,
+          "code": "WI",
+          "value": "5.3 million"
+        },
+        {
+          "rank": 20,
+          "code": "MN",
+          "value": "5.1 million"
+        },
+        {
+          "rank": 21,
+          "code": "MD",
+          "value": "4.8 million"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "4.7 million"
+        },
+        {
+          "rank": 23,
+          "code": "AL",
+          "value": "4.6 million"
+        },
+        {
+          "rank": 24,
+          "code": "SC",
+          "value": "4.5 million"
+        },
+        {
+          "rank": 25,
+          "code": "OK",
+          "value": "3.7 million"
+        },
+        {
+          "rank": 26,
+          "code": "LA",
+          "value": "3.8 million"
+        },
+        {
+          "rank": 27,
+          "code": "KY",
+          "value": "3.9 million"
+        },
+        {
+          "rank": 28,
+          "code": "OR",
+          "value": "3.6 million"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "2.9 million"
+        },
+        {
+          "rank": 30,
+          "code": "IA",
+          "value": "3.5 million"
+        },
+        {
+          "rank": 31,
+          "code": "AR",
+          "value": "2.6 million"
+        },
+        {
+          "rank": 32,
+          "code": "KS",
+          "value": "2.6 million"
+        },
+        {
+          "rank": 33,
+          "code": "NV",
+          "value": "2.5 million"
+        },
+        {
+          "rank": 34,
+          "code": "MS",
+          "value": "2.4 million"
+        },
+        {
+          "rank": 35,
+          "code": "UT",
+          "value": "2.5 million"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "1.9 million"
+        },
+        {
+          "rank": 37,
+          "code": "NE",
+          "value": "2.0 million"
+        },
+        {
+          "rank": 38,
+          "code": "WV",
+          "value": "1.6 million"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "1.9 million"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "1.2 million"
+        },
+        {
+          "rank": 41,
+          "code": "NH",
+          "value": "1.4 million"
+        },
+        {
+          "rank": 42,
+          "code": "HI",
+          "value": "1.2 million"
+        },
+        {
+          "rank": 43,
+          "code": "MT",
+          "value": "1.5 million"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "890,000"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "1.1 million"
+        },
+        {
+          "rank": 46,
+          "code": "ND",
+          "value": "970,000"
+        },
+        {
+          "rank": 47,
+          "code": "DE",
+          "value": "870,000"
+        },
+        {
+          "rank": 48,
+          "code": "AK",
+          "value": "770,000"
+        },
+        {
+          "rank": 49,
+          "code": "VT",
+          "value": "600,000"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "760,000"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "270,000"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-ev-charging-station-locations-2024",
+      "title": "Most EV Charging Station Locations",
+      "prompt": "Name the US states with the most public electric-vehicle charging station locations.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Distinct public charging station locations (any level, any port count). Private/residential chargers excluded. Includes Washington DC.",
+      "source": {
+        "name": "US DOE \u2014 Alternative Fuels Data Center (AFDC) Station Locator",
+        "url": "https://afdc.energy.gov/stations/states",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "16,900 stations"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "4,200 stations"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "3,700 stations"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "3,400 stations"
+        },
+        {
+          "rank": 5,
+          "code": "MA",
+          "value": "3,000 stations"
+        },
+        {
+          "rank": 6,
+          "code": "WA",
+          "value": "2,300 stations"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "1,900 stations"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "1,900 stations"
+        },
+        {
+          "rank": 9,
+          "code": "NJ",
+          "value": "1,800 stations"
+        },
+        {
+          "rank": 10,
+          "code": "IL",
+          "value": "1,600 stations"
+        },
+        {
+          "rank": 11,
+          "code": "MD",
+          "value": "1,600 stations"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "1,500 stations"
+        },
+        {
+          "rank": 13,
+          "code": "PA",
+          "value": "1,500 stations"
+        },
+        {
+          "rank": 14,
+          "code": "OR",
+          "value": "1,400 stations"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "1,400 stations"
+        },
+        {
+          "rank": 16,
+          "code": "OH",
+          "value": "1,300 stations"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "1,200 stations"
+        },
+        {
+          "rank": 18,
+          "code": "AZ",
+          "value": "1,200 stations"
+        },
+        {
+          "rank": 19,
+          "code": "MN",
+          "value": "1,100 stations"
+        },
+        {
+          "rank": 20,
+          "code": "TN",
+          "value": "1,000 stations"
+        },
+        {
+          "rank": 21,
+          "code": "CT",
+          "value": "980 stations"
+        },
+        {
+          "rank": 22,
+          "code": "IN",
+          "value": "920 stations"
+        },
+        {
+          "rank": 23,
+          "code": "MO",
+          "value": "870 stations"
+        },
+        {
+          "rank": 24,
+          "code": "WI",
+          "value": "830 stations"
+        },
+        {
+          "rank": 25,
+          "code": "UT",
+          "value": "790 stations"
+        },
+        {
+          "rank": 26,
+          "code": "SC",
+          "value": "720 stations"
+        },
+        {
+          "rank": 27,
+          "code": "AL",
+          "value": "660 stations"
+        },
+        {
+          "rank": 28,
+          "code": "NV",
+          "value": "620 stations"
+        },
+        {
+          "rank": 29,
+          "code": "OK",
+          "value": "580 stations"
+        },
+        {
+          "rank": 30,
+          "code": "IA",
+          "value": "540 stations"
+        },
+        {
+          "rank": 31,
+          "code": "KY",
+          "value": "520 stations"
+        },
+        {
+          "rank": 32,
+          "code": "NM",
+          "value": "480 stations"
+        },
+        {
+          "rank": 33,
+          "code": "KS",
+          "value": "470 stations"
+        },
+        {
+          "rank": 34,
+          "code": "HI",
+          "value": "450 stations"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "420 stations"
+        },
+        {
+          "rank": 36,
+          "code": "NH",
+          "value": "400 stations"
+        },
+        {
+          "rank": 37,
+          "code": "DC",
+          "value": "380 stations"
+        },
+        {
+          "rank": 38,
+          "code": "LA",
+          "value": "360 stations"
+        },
+        {
+          "rank": 39,
+          "code": "ME",
+          "value": "340 stations"
+        },
+        {
+          "rank": 40,
+          "code": "VT",
+          "value": "330 stations"
+        },
+        {
+          "rank": 41,
+          "code": "NE",
+          "value": "320 stations"
+        },
+        {
+          "rank": 42,
+          "code": "ID",
+          "value": "300 stations"
+        },
+        {
+          "rank": 43,
+          "code": "RI",
+          "value": "290 stations"
+        },
+        {
+          "rank": 44,
+          "code": "MT",
+          "value": "260 stations"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "250 stations"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "230 stations"
+        },
+        {
+          "rank": 47,
+          "code": "WV",
+          "value": "210 stations"
+        },
+        {
+          "rank": 48,
+          "code": "SD",
+          "value": "180 stations"
+        },
+        {
+          "rank": 49,
+          "code": "WY",
+          "value": "160 stations"
+        },
+        {
+          "rank": 50,
+          "code": "ND",
+          "value": "150 stations"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "140 stations"
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-dc-fast-charging-ports-2024",
+      "title": "Most DC Fast-Charging Ports",
+      "prompt": "Name the US states with the most public DC fast-charging (Level 3) ports for electric vehicles.",
+      "subtheme": "US States - Infrastructure",
+      "seededDepth": 51,
+      "disclaimer": "Public DC fast-charging (Level 3) ports, including Tesla Supercharger stalls that are publicly accessible. Level 2 chargers excluded.",
+      "source": {
+        "name": "US DOE \u2014 Alternative Fuels Data Center (AFDC)",
+        "url": "https://afdc.energy.gov/fuels/electricity_locations.html",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "14,800 ports"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "3,200 ports"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "3,000 ports"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "2,300 ports"
+        },
+        {
+          "rank": 5,
+          "code": "WA",
+          "value": "1,900 ports"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "1,300 ports"
+        },
+        {
+          "rank": 7,
+          "code": "AZ",
+          "value": "1,300 ports (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "1,200 ports"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "1,100 ports"
+        },
+        {
+          "rank": 10,
+          "code": "VA",
+          "value": "1,000 ports"
+        },
+        {
+          "rank": 11,
+          "code": "OR",
+          "value": "1,000 ports (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "NJ",
+          "value": "900 ports"
+        },
+        {
+          "rank": 13,
+          "code": "MA",
+          "value": "850 ports"
+        },
+        {
+          "rank": 14,
+          "code": "PA",
+          "value": "800 ports"
+        },
+        {
+          "rank": 15,
+          "code": "IL",
+          "value": "800 ports (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "OH",
+          "value": "750 ports"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "700 ports"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "650 ports"
+        },
+        {
+          "rank": 19,
+          "code": "TN",
+          "value": "600 ports"
+        },
+        {
+          "rank": 20,
+          "code": "MO",
+          "value": "550 ports"
+        },
+        {
+          "rank": 21,
+          "code": "IN",
+          "value": "500 ports"
+        },
+        {
+          "rank": 22,
+          "code": "MN",
+          "value": "480 ports"
+        },
+        {
+          "rank": 23,
+          "code": "UT",
+          "value": "450 ports"
+        },
+        {
+          "rank": 24,
+          "code": "CT",
+          "value": "430 ports"
+        },
+        {
+          "rank": 25,
+          "code": "NV",
+          "value": "420 ports"
+        },
+        {
+          "rank": 26,
+          "code": "WI",
+          "value": "400 ports"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "380 ports"
+        },
+        {
+          "rank": 28,
+          "code": "KY",
+          "value": "340 ports"
+        },
+        {
+          "rank": 29,
+          "code": "OK",
+          "value": "320 ports"
+        },
+        {
+          "rank": 30,
+          "code": "AL",
+          "value": "300 ports"
+        },
+        {
+          "rank": 31,
+          "code": "IA",
+          "value": "280 ports"
+        },
+        {
+          "rank": 32,
+          "code": "KS",
+          "value": "260 ports"
+        },
+        {
+          "rank": 33,
+          "code": "NM",
+          "value": "240 ports"
+        },
+        {
+          "rank": 34,
+          "code": "AR",
+          "value": "220 ports"
+        },
+        {
+          "rank": 35,
+          "code": "LA",
+          "value": "210 ports"
+        },
+        {
+          "rank": 36,
+          "code": "NE",
+          "value": "200 ports"
+        },
+        {
+          "rank": 37,
+          "code": "ID",
+          "value": "180 ports"
+        },
+        {
+          "rank": 38,
+          "code": "HI",
+          "value": "170 ports"
+        },
+        {
+          "rank": 39,
+          "code": "MS",
+          "value": "160 ports"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "150 ports"
+        },
+        {
+          "rank": 41,
+          "code": "NH",
+          "value": "140 ports"
+        },
+        {
+          "rank": 42,
+          "code": "MT",
+          "value": "130 ports"
+        },
+        {
+          "rank": 43,
+          "code": "DC",
+          "value": "120 ports"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "110 ports"
+        },
+        {
+          "rank": 45,
+          "code": "RI",
+          "value": "100 ports"
+        },
+        {
+          "rank": 46,
+          "code": "VT",
+          "value": "95 ports"
+        },
+        {
+          "rank": 47,
+          "code": "DE",
+          "value": "90 ports"
+        },
+        {
+          "rank": 48,
+          "code": "AK",
+          "value": "80 ports"
+        },
+        {
+          "rank": 49,
+          "code": "SD",
+          "value": "70 ports"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "65 ports"
+        },
+        {
+          "rank": 51,
+          "code": "ND",
+          "value": "60 ports"
+        }
+      ]
+    }
+  ]
+}

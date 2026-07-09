@@ -1,0 +1,655 @@
+{
+  "batch": 14,
+  "questions": [
+    {
+      "id": "us-states-tourism-recreation-most-national-monuments-2025",
+      "title": "Most National Monuments",
+      "prompt": "Name the US states with the largest number of federally designated National Monuments.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 41,
+      "disclaimer": "Counts monuments administered by all federal agencies (NPS, BLM, USFS, USFWS, etc.), not just the National Park Service. Monuments that span two states are counted in each. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 List of national monuments of the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_national_monuments_of_the_United_States",
+        "asOf": "2025 (138 monuments)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "20 monuments"
+        },
+        {
+          "rank": 2,
+          "code": "AZ",
+          "value": "19 monuments"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "13 monuments"
+        },
+        {
+          "rank": 4,
+          "code": "CO",
+          "value": "8 monuments"
+        },
+        {
+          "rank": 5,
+          "code": "UT",
+          "value": "7 monuments"
+        },
+        {
+          "rank": 6,
+          "code": "AK",
+          "value": "5 monuments"
+        },
+        {
+          "rank": 6,
+          "code": "NV",
+          "value": "5 monuments (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "FL",
+          "value": "4 monuments"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "4 monuments (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "NY",
+          "value": "4 monuments (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "MT",
+          "value": "3 monuments"
+        },
+        {
+          "rank": 11,
+          "code": "OR",
+          "value": "3 monuments (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "WY",
+          "value": "3 monuments (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "TX",
+          "value": "3 monuments (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "3 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "AL",
+          "value": "2 monuments"
+        },
+        {
+          "rank": 16,
+          "code": "DC",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "HI",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "ID",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "MD",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "OH",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "SD",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "WA",
+          "value": "2 monuments (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "AR",
+          "value": "1 monument"
+        },
+        {
+          "rank": 24,
+          "code": "IA",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "IL",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "KY",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "LA",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "ME",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MI",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MN",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MS",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NE",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NC",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NJ",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "OK",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "PA",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "SC",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "TN",
+          "value": "1 monument (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "WV",
+          "value": "1 monument (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-scenic-byways-2021",
+      "title": "Most National Scenic Byways",
+      "prompt": "Name the US states with the largest number of National Scenic Byways and All-American Roads (designated by the US Department of Transportation).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 48,
+      "disclaimer": "Counts every state a byway passes through, so byways spanning multiple states are credited to each. Hawaii and Texas have no designated byways. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 National Scenic Byway",
+        "url": "https://en.wikipedia.org/wiki/National_Scenic_Byway",
+        "asOf": "2021 (184 byways in 48 states)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CO",
+          "value": "6 byways"
+        },
+        {
+          "rank": 2,
+          "code": "MN",
+          "value": "5 byways"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "4 byways"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "LA",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "OR",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "UT",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "AK",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "4 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "AZ",
+          "value": "3 byways"
+        },
+        {
+          "rank": 11,
+          "code": "MI",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "MT",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "NV",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "NC",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "OH",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "PA",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "TN",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "WI",
+          "value": "3 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "AL",
+          "value": "2 byways"
+        },
+        {
+          "rank": 21,
+          "code": "AR",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "GA",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "ID",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "IL",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "IA",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "KY",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "ME",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MD",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MA",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MS",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "NE",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "NH",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "NY",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "ND",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "OK",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "SC",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "SD",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "VT",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "WV",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "WY",
+          "value": "2 byways (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "CT",
+          "value": "1 byway"
+        },
+        {
+          "rank": 42,
+          "code": "DE",
+          "value": "1 byway (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "IN",
+          "value": "1 byway (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "KS",
+          "value": "1 byway (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "MO",
+          "value": "1 byway (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "NJ",
+          "value": "1 byway (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "RI",
+          "value": "1 byway (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-lighthouses-2025",
+      "title": "Most Lighthouses",
+      "prompt": "Name the US states with the largest number of lighthouses identified by the US Coast Guard (including active, decommissioned, and historic light stations).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 32,
+      "disclaimer": "Counts all lighthouses identified by the US Coast Guard on each state's Wikipedia list, including active, deactivated, destroyed, and historic structures. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 State-by-state lighthouse lists (aggregated from USCG data)",
+        "url": "https://en.wikipedia.org/wiki/List_of_lighthouses_in_the_United_States",
+        "asOf": "2025 (US Coast Guard rolls)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MI",
+          "value": "129 lighthouses"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "74 lighthouses"
+        },
+        {
+          "rank": 3,
+          "code": "ME",
+          "value": "66 lighthouses"
+        },
+        {
+          "rank": 4,
+          "code": "MA",
+          "value": "60 lighthouses"
+        },
+        {
+          "rank": 5,
+          "code": "WI",
+          "value": "53 lighthouses"
+        },
+        {
+          "rank": 6,
+          "code": "CA",
+          "value": "46 lighthouses"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "43 lighthouses"
+        },
+        {
+          "rank": 8,
+          "code": "NC",
+          "value": "26 lighthouses"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "26 lighthouses (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "OH",
+          "value": "20 lighthouses"
+        },
+        {
+          "rank": 11,
+          "code": "MN",
+          "value": "18 lighthouses"
+        },
+        {
+          "rank": 12,
+          "code": "NJ",
+          "value": "17 lighthouses"
+        },
+        {
+          "rank": 13,
+          "code": "VA",
+          "value": "16 lighthouses"
+        },
+        {
+          "rank": 14,
+          "code": "MD",
+          "value": "15 lighthouses"
+        },
+        {
+          "rank": 15,
+          "code": "CT",
+          "value": "14 lighthouses"
+        },
+        {
+          "rank": 15,
+          "code": "OR",
+          "value": "14 lighthouses (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "IL",
+          "value": "12 lighthouses"
+        },
+        {
+          "rank": 17,
+          "code": "RI",
+          "value": "12 lighthouses (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "PA",
+          "value": "11 lighthouses"
+        },
+        {
+          "rank": 20,
+          "code": "LA",
+          "value": "10 lighthouses"
+        },
+        {
+          "rank": 21,
+          "code": "SC",
+          "value": "9 lighthouses"
+        },
+        {
+          "rank": 22,
+          "code": "AK",
+          "value": "8 lighthouses"
+        },
+        {
+          "rank": 22,
+          "code": "TX",
+          "value": "8 lighthouses (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "GA",
+          "value": "7 lighthouses"
+        },
+        {
+          "rank": 25,
+          "code": "IN",
+          "value": "6 lighthouses"
+        },
+        {
+          "rank": 25,
+          "code": "NH",
+          "value": "6 lighthouses (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "AL",
+          "value": "5 lighthouses"
+        },
+        {
+          "rank": 27,
+          "code": "DE",
+          "value": "5 lighthouses (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "HI",
+          "value": "5 lighthouses (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "MS",
+          "value": "5 lighthouses (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "KY",
+          "value": "3 lighthouses"
+        },
+        {
+          "rank": 31,
+          "code": "VT",
+          "value": "3 lighthouses (tied)"
+        }
+      ]
+    }
+  ]
+}

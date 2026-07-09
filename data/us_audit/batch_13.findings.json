@@ -1,0 +1,80 @@
+{
+  "batch": 13,
+  "findings": [
+    {
+      "id": "us-states-geography-most-national-wildlife-refuges-2024",
+      "flags": ["sort-inversion", "fact-error"],
+      "notes": "Severe sort inversion — values do not match ranks. Rank 1 AK=16 but rank 2 CA=39, rank 3 TX=22, rank 4 FL=29, rank 6 ND=63 (should be #1 by value), rank 8 WA=23, rank 12 LA=24 all outrank higher-listed entries. Rank ordering appears effectively random relative to the numeric values. Also fact-error: ND=63 refuges is implausible even including WMDs (actual ND is ~13 refuges + ~20 WMDs). Almost every rank position is inverted vs. its value."
+    },
+    {
+      "id": "us-states-geography-most-ski-areas-2024",
+      "flags": ["sort-inversion"],
+      "notes": "Multiple sort inversions: rank 15 ID=18 > rank 14 ME=14 and rank 13 ME etc. (ID should be higher); rank 22 OH=6 > rank 21 NV=5; rank 25 CT=5 > rank 23 IL=4 and rank 24 IN=4; rank 31 NC=6 > rank 30 AZ=3 (NC should be much higher); rank 33 RI=1 < rank 34 MO=2 and rank 35 MD=2 and rank 36 TN=2; rank 37 GA=1 tied with RI but ranked lower. Sort broken from rank ~14 onward."
+    },
+    {
+      "id": "us-states-geography-most-long-rivers-500-miles-passing-through-2024",
+      "flags": [],
+      "notes": "Ranks, ties, and value formats consistent. Descending value order preserved across all 40 entries. Tied entries correctly share rank and use '(tied)' suffix on all but the first. Disclaimer covers DC omission."
+    },
+    {
+      "id": "us-states-geography-largest-total-national-park-acreage-2024",
+      "flags": ["sort-inversion", "false-tie"],
+      "notes": "Rank 23 ME=49,000 flagged '(tied)' with rank 22 VA=49,000 but VA is not marked '(tied)' — that's the correct convention only if VA is the first tie member; however both entries should share the same rank number (both should be rank 22). Multiple sort inversions after rank 23: rank 24 AR=6,000 < rank 25 SC=27,000 < rank 26 OH=33,000 (SC and OH should outrank AR); rank 28 MO=80,000 > many higher ranks (should be around rank 17-18); rank 30 WV=73,000 > MA=9,000 at rank 29 (WV should be much higher). Sort order broken from rank 24 down."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-public-aquariums-2025",
+      "flags": [],
+      "notes": "Ranks and tie handling consistent. Values descending correctly. Tie groups (rank 7, 10, 16, 23, 32) properly share rank and use '(tied)' on non-first members. Value format consistent ('N aquariums' / '1 aquarium')."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-american-viticultural-areas-2025",
+      "flags": [],
+      "notes": "Ranks, ties, and value formats all consistent. Descending order maintained. Singular/plural handled correctly ('1 AVA' vs 'N AVAs'). Disclaimer notes DC omission."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-historic-trails-2025",
+      "flags": [],
+      "notes": "Ranks and tie handling correct. Values descending. Singular/plural correct ('1 trail' vs 'N trails'). Disclaimer scope clear."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-rodeos-2025",
+      "flags": [],
+      "notes": "Sort order and tie handling consistent. Value format uniform with correct singular/plural. Disclaimer notes DC omission."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-music-festivals-2025",
+      "flags": ["sort-inversion", "false-tie"],
+      "notes": "Rank 13 GA=6 followed by rank 14 KS=5 and rank 14 MN=5 (tied) — but rank 16 CO=5 (tied), MA=5 (tied), NC=5 (tied), TN=5 (tied), VA=5 (tied) all have same value 5 as KS/MN but different rank (14 vs 16). These are all 5-festival entries and should share the same rank (rank 14). This is a false-tie/sort-inversion — the tie group was split into two rank tiers with identical values. Similarly rank 14 KS=5 tied flag on MN but not KS."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-convention-centers-2025",
+      "flags": [],
+      "notes": "Ranks and ties consistent throughout. Values descend correctly. Value format uniform ('N centers' / '1 center'). DC included per disclaimer."
+    },
+    {
+      "id": "us-states-tourism-recreation-largest-state-fair-by-attendance-2019",
+      "flags": ["sort-inversion", "false-tie"],
+      "notes": "Severe sort inversions from rank 32 onward: rank 32 AR=436,050 > many higher ranks (should be ~rank 20); rank 35 ND=260,000 marked '(tied)' but no matching rank-35 entry with same value — false-tie tag; rank 36 MD=525,000 > many entries at ranks 18-35 (should be ~rank 17); rank 38 MT=225,000, rank 39 SD=215,000, rank 40 NV=170,000 (tied — but tied with what?) — false-tie; rank 44 AK=300,000 '(tied)' but no matching tie — false-tie and severely misranked; rank 45 NH=70,000 out of order. Sort broken from rank ~32 and tie annotations are frequently orphaned."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-scenic-trails-2025",
+      "flags": [],
+      "notes": "Ranks and ties consistent. Two-entry top tie at rank 1, large tie groups at rank 3 and rank 13 handled correctly. Value format uniform with correct singular/plural."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-visited-single-national-park-by-state-2025",
+      "flags": ["sort-inversion", "false-tie"],
+      "notes": "Rank 1 TN=11.53M and rank 2 NC=11.53M with NC marked '(tied)' — same value should share rank 1, not be ranks 1 and 2 (false-tie: TN and NC both host Great Smoky Mountains NP and share the visitor count). Multiple sort inversions from rank 17 onward: rank 17 KY=0.63M placed below UT/WV/VA (1.97/1.96/1.69M); rank 24 ND=0.75M > rank 17-23 entries (should be ~rank 14); rank 25 SD=1.12M >> rank 24 ND and should be ~rank 13; rank 26 AK=0.63M tied with KY but different rank; rank 29 MN=0.24M > rank 28 MI=0.03M and rank 27 NV=0.15M. Sort order effectively broken past rank 16."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-wildlife-refuges-2025",
+      "flags": ["false-tie"],
+      "notes": "Rank 12 GA=9, rank 12 HI=9 (tied), rank 14 TX=9 (tied) — TX has value 9 and '(tied)' flag but is assigned rank 14 rather than rank 12. TX should share rank 12 with GA/HI. Otherwise ranks and ties are consistent throughout the list."
+    },
+    {
+      "id": "us-states-tourism-recreation-most-amusement-parks-2025",
+      "flags": ["false-tie"],
+      "notes": "Rank 12 MI=8 followed by rank 13 FL=8 (tied) and rank 13 GA=8 (tied) — MI, FL, GA all have value 8 and should share rank 12. Assigning MI rank 12 alone and FL/GA rank 13 is a false-tie split. Similarly rank 15 MA=7 vs FL/GA at 8 — MA correctly at 15 but the MI/FL/GA split needs fixing so subsequent ranks may shift."
+    }
+  ]
+}

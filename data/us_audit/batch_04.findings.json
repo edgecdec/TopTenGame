@@ -1,0 +1,137 @@
+{
+  "batch": 4,
+  "findings": [
+    {
+      "id": "us-states-deep-dive-most-craft-breweries-2023",
+      "issue": "sort-inversion",
+      "detail": "Multiple entries ranked lower than their numeric value warrants. ME (rank 25, 168 breweries) exceeds ranks 14-24 (e.g. MA 247, WI 228, MN 217, IN 196, GA 165, AZ 142, MO 141, TN 134, MD 128, NJ 127, SC 125). Similar problems: KY 97 at r30 > AL 63 at r31; NH 97 at r32 > OK 77 at r33; NM 112 at r34, ID 119 at r35 both exceed many higher-ranked states; NV 68 at r39, NE 58 at r42, WV 36 at r44, RI 42 at r46 all mis-ranked. List is not monotonically decreasing.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-highest-cost-of-living-2024",
+      "issue": "false-tie",
+      "detail": "Three pairs of identical index values are ranked sequentially with no '(tied)' annotation and no shared rank: NV/SC both 96.5 (r24/r25), NM/WY both 91.6 (r33/r34), ND/KY both 87.0 (r44/r45). Should share ranks or be flagged as ties.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-highest-cost-of-living-2024",
+      "issue": "disclaimer-issue",
+      "detail": "Prompt says 'Rank US states (and DC)' but disclaimer says 'DC not included (source omits it)'. Contradictory. Answer list is 50 items (no DC). Prompt should be revised.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-most-airports-2023",
+      "issue": "sort-inversion",
+      "detail": "Numerous entries out of order. Most egregious: MT (r33) with 119 airports — should rank ~15th; OR (r22) with 97 airports > CO (r20) with 75; NE 84 (r21), AZ 78 (r30), ID 77 (r36), NV 48 (r45) all significantly mis-placed. List not monotonic.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-airports-2023",
+      "issue": "false-tie",
+      "detail": "KY and NM both listed at 58 airports (r31 NM, r32 KY) with no shared rank or '(tied)' annotation.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-deep-dive-most-cattle-2024",
+      "issue": "sort-inversion",
+      "detail": "Many entries out of order: AR 1.61M at r18 exceeds NM 1.34M (r17); PA 1.51M at r22 and NY 1.42M at r27 exceed VA 1.29M (r21) and MI 1.13M (r20); GA 1.02M at r32 > NC 0.79M (r31); VT 0.255M at r42 and MD 0.185M at r41 exceed ME 0.075M at r40. Numerous mid/low-rank inversions.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-cattle-2024",
+      "issue": "false-tie",
+      "detail": "AK and DE both listed at 0.014M head (r48 DE, r49 AK) with no shared rank or '(tied)' annotation.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-deep-dive-highest-corn-production-2023",
+      "issue": "false-tie",
+      "detail": "CO/TN both 0.13B bushels (r16/r17) and MT/OR both 0.007B bushels (r33/r34) listed with sequential ranks, no '(tied)' marker. Value-format precision (2 sig-figs at 'B bushels') may be masking real differences; but as printed these are ties.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-highest-corn-production-2023",
+      "issue": "value-format-mix",
+      "detail": "Uses inconsistent decimal precision under a single 'B bushels' unit: r1-r10 shown at 2 decimals (2.55B, 0.85B), but r20+ shifts to 3 decimals (0.075B, 0.068B). Small states could be shown in millions for clarity. Precision mixing makes many rows appear tied when likely they aren't.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-highest-hog-inventory-2024",
+      "issue": "sort-inversion",
+      "detail": "MI 1.16M at r14 exceeds TX 1.06M (r13); UT 0.72M at r17 and CO 0.62M at r19 exceed KY 0.30M (r16) and VA 0.24M (r18); MS 0.35M at r27 far exceeds several higher-ranked states (TN 0.15M r22, GA 0.10M r23, ND 0.14M r25, NY 0.07M r26). List not monotonic.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-largest-wine-production-2022",
+      "issue": "false-tie",
+      "detail": "Seven pairs/triples of identical values are ranked sequentially without shared ranks or '(tied)' annotation: NE/KS 0.05M (r35/r36), LA/RI 0.04M (r37/r38), MS/UT 0.03M (r39/r40), MT/NV/SD 0.02M (r41/r42/r43), HI/WV/DE 0.01M (r44/r45/r46). Value-format precision issue underlies this — small producers all round to the same 0.01M bucket.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-largest-wine-production-2022",
+      "issue": "prompt-ambiguous",
+      "detail": "Prompt says 'excluding California' but disclaimer says 'Includes Washington DC'. DC has no commercial wine production of scale; the '0.001M gallons' figure at r50 for DC is not credible from Wine Institute. Also excluding CA leaves 50 items but the source (Wine Institute) does report CA — the exclusion is editorial, worth calling out in prompt more clearly.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-deep-dive-most-highway-miles-per-capita-2022",
+      "issue": "sort-inversion",
+      "detail": "Extensive disorder in the middle/lower ranks: VT 22 at r14 > AK 20 at r13; WV 21 at r16 > ME 17 at r15; WI 20 at r20 > TX 11 at r19; NM 34 at r33 (should be top 10); ID 26 at r28 > many higher-ranked; UT 14 at r38, NV 12 at r40, RI 6 at r50 all mis-placed. List is not monotonically decreasing.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-highway-miles-per-capita-2022",
+      "issue": "false-tie",
+      "detail": "KS and WY both share rank 5 (48 mi per 1K) but WY value string lacks '(tied)' marker used elsewhere in the batch. Multiple downstream identical values (TN/LA 13, OH/IL 11, NH r37=11, FL/RI/DE/CT/NY 6, MA/CA/NJ 5) listed with sequential ranks and no shared rank.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+      "issue": "fact-error",
+      "detail": "DC listed at r51 with 24.7%. Actual federal ownership of DC land is very high (federal buildings, National Mall, monuments) — CRS reports typically exclude DC or show ~28%+. Regardless, 24.7% is inconsistent with rank 51 (last place); at that value DC should rank around 13-14, above HI (19.4%). This is both a sort-inversion and a bucket/rank fact error.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+      "issue": "sort-inversion",
+      "detail": "Beyond the DC issue: VT 7.5% at r20 > WV 7.4% at r19; SD 5.4% at r26 > WI 5.2% at r25; KY 4.7% at r31 > GA 4.2% at r30; ND 3.9% at r33 > AL 3.1% at r32; PA 2.1% at r35 > OK 1.6% at r34; MD 3.1% at r37, NJ 3.5% at r38, DE 2.4% at r41 all exceed lower-numbered ranks; IL/NE 1.1% at r45/r46 tied with MA/ME at r42/r43 but not marked tied.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+      "issue": "false-tie",
+      "detail": "MI/VA both 9.9% (r15/r16); MS/SC both 5.4% (r23/r24); MA/ME both 1.1% (r42/r43); IL/NE both 1.1% (r45/r46) — none share a rank or carry '(tied)' marker.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-largest-federal-workforce-per-capita-2023",
+      "issue": "bucket-value",
+      "detail": "Values decrease by exactly 1 for ranks 15-51 (66, 64, 62, 60, 58, 56, 54, 52, 50, 49, 47, 46, 45, 44, 43, 42, 41 ... 21). This monotonic decrement pattern strongly suggests the values are synthesized/interpolated rather than pulled from FedScope. Real per-10K rates would not step down by 1 uniformly across ~40 states.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-highest-violent-crime-rate-2022",
+      "issue": "disclaimer-issue",
+      "detail": "Disclaimer says 'FBI UCR / Crime Data Explorer, 2022' but multiple state values here differ from FBI-published 2022 figures. Furthermore, FBI's 2022 data had well-known state participation issues (transition to NIBRS meant many agencies did not report). Should note that caveat, or the ranking may reflect coverage gaps rather than crime.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-most-retail-sales-per-capita-2022",
+      "issue": "bucket-value",
+      "detail": "Values decrease by exactly $200 across almost all ranks from ~r10 onward ($19,000, $18,900, $18,700, $18,500, $18,300 ... $10,500). Uniform $200 stepping across 40+ states is not consistent with real Census retail-sales-per-capita data; values appear synthesized.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-largest-wine-production-2022",
+      "issue": "inverse-candidate",
+      "detail": "Prompt is 'Largest wine production excluding California' — a competitive-friendly framing. Inverse phrasing 'Smallest wine production' would work well from the same data (DC 0.001M, AK 0.003M, WY 0.004M).",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-states-with-the-lowest-point-below-sea-level-2024",
+      "issue": "fact-error",
+      "detail": "Only 2 states listed (CA, LA). This is likely incomplete — several other states have depressions at or below sea level in specific locations (e.g., NY's parts of NYC below MSL, WA has areas near sea level). However, if strictly 'lowest official point' per USGS, only CA (Badwater -282) and LA (-8, New Orleans) have official state low-points below sea level, so this may be correct. Ambiguity: seededDepth=2 is legitimate only if USGS methodology is strict. Flag for prompt clarity — the current prompt phrasing 'lowest elevation point sits below sea level' is unambiguous and only CA/LA qualify, so this is arguably OK. Downgrading severity.",
+      "severity": "low"
+    }
+  ]
+}

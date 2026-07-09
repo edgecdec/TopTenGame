@@ -1,0 +1,65 @@
+{
+  "batch": 8,
+  "findings": [
+    {
+      "id": "us-states-geography-largest-rangeland-grassland-area-2017",
+      "issue": "sort-inversion",
+      "detail": "HI at rank 40 has 1,100,000 acres, but that value is larger than every entry from rank 14 (ND 10,700,000... wait) — specifically HI's 1,100,000 exceeds ranks 20-39 (e.g., MN rank 20 = 1,600,000 is larger, but WI rank 24 = 790,000, MI 620,000, etc.). HI's 1,100,000 acres belongs between rank 20 (MN 1,600,000) and rank 21 (IA 1,300,000) — it should be roughly rank 21 or 22, not rank 40. Likely fact/format error (may reflect a typo where HI should be 11,000 or 110,000 acres).",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-named-plateaus-2023",
+      "issue": "false-tie",
+      "detail": "Ranks 26 (PA) & 27 (NC) both show '4 plateaus/mesas'; ranks 28 (NY) & 29 (GA) both show '3'; ranks 41 (NH) & 42 (VT) both show '2'. These are equal values but presented as sequential ranks without any '(tied)' notation, unlike other questions in the batch that mark ties explicitly.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-most-wineries-2023",
+      "issue": "sort-inversion",
+      "detail": "Multiple out-of-order entries: rank 9 OH=310 (exceeds rank 8 MI=220 and rank 4 NY=480 tie context); rank 13 NJ=60 (far below rank 14 IN=125 and rank 15 CO=165); rank 15 CO=165 (exceeds rank 12 MO=150, rank 8 MI=220 context); rank 23 MD=115 (exceeds ranks 18-22); rank 26 IA=105 (exceeds ranks 22-25); rank 28 ID=70 (exceeds rank 27 CT=50). The list is not monotonically decreasing.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-utility-scale-solar-capacity-installed-2023",
+      "issue": "sort-inversion",
+      "detail": "Multiple monotonicity violations: rank 14 UT=2.6 GW > rank 12 CO=2.5 and rank 13 MN=2.2; rank 20 SC=1.9 > ranks 17-19 (1.9, 1.7, 1.6); rank 24 OH=1.5 > rank 22 OR=1.4 and rank 23 CT=1.1; rank 26 HI=1.9 > ranks 22-25; rank 29 AR=1.1 > rank 28 AL=0.9; rank 39 DE=0.4 > ranks 37-38 (0.3); rank 40 RI=0.6 > ranks 33-39; rank 41 ME=0.9 > ranks 28-40. List is badly unsorted.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-wind-capacity-installed-2023",
+      "issue": "sort-inversion",
+      "detail": "Extensive monotonicity violations: rank 12 OR=3.9 GW > rank 11 NY=2.3 (and > many higher-ranked states); rank 14 WA=3.4 > rank 13 IN=3.1; rank 16 NE=3.3 > rank 15 MO=1.9; rank 27 ID=0.97 > ranks 20-26 (all below); rank 31 UT=0.39 > ranks 26-30; rank 40 AZ=0.27 > ranks 26-39; rank 35 NC=0.21 > many earlier low-rank entries. Also 'tied' markers on rank 18 MI (3.0), rank 29 NH (0.19), rank 38 CT (0.01), rank 39 VA (0.01), rank 41 NV (0.15) don't match adjacent ranks with same values.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-wind-capacity-installed-2023",
+      "issue": "false-tie",
+      "detail": "Multiple '(tied)' labels are attached but there is no correctly adjacent equal-value entry: rank 29 NH=0.19 marked tied but rank 28 MD=0.19 lacks the marker (only latter has tied); rank 41 NV=0.15 marked tied but with what? Rank 26 VT=0.15 is not adjacent. Rank 38 CT=0.01 & rank 39 VA=0.01 (tied) — but rank 34 NJ=0.01 has no tied marker despite equal value.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-named-sounds-2023",
+      "issue": "false-tie",
+      "detail": "Tie handling is inconsistent: at rank 13, TX and MD both show '4 sounds' but only MD has '(tied)' suffix — the first of a tied pair should also carry the marker (or both should be plain, per standard convention). Same pattern at rank 15 (LA plain, OR/NJ tied), rank 18 (CT plain, AL/RI/MI tied), rank 22 (CA plain, DE/NH tied). Value-format-mix within same question.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-most-named-barrier-islands-2020",
+      "issue": "false-tie",
+      "detail": "Ranks 11 (AL) & 12 (LA) both show '5 barrier islands' — only LA is marked '(tied)'. First of the tied pair (AL) lacks the marker. Ranks 15 (CT) & 16 (DE) both '2 barrier islands' with no tie marker on either — but assigned sequential ranks. Ranks 17 (ME) & 18 (NH) both '1 barrier island' with no tied marker either. Inconsistent with the marked LA tie.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-longest-river-wholly-within-borders-2022",
+      "issue": "prompt-ambiguous",
+      "detail": "Prompt asks for 'longest single river that flows entirely within their own borders' but many answers reference an 'in-state segment' (e.g., OK Cimarron, VA James, IA Des Moines, MN St. Croix, AR Ouachita, NY Susquehanna, MS Pearl, MT Bighorn, CA San Joaquin, SD/ND/NM/AZ/NV/WY in-state segments, MA/CT Housatonic, NH Merrimack). These rivers cross state lines — contradicting the 'wholly within borders' prompt/disclaimer. Question definition contradicts data.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-named-canyons-2023",
+      "issue": "disclaimer-issue",
+      "detail": "Source cites 'USGS GNIS feature class Valley filtered to canyon names', but GNIS uses feature class 'Valley' as the parent class for canyons/gulches/ravines/hollows — filtering by name substring 'Canyon' inside 'Valley' is one valid approach, but the disclaimer note ('Reflects naming convention as much as underlying topography') is fine. Minor: rank 42 (VT) & 41 (NH) both '2 canyons' with no tie marker.",
+      "severity": "low"
+    }
+  ]
+}

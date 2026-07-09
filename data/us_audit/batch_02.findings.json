@@ -1,0 +1,65 @@
+{
+  "batch": 2,
+  "findings": [
+    {
+      "id": "us-states-geography-most-water-area-2010",
+      "issue": "sort-inversion",
+      "detail": "Multiple values out of descending order. Rank 17 OH (3,965) > rank 15 MD (2,633) and rank 16 IL (2,441). Rank 20 SC (1,960) > rank 18 NJ (1,304) and rank 19 PA (1,312). Rank 26 OR (2,391) far exceeds rank 25 NV (790). Rank 29 UT (2,727) exceeds ranks 25-28. Rank 37 MT (1,494), 38 ND (1,698), 39 SD (1,306) all exceed rank 24 AR (1,143). Rank 43 HI (4,509) belongs near top 12 — should be ~rank 12/13, not 43.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-longest-coastline-shoreline-including-tidal-2022",
+      "issue": "sort-inversion",
+      "detail": "Rank 17 MI (3,288) > rank 4 ME (3,478)? Close, but MI (3,288) far exceeds ranks 11-16 (HI 1,052 at rank 15, NJ 1,792 at rank 16). MI belongs ~rank 7. Rank 16 NJ (1,792) > rank 15 HI (1,052) and > rank 13 NY (1,850)? NJ 1,792 < NY 1,850 but > rank 14 MA (1,519). Rank 23 OR (1,410) > rank 22 DE (381) and preceding ranks. Rank 29 WI (820) > rank 24 NH (131) and neighbors.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-highest-peak-elevation-2024",
+      "issue": "disclaimer-issue",
+      "detail": "Disclaimer text is garbled/self-contradictory: 'All top-10 state high points are in the West except (technically) they all are'. Reads as an unfinished edit. Should be clarified (e.g., 'All top-10 state high points are in the West' or clarify the caveat).",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-highest-mean-average-elevation",
+      "issue": "sort-inversion",
+      "detail": "Rank 16 AK (1,900 ft) > rank 15 OK (1,300 ft). Rank 18 HI (3,030 ft) massively exceeds ranks 8-17 — HI should be ~rank 8-9. Rank 37 CA (2,900 ft) is a huge inversion — CA belongs in the top 12. Rank 25 WI (1,050) > rank 24 MO (800) and rank 26 KY (750). Numerous smaller inversions in ranks 20-40 (e.g., rank 27 TN 900 > rank 26 KY 750; rank 34 OH 850 > rank 33 ME 600).",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-national-parks-2024",
+      "issue": "bucket-value",
+      "detail": "Rank 13 and rank 16 both bucket states with '1 National Park' — TN, NC, OR at rank 13 but NM, NV, ND, AR, KY, OH, MI, MN, ME, VA, WV, SC, IN, MO at rank 16. All have the same count (1). Either all should be tied at rank 13 (jumping to rank 16 for next distinct value), or none should be. Also TN/NC share Great Smoky (single park spanning two states) — the 'tied w/ NC'/'tied w/ TN' annotation is inconsistent with treating each state as having 1 park independently.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-national-forest-acreage-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 21 WI (1.5M) > rank 20 GA (0.87M) and rank 18 MO (1.5M). Rank 25 WV (1.05M) > ranks 20-24. Rank 29 MS (1.2M) > ranks 20-28 except WI. Rank 38 LA (0.60M) > rank 32 OK (0.40M), rank 33 NE (0.35M), etc. Rank 39 is missing entirely (skipped from LA-38 directly to VT-40). Also rank 40 VT (0.40M) is far below its true position.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-highest-average-annual-temperature-2020",
+      "issue": "sort-inversion",
+      "detail": "Rank 16 VA (55.1) > rank 15 NM (54.3). Rank 17 KY (55.6) > rank 15/16. Rank 18 DC (55.2) > rank 19 MD (54.2). Rank 20 DE (55.3) > ranks 15-19. Rank 24 NJ (52.7) > rank 23 NV (49.9). Rank 27 IL (51.8) > rank 26 IN (51.7). Rank 31 CT (49.0) > rank 30 UT (48.6). Rank 32 RI (50.1) > rank 30/31. Rank 34 NE (48.8) > rank 33 IA (47.6). Rank 37 OR (48.4) > rank 36 NY (45.4). Rank 42 SD (45.2) > rank 41 NH (43.8). Rank 44 ID (44.4) > rank 45 VT (42.9)? Actually 44>45 is fine — but rank 47 MT (42.7) > rank 46 ME (41.0). Widespread sort issues.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-health-highest-life-expectancy-2020",
+      "issue": "sort-inversion",
+      "detail": "Rank 51 WV (72.8 yrs) is higher than rank 50 MS (71.9 yrs) — should be swapped. WV belongs at rank 50, MS at rank 51.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-health-highest-renewable-electricity-share-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 21 TX (27.9%) > rank 20 IL (18.5%) and would displace many higher ranks. Rank 33 AK (30.7%) belongs near rank 15. Rank 34 HI (24.6%) belongs near rank 19. Rank 37 MD (10.3%) > rank 36 SC (9.3%). Rank 38 UT (12.5%) > rank 37 MD (10.3%). Rank 40 AL (10.4%) > rank 39 NJ (9.0%). Rank 42 FL (5.4%) > rank 41 PA (5.1%). Rank 45 OH (4.5%) > ranks 43-44. Rank 47 KY (6.6%) and rank 48 WV (6.5%) > ranks 41-46. Rank 49 RI (17.4%) is a massive inversion — belongs in top 25. Widespread sort chaos in ranks 20-51.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-health-largest-solar-electricity-generation-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 51 DC (42 GWh) exceeds rank 46 SD (38), rank 47 WV (30), rank 48 WY (24), rank 49 ND (8), rank 50 AK (6). DC should sit around rank 46, not last.",
+      "severity": "medium"
+    }
+  ]
+}

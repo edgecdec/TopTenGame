@@ -1,0 +1,83 @@
+{
+  "batch": 9,
+  "findings": [
+    {
+      "id": "us-states-deep-dive-highest-residential-electricity-price-2024",
+      "issue": "sort-inversion",
+      "detail": "Multiple ranks out of order by cents/kWh: rank 12 MD (17.2) < rank 13 MI (18.9); rank 14 PA (17.1) < rank 13 MI (18.9); rank 15 DC (16.4) < rank 17 WI (16.6); rank 16 MN (15.3) < rank 17 WI (16.6); rank 19 IL (15.8) < rank 18 OH (15.9) OK, but rank 20 SC (14.6) < rank 21 DE (15.1); rank 22 GA (14.3) < rank 23 IN (14.9) and 24 AL (14.7); rank 25 AZ (14.5) < 23 IN; rank 26 FL (14.2) < 27 TX (14.1) OK; rank 30 TN (13.2) < rank 31 MS (13.9); rank 35 KY (12.9) < 36 WV (14.5), 37 IA (13.7), 42 KS (13.9), 43 OR (13.6); rank 44 OK (12.3) < 45 LA (12.6). Descending order broken throughout list.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-highest-residential-electricity-price-2024",
+      "issue": "false-tie",
+      "detail": "Rank 25 AZ 14.5, rank 32 CO 14.5 (tied), rank 33 NV 14.6 (tied), rank 36 WV 14.5 (tied) — CO/WV are tied with AZ at 14.5 but NV at 14.6 is not tied (higher). Rank 20 SC 14.6 also equals NV 14.6 but no tie annotation. Rank 34 NM 14.2 (tied) equals rank 26 FL 14.2 but neither should be ranked separately. Rank 38 MO 12.9 (tied) with rank 35 KY 12.9 but ranks disagree.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-zip-codes-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 12 FL (1,467) exceeds ranks 5-11 (IL 1536 down to NC 1090); FL should rank ~6 between IL and OH. Rank 19 IA (935) > rank 18 AL (873) and rank 17 MN (891); rank 20 WI (893) > AL. Ranks 22-24 (AR 718, OK 747, KS 756) ascending not descending. Rank 26 NJ 731 > rank 22 AR 718. Rank 28 WA 728 > rank 26 NJ 731 OK, but rank 27 MD 622 < WA. Rank 31 CO 624 > rank 29 SC 552 and 30 LA 587. Rank 34 NE 614 > ranks 32-33. Rank 37 ME 484 (tied) but rank 32 OR is 484 without tied. Rank 40 ND 384 > rank 39 UT 353 OK, but rank 44 VT 310 > rank 43 NH 285. Rank 48 AK 273 > ranks 45-47.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-licensed-drivers-2022",
+      "issue": "sort-inversion",
+      "detail": "Rank 22 CO 4.4M > rank 21 MN 3.5M (and > rank 20 WI 4.2M). Rank 29 CT 2.7M > rank 28 OK 2.6M. Rank 31 IA 2.3M > rank 30 UT 2.2M. Rank 33 AR 2.2M (tied) equals rank 30 UT 2.2M but ranked separately. Rank 35 KS 2.1M (tied) equals rank 32 NV 2.1M. Rank 37 NE 1.5M (tied) with rank 36 NM 1.5M OK but ranked separately from tie. Rank 42 NH 1.1M (tied) with rank 40 ME 1.1M — ties should share rank. Rank 46 DE 0.79M (tied) with rank 44 RI 0.79M but rank 45 SD 0.65M is between them — clear inversion. Rank 49 VT 0.58M > rank 47 ND 0.57M and 48 AK 0.55M.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-highest-firearm-death-rate-2022",
+      "issue": "sort-inversion",
+      "detail": "Rank 47 NJ 5.2 < rank 48 NY 5.4 — NY should rank higher. Rank 49 RI 5.1 also < NJ 5.2 but ranked lower.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-deep-dive-most-native-american-reservation-land-area-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 17 CO 0.78M (tied) equals rank 12 ID 0.78M — CO ranked far below tied value with 5 intervening lower-valued states (NV 1.16, OR 0.94, MN 0.83, CA 0.63, WI 0.45, OK 0.42, NE 0.24). Rank 22 MS 0.035M < rank 23 NC 0.057M. Rank 24 KS 0.032M > rank 25 IA 0.008M OK, but rank 26 LA 0.024M > IA 0.008M. Rank 27 MA 0.006M > rank 28 CT 0.003M OK. Rank 33 AK 0.001M (Metlakatla only) but rank 34 SC 0.001M (tied) — AK ranked before SC without justification.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-native-american-reservation-land-area-2023",
+      "issue": "disclaimer-issue",
+      "detail": "Disclaimer says 'excludes Alaska Native Corporation lands (ANCSA)' but AK's rank 33 value '0.001M acres (Metlakatla only)' inconsistently adds a per-row qualifier not applied to other states. If ANCSA exclusion is uniform, the Metlakatla note is redundant; if AK's number is materially different, it belongs in the disclaimer.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-environment-most-total-electricity-generated-2023",
+      "issue": "false-tie",
+      "detail": "Multiple equal values not marked as tied: rank 19 MO 77 TWh and rank 20 MS 77 TWh; rank 24 MN 60 TWh and rank 25 IA 60 TWh; rank 34 WY, 35 NE, 36 ND all 40 TWh; rank 37 NM and 38 NV both 37 TWh; rank 40 MT and 41 CT both 26 TWh; rank 43 ME, 44 NH, 45 ID all 12 TWh; rank 48 DE and 49 RI both 5 TWh. None annotated (tied); ranks should share values per convention used elsewhere in batch.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-environment-highest-hydropower-share-of-electricity-2023",
+      "issue": "false-tie",
+      "detail": "Many rows at same 1% value are inconsistently ranked — rank 22 MI 1%, 23 MN 1% (tied), 24 PA 1% (tied), 25 VA 1% (tied), 26 IA 1% (tied), 27 MO 1% (tied), 28 KY 1% (tied), 29 WV 1% (tied), 30 CO 1% (tied), 31 NM 1% (tied), 32 UT 1% (tied), 33 OK 1% (tied) — all should share the same rank (22) rather than being sequentially ordered. Same issue at 0% rows: rank 34 IL 0%, rank 34 IN 0% (tied) etc. use rank 34 correctly, so the 1% group is the inconsistency.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-environment-highest-natural-gas-share-of-electricity-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank ordering mostly OK, but rank 50 VT 0% and rank 50 DC 0% (tied) use same rank correctly — no true issue here. However rank 39 HI 9% and rank 40 ME 9% (tied) share value; ranks should be 39/39 not 39/40 (minor convention mismatch across the batch).",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-environment-highest-coal-share-of-electricity-generation-2023",
+      "issue": "false-tie",
+      "detail": "Rank 8 MT 45%, rank 9 NE 45% (tied) — tied entries use sequential ranks instead of shared rank (compare rank 43 group at 0% which correctly shares rank 43). Similar issue rank 23/24 AZ/AL 13% and rank 26/27/28 PA/NC/TX 11% — sequential ranks assigned to tied values.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-environment-most-superfund-npl-sites-2024",
+      "issue": "false-tie",
+      "detail": "Rank 17 NH 22, rank 18 NC 22 (tied), rank 19 SC 22 (tied), rank 20 CO 22 (tied) — sequential ranks used for tied values; convention elsewhere in question (rank 8 IL/TX both 50, rank 11 MA/IN both 36 sharing ranks correctly) is inconsistent. Similar for rank 21 MT / 22 MD both 19 sites, rank 26 OK / 27 KY / 28 NM all 14, rank 29 AL / 30 OR both 13, ranks 31/32/33 all 12, ranks 34/35 both 11, ranks 36/37 both 10, ranks 38/39 both 9, ranks 40/41 both 6, ranks 42/43/44 all 5, ranks 45/46 both 4, ranks 47/48 both 2.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-deep-dive-most-bird-species-observed-2024",
+      "issue": "false-tie",
+      "detail": "Convention within this question: rank 5 FL 540 and rank 6 AK 540 (tied) use sequential ranks; rank 8 CO, 9 OR, 10 MA all 515 (tied) — sequential ranks. Inconsistent with other questions in batch that share ranks for ties (e.g. nuclear reactors question rank 4/4, rank 6/6/6). Convention mismatch across batch.",
+      "severity": "low"
+    }
+  ]
+}

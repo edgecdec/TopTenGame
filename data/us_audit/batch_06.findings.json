@@ -1,0 +1,107 @@
+{
+  "batch": 6,
+  "findings": [
+    {
+      "id": "us-states-geography-most-severe-thunderstorm-days-per-year-2003",
+      "issue": "false-tie",
+      "detail": "Multiple equal-value pairs not marked as ties: rank 42 VT (4) and rank 43 ME (4); rank 44 NV (3) and rank 45 RI (3); rank 46 DC (2) and rank 47 OR (2); rank 48 WA (1) and rank 49 CA (1); rank 50 HI (0) and rank 51 AK (0). All should share ranks with a '(tied)' marker.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-cities-over-500-000-population-2023",
+      "issue": "false-tie",
+      "detail": "Tied groups are given sequential ranks instead of shared rank. AZ/NC/TN all at 2 cities are ranked 3/4/5 (should be 3/3/3). NY through DC all at 1 city are ranked 6-24 rather than sharing rank 6. Systemic rank inflation across the table.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-largest-city-by-population-2023",
+      "issue": "sort-inversion",
+      "detail": "Numerous entries out of monotonic order. E.g., rank 17 OR Portland 630K < rank 18 NV Las Vegas 660K; rank 29 HI Honolulu 340K < rank 30 VA Virginia Beach 452K; rank 32 UT SLC 209K < rank 33 AL Huntsville 225K; rank 36 SC Charleston 155K < rank 37 AK Anchorage 287K; rank 38 MS 145K < rank 39 ID Boise 236K < rank 40 NJ Newark 305K; rank 42 RI 190K < rank 43 SD 202K; rank 47 ME 68K < rank 48 DE 70K; rank 49 WV 48K < rank 50 WY 65K. Many populations violate descending order.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-largest-state-capital-by-population-2023",
+      "issue": "sort-inversion",
+      "detail": "Many capitals ranked below smaller ones. E.g., rank 18 MS Jackson 145K < rank 19 RI Providence 190K < rank 20 ID Boise 236K; rank 22 HI Honolulu 340K placed after Little Rock 202K; rank 24 Jefferson City 43K < rank 25 Saint Paul 300K; rank 29 Tallahassee 202K < rank 27 Sacramento 526K OK but Tallahassee should sort with the 200K cluster earlier; rank 44 Pierre 14K < rank 45 Bismarck 75K; rank 46 Augusta 19K < rank 47 Helena 33K; rank 50 Dover 39K < rank 51 Montpelier 8K OK but pattern is broken throughout.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-highest-urban-population-share-2020",
+      "issue": "sort-inversion",
+      "detail": "Descending sort broken repeatedly. Rank 22 LA 72.6% < rank 23 VA 75.5%; rank 24 MN 73.3% < rank 25 NM 74.4% < rank 26 GA 75.5%; rank 28 KS 73.6% ranked after rank 27 MI 74.2% but rank 29 IN 72.1% < rank 30 NE 73.1%; rank 39 IA 63.4% > rank 40 ID 70.6% (ID much higher urban share ranked lower).",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-highest-urban-population-share-2020",
+      "issue": "false-tie",
+      "detail": "TN, OK, and NC all listed at 66.7% urban (ranks 33/34/35) with no (tied) marker or shared rank.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-lowest-urban-population-share-2020",
+      "issue": "sort-inversion",
+      "detail": "Rank 19 ID 70.6% > rank 20 WI 70.2% (ID has higher urban share = less rural, should rank later); rank 29 VA 75.5% and rank 30 GA 75.5% not flagged as tie; rank 41 SC 68.5% listed after rank 40 ID 70.6% out of order relative to preceding.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-lowest-urban-population-share-2020",
+      "issue": "false-tie",
+      "detail": "NC (14), OK (14 tied), TN (16) all at 66.7% urban — TN not shared with the tie. VA and GA at rank 29/30 both 75.5% not flagged tied.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-tallest-building-2024",
+      "issue": "sort-inversion",
+      "detail": "Multiple large inversions. Rank 15 MO 593 ft < rank 16 MI 727 ft < rank 17 IN 811 ft; rank 18 TN 617 < rank 19 CO 714 < rank 20 WI 833 (WI should be ~top 10); rank 22 AZ 483 < rank 23 NV 735; rank 25 MD 529 < rank 26 VA 508 OK, then rank 28 NM 351 < rank 29 OR 546; rank 30 HI 418 < rank 33 MS 348 OK but rank 33 MS 348 < rank 34 IA 801 (IA should be near top); rank 41 DC 329 < rank 42 DE 395; rank 44 NH 275 < rank 45 ID 323.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-tallest-building-2024",
+      "issue": "disclaimer-issue",
+      "detail": "Rank 41 DC value labeled 'Washington Monument, non-building 555' — directly contradicts disclaimer restricting to completed buildings (CTBUH classifies the Monument as a non-building structure). Also the value shows '329 ft' rather than 555 ft; the entry is internally inconsistent.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-tallest-building-2024",
+      "issue": "value-format-mix",
+      "detail": "Rank 48 ND value string reads '241 fkt (North Dakota State Capitol, Bismarck)' — typo for 'ft'.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-most-fortune-500-hq-cities-2024",
+      "issue": "false-tie",
+      "detail": "Tied groups given sequential rank numbers instead of shared rank. Ranks 9-10 both 18 HQs (should share rank 9); ranks 12-13 both 14 HQs; ranks 17-19 all 10 HQs; ranks 20-21 both 8; ranks 25-27 all 4; ranks 28-29 both 3; ranks 30-34 all 2; ranks 35-41 all 1. Rank inflation throughout the tail.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-amtrak-stations-2024",
+      "issue": "sort-inversion",
+      "detail": "Severe ordering break in the middle. Rank 14 OH 6 stations and rank 15 GA 5 stations placed before rank 16 MT 12 stations, rank 17 OR 11, rank 18 CO/IN 10 — MT/OR/CO with 10-12 stations should rank higher than OH (6) and GA (5). OH (6 stations) also duplicates the value of rank 28 LA 6.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-largest-metropolitan-area-2023",
+      "issue": "sort-inversion",
+      "detail": "Several inversions: rank 5 DC 6.30M > rank 6 PA 6.23M OK but rank 7 GA 6.31M > DC and PA yet ranked below; rank 16 MO 2.80M < rank 17 NC 2.81M; rank 19 TN 2.10M < rank 20 IN 2.14M < rank 21 OH 2.27M < rank 22 NV 2.34M (all should ascend by rank / descend by size); rank 33 NM 0.92M < rank 34 HI 0.99M; rank 38 MS 0.58M < rank 39 NE 0.99M; rank 45 MT 0.19M and rank 46 DE 0.19M tied but not marked; rank 47 AK 0.40M ranked after 0.19M entries; rank 51 VT 0.22M ranked after WY 0.10M. Also rank 32 is skipped entirely (jumps 31 to 33).",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-cities-in-the-top-100-by-population-2023",
+      "issue": "false-tie",
+      "detail": "Rank 16 lists 21 states all at '1 city' with sequential ties but only NY marked without '(tied)'; the group should either all be rank 16 tied consistently or shown with a single shared marker. Presentation is inconsistent with earlier entries in the same file that use '(tied)'.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 4 DC 20+ colleges placed before rank 5 IL Chicago 22+ colleges — IL has more but ranks lower. Bucket-value format ('X+ colleges') also makes ordering ambiguous throughout.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+      "issue": "bucket-value",
+      "detail": "All values expressed as 'N+ colleges' (open-ended buckets), which makes true ranking non-verifiable — e.g., '10+' at rank 12 (MD Baltimore) and rank 13 (FL Miami) could differ by many actual institutions but appear equal. Disclaimer acknowledges Boston is inflated but doesn't reconcile the plus-notation ordering.",
+      "severity": "medium"
+    }
+  ]
+}

@@ -1,0 +1,3570 @@
+{
+  "batch": 13,
+  "questions": [
+    {
+      "id": "us-states-geography-most-national-wildlife-refuges-2024",
+      "title": "Most National Wildlife Refuges",
+      "prompt": "Rank US states by the number of National Wildlife Refuges (NWRs) located within the state.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Refuges that span two states are attributed to the state where the main visitor entrance is located. Wetland Management Districts (in some Midwestern states) are included alongside refuges. Includes Washington DC.",
+      "source": {
+        "name": "US Fish & Wildlife Service \u2014 National Wildlife Refuge System (per-state totals on Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/List_of_National_Wildlife_Refuges_of_the_United_States",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "16 refuges"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "39 refuges"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "22 refuges"
+        },
+        {
+          "rank": 4,
+          "code": "FL",
+          "value": "29 refuges"
+        },
+        {
+          "rank": 5,
+          "code": "MN",
+          "value": "13 refuges"
+        },
+        {
+          "rank": 6,
+          "code": "ND",
+          "value": "63 refuges"
+        },
+        {
+          "rank": 7,
+          "code": "OR",
+          "value": "20 refuges"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "23 refuges"
+        },
+        {
+          "rank": 9,
+          "code": "MT",
+          "value": "22 refuges"
+        },
+        {
+          "rank": 10,
+          "code": "NE",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 11,
+          "code": "SD",
+          "value": "13 refuges"
+        },
+        {
+          "rank": 12,
+          "code": "LA",
+          "value": "24 refuges"
+        },
+        {
+          "rank": 13,
+          "code": "NM",
+          "value": "8 refuges"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "14 refuges"
+        },
+        {
+          "rank": 16,
+          "code": "NC",
+          "value": "11 refuges"
+        },
+        {
+          "rank": 17,
+          "code": "GA",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 18,
+          "code": "SC",
+          "value": "7 refuges"
+        },
+        {
+          "rank": 19,
+          "code": "AL",
+          "value": "12 refuges"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 21,
+          "code": "MO",
+          "value": "12 refuges"
+        },
+        {
+          "rank": 22,
+          "code": "IA",
+          "value": "6 refuges"
+        },
+        {
+          "rank": 23,
+          "code": "IL",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 24,
+          "code": "AR",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 25,
+          "code": "OK",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "6 refuges"
+        },
+        {
+          "rank": 27,
+          "code": "WI",
+          "value": "8 refuges"
+        },
+        {
+          "rank": 28,
+          "code": "MI",
+          "value": "8 refuges"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "3 refuges"
+        },
+        {
+          "rank": 30,
+          "code": "OH",
+          "value": "5 refuges"
+        },
+        {
+          "rank": 31,
+          "code": "TN",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "4 refuges"
+        },
+        {
+          "rank": 33,
+          "code": "NY",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 34,
+          "code": "PA",
+          "value": "3 refuges"
+        },
+        {
+          "rank": 35,
+          "code": "NV",
+          "value": "5 refuges"
+        },
+        {
+          "rank": 36,
+          "code": "ID",
+          "value": "6 refuges"
+        },
+        {
+          "rank": 37,
+          "code": "UT",
+          "value": "3 refuges"
+        },
+        {
+          "rank": 38,
+          "code": "CO",
+          "value": "8 refuges"
+        },
+        {
+          "rank": 39,
+          "code": "WY",
+          "value": "6 refuges"
+        },
+        {
+          "rank": 40,
+          "code": "HI",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 41,
+          "code": "MA",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 42,
+          "code": "ME",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 43,
+          "code": "NJ",
+          "value": "5 refuges"
+        },
+        {
+          "rank": 44,
+          "code": "MD",
+          "value": "5 refuges"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "3 refuges"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "2 refuges"
+        },
+        {
+          "rank": 47,
+          "code": "DE",
+          "value": "2 refuges"
+        },
+        {
+          "rank": 48,
+          "code": "CT",
+          "value": "2 refuges"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "5 refuges"
+        },
+        {
+          "rank": 50,
+          "code": "WV",
+          "value": "2 refuges"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0 refuges"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-ski-areas-2024",
+      "title": "Most Ski Areas",
+      "prompt": "Rank US states by the total number of operating lift-served ski areas.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Includes all ski areas with lift-served terrain, from major destination resorts down to small local hills. Only 37 US states host any operating ski areas. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 List of ski areas and resorts in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_ski_areas_and_resorts_in_the_United_States",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "51 ski areas"
+        },
+        {
+          "rank": 2,
+          "code": "MI",
+          "value": "40 ski areas"
+        },
+        {
+          "rank": 3,
+          "code": "CO",
+          "value": "34 ski areas"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "30 ski areas"
+        },
+        {
+          "rank": 5,
+          "code": "WI",
+          "value": "29 ski areas"
+        },
+        {
+          "rank": 6,
+          "code": "PA",
+          "value": "24 ski areas"
+        },
+        {
+          "rank": 7,
+          "code": "VT",
+          "value": "24 ski areas"
+        },
+        {
+          "rank": 8,
+          "code": "MN",
+          "value": "21 ski areas"
+        },
+        {
+          "rank": 9,
+          "code": "NH",
+          "value": "21 ski areas"
+        },
+        {
+          "rank": 10,
+          "code": "WA",
+          "value": "19 ski areas"
+        },
+        {
+          "rank": 11,
+          "code": "MT",
+          "value": "16 ski areas"
+        },
+        {
+          "rank": 12,
+          "code": "UT",
+          "value": "15 ski areas"
+        },
+        {
+          "rank": 13,
+          "code": "ME",
+          "value": "14 ski areas"
+        },
+        {
+          "rank": 14,
+          "code": "OR",
+          "value": "12 ski areas"
+        },
+        {
+          "rank": 15,
+          "code": "ID",
+          "value": "18 ski areas"
+        },
+        {
+          "rank": 16,
+          "code": "MA",
+          "value": "13 ski areas"
+        },
+        {
+          "rank": 17,
+          "code": "AK",
+          "value": "11 ski areas"
+        },
+        {
+          "rank": 18,
+          "code": "WY",
+          "value": "10 ski areas"
+        },
+        {
+          "rank": 19,
+          "code": "NM",
+          "value": "9 ski areas"
+        },
+        {
+          "rank": 20,
+          "code": "IA",
+          "value": "6 ski areas"
+        },
+        {
+          "rank": 21,
+          "code": "NV",
+          "value": "5 ski areas"
+        },
+        {
+          "rank": 22,
+          "code": "OH",
+          "value": "6 ski areas"
+        },
+        {
+          "rank": 23,
+          "code": "IL",
+          "value": "4 ski areas"
+        },
+        {
+          "rank": 24,
+          "code": "IN",
+          "value": "4 ski areas"
+        },
+        {
+          "rank": 25,
+          "code": "CT",
+          "value": "5 ski areas"
+        },
+        {
+          "rank": 26,
+          "code": "WV",
+          "value": "4 ski areas"
+        },
+        {
+          "rank": 27,
+          "code": "NJ",
+          "value": "4 ski areas"
+        },
+        {
+          "rank": 28,
+          "code": "ND",
+          "value": "3 ski areas"
+        },
+        {
+          "rank": 29,
+          "code": "SD",
+          "value": "3 ski areas"
+        },
+        {
+          "rank": 30,
+          "code": "AZ",
+          "value": "3 ski areas"
+        },
+        {
+          "rank": 31,
+          "code": "NC",
+          "value": "6 ski areas"
+        },
+        {
+          "rank": 32,
+          "code": "VA",
+          "value": "4 ski areas"
+        },
+        {
+          "rank": 33,
+          "code": "RI",
+          "value": "1 ski area"
+        },
+        {
+          "rank": 34,
+          "code": "MO",
+          "value": "2 ski areas"
+        },
+        {
+          "rank": 35,
+          "code": "MD",
+          "value": "2 ski areas"
+        },
+        {
+          "rank": 36,
+          "code": "TN",
+          "value": "2 ski areas"
+        },
+        {
+          "rank": 37,
+          "code": "GA",
+          "value": "1 ski area"
+        },
+        {
+          "rank": 38,
+          "code": "AL",
+          "value": "1 ski area"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "1 ski area"
+        },
+        {
+          "rank": 40,
+          "code": "KY",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 41,
+          "code": "AR",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 42,
+          "code": "OK",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 43,
+          "code": "KS",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 44,
+          "code": "TX",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 45,
+          "code": "LA",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 47,
+          "code": "SC",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 48,
+          "code": "FL",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 49,
+          "code": "DE",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "0 ski areas"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0 ski areas"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-long-rivers-500-miles-passing-through-2024",
+      "title": "Most Long Rivers (500+ Miles) Passing Through",
+      "prompt": "Rank US states by the number of main-stem rivers longer than 500 miles that flow through the state.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 40,
+      "disclaimer": "A river is credited to every state it flows through, whether as source, mouth, or intermediate section. Only main-stem rivers 500 miles or longer are counted. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 List of longest rivers of the United States (by main stem)",
+        "url": "https://en.wikipedia.org/wiki/List_of_longest_rivers_of_the_United_States_(by_main_stem)",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "8 long rivers"
+        },
+        {
+          "rank": 2,
+          "code": "CO",
+          "value": "7 long rivers"
+        },
+        {
+          "rank": 3,
+          "code": "OK",
+          "value": "5 long rivers"
+        },
+        {
+          "rank": 3,
+          "code": "MO",
+          "value": "5 long rivers (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "AR",
+          "value": "5 long rivers (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "NM",
+          "value": "4 long rivers"
+        },
+        {
+          "rank": 6,
+          "code": "KS",
+          "value": "4 long rivers (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "WY",
+          "value": "4 long rivers (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "4 long rivers (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "ND",
+          "value": "4 long rivers (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "NE",
+          "value": "4 long rivers (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "LA",
+          "value": "4 long rivers (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "SD",
+          "value": "3 long rivers"
+        },
+        {
+          "rank": 13,
+          "code": "IA",
+          "value": "3 long rivers (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MS",
+          "value": "3 long rivers (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "TN",
+          "value": "3 long rivers (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "KY",
+          "value": "3 long rivers (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "IL",
+          "value": "3 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "MN",
+          "value": "2 long rivers"
+        },
+        {
+          "rank": 19,
+          "code": "WI",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "IN",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "OH",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "AL",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "GA",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "AZ",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "OR",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "ID",
+          "value": "2 long rivers (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "AK",
+          "value": "1 long river"
+        },
+        {
+          "rank": 28,
+          "code": "WA",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "CA",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "UT",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NV",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "WV",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "PA",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NY",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "VA",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NC",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "FL",
+          "value": "1 long river (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "MI",
+          "value": "1 long river (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-total-national-park-acreage-2024",
+      "title": "Largest Total National Park Acreage",
+      "prompt": "Rank US states by the total acreage of designated National Parks located within the state.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 30,
+      "disclaimer": "Counts only formally designated National Parks (not monuments, preserves, or historic sites). Multi-state parks have their acreage split at the state boundary. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "National Park Service \u2014 park acreage totals (via Wikipedia)",
+        "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "29,468,000 acres"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "6,050,000 acres"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "1,746,000 acres"
+        },
+        {
+          "rank": 4,
+          "code": "WA",
+          "value": "1,663,000 acres"
+        },
+        {
+          "rank": 5,
+          "code": "AZ",
+          "value": "1,515,000 acres"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "1,013,000 acres"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "887,000 acres"
+        },
+        {
+          "rank": 8,
+          "code": "UT",
+          "value": "692,000 acres"
+        },
+        {
+          "rank": 9,
+          "code": "MI",
+          "value": "571,000 acres"
+        },
+        {
+          "rank": 10,
+          "code": "WY",
+          "value": "540,000 acres"
+        },
+        {
+          "rank": 11,
+          "code": "CO",
+          "value": "456,000 acres"
+        },
+        {
+          "rank": 12,
+          "code": "HI",
+          "value": "378,000 acres"
+        },
+        {
+          "rank": 13,
+          "code": "MN",
+          "value": "218,000 acres"
+        },
+        {
+          "rank": 14,
+          "code": "TN",
+          "value": "212,000 acres"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "210,000 acres"
+        },
+        {
+          "rank": 16,
+          "code": "NM",
+          "value": "147,000 acres"
+        },
+        {
+          "rank": 17,
+          "code": "NV",
+          "value": "77,000 acres"
+        },
+        {
+          "rank": 18,
+          "code": "ND",
+          "value": "70,000 acres"
+        },
+        {
+          "rank": 19,
+          "code": "SD",
+          "value": "68,000 acres"
+        },
+        {
+          "rank": 20,
+          "code": "KY",
+          "value": "53,000 acres"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "50,000 acres"
+        },
+        {
+          "rank": 22,
+          "code": "VA",
+          "value": "49,000 acres"
+        },
+        {
+          "rank": 23,
+          "code": "ME",
+          "value": "49,000 acres (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "AR",
+          "value": "6,000 acres"
+        },
+        {
+          "rank": 25,
+          "code": "SC",
+          "value": "27,000 acres"
+        },
+        {
+          "rank": 26,
+          "code": "OH",
+          "value": "33,000 acres"
+        },
+        {
+          "rank": 27,
+          "code": "IN",
+          "value": "15,000 acres"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "80,000 acres"
+        },
+        {
+          "rank": 29,
+          "code": "MA",
+          "value": "9,000 acres"
+        },
+        {
+          "rank": 30,
+          "code": "WV",
+          "value": "73,000 acres"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-public-aquariums-2025",
+      "title": "Most Public Aquariums",
+      "prompt": "Name the US states with the largest number of public aquariums.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 44,
+      "disclaimer": "Counts standalone aquariums plus aquarium sections of zoos and science centers as listed in the source. Includes both open and recently closed facilities. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 List of aquaria in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_aquaria_in_the_United_States",
+        "asOf": "2025"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "FL",
+          "value": "20 aquariums"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "18 aquariums"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "14 aquariums"
+        },
+        {
+          "rank": 4,
+          "code": "WA",
+          "value": "10 aquariums"
+        },
+        {
+          "rank": 5,
+          "code": "NC",
+          "value": "8 aquariums"
+        },
+        {
+          "rank": 6,
+          "code": "NJ",
+          "value": "7 aquariums"
+        },
+        {
+          "rank": 7,
+          "code": "MO",
+          "value": "6 aquariums"
+        },
+        {
+          "rank": 7,
+          "code": "NY",
+          "value": "6 aquariums (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "MA",
+          "value": "5 aquariums"
+        },
+        {
+          "rank": 10,
+          "code": "LA",
+          "value": "4 aquariums"
+        },
+        {
+          "rank": 10,
+          "code": "ME",
+          "value": "4 aquariums (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "MD",
+          "value": "4 aquariums (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "MS",
+          "value": "4 aquariums (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "OR",
+          "value": "4 aquariums (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "AZ",
+          "value": "4 aquariums (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "GA",
+          "value": "3 aquariums"
+        },
+        {
+          "rank": 16,
+          "code": "IL",
+          "value": "3 aquariums (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "OH",
+          "value": "3 aquariums (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "PA",
+          "value": "3 aquariums (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "SC",
+          "value": "3 aquariums (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "3 aquariums (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "3 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "AL",
+          "value": "2 aquariums"
+        },
+        {
+          "rank": 23,
+          "code": "CT",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "HI",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "IN",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "MI",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "MN",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "NV",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "OK",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "CO",
+          "value": "2 aquariums (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "AK",
+          "value": "1 aquarium"
+        },
+        {
+          "rank": 32,
+          "code": "AR",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "DE",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "IA",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "KS",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "NE",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "NH",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "NM",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "RI",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "UT",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "WI",
+          "value": "1 aquarium (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "DC",
+          "value": "1 aquarium (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-american-viticultural-areas-2025",
+      "title": "Most American Viticultural Areas",
+      "prompt": "Name the US states with the largest number of federally recognized American Viticultural Areas (AVAs), the appellations used to label American wine by region.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 35,
+      "disclaimer": "AVAs that span state lines are counted for each state they touch, so totals sum to more than the 279 recognized AVAs. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 List of American Viticultural Areas",
+        "url": "https://en.wikipedia.org/wiki/List_of_American_Viticultural_Areas",
+        "asOf": "2025 (279 AVAs across 34 states)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "154 AVAs"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "23 AVAs"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "21 AVAs"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "11 AVAs"
+        },
+        {
+          "rank": 5,
+          "code": "VA",
+          "value": "9 AVAs"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "8 AVAs"
+        },
+        {
+          "rank": 7,
+          "code": "NC",
+          "value": "7 AVAs"
+        },
+        {
+          "rank": 8,
+          "code": "MI",
+          "value": "5 AVAs"
+        },
+        {
+          "rank": 8,
+          "code": "MO",
+          "value": "5 AVAs (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "5 AVAs (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "PA",
+          "value": "5 AVAs (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "TN",
+          "value": "4 AVAs"
+        },
+        {
+          "rank": 13,
+          "code": "AZ",
+          "value": "3 AVAs"
+        },
+        {
+          "rank": 13,
+          "code": "CO",
+          "value": "3 AVAs (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "ID",
+          "value": "3 AVAs (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "3 AVAs (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NM",
+          "value": "3 AVAs (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "CT",
+          "value": "2 AVAs"
+        },
+        {
+          "rank": 18,
+          "code": "GA",
+          "value": "2 AVAs (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "2 AVAs (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MA",
+          "value": "2 AVAs (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "NV",
+          "value": "2 AVAs (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "OK",
+          "value": "2 AVAs (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "1 AVA"
+        },
+        {
+          "rank": 24,
+          "code": "AR",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "FL",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "IN",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "IA",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "KY",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "LA",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MN",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MS",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NH",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "RI",
+          "value": "1 AVA (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "WV",
+          "value": "1 AVA (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-historic-trails-2025",
+      "title": "Most National Historic Trails",
+      "prompt": "Name the US states that are crossed by the most National Historic Trails (federally designated long-distance heritage routes such as the Oregon Trail and the Lewis and Clark Trail).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 44,
+      "disclaimer": "Counts each trail once per state it enters. National Scenic Trails (Appalachian Trail, Pacific Crest Trail, etc.) are a separate program and are not included here. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 National Historic Trail",
+        "url": "https://en.wikipedia.org/wiki/National_Historic_Trail",
+        "asOf": "2025 (21 trails)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MO",
+          "value": "7 trails"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "5 trails"
+        },
+        {
+          "rank": 2,
+          "code": "KS",
+          "value": "5 trails (tied)"
+        },
+        {
+          "rank": 2,
+          "code": "NE",
+          "value": "5 trails (tied)"
+        },
+        {
+          "rank": 2,
+          "code": "WY",
+          "value": "5 trails (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "4 trails"
+        },
+        {
+          "rank": 6,
+          "code": "ID",
+          "value": "4 trails (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "NM",
+          "value": "4 trails (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "OR",
+          "value": "4 trails (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "UT",
+          "value": "4 trails (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "VA",
+          "value": "4 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "AZ",
+          "value": "3 trails"
+        },
+        {
+          "rank": 12,
+          "code": "IA",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "MD",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "MT",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "NV",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "PA",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "TX",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "AL",
+          "value": "2 trails"
+        },
+        {
+          "rank": 20,
+          "code": "AR",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "IL",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "IN",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "KY",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "ND",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "SD",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "TN",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "WA",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "DE",
+          "value": "1 trail"
+        },
+        {
+          "rank": 30,
+          "code": "DC",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "FL",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "GA",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "LA",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MA",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MI",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MN",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MS",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NJ",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NC",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NY",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "SC",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "WV",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "WI",
+          "value": "1 trail (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-rodeos-2025",
+      "title": "Most Rodeos",
+      "prompt": "Name the US states hosting the most notable rodeos included on Wikipedia's list of rodeos.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 47,
+      "disclaimer": "Counts notable annual rodeos listed on Wikipedia; not every county-fair rodeo is included. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 List of rodeos",
+        "url": "https://en.wikipedia.org/wiki/List_of_rodeos",
+        "asOf": "2025"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "12 rodeos"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "8 rodeos"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "7 rodeos"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "7 rodeos (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "7 rodeos (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "WY",
+          "value": "7 rodeos (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "CO",
+          "value": "6 rodeos"
+        },
+        {
+          "rank": 8,
+          "code": "ID",
+          "value": "5 rodeos"
+        },
+        {
+          "rank": 8,
+          "code": "KS",
+          "value": "5 rodeos (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "OK",
+          "value": "5 rodeos (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "AZ",
+          "value": "4 rodeos"
+        },
+        {
+          "rank": 11,
+          "code": "MT",
+          "value": "4 rodeos (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NE",
+          "value": "3 rodeos"
+        },
+        {
+          "rank": 13,
+          "code": "NM",
+          "value": "3 rodeos (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NV",
+          "value": "3 rodeos (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "SD",
+          "value": "3 rodeos (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "UT",
+          "value": "3 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "AR",
+          "value": "2 rodeos"
+        },
+        {
+          "rank": 18,
+          "code": "GA",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "LA",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MS",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "NC",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "ND",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "NY",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "PA",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "TN",
+          "value": "2 rodeos (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "1 rodeo"
+        },
+        {
+          "rank": 28,
+          "code": "AK",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "HI",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "IA",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "IL",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "IN",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "KY",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "MA",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "MD",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "ME",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "MI",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "MN",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NH",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "NJ",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "OH",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "VA",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "VT",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "WI",
+          "value": "1 rodeo (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "WV",
+          "value": "1 rodeo (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-music-festivals-2025",
+      "title": "Most Music Festivals",
+      "prompt": "Name the US states hosting the largest number of notable music festivals.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 51,
+      "disclaimer": "Counts festivals listed by Wikipedia as recurring notable events, past and present. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 List of music festivals in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_music_festivals_in_the_United_States",
+        "asOf": "2025"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "26 festivals"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "22 festivals"
+        },
+        {
+          "rank": 3,
+          "code": "IL",
+          "value": "10 festivals"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "10 festivals (tied)"
+        },
+        {
+          "rank": 5,
+          "code": "MO",
+          "value": "9 festivals"
+        },
+        {
+          "rank": 5,
+          "code": "WI",
+          "value": "9 festivals (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "8 festivals"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "8 festivals (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "8 festivals (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "IA",
+          "value": "7 festivals"
+        },
+        {
+          "rank": 10,
+          "code": "LA",
+          "value": "7 festivals (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "OH",
+          "value": "7 festivals (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "6 festivals"
+        },
+        {
+          "rank": 14,
+          "code": "KS",
+          "value": "5 festivals"
+        },
+        {
+          "rank": 14,
+          "code": "MN",
+          "value": "5 festivals (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "CO",
+          "value": "5 festivals (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "MA",
+          "value": "5 festivals (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "NC",
+          "value": "5 festivals (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "5 festivals (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "5 festivals (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MI",
+          "value": "4 festivals"
+        },
+        {
+          "rank": 21,
+          "code": "NJ",
+          "value": "4 festivals (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "4 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "3 festivals"
+        },
+        {
+          "rank": 24,
+          "code": "AZ",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "IN",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "KY",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MD",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NV",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NM",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "OK",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "SC",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "UT",
+          "value": "3 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "AR",
+          "value": "2 festivals"
+        },
+        {
+          "rank": 34,
+          "code": "CT",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "HI",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "ME",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "MS",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "MT",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "NE",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "NH",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "RI",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "VT",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "WV",
+          "value": "2 festivals (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "AK",
+          "value": "1 festival"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "1 festival (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "ID",
+          "value": "1 festival (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "1 festival (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "1 festival (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "1 festival (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "DC",
+          "value": "1 festival (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-convention-centers-2025",
+      "title": "Most Convention Centers",
+      "prompt": "Name the US states with the largest number of convention and exhibition centers.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 51,
+      "disclaimer": "Counts all convention and civic exhibition venues listed on the Wikipedia page, including smaller regional facilities as well as major convention halls. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 List of convention centers in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_convention_centers_in_the_United_States",
+        "asOf": "2025"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "34 centers"
+        },
+        {
+          "rank": 2,
+          "code": "MI",
+          "value": "26 centers"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "26 centers (tied)"
+        },
+        {
+          "rank": 4,
+          "code": "FL",
+          "value": "25 centers"
+        },
+        {
+          "rank": 5,
+          "code": "LA",
+          "value": "22 centers"
+        },
+        {
+          "rank": 6,
+          "code": "AR",
+          "value": "20 centers"
+        },
+        {
+          "rank": 7,
+          "code": "NY",
+          "value": "17 centers"
+        },
+        {
+          "rank": 8,
+          "code": "AL",
+          "value": "14 centers"
+        },
+        {
+          "rank": 9,
+          "code": "NV",
+          "value": "13 centers"
+        },
+        {
+          "rank": 9,
+          "code": "PA",
+          "value": "13 centers (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "IL",
+          "value": "11 centers"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "11 centers (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "WI",
+          "value": "10 centers"
+        },
+        {
+          "rank": 14,
+          "code": "MN",
+          "value": "9 centers"
+        },
+        {
+          "rank": 14,
+          "code": "OH",
+          "value": "9 centers (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "GA",
+          "value": "8 centers"
+        },
+        {
+          "rank": 16,
+          "code": "MO",
+          "value": "8 centers (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "NC",
+          "value": "8 centers (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "8 centers (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "8 centers (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "AZ",
+          "value": "7 centers"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "7 centers (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MA",
+          "value": "7 centers (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "7 centers (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "SC",
+          "value": "7 centers (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "WA",
+          "value": "7 centers (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "IA",
+          "value": "6 centers"
+        },
+        {
+          "rank": 27,
+          "code": "KY",
+          "value": "6 centers (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "MD",
+          "value": "6 centers (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "OK",
+          "value": "6 centers (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "KS",
+          "value": "5 centers"
+        },
+        {
+          "rank": 31,
+          "code": "NJ",
+          "value": "5 centers (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "NM",
+          "value": "5 centers (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "UT",
+          "value": "5 centers (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "CT",
+          "value": "4 centers"
+        },
+        {
+          "rank": 35,
+          "code": "MS",
+          "value": "4 centers (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "4 centers (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "WV",
+          "value": "4 centers (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "3 centers"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "3 centers (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "ME",
+          "value": "3 centers (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "MT",
+          "value": "3 centers (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "NH",
+          "value": "3 centers (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "ND",
+          "value": "3 centers (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "AK",
+          "value": "2 centers"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "2 centers (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "RI",
+          "value": "2 centers (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "2 centers (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "2 centers (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "2 centers (tied)"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1 center"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-largest-state-fair-by-attendance-2019",
+      "title": "Largest State Fair by Attendance",
+      "prompt": "Name the US states whose flagship state fair drew the largest annual attendance in the source year.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 45,
+      "disclaimer": "Values reflect the single largest state fair in each state as reported on Wikipedia, not the sum of multiple regional fairs. Attendance years vary because state fairs report at different times. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 State fair (attendance table)",
+        "url": "https://en.wikipedia.org/wiki/State_fair",
+        "asOf": "2019-2023 (most recent published attendance per fair)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "2,547,289 attendance"
+        },
+        {
+          "rank": 2,
+          "code": "MN",
+          "value": "2,126,551 attendance"
+        },
+        {
+          "rank": 3,
+          "code": "MA",
+          "value": "1,629,527 attendance"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "1,329,275 attendance"
+        },
+        {
+          "rank": 5,
+          "code": "OK",
+          "value": "1,206,000 attendance"
+        },
+        {
+          "rank": 6,
+          "code": "IA",
+          "value": "1,130,260 attendance"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "1,117,323 attendance"
+        },
+        {
+          "rank": 8,
+          "code": "AZ",
+          "value": "1,102,044 attendance"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "1,028,364 attendance"
+        },
+        {
+          "rank": 10,
+          "code": "WI",
+          "value": "1,015,815 attendance"
+        },
+        {
+          "rank": 11,
+          "code": "OH",
+          "value": "921,000 attendance"
+        },
+        {
+          "rank": 12,
+          "code": "MS",
+          "value": "733,151 attendance"
+        },
+        {
+          "rank": 13,
+          "code": "IN",
+          "value": "730,000 attendance"
+        },
+        {
+          "rank": 14,
+          "code": "CA",
+          "value": "673,237 attendance"
+        },
+        {
+          "rank": 15,
+          "code": "KY",
+          "value": "609,955 attendance"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "601,073 attendance"
+        },
+        {
+          "rank": 17,
+          "code": "FL",
+          "value": "500,000 attendance"
+        },
+        {
+          "rank": 18,
+          "code": "GA",
+          "value": "482,000 attendance"
+        },
+        {
+          "rank": 19,
+          "code": "SC",
+          "value": "446,000 attendance"
+        },
+        {
+          "rank": 20,
+          "code": "NM",
+          "value": "437,000 attendance"
+        },
+        {
+          "rank": 21,
+          "code": "MI",
+          "value": "425,000 attendance"
+        },
+        {
+          "rank": 22,
+          "code": "MO",
+          "value": "349,321 attendance"
+        },
+        {
+          "rank": 23,
+          "code": "VA",
+          "value": "306,000 attendance"
+        },
+        {
+          "rank": 24,
+          "code": "NE",
+          "value": "302,000 attendance"
+        },
+        {
+          "rank": 25,
+          "code": "IL",
+          "value": "300,000 attendance"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "290,000 attendance"
+        },
+        {
+          "rank": 27,
+          "code": "OR",
+          "value": "266,000 attendance"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "260,000 attendance"
+        },
+        {
+          "rank": 29,
+          "code": "LA",
+          "value": "250,000 attendance"
+        },
+        {
+          "rank": 30,
+          "code": "UT",
+          "value": "247,000 attendance"
+        },
+        {
+          "rank": 31,
+          "code": "ID",
+          "value": "245,000 attendance"
+        },
+        {
+          "rank": 32,
+          "code": "AR",
+          "value": "436,050 attendance"
+        },
+        {
+          "rank": 33,
+          "code": "KS",
+          "value": "339,000 attendance"
+        },
+        {
+          "rank": 34,
+          "code": "CO",
+          "value": "180,000 attendance"
+        },
+        {
+          "rank": 35,
+          "code": "ND",
+          "value": "260,000 attendance (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "MD",
+          "value": "525,000 attendance"
+        },
+        {
+          "rank": 37,
+          "code": "WV",
+          "value": "170,000 attendance"
+        },
+        {
+          "rank": 38,
+          "code": "MT",
+          "value": "225,000 attendance"
+        },
+        {
+          "rank": 39,
+          "code": "SD",
+          "value": "215,000 attendance"
+        },
+        {
+          "rank": 40,
+          "code": "NV",
+          "value": "170,000 attendance (tied)"
+        },
+        {
+          "rank": 41,
+          "code": "VT",
+          "value": "125,000 attendance"
+        },
+        {
+          "rank": 42,
+          "code": "ME",
+          "value": "112,000 attendance"
+        },
+        {
+          "rank": 43,
+          "code": "WY",
+          "value": "63,000 attendance"
+        },
+        {
+          "rank": 44,
+          "code": "AK",
+          "value": "300,000 attendance (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "70,000 attendance"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-scenic-trails-2025",
+      "title": "Most National Scenic Trails",
+      "prompt": "Name the US states crossed by the largest number of National Scenic Trails (long-distance federal trail designations such as the Appalachian Trail and the Pacific Crest Trail).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 35,
+      "disclaimer": "National Historic Trails are administered separately and are not counted here. Each trail counts once per state it enters. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 National Scenic Trail",
+        "url": "https://en.wikipedia.org/wiki/National_Scenic_Trail",
+        "asOf": "2025 (11 designated trails)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "PA",
+          "value": "3 trails"
+        },
+        {
+          "rank": 1,
+          "code": "VA",
+          "value": "3 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "CT",
+          "value": "2 trails"
+        },
+        {
+          "rank": 3,
+          "code": "ID",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "MA",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "MD",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "NY",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "TN",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "VT",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "WA",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "WI",
+          "value": "2 trails (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "AL",
+          "value": "1 trail"
+        },
+        {
+          "rank": 13,
+          "code": "AZ",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "CA",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "CO",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "ME",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MI",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MN",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MS",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "ND",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NH",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NM",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NC",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "OH",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "OR",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "SC",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "SD",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "TX",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "UT",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "WV",
+          "value": "1 trail (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "WY",
+          "value": "1 trail (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-visited-single-national-park-by-state-2025",
+      "title": "Most-Visited Single National Park by State",
+      "prompt": "Name the US states whose most-visited national park drew the largest 2025 recreation visitor count (comparing each state's flagship National-Park unit).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 29,
+      "disclaimer": "Only units carrying the 'National Park' designation are considered \u2014 national monuments, seashores, historic sites, and recreation areas are excluded. Parks spanning two states are credited to each state; the value shown is that state's single busiest park. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 List of national parks of the United States (NPS 2025 visitor statistics)",
+        "url": "https://en.wikipedia.org/wiki/List_of_national_parks_of_the_United_States",
+        "asOf": "2025 recreation visits"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TN",
+          "value": "11.53M visits"
+        },
+        {
+          "rank": 2,
+          "code": "NC",
+          "value": "11.53M visits (tied)"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "4.43M visits"
+        },
+        {
+          "rank": 4,
+          "code": "CO",
+          "value": "4.17M visits"
+        },
+        {
+          "rank": 5,
+          "code": "ME",
+          "value": "4.08M visits"
+        },
+        {
+          "rank": 6,
+          "code": "WY",
+          "value": "3.80M visits"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "3.58M visits"
+        },
+        {
+          "rank": 8,
+          "code": "MT",
+          "value": "3.14M visits"
+        },
+        {
+          "rank": 9,
+          "code": "OH",
+          "value": "3.03M visits"
+        },
+        {
+          "rank": 10,
+          "code": "CA",
+          "value": "2.93M visits"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "2.63M visits"
+        },
+        {
+          "rank": 12,
+          "code": "AR",
+          "value": "2.49M visits"
+        },
+        {
+          "rank": 13,
+          "code": "MO",
+          "value": "2.21M visits"
+        },
+        {
+          "rank": 14,
+          "code": "UT",
+          "value": "1.97M visits"
+        },
+        {
+          "rank": 15,
+          "code": "WV",
+          "value": "1.96M visits"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "1.69M visits"
+        },
+        {
+          "rank": 17,
+          "code": "KY",
+          "value": "0.63M visits"
+        },
+        {
+          "rank": 18,
+          "code": "HI",
+          "value": "0.60M visits"
+        },
+        {
+          "rank": 19,
+          "code": "FL",
+          "value": "0.55M visits"
+        },
+        {
+          "rank": 20,
+          "code": "SC",
+          "value": "0.53M visits"
+        },
+        {
+          "rank": 21,
+          "code": "NM",
+          "value": "0.44M visits"
+        },
+        {
+          "rank": 22,
+          "code": "OR",
+          "value": "0.42M visits"
+        },
+        {
+          "rank": 23,
+          "code": "TX",
+          "value": "0.40M visits"
+        },
+        {
+          "rank": 24,
+          "code": "ND",
+          "value": "0.75M visits"
+        },
+        {
+          "rank": 25,
+          "code": "SD",
+          "value": "1.12M visits"
+        },
+        {
+          "rank": 26,
+          "code": "AK",
+          "value": "0.63M visits"
+        },
+        {
+          "rank": 27,
+          "code": "NV",
+          "value": "0.15M visits"
+        },
+        {
+          "rank": 28,
+          "code": "MI",
+          "value": "0.03M visits"
+        },
+        {
+          "rank": 29,
+          "code": "MN",
+          "value": "0.24M visits"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-wildlife-refuges-2025",
+      "title": "Most National Wildlife Refuges",
+      "prompt": "Name the US states hosting the largest number of National Wildlife Refuges (units of the US Fish & Wildlife Service refuge system).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 50,
+      "disclaimer": "Refuges whose boundaries cross state lines are counted in the state where the main visitor entrance is located, per the source's convention. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 List of National Wildlife Refuges of the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_National_Wildlife_Refuges_of_the_United_States",
+        "asOf": "2025 (573 refuges nationwide)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "39 refuges"
+        },
+        {
+          "rank": 2,
+          "code": "FL",
+          "value": "27 refuges"
+        },
+        {
+          "rank": 3,
+          "code": "LA",
+          "value": "24 refuges"
+        },
+        {
+          "rank": 4,
+          "code": "MN",
+          "value": "21 refuges"
+        },
+        {
+          "rank": 5,
+          "code": "AK",
+          "value": "16 refuges"
+        },
+        {
+          "rank": 6,
+          "code": "MA",
+          "value": "11 refuges"
+        },
+        {
+          "rank": 7,
+          "code": "AL",
+          "value": "10 refuges"
+        },
+        {
+          "rank": 7,
+          "code": "AR",
+          "value": "10 refuges (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "AZ",
+          "value": "10 refuges (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "ME",
+          "value": "10 refuges (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "MS",
+          "value": "10 refuges (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "GA",
+          "value": "9 refuges"
+        },
+        {
+          "rank": 12,
+          "code": "HI",
+          "value": "9 refuges (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "TX",
+          "value": "9 refuges (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "OR",
+          "value": "8 refuges"
+        },
+        {
+          "rank": 15,
+          "code": "WA",
+          "value": "8 refuges (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "MT",
+          "value": "7 refuges"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "7 refuges (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "NM",
+          "value": "7 refuges (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "NV",
+          "value": "7 refuges (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "NY",
+          "value": "7 refuges (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "OK",
+          "value": "7 refuges (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "TN",
+          "value": "7 refuges (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "SC",
+          "value": "6 refuges"
+        },
+        {
+          "rank": 24,
+          "code": "VA",
+          "value": "6 refuges (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "5 refuges"
+        },
+        {
+          "rank": 26,
+          "code": "MO",
+          "value": "5 refuges (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "ND",
+          "value": "5 refuges (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "NE",
+          "value": "5 refuges (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "SD",
+          "value": "5 refuges (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "WI",
+          "value": "5 refuges (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "IL",
+          "value": "4 refuges"
+        },
+        {
+          "rank": 32,
+          "code": "KS",
+          "value": "4 refuges (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "4 refuges (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "MI",
+          "value": "4 refuges (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "NJ",
+          "value": "4 refuges (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "OH",
+          "value": "4 refuges (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "PA",
+          "value": "4 refuges (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "CO",
+          "value": "3 refuges"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "3 refuges (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "IN",
+          "value": "3 refuges (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "MD",
+          "value": "3 refuges (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "3 refuges (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "WV",
+          "value": "3 refuges (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "WY",
+          "value": "3 refuges (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "CT",
+          "value": "2 refuges"
+        },
+        {
+          "rank": 46,
+          "code": "DE",
+          "value": "2 refuges (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "2 refuges (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "RI",
+          "value": "2 refuges (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "VT",
+          "value": "2 refuges (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-amusement-parks-2025",
+      "title": "Most Amusement Parks",
+      "prompt": "Name the US states with the largest number of amusement parks (including regional parks, kiddie parks, and family entertainment centers on Wikipedia's US amusement-park list).",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 50,
+      "disclaimer": "Wikipedia's list uses a broad definition that includes regional parks, kiddie parks, family entertainment centers, and some seasonal parks. Central Florida's parks are counted from a linked sub-list. DC not included (source omits it).",
+      "source": {
+        "name": "Wikipedia \u2014 List of amusement parks in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_amusement_parks_in_the_United_States",
+        "asOf": "2025"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "32 parks"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "22 parks"
+        },
+        {
+          "rank": 3,
+          "code": "TN",
+          "value": "19 parks"
+        },
+        {
+          "rank": 4,
+          "code": "NJ",
+          "value": "18 parks"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "15 parks"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "13 parks"
+        },
+        {
+          "rank": 7,
+          "code": "MO",
+          "value": "12 parks"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "11 parks"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "10 parks"
+        },
+        {
+          "rank": 9,
+          "code": "TX",
+          "value": "10 parks (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "CO",
+          "value": "9 parks"
+        },
+        {
+          "rank": 12,
+          "code": "MI",
+          "value": "8 parks"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "8 parks (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "8 parks (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "MA",
+          "value": "7 parks"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "7 parks (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "7 parks (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "IN",
+          "value": "6 parks"
+        },
+        {
+          "rank": 18,
+          "code": "WA",
+          "value": "6 parks (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "WI",
+          "value": "6 parks (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MN",
+          "value": "5 parks"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "5 parks (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "SC",
+          "value": "5 parks (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "4 parks"
+        },
+        {
+          "rank": 24,
+          "code": "CT",
+          "value": "4 parks (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "KY",
+          "value": "4 parks (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "LA",
+          "value": "4 parks (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MD",
+          "value": "4 parks (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "AR",
+          "value": "3 parks"
+        },
+        {
+          "rank": 29,
+          "code": "IA",
+          "value": "3 parks (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "KS",
+          "value": "3 parks (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "NH",
+          "value": "3 parks (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "OK",
+          "value": "3 parks (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "UT",
+          "value": "3 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "ID",
+          "value": "2 parks"
+        },
+        {
+          "rank": 35,
+          "code": "ME",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "MS",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "MT",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "NV",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "NM",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "RI",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "WV",
+          "value": "2 parks (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "AK",
+          "value": "1 park"
+        },
+        {
+          "rank": 44,
+          "code": "DE",
+          "value": "1 park (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "HI",
+          "value": "1 park (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "ND",
+          "value": "1 park (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "SD",
+          "value": "1 park (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "VT",
+          "value": "1 park (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "WY",
+          "value": "1 park (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-michelin-starred-restaurants-2025",
+      "title": "Most Michelin-Starred Restaurants",
+      "prompt": "Name the US states (or DC) with the most Michelin-starred restaurants in the current Michelin Guide.",
+      "subtheme": "US States - Tourism & Recreation",
+      "seededDepth": 12,
+      "disclaimer": "The Michelin Guide reviews only selected US regions \u2014 currently California, New York, Illinois, Florida, Texas, Colorado, Georgia (Atlanta), Washington DC, and the American South edition. Restaurants in states not covered by any current edition have zero stars regardless of their quality.",
+      "source": {
+        "name": "Wikipedia \u2014 Michelin Guide (US regional editions)",
+        "url": "https://en.wikipedia.org/wiki/Michelin_Guide",
+        "asOf": "2025 US editions"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "83 starred restaurants"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "71 starred restaurants"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "26 starred restaurants"
+        },
+        {
+          "rank": 4,
+          "code": "DC",
+          "value": "25 starred restaurants"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "21 starred restaurants"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "15 starred restaurants"
+        },
+        {
+          "rank": 7,
+          "code": "CO",
+          "value": "8 starred restaurants"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "6 starred restaurants"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "4 starred restaurants"
+        },
+        {
+          "rank": 10,
+          "code": "LA",
+          "value": "3 starred restaurants"
+        },
+        {
+          "rank": 11,
+          "code": "SC",
+          "value": "2 starred restaurants"
+        },
+        {
+          "rank": 12,
+          "code": "TN",
+          "value": "1 starred restaurant"
+        }
+      ]
+    }
+  ]
+}

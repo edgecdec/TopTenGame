@@ -1,0 +1,164 @@
+{
+  "cluster": "us-inverse-00",
+  "source_question": {
+    "id": "us-states-culture-most-major-pro-sports-teams-nba-nfl-mlb-nhl-2024",
+    "theme": "US States",
+    "subtheme": "US States - Culture",
+    "title": "Most Major Pro Sports Teams (NBA + NFL + MLB + NHL)",
+    "prompt": "Rank the US states by combined number of franchises across the four major pro leagues (NBA, NFL, MLB, NHL).",
+    "answerType": "US States",
+    "seededDepth": 28,
+    "source": {
+      "name": "Official league franchise directories (NBA.com, NFL.com, MLB.com, NHL.com)",
+      "url": "https://www.nba.com/teams",
+      "asOf": "2024-25 seasons"
+    },
+    "note": "Counts include only US-based franchises. California hosts LA Lakers, LA Clippers, GS Warriors, Sacramento Kings, LA Rams, LA Chargers, SF 49ers, LA Dodgers, SF Giants, LA/Anaheim Angels, Oakland A's (before Vegas move), Anaheim Ducks, LA Kings, SJ Sharks. New York includes both NY-metro NBA/NHL/NFL/MLB teams (Knicks, Nets, Rangers, Islanders, Sabres, Giants, Jets, Bills, Yankees, Mets).",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "CA",
+        "value": "14 teams"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "10 teams"
+      },
+      {
+        "rank": 3,
+        "code": "TX",
+        "value": "8 teams"
+      },
+      {
+        "rank": 3,
+        "code": "FL",
+        "value": "8 teams (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "PA",
+        "value": "6 teams"
+      },
+      {
+        "rank": 6,
+        "code": "OH",
+        "value": "5 teams"
+      },
+      {
+        "rank": 6,
+        "code": "IL",
+        "value": "5 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "MA",
+        "value": "4 teams"
+      },
+      {
+        "rank": 8,
+        "code": "MI",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "MN",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "GA",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CO",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "DC",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "AZ",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "MO",
+        "value": "4 teams (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NC",
+        "value": "3 teams"
+      },
+      {
+        "rank": 16,
+        "code": "TN",
+        "value": "3 teams (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "IN",
+        "value": "2 teams"
+      },
+      {
+        "rank": 18,
+        "code": "WI",
+        "value": "2 teams (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MD",
+        "value": "2 teams (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "NV",
+        "value": "2 teams (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "OR",
+        "value": "1 team"
+      },
+      {
+        "rank": 22,
+        "code": "UT",
+        "value": "1 team (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "OK",
+        "value": "1 team (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "LA",
+        "value": "1 team (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "KY",
+        "value": "1 team (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "WA",
+        "value": "1 team (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "NJ",
+        "value": "1 team (tied)"
+      }
+    ],
+    "disclaimer": "Counts include only US-based franchises. Includes Washington DC.",
+    "trivia": "California hosts LA Lakers, LA Clippers, GS Warriors, Sacramento Kings, LA Rams, LA Chargers, SF 49ers, LA Dodgers, SF Giants, LA/Anaheim Angels, Oakland A's (before Vegas move), Anaheim Ducks, LA Kings, SJ Sharks. New York includes both NY-metro NBA/NHL/NFL/MLB teams (Knicks, Nets, Rangers, Islanders, Sabres, Giants, Jets, Bills, Yankees, Mets).",
+    "asOfDate": "2024-25 seasons"
+  },
+  "note": "List covers 28 states; an inverse 'Fewest major pro sports teams' ranking would be interesting for the many states with zero teams."
+}

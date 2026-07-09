@@ -1,0 +1,65 @@
+{
+  "batch": 1,
+  "findings": [
+    {
+      "id": "us-states-demographics-largest-asian-population-share-2022",
+      "issue": "sort-inversion",
+      "detail": "Multiple rank/value mismatches: r15 GA=5.1% < r16 OR=5.6%; r20 NC=3.9% < r21 DE=4.9%; r24 KS=3.7% < r25 RI=3.8%; r27 OH=2.9% < r28 FL=3.2%; r33 IA=2.8% < r34 WI=3.2%; r39 AL=1.7% < r40 AR=1.9% < r41 NM=2.1%; r46 ME=1.7% < r47 VT=2.2%. Tail ordering is largely broken.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-demographics-largest-asian-population-share-2022",
+      "issue": "value-format-mix",
+      "detail": "Tie at rank 8 uses '8.1% (tied)' for VA but plain '8.1%' for MA. Inconsistent tie-suffix formatting within the same question.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-demographics-largest-asian-population-share-2022",
+      "issue": "inverse-candidate",
+      "detail": "Covers all 50 states + DC; a 'smallest Asian population share' inverse (WV, MT, WY at bottom) would be a natural companion.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-demographics-largest-black-or-african-american-population-share-2022",
+      "issue": "sort-inversion",
+      "detail": "Multiple inversions: r17 OH=12.1% < r18 MI=13.6%; r25 OK=7.3% < r26 MA=7.5% < r27 NV=9.9% (NV should sit near r22); r32 NE=4.8% < r33 CA=5.6%; r34 CO=4.2% < r35 AZ=4.9%; r37 WA=4.0% < r38 IA=4.1%; r44 UT=1.5% < r45 ND=3.4%; r41 NM=2.6% > r42 OR=2.2% OK, but r40 HI=1.8% then NM=2.6% — inversion. Tail broken.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-demographics-largest-black-or-african-american-population-share-2022",
+      "issue": "inverse-candidate",
+      "detail": "Covers 50+DC; inverse (lowest Black share — MT, ID, VT) is a natural companion.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-demographics-highest-veteran-population-share-2022",
+      "issue": "inverse-candidate",
+      "detail": "Covers 50+DC monotonically; inverse (lowest veteran share — NY, NJ, DC at bottom) would be interesting.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-economy-state-local-tax-burden-2022",
+      "issue": "sort-inversion",
+      "detail": "r47 FL=7.4% < r48 WY=7.5%. WY should rank ahead of FL under descending sort.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-economy-fortune-500-hqs-2023",
+      "issue": "false-tie",
+      "detail": "Ranks 25, 25, 27 all show value '4' (NV, KY, NE). If three entries share the same value they should all be rank 25 (tied); assigning NE to rank 27 is inconsistent with the tie logic used elsewhere in the same question.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-largest-states-by-land-area-2010",
+      "issue": "sort-inversion",
+      "detail": "r18 OK=68,595 < r19 MO=68,742 (MO should outrank OK). Bottom of list has severe disorder: r43 HI=6,423 < r44 MA=7,800 < r45 VT=9,217 > r46 NH=8,953; correct descending order is MA (7,800)? actually MA<VT<NH — the true land-area ordering NH>VT>MA>HI is inverted here. Ranks 43-46 all mis-sorted.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-largest-states-by-total-area-2010",
+      "issue": "disclaimer-issue",
+      "detail": "Disclaimer explicitly discusses Michigan's Great Lakes waters. Michigan is rank 11 in Q15 (not top-5), so this is not a hard leak; but pairing this question with Q16 ('Land Area'), where the disclaimer again spotlights Michigan, telegraphs MI's presence/absence to players who see both questions. Minor.",
+      "severity": "low"
+    }
+  ]
+}

@@ -1,0 +1,2325 @@
+{
+  "cluster": "us-fix-00",
+  "questions": [
+    {
+      "id": "us-states-culture-most-major-pro-sports-teams-nba-nfl-mlb-nhl-2024",
+      "current": {
+        "title": "Most Major Pro Sports Teams (NBA + NFL + MLB + NHL)",
+        "prompt": "Rank the US states by combined number of franchises across the four major pro leagues (NBA, NFL, MLB, NHL).",
+        "disclaimer": "Counts include only US-based franchises. Includes Washington DC.",
+        "trivia": "California hosts LA Lakers, LA Clippers, GS Warriors, Sacramento Kings, LA Rams, LA Chargers, SF 49ers, LA Dodgers, SF Giants, LA/Anaheim Angels, Oakland A's (before Vegas move), Anaheim Ducks, LA Kings, SJ Sharks. New York includes both NY-metro NBA/NHL/NFL/MLB teams (Knicks, Nets, Rangers, Islanders, Sabres, Giants, Jets, Bills, Yankees, Mets).",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "14 teams"
+          },
+          {
+            "rank": 2,
+            "code": "NY",
+            "value": "10 teams"
+          },
+          {
+            "rank": 3,
+            "code": "TX",
+            "value": "8 teams"
+          },
+          {
+            "rank": 3,
+            "code": "FL",
+            "value": "8 teams (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "PA",
+            "value": "6 teams"
+          },
+          {
+            "rank": 6,
+            "code": "OH",
+            "value": "5 teams"
+          },
+          {
+            "rank": 6,
+            "code": "IL",
+            "value": "5 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "MA",
+            "value": "4 teams"
+          },
+          {
+            "rank": 8,
+            "code": "MI",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "MN",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "GA",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "CO",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "DC",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "AZ",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "MO",
+            "value": "4 teams (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "NC",
+            "value": "3 teams"
+          },
+          {
+            "rank": 16,
+            "code": "TN",
+            "value": "3 teams (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "IN",
+            "value": "2 teams"
+          },
+          {
+            "rank": 18,
+            "code": "WI",
+            "value": "2 teams (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "MD",
+            "value": "2 teams (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "NV",
+            "value": "2 teams (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "OR",
+            "value": "1 team"
+          },
+          {
+            "rank": 22,
+            "code": "UT",
+            "value": "1 team (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "OK",
+            "value": "1 team (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "LA",
+            "value": "1 team (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "KY",
+            "value": "1 team (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "WA",
+            "value": "1 team (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "NJ",
+            "value": "1 team (tied)"
+          }
+        ],
+        "seededDepth": 28,
+        "theme": "US States",
+        "subtheme": "US States - Culture",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "WA is listed at rank 22 with '1 team' but Washington has Seahawks (NFL), Mariners (MLB), and Kraken (NHL) \u2014 at least 3 teams.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-culture-most-museums-imls-2018",
+      "current": {
+        "title": "Most Museums (IMLS)",
+        "prompt": "Rank the US states by total number of museums recorded in the Institute of Museum and Library Services Museum Data File.",
+        "disclaimer": "IMLS counts include art museums, historical societies, historic sites, arboreta, zoos, aquariums, science and children's museums. Includes Washington DC.",
+        "trivia": "California and Texas lead by scale; New York and Pennsylvania lead by density of historic sites.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "3,046 museums"
+          },
+          {
+            "rank": 2,
+            "code": "TX",
+            "value": "2,540 museums"
+          },
+          {
+            "rank": 3,
+            "code": "NY",
+            "value": "1,930 museums"
+          },
+          {
+            "rank": 4,
+            "code": "PA",
+            "value": "1,617 museums"
+          },
+          {
+            "rank": 5,
+            "code": "IL",
+            "value": "1,414 museums"
+          },
+          {
+            "rank": 6,
+            "code": "OH",
+            "value": "1,377 museums"
+          },
+          {
+            "rank": 7,
+            "code": "FL",
+            "value": "1,285 museums"
+          },
+          {
+            "rank": 8,
+            "code": "MI",
+            "value": "1,197 museums"
+          },
+          {
+            "rank": 9,
+            "code": "MA",
+            "value": "1,058 museums"
+          },
+          {
+            "rank": 10,
+            "code": "VA",
+            "value": "1,020 museums"
+          },
+          {
+            "rank": 11,
+            "code": "NC",
+            "value": "947 museums"
+          },
+          {
+            "rank": 12,
+            "code": "WI",
+            "value": "883 museums"
+          },
+          {
+            "rank": 13,
+            "code": "MN",
+            "value": "875 museums"
+          },
+          {
+            "rank": 14,
+            "code": "IN",
+            "value": "854 museums"
+          },
+          {
+            "rank": 15,
+            "code": "GA",
+            "value": "776 museums"
+          },
+          {
+            "rank": 16,
+            "code": "MO",
+            "value": "770 museums"
+          },
+          {
+            "rank": 17,
+            "code": "WA",
+            "value": "740 museums"
+          },
+          {
+            "rank": 18,
+            "code": "CO",
+            "value": "720 museums"
+          },
+          {
+            "rank": 19,
+            "code": "TN",
+            "value": "700 museums"
+          },
+          {
+            "rank": 20,
+            "code": "NJ",
+            "value": "685 museums"
+          },
+          {
+            "rank": 21,
+            "code": "MD",
+            "value": "650 museums"
+          },
+          {
+            "rank": 22,
+            "code": "IA",
+            "value": "620 museums"
+          },
+          {
+            "rank": 23,
+            "code": "AL",
+            "value": "600 museums"
+          },
+          {
+            "rank": 24,
+            "code": "KY",
+            "value": "580 museums"
+          },
+          {
+            "rank": 25,
+            "code": "OR",
+            "value": "560 museums"
+          },
+          {
+            "rank": 26,
+            "code": "AZ",
+            "value": "540 museums"
+          },
+          {
+            "rank": 27,
+            "code": "OK",
+            "value": "500 museums"
+          },
+          {
+            "rank": 28,
+            "code": "SC",
+            "value": "490 museums"
+          },
+          {
+            "rank": 29,
+            "code": "KS",
+            "value": "480 museums"
+          },
+          {
+            "rank": 30,
+            "code": "CT",
+            "value": "470 museums"
+          },
+          {
+            "rank": 31,
+            "code": "LA",
+            "value": "450 museums"
+          },
+          {
+            "rank": 32,
+            "code": "AR",
+            "value": "430 museums"
+          },
+          {
+            "rank": 33,
+            "code": "ME",
+            "value": "410 museums"
+          },
+          {
+            "rank": 34,
+            "code": "NE",
+            "value": "400 museums"
+          },
+          {
+            "rank": 35,
+            "code": "NM",
+            "value": "380 museums"
+          },
+          {
+            "rank": 36,
+            "code": "MS",
+            "value": "370 museums"
+          },
+          {
+            "rank": 37,
+            "code": "WV",
+            "value": "350 museums"
+          },
+          {
+            "rank": 38,
+            "code": "NH",
+            "value": "340 museums"
+          },
+          {
+            "rank": 39,
+            "code": "MT",
+            "value": "320 museums"
+          },
+          {
+            "rank": 40,
+            "code": "UT",
+            "value": "310 museums"
+          },
+          {
+            "rank": 41,
+            "code": "VT",
+            "value": "300 museums"
+          },
+          {
+            "rank": 42,
+            "code": "SD",
+            "value": "290 museums"
+          },
+          {
+            "rank": 43,
+            "code": "ID",
+            "value": "280 museums"
+          },
+          {
+            "rank": 44,
+            "code": "ND",
+            "value": "260 museums"
+          },
+          {
+            "rank": 45,
+            "code": "HI",
+            "value": "230 museums"
+          },
+          {
+            "rank": 46,
+            "code": "AK",
+            "value": "210 museums"
+          },
+          {
+            "rank": 47,
+            "code": "DC",
+            "value": "200 museums"
+          },
+          {
+            "rank": 48,
+            "code": "NV",
+            "value": "195 museums"
+          },
+          {
+            "rank": 49,
+            "code": "RI",
+            "value": "180 museums"
+          },
+          {
+            "rank": 50,
+            "code": "DE",
+            "value": "150 museums"
+          },
+          {
+            "rank": 51,
+            "code": "WY",
+            "value": "140 museums"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Culture",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Nearly every rank below the top 10 uses suspiciously round numbers (e.g. 700, 620, 600, 580, 560, 540, 500, 490, 480, 470, 450, 430, 410, 400) suggesting fabricated/estimated counts rather than actual IMLS MDF values.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-culture-most-nobel-laureates-by-state-of-birth-us-born-winners-2024",
+      "current": {
+        "title": "Most Nobel Laureates by State of Birth (US-born winners)",
+        "prompt": "Rank the US states by number of Nobel laureates who were born there (all Nobel categories, all-time).",
+        "disclaimer": "Counts US-born laureates only (not naturalized or foreign-born winners affiliated with US institutions). Includes Washington DC.",
+        "trivia": "New York leads by a wide margin because of high early-20th-century immigration density; California, Illinois, Massachusetts, and Pennsylvania follow.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NY",
+            "value": "~85 laureates"
+          },
+          {
+            "rank": 2,
+            "code": "CA",
+            "value": "~30 laureates"
+          },
+          {
+            "rank": 3,
+            "code": "IL",
+            "value": "~25 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "MA",
+            "value": "~22 laureates"
+          },
+          {
+            "rank": 5,
+            "code": "PA",
+            "value": "~20 laureates"
+          },
+          {
+            "rank": 6,
+            "code": "OH",
+            "value": "~15 laureates"
+          },
+          {
+            "rank": 7,
+            "code": "NJ",
+            "value": "~12 laureates"
+          },
+          {
+            "rank": 8,
+            "code": "TX",
+            "value": "~10 laureates"
+          },
+          {
+            "rank": 9,
+            "code": "MI",
+            "value": "~9 laureates"
+          },
+          {
+            "rank": 10,
+            "code": "MN",
+            "value": "~7 laureates"
+          },
+          {
+            "rank": 10,
+            "code": "IN",
+            "value": "~7 laureates (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "MO",
+            "value": "~6 laureates"
+          },
+          {
+            "rank": 12,
+            "code": "CT",
+            "value": "~6 laureates (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "WI",
+            "value": "~6 laureates (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "IA",
+            "value": "~5 laureates"
+          },
+          {
+            "rank": 16,
+            "code": "MD",
+            "value": "~4 laureates"
+          },
+          {
+            "rank": 16,
+            "code": "WA",
+            "value": "~4 laureates (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "CO",
+            "value": "~3 laureates"
+          },
+          {
+            "rank": 18,
+            "code": "NC",
+            "value": "~3 laureates (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "VA",
+            "value": "~3 laureates (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "OR",
+            "value": "~3 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "GA",
+            "value": "~2 laureates"
+          },
+          {
+            "rank": 22,
+            "code": "KS",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "NE",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "SC",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "TN",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "OK",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "KY",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "DC",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "AL",
+            "value": "~1 laureate"
+          },
+          {
+            "rank": 30,
+            "code": "AZ",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "AR",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "FL",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "LA",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "ME",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "MS",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "MT",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NH",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "NM",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "ND",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "SD",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "UT",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 30,
+            "code": "WV",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "AK",
+            "value": "0 laureates"
+          },
+          {
+            "rank": 44,
+            "code": "DE",
+            "value": "0 laureates (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "HI",
+            "value": "0 laureates (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "ID",
+            "value": "0 laureates (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "NV",
+            "value": "0 laureates (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "RI",
+            "value": "0 laureates (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "VT",
+            "value": "0 laureates (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "WY",
+            "value": "0 laureates (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Culture",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "bucket-value",
+          "detail": "Every non-zero value uses the '~N laureates' approximate/bucket format (e.g. '~85', '~30'), which prevents precise ranking verification.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-culture-most-public-library-systems-imls-2021",
+      "current": {
+        "title": "Most Public Library Systems (IMLS)",
+        "prompt": "Rank the US states by number of public library administrative entities (systems) reported to IMLS.",
+        "disclaimer": "Counts library administrative entities (systems), not branch locations. Includes Washington DC.",
+        "trivia": "New York and Illinois have unusually high system counts because of decentralized local library districts; larger states like Texas and California have fewer systems but many branches per system.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NY",
+            "value": "756 systems"
+          },
+          {
+            "rank": 2,
+            "code": "IL",
+            "value": "637 systems"
+          },
+          {
+            "rank": 3,
+            "code": "IA",
+            "value": "544 systems"
+          },
+          {
+            "rank": 3,
+            "code": "TX",
+            "value": "544 systems (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "PA",
+            "value": "451 systems"
+          },
+          {
+            "rank": 6,
+            "code": "MI",
+            "value": "397 systems"
+          },
+          {
+            "rank": 7,
+            "code": "WI",
+            "value": "381 systems"
+          },
+          {
+            "rank": 8,
+            "code": "MA",
+            "value": "369 systems"
+          },
+          {
+            "rank": 9,
+            "code": "NJ",
+            "value": "298 systems"
+          },
+          {
+            "rank": 10,
+            "code": "OH",
+            "value": "251 systems"
+          },
+          {
+            "rank": 11,
+            "code": "IN",
+            "value": "236 systems"
+          },
+          {
+            "rank": 12,
+            "code": "CA",
+            "value": "185 systems"
+          },
+          {
+            "rank": 13,
+            "code": "MO",
+            "value": "160 systems"
+          },
+          {
+            "rank": 14,
+            "code": "MN",
+            "value": "137 systems"
+          },
+          {
+            "rank": 15,
+            "code": "OK",
+            "value": "115 systems"
+          },
+          {
+            "rank": 16,
+            "code": "KS",
+            "value": "109 systems"
+          },
+          {
+            "rank": 17,
+            "code": "NE",
+            "value": "100 systems"
+          },
+          {
+            "rank": 18,
+            "code": "NC",
+            "value": "80 systems"
+          },
+          {
+            "rank": 19,
+            "code": "CT",
+            "value": "76 systems"
+          },
+          {
+            "rank": 20,
+            "code": "VT",
+            "value": "71 systems"
+          },
+          {
+            "rank": 21,
+            "code": "AL",
+            "value": "70 systems"
+          },
+          {
+            "rank": 21,
+            "code": "KY",
+            "value": "70 systems (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "CO",
+            "value": "67 systems"
+          },
+          {
+            "rank": 24,
+            "code": "WA",
+            "value": "62 systems"
+          },
+          {
+            "rank": 24,
+            "code": "SD",
+            "value": "62 systems (tied)"
+          },
+          {
+            "rank": 26,
+            "code": "ME",
+            "value": "59 systems"
+          },
+          {
+            "rank": 26,
+            "code": "MT",
+            "value": "59 systems (tied)"
+          },
+          {
+            "rank": 28,
+            "code": "ND",
+            "value": "58 systems"
+          },
+          {
+            "rank": 29,
+            "code": "NH",
+            "value": "56 systems"
+          },
+          {
+            "rank": 29,
+            "code": "GA",
+            "value": "56 systems (tied)"
+          },
+          {
+            "rank": 31,
+            "code": "TN",
+            "value": "53 systems"
+          },
+          {
+            "rank": 32,
+            "code": "AR",
+            "value": "50 systems"
+          },
+          {
+            "rank": 32,
+            "code": "MS",
+            "value": "50 systems (tied)"
+          },
+          {
+            "rank": 34,
+            "code": "OR",
+            "value": "48 systems"
+          },
+          {
+            "rank": 35,
+            "code": "LA",
+            "value": "47 systems"
+          },
+          {
+            "rank": 36,
+            "code": "AZ",
+            "value": "45 systems"
+          },
+          {
+            "rank": 37,
+            "code": "SC",
+            "value": "42 systems"
+          },
+          {
+            "rank": 38,
+            "code": "WV",
+            "value": "40 systems"
+          },
+          {
+            "rank": 39,
+            "code": "NM",
+            "value": "34 systems"
+          },
+          {
+            "rank": 39,
+            "code": "VA",
+            "value": "34 systems (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "UT",
+            "value": "31 systems"
+          },
+          {
+            "rank": 42,
+            "code": "ID",
+            "value": "30 systems"
+          },
+          {
+            "rank": 43,
+            "code": "FL",
+            "value": "27 systems"
+          },
+          {
+            "rank": 44,
+            "code": "WY",
+            "value": "24 systems"
+          },
+          {
+            "rank": 45,
+            "code": "AK",
+            "value": "22 systems"
+          },
+          {
+            "rank": 46,
+            "code": "NV",
+            "value": "20 systems"
+          },
+          {
+            "rank": 46,
+            "code": "RI",
+            "value": "20 systems (tied)"
+          },
+          {
+            "rank": 46,
+            "code": "MD",
+            "value": "20 systems (tied)"
+          },
+          {
+            "rank": 49,
+            "code": "DE",
+            "value": "10 systems"
+          },
+          {
+            "rank": 50,
+            "code": "HI",
+            "value": "1 system"
+          },
+          {
+            "rank": 50,
+            "code": "DC",
+            "value": "1 system (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Culture",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Hawaii is listed at rank 50 with '1 system' \u2014 accurate (statewide system) \u2014 but Maryland at rank 48 with '20 systems' understates Maryland's 24 public library systems per IMLS 2021 PLS; values below rank 30 look rounded/approximated rather than reported.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-highest-corn-production-2023",
+      "current": {
+        "title": "Highest Corn Production",
+        "prompt": "Rank US states by total corn (grain) production.",
+        "disclaimer": "Corn for grain only (excludes silage); measured in bushels. DC not included (topic is state-scoped).",
+        "trivia": "The Corn Belt's top two producers together grow nearly a third of all US corn.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "IA",
+            "value": "2.55B bushels"
+          },
+          {
+            "rank": 2,
+            "code": "IL",
+            "value": "2.29B bushels"
+          },
+          {
+            "rank": 3,
+            "code": "NE",
+            "value": "1.75B bushels"
+          },
+          {
+            "rank": 4,
+            "code": "MN",
+            "value": "1.51B bushels"
+          },
+          {
+            "rank": 5,
+            "code": "IN",
+            "value": "1.09B bushels"
+          },
+          {
+            "rank": 6,
+            "code": "SD",
+            "value": "0.85B bushels"
+          },
+          {
+            "rank": 7,
+            "code": "OH",
+            "value": "0.63B bushels"
+          },
+          {
+            "rank": 8,
+            "code": "KS",
+            "value": "0.62B bushels"
+          },
+          {
+            "rank": 9,
+            "code": "MO",
+            "value": "0.60B bushels"
+          },
+          {
+            "rank": 10,
+            "code": "WI",
+            "value": "0.51B bushels"
+          },
+          {
+            "rank": 11,
+            "code": "MI",
+            "value": "0.35B bushels"
+          },
+          {
+            "rank": 12,
+            "code": "ND",
+            "value": "0.34B bushels"
+          },
+          {
+            "rank": 13,
+            "code": "TX",
+            "value": "0.28B bushels"
+          },
+          {
+            "rank": 14,
+            "code": "KY",
+            "value": "0.24B bushels"
+          },
+          {
+            "rank": 15,
+            "code": "PA",
+            "value": "0.15B bushels"
+          },
+          {
+            "rank": 16,
+            "code": "TN",
+            "value": "0.13B bushels"
+          },
+          {
+            "rank": 16,
+            "code": "CO",
+            "value": "0.13B bushels (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "NC",
+            "value": "0.12B bushels"
+          },
+          {
+            "rank": 19,
+            "code": "NY",
+            "value": "0.10B bushels"
+          },
+          {
+            "rank": 20,
+            "code": "GA",
+            "value": "0.075B bushels"
+          },
+          {
+            "rank": 21,
+            "code": "MS",
+            "value": "0.068B bushels"
+          },
+          {
+            "rank": 22,
+            "code": "AR",
+            "value": "0.062B bushels"
+          },
+          {
+            "rank": 23,
+            "code": "VA",
+            "value": "0.055B bushels"
+          },
+          {
+            "rank": 24,
+            "code": "MD",
+            "value": "0.052B bushels"
+          },
+          {
+            "rank": 25,
+            "code": "OK",
+            "value": "0.050B bushels"
+          },
+          {
+            "rank": 26,
+            "code": "AL",
+            "value": "0.038B bushels"
+          },
+          {
+            "rank": 27,
+            "code": "LA",
+            "value": "0.037B bushels"
+          },
+          {
+            "rank": 28,
+            "code": "DE",
+            "value": "0.027B bushels"
+          },
+          {
+            "rank": 29,
+            "code": "SC",
+            "value": "0.026B bushels"
+          },
+          {
+            "rank": 30,
+            "code": "NJ",
+            "value": "0.017B bushels"
+          },
+          {
+            "rank": 31,
+            "code": "ID",
+            "value": "0.014B bushels"
+          },
+          {
+            "rank": 32,
+            "code": "WA",
+            "value": "0.013B bushels"
+          },
+          {
+            "rank": 33,
+            "code": "OR",
+            "value": "0.007B bushels"
+          },
+          {
+            "rank": 33,
+            "code": "MT",
+            "value": "0.007B bushels (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "FL",
+            "value": "0.006B bushels"
+          },
+          {
+            "rank": 36,
+            "code": "WV",
+            "value": "0.005B bushels"
+          }
+        ],
+        "seededDepth": 36,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "value-format-mix",
+          "detail": "Uses inconsistent decimal precision under a single 'B bushels' unit: r1-r10 shown at 2 decimals (2.55B, 0.85B), but r20+ shifts to 3 decimals (0.075B, 0.068B). Small states could be shown in millions for clarity. Precision mixing makes many rows appear tied when likely they aren't.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-highest-cost-of-living-2024",
+      "current": {
+        "title": "Highest Cost of Living",
+        "prompt": "Rank US states (and DC) by highest overall cost-of-living index.",
+        "disclaimer": "Composite index (US average = 100); combines grocery, housing, utilities, transport, health, and misc. DC not included (source omits it).",
+        "trivia": "Housing is the biggest single driver \u2014 Hawaii's housing sub-index is more than triple the national average.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "HI",
+            "value": "186.9 index"
+          },
+          {
+            "rank": 2,
+            "code": "MA",
+            "value": "146.5 index"
+          },
+          {
+            "rank": 3,
+            "code": "CA",
+            "value": "145.0 index"
+          },
+          {
+            "rank": 4,
+            "code": "NY",
+            "value": "125.9 index"
+          },
+          {
+            "rank": 5,
+            "code": "AK",
+            "value": "125.8 index"
+          },
+          {
+            "rank": 6,
+            "code": "MD",
+            "value": "116.5 index"
+          },
+          {
+            "rank": 7,
+            "code": "OR",
+            "value": "115.1 index"
+          },
+          {
+            "rank": 8,
+            "code": "CT",
+            "value": "113.1 index"
+          },
+          {
+            "rank": 9,
+            "code": "NH",
+            "value": "112.6 index"
+          },
+          {
+            "rank": 10,
+            "code": "WA",
+            "value": "111.2 index"
+          },
+          {
+            "rank": 11,
+            "code": "VT",
+            "value": "111.1 index"
+          },
+          {
+            "rank": 12,
+            "code": "RI",
+            "value": "110.7 index"
+          },
+          {
+            "rank": 13,
+            "code": "NJ",
+            "value": "110.4 index"
+          },
+          {
+            "rank": 14,
+            "code": "ME",
+            "value": "109.9 index"
+          },
+          {
+            "rank": 15,
+            "code": "AZ",
+            "value": "108.4 index"
+          },
+          {
+            "rank": 16,
+            "code": "DE",
+            "value": "104.0 index"
+          },
+          {
+            "rank": 17,
+            "code": "VA",
+            "value": "103.3 index"
+          },
+          {
+            "rank": 18,
+            "code": "PA",
+            "value": "101.3 index"
+          },
+          {
+            "rank": 19,
+            "code": "CO",
+            "value": "101.2 index"
+          },
+          {
+            "rank": 20,
+            "code": "FL",
+            "value": "100.9 index"
+          },
+          {
+            "rank": 21,
+            "code": "MN",
+            "value": "97.4 index"
+          },
+          {
+            "rank": 22,
+            "code": "ID",
+            "value": "97.2 index"
+          },
+          {
+            "rank": 23,
+            "code": "UT",
+            "value": "97.1 index"
+          },
+          {
+            "rank": 24,
+            "code": "NV",
+            "value": "96.5 index"
+          },
+          {
+            "rank": 24,
+            "code": "SC",
+            "value": "96.5 index (tied)"
+          },
+          {
+            "rank": 26,
+            "code": "NC",
+            "value": "95.7 index"
+          },
+          {
+            "rank": 27,
+            "code": "WI",
+            "value": "95.1 index"
+          },
+          {
+            "rank": 28,
+            "code": "MT",
+            "value": "94.4 index"
+          },
+          {
+            "rank": 29,
+            "code": "OH",
+            "value": "94.0 index"
+          },
+          {
+            "rank": 30,
+            "code": "TX",
+            "value": "92.7 index"
+          },
+          {
+            "rank": 31,
+            "code": "IL",
+            "value": "92.4 index"
+          },
+          {
+            "rank": 32,
+            "code": "GA",
+            "value": "91.7 index"
+          },
+          {
+            "rank": 33,
+            "code": "NM",
+            "value": "91.6 index"
+          },
+          {
+            "rank": 33,
+            "code": "WY",
+            "value": "91.6 index (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "TN",
+            "value": "90.3 index"
+          },
+          {
+            "rank": 36,
+            "code": "IN",
+            "value": "90.1 index"
+          },
+          {
+            "rank": 37,
+            "code": "SD",
+            "value": "90.0 index"
+          },
+          {
+            "rank": 38,
+            "code": "NE",
+            "value": "89.9 index"
+          },
+          {
+            "rank": 39,
+            "code": "MI",
+            "value": "89.6 index"
+          },
+          {
+            "rank": 40,
+            "code": "IA",
+            "value": "89.3 index"
+          },
+          {
+            "rank": 41,
+            "code": "MO",
+            "value": "88.6 index"
+          },
+          {
+            "rank": 42,
+            "code": "KS",
+            "value": "87.5 index"
+          },
+          {
+            "rank": 43,
+            "code": "LA",
+            "value": "87.3 index"
+          },
+          {
+            "rank": 44,
+            "code": "ND",
+            "value": "87.0 index"
+          },
+          {
+            "rank": 44,
+            "code": "KY",
+            "value": "87.0 index (tied)"
+          },
+          {
+            "rank": 46,
+            "code": "AR",
+            "value": "86.9 index"
+          },
+          {
+            "rank": 47,
+            "code": "AL",
+            "value": "86.7 index"
+          },
+          {
+            "rank": 48,
+            "code": "MS",
+            "value": "85.7 index"
+          },
+          {
+            "rank": 49,
+            "code": "OK",
+            "value": "85.3 index"
+          },
+          {
+            "rank": 50,
+            "code": "WV",
+            "value": "84.1 index"
+          }
+        ],
+        "seededDepth": 50,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Prompt says 'Rank US states (and DC)' but disclaimer says 'DC not included (source omits it)'. Contradictory. Answer list is 50 items (no DC). Prompt should be revised.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-highest-violent-crime-rate-2022",
+      "current": {
+        "title": "Highest Violent Crime Rate",
+        "prompt": "Rank US states (and DC) by highest violent crime rate per 100,000 residents.",
+        "disclaimer": "Violent crime = murder, rape, robbery, aggravated assault. Per 100,000 population. Includes Washington DC.",
+        "trivia": "DC's rate is skewed by being a single dense city; among states, three of the top five are in the Deep South.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "DC",
+            "value": "1,013 per 100K"
+          },
+          {
+            "rank": 2,
+            "code": "NM",
+            "value": "780 per 100K"
+          },
+          {
+            "rank": 3,
+            "code": "AK",
+            "value": "759 per 100K"
+          },
+          {
+            "rank": 4,
+            "code": "AR",
+            "value": "645 per 100K"
+          },
+          {
+            "rank": 5,
+            "code": "LA",
+            "value": "631 per 100K"
+          },
+          {
+            "rank": 6,
+            "code": "TN",
+            "value": "621 per 100K"
+          },
+          {
+            "rank": 7,
+            "code": "SC",
+            "value": "530 per 100K"
+          },
+          {
+            "rank": 8,
+            "code": "CA",
+            "value": "494 per 100K"
+          },
+          {
+            "rank": 9,
+            "code": "CO",
+            "value": "492 per 100K"
+          },
+          {
+            "rank": 10,
+            "code": "MO",
+            "value": "488 per 100K"
+          },
+          {
+            "rank": 11,
+            "code": "MI",
+            "value": "478 per 100K"
+          },
+          {
+            "rank": 12,
+            "code": "MD",
+            "value": "428 per 100K"
+          },
+          {
+            "rank": 13,
+            "code": "OK",
+            "value": "419 per 100K"
+          },
+          {
+            "rank": 14,
+            "code": "IL",
+            "value": "408 per 100K"
+          },
+          {
+            "rank": 15,
+            "code": "NV",
+            "value": "399 per 100K"
+          },
+          {
+            "rank": 16,
+            "code": "TX",
+            "value": "388 per 100K"
+          },
+          {
+            "rank": 17,
+            "code": "AL",
+            "value": "379 per 100K"
+          },
+          {
+            "rank": 18,
+            "code": "AZ",
+            "value": "372 per 100K"
+          },
+          {
+            "rank": 19,
+            "code": "OH",
+            "value": "365 per 100K"
+          },
+          {
+            "rank": 20,
+            "code": "IN",
+            "value": "361 per 100K"
+          },
+          {
+            "rank": 21,
+            "code": "NC",
+            "value": "358 per 100K"
+          },
+          {
+            "rank": 22,
+            "code": "KS",
+            "value": "355 per 100K"
+          },
+          {
+            "rank": 23,
+            "code": "GA",
+            "value": "347 per 100K"
+          },
+          {
+            "rank": 24,
+            "code": "PA",
+            "value": "340 per 100K"
+          },
+          {
+            "rank": 25,
+            "code": "MA",
+            "value": "329 per 100K"
+          },
+          {
+            "rank": 26,
+            "code": "MS",
+            "value": "325 per 100K"
+          },
+          {
+            "rank": 27,
+            "code": "FL",
+            "value": "317 per 100K"
+          },
+          {
+            "rank": 28,
+            "code": "NY",
+            "value": "313 per 100K"
+          },
+          {
+            "rank": 29,
+            "code": "WA",
+            "value": "308 per 100K"
+          },
+          {
+            "rank": 30,
+            "code": "MN",
+            "value": "294 per 100K"
+          },
+          {
+            "rank": 31,
+            "code": "SD",
+            "value": "292 per 100K"
+          },
+          {
+            "rank": 32,
+            "code": "MT",
+            "value": "290 per 100K"
+          },
+          {
+            "rank": 33,
+            "code": "KY",
+            "value": "280 per 100K"
+          },
+          {
+            "rank": 34,
+            "code": "OR",
+            "value": "279 per 100K"
+          },
+          {
+            "rank": 35,
+            "code": "DE",
+            "value": "272 per 100K"
+          },
+          {
+            "rank": 36,
+            "code": "NE",
+            "value": "263 per 100K"
+          },
+          {
+            "rank": 37,
+            "code": "IA",
+            "value": "260 per 100K"
+          },
+          {
+            "rank": 38,
+            "code": "WV",
+            "value": "258 per 100K"
+          },
+          {
+            "rank": 39,
+            "code": "HI",
+            "value": "250 per 100K"
+          },
+          {
+            "rank": 40,
+            "code": "WI",
+            "value": "245 per 100K"
+          },
+          {
+            "rank": 41,
+            "code": "UT",
+            "value": "237 per 100K"
+          },
+          {
+            "rank": 42,
+            "code": "ND",
+            "value": "234 per 100K"
+          },
+          {
+            "rank": 43,
+            "code": "WY",
+            "value": "225 per 100K"
+          },
+          {
+            "rank": 44,
+            "code": "NJ",
+            "value": "213 per 100K"
+          },
+          {
+            "rank": 45,
+            "code": "VA",
+            "value": "208 per 100K"
+          },
+          {
+            "rank": 46,
+            "code": "RI",
+            "value": "198 per 100K"
+          },
+          {
+            "rank": 47,
+            "code": "ID",
+            "value": "195 per 100K"
+          },
+          {
+            "rank": 48,
+            "code": "CT",
+            "value": "180 per 100K"
+          },
+          {
+            "rank": 49,
+            "code": "VT",
+            "value": "168 per 100K"
+          },
+          {
+            "rank": 50,
+            "code": "NH",
+            "value": "141 per 100K"
+          },
+          {
+            "rank": 51,
+            "code": "ME",
+            "value": "108 per 100K"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Disclaimer says 'FBI UCR / Crime Data Explorer, 2022' but multiple state values here differ from FBI-published 2022 figures. Furthermore, FBI's 2022 data had well-known state participation issues (transition to NIBRS meant many agencies did not report). Should note that caveat, or the ranking may reflect coverage gaps rather than crime.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-largest-federal-workforce-per-capita-2023",
+      "current": {
+        "title": "Largest Federal Workforce per Capita",
+        "prompt": "Rank US states (and DC) by federal civilian employees per 10,000 residents.",
+        "disclaimer": "Federal civilian executive-branch employees per 10,000 residents; excludes military and postal service. Includes Washington DC.",
+        "trivia": "DC's rate is more than seven times the national average; Maryland and Virginia benefit from Beltway agency HQs.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "DC",
+            "value": "2,540 per 10K"
+          },
+          {
+            "rank": 2,
+            "code": "MD",
+            "value": "252 per 10K"
+          },
+          {
+            "rank": 3,
+            "code": "VA",
+            "value": "197 per 10K"
+          },
+          {
+            "rank": 4,
+            "code": "AK",
+            "value": "179 per 10K"
+          },
+          {
+            "rank": 5,
+            "code": "HI",
+            "value": "155 per 10K"
+          },
+          {
+            "rank": 6,
+            "code": "NM",
+            "value": "138 per 10K"
+          },
+          {
+            "rank": 7,
+            "code": "OK",
+            "value": "120 per 10K"
+          },
+          {
+            "rank": 8,
+            "code": "WV",
+            "value": "97 per 10K"
+          },
+          {
+            "rank": 9,
+            "code": "WY",
+            "value": "93 per 10K"
+          },
+          {
+            "rank": 10,
+            "code": "MT",
+            "value": "87 per 10K"
+          },
+          {
+            "rank": 11,
+            "code": "ND",
+            "value": "83 per 10K"
+          },
+          {
+            "rank": 12,
+            "code": "ID",
+            "value": "72 per 10K"
+          },
+          {
+            "rank": 13,
+            "code": "SD",
+            "value": "70 per 10K"
+          },
+          {
+            "rank": 14,
+            "code": "AL",
+            "value": "68 per 10K"
+          },
+          {
+            "rank": 15,
+            "code": "UT",
+            "value": "66 per 10K"
+          },
+          {
+            "rank": 16,
+            "code": "MS",
+            "value": "64 per 10K"
+          },
+          {
+            "rank": 17,
+            "code": "AZ",
+            "value": "62 per 10K"
+          },
+          {
+            "rank": 18,
+            "code": "CO",
+            "value": "60 per 10K"
+          },
+          {
+            "rank": 19,
+            "code": "GA",
+            "value": "58 per 10K"
+          },
+          {
+            "rank": 20,
+            "code": "KS",
+            "value": "56 per 10K"
+          },
+          {
+            "rank": 21,
+            "code": "NE",
+            "value": "54 per 10K"
+          },
+          {
+            "rank": 22,
+            "code": "AR",
+            "value": "52 per 10K"
+          },
+          {
+            "rank": 23,
+            "code": "SC",
+            "value": "50 per 10K"
+          },
+          {
+            "rank": 24,
+            "code": "LA",
+            "value": "49 per 10K"
+          },
+          {
+            "rank": 25,
+            "code": "TX",
+            "value": "47 per 10K"
+          },
+          {
+            "rank": 26,
+            "code": "KY",
+            "value": "46 per 10K"
+          },
+          {
+            "rank": 27,
+            "code": "MO",
+            "value": "45 per 10K"
+          },
+          {
+            "rank": 28,
+            "code": "TN",
+            "value": "44 per 10K"
+          },
+          {
+            "rank": 29,
+            "code": "NV",
+            "value": "43 per 10K"
+          },
+          {
+            "rank": 30,
+            "code": "ME",
+            "value": "42 per 10K"
+          },
+          {
+            "rank": 31,
+            "code": "FL",
+            "value": "41 per 10K"
+          },
+          {
+            "rank": 32,
+            "code": "NC",
+            "value": "40 per 10K"
+          },
+          {
+            "rank": 33,
+            "code": "PA",
+            "value": "39 per 10K"
+          },
+          {
+            "rank": 34,
+            "code": "WA",
+            "value": "38 per 10K"
+          },
+          {
+            "rank": 35,
+            "code": "OH",
+            "value": "37 per 10K"
+          },
+          {
+            "rank": 36,
+            "code": "OR",
+            "value": "36 per 10K"
+          },
+          {
+            "rank": 37,
+            "code": "VT",
+            "value": "35 per 10K"
+          },
+          {
+            "rank": 38,
+            "code": "DE",
+            "value": "34 per 10K"
+          },
+          {
+            "rank": 39,
+            "code": "NH",
+            "value": "33 per 10K"
+          },
+          {
+            "rank": 40,
+            "code": "IN",
+            "value": "32 per 10K"
+          },
+          {
+            "rank": 41,
+            "code": "IL",
+            "value": "31 per 10K"
+          },
+          {
+            "rank": 42,
+            "code": "RI",
+            "value": "30 per 10K"
+          },
+          {
+            "rank": 43,
+            "code": "IA",
+            "value": "29 per 10K"
+          },
+          {
+            "rank": 44,
+            "code": "MI",
+            "value": "28 per 10K"
+          },
+          {
+            "rank": 45,
+            "code": "CA",
+            "value": "27 per 10K"
+          },
+          {
+            "rank": 46,
+            "code": "NY",
+            "value": "26 per 10K"
+          },
+          {
+            "rank": 47,
+            "code": "CT",
+            "value": "25 per 10K"
+          },
+          {
+            "rank": 48,
+            "code": "MA",
+            "value": "24 per 10K"
+          },
+          {
+            "rank": 49,
+            "code": "MN",
+            "value": "23 per 10K"
+          },
+          {
+            "rank": 50,
+            "code": "WI",
+            "value": "22 per 10K"
+          },
+          {
+            "rank": 51,
+            "code": "NJ",
+            "value": "21 per 10K"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "bucket-value",
+          "detail": "Values decrease by exactly 1 for ranks 15-51 (66, 64, 62, 60, 58, 56, 54, 52, 50, 49, 47, 46, 45, 44, 43, 42, 41 ... 21). This monotonic decrement pattern strongly suggests the values are synthesized/interpolated rather than pulled from FedScope. Real per-10K rates would not step down by 1 uniformly across ~40 states.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-largest-wine-production-2022",
+      "current": {
+        "title": "Largest Wine Production",
+        "prompt": "Rank US states by total wine production (excluding California, which alone produces over 80% of US wine).",
+        "disclaimer": "California is deliberately excluded to make the ranking competitive; measured in gallons produced. Includes Washington DC.",
+        "trivia": "New York, Washington, and Oregon together account for over 90% of non-California US wine.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "WA",
+            "value": "35.0M gallons"
+          },
+          {
+            "rank": 2,
+            "code": "NY",
+            "value": "24.0M gallons"
+          },
+          {
+            "rank": 3,
+            "code": "OR",
+            "value": "9.6M gallons"
+          },
+          {
+            "rank": 4,
+            "code": "PA",
+            "value": "2.4M gallons"
+          },
+          {
+            "rank": 5,
+            "code": "OH",
+            "value": "1.6M gallons"
+          },
+          {
+            "rank": 6,
+            "code": "TX",
+            "value": "1.5M gallons"
+          },
+          {
+            "rank": 7,
+            "code": "MI",
+            "value": "1.3M gallons"
+          },
+          {
+            "rank": 8,
+            "code": "VA",
+            "value": "1.2M gallons"
+          },
+          {
+            "rank": 9,
+            "code": "NC",
+            "value": "1.1M gallons"
+          },
+          {
+            "rank": 10,
+            "code": "MO",
+            "value": "1.0M gallons"
+          },
+          {
+            "rank": 11,
+            "code": "NJ",
+            "value": "0.6M gallons"
+          },
+          {
+            "rank": 12,
+            "code": "FL",
+            "value": "0.5M gallons"
+          },
+          {
+            "rank": 13,
+            "code": "GA",
+            "value": "0.45M gallons"
+          },
+          {
+            "rank": 14,
+            "code": "IL",
+            "value": "0.42M gallons"
+          },
+          {
+            "rank": 15,
+            "code": "IN",
+            "value": "0.40M gallons"
+          },
+          {
+            "rank": 16,
+            "code": "WI",
+            "value": "0.38M gallons"
+          },
+          {
+            "rank": 17,
+            "code": "MA",
+            "value": "0.35M gallons"
+          },
+          {
+            "rank": 18,
+            "code": "CT",
+            "value": "0.32M gallons"
+          },
+          {
+            "rank": 19,
+            "code": "MN",
+            "value": "0.30M gallons"
+          },
+          {
+            "rank": 20,
+            "code": "TN",
+            "value": "0.28M gallons"
+          },
+          {
+            "rank": 21,
+            "code": "AZ",
+            "value": "0.26M gallons"
+          },
+          {
+            "rank": 22,
+            "code": "CO",
+            "value": "0.24M gallons"
+          },
+          {
+            "rank": 23,
+            "code": "MD",
+            "value": "0.22M gallons"
+          },
+          {
+            "rank": 24,
+            "code": "NM",
+            "value": "0.20M gallons"
+          },
+          {
+            "rank": 25,
+            "code": "IA",
+            "value": "0.18M gallons"
+          },
+          {
+            "rank": 26,
+            "code": "KY",
+            "value": "0.16M gallons"
+          },
+          {
+            "rank": 27,
+            "code": "SC",
+            "value": "0.14M gallons"
+          },
+          {
+            "rank": 28,
+            "code": "NH",
+            "value": "0.12M gallons"
+          },
+          {
+            "rank": 29,
+            "code": "ID",
+            "value": "0.11M gallons"
+          },
+          {
+            "rank": 30,
+            "code": "OK",
+            "value": "0.10M gallons"
+          },
+          {
+            "rank": 31,
+            "code": "AR",
+            "value": "0.09M gallons"
+          },
+          {
+            "rank": 32,
+            "code": "AL",
+            "value": "0.08M gallons"
+          },
+          {
+            "rank": 33,
+            "code": "ME",
+            "value": "0.07M gallons"
+          },
+          {
+            "rank": 34,
+            "code": "VT",
+            "value": "0.06M gallons"
+          },
+          {
+            "rank": 35,
+            "code": "NE",
+            "value": "0.05M gallons"
+          },
+          {
+            "rank": 35,
+            "code": "KS",
+            "value": "0.05M gallons (tied)"
+          },
+          {
+            "rank": 37,
+            "code": "LA",
+            "value": "0.04M gallons"
+          },
+          {
+            "rank": 37,
+            "code": "RI",
+            "value": "0.04M gallons (tied)"
+          },
+          {
+            "rank": 39,
+            "code": "MS",
+            "value": "0.03M gallons"
+          },
+          {
+            "rank": 39,
+            "code": "UT",
+            "value": "0.03M gallons (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "MT",
+            "value": "0.02M gallons"
+          },
+          {
+            "rank": 41,
+            "code": "NV",
+            "value": "0.02M gallons (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "SD",
+            "value": "0.02M gallons (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "HI",
+            "value": "0.01M gallons"
+          },
+          {
+            "rank": 44,
+            "code": "WV",
+            "value": "0.01M gallons (tied)"
+          },
+          {
+            "rank": 44,
+            "code": "DE",
+            "value": "0.01M gallons (tied)"
+          },
+          {
+            "rank": 47,
+            "code": "ND",
+            "value": "0.005M gallons"
+          },
+          {
+            "rank": 48,
+            "code": "WY",
+            "value": "0.004M gallons"
+          },
+          {
+            "rank": 49,
+            "code": "AK",
+            "value": "0.003M gallons"
+          },
+          {
+            "rank": 50,
+            "code": "DC",
+            "value": "0.001M gallons"
+          }
+        ],
+        "seededDepth": 50,
+        "theme": "US States",
+        "subtheme": "US States - Deep Dive",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "prompt-ambiguous",
+          "detail": "Prompt says 'excluding California' but disclaimer says 'Includes Washington DC'. DC has no commercial wine production of scale; the '0.001M gallons' figure at r50 for DC is not credible from Wine Institute. Also excluding CA leaves 50 items but the source (Wine Institute) does report CA \u2014 the exclusion is editorial, worth calling out in prompt more clearly.",
+          "severity": "low"
+        }
+      ]
+    }
+  ]
+}

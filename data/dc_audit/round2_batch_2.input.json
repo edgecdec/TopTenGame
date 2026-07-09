@@ -1,0 +1,145 @@
+{
+  "batch": 2,
+  "questions": [
+    {
+      "id": "us-states-geography-most-days-above-90-f-per-year-2020",
+      "title": "Most Days Above 90\u00b0F Per Year",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Statewide averages derived from NOAA reporting stations. Desert Southwest and Gulf Coast dominate; Alaska and Hawaii have essentially zero.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-days-below-32-f-per-year-2020",
+      "title": "Most Days Below 32\u00b0F Per Year",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Statewide averages from NOAA station normals. Elevation and latitude drive rankings \u2014 some interior western states outrank their eastern peers of similar latitude.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-lightning-strikes-per-square-mile-2015",
+      "title": "Most Lightning Strikes Per Square Mile",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Flash density = cloud-to-ground lightning strikes per square mile per year, averaged across the state. Vaisala NLDN is the standard reference dataset used by NOAA/NWS.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-severe-thunderstorm-days-per-year-2003",
+      "title": "Most Severe Thunderstorm Days Per Year",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "A 'severe thunderstorm day' is any calendar day with at least one qualifying severe report in the state (hail >= 1 in, wind >= 58 mph, or tornado). Definition per NOAA SPC.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-cities-over-100-000-population-2023",
+      "title": "Most Cities Over 100,000 Population",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts only cities that are legally incorporated municipalities; CDPs (census-designated places) and unincorporated communities are excluded.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-cities-over-500-000-population-2023",
+      "title": "Most Cities Over 500,000 Population",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Uses incorporated city (not metro area) population.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-largest-city-by-population-2023",
+      "title": "Largest City by Population",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Uses each state's largest incorporated city (not metro area).",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-largest-state-capital-by-population-2023",
+      "title": "Largest State Capital by Population",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Ranks each state by the population of its designated capital city, not its largest city.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-highest-urban-population-share-2020",
+      "title": "Highest Urban Population Share",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Uses the Census Bureau's 2020 definition of urban areas (\u22655,000 people or \u22652,000 housing units in a contiguous developed area).",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-lowest-urban-population-share-2020",
+      "title": "Lowest Urban Population Share",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Rank 1 = the MOST rural state. Uses the Census 2020 urban-area definition.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-tallest-building-2024",
+      "title": "Tallest Building",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Uses architectural height (top of spire/roof) per CTBUH, not antenna height. Only completed buildings \u2014 under-construction towers excluded.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-fortune-500-hq-cities-2024",
+      "title": "Most Fortune 500 HQ Cities",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts total F500 HQs in the state, not the number of distinct cities that host one.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-amtrak-stations-2024",
+      "title": "Most Amtrak Stations",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts all active Amtrak-served stations, including thruway bus-only connections at some stops.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-largest-metropolitan-area-2023",
+      "title": "Largest Metropolitan Area",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Uses the Census-defined MSA (not CSA / combined). MSAs that cross state lines are credited to the state containing the principal city.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-cities-in-the-top-100-by-population-2023",
+      "title": "Most Cities in the Top 100 by Population",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Only incorporated cities are counted; CDPs excluded. Ties broken alphabetically for consecutive ranks.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+      "title": "Most Colleges in a Single City",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts Title IV degree-granting institutions in a single principal city (not the whole metro). Boston's total is inflated by many small specialty and religious institutions.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-longest-ocean-coastline-2023",
+      "title": "Longest Ocean Coastline",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Uses NOAA's 'general coastline' figures (straight-line, excludes bays and river tidal reaches). Great Lakes shorelines excluded \u2014 this ranks ocean/tidal coastline only.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-bordering-canada-2024",
+      "title": "States Bordering Canada",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Includes states with a shared land or river border with Canada, ordered by length of shared border in miles. States whose only Canadian boundary is a Great Lake shoreline are excluded.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-bordering-mexico-2024",
+      "title": "States Bordering Mexico",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Only 4 states share a land border with Mexico. Ordered by length of shared border.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-largest-landlocked-states-2010",
+      "title": "Largest Landlocked States",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "'Landlocked' here means no ocean coast and no Great Lakes shoreline. States along the Mississippi or other inland rivers still qualify.",
+      "has_dc": true
+    }
+  ]
+}

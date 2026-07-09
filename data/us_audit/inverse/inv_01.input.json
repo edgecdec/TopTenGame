@@ -1,0 +1,279 @@
+{
+  "cluster": "us-inverse-01",
+  "source_question": {
+    "id": "us-states-demographics-largest-asian-population-share-2022",
+    "theme": "US States",
+    "subtheme": "US States - Demographics",
+    "title": "Largest Asian Population Share",
+    "prompt": "Which US states have the largest Asian population share (alone or in combination)?",
+    "answerType": "US States",
+    "seededDepth": 51,
+    "source": {
+      "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B02010)",
+      "url": "https://data.census.gov/table?q=B02010",
+      "asOf": "2022"
+    },
+    "note": "Asian alone or in combination with one or more other races.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "HI",
+        "value": "56.5%"
+      },
+      {
+        "rank": 2,
+        "code": "CA",
+        "value": "17.1%"
+      },
+      {
+        "rank": 3,
+        "code": "WA",
+        "value": "11.4%"
+      },
+      {
+        "rank": 4,
+        "code": "NJ",
+        "value": "11.0%"
+      },
+      {
+        "rank": 5,
+        "code": "NV",
+        "value": "10.9%"
+      },
+      {
+        "rank": 6,
+        "code": "NY",
+        "value": "10.3%"
+      },
+      {
+        "rank": 7,
+        "code": "AK",
+        "value": "8.6%"
+      },
+      {
+        "rank": 8,
+        "code": "MA",
+        "value": "8.1%"
+      },
+      {
+        "rank": 8,
+        "code": "VA",
+        "value": "8.1% (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "MD",
+        "value": "7.8%"
+      },
+      {
+        "rank": 11,
+        "code": "IL",
+        "value": "6.8%"
+      },
+      {
+        "rank": 12,
+        "code": "TX",
+        "value": "6.0%"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "5.9%"
+      },
+      {
+        "rank": 14,
+        "code": "OR",
+        "value": "5.6%"
+      },
+      {
+        "rank": 15,
+        "code": "CT",
+        "value": "5.5%"
+      },
+      {
+        "rank": 16,
+        "code": "GA",
+        "value": "5.1%"
+      },
+      {
+        "rank": 17,
+        "code": "DC",
+        "value": "5.0%"
+      },
+      {
+        "rank": 18,
+        "code": "DE",
+        "value": "4.9%"
+      },
+      {
+        "rank": 19,
+        "code": "AZ",
+        "value": "4.4%"
+      },
+      {
+        "rank": 19,
+        "code": "PA",
+        "value": "4.4% (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "CO",
+        "value": "4.0%"
+      },
+      {
+        "rank": 22,
+        "code": "NC",
+        "value": "3.9%"
+      },
+      {
+        "rank": 23,
+        "code": "RI",
+        "value": "3.8%"
+      },
+      {
+        "rank": 24,
+        "code": "MI",
+        "value": "3.7%"
+      },
+      {
+        "rank": 24,
+        "code": "KS",
+        "value": "3.7% (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "NH",
+        "value": "3.5%"
+      },
+      {
+        "rank": 27,
+        "code": "FL",
+        "value": "3.2%"
+      },
+      {
+        "rank": 27,
+        "code": "WI",
+        "value": "3.2% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "OH",
+        "value": "2.9%"
+      },
+      {
+        "rank": 29,
+        "code": "UT",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "OK",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "NE",
+        "value": "2.8%"
+      },
+      {
+        "rank": 33,
+        "code": "IA",
+        "value": "2.8% (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "MO",
+        "value": "2.5%"
+      },
+      {
+        "rank": 36,
+        "code": "TN",
+        "value": "2.2%"
+      },
+      {
+        "rank": 36,
+        "code": "VT",
+        "value": "2.2% (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "SC",
+        "value": "2.1%"
+      },
+      {
+        "rank": 38,
+        "code": "NM",
+        "value": "2.1% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "LA",
+        "value": "2.0%"
+      },
+      {
+        "rank": 40,
+        "code": "ND",
+        "value": "2.0% (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "SD",
+        "value": "2.0% (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "AR",
+        "value": "1.9%"
+      },
+      {
+        "rank": 43,
+        "code": "KY",
+        "value": "1.9% (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "ID",
+        "value": "1.9% (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "AL",
+        "value": "1.7%"
+      },
+      {
+        "rank": 46,
+        "code": "ME",
+        "value": "1.7% (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "MS",
+        "value": "1.4%"
+      },
+      {
+        "rank": 48,
+        "code": "WY",
+        "value": "1.4% (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "MT",
+        "value": "1.3%"
+      },
+      {
+        "rank": 51,
+        "code": "WV",
+        "value": "0.9%"
+      }
+    ],
+    "disclaimer": "Asian alone or in combination with one or more other races. Includes Washington DC.",
+    "trivia": null,
+    "asOfDate": "2022"
+  },
+  "note": "Covers all 50 states + DC; a 'smallest Asian population share' inverse (WV, MT, WY at bottom) would be a natural companion."
+}

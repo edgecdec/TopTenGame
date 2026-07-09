@@ -1,0 +1,51 @@
+[
+  {
+    "id": "us-states-culture-most-major-pro-sports-teams-nba-nfl-mlb-nhl-2024",
+    "issue": "inverse-candidate",
+    "detail": "List covers 28 states; an inverse 'Fewest major pro sports teams' ranking would be interesting for the many states with zero teams.",
+    "severity": "low",
+    "_batch": "batch_00.findings.json"
+  },
+  {
+    "id": "us-states-demographics-largest-asian-population-share-2022",
+    "issue": "inverse-candidate",
+    "detail": "Covers all 50 states + DC; a 'smallest Asian population share' inverse (WV, MT, WY at bottom) would be a natural companion.",
+    "severity": "low",
+    "_batch": "batch_01.findings.json"
+  },
+  {
+    "id": "us-states-demographics-largest-black-or-african-american-population-share-2022",
+    "issue": "inverse-candidate",
+    "detail": "Covers 50+DC; inverse (lowest Black share \u2014 MT, ID, VT) is a natural companion.",
+    "severity": "low",
+    "_batch": "batch_01.findings.json"
+  },
+  {
+    "id": "us-states-demographics-highest-veteran-population-share-2022",
+    "issue": "inverse-candidate",
+    "detail": "Covers 50+DC monotonically; inverse (lowest veteran share \u2014 NY, NJ, DC at bottom) would be interesting.",
+    "severity": "low",
+    "_batch": "batch_01.findings.json"
+  },
+  {
+    "id": "us-states-deep-dive-largest-wine-production-2022",
+    "issue": "inverse-candidate",
+    "detail": "Prompt is 'Largest wine production excluding California' \u2014 a competitive-friendly framing. Inverse phrasing 'Smallest wine production' would work well from the same data (DC 0.001M, AK 0.003M, WY 0.004M).",
+    "severity": "low",
+    "_batch": "batch_04.findings.json"
+  },
+  {
+    "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+    "issue": "inverse-candidate",
+    "detail": "This question is the direct inverse of 'Wettest States (Most Annual Precipitation)'. Two lists over the same 51 jurisdictions with the same statewide-normal source produce essentially the same ranking reversed \u2014 one adds little independent play value beyond the other.",
+    "severity": "low",
+    "_batch": "batch_05.findings.json"
+  },
+  {
+    "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+    "issue": "inverse-candidate",
+    "detail": "Direct inverse of 'Most Sunshine Hours Per Year' \u2014 same 51 jurisdictions, same NOAA Comparative Climatic Data source, same 30-year normals. Ranking is essentially the reverse of the sunshine list and provides limited independent play value.",
+    "severity": "low",
+    "_batch": "batch_05.findings.json"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "batch": 10,
+  "findings": [
+    {
+      "id": "us-states-environment-most-wind-turbines-2024",
+      "issue": "false-tie",
+      "detail": "Multiple tied groups use sequential ranks instead of shared ranks. WA/WY both 900 turbines are ranked 16/17 (should be 16/16). MO/PA/MI all 800 turbines are ranked 18/19/20 (should share rank 18). WV/ME both 400 are 24/25. NC/ID/UT all 200 are 27/28/29. VT/NJ/MA/NH all 100 are 30/31/32/33. DE/RI both 5 are 39/40. Note: ranks 12/12 and 14/14 are handled correctly, so tie-handling is inconsistent within the same question.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-environment-most-electric-vehicle-registrations-2023",
+      "issue": "sort-inversion",
+      "detail": "Rank 14 PA=70,154 EVs but rank 15 NC=70,164 EVs. NC has MORE registrations than PA yet is ranked lower. Either the values or the ranks are wrong.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-environment-most-electric-vehicle-registrations-2023",
+      "issue": "prompt-ambiguous",
+      "detail": "Prompt says 'plug-in electric vehicles (BEVs)' — 'plug-in' typically includes PHEVs while BEV means battery-electric only. Disclaimer says 'excludes plug-in hybrids in some tallies', which further hedges. Should specify BEV-only or plug-in (BEV+PHEV) consistently.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-environment-most-federally-listed-endangered-species-2024",
+      "issue": "false-tie",
+      "detail": "Multiple tied groups use sequential ranks instead of shared ranks. OR/NM both 50 species are ranked 13/14 (should be 13/13). CT/MT both 10 are 39/40. NH/DE both 6 are 44/45. ME/VT both 5 are 46/47. RI/ND both 4 are 48/49. All should share ranks.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-environment-most-toxic-release-inventory-pounds-2022",
+      "issue": "false-tie",
+      "detail": "Tied groups use sequential ranks instead of shared. GA/AZ/MS all 130M lbs are 11/12/13 (should share rank 11). NC/AL both 110M are 14/15 (should share 14).",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-environment-most-battery-storage-capacity-2024",
+      "issue": "false-tie",
+      "detail": "DE/SD both 2 MW are ranked 47/48 (should share 47). ND/WY/DC all 1 MW are 49/50/51 (should share 49). Note: NY/HI at 350 MW correctly share rank 8, so tie-handling is inconsistent within the question.",
+      "severity": "high"
+    }
+  ]
+}

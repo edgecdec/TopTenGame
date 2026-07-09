@@ -1,0 +1,3045 @@
+{
+  "batch": 10,
+  "questions": [
+    {
+      "id": "us-states-environment-most-wind-turbines-2024",
+      "title": "Most Wind Turbines",
+      "prompt": "Name the US states with the most utility-scale wind turbines installed.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 40,
+      "disclaimer": "Counts operating utility-scale (>=100 kW) turbines only; excludes small distributed and residential turbines. DC not included (source omits it).",
+      "source": {
+        "name": "USGS \u2014 US Wind Turbine Database",
+        "url": "https://eerscmap.usgs.gov/uswtdb/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "18,500 turbines"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "7,500 turbines"
+        },
+        {
+          "rank": 3,
+          "code": "IA",
+          "value": "6,300 turbines"
+        },
+        {
+          "rank": 4,
+          "code": "OK",
+          "value": "5,500 turbines"
+        },
+        {
+          "rank": 5,
+          "code": "KS",
+          "value": "4,100 turbines"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "3,700 turbines"
+        },
+        {
+          "rank": 7,
+          "code": "MN",
+          "value": "2,600 turbines"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "2,300 turbines"
+        },
+        {
+          "rank": 9,
+          "code": "ND",
+          "value": "2,000 turbines"
+        },
+        {
+          "rank": 10,
+          "code": "NM",
+          "value": "1,700 turbines"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "1,400 turbines"
+        },
+        {
+          "rank": 12,
+          "code": "OR",
+          "value": "1,300 turbines"
+        },
+        {
+          "rank": 12,
+          "code": "NE",
+          "value": "1,300 turbines (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "1,000 turbines"
+        },
+        {
+          "rank": 14,
+          "code": "SD",
+          "value": "1,000 turbines (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "WA",
+          "value": "900 turbines"
+        },
+        {
+          "rank": 17,
+          "code": "WY",
+          "value": "900 turbines (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "800 turbines"
+        },
+        {
+          "rank": 19,
+          "code": "PA",
+          "value": "800 turbines (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "MI",
+          "value": "800 turbines (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "600 turbines"
+        },
+        {
+          "rank": 22,
+          "code": "MT",
+          "value": "500 turbines"
+        },
+        {
+          "rank": 23,
+          "code": "WI",
+          "value": "500 turbines (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "WV",
+          "value": "400 turbines"
+        },
+        {
+          "rank": 25,
+          "code": "ME",
+          "value": "400 turbines (tied)"
+        },
+        {
+          "rank": 26,
+          "code": "MD",
+          "value": "300 turbines"
+        },
+        {
+          "rank": 27,
+          "code": "NC",
+          "value": "200 turbines"
+        },
+        {
+          "rank": 28,
+          "code": "ID",
+          "value": "200 turbines (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "UT",
+          "value": "200 turbines (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "VT",
+          "value": "100 turbines"
+        },
+        {
+          "rank": 31,
+          "code": "NJ",
+          "value": "100 turbines (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "MA",
+          "value": "100 turbines (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "NH",
+          "value": "100 turbines (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "AK",
+          "value": "80 turbines"
+        },
+        {
+          "rank": 35,
+          "code": "HI",
+          "value": "70 turbines"
+        },
+        {
+          "rank": 36,
+          "code": "CT",
+          "value": "40 turbines"
+        },
+        {
+          "rank": 37,
+          "code": "TN",
+          "value": "20 turbines"
+        },
+        {
+          "rank": 38,
+          "code": "NV",
+          "value": "10 turbines"
+        },
+        {
+          "rank": 39,
+          "code": "DE",
+          "value": "5 turbines"
+        },
+        {
+          "rank": 40,
+          "code": "RI",
+          "value": "5 turbines (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-electric-vehicle-registrations-2023",
+      "title": "Most Electric Vehicle Registrations",
+      "prompt": "Name the US states with the most registered plug-in electric vehicles (BEVs).",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Counts light-duty battery-electric vehicles registered in the state; excludes plug-in hybrids in some tallies. Includes Washington DC.",
+      "source": {
+        "name": "US DOE Alternative Fuels Data Center \u2014 EV Registrations by State",
+        "url": "https://afdc.energy.gov/vehicle-registration",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "1,256,646 EVs"
+        },
+        {
+          "rank": 2,
+          "code": "FL",
+          "value": "254,878 EVs"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "230,125 EVs"
+        },
+        {
+          "rank": 4,
+          "code": "WA",
+          "value": "152,101 EVs"
+        },
+        {
+          "rank": 5,
+          "code": "NJ",
+          "value": "134,753 EVs"
+        },
+        {
+          "rank": 6,
+          "code": "NY",
+          "value": "131,250 EVs"
+        },
+        {
+          "rank": 7,
+          "code": "IL",
+          "value": "99,573 EVs"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "90,986 EVs"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "89,798 EVs"
+        },
+        {
+          "rank": 10,
+          "code": "VA",
+          "value": "84,936 EVs"
+        },
+        {
+          "rank": 11,
+          "code": "GA",
+          "value": "82,065 EVs"
+        },
+        {
+          "rank": 12,
+          "code": "MA",
+          "value": "73,514 EVs"
+        },
+        {
+          "rank": 13,
+          "code": "MD",
+          "value": "72,139 EVs"
+        },
+        {
+          "rank": 14,
+          "code": "PA",
+          "value": "70,154 EVs"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "70,164 EVs"
+        },
+        {
+          "rank": 16,
+          "code": "OR",
+          "value": "68,500 EVs"
+        },
+        {
+          "rank": 17,
+          "code": "OH",
+          "value": "50,393 EVs"
+        },
+        {
+          "rank": 18,
+          "code": "MI",
+          "value": "49,861 EVs"
+        },
+        {
+          "rank": 19,
+          "code": "CT",
+          "value": "36,472 EVs"
+        },
+        {
+          "rank": 20,
+          "code": "MN",
+          "value": "34,538 EVs"
+        },
+        {
+          "rank": 21,
+          "code": "UT",
+          "value": "32,325 EVs"
+        },
+        {
+          "rank": 22,
+          "code": "NV",
+          "value": "31,558 EVs"
+        },
+        {
+          "rank": 23,
+          "code": "TN",
+          "value": "31,072 EVs"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "26,861 EVs"
+        },
+        {
+          "rank": 25,
+          "code": "IN",
+          "value": "23,555 EVs"
+        },
+        {
+          "rank": 26,
+          "code": "WI",
+          "value": "22,412 EVs"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "20,873 EVs"
+        },
+        {
+          "rank": 28,
+          "code": "HI",
+          "value": "20,822 EVs"
+        },
+        {
+          "rank": 29,
+          "code": "OK",
+          "value": "17,662 EVs"
+        },
+        {
+          "rank": 30,
+          "code": "AL",
+          "value": "15,076 EVs"
+        },
+        {
+          "rank": 31,
+          "code": "KY",
+          "value": "12,437 EVs"
+        },
+        {
+          "rank": 32,
+          "code": "NM",
+          "value": "11,977 EVs"
+        },
+        {
+          "rank": 33,
+          "code": "KS",
+          "value": "11,271 EVs"
+        },
+        {
+          "rank": 34,
+          "code": "IA",
+          "value": "10,433 EVs"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "9,613 EVs"
+        },
+        {
+          "rank": 36,
+          "code": "LA",
+          "value": "9,077 EVs"
+        },
+        {
+          "rank": 37,
+          "code": "NH",
+          "value": "8,393 EVs"
+        },
+        {
+          "rank": 38,
+          "code": "DC",
+          "value": "8,150 EVs"
+        },
+        {
+          "rank": 39,
+          "code": "RI",
+          "value": "6,396 EVs"
+        },
+        {
+          "rank": 40,
+          "code": "ID",
+          "value": "5,809 EVs"
+        },
+        {
+          "rank": 41,
+          "code": "DE",
+          "value": "5,563 EVs"
+        },
+        {
+          "rank": 42,
+          "code": "ME",
+          "value": "5,353 EVs"
+        },
+        {
+          "rank": 43,
+          "code": "NE",
+          "value": "4,835 EVs"
+        },
+        {
+          "rank": 44,
+          "code": "MT",
+          "value": "3,861 EVs"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "3,730 EVs"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "3,590 EVs"
+        },
+        {
+          "rank": 47,
+          "code": "AK",
+          "value": "3,246 EVs"
+        },
+        {
+          "rank": 48,
+          "code": "WV",
+          "value": "2,758 EVs"
+        },
+        {
+          "rank": 49,
+          "code": "SD",
+          "value": "1,675 EVs"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "1,502 EVs"
+        },
+        {
+          "rank": 51,
+          "code": "ND",
+          "value": "1,105 EVs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-high-hazard-potential-dams-2023",
+      "title": "Most High-Hazard Potential Dams",
+      "prompt": "Name the US states with the most dams classified as high-hazard-potential by the National Inventory of Dams.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "'High-hazard-potential' means failure would likely cause loss of life; it is not a measure of a dam's current condition. Includes Washington DC.",
+      "source": {
+        "name": "USACE \u2014 National Inventory of Dams",
+        "url": "https://nid.sec.usace.army.mil/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "1,700 dams"
+        },
+        {
+          "rank": 2,
+          "code": "NC",
+          "value": "1,520 dams"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "830 dams"
+        },
+        {
+          "rank": 4,
+          "code": "MO",
+          "value": "710 dams"
+        },
+        {
+          "rank": 5,
+          "code": "GA",
+          "value": "560 dams"
+        },
+        {
+          "rank": 6,
+          "code": "OH",
+          "value": "510 dams"
+        },
+        {
+          "rank": 7,
+          "code": "SC",
+          "value": "440 dams"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "410 dams"
+        },
+        {
+          "rank": 8,
+          "code": "CA",
+          "value": "410 dams (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "KY",
+          "value": "370 dams"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "350 dams"
+        },
+        {
+          "rank": 12,
+          "code": "MS",
+          "value": "270 dams"
+        },
+        {
+          "rank": 13,
+          "code": "TN",
+          "value": "260 dams"
+        },
+        {
+          "rank": 14,
+          "code": "NJ",
+          "value": "230 dams"
+        },
+        {
+          "rank": 15,
+          "code": "AZ",
+          "value": "220 dams"
+        },
+        {
+          "rank": 16,
+          "code": "OK",
+          "value": "210 dams"
+        },
+        {
+          "rank": 17,
+          "code": "MA",
+          "value": "200 dams"
+        },
+        {
+          "rank": 18,
+          "code": "IN",
+          "value": "195 dams"
+        },
+        {
+          "rank": 19,
+          "code": "AL",
+          "value": "185 dams"
+        },
+        {
+          "rank": 20,
+          "code": "WV",
+          "value": "175 dams"
+        },
+        {
+          "rank": 21,
+          "code": "IL",
+          "value": "165 dams"
+        },
+        {
+          "rank": 22,
+          "code": "WA",
+          "value": "155 dams"
+        },
+        {
+          "rank": 23,
+          "code": "OR",
+          "value": "145 dams"
+        },
+        {
+          "rank": 24,
+          "code": "AR",
+          "value": "140 dams"
+        },
+        {
+          "rank": 25,
+          "code": "MI",
+          "value": "130 dams"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "120 dams"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "115 dams"
+        },
+        {
+          "rank": 28,
+          "code": "WI",
+          "value": "110 dams"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "100 dams"
+        },
+        {
+          "rank": 30,
+          "code": "NY",
+          "value": "95 dams"
+        },
+        {
+          "rank": 31,
+          "code": "MD",
+          "value": "85 dams"
+        },
+        {
+          "rank": 32,
+          "code": "MT",
+          "value": "80 dams"
+        },
+        {
+          "rank": 33,
+          "code": "NM",
+          "value": "75 dams"
+        },
+        {
+          "rank": 34,
+          "code": "MN",
+          "value": "70 dams"
+        },
+        {
+          "rank": 35,
+          "code": "UT",
+          "value": "65 dams"
+        },
+        {
+          "rank": 36,
+          "code": "NE",
+          "value": "60 dams"
+        },
+        {
+          "rank": 37,
+          "code": "FL",
+          "value": "55 dams"
+        },
+        {
+          "rank": 38,
+          "code": "ID",
+          "value": "50 dams"
+        },
+        {
+          "rank": 39,
+          "code": "SD",
+          "value": "45 dams"
+        },
+        {
+          "rank": 40,
+          "code": "NH",
+          "value": "40 dams"
+        },
+        {
+          "rank": 41,
+          "code": "LA",
+          "value": "35 dams"
+        },
+        {
+          "rank": 42,
+          "code": "ME",
+          "value": "30 dams"
+        },
+        {
+          "rank": 43,
+          "code": "WY",
+          "value": "25 dams"
+        },
+        {
+          "rank": 44,
+          "code": "VT",
+          "value": "22 dams"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "20 dams"
+        },
+        {
+          "rank": 46,
+          "code": "HI",
+          "value": "18 dams"
+        },
+        {
+          "rank": 47,
+          "code": "NV",
+          "value": "15 dams"
+        },
+        {
+          "rank": 48,
+          "code": "RI",
+          "value": "12 dams"
+        },
+        {
+          "rank": 49,
+          "code": "DE",
+          "value": "10 dams"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "5 dams"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1 dam"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-federally-listed-endangered-species-2024",
+      "title": "Most Federally Listed Endangered Species",
+      "prompt": "Name the US states with the most federally listed endangered species under the Endangered Species Act.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Counts species federally listed as endangered whose current range includes the state; a species can be counted in multiple states. Includes Washington DC.",
+      "source": {
+        "name": "US Fish & Wildlife Service \u2014 ECOS Species by State",
+        "url": "https://ecos.fws.gov/ecp/report/species-by-current-range-county",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "HI",
+          "value": "500 species"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "300 species"
+        },
+        {
+          "rank": 3,
+          "code": "AL",
+          "value": "140 species"
+        },
+        {
+          "rank": 4,
+          "code": "FL",
+          "value": "125 species"
+        },
+        {
+          "rank": 5,
+          "code": "TN",
+          "value": "110 species"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "100 species"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "80 species"
+        },
+        {
+          "rank": 8,
+          "code": "VA",
+          "value": "75 species"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "70 species"
+        },
+        {
+          "rank": 10,
+          "code": "AZ",
+          "value": "65 species"
+        },
+        {
+          "rank": 11,
+          "code": "KY",
+          "value": "60 species"
+        },
+        {
+          "rank": 12,
+          "code": "MS",
+          "value": "55 species"
+        },
+        {
+          "rank": 13,
+          "code": "OR",
+          "value": "50 species"
+        },
+        {
+          "rank": 14,
+          "code": "NM",
+          "value": "50 species (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "LA",
+          "value": "45 species"
+        },
+        {
+          "rank": 16,
+          "code": "AR",
+          "value": "42 species"
+        },
+        {
+          "rank": 17,
+          "code": "OK",
+          "value": "40 species"
+        },
+        {
+          "rank": 18,
+          "code": "WA",
+          "value": "38 species"
+        },
+        {
+          "rank": 19,
+          "code": "MO",
+          "value": "36 species"
+        },
+        {
+          "rank": 20,
+          "code": "SC",
+          "value": "34 species"
+        },
+        {
+          "rank": 21,
+          "code": "NV",
+          "value": "32 species"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "30 species"
+        },
+        {
+          "rank": 23,
+          "code": "UT",
+          "value": "28 species"
+        },
+        {
+          "rank": 24,
+          "code": "PA",
+          "value": "26 species"
+        },
+        {
+          "rank": 25,
+          "code": "OH",
+          "value": "24 species"
+        },
+        {
+          "rank": 26,
+          "code": "IL",
+          "value": "23 species"
+        },
+        {
+          "rank": 27,
+          "code": "MD",
+          "value": "22 species"
+        },
+        {
+          "rank": 28,
+          "code": "IN",
+          "value": "21 species"
+        },
+        {
+          "rank": 29,
+          "code": "NY",
+          "value": "20 species"
+        },
+        {
+          "rank": 30,
+          "code": "WV",
+          "value": "19 species"
+        },
+        {
+          "rank": 31,
+          "code": "MI",
+          "value": "18 species"
+        },
+        {
+          "rank": 32,
+          "code": "MA",
+          "value": "17 species"
+        },
+        {
+          "rank": 33,
+          "code": "WI",
+          "value": "16 species"
+        },
+        {
+          "rank": 34,
+          "code": "ID",
+          "value": "15 species"
+        },
+        {
+          "rank": 35,
+          "code": "IA",
+          "value": "14 species"
+        },
+        {
+          "rank": 36,
+          "code": "NJ",
+          "value": "13 species"
+        },
+        {
+          "rank": 37,
+          "code": "KS",
+          "value": "12 species"
+        },
+        {
+          "rank": 38,
+          "code": "MN",
+          "value": "11 species"
+        },
+        {
+          "rank": 39,
+          "code": "CT",
+          "value": "10 species"
+        },
+        {
+          "rank": 40,
+          "code": "MT",
+          "value": "10 species (tied)"
+        },
+        {
+          "rank": 41,
+          "code": "NE",
+          "value": "9 species"
+        },
+        {
+          "rank": 42,
+          "code": "WY",
+          "value": "8 species"
+        },
+        {
+          "rank": 43,
+          "code": "SD",
+          "value": "7 species"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "6 species"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "6 species (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "ME",
+          "value": "5 species"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "5 species (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "RI",
+          "value": "4 species"
+        },
+        {
+          "rank": 49,
+          "code": "ND",
+          "value": "4 species (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "3 species"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "2 species"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-toxic-release-inventory-pounds-2022",
+      "title": "Most Toxic Release Inventory Pounds",
+      "prompt": "Name the US states with the most total on-site and off-site toxic chemical releases reported to the EPA Toxics Release Inventory.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "TRI-reported releases include air, water, land, and off-site transfers; a small number of large mining sites can dominate a state's total. Includes Washington DC.",
+      "source": {
+        "name": "US EPA \u2014 Toxics Release Inventory (TRI) National Analysis",
+        "url": "https://www.epa.gov/trinationalanalysis",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "715M lbs"
+        },
+        {
+          "rank": 2,
+          "code": "NV",
+          "value": "420M lbs"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "350M lbs"
+        },
+        {
+          "rank": 4,
+          "code": "IN",
+          "value": "330M lbs"
+        },
+        {
+          "rank": 5,
+          "code": "UT",
+          "value": "300M lbs"
+        },
+        {
+          "rank": 6,
+          "code": "OH",
+          "value": "230M lbs"
+        },
+        {
+          "rank": 7,
+          "code": "LA",
+          "value": "220M lbs"
+        },
+        {
+          "rank": 8,
+          "code": "MO",
+          "value": "200M lbs"
+        },
+        {
+          "rank": 9,
+          "code": "IL",
+          "value": "150M lbs"
+        },
+        {
+          "rank": 10,
+          "code": "PA",
+          "value": "140M lbs"
+        },
+        {
+          "rank": 11,
+          "code": "GA",
+          "value": "130M lbs"
+        },
+        {
+          "rank": 12,
+          "code": "AZ",
+          "value": "130M lbs (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MS",
+          "value": "130M lbs (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "NC",
+          "value": "110M lbs"
+        },
+        {
+          "rank": 15,
+          "code": "AL",
+          "value": "110M lbs (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "100M lbs"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "95M lbs"
+        },
+        {
+          "rank": 18,
+          "code": "KY",
+          "value": "90M lbs"
+        },
+        {
+          "rank": 19,
+          "code": "OK",
+          "value": "85M lbs"
+        },
+        {
+          "rank": 20,
+          "code": "SC",
+          "value": "80M lbs"
+        },
+        {
+          "rank": 21,
+          "code": "WV",
+          "value": "75M lbs"
+        },
+        {
+          "rank": 22,
+          "code": "AR",
+          "value": "70M lbs"
+        },
+        {
+          "rank": 23,
+          "code": "FL",
+          "value": "65M lbs"
+        },
+        {
+          "rank": 24,
+          "code": "WI",
+          "value": "60M lbs"
+        },
+        {
+          "rank": 25,
+          "code": "MN",
+          "value": "55M lbs"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "50M lbs"
+        },
+        {
+          "rank": 27,
+          "code": "VA",
+          "value": "48M lbs"
+        },
+        {
+          "rank": 28,
+          "code": "KS",
+          "value": "45M lbs"
+        },
+        {
+          "rank": 29,
+          "code": "NE",
+          "value": "42M lbs"
+        },
+        {
+          "rank": 30,
+          "code": "WA",
+          "value": "40M lbs"
+        },
+        {
+          "rank": 31,
+          "code": "CA",
+          "value": "38M lbs"
+        },
+        {
+          "rank": 32,
+          "code": "NY",
+          "value": "35M lbs"
+        },
+        {
+          "rank": 33,
+          "code": "NM",
+          "value": "32M lbs"
+        },
+        {
+          "rank": 34,
+          "code": "CO",
+          "value": "30M lbs"
+        },
+        {
+          "rank": 35,
+          "code": "OR",
+          "value": "25M lbs"
+        },
+        {
+          "rank": 36,
+          "code": "NJ",
+          "value": "22M lbs"
+        },
+        {
+          "rank": 37,
+          "code": "MT",
+          "value": "20M lbs"
+        },
+        {
+          "rank": 38,
+          "code": "ID",
+          "value": "18M lbs"
+        },
+        {
+          "rank": 39,
+          "code": "MD",
+          "value": "15M lbs"
+        },
+        {
+          "rank": 40,
+          "code": "WY",
+          "value": "13M lbs"
+        },
+        {
+          "rank": 41,
+          "code": "MA",
+          "value": "10M lbs"
+        },
+        {
+          "rank": 42,
+          "code": "ND",
+          "value": "9M lbs"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "8M lbs"
+        },
+        {
+          "rank": 44,
+          "code": "SD",
+          "value": "6M lbs"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "5M lbs"
+        },
+        {
+          "rank": 46,
+          "code": "CT",
+          "value": "4M lbs"
+        },
+        {
+          "rank": 47,
+          "code": "HI",
+          "value": "3M lbs"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "2M lbs"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "1M lbs"
+        },
+        {
+          "rank": 50,
+          "code": "VT",
+          "value": "0.5M lbs"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0.1M lbs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-battery-storage-capacity-2024",
+      "title": "Most Battery Storage Capacity",
+      "prompt": "Name the US states with the largest utility-scale battery storage power capacity installed.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Utility-scale (>=1 MW) battery storage nameplate power capacity, measured in megawatts (MW); excludes behind-the-meter residential and commercial batteries. Includes Washington DC.",
+      "source": {
+        "name": "US Energy Information Administration \u2014 Preliminary Monthly Electric Generator Inventory",
+        "url": "https://www.eia.gov/electricity/data/eia860m/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "13,500 MW"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "6,500 MW"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "1,600 MW"
+        },
+        {
+          "rank": 4,
+          "code": "NV",
+          "value": "1,200 MW"
+        },
+        {
+          "rank": 5,
+          "code": "MA",
+          "value": "500 MW"
+        },
+        {
+          "rank": 6,
+          "code": "FL",
+          "value": "450 MW"
+        },
+        {
+          "rank": 7,
+          "code": "NM",
+          "value": "400 MW"
+        },
+        {
+          "rank": 8,
+          "code": "NY",
+          "value": "350 MW"
+        },
+        {
+          "rank": 8,
+          "code": "HI",
+          "value": "350 MW (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "GA",
+          "value": "300 MW"
+        },
+        {
+          "rank": 11,
+          "code": "OR",
+          "value": "250 MW"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "200 MW"
+        },
+        {
+          "rank": 13,
+          "code": "ID",
+          "value": "180 MW"
+        },
+        {
+          "rank": 14,
+          "code": "IL",
+          "value": "150 MW"
+        },
+        {
+          "rank": 15,
+          "code": "IN",
+          "value": "130 MW"
+        },
+        {
+          "rank": 16,
+          "code": "NJ",
+          "value": "120 MW"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "110 MW"
+        },
+        {
+          "rank": 18,
+          "code": "CO",
+          "value": "100 MW"
+        },
+        {
+          "rank": 19,
+          "code": "NC",
+          "value": "90 MW"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "80 MW"
+        },
+        {
+          "rank": 21,
+          "code": "PA",
+          "value": "70 MW"
+        },
+        {
+          "rank": 22,
+          "code": "MN",
+          "value": "60 MW"
+        },
+        {
+          "rank": 23,
+          "code": "WA",
+          "value": "55 MW"
+        },
+        {
+          "rank": 24,
+          "code": "UT",
+          "value": "50 MW"
+        },
+        {
+          "rank": 25,
+          "code": "MD",
+          "value": "45 MW"
+        },
+        {
+          "rank": 26,
+          "code": "TN",
+          "value": "40 MW"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "35 MW"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "32 MW"
+        },
+        {
+          "rank": 29,
+          "code": "OK",
+          "value": "30 MW"
+        },
+        {
+          "rank": 30,
+          "code": "AL",
+          "value": "28 MW"
+        },
+        {
+          "rank": 31,
+          "code": "WI",
+          "value": "26 MW"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "24 MW"
+        },
+        {
+          "rank": 33,
+          "code": "IA",
+          "value": "22 MW"
+        },
+        {
+          "rank": 34,
+          "code": "KS",
+          "value": "20 MW"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "18 MW"
+        },
+        {
+          "rank": 36,
+          "code": "LA",
+          "value": "16 MW"
+        },
+        {
+          "rank": 37,
+          "code": "CT",
+          "value": "14 MW"
+        },
+        {
+          "rank": 38,
+          "code": "MT",
+          "value": "12 MW"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "10 MW"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "9 MW"
+        },
+        {
+          "rank": 41,
+          "code": "MS",
+          "value": "8 MW"
+        },
+        {
+          "rank": 42,
+          "code": "AK",
+          "value": "7 MW"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "6 MW"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "5 MW"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "4 MW"
+        },
+        {
+          "rank": 46,
+          "code": "WV",
+          "value": "3 MW"
+        },
+        {
+          "rank": 47,
+          "code": "DE",
+          "value": "2 MW"
+        },
+        {
+          "rank": 48,
+          "code": "SD",
+          "value": "2 MW (tied)"
+        },
+        {
+          "rank": 49,
+          "code": "ND",
+          "value": "1 MW"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "1 MW (tied)"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1 MW (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-wildfire-acres-burned-annually-2013",
+      "title": "Most Wildfire Acres Burned Annually",
+      "prompt": "Name the US states with the most acres burned by wildfires per year, based on a recent multi-year average.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Annual acres burned averaged across 2013-2022; includes both natural and human-caused wildfires but excludes prescribed burns. Includes Washington DC.",
+      "source": {
+        "name": "National Interagency Fire Center \u2014 Annual Wildland Fire Statistics",
+        "url": "https://www.nifc.gov/fire-information/statistics/wildfires",
+        "asOf": "2013-2022 average"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "2,200,000 acres"
+        },
+        {
+          "rank": 2,
+          "code": "AK",
+          "value": "1,200,000 acres"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "710,000 acres"
+        },
+        {
+          "rank": 4,
+          "code": "OR",
+          "value": "540,000 acres"
+        },
+        {
+          "rank": 5,
+          "code": "ID",
+          "value": "500,000 acres"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "410,000 acres"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "400,000 acres"
+        },
+        {
+          "rank": 8,
+          "code": "NM",
+          "value": "360,000 acres"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "350,000 acres"
+        },
+        {
+          "rank": 10,
+          "code": "NV",
+          "value": "340,000 acres"
+        },
+        {
+          "rank": 11,
+          "code": "OK",
+          "value": "290,000 acres"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "230,000 acres"
+        },
+        {
+          "rank": 13,
+          "code": "KS",
+          "value": "210,000 acres"
+        },
+        {
+          "rank": 14,
+          "code": "UT",
+          "value": "150,000 acres"
+        },
+        {
+          "rank": 15,
+          "code": "WY",
+          "value": "130,000 acres"
+        },
+        {
+          "rank": 16,
+          "code": "FL",
+          "value": "120,000 acres"
+        },
+        {
+          "rank": 17,
+          "code": "NE",
+          "value": "100,000 acres"
+        },
+        {
+          "rank": 18,
+          "code": "SD",
+          "value": "85,000 acres"
+        },
+        {
+          "rank": 19,
+          "code": "GA",
+          "value": "70,000 acres"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "55,000 acres"
+        },
+        {
+          "rank": 21,
+          "code": "AL",
+          "value": "50,000 acres"
+        },
+        {
+          "rank": 22,
+          "code": "AR",
+          "value": "45,000 acres"
+        },
+        {
+          "rank": 23,
+          "code": "NC",
+          "value": "40,000 acres"
+        },
+        {
+          "rank": 24,
+          "code": "LA",
+          "value": "38,000 acres"
+        },
+        {
+          "rank": 25,
+          "code": "MN",
+          "value": "35,000 acres"
+        },
+        {
+          "rank": 26,
+          "code": "SC",
+          "value": "30,000 acres"
+        },
+        {
+          "rank": 27,
+          "code": "MO",
+          "value": "25,000 acres"
+        },
+        {
+          "rank": 28,
+          "code": "ND",
+          "value": "22,000 acres"
+        },
+        {
+          "rank": 29,
+          "code": "VA",
+          "value": "20,000 acres"
+        },
+        {
+          "rank": 30,
+          "code": "WI",
+          "value": "18,000 acres"
+        },
+        {
+          "rank": 31,
+          "code": "TN",
+          "value": "15,000 acres"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "13,000 acres"
+        },
+        {
+          "rank": 33,
+          "code": "MI",
+          "value": "10,000 acres"
+        },
+        {
+          "rank": 34,
+          "code": "WV",
+          "value": "9,000 acres"
+        },
+        {
+          "rank": 35,
+          "code": "NJ",
+          "value": "8,000 acres"
+        },
+        {
+          "rank": 36,
+          "code": "PA",
+          "value": "7,000 acres"
+        },
+        {
+          "rank": 37,
+          "code": "IN",
+          "value": "6,000 acres"
+        },
+        {
+          "rank": 38,
+          "code": "HI",
+          "value": "5,500 acres"
+        },
+        {
+          "rank": 39,
+          "code": "ME",
+          "value": "5,000 acres"
+        },
+        {
+          "rank": 40,
+          "code": "NY",
+          "value": "4,500 acres"
+        },
+        {
+          "rank": 41,
+          "code": "OH",
+          "value": "4,000 acres"
+        },
+        {
+          "rank": 42,
+          "code": "IL",
+          "value": "3,500 acres"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "3,000 acres"
+        },
+        {
+          "rank": 44,
+          "code": "MA",
+          "value": "2,500 acres"
+        },
+        {
+          "rank": 45,
+          "code": "MD",
+          "value": "2,000 acres"
+        },
+        {
+          "rank": 46,
+          "code": "IA",
+          "value": "1,500 acres"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "1,000 acres"
+        },
+        {
+          "rank": 48,
+          "code": "CT",
+          "value": "800 acres"
+        },
+        {
+          "rank": 49,
+          "code": "DE",
+          "value": "300 acres"
+        },
+        {
+          "rank": 50,
+          "code": "RI",
+          "value": "200 acres"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "50 acres"
+        }
+      ]
+    },
+    {
+      "id": "us-states-environment-most-groundwater-withdrawals-2015",
+      "title": "Most Groundwater Withdrawals",
+      "prompt": "Name the US states that withdraw the most fresh groundwater each day for all uses combined.",
+      "subtheme": "US States - Environment",
+      "seededDepth": 51,
+      "disclaimer": "Total fresh groundwater withdrawals across all use categories (irrigation, public supply, industrial, thermoelectric), in millions of gallons per day. Includes Washington DC.",
+      "source": {
+        "name": "USGS \u2014 Estimated Use of Water in the United States",
+        "url": "https://www.usgs.gov/mission-areas/water-resources/science/water-use-united-states",
+        "asOf": "2015"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "10,700 Mgal/day"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "8,400 Mgal/day"
+        },
+        {
+          "rank": 3,
+          "code": "AR",
+          "value": "8,300 Mgal/day"
+        },
+        {
+          "rank": 4,
+          "code": "NE",
+          "value": "7,000 Mgal/day"
+        },
+        {
+          "rank": 5,
+          "code": "ID",
+          "value": "5,500 Mgal/day"
+        },
+        {
+          "rank": 6,
+          "code": "KS",
+          "value": "4,200 Mgal/day"
+        },
+        {
+          "rank": 7,
+          "code": "MS",
+          "value": "3,500 Mgal/day"
+        },
+        {
+          "rank": 8,
+          "code": "FL",
+          "value": "3,200 Mgal/day"
+        },
+        {
+          "rank": 9,
+          "code": "MO",
+          "value": "3,000 Mgal/day"
+        },
+        {
+          "rank": 10,
+          "code": "MN",
+          "value": "2,900 Mgal/day"
+        },
+        {
+          "rank": 11,
+          "code": "AZ",
+          "value": "2,900 Mgal/day (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "2,500 Mgal/day"
+        },
+        {
+          "rank": 13,
+          "code": "WA",
+          "value": "2,400 Mgal/day"
+        },
+        {
+          "rank": 14,
+          "code": "LA",
+          "value": "2,000 Mgal/day"
+        },
+        {
+          "rank": 15,
+          "code": "OK",
+          "value": "1,800 Mgal/day"
+        },
+        {
+          "rank": 16,
+          "code": "OR",
+          "value": "1,700 Mgal/day"
+        },
+        {
+          "rank": 17,
+          "code": "NM",
+          "value": "1,600 Mgal/day"
+        },
+        {
+          "rank": 18,
+          "code": "AL",
+          "value": "1,400 Mgal/day"
+        },
+        {
+          "rank": 19,
+          "code": "GA",
+          "value": "1,300 Mgal/day"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "1,200 Mgal/day"
+        },
+        {
+          "rank": 21,
+          "code": "IN",
+          "value": "1,100 Mgal/day"
+        },
+        {
+          "rank": 22,
+          "code": "MI",
+          "value": "1,050 Mgal/day"
+        },
+        {
+          "rank": 23,
+          "code": "PA",
+          "value": "950 Mgal/day"
+        },
+        {
+          "rank": 24,
+          "code": "NY",
+          "value": "900 Mgal/day"
+        },
+        {
+          "rank": 25,
+          "code": "IL",
+          "value": "850 Mgal/day"
+        },
+        {
+          "rank": 26,
+          "code": "NV",
+          "value": "800 Mgal/day"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "750 Mgal/day"
+        },
+        {
+          "rank": 28,
+          "code": "IA",
+          "value": "700 Mgal/day"
+        },
+        {
+          "rank": 29,
+          "code": "OH",
+          "value": "650 Mgal/day"
+        },
+        {
+          "rank": 30,
+          "code": "NC",
+          "value": "620 Mgal/day"
+        },
+        {
+          "rank": 31,
+          "code": "TN",
+          "value": "580 Mgal/day"
+        },
+        {
+          "rank": 32,
+          "code": "SD",
+          "value": "500 Mgal/day"
+        },
+        {
+          "rank": 33,
+          "code": "UT",
+          "value": "480 Mgal/day"
+        },
+        {
+          "rank": 34,
+          "code": "MT",
+          "value": "440 Mgal/day"
+        },
+        {
+          "rank": 35,
+          "code": "VA",
+          "value": "400 Mgal/day"
+        },
+        {
+          "rank": 36,
+          "code": "HI",
+          "value": "380 Mgal/day"
+        },
+        {
+          "rank": 37,
+          "code": "NJ",
+          "value": "340 Mgal/day"
+        },
+        {
+          "rank": 38,
+          "code": "MD",
+          "value": "310 Mgal/day"
+        },
+        {
+          "rank": 39,
+          "code": "KY",
+          "value": "280 Mgal/day"
+        },
+        {
+          "rank": 40,
+          "code": "ND",
+          "value": "240 Mgal/day"
+        },
+        {
+          "rank": 41,
+          "code": "MA",
+          "value": "200 Mgal/day"
+        },
+        {
+          "rank": 42,
+          "code": "CT",
+          "value": "160 Mgal/day"
+        },
+        {
+          "rank": 43,
+          "code": "WY",
+          "value": "140 Mgal/day"
+        },
+        {
+          "rank": 44,
+          "code": "DE",
+          "value": "120 Mgal/day"
+        },
+        {
+          "rank": 45,
+          "code": "ME",
+          "value": "100 Mgal/day"
+        },
+        {
+          "rank": 46,
+          "code": "WV",
+          "value": "85 Mgal/day"
+        },
+        {
+          "rank": 47,
+          "code": "NH",
+          "value": "70 Mgal/day"
+        },
+        {
+          "rank": 48,
+          "code": "VT",
+          "value": "50 Mgal/day"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "30 Mgal/day"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "20 Mgal/day"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "1 Mgal/day"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-cotton-production-2023",
+      "title": "Highest Cotton Production",
+      "prompt": "Name the US states that produce the most upland cotton by bales.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 17,
+      "disclaimer": "Upland cotton, measured in 480-lb bales. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Cotton Production by State",
+        "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "4,000,000 bales"
+        },
+        {
+          "rank": 2,
+          "code": "GA",
+          "value": "2,000,000 bales"
+        },
+        {
+          "rank": 3,
+          "code": "MS",
+          "value": "1,300,000 bales"
+        },
+        {
+          "rank": 4,
+          "code": "AR",
+          "value": "1,100,000 bales"
+        },
+        {
+          "rank": 5,
+          "code": "AL",
+          "value": "950,000 bales"
+        },
+        {
+          "rank": 6,
+          "code": "NC",
+          "value": "800,000 bales"
+        },
+        {
+          "rank": 7,
+          "code": "TN",
+          "value": "700,000 bales"
+        },
+        {
+          "rank": 8,
+          "code": "MO",
+          "value": "650,000 bales"
+        },
+        {
+          "rank": 9,
+          "code": "LA",
+          "value": "550,000 bales"
+        },
+        {
+          "rank": 10,
+          "code": "CA",
+          "value": "500,000 bales"
+        },
+        {
+          "rank": 11,
+          "code": "SC",
+          "value": "300,000 bales"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "250,000 bales"
+        },
+        {
+          "rank": 13,
+          "code": "AZ",
+          "value": "220,000 bales"
+        },
+        {
+          "rank": 14,
+          "code": "KS",
+          "value": "180,000 bales"
+        },
+        {
+          "rank": 15,
+          "code": "NM",
+          "value": "80,000 bales"
+        },
+        {
+          "rank": 16,
+          "code": "VA",
+          "value": "70,000 bales"
+        },
+        {
+          "rank": 17,
+          "code": "FL",
+          "value": "50,000 bales"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-rice-production-2023",
+      "title": "Highest Rice Production",
+      "prompt": "Name the US states that produce the most rice by hundredweight.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 10,
+      "disclaimer": "Long-, medium-, and short-grain rice combined; measured in hundredweight (cwt). DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Rice Stocks / Production",
+        "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AR",
+          "value": "100,000,000 cwt"
+        },
+        {
+          "rank": 2,
+          "code": "LA",
+          "value": "31,000,000 cwt"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "27,000,000 cwt"
+        },
+        {
+          "rank": 4,
+          "code": "MS",
+          "value": "13,000,000 cwt"
+        },
+        {
+          "rank": 5,
+          "code": "MO",
+          "value": "12,000,000 cwt"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "9,000,000 cwt"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "600,000 cwt"
+        },
+        {
+          "rank": 8,
+          "code": "NY",
+          "value": "50,000 cwt"
+        },
+        {
+          "rank": 9,
+          "code": "TN",
+          "value": "40,000 cwt"
+        },
+        {
+          "rank": 10,
+          "code": "KY",
+          "value": "20,000 cwt"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-peanut-production-2023",
+      "title": "Highest Peanut Production",
+      "prompt": "Name the US states that produce the most peanuts by pounds.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 11,
+      "disclaimer": "All peanut types (runner, virginia, spanish, valencia) combined; measured in pounds harvested. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Peanuts Production by State",
+        "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "GA",
+          "value": "2,600,000,000 lbs"
+        },
+        {
+          "rank": 2,
+          "code": "AL",
+          "value": "530,000,000 lbs"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "500,000,000 lbs"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "480,000,000 lbs"
+        },
+        {
+          "rank": 5,
+          "code": "NC",
+          "value": "440,000,000 lbs"
+        },
+        {
+          "rank": 6,
+          "code": "MS",
+          "value": "180,000,000 lbs"
+        },
+        {
+          "rank": 7,
+          "code": "SC",
+          "value": "170,000,000 lbs"
+        },
+        {
+          "rank": 8,
+          "code": "VA",
+          "value": "150,000,000 lbs"
+        },
+        {
+          "rank": 9,
+          "code": "OK",
+          "value": "80,000,000 lbs"
+        },
+        {
+          "rank": 10,
+          "code": "AR",
+          "value": "70,000,000 lbs"
+        },
+        {
+          "rank": 11,
+          "code": "NM",
+          "value": "20,000,000 lbs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-apple-production-2023",
+      "title": "Highest Apple Production",
+      "prompt": "Name the US states that produce the most apples by pounds.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 15,
+      "disclaimer": "Utilized production; measured in pounds harvested. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Non-citrus Fruits & Nuts",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/ncit0524.pdf",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "WA",
+          "value": "5,600,000,000 lbs"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "1,300,000,000 lbs"
+        },
+        {
+          "rank": 3,
+          "code": "MI",
+          "value": "1,050,000,000 lbs"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "460,000,000 lbs"
+        },
+        {
+          "rank": 5,
+          "code": "CA",
+          "value": "300,000,000 lbs"
+        },
+        {
+          "rank": 6,
+          "code": "VA",
+          "value": "220,000,000 lbs"
+        },
+        {
+          "rank": 7,
+          "code": "OR",
+          "value": "160,000,000 lbs"
+        },
+        {
+          "rank": 8,
+          "code": "NC",
+          "value": "140,000,000 lbs"
+        },
+        {
+          "rank": 9,
+          "code": "OH",
+          "value": "70,000,000 lbs"
+        },
+        {
+          "rank": 10,
+          "code": "WV",
+          "value": "60,000,000 lbs"
+        },
+        {
+          "rank": 11,
+          "code": "ID",
+          "value": "45,000,000 lbs"
+        },
+        {
+          "rank": 12,
+          "code": "WI",
+          "value": "30,000,000 lbs"
+        },
+        {
+          "rank": 13,
+          "code": "UT",
+          "value": "20,000,000 lbs"
+        },
+        {
+          "rank": 14,
+          "code": "CO",
+          "value": "15,000,000 lbs"
+        },
+        {
+          "rank": 15,
+          "code": "MA",
+          "value": "12,000,000 lbs"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-potato-production-2023",
+      "title": "Highest Potato Production",
+      "prompt": "Name the US states that produce the most potatoes by hundredweight.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 30,
+      "disclaimer": "All potato types combined; measured in hundredweight (cwt). DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Potatoes Summary",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/pots0924.pdf",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "ID",
+          "value": "134,000,000 cwt"
+        },
+        {
+          "rank": 2,
+          "code": "WA",
+          "value": "97,000,000 cwt"
+        },
+        {
+          "rank": 3,
+          "code": "WI",
+          "value": "27,000,000 cwt"
+        },
+        {
+          "rank": 4,
+          "code": "ND",
+          "value": "24,000,000 cwt"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "20,000,000 cwt"
+        },
+        {
+          "rank": 6,
+          "code": "OR",
+          "value": "19,000,000 cwt"
+        },
+        {
+          "rank": 7,
+          "code": "MN",
+          "value": "17,000,000 cwt"
+        },
+        {
+          "rank": 8,
+          "code": "MI",
+          "value": "16,000,000 cwt"
+        },
+        {
+          "rank": 9,
+          "code": "ME",
+          "value": "14,000,000 cwt"
+        },
+        {
+          "rank": 10,
+          "code": "CA",
+          "value": "12,000,000 cwt"
+        },
+        {
+          "rank": 11,
+          "code": "NE",
+          "value": "10,000,000 cwt"
+        },
+        {
+          "rank": 12,
+          "code": "MT",
+          "value": "6,500,000 cwt"
+        },
+        {
+          "rank": 13,
+          "code": "TX",
+          "value": "5,000,000 cwt"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "4,500,000 cwt"
+        },
+        {
+          "rank": 15,
+          "code": "PA",
+          "value": "3,500,000 cwt"
+        },
+        {
+          "rank": 16,
+          "code": "FL",
+          "value": "3,000,000 cwt"
+        },
+        {
+          "rank": 17,
+          "code": "VA",
+          "value": "2,000,000 cwt"
+        },
+        {
+          "rank": 18,
+          "code": "NC",
+          "value": "1,700,000 cwt"
+        },
+        {
+          "rank": 19,
+          "code": "NM",
+          "value": "900,000 cwt"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "800,000 cwt"
+        },
+        {
+          "rank": 21,
+          "code": "IN",
+          "value": "700,000 cwt"
+        },
+        {
+          "rank": 22,
+          "code": "AK",
+          "value": "600,000 cwt"
+        },
+        {
+          "rank": 23,
+          "code": "NV",
+          "value": "550,000 cwt"
+        },
+        {
+          "rank": 24,
+          "code": "DE",
+          "value": "450,000 cwt"
+        },
+        {
+          "rank": 25,
+          "code": "MO",
+          "value": "400,000 cwt"
+        },
+        {
+          "rank": 26,
+          "code": "MA",
+          "value": "350,000 cwt"
+        },
+        {
+          "rank": 27,
+          "code": "NJ",
+          "value": "300,000 cwt"
+        },
+        {
+          "rank": 28,
+          "code": "IL",
+          "value": "250,000 cwt"
+        },
+        {
+          "rank": 29,
+          "code": "MD",
+          "value": "200,000 cwt"
+        },
+        {
+          "rank": 30,
+          "code": "KS",
+          "value": "150,000 cwt"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-wheat-production-2023",
+      "title": "Highest Wheat Production",
+      "prompt": "Name the US states that produce the most wheat by bushels.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 40,
+      "disclaimer": "All wheat classes combined (hard red winter, soft red winter, hard red spring, durum, white); measured in bushels. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Wheat Data by State",
+        "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "KS",
+          "value": "240,000,000 bushels"
+        },
+        {
+          "rank": 2,
+          "code": "ND",
+          "value": "230,000,000 bushels"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "170,000,000 bushels"
+        },
+        {
+          "rank": 4,
+          "code": "WA",
+          "value": "150,000,000 bushels"
+        },
+        {
+          "rank": 5,
+          "code": "OK",
+          "value": "100,000,000 bushels"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "95,000,000 bushels"
+        },
+        {
+          "rank": 7,
+          "code": "SD",
+          "value": "85,000,000 bushels"
+        },
+        {
+          "rank": 8,
+          "code": "MN",
+          "value": "80,000,000 bushels"
+        },
+        {
+          "rank": 9,
+          "code": "CO",
+          "value": "75,000,000 bushels"
+        },
+        {
+          "rank": 10,
+          "code": "ID",
+          "value": "70,000,000 bushels"
+        },
+        {
+          "rank": 11,
+          "code": "NE",
+          "value": "50,000,000 bushels"
+        },
+        {
+          "rank": 12,
+          "code": "OR",
+          "value": "40,000,000 bushels"
+        },
+        {
+          "rank": 13,
+          "code": "OH",
+          "value": "38,000,000 bushels"
+        },
+        {
+          "rank": 14,
+          "code": "MO",
+          "value": "35,000,000 bushels"
+        },
+        {
+          "rank": 15,
+          "code": "IL",
+          "value": "34,000,000 bushels"
+        },
+        {
+          "rank": 16,
+          "code": "MI",
+          "value": "30,000,000 bushels"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "22,000,000 bushels"
+        },
+        {
+          "rank": 18,
+          "code": "KY",
+          "value": "20,000,000 bushels"
+        },
+        {
+          "rank": 19,
+          "code": "NC",
+          "value": "18,000,000 bushels"
+        },
+        {
+          "rank": 20,
+          "code": "AR",
+          "value": "12,000,000 bushels"
+        },
+        {
+          "rank": 21,
+          "code": "CA",
+          "value": "10,000,000 bushels"
+        },
+        {
+          "rank": 22,
+          "code": "PA",
+          "value": "9,000,000 bushels"
+        },
+        {
+          "rank": 23,
+          "code": "TN",
+          "value": "8,000,000 bushels"
+        },
+        {
+          "rank": 24,
+          "code": "MD",
+          "value": "7,000,000 bushels"
+        },
+        {
+          "rank": 25,
+          "code": "VA",
+          "value": "6,000,000 bushels"
+        },
+        {
+          "rank": 26,
+          "code": "WI",
+          "value": "5,000,000 bushels"
+        },
+        {
+          "rank": 27,
+          "code": "NY",
+          "value": "4,500,000 bushels"
+        },
+        {
+          "rank": 28,
+          "code": "GA",
+          "value": "4,000,000 bushels"
+        },
+        {
+          "rank": 29,
+          "code": "SC",
+          "value": "3,500,000 bushels"
+        },
+        {
+          "rank": 30,
+          "code": "AZ",
+          "value": "3,000,000 bushels"
+        },
+        {
+          "rank": 31,
+          "code": "DE",
+          "value": "2,500,000 bushels"
+        },
+        {
+          "rank": 32,
+          "code": "WY",
+          "value": "2,200,000 bushels"
+        },
+        {
+          "rank": 33,
+          "code": "NJ",
+          "value": "1,500,000 bushels"
+        },
+        {
+          "rank": 34,
+          "code": "NM",
+          "value": "1,200,000 bushels"
+        },
+        {
+          "rank": 35,
+          "code": "UT",
+          "value": "1,000,000 bushels"
+        },
+        {
+          "rank": 36,
+          "code": "AL",
+          "value": "900,000 bushels"
+        },
+        {
+          "rank": 37,
+          "code": "MS",
+          "value": "700,000 bushels"
+        },
+        {
+          "rank": 38,
+          "code": "IA",
+          "value": "500,000 bushels"
+        },
+        {
+          "rank": 39,
+          "code": "NV",
+          "value": "300,000 bushels"
+        },
+        {
+          "rank": 40,
+          "code": "WV",
+          "value": "150,000 bushels"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-sorghum-production-2023",
+      "title": "Highest Sorghum Production",
+      "prompt": "Name the US states that produce the most grain sorghum by bushels.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 30,
+      "disclaimer": "Grain sorghum (milo); measured in bushels harvested. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Sorghum Production",
+        "url": "https://www.nass.usda.gov/Statistics_by_Subject/index.php?sector=CROPS",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "KS",
+          "value": "150,000,000 bushels"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "70,000,000 bushels"
+        },
+        {
+          "rank": 3,
+          "code": "CO",
+          "value": "18,000,000 bushels"
+        },
+        {
+          "rank": 4,
+          "code": "OK",
+          "value": "16,000,000 bushels"
+        },
+        {
+          "rank": 5,
+          "code": "SD",
+          "value": "10,000,000 bushels"
+        },
+        {
+          "rank": 6,
+          "code": "NE",
+          "value": "9,000,000 bushels"
+        },
+        {
+          "rank": 7,
+          "code": "MO",
+          "value": "5,000,000 bushels"
+        },
+        {
+          "rank": 8,
+          "code": "AR",
+          "value": "3,000,000 bushels"
+        },
+        {
+          "rank": 9,
+          "code": "NM",
+          "value": "2,500,000 bushels"
+        },
+        {
+          "rank": 10,
+          "code": "IL",
+          "value": "1,200,000 bushels"
+        },
+        {
+          "rank": 11,
+          "code": "MS",
+          "value": "700,000 bushels"
+        },
+        {
+          "rank": 12,
+          "code": "LA",
+          "value": "400,000 bushels"
+        },
+        {
+          "rank": 13,
+          "code": "TN",
+          "value": "350,000 bushels"
+        },
+        {
+          "rank": 14,
+          "code": "KY",
+          "value": "250,000 bushels"
+        },
+        {
+          "rank": 15,
+          "code": "AL",
+          "value": "180,000 bushels"
+        },
+        {
+          "rank": 16,
+          "code": "GA",
+          "value": "150,000 bushels"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "120,000 bushels"
+        },
+        {
+          "rank": 18,
+          "code": "SC",
+          "value": "90,000 bushels"
+        },
+        {
+          "rank": 19,
+          "code": "VA",
+          "value": "70,000 bushels"
+        },
+        {
+          "rank": 20,
+          "code": "AZ",
+          "value": "60,000 bushels"
+        },
+        {
+          "rank": 21,
+          "code": "CA",
+          "value": "50,000 bushels"
+        },
+        {
+          "rank": 22,
+          "code": "MD",
+          "value": "40,000 bushels"
+        },
+        {
+          "rank": 23,
+          "code": "IN",
+          "value": "30,000 bushels"
+        },
+        {
+          "rank": 24,
+          "code": "OH",
+          "value": "25,000 bushels"
+        },
+        {
+          "rank": 25,
+          "code": "IA",
+          "value": "20,000 bushels"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "15,000 bushels"
+        },
+        {
+          "rank": 27,
+          "code": "MN",
+          "value": "12,000 bushels"
+        },
+        {
+          "rank": 28,
+          "code": "WI",
+          "value": "10,000 bushels"
+        },
+        {
+          "rank": 29,
+          "code": "DE",
+          "value": "8,000 bushels"
+        },
+        {
+          "rank": 30,
+          "code": "NJ",
+          "value": "6,000 bushels"
+        }
+      ]
+    },
+    {
+      "id": "us-states-food-agriculture-highest-sunflower-production-2023",
+      "title": "Highest Sunflower Production",
+      "prompt": "Name the US states that produce the most sunflower seeds by pounds.",
+      "subtheme": "US States - Food & Agriculture",
+      "seededDepth": 10,
+      "disclaimer": "Oil-type and non-oil (confection) sunflowers combined; measured in pounds harvested. DC not included (source omits it).",
+      "source": {
+        "name": "USDA NASS \u2014 Crop Production Annual Summary",
+        "url": "https://www.nass.usda.gov/Publications/Todays_Reports/reports/cropan24.pdf",
+        "asOf": "2023 crop year"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "SD",
+          "value": "900,000,000 lbs"
+        },
+        {
+          "rank": 2,
+          "code": "ND",
+          "value": "600,000,000 lbs"
+        },
+        {
+          "rank": 3,
+          "code": "KS",
+          "value": "160,000,000 lbs"
+        },
+        {
+          "rank": 4,
+          "code": "MN",
+          "value": "100,000,000 lbs"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "80,000,000 lbs"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "60,000,000 lbs"
+        },
+        {
+          "rank": 7,
+          "code": "NE",
+          "value": "40,000,000 lbs"
+        },
+        {
+          "rank": 8,
+          "code": "CA",
+          "value": "20,000,000 lbs"
+        },
+        {
+          "rank": 9,
+          "code": "MT",
+          "value": "15,000,000 lbs"
+        },
+        {
+          "rank": 10,
+          "code": "OK",
+          "value": "8,000,000 lbs"
+        }
+      ]
+    }
+  ]
+}

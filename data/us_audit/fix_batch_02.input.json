@@ -1,0 +1,2015 @@
+{
+  "cluster": "us-fix-02",
+  "questions": [
+    {
+      "id": "us-states-geography-highest-recorded-temperature-2024",
+      "current": {
+        "title": "Highest Recorded Temperature",
+        "prompt": "Rank the US states by highest temperature ever officially recorded within their borders.",
+        "disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee. Death Valley's 134\u00b0F (1913) remains debated but is the accepted official record. Includes Washington DC.",
+        "trivia": "Death Valley's 134\u00b0F record from 1913 is the highest ever reliably recorded on Earth, though some meteorologists dispute it in favor of a 130\u00b0F reading from the same site in 2020.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "134 F"
+          },
+          {
+            "rank": 2,
+            "code": "AZ",
+            "value": "128 F"
+          },
+          {
+            "rank": 3,
+            "code": "NV",
+            "value": "125 F"
+          },
+          {
+            "rank": 4,
+            "code": "NM",
+            "value": "122 F"
+          },
+          {
+            "rank": 5,
+            "code": "ND",
+            "value": "121 F"
+          },
+          {
+            "rank": 5,
+            "code": "KS",
+            "value": "121 F (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "OK",
+            "value": "120 F"
+          },
+          {
+            "rank": 7,
+            "code": "TX",
+            "value": "120 F (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "AR",
+            "value": "120 F (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "SD",
+            "value": "120 F (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "WA",
+            "value": "120 F (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "OR",
+            "value": "119 F"
+          },
+          {
+            "rank": 13,
+            "code": "UT",
+            "value": "118 F"
+          },
+          {
+            "rank": 13,
+            "code": "IA",
+            "value": "118 F (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NE",
+            "value": "118 F (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "MO",
+            "value": "118 F (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "ID",
+            "value": "118 F (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "MT",
+            "value": "117 F"
+          },
+          {
+            "rank": 18,
+            "code": "IL",
+            "value": "117 F (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "IN",
+            "value": "116 F"
+          },
+          {
+            "rank": 21,
+            "code": "CO",
+            "value": "115 F"
+          },
+          {
+            "rank": 21,
+            "code": "MN",
+            "value": "115 F (tied)"
+          },
+          {
+            "rank": 21,
+            "code": "MS",
+            "value": "115 F (tied)"
+          },
+          {
+            "rank": 21,
+            "code": "WY",
+            "value": "115 F (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "LA",
+            "value": "114 F"
+          },
+          {
+            "rank": 25,
+            "code": "KY",
+            "value": "114 F (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "WI",
+            "value": "114 F (tied)"
+          },
+          {
+            "rank": 28,
+            "code": "SC",
+            "value": "113 F"
+          },
+          {
+            "rank": 28,
+            "code": "TN",
+            "value": "113 F (tied)"
+          },
+          {
+            "rank": 28,
+            "code": "OH",
+            "value": "113 F (tied)"
+          },
+          {
+            "rank": 31,
+            "code": "AL",
+            "value": "112 F"
+          },
+          {
+            "rank": 31,
+            "code": "GA",
+            "value": "112 F (tied)"
+          },
+          {
+            "rank": 31,
+            "code": "MI",
+            "value": "112 F (tied)"
+          },
+          {
+            "rank": 31,
+            "code": "WV",
+            "value": "112 F (tied)"
+          },
+          {
+            "rank": 35,
+            "code": "PA",
+            "value": "111 F"
+          },
+          {
+            "rank": 36,
+            "code": "NC",
+            "value": "110 F"
+          },
+          {
+            "rank": 36,
+            "code": "VA",
+            "value": "110 F (tied)"
+          },
+          {
+            "rank": 36,
+            "code": "DE",
+            "value": "110 F (tied)"
+          },
+          {
+            "rank": 36,
+            "code": "NJ",
+            "value": "110 F (tied)"
+          },
+          {
+            "rank": 40,
+            "code": "FL",
+            "value": "109 F"
+          },
+          {
+            "rank": 40,
+            "code": "MD",
+            "value": "109 F (tied)"
+          },
+          {
+            "rank": 42,
+            "code": "NY",
+            "value": "108 F"
+          },
+          {
+            "rank": 43,
+            "code": "MA",
+            "value": "107 F"
+          },
+          {
+            "rank": 43,
+            "code": "VT",
+            "value": "107 F (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "CT",
+            "value": "106 F"
+          },
+          {
+            "rank": 45,
+            "code": "NH",
+            "value": "106 F (tied)"
+          },
+          {
+            "rank": 45,
+            "code": "DC",
+            "value": "106 F (tied)"
+          },
+          {
+            "rank": 48,
+            "code": "ME",
+            "value": "105 F"
+          },
+          {
+            "rank": 49,
+            "code": "RI",
+            "value": "104 F"
+          },
+          {
+            "rank": 50,
+            "code": "HI",
+            "value": "100 F"
+          },
+          {
+            "rank": 50,
+            "code": "AK",
+            "value": "100 F (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Disclaimer states Death Valley's 134 F 'remains debated but is the accepted official record'. NOAA SCEC does still list CA 134 F, so 'accepted official record' is defensible, but calling it 'debated' without noting who disputes it (Christopher Burt et al.) may mislead. Minor.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-states-by-total-area-2010",
+      "current": {
+        "title": "Largest States by Total Area",
+        "prompt": "Rank the US states by total area (land + water) in square miles.",
+        "disclaimer": "Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters \u2014 which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only. Includes Washington DC.",
+        "trivia": "Alaska is more than twice the area of Texas.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AK",
+            "value": "665,384 sq mi"
+          },
+          {
+            "rank": 2,
+            "code": "TX",
+            "value": "268,596 sq mi"
+          },
+          {
+            "rank": 3,
+            "code": "CA",
+            "value": "163,695 sq mi"
+          },
+          {
+            "rank": 4,
+            "code": "MT",
+            "value": "147,040 sq mi"
+          },
+          {
+            "rank": 5,
+            "code": "NM",
+            "value": "121,590 sq mi"
+          },
+          {
+            "rank": 6,
+            "code": "AZ",
+            "value": "113,990 sq mi"
+          },
+          {
+            "rank": 7,
+            "code": "NV",
+            "value": "110,572 sq mi"
+          },
+          {
+            "rank": 8,
+            "code": "CO",
+            "value": "104,094 sq mi"
+          },
+          {
+            "rank": 9,
+            "code": "OR",
+            "value": "98,379 sq mi"
+          },
+          {
+            "rank": 10,
+            "code": "WY",
+            "value": "97,813 sq mi"
+          },
+          {
+            "rank": 11,
+            "code": "MI",
+            "value": "96,714 sq mi"
+          },
+          {
+            "rank": 12,
+            "code": "MN",
+            "value": "86,936 sq mi"
+          },
+          {
+            "rank": 13,
+            "code": "UT",
+            "value": "84,897 sq mi"
+          },
+          {
+            "rank": 14,
+            "code": "ID",
+            "value": "83,569 sq mi"
+          },
+          {
+            "rank": 15,
+            "code": "KS",
+            "value": "82,278 sq mi"
+          },
+          {
+            "rank": 16,
+            "code": "NE",
+            "value": "77,348 sq mi"
+          },
+          {
+            "rank": 17,
+            "code": "SD",
+            "value": "77,116 sq mi"
+          },
+          {
+            "rank": 18,
+            "code": "WA",
+            "value": "71,298 sq mi"
+          },
+          {
+            "rank": 19,
+            "code": "ND",
+            "value": "70,698 sq mi"
+          },
+          {
+            "rank": 20,
+            "code": "OK",
+            "value": "69,899 sq mi"
+          },
+          {
+            "rank": 21,
+            "code": "MO",
+            "value": "69,707 sq mi"
+          },
+          {
+            "rank": 22,
+            "code": "FL",
+            "value": "65,758 sq mi"
+          },
+          {
+            "rank": 23,
+            "code": "WI",
+            "value": "65,496 sq mi"
+          },
+          {
+            "rank": 24,
+            "code": "GA",
+            "value": "59,425 sq mi"
+          },
+          {
+            "rank": 25,
+            "code": "IL",
+            "value": "57,914 sq mi"
+          },
+          {
+            "rank": 26,
+            "code": "IA",
+            "value": "56,273 sq mi"
+          },
+          {
+            "rank": 27,
+            "code": "NY",
+            "value": "54,555 sq mi"
+          },
+          {
+            "rank": 28,
+            "code": "NC",
+            "value": "53,819 sq mi"
+          },
+          {
+            "rank": 29,
+            "code": "AR",
+            "value": "53,179 sq mi"
+          },
+          {
+            "rank": 30,
+            "code": "AL",
+            "value": "52,420 sq mi"
+          },
+          {
+            "rank": 31,
+            "code": "LA",
+            "value": "52,378 sq mi"
+          },
+          {
+            "rank": 32,
+            "code": "MS",
+            "value": "48,432 sq mi"
+          },
+          {
+            "rank": 33,
+            "code": "PA",
+            "value": "46,054 sq mi"
+          },
+          {
+            "rank": 34,
+            "code": "OH",
+            "value": "44,826 sq mi"
+          },
+          {
+            "rank": 35,
+            "code": "VA",
+            "value": "42,775 sq mi"
+          },
+          {
+            "rank": 36,
+            "code": "TN",
+            "value": "42,144 sq mi"
+          },
+          {
+            "rank": 37,
+            "code": "KY",
+            "value": "40,408 sq mi"
+          },
+          {
+            "rank": 38,
+            "code": "IN",
+            "value": "36,420 sq mi"
+          },
+          {
+            "rank": 39,
+            "code": "ME",
+            "value": "35,380 sq mi"
+          },
+          {
+            "rank": 40,
+            "code": "SC",
+            "value": "32,020 sq mi"
+          },
+          {
+            "rank": 41,
+            "code": "WV",
+            "value": "24,230 sq mi"
+          },
+          {
+            "rank": 42,
+            "code": "MD",
+            "value": "12,406 sq mi"
+          },
+          {
+            "rank": 43,
+            "code": "HI",
+            "value": "10,932 sq mi"
+          },
+          {
+            "rank": 44,
+            "code": "MA",
+            "value": "10,554 sq mi"
+          },
+          {
+            "rank": 45,
+            "code": "VT",
+            "value": "9,616 sq mi"
+          },
+          {
+            "rank": 46,
+            "code": "NH",
+            "value": "9,349 sq mi"
+          },
+          {
+            "rank": 47,
+            "code": "NJ",
+            "value": "8,723 sq mi"
+          },
+          {
+            "rank": 48,
+            "code": "CT",
+            "value": "5,543 sq mi"
+          },
+          {
+            "rank": 49,
+            "code": "DE",
+            "value": "2,489 sq mi"
+          },
+          {
+            "rank": 50,
+            "code": "RI",
+            "value": "1,545 sq mi"
+          },
+          {
+            "rank": 51,
+            "code": "DC",
+            "value": "68 sq mi"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Disclaimer explicitly discusses Michigan's Great Lakes waters. Michigan is rank 11 in Q15 (not top-5), so this is not a hard leak; but pairing this question with Q16 ('Land Area'), where the disclaimer again spotlights Michigan, telegraphs MI's presence/absence to players who see both questions. Minor.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-longest-river-wholly-within-borders-2022",
+      "current": {
+        "title": "Longest River Wholly Within Borders",
+        "prompt": "Name the US states with the longest single river that flows entirely within their own borders.",
+        "disclaimer": "Longest single named river whose entire course lies within one state's boundaries. Rivers that cross state lines are excluded. Includes Washington DC.",
+        "trivia": "Alaska's Kuskokwim River flows 702 miles from the Kuskokwim Mountains to the Bering Sea, all within Alaska, making it the longest single-state river in the U.S.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AK",
+            "value": "702 mi (Kuskokwim)"
+          },
+          {
+            "rank": 2,
+            "code": "TX",
+            "value": "600 mi (Brazos)"
+          },
+          {
+            "rank": 3,
+            "code": "NC",
+            "value": "445 mi (Neuse)"
+          },
+          {
+            "rank": 4,
+            "code": "GA",
+            "value": "434 mi (Ocmulgee-Altamaha)"
+          },
+          {
+            "rank": 5,
+            "code": "FL",
+            "value": "410 mi (St. Johns)"
+          },
+          {
+            "rank": 6,
+            "code": "AL",
+            "value": "374 mi (Alabama)"
+          },
+          {
+            "rank": 7,
+            "code": "MI",
+            "value": "260 mi (Grand)"
+          },
+          {
+            "rank": 8,
+            "code": "OK",
+            "value": "255 mi (Cimarron in-state segment)"
+          },
+          {
+            "rank": 9,
+            "code": "SC",
+            "value": "233 mi (Santee)"
+          },
+          {
+            "rank": 10,
+            "code": "OH",
+            "value": "225 mi (Scioto)"
+          },
+          {
+            "rank": 11,
+            "code": "WI",
+            "value": "220 mi (Wisconsin)"
+          },
+          {
+            "rank": 12,
+            "code": "IL",
+            "value": "216 mi (Sangamon)"
+          },
+          {
+            "rank": 13,
+            "code": "VA",
+            "value": "200 mi (James in-state segment)"
+          },
+          {
+            "rank": 14,
+            "code": "PA",
+            "value": "195 mi (Juniata)"
+          },
+          {
+            "rank": 15,
+            "code": "IN",
+            "value": "175 mi (White)"
+          },
+          {
+            "rank": 16,
+            "code": "MO",
+            "value": "170 mi (Meramec)"
+          },
+          {
+            "rank": 17,
+            "code": "IA",
+            "value": "168 mi (Des Moines in-state segment)"
+          },
+          {
+            "rank": 18,
+            "code": "MN",
+            "value": "164 mi (St. Croix in-state segment)"
+          },
+          {
+            "rank": 19,
+            "code": "AR",
+            "value": "160 mi (Ouachita in-state segment)"
+          },
+          {
+            "rank": 20,
+            "code": "TN",
+            "value": "158 mi (Duck)"
+          },
+          {
+            "rank": 21,
+            "code": "KY",
+            "value": "155 mi (Kentucky)"
+          },
+          {
+            "rank": 22,
+            "code": "LA",
+            "value": "150 mi (Calcasieu)"
+          },
+          {
+            "rank": 23,
+            "code": "ME",
+            "value": "148 mi (Penobscot)"
+          },
+          {
+            "rank": 24,
+            "code": "NY",
+            "value": "143 mi (Susquehanna in-state segment)"
+          },
+          {
+            "rank": 25,
+            "code": "MS",
+            "value": "140 mi (Pearl in-state segment)"
+          },
+          {
+            "rank": 26,
+            "code": "NE",
+            "value": "138 mi (Loup)"
+          },
+          {
+            "rank": 27,
+            "code": "KS",
+            "value": "135 mi (Kansas)"
+          },
+          {
+            "rank": 28,
+            "code": "WV",
+            "value": "132 mi (Elk)"
+          },
+          {
+            "rank": 29,
+            "code": "MT",
+            "value": "128 mi (Bighorn in-state segment)"
+          },
+          {
+            "rank": 30,
+            "code": "OR",
+            "value": "125 mi (Willamette)"
+          },
+          {
+            "rank": 31,
+            "code": "WA",
+            "value": "122 mi (Chehalis)"
+          },
+          {
+            "rank": 32,
+            "code": "CA",
+            "value": "120 mi (San Joaquin in-state segment)"
+          },
+          {
+            "rank": 33,
+            "code": "SD",
+            "value": "115 mi (James in-state segment)"
+          },
+          {
+            "rank": 34,
+            "code": "ND",
+            "value": "112 mi (Sheyenne in-state segment)"
+          },
+          {
+            "rank": 35,
+            "code": "NM",
+            "value": "108 mi (Pecos in-state segment)"
+          },
+          {
+            "rank": 36,
+            "code": "CO",
+            "value": "105 mi (Cache la Poudre)"
+          },
+          {
+            "rank": 37,
+            "code": "AZ",
+            "value": "100 mi (Salt in-state segment)"
+          },
+          {
+            "rank": 38,
+            "code": "NV",
+            "value": "95 mi (Humboldt in-state segment)"
+          },
+          {
+            "rank": 39,
+            "code": "UT",
+            "value": "90 mi (Sevier)"
+          },
+          {
+            "rank": 40,
+            "code": "WY",
+            "value": "85 mi (Wind in-state segment)"
+          },
+          {
+            "rank": 41,
+            "code": "ID",
+            "value": "82 mi (Payette)"
+          },
+          {
+            "rank": 42,
+            "code": "MD",
+            "value": "78 mi (Patuxent)"
+          },
+          {
+            "rank": 43,
+            "code": "NJ",
+            "value": "75 mi (Raritan)"
+          },
+          {
+            "rank": 44,
+            "code": "MA",
+            "value": "70 mi (Housatonic in-state segment)"
+          },
+          {
+            "rank": 45,
+            "code": "CT",
+            "value": "68 mi (Housatonic in-state segment)"
+          },
+          {
+            "rank": 46,
+            "code": "NH",
+            "value": "65 mi (Merrimack in-state segment)"
+          },
+          {
+            "rank": 47,
+            "code": "VT",
+            "value": "60 mi (Winooski)"
+          },
+          {
+            "rank": 48,
+            "code": "HI",
+            "value": "33 mi (Kaukonahua)"
+          },
+          {
+            "rank": 49,
+            "code": "DE",
+            "value": "30 mi (Christina)"
+          },
+          {
+            "rank": 50,
+            "code": "RI",
+            "value": "22 mi (Pawtuxet)"
+          },
+          {
+            "rank": 51,
+            "code": "DC",
+            "value": "5 mi (Rock Creek in-DC segment)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "prompt-ambiguous",
+          "detail": "Prompt asks for 'longest single river that flows entirely within their own borders' but many answers reference an 'in-state segment' (e.g., OK Cimarron, VA James, IA Des Moines, MN St. Croix, AR Ouachita, NY Susquehanna, MS Pearl, MT Bighorn, CA San Joaquin, SD/ND/NM/AZ/NV/WY in-state segments, MA/CT Housatonic, NH Merrimack). These rivers cross state lines \u2014 contradicting the 'wholly within borders' prompt/disclaimer. Question definition contradicts data.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+      "current": {
+        "title": "Most Colleges in a Single City",
+        "prompt": "Rank the US states by the number of degree-granting colleges/universities in their most college-dense city.",
+        "disclaimer": "Counts Title IV degree-granting institutions in a single principal city (not the whole metro). Boston's total is inflated by many small specialty and religious institutions. Includes Washington DC.",
+        "trivia": "Greater Boston hosts more than 50 colleges, and Boston's Fenway/Longwood corridor alone has more medical schools than most US states.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MA",
+            "value": "Boston 35+ colleges"
+          },
+          {
+            "rank": 2,
+            "code": "NY",
+            "value": "NYC 30+ colleges"
+          },
+          {
+            "rank": 3,
+            "code": "PA",
+            "value": "Philadelphia 25+ colleges"
+          },
+          {
+            "rank": 4,
+            "code": "IL",
+            "value": "Chicago 22+ colleges"
+          },
+          {
+            "rank": 5,
+            "code": "DC",
+            "value": "Washington 20+ colleges"
+          },
+          {
+            "rank": 6,
+            "code": "CA",
+            "value": "Los Angeles 18+ colleges"
+          },
+          {
+            "rank": 7,
+            "code": "TX",
+            "value": "Houston 15+ colleges"
+          },
+          {
+            "rank": 8,
+            "code": "GA",
+            "value": "Atlanta 14+ colleges"
+          },
+          {
+            "rank": 9,
+            "code": "OH",
+            "value": "Cleveland 12+ colleges"
+          },
+          {
+            "rank": 9,
+            "code": "MO",
+            "value": "St. Louis 12+ colleges (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "MN",
+            "value": "Minneapolis 11+ colleges"
+          },
+          {
+            "rank": 12,
+            "code": "MD",
+            "value": "Baltimore 10+ colleges"
+          },
+          {
+            "rank": 12,
+            "code": "FL",
+            "value": "Miami 10+ colleges (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "MI",
+            "value": "Detroit 9+ colleges"
+          },
+          {
+            "rank": 14,
+            "code": "NC",
+            "value": "Charlotte 9+ colleges (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "IN",
+            "value": "Indianapolis 8+ colleges"
+          },
+          {
+            "rank": 16,
+            "code": "TN",
+            "value": "Nashville 8+ colleges (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "VA",
+            "value": "Richmond 8+ colleges (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "WA",
+            "value": "Seattle 8+ colleges (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "CO",
+            "value": "Denver 7+ colleges"
+          },
+          {
+            "rank": 20,
+            "code": "WI",
+            "value": "Milwaukee 7+ colleges (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "LA",
+            "value": "New Orleans 7+ colleges (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "OR",
+            "value": "Portland 7+ colleges (tied)"
+          },
+          {
+            "rank": 24,
+            "code": "OK",
+            "value": "Oklahoma City 6+ colleges"
+          },
+          {
+            "rank": 24,
+            "code": "AZ",
+            "value": "Phoenix 6+ colleges (tied)"
+          },
+          {
+            "rank": 24,
+            "code": "KY",
+            "value": "Louisville 6+ colleges (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "NE",
+            "value": "Omaha 5+ colleges"
+          },
+          {
+            "rank": 27,
+            "code": "UT",
+            "value": "Salt Lake City 5+ colleges (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "NV",
+            "value": "Las Vegas 5+ colleges (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "CT",
+            "value": "Hartford 5+ colleges (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "NJ",
+            "value": "Newark 5+ colleges (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "AL",
+            "value": "Birmingham 5+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "IA",
+            "value": "Des Moines 4+ colleges"
+          },
+          {
+            "rank": 33,
+            "code": "KS",
+            "value": "Wichita 4+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "AR",
+            "value": "Little Rock 4+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "SC",
+            "value": "Columbia 4+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "MS",
+            "value": "Jackson 4+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "NM",
+            "value": "Albuquerque 4+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "HI",
+            "value": "Honolulu 4+ colleges (tied)"
+          },
+          {
+            "rank": 33,
+            "code": "RI",
+            "value": "Providence 4+ colleges (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "WV",
+            "value": "Charleston 3+ colleges"
+          },
+          {
+            "rank": 41,
+            "code": "ME",
+            "value": "Portland 3+ colleges (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "NH",
+            "value": "Manchester 3+ colleges (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "DE",
+            "value": "Wilmington 3+ colleges (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "ND",
+            "value": "Fargo 3+ colleges (tied)"
+          },
+          {
+            "rank": 41,
+            "code": "SD",
+            "value": "Sioux Falls 3+ colleges (tied)"
+          },
+          {
+            "rank": 47,
+            "code": "MT",
+            "value": "Billings 2+ colleges"
+          },
+          {
+            "rank": 47,
+            "code": "ID",
+            "value": "Boise 2+ colleges (tied)"
+          },
+          {
+            "rank": 47,
+            "code": "AK",
+            "value": "Anchorage 2+ colleges (tied)"
+          },
+          {
+            "rank": 47,
+            "code": "WY",
+            "value": "Cheyenne 2+ colleges (tied)"
+          },
+          {
+            "rank": 47,
+            "code": "VT",
+            "value": "Burlington 2+ colleges (tied)"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "bucket-value",
+          "detail": "All values expressed as 'N+ colleges' (open-ended buckets), which makes true ranking non-verifiable \u2014 e.g., '10+' at rank 12 (MD Baltimore) and rank 13 (FL Miami) could differ by many actual institutions but appear equal. Disclaimer acknowledges Boston is inflated but doesn't reconcile the plus-notation ordering.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-canyons-2023",
+      "current": {
+        "title": "Most Named Canyons",
+        "prompt": "Name the US states with the most named canyons catalogued in the USGS Geographic Names Information System.",
+        "disclaimer": "Counts of GNIS features whose names include 'Canyon' by state. Reflects naming convention as much as underlying topography. DC not included (source omits it).",
+        "trivia": "Utah's dry climate and thick sedimentary rock layers make it the canyon-country capital of the U.S., with more named canyons than any other state.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "UT",
+            "value": "6,240 canyons"
+          },
+          {
+            "rank": 2,
+            "code": "AZ",
+            "value": "5,470 canyons"
+          },
+          {
+            "rank": 3,
+            "code": "CA",
+            "value": "5,010 canyons"
+          },
+          {
+            "rank": 4,
+            "code": "NM",
+            "value": "4,830 canyons"
+          },
+          {
+            "rank": 5,
+            "code": "TX",
+            "value": "3,970 canyons"
+          },
+          {
+            "rank": 6,
+            "code": "CO",
+            "value": "3,720 canyons"
+          },
+          {
+            "rank": 7,
+            "code": "NV",
+            "value": "3,240 canyons"
+          },
+          {
+            "rank": 8,
+            "code": "WY",
+            "value": "1,940 canyons"
+          },
+          {
+            "rank": 9,
+            "code": "OR",
+            "value": "1,760 canyons"
+          },
+          {
+            "rank": 10,
+            "code": "ID",
+            "value": "1,690 canyons"
+          },
+          {
+            "rank": 11,
+            "code": "MT",
+            "value": "1,510 canyons"
+          },
+          {
+            "rank": 12,
+            "code": "OK",
+            "value": "1,180 canyons"
+          },
+          {
+            "rank": 13,
+            "code": "WA",
+            "value": "830 canyons"
+          },
+          {
+            "rank": 14,
+            "code": "SD",
+            "value": "620 canyons"
+          },
+          {
+            "rank": 15,
+            "code": "KS",
+            "value": "410 canyons"
+          },
+          {
+            "rank": 16,
+            "code": "NE",
+            "value": "345 canyons"
+          },
+          {
+            "rank": 17,
+            "code": "AK",
+            "value": "290 canyons"
+          },
+          {
+            "rank": 18,
+            "code": "ND",
+            "value": "245 canyons"
+          },
+          {
+            "rank": 19,
+            "code": "AR",
+            "value": "205 canyons"
+          },
+          {
+            "rank": 20,
+            "code": "MO",
+            "value": "170 canyons"
+          },
+          {
+            "rank": 21,
+            "code": "IA",
+            "value": "140 canyons"
+          },
+          {
+            "rank": 22,
+            "code": "KY",
+            "value": "115 canyons"
+          },
+          {
+            "rank": 23,
+            "code": "TN",
+            "value": "95 canyons"
+          },
+          {
+            "rank": 24,
+            "code": "WV",
+            "value": "78 canyons"
+          },
+          {
+            "rank": 25,
+            "code": "PA",
+            "value": "64 canyons"
+          },
+          {
+            "rank": 26,
+            "code": "VA",
+            "value": "52 canyons"
+          },
+          {
+            "rank": 27,
+            "code": "NY",
+            "value": "42 canyons"
+          },
+          {
+            "rank": 28,
+            "code": "GA",
+            "value": "34 canyons"
+          },
+          {
+            "rank": 29,
+            "code": "AL",
+            "value": "28 canyons"
+          },
+          {
+            "rank": 30,
+            "code": "NC",
+            "value": "23 canyons"
+          },
+          {
+            "rank": 31,
+            "code": "MN",
+            "value": "19 canyons"
+          },
+          {
+            "rank": 32,
+            "code": "WI",
+            "value": "16 canyons"
+          },
+          {
+            "rank": 33,
+            "code": "OH",
+            "value": "13 canyons"
+          },
+          {
+            "rank": 34,
+            "code": "IL",
+            "value": "10 canyons"
+          },
+          {
+            "rank": 35,
+            "code": "IN",
+            "value": "8 canyons"
+          },
+          {
+            "rank": 36,
+            "code": "MI",
+            "value": "7 canyons"
+          },
+          {
+            "rank": 37,
+            "code": "HI",
+            "value": "6 canyons"
+          },
+          {
+            "rank": 38,
+            "code": "SC",
+            "value": "5 canyons"
+          },
+          {
+            "rank": 39,
+            "code": "MS",
+            "value": "4 canyons"
+          },
+          {
+            "rank": 40,
+            "code": "ME",
+            "value": "3 canyons"
+          },
+          {
+            "rank": 41,
+            "code": "NH",
+            "value": "2 canyons"
+          },
+          {
+            "rank": 41,
+            "code": "VT",
+            "value": "2 canyons (tied)"
+          },
+          {
+            "rank": 43,
+            "code": "MA",
+            "value": "1 canyon"
+          }
+        ],
+        "seededDepth": 43,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "disclaimer-issue",
+          "detail": "Source cites 'USGS GNIS feature class Valley filtered to canyon names', but GNIS uses feature class 'Valley' as the parent class for canyons/gulches/ravines/hollows \u2014 filtering by name substring 'Canyon' inside 'Valley' is one valid approach, but the disclaimer note ('Reflects naming convention as much as underlying topography') is fine. Minor: rank 42 (VT) & 41 (NH) both '2 canyons' with no tie marker.",
+          "severity": "low"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-named-peaks-over-5-000-ft-2023",
+      "current": {
+        "title": "Most Named Peaks Over 5,000 ft",
+        "prompt": "Name the US states with the most named summits above 5,000 feet in elevation.",
+        "disclaimer": "Named summits above 5,000 ft (1,524 m) with recognized names in Peakbagger's state databases. Elevation cutoff is fixed, not prominence-adjusted. DC not included (source omits it).",
+        "trivia": "Colorado's 5,000-ft threshold catches essentially every named peak in the state \u2014 its lowest point (the Arikaree River) sits at 3,317 ft.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CO",
+            "value": "5,281 peaks"
+          },
+          {
+            "rank": 2,
+            "code": "NV",
+            "value": "4,140 peaks"
+          },
+          {
+            "rank": 3,
+            "code": "CA",
+            "value": "3,981 peaks"
+          },
+          {
+            "rank": 4,
+            "code": "AZ",
+            "value": "3,650 peaks"
+          },
+          {
+            "rank": 5,
+            "code": "NM",
+            "value": "3,470 peaks"
+          },
+          {
+            "rank": 6,
+            "code": "UT",
+            "value": "3,321 peaks"
+          },
+          {
+            "rank": 7,
+            "code": "ID",
+            "value": "3,215 peaks"
+          },
+          {
+            "rank": 8,
+            "code": "WY",
+            "value": "2,940 peaks"
+          },
+          {
+            "rank": 9,
+            "code": "MT",
+            "value": "2,510 peaks"
+          },
+          {
+            "rank": 10,
+            "code": "OR",
+            "value": "1,712 peaks"
+          },
+          {
+            "rank": 11,
+            "code": "WA",
+            "value": "1,588 peaks"
+          },
+          {
+            "rank": 12,
+            "code": "AK",
+            "value": "1,320 peaks"
+          },
+          {
+            "rank": 13,
+            "code": "HI",
+            "value": "82 peaks"
+          },
+          {
+            "rank": 14,
+            "code": "TX",
+            "value": "68 peaks"
+          },
+          {
+            "rank": 15,
+            "code": "SD",
+            "value": "42 peaks"
+          },
+          {
+            "rank": 16,
+            "code": "NC",
+            "value": "38 peaks"
+          },
+          {
+            "rank": 17,
+            "code": "TN",
+            "value": "24 peaks"
+          },
+          {
+            "rank": 18,
+            "code": "NH",
+            "value": "18 peaks"
+          },
+          {
+            "rank": 19,
+            "code": "VA",
+            "value": "12 peaks"
+          },
+          {
+            "rank": 20,
+            "code": "WV",
+            "value": "8 peaks"
+          },
+          {
+            "rank": 21,
+            "code": "GA",
+            "value": "4 peaks"
+          },
+          {
+            "rank": 22,
+            "code": "NY",
+            "value": "3 peaks"
+          },
+          {
+            "rank": 23,
+            "code": "ME",
+            "value": "2 peaks"
+          },
+          {
+            "rank": 24,
+            "code": "OK",
+            "value": "1 peak"
+          }
+        ],
+        "seededDepth": 24,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "CO=5,281 peaks is identical to CO=5,281 summits reported in the sibling 'Most Named Mountain Peaks' question (all GNIS summits regardless of elevation). It's implausible that 100% of Colorado's GNIS-named summits are above 5,000 ft \u2014 value appears copied from the other question rather than filtered by elevation.",
+          "severity": "high"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-national-parks-2024",
+      "current": {
+        "title": "Most National Parks",
+        "prompt": "Rank the US states by number of designated National Parks (NPS 'National Park' designation only \u2014 not the 400+ broader NPS units).",
+        "disclaimer": "'National Park' is a specific NPS designation \u2014 the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. Excludes national monuments, historic sites, seashores, and recreation areas. DC not included (source omits it).",
+        "trivia": "California leads with 9 parks, followed by Alaska with 8. Utah's 'Mighty 5' (Arches, Bryce, Canyonlands, Capitol Reef, Zion) all sit within a few hours' drive of each other.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "CA",
+            "value": "9 National Parks"
+          },
+          {
+            "rank": 2,
+            "code": "AK",
+            "value": "8 National Parks"
+          },
+          {
+            "rank": 3,
+            "code": "UT",
+            "value": "5 National Parks (Mighty 5)"
+          },
+          {
+            "rank": 4,
+            "code": "CO",
+            "value": "4 National Parks"
+          },
+          {
+            "rank": 5,
+            "code": "WA",
+            "value": "3 National Parks"
+          },
+          {
+            "rank": 5,
+            "code": "AZ",
+            "value": "3 National Parks (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "FL",
+            "value": "3 National Parks (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "MT",
+            "value": "2 National Parks"
+          },
+          {
+            "rank": 8,
+            "code": "WY",
+            "value": "2 National Parks (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "HI",
+            "value": "2 National Parks (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "TX",
+            "value": "2 National Parks (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "SD",
+            "value": "2 National Parks (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "TN",
+            "value": "1 National Park (Great Smoky, tied w/ NC)"
+          },
+          {
+            "rank": 13,
+            "code": "NC",
+            "value": "1 National Park (Great Smoky, tied w/ TN) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "OR",
+            "value": "1 National Park (Crater Lake) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NM",
+            "value": "1 National Park (Carlsbad Caverns) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NV",
+            "value": "1 National Park (Great Basin) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "ND",
+            "value": "1 National Park (Theodore Roosevelt) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "AR",
+            "value": "1 National Park (Hot Springs) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "KY",
+            "value": "1 National Park (Mammoth Cave) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "OH",
+            "value": "1 National Park (Cuyahoga Valley) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "MI",
+            "value": "1 National Park (Isle Royale) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "MN",
+            "value": "1 National Park (Voyageurs) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "ME",
+            "value": "1 National Park (Acadia) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "VA",
+            "value": "1 National Park (Shenandoah) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "WV",
+            "value": "1 National Park (New River Gorge) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "SC",
+            "value": "1 National Park (Congaree) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "IN",
+            "value": "1 National Park (Indiana Dunes) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "MO",
+            "value": "1 National Park (Gateway Arch) (tied)"
+          }
+        ],
+        "seededDepth": 29,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "bucket-value",
+          "detail": "Rank 13 and rank 16 both bucket states with '1 National Park' \u2014 TN, NC, OR at rank 13 but NM, NV, ND, AR, KY, OH, MI, MN, ME, VA, WV, SC, IN, MO at rank 16. All have the same count (1). Either all should be tied at rank 13 (jumping to rank 16 for next distinct value), or none should be. Also TN/NC share Great Smoky (single park spanning two states) \u2014 the 'tied w/ NC'/'tied w/ TN' annotation is inconsistent with treating each state as having 1 park independently.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+      "current": {
+        "title": "Most Sunshine Hours Per Year",
+        "prompt": "Rank the US states by average annual sunshine hours (statewide average).",
+        "disclaimer": "Statewide averages derived from NOAA/NWS first-order station normals. Some states are averaged across multiple reporting stations. Includes Washington DC.",
+        "trivia": "Yuma, Arizona records sun during roughly 90% of daylight hours annually \u2014 the sunniest place in the contiguous United States.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AZ",
+            "value": "3,806 hrs/yr"
+          },
+          {
+            "rank": 2,
+            "code": "NV",
+            "value": "3,568 hrs/yr"
+          },
+          {
+            "rank": 3,
+            "code": "NM",
+            "value": "3,415 hrs/yr"
+          },
+          {
+            "rank": 4,
+            "code": "TX",
+            "value": "3,320 hrs/yr"
+          },
+          {
+            "rank": 5,
+            "code": "CA",
+            "value": "3,254 hrs/yr"
+          },
+          {
+            "rank": 6,
+            "code": "CO",
+            "value": "3,106 hrs/yr"
+          },
+          {
+            "rank": 7,
+            "code": "FL",
+            "value": "2,927 hrs/yr"
+          },
+          {
+            "rank": 8,
+            "code": "OK",
+            "value": "2,900 hrs/yr"
+          },
+          {
+            "rank": 9,
+            "code": "KS",
+            "value": "2,865 hrs/yr"
+          },
+          {
+            "rank": 10,
+            "code": "UT",
+            "value": "2,850 hrs/yr"
+          },
+          {
+            "rank": 11,
+            "code": "HI",
+            "value": "2,835 hrs/yr"
+          },
+          {
+            "rank": 12,
+            "code": "WY",
+            "value": "2,810 hrs/yr"
+          },
+          {
+            "rank": 13,
+            "code": "MT",
+            "value": "2,700 hrs/yr"
+          },
+          {
+            "rank": 14,
+            "code": "SD",
+            "value": "2,680 hrs/yr"
+          },
+          {
+            "rank": 15,
+            "code": "GA",
+            "value": "2,634 hrs/yr"
+          },
+          {
+            "rank": 16,
+            "code": "NE",
+            "value": "2,614 hrs/yr"
+          },
+          {
+            "rank": 17,
+            "code": "AR",
+            "value": "2,590 hrs/yr"
+          },
+          {
+            "rank": 18,
+            "code": "AL",
+            "value": "2,570 hrs/yr"
+          },
+          {
+            "rank": 19,
+            "code": "SC",
+            "value": "2,565 hrs/yr"
+          },
+          {
+            "rank": 20,
+            "code": "MS",
+            "value": "2,540 hrs/yr"
+          },
+          {
+            "rank": 21,
+            "code": "LA",
+            "value": "2,500 hrs/yr"
+          },
+          {
+            "rank": 22,
+            "code": "NC",
+            "value": "2,490 hrs/yr"
+          },
+          {
+            "rank": 23,
+            "code": "ND",
+            "value": "2,480 hrs/yr"
+          },
+          {
+            "rank": 24,
+            "code": "VA",
+            "value": "2,470 hrs/yr"
+          },
+          {
+            "rank": 25,
+            "code": "IA",
+            "value": "2,460 hrs/yr"
+          },
+          {
+            "rank": 26,
+            "code": "TN",
+            "value": "2,440 hrs/yr"
+          },
+          {
+            "rank": 27,
+            "code": "MN",
+            "value": "2,430 hrs/yr"
+          },
+          {
+            "rank": 28,
+            "code": "MO",
+            "value": "2,420 hrs/yr"
+          },
+          {
+            "rank": 29,
+            "code": "ID",
+            "value": "2,400 hrs/yr"
+          },
+          {
+            "rank": 30,
+            "code": "IL",
+            "value": "2,380 hrs/yr"
+          },
+          {
+            "rank": 31,
+            "code": "DE",
+            "value": "2,370 hrs/yr"
+          },
+          {
+            "rank": 32,
+            "code": "MD",
+            "value": "2,360 hrs/yr"
+          },
+          {
+            "rank": 33,
+            "code": "NJ",
+            "value": "2,350 hrs/yr"
+          },
+          {
+            "rank": 34,
+            "code": "KY",
+            "value": "2,330 hrs/yr"
+          },
+          {
+            "rank": 35,
+            "code": "WI",
+            "value": "2,320 hrs/yr"
+          },
+          {
+            "rank": 36,
+            "code": "IN",
+            "value": "2,310 hrs/yr"
+          },
+          {
+            "rank": 37,
+            "code": "DC",
+            "value": "2,300 hrs/yr"
+          },
+          {
+            "rank": 38,
+            "code": "CT",
+            "value": "2,280 hrs/yr"
+          },
+          {
+            "rank": 39,
+            "code": "MA",
+            "value": "2,270 hrs/yr"
+          },
+          {
+            "rank": 40,
+            "code": "RI",
+            "value": "2,260 hrs/yr"
+          },
+          {
+            "rank": 41,
+            "code": "NY",
+            "value": "2,220 hrs/yr"
+          },
+          {
+            "rank": 42,
+            "code": "OH",
+            "value": "2,180 hrs/yr"
+          },
+          {
+            "rank": 43,
+            "code": "PA",
+            "value": "2,150 hrs/yr"
+          },
+          {
+            "rank": 44,
+            "code": "WV",
+            "value": "2,120 hrs/yr"
+          },
+          {
+            "rank": 45,
+            "code": "NH",
+            "value": "2,100 hrs/yr"
+          },
+          {
+            "rank": 46,
+            "code": "ME",
+            "value": "2,090 hrs/yr"
+          },
+          {
+            "rank": 47,
+            "code": "MI",
+            "value": "2,050 hrs/yr"
+          },
+          {
+            "rank": 48,
+            "code": "VT",
+            "value": "2,030 hrs/yr"
+          },
+          {
+            "rank": 49,
+            "code": "OR",
+            "value": "1,980 hrs/yr"
+          },
+          {
+            "rank": 50,
+            "code": "WA",
+            "value": "1,920 hrs/yr"
+          },
+          {
+            "rank": 51,
+            "code": "AK",
+            "value": "1,845 hrs/yr"
+          }
+        ],
+        "seededDepth": 51,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "Values look like single-station highs (e.g. Yuma AZ) rather than statewide averages as claimed. AZ 3,806 hrs/yr matches Yuma specifically; statewide AZ average is far lower. HI at 2,835 is also too low for a headline sunshine metric if truly statewide. Prompt/disclaimer says 'statewide average', but figures appear to be first-order station bests, not state means.",
+          "severity": "medium"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-crossed-by-the-continental-divide-2024",
+      "current": {
+        "title": "States Crossed by the Continental Divide",
+        "prompt": "Name the US states through which the Great (Continental) Divide of the Americas runs.",
+        "disclaimer": "The Continental Divide separates Pacific-draining watersheds from Atlantic/Gulf-draining watersheds. In the US, it runs through five contiguous states plus Alaska. DC not included (topic is state-scoped).",
+        "trivia": "The divide enters the US at Glacier National Park and exits at the New Mexico\u2013Mexico border; it also crosses Alaska via the Brooks Range.",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MT",
+            "value": "on divide"
+          },
+          {
+            "rank": 2,
+            "code": "ID",
+            "value": "on divide"
+          },
+          {
+            "rank": 3,
+            "code": "WY",
+            "value": "on divide"
+          },
+          {
+            "rank": 4,
+            "code": "CO",
+            "value": "on divide"
+          },
+          {
+            "rank": 5,
+            "code": "NM",
+            "value": "on divide"
+          },
+          {
+            "rank": 6,
+            "code": "AK",
+            "value": "on divide (Brooks Range)"
+          }
+        ],
+        "seededDepth": 6,
+        "theme": "US States",
+        "subtheme": "US States - Geography",
+        "answerType": "US States"
+      },
+      "findings": [
+        {
+          "issue": "fact-error",
+          "detail": "AK listed as on the Continental Divide of the Americas (Brooks Range). The Continental Divide of the Americas as commonly defined ends at Cape Prince of Wales area; the Brooks Range hosts the Arctic Divide, not the Continental Divide of the Americas. Disclaimer even acknowledges 'five contiguous states plus Alaska' \u2014 inconsistent framing.",
+          "severity": "medium"
+        }
+      ]
+    }
+  ]
+}

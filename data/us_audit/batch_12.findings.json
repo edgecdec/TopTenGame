@@ -1,0 +1,273 @@
+{
+  "batch": 12,
+  "findings": [
+    {
+      "id": "us-states-infrastructure-most-registered-general-aviation-aircraft-2022",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 5 OH (6,700) < rank 6 WA (7,900). WA belongs at rank 5 and OH at rank 6."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 45 HI (900) vs rank 46 WV (900) is a true tie but not marked '(tied)'."
+        },
+        {
+          "type": "false-tie",
+          "detail": "Rank 36 NV and rank 37 NE both 1,900 aircraft — true tie but neither marked '(tied)'. Same for rank 39 MT / rank 40 NM (both 1,700), rank 41 NH / rank 42 ME (both 1,300), rank 43 SD / rank 44 ND (both 1,200)."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-share-of-structurally-deficient-bridges-2022",
+      "flags": [
+        {
+          "type": "inverse-candidate",
+          "detail": "'Highest share of structurally deficient bridges' is inherently a 'worst-of' framing; consider pairing with an inverse (lowest share) if not already covered."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-high-hazard-potential-dams-2023",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Massive sort disorder from rank 4 onward. Rank 4 GA (620) < rank 5 MO (710); rank 5 MO (710) tied with rank 13 CA (710) but placed apart; rank 8 NJ (230) < rank 9 MA (310) < rank 10 VA (370) < rank 11 OK (480) < rank 12 CO (410) < rank 13 CA (710). Many other inversions throughout (rank 14 NY 410, rank 15 TN 440, etc.). Ranks and values are not consistent — full re-sort required."
+        },
+        {
+          "type": "false-tie",
+          "detail": "MO (710) and CA (710) are a true tie but placed at ranks 5 and 13 respectively; not marked."
+        },
+        {
+          "type": "false-tie",
+          "detail": "Multiple untagged ties: NJ/AL (230), AR/CT (180), OR/WV (160), MT/ID (90), LA/FL (70), SD/ND (60), VT/WY (50), RI/HI (20), DE/AK (10)."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-public-transit-ridership-per-capita-2022",
+      "flags": [
+        {
+          "type": "value-format-mix",
+          "detail": "Singular/plural inconsistency: rank 45 MT '1 trips', rank 46 ND '1 trips (tied)', etc. Should be '1 trip' for singular value."
+        },
+        {
+          "type": "false-tie",
+          "detail": "WA (rank 8) and PA (rank 9) both 27 trips — WA is not tagged '(tied)' but PA is; tag both or neither."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-highest-average-gasoline-price-2024",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 9 UT ($3.53) < rank 10 IL ($3.68). IL should be higher-ranked than UT."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 11 NY ($3.42) < rank 12 PA ($3.51). PA should be higher-ranked."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 13 DC ($3.48) > rank 14 MT ($3.35) is OK, but rank 14 MT ($3.35) < rank 15 MI ($3.38). Multiple minor inversions through the middle ranks."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 51 CO ($3.24) is placed at the tail (lowest) but $3.24 is higher than 26+ states above it. CO belongs near rank 17. Major synthesized-tail-style anomaly."
+        }
+      ]
+    },
+    {
+      "id": "us-states-infrastructure-most-freight-rail-miles-2022",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Pervasive sort disorder. Rank 4 KS (4,700) < rank 5 OH (5,100). Rank 7 IA (3,700) < rank 8 MO (3,900) < rank 9 GA (4,600) < rank 10 IN (4,000) < rank 11 PA (4,900). Numerous other inversions — sort by value is broken from rank 4 onward."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 50 HI (0 miles) < rank 51 DC (30 miles). DC should not be last if HI has fewer miles."
+        },
+        {
+          "type": "false-tie",
+          "detail": "NE (3,300) and WI (3,300) at ranks 12 and 15 — true tie, not adjacent, not tagged. OK (3,200) and NY (3,200) at ranks 13-14 — true tie, not tagged."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-national-historic-landmarks-2024",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 22 FL (44), rank 24 IN (38), rank 26 ME (43), rank 27 RI (43), rank 31 AZ (44), rank 34 NM (45), rank 35 WI (40), rank 38 MS (40), rank 46 WY (27) all placed below states with lower values. Sort ordering is broken from rank ~20 onward."
+        },
+        {
+          "type": "false-tie",
+          "detail": "Ranks 7-9 MD/OH/SC all 76 — untagged. DC/ME/RI all 43 — untagged and placed at ranks 17/26/27. Multiple 44-value states (MI, FL, AZ) untagged. Multiple 40s (NC/WI/MS), 26s (MN/CO/IA/MT/KS), 18s (VT/AR/SD), 14s (UT/DE), 17s (OR/WV) all true ties, none tagged."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-national-natural-landmarks-2024",
+      "flags": [
+        {
+          "type": "false-tie",
+          "detail": "Numerous untagged ties: FL/IL/WA/WI all 18 (ranks 7-10); AK/MO/WV 16 (ranks 12-14); ME/NM/OR/VA 14 (ranks 15-18); AZ/KY/MI/MT 13 (ranks 19-22); NC/UT 12; GA/MA 11; MN/TN 10; AL/IA/MS/SC 9; NH/OK 8; AR/NJ/VT/WY 7; KS/LA/MD/NE 6; CT/HI/ID 5; ND/NV/SD 4."
+        },
+        {
+          "type": "value-format-mix",
+          "detail": "Rank 51 DC uses singular 'landmark' while all others use 'landmarks'. Consistent, but note the discrepancy."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-highest-peak-inside-a-national-park-2024",
+      "flags": [
+        {
+          "type": "prompt-ambiguous",
+          "detail": "seededDepth=30 but ranking is capped at 30; states without a National Park cannot be ranked. Prompt/disclaimer states DC excluded (OK), but many state entries reference NHPs (New Bedford Whaling NHP), Congaree NP 'low', Gateway Arch NP 'low', Everglades NP 'low', Katahdin explicitly noted 'not NP'. These are not 'peaks inside a National Park' — data does not satisfy prompt."
+        },
+        {
+          "type": "fact-error",
+          "detail": "Rank 15 ME 'Katahdin, ... note not NP' — Katahdin is in Baxter State Park, not a National Park. Should not be included."
+        },
+        {
+          "type": "fact-error",
+          "detail": "Rank 16 NM 'Cerro Grande, ... Carlsbad rim' — Cerro Grande is at Bandelier National Monument, not Carlsbad Caverns NP. Guadalupe Peak-adjacent NM point is not this."
+        },
+        {
+          "type": "fact-error",
+          "detail": "Rank 21 AR '1,405 ft (Music Mountain)' — Hot Springs NP high point is Music Mountain but elevation is ~1,405 ft; ordering vs rank 20 KY (1,200 ft) is inverted (AR should rank higher than KY)."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 19 VA (4,051) placed below rank 18 ND (2,855) is correct, but rank 25 SC (3,320) placed below rank 24 OH (1,138) is a major inversion. Rank 30 WV (4,863) at last is a huge inversion — WV would rank ~15. Multiple states with higher elevations (SC 3320, WV 4863, MO 1772, AR 1405) sorted incorrectly."
+        },
+        {
+          "type": "synthesized-tail",
+          "detail": "Entries appear fabricated for states without qualifying peaks: MA 'New Bedford Whaling NHP area' (NHP, not NP; not a peak), FL 'Britton Hill area, Everglades NP low', MO 'Taum Sauk area, Gateway Arch NP low', SC 'Sassafras Mountain area, Congaree NP low'. Prompt requires 'inside a National Park'; these do not qualify."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-fully-in-state-lake-by-surface-area-2024",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Pervasive sort disorder from rank 18 onward. Rank 18 NC (51) < rank 19 AR (62); rank 20 KS (25) < rank 21 MO (85) < rank 22 GA (59); rank 33 IN (16) < rank 34 OH (20) < rank 35 PA (13); rank 36 NH (72) vastly larger than surrounding entries; rank 40 ID (45) larger than rank 24 OR (56)-area entries; rank 47 CO (26), rank 48 WY (125) — WY 125 sq mi (Yellowstone Lake) would rank near ~16."
+        },
+        {
+          "type": "fact-error",
+          "detail": "Rank 48 WY 'Yellowstone Lake' — Yellowstone Lake is entirely in WY but 132 sq mi; placement at rank 48 with 125 sq mi is inconsistent with prompt/order."
+        },
+        {
+          "type": "bucket-value",
+          "detail": "Values like '62 sq mi (Bull Shoals in-state segment)' violate the 'excludes lakes that cross state or international borders' disclaimer — Bull Shoals crosses AR/MO."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-highest-forest-cover-percentage-2016",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 21 MN (34.4%) < rank 22 KY (48.4%) — KY should be higher. Rank 23 MD (39.9%) < rank 22 KY (48.4%) < rank 20 WI (49.6%): major disorder from rank 21 through ~40. Multiple states with 40-50% forested placed below states with 30% forested."
+        },
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 25 NJ (42.1%), rank 26 LA (48.5%), rank 28 OR (48.6%), rank 30 WA (51.4%), rank 40 HI (42.2%), rank 43 UT (34.3%), rank 51 DC (35.9%) — many high-percent entries placed at incorrect ranks. DC at 35.9% should be near rank 21-24, not last."
+        },
+        {
+          "type": "false-tie",
+          "detail": "VA (rank 9) and NY (rank 10) both 62.9% — true tie, not tagged."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-counties-or-county-equivalents-2024",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 27 ND (53) < rank 28 MT (56) < rank 29 CA (58) < rank 30 WV (55) — CA should precede MT and ND. Rank 35 SC (46) larger than rank 34 NM (33), rank 33 OR (36), rank 32 WA (39), rank 31 ID (44); SC belongs near rank 30-31. Rank 44 MA (14) and rank 47 VT (14) tied but split by ranks with fewer counties."
+        },
+        {
+          "type": "false-tie",
+          "detail": "AL (67, r20), PA (67, r21), FL (67, r22) all tied at 67 counties but not tagged. MA/VT both 14 (r44/r47) not tagged. HI/RI both 5 counties (r48/r49) not tagged."
+        },
+        {
+          "type": "value-format-mix",
+          "detail": "Values mix 'counties', 'county-equivalents', 'parishes', 'boroughs/census areas', 'planning regions' — allowed by disclaimer but the mixed unit strings make direct value comparison ambiguous."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-greatest-elevation-range-within-a-state-2024",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 18 VA (5,729) < rank 19 SD (5,857) — SD should be higher. Rank 22 VT (4,393) < rank 23 GA (4,784) < rank 25 OK (4,684) < rank 24 WV (4,623). Rank 28 AL (2,405) < rank 29 AR (2,698) < rank 30 PA (3,213) < rank 31 MD (3,360) < rank 32 KY (3,882) < rank 33 NE (5,164) — NE at 5,164 belongs near rank 20-21. Rank 37 MI (1,378) < rank 38 NJ (1,803) < rank 39 CT (2,380). Multiple sort inversions throughout the tail."
+        },
+        {
+          "type": "false-tie",
+          "detail": "MD (r31) and KS (r34) both 3,360 ft — true tie, not tagged."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-state-fair-by-attendance-2019",
+      "flags": [
+        {
+          "type": "false-tie",
+          "detail": "Rank 5 NY, 6 WI, 7 AZ all 1,000,000 — true 3-way tie, not tagged."
+        },
+        {
+          "type": "false-tie",
+          "detail": "Rank 14 FL, 15 NM both 500,000 — true tie, not tagged."
+        },
+        {
+          "type": "synthesized-tail",
+          "detail": "Many round-number values (200,000; 205,000; 210,000; 215,000; 220,000; 225,000; 228,000; 232,000; 245,000; 260,000; 302,000; 310,000) descending in perfect ~5K-10K increments strongly suggest synthesized/estimated values rather than reported attendance. States without official state fairs (CA rank 50 '0') is a placeholder — CA is legitimately no single state fair; DC noted."
+        },
+        {
+          "type": "disclaimer-issue",
+          "detail": "asOf '2019-2022 (varies by fair)' with individual figures is not verifiable against a single source; Wikipedia state-fair values vary widely by year."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-total-forest-land-area-acres-2016",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Rank 15 AR (19.0M) > rank 10 NC (19.0M) — true tie but placed apart. Rank 16 MS (19.0M) same. Rank 17 ME (17.5M) > rank 11 MN (17.0M) — ME should be higher-ranked than MN. Rank 20 NY (18.9M) belongs near rank 10-11. Rank 25 FL (17.2M), rank 28 AZ (18.9M), rank 29 CO (23.8M), rank 31 UT (18.3M) all vastly out of order — CO at 23.8M belongs near rank 5 (tied with GA/MT at 24). Massive sort inversion."
+        },
+        {
+          "type": "false-tie",
+          "detail": "GA (r4) and MT (r5) both 24.0M — MT marked '(tied)' but tie should be explicit for both. WA (r8) and ID (r7) both 22.0M — WA marked '(tied)'. MN (r11) and WI (r12) both 17.0M — WI marked '(tied)'. But NC/AR/MS all 19.0M — none tagged."
+        },
+        {
+          "type": "fact-error",
+          "detail": "CO forest area listed as 23.8M is higher than reported values in FIA (~22.6M). Also placement inconsistent — 23.8M would rank ~5, not 29."
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-wilderness-acreage-2023",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "detail": "Pervasive sort issues from rank 7 onward. Rank 7 CO (3,741,868) > rank 6 MT (3,443,038) — CO should be rank 6. Rank 9 WY (3,111,232) > rank 8 NM (1,720,206). Rank 12 FL (1,425,266) > rank 11 MN (816,048). Rank 13 NV (3,432,205) belongs near rank 6-7. Rank 17 GA (486,528) > rank 16 NC (111,891). Rank 39 HI (155,509) belongs much higher (~rank 17). Rank 26 NH (148,527) > rank 25 SC (60,681). Full re-sort required."
+        },
+        {
+          "type": "synthesized-tail",
+          "detail": "Rank 43 is missing (jumps from 42 NY to 44 IN). Also acreage values e.g., OH '77 acres', NY '1,363 acres', MA '2,420 acres' at mid-tail while HI '155,509 acres' at rank 39 confirms ordering is broken. Disclaimer says CT, DE, IA, KS, MD, RI have zero — ranks 46-51 list those states as 0, consistent, but included states with 0 alongside means overall depth includes zero-acre states."
+        },
+        {
+          "type": "disclaimer-issue",
+          "detail": "seededDepth=50 but answers array contains 50 entries with rank 43 skipped (42 then 44). Numbering inconsistency."
+        }
+      ]
+    }
+  ]
+}

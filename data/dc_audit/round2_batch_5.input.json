@@ -1,0 +1,145 @@
+{
+  "batch": 5,
+  "questions": [
+    {
+      "id": "us-states-environment-highest-nuclear-share-of-electricity-2023",
+      "title": "Highest Nuclear Share of Electricity",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Share of net in-state generation from nuclear power reactors.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-environment-most-total-electricity-generated-2023",
+      "title": "Most Total Electricity Generated",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Total net electricity generation from all fuels (utility-scale + small-scale) measured in terawatt-hours (TWh).",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-environment-most-superfund-npl-sites-2024",
+      "title": "Most Superfund NPL Sites",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Counts current and proposed final NPL sites; excludes deleted sites and federal facilities may be listed separately by some tallies.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-environment-most-wind-turbines-2024",
+      "title": "Most Wind Turbines",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Counts operating utility-scale (>=100 kW) turbines only; excludes small distributed and residential turbines.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-environment-most-electric-vehicle-registrations-2023",
+      "title": "Most Electric Vehicle Registrations",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Counts light-duty battery-electric vehicles registered in the state; excludes plug-in hybrids in some tallies.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-food-agriculture-highest-egg-production-2023",
+      "title": "Highest Egg Production",
+      "subtheme": "US States - Food & Agriculture",
+      "current_disclaimer": "Total table + hatching eggs from layers; measured in millions of eggs annually.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-food-agriculture-highest-milk-production-2023",
+      "title": "Highest Milk Production",
+      "subtheme": "US States - Food & Agriculture",
+      "current_disclaimer": "Total cow's milk production; measured in pounds annually.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-food-agriculture-highest-broiler-chicken-production-2023",
+      "title": "Highest Broiler Chicken Production",
+      "subtheme": "US States - Food & Agriculture",
+      "current_disclaimer": "Broilers are meat chickens; measured in pounds of live weight produced annually.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-food-agriculture-highest-turkey-production-2023",
+      "title": "Highest Turkey Production",
+      "subtheme": "US States - Food & Agriculture",
+      "current_disclaimer": "Number of turkeys raised annually.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-food-agriculture-highest-honey-production-2023",
+      "title": "Highest Honey Production",
+      "subtheme": "US States - Food & Agriculture",
+      "current_disclaimer": "Honey production from colonies with 5 or more hives; measured in pounds.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-food-agriculture-highest-maple-syrup-production-2023",
+      "title": "Highest Maple Syrup Production",
+      "subtheme": "US States - Food & Agriculture",
+      "current_disclaimer": "Finished maple syrup, standard density; measured in gallons.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-infrastructure-most-toll-road-mileage-2022",
+      "title": "Most Toll Road Mileage",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Miles of public toll roads (mainline toll facilities). Excludes toll bridges and tunnels reported separately.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-infrastructure-most-traffic-fatalities-total-2022",
+      "title": "Most Traffic Fatalities (Total)",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Absolute counts, not adjusted for population or vehicle miles traveled.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-highest-traffic-fatality-rate-per-100m-vmt-2021",
+      "title": "Highest Traffic Fatality Rate per 100M VMT",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Deaths per 100 million VMT normalizes for how much driving each state actually does.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-longest-average-commute-time-2022",
+      "title": "Longest Average Commute Time",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Mean travel time to work (minutes), one-way, workers age 16+.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-highest-bike-to-work-share-2022",
+      "title": "Highest Bike-to-Work Share",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Share of workers age 16+ whose primary means of commuting is bicycle.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-highest-walk-to-work-share-2022",
+      "title": "Highest Walk-to-Work Share",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Share of workers age 16+ whose primary commute mode is walking.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-most-registered-motor-vehicles-2022",
+      "title": "Most Registered Motor Vehicles",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "All registered motor vehicles, including personal, commercial, and government fleets.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-most-ev-charging-station-locations-2024",
+      "title": "Most EV Charging Station Locations",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Distinct public charging station locations (any level, any port count). Private/residential chargers excluded.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-infrastructure-most-registered-general-aviation-aircraft-2022",
+      "title": "Most Registered General Aviation Aircraft",
+      "subtheme": "US States - Infrastructure",
+      "current_disclaimer": "Civil aircraft registered to owners with in-state addresses. Excludes commercial airline fleets registered at corporate HQ addresses.",
+      "has_dc": true
+    }
+  ]
+}

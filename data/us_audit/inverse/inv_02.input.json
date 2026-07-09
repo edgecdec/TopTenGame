@@ -1,0 +1,279 @@
+{
+  "cluster": "us-inverse-02",
+  "source_question": {
+    "id": "us-states-demographics-largest-black-or-african-american-population-share-2022",
+    "theme": "US States",
+    "subtheme": "US States - Demographics",
+    "title": "Largest Black or African American Population Share",
+    "prompt": "Which US states have the largest Black or African American population share?",
+    "answerType": "US States",
+    "seededDepth": 51,
+    "source": {
+      "name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B02001)",
+      "url": "https://data.census.gov/table?q=B02001",
+      "asOf": "2022"
+    },
+    "note": "Black or African American alone; DC included per ACS reporting.",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DC",
+        "value": "41.4%"
+      },
+      {
+        "rank": 2,
+        "code": "MS",
+        "value": "36.6%"
+      },
+      {
+        "rank": 3,
+        "code": "LA",
+        "value": "31.4%"
+      },
+      {
+        "rank": 4,
+        "code": "GA",
+        "value": "30.7%"
+      },
+      {
+        "rank": 5,
+        "code": "MD",
+        "value": "29.5%"
+      },
+      {
+        "rank": 6,
+        "code": "AL",
+        "value": "25.6%"
+      },
+      {
+        "rank": 7,
+        "code": "SC",
+        "value": "25.0%"
+      },
+      {
+        "rank": 8,
+        "code": "DE",
+        "value": "21.6%"
+      },
+      {
+        "rank": 9,
+        "code": "NC",
+        "value": "20.5%"
+      },
+      {
+        "rank": 10,
+        "code": "VA",
+        "value": "18.6%"
+      },
+      {
+        "rank": 11,
+        "code": "TN",
+        "value": "16.3%"
+      },
+      {
+        "rank": 12,
+        "code": "AR",
+        "value": "15.1%"
+      },
+      {
+        "rank": 12,
+        "code": "FL",
+        "value": "15.1% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "NY",
+        "value": "14.1%"
+      },
+      {
+        "rank": 15,
+        "code": "IL",
+        "value": "13.9%"
+      },
+      {
+        "rank": 16,
+        "code": "MI",
+        "value": "13.6%"
+      },
+      {
+        "rank": 17,
+        "code": "NJ",
+        "value": "12.6%"
+      },
+      {
+        "rank": 18,
+        "code": "OH",
+        "value": "12.1%"
+      },
+      {
+        "rank": 19,
+        "code": "TX",
+        "value": "11.8%"
+      },
+      {
+        "rank": 20,
+        "code": "MO",
+        "value": "11.4%"
+      },
+      {
+        "rank": 21,
+        "code": "PA",
+        "value": "10.8%"
+      },
+      {
+        "rank": 22,
+        "code": "CT",
+        "value": "10.5%"
+      },
+      {
+        "rank": 23,
+        "code": "NV",
+        "value": "9.9%"
+      },
+      {
+        "rank": 24,
+        "code": "IN",
+        "value": "9.5%"
+      },
+      {
+        "rank": 25,
+        "code": "KY",
+        "value": "8.1%"
+      },
+      {
+        "rank": 26,
+        "code": "MA",
+        "value": "7.5%"
+      },
+      {
+        "rank": 27,
+        "code": "OK",
+        "value": "7.3%"
+      },
+      {
+        "rank": 28,
+        "code": "MN",
+        "value": "6.9%"
+      },
+      {
+        "rank": 29,
+        "code": "WI",
+        "value": "6.4%"
+      },
+      {
+        "rank": 30,
+        "code": "KS",
+        "value": "5.7%"
+      },
+      {
+        "rank": 31,
+        "code": "RI",
+        "value": "5.6%"
+      },
+      {
+        "rank": 31,
+        "code": "CA",
+        "value": "5.6% (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "AZ",
+        "value": "4.9%"
+      },
+      {
+        "rank": 34,
+        "code": "NE",
+        "value": "4.8%"
+      },
+      {
+        "rank": 35,
+        "code": "CO",
+        "value": "4.2%"
+      },
+      {
+        "rank": 36,
+        "code": "IA",
+        "value": "4.1%"
+      },
+      {
+        "rank": 37,
+        "code": "WA",
+        "value": "4.0%"
+      },
+      {
+        "rank": 38,
+        "code": "WV",
+        "value": "3.6%"
+      },
+      {
+        "rank": 39,
+        "code": "ND",
+        "value": "3.4%"
+      },
+      {
+        "rank": 40,
+        "code": "AK",
+        "value": "3.2%"
+      },
+      {
+        "rank": 41,
+        "code": "NM",
+        "value": "2.6%"
+      },
+      {
+        "rank": 41,
+        "code": "SD",
+        "value": "2.6% (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "OR",
+        "value": "2.2%"
+      },
+      {
+        "rank": 44,
+        "code": "ME",
+        "value": "1.9%"
+      },
+      {
+        "rank": 45,
+        "code": "HI",
+        "value": "1.8%"
+      },
+      {
+        "rank": 45,
+        "code": "NH",
+        "value": "1.8% (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "UT",
+        "value": "1.5%"
+      },
+      {
+        "rank": 47,
+        "code": "VT",
+        "value": "1.5% (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "WY",
+        "value": "1.3%"
+      },
+      {
+        "rank": 50,
+        "code": "ID",
+        "value": "0.9%"
+      },
+      {
+        "rank": 51,
+        "code": "MT",
+        "value": "0.6%"
+      }
+    ],
+    "disclaimer": "Black or African American alone; DC included per ACS reporting.",
+    "trivia": null,
+    "asOfDate": "2022"
+  },
+  "note": "Covers 50+DC; inverse (lowest Black share \u2014 MT, ID, VT) is a natural companion."
+}

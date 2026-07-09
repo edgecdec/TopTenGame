@@ -1,0 +1,145 @@
+{
+  "batch": 4,
+  "questions": [
+    {
+      "id": "us-states-geography-most-named-sounds-2023",
+      "title": "Most Named Sounds",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts of GNIS features whose names include 'Sound' by state, covering marine straits between islands and mainland as well as broad estuarine passages.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-largest-peak-snowpack-swe-2010",
+      "title": "Largest Peak Snowpack (SWE)",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Average April 1 snow water equivalent across all SNOTEL sites in each state. April 1 is the traditional peak for the Western U.S. snowpack cycle.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-deep-dive-most-craft-distilleries-2023",
+      "title": "Most Craft Distilleries",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Count of DSP-licensed craft distilleries operating in each state (ACSA definition).",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-wineries-2023",
+      "title": "Most Wineries",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Bonded winery count includes all TTB-permitted winery premises, from major producers to boutique operations.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-deep-dive-most-farmers-markets-2023",
+      "title": "Most Farmers Markets",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Total count of currently listed farmers markets in the USDA Local Food Portal directory.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-highest-ev-share-of-new-vehicle-sales-2024",
+      "title": "Highest EV Share of New Vehicle Sales",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Battery-electric vehicles as share of new light-duty registrations; hybrids and plug-in hybrids excluded.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-wind-capacity-installed-2023",
+      "title": "Most Wind Capacity Installed",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Cumulative installed onshore + offshore wind nameplate capacity in gigawatts.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-deep-dive-highest-residential-electricity-price-2024",
+      "title": "Highest Residential Electricity Price",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Average residential retail price of electricity in cents per kilowatt-hour, all sectors annualized.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-zip-codes-2023",
+      "title": "Most ZIP Codes",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Total count includes standard, PO Box, unique (single-recipient) and military ZIP codes.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-licensed-drivers-2022",
+      "title": "Most Licensed Drivers",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Count of active licensed drivers (all classes) by state of residence, in millions.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-highest-firearm-death-rate-2022",
+      "title": "Highest Firearm Death Rate",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Deaths from all firearm-related injuries (suicide, homicide, accidental) per 100,000 residents, age-adjusted.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-bird-species-observed-2024",
+      "title": "Most Bird Species Observed",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Cumulative all-time count of species accepted on official state checklists.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-native-american-reservation-land-area-2023",
+      "title": "Most Native American Reservation Land Area",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Total federal trust and reservation acreage held for tribes and individuals; excludes Alaska Native Corporation lands (ANCSA) which have a different legal status.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-h-1b-approvals-2023",
+      "title": "Most H-1B Approvals",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Number of initial + continuing H-1B approvals for beneficiaries whose worksite is located in each state.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-pickleball-courts-2024",
+      "title": "Most Pickleball Courts",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Total known playable courts including dedicated pickleball courts and tennis/multi-use courts lined for pickleball.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-highest-dui-arrest-rate-2022",
+      "title": "Highest DUI Arrest Rate",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Driving-under-the-influence arrests per 100,000 residents. Rates reflect enforcement intensity and legal thresholds as much as underlying impaired-driving prevalence.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-environment-most-operating-nuclear-reactors-2024",
+      "title": "Most Operating Nuclear Reactors",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Counts operating commercial reactors licensed by the NRC; excludes research reactors and units in decommissioning.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-environment-highest-coal-share-of-electricity-generation-2023",
+      "title": "Highest Coal Share of Electricity Generation",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Share of total electricity generated within the state that comes from coal-fired power plants; excludes imported power.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-environment-highest-natural-gas-share-of-electricity-2023",
+      "title": "Highest Natural Gas Share of Electricity",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Share of in-state electricity generation from natural gas; excludes imports and behind-the-meter generation.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-environment-highest-hydropower-share-of-electricity-2023",
+      "title": "Highest Hydropower Share of Electricity",
+      "subtheme": "US States - Environment",
+      "current_disclaimer": "Conventional hydroelectric only; excludes pumped-storage hydro (which is net-consumer of electricity).",
+      "has_dc": false
+    }
+  ]
+}

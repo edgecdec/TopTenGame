@@ -1,0 +1,3250 @@
+{
+  "batch": 5,
+  "questions": [
+    {
+      "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+      "title": "States that touch a Great Lake",
+      "prompt": "Name the US states with a shoreline on one of the five Great Lakes.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 8,
+      "disclaimer": "Eight US states have a Great Lakes shoreline; the pool is exactly 8. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "NOAA \u2014 Great Lakes Coastal Information",
+        "url": "https://coast.noaa.gov/states/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MI",
+          "value": "4 Great Lakes (Superior, Michigan, Huron, Erie)"
+        },
+        {
+          "rank": 2,
+          "code": "WI",
+          "value": "2 Great Lakes (Superior, Michigan)"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "2 Great Lakes (Erie, Ontario, tied)"
+        },
+        {
+          "rank": 4,
+          "code": "OH",
+          "value": "1 Great Lake (Erie)"
+        },
+        {
+          "rank": 4,
+          "code": "IL",
+          "value": "1 Great Lake (Michigan, tied)"
+        },
+        {
+          "rank": 4,
+          "code": "IN",
+          "value": "1 Great Lake (Michigan, tied)"
+        },
+        {
+          "rank": 4,
+          "code": "MN",
+          "value": "1 Great Lake (Superior, tied)"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "1 Great Lake (Erie, tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+      "title": "States with the most active volcanoes",
+      "prompt": "Name the US states with the most active or potentially active volcanoes.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 13,
+      "disclaimer": "Includes volcanoes classified by USGS as historically active or potentially active. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 List of volcanoes in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_volcanoes_in_the_United_States",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "141 volcanoes"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "18 volcanoes"
+        },
+        {
+          "rank": 3,
+          "code": "OR",
+          "value": "17 volcanoes"
+        },
+        {
+          "rank": 4,
+          "code": "NV",
+          "value": "13 volcanoes"
+        },
+        {
+          "rank": 5,
+          "code": "NM",
+          "value": "12 volcanoes"
+        },
+        {
+          "rank": 6,
+          "code": "UT",
+          "value": "9 volcanoes"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "7 volcanoes"
+        },
+        {
+          "rank": 8,
+          "code": "ID",
+          "value": "6 volcanoes"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "5 volcanoes"
+        },
+        {
+          "rank": 10,
+          "code": "HI",
+          "value": "5 volcanoes (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "WY",
+          "value": "4 volcanoes (Yellowstone area)"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "3 volcanoes"
+        },
+        {
+          "rank": 13,
+          "code": "MT",
+          "value": "1 volcano"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-largest-desert-area-2024",
+      "title": "States with the largest desert area",
+      "prompt": "Name the US states with the most land area classified as desert.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 10,
+      "disclaimer": "Includes the Great Basin, Mojave, Sonoran, and Chihuahuan deserts. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 List of deserts by area",
+        "url": "https://en.wikipedia.org/wiki/List_of_deserts_by_area",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NV",
+          "value": "~87,000 sq mi desert"
+        },
+        {
+          "rank": 2,
+          "code": "AZ",
+          "value": "~85,000 sq mi desert"
+        },
+        {
+          "rank": 3,
+          "code": "CA",
+          "value": "~50,000 sq mi desert"
+        },
+        {
+          "rank": 4,
+          "code": "UT",
+          "value": "~48,000 sq mi desert"
+        },
+        {
+          "rank": 5,
+          "code": "NM",
+          "value": "~45,000 sq mi desert"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "~38,000 sq mi desert (Chihuahuan)"
+        },
+        {
+          "rank": 7,
+          "code": "OR",
+          "value": "~24,000 sq mi desert (Great Basin)"
+        },
+        {
+          "rank": 8,
+          "code": "ID",
+          "value": "~15,000 sq mi desert"
+        },
+        {
+          "rank": 9,
+          "code": "WY",
+          "value": "~9,000 sq mi desert (Red Desert)"
+        },
+        {
+          "rank": 10,
+          "code": "CO",
+          "value": "~3,000 sq mi desert"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-largest-wetlands-area-2024",
+      "title": "States with the largest wetlands area",
+      "prompt": "Name the US states with the greatest total wetland acreage.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 31,
+      "disclaimer": "Includes all classes of wetlands per NWI: freshwater, estuarine, and marine. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "US Fish & Wildlife Service \u2014 National Wetlands Inventory",
+        "url": "https://www.fws.gov/program/national-wetlands-inventory",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "~174 million acres"
+        },
+        {
+          "rank": 2,
+          "code": "FL",
+          "value": "~11.4 million acres"
+        },
+        {
+          "rank": 3,
+          "code": "LA",
+          "value": "~8.8 million acres"
+        },
+        {
+          "rank": 4,
+          "code": "MN",
+          "value": "~8.7 million acres"
+        },
+        {
+          "rank": 5,
+          "code": "TX",
+          "value": "~7.6 million acres"
+        },
+        {
+          "rank": 6,
+          "code": "NC",
+          "value": "~5.7 million acres"
+        },
+        {
+          "rank": 7,
+          "code": "MI",
+          "value": "~5.6 million acres"
+        },
+        {
+          "rank": 8,
+          "code": "WI",
+          "value": "~5.3 million acres"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "~5.3 million acres (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "ME",
+          "value": "~5.2 million acres"
+        },
+        {
+          "rank": 11,
+          "code": "SC",
+          "value": "~4.6 million acres"
+        },
+        {
+          "rank": 12,
+          "code": "MS",
+          "value": "~4.0 million acres"
+        },
+        {
+          "rank": 13,
+          "code": "AL",
+          "value": "~3.6 million acres"
+        },
+        {
+          "rank": 14,
+          "code": "AR",
+          "value": "~2.8 million acres"
+        },
+        {
+          "rank": 15,
+          "code": "ND",
+          "value": "~2.5 million acres"
+        },
+        {
+          "rank": 16,
+          "code": "NY",
+          "value": "~2.4 million acres"
+        },
+        {
+          "rank": 17,
+          "code": "NE",
+          "value": "~1.9 million acres"
+        },
+        {
+          "rank": 18,
+          "code": "SD",
+          "value": "~1.8 million acres"
+        },
+        {
+          "rank": 19,
+          "code": "OR",
+          "value": "~1.4 million acres"
+        },
+        {
+          "rank": 20,
+          "code": "WY",
+          "value": "~1.2 million acres"
+        },
+        {
+          "rank": 21,
+          "code": "VA",
+          "value": "~1.1 million acres"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "~1.0 million acres"
+        },
+        {
+          "rank": 23,
+          "code": "OK",
+          "value": "~949 thousand acres"
+        },
+        {
+          "rank": 24,
+          "code": "IL",
+          "value": "~940 thousand acres"
+        },
+        {
+          "rank": 25,
+          "code": "WA",
+          "value": "~938 thousand acres"
+        },
+        {
+          "rank": 26,
+          "code": "NJ",
+          "value": "~916 thousand acres"
+        },
+        {
+          "rank": 27,
+          "code": "MT",
+          "value": "~840 thousand acres"
+        },
+        {
+          "rank": 28,
+          "code": "TN",
+          "value": "~785 thousand acres"
+        },
+        {
+          "rank": 29,
+          "code": "MO",
+          "value": "~640 thousand acres"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "~640 thousand acres (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "KY",
+          "value": "~630 thousand acres"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-known-caves-2024",
+      "title": "States with the most known caves",
+      "prompt": "Name the US states with the greatest number of documented caves.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 50,
+      "disclaimer": "Counts documented caves per NSS state surveys; includes both wild and show caves. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "National Speleological Society \u2014 State Cave Counts",
+        "url": "https://caves.org/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TN",
+          "value": "~10,300 caves"
+        },
+        {
+          "rank": 2,
+          "code": "MO",
+          "value": "~7,500 caves"
+        },
+        {
+          "rank": 3,
+          "code": "AL",
+          "value": "~4,600 caves"
+        },
+        {
+          "rank": 4,
+          "code": "KY",
+          "value": "~4,400 caves"
+        },
+        {
+          "rank": 5,
+          "code": "VA",
+          "value": "~4,300 caves"
+        },
+        {
+          "rank": 5,
+          "code": "WV",
+          "value": "~4,300 caves (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "~3,200 caves"
+        },
+        {
+          "rank": 8,
+          "code": "IN",
+          "value": "~2,900 caves"
+        },
+        {
+          "rank": 9,
+          "code": "AR",
+          "value": "~2,000 caves"
+        },
+        {
+          "rank": 10,
+          "code": "PA",
+          "value": "~1,600 caves"
+        },
+        {
+          "rank": 11,
+          "code": "NM",
+          "value": "~700 caves"
+        },
+        {
+          "rank": 12,
+          "code": "GA",
+          "value": "~600 caves"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "~500 caves"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "~450 caves"
+        },
+        {
+          "rank": 15,
+          "code": "IL",
+          "value": "~400 caves"
+        },
+        {
+          "rank": 16,
+          "code": "OK",
+          "value": "~380 caves"
+        },
+        {
+          "rank": 17,
+          "code": "IA",
+          "value": "~350 caves"
+        },
+        {
+          "rank": 18,
+          "code": "WI",
+          "value": "~320 caves"
+        },
+        {
+          "rank": 19,
+          "code": "CA",
+          "value": "~300 caves"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "~280 caves"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "~250 caves"
+        },
+        {
+          "rank": 22,
+          "code": "MT",
+          "value": "~230 caves"
+        },
+        {
+          "rank": 23,
+          "code": "ID",
+          "value": "~220 caves"
+        },
+        {
+          "rank": 24,
+          "code": "WY",
+          "value": "~210 caves"
+        },
+        {
+          "rank": 25,
+          "code": "AZ",
+          "value": "~200 caves"
+        },
+        {
+          "rank": 26,
+          "code": "NV",
+          "value": "~180 caves"
+        },
+        {
+          "rank": 27,
+          "code": "UT",
+          "value": "~160 caves"
+        },
+        {
+          "rank": 28,
+          "code": "MN",
+          "value": "~150 caves"
+        },
+        {
+          "rank": 29,
+          "code": "CO",
+          "value": "~140 caves"
+        },
+        {
+          "rank": 30,
+          "code": "WA",
+          "value": "~130 caves"
+        },
+        {
+          "rank": 31,
+          "code": "SD",
+          "value": "~120 caves"
+        },
+        {
+          "rank": 32,
+          "code": "NC",
+          "value": "~110 caves"
+        },
+        {
+          "rank": 33,
+          "code": "MI",
+          "value": "~90 caves"
+        },
+        {
+          "rank": 34,
+          "code": "VT",
+          "value": "~80 caves"
+        },
+        {
+          "rank": 35,
+          "code": "AK",
+          "value": "~75 caves"
+        },
+        {
+          "rank": 36,
+          "code": "MS",
+          "value": "~70 caves"
+        },
+        {
+          "rank": 37,
+          "code": "SC",
+          "value": "~60 caves"
+        },
+        {
+          "rank": 38,
+          "code": "MA",
+          "value": "~55 caves"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "~50 caves"
+        },
+        {
+          "rank": 40,
+          "code": "ME",
+          "value": "~45 caves"
+        },
+        {
+          "rank": 41,
+          "code": "NE",
+          "value": "~40 caves"
+        },
+        {
+          "rank": 42,
+          "code": "MD",
+          "value": "~35 caves"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "~30 caves"
+        },
+        {
+          "rank": 44,
+          "code": "CT",
+          "value": "~25 caves"
+        },
+        {
+          "rank": 45,
+          "code": "NJ",
+          "value": "~20 caves"
+        },
+        {
+          "rank": 46,
+          "code": "KS",
+          "value": "~18 caves"
+        },
+        {
+          "rank": 47,
+          "code": "ND",
+          "value": "~12 caves"
+        },
+        {
+          "rank": 48,
+          "code": "LA",
+          "value": "~8 caves"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "~5 caves"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "~3 caves"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-longest-surveyed-cave-systems-2024",
+      "title": "States with the longest surveyed cave systems",
+      "prompt": "Name the US states that contain the world's longest surveyed cave systems.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 30,
+      "disclaimer": "Ranked by the longest single surveyed cave system located in each state. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 List of longest caves in the United States",
+        "url": "https://en.wikipedia.org/wiki/List_of_longest_caves_in_the_United_States",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "KY",
+          "value": "426 mi (Mammoth Cave)"
+        },
+        {
+          "rank": 2,
+          "code": "SD",
+          "value": "218 mi (Jewel Cave)"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "156 mi (Lechuguilla)"
+        },
+        {
+          "rank": 4,
+          "code": "WV",
+          "value": "44 mi (Friars Hole System)"
+        },
+        {
+          "rank": 5,
+          "code": "HI",
+          "value": "40 mi (Kazumura, lava tube)"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "38 mi (Honey Creek/Cave WSR)"
+        },
+        {
+          "rank": 7,
+          "code": "TN",
+          "value": "36 mi (Blue Spring Cave)"
+        },
+        {
+          "rank": 8,
+          "code": "WY",
+          "value": "35 mi (Great Expectations)"
+        },
+        {
+          "rank": 9,
+          "code": "PA",
+          "value": "22 mi (Laurel Caverns area)"
+        },
+        {
+          "rank": 9,
+          "code": "VA",
+          "value": "22 mi (Butler Cave, tied)"
+        },
+        {
+          "rank": 11,
+          "code": "AL",
+          "value": "20 mi (Fern Cave System)"
+        },
+        {
+          "rank": 12,
+          "code": "MO",
+          "value": "19 mi (Crevice Cave)"
+        },
+        {
+          "rank": 13,
+          "code": "AZ",
+          "value": "18 mi (Kartchner/Colossal)"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "16 mi (Binkley Cave)"
+        },
+        {
+          "rank": 15,
+          "code": "OK",
+          "value": "14 mi (Selman/Alabaster)"
+        },
+        {
+          "rank": 16,
+          "code": "MT",
+          "value": "13 mi (Bighorn Caverns)"
+        },
+        {
+          "rank": 17,
+          "code": "GA",
+          "value": "12 mi (Ellisons Cave)"
+        },
+        {
+          "rank": 18,
+          "code": "OH",
+          "value": "11 mi (Ohio Caverns system)"
+        },
+        {
+          "rank": 19,
+          "code": "AR",
+          "value": "10 mi (Fitton Cave)"
+        },
+        {
+          "rank": 20,
+          "code": "NY",
+          "value": "9 mi (McFails Cave)"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "8 mi (Groaning Cave)"
+        },
+        {
+          "rank": 22,
+          "code": "ID",
+          "value": "7 mi (Papoose Cave)"
+        },
+        {
+          "rank": 23,
+          "code": "CA",
+          "value": "7 mi (Lilburn Cave, tied)"
+        },
+        {
+          "rank": 24,
+          "code": "NV",
+          "value": "6 mi (Lehman Caves area)"
+        },
+        {
+          "rank": 25,
+          "code": "OR",
+          "value": "6 mi (Oregon Caves, tied)"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "5 mi (Coldwater Cave)"
+        },
+        {
+          "rank": 27,
+          "code": "IL",
+          "value": "4 mi (Fogelpole Cave)"
+        },
+        {
+          "rank": 28,
+          "code": "WA",
+          "value": "4 mi (Ape Cave, tied)"
+        },
+        {
+          "rank": 29,
+          "code": "MD",
+          "value": "3 mi (Crabtree Cave)"
+        },
+        {
+          "rank": 30,
+          "code": "VT",
+          "value": "3 mi (Morris Cave, tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-highest-average-elevation-2024",
+      "title": "States with the highest average elevation",
+      "prompt": "Name the US states with the highest average elevation above sea level.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Mean elevation is measured across the entire state land area, so terrain distribution matters more than the highest peak alone. Includes Washington DC.",
+      "source": {
+        "name": "USGS \u2014 Elevations and Distances in the United States",
+        "url": "https://pubs.usgs.gov/gip/Elevations-Distances/elvadist.html",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CO",
+          "value": "6,800 ft avg"
+        },
+        {
+          "rank": 2,
+          "code": "WY",
+          "value": "6,700 ft avg"
+        },
+        {
+          "rank": 3,
+          "code": "UT",
+          "value": "6,100 ft avg"
+        },
+        {
+          "rank": 4,
+          "code": "NM",
+          "value": "5,700 ft avg"
+        },
+        {
+          "rank": 5,
+          "code": "NV",
+          "value": "5,500 ft avg"
+        },
+        {
+          "rank": 6,
+          "code": "ID",
+          "value": "5,000 ft avg"
+        },
+        {
+          "rank": 7,
+          "code": "AZ",
+          "value": "4,100 ft avg"
+        },
+        {
+          "rank": 8,
+          "code": "MT",
+          "value": "3,400 ft avg"
+        },
+        {
+          "rank": 9,
+          "code": "OR",
+          "value": "3,300 ft avg"
+        },
+        {
+          "rank": 10,
+          "code": "HI",
+          "value": "3,030 ft avg"
+        },
+        {
+          "rank": 11,
+          "code": "CA",
+          "value": "2,900 ft avg"
+        },
+        {
+          "rank": 12,
+          "code": "NE",
+          "value": "2,600 ft avg"
+        },
+        {
+          "rank": 13,
+          "code": "SD",
+          "value": "2,200 ft avg"
+        },
+        {
+          "rank": 14,
+          "code": "KS",
+          "value": "2,000 ft avg"
+        },
+        {
+          "rank": 15,
+          "code": "ND",
+          "value": "1,900 ft avg"
+        },
+        {
+          "rank": 15,
+          "code": "AK",
+          "value": "1,900 ft avg (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "TX",
+          "value": "1,700 ft avg"
+        },
+        {
+          "rank": 17,
+          "code": "WA",
+          "value": "1,700 ft avg (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "WV",
+          "value": "1,500 ft avg"
+        },
+        {
+          "rank": 20,
+          "code": "OK",
+          "value": "1,300 ft avg"
+        },
+        {
+          "rank": 21,
+          "code": "MN",
+          "value": "1,200 ft avg"
+        },
+        {
+          "rank": 22,
+          "code": "PA",
+          "value": "1,100 ft avg"
+        },
+        {
+          "rank": 22,
+          "code": "IA",
+          "value": "1,100 ft avg (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "WI",
+          "value": "1,050 ft avg"
+        },
+        {
+          "rank": 25,
+          "code": "VT",
+          "value": "1,000 ft avg"
+        },
+        {
+          "rank": 25,
+          "code": "NH",
+          "value": "1,000 ft avg (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "NY",
+          "value": "1,000 ft avg (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "VA",
+          "value": "950 ft avg"
+        },
+        {
+          "rank": 29,
+          "code": "TN",
+          "value": "900 ft avg"
+        },
+        {
+          "rank": 29,
+          "code": "MI",
+          "value": "900 ft avg (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "OH",
+          "value": "850 ft avg"
+        },
+        {
+          "rank": 32,
+          "code": "MO",
+          "value": "800 ft avg"
+        },
+        {
+          "rank": 33,
+          "code": "KY",
+          "value": "750 ft avg"
+        },
+        {
+          "rank": 34,
+          "code": "NC",
+          "value": "700 ft avg"
+        },
+        {
+          "rank": 34,
+          "code": "IN",
+          "value": "700 ft avg (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "AR",
+          "value": "650 ft avg"
+        },
+        {
+          "rank": 37,
+          "code": "ME",
+          "value": "600 ft avg"
+        },
+        {
+          "rank": 37,
+          "code": "IL",
+          "value": "600 ft avg (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "GA",
+          "value": "600 ft avg (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "MA",
+          "value": "500 ft avg"
+        },
+        {
+          "rank": 40,
+          "code": "AL",
+          "value": "500 ft avg (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "CT",
+          "value": "500 ft avg (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "SC",
+          "value": "350 ft avg"
+        },
+        {
+          "rank": 43,
+          "code": "MD",
+          "value": "350 ft avg (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "MS",
+          "value": "300 ft avg"
+        },
+        {
+          "rank": 46,
+          "code": "NJ",
+          "value": "250 ft avg"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "200 ft avg"
+        },
+        {
+          "rank": 48,
+          "code": "DC",
+          "value": "150 ft avg"
+        },
+        {
+          "rank": 49,
+          "code": "LA",
+          "value": "100 ft avg"
+        },
+        {
+          "rank": 49,
+          "code": "FL",
+          "value": "100 ft avg (tied)"
+        },
+        {
+          "rank": 51,
+          "code": "DE",
+          "value": "60 ft avg"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-mississippi-watershed-drainage-2024",
+      "title": "States with the most Mississippi watershed drainage",
+      "prompt": "Name the US states with the largest land area draining into the Mississippi River basin.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 32,
+      "disclaimer": "Ranked by area of each state that drains to the Mississippi River (not total state area). DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Wikipedia \u2014 Mississippi River (drainage basin section, sourced from USGS)",
+        "url": "https://en.wikipedia.org/wiki/Mississippi_River",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MT",
+          "value": "~102,000 sq mi drains to MS"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "~90,000 sq mi drains to MS"
+        },
+        {
+          "rank": 3,
+          "code": "KS",
+          "value": "~82,000 sq mi (entire state)"
+        },
+        {
+          "rank": 4,
+          "code": "NE",
+          "value": "~77,000 sq mi (entire state)"
+        },
+        {
+          "rank": 5,
+          "code": "SD",
+          "value": "~76,000 sq mi (entire state)"
+        },
+        {
+          "rank": 6,
+          "code": "MO",
+          "value": "~69,700 sq mi (entire state)"
+        },
+        {
+          "rank": 7,
+          "code": "MN",
+          "value": "~68,000 sq mi drains to MS"
+        },
+        {
+          "rank": 7,
+          "code": "OK",
+          "value": "~68,000 sq mi drains to MS (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "IA",
+          "value": "~56,000 sq mi (entire state)"
+        },
+        {
+          "rank": 10,
+          "code": "ND",
+          "value": "~55,000 sq mi drains to MS"
+        },
+        {
+          "rank": 11,
+          "code": "AR",
+          "value": "~53,000 sq mi (entire state)"
+        },
+        {
+          "rank": 12,
+          "code": "WY",
+          "value": "~40,000 sq mi drains to MS"
+        },
+        {
+          "rank": 13,
+          "code": "CO",
+          "value": "~38,000 sq mi drains to MS"
+        },
+        {
+          "rank": 14,
+          "code": "NM",
+          "value": "~34,000 sq mi drains to MS"
+        },
+        {
+          "rank": 15,
+          "code": "IL",
+          "value": "~33,000 sq mi drains to MS"
+        },
+        {
+          "rank": 16,
+          "code": "WI",
+          "value": "~30,000 sq mi drains to MS"
+        },
+        {
+          "rank": 17,
+          "code": "KY",
+          "value": "~29,000 sq mi drains to MS"
+        },
+        {
+          "rank": 18,
+          "code": "IN",
+          "value": "~26,000 sq mi drains to MS"
+        },
+        {
+          "rank": 19,
+          "code": "MS",
+          "value": "~25,000 sq mi drains to MS"
+        },
+        {
+          "rank": 20,
+          "code": "LA",
+          "value": "~24,000 sq mi drains to MS"
+        },
+        {
+          "rank": 21,
+          "code": "TN",
+          "value": "~22,000 sq mi drains to MS"
+        },
+        {
+          "rank": 22,
+          "code": "OH",
+          "value": "~20,000 sq mi drains to MS"
+        },
+        {
+          "rank": 23,
+          "code": "AL",
+          "value": "~13,000 sq mi drains to MS"
+        },
+        {
+          "rank": 24,
+          "code": "PA",
+          "value": "~11,000 sq mi drains to MS"
+        },
+        {
+          "rank": 25,
+          "code": "WV",
+          "value": "~9,000 sq mi drains to MS"
+        },
+        {
+          "rank": 26,
+          "code": "VA",
+          "value": "~3,500 sq mi drains to MS"
+        },
+        {
+          "rank": 27,
+          "code": "NY",
+          "value": "~2,500 sq mi drains to MS"
+        },
+        {
+          "rank": 28,
+          "code": "NC",
+          "value": "~1,500 sq mi drains to MS"
+        },
+        {
+          "rank": 29,
+          "code": "GA",
+          "value": "~900 sq mi drains to MS"
+        },
+        {
+          "rank": 30,
+          "code": "MD",
+          "value": "~500 sq mi drains to MS"
+        },
+        {
+          "rank": 31,
+          "code": "MI",
+          "value": "~200 sq mi drains to MS"
+        },
+        {
+          "rank": 32,
+          "code": "SC",
+          "value": "~50 sq mi drains to MS"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+      "title": "Wettest States (Most Annual Precipitation)",
+      "prompt": "Rank the US states with the highest average annual precipitation (rain + melted snow), by statewide average.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Statewide averages from NOAA 1991-2020 normals. Individual sites (e.g. Mount Waialeale) far exceed statewide means. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
+        "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
+        "asOf": "1991-2020 climate normals"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "HI",
+          "value": "63.7 in"
+        },
+        {
+          "rank": 2,
+          "code": "LA",
+          "value": "60.1 in"
+        },
+        {
+          "rank": 3,
+          "code": "MS",
+          "value": "59.0 in"
+        },
+        {
+          "rank": 4,
+          "code": "AL",
+          "value": "58.3 in"
+        },
+        {
+          "rank": 5,
+          "code": "FL",
+          "value": "54.5 in"
+        },
+        {
+          "rank": 6,
+          "code": "TN",
+          "value": "54.2 in"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "50.7 in"
+        },
+        {
+          "rank": 8,
+          "code": "AR",
+          "value": "50.6 in"
+        },
+        {
+          "rank": 9,
+          "code": "CT",
+          "value": "50.3 in"
+        },
+        {
+          "rank": 10,
+          "code": "SC",
+          "value": "49.8 in"
+        },
+        {
+          "rank": 11,
+          "code": "NC",
+          "value": "49.0 in"
+        },
+        {
+          "rank": 12,
+          "code": "KY",
+          "value": "48.9 in"
+        },
+        {
+          "rank": 13,
+          "code": "NJ",
+          "value": "47.9 in"
+        },
+        {
+          "rank": 13,
+          "code": "RI",
+          "value": "47.9 in (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "MA",
+          "value": "47.7 in"
+        },
+        {
+          "rank": 16,
+          "code": "NY",
+          "value": "47.4 in"
+        },
+        {
+          "rank": 17,
+          "code": "DE",
+          "value": "46.2 in"
+        },
+        {
+          "rank": 18,
+          "code": "WV",
+          "value": "45.2 in"
+        },
+        {
+          "rank": 19,
+          "code": "MD",
+          "value": "44.5 in"
+        },
+        {
+          "rank": 20,
+          "code": "VA",
+          "value": "43.7 in"
+        },
+        {
+          "rank": 21,
+          "code": "ME",
+          "value": "43.6 in"
+        },
+        {
+          "rank": 22,
+          "code": "NH",
+          "value": "43.4 in"
+        },
+        {
+          "rank": 23,
+          "code": "PA",
+          "value": "43.0 in"
+        },
+        {
+          "rank": 24,
+          "code": "IN",
+          "value": "42.8 in"
+        },
+        {
+          "rank": 25,
+          "code": "VT",
+          "value": "42.7 in"
+        },
+        {
+          "rank": 26,
+          "code": "MO",
+          "value": "42.6 in"
+        },
+        {
+          "rank": 27,
+          "code": "OH",
+          "value": "41.7 in"
+        },
+        {
+          "rank": 28,
+          "code": "DC",
+          "value": "40.8 in"
+        },
+        {
+          "rank": 29,
+          "code": "IL",
+          "value": "39.6 in"
+        },
+        {
+          "rank": 30,
+          "code": "WA",
+          "value": "38.5 in"
+        },
+        {
+          "rank": 31,
+          "code": "OK",
+          "value": "36.5 in"
+        },
+        {
+          "rank": 32,
+          "code": "IA",
+          "value": "35.5 in"
+        },
+        {
+          "rank": 33,
+          "code": "MI",
+          "value": "34.7 in"
+        },
+        {
+          "rank": 34,
+          "code": "WI",
+          "value": "34.6 in"
+        },
+        {
+          "rank": 35,
+          "code": "MN",
+          "value": "30.7 in"
+        },
+        {
+          "rank": 36,
+          "code": "KS",
+          "value": "29.2 in"
+        },
+        {
+          "rank": 37,
+          "code": "TX",
+          "value": "28.9 in"
+        },
+        {
+          "rank": 38,
+          "code": "OR",
+          "value": "27.5 in"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "24.0 in"
+        },
+        {
+          "rank": 40,
+          "code": "AK",
+          "value": "22.5 in"
+        },
+        {
+          "rank": 41,
+          "code": "SD",
+          "value": "22.4 in"
+        },
+        {
+          "rank": 41,
+          "code": "CA",
+          "value": "22.4 in (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "ID",
+          "value": "19.9 in"
+        },
+        {
+          "rank": 44,
+          "code": "ND",
+          "value": "18.0 in"
+        },
+        {
+          "rank": 45,
+          "code": "CO",
+          "value": "15.9 in"
+        },
+        {
+          "rank": 46,
+          "code": "MT",
+          "value": "15.3 in"
+        },
+        {
+          "rank": 47,
+          "code": "NM",
+          "value": "14.6 in"
+        },
+        {
+          "rank": 48,
+          "code": "AZ",
+          "value": "13.6 in"
+        },
+        {
+          "rank": 49,
+          "code": "WY",
+          "value": "12.9 in"
+        },
+        {
+          "rank": 50,
+          "code": "UT",
+          "value": "12.2 in"
+        },
+        {
+          "rank": 51,
+          "code": "NV",
+          "value": "9.5 in"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+      "title": "Driest States (Least Annual Precipitation)",
+      "prompt": "Rank the US states with the lowest average annual precipitation, by statewide average.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Rank 1 is the driest state (lowest inches per year). Statewide averages, not local extremes. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NCEI \u2014 Climate at a Glance, Statewide Precipitation 1991-2020 normals",
+        "url": "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/rankings",
+        "asOf": "1991-2020 climate normals"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NV",
+          "value": "10.3 in"
+        },
+        {
+          "rank": 2,
+          "code": "UT",
+          "value": "12.2 in"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "13.6 in"
+        },
+        {
+          "rank": 4,
+          "code": "WY",
+          "value": "14.5 in"
+        },
+        {
+          "rank": 5,
+          "code": "NM",
+          "value": "14.6 in"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "15.3 in"
+        },
+        {
+          "rank": 7,
+          "code": "CO",
+          "value": "16.1 in"
+        },
+        {
+          "rank": 8,
+          "code": "ND",
+          "value": "17.8 in"
+        },
+        {
+          "rank": 9,
+          "code": "ID",
+          "value": "19.0 in"
+        },
+        {
+          "rank": 10,
+          "code": "SD",
+          "value": "20.6 in"
+        },
+        {
+          "rank": 11,
+          "code": "CA",
+          "value": "21.4 in"
+        },
+        {
+          "rank": 12,
+          "code": "AK",
+          "value": "22.5 in"
+        },
+        {
+          "rank": 13,
+          "code": "NE",
+          "value": "24.1 in"
+        },
+        {
+          "rank": 14,
+          "code": "OR",
+          "value": "27.4 in"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "27.5 in"
+        },
+        {
+          "rank": 16,
+          "code": "KS",
+          "value": "28.9 in"
+        },
+        {
+          "rank": 17,
+          "code": "TX",
+          "value": "29.1 in"
+        },
+        {
+          "rank": 18,
+          "code": "WI",
+          "value": "32.6 in"
+        },
+        {
+          "rank": 19,
+          "code": "MI",
+          "value": "33.0 in"
+        },
+        {
+          "rank": 20,
+          "code": "IA",
+          "value": "34.0 in"
+        },
+        {
+          "rank": 21,
+          "code": "OK",
+          "value": "36.5 in"
+        },
+        {
+          "rank": 22,
+          "code": "WA",
+          "value": "38.4 in"
+        },
+        {
+          "rank": 23,
+          "code": "IL",
+          "value": "39.2 in"
+        },
+        {
+          "rank": 24,
+          "code": "OH",
+          "value": "40.2 in"
+        },
+        {
+          "rank": 25,
+          "code": "DC",
+          "value": "40.8 in"
+        },
+        {
+          "rank": 26,
+          "code": "NY",
+          "value": "42.3 in"
+        },
+        {
+          "rank": 27,
+          "code": "MO",
+          "value": "42.4 in"
+        },
+        {
+          "rank": 28,
+          "code": "IN",
+          "value": "42.6 in"
+        },
+        {
+          "rank": 29,
+          "code": "PA",
+          "value": "42.9 in"
+        },
+        {
+          "rank": 30,
+          "code": "VT",
+          "value": "43.0 in"
+        },
+        {
+          "rank": 31,
+          "code": "NH",
+          "value": "43.4 in"
+        },
+        {
+          "rank": 32,
+          "code": "VA",
+          "value": "44.3 in"
+        },
+        {
+          "rank": 33,
+          "code": "ME",
+          "value": "44.4 in"
+        },
+        {
+          "rank": 34,
+          "code": "MD",
+          "value": "44.5 in"
+        },
+        {
+          "rank": 35,
+          "code": "WV",
+          "value": "45.2 in"
+        },
+        {
+          "rank": 36,
+          "code": "DE",
+          "value": "45.7 in"
+        },
+        {
+          "rank": 37,
+          "code": "NJ",
+          "value": "47.1 in"
+        },
+        {
+          "rank": 38,
+          "code": "RI",
+          "value": "47.9 in"
+        },
+        {
+          "rank": 39,
+          "code": "MA",
+          "value": "48.0 in"
+        },
+        {
+          "rank": 40,
+          "code": "KY",
+          "value": "48.9 in"
+        },
+        {
+          "rank": 41,
+          "code": "SC",
+          "value": "49.8 in"
+        },
+        {
+          "rank": 42,
+          "code": "CT",
+          "value": "50.3 in"
+        },
+        {
+          "rank": 43,
+          "code": "NC",
+          "value": "50.4 in"
+        },
+        {
+          "rank": 44,
+          "code": "AR",
+          "value": "50.6 in"
+        },
+        {
+          "rank": 45,
+          "code": "GA",
+          "value": "50.7 in"
+        },
+        {
+          "rank": 46,
+          "code": "TN",
+          "value": "54.2 in"
+        },
+        {
+          "rank": 47,
+          "code": "FL",
+          "value": "54.5 in"
+        },
+        {
+          "rank": 48,
+          "code": "AL",
+          "value": "58.3 in"
+        },
+        {
+          "rank": 49,
+          "code": "MS",
+          "value": "59.0 in"
+        },
+        {
+          "rank": 50,
+          "code": "LA",
+          "value": "60.1 in"
+        },
+        {
+          "rank": 51,
+          "code": "HI",
+          "value": "63.7 in"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-tornadoes-per-year-2020",
+      "title": "Most Tornadoes Per Year",
+      "prompt": "Rank the US states by average number of tornadoes reported per year.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Based on NWS annual counts for 1991-2020. Includes all confirmed tornadoes regardless of EF rating. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NWS Storm Prediction Center \u2014 Annual Tornado Averages by State",
+        "url": "https://www.spc.noaa.gov/wcm/",
+        "asOf": "1991-2020 average"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "137/yr"
+        },
+        {
+          "rank": 2,
+          "code": "KS",
+          "value": "91/yr"
+        },
+        {
+          "rank": 3,
+          "code": "OK",
+          "value": "68/yr"
+        },
+        {
+          "rank": 4,
+          "code": "FL",
+          "value": "66/yr"
+        },
+        {
+          "rank": 5,
+          "code": "NE",
+          "value": "57/yr"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "54/yr"
+        },
+        {
+          "rank": 7,
+          "code": "MO",
+          "value": "51/yr"
+        },
+        {
+          "rank": 8,
+          "code": "MS",
+          "value": "50/yr"
+        },
+        {
+          "rank": 9,
+          "code": "IA",
+          "value": "48/yr"
+        },
+        {
+          "rank": 10,
+          "code": "AL",
+          "value": "47/yr"
+        },
+        {
+          "rank": 11,
+          "code": "LA",
+          "value": "39/yr"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "39/yr (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "34/yr"
+        },
+        {
+          "rank": 14,
+          "code": "AR",
+          "value": "33/yr"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "31/yr"
+        },
+        {
+          "rank": 16,
+          "code": "SD",
+          "value": "29/yr"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "24/yr"
+        },
+        {
+          "rank": 18,
+          "code": "TN",
+          "value": "24/yr (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "KY",
+          "value": "23/yr"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "22/yr"
+        },
+        {
+          "rank": 21,
+          "code": "NC",
+          "value": "20/yr"
+        },
+        {
+          "rank": 22,
+          "code": "WI",
+          "value": "20/yr (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "ND",
+          "value": "20/yr (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "PA",
+          "value": "16/yr"
+        },
+        {
+          "rank": 25,
+          "code": "MI",
+          "value": "15/yr"
+        },
+        {
+          "rank": 26,
+          "code": "NM",
+          "value": "12/yr"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "12/yr (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "VA",
+          "value": "11/yr"
+        },
+        {
+          "rank": 29,
+          "code": "NY",
+          "value": "10/yr"
+        },
+        {
+          "rank": 30,
+          "code": "WY",
+          "value": "10/yr (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "MT",
+          "value": "9/yr"
+        },
+        {
+          "rank": 32,
+          "code": "MD",
+          "value": "7/yr"
+        },
+        {
+          "rank": 33,
+          "code": "AZ",
+          "value": "5/yr"
+        },
+        {
+          "rank": 34,
+          "code": "WV",
+          "value": "5/yr (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "NJ",
+          "value": "3/yr"
+        },
+        {
+          "rank": 36,
+          "code": "ME",
+          "value": "3/yr (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "MA",
+          "value": "3/yr (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "CA",
+          "value": "3/yr (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "3/yr (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "UT",
+          "value": "2/yr"
+        },
+        {
+          "rank": 41,
+          "code": "CT",
+          "value": "2/yr (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "NV",
+          "value": "2/yr (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "OR",
+          "value": "2/yr (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "WA",
+          "value": "2/yr (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "2/yr (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "DE",
+          "value": "1/yr"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "1/yr (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "RI",
+          "value": "1/yr (tied)"
+        },
+        {
+          "rank": 49,
+          "code": "HI",
+          "value": "1/yr (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "0/yr"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "0/yr (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-hurricane-landfalls-1851-2020-2020",
+      "title": "Most Hurricane Landfalls (1851-2020)",
+      "prompt": "Rank the US states by total number of hurricane landfalls in the historical record.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 19,
+      "disclaimer": "Counts direct hurricane landfalls on each state's coast, per NOAA HURDAT2. A single storm crossing multiple states is counted once per state. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "NOAA NHC \u2014 Continental U.S. Hurricane Impacts/Landfalls 1851-2020",
+        "url": "https://www.aoml.noaa.gov/hrd/hurdat/All_U.S._Hurricanes.html",
+        "asOf": "1851-2020 record"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "FL",
+          "value": "120 landfalls"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "64 landfalls"
+        },
+        {
+          "rank": 3,
+          "code": "LA",
+          "value": "62 landfalls"
+        },
+        {
+          "rank": 4,
+          "code": "NC",
+          "value": "56 landfalls"
+        },
+        {
+          "rank": 5,
+          "code": "SC",
+          "value": "31 landfalls"
+        },
+        {
+          "rank": 6,
+          "code": "AL",
+          "value": "26 landfalls"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "22 landfalls"
+        },
+        {
+          "rank": 8,
+          "code": "MS",
+          "value": "19 landfalls"
+        },
+        {
+          "rank": 9,
+          "code": "NY",
+          "value": "15 landfalls"
+        },
+        {
+          "rank": 10,
+          "code": "MA",
+          "value": "13 landfalls"
+        },
+        {
+          "rank": 11,
+          "code": "CT",
+          "value": "12 landfalls"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "12 landfalls (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "RI",
+          "value": "9 landfalls"
+        },
+        {
+          "rank": 14,
+          "code": "ME",
+          "value": "6 landfalls"
+        },
+        {
+          "rank": 15,
+          "code": "MD",
+          "value": "3 landfalls"
+        },
+        {
+          "rank": 16,
+          "code": "NJ",
+          "value": "2 landfalls"
+        },
+        {
+          "rank": 16,
+          "code": "NH",
+          "value": "2 landfalls (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "PA",
+          "value": "1 landfall"
+        },
+        {
+          "rank": 18,
+          "code": "DE",
+          "value": "1 landfall (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-highest-recorded-temperature-2024",
+      "title": "Highest Recorded Temperature",
+      "prompt": "Rank the US states by highest temperature ever officially recorded within their borders.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee. Death Valley's 134\u00b0F (1913) remains debated but is the accepted official record. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NCEI \u2014 State Climate Extremes Committee records",
+        "url": "https://www.ncei.noaa.gov/access/monitoring/scec/records",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "134 F"
+        },
+        {
+          "rank": 2,
+          "code": "AZ",
+          "value": "128 F"
+        },
+        {
+          "rank": 3,
+          "code": "NV",
+          "value": "125 F"
+        },
+        {
+          "rank": 4,
+          "code": "NM",
+          "value": "122 F"
+        },
+        {
+          "rank": 5,
+          "code": "ND",
+          "value": "121 F"
+        },
+        {
+          "rank": 5,
+          "code": "KS",
+          "value": "121 F (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "OK",
+          "value": "120 F"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "120 F (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "AR",
+          "value": "120 F (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "SD",
+          "value": "120 F (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "120 F (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "OR",
+          "value": "119 F"
+        },
+        {
+          "rank": 13,
+          "code": "UT",
+          "value": "118 F"
+        },
+        {
+          "rank": 13,
+          "code": "IA",
+          "value": "118 F (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "NE",
+          "value": "118 F (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "MO",
+          "value": "118 F (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "ID",
+          "value": "118 F (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MT",
+          "value": "117 F"
+        },
+        {
+          "rank": 18,
+          "code": "IL",
+          "value": "117 F (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "IN",
+          "value": "116 F"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "115 F"
+        },
+        {
+          "rank": 21,
+          "code": "MN",
+          "value": "115 F (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "MS",
+          "value": "115 F (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "WY",
+          "value": "115 F (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "LA",
+          "value": "114 F"
+        },
+        {
+          "rank": 25,
+          "code": "KY",
+          "value": "114 F (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "WI",
+          "value": "114 F (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "113 F"
+        },
+        {
+          "rank": 28,
+          "code": "TN",
+          "value": "113 F (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "OH",
+          "value": "113 F (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "AL",
+          "value": "112 F"
+        },
+        {
+          "rank": 31,
+          "code": "GA",
+          "value": "112 F (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "MI",
+          "value": "112 F (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "WV",
+          "value": "112 F (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "PA",
+          "value": "111 F"
+        },
+        {
+          "rank": 36,
+          "code": "NC",
+          "value": "110 F"
+        },
+        {
+          "rank": 36,
+          "code": "VA",
+          "value": "110 F (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "DE",
+          "value": "110 F (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "NJ",
+          "value": "110 F (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "FL",
+          "value": "109 F"
+        },
+        {
+          "rank": 40,
+          "code": "MD",
+          "value": "109 F (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "NY",
+          "value": "108 F"
+        },
+        {
+          "rank": 43,
+          "code": "MA",
+          "value": "107 F"
+        },
+        {
+          "rank": 43,
+          "code": "VT",
+          "value": "107 F (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "CT",
+          "value": "106 F"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "106 F (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "DC",
+          "value": "106 F (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "ME",
+          "value": "105 F"
+        },
+        {
+          "rank": 49,
+          "code": "RI",
+          "value": "104 F"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "100 F"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "100 F (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-lowest-recorded-temperature-2024",
+      "title": "Lowest Recorded Temperature",
+      "prompt": "Rank the US states by lowest temperature ever officially recorded within their borders (rank 1 = coldest).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Rank 1 is the coldest ever recorded (most negative Fahrenheit). All-time official state minima per NOAA SCEC. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NCEI \u2014 State Climate Extremes Committee records",
+        "url": "https://www.ncei.noaa.gov/access/monitoring/scec/records",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "-80 F"
+        },
+        {
+          "rank": 2,
+          "code": "MT",
+          "value": "-70 F"
+        },
+        {
+          "rank": 3,
+          "code": "UT",
+          "value": "-69 F"
+        },
+        {
+          "rank": 4,
+          "code": "WY",
+          "value": "-66 F"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "-61 F"
+        },
+        {
+          "rank": 6,
+          "code": "ID",
+          "value": "-60 F"
+        },
+        {
+          "rank": 6,
+          "code": "ND",
+          "value": "-60 F (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "MN",
+          "value": "-60 F (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "SD",
+          "value": "-58 F"
+        },
+        {
+          "rank": 10,
+          "code": "WI",
+          "value": "-55 F"
+        },
+        {
+          "rank": 11,
+          "code": "OR",
+          "value": "-54 F"
+        },
+        {
+          "rank": 12,
+          "code": "NY",
+          "value": "-52 F"
+        },
+        {
+          "rank": 12,
+          "code": "NV",
+          "value": "-52 F (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "MI",
+          "value": "-51 F"
+        },
+        {
+          "rank": 15,
+          "code": "NH",
+          "value": "-50 F"
+        },
+        {
+          "rank": 15,
+          "code": "ME",
+          "value": "-50 F (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "VT",
+          "value": "-50 F (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "NM",
+          "value": "-50 F (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "WA",
+          "value": "-48 F"
+        },
+        {
+          "rank": 20,
+          "code": "IA",
+          "value": "-47 F"
+        },
+        {
+          "rank": 20,
+          "code": "NE",
+          "value": "-47 F (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "CA",
+          "value": "-45 F"
+        },
+        {
+          "rank": 23,
+          "code": "PA",
+          "value": "-42 F"
+        },
+        {
+          "rank": 24,
+          "code": "MA",
+          "value": "-40 F"
+        },
+        {
+          "rank": 24,
+          "code": "KS",
+          "value": "-40 F (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "-40 F (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "AZ",
+          "value": "-40 F (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "MD",
+          "value": "-40 F (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "OH",
+          "value": "-39 F"
+        },
+        {
+          "rank": 30,
+          "code": "IL",
+          "value": "-38 F"
+        },
+        {
+          "rank": 31,
+          "code": "WV",
+          "value": "-37 F"
+        },
+        {
+          "rank": 31,
+          "code": "KY",
+          "value": "-37 F (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "IN",
+          "value": "-36 F"
+        },
+        {
+          "rank": 34,
+          "code": "NJ",
+          "value": "-34 F"
+        },
+        {
+          "rank": 34,
+          "code": "NC",
+          "value": "-34 F (tied)"
+        },
+        {
+          "rank": 36,
+          "code": "CT",
+          "value": "-32 F"
+        },
+        {
+          "rank": 36,
+          "code": "TN",
+          "value": "-32 F (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "OK",
+          "value": "-31 F"
+        },
+        {
+          "rank": 39,
+          "code": "VA",
+          "value": "-30 F"
+        },
+        {
+          "rank": 40,
+          "code": "AR",
+          "value": "-29 F"
+        },
+        {
+          "rank": 41,
+          "code": "RI",
+          "value": "-28 F"
+        },
+        {
+          "rank": 42,
+          "code": "AL",
+          "value": "-27 F"
+        },
+        {
+          "rank": 43,
+          "code": "TX",
+          "value": "-23 F"
+        },
+        {
+          "rank": 44,
+          "code": "MS",
+          "value": "-19 F"
+        },
+        {
+          "rank": 44,
+          "code": "SC",
+          "value": "-19 F (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "GA",
+          "value": "-17 F"
+        },
+        {
+          "rank": 46,
+          "code": "DE",
+          "value": "-17 F (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "LA",
+          "value": "-16 F"
+        },
+        {
+          "rank": 49,
+          "code": "DC",
+          "value": "-15 F"
+        },
+        {
+          "rank": 50,
+          "code": "FL",
+          "value": "-2 F"
+        },
+        {
+          "rank": 51,
+          "code": "HI",
+          "value": "12 F"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+      "title": "Most Sunshine Hours Per Year",
+      "prompt": "Rank the US states by average annual sunshine hours (statewide average).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Statewide averages derived from NOAA/NWS first-order station normals. Some states are averaged across multiple reporting stations. Includes Washington DC.",
+      "source": {
+        "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Hours of Sunshine",
+        "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+        "asOf": "30-year normals through 2020"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AZ",
+          "value": "3,806 hrs/yr"
+        },
+        {
+          "rank": 2,
+          "code": "NV",
+          "value": "3,568 hrs/yr"
+        },
+        {
+          "rank": 3,
+          "code": "NM",
+          "value": "3,415 hrs/yr"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "3,320 hrs/yr"
+        },
+        {
+          "rank": 5,
+          "code": "CA",
+          "value": "3,254 hrs/yr"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "3,106 hrs/yr"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "2,927 hrs/yr"
+        },
+        {
+          "rank": 8,
+          "code": "OK",
+          "value": "2,900 hrs/yr"
+        },
+        {
+          "rank": 9,
+          "code": "KS",
+          "value": "2,865 hrs/yr"
+        },
+        {
+          "rank": 10,
+          "code": "UT",
+          "value": "2,850 hrs/yr"
+        },
+        {
+          "rank": 11,
+          "code": "HI",
+          "value": "2,835 hrs/yr"
+        },
+        {
+          "rank": 12,
+          "code": "WY",
+          "value": "2,810 hrs/yr"
+        },
+        {
+          "rank": 13,
+          "code": "MT",
+          "value": "2,700 hrs/yr"
+        },
+        {
+          "rank": 14,
+          "code": "SD",
+          "value": "2,680 hrs/yr"
+        },
+        {
+          "rank": 15,
+          "code": "GA",
+          "value": "2,634 hrs/yr"
+        },
+        {
+          "rank": 16,
+          "code": "NE",
+          "value": "2,614 hrs/yr"
+        },
+        {
+          "rank": 17,
+          "code": "AR",
+          "value": "2,590 hrs/yr"
+        },
+        {
+          "rank": 18,
+          "code": "AL",
+          "value": "2,570 hrs/yr"
+        },
+        {
+          "rank": 19,
+          "code": "SC",
+          "value": "2,565 hrs/yr"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "2,540 hrs/yr"
+        },
+        {
+          "rank": 21,
+          "code": "LA",
+          "value": "2,500 hrs/yr"
+        },
+        {
+          "rank": 22,
+          "code": "NC",
+          "value": "2,490 hrs/yr"
+        },
+        {
+          "rank": 23,
+          "code": "ND",
+          "value": "2,480 hrs/yr"
+        },
+        {
+          "rank": 24,
+          "code": "VA",
+          "value": "2,470 hrs/yr"
+        },
+        {
+          "rank": 25,
+          "code": "IA",
+          "value": "2,460 hrs/yr"
+        },
+        {
+          "rank": 26,
+          "code": "TN",
+          "value": "2,440 hrs/yr"
+        },
+        {
+          "rank": 27,
+          "code": "MN",
+          "value": "2,430 hrs/yr"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "2,420 hrs/yr"
+        },
+        {
+          "rank": 29,
+          "code": "ID",
+          "value": "2,400 hrs/yr"
+        },
+        {
+          "rank": 30,
+          "code": "IL",
+          "value": "2,380 hrs/yr"
+        },
+        {
+          "rank": 31,
+          "code": "DE",
+          "value": "2,370 hrs/yr"
+        },
+        {
+          "rank": 32,
+          "code": "MD",
+          "value": "2,360 hrs/yr"
+        },
+        {
+          "rank": 33,
+          "code": "NJ",
+          "value": "2,350 hrs/yr"
+        },
+        {
+          "rank": 34,
+          "code": "KY",
+          "value": "2,330 hrs/yr"
+        },
+        {
+          "rank": 35,
+          "code": "WI",
+          "value": "2,320 hrs/yr"
+        },
+        {
+          "rank": 36,
+          "code": "IN",
+          "value": "2,310 hrs/yr"
+        },
+        {
+          "rank": 37,
+          "code": "DC",
+          "value": "2,300 hrs/yr"
+        },
+        {
+          "rank": 38,
+          "code": "CT",
+          "value": "2,280 hrs/yr"
+        },
+        {
+          "rank": 39,
+          "code": "MA",
+          "value": "2,270 hrs/yr"
+        },
+        {
+          "rank": 40,
+          "code": "RI",
+          "value": "2,260 hrs/yr"
+        },
+        {
+          "rank": 41,
+          "code": "NY",
+          "value": "2,220 hrs/yr"
+        },
+        {
+          "rank": 42,
+          "code": "OH",
+          "value": "2,180 hrs/yr"
+        },
+        {
+          "rank": 43,
+          "code": "PA",
+          "value": "2,150 hrs/yr"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "2,120 hrs/yr"
+        },
+        {
+          "rank": 45,
+          "code": "NH",
+          "value": "2,100 hrs/yr"
+        },
+        {
+          "rank": 46,
+          "code": "ME",
+          "value": "2,090 hrs/yr"
+        },
+        {
+          "rank": 47,
+          "code": "MI",
+          "value": "2,050 hrs/yr"
+        },
+        {
+          "rank": 48,
+          "code": "VT",
+          "value": "2,030 hrs/yr"
+        },
+        {
+          "rank": 49,
+          "code": "OR",
+          "value": "1,980 hrs/yr"
+        },
+        {
+          "rank": 50,
+          "code": "WA",
+          "value": "1,920 hrs/yr"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "1,845 hrs/yr"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+      "title": "Cloudiest States (Fewest Sunny Days)",
+      "prompt": "Rank the US states by cloudiest skies \u2014 states with the fewest average clear or sunny days per year (rank 1 = cloudiest).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals. Includes Washington DC.",
+      "source": {
+        "name": "NOAA / NWS Comparative Climatic Data \u2014 Mean Number of Clear Days",
+        "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+        "asOf": "30-year normals through 2020"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "WA",
+          "value": "226 cloudy days/yr"
+        },
+        {
+          "rank": 2,
+          "code": "OR",
+          "value": "222 cloudy days/yr"
+        },
+        {
+          "rank": 3,
+          "code": "AK",
+          "value": "220 cloudy days/yr"
+        },
+        {
+          "rank": 4,
+          "code": "VT",
+          "value": "204 cloudy days/yr"
+        },
+        {
+          "rank": 5,
+          "code": "NY",
+          "value": "201 cloudy days/yr"
+        },
+        {
+          "rank": 6,
+          "code": "MI",
+          "value": "198 cloudy days/yr"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "195 cloudy days/yr"
+        },
+        {
+          "rank": 8,
+          "code": "PA",
+          "value": "194 cloudy days/yr"
+        },
+        {
+          "rank": 9,
+          "code": "WV",
+          "value": "192 cloudy days/yr"
+        },
+        {
+          "rank": 10,
+          "code": "IN",
+          "value": "189 cloudy days/yr"
+        },
+        {
+          "rank": 11,
+          "code": "NH",
+          "value": "187 cloudy days/yr"
+        },
+        {
+          "rank": 12,
+          "code": "ME",
+          "value": "185 cloudy days/yr"
+        },
+        {
+          "rank": 13,
+          "code": "WI",
+          "value": "184 cloudy days/yr"
+        },
+        {
+          "rank": 14,
+          "code": "MA",
+          "value": "180 cloudy days/yr"
+        },
+        {
+          "rank": 15,
+          "code": "IL",
+          "value": "178 cloudy days/yr"
+        },
+        {
+          "rank": 16,
+          "code": "CT",
+          "value": "175 cloudy days/yr"
+        },
+        {
+          "rank": 17,
+          "code": "RI",
+          "value": "173 cloudy days/yr"
+        },
+        {
+          "rank": 18,
+          "code": "NJ",
+          "value": "170 cloudy days/yr"
+        },
+        {
+          "rank": 19,
+          "code": "MN",
+          "value": "168 cloudy days/yr"
+        },
+        {
+          "rank": 20,
+          "code": "KY",
+          "value": "165 cloudy days/yr"
+        },
+        {
+          "rank": 21,
+          "code": "MD",
+          "value": "162 cloudy days/yr"
+        },
+        {
+          "rank": 22,
+          "code": "DE",
+          "value": "160 cloudy days/yr"
+        },
+        {
+          "rank": 23,
+          "code": "IA",
+          "value": "158 cloudy days/yr"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "156 cloudy days/yr"
+        },
+        {
+          "rank": 25,
+          "code": "TN",
+          "value": "154 cloudy days/yr"
+        },
+        {
+          "rank": 26,
+          "code": "DC",
+          "value": "152 cloudy days/yr"
+        },
+        {
+          "rank": 27,
+          "code": "VA",
+          "value": "150 cloudy days/yr"
+        },
+        {
+          "rank": 28,
+          "code": "NC",
+          "value": "148 cloudy days/yr"
+        },
+        {
+          "rank": 29,
+          "code": "ND",
+          "value": "146 cloudy days/yr"
+        },
+        {
+          "rank": 30,
+          "code": "AR",
+          "value": "144 cloudy days/yr"
+        },
+        {
+          "rank": 31,
+          "code": "SD",
+          "value": "142 cloudy days/yr"
+        },
+        {
+          "rank": 32,
+          "code": "ID",
+          "value": "140 cloudy days/yr"
+        },
+        {
+          "rank": 33,
+          "code": "MS",
+          "value": "138 cloudy days/yr"
+        },
+        {
+          "rank": 34,
+          "code": "SC",
+          "value": "136 cloudy days/yr"
+        },
+        {
+          "rank": 35,
+          "code": "GA",
+          "value": "134 cloudy days/yr"
+        },
+        {
+          "rank": 36,
+          "code": "AL",
+          "value": "132 cloudy days/yr"
+        },
+        {
+          "rank": 37,
+          "code": "LA",
+          "value": "130 cloudy days/yr"
+        },
+        {
+          "rank": 38,
+          "code": "MT",
+          "value": "128 cloudy days/yr"
+        },
+        {
+          "rank": 39,
+          "code": "KS",
+          "value": "125 cloudy days/yr"
+        },
+        {
+          "rank": 40,
+          "code": "NE",
+          "value": "122 cloudy days/yr"
+        },
+        {
+          "rank": 41,
+          "code": "OK",
+          "value": "118 cloudy days/yr"
+        },
+        {
+          "rank": 42,
+          "code": "WY",
+          "value": "115 cloudy days/yr"
+        },
+        {
+          "rank": 43,
+          "code": "FL",
+          "value": "110 cloudy days/yr"
+        },
+        {
+          "rank": 44,
+          "code": "TX",
+          "value": "108 cloudy days/yr"
+        },
+        {
+          "rank": 45,
+          "code": "HI",
+          "value": "100 cloudy days/yr"
+        },
+        {
+          "rank": 46,
+          "code": "UT",
+          "value": "95 cloudy days/yr"
+        },
+        {
+          "rank": 47,
+          "code": "CO",
+          "value": "90 cloudy days/yr"
+        },
+        {
+          "rank": 48,
+          "code": "CA",
+          "value": "85 cloudy days/yr"
+        },
+        {
+          "rank": 49,
+          "code": "NM",
+          "value": "80 cloudy days/yr"
+        },
+        {
+          "rank": 50,
+          "code": "NV",
+          "value": "75 cloudy days/yr"
+        },
+        {
+          "rank": 51,
+          "code": "AZ",
+          "value": "65 cloudy days/yr"
+        }
+      ]
+    }
+  ]
+}

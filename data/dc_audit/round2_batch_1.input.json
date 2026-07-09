@@ -1,0 +1,145 @@
+{
+  "batch": 1,
+  "questions": [
+    {
+      "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+      "title": "Most Federally-Owned Public Land",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Includes BLM, USFS, NPS, FWS, and DoD holdings; expressed as a percent of the state's total land area.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-deep-dive-most-retail-sales-per-capita-2022",
+      "title": "Most Retail Sales per Capita",
+      "subtheme": "US States - Deep Dive",
+      "current_disclaimer": "Total retail sales divided by resident population; low-population, tourism-heavy states punch above their weight.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-states-with-the-fewest-neighbors-2024",
+      "title": "States with the fewest neighbors",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts land borders only; states separated only by water are not counted as neighbors.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-lowest-point-below-sea-level-2024",
+      "title": "States with the lowest point below sea level",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Ranked by depth below sea level; rank 1 is the deepest below sea level.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+      "title": "States that touch a Great Lake",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Eight US states have a Great Lakes shoreline; the pool is exactly 8.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+      "title": "States with the most active volcanoes",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Includes volcanoes classified by USGS as historically active or potentially active.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-largest-desert-area-2024",
+      "title": "States with the largest desert area",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Includes the Great Basin, Mojave, Sonoran, and Chihuahuan deserts.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-largest-wetlands-area-2024",
+      "title": "States with the largest wetlands area",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Includes all classes of wetlands per NWI: freshwater, estuarine, and marine.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-known-caves-2024",
+      "title": "States with the most known caves",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts documented caves per NSS state surveys; includes both wild and show caves.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-longest-surveyed-cave-systems-2024",
+      "title": "States with the longest surveyed cave systems",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Ranked by the longest single surveyed cave system located in each state.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-states-with-the-highest-average-elevation-2024",
+      "title": "States with the highest average elevation",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Mean elevation is measured across the entire state land area, so terrain distribution matters more than the highest peak alone.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-mississippi-watershed-drainage-2024",
+      "title": "States with the most Mississippi watershed drainage",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Ranked by area of each state that drains to the Mississippi River (not total state area).",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+      "title": "Wettest States (Most Annual Precipitation)",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Statewide averages from NOAA 1991-2020 normals. Individual sites (e.g. Mount Waialeale) far exceed statewide means.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+      "title": "Driest States (Least Annual Precipitation)",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Rank 1 is the driest state (lowest inches per year). Statewide averages, not local extremes.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-tornadoes-per-year-2020",
+      "title": "Most Tornadoes Per Year",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Based on NWS annual counts for 1991-2020. Includes all confirmed tornadoes regardless of EF rating.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-hurricane-landfalls-1851-2020-2020",
+      "title": "Most Hurricane Landfalls (1851-2020)",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Counts direct hurricane landfalls on each state's coast, per NOAA HURDAT2. A single storm crossing multiple states is counted once per state.",
+      "has_dc": false
+    },
+    {
+      "id": "us-states-geography-highest-recorded-temperature-2024",
+      "title": "Highest Recorded Temperature",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee. Death Valley's 134\u00b0F (1913) remains debated but is the accepted official record.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-lowest-recorded-temperature-2024",
+      "title": "Lowest Recorded Temperature",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Rank 1 is the coldest ever recorded (most negative Fahrenheit). All-time official state minima per NOAA SCEC.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+      "title": "Most Sunshine Hours Per Year",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Statewide averages derived from NOAA/NWS first-order station normals. Some states are averaged across multiple reporting stations.",
+      "has_dc": true
+    },
+    {
+      "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+      "title": "Cloudiest States (Fewest Sunny Days)",
+      "subtheme": "US States - Geography",
+      "current_disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals.",
+      "has_dc": true
+    }
+  ]
+}

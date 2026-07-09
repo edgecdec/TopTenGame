@@ -73474,57 +73474,57 @@
         "value": "3 teams (tied)"
       },
       {
-        "rank": 18,
+        "rank": 16,
+        "code": "WA",
+        "value": "3 teams (tied)"
+      },
+      {
+        "rank": 19,
         "code": "IN",
         "value": "2 teams"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "code": "WI",
         "value": "2 teams (tied)"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "code": "MD",
         "value": "2 teams (tied)"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "code": "NV",
         "value": "2 teams (tied)"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "code": "OR",
         "value": "1 team"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "code": "UT",
         "value": "1 team (tied)"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "code": "OK",
         "value": "1 team (tied)"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "code": "LA",
         "value": "1 team (tied)"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "code": "KY",
         "value": "1 team (tied)"
       },
       {
-        "rank": 22,
-        "code": "WA",
-        "value": "1 team (tied)"
-      },
-      {
-        "rank": 22,
+        "rank": 23,
         "code": "NJ",
         "value": "1 team (tied)"
       }
@@ -74637,831 +74637,6 @@
     "disclaimer": "Share of adults 25+ with at least a high school diploma. Rates are very compressed near the top (roughly 92-95%). Includes Washington DC.",
     "trivia": "Mountain and upper-Midwest states typically lead this metric; California and Texas trail largely due to large immigrant populations.",
     "asOfDate": "2022 ACS 1-year"
-  },
-  {
-    "id": "us-states-culture-most-museums-imls-2018",
-    "theme": "US States",
-    "subtheme": "US States - Culture",
-    "title": "Most Museums (IMLS)",
-    "prompt": "Rank the US states by total number of museums recorded in the Institute of Museum and Library Services Museum Data File.",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "IMLS Museum Data File",
-      "url": "https://www.imls.gov/research-evaluation/data-collection/museum-data-files",
-      "asOf": "IMLS MDF v3 (2018 release; latest comprehensive)"
-    },
-    "note": "IMLS counts include art museums, historical societies, historic sites, arboreta, zoos, aquariums, science and children's museums. California and Texas lead by scale; New York and Pennsylvania lead by density of historic sites.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "CA",
-        "value": "3,046 museums"
-      },
-      {
-        "rank": 2,
-        "code": "TX",
-        "value": "2,540 museums"
-      },
-      {
-        "rank": 3,
-        "code": "NY",
-        "value": "1,930 museums"
-      },
-      {
-        "rank": 4,
-        "code": "PA",
-        "value": "1,617 museums"
-      },
-      {
-        "rank": 5,
-        "code": "IL",
-        "value": "1,414 museums"
-      },
-      {
-        "rank": 6,
-        "code": "OH",
-        "value": "1,377 museums"
-      },
-      {
-        "rank": 7,
-        "code": "FL",
-        "value": "1,285 museums"
-      },
-      {
-        "rank": 8,
-        "code": "MI",
-        "value": "1,197 museums"
-      },
-      {
-        "rank": 9,
-        "code": "MA",
-        "value": "1,058 museums"
-      },
-      {
-        "rank": 10,
-        "code": "VA",
-        "value": "1,020 museums"
-      },
-      {
-        "rank": 11,
-        "code": "NC",
-        "value": "947 museums"
-      },
-      {
-        "rank": 12,
-        "code": "WI",
-        "value": "883 museums"
-      },
-      {
-        "rank": 13,
-        "code": "MN",
-        "value": "875 museums"
-      },
-      {
-        "rank": 14,
-        "code": "IN",
-        "value": "854 museums"
-      },
-      {
-        "rank": 15,
-        "code": "GA",
-        "value": "776 museums"
-      },
-      {
-        "rank": 16,
-        "code": "MO",
-        "value": "770 museums"
-      },
-      {
-        "rank": 17,
-        "code": "WA",
-        "value": "740 museums"
-      },
-      {
-        "rank": 18,
-        "code": "CO",
-        "value": "720 museums"
-      },
-      {
-        "rank": 19,
-        "code": "TN",
-        "value": "700 museums"
-      },
-      {
-        "rank": 20,
-        "code": "NJ",
-        "value": "685 museums"
-      },
-      {
-        "rank": 21,
-        "code": "MD",
-        "value": "650 museums"
-      },
-      {
-        "rank": 22,
-        "code": "IA",
-        "value": "620 museums"
-      },
-      {
-        "rank": 23,
-        "code": "AL",
-        "value": "600 museums"
-      },
-      {
-        "rank": 24,
-        "code": "KY",
-        "value": "580 museums"
-      },
-      {
-        "rank": 25,
-        "code": "OR",
-        "value": "560 museums"
-      },
-      {
-        "rank": 26,
-        "code": "AZ",
-        "value": "540 museums"
-      },
-      {
-        "rank": 27,
-        "code": "OK",
-        "value": "500 museums"
-      },
-      {
-        "rank": 28,
-        "code": "SC",
-        "value": "490 museums"
-      },
-      {
-        "rank": 29,
-        "code": "KS",
-        "value": "480 museums"
-      },
-      {
-        "rank": 30,
-        "code": "CT",
-        "value": "470 museums"
-      },
-      {
-        "rank": 31,
-        "code": "LA",
-        "value": "450 museums"
-      },
-      {
-        "rank": 32,
-        "code": "AR",
-        "value": "430 museums"
-      },
-      {
-        "rank": 33,
-        "code": "ME",
-        "value": "410 museums"
-      },
-      {
-        "rank": 34,
-        "code": "NE",
-        "value": "400 museums"
-      },
-      {
-        "rank": 35,
-        "code": "NM",
-        "value": "380 museums"
-      },
-      {
-        "rank": 36,
-        "code": "MS",
-        "value": "370 museums"
-      },
-      {
-        "rank": 37,
-        "code": "WV",
-        "value": "350 museums"
-      },
-      {
-        "rank": 38,
-        "code": "NH",
-        "value": "340 museums"
-      },
-      {
-        "rank": 39,
-        "code": "MT",
-        "value": "320 museums"
-      },
-      {
-        "rank": 40,
-        "code": "UT",
-        "value": "310 museums"
-      },
-      {
-        "rank": 41,
-        "code": "VT",
-        "value": "300 museums"
-      },
-      {
-        "rank": 42,
-        "code": "SD",
-        "value": "290 museums"
-      },
-      {
-        "rank": 43,
-        "code": "ID",
-        "value": "280 museums"
-      },
-      {
-        "rank": 44,
-        "code": "ND",
-        "value": "260 museums"
-      },
-      {
-        "rank": 45,
-        "code": "HI",
-        "value": "230 museums"
-      },
-      {
-        "rank": 46,
-        "code": "AK",
-        "value": "210 museums"
-      },
-      {
-        "rank": 47,
-        "code": "DC",
-        "value": "200 museums"
-      },
-      {
-        "rank": 48,
-        "code": "NV",
-        "value": "195 museums"
-      },
-      {
-        "rank": 49,
-        "code": "RI",
-        "value": "180 museums"
-      },
-      {
-        "rank": 50,
-        "code": "DE",
-        "value": "150 museums"
-      },
-      {
-        "rank": 51,
-        "code": "WY",
-        "value": "140 museums"
-      }
-    ],
-    "disclaimer": "IMLS counts include art museums, historical societies, historic sites, arboreta, zoos, aquariums, science and children's museums. Includes Washington DC.",
-    "trivia": "California and Texas lead by scale; New York and Pennsylvania lead by density of historic sites.",
-    "asOfDate": "IMLS MDF v3 (2018 release; latest comprehensive)"
-  },
-  {
-    "id": "us-states-culture-most-public-library-systems-imls-2021",
-    "theme": "US States",
-    "subtheme": "US States - Culture",
-    "title": "Most Public Library Systems (IMLS)",
-    "prompt": "Rank the US states by number of public library administrative entities (systems) reported to IMLS.",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "IMLS \u2014 Public Libraries Survey",
-      "url": "https://www.imls.gov/research-evaluation/surveys",
-      "asOf": "2021"
-    },
-    "note": "Counts library administrative entities (systems), not branch locations. New York and Illinois have unusually high system counts because of decentralized local library districts; larger states like Texas and California have fewer systems but many branches per system.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "NY",
-        "value": "756 systems"
-      },
-      {
-        "rank": 2,
-        "code": "IL",
-        "value": "637 systems"
-      },
-      {
-        "rank": 3,
-        "code": "IA",
-        "value": "544 systems"
-      },
-      {
-        "rank": 3,
-        "code": "TX",
-        "value": "544 systems (tied)"
-      },
-      {
-        "rank": 5,
-        "code": "PA",
-        "value": "451 systems"
-      },
-      {
-        "rank": 6,
-        "code": "MI",
-        "value": "397 systems"
-      },
-      {
-        "rank": 7,
-        "code": "WI",
-        "value": "381 systems"
-      },
-      {
-        "rank": 8,
-        "code": "MA",
-        "value": "369 systems"
-      },
-      {
-        "rank": 9,
-        "code": "NJ",
-        "value": "298 systems"
-      },
-      {
-        "rank": 10,
-        "code": "OH",
-        "value": "251 systems"
-      },
-      {
-        "rank": 11,
-        "code": "IN",
-        "value": "236 systems"
-      },
-      {
-        "rank": 12,
-        "code": "CA",
-        "value": "185 systems"
-      },
-      {
-        "rank": 13,
-        "code": "MO",
-        "value": "160 systems"
-      },
-      {
-        "rank": 14,
-        "code": "MN",
-        "value": "137 systems"
-      },
-      {
-        "rank": 15,
-        "code": "OK",
-        "value": "115 systems"
-      },
-      {
-        "rank": 16,
-        "code": "KS",
-        "value": "109 systems"
-      },
-      {
-        "rank": 17,
-        "code": "NE",
-        "value": "100 systems"
-      },
-      {
-        "rank": 18,
-        "code": "NC",
-        "value": "80 systems"
-      },
-      {
-        "rank": 19,
-        "code": "CT",
-        "value": "76 systems"
-      },
-      {
-        "rank": 20,
-        "code": "VT",
-        "value": "71 systems"
-      },
-      {
-        "rank": 21,
-        "code": "AL",
-        "value": "70 systems"
-      },
-      {
-        "rank": 21,
-        "code": "KY",
-        "value": "70 systems (tied)"
-      },
-      {
-        "rank": 23,
-        "code": "CO",
-        "value": "67 systems"
-      },
-      {
-        "rank": 24,
-        "code": "WA",
-        "value": "62 systems"
-      },
-      {
-        "rank": 24,
-        "code": "SD",
-        "value": "62 systems (tied)"
-      },
-      {
-        "rank": 26,
-        "code": "ME",
-        "value": "59 systems"
-      },
-      {
-        "rank": 26,
-        "code": "MT",
-        "value": "59 systems (tied)"
-      },
-      {
-        "rank": 28,
-        "code": "ND",
-        "value": "58 systems"
-      },
-      {
-        "rank": 29,
-        "code": "NH",
-        "value": "56 systems"
-      },
-      {
-        "rank": 29,
-        "code": "GA",
-        "value": "56 systems (tied)"
-      },
-      {
-        "rank": 31,
-        "code": "TN",
-        "value": "53 systems"
-      },
-      {
-        "rank": 32,
-        "code": "AR",
-        "value": "50 systems"
-      },
-      {
-        "rank": 32,
-        "code": "MS",
-        "value": "50 systems (tied)"
-      },
-      {
-        "rank": 34,
-        "code": "OR",
-        "value": "48 systems"
-      },
-      {
-        "rank": 35,
-        "code": "LA",
-        "value": "47 systems"
-      },
-      {
-        "rank": 36,
-        "code": "AZ",
-        "value": "45 systems"
-      },
-      {
-        "rank": 37,
-        "code": "SC",
-        "value": "42 systems"
-      },
-      {
-        "rank": 38,
-        "code": "WV",
-        "value": "40 systems"
-      },
-      {
-        "rank": 39,
-        "code": "NM",
-        "value": "34 systems"
-      },
-      {
-        "rank": 39,
-        "code": "VA",
-        "value": "34 systems (tied)"
-      },
-      {
-        "rank": 41,
-        "code": "UT",
-        "value": "31 systems"
-      },
-      {
-        "rank": 42,
-        "code": "ID",
-        "value": "30 systems"
-      },
-      {
-        "rank": 43,
-        "code": "FL",
-        "value": "27 systems"
-      },
-      {
-        "rank": 44,
-        "code": "WY",
-        "value": "24 systems"
-      },
-      {
-        "rank": 45,
-        "code": "AK",
-        "value": "22 systems"
-      },
-      {
-        "rank": 46,
-        "code": "NV",
-        "value": "20 systems"
-      },
-      {
-        "rank": 46,
-        "code": "RI",
-        "value": "20 systems (tied)"
-      },
-      {
-        "rank": 46,
-        "code": "MD",
-        "value": "20 systems (tied)"
-      },
-      {
-        "rank": 49,
-        "code": "DE",
-        "value": "10 systems"
-      },
-      {
-        "rank": 50,
-        "code": "HI",
-        "value": "1 system"
-      },
-      {
-        "rank": 50,
-        "code": "DC",
-        "value": "1 system (tied)"
-      }
-    ],
-    "disclaimer": "Counts library administrative entities (systems), not branch locations. Includes Washington DC.",
-    "trivia": "New York and Illinois have unusually high system counts because of decentralized local library districts; larger states like Texas and California have fewer systems but many branches per system.",
-    "asOfDate": "IMLS PLS FY2021"
-  },
-  {
-    "id": "us-states-culture-most-nobel-laureates-by-state-of-birth-us-born-winners-2024",
-    "theme": "US States",
-    "subtheme": "US States - Culture",
-    "title": "Most Nobel Laureates by State of Birth (US-born winners)",
-    "prompt": "Rank the US states by number of Nobel laureates who were born there (all Nobel categories, all-time).",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "Nobel Foundation - Nobel Prizes biographical data",
-      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/",
-      "asOf": "Through 2024 Nobel Prizes"
-    },
-    "note": "Counts US-born laureates only (not naturalized or foreign-born winners affiliated with US institutions). New York leads by a wide margin because of high early-20th-century immigration density; California, Illinois, Massachusetts, and Pennsylvania follow.",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "NY",
-        "value": "~85 laureates"
-      },
-      {
-        "rank": 2,
-        "code": "CA",
-        "value": "~30 laureates"
-      },
-      {
-        "rank": 3,
-        "code": "IL",
-        "value": "~25 laureates"
-      },
-      {
-        "rank": 4,
-        "code": "MA",
-        "value": "~22 laureates"
-      },
-      {
-        "rank": 5,
-        "code": "PA",
-        "value": "~20 laureates"
-      },
-      {
-        "rank": 6,
-        "code": "OH",
-        "value": "~15 laureates"
-      },
-      {
-        "rank": 7,
-        "code": "NJ",
-        "value": "~12 laureates"
-      },
-      {
-        "rank": 8,
-        "code": "TX",
-        "value": "~10 laureates"
-      },
-      {
-        "rank": 9,
-        "code": "MI",
-        "value": "~9 laureates"
-      },
-      {
-        "rank": 10,
-        "code": "MN",
-        "value": "~7 laureates"
-      },
-      {
-        "rank": 10,
-        "code": "IN",
-        "value": "~7 laureates (tied)"
-      },
-      {
-        "rank": 12,
-        "code": "MO",
-        "value": "~6 laureates"
-      },
-      {
-        "rank": 12,
-        "code": "CT",
-        "value": "~6 laureates (tied)"
-      },
-      {
-        "rank": 12,
-        "code": "WI",
-        "value": "~6 laureates (tied)"
-      },
-      {
-        "rank": 15,
-        "code": "IA",
-        "value": "~5 laureates"
-      },
-      {
-        "rank": 16,
-        "code": "MD",
-        "value": "~4 laureates"
-      },
-      {
-        "rank": 16,
-        "code": "WA",
-        "value": "~4 laureates (tied)"
-      },
-      {
-        "rank": 18,
-        "code": "CO",
-        "value": "~3 laureates"
-      },
-      {
-        "rank": 18,
-        "code": "NC",
-        "value": "~3 laureates (tied)"
-      },
-      {
-        "rank": 18,
-        "code": "VA",
-        "value": "~3 laureates (tied)"
-      },
-      {
-        "rank": 18,
-        "code": "OR",
-        "value": "~3 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "GA",
-        "value": "~2 laureates"
-      },
-      {
-        "rank": 22,
-        "code": "KS",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "NE",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "SC",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "TN",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "OK",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "KY",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 22,
-        "code": "DC",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "AL",
-        "value": "~1 laureate"
-      },
-      {
-        "rank": 30,
-        "code": "AZ",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "AR",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "FL",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "LA",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "ME",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "MS",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "MT",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "NH",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "NM",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "ND",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "SD",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "UT",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 30,
-        "code": "WV",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "AK",
-        "value": "0 laureates"
-      },
-      {
-        "rank": 44,
-        "code": "DE",
-        "value": "0 laureates (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "HI",
-        "value": "0 laureates (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "ID",
-        "value": "0 laureates (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "NV",
-        "value": "0 laureates (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "RI",
-        "value": "0 laureates (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "VT",
-        "value": "0 laureates (tied)"
-      },
-      {
-        "rank": 44,
-        "code": "WY",
-        "value": "0 laureates (tied)"
-      }
-    ],
-    "disclaimer": "Counts US-born laureates only (not naturalized or foreign-born winners affiliated with US institutions). Includes Washington DC.",
-    "trivia": "New York leads by a wide margin because of high early-20th-century immigration density; California, Illinois, Massachusetts, and Pennsylvania follow.",
-    "asOfDate": "Through 2024 Nobel Prizes"
   },
   {
     "id": "us-states-demographics-highest-median-age-2023",
@@ -80979,7 +80154,7 @@
         "value": "68 sq mi"
       }
     ],
-    "disclaimer": "Total area includes inland waters, coastal waters (within state jurisdiction), Great Lakes waters, and territorial waters \u2014 which is why Michigan (with huge Great Lakes waters) ranks higher on total than on land-only. Includes Washington DC.",
+    "disclaimer": "Total area (land + inland water + coastal/territorial waters within state jurisdiction, including Great Lakes waters where applicable) per US Census Bureau. Includes Washington DC.",
     "trivia": "Alaska is more than twice the area of Texas.",
     "asOfDate": "2010 Census reference (values remain the official Census figures used through 2024)"
   },
@@ -81969,7 +81144,7 @@
         "value": "345 ft (Britton Hill)"
       }
     ],
-    "disclaimer": "All top-10 state high points are in the West except (technically) they all are \u2014 the highest peak east of the Mississippi is Mount Mitchell in North Carolina at 6,684 ft, which doesn't crack the top 15. Includes Washington DC.",
+    "disclaimer": "Elevation (in feet above sea level) of each state's highest natural summit per USGS. Includes Washington DC.",
     "trivia": "Denali (Alaska) at 20,310 ft is the highest point in North America.",
     "asOfDate": "USGS reference, values current through 2024"
   },
@@ -82276,7 +81451,7 @@
       {
         "rank": 3,
         "code": "UT",
-        "value": "5 National Parks (Mighty 5)"
+        "value": "5 National Parks"
       },
       {
         "rank": 4,
@@ -82285,13 +81460,8 @@
       },
       {
         "rank": 5,
-        "code": "WA",
-        "value": "3 National Parks"
-      },
-      {
-        "rank": 5,
         "code": "AZ",
-        "value": "3 National Parks (tied)"
+        "value": "3 National Parks"
       },
       {
         "rank": 5,
@@ -82299,18 +81469,23 @@
         "value": "3 National Parks (tied)"
       },
       {
-        "rank": 8,
-        "code": "MT",
-        "value": "2 National Parks"
-      },
-      {
-        "rank": 8,
-        "code": "WY",
-        "value": "2 National Parks (tied)"
+        "rank": 5,
+        "code": "WA",
+        "value": "3 National Parks (tied)"
       },
       {
         "rank": 8,
         "code": "HI",
+        "value": "2 National Parks"
+      },
+      {
+        "rank": 8,
+        "code": "MT",
+        "value": "2 National Parks (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "SD",
         "value": "2 National Parks (tied)"
       },
       {
@@ -82320,96 +81495,96 @@
       },
       {
         "rank": 8,
-        "code": "SD",
+        "code": "WY",
         "value": "2 National Parks (tied)"
       },
       {
         "rank": 13,
-        "code": "TN",
-        "value": "1 National Park (Great Smoky, tied w/ NC)"
-      },
-      {
-        "rank": 13,
-        "code": "NC",
-        "value": "1 National Park (Great Smoky, tied w/ TN) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "OR",
-        "value": "1 National Park (Crater Lake) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "NM",
-        "value": "1 National Park (Carlsbad Caverns) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "NV",
-        "value": "1 National Park (Great Basin) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "ND",
-        "value": "1 National Park (Theodore Roosevelt) (tied)"
-      },
-      {
-        "rank": 13,
         "code": "AR",
-        "value": "1 National Park (Hot Springs) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "KY",
-        "value": "1 National Park (Mammoth Cave) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "OH",
-        "value": "1 National Park (Cuyahoga Valley) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "MI",
-        "value": "1 National Park (Isle Royale) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "MN",
-        "value": "1 National Park (Voyageurs) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "ME",
-        "value": "1 National Park (Acadia) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "VA",
-        "value": "1 National Park (Shenandoah) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "WV",
-        "value": "1 National Park (New River Gorge) (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "SC",
-        "value": "1 National Park (Congaree) (tied)"
+        "value": "1 National Park"
       },
       {
         "rank": 13,
         "code": "IN",
-        "value": "1 National Park (Indiana Dunes) (tied)"
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "KY",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "ME",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MI",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MN",
+        "value": "1 National Park (tied)"
       },
       {
         "rank": 13,
         "code": "MO",
-        "value": "1 National Park (Gateway Arch) (tied)"
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NC",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "ND",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NM",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NV",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "OH",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "OR",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "SC",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "TN",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "VA",
+        "value": "1 National Park (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "WV",
+        "value": "1 National Park (tied)"
       }
     ],
-    "disclaimer": "'National Park' is a specific NPS designation \u2014 the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. Excludes national monuments, historic sites, seashores, and recreation areas. DC not included (source omits it).",
+    "disclaimer": "Counts only units carrying the specific NPS 'National Park' designation (the broader National Park System includes 400+ monuments, seashores, historic sites, and recreation areas that are excluded here). Great Smoky Mountains counts once for each of its two host states. Ties broken alphabetically by state code. DC excluded (no National Park designation).",
     "trivia": "California leads with 9 parks, followed by Alaska with 8. Utah's 'Mighty 5' (Arches, Bryce, Canyonlands, Capitol Reef, Zion) all sit within a few hours' drive of each other.",
     "asOfDate": "2024 (63 designated National Parks after New River Gorge 2020 and Indiana Dunes 2019)"
   },
@@ -85381,7 +84556,7 @@
   {
     "id": "us-states-health-largest-wind-electricity-generation-2023",
     "theme": "US States",
-    "subtheme": "US States - Health",
+    "subtheme": "US States - Energy",
     "title": "Largest Wind Electricity Generation",
     "prompt": "Rank the US states by wind electricity generation (EIA, 2023).",
     "answerType": "US States",
@@ -265743,7 +264918,7 @@
     "theme": "US States",
     "subtheme": "US States - Deep Dive",
     "title": "Highest Cost of Living",
-    "prompt": "Rank US states (and DC) by highest overall cost-of-living index.",
+    "prompt": "Rank US states by highest overall cost-of-living index.",
     "answerType": "US States",
     "seededDepth": 50,
     "source": {
@@ -266574,182 +265749,182 @@
       {
         "rank": 1,
         "code": "IA",
-        "value": "2.55B bushels"
+        "value": "2,550M bushels"
       },
       {
         "rank": 2,
         "code": "IL",
-        "value": "2.29B bushels"
+        "value": "2,290M bushels"
       },
       {
         "rank": 3,
         "code": "NE",
-        "value": "1.75B bushels"
+        "value": "1,750M bushels"
       },
       {
         "rank": 4,
         "code": "MN",
-        "value": "1.51B bushels"
+        "value": "1,510M bushels"
       },
       {
         "rank": 5,
         "code": "IN",
-        "value": "1.09B bushels"
+        "value": "1,090M bushels"
       },
       {
         "rank": 6,
         "code": "SD",
-        "value": "0.85B bushels"
+        "value": "850M bushels"
       },
       {
         "rank": 7,
         "code": "OH",
-        "value": "0.63B bushels"
+        "value": "630M bushels"
       },
       {
         "rank": 8,
         "code": "KS",
-        "value": "0.62B bushels"
+        "value": "620M bushels"
       },
       {
         "rank": 9,
         "code": "MO",
-        "value": "0.60B bushels"
+        "value": "600M bushels"
       },
       {
         "rank": 10,
         "code": "WI",
-        "value": "0.51B bushels"
+        "value": "510M bushels"
       },
       {
         "rank": 11,
         "code": "MI",
-        "value": "0.35B bushels"
+        "value": "350M bushels"
       },
       {
         "rank": 12,
         "code": "ND",
-        "value": "0.34B bushels"
+        "value": "340M bushels"
       },
       {
         "rank": 13,
         "code": "TX",
-        "value": "0.28B bushels"
+        "value": "280M bushels"
       },
       {
         "rank": 14,
         "code": "KY",
-        "value": "0.24B bushels"
+        "value": "240M bushels"
       },
       {
         "rank": 15,
         "code": "PA",
-        "value": "0.15B bushels"
+        "value": "150M bushels"
       },
       {
         "rank": 16,
         "code": "TN",
-        "value": "0.13B bushels"
+        "value": "130M bushels"
       },
       {
         "rank": 16,
         "code": "CO",
-        "value": "0.13B bushels (tied)"
+        "value": "130M bushels (tied)"
       },
       {
         "rank": 18,
         "code": "NC",
-        "value": "0.12B bushels"
+        "value": "120M bushels"
       },
       {
         "rank": 19,
         "code": "NY",
-        "value": "0.10B bushels"
+        "value": "100M bushels"
       },
       {
         "rank": 20,
         "code": "GA",
-        "value": "0.075B bushels"
+        "value": "75M bushels"
       },
       {
         "rank": 21,
         "code": "MS",
-        "value": "0.068B bushels"
+        "value": "68M bushels"
       },
       {
         "rank": 22,
         "code": "AR",
-        "value": "0.062B bushels"
+        "value": "62M bushels"
       },
       {
         "rank": 23,
         "code": "VA",
-        "value": "0.055B bushels"
+        "value": "55M bushels"
       },
       {
         "rank": 24,
         "code": "MD",
-        "value": "0.052B bushels"
+        "value": "52M bushels"
       },
       {
         "rank": 25,
         "code": "OK",
-        "value": "0.050B bushels"
+        "value": "50M bushels"
       },
       {
         "rank": 26,
         "code": "AL",
-        "value": "0.038B bushels"
+        "value": "38M bushels"
       },
       {
         "rank": 27,
         "code": "LA",
-        "value": "0.037B bushels"
+        "value": "37M bushels"
       },
       {
         "rank": 28,
         "code": "DE",
-        "value": "0.027B bushels"
+        "value": "27M bushels"
       },
       {
         "rank": 29,
         "code": "SC",
-        "value": "0.026B bushels"
+        "value": "26M bushels"
       },
       {
         "rank": 30,
         "code": "NJ",
-        "value": "0.017B bushels"
+        "value": "17M bushels"
       },
       {
         "rank": 31,
         "code": "ID",
-        "value": "0.014B bushels"
+        "value": "14M bushels"
       },
       {
         "rank": 32,
         "code": "WA",
-        "value": "0.013B bushels"
+        "value": "13M bushels"
       },
       {
         "rank": 33,
         "code": "OR",
-        "value": "0.007B bushels"
+        "value": "7M bushels"
       },
       {
         "rank": 33,
         "code": "MT",
-        "value": "0.007B bushels (tied)"
+        "value": "7M bushels (tied)"
       },
       {
         "rank": 35,
         "code": "FL",
-        "value": "0.006B bushels"
+        "value": "6M bushels"
       },
       {
         "rank": 36,
         "code": "WV",
-        "value": "0.005B bushels"
+        "value": "5M bushels"
       }
     ]
   },
@@ -266928,16 +266103,16 @@
     "theme": "US States",
     "subtheme": "US States - Deep Dive",
     "title": "Largest Wine Production",
-    "prompt": "Rank US states by total wine production (excluding California, which alone produces over 80% of US wine).",
+    "prompt": "Rank US states by total wine production, excluding California (which produces over 80% of US wine and is omitted here to make the ranking competitive).",
     "answerType": "US States",
-    "seededDepth": 50,
+    "seededDepth": 49,
     "source": {
       "name": "Wine Institute \u2014 Wine Production by State",
       "url": "https://wineinstitute.org/our-industry/statistics/",
       "asOf": "2022"
     },
     "note": null,
-    "disclaimer": "California is deliberately excluded to make the ranking competitive; measured in gallons produced. Includes Washington DC.",
+    "disclaimer": "California deliberately excluded. Measured in gallons produced. DC not included (topic is state-scoped).",
     "trivia": "New York, Washington, and Oregon together account for over 90% of non-California US wine.",
     "asOfDate": "2022",
     "answers": [
@@ -267185,286 +266360,6 @@
         "rank": 49,
         "code": "AK",
         "value": "0.003M gallons"
-      },
-      {
-        "rank": 50,
-        "code": "DC",
-        "value": "0.001M gallons"
-      }
-    ]
-  },
-  {
-    "id": "us-states-deep-dive-largest-federal-workforce-per-capita-2023",
-    "theme": "US States",
-    "subtheme": "US States - Deep Dive",
-    "title": "Largest Federal Workforce per Capita",
-    "prompt": "Rank US states (and DC) by federal civilian employees per 10,000 residents.",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "U.S. Office of Personnel Management (OPM) \u2014 FedScope",
-      "url": "https://www.fedscope.opm.gov/",
-      "asOf": "2023"
-    },
-    "note": null,
-    "disclaimer": "Federal civilian executive-branch employees per 10,000 residents; excludes military and postal service. Includes Washington DC.",
-    "trivia": "DC's rate is more than seven times the national average; Maryland and Virginia benefit from Beltway agency HQs.",
-    "asOfDate": "2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "DC",
-        "value": "2,540 per 10K"
-      },
-      {
-        "rank": 2,
-        "code": "MD",
-        "value": "252 per 10K"
-      },
-      {
-        "rank": 3,
-        "code": "VA",
-        "value": "197 per 10K"
-      },
-      {
-        "rank": 4,
-        "code": "AK",
-        "value": "179 per 10K"
-      },
-      {
-        "rank": 5,
-        "code": "HI",
-        "value": "155 per 10K"
-      },
-      {
-        "rank": 6,
-        "code": "NM",
-        "value": "138 per 10K"
-      },
-      {
-        "rank": 7,
-        "code": "OK",
-        "value": "120 per 10K"
-      },
-      {
-        "rank": 8,
-        "code": "WV",
-        "value": "97 per 10K"
-      },
-      {
-        "rank": 9,
-        "code": "WY",
-        "value": "93 per 10K"
-      },
-      {
-        "rank": 10,
-        "code": "MT",
-        "value": "87 per 10K"
-      },
-      {
-        "rank": 11,
-        "code": "ND",
-        "value": "83 per 10K"
-      },
-      {
-        "rank": 12,
-        "code": "ID",
-        "value": "72 per 10K"
-      },
-      {
-        "rank": 13,
-        "code": "SD",
-        "value": "70 per 10K"
-      },
-      {
-        "rank": 14,
-        "code": "AL",
-        "value": "68 per 10K"
-      },
-      {
-        "rank": 15,
-        "code": "UT",
-        "value": "66 per 10K"
-      },
-      {
-        "rank": 16,
-        "code": "MS",
-        "value": "64 per 10K"
-      },
-      {
-        "rank": 17,
-        "code": "AZ",
-        "value": "62 per 10K"
-      },
-      {
-        "rank": 18,
-        "code": "CO",
-        "value": "60 per 10K"
-      },
-      {
-        "rank": 19,
-        "code": "GA",
-        "value": "58 per 10K"
-      },
-      {
-        "rank": 20,
-        "code": "KS",
-        "value": "56 per 10K"
-      },
-      {
-        "rank": 21,
-        "code": "NE",
-        "value": "54 per 10K"
-      },
-      {
-        "rank": 22,
-        "code": "AR",
-        "value": "52 per 10K"
-      },
-      {
-        "rank": 23,
-        "code": "SC",
-        "value": "50 per 10K"
-      },
-      {
-        "rank": 24,
-        "code": "LA",
-        "value": "49 per 10K"
-      },
-      {
-        "rank": 25,
-        "code": "TX",
-        "value": "47 per 10K"
-      },
-      {
-        "rank": 26,
-        "code": "KY",
-        "value": "46 per 10K"
-      },
-      {
-        "rank": 27,
-        "code": "MO",
-        "value": "45 per 10K"
-      },
-      {
-        "rank": 28,
-        "code": "TN",
-        "value": "44 per 10K"
-      },
-      {
-        "rank": 29,
-        "code": "NV",
-        "value": "43 per 10K"
-      },
-      {
-        "rank": 30,
-        "code": "ME",
-        "value": "42 per 10K"
-      },
-      {
-        "rank": 31,
-        "code": "FL",
-        "value": "41 per 10K"
-      },
-      {
-        "rank": 32,
-        "code": "NC",
-        "value": "40 per 10K"
-      },
-      {
-        "rank": 33,
-        "code": "PA",
-        "value": "39 per 10K"
-      },
-      {
-        "rank": 34,
-        "code": "WA",
-        "value": "38 per 10K"
-      },
-      {
-        "rank": 35,
-        "code": "OH",
-        "value": "37 per 10K"
-      },
-      {
-        "rank": 36,
-        "code": "OR",
-        "value": "36 per 10K"
-      },
-      {
-        "rank": 37,
-        "code": "VT",
-        "value": "35 per 10K"
-      },
-      {
-        "rank": 38,
-        "code": "DE",
-        "value": "34 per 10K"
-      },
-      {
-        "rank": 39,
-        "code": "NH",
-        "value": "33 per 10K"
-      },
-      {
-        "rank": 40,
-        "code": "IN",
-        "value": "32 per 10K"
-      },
-      {
-        "rank": 41,
-        "code": "IL",
-        "value": "31 per 10K"
-      },
-      {
-        "rank": 42,
-        "code": "RI",
-        "value": "30 per 10K"
-      },
-      {
-        "rank": 43,
-        "code": "IA",
-        "value": "29 per 10K"
-      },
-      {
-        "rank": 44,
-        "code": "MI",
-        "value": "28 per 10K"
-      },
-      {
-        "rank": 45,
-        "code": "CA",
-        "value": "27 per 10K"
-      },
-      {
-        "rank": 46,
-        "code": "NY",
-        "value": "26 per 10K"
-      },
-      {
-        "rank": 47,
-        "code": "CT",
-        "value": "25 per 10K"
-      },
-      {
-        "rank": 48,
-        "code": "MA",
-        "value": "24 per 10K"
-      },
-      {
-        "rank": 49,
-        "code": "MN",
-        "value": "23 per 10K"
-      },
-      {
-        "rank": 50,
-        "code": "WI",
-        "value": "22 per 10K"
-      },
-      {
-        "rank": 51,
-        "code": "NJ",
-        "value": "21 per 10K"
       }
     ]
   },
@@ -267482,7 +266377,7 @@
       "asOf": "2022"
     },
     "note": null,
-    "disclaimer": "Violent crime = murder, rape, robbery, aggravated assault. Per 100,000 population. Includes Washington DC.",
+    "disclaimer": "Violent crime = murder, rape, robbery, aggravated assault, per 100,000 population. 2022 FBI data reflects a partial-transition year to NIBRS reporting; some state totals may understate actual crime due to agency non-participation. Includes Washington DC.",
     "trivia": "DC's rate is skewed by being a single dense city; among states, three of the top five are in the Deep South.",
     "asOfDate": "2022",
     "answers": [
@@ -268565,281 +267460,6 @@
         "rank": 50,
         "code": "CT",
         "value": "0.3% (tied)"
-      }
-    ]
-  },
-  {
-    "id": "us-states-deep-dive-most-retail-sales-per-capita-2022",
-    "theme": "US States",
-    "subtheme": "US States - Deep Dive",
-    "title": "Most Retail Sales per Capita",
-    "prompt": "Rank US states (and DC) by highest per-capita retail sales.",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "U.S. Census Bureau \u2014 Monthly Retail Trade (state retail sales)",
-      "url": "https://www.census.gov/retail/",
-      "asOf": "2022"
-    },
-    "note": null,
-    "disclaimer": "Total retail sales divided by resident population; low-population, tourism-heavy states punch above their weight. Includes Washington DC.",
-    "trivia": "New Hampshire's rate is inflated by Massachusetts shoppers crossing the border to avoid sales tax.",
-    "asOfDate": "2022",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "NH",
-        "value": "$25,900 per capita"
-      },
-      {
-        "rank": 2,
-        "code": "DE",
-        "value": "$22,300 per capita"
-      },
-      {
-        "rank": 3,
-        "code": "ND",
-        "value": "$21,800 per capita"
-      },
-      {
-        "rank": 4,
-        "code": "VT",
-        "value": "$21,100 per capita"
-      },
-      {
-        "rank": 5,
-        "code": "ME",
-        "value": "$20,900 per capita"
-      },
-      {
-        "rank": 6,
-        "code": "MT",
-        "value": "$20,600 per capita"
-      },
-      {
-        "rank": 7,
-        "code": "SD",
-        "value": "$20,000 per capita"
-      },
-      {
-        "rank": 8,
-        "code": "WY",
-        "value": "$19,800 per capita"
-      },
-      {
-        "rank": 9,
-        "code": "FL",
-        "value": "$19,500 per capita"
-      },
-      {
-        "rank": 10,
-        "code": "OK",
-        "value": "$19,000 per capita"
-      },
-      {
-        "rank": 11,
-        "code": "TN",
-        "value": "$18,900 per capita"
-      },
-      {
-        "rank": 12,
-        "code": "TX",
-        "value": "$18,700 per capita"
-      },
-      {
-        "rank": 13,
-        "code": "AR",
-        "value": "$18,500 per capita"
-      },
-      {
-        "rank": 14,
-        "code": "MO",
-        "value": "$18,300 per capita"
-      },
-      {
-        "rank": 15,
-        "code": "IA",
-        "value": "$18,100 per capita"
-      },
-      {
-        "rank": 16,
-        "code": "KS",
-        "value": "$17,900 per capita"
-      },
-      {
-        "rank": 17,
-        "code": "NE",
-        "value": "$17,700 per capita"
-      },
-      {
-        "rank": 18,
-        "code": "CO",
-        "value": "$17,500 per capita"
-      },
-      {
-        "rank": 19,
-        "code": "MN",
-        "value": "$17,300 per capita"
-      },
-      {
-        "rank": 20,
-        "code": "WI",
-        "value": "$17,100 per capita"
-      },
-      {
-        "rank": 21,
-        "code": "GA",
-        "value": "$16,900 per capita"
-      },
-      {
-        "rank": 22,
-        "code": "NC",
-        "value": "$16,700 per capita"
-      },
-      {
-        "rank": 23,
-        "code": "SC",
-        "value": "$16,500 per capita"
-      },
-      {
-        "rank": 24,
-        "code": "AL",
-        "value": "$16,300 per capita"
-      },
-      {
-        "rank": 25,
-        "code": "IN",
-        "value": "$16,100 per capita"
-      },
-      {
-        "rank": 26,
-        "code": "KY",
-        "value": "$15,900 per capita"
-      },
-      {
-        "rank": 27,
-        "code": "VA",
-        "value": "$15,700 per capita"
-      },
-      {
-        "rank": 28,
-        "code": "MI",
-        "value": "$15,500 per capita"
-      },
-      {
-        "rank": 29,
-        "code": "AZ",
-        "value": "$15,300 per capita"
-      },
-      {
-        "rank": 30,
-        "code": "OR",
-        "value": "$15,100 per capita"
-      },
-      {
-        "rank": 31,
-        "code": "OH",
-        "value": "$14,900 per capita"
-      },
-      {
-        "rank": 32,
-        "code": "LA",
-        "value": "$14,700 per capita"
-      },
-      {
-        "rank": 33,
-        "code": "PA",
-        "value": "$14,500 per capita"
-      },
-      {
-        "rank": 34,
-        "code": "WA",
-        "value": "$14,300 per capita"
-      },
-      {
-        "rank": 35,
-        "code": "MS",
-        "value": "$14,100 per capita"
-      },
-      {
-        "rank": 36,
-        "code": "NV",
-        "value": "$13,900 per capita"
-      },
-      {
-        "rank": 37,
-        "code": "AK",
-        "value": "$13,700 per capita"
-      },
-      {
-        "rank": 38,
-        "code": "ID",
-        "value": "$13,500 per capita"
-      },
-      {
-        "rank": 39,
-        "code": "IL",
-        "value": "$13,300 per capita"
-      },
-      {
-        "rank": 40,
-        "code": "MA",
-        "value": "$13,100 per capita"
-      },
-      {
-        "rank": 41,
-        "code": "NM",
-        "value": "$12,900 per capita"
-      },
-      {
-        "rank": 42,
-        "code": "WV",
-        "value": "$12,700 per capita"
-      },
-      {
-        "rank": 43,
-        "code": "RI",
-        "value": "$12,500 per capita"
-      },
-      {
-        "rank": 44,
-        "code": "CT",
-        "value": "$12,300 per capita"
-      },
-      {
-        "rank": 45,
-        "code": "MD",
-        "value": "$12,100 per capita"
-      },
-      {
-        "rank": 46,
-        "code": "UT",
-        "value": "$11,900 per capita"
-      },
-      {
-        "rank": 47,
-        "code": "NJ",
-        "value": "$11,700 per capita"
-      },
-      {
-        "rank": 48,
-        "code": "CA",
-        "value": "$11,500 per capita"
-      },
-      {
-        "rank": 49,
-        "code": "NY",
-        "value": "$11,300 per capita"
-      },
-      {
-        "rank": 50,
-        "code": "HI",
-        "value": "$11,100 per capita"
-      },
-      {
-        "rank": 51,
-        "code": "DC",
-        "value": "$10,500 per capita"
       }
     ]
   },
@@ -275419,7 +274039,7 @@
       {
         "rank": 2,
         "code": "NY",
-        "value": "2 Great Lakes (Erie, Ontario, tied) (tied)"
+        "value": "2 Great Lakes (Erie, Ontario) (tied)"
       },
       {
         "rank": 4,
@@ -275429,22 +274049,22 @@
       {
         "rank": 4,
         "code": "IL",
-        "value": "1 Great Lake (Michigan, tied) (tied)"
+        "value": "1 Great Lake (Michigan) (tied)"
       },
       {
         "rank": 4,
         "code": "IN",
-        "value": "1 Great Lake (Michigan, tied) (tied)"
+        "value": "1 Great Lake (Michigan) (tied)"
       },
       {
         "rank": 4,
         "code": "MN",
-        "value": "1 Great Lake (Superior, tied) (tied)"
+        "value": "1 Great Lake (Superior) (tied)"
       },
       {
         "rank": 4,
         "code": "PA",
-        "value": "1 Great Lake (Erie, tied) (tied)"
+        "value": "1 Great Lake (Erie) (tied)"
       }
     ]
   },
@@ -275462,7 +274082,7 @@
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Includes volcanoes classified by USGS as historically active or potentially active. DC not included (topic is state-scoped).",
+    "disclaimer": "Counts from USGS Volcano Hazards Program list of active and potentially active volcanoes. DC not included (topic is state-scoped).",
     "trivia": "Alaska alone has over 130 volcanoes considered active in geologic time, more than the rest of the US combined.",
     "asOfDate": "2024",
     "answers": [
@@ -275483,48 +274103,48 @@
       },
       {
         "rank": 4,
-        "code": "NV",
+        "code": "WA",
         "value": "13 volcanoes"
       },
       {
         "rank": 5,
-        "code": "NM",
-        "value": "12 volcanoes"
+        "code": "HI",
+        "value": "6 volcanoes"
       },
       {
         "rank": 6,
-        "code": "UT",
-        "value": "9 volcanoes"
+        "code": "ID",
+        "value": "5 volcanoes"
       },
       {
         "rank": 7,
-        "code": "WA",
-        "value": "7 volcanoes"
+        "code": "NM",
+        "value": "4 volcanoes"
       },
       {
-        "rank": 8,
-        "code": "ID",
-        "value": "6 volcanoes"
+        "rank": 7,
+        "code": "WY",
+        "value": "4 volcanoes (tied)"
       },
       {
         "rank": 9,
         "code": "AZ",
-        "value": "5 volcanoes"
+        "value": "3 volcanoes"
       },
       {
         "rank": 9,
-        "code": "HI",
-        "value": "5 volcanoes (tied)"
+        "code": "NV",
+        "value": "3 volcanoes (tied)"
       },
       {
-        "rank": 11,
-        "code": "WY",
-        "value": "4 volcanoes (Yellowstone area)"
+        "rank": 9,
+        "code": "UT",
+        "value": "3 volcanoes (tied)"
       },
       {
         "rank": 12,
         "code": "CO",
-        "value": "3 volcanoes"
+        "value": "2 volcanoes"
       },
       {
         "rank": 13,
@@ -276687,7 +275307,7 @@
       "asOf": "1991-2020 climate normals"
     },
     "note": null,
-    "disclaimer": "Statewide averages from NOAA 1991-2020 normals. Individual sites (e.g. Mount Waialeale) far exceed statewide means. Includes Washington DC.",
+    "disclaimer": "Statewide average annual precipitation (rain + melted snow), long-term climate normals. Individual sites can far exceed statewide means. Includes Washington DC.",
     "trivia": "Hawaii's statewide average masks huge extremes \u2014 leeward Kona coasts get under 10 inches while Mount Waialeale on Kauai averages over 400 inches annually.",
     "asOfDate": "1991-2020 climate normals",
     "answers": [
@@ -276969,7 +275589,7 @@
       {
         "rank": 1,
         "code": "NV",
-        "value": "10.3 in"
+        "value": "9.5 in"
       },
       {
         "rank": 2,
@@ -276978,13 +275598,13 @@
       },
       {
         "rank": 3,
-        "code": "AZ",
-        "value": "13.6 in"
+        "code": "WY",
+        "value": "12.9 in"
       },
       {
         "rank": 4,
-        "code": "WY",
-        "value": "14.5 in"
+        "code": "AZ",
+        "value": "13.6 in"
       },
       {
         "rank": 5,
@@ -276999,7 +275619,7 @@
       {
         "rank": 7,
         "code": "CO",
-        "value": "16.1 in"
+        "value": "15.9 in"
       },
       {
         "rank": 8,
@@ -277009,17 +275629,17 @@
       {
         "rank": 9,
         "code": "ID",
-        "value": "19.0 in"
+        "value": "18.9 in"
       },
       {
         "rank": 10,
         "code": "SD",
-        "value": "20.6 in"
+        "value": "20.1 in"
       },
       {
         "rank": 11,
         "code": "CA",
-        "value": "21.4 in"
+        "value": "22.2 in"
       },
       {
         "rank": 12,
@@ -277029,17 +275649,17 @@
       {
         "rank": 13,
         "code": "NE",
-        "value": "24.1 in"
+        "value": "23.6 in"
       },
       {
         "rank": 14,
-        "code": "OR",
-        "value": "27.4 in"
+        "code": "MN",
+        "value": "27.3 in"
       },
       {
         "rank": 15,
-        "code": "MN",
-        "value": "27.5 in"
+        "code": "OR",
+        "value": "27.4 in"
       },
       {
         "rank": 16,
@@ -277047,9 +275667,9 @@
         "value": "28.9 in"
       },
       {
-        "rank": 17,
+        "rank": 16,
         "code": "TX",
-        "value": "29.1 in"
+        "value": "28.9 in (tied)"
       },
       {
         "rank": 18,
@@ -277059,7 +275679,7 @@
       {
         "rank": 19,
         "code": "MI",
-        "value": "33.0 in"
+        "value": "32.8 in"
       },
       {
         "rank": 20,
@@ -277078,13 +275698,13 @@
       },
       {
         "rank": 23,
-        "code": "IL",
-        "value": "39.2 in"
+        "code": "OH",
+        "value": "39.1 in"
       },
       {
         "rank": 24,
-        "code": "OH",
-        "value": "40.2 in"
+        "code": "IL",
+        "value": "39.2 in"
       },
       {
         "rank": 25,
@@ -277093,43 +275713,43 @@
       },
       {
         "rank": 26,
-        "code": "NY",
-        "value": "42.3 in"
+        "code": "IN",
+        "value": "41.7 in"
       },
       {
         "rank": 27,
-        "code": "MO",
-        "value": "42.4 in"
+        "code": "NY",
+        "value": "41.8 in"
       },
       {
         "rank": 28,
-        "code": "IN",
-        "value": "42.6 in"
+        "code": "ME",
+        "value": "42.2 in"
       },
       {
-        "rank": 29,
-        "code": "PA",
-        "value": "42.9 in"
+        "rank": 28,
+        "code": "MO",
+        "value": "42.2 in (tied)"
       },
       {
         "rank": 30,
         "code": "VT",
-        "value": "43.0 in"
+        "value": "42.7 in"
       },
       {
         "rank": 31,
+        "code": "PA",
+        "value": "42.9 in"
+      },
+      {
+        "rank": 32,
         "code": "NH",
         "value": "43.4 in"
       },
       {
-        "rank": 32,
+        "rank": 33,
         "code": "VA",
         "value": "44.3 in"
-      },
-      {
-        "rank": 33,
-        "code": "ME",
-        "value": "44.4 in"
       },
       {
         "rank": 34,
@@ -277153,13 +275773,13 @@
       },
       {
         "rank": 38,
-        "code": "RI",
-        "value": "47.9 in"
+        "code": "MA",
+        "value": "47.7 in"
       },
       {
         "rank": 39,
-        "code": "MA",
-        "value": "48.0 in"
+        "code": "RI",
+        "value": "47.9 in"
       },
       {
         "rank": 40,
@@ -277173,13 +275793,13 @@
       },
       {
         "rank": 42,
-        "code": "CT",
+        "code": "NC",
         "value": "50.3 in"
       },
       {
-        "rank": 43,
-        "code": "NC",
-        "value": "50.4 in"
+        "rank": 42,
+        "code": "CT",
+        "value": "50.3 in (tied)"
       },
       {
         "rank": 44,
@@ -277627,7 +276247,7 @@
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee. Death Valley's 134\u00b0F (1913) remains debated but is the accepted official record. Includes Washington DC.",
+    "disclaimer": "Highest all-time official temperature per NOAA's State Climate Extremes Committee (SCEC). Ties broken alphabetically by state code. Includes Washington DC.",
     "trivia": "Death Valley's 134\u00b0F record from 1913 is the highest ever reliably recorded on Earth, though some meteorologists dispute it in favor of a 130\u00b0F reading from the same site in 2020.",
     "asOfDate": "Through 2024",
     "answers": [
@@ -278168,7 +276788,7 @@
     "theme": "US States",
     "subtheme": "US States - Geography",
     "title": "Most Sunshine Hours Per Year",
-    "prompt": "Rank the US states by average annual sunshine hours (statewide average).",
+    "prompt": "Rank the US states by the annual sunshine hours recorded at their sunniest first-order weather station.",
     "answerType": "US States",
     "seededDepth": 51,
     "source": {
@@ -278177,8 +276797,8 @@
       "asOf": "30-year normals through 2020"
     },
     "note": null,
-    "disclaimer": "Statewide averages derived from NOAA/NWS first-order station normals. Some states are averaged across multiple reporting stations. Includes Washington DC.",
-    "trivia": "Yuma, Arizona records sun during roughly 90% of daylight hours annually \u2014 the sunniest place in the contiguous United States.",
+    "disclaimer": "Values are the highest annual sunshine-hour total among each state's NOAA/NWS first-order reporting stations (not a statewide average). Includes Washington DC.",
+    "trivia": "Yuma, Arizona records sun during roughly 90% of daylight hours annually and is the sunniest first-order station in the United States.",
     "asOfDate": "30-year normals through 2020",
     "answers": [
       {
@@ -278443,7 +277063,7 @@
     "theme": "US States",
     "subtheme": "US States - Geography",
     "title": "Cloudiest States (Fewest Sunny Days)",
-    "prompt": "Rank the US states by cloudiest skies \u2014 states with the fewest average clear or sunny days per year (rank 1 = cloudiest).",
+    "prompt": "Rank the US states by cloudiest skies \u2014 states with the most mean overcast days per year (rank 1 = cloudiest).",
     "answerType": "US States",
     "seededDepth": 51,
     "source": {
@@ -278452,7 +277072,7 @@
       "asOf": "30-year normals through 2020"
     },
     "note": null,
-    "disclaimer": "Rank 1 is the cloudiest state. Based on mean number of overcast days per NOAA/NWS station normals. Includes Washington DC.",
+    "disclaimer": "Rank 1 is the cloudiest state. Based on the mean number of overcast (cloudy) days per year from NOAA/NWS climate station normals. Includes Washington DC.",
     "trivia": "Seattle averages only about 71 clear days per year \u2014 but famously receives less annual rainfall than New York City despite its reputation.",
     "asOfDate": "30-year normals through 2020",
     "answers": [
@@ -281549,7 +280169,7 @@
       {
         "rank": 41,
         "code": "DC",
-        "value": "329 ft (Washington Monument, non-building 555)"
+        "value": "329 ft (Basilica of the National Shrine)"
       },
       {
         "rank": 42,
@@ -281579,7 +280199,7 @@
       {
         "rank": 47,
         "code": "ND",
-        "value": "241 fkt (North Dakota State Capitol, Bismarck)"
+        "value": "241 ft (North Dakota State Capitol, Bismarck)"
       },
       {
         "rank": 48,
@@ -282604,281 +281224,6 @@
     ]
   },
   {
-    "id": "us-states-geography-most-colleges-in-a-single-city-2023",
-    "theme": "US States",
-    "subtheme": "US States - Geography",
-    "title": "Most Colleges in a Single City",
-    "prompt": "Rank the US states by the number of degree-granting colleges/universities in their most college-dense city.",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "NCES / IPEDS \u2014 Institutional directory",
-      "url": "https://nces.ed.gov/ipeds/",
-      "asOf": "2023 IPEDS"
-    },
-    "note": null,
-    "disclaimer": "Counts Title IV degree-granting institutions in a single principal city (not the whole metro). Boston's total is inflated by many small specialty and religious institutions. Includes Washington DC.",
-    "trivia": "Greater Boston hosts more than 50 colleges, and Boston's Fenway/Longwood corridor alone has more medical schools than most US states.",
-    "asOfDate": "2023 IPEDS",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "MA",
-        "value": "Boston 35+ colleges"
-      },
-      {
-        "rank": 2,
-        "code": "NY",
-        "value": "NYC 30+ colleges"
-      },
-      {
-        "rank": 3,
-        "code": "PA",
-        "value": "Philadelphia 25+ colleges"
-      },
-      {
-        "rank": 4,
-        "code": "IL",
-        "value": "Chicago 22+ colleges"
-      },
-      {
-        "rank": 5,
-        "code": "DC",
-        "value": "Washington 20+ colleges"
-      },
-      {
-        "rank": 6,
-        "code": "CA",
-        "value": "Los Angeles 18+ colleges"
-      },
-      {
-        "rank": 7,
-        "code": "TX",
-        "value": "Houston 15+ colleges"
-      },
-      {
-        "rank": 8,
-        "code": "GA",
-        "value": "Atlanta 14+ colleges"
-      },
-      {
-        "rank": 9,
-        "code": "OH",
-        "value": "Cleveland 12+ colleges"
-      },
-      {
-        "rank": 9,
-        "code": "MO",
-        "value": "St. Louis 12+ colleges (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "MN",
-        "value": "Minneapolis 11+ colleges"
-      },
-      {
-        "rank": 12,
-        "code": "MD",
-        "value": "Baltimore 10+ colleges"
-      },
-      {
-        "rank": 12,
-        "code": "FL",
-        "value": "Miami 10+ colleges (tied)"
-      },
-      {
-        "rank": 14,
-        "code": "MI",
-        "value": "Detroit 9+ colleges"
-      },
-      {
-        "rank": 14,
-        "code": "NC",
-        "value": "Charlotte 9+ colleges (tied)"
-      },
-      {
-        "rank": 16,
-        "code": "IN",
-        "value": "Indianapolis 8+ colleges"
-      },
-      {
-        "rank": 16,
-        "code": "TN",
-        "value": "Nashville 8+ colleges (tied)"
-      },
-      {
-        "rank": 16,
-        "code": "VA",
-        "value": "Richmond 8+ colleges (tied)"
-      },
-      {
-        "rank": 16,
-        "code": "WA",
-        "value": "Seattle 8+ colleges (tied)"
-      },
-      {
-        "rank": 20,
-        "code": "CO",
-        "value": "Denver 7+ colleges"
-      },
-      {
-        "rank": 20,
-        "code": "WI",
-        "value": "Milwaukee 7+ colleges (tied)"
-      },
-      {
-        "rank": 20,
-        "code": "LA",
-        "value": "New Orleans 7+ colleges (tied)"
-      },
-      {
-        "rank": 20,
-        "code": "OR",
-        "value": "Portland 7+ colleges (tied)"
-      },
-      {
-        "rank": 24,
-        "code": "OK",
-        "value": "Oklahoma City 6+ colleges"
-      },
-      {
-        "rank": 24,
-        "code": "AZ",
-        "value": "Phoenix 6+ colleges (tied)"
-      },
-      {
-        "rank": 24,
-        "code": "KY",
-        "value": "Louisville 6+ colleges (tied)"
-      },
-      {
-        "rank": 27,
-        "code": "NE",
-        "value": "Omaha 5+ colleges"
-      },
-      {
-        "rank": 27,
-        "code": "UT",
-        "value": "Salt Lake City 5+ colleges (tied)"
-      },
-      {
-        "rank": 27,
-        "code": "NV",
-        "value": "Las Vegas 5+ colleges (tied)"
-      },
-      {
-        "rank": 27,
-        "code": "CT",
-        "value": "Hartford 5+ colleges (tied)"
-      },
-      {
-        "rank": 27,
-        "code": "NJ",
-        "value": "Newark 5+ colleges (tied)"
-      },
-      {
-        "rank": 27,
-        "code": "AL",
-        "value": "Birmingham 5+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "IA",
-        "value": "Des Moines 4+ colleges"
-      },
-      {
-        "rank": 33,
-        "code": "KS",
-        "value": "Wichita 4+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "AR",
-        "value": "Little Rock 4+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "SC",
-        "value": "Columbia 4+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "MS",
-        "value": "Jackson 4+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "NM",
-        "value": "Albuquerque 4+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "HI",
-        "value": "Honolulu 4+ colleges (tied)"
-      },
-      {
-        "rank": 33,
-        "code": "RI",
-        "value": "Providence 4+ colleges (tied)"
-      },
-      {
-        "rank": 41,
-        "code": "WV",
-        "value": "Charleston 3+ colleges"
-      },
-      {
-        "rank": 41,
-        "code": "ME",
-        "value": "Portland 3+ colleges (tied)"
-      },
-      {
-        "rank": 41,
-        "code": "NH",
-        "value": "Manchester 3+ colleges (tied)"
-      },
-      {
-        "rank": 41,
-        "code": "DE",
-        "value": "Wilmington 3+ colleges (tied)"
-      },
-      {
-        "rank": 41,
-        "code": "ND",
-        "value": "Fargo 3+ colleges (tied)"
-      },
-      {
-        "rank": 41,
-        "code": "SD",
-        "value": "Sioux Falls 3+ colleges (tied)"
-      },
-      {
-        "rank": 47,
-        "code": "MT",
-        "value": "Billings 2+ colleges"
-      },
-      {
-        "rank": 47,
-        "code": "ID",
-        "value": "Boise 2+ colleges (tied)"
-      },
-      {
-        "rank": 47,
-        "code": "AK",
-        "value": "Anchorage 2+ colleges (tied)"
-      },
-      {
-        "rank": 47,
-        "code": "WY",
-        "value": "Cheyenne 2+ colleges (tied)"
-      },
-      {
-        "rank": 47,
-        "code": "VT",
-        "value": "Burlington 2+ colleges (tied)"
-      }
-    ]
-  },
-  {
     "id": "us-states-geography-longest-ocean-coastline-2023",
     "theme": "US States",
     "subtheme": "US States - Geography",
@@ -283339,56 +281684,6 @@
     ]
   },
   {
-    "id": "us-states-geography-states-crossed-by-the-continental-divide-2024",
-    "theme": "US States",
-    "subtheme": "US States - Geography",
-    "title": "States Crossed by the Continental Divide",
-    "prompt": "Name the US states through which the Great (Continental) Divide of the Americas runs.",
-    "answerType": "US States",
-    "seededDepth": 6,
-    "source": {
-      "name": "USGS \u2014 Continental Divide of the Americas",
-      "url": "https://www.usgs.gov/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "The Continental Divide separates Pacific-draining watersheds from Atlantic/Gulf-draining watersheds. In the US, it runs through five contiguous states plus Alaska. DC not included (topic is state-scoped).",
-    "trivia": "The divide enters the US at Glacier National Park and exits at the New Mexico\u2013Mexico border; it also crosses Alaska via the Brooks Range.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "MT",
-        "value": "on divide"
-      },
-      {
-        "rank": 2,
-        "code": "ID",
-        "value": "on divide"
-      },
-      {
-        "rank": 3,
-        "code": "WY",
-        "value": "on divide"
-      },
-      {
-        "rank": 4,
-        "code": "CO",
-        "value": "on divide"
-      },
-      {
-        "rank": 5,
-        "code": "NM",
-        "value": "on divide"
-      },
-      {
-        "rank": 6,
-        "code": "AK",
-        "value": "on divide (Brooks Range)"
-      }
-    ]
-  },
-  {
     "id": "us-states-geography-states-crossed-by-the-appalachian-trail-2024",
     "theme": "US States",
     "subtheme": "US States - Geography",
@@ -283492,7 +281787,7 @@
       "asOf": "2024"
     },
     "note": null,
-    "disclaimer": "The PCT crosses only three states between the Mexican and Canadian borders. Ordered south to north. DC not included (topic is state-scoped).",
+    "disclaimer": "Ranked by miles of PCT within each state (rank 1 = most miles). The PCT crosses only three states between the Mexican and Canadian borders. DC not included (topic is state-scoped).",
     "trivia": "The trail runs 2,650 miles from Campo, California to Manning Park in British Columbia; California holds two-thirds of its length.",
     "asOfDate": "2024",
     "answers": [
@@ -328899,146 +327194,6 @@
     ]
   },
   {
-    "id": "us-states-geography-most-named-peaks-over-5-000-ft-2023",
-    "theme": "US States",
-    "subtheme": "US States - Geography",
-    "title": "Most Named Peaks Over 5,000 ft",
-    "prompt": "Name the US states with the most named summits above 5,000 feet in elevation.",
-    "answerType": "US States",
-    "seededDepth": 24,
-    "source": {
-      "name": "Peakbagger.com \u2014 state summit databases",
-      "url": "https://www.peakbagger.com/",
-      "asOf": "2023"
-    },
-    "note": null,
-    "disclaimer": "Named summits above 5,000 ft (1,524 m) with recognized names in Peakbagger's state databases. Elevation cutoff is fixed, not prominence-adjusted. DC not included (source omits it).",
-    "trivia": "Colorado's 5,000-ft threshold catches essentially every named peak in the state \u2014 its lowest point (the Arikaree River) sits at 3,317 ft.",
-    "asOfDate": "2023",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "CO",
-        "value": "5,281 peaks"
-      },
-      {
-        "rank": 2,
-        "code": "NV",
-        "value": "4,140 peaks"
-      },
-      {
-        "rank": 3,
-        "code": "CA",
-        "value": "3,981 peaks"
-      },
-      {
-        "rank": 4,
-        "code": "AZ",
-        "value": "3,650 peaks"
-      },
-      {
-        "rank": 5,
-        "code": "NM",
-        "value": "3,470 peaks"
-      },
-      {
-        "rank": 6,
-        "code": "UT",
-        "value": "3,321 peaks"
-      },
-      {
-        "rank": 7,
-        "code": "ID",
-        "value": "3,215 peaks"
-      },
-      {
-        "rank": 8,
-        "code": "WY",
-        "value": "2,940 peaks"
-      },
-      {
-        "rank": 9,
-        "code": "MT",
-        "value": "2,510 peaks"
-      },
-      {
-        "rank": 10,
-        "code": "OR",
-        "value": "1,712 peaks"
-      },
-      {
-        "rank": 11,
-        "code": "WA",
-        "value": "1,588 peaks"
-      },
-      {
-        "rank": 12,
-        "code": "AK",
-        "value": "1,320 peaks"
-      },
-      {
-        "rank": 13,
-        "code": "HI",
-        "value": "82 peaks"
-      },
-      {
-        "rank": 14,
-        "code": "TX",
-        "value": "68 peaks"
-      },
-      {
-        "rank": 15,
-        "code": "SD",
-        "value": "42 peaks"
-      },
-      {
-        "rank": 16,
-        "code": "NC",
-        "value": "38 peaks"
-      },
-      {
-        "rank": 17,
-        "code": "TN",
-        "value": "24 peaks"
-      },
-      {
-        "rank": 18,
-        "code": "NH",
-        "value": "18 peaks"
-      },
-      {
-        "rank": 19,
-        "code": "VA",
-        "value": "12 peaks"
-      },
-      {
-        "rank": 20,
-        "code": "WV",
-        "value": "8 peaks"
-      },
-      {
-        "rank": 21,
-        "code": "GA",
-        "value": "4 peaks"
-      },
-      {
-        "rank": 22,
-        "code": "NY",
-        "value": "3 peaks"
-      },
-      {
-        "rank": 23,
-        "code": "ME",
-        "value": "2 peaks"
-      },
-      {
-        "rank": 24,
-        "code": "OK",
-        "value": "1 peak"
-      }
-    ]
-  },
-  {
     "id": "us-states-geography-largest-tribal-land-area-2020",
     "theme": "US States",
     "subtheme": "US States - Geography",
@@ -330800,281 +328955,6 @@
         "rank": 43,
         "code": "MA",
         "value": "1 canyon"
-      }
-    ]
-  },
-  {
-    "id": "us-states-geography-longest-river-wholly-within-borders-2022",
-    "theme": "US States",
-    "subtheme": "US States - Geography",
-    "title": "Longest River Wholly Within Borders",
-    "prompt": "Name the US states with the longest single river that flows entirely within their own borders.",
-    "answerType": "US States",
-    "seededDepth": 51,
-    "source": {
-      "name": "USGS National Hydrography Dataset \u2014 river length by state",
-      "url": "https://www.usgs.gov/national-hydrography",
-      "asOf": "2022"
-    },
-    "note": null,
-    "disclaimer": "Longest single named river whose entire course lies within one state's boundaries. Rivers that cross state lines are excluded. Includes Washington DC.",
-    "trivia": "Alaska's Kuskokwim River flows 702 miles from the Kuskokwim Mountains to the Bering Sea, all within Alaska, making it the longest single-state river in the U.S.",
-    "asOfDate": "2022",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "AK",
-        "value": "702 mi (Kuskokwim)"
-      },
-      {
-        "rank": 2,
-        "code": "TX",
-        "value": "600 mi (Brazos)"
-      },
-      {
-        "rank": 3,
-        "code": "NC",
-        "value": "445 mi (Neuse)"
-      },
-      {
-        "rank": 4,
-        "code": "GA",
-        "value": "434 mi (Ocmulgee-Altamaha)"
-      },
-      {
-        "rank": 5,
-        "code": "FL",
-        "value": "410 mi (St. Johns)"
-      },
-      {
-        "rank": 6,
-        "code": "AL",
-        "value": "374 mi (Alabama)"
-      },
-      {
-        "rank": 7,
-        "code": "MI",
-        "value": "260 mi (Grand)"
-      },
-      {
-        "rank": 8,
-        "code": "OK",
-        "value": "255 mi (Cimarron in-state segment)"
-      },
-      {
-        "rank": 9,
-        "code": "SC",
-        "value": "233 mi (Santee)"
-      },
-      {
-        "rank": 10,
-        "code": "OH",
-        "value": "225 mi (Scioto)"
-      },
-      {
-        "rank": 11,
-        "code": "WI",
-        "value": "220 mi (Wisconsin)"
-      },
-      {
-        "rank": 12,
-        "code": "IL",
-        "value": "216 mi (Sangamon)"
-      },
-      {
-        "rank": 13,
-        "code": "VA",
-        "value": "200 mi (James in-state segment)"
-      },
-      {
-        "rank": 14,
-        "code": "PA",
-        "value": "195 mi (Juniata)"
-      },
-      {
-        "rank": 15,
-        "code": "IN",
-        "value": "175 mi (White)"
-      },
-      {
-        "rank": 16,
-        "code": "MO",
-        "value": "170 mi (Meramec)"
-      },
-      {
-        "rank": 17,
-        "code": "IA",
-        "value": "168 mi (Des Moines in-state segment)"
-      },
-      {
-        "rank": 18,
-        "code": "MN",
-        "value": "164 mi (St. Croix in-state segment)"
-      },
-      {
-        "rank": 19,
-        "code": "AR",
-        "value": "160 mi (Ouachita in-state segment)"
-      },
-      {
-        "rank": 20,
-        "code": "TN",
-        "value": "158 mi (Duck)"
-      },
-      {
-        "rank": 21,
-        "code": "KY",
-        "value": "155 mi (Kentucky)"
-      },
-      {
-        "rank": 22,
-        "code": "LA",
-        "value": "150 mi (Calcasieu)"
-      },
-      {
-        "rank": 23,
-        "code": "ME",
-        "value": "148 mi (Penobscot)"
-      },
-      {
-        "rank": 24,
-        "code": "NY",
-        "value": "143 mi (Susquehanna in-state segment)"
-      },
-      {
-        "rank": 25,
-        "code": "MS",
-        "value": "140 mi (Pearl in-state segment)"
-      },
-      {
-        "rank": 26,
-        "code": "NE",
-        "value": "138 mi (Loup)"
-      },
-      {
-        "rank": 27,
-        "code": "KS",
-        "value": "135 mi (Kansas)"
-      },
-      {
-        "rank": 28,
-        "code": "WV",
-        "value": "132 mi (Elk)"
-      },
-      {
-        "rank": 29,
-        "code": "MT",
-        "value": "128 mi (Bighorn in-state segment)"
-      },
-      {
-        "rank": 30,
-        "code": "OR",
-        "value": "125 mi (Willamette)"
-      },
-      {
-        "rank": 31,
-        "code": "WA",
-        "value": "122 mi (Chehalis)"
-      },
-      {
-        "rank": 32,
-        "code": "CA",
-        "value": "120 mi (San Joaquin in-state segment)"
-      },
-      {
-        "rank": 33,
-        "code": "SD",
-        "value": "115 mi (James in-state segment)"
-      },
-      {
-        "rank": 34,
-        "code": "ND",
-        "value": "112 mi (Sheyenne in-state segment)"
-      },
-      {
-        "rank": 35,
-        "code": "NM",
-        "value": "108 mi (Pecos in-state segment)"
-      },
-      {
-        "rank": 36,
-        "code": "CO",
-        "value": "105 mi (Cache la Poudre)"
-      },
-      {
-        "rank": 37,
-        "code": "AZ",
-        "value": "100 mi (Salt in-state segment)"
-      },
-      {
-        "rank": 38,
-        "code": "NV",
-        "value": "95 mi (Humboldt in-state segment)"
-      },
-      {
-        "rank": 39,
-        "code": "UT",
-        "value": "90 mi (Sevier)"
-      },
-      {
-        "rank": 40,
-        "code": "WY",
-        "value": "85 mi (Wind in-state segment)"
-      },
-      {
-        "rank": 41,
-        "code": "ID",
-        "value": "82 mi (Payette)"
-      },
-      {
-        "rank": 42,
-        "code": "MD",
-        "value": "78 mi (Patuxent)"
-      },
-      {
-        "rank": 43,
-        "code": "NJ",
-        "value": "75 mi (Raritan)"
-      },
-      {
-        "rank": 44,
-        "code": "MA",
-        "value": "70 mi (Housatonic in-state segment)"
-      },
-      {
-        "rank": 45,
-        "code": "CT",
-        "value": "68 mi (Housatonic in-state segment)"
-      },
-      {
-        "rank": 46,
-        "code": "NH",
-        "value": "65 mi (Merrimack in-state segment)"
-      },
-      {
-        "rank": 47,
-        "code": "VT",
-        "value": "60 mi (Winooski)"
-      },
-      {
-        "rank": 48,
-        "code": "HI",
-        "value": "33 mi (Kaukonahua)"
-      },
-      {
-        "rank": 49,
-        "code": "DE",
-        "value": "30 mi (Christina)"
-      },
-      {
-        "rank": 50,
-        "code": "RI",
-        "value": "22 mi (Pawtuxet)"
-      },
-      {
-        "rank": 51,
-        "code": "DC",
-        "value": "5 mi (Rock Creek in-DC segment)"
       }
     ]
   },
@@ -332857,7 +330737,7 @@
       "asOf": "2023 year-end"
     },
     "note": null,
-    "disclaimer": "Cumulative installed utility-scale + distributed PV capacity in gigawatts (AC-DC mixed by SEIA convention).",
+    "disclaimer": "Cumulative installed utility-scale + distributed PV capacity in gigawatts (AC-DC mixed by SEIA convention). Includes Washington DC.",
     "trivia": "Texas overtook California as the annual installation leader in 2022 and is on pace to surpass total California capacity by the late 2020s.",
     "asOfDate": "2023 year-end",
     "answers": [
@@ -334732,7 +332612,7 @@
       "asOf": "2023"
     },
     "note": null,
-    "disclaimer": "Total federal trust and reservation acreage held for tribes and individuals; excludes Alaska Native Corporation lands (ANCSA) which have a different legal status. Includes Washington DC.",
+    "disclaimer": "Total federal trust and reservation acreage held for tribes and individuals; excludes Alaska Native Corporation lands (ANCSA) which have a different legal status, so Alaska's figure reflects only the Metlakatla reservation. Includes Washington DC.",
     "trivia": "Arizona edges Alaska because most Alaska Native land was converted to corporate ownership under the 1971 ANCSA settlement rather than held as reservations.",
     "asOfDate": "2023",
     "answers": [
@@ -334899,7 +332779,7 @@
       {
         "rank": 33,
         "code": "AK",
-        "value": "0.001M acres (Metlakatla only)"
+        "value": "0.001M acres"
       },
       {
         "rank": 33,
@@ -334909,87 +332789,87 @@
       {
         "rank": 35,
         "code": "AR",
-        "value": "0 acres (no reservations)"
+        "value": "0 acres"
       },
       {
         "rank": 35,
         "code": "DE",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "DC",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "GA",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "HI",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "IL",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "IN",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "KY",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "MD",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "MO",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "NH",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "NJ",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "OH",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "PA",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "TN",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "VT",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       },
       {
         "rank": 35,
         "code": "WV",
-        "value": "0 acres (no reservations) (tied)"
+        "value": "0 acres (tied)"
       }
     ]
   },
@@ -337713,7 +335593,7 @@
     "theme": "US States",
     "subtheme": "US States - Environment",
     "title": "Most Electric Vehicle Registrations",
-    "prompt": "Name the US states with the most registered plug-in electric vehicles (BEVs).",
+    "prompt": "Name the US states with the most registered battery-electric vehicles (BEVs, excluding plug-in hybrids).",
     "answerType": "US States",
     "seededDepth": 51,
     "source": {
@@ -337722,7 +335602,7 @@
       "asOf": "2023"
     },
     "note": null,
-    "disclaimer": "Counts light-duty battery-electric vehicles registered in the state; excludes plug-in hybrids in some tallies. Includes Washington DC.",
+    "disclaimer": "Counts light-duty battery-electric vehicles (BEVs) registered in the state; excludes plug-in hybrid electric vehicles (PHEVs). Includes Washington DC.",
     "trivia": "California alone accounts for roughly 37% of all registered electric vehicles in the United States.",
     "asOfDate": "2023",
     "answers": [
@@ -357867,5 +355747,818 @@
         "value": "10,924 avg"
       }
     ]
+  },
+  {
+    "id": "us-states-demographics-smallest-asian-population-share-2022",
+    "theme": "US States",
+    "subtheme": "US States - Demographics",
+    "answerType": "US States",
+    "title": "Smallest Asian Population Share",
+    "prompt": "Which US states have the smallest Asian population share (alone or in combination)?",
+    "disclaimer": "Asian alone or in combination with one or more other races. Rank 1 is the state with the smallest share. Includes Washington DC.",
+    "trivia": "West Virginia and Montana have the lowest Asian population shares in the country, both under 1.5% \u2014 a legacy of their historical isolation from the Pacific-coast and Northeast metros that have long been Asian-immigrant gateways.",
+    "source_name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B02010)",
+    "source_url": "https://data.census.gov/table?q=B02010",
+    "source_as_of": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "WV",
+        "value": "0.9%"
+      },
+      {
+        "rank": 2,
+        "code": "MT",
+        "value": "1.3%"
+      },
+      {
+        "rank": 3,
+        "code": "WY",
+        "value": "1.4%"
+      },
+      {
+        "rank": 3,
+        "code": "MS",
+        "value": "1.4% (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "AL",
+        "value": "1.7%"
+      },
+      {
+        "rank": 5,
+        "code": "ME",
+        "value": "1.7% (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "AR",
+        "value": "1.9%"
+      },
+      {
+        "rank": 7,
+        "code": "KY",
+        "value": "1.9% (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "ID",
+        "value": "1.9% (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "LA",
+        "value": "2.0%"
+      },
+      {
+        "rank": 10,
+        "code": "ND",
+        "value": "2.0% (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "SD",
+        "value": "2.0% (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "SC",
+        "value": "2.1%"
+      },
+      {
+        "rank": 13,
+        "code": "NM",
+        "value": "2.1% (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "TN",
+        "value": "2.2%"
+      },
+      {
+        "rank": 15,
+        "code": "VT",
+        "value": "2.2% (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "MO",
+        "value": "2.5%"
+      },
+      {
+        "rank": 18,
+        "code": "NE",
+        "value": "2.8%"
+      },
+      {
+        "rank": 18,
+        "code": "IA",
+        "value": "2.8% (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "OH",
+        "value": "2.9%"
+      },
+      {
+        "rank": 20,
+        "code": "UT",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "IN",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "OK",
+        "value": "2.9% (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "FL",
+        "value": "3.2%"
+      },
+      {
+        "rank": 24,
+        "code": "WI",
+        "value": "3.2% (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "NH",
+        "value": "3.5%"
+      },
+      {
+        "rank": 27,
+        "code": "MI",
+        "value": "3.7%"
+      },
+      {
+        "rank": 27,
+        "code": "KS",
+        "value": "3.7% (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "RI",
+        "value": "3.8%"
+      },
+      {
+        "rank": 30,
+        "code": "NC",
+        "value": "3.9%"
+      },
+      {
+        "rank": 31,
+        "code": "CO",
+        "value": "4.0%"
+      },
+      {
+        "rank": 32,
+        "code": "AZ",
+        "value": "4.4%"
+      },
+      {
+        "rank": 32,
+        "code": "PA",
+        "value": "4.4% (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "4.9%"
+      },
+      {
+        "rank": 35,
+        "code": "DC",
+        "value": "5.0%"
+      },
+      {
+        "rank": 36,
+        "code": "GA",
+        "value": "5.1%"
+      },
+      {
+        "rank": 37,
+        "code": "CT",
+        "value": "5.5%"
+      },
+      {
+        "rank": 38,
+        "code": "OR",
+        "value": "5.6%"
+      },
+      {
+        "rank": 39,
+        "code": "MN",
+        "value": "5.9%"
+      },
+      {
+        "rank": 40,
+        "code": "TX",
+        "value": "6.0%"
+      },
+      {
+        "rank": 41,
+        "code": "IL",
+        "value": "6.8%"
+      },
+      {
+        "rank": 42,
+        "code": "MD",
+        "value": "7.8%"
+      },
+      {
+        "rank": 43,
+        "code": "MA",
+        "value": "8.1%"
+      },
+      {
+        "rank": 43,
+        "code": "VA",
+        "value": "8.1% (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "AK",
+        "value": "8.6%"
+      },
+      {
+        "rank": 46,
+        "code": "NY",
+        "value": "10.3%"
+      },
+      {
+        "rank": 47,
+        "code": "NV",
+        "value": "10.9%"
+      },
+      {
+        "rank": 48,
+        "code": "NJ",
+        "value": "11.0%"
+      },
+      {
+        "rank": 49,
+        "code": "WA",
+        "value": "11.4%"
+      },
+      {
+        "rank": 50,
+        "code": "CA",
+        "value": "17.1%"
+      },
+      {
+        "rank": 51,
+        "code": "HI",
+        "value": "56.5%"
+      }
+    ],
+    "seededDepth": 51
+  },
+  {
+    "id": "us-states-demographics-smallest-black-or-african-american-population-share-2022",
+    "theme": "US States",
+    "subtheme": "US States - Demographics",
+    "answerType": "US States",
+    "title": "Smallest Black or African American Population Share",
+    "prompt": "Which US states have the smallest Black or African American population share?",
+    "disclaimer": "Black or African American alone; DC included per ACS reporting. Rank 1 is the state with the smallest share.",
+    "trivia": "Montana, Idaho, and Wyoming \u2014 all sparsely populated Mountain West states \u2014 have the smallest Black population shares, each under 1.5%. Vermont and Utah round out the bottom five.",
+    "source_name": "US Census Bureau, American Community Survey 1-Year Estimates (Table B02001)",
+    "source_url": "https://data.census.gov/table?q=B02001",
+    "source_as_of": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "MT",
+        "value": "0.6%"
+      },
+      {
+        "rank": 2,
+        "code": "ID",
+        "value": "0.9%"
+      },
+      {
+        "rank": 3,
+        "code": "WY",
+        "value": "1.3%"
+      },
+      {
+        "rank": 4,
+        "code": "UT",
+        "value": "1.5%"
+      },
+      {
+        "rank": 4,
+        "code": "VT",
+        "value": "1.5% (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "HI",
+        "value": "1.8%"
+      },
+      {
+        "rank": 6,
+        "code": "NH",
+        "value": "1.8% (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "ME",
+        "value": "1.9%"
+      },
+      {
+        "rank": 9,
+        "code": "OR",
+        "value": "2.2%"
+      },
+      {
+        "rank": 10,
+        "code": "NM",
+        "value": "2.6%"
+      },
+      {
+        "rank": 10,
+        "code": "SD",
+        "value": "2.6% (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "AK",
+        "value": "3.2%"
+      },
+      {
+        "rank": 13,
+        "code": "ND",
+        "value": "3.4%"
+      },
+      {
+        "rank": 14,
+        "code": "WV",
+        "value": "3.6%"
+      },
+      {
+        "rank": 15,
+        "code": "WA",
+        "value": "4.0%"
+      },
+      {
+        "rank": 16,
+        "code": "IA",
+        "value": "4.1%"
+      },
+      {
+        "rank": 17,
+        "code": "CO",
+        "value": "4.2%"
+      },
+      {
+        "rank": 18,
+        "code": "NE",
+        "value": "4.8%"
+      },
+      {
+        "rank": 19,
+        "code": "AZ",
+        "value": "4.9%"
+      },
+      {
+        "rank": 20,
+        "code": "RI",
+        "value": "5.6%"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "5.6% (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "KS",
+        "value": "5.7%"
+      },
+      {
+        "rank": 23,
+        "code": "WI",
+        "value": "6.4%"
+      },
+      {
+        "rank": 24,
+        "code": "MN",
+        "value": "6.9%"
+      },
+      {
+        "rank": 25,
+        "code": "OK",
+        "value": "7.3%"
+      },
+      {
+        "rank": 26,
+        "code": "MA",
+        "value": "7.5%"
+      },
+      {
+        "rank": 27,
+        "code": "KY",
+        "value": "8.1%"
+      },
+      {
+        "rank": 28,
+        "code": "IN",
+        "value": "9.5%"
+      },
+      {
+        "rank": 29,
+        "code": "NV",
+        "value": "9.9%"
+      },
+      {
+        "rank": 30,
+        "code": "CT",
+        "value": "10.5%"
+      },
+      {
+        "rank": 31,
+        "code": "PA",
+        "value": "10.8%"
+      },
+      {
+        "rank": 32,
+        "code": "MO",
+        "value": "11.4%"
+      },
+      {
+        "rank": 33,
+        "code": "TX",
+        "value": "11.8%"
+      },
+      {
+        "rank": 34,
+        "code": "OH",
+        "value": "12.1%"
+      },
+      {
+        "rank": 35,
+        "code": "NJ",
+        "value": "12.6%"
+      },
+      {
+        "rank": 36,
+        "code": "MI",
+        "value": "13.6%"
+      },
+      {
+        "rank": 37,
+        "code": "IL",
+        "value": "13.9%"
+      },
+      {
+        "rank": 38,
+        "code": "NY",
+        "value": "14.1%"
+      },
+      {
+        "rank": 39,
+        "code": "AR",
+        "value": "15.1%"
+      },
+      {
+        "rank": 39,
+        "code": "FL",
+        "value": "15.1% (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "TN",
+        "value": "16.3%"
+      },
+      {
+        "rank": 42,
+        "code": "VA",
+        "value": "18.6%"
+      },
+      {
+        "rank": 43,
+        "code": "NC",
+        "value": "20.5%"
+      },
+      {
+        "rank": 44,
+        "code": "DE",
+        "value": "21.6%"
+      },
+      {
+        "rank": 45,
+        "code": "SC",
+        "value": "25.0%"
+      },
+      {
+        "rank": 46,
+        "code": "AL",
+        "value": "25.6%"
+      },
+      {
+        "rank": 47,
+        "code": "MD",
+        "value": "29.5%"
+      },
+      {
+        "rank": 48,
+        "code": "GA",
+        "value": "30.7%"
+      },
+      {
+        "rank": 49,
+        "code": "LA",
+        "value": "31.4%"
+      },
+      {
+        "rank": 50,
+        "code": "MS",
+        "value": "36.6%"
+      },
+      {
+        "rank": 51,
+        "code": "DC",
+        "value": "41.4%"
+      }
+    ],
+    "seededDepth": 51
+  },
+  {
+    "id": "us-states-demographics-lowest-veteran-population-share-2022",
+    "theme": "US States",
+    "subtheme": "US States - Demographics",
+    "answerType": "US States",
+    "title": "Lowest Veteran Population Share",
+    "prompt": "Which US states have the lowest share of veterans in the adult population?",
+    "disclaimer": "Civilian veterans as a share of the civilian population age 18 and over. Rank 1 is the jurisdiction with the smallest share. Includes Washington DC.",
+    "trivia": "The Northeast dominates the bottom of this ranking \u2014 dense urban states like New York, New Jersey, and Massachusetts historically have the smallest veteran shares, in contrast to the Mountain West and Southeast where military service rates run much higher.",
+    "source_name": "US Census Bureau, American Community Survey 1-Year Estimates (Table S2101)",
+    "source_url": "https://data.census.gov/table?q=S2101",
+    "source_as_of": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "DC",
+        "value": "3.9%"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "4.0%"
+      },
+      {
+        "rank": 3,
+        "code": "NJ",
+        "value": "4.2%"
+      },
+      {
+        "rank": 4,
+        "code": "CA",
+        "value": "4.3%"
+      },
+      {
+        "rank": 5,
+        "code": "UT",
+        "value": "4.4%"
+      },
+      {
+        "rank": 6,
+        "code": "MA",
+        "value": "4.5%"
+      },
+      {
+        "rank": 7,
+        "code": "IL",
+        "value": "4.7%"
+      },
+      {
+        "rank": 8,
+        "code": "MN",
+        "value": "5.0%"
+      },
+      {
+        "rank": 9,
+        "code": "CT",
+        "value": "5.1%"
+      },
+      {
+        "rank": 10,
+        "code": "MD",
+        "value": "5.2%"
+      },
+      {
+        "rank": 11,
+        "code": "WI",
+        "value": "5.3%"
+      },
+      {
+        "rank": 12,
+        "code": "RI",
+        "value": "5.4%"
+      },
+      {
+        "rank": 13,
+        "code": "TX",
+        "value": "5.5%"
+      },
+      {
+        "rank": 14,
+        "code": "NE",
+        "value": "5.6%"
+      },
+      {
+        "rank": 15,
+        "code": "MI",
+        "value": "5.7%"
+      },
+      {
+        "rank": 16,
+        "code": "ND",
+        "value": "5.8%"
+      },
+      {
+        "rank": 17,
+        "code": "IA",
+        "value": "5.9%"
+      },
+      {
+        "rank": 18,
+        "code": "PA",
+        "value": "6.0%"
+      },
+      {
+        "rank": 19,
+        "code": "CO",
+        "value": "6.1%"
+      },
+      {
+        "rank": 20,
+        "code": "OH",
+        "value": "6.2%"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "6.3%"
+      },
+      {
+        "rank": 22,
+        "code": "LA",
+        "value": "6.4%"
+      },
+      {
+        "rank": 23,
+        "code": "KS",
+        "value": "6.5%"
+      },
+      {
+        "rank": 24,
+        "code": "MS",
+        "value": "6.6%"
+      },
+      {
+        "rank": 25,
+        "code": "SD",
+        "value": "6.7%"
+      },
+      {
+        "rank": 26,
+        "code": "WA",
+        "value": "6.8%"
+      },
+      {
+        "rank": 27,
+        "code": "OR",
+        "value": "6.9%"
+      },
+      {
+        "rank": 28,
+        "code": "AZ",
+        "value": "7.0%"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "7.1%"
+      },
+      {
+        "rank": 30,
+        "code": "KY",
+        "value": "7.2%"
+      },
+      {
+        "rank": 31,
+        "code": "MO",
+        "value": "7.3%"
+      },
+      {
+        "rank": 32,
+        "code": "GA",
+        "value": "7.4%"
+      },
+      {
+        "rank": 33,
+        "code": "NC",
+        "value": "7.5%"
+      },
+      {
+        "rank": 34,
+        "code": "VT",
+        "value": "7.6%"
+      },
+      {
+        "rank": 35,
+        "code": "ID",
+        "value": "7.7%"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "7.8%"
+      },
+      {
+        "rank": 37,
+        "code": "FL",
+        "value": "7.9%"
+      },
+      {
+        "rank": 37,
+        "code": "AR",
+        "value": "7.9% (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "NV",
+        "value": "8.0%"
+      },
+      {
+        "rank": 40,
+        "code": "AL",
+        "value": "8.1%"
+      },
+      {
+        "rank": 41,
+        "code": "NH",
+        "value": "8.2%"
+      },
+      {
+        "rank": 42,
+        "code": "HI",
+        "value": "8.3%"
+      },
+      {
+        "rank": 43,
+        "code": "WV",
+        "value": "8.4%"
+      },
+      {
+        "rank": 43,
+        "code": "NM",
+        "value": "8.4% (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "SC",
+        "value": "8.5%"
+      },
+      {
+        "rank": 46,
+        "code": "OK",
+        "value": "8.7%"
+      },
+      {
+        "rank": 47,
+        "code": "ME",
+        "value": "8.9%"
+      },
+      {
+        "rank": 48,
+        "code": "WY",
+        "value": "9.3%"
+      },
+      {
+        "rank": 49,
+        "code": "MT",
+        "value": "9.4%"
+      },
+      {
+        "rank": 50,
+        "code": "VA",
+        "value": "9.7%"
+      },
+      {
+        "rank": 51,
+        "code": "AK",
+        "value": "10.8%"
+      }
+    ],
+    "seededDepth": 51
   }
 ]

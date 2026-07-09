@@ -1,0 +1,4205 @@
+{
+  "batch": 3,
+  "questions": [
+    {
+      "id": "us-states-health-largest-wind-electricity-generation-2023",
+      "title": "Largest Wind Electricity Generation",
+      "prompt": "Rank the US states by wind electricity generation (EIA, 2023).",
+      "subtheme": "US States - Health",
+      "seededDepth": 41,
+      "disclaimer": "Total wind electricity generation in gigawatt-hours (GWh), 2023. DC not included (source omits it).",
+      "source": {
+        "name": "US Energy Information Administration (EIA), Electric Power Monthly",
+        "url": "https://www.eia.gov/electricity/state/",
+        "asOf": "2023-12-31"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "119,836 GWh"
+        },
+        {
+          "rank": 2,
+          "code": "IA",
+          "value": "36,196 GWh"
+        },
+        {
+          "rank": 3,
+          "code": "OK",
+          "value": "35,838 GWh"
+        },
+        {
+          "rank": 4,
+          "code": "KS",
+          "value": "26,708 GWh"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "20,232 GWh"
+        },
+        {
+          "rank": 6,
+          "code": "CO",
+          "value": "17,881 GWh"
+        },
+        {
+          "rank": 7,
+          "code": "NM",
+          "value": "13,802 GWh"
+        },
+        {
+          "rank": 8,
+          "code": "NE",
+          "value": "12,378 GWh"
+        },
+        {
+          "rank": 9,
+          "code": "MN",
+          "value": "12,362 GWh"
+        },
+        {
+          "rank": 10,
+          "code": "ND",
+          "value": "11,976 GWh"
+        },
+        {
+          "rank": 11,
+          "code": "CA",
+          "value": "11,714 GWh"
+        },
+        {
+          "rank": 12,
+          "code": "SD",
+          "value": "9,933 GWh"
+        },
+        {
+          "rank": 13,
+          "code": "OR",
+          "value": "8,146 GWh"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "7,847 GWh"
+        },
+        {
+          "rank": 15,
+          "code": "MO",
+          "value": "7,092 GWh"
+        },
+        {
+          "rank": 16,
+          "code": "MI",
+          "value": "6,500 GWh"
+        },
+        {
+          "rank": 17,
+          "code": "WY",
+          "value": "5,900 GWh"
+        },
+        {
+          "rank": 18,
+          "code": "NY",
+          "value": "5,000 GWh"
+        },
+        {
+          "rank": 19,
+          "code": "PA",
+          "value": "3,800 GWh"
+        },
+        {
+          "rank": 20,
+          "code": "WA",
+          "value": "3,700 GWh"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "3,300 GWh"
+        },
+        {
+          "rank": 22,
+          "code": "MT",
+          "value": "3,000 GWh"
+        },
+        {
+          "rank": 23,
+          "code": "WI",
+          "value": "2,300 GWh"
+        },
+        {
+          "rank": 24,
+          "code": "ME",
+          "value": "2,100 GWh"
+        },
+        {
+          "rank": 25,
+          "code": "NC",
+          "value": "1,700 GWh"
+        },
+        {
+          "rank": 26,
+          "code": "WV",
+          "value": "1,500 GWh"
+        },
+        {
+          "rank": 27,
+          "code": "ID",
+          "value": "1,400 GWh"
+        },
+        {
+          "rank": 28,
+          "code": "MD",
+          "value": "550 GWh"
+        },
+        {
+          "rank": 29,
+          "code": "VT",
+          "value": "375 GWh"
+        },
+        {
+          "rank": 30,
+          "code": "HI",
+          "value": "350 GWh"
+        },
+        {
+          "rank": 31,
+          "code": "AZ",
+          "value": "550 GWh"
+        },
+        {
+          "rank": 32,
+          "code": "UT",
+          "value": "700 GWh"
+        },
+        {
+          "rank": 33,
+          "code": "MA",
+          "value": "260 GWh"
+        },
+        {
+          "rank": 34,
+          "code": "NH",
+          "value": "500 GWh"
+        },
+        {
+          "rank": 35,
+          "code": "NJ",
+          "value": "25 GWh"
+        },
+        {
+          "rank": 36,
+          "code": "AK",
+          "value": "170 GWh"
+        },
+        {
+          "rank": 37,
+          "code": "NV",
+          "value": "0 GWh"
+        },
+        {
+          "rank": 38,
+          "code": "TN",
+          "value": "75 GWh"
+        },
+        {
+          "rank": 39,
+          "code": "RI",
+          "value": "125 GWh"
+        },
+        {
+          "rank": 40,
+          "code": "DE",
+          "value": "5 GWh"
+        },
+        {
+          "rank": 41,
+          "code": "CT",
+          "value": "3 GWh"
+        }
+      ]
+    },
+    {
+      "id": "us-states-health-highest-co2-emissions-per-capita-2021",
+      "title": "Highest CO2 Emissions Per Capita",
+      "prompt": "Rank the US states by energy-related CO2 emissions per capita (EIA, 2021).",
+      "subtheme": "US States - Health",
+      "seededDepth": 51,
+      "disclaimer": "Metric tons of energy-related CO2 emissions per resident, 2021. Includes Washington DC.",
+      "source": {
+        "name": "US Energy Information Administration (EIA), State Energy-Related CO2 Emissions",
+        "url": "https://www.eia.gov/environment/emissions/state/",
+        "asOf": "2021-12-31"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "WY",
+          "value": "94.6 t/person"
+        },
+        {
+          "rank": 2,
+          "code": "ND",
+          "value": "61.2 t/person"
+        },
+        {
+          "rank": 3,
+          "code": "WV",
+          "value": "45.7 t/person"
+        },
+        {
+          "rank": 4,
+          "code": "AK",
+          "value": "43.4 t/person"
+        },
+        {
+          "rank": 5,
+          "code": "LA",
+          "value": "41.1 t/person"
+        },
+        {
+          "rank": 6,
+          "code": "MT",
+          "value": "29.6 t/person"
+        },
+        {
+          "rank": 7,
+          "code": "NE",
+          "value": "26.5 t/person"
+        },
+        {
+          "rank": 8,
+          "code": "IA",
+          "value": "24.4 t/person"
+        },
+        {
+          "rank": 9,
+          "code": "OK",
+          "value": "24.0 t/person"
+        },
+        {
+          "rank": 10,
+          "code": "KY",
+          "value": "23.6 t/person"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "23.5 t/person"
+        },
+        {
+          "rank": 12,
+          "code": "TX",
+          "value": "22.3 t/person"
+        },
+        {
+          "rank": 13,
+          "code": "KS",
+          "value": "21.4 t/person"
+        },
+        {
+          "rank": 14,
+          "code": "MS",
+          "value": "20.4 t/person"
+        },
+        {
+          "rank": 15,
+          "code": "AL",
+          "value": "20.0 t/person"
+        },
+        {
+          "rank": 16,
+          "code": "SD",
+          "value": "19.4 t/person"
+        },
+        {
+          "rank": 17,
+          "code": "NM",
+          "value": "18.8 t/person"
+        },
+        {
+          "rank": 18,
+          "code": "AR",
+          "value": "18.4 t/person"
+        },
+        {
+          "rank": 19,
+          "code": "MO",
+          "value": "18.0 t/person"
+        },
+        {
+          "rank": 20,
+          "code": "PA",
+          "value": "17.7 t/person"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "17.5 t/person"
+        },
+        {
+          "rank": 22,
+          "code": "TN",
+          "value": "16.0 t/person"
+        },
+        {
+          "rank": 23,
+          "code": "MN",
+          "value": "15.6 t/person"
+        },
+        {
+          "rank": 24,
+          "code": "WI",
+          "value": "15.3 t/person"
+        },
+        {
+          "rank": 25,
+          "code": "SC",
+          "value": "15.1 t/person"
+        },
+        {
+          "rank": 26,
+          "code": "MI",
+          "value": "14.7 t/person"
+        },
+        {
+          "rank": 27,
+          "code": "UT",
+          "value": "14.5 t/person"
+        },
+        {
+          "rank": 28,
+          "code": "GA",
+          "value": "14.1 t/person"
+        },
+        {
+          "rank": 29,
+          "code": "IL",
+          "value": "14.0 t/person"
+        },
+        {
+          "rank": 30,
+          "code": "NC",
+          "value": "13.4 t/person"
+        },
+        {
+          "rank": 31,
+          "code": "CO",
+          "value": "13.1 t/person"
+        },
+        {
+          "rank": 32,
+          "code": "NV",
+          "value": "12.7 t/person"
+        },
+        {
+          "rank": 33,
+          "code": "VA",
+          "value": "12.4 t/person"
+        },
+        {
+          "rank": 34,
+          "code": "AZ",
+          "value": "12.0 t/person"
+        },
+        {
+          "rank": 35,
+          "code": "ID",
+          "value": "11.7 t/person"
+        },
+        {
+          "rank": 36,
+          "code": "DE",
+          "value": "11.5 t/person"
+        },
+        {
+          "rank": 37,
+          "code": "FL",
+          "value": "11.1 t/person"
+        },
+        {
+          "rank": 38,
+          "code": "ME",
+          "value": "10.9 t/person"
+        },
+        {
+          "rank": 39,
+          "code": "NH",
+          "value": "10.4 t/person"
+        },
+        {
+          "rank": 40,
+          "code": "HI",
+          "value": "10.2 t/person"
+        },
+        {
+          "rank": 41,
+          "code": "MD",
+          "value": "9.6 t/person"
+        },
+        {
+          "rank": 42,
+          "code": "OR",
+          "value": "8.5 t/person"
+        },
+        {
+          "rank": 43,
+          "code": "VT",
+          "value": "8.4 t/person"
+        },
+        {
+          "rank": 44,
+          "code": "WA",
+          "value": "8.4 t/person"
+        },
+        {
+          "rank": 45,
+          "code": "CT",
+          "value": "8.2 t/person"
+        },
+        {
+          "rank": 46,
+          "code": "NJ",
+          "value": "8.1 t/person"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "7.4 t/person"
+        },
+        {
+          "rank": 48,
+          "code": "MA",
+          "value": "7.4 t/person"
+        },
+        {
+          "rank": 49,
+          "code": "CA",
+          "value": "8.0 t/person"
+        },
+        {
+          "rank": 50,
+          "code": "NY",
+          "value": "6.8 t/person"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "3.2 t/person"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-earliest-states-to-achieve-statehood",
+      "title": "Earliest States to Achieve Statehood",
+      "prompt": "Rank the US states by earliest date of admission to the Union.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 50,
+      "disclaimer": "Ranked by date of admission to the Union (earliest first). DC is not a state and is excluded.",
+      "source": {
+        "name": "US National Archives / US Census Bureau - Dates of Statehood",
+        "url": "https://www.census.gov/history/www/reference/apportionment/",
+        "asOf": "Historical (through 1959)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DE",
+          "value": "1787-12-07"
+        },
+        {
+          "rank": 2,
+          "code": "PA",
+          "value": "1787-12-12"
+        },
+        {
+          "rank": 3,
+          "code": "NJ",
+          "value": "1787-12-18"
+        },
+        {
+          "rank": 4,
+          "code": "GA",
+          "value": "1788-01-02"
+        },
+        {
+          "rank": 5,
+          "code": "CT",
+          "value": "1788-01-09"
+        },
+        {
+          "rank": 6,
+          "code": "MA",
+          "value": "1788-02-06"
+        },
+        {
+          "rank": 7,
+          "code": "MD",
+          "value": "1788-04-28"
+        },
+        {
+          "rank": 8,
+          "code": "SC",
+          "value": "1788-05-23"
+        },
+        {
+          "rank": 9,
+          "code": "NH",
+          "value": "1788-06-21"
+        },
+        {
+          "rank": 10,
+          "code": "VA",
+          "value": "1788-06-25"
+        },
+        {
+          "rank": 11,
+          "code": "NY",
+          "value": "1788-07-26"
+        },
+        {
+          "rank": 12,
+          "code": "NC",
+          "value": "1789-11-21"
+        },
+        {
+          "rank": 13,
+          "code": "RI",
+          "value": "1790-05-29"
+        },
+        {
+          "rank": 14,
+          "code": "VT",
+          "value": "1791-03-04"
+        },
+        {
+          "rank": 15,
+          "code": "KY",
+          "value": "1792-06-01"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "1796-06-01"
+        },
+        {
+          "rank": 17,
+          "code": "OH",
+          "value": "1803-03-01"
+        },
+        {
+          "rank": 18,
+          "code": "LA",
+          "value": "1812-04-30"
+        },
+        {
+          "rank": 19,
+          "code": "IN",
+          "value": "1816-12-11"
+        },
+        {
+          "rank": 20,
+          "code": "MS",
+          "value": "1817-12-10"
+        },
+        {
+          "rank": 21,
+          "code": "IL",
+          "value": "1818-12-03"
+        },
+        {
+          "rank": 22,
+          "code": "AL",
+          "value": "1819-12-14"
+        },
+        {
+          "rank": 23,
+          "code": "ME",
+          "value": "1820-03-15"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "1821-08-10"
+        },
+        {
+          "rank": 25,
+          "code": "AR",
+          "value": "1836-06-15"
+        },
+        {
+          "rank": 26,
+          "code": "MI",
+          "value": "1837-01-26"
+        },
+        {
+          "rank": 27,
+          "code": "FL",
+          "value": "1845-03-03"
+        },
+        {
+          "rank": 28,
+          "code": "TX",
+          "value": "1845-12-29"
+        },
+        {
+          "rank": 29,
+          "code": "IA",
+          "value": "1846-12-28"
+        },
+        {
+          "rank": 30,
+          "code": "WI",
+          "value": "1848-05-29"
+        },
+        {
+          "rank": 31,
+          "code": "CA",
+          "value": "1850-09-09"
+        },
+        {
+          "rank": 32,
+          "code": "MN",
+          "value": "1858-05-11"
+        },
+        {
+          "rank": 33,
+          "code": "OR",
+          "value": "1859-02-14"
+        },
+        {
+          "rank": 34,
+          "code": "KS",
+          "value": "1861-01-29"
+        },
+        {
+          "rank": 35,
+          "code": "WV",
+          "value": "1863-06-20"
+        },
+        {
+          "rank": 36,
+          "code": "NV",
+          "value": "1864-10-31"
+        },
+        {
+          "rank": 37,
+          "code": "NE",
+          "value": "1867-03-01"
+        },
+        {
+          "rank": 38,
+          "code": "CO",
+          "value": "1876-08-01"
+        },
+        {
+          "rank": 39,
+          "code": "ND",
+          "value": "1889-11-02"
+        },
+        {
+          "rank": 40,
+          "code": "SD",
+          "value": "1889-11-02"
+        },
+        {
+          "rank": 41,
+          "code": "MT",
+          "value": "1889-11-08"
+        },
+        {
+          "rank": 42,
+          "code": "WA",
+          "value": "1889-11-11"
+        },
+        {
+          "rank": 43,
+          "code": "ID",
+          "value": "1890-07-03"
+        },
+        {
+          "rank": 44,
+          "code": "WY",
+          "value": "1890-07-10"
+        },
+        {
+          "rank": 45,
+          "code": "UT",
+          "value": "1896-01-04"
+        },
+        {
+          "rank": 46,
+          "code": "OK",
+          "value": "1907-11-16"
+        },
+        {
+          "rank": 47,
+          "code": "NM",
+          "value": "1912-01-06"
+        },
+        {
+          "rank": 48,
+          "code": "AZ",
+          "value": "1912-02-14"
+        },
+        {
+          "rank": 49,
+          "code": "AK",
+          "value": "1959-01-03"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "1959-08-21"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-most-electoral-college-votes-2024",
+      "title": "Most Electoral College Votes",
+      "prompt": "Rank the US states (and DC) by number of Electoral College votes for the 2024 presidential election.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 51,
+      "disclaimer": "Electoral votes = House seats + 2 senators; DC has 3 (23rd Amendment). Effective for 2024 and 2028 elections.",
+      "source": {
+        "name": "National Archives / US Census Bureau 2020 Apportionment",
+        "url": "https://www.archives.gov/electoral-college/allocation",
+        "asOf": "2024 (based on 2020 Census apportionment)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "54"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "40"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "30"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "28"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "19"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "19"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "17"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "16"
+        },
+        {
+          "rank": 8,
+          "code": "NC",
+          "value": "16"
+        },
+        {
+          "rank": 10,
+          "code": "MI",
+          "value": "15"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "14"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "13"
+        },
+        {
+          "rank": 13,
+          "code": "WA",
+          "value": "12"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "11"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "11"
+        },
+        {
+          "rank": 14,
+          "code": "MA",
+          "value": "11"
+        },
+        {
+          "rank": 14,
+          "code": "TN",
+          "value": "11"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "10"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "10"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "10"
+        },
+        {
+          "rank": 18,
+          "code": "WI",
+          "value": "10"
+        },
+        {
+          "rank": 22,
+          "code": "AL",
+          "value": "9"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "10"
+        },
+        {
+          "rank": 22,
+          "code": "SC",
+          "value": "9"
+        },
+        {
+          "rank": 25,
+          "code": "KY",
+          "value": "8"
+        },
+        {
+          "rank": 25,
+          "code": "LA",
+          "value": "8"
+        },
+        {
+          "rank": 27,
+          "code": "CT",
+          "value": "7"
+        },
+        {
+          "rank": 27,
+          "code": "OK",
+          "value": "7"
+        },
+        {
+          "rank": 27,
+          "code": "OR",
+          "value": "8"
+        },
+        {
+          "rank": 30,
+          "code": "AR",
+          "value": "6"
+        },
+        {
+          "rank": 30,
+          "code": "IA",
+          "value": "6"
+        },
+        {
+          "rank": 30,
+          "code": "KS",
+          "value": "6"
+        },
+        {
+          "rank": 30,
+          "code": "MS",
+          "value": "6"
+        },
+        {
+          "rank": 30,
+          "code": "NV",
+          "value": "6"
+        },
+        {
+          "rank": 30,
+          "code": "UT",
+          "value": "6"
+        },
+        {
+          "rank": 36,
+          "code": "NE",
+          "value": "5"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "5"
+        },
+        {
+          "rank": 36,
+          "code": "WV",
+          "value": "4"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "4"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "4"
+        },
+        {
+          "rank": 39,
+          "code": "ME",
+          "value": "4"
+        },
+        {
+          "rank": 39,
+          "code": "MT",
+          "value": "4"
+        },
+        {
+          "rank": 39,
+          "code": "NH",
+          "value": "4"
+        },
+        {
+          "rank": 39,
+          "code": "RI",
+          "value": "4"
+        },
+        {
+          "rank": 45,
+          "code": "AK",
+          "value": "3"
+        },
+        {
+          "rank": 45,
+          "code": "DC",
+          "value": "3"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "3"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "3"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "3"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "3"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-most-us-house-representatives-2023",
+      "title": "Most US House Representatives",
+      "prompt": "Rank the US states by number of US House of Representatives seats (118th/119th Congress).",
+      "subtheme": "US States - Politics",
+      "seededDepth": 50,
+      "disclaimer": "Based on 2020 Census apportionment; DC has a non-voting delegate (not counted here).",
+      "source": {
+        "name": "US Census Bureau 2020 Apportionment Results",
+        "url": "https://www.census.gov/data/tables/2020/dec/2020-apportionment-data.html",
+        "asOf": "2023-01-03 (118th Congress start)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "52"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "38"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "28"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "26"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "17"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "17"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "15"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "14"
+        },
+        {
+          "rank": 8,
+          "code": "NC",
+          "value": "14"
+        },
+        {
+          "rank": 10,
+          "code": "MI",
+          "value": "13"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "12"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "11"
+        },
+        {
+          "rank": 13,
+          "code": "WA",
+          "value": "10"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "9"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "9"
+        },
+        {
+          "rank": 14,
+          "code": "MA",
+          "value": "9"
+        },
+        {
+          "rank": 14,
+          "code": "TN",
+          "value": "9"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "8"
+        },
+        {
+          "rank": 18,
+          "code": "MN",
+          "value": "8"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "8"
+        },
+        {
+          "rank": 18,
+          "code": "WI",
+          "value": "8"
+        },
+        {
+          "rank": 22,
+          "code": "AL",
+          "value": "7"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "8"
+        },
+        {
+          "rank": 22,
+          "code": "SC",
+          "value": "7"
+        },
+        {
+          "rank": 25,
+          "code": "KY",
+          "value": "6"
+        },
+        {
+          "rank": 25,
+          "code": "LA",
+          "value": "6"
+        },
+        {
+          "rank": 27,
+          "code": "CT",
+          "value": "5"
+        },
+        {
+          "rank": 27,
+          "code": "OK",
+          "value": "5"
+        },
+        {
+          "rank": 27,
+          "code": "OR",
+          "value": "6"
+        },
+        {
+          "rank": 30,
+          "code": "AR",
+          "value": "4"
+        },
+        {
+          "rank": 30,
+          "code": "IA",
+          "value": "4"
+        },
+        {
+          "rank": 30,
+          "code": "KS",
+          "value": "4"
+        },
+        {
+          "rank": 30,
+          "code": "MS",
+          "value": "4"
+        },
+        {
+          "rank": 30,
+          "code": "NV",
+          "value": "4"
+        },
+        {
+          "rank": 30,
+          "code": "UT",
+          "value": "4"
+        },
+        {
+          "rank": 36,
+          "code": "NE",
+          "value": "3"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "3"
+        },
+        {
+          "rank": 36,
+          "code": "WV",
+          "value": "2"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "2"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "2"
+        },
+        {
+          "rank": 39,
+          "code": "ME",
+          "value": "2"
+        },
+        {
+          "rank": 39,
+          "code": "MT",
+          "value": "2"
+        },
+        {
+          "rank": 39,
+          "code": "NH",
+          "value": "2"
+        },
+        {
+          "rank": 39,
+          "code": "RI",
+          "value": "2"
+        },
+        {
+          "rank": 45,
+          "code": "AK",
+          "value": "1"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "1"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "1"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "1"
+        },
+        {
+          "rank": 45,
+          "code": "VT",
+          "value": "1"
+        },
+        {
+          "rank": 45,
+          "code": "WY",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-presidential-winning-margin-2024-election-2024",
+      "title": "Highest Presidential Winning Margin, 2024 Election",
+      "prompt": "Rank the US states (and DC) by the widest margin of victory for the winning candidate in the 2024 presidential election.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 51,
+      "disclaimer": "Margin = winner percentage minus runner-up percentage. Includes Washington DC.",
+      "source": {
+        "name": "Wikipedia \u2014 2024 United States presidential election",
+        "url": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election",
+        "asOf": "2024-12 (certified results)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "86.6 pts (Harris)"
+        },
+        {
+          "rank": 2,
+          "code": "WY",
+          "value": "46.3 pts (Trump)"
+        },
+        {
+          "rank": 3,
+          "code": "WV",
+          "value": "42.0 pts (Trump)"
+        },
+        {
+          "rank": 4,
+          "code": "OK",
+          "value": "34.2 pts (Trump)"
+        },
+        {
+          "rank": 4,
+          "code": "ND",
+          "value": "34.2 pts (Trump)"
+        },
+        {
+          "rank": 6,
+          "code": "VT",
+          "value": "31.7 pts (Harris)"
+        },
+        {
+          "rank": 7,
+          "code": "AL",
+          "value": "30.6 pts (Trump)"
+        },
+        {
+          "rank": 8,
+          "code": "KY",
+          "value": "30.5 pts (Trump)"
+        },
+        {
+          "rank": 9,
+          "code": "ID",
+          "value": "30.4 pts (Trump)"
+        },
+        {
+          "rank": 10,
+          "code": "SD",
+          "value": "29.4 pts (Trump)"
+        },
+        {
+          "rank": 11,
+          "code": "TN",
+          "value": "29.0 pts (Trump)"
+        },
+        {
+          "rank": 12,
+          "code": "MD",
+          "value": "28.6 pts (Harris)"
+        },
+        {
+          "rank": 13,
+          "code": "MA",
+          "value": "24.6 pts (Harris)"
+        },
+        {
+          "rank": 14,
+          "code": "AR",
+          "value": "20.8 pts (Trump)"
+        },
+        {
+          "rank": 15,
+          "code": "MT",
+          "value": "20.5 pts (Trump)"
+        },
+        {
+          "rank": 16,
+          "code": "IN",
+          "value": "18.9 pts (Trump)"
+        },
+        {
+          "rank": 17,
+          "code": "MS",
+          "value": "18.3 pts (Trump)"
+        },
+        {
+          "rank": 18,
+          "code": "NE",
+          "value": "18.1 pts (Trump)"
+        },
+        {
+          "rank": 19,
+          "code": "HI",
+          "value": "15.8 pts (Harris)"
+        },
+        {
+          "rank": 20,
+          "code": "LA",
+          "value": "22.2 pts (Trump)"
+        },
+        {
+          "rank": 21,
+          "code": "CA",
+          "value": "20.0 pts (Harris)"
+        },
+        {
+          "rank": 22,
+          "code": "MO",
+          "value": "18.4 pts (Trump)"
+        },
+        {
+          "rank": 23,
+          "code": "UT",
+          "value": "21.7 pts (Trump)"
+        },
+        {
+          "rank": 24,
+          "code": "KS",
+          "value": "16.0 pts (Trump)"
+        },
+        {
+          "rank": 25,
+          "code": "SC",
+          "value": "17.6 pts (Trump)"
+        },
+        {
+          "rank": 26,
+          "code": "NY",
+          "value": "12.4 pts (Harris)"
+        },
+        {
+          "rank": 27,
+          "code": "IL",
+          "value": "11.2 pts (Harris)"
+        },
+        {
+          "rank": 28,
+          "code": "IA",
+          "value": "13.2 pts (Trump)"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "14.5 pts (Harris)"
+        },
+        {
+          "rank": 30,
+          "code": "NJ",
+          "value": "5.9 pts (Harris)"
+        },
+        {
+          "rank": 31,
+          "code": "OH",
+          "value": "11.2 pts (Trump)"
+        },
+        {
+          "rank": 32,
+          "code": "TX",
+          "value": "13.7 pts (Trump)"
+        },
+        {
+          "rank": 33,
+          "code": "FL",
+          "value": "13.1 pts (Trump)"
+        },
+        {
+          "rank": 34,
+          "code": "AK",
+          "value": "13.1 pts (Trump)"
+        },
+        {
+          "rank": 35,
+          "code": "OR",
+          "value": "13.4 pts (Harris)"
+        },
+        {
+          "rank": 36,
+          "code": "WA",
+          "value": "17.7 pts (Harris)"
+        },
+        {
+          "rank": 37,
+          "code": "DE",
+          "value": "14.6 pts (Harris)"
+        },
+        {
+          "rank": 38,
+          "code": "RI",
+          "value": "13.6 pts (Harris)"
+        },
+        {
+          "rank": 39,
+          "code": "CO",
+          "value": "11.0 pts (Harris)"
+        },
+        {
+          "rank": 40,
+          "code": "NM",
+          "value": "5.9 pts (Harris)"
+        },
+        {
+          "rank": 41,
+          "code": "VA",
+          "value": "5.8 pts (Harris)"
+        },
+        {
+          "rank": 42,
+          "code": "NH",
+          "value": "2.8 pts (Harris)"
+        },
+        {
+          "rank": 43,
+          "code": "MN",
+          "value": "4.2 pts (Harris)"
+        },
+        {
+          "rank": 44,
+          "code": "ME",
+          "value": "6.9 pts (Harris)"
+        },
+        {
+          "rank": 45,
+          "code": "NC",
+          "value": "3.2 pts (Trump)"
+        },
+        {
+          "rank": 46,
+          "code": "GA",
+          "value": "2.2 pts (Trump)"
+        },
+        {
+          "rank": 47,
+          "code": "PA",
+          "value": "1.7 pts (Trump)"
+        },
+        {
+          "rank": 48,
+          "code": "MI",
+          "value": "1.4 pts (Trump)"
+        },
+        {
+          "rank": 49,
+          "code": "NV",
+          "value": "3.1 pts (Trump)"
+        },
+        {
+          "rank": 50,
+          "code": "AZ",
+          "value": "5.5 pts (Trump)"
+        },
+        {
+          "rank": 51,
+          "code": "WI",
+          "value": "0.9 pts (Trump)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-governor-s-salary-2023",
+      "title": "Highest Governor's Salary",
+      "prompt": "Rank the US states by governor's annual base salary.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 50,
+      "disclaimer": "Base salary as of 2023; excludes benefits, housing allowances, and travel stipends. Some governors decline all or part of the salary. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Council of State Governments / National Governors Association - Book of the States",
+        "url": "https://www.csg.org/publications/book-of-the-states/",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "$250,000"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "$234,101"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "$225,013"
+        },
+        {
+          "rank": 4,
+          "code": "MA",
+          "value": "$222,185"
+        },
+        {
+          "rank": 5,
+          "code": "TN",
+          "value": "$218,568"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "$202,296"
+        },
+        {
+          "rank": 7,
+          "code": "WA",
+          "value": "$195,842"
+        },
+        {
+          "rank": 8,
+          "code": "MD",
+          "value": "$185,000"
+        },
+        {
+          "rank": 9,
+          "code": "GA",
+          "value": "$182,406"
+        },
+        {
+          "rank": 10,
+          "code": "VA",
+          "value": "$175,000"
+        },
+        {
+          "rank": 10,
+          "code": "NJ",
+          "value": "$175,000"
+        },
+        {
+          "rank": 12,
+          "code": "OH",
+          "value": "$169,747"
+        },
+        {
+          "rank": 13,
+          "code": "MI",
+          "value": "$159,300"
+        },
+        {
+          "rank": 14,
+          "code": "TX",
+          "value": "$153,750"
+        },
+        {
+          "rank": 15,
+          "code": "FL",
+          "value": "$141,400"
+        },
+        {
+          "rank": 16,
+          "code": "MN",
+          "value": "$139,050"
+        },
+        {
+          "rank": 17,
+          "code": "AL",
+          "value": "$135,505"
+        },
+        {
+          "rank": 18,
+          "code": "HI",
+          "value": "$134,916"
+        },
+        {
+          "rank": 19,
+          "code": "DE",
+          "value": "$182,441"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "$152,756"
+        },
+        {
+          "rank": 21,
+          "code": "MO",
+          "value": "$149,562"
+        },
+        {
+          "rank": 22,
+          "code": "CT",
+          "value": "$150,000"
+        },
+        {
+          "rank": 23,
+          "code": "NC",
+          "value": "$147,079"
+        },
+        {
+          "rank": 24,
+          "code": "OK",
+          "value": "$147,000"
+        },
+        {
+          "rank": 25,
+          "code": "AK",
+          "value": "$145,000"
+        },
+        {
+          "rank": 26,
+          "code": "KY",
+          "value": "$149,562"
+        },
+        {
+          "rank": 27,
+          "code": "IA",
+          "value": "$130,000"
+        },
+        {
+          "rank": 28,
+          "code": "UT",
+          "value": "$150,000"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "$134,051"
+        },
+        {
+          "rank": 30,
+          "code": "NV",
+          "value": "$149,573"
+        },
+        {
+          "rank": 31,
+          "code": "LA",
+          "value": "$130,000"
+        },
+        {
+          "rank": 32,
+          "code": "MS",
+          "value": "$122,160"
+        },
+        {
+          "rank": 33,
+          "code": "NM",
+          "value": "$110,000"
+        },
+        {
+          "rank": 34,
+          "code": "RI",
+          "value": "$145,755"
+        },
+        {
+          "rank": 35,
+          "code": "SC",
+          "value": "$106,078"
+        },
+        {
+          "rank": 36,
+          "code": "ND",
+          "value": "$140,679"
+        },
+        {
+          "rank": 37,
+          "code": "WV",
+          "value": "$150,000"
+        },
+        {
+          "rank": 38,
+          "code": "SD",
+          "value": "$121,343"
+        },
+        {
+          "rank": 39,
+          "code": "AR",
+          "value": "$158,850"
+        },
+        {
+          "rank": 40,
+          "code": "NH",
+          "value": "$134,581"
+        },
+        {
+          "rank": 41,
+          "code": "VT",
+          "value": "$186,362"
+        },
+        {
+          "rank": 42,
+          "code": "ID",
+          "value": "$138,302"
+        },
+        {
+          "rank": 43,
+          "code": "MT",
+          "value": "$127,264"
+        },
+        {
+          "rank": 44,
+          "code": "NE",
+          "value": "$105,000"
+        },
+        {
+          "rank": 45,
+          "code": "KS",
+          "value": "$110,707"
+        },
+        {
+          "rank": 46,
+          "code": "AZ",
+          "value": "$95,000"
+        },
+        {
+          "rank": 47,
+          "code": "WY",
+          "value": "$105,000"
+        },
+        {
+          "rank": 48,
+          "code": "OR",
+          "value": "$98,600"
+        },
+        {
+          "rank": 49,
+          "code": "CO",
+          "value": "$92,735"
+        },
+        {
+          "rank": 50,
+          "code": "ME",
+          "value": "$70,000"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-voter-turnout-2020-presidential-election-2020",
+      "title": "Highest Voter Turnout, 2020 Presidential Election",
+      "prompt": "Rank the US states (and DC) by voter turnout as a share of the voting-eligible population in the 2020 presidential election.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 51,
+      "disclaimer": "Turnout = ballots counted / voting-eligible population (VEP). 2020 had the highest overall US turnout since 1900. Includes Washington DC.",
+      "source": {
+        "name": "United States Elections Project (Dr. Michael McDonald, University of Florida)",
+        "url": "https://www.electproject.org/2020g",
+        "asOf": "2020-11 (certified)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MN",
+          "value": "79.4%"
+        },
+        {
+          "rank": 2,
+          "code": "CO",
+          "value": "76.5%"
+        },
+        {
+          "rank": 3,
+          "code": "ME",
+          "value": "76.3%"
+        },
+        {
+          "rank": 4,
+          "code": "WI",
+          "value": "75.8%"
+        },
+        {
+          "rank": 5,
+          "code": "WA",
+          "value": "75.7%"
+        },
+        {
+          "rank": 6,
+          "code": "NH",
+          "value": "75.5%"
+        },
+        {
+          "rank": 6,
+          "code": "OR",
+          "value": "75.5%"
+        },
+        {
+          "rank": 8,
+          "code": "NJ",
+          "value": "74.0%"
+        },
+        {
+          "rank": 9,
+          "code": "MT",
+          "value": "72.9%"
+        },
+        {
+          "rank": 10,
+          "code": "IA",
+          "value": "72.8%"
+        },
+        {
+          "rank": 11,
+          "code": "MI",
+          "value": "72.6%"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "72.5%"
+        },
+        {
+          "rank": 13,
+          "code": "MA",
+          "value": "72.1%"
+        },
+        {
+          "rank": 14,
+          "code": "DC",
+          "value": "71.4%"
+        },
+        {
+          "rank": 15,
+          "code": "MD",
+          "value": "71.1%"
+        },
+        {
+          "rank": 16,
+          "code": "FL",
+          "value": "71.0%"
+        },
+        {
+          "rank": 17,
+          "code": "VT",
+          "value": "70.8%"
+        },
+        {
+          "rank": 18,
+          "code": "PA",
+          "value": "70.9%"
+        },
+        {
+          "rank": 19,
+          "code": "DE",
+          "value": "70.8%"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "68.4%"
+        },
+        {
+          "rank": 21,
+          "code": "NC",
+          "value": "71.5%"
+        },
+        {
+          "rank": 22,
+          "code": "CT",
+          "value": "71.5%"
+        },
+        {
+          "rank": 23,
+          "code": "NE",
+          "value": "70.4%"
+        },
+        {
+          "rank": 24,
+          "code": "AZ",
+          "value": "68.6%"
+        },
+        {
+          "rank": 25,
+          "code": "GA",
+          "value": "67.8%"
+        },
+        {
+          "rank": 26,
+          "code": "NV",
+          "value": "65.4%"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "66.5%"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "65.3%"
+        },
+        {
+          "rank": 29,
+          "code": "ID",
+          "value": "68.6%"
+        },
+        {
+          "rank": 30,
+          "code": "IL",
+          "value": "67.0%"
+        },
+        {
+          "rank": 31,
+          "code": "AK",
+          "value": "68.7%"
+        },
+        {
+          "rank": 32,
+          "code": "SD",
+          "value": "66.3%"
+        },
+        {
+          "rank": 33,
+          "code": "RI",
+          "value": "66.6%"
+        },
+        {
+          "rank": 34,
+          "code": "UT",
+          "value": "66.4%"
+        },
+        {
+          "rank": 35,
+          "code": "NY",
+          "value": "63.5%"
+        },
+        {
+          "rank": 36,
+          "code": "WY",
+          "value": "63.7%"
+        },
+        {
+          "rank": 37,
+          "code": "CA",
+          "value": "68.5%"
+        },
+        {
+          "rank": 38,
+          "code": "IN",
+          "value": "61.4%"
+        },
+        {
+          "rank": 39,
+          "code": "LA",
+          "value": "64.4%"
+        },
+        {
+          "rank": 40,
+          "code": "ND",
+          "value": "63.7%"
+        },
+        {
+          "rank": 41,
+          "code": "KY",
+          "value": "64.6%"
+        },
+        {
+          "rank": 42,
+          "code": "SC",
+          "value": "64.6%"
+        },
+        {
+          "rank": 43,
+          "code": "AL",
+          "value": "62.9%"
+        },
+        {
+          "rank": 44,
+          "code": "NM",
+          "value": "61.3%"
+        },
+        {
+          "rank": 45,
+          "code": "TN",
+          "value": "59.8%"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "60.2%"
+        },
+        {
+          "rank": 47,
+          "code": "TX",
+          "value": "60.4%"
+        },
+        {
+          "rank": 48,
+          "code": "WV",
+          "value": "57.6%"
+        },
+        {
+          "rank": 49,
+          "code": "AR",
+          "value": "55.9%"
+        },
+        {
+          "rank": 50,
+          "code": "OK",
+          "value": "55.0%"
+        },
+        {
+          "rank": 51,
+          "code": "HI",
+          "value": "57.5%"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-gun-ownership-rate-2020",
+      "title": "Highest Gun Ownership Rate",
+      "prompt": "Rank the US states by percentage of adults living in a household with a firearm.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 50,
+      "disclaimer": "RAND's HFR (household firearm rate) proxy based on suicide rate + subscription proxies. DC not included (source omits it).",
+      "source": {
+        "name": "RAND Corporation State-Level Estimates of Household Firearm Ownership",
+        "url": "https://www.rand.org/pubs/tools/TL354.html",
+        "asOf": "2020 (most recent RAND estimate)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MT",
+          "value": "66.3%"
+        },
+        {
+          "rank": 2,
+          "code": "WY",
+          "value": "66.2%"
+        },
+        {
+          "rank": 3,
+          "code": "AK",
+          "value": "64.5%"
+        },
+        {
+          "rank": 4,
+          "code": "ID",
+          "value": "60.1%"
+        },
+        {
+          "rank": 5,
+          "code": "WV",
+          "value": "58.5%"
+        },
+        {
+          "rank": 6,
+          "code": "AR",
+          "value": "57.9%"
+        },
+        {
+          "rank": 7,
+          "code": "MS",
+          "value": "55.8%"
+        },
+        {
+          "rank": 8,
+          "code": "AL",
+          "value": "55.5%"
+        },
+        {
+          "rank": 9,
+          "code": "SD",
+          "value": "55.3%"
+        },
+        {
+          "rank": 10,
+          "code": "ND",
+          "value": "55.1%"
+        },
+        {
+          "rank": 11,
+          "code": "KY",
+          "value": "54.6%"
+        },
+        {
+          "rank": 12,
+          "code": "TN",
+          "value": "51.3%"
+        },
+        {
+          "rank": 13,
+          "code": "OK",
+          "value": "50.3%"
+        },
+        {
+          "rank": 14,
+          "code": "LA",
+          "value": "50.2%"
+        },
+        {
+          "rank": 15,
+          "code": "SC",
+          "value": "49.4%"
+        },
+        {
+          "rank": 16,
+          "code": "ME",
+          "value": "47.4%"
+        },
+        {
+          "rank": 17,
+          "code": "MO",
+          "value": "46.9%"
+        },
+        {
+          "rank": 18,
+          "code": "NM",
+          "value": "46.4%"
+        },
+        {
+          "rank": 19,
+          "code": "GA",
+          "value": "45.3%"
+        },
+        {
+          "rank": 20,
+          "code": "NC",
+          "value": "44.6%"
+        },
+        {
+          "rank": 21,
+          "code": "KS",
+          "value": "43.9%"
+        },
+        {
+          "rank": 22,
+          "code": "TX",
+          "value": "42.4%"
+        },
+        {
+          "rank": 23,
+          "code": "IA",
+          "value": "41.7%"
+        },
+        {
+          "rank": 24,
+          "code": "NH",
+          "value": "41.1%"
+        },
+        {
+          "rank": 25,
+          "code": "VT",
+          "value": "41.0%"
+        },
+        {
+          "rank": 26,
+          "code": "NE",
+          "value": "40.7%"
+        },
+        {
+          "rank": 27,
+          "code": "OR",
+          "value": "40.4%"
+        },
+        {
+          "rank": 28,
+          "code": "IN",
+          "value": "40.0%"
+        },
+        {
+          "rank": 29,
+          "code": "AZ",
+          "value": "39.4%"
+        },
+        {
+          "rank": 30,
+          "code": "PA",
+          "value": "38.6%"
+        },
+        {
+          "rank": 31,
+          "code": "VA",
+          "value": "37.7%"
+        },
+        {
+          "rank": 32,
+          "code": "OH",
+          "value": "37.5%"
+        },
+        {
+          "rank": 33,
+          "code": "FL",
+          "value": "36.7%"
+        },
+        {
+          "rank": 34,
+          "code": "MI",
+          "value": "36.5%"
+        },
+        {
+          "rank": 35,
+          "code": "MN",
+          "value": "36.4%"
+        },
+        {
+          "rank": 36,
+          "code": "CO",
+          "value": "35.4%"
+        },
+        {
+          "rank": 37,
+          "code": "WI",
+          "value": "34.7%"
+        },
+        {
+          "rank": 38,
+          "code": "NV",
+          "value": "33.8%"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "33.7%"
+        },
+        {
+          "rank": 40,
+          "code": "WA",
+          "value": "32.0%"
+        },
+        {
+          "rank": 41,
+          "code": "DE",
+          "value": "29.7%"
+        },
+        {
+          "rank": 42,
+          "code": "MD",
+          "value": "29.3%"
+        },
+        {
+          "rank": 43,
+          "code": "IL",
+          "value": "27.8%"
+        },
+        {
+          "rank": 44,
+          "code": "CA",
+          "value": "27.7%"
+        },
+        {
+          "rank": 45,
+          "code": "NY",
+          "value": "22.6%"
+        },
+        {
+          "rank": 46,
+          "code": "CT",
+          "value": "22.1%"
+        },
+        {
+          "rank": 47,
+          "code": "HI",
+          "value": "20.8%"
+        },
+        {
+          "rank": 48,
+          "code": "RI",
+          "value": "16.6%"
+        },
+        {
+          "rank": 49,
+          "code": "NJ",
+          "value": "14.9%"
+        },
+        {
+          "rank": 50,
+          "code": "MA",
+          "value": "14.7%"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-incarceration-rate-per-capita-2021",
+      "title": "Highest Incarceration Rate per Capita",
+      "prompt": "Rank the US states by total incarceration rate (state prison + local jail) per 100,000 residents.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 50,
+      "disclaimer": "Combined state prison and jail population per 100,000. DC not included (topic is state-scoped).",
+      "source": {
+        "name": "Prison Policy Initiative / Bureau of Justice Statistics",
+        "url": "https://www.prisonpolicy.org/global/2021.html",
+        "asOf": "2021"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "LA",
+          "value": "1,094"
+        },
+        {
+          "rank": 2,
+          "code": "MS",
+          "value": "1,031"
+        },
+        {
+          "rank": 3,
+          "code": "OK",
+          "value": "993"
+        },
+        {
+          "rank": 4,
+          "code": "AR",
+          "value": "942"
+        },
+        {
+          "rank": 5,
+          "code": "AL",
+          "value": "938"
+        },
+        {
+          "rank": 6,
+          "code": "GA",
+          "value": "881"
+        },
+        {
+          "rank": 7,
+          "code": "KY",
+          "value": "869"
+        },
+        {
+          "rank": 8,
+          "code": "AZ",
+          "value": "868"
+        },
+        {
+          "rank": 9,
+          "code": "TX",
+          "value": "840"
+        },
+        {
+          "rank": 10,
+          "code": "FL",
+          "value": "795"
+        },
+        {
+          "rank": 11,
+          "code": "TN",
+          "value": "784"
+        },
+        {
+          "rank": 12,
+          "code": "WV",
+          "value": "755"
+        },
+        {
+          "rank": 13,
+          "code": "MO",
+          "value": "749"
+        },
+        {
+          "rank": 14,
+          "code": "IN",
+          "value": "700"
+        },
+        {
+          "rank": 15,
+          "code": "SC",
+          "value": "676"
+        },
+        {
+          "rank": 16,
+          "code": "OH",
+          "value": "670"
+        },
+        {
+          "rank": 17,
+          "code": "WY",
+          "value": "667"
+        },
+        {
+          "rank": 18,
+          "code": "ID",
+          "value": "659"
+        },
+        {
+          "rank": 19,
+          "code": "VA",
+          "value": "618"
+        },
+        {
+          "rank": 20,
+          "code": "NV",
+          "value": "614"
+        },
+        {
+          "rank": 21,
+          "code": "NM",
+          "value": "608"
+        },
+        {
+          "rank": 22,
+          "code": "PA",
+          "value": "582"
+        },
+        {
+          "rank": 23,
+          "code": "AK",
+          "value": "579"
+        },
+        {
+          "rank": 24,
+          "code": "MT",
+          "value": "574"
+        },
+        {
+          "rank": 25,
+          "code": "NC",
+          "value": "556"
+        },
+        {
+          "rank": 26,
+          "code": "MI",
+          "value": "540"
+        },
+        {
+          "rank": 27,
+          "code": "KS",
+          "value": "534"
+        },
+        {
+          "rank": 28,
+          "code": "OR",
+          "value": "528"
+        },
+        {
+          "rank": 29,
+          "code": "SD",
+          "value": "525"
+        },
+        {
+          "rank": 30,
+          "code": "MD",
+          "value": "515"
+        },
+        {
+          "rank": 31,
+          "code": "CO",
+          "value": "503"
+        },
+        {
+          "rank": 32,
+          "code": "WI",
+          "value": "497"
+        },
+        {
+          "rank": 33,
+          "code": "CA",
+          "value": "494"
+        },
+        {
+          "rank": 34,
+          "code": "NE",
+          "value": "487"
+        },
+        {
+          "rank": 35,
+          "code": "IL",
+          "value": "436"
+        },
+        {
+          "rank": 36,
+          "code": "DE",
+          "value": "434"
+        },
+        {
+          "rank": 37,
+          "code": "IA",
+          "value": "422"
+        },
+        {
+          "rank": 38,
+          "code": "MN",
+          "value": "364"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "354"
+        },
+        {
+          "rank": 40,
+          "code": "WA",
+          "value": "349"
+        },
+        {
+          "rank": 41,
+          "code": "ND",
+          "value": "347"
+        },
+        {
+          "rank": 42,
+          "code": "NY",
+          "value": "336"
+        },
+        {
+          "rank": 43,
+          "code": "NJ",
+          "value": "325"
+        },
+        {
+          "rank": 44,
+          "code": "UT",
+          "value": "313"
+        },
+        {
+          "rank": 45,
+          "code": "CT",
+          "value": "310"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "295"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "270"
+        },
+        {
+          "rank": 48,
+          "code": "VT",
+          "value": "260"
+        },
+        {
+          "rank": 49,
+          "code": "ME",
+          "value": "228"
+        },
+        {
+          "rank": 50,
+          "code": "MA",
+          "value": "223"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-murder-rate-per-100k-2022",
+      "title": "Highest Murder Rate per 100k",
+      "prompt": "Rank the US states (and DC) by homicide rate per 100,000 residents.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 51,
+      "disclaimer": "Murder and non-negligent manslaughter per 100,000. Includes Washington DC.",
+      "source": {
+        "name": "FBI Uniform Crime Reporting Program (UCR) / CDC WONDER",
+        "url": "https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/home",
+        "asOf": "2022"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "35.6"
+        },
+        {
+          "rank": 2,
+          "code": "MS",
+          "value": "23.7"
+        },
+        {
+          "rank": 3,
+          "code": "LA",
+          "value": "19.9"
+        },
+        {
+          "rank": 4,
+          "code": "AL",
+          "value": "15.9"
+        },
+        {
+          "rank": 5,
+          "code": "NM",
+          "value": "13.4"
+        },
+        {
+          "rank": 6,
+          "code": "MO",
+          "value": "12.0"
+        },
+        {
+          "rank": 7,
+          "code": "AR",
+          "value": "11.7"
+        },
+        {
+          "rank": 8,
+          "code": "SC",
+          "value": "11.6"
+        },
+        {
+          "rank": 9,
+          "code": "TN",
+          "value": "11.4"
+        },
+        {
+          "rank": 10,
+          "code": "IL",
+          "value": "10.7"
+        },
+        {
+          "rank": 10,
+          "code": "MD",
+          "value": "10.7"
+        },
+        {
+          "rank": 12,
+          "code": "AK",
+          "value": "10.5"
+        },
+        {
+          "rank": 13,
+          "code": "GA",
+          "value": "9.8"
+        },
+        {
+          "rank": 14,
+          "code": "MI",
+          "value": "8.7"
+        },
+        {
+          "rank": 15,
+          "code": "PA",
+          "value": "8.5"
+        },
+        {
+          "rank": 16,
+          "code": "NC",
+          "value": "8.3"
+        },
+        {
+          "rank": 17,
+          "code": "KY",
+          "value": "8.1"
+        },
+        {
+          "rank": 18,
+          "code": "OK",
+          "value": "7.9"
+        },
+        {
+          "rank": 19,
+          "code": "IN",
+          "value": "7.8"
+        },
+        {
+          "rank": 20,
+          "code": "TX",
+          "value": "7.0"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "6.9"
+        },
+        {
+          "rank": 22,
+          "code": "AZ",
+          "value": "6.8"
+        },
+        {
+          "rank": 23,
+          "code": "NV",
+          "value": "6.7"
+        },
+        {
+          "rank": 24,
+          "code": "FL",
+          "value": "6.0"
+        },
+        {
+          "rank": 25,
+          "code": "KS",
+          "value": "5.9"
+        },
+        {
+          "rank": 26,
+          "code": "VA",
+          "value": "5.6"
+        },
+        {
+          "rank": 27,
+          "code": "WV",
+          "value": "5.6"
+        },
+        {
+          "rank": 28,
+          "code": "CA",
+          "value": "5.5"
+        },
+        {
+          "rank": 29,
+          "code": "CO",
+          "value": "5.4"
+        },
+        {
+          "rank": 30,
+          "code": "DE",
+          "value": "5.3"
+        },
+        {
+          "rank": 31,
+          "code": "NJ",
+          "value": "4.2"
+        },
+        {
+          "rank": 32,
+          "code": "WI",
+          "value": "4.2"
+        },
+        {
+          "rank": 33,
+          "code": "MT",
+          "value": "4.0"
+        },
+        {
+          "rank": 34,
+          "code": "NY",
+          "value": "4.0"
+        },
+        {
+          "rank": 35,
+          "code": "WA",
+          "value": "3.9"
+        },
+        {
+          "rank": 36,
+          "code": "IA",
+          "value": "3.4"
+        },
+        {
+          "rank": 37,
+          "code": "MN",
+          "value": "3.4"
+        },
+        {
+          "rank": 38,
+          "code": "SD",
+          "value": "3.3"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "3.2"
+        },
+        {
+          "rank": 40,
+          "code": "OR",
+          "value": "3.1"
+        },
+        {
+          "rank": 41,
+          "code": "CT",
+          "value": "2.9"
+        },
+        {
+          "rank": 42,
+          "code": "HI",
+          "value": "2.5"
+        },
+        {
+          "rank": 43,
+          "code": "WY",
+          "value": "2.4"
+        },
+        {
+          "rank": 44,
+          "code": "ND",
+          "value": "2.4"
+        },
+        {
+          "rank": 45,
+          "code": "UT",
+          "value": "2.3"
+        },
+        {
+          "rank": 46,
+          "code": "ID",
+          "value": "2.2"
+        },
+        {
+          "rank": 47,
+          "code": "RI",
+          "value": "2.0"
+        },
+        {
+          "rank": 48,
+          "code": "VT",
+          "value": "1.9"
+        },
+        {
+          "rank": 49,
+          "code": "ME",
+          "value": "1.8"
+        },
+        {
+          "rank": 50,
+          "code": "MA",
+          "value": "1.7"
+        },
+        {
+          "rank": 51,
+          "code": "NH",
+          "value": "1.3"
+        }
+      ]
+    },
+    {
+      "id": "us-states-politics-highest-share-of-population-born-in-state-2018",
+      "title": "Highest Share of Population Born In-State",
+      "prompt": "Rank the US states (and DC) by share of current residents who were born in that same state.",
+      "subtheme": "US States - Politics",
+      "seededDepth": 51,
+      "disclaimer": " Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau, American Community Survey (ACS) 5-Year Estimates",
+        "url": "https://data.census.gov/table?q=B06001",
+        "asOf": "2018-2022 ACS"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "LA",
+          "value": "76.3%"
+        },
+        {
+          "rank": 2,
+          "code": "MI",
+          "value": "74.1%"
+        },
+        {
+          "rank": 3,
+          "code": "OH",
+          "value": "73.6%"
+        },
+        {
+          "rank": 4,
+          "code": "PA",
+          "value": "70.3%"
+        },
+        {
+          "rank": 5,
+          "code": "MS",
+          "value": "69.9%"
+        },
+        {
+          "rank": 6,
+          "code": "WI",
+          "value": "69.6%"
+        },
+        {
+          "rank": 7,
+          "code": "KY",
+          "value": "69.2%"
+        },
+        {
+          "rank": 8,
+          "code": "IA",
+          "value": "68.7%"
+        },
+        {
+          "rank": 9,
+          "code": "AL",
+          "value": "68.5%"
+        },
+        {
+          "rank": 10,
+          "code": "WV",
+          "value": "68.2%"
+        },
+        {
+          "rank": 11,
+          "code": "MN",
+          "value": "67.0%"
+        },
+        {
+          "rank": 12,
+          "code": "IN",
+          "value": "66.8%"
+        },
+        {
+          "rank": 13,
+          "code": "IL",
+          "value": "65.7%"
+        },
+        {
+          "rank": 14,
+          "code": "NY",
+          "value": "63.9%"
+        },
+        {
+          "rank": 15,
+          "code": "AR",
+          "value": "62.6%"
+        },
+        {
+          "rank": 16,
+          "code": "MO",
+          "value": "62.5%"
+        },
+        {
+          "rank": 17,
+          "code": "NE",
+          "value": "62.4%"
+        },
+        {
+          "rank": 18,
+          "code": "MA",
+          "value": "61.5%"
+        },
+        {
+          "rank": 19,
+          "code": "NC",
+          "value": "60.4%"
+        },
+        {
+          "rank": 20,
+          "code": "TX",
+          "value": "60.3%"
+        },
+        {
+          "rank": 21,
+          "code": "TN",
+          "value": "60.0%"
+        },
+        {
+          "rank": 22,
+          "code": "GA",
+          "value": "58.6%"
+        },
+        {
+          "rank": 23,
+          "code": "OK",
+          "value": "58.5%"
+        },
+        {
+          "rank": 24,
+          "code": "CA",
+          "value": "56.9%"
+        },
+        {
+          "rank": 25,
+          "code": "NM",
+          "value": "56.4%"
+        },
+        {
+          "rank": 26,
+          "code": "SC",
+          "value": "55.4%"
+        },
+        {
+          "rank": 27,
+          "code": "UT",
+          "value": "54.2%"
+        },
+        {
+          "rank": 28,
+          "code": "NJ",
+          "value": "53.4%"
+        },
+        {
+          "rank": 29,
+          "code": "MD",
+          "value": "52.8%"
+        },
+        {
+          "rank": 30,
+          "code": "KS",
+          "value": "52.6%"
+        },
+        {
+          "rank": 31,
+          "code": "RI",
+          "value": "52.4%"
+        },
+        {
+          "rank": 32,
+          "code": "HI",
+          "value": "51.4%"
+        },
+        {
+          "rank": 33,
+          "code": "ND",
+          "value": "51.0%"
+        },
+        {
+          "rank": 34,
+          "code": "ME",
+          "value": "50.4%"
+        },
+        {
+          "rank": 35,
+          "code": "SD",
+          "value": "50.0%"
+        },
+        {
+          "rank": 36,
+          "code": "CT",
+          "value": "49.5%"
+        },
+        {
+          "rank": 37,
+          "code": "VT",
+          "value": "47.4%"
+        },
+        {
+          "rank": 38,
+          "code": "WA",
+          "value": "46.4%"
+        },
+        {
+          "rank": 39,
+          "code": "MT",
+          "value": "45.4%"
+        },
+        {
+          "rank": 40,
+          "code": "OR",
+          "value": "45.1%"
+        },
+        {
+          "rank": 41,
+          "code": "ID",
+          "value": "44.8%"
+        },
+        {
+          "rank": 42,
+          "code": "DE",
+          "value": "44.4%"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "42.6%"
+        },
+        {
+          "rank": 44,
+          "code": "VA",
+          "value": "42.5%"
+        },
+        {
+          "rank": 45,
+          "code": "AK",
+          "value": "40.7%"
+        },
+        {
+          "rank": 46,
+          "code": "CO",
+          "value": "40.4%"
+        },
+        {
+          "rank": 47,
+          "code": "AZ",
+          "value": "37.4%"
+        },
+        {
+          "rank": 48,
+          "code": "WY",
+          "value": "37.1%"
+        },
+        {
+          "rank": 49,
+          "code": "FL",
+          "value": "34.6%"
+        },
+        {
+          "rank": 50,
+          "code": "NV",
+          "value": "26.9%"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "36.3%"
+        }
+      ]
+    },
+    {
+      "id": "us-states-most-populous-states-2023",
+      "title": "Most Populous States",
+      "prompt": "Rank the US states by total population (2023 estimates).",
+      "subtheme": "US States",
+      "seededDepth": 51,
+      "disclaimer": "Population estimates as of July 1, 2023. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau, Vintage 2023 Population Estimates",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html",
+        "asOf": "2023-07-01"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "38.97M"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "30.50M"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "22.61M"
+        },
+        {
+          "rank": 4,
+          "code": "NY",
+          "value": "19.57M"
+        },
+        {
+          "rank": 5,
+          "code": "PA",
+          "value": "12.96M"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "12.55M"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "11.79M"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "11.03M"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "10.84M"
+        },
+        {
+          "rank": 10,
+          "code": "MI",
+          "value": "10.04M"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "9.29M"
+        },
+        {
+          "rank": 12,
+          "code": "VA",
+          "value": "8.72M"
+        },
+        {
+          "rank": 13,
+          "code": "WA",
+          "value": "7.81M"
+        },
+        {
+          "rank": 14,
+          "code": "AZ",
+          "value": "7.43M"
+        },
+        {
+          "rank": 15,
+          "code": "TN",
+          "value": "7.13M"
+        },
+        {
+          "rank": 16,
+          "code": "MA",
+          "value": "7.00M"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "6.86M"
+        },
+        {
+          "rank": 18,
+          "code": "MD",
+          "value": "6.18M"
+        },
+        {
+          "rank": 19,
+          "code": "MO",
+          "value": "6.20M"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "5.91M"
+        },
+        {
+          "rank": 21,
+          "code": "CO",
+          "value": "5.88M"
+        },
+        {
+          "rank": 22,
+          "code": "MN",
+          "value": "5.74M"
+        },
+        {
+          "rank": 23,
+          "code": "SC",
+          "value": "5.37M"
+        },
+        {
+          "rank": 24,
+          "code": "AL",
+          "value": "5.11M"
+        },
+        {
+          "rank": 25,
+          "code": "LA",
+          "value": "4.57M"
+        },
+        {
+          "rank": 26,
+          "code": "KY",
+          "value": "4.53M"
+        },
+        {
+          "rank": 27,
+          "code": "OR",
+          "value": "4.23M"
+        },
+        {
+          "rank": 28,
+          "code": "OK",
+          "value": "4.05M"
+        },
+        {
+          "rank": 29,
+          "code": "CT",
+          "value": "3.62M"
+        },
+        {
+          "rank": 30,
+          "code": "UT",
+          "value": "3.42M"
+        },
+        {
+          "rank": 31,
+          "code": "IA",
+          "value": "3.21M"
+        },
+        {
+          "rank": 32,
+          "code": "NV",
+          "value": "3.19M"
+        },
+        {
+          "rank": 33,
+          "code": "AR",
+          "value": "3.07M"
+        },
+        {
+          "rank": 34,
+          "code": "KS",
+          "value": "2.94M"
+        },
+        {
+          "rank": 35,
+          "code": "MS",
+          "value": "2.94M"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "2.11M"
+        },
+        {
+          "rank": 37,
+          "code": "NE",
+          "value": "1.98M"
+        },
+        {
+          "rank": 38,
+          "code": "ID",
+          "value": "1.96M"
+        },
+        {
+          "rank": 39,
+          "code": "WV",
+          "value": "1.77M"
+        },
+        {
+          "rank": 40,
+          "code": "HI",
+          "value": "1.44M"
+        },
+        {
+          "rank": 41,
+          "code": "NH",
+          "value": "1.40M"
+        },
+        {
+          "rank": 42,
+          "code": "ME",
+          "value": "1.40M"
+        },
+        {
+          "rank": 43,
+          "code": "MT",
+          "value": "1.13M"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "1.10M"
+        },
+        {
+          "rank": 45,
+          "code": "DE",
+          "value": "1.03M"
+        },
+        {
+          "rank": 46,
+          "code": "SD",
+          "value": "0.92M"
+        },
+        {
+          "rank": 47,
+          "code": "ND",
+          "value": "0.78M"
+        },
+        {
+          "rank": 48,
+          "code": "AK",
+          "value": "0.73M"
+        },
+        {
+          "rank": 49,
+          "code": "DC",
+          "value": "0.68M"
+        },
+        {
+          "rank": 50,
+          "code": "VT",
+          "value": "0.65M"
+        },
+        {
+          "rank": 51,
+          "code": "WY",
+          "value": "0.58M"
+        }
+      ]
+    },
+    {
+      "id": "us-states-highest-median-household-income-2022",
+      "title": "Highest Median Household Income",
+      "prompt": "Rank the US states by median household income (ACS 2022 5-year).",
+      "subtheme": "US States",
+      "seededDepth": 51,
+      "disclaimer": "DC included as a state-level jurisdiction per Census tables.",
+      "source": {
+        "name": "Wikipedia \u2014 List of U.S. states and territories by income (ACS 5-Year Estimates)",
+        "url": "https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_income",
+        "asOf": "2022-12-31"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "$101,027 median"
+        },
+        {
+          "rank": 2,
+          "code": "MD",
+          "value": "$98,461 median"
+        },
+        {
+          "rank": 3,
+          "code": "NJ",
+          "value": "$97,126 median"
+        },
+        {
+          "rank": 4,
+          "code": "MA",
+          "value": "$96,505 median"
+        },
+        {
+          "rank": 5,
+          "code": "HI",
+          "value": "$94,814 median"
+        },
+        {
+          "rank": 6,
+          "code": "CA",
+          "value": "$91,905 median"
+        },
+        {
+          "rank": 7,
+          "code": "NH",
+          "value": "$90,845 median"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "$90,325 median"
+        },
+        {
+          "rank": 9,
+          "code": "CT",
+          "value": "$90,213 median"
+        },
+        {
+          "rank": 10,
+          "code": "CO",
+          "value": "$87,598 median"
+        },
+        {
+          "rank": 11,
+          "code": "VA",
+          "value": "$87,249 median"
+        },
+        {
+          "rank": 12,
+          "code": "UT",
+          "value": "$86,833 median"
+        },
+        {
+          "rank": 13,
+          "code": "AK",
+          "value": "$86,370 median"
+        },
+        {
+          "rank": 14,
+          "code": "MN",
+          "value": "$84,313 median"
+        },
+        {
+          "rank": 15,
+          "code": "NY",
+          "value": "$81,386 median"
+        },
+        {
+          "rank": 16,
+          "code": "RI",
+          "value": "$81,370 median"
+        },
+        {
+          "rank": 17,
+          "code": "OR",
+          "value": "$76,362 median"
+        },
+        {
+          "rank": 18,
+          "code": "DE",
+          "value": "$79,325 median"
+        },
+        {
+          "rank": 19,
+          "code": "IL",
+          "value": "$78,433 median"
+        },
+        {
+          "rank": 20,
+          "code": "VT",
+          "value": "$74,014 median"
+        },
+        {
+          "rank": 21,
+          "code": "TX",
+          "value": "$73,035 median"
+        },
+        {
+          "rank": 22,
+          "code": "WY",
+          "value": "$72,495 median"
+        },
+        {
+          "rank": 23,
+          "code": "PA",
+          "value": "$73,170 median"
+        },
+        {
+          "rank": 24,
+          "code": "AZ",
+          "value": "$72,581 median"
+        },
+        {
+          "rank": 25,
+          "code": "NV",
+          "value": "$71,646 median"
+        },
+        {
+          "rank": 26,
+          "code": "GA",
+          "value": "$71,355 median"
+        },
+        {
+          "rank": 27,
+          "code": "NE",
+          "value": "$71,722 median"
+        },
+        {
+          "rank": 28,
+          "code": "WI",
+          "value": "$72,458 median"
+        },
+        {
+          "rank": 29,
+          "code": "ND",
+          "value": "$73,959 median"
+        },
+        {
+          "rank": 30,
+          "code": "ME",
+          "value": "$68,251 median"
+        },
+        {
+          "rank": 31,
+          "code": "FL",
+          "value": "$67,917 median"
+        },
+        {
+          "rank": 32,
+          "code": "KS",
+          "value": "$69,747 median"
+        },
+        {
+          "rank": 33,
+          "code": "IA",
+          "value": "$70,571 median"
+        },
+        {
+          "rank": 34,
+          "code": "SD",
+          "value": "$69,457 median"
+        },
+        {
+          "rank": 35,
+          "code": "OH",
+          "value": "$66,990 median"
+        },
+        {
+          "rank": 36,
+          "code": "IN",
+          "value": "$67,173 median"
+        },
+        {
+          "rank": 37,
+          "code": "MT",
+          "value": "$66,341 median"
+        },
+        {
+          "rank": 38,
+          "code": "MI",
+          "value": "$68,505 median"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "$70,214 median"
+        },
+        {
+          "rank": 40,
+          "code": "NC",
+          "value": "$66,186 median"
+        },
+        {
+          "rank": 41,
+          "code": "MO",
+          "value": "$65,920 median"
+        },
+        {
+          "rank": 42,
+          "code": "SC",
+          "value": "$63,623 median"
+        },
+        {
+          "rank": 43,
+          "code": "TN",
+          "value": "$64,035 median"
+        },
+        {
+          "rank": 44,
+          "code": "NM",
+          "value": "$58,722 median"
+        },
+        {
+          "rank": 45,
+          "code": "OK",
+          "value": "$61,364 median"
+        },
+        {
+          "rank": 46,
+          "code": "KY",
+          "value": "$60,183 median"
+        },
+        {
+          "rank": 47,
+          "code": "AL",
+          "value": "$59,609 median"
+        },
+        {
+          "rank": 48,
+          "code": "AR",
+          "value": "$56,335 median"
+        },
+        {
+          "rank": 49,
+          "code": "LA",
+          "value": "$57,852 median"
+        },
+        {
+          "rank": 50,
+          "code": "WV",
+          "value": "$55,217 median"
+        },
+        {
+          "rank": 51,
+          "code": "MS",
+          "value": "$52,985 median"
+        }
+      ]
+    },
+    {
+      "id": "us-states-highest-population-density-2022",
+      "title": "Highest Population Density",
+      "prompt": "Rank the US states by population per square mile of land area.",
+      "subtheme": "US States",
+      "seededDepth": 51,
+      "disclaimer": "Density = population / land area (sq mi). DC included.",
+      "source": {
+        "name": "US Census Bureau, Vintage 2022 Population Estimates + State Area",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-state-total.html",
+        "asOf": "2022-07-01"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "11,295 /sq mi"
+        },
+        {
+          "rank": 2,
+          "code": "NJ",
+          "value": "1,263 /sq mi"
+        },
+        {
+          "rank": 3,
+          "code": "RI",
+          "value": "1,061 /sq mi"
+        },
+        {
+          "rank": 4,
+          "code": "MA",
+          "value": "901 /sq mi"
+        },
+        {
+          "rank": 5,
+          "code": "CT",
+          "value": "745 /sq mi"
+        },
+        {
+          "rank": 6,
+          "code": "MD",
+          "value": "637 /sq mi"
+        },
+        {
+          "rank": 7,
+          "code": "DE",
+          "value": "521 /sq mi"
+        },
+        {
+          "rank": 8,
+          "code": "FL",
+          "value": "413 /sq mi"
+        },
+        {
+          "rank": 9,
+          "code": "NY",
+          "value": "412 /sq mi"
+        },
+        {
+          "rank": 10,
+          "code": "PA",
+          "value": "290 /sq mi"
+        },
+        {
+          "rank": 11,
+          "code": "OH",
+          "value": "288 /sq mi"
+        },
+        {
+          "rank": 12,
+          "code": "CA",
+          "value": "253 /sq mi"
+        },
+        {
+          "rank": 13,
+          "code": "IL",
+          "value": "226 /sq mi"
+        },
+        {
+          "rank": 14,
+          "code": "HI",
+          "value": "225 /sq mi"
+        },
+        {
+          "rank": 15,
+          "code": "VA",
+          "value": "220 /sq mi"
+        },
+        {
+          "rank": 16,
+          "code": "NC",
+          "value": "218 /sq mi"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "189 /sq mi"
+        },
+        {
+          "rank": 18,
+          "code": "GA",
+          "value": "187 /sq mi"
+        },
+        {
+          "rank": 19,
+          "code": "TN",
+          "value": "168 /sq mi"
+        },
+        {
+          "rank": 20,
+          "code": "NH",
+          "value": "154 /sq mi"
+        },
+        {
+          "rank": 21,
+          "code": "SC",
+          "value": "173 /sq mi"
+        },
+        {
+          "rank": 22,
+          "code": "KY",
+          "value": "114 /sq mi"
+        },
+        {
+          "rank": 23,
+          "code": "MI",
+          "value": "178 /sq mi"
+        },
+        {
+          "rank": 24,
+          "code": "LA",
+          "value": "108 /sq mi"
+        },
+        {
+          "rank": 25,
+          "code": "WI",
+          "value": "108 /sq mi"
+        },
+        {
+          "rank": 26,
+          "code": "WA",
+          "value": "117 /sq mi"
+        },
+        {
+          "rank": 27,
+          "code": "TX",
+          "value": "115 /sq mi"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "100 /sq mi"
+        },
+        {
+          "rank": 29,
+          "code": "MO",
+          "value": "89 /sq mi"
+        },
+        {
+          "rank": 30,
+          "code": "WV",
+          "value": "74 /sq mi"
+        },
+        {
+          "rank": 31,
+          "code": "VT",
+          "value": "70 /sq mi"
+        },
+        {
+          "rank": 32,
+          "code": "MN",
+          "value": "72 /sq mi"
+        },
+        {
+          "rank": 33,
+          "code": "MS",
+          "value": "63 /sq mi"
+        },
+        {
+          "rank": 34,
+          "code": "AZ",
+          "value": "65 /sq mi"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "58 /sq mi"
+        },
+        {
+          "rank": 36,
+          "code": "OK",
+          "value": "58 /sq mi"
+        },
+        {
+          "rank": 37,
+          "code": "IA",
+          "value": "57 /sq mi"
+        },
+        {
+          "rank": 38,
+          "code": "CO",
+          "value": "57 /sq mi"
+        },
+        {
+          "rank": 39,
+          "code": "ME",
+          "value": "44 /sq mi"
+        },
+        {
+          "rank": 40,
+          "code": "OR",
+          "value": "44 /sq mi"
+        },
+        {
+          "rank": 41,
+          "code": "KS",
+          "value": "36 /sq mi"
+        },
+        {
+          "rank": 42,
+          "code": "UT",
+          "value": "42 /sq mi"
+        },
+        {
+          "rank": 43,
+          "code": "NV",
+          "value": "29 /sq mi"
+        },
+        {
+          "rank": 44,
+          "code": "NE",
+          "value": "26 /sq mi"
+        },
+        {
+          "rank": 45,
+          "code": "ID",
+          "value": "23 /sq mi"
+        },
+        {
+          "rank": 46,
+          "code": "NM",
+          "value": "17 /sq mi"
+        },
+        {
+          "rank": 47,
+          "code": "SD",
+          "value": "12 /sq mi"
+        },
+        {
+          "rank": 48,
+          "code": "ND",
+          "value": "11 /sq mi"
+        },
+        {
+          "rank": 49,
+          "code": "MT",
+          "value": "8 /sq mi"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "6 /sq mi"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "1 /sq mi"
+        }
+      ]
+    },
+    {
+      "id": "us-states-deep-dive-most-billionaires-2024",
+      "title": "Most Billionaires",
+      "prompt": "Rank US states by the total number of resident billionaires on the Forbes 400 list.",
+      "subtheme": "US States - Deep Dive",
+      "seededDepth": 42,
+      "disclaimer": "Billionaires counted by their primary state of residence, not their business's HQ state. DC not included (source omits it).",
+      "source": {
+        "name": "Forbes 400",
+        "url": "https://www.forbes.com/forbes-400/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "94 billionaires"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "63 billionaires"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "51 billionaires"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "43 billionaires"
+        },
+        {
+          "rank": 5,
+          "code": "WA",
+          "value": "16 billionaires"
+        },
+        {
+          "rank": 6,
+          "code": "IL",
+          "value": "15 billionaires"
+        },
+        {
+          "rank": 7,
+          "code": "MA",
+          "value": "13 billionaires"
+        },
+        {
+          "rank": 8,
+          "code": "CT",
+          "value": "12 billionaires"
+        },
+        {
+          "rank": 9,
+          "code": "MI",
+          "value": "10 billionaires"
+        },
+        {
+          "rank": 10,
+          "code": "NV",
+          "value": "9 billionaires"
+        },
+        {
+          "rank": 11,
+          "code": "GA",
+          "value": "8 billionaires"
+        },
+        {
+          "rank": 11,
+          "code": "PA",
+          "value": "8 billionaires (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "CO",
+          "value": "7 billionaires"
+        },
+        {
+          "rank": 14,
+          "code": "TN",
+          "value": "6 billionaires"
+        },
+        {
+          "rank": 15,
+          "code": "AR",
+          "value": "5 billionaires"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "5 billionaires (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "OH",
+          "value": "5 billionaires (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "NJ",
+          "value": "4 billionaires"
+        },
+        {
+          "rank": 18,
+          "code": "VA",
+          "value": "4 billionaires (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "MO",
+          "value": "3 billionaires"
+        },
+        {
+          "rank": 20,
+          "code": "NC",
+          "value": "3 billionaires (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "OR",
+          "value": "3 billionaires (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "3 billionaires (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "WY",
+          "value": "3 billionaires (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "AZ",
+          "value": "2 billionaires"
+        },
+        {
+          "rank": 25,
+          "code": "IN",
+          "value": "2 billionaires (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "MD",
+          "value": "2 billionaires (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "OK",
+          "value": "2 billionaires (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "SC",
+          "value": "2 billionaires (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "AL",
+          "value": "1 billionaire"
+        },
+        {
+          "rank": 30,
+          "code": "HI",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "IA",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "KS",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "KY",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "LA",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MS",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "MT",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NE",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NH",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "NM",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "RI",
+          "value": "1 billionaire (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "UT",
+          "value": "1 billionaire (tied)"
+        }
+      ]
+    }
+  ]
+}

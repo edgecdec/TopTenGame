@@ -1,0 +1,126 @@
+{
+  "cluster": "dc_r2_0",
+  "updates": [
+    {
+      "id": "us-states-geography-highest-mean-average-elevation",
+      "changes": {
+        "disclaimer": "Statewide mean elevation above sea level, per USGS reference values. Some Plains states rank surprisingly high because their western edges climb toward the Rockies. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-geography-most-national-parks-2024",
+      "changes": {
+        "disclaimer": "'National Park' is a specific NPS designation — the broader 'National Park System' includes 400+ units (monuments, seashores, historic sites) but the traditional 'National Park' title is much rarer. Excludes national monuments, historic sites, seashores, and recreation areas. DC not included (source omits it)."
+      }
+    },
+    {
+      "id": "us-states-geography-most-national-forest-acreage-2023",
+      "changes": {
+        "disclaimer": "National Forest acreage differs from BLM land — the Forest Service manages ~193M acres nationally. DC not included (source omits it)."
+      }
+    },
+    {
+      "id": "us-states-geography-snowiest-states-average-annual-snowfall-2020",
+      "changes": {
+        "disclaimer": "Statewide average annual snowfall, averaged across the entire state's land area (NOAA 1991-2020 climate normals). Statewide averages differ substantially from 'snowiest cities' rankings because of how snowfall varies within a state. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-geography-highest-average-annual-temperature-2020",
+      "changes": {
+        "disclaimer": "Statewide average annual mean temperature (Fahrenheit), NOAA 1991-2020 climate normals, averaged across the entire state's land area. Includes both non-contiguous states. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-highest-adult-obesity-rate-2022",
+      "changes": {
+        "disclaimer": "Percent of adults (18+) with BMI >= 30 based on self-reported height/weight. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-highest-adult-smoking-rate-2022",
+      "changes": {
+        "disclaimer": "Percent of adults (18+) who currently smoke cigarettes every day or some days. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-highest-opioid-overdose-death-rate-2021",
+      "changes": {
+        "disclaimer": "Age-adjusted deaths involving any opioid per 100,000 population, 2021. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-highest-suicide-rate-2021",
+      "changes": {
+        "disclaimer": "Age-adjusted suicide deaths per 100,000 population, 2021. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-highest-uninsured-rate-2022",
+      "changes": {
+        "disclaimer": "Percent of nonelderly population without health insurance coverage. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-highest-renewable-electricity-share-2023",
+      "changes": {
+        "disclaimer": "Renewables include hydro, wind, solar, geothermal, biomass. Percent of total in-state generation. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-largest-solar-electricity-generation-2023",
+      "changes": {
+        "disclaimer": "Total utility-scale solar PV generation in gigawatt-hours (GWh), 2023. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-health-largest-wind-electricity-generation-2023",
+      "changes": {
+        "disclaimer": "Total wind electricity generation in gigawatt-hours (GWh), 2023. DC not included (source omits it)."
+      }
+    },
+    {
+      "id": "us-states-health-highest-co2-emissions-per-capita-2021",
+      "changes": {
+        "disclaimer": "Metric tons of energy-related CO2 emissions per resident, 2021. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-politics-highest-presidential-winning-margin-2024-election-2024",
+      "changes": {
+        "disclaimer": "Margin = winner percentage minus runner-up percentage. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-deep-dive-largest-wine-production-2022",
+      "changes": {
+        "disclaimer": "California is deliberately excluded to make the ranking competitive; measured in gallons produced. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-deep-dive-largest-federal-workforce-per-capita-2023",
+      "changes": {
+        "disclaimer": "Federal civilian executive-branch employees per 10,000 residents; excludes military and postal service. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-deep-dive-highest-violent-crime-rate-2022",
+      "changes": {
+        "disclaimer": "Violent crime = murder, rape, robbery, aggravated assault. Per 100,000 population. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-deep-dive-highest-median-rent-2022",
+      "changes": {
+        "disclaimer": "Median gross rent (contract rent plus utilities) for renter-occupied housing units. Includes Washington DC."
+      }
+    },
+    {
+      "id": "us-states-deep-dive-most-highway-miles-per-capita-2022",
+      "changes": {
+        "disclaimer": "All public roads (rural + urban, all functional classes) divided by state population, expressed per 1,000 residents. Includes Washington DC."
+      }
+    }
+  ],
+  "deletions": []
+}

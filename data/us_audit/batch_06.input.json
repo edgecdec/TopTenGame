@@ -1,0 +1,4090 @@
+{
+  "batch": 6,
+  "questions": [
+    {
+      "id": "us-states-geography-most-days-above-90-f-per-year-2020",
+      "title": "Most Days Above 90\u00b0F Per Year",
+      "prompt": "Rank the US states by average number of days per year with a maximum temperature at or above 90\u00b0F.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Statewide averages derived from NOAA reporting stations. Desert Southwest and Gulf Coast dominate; Alaska and Hawaii have essentially zero. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NCEI \u2014 Comparative Climatic Data, Mean Number of Days Maximum Temperature >= 90\u00b0F",
+        "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+        "asOf": "1991-2020 normals"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AZ",
+          "value": "169 days/yr"
+        },
+        {
+          "rank": 2,
+          "code": "FL",
+          "value": "125 days/yr"
+        },
+        {
+          "rank": 3,
+          "code": "TX",
+          "value": "116 days/yr"
+        },
+        {
+          "rank": 4,
+          "code": "LA",
+          "value": "108 days/yr"
+        },
+        {
+          "rank": 5,
+          "code": "MS",
+          "value": "98 days/yr"
+        },
+        {
+          "rank": 6,
+          "code": "AL",
+          "value": "93 days/yr"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "85 days/yr"
+        },
+        {
+          "rank": 8,
+          "code": "OK",
+          "value": "83 days/yr"
+        },
+        {
+          "rank": 9,
+          "code": "AR",
+          "value": "80 days/yr"
+        },
+        {
+          "rank": 10,
+          "code": "SC",
+          "value": "78 days/yr"
+        },
+        {
+          "rank": 11,
+          "code": "NM",
+          "value": "70 days/yr"
+        },
+        {
+          "rank": 12,
+          "code": "NV",
+          "value": "65 days/yr"
+        },
+        {
+          "rank": 13,
+          "code": "KS",
+          "value": "62 days/yr"
+        },
+        {
+          "rank": 14,
+          "code": "UT",
+          "value": "56 days/yr"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "55 days/yr"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "50 days/yr"
+        },
+        {
+          "rank": 16,
+          "code": "CA",
+          "value": "50 days/yr (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "48 days/yr"
+        },
+        {
+          "rank": 19,
+          "code": "VA",
+          "value": "42 days/yr"
+        },
+        {
+          "rank": 20,
+          "code": "CO",
+          "value": "40 days/yr"
+        },
+        {
+          "rank": 21,
+          "code": "KY",
+          "value": "38 days/yr"
+        },
+        {
+          "rank": 22,
+          "code": "DC",
+          "value": "37 days/yr"
+        },
+        {
+          "rank": 23,
+          "code": "IL",
+          "value": "35 days/yr"
+        },
+        {
+          "rank": 24,
+          "code": "NE",
+          "value": "34 days/yr"
+        },
+        {
+          "rank": 25,
+          "code": "MD",
+          "value": "33 days/yr"
+        },
+        {
+          "rank": 26,
+          "code": "DE",
+          "value": "30 days/yr"
+        },
+        {
+          "rank": 27,
+          "code": "SD",
+          "value": "28 days/yr"
+        },
+        {
+          "rank": 28,
+          "code": "IA",
+          "value": "26 days/yr"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "24 days/yr"
+        },
+        {
+          "rank": 30,
+          "code": "NJ",
+          "value": "22 days/yr"
+        },
+        {
+          "rank": 31,
+          "code": "WV",
+          "value": "20 days/yr"
+        },
+        {
+          "rank": 32,
+          "code": "OH",
+          "value": "18 days/yr"
+        },
+        {
+          "rank": 33,
+          "code": "PA",
+          "value": "16 days/yr"
+        },
+        {
+          "rank": 34,
+          "code": "ND",
+          "value": "15 days/yr"
+        },
+        {
+          "rank": 35,
+          "code": "WY",
+          "value": "14 days/yr"
+        },
+        {
+          "rank": 36,
+          "code": "MT",
+          "value": "12 days/yr"
+        },
+        {
+          "rank": 36,
+          "code": "ID",
+          "value": "12 days/yr (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "CT",
+          "value": "10 days/yr"
+        },
+        {
+          "rank": 39,
+          "code": "NY",
+          "value": "9 days/yr"
+        },
+        {
+          "rank": 40,
+          "code": "WI",
+          "value": "8 days/yr"
+        },
+        {
+          "rank": 40,
+          "code": "MN",
+          "value": "8 days/yr (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "MI",
+          "value": "7 days/yr"
+        },
+        {
+          "rank": 43,
+          "code": "MA",
+          "value": "6 days/yr"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "5 days/yr"
+        },
+        {
+          "rank": 44,
+          "code": "OR",
+          "value": "5 days/yr (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "4 days/yr"
+        },
+        {
+          "rank": 47,
+          "code": "ME",
+          "value": "3 days/yr"
+        },
+        {
+          "rank": 47,
+          "code": "VT",
+          "value": "3 days/yr (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "WA",
+          "value": "3 days/yr (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "AK",
+          "value": "0 days/yr"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "0 days/yr (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-days-below-32-f-per-year-2020",
+      "title": "Most Days Below 32\u00b0F Per Year",
+      "prompt": "Rank the US states by average number of days per year with a minimum temperature at or below freezing (32\u00b0F).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Statewide averages from NOAA station normals. Elevation and latitude drive rankings \u2014 some interior western states outrank their eastern peers of similar latitude. Includes Washington DC.",
+      "source": {
+        "name": "NOAA NCEI \u2014 Comparative Climatic Data, Mean Number of Days Minimum Temperature <= 32\u00b0F",
+        "url": "https://www.ncei.noaa.gov/products/land-based-station/comparative-climatic-data",
+        "asOf": "1991-2020 normals"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AK",
+          "value": "220 days/yr"
+        },
+        {
+          "rank": 2,
+          "code": "WY",
+          "value": "195 days/yr"
+        },
+        {
+          "rank": 3,
+          "code": "MT",
+          "value": "185 days/yr"
+        },
+        {
+          "rank": 4,
+          "code": "ND",
+          "value": "180 days/yr"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "175 days/yr"
+        },
+        {
+          "rank": 6,
+          "code": "MN",
+          "value": "170 days/yr"
+        },
+        {
+          "rank": 7,
+          "code": "ID",
+          "value": "168 days/yr"
+        },
+        {
+          "rank": 8,
+          "code": "SD",
+          "value": "165 days/yr"
+        },
+        {
+          "rank": 9,
+          "code": "WI",
+          "value": "160 days/yr"
+        },
+        {
+          "rank": 10,
+          "code": "VT",
+          "value": "159 days/yr"
+        },
+        {
+          "rank": 11,
+          "code": "ME",
+          "value": "157 days/yr"
+        },
+        {
+          "rank": 12,
+          "code": "NH",
+          "value": "155 days/yr"
+        },
+        {
+          "rank": 13,
+          "code": "UT",
+          "value": "150 days/yr"
+        },
+        {
+          "rank": 14,
+          "code": "NE",
+          "value": "148 days/yr"
+        },
+        {
+          "rank": 15,
+          "code": "IA",
+          "value": "142 days/yr"
+        },
+        {
+          "rank": 16,
+          "code": "NY",
+          "value": "138 days/yr"
+        },
+        {
+          "rank": 17,
+          "code": "MI",
+          "value": "135 days/yr"
+        },
+        {
+          "rank": 18,
+          "code": "MA",
+          "value": "128 days/yr"
+        },
+        {
+          "rank": 19,
+          "code": "NV",
+          "value": "125 days/yr"
+        },
+        {
+          "rank": 20,
+          "code": "PA",
+          "value": "122 days/yr"
+        },
+        {
+          "rank": 21,
+          "code": "CT",
+          "value": "118 days/yr"
+        },
+        {
+          "rank": 22,
+          "code": "OH",
+          "value": "115 days/yr"
+        },
+        {
+          "rank": 23,
+          "code": "IN",
+          "value": "112 days/yr"
+        },
+        {
+          "rank": 24,
+          "code": "IL",
+          "value": "110 days/yr"
+        },
+        {
+          "rank": 25,
+          "code": "NJ",
+          "value": "105 days/yr"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "102 days/yr"
+        },
+        {
+          "rank": 27,
+          "code": "WV",
+          "value": "100 days/yr"
+        },
+        {
+          "rank": 28,
+          "code": "MO",
+          "value": "95 days/yr"
+        },
+        {
+          "rank": 29,
+          "code": "MD",
+          "value": "92 days/yr"
+        },
+        {
+          "rank": 30,
+          "code": "RI",
+          "value": "90 days/yr"
+        },
+        {
+          "rank": 31,
+          "code": "DE",
+          "value": "85 days/yr"
+        },
+        {
+          "rank": 32,
+          "code": "KY",
+          "value": "82 days/yr"
+        },
+        {
+          "rank": 33,
+          "code": "VA",
+          "value": "78 days/yr"
+        },
+        {
+          "rank": 34,
+          "code": "OR",
+          "value": "75 days/yr"
+        },
+        {
+          "rank": 35,
+          "code": "WA",
+          "value": "72 days/yr"
+        },
+        {
+          "rank": 36,
+          "code": "NM",
+          "value": "70 days/yr"
+        },
+        {
+          "rank": 37,
+          "code": "TN",
+          "value": "68 days/yr"
+        },
+        {
+          "rank": 38,
+          "code": "NC",
+          "value": "62 days/yr"
+        },
+        {
+          "rank": 39,
+          "code": "OK",
+          "value": "58 days/yr"
+        },
+        {
+          "rank": 40,
+          "code": "AR",
+          "value": "55 days/yr"
+        },
+        {
+          "rank": 41,
+          "code": "DC",
+          "value": "50 days/yr"
+        },
+        {
+          "rank": 42,
+          "code": "AZ",
+          "value": "45 days/yr"
+        },
+        {
+          "rank": 43,
+          "code": "SC",
+          "value": "40 days/yr"
+        },
+        {
+          "rank": 44,
+          "code": "GA",
+          "value": "38 days/yr"
+        },
+        {
+          "rank": 45,
+          "code": "AL",
+          "value": "32 days/yr"
+        },
+        {
+          "rank": 46,
+          "code": "MS",
+          "value": "28 days/yr"
+        },
+        {
+          "rank": 47,
+          "code": "TX",
+          "value": "22 days/yr"
+        },
+        {
+          "rank": 48,
+          "code": "CA",
+          "value": "18 days/yr"
+        },
+        {
+          "rank": 49,
+          "code": "LA",
+          "value": "15 days/yr"
+        },
+        {
+          "rank": 50,
+          "code": "FL",
+          "value": "5 days/yr"
+        },
+        {
+          "rank": 51,
+          "code": "HI",
+          "value": "0 days/yr"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-lightning-strikes-per-square-mile-2015",
+      "title": "Most Lightning Strikes Per Square Mile",
+      "prompt": "Rank the US states by average annual cloud-to-ground lightning flash density (strikes per square mile).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Flash density = cloud-to-ground lightning strikes per square mile per year, averaged across the state. Vaisala NLDN is the standard reference dataset used by NOAA/NWS. Includes Washington DC.",
+      "source": {
+        "name": "Vaisala National Lightning Detection Network \u2014 Annual Lightning Report",
+        "url": "https://www.vaisala.com/en/lightning",
+        "asOf": "2015-2023 average"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "FL",
+          "value": "82.8 strikes/sq mi"
+        },
+        {
+          "rank": 2,
+          "code": "LA",
+          "value": "62.8 strikes/sq mi"
+        },
+        {
+          "rank": 3,
+          "code": "MS",
+          "value": "60.8 strikes/sq mi"
+        },
+        {
+          "rank": 4,
+          "code": "AL",
+          "value": "51.0 strikes/sq mi"
+        },
+        {
+          "rank": 5,
+          "code": "AR",
+          "value": "42.4 strikes/sq mi"
+        },
+        {
+          "rank": 6,
+          "code": "GA",
+          "value": "39.4 strikes/sq mi"
+        },
+        {
+          "rank": 7,
+          "code": "SC",
+          "value": "38.0 strikes/sq mi"
+        },
+        {
+          "rank": 8,
+          "code": "TX",
+          "value": "35.5 strikes/sq mi"
+        },
+        {
+          "rank": 9,
+          "code": "OK",
+          "value": "32.2 strikes/sq mi"
+        },
+        {
+          "rank": 10,
+          "code": "TN",
+          "value": "30.8 strikes/sq mi"
+        },
+        {
+          "rank": 11,
+          "code": "NC",
+          "value": "27.0 strikes/sq mi"
+        },
+        {
+          "rank": 12,
+          "code": "KY",
+          "value": "25.8 strikes/sq mi"
+        },
+        {
+          "rank": 13,
+          "code": "MO",
+          "value": "22.6 strikes/sq mi"
+        },
+        {
+          "rank": 14,
+          "code": "VA",
+          "value": "20.4 strikes/sq mi"
+        },
+        {
+          "rank": 15,
+          "code": "IN",
+          "value": "19.1 strikes/sq mi"
+        },
+        {
+          "rank": 16,
+          "code": "KS",
+          "value": "18.7 strikes/sq mi"
+        },
+        {
+          "rank": 17,
+          "code": "WV",
+          "value": "17.2 strikes/sq mi"
+        },
+        {
+          "rank": 18,
+          "code": "IL",
+          "value": "16.8 strikes/sq mi"
+        },
+        {
+          "rank": 19,
+          "code": "MD",
+          "value": "15.4 strikes/sq mi"
+        },
+        {
+          "rank": 20,
+          "code": "OH",
+          "value": "14.6 strikes/sq mi"
+        },
+        {
+          "rank": 21,
+          "code": "DE",
+          "value": "13.9 strikes/sq mi"
+        },
+        {
+          "rank": 22,
+          "code": "NE",
+          "value": "13.2 strikes/sq mi"
+        },
+        {
+          "rank": 23,
+          "code": "NJ",
+          "value": "12.5 strikes/sq mi"
+        },
+        {
+          "rank": 24,
+          "code": "IA",
+          "value": "11.8 strikes/sq mi"
+        },
+        {
+          "rank": 25,
+          "code": "DC",
+          "value": "11.0 strikes/sq mi"
+        },
+        {
+          "rank": 26,
+          "code": "PA",
+          "value": "10.4 strikes/sq mi"
+        },
+        {
+          "rank": 27,
+          "code": "SD",
+          "value": "9.6 strikes/sq mi"
+        },
+        {
+          "rank": 28,
+          "code": "CT",
+          "value": "8.7 strikes/sq mi"
+        },
+        {
+          "rank": 29,
+          "code": "NM",
+          "value": "7.9 strikes/sq mi"
+        },
+        {
+          "rank": 30,
+          "code": "NY",
+          "value": "7.2 strikes/sq mi"
+        },
+        {
+          "rank": 31,
+          "code": "AZ",
+          "value": "6.5 strikes/sq mi"
+        },
+        {
+          "rank": 32,
+          "code": "MA",
+          "value": "5.8 strikes/sq mi"
+        },
+        {
+          "rank": 33,
+          "code": "CO",
+          "value": "5.4 strikes/sq mi"
+        },
+        {
+          "rank": 34,
+          "code": "WI",
+          "value": "5.0 strikes/sq mi"
+        },
+        {
+          "rank": 35,
+          "code": "ND",
+          "value": "4.6 strikes/sq mi"
+        },
+        {
+          "rank": 36,
+          "code": "RI",
+          "value": "4.2 strikes/sq mi"
+        },
+        {
+          "rank": 37,
+          "code": "MI",
+          "value": "3.9 strikes/sq mi"
+        },
+        {
+          "rank": 38,
+          "code": "MN",
+          "value": "3.5 strikes/sq mi"
+        },
+        {
+          "rank": 39,
+          "code": "WY",
+          "value": "2.8 strikes/sq mi"
+        },
+        {
+          "rank": 40,
+          "code": "UT",
+          "value": "2.2 strikes/sq mi"
+        },
+        {
+          "rank": 41,
+          "code": "MT",
+          "value": "1.8 strikes/sq mi"
+        },
+        {
+          "rank": 42,
+          "code": "NH",
+          "value": "1.5 strikes/sq mi"
+        },
+        {
+          "rank": 43,
+          "code": "VT",
+          "value": "1.3 strikes/sq mi"
+        },
+        {
+          "rank": 44,
+          "code": "ID",
+          "value": "1.1 strikes/sq mi"
+        },
+        {
+          "rank": 45,
+          "code": "NV",
+          "value": "0.9 strikes/sq mi"
+        },
+        {
+          "rank": 46,
+          "code": "ME",
+          "value": "0.8 strikes/sq mi"
+        },
+        {
+          "rank": 47,
+          "code": "HI",
+          "value": "0.4 strikes/sq mi"
+        },
+        {
+          "rank": 48,
+          "code": "CA",
+          "value": "0.3 strikes/sq mi"
+        },
+        {
+          "rank": 49,
+          "code": "OR",
+          "value": "0.2 strikes/sq mi"
+        },
+        {
+          "rank": 50,
+          "code": "WA",
+          "value": "0.1 strikes/sq mi"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "0.05 strikes/sq mi"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-severe-thunderstorm-days-per-year-2003",
+      "title": "Most Severe Thunderstorm Days Per Year",
+      "prompt": "Rank the US states by average number of severe thunderstorm days per year (days with hail 1+ inch, wind 58+ mph, or a tornado report).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "A 'severe thunderstorm day' is any calendar day with at least one qualifying severe report in the state (hail >= 1 in, wind >= 58 mph, or tornado). Definition per NOAA SPC. Includes Washington DC.",
+      "source": {
+        "name": "NOAA SPC \u2014 Severe Weather Database (SVRGIS)",
+        "url": "https://www.spc.noaa.gov/wcm/",
+        "asOf": "2003-2022 average"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "133 days/yr"
+        },
+        {
+          "rank": 2,
+          "code": "KS",
+          "value": "88 days/yr"
+        },
+        {
+          "rank": 3,
+          "code": "OK",
+          "value": "82 days/yr"
+        },
+        {
+          "rank": 4,
+          "code": "NE",
+          "value": "78 days/yr"
+        },
+        {
+          "rank": 5,
+          "code": "MO",
+          "value": "72 days/yr"
+        },
+        {
+          "rank": 6,
+          "code": "IA",
+          "value": "70 days/yr"
+        },
+        {
+          "rank": 7,
+          "code": "IL",
+          "value": "68 days/yr"
+        },
+        {
+          "rank": 8,
+          "code": "CO",
+          "value": "66 days/yr"
+        },
+        {
+          "rank": 9,
+          "code": "SD",
+          "value": "63 days/yr"
+        },
+        {
+          "rank": 10,
+          "code": "MN",
+          "value": "62 days/yr"
+        },
+        {
+          "rank": 11,
+          "code": "AR",
+          "value": "58 days/yr"
+        },
+        {
+          "rank": 12,
+          "code": "IN",
+          "value": "55 days/yr"
+        },
+        {
+          "rank": 13,
+          "code": "MS",
+          "value": "54 days/yr"
+        },
+        {
+          "rank": 14,
+          "code": "AL",
+          "value": "52 days/yr"
+        },
+        {
+          "rank": 15,
+          "code": "LA",
+          "value": "50 days/yr"
+        },
+        {
+          "rank": 16,
+          "code": "ND",
+          "value": "48 days/yr"
+        },
+        {
+          "rank": 17,
+          "code": "OH",
+          "value": "46 days/yr"
+        },
+        {
+          "rank": 18,
+          "code": "KY",
+          "value": "44 days/yr"
+        },
+        {
+          "rank": 19,
+          "code": "TN",
+          "value": "42 days/yr"
+        },
+        {
+          "rank": 20,
+          "code": "GA",
+          "value": "40 days/yr"
+        },
+        {
+          "rank": 21,
+          "code": "WI",
+          "value": "38 days/yr"
+        },
+        {
+          "rank": 22,
+          "code": "MI",
+          "value": "36 days/yr"
+        },
+        {
+          "rank": 23,
+          "code": "FL",
+          "value": "35 days/yr"
+        },
+        {
+          "rank": 24,
+          "code": "SC",
+          "value": "33 days/yr"
+        },
+        {
+          "rank": 25,
+          "code": "NC",
+          "value": "32 days/yr"
+        },
+        {
+          "rank": 26,
+          "code": "WY",
+          "value": "30 days/yr"
+        },
+        {
+          "rank": 27,
+          "code": "PA",
+          "value": "28 days/yr"
+        },
+        {
+          "rank": 28,
+          "code": "MT",
+          "value": "26 days/yr"
+        },
+        {
+          "rank": 29,
+          "code": "VA",
+          "value": "25 days/yr"
+        },
+        {
+          "rank": 30,
+          "code": "NM",
+          "value": "23 days/yr"
+        },
+        {
+          "rank": 31,
+          "code": "WV",
+          "value": "21 days/yr"
+        },
+        {
+          "rank": 32,
+          "code": "NY",
+          "value": "19 days/yr"
+        },
+        {
+          "rank": 33,
+          "code": "MD",
+          "value": "17 days/yr"
+        },
+        {
+          "rank": 34,
+          "code": "NJ",
+          "value": "14 days/yr"
+        },
+        {
+          "rank": 35,
+          "code": "AZ",
+          "value": "12 days/yr"
+        },
+        {
+          "rank": 36,
+          "code": "MA",
+          "value": "10 days/yr"
+        },
+        {
+          "rank": 37,
+          "code": "CT",
+          "value": "9 days/yr"
+        },
+        {
+          "rank": 38,
+          "code": "DE",
+          "value": "8 days/yr"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "7 days/yr"
+        },
+        {
+          "rank": 40,
+          "code": "UT",
+          "value": "6 days/yr"
+        },
+        {
+          "rank": 41,
+          "code": "NH",
+          "value": "5 days/yr"
+        },
+        {
+          "rank": 42,
+          "code": "VT",
+          "value": "4 days/yr"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "4 days/yr"
+        },
+        {
+          "rank": 44,
+          "code": "NV",
+          "value": "3 days/yr"
+        },
+        {
+          "rank": 45,
+          "code": "RI",
+          "value": "3 days/yr"
+        },
+        {
+          "rank": 46,
+          "code": "DC",
+          "value": "2 days/yr"
+        },
+        {
+          "rank": 47,
+          "code": "OR",
+          "value": "2 days/yr"
+        },
+        {
+          "rank": 48,
+          "code": "WA",
+          "value": "1 day/yr"
+        },
+        {
+          "rank": 49,
+          "code": "CA",
+          "value": "1 day/yr"
+        },
+        {
+          "rank": 50,
+          "code": "HI",
+          "value": "0 days/yr"
+        },
+        {
+          "rank": 51,
+          "code": "AK",
+          "value": "0 days/yr"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-cities-over-100-000-population-2023",
+      "title": "Most Cities Over 100,000 Population",
+      "prompt": "Rank the US states by the number of incorporated cities with a population above 100,000.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts only cities that are legally incorporated municipalities; CDPs (census-designated places) and unincorporated communities are excluded. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 City & Town Population Totals (Vintage 2023)",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+        "asOf": "2023 population estimates"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "76 cities"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "42 cities"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "24 cities"
+        },
+        {
+          "rank": 4,
+          "code": "AZ",
+          "value": "13 cities"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "12 cities"
+        },
+        {
+          "rank": 6,
+          "code": "NC",
+          "value": "11 cities"
+        },
+        {
+          "rank": 6,
+          "code": "WA",
+          "value": "11 cities (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "VA",
+          "value": "10 cities"
+        },
+        {
+          "rank": 9,
+          "code": "IL",
+          "value": "9 cities"
+        },
+        {
+          "rank": 9,
+          "code": "GA",
+          "value": "9 cities (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "MI",
+          "value": "8 cities"
+        },
+        {
+          "rank": 12,
+          "code": "NJ",
+          "value": "7 cities"
+        },
+        {
+          "rank": 12,
+          "code": "NV",
+          "value": "7 cities (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "OH",
+          "value": "7 cities (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "MA",
+          "value": "6 cities"
+        },
+        {
+          "rank": 15,
+          "code": "MN",
+          "value": "6 cities (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "TN",
+          "value": "6 cities (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "AL",
+          "value": "5 cities"
+        },
+        {
+          "rank": 18,
+          "code": "MO",
+          "value": "5 cities (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "UT",
+          "value": "5 cities (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "IN",
+          "value": "4 cities"
+        },
+        {
+          "rank": 21,
+          "code": "KS",
+          "value": "4 cities (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "NY",
+          "value": "4 cities (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "OK",
+          "value": "4 cities (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "OR",
+          "value": "4 cities (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "PA",
+          "value": "4 cities (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "CT",
+          "value": "3 cities"
+        },
+        {
+          "rank": 27,
+          "code": "SC",
+          "value": "3 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "AR",
+          "value": "2 cities"
+        },
+        {
+          "rank": 29,
+          "code": "ID",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "IA",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "KY",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "LA",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "NE",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "NM",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 29,
+          "code": "WI",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "AK",
+          "value": "1 city"
+        },
+        {
+          "rank": 37,
+          "code": "DC",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "HI",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "MS",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "ND",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "RI",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "SD",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "DE",
+          "value": "0 cities"
+        },
+        {
+          "rank": 44,
+          "code": "ME",
+          "value": "0 cities (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "MD",
+          "value": "0 cities (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "MT",
+          "value": "0 cities (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "0 cities (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "VT",
+          "value": "0 cities (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "0 cities (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "WY",
+          "value": "0 cities (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-cities-over-500-000-population-2023",
+      "title": "Most Cities Over 500,000 Population",
+      "prompt": "Rank the US states by the number of cities with a population above 500,000.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 24,
+      "disclaimer": "Uses incorporated city (not metro area) population. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 Top City Population Estimates (Vintage 2023)",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "TX",
+          "value": "5 cities"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "4 cities"
+        },
+        {
+          "rank": 3,
+          "code": "AZ",
+          "value": "2 cities"
+        },
+        {
+          "rank": 4,
+          "code": "NC",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 5,
+          "code": "TN",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 6,
+          "code": "NY",
+          "value": "1 city"
+        },
+        {
+          "rank": 7,
+          "code": "IL",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 8,
+          "code": "PA",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 9,
+          "code": "FL",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "OH",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "IN",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 12,
+          "code": "OK",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "OR",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "NV",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 15,
+          "code": "KY",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "MD",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 17,
+          "code": "WI",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 18,
+          "code": "NM",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "MO",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "MI",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 21,
+          "code": "GA",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "CO",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 23,
+          "code": "MA",
+          "value": "1 city (tied)"
+        },
+        {
+          "rank": 24,
+          "code": "DC",
+          "value": "1 city (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-city-by-population-2023",
+      "title": "Largest City by Population",
+      "prompt": "Rank the US states by the population of their single largest city.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Uses each state's largest incorporated city (not metro area). Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 City Population Estimates (Vintage 2023)",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+        "asOf": "2023 estimates"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "NYC 8.26M"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "Los Angeles 3.82M"
+        },
+        {
+          "rank": 3,
+          "code": "IL",
+          "value": "Chicago 2.66M"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "Houston 2.31M"
+        },
+        {
+          "rank": 5,
+          "code": "AZ",
+          "value": "Phoenix 1.65M"
+        },
+        {
+          "rank": 6,
+          "code": "PA",
+          "value": "Philadelphia 1.55M"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "Jacksonville 986K"
+        },
+        {
+          "rank": 8,
+          "code": "OH",
+          "value": "Columbus 913K"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "Charlotte 911K"
+        },
+        {
+          "rank": 10,
+          "code": "IN",
+          "value": "Indianapolis 880K"
+        },
+        {
+          "rank": 11,
+          "code": "WA",
+          "value": "Seattle 755K"
+        },
+        {
+          "rank": 12,
+          "code": "CO",
+          "value": "Denver 716K"
+        },
+        {
+          "rank": 13,
+          "code": "OK",
+          "value": "Oklahoma City 702K"
+        },
+        {
+          "rank": 14,
+          "code": "TN",
+          "value": "Nashville 687K"
+        },
+        {
+          "rank": 15,
+          "code": "DC",
+          "value": "Washington 678K"
+        },
+        {
+          "rank": 16,
+          "code": "MA",
+          "value": "Boston 653K"
+        },
+        {
+          "rank": 17,
+          "code": "OR",
+          "value": "Portland 630K"
+        },
+        {
+          "rank": 18,
+          "code": "NV",
+          "value": "Las Vegas 660K"
+        },
+        {
+          "rank": 19,
+          "code": "MI",
+          "value": "Detroit 633K"
+        },
+        {
+          "rank": 20,
+          "code": "KY",
+          "value": "Louisville 622K"
+        },
+        {
+          "rank": 21,
+          "code": "MD",
+          "value": "Baltimore 566K"
+        },
+        {
+          "rank": 22,
+          "code": "WI",
+          "value": "Milwaukee 561K"
+        },
+        {
+          "rank": 23,
+          "code": "NM",
+          "value": "Albuquerque 561K"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "Kansas City 510K"
+        },
+        {
+          "rank": 25,
+          "code": "GA",
+          "value": "Atlanta 499K"
+        },
+        {
+          "rank": 26,
+          "code": "NE",
+          "value": "Omaha 487K"
+        },
+        {
+          "rank": 27,
+          "code": "MN",
+          "value": "Minneapolis 425K"
+        },
+        {
+          "rank": 28,
+          "code": "LA",
+          "value": "New Orleans 364K"
+        },
+        {
+          "rank": 29,
+          "code": "HI",
+          "value": "Honolulu 340K"
+        },
+        {
+          "rank": 30,
+          "code": "VA",
+          "value": "Virginia Beach 452K"
+        },
+        {
+          "rank": 31,
+          "code": "KS",
+          "value": "Wichita 397K"
+        },
+        {
+          "rank": 32,
+          "code": "UT",
+          "value": "Salt Lake City 209K"
+        },
+        {
+          "rank": 33,
+          "code": "AL",
+          "value": "Huntsville 225K"
+        },
+        {
+          "rank": 34,
+          "code": "IA",
+          "value": "Des Moines 213K"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "Little Rock 202K"
+        },
+        {
+          "rank": 36,
+          "code": "SC",
+          "value": "Charleston 155K"
+        },
+        {
+          "rank": 37,
+          "code": "AK",
+          "value": "Anchorage 287K"
+        },
+        {
+          "rank": 38,
+          "code": "MS",
+          "value": "Jackson 145K"
+        },
+        {
+          "rank": 39,
+          "code": "ID",
+          "value": "Boise 236K"
+        },
+        {
+          "rank": 40,
+          "code": "NJ",
+          "value": "Newark 305K"
+        },
+        {
+          "rank": 41,
+          "code": "CT",
+          "value": "Bridgeport 148K"
+        },
+        {
+          "rank": 42,
+          "code": "RI",
+          "value": "Providence 190K"
+        },
+        {
+          "rank": 43,
+          "code": "SD",
+          "value": "Sioux Falls 202K"
+        },
+        {
+          "rank": 44,
+          "code": "ND",
+          "value": "Fargo 133K"
+        },
+        {
+          "rank": 45,
+          "code": "MT",
+          "value": "Billings 121K"
+        },
+        {
+          "rank": 46,
+          "code": "NH",
+          "value": "Manchester 115K"
+        },
+        {
+          "rank": 47,
+          "code": "ME",
+          "value": "Portland 68K"
+        },
+        {
+          "rank": 48,
+          "code": "DE",
+          "value": "Wilmington 70K"
+        },
+        {
+          "rank": 49,
+          "code": "WV",
+          "value": "Charleston 48K"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "Cheyenne 65K"
+        },
+        {
+          "rank": 51,
+          "code": "VT",
+          "value": "Burlington 44K"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-state-capital-by-population-2023",
+      "title": "Largest State Capital by Population",
+      "prompt": "Rank the US states by the population of the state capital city.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Ranks each state by the population of its designated capital city, not its largest city. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 City Population Estimates (Vintage 2023)",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "AZ",
+          "value": "Phoenix 1.65M"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "Austin 979K"
+        },
+        {
+          "rank": 3,
+          "code": "OH",
+          "value": "Columbus 913K"
+        },
+        {
+          "rank": 4,
+          "code": "IN",
+          "value": "Indianapolis 880K"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "Denver 716K"
+        },
+        {
+          "rank": 6,
+          "code": "OK",
+          "value": "Oklahoma City 702K"
+        },
+        {
+          "rank": 7,
+          "code": "TN",
+          "value": "Nashville 687K"
+        },
+        {
+          "rank": 8,
+          "code": "DC",
+          "value": "Washington 678K"
+        },
+        {
+          "rank": 9,
+          "code": "MA",
+          "value": "Boston 653K"
+        },
+        {
+          "rank": 10,
+          "code": "GA",
+          "value": "Atlanta 499K"
+        },
+        {
+          "rank": 11,
+          "code": "NE",
+          "value": "Lincoln 295K"
+        },
+        {
+          "rank": 12,
+          "code": "WI",
+          "value": "Madison 272K"
+        },
+        {
+          "rank": 13,
+          "code": "VA",
+          "value": "Richmond 229K"
+        },
+        {
+          "rank": 14,
+          "code": "LA",
+          "value": "Baton Rouge 217K"
+        },
+        {
+          "rank": 15,
+          "code": "UT",
+          "value": "Salt Lake City 209K"
+        },
+        {
+          "rank": 16,
+          "code": "IA",
+          "value": "Des Moines 213K"
+        },
+        {
+          "rank": 17,
+          "code": "AL",
+          "value": "Montgomery 194K"
+        },
+        {
+          "rank": 18,
+          "code": "MS",
+          "value": "Jackson 145K"
+        },
+        {
+          "rank": 19,
+          "code": "RI",
+          "value": "Providence 190K"
+        },
+        {
+          "rank": 20,
+          "code": "ID",
+          "value": "Boise 236K"
+        },
+        {
+          "rank": 21,
+          "code": "AR",
+          "value": "Little Rock 202K"
+        },
+        {
+          "rank": 22,
+          "code": "HI",
+          "value": "Honolulu 340K"
+        },
+        {
+          "rank": 23,
+          "code": "KY",
+          "value": "Frankfort 28K"
+        },
+        {
+          "rank": 24,
+          "code": "MO",
+          "value": "Jefferson City 43K"
+        },
+        {
+          "rank": 25,
+          "code": "MN",
+          "value": "Saint Paul 300K"
+        },
+        {
+          "rank": 26,
+          "code": "NM",
+          "value": "Santa Fe 89K"
+        },
+        {
+          "rank": 27,
+          "code": "CA",
+          "value": "Sacramento 526K"
+        },
+        {
+          "rank": 28,
+          "code": "NC",
+          "value": "Raleigh 476K"
+        },
+        {
+          "rank": 29,
+          "code": "FL",
+          "value": "Tallahassee 202K"
+        },
+        {
+          "rank": 30,
+          "code": "MI",
+          "value": "Lansing 112K"
+        },
+        {
+          "rank": 31,
+          "code": "SC",
+          "value": "Columbia 139K"
+        },
+        {
+          "rank": 32,
+          "code": "PA",
+          "value": "Harrisburg 50K"
+        },
+        {
+          "rank": 33,
+          "code": "IL",
+          "value": "Springfield 111K"
+        },
+        {
+          "rank": 34,
+          "code": "OR",
+          "value": "Salem 178K"
+        },
+        {
+          "rank": 35,
+          "code": "KS",
+          "value": "Topeka 125K"
+        },
+        {
+          "rank": 36,
+          "code": "WA",
+          "value": "Olympia 55K"
+        },
+        {
+          "rank": 37,
+          "code": "NJ",
+          "value": "Trenton 90K"
+        },
+        {
+          "rank": 38,
+          "code": "CT",
+          "value": "Hartford 121K"
+        },
+        {
+          "rank": 39,
+          "code": "NY",
+          "value": "Albany 99K"
+        },
+        {
+          "rank": 40,
+          "code": "AK",
+          "value": "Juneau 32K"
+        },
+        {
+          "rank": 41,
+          "code": "MD",
+          "value": "Annapolis 40K"
+        },
+        {
+          "rank": 42,
+          "code": "NV",
+          "value": "Carson City 59K"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "Concord 44K"
+        },
+        {
+          "rank": 44,
+          "code": "SD",
+          "value": "Pierre 14K"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "Bismarck 75K"
+        },
+        {
+          "rank": 46,
+          "code": "ME",
+          "value": "Augusta 19K"
+        },
+        {
+          "rank": 47,
+          "code": "MT",
+          "value": "Helena 33K"
+        },
+        {
+          "rank": 48,
+          "code": "WV",
+          "value": "Charleston 48K"
+        },
+        {
+          "rank": 49,
+          "code": "WY",
+          "value": "Cheyenne 65K"
+        },
+        {
+          "rank": 50,
+          "code": "DE",
+          "value": "Dover 39K"
+        },
+        {
+          "rank": 51,
+          "code": "VT",
+          "value": "Montpelier 8K"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-highest-urban-population-share-2020",
+      "title": "Highest Urban Population Share",
+      "prompt": "Rank the US states by the percentage of population living in urban areas.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Uses the Census Bureau's 2020 definition of urban areas (\u22655,000 people or \u22652,000 housing units in a contiguous developed area). Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 2020 Census Urban and Rural Classification",
+        "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html",
+        "asOf": "2020 Census"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "DC",
+          "value": "100.0% urban"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "94.2% urban"
+        },
+        {
+          "rank": 3,
+          "code": "NJ",
+          "value": "93.8% urban"
+        },
+        {
+          "rank": 4,
+          "code": "NV",
+          "value": "93.4% urban"
+        },
+        {
+          "rank": 5,
+          "code": "MA",
+          "value": "90.5% urban"
+        },
+        {
+          "rank": 6,
+          "code": "HI",
+          "value": "89.9% urban"
+        },
+        {
+          "rank": 7,
+          "code": "FL",
+          "value": "89.8% urban"
+        },
+        {
+          "rank": 8,
+          "code": "RI",
+          "value": "89.5% urban"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "88.7% urban"
+        },
+        {
+          "rank": 10,
+          "code": "IL",
+          "value": "88.0% urban"
+        },
+        {
+          "rank": 11,
+          "code": "UT",
+          "value": "87.6% urban"
+        },
+        {
+          "rank": 12,
+          "code": "NY",
+          "value": "87.4% urban"
+        },
+        {
+          "rank": 13,
+          "code": "MD",
+          "value": "84.4% urban"
+        },
+        {
+          "rank": 14,
+          "code": "CT",
+          "value": "84.2% urban"
+        },
+        {
+          "rank": 15,
+          "code": "TX",
+          "value": "83.7% urban"
+        },
+        {
+          "rank": 16,
+          "code": "CO",
+          "value": "82.7% urban"
+        },
+        {
+          "rank": 17,
+          "code": "WA",
+          "value": "81.4% urban"
+        },
+        {
+          "rank": 18,
+          "code": "DE",
+          "value": "81.0% urban"
+        },
+        {
+          "rank": 19,
+          "code": "OR",
+          "value": "80.2% urban"
+        },
+        {
+          "rank": 20,
+          "code": "PA",
+          "value": "77.5% urban"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "77.1% urban"
+        },
+        {
+          "rank": 22,
+          "code": "LA",
+          "value": "72.6% urban"
+        },
+        {
+          "rank": 23,
+          "code": "VA",
+          "value": "75.5% urban"
+        },
+        {
+          "rank": 24,
+          "code": "MN",
+          "value": "73.3% urban"
+        },
+        {
+          "rank": 25,
+          "code": "NM",
+          "value": "74.4% urban"
+        },
+        {
+          "rank": 26,
+          "code": "GA",
+          "value": "75.5% urban"
+        },
+        {
+          "rank": 27,
+          "code": "MI",
+          "value": "74.2% urban"
+        },
+        {
+          "rank": 28,
+          "code": "KS",
+          "value": "73.6% urban"
+        },
+        {
+          "rank": 29,
+          "code": "IN",
+          "value": "72.1% urban"
+        },
+        {
+          "rank": 30,
+          "code": "NE",
+          "value": "73.1% urban"
+        },
+        {
+          "rank": 31,
+          "code": "MO",
+          "value": "70.4% urban"
+        },
+        {
+          "rank": 32,
+          "code": "WI",
+          "value": "70.2% urban"
+        },
+        {
+          "rank": 33,
+          "code": "TN",
+          "value": "66.7% urban"
+        },
+        {
+          "rank": 34,
+          "code": "OK",
+          "value": "66.7% urban"
+        },
+        {
+          "rank": 35,
+          "code": "NC",
+          "value": "66.7% urban"
+        },
+        {
+          "rank": 36,
+          "code": "AK",
+          "value": "66.0% urban"
+        },
+        {
+          "rank": 37,
+          "code": "WY",
+          "value": "64.2% urban"
+        },
+        {
+          "rank": 38,
+          "code": "ND",
+          "value": "63.7% urban"
+        },
+        {
+          "rank": 39,
+          "code": "IA",
+          "value": "63.4% urban"
+        },
+        {
+          "rank": 40,
+          "code": "ID",
+          "value": "70.6% urban"
+        },
+        {
+          "rank": 41,
+          "code": "SC",
+          "value": "68.5% urban"
+        },
+        {
+          "rank": 42,
+          "code": "NH",
+          "value": "59.3% urban"
+        },
+        {
+          "rank": 43,
+          "code": "AL",
+          "value": "58.8% urban"
+        },
+        {
+          "rank": 44,
+          "code": "KY",
+          "value": "58.7% urban"
+        },
+        {
+          "rank": 45,
+          "code": "SD",
+          "value": "57.3% urban"
+        },
+        {
+          "rank": 46,
+          "code": "AR",
+          "value": "56.5% urban"
+        },
+        {
+          "rank": 47,
+          "code": "MT",
+          "value": "56.3% urban"
+        },
+        {
+          "rank": 48,
+          "code": "MS",
+          "value": "46.2% urban"
+        },
+        {
+          "rank": 49,
+          "code": "WV",
+          "value": "44.3% urban"
+        },
+        {
+          "rank": 50,
+          "code": "ME",
+          "value": "38.7% urban"
+        },
+        {
+          "rank": 51,
+          "code": "VT",
+          "value": "35.1% urban"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-lowest-urban-population-share-2020",
+      "title": "Lowest Urban Population Share",
+      "prompt": "Rank the US states by the LOWEST percentage of population living in urban areas (most rural first).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Rank 1 = the MOST rural state. Uses the Census 2020 urban-area definition. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 2020 Census Urban and Rural Classification",
+        "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html",
+        "asOf": "2020 Census"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "VT",
+          "value": "35.1% urban"
+        },
+        {
+          "rank": 2,
+          "code": "ME",
+          "value": "38.7% urban"
+        },
+        {
+          "rank": 3,
+          "code": "WV",
+          "value": "44.3% urban"
+        },
+        {
+          "rank": 4,
+          "code": "MS",
+          "value": "46.2% urban"
+        },
+        {
+          "rank": 5,
+          "code": "MT",
+          "value": "56.3% urban"
+        },
+        {
+          "rank": 6,
+          "code": "AR",
+          "value": "56.5% urban"
+        },
+        {
+          "rank": 7,
+          "code": "SD",
+          "value": "57.3% urban"
+        },
+        {
+          "rank": 8,
+          "code": "KY",
+          "value": "58.7% urban"
+        },
+        {
+          "rank": 9,
+          "code": "AL",
+          "value": "58.8% urban"
+        },
+        {
+          "rank": 10,
+          "code": "NH",
+          "value": "59.3% urban"
+        },
+        {
+          "rank": 11,
+          "code": "IA",
+          "value": "63.4% urban"
+        },
+        {
+          "rank": 12,
+          "code": "ND",
+          "value": "63.7% urban"
+        },
+        {
+          "rank": 13,
+          "code": "WY",
+          "value": "64.2% urban"
+        },
+        {
+          "rank": 14,
+          "code": "NC",
+          "value": "66.7% urban"
+        },
+        {
+          "rank": 14,
+          "code": "OK",
+          "value": "66.7% urban (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "TN",
+          "value": "66.7% urban"
+        },
+        {
+          "rank": 17,
+          "code": "AK",
+          "value": "66.0% urban"
+        },
+        {
+          "rank": 18,
+          "code": "SC",
+          "value": "68.5% urban"
+        },
+        {
+          "rank": 19,
+          "code": "ID",
+          "value": "70.6% urban"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "70.2% urban"
+        },
+        {
+          "rank": 21,
+          "code": "MO",
+          "value": "70.4% urban"
+        },
+        {
+          "rank": 22,
+          "code": "IN",
+          "value": "72.1% urban"
+        },
+        {
+          "rank": 23,
+          "code": "LA",
+          "value": "72.6% urban"
+        },
+        {
+          "rank": 24,
+          "code": "NE",
+          "value": "73.1% urban"
+        },
+        {
+          "rank": 25,
+          "code": "MN",
+          "value": "73.3% urban"
+        },
+        {
+          "rank": 26,
+          "code": "KS",
+          "value": "73.6% urban"
+        },
+        {
+          "rank": 27,
+          "code": "MI",
+          "value": "74.2% urban"
+        },
+        {
+          "rank": 28,
+          "code": "NM",
+          "value": "74.4% urban"
+        },
+        {
+          "rank": 29,
+          "code": "VA",
+          "value": "75.5% urban"
+        },
+        {
+          "rank": 30,
+          "code": "GA",
+          "value": "75.5% urban"
+        },
+        {
+          "rank": 31,
+          "code": "OH",
+          "value": "77.1% urban"
+        },
+        {
+          "rank": 32,
+          "code": "PA",
+          "value": "77.5% urban"
+        },
+        {
+          "rank": 33,
+          "code": "OR",
+          "value": "80.2% urban"
+        },
+        {
+          "rank": 34,
+          "code": "DE",
+          "value": "81.0% urban"
+        },
+        {
+          "rank": 35,
+          "code": "WA",
+          "value": "81.4% urban"
+        },
+        {
+          "rank": 36,
+          "code": "CO",
+          "value": "82.7% urban"
+        },
+        {
+          "rank": 37,
+          "code": "TX",
+          "value": "83.7% urban"
+        },
+        {
+          "rank": 38,
+          "code": "CT",
+          "value": "84.2% urban"
+        },
+        {
+          "rank": 39,
+          "code": "MD",
+          "value": "84.4% urban"
+        },
+        {
+          "rank": 40,
+          "code": "NY",
+          "value": "87.4% urban"
+        },
+        {
+          "rank": 41,
+          "code": "UT",
+          "value": "87.6% urban"
+        },
+        {
+          "rank": 42,
+          "code": "IL",
+          "value": "88.0% urban"
+        },
+        {
+          "rank": 43,
+          "code": "AZ",
+          "value": "88.7% urban"
+        },
+        {
+          "rank": 44,
+          "code": "RI",
+          "value": "89.5% urban"
+        },
+        {
+          "rank": 45,
+          "code": "FL",
+          "value": "89.8% urban"
+        },
+        {
+          "rank": 46,
+          "code": "HI",
+          "value": "89.9% urban"
+        },
+        {
+          "rank": 47,
+          "code": "MA",
+          "value": "90.5% urban"
+        },
+        {
+          "rank": 48,
+          "code": "NV",
+          "value": "93.4% urban"
+        },
+        {
+          "rank": 49,
+          "code": "NJ",
+          "value": "93.8% urban"
+        },
+        {
+          "rank": 50,
+          "code": "CA",
+          "value": "94.2% urban"
+        },
+        {
+          "rank": 51,
+          "code": "DC",
+          "value": "100.0% urban"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-tallest-building-2024",
+      "title": "Tallest Building",
+      "prompt": "Rank the US states by the height of their single tallest completed building (roof/architectural height).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Uses architectural height (top of spire/roof) per CTBUH, not antenna height. Only completed buildings \u2014 under-construction towers excluded. Includes Washington DC.",
+      "source": {
+        "name": "Council on Tall Buildings and Urban Habitat (CTBUH) \u2014 Tallest Building Database",
+        "url": "https://www.skyscrapercenter.com/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "1,776 ft (One WTC)"
+        },
+        {
+          "rank": 2,
+          "code": "IL",
+          "value": "1,451 ft (Willis Tower)"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "1,121 ft (Comcast Technology Center)"
+        },
+        {
+          "rank": 4,
+          "code": "CA",
+          "value": "1,070 ft (Wilshire Grand)"
+        },
+        {
+          "rank": 5,
+          "code": "GA",
+          "value": "1,023 ft (Bank of America Plaza, Atlanta)"
+        },
+        {
+          "rank": 6,
+          "code": "TX",
+          "value": "1,002 ft (JPMorgan Chase Tower, Houston)"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "947 ft (Key Tower, Cleveland)"
+        },
+        {
+          "rank": 8,
+          "code": "WA",
+          "value": "933 ft (Columbia Center, Seattle)"
+        },
+        {
+          "rank": 9,
+          "code": "NC",
+          "value": "871 ft (Bank of America Corporate Center)"
+        },
+        {
+          "rank": 10,
+          "code": "FL",
+          "value": "868 ft (Panorama Tower, Miami)"
+        },
+        {
+          "rank": 11,
+          "code": "OK",
+          "value": "845 ft (Devon Tower)"
+        },
+        {
+          "rank": 12,
+          "code": "MN",
+          "value": "792 ft (IDS Center)"
+        },
+        {
+          "rank": 13,
+          "code": "MA",
+          "value": "790 ft (200 Clarendon)"
+        },
+        {
+          "rank": 14,
+          "code": "LA",
+          "value": "697 ft (Hancock Whitney Center)"
+        },
+        {
+          "rank": 15,
+          "code": "MO",
+          "value": "593 ft (One Kansas City Place)"
+        },
+        {
+          "rank": 16,
+          "code": "MI",
+          "value": "727 ft (Ren Cen Tower 100, Detroit)"
+        },
+        {
+          "rank": 17,
+          "code": "IN",
+          "value": "811 ft (Salesforce Tower, Indianapolis)"
+        },
+        {
+          "rank": 18,
+          "code": "TN",
+          "value": "617 ft (AT&T Building, Nashville)"
+        },
+        {
+          "rank": 19,
+          "code": "CO",
+          "value": "714 ft (Republic Plaza, Denver)"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "833 ft (US Bank Center, Milwaukee)"
+        },
+        {
+          "rank": 21,
+          "code": "KY",
+          "value": "549 ft (400 West Market, Louisville)"
+        },
+        {
+          "rank": 22,
+          "code": "AZ",
+          "value": "483 ft (Chase Tower, Phoenix)"
+        },
+        {
+          "rank": 23,
+          "code": "NV",
+          "value": "735 ft (Resorts World Las Vegas)"
+        },
+        {
+          "rank": 24,
+          "code": "NJ",
+          "value": "781 ft (99 Hudson Street, Jersey City)"
+        },
+        {
+          "rank": 25,
+          "code": "MD",
+          "value": "529 ft (Transamerica Tower, Baltimore)"
+        },
+        {
+          "rank": 26,
+          "code": "VA",
+          "value": "508 ft (Westin Virginia Beach)"
+        },
+        {
+          "rank": 27,
+          "code": "CT",
+          "value": "527 ft (City Place I, Hartford)"
+        },
+        {
+          "rank": 28,
+          "code": "NM",
+          "value": "351 ft (Albuquerque Plaza)"
+        },
+        {
+          "rank": 29,
+          "code": "OR",
+          "value": "546 ft (Wells Fargo Center, Portland)"
+        },
+        {
+          "rank": 30,
+          "code": "HI",
+          "value": "418 ft (First Hawaiian Center)"
+        },
+        {
+          "rank": 31,
+          "code": "AR",
+          "value": "454 ft (Simmons Tower, Little Rock)"
+        },
+        {
+          "rank": 32,
+          "code": "AL",
+          "value": "454 ft (Wells Fargo Tower, Birmingham)"
+        },
+        {
+          "rank": 33,
+          "code": "MS",
+          "value": "348 ft (Regions Plaza, Jackson)"
+        },
+        {
+          "rank": 34,
+          "code": "IA",
+          "value": "801 ft (Principal Financial Group 801 Grand)"
+        },
+        {
+          "rank": 35,
+          "code": "NE",
+          "value": "634 ft (First National Bank Tower, Omaha)"
+        },
+        {
+          "rank": 36,
+          "code": "UT",
+          "value": "422 ft (Wells Fargo Center, Salt Lake City)"
+        },
+        {
+          "rank": 37,
+          "code": "SC",
+          "value": "425 ft (Capitol Center, Columbia)"
+        },
+        {
+          "rank": 38,
+          "code": "KS",
+          "value": "310 ft (Epic Center, Wichita)"
+        },
+        {
+          "rank": 39,
+          "code": "RI",
+          "value": "428 ft (Industrial Trust Building, Providence)"
+        },
+        {
+          "rank": 40,
+          "code": "AK",
+          "value": "296 ft (Conoco-Phillips Building, Anchorage)"
+        },
+        {
+          "rank": 41,
+          "code": "DC",
+          "value": "329 ft (Washington Monument, non-building 555)"
+        },
+        {
+          "rank": 42,
+          "code": "DE",
+          "value": "395 ft (Chase Manhattan Centre, Wilmington)"
+        },
+        {
+          "rank": 43,
+          "code": "WV",
+          "value": "330 ft (Chase Tower, Charleston)"
+        },
+        {
+          "rank": 44,
+          "code": "NH",
+          "value": "275 ft (City Hall Plaza, Manchester)"
+        },
+        {
+          "rank": 45,
+          "code": "ID",
+          "value": "323 ft (Zions Bank Building, Boise)"
+        },
+        {
+          "rank": 46,
+          "code": "ME",
+          "value": "213 ft (Franklin Towers, Portland)"
+        },
+        {
+          "rank": 47,
+          "code": "MT",
+          "value": "272 ft (First Interstate Center, Billings)"
+        },
+        {
+          "rank": 48,
+          "code": "ND",
+          "value": "241 fkt (North Dakota State Capitol, Bismarck)"
+        },
+        {
+          "rank": 49,
+          "code": "SD",
+          "value": "174 ft (CenturyLink Tower, Sioux Falls)"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "191 ft (White Hall, Laramie)"
+        },
+        {
+          "rank": 51,
+          "code": "VT",
+          "value": "124 ft (Decker Towers, Burlington)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-fortune-500-hq-cities-2024",
+      "title": "Most Fortune 500 HQ Cities",
+      "prompt": "Rank the US states by the total number of Fortune 500 company headquarters located in them.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts total F500 HQs in the state, not the number of distinct cities that host one. Includes Washington DC.",
+      "source": {
+        "name": "Fortune 500 \u2014 2024 List",
+        "url": "https://fortune.com/ranking/fortune500/",
+        "asOf": "2024 list (based on FY2023 revenue)"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "57 HQs"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "55 HQs"
+        },
+        {
+          "rank": 3,
+          "code": "NY",
+          "value": "52 HQs"
+        },
+        {
+          "rank": 4,
+          "code": "IL",
+          "value": "35 HQs"
+        },
+        {
+          "rank": 5,
+          "code": "FL",
+          "value": "22 HQs"
+        },
+        {
+          "rank": 6,
+          "code": "OH",
+          "value": "21 HQs"
+        },
+        {
+          "rank": 7,
+          "code": "VA",
+          "value": "20 HQs"
+        },
+        {
+          "rank": 8,
+          "code": "PA",
+          "value": "19 HQs"
+        },
+        {
+          "rank": 9,
+          "code": "GA",
+          "value": "18 HQs"
+        },
+        {
+          "rank": 10,
+          "code": "NJ",
+          "value": "18 HQs (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "MN",
+          "value": "17 HQs"
+        },
+        {
+          "rank": 12,
+          "code": "NC",
+          "value": "14 HQs"
+        },
+        {
+          "rank": 13,
+          "code": "MI",
+          "value": "14 HQs (tied)"
+        },
+        {
+          "rank": 14,
+          "code": "CT",
+          "value": "13 HQs"
+        },
+        {
+          "rank": 15,
+          "code": "MA",
+          "value": "12 HQs"
+        },
+        {
+          "rank": 16,
+          "code": "WA",
+          "value": "11 HQs"
+        },
+        {
+          "rank": 17,
+          "code": "MO",
+          "value": "10 HQs"
+        },
+        {
+          "rank": 18,
+          "code": "CO",
+          "value": "10 HQs (tied)"
+        },
+        {
+          "rank": 19,
+          "code": "TN",
+          "value": "10 HQs (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "IN",
+          "value": "8 HQs"
+        },
+        {
+          "rank": 21,
+          "code": "WI",
+          "value": "8 HQs (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "MD",
+          "value": "7 HQs"
+        },
+        {
+          "rank": 23,
+          "code": "AR",
+          "value": "6 HQs"
+        },
+        {
+          "rank": 24,
+          "code": "OK",
+          "value": "5 HQs"
+        },
+        {
+          "rank": 25,
+          "code": "KY",
+          "value": "4 HQs"
+        },
+        {
+          "rank": 26,
+          "code": "IA",
+          "value": "4 HQs (tied)"
+        },
+        {
+          "rank": 27,
+          "code": "NE",
+          "value": "4 HQs (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "AL",
+          "value": "3 HQs"
+        },
+        {
+          "rank": 29,
+          "code": "AZ",
+          "value": "3 HQs (tied)"
+        },
+        {
+          "rank": 30,
+          "code": "LA",
+          "value": "2 HQs"
+        },
+        {
+          "rank": 31,
+          "code": "OR",
+          "value": "2 HQs (tied)"
+        },
+        {
+          "rank": 32,
+          "code": "RI",
+          "value": "2 HQs (tied)"
+        },
+        {
+          "rank": 33,
+          "code": "SC",
+          "value": "2 HQs (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "KS",
+          "value": "2 HQs (tied)"
+        },
+        {
+          "rank": 35,
+          "code": "MS",
+          "value": "1 HQ"
+        },
+        {
+          "rank": 36,
+          "code": "NV",
+          "value": "1 HQ (tied)"
+        },
+        {
+          "rank": 37,
+          "code": "NH",
+          "value": "1 HQ (tied)"
+        },
+        {
+          "rank": 38,
+          "code": "DE",
+          "value": "1 HQ (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "UT",
+          "value": "1 HQ (tied)"
+        },
+        {
+          "rank": 40,
+          "code": "ID",
+          "value": "1 HQ (tied)"
+        },
+        {
+          "rank": 41,
+          "code": "ND",
+          "value": "1 HQ (tied)"
+        },
+        {
+          "rank": 42,
+          "code": "AK",
+          "value": "0 HQs"
+        },
+        {
+          "rank": 43,
+          "code": "DC",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 44,
+          "code": "HI",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 45,
+          "code": "ME",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 46,
+          "code": "MT",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "NM",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 48,
+          "code": "SD",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 49,
+          "code": "VT",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 50,
+          "code": "WV",
+          "value": "0 HQs (tied)"
+        },
+        {
+          "rank": 51,
+          "code": "WY",
+          "value": "0 HQs (tied)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-amtrak-stations-2024",
+      "title": "Most Amtrak Stations",
+      "prompt": "Rank the US states by the number of Amtrak passenger rail stations.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 47,
+      "disclaimer": "Counts all active Amtrak-served stations, including thruway bus-only connections at some stops. Includes Washington DC.",
+      "source": {
+        "name": "Amtrak \u2014 Great American Stations directory",
+        "url": "https://www.greatamericanstations.com/",
+        "asOf": "2024"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "72 stations"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "45 stations"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "34 stations"
+        },
+        {
+          "rank": 4,
+          "code": "IL",
+          "value": "32 stations"
+        },
+        {
+          "rank": 5,
+          "code": "NC",
+          "value": "24 stations"
+        },
+        {
+          "rank": 6,
+          "code": "MI",
+          "value": "22 stations"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "21 stations"
+        },
+        {
+          "rank": 8,
+          "code": "VA",
+          "value": "20 stations"
+        },
+        {
+          "rank": 9,
+          "code": "WA",
+          "value": "18 stations"
+        },
+        {
+          "rank": 9,
+          "code": "FL",
+          "value": "18 stations (tied)"
+        },
+        {
+          "rank": 11,
+          "code": "MA",
+          "value": "16 stations"
+        },
+        {
+          "rank": 11,
+          "code": "NJ",
+          "value": "16 stations (tied)"
+        },
+        {
+          "rank": 13,
+          "code": "CT",
+          "value": "14 stations"
+        },
+        {
+          "rank": 14,
+          "code": "OH",
+          "value": "6 stations"
+        },
+        {
+          "rank": 15,
+          "code": "GA",
+          "value": "5 stations"
+        },
+        {
+          "rank": 16,
+          "code": "MT",
+          "value": "12 stations"
+        },
+        {
+          "rank": 17,
+          "code": "OR",
+          "value": "11 stations"
+        },
+        {
+          "rank": 18,
+          "code": "CO",
+          "value": "10 stations"
+        },
+        {
+          "rank": 18,
+          "code": "IN",
+          "value": "10 stations (tied)"
+        },
+        {
+          "rank": 20,
+          "code": "MN",
+          "value": "9 stations"
+        },
+        {
+          "rank": 20,
+          "code": "WI",
+          "value": "9 stations (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "AZ",
+          "value": "8 stations"
+        },
+        {
+          "rank": 22,
+          "code": "NM",
+          "value": "8 stations (tied)"
+        },
+        {
+          "rank": 22,
+          "code": "MO",
+          "value": "8 stations (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "ND",
+          "value": "7 stations"
+        },
+        {
+          "rank": 25,
+          "code": "MS",
+          "value": "7 stations (tied)"
+        },
+        {
+          "rank": 25,
+          "code": "AL",
+          "value": "7 stations (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "LA",
+          "value": "6 stations"
+        },
+        {
+          "rank": 28,
+          "code": "SC",
+          "value": "6 stations (tied)"
+        },
+        {
+          "rank": 28,
+          "code": "VT",
+          "value": "6 stations (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "IA",
+          "value": "5 stations"
+        },
+        {
+          "rank": 31,
+          "code": "NE",
+          "value": "5 stations (tied)"
+        },
+        {
+          "rank": 31,
+          "code": "WV",
+          "value": "5 stations (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "UT",
+          "value": "4 stations"
+        },
+        {
+          "rank": 34,
+          "code": "KY",
+          "value": "4 stations (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "AR",
+          "value": "4 stations (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "NH",
+          "value": "4 stations (tied)"
+        },
+        {
+          "rank": 34,
+          "code": "ME",
+          "value": "4 stations (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "NV",
+          "value": "3 stations"
+        },
+        {
+          "rank": 39,
+          "code": "MD",
+          "value": "3 stations (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "RI",
+          "value": "3 stations (tied)"
+        },
+        {
+          "rank": 39,
+          "code": "DE",
+          "value": "3 stations (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "ID",
+          "value": "2 stations"
+        },
+        {
+          "rank": 43,
+          "code": "KS",
+          "value": "2 stations (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "OK",
+          "value": "2 stations (tied)"
+        },
+        {
+          "rank": 43,
+          "code": "TN",
+          "value": "2 stations (tied)"
+        },
+        {
+          "rank": 47,
+          "code": "DC",
+          "value": "1 station (Union Station)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-largest-metropolitan-area-2023",
+      "title": "Largest Metropolitan Area",
+      "prompt": "Rank the US states by the population of their largest Metropolitan Statistical Area (MSA).",
+      "subtheme": "US States - Geography",
+      "seededDepth": 50,
+      "disclaimer": "Uses the Census-defined MSA (not CSA / combined). MSAs that cross state lines are credited to the state containing the principal city. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 Metropolitan Statistical Area Population Estimates",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-metro-and-micro-statistical-areas.html",
+        "asOf": "2023 estimates"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "NY",
+          "value": "NYC 19.5M"
+        },
+        {
+          "rank": 2,
+          "code": "CA",
+          "value": "LA 12.8M"
+        },
+        {
+          "rank": 3,
+          "code": "IL",
+          "value": "Chicago 9.26M"
+        },
+        {
+          "rank": 4,
+          "code": "TX",
+          "value": "Dallas-Fort Worth 8.10M"
+        },
+        {
+          "rank": 5,
+          "code": "DC",
+          "value": "DC-Arlington 6.30M"
+        },
+        {
+          "rank": 6,
+          "code": "PA",
+          "value": "Philadelphia 6.23M"
+        },
+        {
+          "rank": 7,
+          "code": "GA",
+          "value": "Atlanta 6.31M"
+        },
+        {
+          "rank": 8,
+          "code": "FL",
+          "value": "Miami 6.18M"
+        },
+        {
+          "rank": 9,
+          "code": "AZ",
+          "value": "Phoenix 5.07M"
+        },
+        {
+          "rank": 10,
+          "code": "MA",
+          "value": "Boston 4.92M"
+        },
+        {
+          "rank": 11,
+          "code": "MI",
+          "value": "Detroit 4.34M"
+        },
+        {
+          "rank": 12,
+          "code": "WA",
+          "value": "Seattle 4.04M"
+        },
+        {
+          "rank": 13,
+          "code": "MN",
+          "value": "Minneapolis 3.69M"
+        },
+        {
+          "rank": 14,
+          "code": "CO",
+          "value": "Denver 3.00M"
+        },
+        {
+          "rank": 15,
+          "code": "MD",
+          "value": "Baltimore 2.83M"
+        },
+        {
+          "rank": 16,
+          "code": "MO",
+          "value": "St. Louis 2.80M"
+        },
+        {
+          "rank": 17,
+          "code": "NC",
+          "value": "Charlotte 2.81M"
+        },
+        {
+          "rank": 18,
+          "code": "OR",
+          "value": "Portland 2.51M"
+        },
+        {
+          "rank": 19,
+          "code": "TN",
+          "value": "Nashville 2.10M"
+        },
+        {
+          "rank": 20,
+          "code": "IN",
+          "value": "Indianapolis 2.14M"
+        },
+        {
+          "rank": 21,
+          "code": "OH",
+          "value": "Cincinnati 2.27M"
+        },
+        {
+          "rank": 22,
+          "code": "NV",
+          "value": "Las Vegas 2.34M"
+        },
+        {
+          "rank": 23,
+          "code": "VA",
+          "value": "Virginia Beach 1.79M"
+        },
+        {
+          "rank": 24,
+          "code": "RI",
+          "value": "Providence 1.68M"
+        },
+        {
+          "rank": 25,
+          "code": "WI",
+          "value": "Milwaukee 1.56M"
+        },
+        {
+          "rank": 26,
+          "code": "OK",
+          "value": "Oklahoma City 1.48M"
+        },
+        {
+          "rank": 27,
+          "code": "LA",
+          "value": "New Orleans 1.27M"
+        },
+        {
+          "rank": 28,
+          "code": "KY",
+          "value": "Louisville 1.29M"
+        },
+        {
+          "rank": 29,
+          "code": "UT",
+          "value": "Salt Lake City 1.26M"
+        },
+        {
+          "rank": 30,
+          "code": "CT",
+          "value": "Hartford 1.15M"
+        },
+        {
+          "rank": 31,
+          "code": "AL",
+          "value": "Birmingham 1.11M"
+        },
+        {
+          "rank": 33,
+          "code": "NM",
+          "value": "Albuquerque 0.92M"
+        },
+        {
+          "rank": 34,
+          "code": "HI",
+          "value": "Honolulu 0.99M"
+        },
+        {
+          "rank": 35,
+          "code": "KS",
+          "value": "Wichita 0.65M"
+        },
+        {
+          "rank": 36,
+          "code": "AR",
+          "value": "Little Rock 0.75M"
+        },
+        {
+          "rank": 37,
+          "code": "IA",
+          "value": "Des Moines 0.72M"
+        },
+        {
+          "rank": 38,
+          "code": "MS",
+          "value": "Jackson 0.58M"
+        },
+        {
+          "rank": 39,
+          "code": "NE",
+          "value": "Omaha 0.99M"
+        },
+        {
+          "rank": 40,
+          "code": "SC",
+          "value": "Greenville 0.94M"
+        },
+        {
+          "rank": 41,
+          "code": "ID",
+          "value": "Boise 0.82M"
+        },
+        {
+          "rank": 42,
+          "code": "NH",
+          "value": "Manchester 0.42M"
+        },
+        {
+          "rank": 43,
+          "code": "ME",
+          "value": "Portland 0.55M"
+        },
+        {
+          "rank": 44,
+          "code": "WV",
+          "value": "Charleston 0.25M"
+        },
+        {
+          "rank": 45,
+          "code": "MT",
+          "value": "Billings 0.19M"
+        },
+        {
+          "rank": 46,
+          "code": "DE",
+          "value": "Dover 0.19M"
+        },
+        {
+          "rank": 47,
+          "code": "AK",
+          "value": "Anchorage 0.40M"
+        },
+        {
+          "rank": 48,
+          "code": "ND",
+          "value": "Fargo 0.25M"
+        },
+        {
+          "rank": 49,
+          "code": "SD",
+          "value": "Sioux Falls 0.29M"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "Cheyenne 0.10M"
+        },
+        {
+          "rank": 51,
+          "code": "VT",
+          "value": "Burlington 0.22M"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-cities-in-the-top-100-by-population-2023",
+      "title": "Most Cities in the Top 100 by Population",
+      "prompt": "Rank the US states by the number of cities in the US top 100 most populous.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 36,
+      "disclaimer": "Only incorporated cities are counted; CDPs excluded. Ties broken alphabetically for consecutive ranks. Includes Washington DC.",
+      "source": {
+        "name": "US Census Bureau \u2014 Top 100 US Cities (Vintage 2023)",
+        "url": "https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html",
+        "asOf": "2023"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "CA",
+          "value": "19 cities"
+        },
+        {
+          "rank": 2,
+          "code": "TX",
+          "value": "12 cities"
+        },
+        {
+          "rank": 3,
+          "code": "FL",
+          "value": "7 cities"
+        },
+        {
+          "rank": 4,
+          "code": "AZ",
+          "value": "5 cities"
+        },
+        {
+          "rank": 5,
+          "code": "NC",
+          "value": "4 cities"
+        },
+        {
+          "rank": 5,
+          "code": "CO",
+          "value": "4 cities (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "VA",
+          "value": "3 cities"
+        },
+        {
+          "rank": 7,
+          "code": "OH",
+          "value": "3 cities (tied)"
+        },
+        {
+          "rank": 7,
+          "code": "NV",
+          "value": "3 cities (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "WA",
+          "value": "2 cities"
+        },
+        {
+          "rank": 10,
+          "code": "TN",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "MO",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "OK",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "KS",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 10,
+          "code": "NE",
+          "value": "2 cities (tied)"
+        },
+        {
+          "rank": 16,
+          "code": "NY",
+          "value": "1 city (NYC)"
+        },
+        {
+          "rank": 16,
+          "code": "IL",
+          "value": "1 city (Chicago)"
+        },
+        {
+          "rank": 16,
+          "code": "PA",
+          "value": "1 city (Philadelphia)"
+        },
+        {
+          "rank": 16,
+          "code": "IN",
+          "value": "1 city (Indianapolis)"
+        },
+        {
+          "rank": 16,
+          "code": "MI",
+          "value": "1 city (Detroit)"
+        },
+        {
+          "rank": 16,
+          "code": "MD",
+          "value": "1 city (Baltimore)"
+        },
+        {
+          "rank": 16,
+          "code": "WI",
+          "value": "1 city (Milwaukee)"
+        },
+        {
+          "rank": 16,
+          "code": "MN",
+          "value": "1 city (Minneapolis)"
+        },
+        {
+          "rank": 16,
+          "code": "GA",
+          "value": "1 city (Atlanta)"
+        },
+        {
+          "rank": 16,
+          "code": "LA",
+          "value": "1 city (New Orleans)"
+        },
+        {
+          "rank": 16,
+          "code": "KY",
+          "value": "1 city (Louisville)"
+        },
+        {
+          "rank": 16,
+          "code": "OR",
+          "value": "1 city (Portland)"
+        },
+        {
+          "rank": 16,
+          "code": "NM",
+          "value": "1 city (Albuquerque)"
+        },
+        {
+          "rank": 16,
+          "code": "UT",
+          "value": "1 city (Salt Lake City)"
+        },
+        {
+          "rank": 16,
+          "code": "HI",
+          "value": "1 city (Honolulu)"
+        },
+        {
+          "rank": 16,
+          "code": "AL",
+          "value": "1 city (Birmingham)"
+        },
+        {
+          "rank": 16,
+          "code": "AR",
+          "value": "1 city (Little Rock)"
+        },
+        {
+          "rank": 16,
+          "code": "ID",
+          "value": "1 city (Boise)"
+        },
+        {
+          "rank": 16,
+          "code": "SD",
+          "value": "1 city (Sioux Falls)"
+        },
+        {
+          "rank": 16,
+          "code": "AK",
+          "value": "1 city (Anchorage)"
+        },
+        {
+          "rank": 16,
+          "code": "DC",
+          "value": "1 city (Washington)"
+        }
+      ]
+    },
+    {
+      "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+      "title": "Most Colleges in a Single City",
+      "prompt": "Rank the US states by the number of degree-granting colleges/universities in their most college-dense city.",
+      "subtheme": "US States - Geography",
+      "seededDepth": 51,
+      "disclaimer": "Counts Title IV degree-granting institutions in a single principal city (not the whole metro). Boston's total is inflated by many small specialty and religious institutions. Includes Washington DC.",
+      "source": {
+        "name": "NCES / IPEDS \u2014 Institutional directory",
+        "url": "https://nces.ed.gov/ipeds/",
+        "asOf": "2023 IPEDS"
+      },
+      "answers": [
+        {
+          "rank": 1,
+          "code": "MA",
+          "value": "Boston 35+ colleges"
+        },
+        {
+          "rank": 2,
+          "code": "NY",
+          "value": "NYC 30+ colleges"
+        },
+        {
+          "rank": 3,
+          "code": "PA",
+          "value": "Philadelphia 25+ colleges"
+        },
+        {
+          "rank": 4,
+          "code": "DC",
+          "value": "Washington 20+ colleges"
+        },
+        {
+          "rank": 5,
+          "code": "IL",
+          "value": "Chicago 22+ colleges"
+        },
+        {
+          "rank": 6,
+          "code": "CA",
+          "value": "Los Angeles 18+ colleges"
+        },
+        {
+          "rank": 7,
+          "code": "TX",
+          "value": "Houston 15+ colleges"
+        },
+        {
+          "rank": 8,
+          "code": "GA",
+          "value": "Atlanta 14+ colleges"
+        },
+        {
+          "rank": 9,
+          "code": "OH",
+          "value": "Cleveland 12+ colleges"
+        },
+        {
+          "rank": 10,
+          "code": "MO",
+          "value": "St. Louis 12+ colleges"
+        },
+        {
+          "rank": 11,
+          "code": "MN",
+          "value": "Minneapolis 11+ colleges"
+        },
+        {
+          "rank": 12,
+          "code": "MD",
+          "value": "Baltimore 10+ colleges"
+        },
+        {
+          "rank": 13,
+          "code": "FL",
+          "value": "Miami 10+ colleges"
+        },
+        {
+          "rank": 14,
+          "code": "MI",
+          "value": "Detroit 9+ colleges"
+        },
+        {
+          "rank": 15,
+          "code": "NC",
+          "value": "Charlotte 9+ colleges"
+        },
+        {
+          "rank": 16,
+          "code": "IN",
+          "value": "Indianapolis 8+ colleges"
+        },
+        {
+          "rank": 17,
+          "code": "TN",
+          "value": "Nashville 8+ colleges"
+        },
+        {
+          "rank": 18,
+          "code": "VA",
+          "value": "Richmond 8+ colleges"
+        },
+        {
+          "rank": 19,
+          "code": "WA",
+          "value": "Seattle 8+ colleges"
+        },
+        {
+          "rank": 20,
+          "code": "CO",
+          "value": "Denver 7+ colleges"
+        },
+        {
+          "rank": 21,
+          "code": "WI",
+          "value": "Milwaukee 7+ colleges"
+        },
+        {
+          "rank": 22,
+          "code": "LA",
+          "value": "New Orleans 7+ colleges"
+        },
+        {
+          "rank": 23,
+          "code": "OR",
+          "value": "Portland 7+ colleges"
+        },
+        {
+          "rank": 24,
+          "code": "OK",
+          "value": "Oklahoma City 6+ colleges"
+        },
+        {
+          "rank": 25,
+          "code": "AZ",
+          "value": "Phoenix 6+ colleges"
+        },
+        {
+          "rank": 26,
+          "code": "KY",
+          "value": "Louisville 6+ colleges"
+        },
+        {
+          "rank": 27,
+          "code": "NE",
+          "value": "Omaha 5+ colleges"
+        },
+        {
+          "rank": 28,
+          "code": "UT",
+          "value": "Salt Lake City 5+ colleges"
+        },
+        {
+          "rank": 29,
+          "code": "NV",
+          "value": "Las Vegas 5+ colleges"
+        },
+        {
+          "rank": 30,
+          "code": "CT",
+          "value": "Hartford 5+ colleges"
+        },
+        {
+          "rank": 31,
+          "code": "NJ",
+          "value": "Newark 5+ colleges"
+        },
+        {
+          "rank": 32,
+          "code": "AL",
+          "value": "Birmingham 5+ colleges"
+        },
+        {
+          "rank": 33,
+          "code": "IA",
+          "value": "Des Moines 4+ colleges"
+        },
+        {
+          "rank": 34,
+          "code": "KS",
+          "value": "Wichita 4+ colleges"
+        },
+        {
+          "rank": 35,
+          "code": "AR",
+          "value": "Little Rock 4+ colleges"
+        },
+        {
+          "rank": 36,
+          "code": "SC",
+          "value": "Columbia 4+ colleges"
+        },
+        {
+          "rank": 37,
+          "code": "MS",
+          "value": "Jackson 4+ colleges"
+        },
+        {
+          "rank": 38,
+          "code": "NM",
+          "value": "Albuquerque 4+ colleges"
+        },
+        {
+          "rank": 39,
+          "code": "HI",
+          "value": "Honolulu 4+ colleges"
+        },
+        {
+          "rank": 40,
+          "code": "RI",
+          "value": "Providence 4+ colleges"
+        },
+        {
+          "rank": 41,
+          "code": "WV",
+          "value": "Charleston 3+ colleges"
+        },
+        {
+          "rank": 42,
+          "code": "ME",
+          "value": "Portland 3+ colleges"
+        },
+        {
+          "rank": 43,
+          "code": "NH",
+          "value": "Manchester 3+ colleges"
+        },
+        {
+          "rank": 44,
+          "code": "DE",
+          "value": "Wilmington 3+ colleges"
+        },
+        {
+          "rank": 45,
+          "code": "ND",
+          "value": "Fargo 3+ colleges"
+        },
+        {
+          "rank": 46,
+          "code": "SD",
+          "value": "Sioux Falls 3+ colleges"
+        },
+        {
+          "rank": 47,
+          "code": "MT",
+          "value": "Billings 2+ colleges"
+        },
+        {
+          "rank": 48,
+          "code": "ID",
+          "value": "Boise 2+ colleges"
+        },
+        {
+          "rank": 49,
+          "code": "AK",
+          "value": "Anchorage 2+ colleges"
+        },
+        {
+          "rank": 50,
+          "code": "WY",
+          "value": "Cheyenne 2+ colleges"
+        },
+        {
+          "rank": 51,
+          "code": "VT",
+          "value": "Burlington 2+ colleges"
+        }
+      ]
+    }
+  ]
+}

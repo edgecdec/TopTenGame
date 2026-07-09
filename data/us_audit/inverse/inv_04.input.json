@@ -1,0 +1,274 @@
+{
+  "cluster": "us-inverse-04",
+  "source_question": {
+    "id": "us-states-deep-dive-largest-wine-production-2022",
+    "theme": "US States",
+    "subtheme": "US States - Deep Dive",
+    "title": "Largest Wine Production",
+    "prompt": "Rank US states by total wine production (excluding California, which alone produces over 80% of US wine).",
+    "answerType": "US States",
+    "seededDepth": 50,
+    "source": {
+      "name": "Wine Institute \u2014 Wine Production by State",
+      "url": "https://wineinstitute.org/our-industry/statistics/",
+      "asOf": "2022"
+    },
+    "note": null,
+    "disclaimer": "California is deliberately excluded to make the ranking competitive; measured in gallons produced. Includes Washington DC.",
+    "trivia": "New York, Washington, and Oregon together account for over 90% of non-California US wine.",
+    "asOfDate": "2022",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "WA",
+        "value": "35.0M gallons"
+      },
+      {
+        "rank": 2,
+        "code": "NY",
+        "value": "24.0M gallons"
+      },
+      {
+        "rank": 3,
+        "code": "OR",
+        "value": "9.6M gallons"
+      },
+      {
+        "rank": 4,
+        "code": "PA",
+        "value": "2.4M gallons"
+      },
+      {
+        "rank": 5,
+        "code": "OH",
+        "value": "1.6M gallons"
+      },
+      {
+        "rank": 6,
+        "code": "TX",
+        "value": "1.5M gallons"
+      },
+      {
+        "rank": 7,
+        "code": "MI",
+        "value": "1.3M gallons"
+      },
+      {
+        "rank": 8,
+        "code": "VA",
+        "value": "1.2M gallons"
+      },
+      {
+        "rank": 9,
+        "code": "NC",
+        "value": "1.1M gallons"
+      },
+      {
+        "rank": 10,
+        "code": "MO",
+        "value": "1.0M gallons"
+      },
+      {
+        "rank": 11,
+        "code": "NJ",
+        "value": "0.6M gallons"
+      },
+      {
+        "rank": 12,
+        "code": "FL",
+        "value": "0.5M gallons"
+      },
+      {
+        "rank": 13,
+        "code": "GA",
+        "value": "0.45M gallons"
+      },
+      {
+        "rank": 14,
+        "code": "IL",
+        "value": "0.42M gallons"
+      },
+      {
+        "rank": 15,
+        "code": "IN",
+        "value": "0.40M gallons"
+      },
+      {
+        "rank": 16,
+        "code": "WI",
+        "value": "0.38M gallons"
+      },
+      {
+        "rank": 17,
+        "code": "MA",
+        "value": "0.35M gallons"
+      },
+      {
+        "rank": 18,
+        "code": "CT",
+        "value": "0.32M gallons"
+      },
+      {
+        "rank": 19,
+        "code": "MN",
+        "value": "0.30M gallons"
+      },
+      {
+        "rank": 20,
+        "code": "TN",
+        "value": "0.28M gallons"
+      },
+      {
+        "rank": 21,
+        "code": "AZ",
+        "value": "0.26M gallons"
+      },
+      {
+        "rank": 22,
+        "code": "CO",
+        "value": "0.24M gallons"
+      },
+      {
+        "rank": 23,
+        "code": "MD",
+        "value": "0.22M gallons"
+      },
+      {
+        "rank": 24,
+        "code": "NM",
+        "value": "0.20M gallons"
+      },
+      {
+        "rank": 25,
+        "code": "IA",
+        "value": "0.18M gallons"
+      },
+      {
+        "rank": 26,
+        "code": "KY",
+        "value": "0.16M gallons"
+      },
+      {
+        "rank": 27,
+        "code": "SC",
+        "value": "0.14M gallons"
+      },
+      {
+        "rank": 28,
+        "code": "NH",
+        "value": "0.12M gallons"
+      },
+      {
+        "rank": 29,
+        "code": "ID",
+        "value": "0.11M gallons"
+      },
+      {
+        "rank": 30,
+        "code": "OK",
+        "value": "0.10M gallons"
+      },
+      {
+        "rank": 31,
+        "code": "AR",
+        "value": "0.09M gallons"
+      },
+      {
+        "rank": 32,
+        "code": "AL",
+        "value": "0.08M gallons"
+      },
+      {
+        "rank": 33,
+        "code": "ME",
+        "value": "0.07M gallons"
+      },
+      {
+        "rank": 34,
+        "code": "VT",
+        "value": "0.06M gallons"
+      },
+      {
+        "rank": 35,
+        "code": "NE",
+        "value": "0.05M gallons"
+      },
+      {
+        "rank": 35,
+        "code": "KS",
+        "value": "0.05M gallons (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "LA",
+        "value": "0.04M gallons"
+      },
+      {
+        "rank": 37,
+        "code": "RI",
+        "value": "0.04M gallons (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "MS",
+        "value": "0.03M gallons"
+      },
+      {
+        "rank": 39,
+        "code": "UT",
+        "value": "0.03M gallons (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "MT",
+        "value": "0.02M gallons"
+      },
+      {
+        "rank": 41,
+        "code": "NV",
+        "value": "0.02M gallons (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "SD",
+        "value": "0.02M gallons (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "HI",
+        "value": "0.01M gallons"
+      },
+      {
+        "rank": 44,
+        "code": "WV",
+        "value": "0.01M gallons (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "DE",
+        "value": "0.01M gallons (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "ND",
+        "value": "0.005M gallons"
+      },
+      {
+        "rank": 48,
+        "code": "WY",
+        "value": "0.004M gallons"
+      },
+      {
+        "rank": 49,
+        "code": "AK",
+        "value": "0.003M gallons"
+      },
+      {
+        "rank": 50,
+        "code": "DC",
+        "value": "0.001M gallons"
+      }
+    ]
+  },
+  "note": "Prompt is 'Largest wine production excluding California' \u2014 a competitive-friendly framing. Inverse phrasing 'Smallest wine production' would work well from the same data (DC 0.001M, AK 0.003M, WY 0.004M)."
+}

@@ -1,0 +1,88 @@
+{
+  "batch": 14,
+  "findings": [
+    {
+      "id": "us-states-tourism-recreation-most-national-monuments-2025",
+      "title": "Most National Monuments",
+      "flags": [
+        {
+          "type": "value-format-mix",
+          "severity": "low",
+          "detail": "Rank 24 tier uses '1 monument' for the leader (AR) and '1 monument (tied)' for the rest; also singular/plural switches ('1 monument' vs '2 monuments'). Consistent within a tier is standard, but note the singular/plural switch across ranks."
+        },
+        {
+          "type": "synthesized-tail",
+          "severity": "low",
+          "detail": "Answer set includes 40 entries extending down to rank 24 (17-way tie at 1 monument). Tail well beyond typical top-10 depth; may pad toward seededDepth=41. Consider truncating below rank 16 or rank 11."
+        },
+        {
+          "type": "fact-error",
+          "severity": "medium",
+          "detail": "Wikipedia's 2025 list credits Arizona with the most (~19-20) and California ~18-20; ordering of CA vs AZ is close and depends on how disputed/multi-state monuments are counted. NM ~13 aligns. Verify CA=20 vs AZ=19 against current Wikipedia table — could be inverted."
+        },
+        {
+          "type": "inverse-candidate",
+          "severity": "low",
+          "detail": "Many states have 0 monuments; a 'fewest' inverse would have a very long zero-tie tail and would not be a clean inverse question."
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-national-scenic-byways-2021",
+      "title": "Most National Scenic Byways",
+      "flags": [
+        {
+          "type": "sort-inversion",
+          "severity": "low",
+          "detail": "Within the rank-3 tie (4 byways), AK appears after UT, breaking alphabetical order used elsewhere (CA, FL, LA, NM, OR, UT, AK, WA). Consider re-sorting alphabetically within tiers."
+        },
+        {
+          "type": "synthesized-tail",
+          "severity": "medium",
+          "detail": "47 answers extending to rank 42 (7-way tie at 1 byway). Far beyond top-10 depth; the rank-21 tier alone has 20 states tied at 2. Recommend truncating at rank 11 or rank 20."
+        },
+        {
+          "type": "disclaimer-issue",
+          "severity": "low",
+          "detail": "Disclaimer says 'Hawaii and Texas have no designated byways'; verify — as of 2021 update, some sources credit TX with byways. Also DC exclusion noted but source-count '184 byways in 48 states' should be reconciled with byway/state counts shown."
+        },
+        {
+          "type": "value-format-mix",
+          "severity": "low",
+          "detail": "Singular/plural inconsistency across tiers ('1 byway' vs '2 byways'); consistent within each tier."
+        }
+      ]
+    },
+    {
+      "id": "us-states-tourism-recreation-most-lighthouses-2025",
+      "title": "Most Lighthouses",
+      "flags": [
+        {
+          "type": "synthesized-tail",
+          "severity": "medium",
+          "detail": "32 entries extending to rank 31 (VT/KY at 3 lighthouses). Tail well beyond top-10 typical depth; also skips many coastal states with lighthouses (e.g., MO, TN, WV) — inclusion criteria unclear."
+        },
+        {
+          "type": "prompt-ambiguous",
+          "severity": "medium",
+          "detail": "Prompt says 'identified by the US Coast Guard' but the source is aggregated Wikipedia state lists, not a direct USCG roll. Counts include 'destroyed' and 'historic' structures which may or may not still appear on USCG lists — definition of 'lighthouse' loose."
+        },
+        {
+          "type": "fact-error",
+          "severity": "medium",
+          "detail": "MI at 129 is plausible (highest in US). NY=74 seems high (typical count ~60-70); ME=66 plausible. FL=43 and CA=46 orderings vary by source. Verify against current Wikipedia state lists — counts drift over time."
+        },
+        {
+          "type": "bucket-value",
+          "severity": "low",
+          "detail": "Rank 31 shows KY=3 and VT=3, but the ordered list skips 2 lighthouses entirely (no rank 29-30 shown for a 4-lighthouse tier). If states with 4 lighthouses exist, ordering is broken; if not, ranks should reflect the gap correctly (last-tier rank should be 29 not 31 depending on convention)."
+        },
+        {
+          "type": "inverse-candidate",
+          "severity": "low",
+          "detail": "'Fewest lighthouses' inverse would have many inland states tied at 0, making it a weak inverse question."
+        }
+      ]
+    }
+  ]
+}

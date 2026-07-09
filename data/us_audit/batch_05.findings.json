@@ -1,0 +1,77 @@
+{
+  "batch": 5,
+  "findings": [
+    {
+      "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+      "issue": "value-format-mix",
+      "detail": "Rank-4 tie is inconsistently annotated. OH (rank 4) value is '1 Great Lake (Erie)' with no '(tied)' suffix, while the other four rank-4 entries (IL, IN, MN, PA) all include '(tied)'. Same rank, same count, but marker missing on OH.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+      "issue": "value-format-mix",
+      "detail": "NY (rank 2) value '2 Great Lakes (Erie, Ontario, tied)' embeds 'tied' inside the parenthetical lake list, while WI (rank 2) '2 Great Lakes (Superior, Michigan)' omits the tie marker entirely. The two rank-2 entries use different formats.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+      "issue": "fact-error",
+      "detail": "Ranking is implausible against USGS. Washington (Rainier, St. Helens, Adams, Baker, Glacier Peak plus vent complexes) is listed at only 7 volcanoes and ranked below NV (13) and NM (12). Per USGS Cascades/Volcano Hazards inventories, WA is one of the top volcanic states in the lower 48 and should rank above NV and NM. NV/NM counts also look inflated relative to standard USGS active/potentially-active lists.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+      "issue": "fact-error",
+      "detail": "Cross-question inconsistency with the paired 'Driest States' question, which cites the identical NOAA 1991-2020 source. Same-state values disagree: NV 9.5 vs 10.3 in, WY 12.9 vs 14.5, CO 15.9 vs 16.1, ND 18.0 vs 17.8, ID 19.9 vs 19.0, SD 22.4 vs 20.6, OR 27.5 vs 27.4, MN 30.7 vs 27.5, TX 28.9 vs 29.1, WI 34.6 vs 32.6, MI 34.7 vs 33.0, IA 35.5 vs 34.0, WA 38.5 vs 38.4, IL 39.6 vs 39.2, OH 41.7 vs 40.2, NY 47.4 vs 42.3, MO 42.6 vs 42.4, IN 42.8 vs 42.6, PA 43.0 vs 42.9, VT 42.7 vs 43.0, VA 43.7 vs 44.3, ME 43.6 vs 44.4, WV 45.2 vs 45.2, DE 46.2 vs 45.7, NJ 47.9 vs 47.1, MA 47.7 vs 48.0, NC 49.0 vs 50.4, AR 50.6 vs 50.6, MS 59.0 vs 59.0. One or both questions carry incorrect numbers.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+      "issue": "fact-error",
+      "detail": "See paired 'Wettest States' finding — the two lists disagree on many statewide 1991-2020 NOAA normals (NV, WY, CO, ND, ID, SD, MN, NY, WI, MI, IA, WA, IL, OH, MO, VT, VA, ME, DE, NJ, MA, NC, and more). Same source is cited for both. At least one of the two questions has bad values.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+      "issue": "inverse-candidate",
+      "detail": "This question is the direct inverse of 'Wettest States (Most Annual Precipitation)'. Two lists over the same 51 jurisdictions with the same statewide-normal source produce essentially the same ranking reversed — one adds little independent play value beyond the other.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-most-tornadoes-per-year-2020",
+      "issue": "false-tie",
+      "detail": "Multiple pairs share identical values but are given different ranks (should share a rank). LA 39/yr rank 11 and CO 39/yr rank 12; IN 24/yr rank 17 and TN 24/yr rank 18; WI 20/yr rank 22, ND 20/yr rank 23 (both marked '(tied)' but not sharing rank); NM 12/yr rank 26 and SC 12/yr rank 27; NY 10/yr rank 29 and WY 10/yr rank 30; AZ 5/yr rank 33 and WV 5/yr rank 34. In each case, both entries carry the same '/yr' value but incrementing ranks.",
+      "severity": "high"
+    },
+    {
+      "id": "us-states-geography-most-tornadoes-per-year-2020",
+      "issue": "sort-inversion",
+      "detail": "UT (rank 40, 2/yr) is placed above CT/NV/OR/WA/NH (ranks 41-45, all 2/yr and marked tied) despite having the same value. UT should share rank 40 with them or all should share the same rank. Same shape at DE (rank 46, 1/yr) placed above VT/RI/HI (ranks 47-49, 1/yr tied). And rank-11/12 LA/CO both 39/yr but not co-ranked.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+      "issue": "fact-error",
+      "detail": "Values look like single-station highs (e.g. Yuma AZ) rather than statewide averages as claimed. AZ 3,806 hrs/yr matches Yuma specifically; statewide AZ average is far lower. HI at 2,835 is also too low for a headline sunshine metric if truly statewide. Prompt/disclaimer says 'statewide average', but figures appear to be first-order station bests, not state means.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+      "issue": "inverse-candidate",
+      "detail": "Direct inverse of 'Most Sunshine Hours Per Year' — same 51 jurisdictions, same NOAA Comparative Climatic Data source, same 30-year normals. Ranking is essentially the reverse of the sunshine list and provides limited independent play value.",
+      "severity": "low"
+    },
+    {
+      "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+      "issue": "prompt-ambiguous",
+      "detail": "Prompt says 'fewest average clear or sunny days per year (rank 1 = cloudiest)' but values are reported as 'cloudy days/yr'. The disclaimer refers to 'mean number of overcast days' while the source name is 'Mean Number of Clear Days'. Player is asked to rank by cloudy days but source metric per its title is clear days — inverse of value shown. Metric definition is inconsistent between prompt, disclaimer, source, and value label.",
+      "severity": "medium"
+    },
+    {
+      "id": "us-states-geography-highest-recorded-temperature-2024",
+      "issue": "disclaimer-issue",
+      "detail": "Disclaimer states Death Valley's 134 F 'remains debated but is the accepted official record'. NOAA SCEC does still list CA 134 F, so 'accepted official record' is defensible, but calling it 'debated' without noting who disputes it (Christopher Burt et al.) may mislead. Minor.",
+      "severity": "low"
+    }
+  ]
+}

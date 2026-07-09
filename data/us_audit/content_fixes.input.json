@@ -1,0 +1,342 @@
+{
+  "questions": {
+    "us-states-culture-most-major-pro-sports-teams-nba-nfl-mlb-nhl-2024": [
+      {
+        "id": "us-states-culture-most-major-pro-sports-teams-nba-nfl-mlb-nhl-2024",
+        "issue": "fact-error",
+        "detail": "WA is listed at rank 22 with '1 team' but Washington has Seahawks (NFL), Mariners (MLB), and Kraken (NHL) \u2014 at least 3 teams.",
+        "severity": "high",
+        "_batch": "batch_00.findings.json"
+      }
+    ],
+    "us-states-culture-most-nobel-laureates-by-state-of-birth-us-born-winners-2024": [
+      {
+        "id": "us-states-culture-most-nobel-laureates-by-state-of-birth-us-born-winners-2024",
+        "issue": "bucket-value",
+        "detail": "Every non-zero value uses the '~N laureates' approximate/bucket format (e.g. '~85', '~30'), which prevents precise ranking verification.",
+        "severity": "high",
+        "_batch": "batch_00.findings.json"
+      }
+    ],
+    "us-states-culture-most-museums-imls-2018": [
+      {
+        "id": "us-states-culture-most-museums-imls-2018",
+        "issue": "fact-error",
+        "detail": "Nearly every rank below the top 10 uses suspiciously round numbers (e.g. 700, 620, 600, 580, 560, 540, 500, 490, 480, 470, 450, 430, 410, 400) suggesting fabricated/estimated counts rather than actual IMLS MDF values.",
+        "severity": "high",
+        "_batch": "batch_00.findings.json"
+      }
+    ],
+    "us-states-culture-most-public-library-systems-imls-2021": [
+      {
+        "id": "us-states-culture-most-public-library-systems-imls-2021",
+        "issue": "fact-error",
+        "detail": "Hawaii is listed at rank 50 with '1 system' \u2014 accurate (statewide system) \u2014 but Maryland at rank 48 with '20 systems' understates Maryland's 24 public library systems per IMLS 2021 PLS; values below rank 30 look rounded/approximated rather than reported.",
+        "severity": "medium",
+        "_batch": "batch_00.findings.json"
+      }
+    ],
+    "us-states-demographics-largest-asian-population-share-2022": [
+      {
+        "id": "us-states-demographics-largest-asian-population-share-2022",
+        "issue": "value-format-mix",
+        "detail": "Tie at rank 8 uses '8.1% (tied)' for VA but plain '8.1%' for MA. Inconsistent tie-suffix formatting within the same question.",
+        "severity": "low",
+        "_batch": "batch_01.findings.json"
+      }
+    ],
+    "us-states-geography-largest-states-by-total-area-2010": [
+      {
+        "id": "us-states-geography-largest-states-by-total-area-2010",
+        "issue": "disclaimer-issue",
+        "detail": "Disclaimer explicitly discusses Michigan's Great Lakes waters. Michigan is rank 11 in Q15 (not top-5), so this is not a hard leak; but pairing this question with Q16 ('Land Area'), where the disclaimer again spotlights Michigan, telegraphs MI's presence/absence to players who see both questions. Minor.",
+        "severity": "low",
+        "_batch": "batch_01.findings.json"
+      }
+    ],
+    "us-states-geography-highest-peak-elevation-2024": [
+      {
+        "id": "us-states-geography-highest-peak-elevation-2024",
+        "issue": "disclaimer-issue",
+        "detail": "Disclaimer text is garbled/self-contradictory: 'All top-10 state high points are in the West except (technically) they all are'. Reads as an unfinished edit. Should be clarified (e.g., 'All top-10 state high points are in the West' or clarify the caveat).",
+        "severity": "low",
+        "_batch": "batch_02.findings.json"
+      }
+    ],
+    "us-states-geography-most-national-parks-2024": [
+      {
+        "id": "us-states-geography-most-national-parks-2024",
+        "issue": "bucket-value",
+        "detail": "Rank 13 and rank 16 both bucket states with '1 National Park' \u2014 TN, NC, OR at rank 13 but NM, NV, ND, AR, KY, OH, MI, MN, ME, VA, WV, SC, IN, MO at rank 16. All have the same count (1). Either all should be tied at rank 13 (jumping to rank 16 for next distinct value), or none should be. Also TN/NC share Great Smoky (single park spanning two states) \u2014 the 'tied w/ NC'/'tied w/ TN' annotation is inconsistent with treating each state as having 1 park independently.",
+        "severity": "medium",
+        "_batch": "batch_02.findings.json"
+      }
+    ],
+    "us-states-health-largest-wind-electricity-generation-2023": [
+      {
+        "id": "us-states-health-largest-wind-electricity-generation-2023",
+        "issue": "fact-error",
+        "detail": "Subtheme is 'US States - Health' but the question is about wind electricity generation (energy topic, not health). Mis-categorized.",
+        "severity": "low",
+        "_batch": "batch_03.findings.json"
+      }
+    ],
+    "us-states-politics-most-electoral-college-votes-2024": [
+      {
+        "id": "us-states-politics-most-electoral-college-votes-2024",
+        "issue": "fact-error",
+        "detail": "Rank 22 CO listed with value '10' but grouped/ranked below AL (9) and tied with SC (9). CO has 10 electoral votes and should be ranked with the '10' bucket at rank 18. Also rank 27 OR listed as '8' with CT/OK (7); OR has 8 EVs and belongs one tier up. Rank 36 WV shown as '4' but grouped with NE/NM at 5.",
+        "severity": "high",
+        "_batch": "batch_03.findings.json"
+      }
+    ],
+    "us-states-politics-most-us-house-representatives-2023": [
+      {
+        "id": "us-states-politics-most-us-house-representatives-2023",
+        "issue": "fact-error",
+        "detail": "Same pattern as electoral question: rank 22 CO=8 grouped with AL/SC=7; rank 27 OR=6 grouped with CT/OK=5; rank 36 WV=2 grouped with NE/NM=3. Actual seat counts: CO=8, OR=6, WV=2 \u2014 but ranks/tie groupings are wrong.",
+        "severity": "high",
+        "_batch": "batch_03.findings.json"
+      }
+    ],
+    "us-states-deep-dive-most-billionaires-2024": [
+      {
+        "id": "us-states-deep-dive-most-billionaires-2024",
+        "issue": "value-format-mix",
+        "detail": "Value string format is inconsistent across tied entries. Some tied entries carry '(tied)' suffix, others do not: rank 15 AR='5 billionaires' but MN/OH='5 billionaires (tied)'; rank 20 MO='3 billionaires' but NC/OR/WI/WY='3 billionaires (tied)'; rank 25 AZ='2 billionaires' vs others '2 billionaires (tied)'; rank 30 AL='1 billionaire' vs others '1 billionaire (tied)'. Also singular/plural switches ('billionaire' vs 'billionaires').",
+        "severity": "medium",
+        "_batch": "batch_03.findings.json"
+      }
+    ],
+    "us-states-deep-dive-highest-cost-of-living-2024": [
+      {
+        "id": "us-states-deep-dive-highest-cost-of-living-2024",
+        "issue": "disclaimer-issue",
+        "detail": "Prompt says 'Rank US states (and DC)' but disclaimer says 'DC not included (source omits it)'. Contradictory. Answer list is 50 items (no DC). Prompt should be revised.",
+        "severity": "medium",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-deep-dive-highest-corn-production-2023": [
+      {
+        "id": "us-states-deep-dive-highest-corn-production-2023",
+        "issue": "value-format-mix",
+        "detail": "Uses inconsistent decimal precision under a single 'B bushels' unit: r1-r10 shown at 2 decimals (2.55B, 0.85B), but r20+ shifts to 3 decimals (0.075B, 0.068B). Small states could be shown in millions for clarity. Precision mixing makes many rows appear tied when likely they aren't.",
+        "severity": "medium",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-deep-dive-largest-wine-production-2022": [
+      {
+        "id": "us-states-deep-dive-largest-wine-production-2022",
+        "issue": "prompt-ambiguous",
+        "detail": "Prompt says 'excluding California' but disclaimer says 'Includes Washington DC'. DC has no commercial wine production of scale; the '0.001M gallons' figure at r50 for DC is not credible from Wine Institute. Also excluding CA leaves 50 items but the source (Wine Institute) does report CA \u2014 the exclusion is editorial, worth calling out in prompt more clearly.",
+        "severity": "low",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-deep-dive-most-federally-owned-public-land-2018": [
+      {
+        "id": "us-states-deep-dive-most-federally-owned-public-land-2018",
+        "issue": "fact-error",
+        "detail": "DC listed at r51 with 24.7%. Actual federal ownership of DC land is very high (federal buildings, National Mall, monuments) \u2014 CRS reports typically exclude DC or show ~28%+. Regardless, 24.7% is inconsistent with rank 51 (last place); at that value DC should rank around 13-14, above HI (19.4%). This is both a sort-inversion and a bucket/rank fact error.",
+        "severity": "high",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-deep-dive-largest-federal-workforce-per-capita-2023": [
+      {
+        "id": "us-states-deep-dive-largest-federal-workforce-per-capita-2023",
+        "issue": "bucket-value",
+        "detail": "Values decrease by exactly 1 for ranks 15-51 (66, 64, 62, 60, 58, 56, 54, 52, 50, 49, 47, 46, 45, 44, 43, 42, 41 ... 21). This monotonic decrement pattern strongly suggests the values are synthesized/interpolated rather than pulled from FedScope. Real per-10K rates would not step down by 1 uniformly across ~40 states.",
+        "severity": "high",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-deep-dive-highest-violent-crime-rate-2022": [
+      {
+        "id": "us-states-deep-dive-highest-violent-crime-rate-2022",
+        "issue": "disclaimer-issue",
+        "detail": "Disclaimer says 'FBI UCR / Crime Data Explorer, 2022' but multiple state values here differ from FBI-published 2022 figures. Furthermore, FBI's 2022 data had well-known state participation issues (transition to NIBRS meant many agencies did not report). Should note that caveat, or the ranking may reflect coverage gaps rather than crime.",
+        "severity": "medium",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-deep-dive-most-retail-sales-per-capita-2022": [
+      {
+        "id": "us-states-deep-dive-most-retail-sales-per-capita-2022",
+        "issue": "bucket-value",
+        "detail": "Values decrease by exactly $200 across almost all ranks from ~r10 onward ($19,000, $18,900, $18,700, $18,500, $18,300 ... $10,500). Uniform $200 stepping across 40+ states is not consistent with real Census retail-sales-per-capita data; values appear synthesized.",
+        "severity": "high",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-geography-states-with-the-lowest-point-below-sea-level-2024": [
+      {
+        "id": "us-states-geography-states-with-the-lowest-point-below-sea-level-2024",
+        "issue": "fact-error",
+        "detail": "Only 2 states listed (CA, LA). This is likely incomplete \u2014 several other states have depressions at or below sea level in specific locations (e.g., NY's parts of NYC below MSL, WA has areas near sea level). However, if strictly 'lowest official point' per USGS, only CA (Badwater -282) and LA (-8, New Orleans) have official state low-points below sea level, so this may be correct. Ambiguity: seededDepth=2 is legitimate only if USGS methodology is strict. Flag for prompt clarity \u2014 the current prompt phrasing 'lowest elevation point sits below sea level' is unambiguous and only CA/LA qualify, so this is arguably OK. Downgrading severity.",
+        "severity": "low",
+        "_batch": "batch_04.findings.json"
+      }
+    ],
+    "us-states-geography-states-that-touch-a-great-lake-2024": [
+      {
+        "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+        "issue": "value-format-mix",
+        "detail": "Rank-4 tie is inconsistently annotated. OH (rank 4) value is '1 Great Lake (Erie)' with no '(tied)' suffix, while the other four rank-4 entries (IL, IN, MN, PA) all include '(tied)'. Same rank, same count, but marker missing on OH.",
+        "severity": "low",
+        "_batch": "batch_05.findings.json"
+      },
+      {
+        "id": "us-states-geography-states-that-touch-a-great-lake-2024",
+        "issue": "value-format-mix",
+        "detail": "NY (rank 2) value '2 Great Lakes (Erie, Ontario, tied)' embeds 'tied' inside the parenthetical lake list, while WI (rank 2) '2 Great Lakes (Superior, Michigan)' omits the tie marker entirely. The two rank-2 entries use different formats.",
+        "severity": "low",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-states-with-the-most-active-volcanoes-2024": [
+      {
+        "id": "us-states-geography-states-with-the-most-active-volcanoes-2024",
+        "issue": "fact-error",
+        "detail": "Ranking is implausible against USGS. Washington (Rainier, St. Helens, Adams, Baker, Glacier Peak plus vent complexes) is listed at only 7 volcanoes and ranked below NV (13) and NM (12). Per USGS Cascades/Volcano Hazards inventories, WA is one of the top volcanic states in the lower 48 and should rank above NV and NM. NV/NM counts also look inflated relative to standard USGS active/potentially-active lists.",
+        "severity": "high",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-wettest-states-most-annual-precipitation-2020": [
+      {
+        "id": "us-states-geography-wettest-states-most-annual-precipitation-2020",
+        "issue": "fact-error",
+        "detail": "Cross-question inconsistency with the paired 'Driest States' question, which cites the identical NOAA 1991-2020 source. Same-state values disagree: NV 9.5 vs 10.3 in, WY 12.9 vs 14.5, CO 15.9 vs 16.1, ND 18.0 vs 17.8, ID 19.9 vs 19.0, SD 22.4 vs 20.6, OR 27.5 vs 27.4, MN 30.7 vs 27.5, TX 28.9 vs 29.1, WI 34.6 vs 32.6, MI 34.7 vs 33.0, IA 35.5 vs 34.0, WA 38.5 vs 38.4, IL 39.6 vs 39.2, OH 41.7 vs 40.2, NY 47.4 vs 42.3, MO 42.6 vs 42.4, IN 42.8 vs 42.6, PA 43.0 vs 42.9, VT 42.7 vs 43.0, VA 43.7 vs 44.3, ME 43.6 vs 44.4, WV 45.2 vs 45.2, DE 46.2 vs 45.7, NJ 47.9 vs 47.1, MA 47.7 vs 48.0, NC 49.0 vs 50.4, AR 50.6 vs 50.6, MS 59.0 vs 59.0. One or both questions carry incorrect numbers.",
+        "severity": "high",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-driest-states-least-annual-precipitation-2020": [
+      {
+        "id": "us-states-geography-driest-states-least-annual-precipitation-2020",
+        "issue": "fact-error",
+        "detail": "See paired 'Wettest States' finding \u2014 the two lists disagree on many statewide 1991-2020 NOAA normals (NV, WY, CO, ND, ID, SD, MN, NY, WI, MI, IA, WA, IL, OH, MO, VT, VA, ME, DE, NJ, MA, NC, and more). Same source is cited for both. At least one of the two questions has bad values.",
+        "severity": "high",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-most-sunshine-hours-per-year-2020": [
+      {
+        "id": "us-states-geography-most-sunshine-hours-per-year-2020",
+        "issue": "fact-error",
+        "detail": "Values look like single-station highs (e.g. Yuma AZ) rather than statewide averages as claimed. AZ 3,806 hrs/yr matches Yuma specifically; statewide AZ average is far lower. HI at 2,835 is also too low for a headline sunshine metric if truly statewide. Prompt/disclaimer says 'statewide average', but figures appear to be first-order station bests, not state means.",
+        "severity": "medium",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-cloudiest-states-fewest-sunny-days-2020": [
+      {
+        "id": "us-states-geography-cloudiest-states-fewest-sunny-days-2020",
+        "issue": "prompt-ambiguous",
+        "detail": "Prompt says 'fewest average clear or sunny days per year (rank 1 = cloudiest)' but values are reported as 'cloudy days/yr'. The disclaimer refers to 'mean number of overcast days' while the source name is 'Mean Number of Clear Days'. Player is asked to rank by cloudy days but source metric per its title is clear days \u2014 inverse of value shown. Metric definition is inconsistent between prompt, disclaimer, source, and value label.",
+        "severity": "medium",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-highest-recorded-temperature-2024": [
+      {
+        "id": "us-states-geography-highest-recorded-temperature-2024",
+        "issue": "disclaimer-issue",
+        "detail": "Disclaimer states Death Valley's 134 F 'remains debated but is the accepted official record'. NOAA SCEC does still list CA 134 F, so 'accepted official record' is defensible, but calling it 'debated' without noting who disputes it (Christopher Burt et al.) may mislead. Minor.",
+        "severity": "low",
+        "_batch": "batch_05.findings.json"
+      }
+    ],
+    "us-states-geography-tallest-building-2024": [
+      {
+        "id": "us-states-geography-tallest-building-2024",
+        "issue": "disclaimer-issue",
+        "detail": "Rank 41 DC value labeled 'Washington Monument, non-building 555' \u2014 directly contradicts disclaimer restricting to completed buildings (CTBUH classifies the Monument as a non-building structure). Also the value shows '329 ft' rather than 555 ft; the entry is internally inconsistent.",
+        "severity": "high",
+        "_batch": "batch_06.findings.json"
+      },
+      {
+        "id": "us-states-geography-tallest-building-2024",
+        "issue": "value-format-mix",
+        "detail": "Rank 48 ND value string reads '241 fkt (North Dakota State Capitol, Bismarck)' \u2014 typo for 'ft'.",
+        "severity": "low",
+        "_batch": "batch_06.findings.json"
+      }
+    ],
+    "us-states-geography-most-colleges-in-a-single-city-2023": [
+      {
+        "id": "us-states-geography-most-colleges-in-a-single-city-2023",
+        "issue": "bucket-value",
+        "detail": "All values expressed as 'N+ colleges' (open-ended buckets), which makes true ranking non-verifiable \u2014 e.g., '10+' at rank 12 (MD Baltimore) and rank 13 (FL Miami) could differ by many actual institutions but appear equal. Disclaimer acknowledges Boston is inflated but doesn't reconcile the plus-notation ordering.",
+        "severity": "medium",
+        "_batch": "batch_06.findings.json"
+      }
+    ],
+    "us-states-geography-states-crossed-by-the-continental-divide-2024": [
+      {
+        "id": "us-states-geography-states-crossed-by-the-continental-divide-2024",
+        "issue": "fact-error",
+        "detail": "AK listed as on the Continental Divide of the Americas (Brooks Range). The Continental Divide of the Americas as commonly defined ends at Cape Prince of Wales area; the Brooks Range hosts the Arctic Divide, not the Continental Divide of the Americas. Disclaimer even acknowledges 'five contiguous states plus Alaska' \u2014 inconsistent framing.",
+        "severity": "medium",
+        "_batch": "batch_07.findings.json"
+      }
+    ],
+    "us-states-geography-states-crossed-by-the-pacific-crest-trail-2024": [
+      {
+        "id": "us-states-geography-states-crossed-by-the-pacific-crest-trail-2024",
+        "issue": "value-format-mix",
+        "detail": "Values are trail-miles (1,700 mi / 455 mi / 506 mi) but ranks follow geographic south-to-north order, not descending mileage. If ranked by miles, order would be CA, WA (506), OR (455). Mixing an ordered rank with an unrelated metric is confusing.",
+        "severity": "medium",
+        "_batch": "batch_07.findings.json"
+      }
+    ],
+    "us-states-geography-most-named-peaks-over-5-000-ft-2023": [
+      {
+        "id": "us-states-geography-most-named-peaks-over-5-000-ft-2023",
+        "issue": "fact-error",
+        "detail": "CO=5,281 peaks is identical to CO=5,281 summits reported in the sibling 'Most Named Mountain Peaks' question (all GNIS summits regardless of elevation). It's implausible that 100% of Colorado's GNIS-named summits are above 5,000 ft \u2014 value appears copied from the other question rather than filtered by elevation.",
+        "severity": "high",
+        "_batch": "batch_07.findings.json"
+      }
+    ],
+    "us-states-geography-longest-river-wholly-within-borders-2022": [
+      {
+        "id": "us-states-geography-longest-river-wholly-within-borders-2022",
+        "issue": "prompt-ambiguous",
+        "detail": "Prompt asks for 'longest single river that flows entirely within their own borders' but many answers reference an 'in-state segment' (e.g., OK Cimarron, VA James, IA Des Moines, MN St. Croix, AR Ouachita, NY Susquehanna, MS Pearl, MT Bighorn, CA San Joaquin, SD/ND/NM/AZ/NV/WY in-state segments, MA/CT Housatonic, NH Merrimack). These rivers cross state lines \u2014 contradicting the 'wholly within borders' prompt/disclaimer. Question definition contradicts data.",
+        "severity": "high",
+        "_batch": "batch_08.findings.json"
+      }
+    ],
+    "us-states-geography-most-named-canyons-2023": [
+      {
+        "id": "us-states-geography-most-named-canyons-2023",
+        "issue": "disclaimer-issue",
+        "detail": "Source cites 'USGS GNIS feature class Valley filtered to canyon names', but GNIS uses feature class 'Valley' as the parent class for canyons/gulches/ravines/hollows \u2014 filtering by name substring 'Canyon' inside 'Valley' is one valid approach, but the disclaimer note ('Reflects naming convention as much as underlying topography') is fine. Minor: rank 42 (VT) & 41 (NH) both '2 canyons' with no tie marker.",
+        "severity": "low",
+        "_batch": "batch_08.findings.json"
+      }
+    ],
+    "us-states-deep-dive-most-native-american-reservation-land-area-2023": [
+      {
+        "id": "us-states-deep-dive-most-native-american-reservation-land-area-2023",
+        "issue": "disclaimer-issue",
+        "detail": "Disclaimer says 'excludes Alaska Native Corporation lands (ANCSA)' but AK's rank 33 value '0.001M acres (Metlakatla only)' inconsistently adds a per-row qualifier not applied to other states. If ANCSA exclusion is uniform, the Metlakatla note is redundant; if AK's number is materially different, it belongs in the disclaimer.",
+        "severity": "low",
+        "_batch": "batch_09.findings.json"
+      }
+    ],
+    "us-states-environment-most-electric-vehicle-registrations-2023": [
+      {
+        "id": "us-states-environment-most-electric-vehicle-registrations-2023",
+        "issue": "prompt-ambiguous",
+        "detail": "Prompt says 'plug-in electric vehicles (BEVs)' \u2014 'plug-in' typically includes PHEVs while BEV means battery-electric only. Disclaimer says 'excludes plug-in hybrids in some tallies', which further hedges. Should specify BEV-only or plug-in (BEV+PHEV) consistently.",
+        "severity": "medium",
+        "_batch": "batch_10.findings.json"
+      }
+    ]
+  }
+}
