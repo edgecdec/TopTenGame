@@ -43945,7 +43945,7 @@
     "title": "Most World Series titles (MLB)",
     "prompt": "Name the MLB franchises with the most World Series championships in league history.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "MLB.com \u2014 World Series history / Baseball Reference franchise pages",
       "url": "https://www.mlb.com/postseason/history/world-series",
@@ -43966,22 +43966,22 @@
       {
         "rank": 3,
         "code": "MLB-OAK",
-        "value": "9 titles"
+        "value": "9 titles (tied)"
       },
       {
         "rank": 3,
         "code": "MLB-BOS",
-        "value": "9 titles"
+        "value": "9 titles (tied)"
       },
       {
         "rank": 5,
         "code": "MLB-LAD",
-        "value": "8 titles"
+        "value": "8 titles (tied)"
       },
       {
         "rank": 5,
         "code": "MLB-SF",
-        "value": "8 titles"
+        "value": "8 titles (tied)"
       },
       {
         "rank": 7,
@@ -44027,6 +44027,81 @@
         "rank": 15,
         "code": "MLB-HOU",
         "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-CLE",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-PHI",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-KC",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-MIA",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-TOR",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-NYM",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-ARI",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-LAA",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-WAS",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-COL",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-MIL",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-SD",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-SEA",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-TB",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-TEX",
+        "value": "0 titles (tied)"
       }
     ],
     "disclaimer": "Franchise totals include all city relocations and rebrands.",
@@ -44040,7 +44115,7 @@
     "title": "Most World Series appearances (MLB)",
     "prompt": "Name the MLB franchises with the most World Series appearances (wins + losses).",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Baseball Reference \u2014 World Series appearances by franchise",
       "url": "https://www.baseball-reference.com/postseason/",
@@ -44081,12 +44156,12 @@
       {
         "rank": 7,
         "code": "MLB-CHC",
-        "value": "11 appearances"
+        "value": "11 appearances (tied)"
       },
       {
         "rank": 7,
         "code": "MLB-DET",
-        "value": "11 appearances"
+        "value": "11 appearances (tied)"
       },
       {
         "rank": 9,
@@ -44106,22 +44181,97 @@
       {
         "rank": 12,
         "code": "MLB-PIT",
-        "value": "7 appearances"
+        "value": "7 appearances (tied)"
       },
       {
         "rank": 12,
         "code": "MLB-BAL",
-        "value": "7 appearances"
+        "value": "7 appearances (tied)"
       },
       {
         "rank": 14,
         "code": "MLB-CWS",
-        "value": "6 appearances"
+        "value": "6 appearances (tied)"
       },
       {
         "rank": 14,
         "code": "MLB-MIN",
-        "value": "6 appearances"
+        "value": "6 appearances (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-CLE",
+        "value": "6 appearances (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "MLB-NYM",
+        "value": "5 appearances"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-KC",
+        "value": "4 appearances"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-TEX",
+        "value": "3 appearances (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-HOU",
+        "value": "3 appearances (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-SD",
+        "value": "2 appearances (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-MIA",
+        "value": "2 appearances (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-TOR",
+        "value": "2 appearances (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-ARI",
+        "value": "1 appearance (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-COL",
+        "value": "1 appearance (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-MIL",
+        "value": "1 appearance (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-TB",
+        "value": "1 appearance (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-WAS",
+        "value": "1 appearance (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "MLB-LAA",
+        "value": "1 appearance (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "MLB-SEA",
+        "value": "0 appearances"
       }
     ],
     "disclaimer": "Counts World Series appearances (wins + losses). Franchise totals include all city relocations.",
@@ -44135,7 +44285,7 @@
     "title": "Most playoff appearances (MLB)",
     "prompt": "Name the MLB franchises with the most postseason (playoff) appearances.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Baseball Reference \u2014 Postseason appearances by franchise",
       "url": "https://www.baseball-reference.com/postseason/",
@@ -44186,37 +44336,112 @@
       {
         "rank": 9,
         "code": "MLB-HOU",
-        "value": "17 appearances"
+        "value": "17 appearances (tied)"
       },
       {
         "rank": 9,
         "code": "MLB-DET",
-        "value": "17 appearances"
+        "value": "17 appearances (tied)"
       },
       {
         "rank": 9,
         "code": "MLB-CIN",
-        "value": "17 appearances"
+        "value": "17 appearances (tied)"
       },
       {
         "rank": 9,
         "code": "MLB-BAL",
-        "value": "17 appearances"
+        "value": "17 appearances (tied)"
       },
       {
         "rank": 9,
         "code": "MLB-MIN",
-        "value": "17 appearances"
+        "value": "17 appearances (tied)"
       },
       {
         "rank": 14,
         "code": "MLB-CLE",
-        "value": "16 appearances"
+        "value": "16 appearances (tied)"
       },
       {
         "rank": 14,
         "code": "MLB-PHI",
-        "value": "16 appearances"
+        "value": "16 appearances (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-NYM",
+        "value": "11 appearances"
+      },
+      {
+        "rank": 17,
+        "code": "MLB-PIT",
+        "value": "10 appearances"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-TEX",
+        "value": "9 appearances"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-ARI",
+        "value": "8 appearances (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-CWS",
+        "value": "8 appearances (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-TB",
+        "value": "8 appearances (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-MIL",
+        "value": "8 appearances (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "MLB-SD",
+        "value": "7 appearances"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-TOR",
+        "value": "9 appearances"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-LAA",
+        "value": "10 appearances"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-KC",
+        "value": "9 appearances"
+      },
+      {
+        "rank": 27,
+        "code": "MLB-WAS",
+        "value": "6 appearances"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-MIA",
+        "value": "3 appearances"
+      },
+      {
+        "rank": 29,
+        "code": "MLB-COL",
+        "value": "5 appearances"
+      },
+      {
+        "rank": 30,
+        "code": "MLB-SEA",
+        "value": "4 appearances"
       }
     ],
     "disclaimer": "Postseason appearances through the 2024 season. Wild card and divisional-round appearances all count as one.",
@@ -44420,7 +44645,7 @@
     "title": "Largest MLB stadium capacity",
     "prompt": "Name the MLB teams whose home ballparks have the largest official seating capacity.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 14,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of Major League Baseball stadiums",
       "url": "https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_stadiums",
@@ -44497,6 +44722,86 @@
         "rank": 14,
         "code": "MLB-MIN",
         "value": "38,544 (Target Field)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-WAS",
+        "value": "41,373 (Nationals Park)"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-DET",
+        "value": "41,083 (Comerica Park)"
+      },
+      {
+        "rank": 17,
+        "code": "MLB-BAL",
+        "value": "44,970 (Camden Yards)"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-CIN",
+        "value": "42,319 (Great American Ball Park)"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-MIL",
+        "value": "41,900 (American Family Field)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-SEA",
+        "value": "47,929 (T-Mobile Park)"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-CHC",
+        "value": "41,649 (Wrigley Field)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-LAA",
+        "value": "45,517 (Angel Stadium)"
+      },
+      {
+        "rank": 23,
+        "code": "MLB-SF",
+        "value": "41,915 (Oracle Park)"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-BOS",
+        "value": "37,755 (Fenway Park)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-CLE",
+        "value": "34,830 (Progressive Field)"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-KC",
+        "value": "37,903 (Kauffman Stadium)"
+      },
+      {
+        "rank": 27,
+        "code": "MLB-PIT",
+        "value": "38,747 (PNC Park)"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-MIA",
+        "value": "37,442 (loanDepot Park)"
+      },
+      {
+        "rank": 29,
+        "code": "MLB-OAK",
+        "value": "46,847 (Oakland Coliseum)"
+      },
+      {
+        "rank": 30,
+        "code": "MLB-TB",
+        "value": "25,000 (Tropicana Field)"
       }
     ],
     "disclaimer": "Official baseball seating capacity per team's home ballpark. Standing-room additions and postseason expansions not included.",
@@ -47530,7 +47835,7 @@
     "title": "Highest EBITDA",
     "prompt": "Name the US Fortune 500 companies with the highest annual EBITDA.",
     "answerType": "Companies",
-    "seededDepth": 15,
+    "seededDepth": 57,
     "source": {
       "name": "SEC 10-K filings / stockanalysis.com",
       "url": "https://stockanalysis.com/list/biggest-companies/",
@@ -47612,6 +47917,216 @@
         "rank": 15,
         "code": "ORCL",
         "value": "$22B EBITDA"
+      },
+      {
+        "rank": 16,
+        "code": "COP",
+        "value": "$21B EBITDA"
+      },
+      {
+        "rank": 17,
+        "code": "MRK",
+        "value": "$21B EBITDA"
+      },
+      {
+        "rank": 18,
+        "code": "COST",
+        "value": "$10B EBITDA"
+      },
+      {
+        "rank": 19,
+        "code": "HD",
+        "value": "$25B EBITDA"
+      },
+      {
+        "rank": 20,
+        "code": "PEP",
+        "value": "$16B EBITDA"
+      },
+      {
+        "rank": 21,
+        "code": "KO",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 22,
+        "code": "PM",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 23,
+        "code": "MO",
+        "value": "$13B EBITDA"
+      },
+      {
+        "rank": 24,
+        "code": "TMO",
+        "value": "$10B EBITDA"
+      },
+      {
+        "rank": 25,
+        "code": "ABBV",
+        "value": "$27B EBITDA"
+      },
+      {
+        "rank": 26,
+        "code": "CMCSA",
+        "value": "$36B EBITDA"
+      },
+      {
+        "rank": 27,
+        "code": "MCD",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 28,
+        "code": "DIS",
+        "value": "$15B EBITDA"
+      },
+      {
+        "rank": 29,
+        "code": "IBM",
+        "value": "$15B EBITDA"
+      },
+      {
+        "rank": 30,
+        "code": "AVGO",
+        "value": "$21B EBITDA"
+      },
+      {
+        "rank": 31,
+        "code": "INTC",
+        "value": "$16B EBITDA"
+      },
+      {
+        "rank": 32,
+        "code": "CSCO",
+        "value": "$17B EBITDA"
+      },
+      {
+        "rank": 33,
+        "code": "CVS",
+        "value": "$16B EBITDA"
+      },
+      {
+        "rank": 34,
+        "code": "CI",
+        "value": "$10B EBITDA"
+      },
+      {
+        "rank": 35,
+        "code": "PFE",
+        "value": "$7B EBITDA"
+      },
+      {
+        "rank": 36,
+        "code": "GILD",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 37,
+        "code": "BMY",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 38,
+        "code": "V",
+        "value": "$25B EBITDA"
+      },
+      {
+        "rank": 40,
+        "code": "AXP",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 41,
+        "code": "CAT",
+        "value": "$18B EBITDA"
+      },
+      {
+        "rank": 42,
+        "code": "DE",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 43,
+        "code": "HON",
+        "value": "$10B EBITDA"
+      },
+      {
+        "rank": 44,
+        "code": "LMT",
+        "value": "$10B EBITDA"
+      },
+      {
+        "rank": 45,
+        "code": "RTX",
+        "value": "$11B EBITDA"
+      },
+      {
+        "rank": 46,
+        "code": "GE",
+        "value": "$8B EBITDA"
+      },
+      {
+        "rank": 47,
+        "code": "GD",
+        "value": "$5B EBITDA"
+      },
+      {
+        "rank": 48,
+        "code": "NOC",
+        "value": "$5B EBITDA"
+      },
+      {
+        "rank": 49,
+        "code": "F",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 50,
+        "code": "GM",
+        "value": "$16B EBITDA"
+      },
+      {
+        "rank": 51,
+        "code": "TSLA",
+        "value": "$14B EBITDA"
+      },
+      {
+        "rank": 52,
+        "code": "LOW",
+        "value": "$13B EBITDA"
+      },
+      {
+        "rank": 53,
+        "code": "TGT",
+        "value": "$8B EBITDA"
+      },
+      {
+        "rank": 54,
+        "code": "TJX",
+        "value": "$7B EBITDA"
+      },
+      {
+        "rank": 55,
+        "code": "NKE",
+        "value": "$7B EBITDA"
+      },
+      {
+        "rank": 56,
+        "code": "UPS",
+        "value": "$12B EBITDA"
+      },
+      {
+        "rank": 57,
+        "code": "FDX",
+        "value": "$10B EBITDA"
+      },
+      {
+        "rank": 58,
+        "code": "UNP",
+        "value": "$11B EBITDA"
       }
     ],
     "disclaimer": "EBITDA = Earnings Before Interest, Taxes, Depreciation and Amortization. Non-GAAP; typically calculated from operating income + D&A. Values in USD billions.",
@@ -47625,7 +48140,7 @@
     "title": "Highest dividends paid (FY2023)",
     "prompt": "Name the US Fortune 500 companies that paid the most in total cash dividends in fiscal year 2023.",
     "answerType": "Companies",
-    "seededDepth": 15,
+    "seededDepth": 49,
     "source": {
       "name": "SEC 10-K filings (cash flow statement: dividends paid)",
       "url": "https://www.sec.gov/edgar",
@@ -47707,6 +48222,176 @@
         "rank": 15,
         "code": "WFC",
         "value": "$4.7B dividends paid"
+      },
+      {
+        "rank": 16,
+        "code": "CSCO",
+        "value": "$6.3B dividends paid"
+      },
+      {
+        "rank": 17,
+        "code": "PEP",
+        "value": "$6.6B dividends paid"
+      },
+      {
+        "rank": 18,
+        "code": "MO",
+        "value": "$6.8B dividends paid"
+      },
+      {
+        "rank": 19,
+        "code": "PM",
+        "value": "$7.8B dividends paid"
+      },
+      {
+        "rank": 20,
+        "code": "MCD",
+        "value": "$4.5B dividends paid"
+      },
+      {
+        "rank": 21,
+        "code": "V",
+        "value": "$3.7B dividends paid"
+      },
+      {
+        "rank": 22,
+        "code": "HD",
+        "value": "$8.4B dividends paid"
+      },
+      {
+        "rank": 23,
+        "code": "IBM",
+        "value": "$6.1B dividends paid"
+      },
+      {
+        "rank": 24,
+        "code": "ORCL",
+        "value": "$4.4B dividends paid"
+      },
+      {
+        "rank": 25,
+        "code": "COST",
+        "value": "$1.7B dividends paid"
+      },
+      {
+        "rank": 26,
+        "code": "AVGO",
+        "value": "$7.7B dividends paid"
+      },
+      {
+        "rank": 27,
+        "code": "META",
+        "value": "$0.0B dividends paid"
+      },
+      {
+        "rank": 28,
+        "code": "GOOGL",
+        "value": "$0.0B dividends paid"
+      },
+      {
+        "rank": 29,
+        "code": "AMZN",
+        "value": "$0.0B dividends paid"
+      },
+      {
+        "rank": 30,
+        "code": "NVDA",
+        "value": "$0.4B dividends paid"
+      },
+      {
+        "rank": 31,
+        "code": "TSLA",
+        "value": "$0.0B dividends paid"
+      },
+      {
+        "rank": 32,
+        "code": "BRK.B",
+        "value": "$0.0B dividends paid"
+      },
+      {
+        "rank": 33,
+        "code": "UNH",
+        "value": "$6.8B dividends paid"
+      },
+      {
+        "rank": 34,
+        "code": "LMT",
+        "value": "$3.1B dividends paid"
+      },
+      {
+        "rank": 35,
+        "code": "COP",
+        "value": "$5.7B dividends paid"
+      },
+      {
+        "rank": 36,
+        "code": "TMO",
+        "value": "$1.3B dividends paid"
+      },
+      {
+        "rank": 37,
+        "code": "GS",
+        "value": "$3.5B dividends paid"
+      },
+      {
+        "rank": 38,
+        "code": "MS",
+        "value": "$5.2B dividends paid"
+      },
+      {
+        "rank": 39,
+        "code": "C",
+        "value": "$4.1B dividends paid"
+      },
+      {
+        "rank": 40,
+        "code": "AXP",
+        "value": "$1.8B dividends paid"
+      },
+      {
+        "rank": 41,
+        "code": "DE",
+        "value": "$1.5B dividends paid"
+      },
+      {
+        "rank": 42,
+        "code": "CAT",
+        "value": "$2.6B dividends paid"
+      },
+      {
+        "rank": 43,
+        "code": "LOW",
+        "value": "$2.6B dividends paid"
+      },
+      {
+        "rank": 44,
+        "code": "TGT",
+        "value": "$2.0B dividends paid"
+      },
+      {
+        "rank": 45,
+        "code": "NKE",
+        "value": "$2.0B dividends paid"
+      },
+      {
+        "rank": 46,
+        "code": "GILD",
+        "value": "$3.7B dividends paid"
+      },
+      {
+        "rank": 47,
+        "code": "BMY",
+        "value": "$4.6B dividends paid"
+      },
+      {
+        "rank": 49,
+        "code": "F",
+        "value": "$3.0B dividends paid"
+      },
+      {
+        "rank": 50,
+        "code": "GM",
+        "value": "$0.5B dividends paid"
       }
     ],
     "disclaimer": "Total cash dividends paid to common shareholders during FY2023 from the financing activities section of the cash flow statement. Values in USD billions.",
@@ -47720,7 +48405,7 @@
     "title": "Largest share buybacks in 2023",
     "prompt": "Name the US Fortune 500 companies that spent the most on share repurchases (buybacks) in 2023.",
     "answerType": "Companies",
-    "seededDepth": 14,
+    "seededDepth": 47,
     "source": {
       "name": "SEC 10-K filings (cash flow statement: share repurchases)",
       "url": "https://www.sec.gov/edgar",
@@ -47797,6 +48482,171 @@
         "rank": 14,
         "code": "BAC",
         "value": "$4.5B buybacks"
+      },
+      {
+        "rank": 15,
+        "code": "AVGO",
+        "value": "$7.2B buybacks"
+      },
+      {
+        "rank": 16,
+        "code": "PG",
+        "value": "$7.3B buybacks"
+      },
+      {
+        "rank": 17,
+        "code": "CSCO",
+        "value": "$5.1B buybacks"
+      },
+      {
+        "rank": 18,
+        "code": "MCD",
+        "value": "$3.1B buybacks"
+      },
+      {
+        "rank": 19,
+        "code": "PEP",
+        "value": "$1.0B buybacks"
+      },
+      {
+        "rank": 20,
+        "code": "ORCL",
+        "value": "$0.6B buybacks"
+      },
+      {
+        "rank": 21,
+        "code": "COST",
+        "value": "$0.4B buybacks"
+      },
+      {
+        "rank": 22,
+        "code": "PM",
+        "value": "$0.2B buybacks"
+      },
+      {
+        "rank": 23,
+        "code": "T",
+        "value": "$0.1B buybacks"
+      },
+      {
+        "rank": 24,
+        "code": "ABBV",
+        "value": "$2.0B buybacks"
+      },
+      {
+        "rank": 25,
+        "code": "UNH",
+        "value": "$3.5B buybacks"
+      },
+      {
+        "rank": 26,
+        "code": "TMO",
+        "value": "$3.0B buybacks"
+      },
+      {
+        "rank": 27,
+        "code": "MS",
+        "value": "$1.5B buybacks"
+      },
+      {
+        "rank": 28,
+        "code": "GS",
+        "value": "$5.8B buybacks"
+      },
+      {
+        "rank": 29,
+        "code": "AXP",
+        "value": "$4.3B buybacks"
+      },
+      {
+        "rank": 30,
+        "code": "DE",
+        "value": "$5.1B buybacks"
+      },
+      {
+        "rank": 31,
+        "code": "COP",
+        "value": "$5.4B buybacks"
+      },
+      {
+        "rank": 32,
+        "code": "TGT",
+        "value": "$0.4B buybacks"
+      },
+      {
+        "rank": 33,
+        "code": "NKE",
+        "value": "$4.3B buybacks"
+      },
+      {
+        "rank": 34,
+        "code": "TJX",
+        "value": "$2.5B buybacks"
+      },
+      {
+        "rank": 35,
+        "code": "CVS",
+        "value": "$2.0B buybacks"
+      },
+      {
+        "rank": 36,
+        "code": "PFE",
+        "value": "$0.4B buybacks"
+      },
+      {
+        "rank": 37,
+        "code": "JNJ",
+        "value": "$3.0B buybacks"
+      },
+      {
+        "rank": 38,
+        "code": "IBM",
+        "value": "$0.4B buybacks"
+      },
+      {
+        "rank": 39,
+        "code": "DIS",
+        "value": "$0.1B buybacks"
+      },
+      {
+        "rank": 40,
+        "code": "GM",
+        "value": "$11.1B buybacks"
+      },
+      {
+        "rank": 41,
+        "code": "F",
+        "value": "$0.2B buybacks"
+      },
+      {
+        "rank": 42,
+        "code": "INTC",
+        "value": "$0.0B buybacks"
+      },
+      {
+        "rank": 43,
+        "code": "AMZN",
+        "value": "$0.0B buybacks"
+      },
+      {
+        "rank": 44,
+        "code": "TSLA",
+        "value": "$0.0B buybacks"
+      },
+      {
+        "rank": 45,
+        "code": "BRK.B",
+        "value": "$9.2B buybacks"
+      },
+      {
+        "rank": 46,
+        "code": "PGR",
+        "value": "$0.0B buybacks"
+      },
+      {
+        "rank": 47,
+        "code": "C",
+        "value": "$1.5B buybacks"
       }
     ],
     "disclaimer": "Cash paid to repurchase common stock during FY2023, from the financing activities section of the cash flow statement. Values in USD billions.",
@@ -47810,7 +48660,7 @@
     "title": "Highest gross margin percentage",
     "prompt": "Name the US Fortune 500 companies with the highest gross profit margin (gross profit / revenue).",
     "answerType": "Companies",
-    "seededDepth": 13,
+    "seededDepth": 50,
     "source": {
       "name": "SEC 10-K filings / stockanalysis.com",
       "url": "https://stockanalysis.com/",
@@ -47882,6 +48732,191 @@
         "rank": 13,
         "code": "PEP",
         "value": "54% gross margin"
+      },
+      {
+        "rank": 14,
+        "code": "AAPL",
+        "value": "44% gross margin"
+      },
+      {
+        "rank": 15,
+        "code": "PG",
+        "value": "48% gross margin"
+      },
+      {
+        "rank": 16,
+        "code": "CSCO",
+        "value": "63% gross margin"
+      },
+      {
+        "rank": 17,
+        "code": "AVGO",
+        "value": "69% gross margin"
+      },
+      {
+        "rank": 18,
+        "code": "INTC",
+        "value": "40% gross margin"
+      },
+      {
+        "rank": 19,
+        "code": "IBM",
+        "value": "55% gross margin"
+      },
+      {
+        "rank": 20,
+        "code": "TMO",
+        "value": "41% gross margin"
+      },
+      {
+        "rank": 21,
+        "code": "MCD",
+        "value": "57% gross margin"
+      },
+      {
+        "rank": 22,
+        "code": "NKE",
+        "value": "44% gross margin"
+      },
+      {
+        "rank": 23,
+        "code": "HD",
+        "value": "34% gross margin"
+      },
+      {
+        "rank": 24,
+        "code": "LOW",
+        "value": "33% gross margin"
+      },
+      {
+        "rank": 25,
+        "code": "DIS",
+        "value": "33% gross margin"
+      },
+      {
+        "rank": 26,
+        "code": "TGT",
+        "value": "27% gross margin"
+      },
+      {
+        "rank": 27,
+        "code": "TJX",
+        "value": "30% gross margin"
+      },
+      {
+        "rank": 28,
+        "code": "COST",
+        "value": "12% gross margin"
+      },
+      {
+        "rank": 29,
+        "code": "WMT",
+        "value": "24% gross margin"
+      },
+      {
+        "rank": 30,
+        "code": "AMZN",
+        "value": "47% gross margin"
+      },
+      {
+        "rank": 31,
+        "code": "JNJ",
+        "value": "69% gross margin"
+      },
+      {
+        "rank": 32,
+        "code": "BMY",
+        "value": "72% gross margin"
+      },
+      {
+        "rank": 33,
+        "code": "GILD",
+        "value": "77% gross margin"
+      },
+      {
+        "rank": 34,
+        "code": "DHR",
+        "value": "59% gross margin"
+      },
+      {
+        "rank": 35,
+        "code": "BSX",
+        "value": "70% gross margin"
+      },
+      {
+        "rank": 36,
+        "code": "MO",
+        "value": "70% gross margin"
+      },
+      {
+        "rank": 37,
+        "code": "PM",
+        "value": "63% gross margin"
+      },
+      {
+        "rank": 38,
+        "code": "HON",
+        "value": "37% gross margin"
+      },
+      {
+        "rank": 39,
+        "code": "CAT",
+        "value": "34% gross margin"
+      },
+      {
+        "rank": 40,
+        "code": "DE",
+        "value": "31% gross margin"
+      },
+      {
+        "rank": 41,
+        "code": "GE",
+        "value": "27% gross margin"
+      },
+      {
+        "rank": 42,
+        "code": "MMM",
+        "value": "42% gross margin"
+      },
+      {
+        "rank": 43,
+        "code": "F",
+        "value": "8% gross margin"
+      },
+      {
+        "rank": 44,
+        "code": "GM",
+        "value": "12% gross margin"
+      },
+      {
+        "rank": 45,
+        "code": "TSLA",
+        "value": "18% gross margin"
+      },
+      {
+        "rank": 46,
+        "code": "XOM",
+        "value": "35% gross margin"
+      },
+      {
+        "rank": 47,
+        "code": "CVX",
+        "value": "40% gross margin"
+      },
+      {
+        "rank": 48,
+        "code": "COP",
+        "value": "44% gross margin"
+      },
+      {
+        "rank": 49,
+        "code": "VZ",
+        "value": "60% gross margin"
+      },
+      {
+        "rank": 50,
+        "code": "T",
+        "value": "60% gross margin"
       }
     ],
     "disclaimer": "Gross margin = (Revenue - Cost of Goods Sold) / Revenue. Software, payments, and pharma tend to lead. Values are approximate FY2023 GAAP.",
@@ -47895,7 +48930,7 @@
     "title": "Highest free cash flow (FY2023)",
     "prompt": "Name the US Fortune 500 companies with the highest annual free cash flow.",
     "answerType": "Companies",
-    "seededDepth": 15,
+    "seededDepth": 54,
     "source": {
       "name": "SEC 10-K filings (operating cash flow - capex)",
       "url": "https://www.sec.gov/edgar",
@@ -47977,6 +49012,201 @@
         "rank": 15,
         "code": "PEP",
         "value": "$7.9B free cash flow"
+      },
+      {
+        "rank": 16,
+        "code": "AVGO",
+        "value": "$17.6B free cash flow"
+      },
+      {
+        "rank": 17,
+        "code": "T",
+        "value": "$16.8B free cash flow"
+      },
+      {
+        "rank": 18,
+        "code": "VZ",
+        "value": "$18.7B free cash flow"
+      },
+      {
+        "rank": 19,
+        "code": "JPM",
+        "value": "$30.0B free cash flow"
+      },
+      {
+        "rank": 20,
+        "code": "COP",
+        "value": "$14.9B free cash flow"
+      },
+      {
+        "rank": 21,
+        "code": "MRK",
+        "value": "$13.0B free cash flow"
+      },
+      {
+        "rank": 22,
+        "code": "LLY",
+        "value": "$5.0B free cash flow"
+      },
+      {
+        "rank": 23,
+        "code": "HD",
+        "value": "$17.1B free cash flow"
+      },
+      {
+        "rank": 24,
+        "code": "CSCO",
+        "value": "$18.9B free cash flow"
+      },
+      {
+        "rank": 25,
+        "code": "IBM",
+        "value": "$11.2B free cash flow"
+      },
+      {
+        "rank": 26,
+        "code": "COST",
+        "value": "$6.7B free cash flow"
+      },
+      {
+        "rank": 27,
+        "code": "MCD",
+        "value": "$7.3B free cash flow"
+      },
+      {
+        "rank": 28,
+        "code": "PM",
+        "value": "$9.7B free cash flow"
+      },
+      {
+        "rank": 29,
+        "code": "MO",
+        "value": "$8.7B free cash flow"
+      },
+      {
+        "rank": 30,
+        "code": "UNH",
+        "value": "$25.7B free cash flow"
+      },
+      {
+        "rank": 31,
+        "code": "CVS",
+        "value": "$10.4B free cash flow"
+      },
+      {
+        "rank": 32,
+        "code": "WMT",
+        "value": "$15.1B free cash flow"
+      },
+      {
+        "rank": 33,
+        "code": "GILD",
+        "value": "$8.4B free cash flow"
+      },
+      {
+        "rank": 34,
+        "code": "PFE",
+        "value": "$5.0B free cash flow"
+      },
+      {
+        "rank": 35,
+        "code": "BMY",
+        "value": "$12.7B free cash flow"
+      },
+      {
+        "rank": 36,
+        "code": "TMO",
+        "value": "$6.8B free cash flow"
+      },
+      {
+        "rank": 37,
+        "code": "DHR",
+        "value": "$6.7B free cash flow"
+      },
+      {
+        "rank": 38,
+        "code": "TSLA",
+        "value": "$4.4B free cash flow"
+      },
+      {
+        "rank": 39,
+        "code": "NKE",
+        "value": "$5.8B free cash flow"
+      },
+      {
+        "rank": 40,
+        "code": "LOW",
+        "value": "$6.1B free cash flow"
+      },
+      {
+        "rank": 41,
+        "code": "TJX",
+        "value": "$5.3B free cash flow"
+      },
+      {
+        "rank": 42,
+        "code": "TGT",
+        "value": "$3.8B free cash flow"
+      },
+      {
+        "rank": 43,
+        "code": "LMT",
+        "value": "$5.9B free cash flow"
+      },
+      {
+        "rank": 44,
+        "code": "GD",
+        "value": "$2.9B free cash flow"
+      },
+      {
+        "rank": 45,
+        "code": "NOC",
+        "value": "$2.1B free cash flow"
+      },
+      {
+        "rank": 46,
+        "code": "RTX",
+        "value": "$5.5B free cash flow"
+      },
+      {
+        "rank": 47,
+        "code": "HON",
+        "value": "$4.3B free cash flow"
+      },
+      {
+        "rank": 48,
+        "code": "DE",
+        "value": "$8.6B free cash flow"
+      },
+      {
+        "rank": 49,
+        "code": "CAT",
+        "value": "$7.8B free cash flow"
+      },
+      {
+        "rank": 50,
+        "code": "F",
+        "value": "$6.7B free cash flow"
+      },
+      {
+        "rank": 51,
+        "code": "GM",
+        "value": "$11.7B free cash flow"
+      },
+      {
+        "rank": 52,
+        "code": "AXP",
+        "value": "$16.0B free cash flow"
+      },
+      {
+        "rank": 53,
+        "code": "MS",
+        "value": "$10.0B free cash flow"
+      },
+      {
+        "rank": 54,
+        "code": "GS",
+        "value": "$8.5B free cash flow"
       }
     ],
     "disclaimer": "Free cash flow = Operating cash flow - Capital expenditures, per each company's 10-K cash flow statement. Values in USD billions.",
@@ -47990,7 +49220,7 @@
     "title": "Highest price-to-earnings (P/E) ratio",
     "prompt": "Name the US Fortune 500 public companies with the highest trailing price-to-earnings (P/E) ratio.",
     "answerType": "Companies",
-    "seededDepth": 12,
+    "seededDepth": 50,
     "source": {
       "name": "stockanalysis.com / exchange data",
       "url": "https://stockanalysis.com/",
@@ -48057,6 +49287,196 @@
         "rank": 12,
         "code": "MCD",
         "value": "25x P/E"
+      },
+      {
+        "rank": 13,
+        "code": "PGR",
+        "value": "24x P/E"
+      },
+      {
+        "rank": 14,
+        "code": "HD",
+        "value": "23x P/E"
+      },
+      {
+        "rank": 15,
+        "code": "AVGO",
+        "value": "22x P/E"
+      },
+      {
+        "rank": 16,
+        "code": "ORCL",
+        "value": "21x P/E"
+      },
+      {
+        "rank": 17,
+        "code": "PEP",
+        "value": "21x P/E"
+      },
+      {
+        "rank": 18,
+        "code": "TMO",
+        "value": "20x P/E"
+      },
+      {
+        "rank": 19,
+        "code": "UNH",
+        "value": "20x P/E"
+      },
+      {
+        "rank": 20,
+        "code": "DHR",
+        "value": "20x P/E"
+      },
+      {
+        "rank": 21,
+        "code": "NKE",
+        "value": "20x P/E"
+      },
+      {
+        "rank": 22,
+        "code": "HON",
+        "value": "20x P/E"
+      },
+      {
+        "rank": 23,
+        "code": "DIS",
+        "value": "19x P/E"
+      },
+      {
+        "rank": 24,
+        "code": "KO",
+        "value": "19x P/E"
+      },
+      {
+        "rank": 25,
+        "code": "TJX",
+        "value": "19x P/E"
+      },
+      {
+        "rank": 26,
+        "code": "AXP",
+        "value": "18x P/E"
+      },
+      {
+        "rank": 27,
+        "code": "LOW",
+        "value": "18x P/E"
+      },
+      {
+        "rank": 28,
+        "code": "ABBV",
+        "value": "17x P/E"
+      },
+      {
+        "rank": 29,
+        "code": "UNP",
+        "value": "17x P/E"
+      },
+      {
+        "rank": 30,
+        "code": "PG",
+        "value": "17x P/E"
+      },
+      {
+        "rank": 31,
+        "code": "IBM",
+        "value": "16x P/E"
+      },
+      {
+        "rank": 32,
+        "code": "JNJ",
+        "value": "16x P/E"
+      },
+      {
+        "rank": 33,
+        "code": "MRK",
+        "value": "16x P/E"
+      },
+      {
+        "rank": 34,
+        "code": "LMT",
+        "value": "16x P/E"
+      },
+      {
+        "rank": 35,
+        "code": "CSCO",
+        "value": "15x P/E"
+      },
+      {
+        "rank": 36,
+        "code": "CAT",
+        "value": "15x P/E"
+      },
+      {
+        "rank": 37,
+        "code": "DE",
+        "value": "14x P/E"
+      },
+      {
+        "rank": 38,
+        "code": "JPM",
+        "value": "13x P/E"
+      },
+      {
+        "rank": 39,
+        "code": "MS",
+        "value": "13x P/E"
+      },
+      {
+        "rank": 40,
+        "code": "BAC",
+        "value": "12x P/E"
+      },
+      {
+        "rank": 41,
+        "code": "GS",
+        "value": "12x P/E"
+      },
+      {
+        "rank": 42,
+        "code": "XOM",
+        "value": "12x P/E"
+      },
+      {
+        "rank": 43,
+        "code": "CVX",
+        "value": "12x P/E"
+      },
+      {
+        "rank": 44,
+        "code": "WFC",
+        "value": "11x P/E"
+      },
+      {
+        "rank": 45,
+        "code": "C",
+        "value": "10x P/E"
+      },
+      {
+        "rank": 46,
+        "code": "COP",
+        "value": "10x P/E"
+      },
+      {
+        "rank": 47,
+        "code": "T",
+        "value": "9x P/E"
+      },
+      {
+        "rank": 48,
+        "code": "VZ",
+        "value": "9x P/E"
+      },
+      {
+        "rank": 49,
+        "code": "F",
+        "value": "8x P/E"
+      },
+      {
+        "rank": 50,
+        "code": "GM",
+        "value": "6x P/E"
       }
     ],
     "disclaimer": "Trailing P/E = share price / trailing 12-month EPS. Higher P/E indicates investors are paying more per dollar of current earnings, often for growth expectations. Only companies with positive earnings.",
@@ -48070,7 +49490,7 @@
     "title": "Highest long-term debt outstanding",
     "prompt": "Name the US Fortune 500 companies with the highest long-term debt on their balance sheet.",
     "answerType": "Companies",
-    "seededDepth": 14,
+    "seededDepth": 55,
     "source": {
       "name": "SEC 10-K filings (balance sheet: long-term debt)",
       "url": "https://www.sec.gov/edgar",
@@ -48147,6 +49567,211 @@
         "rank": 14,
         "code": "GOOGL",
         "value": "$13B long-term debt"
+      },
+      {
+        "rank": 15,
+        "code": "GS",
+        "value": "$258B long-term debt"
+      },
+      {
+        "rank": 16,
+        "code": "MS",
+        "value": "$266B long-term debt"
+      },
+      {
+        "rank": 17,
+        "code": "JPM",
+        "value": "$391B long-term debt"
+      },
+      {
+        "rank": 18,
+        "code": "BAC",
+        "value": "$293B long-term debt"
+      },
+      {
+        "rank": 19,
+        "code": "C",
+        "value": "$276B long-term debt"
+      },
+      {
+        "rank": 20,
+        "code": "WFC",
+        "value": "$208B long-term debt"
+      },
+      {
+        "rank": 21,
+        "code": "MET",
+        "value": "$16B long-term debt"
+      },
+      {
+        "rank": 22,
+        "code": "PRU",
+        "value": "$20B long-term debt"
+      },
+      {
+        "rank": 23,
+        "code": "COF",
+        "value": "$37B long-term debt"
+      },
+      {
+        "rank": 24,
+        "code": "AIG",
+        "value": "$10B long-term debt"
+      },
+      {
+        "rank": 25,
+        "code": "CVX",
+        "value": "$20B long-term debt"
+      },
+      {
+        "rank": 26,
+        "code": "COP",
+        "value": "$18B long-term debt"
+      },
+      {
+        "rank": 28,
+        "code": "CMCSA",
+        "value": "$95B long-term debt"
+      },
+      {
+        "rank": 29,
+        "code": "CHTR",
+        "value": "$96B long-term debt"
+      },
+      {
+        "rank": 30,
+        "code": "META",
+        "value": "$18B long-term debt"
+      },
+      {
+        "rank": 31,
+        "code": "NVDA",
+        "value": "$10B long-term debt"
+      },
+      {
+        "rank": 32,
+        "code": "IBM",
+        "value": "$50B long-term debt"
+      },
+      {
+        "rank": 33,
+        "code": "HON",
+        "value": "$16B long-term debt"
+      },
+      {
+        "rank": 34,
+        "code": "DE",
+        "value": "$43B long-term debt"
+      },
+      {
+        "rank": 35,
+        "code": "CAT",
+        "value": "$28B long-term debt"
+      },
+      {
+        "rank": 36,
+        "code": "GE",
+        "value": "$20B long-term debt"
+      },
+      {
+        "rank": 38,
+        "code": "LMT",
+        "value": "$17B long-term debt"
+      },
+      {
+        "rank": 39,
+        "code": "RTX",
+        "value": "$44B long-term debt"
+      },
+      {
+        "rank": 40,
+        "code": "MRK",
+        "value": "$32B long-term debt"
+      },
+      {
+        "rank": 41,
+        "code": "BMY",
+        "value": "$35B long-term debt"
+      },
+      {
+        "rank": 42,
+        "code": "LLY",
+        "value": "$20B long-term debt"
+      },
+      {
+        "rank": 43,
+        "code": "GILD",
+        "value": "$22B long-term debt"
+      },
+      {
+        "rank": 44,
+        "code": "CI",
+        "value": "$29B long-term debt"
+      },
+      {
+        "rank": 45,
+        "code": "HCA",
+        "value": "$38B long-term debt"
+      },
+      {
+        "rank": 46,
+        "code": "UNH",
+        "value": "$58B long-term debt"
+      },
+      {
+        "rank": 47,
+        "code": "HD",
+        "value": "$43B long-term debt"
+      },
+      {
+        "rank": 48,
+        "code": "LOW",
+        "value": "$35B long-term debt"
+      },
+      {
+        "rank": 49,
+        "code": "WMT",
+        "value": "$36B long-term debt"
+      },
+      {
+        "rank": 50,
+        "code": "COST",
+        "value": "$5B long-term debt"
+      },
+      {
+        "rank": 51,
+        "code": "TGT",
+        "value": "$16B long-term debt"
+      },
+      {
+        "rank": 52,
+        "code": "PEP",
+        "value": "$38B long-term debt"
+      },
+      {
+        "rank": 53,
+        "code": "KO",
+        "value": "$36B long-term debt"
+      },
+      {
+        "rank": 54,
+        "code": "MCD",
+        "value": "$37B long-term debt"
+      },
+      {
+        "rank": 55,
+        "code": "PM",
+        "value": "$28B long-term debt"
+      },
+      {
+        "rank": 56,
+        "code": "MO",
+        "value": "$23B long-term debt"
+      },
+      {
+        "rank": 57,
+        "code": "PG",
+        "value": "$25B long-term debt"
       }
     ],
     "disclaimer": "Long-term debt (excluding current portion) as disclosed on each company's balance sheet at fiscal year-end 2023. Excludes bank deposits and insurance liabilities. Values in USD billions.",
@@ -52240,7 +53865,7 @@
     "title": "Highest melting points",
     "prompt": "Rank the chemical elements with the highest melting points at standard pressure.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "CRC Handbook of Chemistry and Physics / WebElements",
       "url": "",
@@ -52322,6 +53947,181 @@
         "rank": 15,
         "code": "Pt",
         "value": "1768\u00b0C"
+      },
+      {
+        "rank": 16,
+        "code": "Th",
+        "value": "1750\u00b0C"
+      },
+      {
+        "rank": 17,
+        "code": "Lu",
+        "value": "1652\u00b0C"
+      },
+      {
+        "rank": 18,
+        "code": "Ti",
+        "value": "1668\u00b0C"
+      },
+      {
+        "rank": 19,
+        "code": "Tm",
+        "value": "1545\u00b0C"
+      },
+      {
+        "rank": 20,
+        "code": "Pd",
+        "value": "1555\u00b0C"
+      },
+      {
+        "rank": 21,
+        "code": "Sc",
+        "value": "1541\u00b0C"
+      },
+      {
+        "rank": 22,
+        "code": "Fe",
+        "value": "1538\u00b0C"
+      },
+      {
+        "rank": 23,
+        "code": "Y",
+        "value": "1526\u00b0C"
+      },
+      {
+        "rank": 24,
+        "code": "Er",
+        "value": "1529\u00b0C"
+      },
+      {
+        "rank": 25,
+        "code": "Co",
+        "value": "1495\u00b0C"
+      },
+      {
+        "rank": 26,
+        "code": "Ho",
+        "value": "1474\u00b0C"
+      },
+      {
+        "rank": 27,
+        "code": "Ni",
+        "value": "1455\u00b0C"
+      },
+      {
+        "rank": 28,
+        "code": "Dy",
+        "value": "1412\u00b0C"
+      },
+      {
+        "rank": 29,
+        "code": "Tb",
+        "value": "1356\u00b0C"
+      },
+      {
+        "rank": 30,
+        "code": "Gd",
+        "value": "1313\u00b0C"
+      },
+      {
+        "rank": 31,
+        "code": "Pa",
+        "value": "1568\u00b0C"
+      },
+      {
+        "rank": 32,
+        "code": "Be",
+        "value": "1287\u00b0C"
+      },
+      {
+        "rank": 33,
+        "code": "Mn",
+        "value": "1246\u00b0C"
+      },
+      {
+        "rank": 34,
+        "code": "Cu",
+        "value": "1085\u00b0C"
+      },
+      {
+        "rank": 35,
+        "code": "U",
+        "value": "1135\u00b0C"
+      },
+      {
+        "rank": 36,
+        "code": "Sm",
+        "value": "1072\u00b0C"
+      },
+      {
+        "rank": 37,
+        "code": "Au",
+        "value": "1064\u00b0C"
+      },
+      {
+        "rank": 38,
+        "code": "Ac",
+        "value": "1050\u00b0C"
+      },
+      {
+        "rank": 39,
+        "code": "Ag",
+        "value": "962\u00b0C"
+      },
+      {
+        "rank": 40,
+        "code": "Ge",
+        "value": "938\u00b0C"
+      },
+      {
+        "rank": 41,
+        "code": "Pr",
+        "value": "935\u00b0C"
+      },
+      {
+        "rank": 42,
+        "code": "Nd",
+        "value": "1024\u00b0C"
+      },
+      {
+        "rank": 43,
+        "code": "La",
+        "value": "920\u00b0C"
+      },
+      {
+        "rank": 44,
+        "code": "Ca",
+        "value": "842\u00b0C"
+      },
+      {
+        "rank": 45,
+        "code": "Ce",
+        "value": "795\u00b0C"
+      },
+      {
+        "rank": 46,
+        "code": "Eu",
+        "value": "822\u00b0C"
+      },
+      {
+        "rank": 47,
+        "code": "Yb",
+        "value": "819\u00b0C"
+      },
+      {
+        "rank": 48,
+        "code": "As",
+        "value": "817\u00b0C (sublimes)"
+      },
+      {
+        "rank": 49,
+        "code": "Sr",
+        "value": "777\u00b0C"
+      },
+      {
+        "rank": 50,
+        "code": "Ba",
+        "value": "727\u00b0C"
       }
     ],
     "disclaimer": null,
@@ -52335,7 +54135,7 @@
     "title": "Lowest melting points (ascending)",
     "prompt": "Rank the chemical elements by lowest melting point at standard pressure, coldest first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "NIST / CRC Handbook",
       "url": "",
@@ -52417,6 +54217,131 @@
         "rank": 15,
         "code": "Ga",
         "value": "29.8\u00b0C"
+      },
+      {
+        "rank": 16,
+        "code": "Rb",
+        "value": "39.3\u00b0C"
+      },
+      {
+        "rank": 17,
+        "code": "P",
+        "value": "44.2\u00b0C (white P)"
+      },
+      {
+        "rank": 18,
+        "code": "K",
+        "value": "63.5\u00b0C"
+      },
+      {
+        "rank": 19,
+        "code": "Na",
+        "value": "97.8\u00b0C"
+      },
+      {
+        "rank": 20,
+        "code": "S",
+        "value": "115.2\u00b0C"
+      },
+      {
+        "rank": 21,
+        "code": "I",
+        "value": "113.7\u00b0C"
+      },
+      {
+        "rank": 22,
+        "code": "In",
+        "value": "156.6\u00b0C"
+      },
+      {
+        "rank": 23,
+        "code": "Li",
+        "value": "180.5\u00b0C"
+      },
+      {
+        "rank": 24,
+        "code": "Se",
+        "value": "221\u00b0C"
+      },
+      {
+        "rank": 25,
+        "code": "Sn",
+        "value": "231.9\u00b0C"
+      },
+      {
+        "rank": 26,
+        "code": "Po",
+        "value": "254\u00b0C"
+      },
+      {
+        "rank": 27,
+        "code": "Bi",
+        "value": "271.4\u00b0C"
+      },
+      {
+        "rank": 28,
+        "code": "Tl",
+        "value": "304\u00b0C"
+      },
+      {
+        "rank": 29,
+        "code": "Cd",
+        "value": "321.1\u00b0C"
+      },
+      {
+        "rank": 30,
+        "code": "Pb",
+        "value": "327.5\u00b0C"
+      },
+      {
+        "rank": 31,
+        "code": "Zn",
+        "value": "419.5\u00b0C"
+      },
+      {
+        "rank": 32,
+        "code": "Te",
+        "value": "449.5\u00b0C"
+      },
+      {
+        "rank": 33,
+        "code": "Sb",
+        "value": "630.6\u00b0C"
+      },
+      {
+        "rank": 34,
+        "code": "Np",
+        "value": "644\u00b0C"
+      },
+      {
+        "rank": 35,
+        "code": "Pu",
+        "value": "639\u00b0C"
+      },
+      {
+        "rank": 36,
+        "code": "Mg",
+        "value": "650\u00b0C"
+      },
+      {
+        "rank": 37,
+        "code": "Al",
+        "value": "660.3\u00b0C"
+      },
+      {
+        "rank": 38,
+        "code": "Ra",
+        "value": "700\u00b0C"
+      },
+      {
+        "rank": 39,
+        "code": "Ba",
+        "value": "727\u00b0C"
+      },
+      {
+        "rank": 40,
+        "code": "Sr",
+        "value": "777\u00b0C"
       }
     ],
     "disclaimer": null,
@@ -52430,7 +54355,7 @@
     "title": "Highest density at STP (solids and liquids)",
     "prompt": "Rank the chemical elements by density at STP among elements that are solids or liquids at room temperature, densest first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "CRC Handbook / WebElements",
       "url": "",
@@ -52512,6 +54437,181 @@
         "rank": 15,
         "code": "Pb",
         "value": "11.34 g/cm3"
+      },
+      {
+        "rank": 16,
+        "code": "Ag",
+        "value": "10.49 g/cm3"
+      },
+      {
+        "rank": 17,
+        "code": "Mo",
+        "value": "10.28 g/cm3"
+      },
+      {
+        "rank": 18,
+        "code": "Bi",
+        "value": "9.78 g/cm3"
+      },
+      {
+        "rank": 19,
+        "code": "Th",
+        "value": "11.72 g/cm3"
+      },
+      {
+        "rank": 20,
+        "code": "Ac",
+        "value": "10.07 g/cm3"
+      },
+      {
+        "rank": 21,
+        "code": "Cu",
+        "value": "8.96 g/cm3"
+      },
+      {
+        "rank": 22,
+        "code": "Er",
+        "value": "9.07 g/cm3"
+      },
+      {
+        "rank": 23,
+        "code": "Ho",
+        "value": "8.79 g/cm3"
+      },
+      {
+        "rank": 24,
+        "code": "Ni",
+        "value": "8.91 g/cm3"
+      },
+      {
+        "rank": 25,
+        "code": "Co",
+        "value": "8.90 g/cm3"
+      },
+      {
+        "rank": 26,
+        "code": "Tb",
+        "value": "8.23 g/cm3"
+      },
+      {
+        "rank": 27,
+        "code": "Dy",
+        "value": "8.55 g/cm3"
+      },
+      {
+        "rank": 28,
+        "code": "Cd",
+        "value": "8.65 g/cm3"
+      },
+      {
+        "rank": 29,
+        "code": "Tm",
+        "value": "9.32 g/cm3"
+      },
+      {
+        "rank": 30,
+        "code": "Fe",
+        "value": "7.87 g/cm3"
+      },
+      {
+        "rank": 31,
+        "code": "Lu",
+        "value": "9.84 g/cm3"
+      },
+      {
+        "rank": 32,
+        "code": "Nb",
+        "value": "8.57 g/cm3"
+      },
+      {
+        "rank": 33,
+        "code": "Hf",
+        "value": "13.31 g/cm3"
+      },
+      {
+        "rank": 34,
+        "code": "Gd",
+        "value": "7.90 g/cm3"
+      },
+      {
+        "rank": 35,
+        "code": "Sm",
+        "value": "7.52 g/cm3"
+      },
+      {
+        "rank": 36,
+        "code": "Mn",
+        "value": "7.44 g/cm3"
+      },
+      {
+        "rank": 37,
+        "code": "Sn",
+        "value": "7.29 g/cm3"
+      },
+      {
+        "rank": 38,
+        "code": "In",
+        "value": "7.31 g/cm3"
+      },
+      {
+        "rank": 39,
+        "code": "Cr",
+        "value": "7.19 g/cm3"
+      },
+      {
+        "rank": 40,
+        "code": "Nd",
+        "value": "7.01 g/cm3"
+      },
+      {
+        "rank": 41,
+        "code": "Zn",
+        "value": "7.14 g/cm3"
+      },
+      {
+        "rank": 42,
+        "code": "Pr",
+        "value": "6.77 g/cm3"
+      },
+      {
+        "rank": 43,
+        "code": "Pm",
+        "value": "7.26 g/cm3"
+      },
+      {
+        "rank": 44,
+        "code": "Ce",
+        "value": "6.77 g/cm3"
+      },
+      {
+        "rank": 45,
+        "code": "La",
+        "value": "6.15 g/cm3"
+      },
+      {
+        "rank": 46,
+        "code": "Sb",
+        "value": "6.68 g/cm3"
+      },
+      {
+        "rank": 47,
+        "code": "Y",
+        "value": "4.47 g/cm3"
+      },
+      {
+        "rank": 48,
+        "code": "Yb",
+        "value": "6.90 g/cm3"
+      },
+      {
+        "rank": 49,
+        "code": "Zr",
+        "value": "6.51 g/cm3"
+      },
+      {
+        "rank": 50,
+        "code": "Eu",
+        "value": "5.24 g/cm3"
       }
     ],
     "disclaimer": null,
@@ -52600,7 +54700,7 @@
     "title": "Highest atomic numbers",
     "prompt": "Rank the chemical elements with the highest atomic numbers (protons per nucleus).",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "IUPAC periodic table",
       "url": "",
@@ -52682,6 +54782,181 @@
         "rank": 15,
         "code": "Rf",
         "value": "atomic number 104"
+      },
+      {
+        "rank": 16,
+        "code": "Lr",
+        "value": "atomic number 103"
+      },
+      {
+        "rank": 17,
+        "code": "No",
+        "value": "atomic number 102"
+      },
+      {
+        "rank": 18,
+        "code": "Md",
+        "value": "atomic number 101"
+      },
+      {
+        "rank": 19,
+        "code": "Fm",
+        "value": "atomic number 100"
+      },
+      {
+        "rank": 20,
+        "code": "Es",
+        "value": "atomic number 99"
+      },
+      {
+        "rank": 21,
+        "code": "Cf",
+        "value": "atomic number 98"
+      },
+      {
+        "rank": 22,
+        "code": "Bk",
+        "value": "atomic number 97"
+      },
+      {
+        "rank": 23,
+        "code": "Cm",
+        "value": "atomic number 96"
+      },
+      {
+        "rank": 24,
+        "code": "Am",
+        "value": "atomic number 95"
+      },
+      {
+        "rank": 25,
+        "code": "Pu",
+        "value": "atomic number 94"
+      },
+      {
+        "rank": 26,
+        "code": "Np",
+        "value": "atomic number 93"
+      },
+      {
+        "rank": 27,
+        "code": "U",
+        "value": "atomic number 92"
+      },
+      {
+        "rank": 28,
+        "code": "Pa",
+        "value": "atomic number 91"
+      },
+      {
+        "rank": 29,
+        "code": "Th",
+        "value": "atomic number 90"
+      },
+      {
+        "rank": 30,
+        "code": "Ac",
+        "value": "atomic number 89"
+      },
+      {
+        "rank": 31,
+        "code": "Ra",
+        "value": "atomic number 88"
+      },
+      {
+        "rank": 32,
+        "code": "Fr",
+        "value": "atomic number 87"
+      },
+      {
+        "rank": 33,
+        "code": "Rn",
+        "value": "atomic number 86"
+      },
+      {
+        "rank": 34,
+        "code": "At",
+        "value": "atomic number 85"
+      },
+      {
+        "rank": 35,
+        "code": "Po",
+        "value": "atomic number 84"
+      },
+      {
+        "rank": 36,
+        "code": "Bi",
+        "value": "atomic number 83"
+      },
+      {
+        "rank": 37,
+        "code": "Pb",
+        "value": "atomic number 82"
+      },
+      {
+        "rank": 38,
+        "code": "Tl",
+        "value": "atomic number 81"
+      },
+      {
+        "rank": 39,
+        "code": "Hg",
+        "value": "atomic number 80"
+      },
+      {
+        "rank": 40,
+        "code": "Au",
+        "value": "atomic number 79"
+      },
+      {
+        "rank": 41,
+        "code": "Pt",
+        "value": "atomic number 78"
+      },
+      {
+        "rank": 42,
+        "code": "Ir",
+        "value": "atomic number 77"
+      },
+      {
+        "rank": 43,
+        "code": "Os",
+        "value": "atomic number 76"
+      },
+      {
+        "rank": 44,
+        "code": "Re",
+        "value": "atomic number 75"
+      },
+      {
+        "rank": 45,
+        "code": "W",
+        "value": "atomic number 74"
+      },
+      {
+        "rank": 46,
+        "code": "Ta",
+        "value": "atomic number 73"
+      },
+      {
+        "rank": 47,
+        "code": "Hf",
+        "value": "atomic number 72"
+      },
+      {
+        "rank": 48,
+        "code": "Lu",
+        "value": "atomic number 71"
+      },
+      {
+        "rank": 49,
+        "code": "Yb",
+        "value": "atomic number 70"
+      },
+      {
+        "rank": 50,
+        "code": "Tm",
+        "value": "atomic number 69"
       }
     ],
     "disclaimer": null,
@@ -52695,7 +54970,7 @@
     "title": "Lowest standard atomic weights (ascending)",
     "prompt": "Rank the chemical elements by standard atomic weight, lightest first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "IUPAC 2021 standard atomic weights",
       "url": "",
@@ -52777,6 +55052,181 @@
         "rank": 15,
         "code": "P",
         "value": "30.974 u"
+      },
+      {
+        "rank": 16,
+        "code": "S",
+        "value": "32.06 u"
+      },
+      {
+        "rank": 17,
+        "code": "Cl",
+        "value": "35.45 u"
+      },
+      {
+        "rank": 18,
+        "code": "Ar",
+        "value": "39.95 u"
+      },
+      {
+        "rank": 19,
+        "code": "K",
+        "value": "39.098 u"
+      },
+      {
+        "rank": 20,
+        "code": "Ca",
+        "value": "40.078 u"
+      },
+      {
+        "rank": 21,
+        "code": "Sc",
+        "value": "44.956 u"
+      },
+      {
+        "rank": 22,
+        "code": "Ti",
+        "value": "47.867 u"
+      },
+      {
+        "rank": 23,
+        "code": "V",
+        "value": "50.942 u"
+      },
+      {
+        "rank": 24,
+        "code": "Cr",
+        "value": "51.996 u"
+      },
+      {
+        "rank": 25,
+        "code": "Mn",
+        "value": "54.938 u"
+      },
+      {
+        "rank": 26,
+        "code": "Fe",
+        "value": "55.845 u"
+      },
+      {
+        "rank": 27,
+        "code": "Ni",
+        "value": "58.693 u"
+      },
+      {
+        "rank": 28,
+        "code": "Co",
+        "value": "58.933 u"
+      },
+      {
+        "rank": 29,
+        "code": "Cu",
+        "value": "63.546 u"
+      },
+      {
+        "rank": 30,
+        "code": "Zn",
+        "value": "65.38 u"
+      },
+      {
+        "rank": 31,
+        "code": "Ga",
+        "value": "69.723 u"
+      },
+      {
+        "rank": 32,
+        "code": "Ge",
+        "value": "72.630 u"
+      },
+      {
+        "rank": 33,
+        "code": "As",
+        "value": "74.922 u"
+      },
+      {
+        "rank": 34,
+        "code": "Se",
+        "value": "78.971 u"
+      },
+      {
+        "rank": 35,
+        "code": "Br",
+        "value": "79.904 u"
+      },
+      {
+        "rank": 36,
+        "code": "Kr",
+        "value": "83.798 u"
+      },
+      {
+        "rank": 37,
+        "code": "Rb",
+        "value": "85.468 u"
+      },
+      {
+        "rank": 38,
+        "code": "Sr",
+        "value": "87.62 u"
+      },
+      {
+        "rank": 39,
+        "code": "Y",
+        "value": "88.906 u"
+      },
+      {
+        "rank": 40,
+        "code": "Zr",
+        "value": "91.224 u"
+      },
+      {
+        "rank": 41,
+        "code": "Nb",
+        "value": "92.906 u"
+      },
+      {
+        "rank": 42,
+        "code": "Mo",
+        "value": "95.95 u"
+      },
+      {
+        "rank": 43,
+        "code": "Tc",
+        "value": "98 u"
+      },
+      {
+        "rank": 44,
+        "code": "Ru",
+        "value": "101.07 u"
+      },
+      {
+        "rank": 45,
+        "code": "Rh",
+        "value": "102.906 u"
+      },
+      {
+        "rank": 46,
+        "code": "Pd",
+        "value": "106.42 u"
+      },
+      {
+        "rank": 47,
+        "code": "Ag",
+        "value": "107.868 u"
+      },
+      {
+        "rank": 48,
+        "code": "Cd",
+        "value": "112.414 u"
+      },
+      {
+        "rank": 49,
+        "code": "In",
+        "value": "114.818 u"
+      },
+      {
+        "rank": 50,
+        "code": "Sn",
+        "value": "118.710 u"
       }
     ],
     "disclaimer": null,
@@ -52790,7 +55240,7 @@
     "title": "Hardest elements on the Mohs scale",
     "prompt": "Rank the chemical elements by hardness of their hardest naturally occurring allotrope on the Mohs scale.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "CRC Handbook / WebElements",
       "url": "",
@@ -52872,6 +55322,181 @@
         "rank": 12,
         "code": "U",
         "value": "Mohs 6.0"
+      },
+      {
+        "rank": 16,
+        "code": "Mn",
+        "value": "Mohs 6.0"
+      },
+      {
+        "rank": 17,
+        "code": "Nb",
+        "value": "Mohs 6.0"
+      },
+      {
+        "rank": 18,
+        "code": "Be",
+        "value": "Mohs 5.5"
+      },
+      {
+        "rank": 19,
+        "code": "Mo",
+        "value": "Mohs 5.5"
+      },
+      {
+        "rank": 20,
+        "code": "Hf",
+        "value": "Mohs 5.5"
+      },
+      {
+        "rank": 21,
+        "code": "Co",
+        "value": "Mohs 5.0"
+      },
+      {
+        "rank": 21,
+        "code": "Ni",
+        "value": "Mohs 4.0"
+      },
+      {
+        "rank": 23,
+        "code": "As",
+        "value": "Mohs 3.5"
+      },
+      {
+        "rank": 24,
+        "code": "Fe",
+        "value": "Mohs 4.0"
+      },
+      {
+        "rank": 25,
+        "code": "Pd",
+        "value": "Mohs 4.75"
+      },
+      {
+        "rank": 26,
+        "code": "Pt",
+        "value": "Mohs 3.5"
+      },
+      {
+        "rank": 27,
+        "code": "Zr",
+        "value": "Mohs 5.0"
+      },
+      {
+        "rank": 28,
+        "code": "Sc",
+        "value": "Mohs 5.0"
+      },
+      {
+        "rank": 29,
+        "code": "Y",
+        "value": "Mohs 4.5"
+      },
+      {
+        "rank": 30,
+        "code": "Cu",
+        "value": "Mohs 3.0"
+      },
+      {
+        "rank": 31,
+        "code": "Zn",
+        "value": "Mohs 2.5"
+      },
+      {
+        "rank": 32,
+        "code": "Sb",
+        "value": "Mohs 3.0"
+      },
+      {
+        "rank": 33,
+        "code": "Al",
+        "value": "Mohs 2.75"
+      },
+      {
+        "rank": 34,
+        "code": "Au",
+        "value": "Mohs 2.5"
+      },
+      {
+        "rank": 35,
+        "code": "Ag",
+        "value": "Mohs 2.5"
+      },
+      {
+        "rank": 36,
+        "code": "Mg",
+        "value": "Mohs 2.5"
+      },
+      {
+        "rank": 37,
+        "code": "S",
+        "value": "Mohs 2.0"
+      },
+      {
+        "rank": 38,
+        "code": "Ca",
+        "value": "Mohs 1.75"
+      },
+      {
+        "rank": 39,
+        "code": "Bi",
+        "value": "Mohs 2.25"
+      },
+      {
+        "rank": 40,
+        "code": "Cd",
+        "value": "Mohs 2.0"
+      },
+      {
+        "rank": 41,
+        "code": "Te",
+        "value": "Mohs 2.25"
+      },
+      {
+        "rank": 42,
+        "code": "Se",
+        "value": "Mohs 2.0"
+      },
+      {
+        "rank": 43,
+        "code": "In",
+        "value": "Mohs 1.2"
+      },
+      {
+        "rank": 44,
+        "code": "Sn",
+        "value": "Mohs 1.5"
+      },
+      {
+        "rank": 45,
+        "code": "Pb",
+        "value": "Mohs 1.5"
+      },
+      {
+        "rank": 46,
+        "code": "Tl",
+        "value": "Mohs 1.2"
+      },
+      {
+        "rank": 47,
+        "code": "Ba",
+        "value": "Mohs 1.25"
+      },
+      {
+        "rank": 48,
+        "code": "Sr",
+        "value": "Mohs 1.5"
+      },
+      {
+        "rank": 49,
+        "code": "Na",
+        "value": "Mohs 0.5"
+      },
+      {
+        "rank": 50,
+        "code": "Li",
+        "value": "Mohs 0.6"
       }
     ],
     "disclaimer": null,
@@ -52885,7 +55510,7 @@
     "title": "Most electronegative elements (Pauling scale)",
     "prompt": "Rank the chemical elements by electronegativity on the Pauling scale, highest first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "Pauling scale / CRC Handbook",
       "url": "",
@@ -52967,6 +55592,181 @@
         "rank": 15,
         "code": "P",
         "value": "2.19 Pauling"
+      },
+      {
+        "rank": 16,
+        "code": "At",
+        "value": "2.20 Pauling"
+      },
+      {
+        "rank": 17,
+        "code": "Ir",
+        "value": "2.20 Pauling"
+      },
+      {
+        "rank": 18,
+        "code": "Pd",
+        "value": "2.20 Pauling"
+      },
+      {
+        "rank": 19,
+        "code": "Os",
+        "value": "2.20 Pauling"
+      },
+      {
+        "rank": 20,
+        "code": "Rn",
+        "value": "2.20 Pauling"
+      },
+      {
+        "rank": 21,
+        "code": "Rh",
+        "value": "2.28 Pauling"
+      },
+      {
+        "rank": 22,
+        "code": "Ru",
+        "value": "2.20 Pauling"
+      },
+      {
+        "rank": 23,
+        "code": "Ag",
+        "value": "1.93 Pauling"
+      },
+      {
+        "rank": 24,
+        "code": "As",
+        "value": "2.18 Pauling"
+      },
+      {
+        "rank": 25,
+        "code": "B",
+        "value": "2.04 Pauling"
+      },
+      {
+        "rank": 26,
+        "code": "Ge",
+        "value": "2.01 Pauling"
+      },
+      {
+        "rank": 27,
+        "code": "Sb",
+        "value": "2.05 Pauling"
+      },
+      {
+        "rank": 28,
+        "code": "Te",
+        "value": "2.10 Pauling"
+      },
+      {
+        "rank": 29,
+        "code": "Cu",
+        "value": "1.90 Pauling"
+      },
+      {
+        "rank": 30,
+        "code": "Bi",
+        "value": "2.02 Pauling"
+      },
+      {
+        "rank": 31,
+        "code": "Ni",
+        "value": "1.91 Pauling"
+      },
+      {
+        "rank": 32,
+        "code": "Co",
+        "value": "1.88 Pauling"
+      },
+      {
+        "rank": 33,
+        "code": "Hg",
+        "value": "2.00 Pauling"
+      },
+      {
+        "rank": 34,
+        "code": "Po",
+        "value": "2.00 Pauling"
+      },
+      {
+        "rank": 35,
+        "code": "Re",
+        "value": "1.90 Pauling"
+      },
+      {
+        "rank": 36,
+        "code": "Tc",
+        "value": "1.90 Pauling"
+      },
+      {
+        "rank": 37,
+        "code": "Fe",
+        "value": "1.83 Pauling"
+      },
+      {
+        "rank": 38,
+        "code": "Mo",
+        "value": "2.16 Pauling"
+      },
+      {
+        "rank": 39,
+        "code": "W",
+        "value": "2.36 Pauling"
+      },
+      {
+        "rank": 40,
+        "code": "Si",
+        "value": "1.90 Pauling"
+      },
+      {
+        "rank": 41,
+        "code": "Ga",
+        "value": "1.81 Pauling"
+      },
+      {
+        "rank": 42,
+        "code": "Sn",
+        "value": "1.96 Pauling"
+      },
+      {
+        "rank": 43,
+        "code": "Pb",
+        "value": "2.33 Pauling"
+      },
+      {
+        "rank": 44,
+        "code": "Tl",
+        "value": "1.62 Pauling"
+      },
+      {
+        "rank": 45,
+        "code": "In",
+        "value": "1.78 Pauling"
+      },
+      {
+        "rank": 46,
+        "code": "Cd",
+        "value": "1.69 Pauling"
+      },
+      {
+        "rank": 47,
+        "code": "Zn",
+        "value": "1.65 Pauling"
+      },
+      {
+        "rank": 48,
+        "code": "Mn",
+        "value": "1.55 Pauling"
+      },
+      {
+        "rank": 49,
+        "code": "Cr",
+        "value": "1.66 Pauling"
+      },
+      {
+        "rank": 50,
+        "code": "V",
+        "value": "1.63 Pauling"
       }
     ],
     "disclaimer": null,
@@ -53170,7 +55970,7 @@
     "title": "Highest standard atomic weights",
     "prompt": "Rank the chemical elements by highest standard atomic weight, heaviest first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 118,
     "source": {
       "name": "IUPAC 2021 / most stable isotope mass for synthetics",
       "url": "",
@@ -53252,6 +56052,521 @@
         "rank": 15,
         "code": "Rf",
         "value": "atomic weight 267"
+      },
+      {
+        "rank": 16,
+        "code": "Lr",
+        "value": "atomic weight 266"
+      },
+      {
+        "rank": 17,
+        "code": "No",
+        "value": "atomic weight 259"
+      },
+      {
+        "rank": 18,
+        "code": "Md",
+        "value": "atomic weight 258"
+      },
+      {
+        "rank": 19,
+        "code": "Fm",
+        "value": "atomic weight 257"
+      },
+      {
+        "rank": 20,
+        "code": "Es",
+        "value": "atomic weight 252"
+      },
+      {
+        "rank": 21,
+        "code": "Cf",
+        "value": "atomic weight 251"
+      },
+      {
+        "rank": 22,
+        "code": "Bk",
+        "value": "atomic weight 247"
+      },
+      {
+        "rank": 22,
+        "code": "Cm",
+        "value": "atomic weight 247"
+      },
+      {
+        "rank": 24,
+        "code": "Am",
+        "value": "atomic weight 243"
+      },
+      {
+        "rank": 25,
+        "code": "Pu",
+        "value": "atomic weight 244"
+      },
+      {
+        "rank": 26,
+        "code": "Np",
+        "value": "atomic weight 237"
+      },
+      {
+        "rank": 27,
+        "code": "U",
+        "value": "238.03"
+      },
+      {
+        "rank": 28,
+        "code": "Pa",
+        "value": "231.04"
+      },
+      {
+        "rank": 29,
+        "code": "Th",
+        "value": "232.04"
+      },
+      {
+        "rank": 30,
+        "code": "Ac",
+        "value": "atomic weight 227"
+      },
+      {
+        "rank": 31,
+        "code": "Ra",
+        "value": "atomic weight 226"
+      },
+      {
+        "rank": 32,
+        "code": "Fr",
+        "value": "atomic weight 223"
+      },
+      {
+        "rank": 33,
+        "code": "Rn",
+        "value": "atomic weight 222"
+      },
+      {
+        "rank": 34,
+        "code": "At",
+        "value": "atomic weight 210"
+      },
+      {
+        "rank": 35,
+        "code": "Po",
+        "value": "atomic weight 209"
+      },
+      {
+        "rank": 36,
+        "code": "Bi",
+        "value": "208.98"
+      },
+      {
+        "rank": 37,
+        "code": "Pb",
+        "value": "207.2"
+      },
+      {
+        "rank": 38,
+        "code": "Tl",
+        "value": "204.38"
+      },
+      {
+        "rank": 39,
+        "code": "Hg",
+        "value": "200.59"
+      },
+      {
+        "rank": 40,
+        "code": "Au",
+        "value": "196.97"
+      },
+      {
+        "rank": 41,
+        "code": "Pt",
+        "value": "195.08"
+      },
+      {
+        "rank": 42,
+        "code": "Ir",
+        "value": "192.22"
+      },
+      {
+        "rank": 43,
+        "code": "Os",
+        "value": "190.23"
+      },
+      {
+        "rank": 44,
+        "code": "Re",
+        "value": "186.21"
+      },
+      {
+        "rank": 45,
+        "code": "W",
+        "value": "183.84"
+      },
+      {
+        "rank": 46,
+        "code": "Ta",
+        "value": "180.95"
+      },
+      {
+        "rank": 47,
+        "code": "Hf",
+        "value": "178.49"
+      },
+      {
+        "rank": 48,
+        "code": "Lu",
+        "value": "174.97"
+      },
+      {
+        "rank": 49,
+        "code": "Yb",
+        "value": "173.05"
+      },
+      {
+        "rank": 50,
+        "code": "Tm",
+        "value": "168.93"
+      },
+      {
+        "rank": 51,
+        "code": "Er",
+        "value": "167.26"
+      },
+      {
+        "rank": 52,
+        "code": "Ho",
+        "value": "164.93"
+      },
+      {
+        "rank": 53,
+        "code": "Dy",
+        "value": "162.50"
+      },
+      {
+        "rank": 54,
+        "code": "Tb",
+        "value": "158.93"
+      },
+      {
+        "rank": 55,
+        "code": "Gd",
+        "value": "157.25"
+      },
+      {
+        "rank": 56,
+        "code": "Eu",
+        "value": "151.96"
+      },
+      {
+        "rank": 57,
+        "code": "Sm",
+        "value": "150.36"
+      },
+      {
+        "rank": 58,
+        "code": "Pm",
+        "value": "atomic weight 145"
+      },
+      {
+        "rank": 59,
+        "code": "Nd",
+        "value": "144.24"
+      },
+      {
+        "rank": 60,
+        "code": "Pr",
+        "value": "140.91"
+      },
+      {
+        "rank": 61,
+        "code": "Ce",
+        "value": "140.12"
+      },
+      {
+        "rank": 62,
+        "code": "La",
+        "value": "138.91"
+      },
+      {
+        "rank": 63,
+        "code": "Ba",
+        "value": "137.33"
+      },
+      {
+        "rank": 64,
+        "code": "Cs",
+        "value": "132.91"
+      },
+      {
+        "rank": 65,
+        "code": "Xe",
+        "value": "131.29"
+      },
+      {
+        "rank": 66,
+        "code": "I",
+        "value": "126.90"
+      },
+      {
+        "rank": 67,
+        "code": "Te",
+        "value": "127.60"
+      },
+      {
+        "rank": 68,
+        "code": "Sb",
+        "value": "121.76"
+      },
+      {
+        "rank": 69,
+        "code": "Sn",
+        "value": "118.71"
+      },
+      {
+        "rank": 70,
+        "code": "In",
+        "value": "114.82"
+      },
+      {
+        "rank": 71,
+        "code": "Cd",
+        "value": "112.41"
+      },
+      {
+        "rank": 72,
+        "code": "Ag",
+        "value": "107.87"
+      },
+      {
+        "rank": 73,
+        "code": "Pd",
+        "value": "106.42"
+      },
+      {
+        "rank": 74,
+        "code": "Rh",
+        "value": "102.91"
+      },
+      {
+        "rank": 75,
+        "code": "Ru",
+        "value": "101.07"
+      },
+      {
+        "rank": 76,
+        "code": "Tc",
+        "value": "atomic weight 98"
+      },
+      {
+        "rank": 77,
+        "code": "Mo",
+        "value": "95.95"
+      },
+      {
+        "rank": 78,
+        "code": "Nb",
+        "value": "92.91"
+      },
+      {
+        "rank": 79,
+        "code": "Zr",
+        "value": "91.22"
+      },
+      {
+        "rank": 80,
+        "code": "Y",
+        "value": "88.91"
+      },
+      {
+        "rank": 81,
+        "code": "Sr",
+        "value": "87.62"
+      },
+      {
+        "rank": 82,
+        "code": "Rb",
+        "value": "85.47"
+      },
+      {
+        "rank": 83,
+        "code": "Kr",
+        "value": "83.80"
+      },
+      {
+        "rank": 84,
+        "code": "Br",
+        "value": "79.90"
+      },
+      {
+        "rank": 85,
+        "code": "Se",
+        "value": "78.97"
+      },
+      {
+        "rank": 86,
+        "code": "As",
+        "value": "74.92"
+      },
+      {
+        "rank": 87,
+        "code": "Ge",
+        "value": "72.63"
+      },
+      {
+        "rank": 88,
+        "code": "Ga",
+        "value": "69.72"
+      },
+      {
+        "rank": 89,
+        "code": "Zn",
+        "value": "65.38"
+      },
+      {
+        "rank": 90,
+        "code": "Cu",
+        "value": "63.55"
+      },
+      {
+        "rank": 91,
+        "code": "Ni",
+        "value": "58.69"
+      },
+      {
+        "rank": 92,
+        "code": "Co",
+        "value": "58.93"
+      },
+      {
+        "rank": 93,
+        "code": "Fe",
+        "value": "55.85"
+      },
+      {
+        "rank": 94,
+        "code": "Mn",
+        "value": "54.94"
+      },
+      {
+        "rank": 95,
+        "code": "Cr",
+        "value": "52.00"
+      },
+      {
+        "rank": 96,
+        "code": "V",
+        "value": "50.94"
+      },
+      {
+        "rank": 97,
+        "code": "Ti",
+        "value": "47.87"
+      },
+      {
+        "rank": 98,
+        "code": "Sc",
+        "value": "44.96"
+      },
+      {
+        "rank": 99,
+        "code": "Ca",
+        "value": "40.08"
+      },
+      {
+        "rank": 100,
+        "code": "K",
+        "value": "39.10"
+      },
+      {
+        "rank": 101,
+        "code": "Ar",
+        "value": "39.95"
+      },
+      {
+        "rank": 102,
+        "code": "Cl",
+        "value": "35.45"
+      },
+      {
+        "rank": 103,
+        "code": "S",
+        "value": "32.06"
+      },
+      {
+        "rank": 104,
+        "code": "P",
+        "value": "30.97"
+      },
+      {
+        "rank": 105,
+        "code": "Si",
+        "value": "28.09"
+      },
+      {
+        "rank": 106,
+        "code": "Al",
+        "value": "26.98"
+      },
+      {
+        "rank": 107,
+        "code": "Mg",
+        "value": "24.31"
+      },
+      {
+        "rank": 108,
+        "code": "Na",
+        "value": "22.99"
+      },
+      {
+        "rank": 109,
+        "code": "Ne",
+        "value": "20.18"
+      },
+      {
+        "rank": 110,
+        "code": "F",
+        "value": "19.00"
+      },
+      {
+        "rank": 111,
+        "code": "O",
+        "value": "16.00"
+      },
+      {
+        "rank": 112,
+        "code": "N",
+        "value": "14.01"
+      },
+      {
+        "rank": 113,
+        "code": "C",
+        "value": "12.01"
+      },
+      {
+        "rank": 114,
+        "code": "B",
+        "value": "10.81"
+      },
+      {
+        "rank": 115,
+        "code": "Be",
+        "value": "9.01"
+      },
+      {
+        "rank": 116,
+        "code": "Li",
+        "value": "6.94"
+      },
+      {
+        "rank": 117,
+        "code": "He",
+        "value": "4.00"
+      },
+      {
+        "rank": 118,
+        "code": "H",
+        "value": "1.008"
       }
     ],
     "disclaimer": null,
@@ -53265,7 +56580,7 @@
     "title": "Highest boiling points (at standard pressure)",
     "prompt": "Rank the chemical elements by boiling point at standard pressure, highest first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "CRC Handbook / WebElements",
       "url": "",
@@ -53347,6 +56662,181 @@
         "rank": 15,
         "code": "V",
         "value": "3407\u00b0C"
+      },
+      {
+        "rank": 16,
+        "code": "Th",
+        "value": "3300\u00b0C"
+      },
+      {
+        "rank": 17,
+        "code": "Pt",
+        "value": "3825\u00b0C"
+      },
+      {
+        "rank": 18,
+        "code": "Ti",
+        "value": "3287\u00b0C"
+      },
+      {
+        "rank": 19,
+        "code": "Lu",
+        "value": "3402\u00b0C"
+      },
+      {
+        "rank": 20,
+        "code": "U",
+        "value": "4131\u00b0C"
+      },
+      {
+        "rank": 21,
+        "code": "Pa",
+        "value": "4027\u00b0C"
+      },
+      {
+        "rank": 22,
+        "code": "Y",
+        "value": "3345\u00b0C"
+      },
+      {
+        "rank": 23,
+        "code": "Fe",
+        "value": "2861\u00b0C"
+      },
+      {
+        "rank": 24,
+        "code": "Ni",
+        "value": "2913\u00b0C"
+      },
+      {
+        "rank": 25,
+        "code": "Co",
+        "value": "2927\u00b0C"
+      },
+      {
+        "rank": 26,
+        "code": "Sc",
+        "value": "2836\u00b0C"
+      },
+      {
+        "rank": 27,
+        "code": "Pd",
+        "value": "2963\u00b0C"
+      },
+      {
+        "rank": 28,
+        "code": "Si",
+        "value": "3265\u00b0C"
+      },
+      {
+        "rank": 29,
+        "code": "Cr",
+        "value": "2671\u00b0C"
+      },
+      {
+        "rank": 30,
+        "code": "Au",
+        "value": "2856\u00b0C"
+      },
+      {
+        "rank": 31,
+        "code": "Cu",
+        "value": "2562\u00b0C"
+      },
+      {
+        "rank": 32,
+        "code": "La",
+        "value": "3464\u00b0C"
+      },
+      {
+        "rank": 33,
+        "code": "Ce",
+        "value": "3443\u00b0C"
+      },
+      {
+        "rank": 34,
+        "code": "Pr",
+        "value": "3520\u00b0C"
+      },
+      {
+        "rank": 35,
+        "code": "Nd",
+        "value": "3074\u00b0C"
+      },
+      {
+        "rank": 36,
+        "code": "Gd",
+        "value": "3273\u00b0C"
+      },
+      {
+        "rank": 37,
+        "code": "Tb",
+        "value": "3230\u00b0C"
+      },
+      {
+        "rank": 38,
+        "code": "Dy",
+        "value": "2567\u00b0C"
+      },
+      {
+        "rank": 39,
+        "code": "Ho",
+        "value": "2700\u00b0C"
+      },
+      {
+        "rank": 40,
+        "code": "Er",
+        "value": "2868\u00b0C"
+      },
+      {
+        "rank": 41,
+        "code": "Al",
+        "value": "2519\u00b0C"
+      },
+      {
+        "rank": 42,
+        "code": "Be",
+        "value": "2469\u00b0C"
+      },
+      {
+        "rank": 43,
+        "code": "Mn",
+        "value": "2061\u00b0C"
+      },
+      {
+        "rank": 44,
+        "code": "Ag",
+        "value": "2162\u00b0C"
+      },
+      {
+        "rank": 45,
+        "code": "Ge",
+        "value": "2833\u00b0C"
+      },
+      {
+        "rank": 46,
+        "code": "Sm",
+        "value": "1794\u00b0C"
+      },
+      {
+        "rank": 47,
+        "code": "Sn",
+        "value": "2602\u00b0C"
+      },
+      {
+        "rank": 48,
+        "code": "As",
+        "value": "614\u00b0C (sublimes)"
+      },
+      {
+        "rank": 49,
+        "code": "Ga",
+        "value": "2400\u00b0C"
+      },
+      {
+        "rank": 50,
+        "code": "In",
+        "value": "2072\u00b0C"
       }
     ],
     "disclaimer": null,
@@ -53360,7 +56850,7 @@
     "title": "Lowest boiling points (cryogenic, ascending)",
     "prompt": "Rank the chemical elements by boiling point at standard pressure, lowest (most cryogenic) first.",
     "answerType": "Chemical Elements",
-    "seededDepth": 15,
+    "seededDepth": 40,
     "source": {
       "name": "NIST / CRC Handbook",
       "url": "",
@@ -53442,6 +56932,131 @@
         "rank": 15,
         "code": "Fr",
         "value": "677\u00b0C (estimated)"
+      },
+      {
+        "rank": 16,
+        "code": "Cs",
+        "value": "671\u00b0C"
+      },
+      {
+        "rank": 17,
+        "code": "I",
+        "value": "184.3\u00b0C"
+      },
+      {
+        "rank": 18,
+        "code": "P",
+        "value": "280.5\u00b0C (white P)"
+      },
+      {
+        "rank": 19,
+        "code": "S",
+        "value": "444.6\u00b0C"
+      },
+      {
+        "rank": 20,
+        "code": "Rb",
+        "value": "688\u00b0C"
+      },
+      {
+        "rank": 21,
+        "code": "Se",
+        "value": "685\u00b0C"
+      },
+      {
+        "rank": 22,
+        "code": "K",
+        "value": "759\u00b0C"
+      },
+      {
+        "rank": 23,
+        "code": "Cd",
+        "value": "767\u00b0C"
+      },
+      {
+        "rank": 24,
+        "code": "Na",
+        "value": "883\u00b0C"
+      },
+      {
+        "rank": 25,
+        "code": "Zn",
+        "value": "907\u00b0C"
+      },
+      {
+        "rank": 26,
+        "code": "Po",
+        "value": "962\u00b0C"
+      },
+      {
+        "rank": 27,
+        "code": "Te",
+        "value": "988\u00b0C"
+      },
+      {
+        "rank": 28,
+        "code": "Mg",
+        "value": "1090\u00b0C"
+      },
+      {
+        "rank": 29,
+        "code": "As",
+        "value": "614\u00b0C (sublimes)"
+      },
+      {
+        "rank": 30,
+        "code": "Li",
+        "value": "1342\u00b0C"
+      },
+      {
+        "rank": 31,
+        "code": "Yb",
+        "value": "1196\u00b0C"
+      },
+      {
+        "rank": 32,
+        "code": "Tl",
+        "value": "1473\u00b0C"
+      },
+      {
+        "rank": 33,
+        "code": "Bi",
+        "value": "1564\u00b0C"
+      },
+      {
+        "rank": 34,
+        "code": "Pb",
+        "value": "1749\u00b0C"
+      },
+      {
+        "rank": 35,
+        "code": "Ba",
+        "value": "1897\u00b0C"
+      },
+      {
+        "rank": 36,
+        "code": "Sb",
+        "value": "1587\u00b0C"
+      },
+      {
+        "rank": 37,
+        "code": "Sr",
+        "value": "1382\u00b0C"
+      },
+      {
+        "rank": 38,
+        "code": "Ca",
+        "value": "1484\u00b0C"
+      },
+      {
+        "rank": 39,
+        "code": "Eu",
+        "value": "1529\u00b0C"
+      },
+      {
+        "rank": 40,
+        "code": "Tm",
+        "value": "1950\u00b0C"
       }
     ],
     "disclaimer": null,
@@ -153725,7 +157340,7 @@
     "title": "Most LPGA Tour tournament winners",
     "prompt": "Name the countries with the most individual golfers who have won at least one LPGA Tour tournament.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 LPGA Tour",
       "url": "https://en.wikipedia.org/wiki/LPGA_Tour",
@@ -153795,6 +157410,71 @@
         "rank": 12,
         "code": "DE",
         "value": "4 winners"
+      },
+      {
+        "rank": 13,
+        "code": "NO",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "TH",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ZA",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PH",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "CN",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PY",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "FI",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CO",
+        "value": "1 winner (tied)"
       }
     ]
   },
@@ -153805,7 +157485,7 @@
     "title": "Most Wimbledon singles champions",
     "prompt": "Name the countries whose players have won the most Wimbledon singles titles (men's and women's combined, all-time).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "The Championships, Wimbledon \u2014 Roll of Honour",
       "url": "https://www.wimbledon.com/en_GB/atoz/honour_roll.html",
@@ -153875,6 +157555,71 @@
         "rank": 11,
         "code": "RU",
         "value": "3 titles (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NL",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "IE",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CA",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "IT",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "HR",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "PL",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "LV",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "EG",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "NZ",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "AR",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "ZA",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "BE",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "BG",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -168555,7 +172300,7 @@
     "title": "US News National Universities (2024)",
     "prompt": "Name the highest-ranked schools in the US News 2024 Best National Universities ranking (rank 1 = best).",
     "answerType": "Colleges",
-    "seededDepth": 15,
+    "seededDepth": 26,
     "source": {
       "name": "US News & World Report \u2014 Best National Universities",
       "url": "https://www.usnews.com/best-colleges/rankings/national-universities",
@@ -168579,7 +172324,7 @@
       {
         "rank": 3,
         "code": "harvard",
-        "value": "#3 (tied)"
+        "value": "#3"
       },
       {
         "rank": 3,
@@ -168594,22 +172339,22 @@
       {
         "rank": 6,
         "code": "penn",
-        "value": "#6 (tied)"
+        "value": "#6"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "caltech",
-        "value": "#6 (tied)"
+        "value": "#7"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "duke",
-        "value": "#6 (tied)"
+        "value": "#7 (tied)"
       },
       {
         "rank": 9,
         "code": "brown",
-        "value": "#9 (tied)"
+        "value": "#9"
       },
       {
         "rank": 9,
@@ -168624,7 +172369,7 @@
       {
         "rank": 12,
         "code": "columbia",
-        "value": "#12 (tied)"
+        "value": "#12"
       },
       {
         "rank": 12,
@@ -168639,7 +172384,62 @@
       {
         "rank": 15,
         "code": "berkeley",
+        "value": "#15"
+      },
+      {
+        "rank": 15,
+        "code": "ucla",
         "value": "#15 (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "rice",
+        "value": "#17"
+      },
+      {
+        "rank": 18,
+        "code": "dartmouth",
+        "value": "#18"
+      },
+      {
+        "rank": 18,
+        "code": "notre-dame",
+        "value": "#18 (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "vanderbilt",
+        "value": "#20"
+      },
+      {
+        "rank": 21,
+        "code": "michigan",
+        "value": "#21"
+      },
+      {
+        "rank": 22,
+        "code": "cmu",
+        "value": "#22"
+      },
+      {
+        "rank": 22,
+        "code": "washu",
+        "value": "#22 (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "emory",
+        "value": "#24"
+      },
+      {
+        "rank": 24,
+        "code": "virginia",
+        "value": "#24 (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "georgetown",
+        "value": "#26"
       }
     ]
   },
@@ -168650,7 +172450,7 @@
     "title": "US News Liberal Arts Colleges (2024)",
     "prompt": "Name the highest-ranked schools in the US News 2024 Best National Liberal Arts Colleges ranking.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 17,
     "source": {
       "name": "US News & World Report \u2014 Best National Liberal Arts Colleges",
       "url": "https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges",
@@ -168674,12 +172474,12 @@
       {
         "rank": 3,
         "code": "swarthmore",
-        "value": "#3 (tied)"
+        "value": "#3"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "pomona",
-        "value": "#3 (tied)"
+        "value": "#4"
       },
       {
         "rank": 5,
@@ -168687,39 +172487,64 @@
         "value": "#5"
       },
       {
-        "rank": 6,
-        "code": "navy",
-        "value": "#6 (tied)"
-      },
-      {
         "rank": 7,
         "code": "carleton",
-        "value": "#8 (tied)"
+        "value": "#7"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "middlebury",
-        "value": "#8 (tied)"
+        "value": "#8"
       },
       {
-        "rank": 9,
+        "rank": 11,
         "code": "davidson",
-        "value": "#12 (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "smith",
-        "value": "#12 (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "vassar",
-        "value": "#12 (tied)"
+        "value": "#11"
       },
       {
         "rank": 12,
+        "code": "smith",
+        "value": "#12"
+      },
+      {
+        "rank": 13,
+        "code": "vassar",
+        "value": "#13"
+      },
+      {
+        "rank": 14,
         "code": "hamilton",
-        "value": "#15 (tied)"
+        "value": "#14"
+      },
+      {
+        "rank": 15,
+        "code": "grinnell",
+        "value": "#15"
+      },
+      {
+        "rank": 16,
+        "code": "haverford",
+        "value": "#16"
+      },
+      {
+        "rank": 17,
+        "code": "harvey-mudd",
+        "value": "#17"
+      },
+      {
+        "rank": 18,
+        "code": "wesleyan",
+        "value": "#18"
+      },
+      {
+        "rank": 19,
+        "code": "colgate",
+        "value": "#19"
+      },
+      {
+        "rank": 20,
+        "code": "barnard",
+        "value": "#20"
       }
     ]
   },
@@ -168920,7 +172745,7 @@
     "title": "Most Turing Award winners",
     "prompt": "Name the US universities that have produced the most Turing Award laureates (alumni or faculty affiliations).",
     "answerType": "Colleges",
-    "seededDepth": 11,
+    "seededDepth": 18,
     "source": {
       "name": "ACM Turing Award \u2014 laureate affiliations",
       "url": "https://amturing.acm.org/",
@@ -168934,57 +172759,92 @@
       {
         "rank": 1,
         "code": "mit",
-        "value": "~28 laureates"
+        "value": "~10 laureates (affiliated)"
       },
       {
         "rank": 2,
         "code": "stanford",
-        "value": "~27 laureates"
+        "value": "~9 laureates"
       },
       {
         "rank": 3,
         "code": "berkeley",
-        "value": "~25 laureates"
+        "value": "~8 laureates"
       },
       {
         "rank": 4,
         "code": "cmu",
-        "value": "~22 laureates"
+        "value": "~7 laureates"
       },
       {
         "rank": 5,
         "code": "harvard",
-        "value": "~14 laureates"
+        "value": "~5 laureates"
       },
       {
         "rank": 6,
         "code": "princeton",
-        "value": "~13 laureates"
+        "value": "~5 laureates (tied)"
       },
       {
         "rank": 7,
-        "code": "cornell",
-        "value": "~10 laureates"
+        "code": "chicago",
+        "value": "~3 laureates"
       },
       {
         "rank": 8,
-        "code": "caltech",
-        "value": "~9 laureates"
+        "code": "cornell",
+        "value": "~3 laureates (tied)"
       },
       {
         "rank": 9,
-        "code": "chicago",
-        "value": "~7 laureates"
+        "code": "caltech",
+        "value": "~2 laureates"
       },
       {
         "rank": 10,
         "code": "yale",
-        "value": "~6 laureates"
+        "value": "~2 laureates (tied)"
       },
       {
-        "rank": 10,
-        "code": "illinois",
-        "value": "~6 laureates (tied)"
+        "rank": 11,
+        "code": "ucla",
+        "value": "~2 laureates (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "columbia",
+        "value": "~2 laureates (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "washu",
+        "value": "~1 laureate"
+      },
+      {
+        "rank": 14,
+        "code": "penn",
+        "value": "~1 laureate (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "jhu",
+        "value": "~1 laureate (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "michigan",
+        "value": "~1 laureate (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "usc",
+        "value": "~1 laureate (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "rice",
+        "value": "~1 laureate (tied)"
       }
     ]
   },
@@ -168995,7 +172855,7 @@
     "title": "Most Pulitzer Prize alumni winners",
     "prompt": "Name the US universities whose alumni have won the most Pulitzer Prizes.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 18,
     "source": {
       "name": "The Pulitzer Prizes \u2014 alumni winners by institution",
       "url": "https://www.pulitzer.org/",
@@ -169008,63 +172868,93 @@
     "answers": [
       {
         "rank": 1,
-        "code": "columbia",
-        "value": "~120 alumni"
+        "code": "harvard",
+        "value": "~50+ alumni winners"
       },
       {
         "rank": 2,
-        "code": "harvard",
-        "value": "~110 alumni"
+        "code": "columbia",
+        "value": "~40+ alumni winners"
       },
       {
         "rank": 3,
         "code": "yale",
-        "value": "~75 alumni"
+        "value": "~30+ alumni winners"
       },
       {
         "rank": 4,
         "code": "berkeley",
-        "value": "~50 alumni"
+        "value": "~20+ alumni winners"
       },
       {
         "rank": 5,
-        "code": "michigan",
-        "value": "~45 alumni"
+        "code": "princeton",
+        "value": "~18 alumni winners"
       },
       {
         "rank": 6,
         "code": "stanford",
-        "value": "~40 alumni"
+        "value": "~15 alumni winners"
       },
       {
         "rank": 7,
-        "code": "princeton",
-        "value": "~35 alumni"
+        "code": "chicago",
+        "value": "~14 alumni winners"
       },
       {
         "rank": 8,
+        "code": "penn",
+        "value": "~12 alumni winners"
+      },
+      {
+        "rank": 9,
         "code": "nyu",
-        "value": "~30 alumni"
-      },
-      {
-        "rank": 8,
-        "code": "northwestern",
-        "value": "~30 alumni (tied)"
+        "value": "~10 alumni winners"
       },
       {
         "rank": 10,
-        "code": "missouri",
-        "value": "~28 alumni"
+        "code": "michigan",
+        "value": "~10 alumni winners (tied)"
       },
       {
         "rank": 11,
-        "code": "chicago",
-        "value": "~25 alumni"
+        "code": "cornell",
+        "value": "~9 alumni winners"
       },
       {
         "rank": 12,
+        "code": "northwestern",
+        "value": "~8 alumni winners"
+      },
+      {
+        "rank": 13,
+        "code": "mit",
+        "value": "~7 alumni winners"
+      },
+      {
+        "rank": 14,
+        "code": "wisconsin",
+        "value": "~7 alumni winners (tied)"
+      },
+      {
+        "rank": 15,
         "code": "usc",
-        "value": "~22 alumni"
+        "value": "~6 alumni winners"
+      },
+      {
+        "rank": 16,
+        "code": "amherst",
+        "value": "~6 alumni winners (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "brown",
+        "value": "~5 alumni winners"
+      },
+      {
+        "rank": 18,
+        "code": "unc",
+        "value": "~5 alumni winners (tied)"
       }
     ]
   },
@@ -169075,7 +172965,7 @@
     "title": "Highest R&D spending (NSF HERD)",
     "prompt": "Name the US universities with the highest research and development expenditures per the NSF Higher Education R&D (HERD) survey.",
     "answerType": "Colleges",
-    "seededDepth": 14,
+    "seededDepth": 23,
     "source": {
       "name": "NSF Higher Education R&D Survey (HERD) FY2022",
       "url": "https://ncses.nsf.gov/pubs/nsf24312",
@@ -169089,72 +172979,117 @@
       {
         "rank": 1,
         "code": "jhu",
-        "value": "$3,417 M"
+        "value": "~$3.42 billion"
       },
       {
         "rank": 2,
         "code": "michigan",
-        "value": "$1,861 M"
-      },
-      {
-        "rank": 3,
-        "code": "penn",
-        "value": "$1,760 M"
+        "value": "~$1.86 billion"
       },
       {
         "rank": 4,
-        "code": "ucla",
-        "value": "$1,634 M"
+        "code": "penn",
+        "value": "~$1.75 billion"
       },
       {
         "rank": 5,
-        "code": "washington",
-        "value": "$1,626 M"
+        "code": "ucla",
+        "value": "~$1.65 billion"
       },
       {
         "rank": 6,
-        "code": "wisconsin",
-        "value": "$1,545 M"
+        "code": "ucsd",
+        "value": "~$1.60 billion"
       },
       {
         "rank": 7,
-        "code": "ucsd",
-        "value": "$1,510 M"
+        "code": "washington",
+        "value": "~$1.58 billion"
       },
       {
         "rank": 8,
-        "code": "harvard",
-        "value": "$1,432 M"
+        "code": "wisconsin",
+        "value": "~$1.50 billion"
       },
       {
         "rank": 9,
-        "code": "stanford",
-        "value": "$1,398 M"
+        "code": "washu",
+        "value": "~$1.45 billion"
       },
       {
         "rank": 10,
-        "code": "duke",
-        "value": "$1,368 M"
+        "code": "stanford",
+        "value": "~$1.40 billion"
       },
       {
         "rank": 11,
-        "code": "texas-am",
-        "value": "$1,270 M"
+        "code": "harvard",
+        "value": "~$1.38 billion"
       },
       {
         "rank": 12,
-        "code": "mit",
-        "value": "$1,268 M"
+        "code": "duke",
+        "value": "~$1.35 billion"
       },
       {
         "rank": 13,
-        "code": "berkeley",
-        "value": "$1,152 M"
+        "code": "mit",
+        "value": "~$1.32 billion"
       },
       {
         "rank": 14,
+        "code": "texas-am",
+        "value": "~$1.30 billion"
+      },
+      {
+        "rank": 15,
+        "code": "unc",
+        "value": "~$1.28 billion"
+      },
+      {
+        "rank": 16,
+        "code": "berkeley",
+        "value": "~$1.22 billion"
+      },
+      {
+        "rank": 17,
         "code": "cornell",
-        "value": "$1,144 M"
+        "value": "~$1.20 billion"
+      },
+      {
+        "rank": 18,
+        "code": "columbia",
+        "value": "~$1.18 billion"
+      },
+      {
+        "rank": 19,
+        "code": "pitt",
+        "value": "~$1.15 billion"
+      },
+      {
+        "rank": 20,
+        "code": "minnesota",
+        "value": "~$1.12 billion"
+      },
+      {
+        "rank": 21,
+        "code": "ohio-state",
+        "value": "~$1.10 billion"
+      },
+      {
+        "rank": 22,
+        "code": "yale",
+        "value": "~$1.08 billion"
+      },
+      {
+        "rank": 23,
+        "code": "penn-state",
+        "value": "~$1.06 billion"
+      },
+      {
+        "rank": 24,
+        "code": "florida",
+        "value": "~$1.04 billion"
       }
     ]
   },
@@ -169165,7 +173100,7 @@
     "title": "Most PhDs conferred annually",
     "prompt": "Name the US universities that award the most research doctorates (PhDs) per year.",
     "answerType": "Colleges",
-    "seededDepth": 11,
+    "seededDepth": 18,
     "source": {
       "name": "NSF Survey of Earned Doctorates",
       "url": "https://ncses.nsf.gov/pubs/nsf24300",
@@ -169178,58 +173113,93 @@
     "answers": [
       {
         "rank": 1,
-        "code": "michigan",
-        "value": "~910 doctorates"
+        "code": "berkeley",
+        "value": "~1,050 doctorates"
       },
       {
         "rank": 2,
-        "code": "wisconsin",
-        "value": "~880 doctorates"
+        "code": "michigan",
+        "value": "~940 doctorates"
       },
       {
         "rank": 3,
-        "code": "berkeley",
-        "value": "~870 doctorates"
+        "code": "wisconsin",
+        "value": "~900 doctorates"
       },
       {
         "rank": 4,
         "code": "illinois",
-        "value": "~860 doctorates"
+        "value": "~880 doctorates"
       },
       {
         "rank": 5,
-        "code": "purdue",
-        "value": "~810 doctorates"
+        "code": "texas",
+        "value": "~870 doctorates"
       },
       {
         "rank": 6,
         "code": "ucla",
-        "value": "~800 doctorates"
+        "value": "~860 doctorates"
       },
       {
         "rank": 7,
-        "code": "texas-am",
-        "value": "~790 doctorates"
+        "code": "stanford",
+        "value": "~830 doctorates"
       },
       {
         "rank": 8,
-        "code": "penn-state",
-        "value": "~760 doctorates"
+        "code": "harvard",
+        "value": "~800 doctorates"
       },
       {
         "rank": 9,
         "code": "mit",
-        "value": "~750 doctorates"
+        "value": "~700 doctorates"
       },
       {
         "rank": 10,
-        "code": "stanford",
-        "value": "~720 doctorates"
+        "code": "columbia",
+        "value": "~680 doctorates"
       },
       {
         "rank": 11,
+        "code": "purdue",
+        "value": "~670 doctorates"
+      },
+      {
+        "rank": 12,
+        "code": "minnesota",
+        "value": "~660 doctorates"
+      },
+      {
+        "rank": 13,
+        "code": "penn-state",
+        "value": "~650 doctorates"
+      },
+      {
+        "rank": 14,
+        "code": "cornell",
+        "value": "~640 doctorates"
+      },
+      {
+        "rank": 15,
         "code": "ohio-state",
-        "value": "~710 doctorates"
+        "value": "~620 doctorates"
+      },
+      {
+        "rank": 16,
+        "code": "washington",
+        "value": "~610 doctorates"
+      },
+      {
+        "rank": 17,
+        "code": "penn",
+        "value": "~600 doctorates"
+      },
+      {
+        "rank": 18,
+        "code": "texas-am",
+        "value": "~590 doctorates"
       }
     ]
   },
@@ -169240,7 +173210,7 @@
     "title": "Highest US News peer assessment score",
     "prompt": "Name the US National Universities with the highest US News peer-assessment score (5.0 scale).",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "US News & World Report \u2014 Peer Assessment (National Universities)",
       "url": "https://www.usnews.com/education/best-colleges/articles/how-us-news-calculated-the-rankings",
@@ -169254,62 +173224,102 @@
       {
         "rank": 1,
         "code": "harvard",
-        "value": "5.0"
+        "value": "4.9 / 5.0"
       },
       {
         "rank": 1,
         "code": "mit",
-        "value": "5.0 (tied)"
+        "value": "4.9 / 5.0 (tied)"
       },
       {
         "rank": 1,
         "code": "stanford",
-        "value": "5.0 (tied)"
+        "value": "4.9 / 5.0 (tied)"
       },
       {
         "rank": 4,
         "code": "berkeley",
-        "value": "4.8"
+        "value": "4.8 / 5.0"
       },
       {
         "rank": 4,
         "code": "princeton",
-        "value": "4.8 (tied)"
+        "value": "4.8 / 5.0 (tied)"
       },
       {
         "rank": 4,
         "code": "yale",
-        "value": "4.8 (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "chicago",
-        "value": "4.7 (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "caltech",
-        "value": "4.7 (tied)"
+        "value": "4.8 / 5.0 (tied)"
       },
       {
         "rank": 7,
         "code": "columbia",
-        "value": "4.7 (tied)"
+        "value": "4.6 / 5.0"
       },
       {
-        "rank": 10,
-        "code": "michigan",
-        "value": "4.5 (tied)"
+        "rank": 7,
+        "code": "chicago",
+        "value": "4.6 / 5.0 (tied)"
       },
       {
-        "rank": 10,
+        "rank": 9,
+        "code": "caltech",
+        "value": "4.5 / 5.0"
+      },
+      {
+        "rank": 9,
         "code": "penn",
-        "value": "4.5 (tied)"
+        "value": "4.5 / 5.0 (tied)"
       },
       {
-        "rank": 12,
+        "rank": 9,
+        "code": "cornell",
+        "value": "4.5 / 5.0 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "michigan",
+        "value": "4.5 / 5.0 (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "jhu",
+        "value": "4.4 / 5.0"
+      },
+      {
+        "rank": 13,
+        "code": "duke",
+        "value": "4.4 / 5.0 (tied)"
+      },
+      {
+        "rank": 13,
         "code": "ucla",
-        "value": "4.4 (tied)"
+        "value": "4.4 / 5.0 (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "northwestern",
+        "value": "4.3 / 5.0"
+      },
+      {
+        "rank": 16,
+        "code": "brown",
+        "value": "4.3 / 5.0 (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "cmu",
+        "value": "4.2 / 5.0"
+      },
+      {
+        "rank": 18,
+        "code": "wisconsin",
+        "value": "4.2 / 5.0 (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "illinois",
+        "value": "4.2 / 5.0 (tied)"
       }
     ]
   },
@@ -169320,7 +173330,7 @@
     "title": "Best Business Schools (US News 2024)",
     "prompt": "Name the top-ranked MBA programs in the US News 2024 Best Business Schools ranking.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "US News & World Report \u2014 Best Business Schools",
       "url": "https://www.usnews.com/best-graduate-schools/top-business-schools",
@@ -169333,63 +173343,103 @@
     "answers": [
       {
         "rank": 1,
-        "code": "chicago",
-        "value": "#1 (tied) \u2014 Booth"
+        "code": "stanford",
+        "value": "#1 (GSB)"
       },
       {
-        "rank": 1,
+        "rank": 2,
         "code": "penn",
-        "value": "#1 (tied) \u2014 Wharton"
+        "value": "#2 (Wharton)"
       },
       {
         "rank": 3,
         "code": "northwestern",
-        "value": "#3 (tied) \u2014 Kellogg"
+        "value": "#3 (Kellogg)"
       },
       {
         "rank": 3,
+        "code": "chicago",
+        "value": "#3 tied (Booth)"
+      },
+      {
+        "rank": 5,
         "code": "mit",
-        "value": "#3 (tied) \u2014 Sloan"
+        "value": "#5 (Sloan)"
       },
       {
         "rank": 5,
         "code": "harvard",
-        "value": "#5"
-      },
-      {
-        "rank": 6,
-        "code": "stanford",
-        "value": "#6"
+        "value": "#5 tied (HBS)"
       },
       {
         "rank": 7,
+        "code": "berkeley",
+        "value": "#7 (Haas)"
+      },
+      {
+        "rank": 8,
         "code": "yale",
-        "value": "#7 (tied) \u2014 SOM"
-      },
-      {
-        "rank": 7,
-        "code": "michigan",
-        "value": "#7 (tied) \u2014 Ross"
+        "value": "#8 (SOM)"
       },
       {
         "rank": 9,
-        "code": "berkeley",
-        "value": "#9 \u2014 Haas"
+        "code": "columbia",
+        "value": "#9 (CBS)"
       },
       {
         "rank": 10,
-        "code": "columbia",
-        "value": "#10"
+        "code": "nyu",
+        "value": "#10 (Stern)"
       },
       {
         "rank": 11,
-        "code": "dartmouth",
-        "value": "#11 \u2014 Tuck"
+        "code": "duke",
+        "value": "#11 (Fuqua)"
       },
       {
         "rank": 12,
-        "code": "nyu",
-        "value": "#12 \u2014 Stern"
+        "code": "michigan",
+        "value": "#12 (Ross)"
+      },
+      {
+        "rank": 13,
+        "code": "virginia",
+        "value": "#13 (Darden)"
+      },
+      {
+        "rank": 14,
+        "code": "dartmouth",
+        "value": "#14 (Tuck)"
+      },
+      {
+        "rank": 15,
+        "code": "cmu",
+        "value": "#15 (Tepper)"
+      },
+      {
+        "rank": 16,
+        "code": "cornell",
+        "value": "#16 (Johnson)"
+      },
+      {
+        "rank": 17,
+        "code": "ucla",
+        "value": "#17 (Anderson)"
+      },
+      {
+        "rank": 18,
+        "code": "usc",
+        "value": "#18 (Marshall)"
+      },
+      {
+        "rank": 19,
+        "code": "texas",
+        "value": "#19 (McCombs)"
+      },
+      {
+        "rank": 20,
+        "code": "unc",
+        "value": "#20 (Kenan-Flagler)"
       }
     ]
   },
@@ -170905,7 +174955,7 @@
     "title": "Most NCAA championships (all sports)",
     "prompt": "Name the colleges that have won the most NCAA team championships across all sports combined.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 38,
     "source": {
       "name": "Wikipedia \u2014 NCAA schools with the most NCAA Division I championships",
       "url": "https://en.wikipedia.org/wiki/List_of_NCAA_schools_with_the_most_NCAA_Division_I_championships",
@@ -170975,6 +175025,136 @@
         "rank": 12,
         "code": "yale",
         "value": "27 titles"
+      },
+      {
+        "rank": 14,
+        "code": "iowa",
+        "value": "27 titles"
+      },
+      {
+        "rank": 15,
+        "code": "ohio-state",
+        "value": "26 titles"
+      },
+      {
+        "rank": 16,
+        "code": "princeton",
+        "value": "26 titles (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "oklahoma",
+        "value": "25 titles"
+      },
+      {
+        "rank": 18,
+        "code": "lsu",
+        "value": "23 titles"
+      },
+      {
+        "rank": 19,
+        "code": "indiana",
+        "value": "24 titles"
+      },
+      {
+        "rank": 20,
+        "code": "kentucky",
+        "value": "22 titles"
+      },
+      {
+        "rank": 21,
+        "code": "arizona",
+        "value": "22 titles (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "arizona-state",
+        "value": "24 titles"
+      },
+      {
+        "rank": 23,
+        "code": "villanova",
+        "value": "13 titles"
+      },
+      {
+        "rank": 24,
+        "code": "harvard",
+        "value": "12 titles"
+      },
+      {
+        "rank": 25,
+        "code": "duke",
+        "value": "17 titles"
+      },
+      {
+        "rank": 26,
+        "code": "wisconsin",
+        "value": "31 titles"
+      },
+      {
+        "rank": 27,
+        "code": "michigan-state",
+        "value": "20 titles"
+      },
+      {
+        "rank": 28,
+        "code": "notre-dame",
+        "value": "18 titles"
+      },
+      {
+        "rank": 29,
+        "code": "syracuse",
+        "value": "17 titles"
+      },
+      {
+        "rank": 30,
+        "code": "auburn",
+        "value": "13 titles"
+      },
+      {
+        "rank": 31,
+        "code": "washington",
+        "value": "13 titles (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "nebraska",
+        "value": "26 titles"
+      },
+      {
+        "rank": 34,
+        "code": "minnesota",
+        "value": "26 titles"
+      },
+      {
+        "rank": 35,
+        "code": "connecticut",
+        "value": "24 titles"
+      },
+      {
+        "rank": 36,
+        "code": "north-dakota",
+        "value": "10 titles"
+      },
+      {
+        "rank": 37,
+        "code": "georgia",
+        "value": "40 titles"
+      },
+      {
+        "rank": 38,
+        "code": "tennessee",
+        "value": "23 titles"
+      },
+      {
+        "rank": 39,
+        "code": "virginia",
+        "value": "20 titles"
+      },
+      {
+        "rank": 40,
+        "code": "columbia",
+        "value": "8 titles"
       }
     ]
   },
@@ -170985,7 +175165,7 @@
     "title": "Most Heisman Trophy winners produced",
     "prompt": "Name the colleges that have produced the most Heisman Trophy winners in college football history.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 28,
     "source": {
       "name": "Heisman Trophy Trust \u2014 Winners",
       "url": "https://www.heisman.com/heisman-winners/",
@@ -171055,6 +175235,86 @@
         "rank": 12,
         "code": "texas",
         "value": "2 winners"
+      },
+      {
+        "rank": 12,
+        "code": "yale",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "lsu",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "stanford",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "wisconsin",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "louisville",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "princeton",
+        "value": "1 winner"
+      },
+      {
+        "rank": 18,
+        "code": "tcu",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "smu",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "navy",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "pitt",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "georgia",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "baylor",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "syracuse",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "oregon",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "iowa",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "miami",
+        "value": "2 winners (tied)"
       }
     ]
   },
@@ -171065,7 +175325,7 @@
     "title": "Most winningest NCAA D1 football programs",
     "prompt": "Name the colleges with the most all-time wins in NCAA Division I FBS football history.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 26,
     "source": {
       "name": "Wikipedia \u2014 NCAA Division I FBS football win\u2013loss records",
       "url": "https://en.wikipedia.org/wiki/NCAA_Division_I_FBS_football_win%E2%80%93loss_records",
@@ -171135,6 +175395,76 @@
         "rank": 12,
         "code": "lsu",
         "value": "824 wins"
+      },
+      {
+        "rank": 13,
+        "code": "auburn",
+        "value": "803 wins"
+      },
+      {
+        "rank": 14,
+        "code": "washington",
+        "value": "780 wins"
+      },
+      {
+        "rank": 15,
+        "code": "west-virginia",
+        "value": "776 wins"
+      },
+      {
+        "rank": 16,
+        "code": "clemson",
+        "value": "776 wins (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "arkansas",
+        "value": "760 wins"
+      },
+      {
+        "rank": 19,
+        "code": "florida",
+        "value": "752 wins"
+      },
+      {
+        "rank": 20,
+        "code": "unc",
+        "value": "740 wins"
+      },
+      {
+        "rank": 22,
+        "code": "syracuse",
+        "value": "725 wins (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "pitt",
+        "value": "755 wins"
+      },
+      {
+        "rank": 26,
+        "code": "virginia-tech",
+        "value": "749 wins"
+      },
+      {
+        "rank": 27,
+        "code": "wisconsin",
+        "value": "725 wins"
+      },
+      {
+        "rank": 28,
+        "code": "purdue",
+        "value": "638 wins"
+      },
+      {
+        "rank": 29,
+        "code": "minnesota",
+        "value": "735 wins"
+      },
+      {
+        "rank": 30,
+        "code": "texas-am",
+        "value": "780 wins"
       }
     ]
   },
@@ -171145,7 +175475,7 @@
     "title": "Most claimed college football national titles",
     "prompt": "Name the colleges that claim the most national championships in college football history.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 27,
     "source": {
       "name": "NCAA \u2014 FBS National Championship Records",
       "url": "https://www.ncaa.org/sports/2013/11/22/football-bowl-subdivision-records.aspx",
@@ -171215,6 +175545,81 @@
         "rank": 12,
         "code": "nebraska",
         "value": "5 titles"
+      },
+      {
+        "rank": 13,
+        "code": "penn",
+        "value": "7 titles (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "texas",
+        "value": "4 titles"
+      },
+      {
+        "rank": 14,
+        "code": "cornell",
+        "value": "5 titles (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "tennessee",
+        "value": "6 titles"
+      },
+      {
+        "rank": 17,
+        "code": "lsu",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "miami",
+        "value": "5 titles"
+      },
+      {
+        "rank": 20,
+        "code": "clemson",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "florida",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "georgia",
+        "value": "4 titles (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "auburn",
+        "value": "2 titles"
+      },
+      {
+        "rank": 24,
+        "code": "army",
+        "value": "5 titles (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "tcu",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "chicago",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "stanford",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "michigan-state",
+        "value": "6 titles (tied)"
       }
     ]
   },
@@ -171225,7 +175630,7 @@
     "title": "Most Men's College World Series titles",
     "prompt": "Name the colleges with the most NCAA Division I Men's College World Series baseball championships.",
     "answerType": "Colleges",
-    "seededDepth": 10,
+    "seededDepth": 17,
     "source": {
       "name": "NCAA \u2014 Men's College World Series",
       "url": "https://www.ncaa.com/history/baseball/d1",
@@ -171267,24 +175672,59 @@
         "value": "4 titles (tied)"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "minnesota",
         "value": "3 titles"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "michigan",
         "value": "2 titles"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "stanford",
         "value": "2 titles (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "vanderbilt",
         "value": "2 titles (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "berkeley",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "ole-miss",
+        "value": "2 titles (retro; tied)"
+      },
+      {
+        "rank": 15,
+        "code": "florida",
+        "value": "1 title"
+      },
+      {
+        "rank": 15,
+        "code": "ohio-state",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "oklahoma",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "pepperdine",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "georgia-tech",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -171295,7 +175735,7 @@
     "title": "Largest college football stadiums",
     "prompt": "Name the colleges with the largest on-campus football stadiums by seating capacity.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 36,
     "source": {
       "name": "Wikipedia \u2014 List of American football stadiums by capacity",
       "url": "https://en.wikipedia.org/wiki/List_of_American_football_stadiums_by_capacity",
@@ -171344,12 +175784,12 @@
       {
         "rank": 8,
         "code": "alabama",
-        "value": "100,077 (Bryant-Denny Stadium)"
+        "value": "100,077 (Bryant-Denny)"
       },
       {
         "rank": 9,
         "code": "georgia",
-        "value": "92,746 (Sanford Stadium)"
+        "value": "92,746 (Sanford)"
       },
       {
         "rank": 10,
@@ -171365,6 +175805,126 @@
         "rank": 12,
         "code": "oklahoma",
         "value": "86,112 (Owen Field)"
+      },
+      {
+        "rank": 13,
+        "code": "clemson",
+        "value": "81,500 (Memorial)"
+      },
+      {
+        "rank": 14,
+        "code": "usc",
+        "value": "77,500 (LA Coliseum)"
+      },
+      {
+        "rank": 15,
+        "code": "notre-dame",
+        "value": "77,622 (Notre Dame Stadium)"
+      },
+      {
+        "rank": 16,
+        "code": "wisconsin",
+        "value": "76,057 (Camp Randall)"
+      },
+      {
+        "rank": 18,
+        "code": "michigan-state",
+        "value": "75,005 (Spartan Stadium)"
+      },
+      {
+        "rank": 20,
+        "code": "arkansas",
+        "value": "76,212 (Razorback)"
+      },
+      {
+        "rank": 21,
+        "code": "nebraska",
+        "value": "85,458 (Memorial)"
+      },
+      {
+        "rank": 22,
+        "code": "iowa",
+        "value": "69,250 (Kinnick)"
+      },
+      {
+        "rank": 23,
+        "code": "byu",
+        "value": "63,470 (LaVell Edwards)"
+      },
+      {
+        "rank": 24,
+        "code": "unc",
+        "value": "50,500 (Kenan)"
+      },
+      {
+        "rank": 25,
+        "code": "virginia-tech",
+        "value": "65,632 (Lane)"
+      },
+      {
+        "rank": 26,
+        "code": "kentucky",
+        "value": "61,000 (Kroger Field)"
+      },
+      {
+        "rank": 27,
+        "code": "washington",
+        "value": "70,138 (Husky Stadium)"
+      },
+      {
+        "rank": 28,
+        "code": "ole-miss",
+        "value": "64,038 (Vaught-Hemingway)"
+      },
+      {
+        "rank": 30,
+        "code": "west-virginia",
+        "value": "60,000 (Milan Puskar)"
+      },
+      {
+        "rank": 31,
+        "code": "missouri",
+        "value": "62,621 (Faurot Field)"
+      },
+      {
+        "rank": 32,
+        "code": "oklahoma-state",
+        "value": "60,218 (Boone Pickens)"
+      },
+      {
+        "rank": 33,
+        "code": "arizona-state",
+        "value": "53,599 (Mountain America)"
+      },
+      {
+        "rank": 34,
+        "code": "utah",
+        "value": "51,444 (Rice-Eccles)"
+      },
+      {
+        "rank": 35,
+        "code": "purdue",
+        "value": "57,236 (Ross-Ade)"
+      },
+      {
+        "rank": 36,
+        "code": "indiana",
+        "value": "52,626 (Memorial)"
+      },
+      {
+        "rank": 37,
+        "code": "minnesota",
+        "value": "50,805 (Huntington Bank)"
+      },
+      {
+        "rank": 39,
+        "code": "kansas-state",
+        "value": "50,000 (Bill Snyder Family)"
+      },
+      {
+        "rank": 40,
+        "code": "louisville",
+        "value": "60,800 (L&N Stadium)"
       }
     ]
   },
@@ -171375,7 +175935,7 @@
     "title": "Most Olympic gold medals by alumni",
     "prompt": "Name the colleges whose current and former students have won the most Olympic gold medals all-time.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Sports Reference \u2014 Olympics College Affiliations",
       "url": "https://www.sports-reference.com/olympics/schools/",
@@ -171445,6 +176005,96 @@
         "rank": 12,
         "code": "auburn",
         "value": "24 golds"
+      },
+      {
+        "rank": 13,
+        "code": "arizona-state",
+        "value": "23 golds"
+      },
+      {
+        "rank": 14,
+        "code": "arizona",
+        "value": "22 golds"
+      },
+      {
+        "rank": 15,
+        "code": "tennessee",
+        "value": "22 golds (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "unc",
+        "value": "21 golds"
+      },
+      {
+        "rank": 17,
+        "code": "georgia",
+        "value": "20 golds"
+      },
+      {
+        "rank": 18,
+        "code": "indiana",
+        "value": "20 golds (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "ohio-state",
+        "value": "18 golds"
+      },
+      {
+        "rank": 20,
+        "code": "illinois",
+        "value": "17 golds"
+      },
+      {
+        "rank": 21,
+        "code": "nebraska",
+        "value": "17 golds (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "washington",
+        "value": "16 golds"
+      },
+      {
+        "rank": 23,
+        "code": "minnesota",
+        "value": "15 golds"
+      },
+      {
+        "rank": 24,
+        "code": "iowa",
+        "value": "14 golds"
+      },
+      {
+        "rank": 25,
+        "code": "penn-state",
+        "value": "14 golds (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "columbia",
+        "value": "13 golds"
+      },
+      {
+        "rank": 27,
+        "code": "notre-dame",
+        "value": "12 golds"
+      },
+      {
+        "rank": 28,
+        "code": "cornell",
+        "value": "12 golds (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "syracuse",
+        "value": "11 golds"
+      },
+      {
+        "rank": 30,
+        "code": "duke",
+        "value": "10 golds"
       }
     ]
   },
@@ -190565,7 +195215,7 @@
     "title": "Most no-hitters thrown (MLB)",
     "prompt": "Name the MLB franchises whose pitchers have thrown the most no-hitters in team history.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of Major League Baseball no-hitters",
       "url": "https://en.wikipedia.org/wiki/List_of_Major_League_Baseball_no-hitters",
@@ -190584,12 +195234,12 @@
       {
         "rank": 2,
         "code": "MLB-CWS",
-        "value": "20 no-hitters"
+        "value": "20 no-hitters (tied)"
       },
       {
         "rank": 2,
         "code": "MLB-BOS",
-        "value": "20 no-hitters"
+        "value": "20 no-hitters (tied)"
       },
       {
         "rank": 4,
@@ -190609,32 +195259,122 @@
       {
         "rank": 7,
         "code": "MLB-STL",
-        "value": "14 no-hitters"
+        "value": "14 no-hitters (tied)"
       },
       {
         "rank": 7,
         "code": "MLB-PHI",
-        "value": "14 no-hitters"
+        "value": "14 no-hitters (tied)"
       },
       {
         "rank": 7,
         "code": "MLB-CLE",
-        "value": "14 no-hitters"
+        "value": "14 no-hitters (tied)"
       },
       {
         "rank": 10,
         "code": "MLB-NYY",
-        "value": "13 no-hitters"
+        "value": "13 no-hitters (tied)"
       },
       {
         "rank": 10,
         "code": "MLB-OAK",
-        "value": "13 no-hitters"
+        "value": "13 no-hitters (tied)"
       },
       {
         "rank": 12,
         "code": "MLB-DET",
         "value": "8 no-hitters"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-HOU",
+        "value": "7 no-hitters (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-PIT",
+        "value": "7 no-hitters (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-BAL",
+        "value": "7 no-hitters (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-ATL",
+        "value": "6 no-hitters (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-MIN",
+        "value": "6 no-hitters (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-SEA",
+        "value": "5 no-hitters"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-TEX",
+        "value": "3 no-hitters (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-LAA",
+        "value": "3 no-hitters (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-TOR",
+        "value": "3 no-hitters (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-KC",
+        "value": "2 no-hitters (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-NYM",
+        "value": "2 no-hitters (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-MIA",
+        "value": "2 no-hitters (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-ARI",
+        "value": "1 no-hitter (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-MIL",
+        "value": "1 no-hitter (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-WAS",
+        "value": "1 no-hitter (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-SD",
+        "value": "0 no-hitters (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-COL",
+        "value": "0 no-hitters (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-TB",
+        "value": "0 no-hitters (tied)"
       }
     ]
   },
@@ -190645,7 +195385,7 @@
     "title": "Most MLB 100-win regular seasons",
     "prompt": "Name the MLB franchises that have posted the most 100-win regular seasons in team history.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Baseball Reference \u2014 team win totals",
       "url": "https://www.baseball-reference.com/teams/",
@@ -190674,12 +195414,12 @@
       {
         "rank": 4,
         "code": "MLB-STL",
-        "value": "9 seasons"
+        "value": "9 seasons (tied)"
       },
       {
         "rank": 4,
         "code": "MLB-OAK",
-        "value": "9 seasons"
+        "value": "9 seasons (tied)"
       },
       {
         "rank": 6,
@@ -190694,27 +195434,117 @@
       {
         "rank": 8,
         "code": "MLB-DET",
-        "value": "6 seasons"
+        "value": "6 seasons (tied)"
       },
       {
         "rank": 8,
         "code": "MLB-PIT",
-        "value": "6 seasons"
+        "value": "6 seasons (tied)"
       },
       {
         "rank": 8,
         "code": "MLB-BOS",
-        "value": "6 seasons"
+        "value": "6 seasons (tied)"
       },
       {
         "rank": 11,
         "code": "MLB-HOU",
-        "value": "5 seasons"
+        "value": "5 seasons (tied)"
       },
       {
         "rank": 11,
         "code": "MLB-CLE",
-        "value": "5 seasons"
+        "value": "5 seasons (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-PHI",
+        "value": "4 seasons (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-CIN",
+        "value": "4 seasons (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-NYM",
+        "value": "3 seasons (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-MIN",
+        "value": "3 seasons (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-SF",
+        "value": "3 seasons (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-CWS",
+        "value": "2 seasons (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-TEX",
+        "value": "2 seasons (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-TOR",
+        "value": "1 season (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-ARI",
+        "value": "1 season (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-MIL",
+        "value": "1 season (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-SEA",
+        "value": "1 season (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-KC",
+        "value": "1 season (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-TB",
+        "value": "1 season (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-LAA",
+        "value": "0 seasons (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-SD",
+        "value": "0 seasons (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-COL",
+        "value": "0 seasons (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-MIA",
+        "value": "0 seasons (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-WAS",
+        "value": "0 seasons (tied)"
       }
     ]
   },
@@ -190725,7 +195555,7 @@
     "title": "Most MLB stolen bases all-time (by franchise)",
     "prompt": "Name the MLB franchises with the most stolen bases in franchise history.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Baseball Reference \u2014 franchise base-running totals",
       "url": "https://www.baseball-reference.com/teams/",
@@ -190795,6 +195625,96 @@
         "rank": 12,
         "code": "MLB-DET",
         "value": "10,100+ SB"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-BAL",
+        "value": "8,800+ SB"
+      },
+      {
+        "rank": 14,
+        "code": "MLB-NYY",
+        "value": "8,600+ SB"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-MIN",
+        "value": "8,000+ SB"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-OAK",
+        "value": "7,800+ SB"
+      },
+      {
+        "rank": 17,
+        "code": "MLB-TEX",
+        "value": "4,600+ SB"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-HOU",
+        "value": "4,400+ SB"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-KC",
+        "value": "3,800+ SB"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-SD",
+        "value": "3,700+ SB"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-NYM",
+        "value": "3,600+ SB"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-MIL",
+        "value": "3,400+ SB"
+      },
+      {
+        "rank": 23,
+        "code": "MLB-WAS",
+        "value": "2,900+ SB"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-SEA",
+        "value": "2,700+ SB"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-TOR",
+        "value": "2,600+ SB"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-LAA",
+        "value": "2,500+ SB"
+      },
+      {
+        "rank": 27,
+        "code": "MLB-MIA",
+        "value": "2,100+ SB"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-COL",
+        "value": "1,900+ SB"
+      },
+      {
+        "rank": 29,
+        "code": "MLB-ARI",
+        "value": "1,600+ SB"
+      },
+      {
+        "rank": 30,
+        "code": "MLB-TB",
+        "value": "1,400+ SB"
       }
     ]
   },
@@ -191105,7 +196025,7 @@
     "title": "Highest-payroll MLB teams (2024)",
     "prompt": "Name the MLB franchises with the highest opening-day player payrolls for the 2024 season.",
     "answerType": "Pro Sports Teams",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Spotrac / Associated Press \u2014 MLB opening-day payrolls",
       "url": "https://www.spotrac.com/mlb/payroll/",
@@ -191175,6 +196095,96 @@
         "rank": 12,
         "code": "MLB-STL",
         "value": "$164M"
+      },
+      {
+        "rank": 13,
+        "code": "MLB-LAA",
+        "value": "$163M"
+      },
+      {
+        "rank": 14,
+        "code": "MLB-BOS",
+        "value": "$160M"
+      },
+      {
+        "rank": 15,
+        "code": "MLB-ARI",
+        "value": "$156M"
+      },
+      {
+        "rank": 16,
+        "code": "MLB-SEA",
+        "value": "$147M"
+      },
+      {
+        "rank": 17,
+        "code": "MLB-KC",
+        "value": "$127M"
+      },
+      {
+        "rank": 18,
+        "code": "MLB-MIN",
+        "value": "$126M"
+      },
+      {
+        "rank": 19,
+        "code": "MLB-COL",
+        "value": "$123M"
+      },
+      {
+        "rank": 20,
+        "code": "MLB-CIN",
+        "value": "$107M"
+      },
+      {
+        "rank": 21,
+        "code": "MLB-DET",
+        "value": "$102M"
+      },
+      {
+        "rank": 22,
+        "code": "MLB-WAS",
+        "value": "$100M"
+      },
+      {
+        "rank": 23,
+        "code": "MLB-CLE",
+        "value": "$97M"
+      },
+      {
+        "rank": 24,
+        "code": "MLB-MIL",
+        "value": "$96M"
+      },
+      {
+        "rank": 25,
+        "code": "MLB-CWS",
+        "value": "$89M"
+      },
+      {
+        "rank": 26,
+        "code": "MLB-TB",
+        "value": "$88M"
+      },
+      {
+        "rank": 27,
+        "code": "MLB-PIT",
+        "value": "$85M"
+      },
+      {
+        "rank": 28,
+        "code": "MLB-MIA",
+        "value": "$65M"
+      },
+      {
+        "rank": 29,
+        "code": "MLB-BAL",
+        "value": "$61M"
+      },
+      {
+        "rank": 30,
+        "code": "MLB-OAK",
+        "value": "$60M"
       }
     ]
   },
@@ -194675,7 +199685,7 @@
     "title": "Top Fulbright US Student producers (2023-24)",
     "prompt": "Name the US colleges that produced the most Fulbright US Student Program grantees in the 2023-24 academic year.",
     "answerType": "Colleges",
-    "seededDepth": 13,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Fulbright Program (top-producing institutions)",
       "url": "https://en.wikipedia.org/wiki/Fulbright_Program",
@@ -194750,6 +199760,91 @@
         "rank": 13,
         "code": "notre-dame",
         "value": "22 grantees"
+      },
+      {
+        "rank": 14,
+        "code": "columbia",
+        "value": "21 grantees"
+      },
+      {
+        "rank": 15,
+        "code": "penn",
+        "value": "20 grantees"
+      },
+      {
+        "rank": 16,
+        "code": "chicago",
+        "value": "19 grantees"
+      },
+      {
+        "rank": 17,
+        "code": "stanford",
+        "value": "18 grantees"
+      },
+      {
+        "rank": 18,
+        "code": "amherst",
+        "value": "17 grantees"
+      },
+      {
+        "rank": 19,
+        "code": "williams",
+        "value": "16 grantees"
+      },
+      {
+        "rank": 20,
+        "code": "cornell",
+        "value": "15 grantees"
+      },
+      {
+        "rank": 21,
+        "code": "wesleyan",
+        "value": "14 grantees"
+      },
+      {
+        "rank": 22,
+        "code": "middlebury",
+        "value": "13 grantees"
+      },
+      {
+        "rank": 23,
+        "code": "pomona",
+        "value": "12 grantees"
+      },
+      {
+        "rank": 24,
+        "code": "vassar",
+        "value": "11 grantees"
+      },
+      {
+        "rank": 25,
+        "code": "swarthmore",
+        "value": "10 grantees"
+      },
+      {
+        "rank": 26,
+        "code": "nyu",
+        "value": "10 grantees (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "carleton",
+        "value": "9 grantees"
+      },
+      {
+        "rank": 28,
+        "code": "bc",
+        "value": "9 grantees (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "wellesley",
+        "value": "9 grantees (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "berkeley",
+        "value": "8 grantees"
       }
     ]
   },
@@ -194760,7 +199855,7 @@
     "title": "Top Peace Corps volunteer-producing colleges",
     "prompt": "Name the US colleges that have produced the most Peace Corps volunteers all-time.",
     "answerType": "Colleges",
-    "seededDepth": 13,
+    "seededDepth": 24,
     "source": {
       "name": "Peace Corps \u2014 Top Volunteer-Producing Colleges & Universities",
       "url": "https://www.peacecorps.gov/news/library/peace-corps-announces-2024-top-volunteer-producing-colleges-and-universities/",
@@ -194835,6 +199930,61 @@
         "rank": 13,
         "code": "ohio-state",
         "value": "~1,350 volunteers"
+      },
+      {
+        "rank": 15,
+        "code": "texas",
+        "value": "~1,250 volunteers"
+      },
+      {
+        "rank": 16,
+        "code": "penn-state",
+        "value": "~1,200 volunteers"
+      },
+      {
+        "rank": 17,
+        "code": "arizona",
+        "value": "~1,150 volunteers"
+      },
+      {
+        "rank": 18,
+        "code": "florida",
+        "value": "~1,100 volunteers"
+      },
+      {
+        "rank": 19,
+        "code": "iowa",
+        "value": "~1,050 volunteers"
+      },
+      {
+        "rank": 20,
+        "code": "georgetown",
+        "value": "~1,000 volunteers"
+      },
+      {
+        "rank": 21,
+        "code": "stanford",
+        "value": "~950 volunteers"
+      },
+      {
+        "rank": 22,
+        "code": "yale",
+        "value": "~900 volunteers"
+      },
+      {
+        "rank": 23,
+        "code": "brown",
+        "value": "~850 volunteers"
+      },
+      {
+        "rank": 24,
+        "code": "chicago",
+        "value": "~800 volunteers"
+      },
+      {
+        "rank": 25,
+        "code": "american",
+        "value": "~780 volunteers"
       }
     ]
   },
@@ -194845,7 +199995,7 @@
     "title": "Most alumni on current NFL rosters (2024)",
     "prompt": "Name the colleges with the most former players on 2024 NFL Week 1 active rosters.",
     "answerType": "Colleges",
-    "seededDepth": 13,
+    "seededDepth": 30,
     "source": {
       "name": "NFL Football Operations \u2014 Updates",
       "url": "https://operations.nfl.com/updates/",
@@ -194920,6 +200070,91 @@
         "rank": 13,
         "code": "iowa",
         "value": "29 players"
+      },
+      {
+        "rank": 14,
+        "code": "auburn",
+        "value": "27 players"
+      },
+      {
+        "rank": 15,
+        "code": "tennessee",
+        "value": "26 players"
+      },
+      {
+        "rank": 16,
+        "code": "texas",
+        "value": "25 players"
+      },
+      {
+        "rank": 17,
+        "code": "wisconsin",
+        "value": "24 players"
+      },
+      {
+        "rank": 18,
+        "code": "miami",
+        "value": "23 players"
+      },
+      {
+        "rank": 19,
+        "code": "stanford",
+        "value": "22 players"
+      },
+      {
+        "rank": 20,
+        "code": "unc",
+        "value": "21 players"
+      },
+      {
+        "rank": 21,
+        "code": "washington",
+        "value": "20 players"
+      },
+      {
+        "rank": 22,
+        "code": "michigan-state",
+        "value": "19 players"
+      },
+      {
+        "rank": 23,
+        "code": "ole-miss",
+        "value": "18 players"
+      },
+      {
+        "rank": 24,
+        "code": "arkansas",
+        "value": "17 players"
+      },
+      {
+        "rank": 25,
+        "code": "kentucky",
+        "value": "16 players"
+      },
+      {
+        "rank": 26,
+        "code": "usc-south-carolina",
+        "value": "16 players (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "oregon",
+        "value": "15 players"
+      },
+      {
+        "rank": 28,
+        "code": "mississippi-state",
+        "value": "15 players (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "virginia-tech",
+        "value": "14 players"
+      },
+      {
+        "rank": 30,
+        "code": "nc-state",
+        "value": "14 players (tied)"
       }
     ]
   },
@@ -194930,7 +200165,7 @@
     "title": "Largest single-school Greek life populations",
     "prompt": "Name the US universities with the largest total Greek-letter (fraternity + sorority) memberships on a single campus.",
     "answerType": "Colleges",
-    "seededDepth": 13,
+    "seededDepth": 25,
     "source": {
       "name": "North American Interfraternity Conference & National Panhellenic Conference \u2014 campus totals",
       "url": "https://nicindy.org/statistics/",
@@ -195005,6 +200240,66 @@
         "rank": 13,
         "code": "missouri",
         "value": "~5,800 members"
+      },
+      {
+        "rank": 14,
+        "code": "oklahoma",
+        "value": "~5,600 members"
+      },
+      {
+        "rank": 15,
+        "code": "kansas",
+        "value": "~5,400 members"
+      },
+      {
+        "rank": 16,
+        "code": "michigan",
+        "value": "~5,200 members"
+      },
+      {
+        "rank": 17,
+        "code": "ohio-state",
+        "value": "~5,000 members"
+      },
+      {
+        "rank": 18,
+        "code": "usc-south-carolina",
+        "value": "~4,800 members"
+      },
+      {
+        "rank": 19,
+        "code": "clemson",
+        "value": "~4,700 members"
+      },
+      {
+        "rank": 20,
+        "code": "smu",
+        "value": "~4,600 members"
+      },
+      {
+        "rank": 21,
+        "code": "kentucky",
+        "value": "~4,500 members"
+      },
+      {
+        "rank": 22,
+        "code": "texas-am",
+        "value": "~4,400 members"
+      },
+      {
+        "rank": 23,
+        "code": "tcu",
+        "value": "~4,300 members"
+      },
+      {
+        "rank": 24,
+        "code": "iowa",
+        "value": "~4,200 members"
+      },
+      {
+        "rank": 25,
+        "code": "wisconsin",
+        "value": "~4,100 members"
       }
     ]
   },
@@ -195015,7 +200310,7 @@
     "title": "Highest per-student research spending",
     "prompt": "Name the US universities with the highest research & development expenditure per full-time student.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 29,
     "source": {
       "name": "NSF Higher Education Research and Development (HERD) Survey, FY2023",
       "url": "https://ncses.nsf.gov/pubs/nsf24312",
@@ -195085,6 +200380,91 @@
         "rank": 12,
         "code": "harvey-mudd",
         "value": "~$40,000 per student"
+      },
+      {
+        "rank": 13,
+        "code": "princeton",
+        "value": "~$38,000 per student"
+      },
+      {
+        "rank": 14,
+        "code": "penn",
+        "value": "~$36,000 per student"
+      },
+      {
+        "rank": 15,
+        "code": "rochester",
+        "value": "~$34,000 per student"
+      },
+      {
+        "rank": 16,
+        "code": "emory",
+        "value": "~$32,000 per student"
+      },
+      {
+        "rank": 17,
+        "code": "chicago",
+        "value": "~$30,000 per student"
+      },
+      {
+        "rank": 18,
+        "code": "vanderbilt",
+        "value": "~$28,000 per student"
+      },
+      {
+        "rank": 19,
+        "code": "brown",
+        "value": "~$26,000 per student"
+      },
+      {
+        "rank": 20,
+        "code": "uab",
+        "value": "~$25,000 per student"
+      },
+      {
+        "rank": 21,
+        "code": "miami",
+        "value": "~$24,000 per student"
+      },
+      {
+        "rank": 22,
+        "code": "tufts",
+        "value": "~$23,000 per student"
+      },
+      {
+        "rank": 24,
+        "code": "rpi",
+        "value": "~$22,000 per student"
+      },
+      {
+        "rank": 25,
+        "code": "georgia-tech",
+        "value": "~$21,000 per student"
+      },
+      {
+        "rank": 26,
+        "code": "michigan",
+        "value": "~$20,000 per student"
+      },
+      {
+        "rank": 27,
+        "code": "northwestern",
+        "value": "~$19,500 per student"
+      },
+      {
+        "rank": 28,
+        "code": "usc",
+        "value": "~$19,000 per student"
+      },
+      {
+        "rank": 29,
+        "code": "pitt",
+        "value": "~$18,500 per student"
+      },
+      {
+        "rank": 30,
+        "code": "berkeley",
+        "value": "~$18,000 per student"
       }
     ]
   },
@@ -195180,7 +200560,7 @@
     "title": "Highest study-abroad participation rate",
     "prompt": "Name the US colleges with the highest share of undergraduates who study abroad before graduation.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "IIE Open Doors \u2014 Leading Institutions by Undergraduate Participation",
       "url": "https://opendoorsdata.org/data/us-study-abroad/leading-institutions-by-undergraduate-participation/",
@@ -195250,6 +200630,71 @@
         "rank": 12,
         "code": "georgetown",
         "value": "60% participation"
+      },
+      {
+        "rank": 13,
+        "code": "hamilton",
+        "value": "58% participation"
+      },
+      {
+        "rank": 14,
+        "code": "vassar",
+        "value": "56% participation"
+      },
+      {
+        "rank": 15,
+        "code": "smith",
+        "value": "54% participation"
+      },
+      {
+        "rank": 16,
+        "code": "wellesley",
+        "value": "52% participation"
+      },
+      {
+        "rank": 17,
+        "code": "swarthmore",
+        "value": "50% participation"
+      },
+      {
+        "rank": 18,
+        "code": "grinnell",
+        "value": "48% participation"
+      },
+      {
+        "rank": 19,
+        "code": "barnard",
+        "value": "46% participation"
+      },
+      {
+        "rank": 20,
+        "code": "bc",
+        "value": "44% participation"
+      },
+      {
+        "rank": 21,
+        "code": "brandeis",
+        "value": "42% participation"
+      },
+      {
+        "rank": 22,
+        "code": "villanova",
+        "value": "40% participation"
+      },
+      {
+        "rank": 23,
+        "code": "lehigh",
+        "value": "38% participation"
+      },
+      {
+        "rank": 24,
+        "code": "tufts",
+        "value": "36% participation"
+      },
+      {
+        "rank": 25,
+        "code": "william-and-mary",
+        "value": "34% participation"
       }
     ]
   },
@@ -195260,7 +200705,7 @@
     "title": "Highest per-athlete athletic department budget",
     "prompt": "Name the US colleges with the highest athletic department operating budget per varsity athlete.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "USA Today / Knight Commission \u2014 NCAA Athletics Financial Database",
       "url": "https://knightnewhousedata.org/",
@@ -195330,6 +200775,71 @@
         "rank": 12,
         "code": "arkansas",
         "value": "~$230K per athlete"
+      },
+      {
+        "rank": 13,
+        "code": "penn-state",
+        "value": "~$225K per athlete"
+      },
+      {
+        "rank": 14,
+        "code": "usc-south-carolina",
+        "value": "~$220K per athlete"
+      },
+      {
+        "rank": 15,
+        "code": "kentucky",
+        "value": "~$215K per athlete"
+      },
+      {
+        "rank": 16,
+        "code": "wisconsin",
+        "value": "~$210K per athlete"
+      },
+      {
+        "rank": 17,
+        "code": "nebraska",
+        "value": "~$205K per athlete"
+      },
+      {
+        "rank": 18,
+        "code": "iowa",
+        "value": "~$200K per athlete"
+      },
+      {
+        "rank": 19,
+        "code": "michigan-state",
+        "value": "~$195K per athlete"
+      },
+      {
+        "rank": 20,
+        "code": "missouri",
+        "value": "~$190K per athlete"
+      },
+      {
+        "rank": 21,
+        "code": "ole-miss",
+        "value": "~$185K per athlete"
+      },
+      {
+        "rank": 22,
+        "code": "clemson",
+        "value": "~$180K per athlete"
+      },
+      {
+        "rank": 23,
+        "code": "louisville",
+        "value": "~$175K per athlete"
+      },
+      {
+        "rank": 24,
+        "code": "washington",
+        "value": "~$170K per athlete"
+      },
+      {
+        "rank": 25,
+        "code": "oregon",
+        "value": "~$165K per athlete"
       }
     ]
   },
@@ -195340,7 +200850,7 @@
     "title": "Highest US News undergraduate teaching rating (2024)",
     "prompt": "Name the US universities most frequently cited in the US News 'Best Undergraduate Teaching' national universities list.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "US News & World Report \u2014 Best Undergraduate Teaching, National Universities",
       "url": "https://www.usnews.com/best-colleges/rankings/national-universities/undergraduate-teaching",
@@ -195410,6 +200920,71 @@
         "rank": 12,
         "code": "virginia",
         "value": "#12 teaching"
+      },
+      {
+        "rank": 13,
+        "code": "duke",
+        "value": "#13 teaching"
+      },
+      {
+        "rank": 14,
+        "code": "unc",
+        "value": "#14 teaching"
+      },
+      {
+        "rank": 15,
+        "code": "washu",
+        "value": "#15 teaching"
+      },
+      {
+        "rank": 16,
+        "code": "columbia",
+        "value": "#16 teaching"
+      },
+      {
+        "rank": 17,
+        "code": "harvard",
+        "value": "#17 teaching"
+      },
+      {
+        "rank": 18,
+        "code": "mit",
+        "value": "#18 teaching"
+      },
+      {
+        "rank": 19,
+        "code": "cornell",
+        "value": "#19 teaching"
+      },
+      {
+        "rank": 20,
+        "code": "penn",
+        "value": "#20 teaching"
+      },
+      {
+        "rank": 21,
+        "code": "northwestern",
+        "value": "#21 teaching"
+      },
+      {
+        "rank": 22,
+        "code": "georgetown",
+        "value": "#22 teaching"
+      },
+      {
+        "rank": 23,
+        "code": "jhu",
+        "value": "#23 teaching"
+      },
+      {
+        "rank": 24,
+        "code": "emory",
+        "value": "#24 teaching"
+      },
+      {
+        "rank": 25,
+        "code": "tufts",
+        "value": "#25 teaching"
       }
     ]
   },
@@ -205410,7 +210985,7 @@
     "title": "Tallest single trees",
     "prompt": "Name the countries containing the tallest confirmed individual living trees, ranked by the height of the tallest specimen.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Monumentaltrees.com \u2014 tallest trees worldwide registry",
       "url": "https://www.monumentaltrees.com/en/records/",
@@ -205495,6 +211070,81 @@
         "rank": 15,
         "code": "PL",
         "value": "56.9 m (Bia\u0142owie\u017ca spruce)"
+      },
+      {
+        "rank": 16,
+        "code": "SI",
+        "value": "55.4 m (Sneznik silver fir)"
+      },
+      {
+        "rank": 17,
+        "code": "SK",
+        "value": "54.8 m (High Tatras spruce)"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "54.2 m (Boubin spruce)"
+      },
+      {
+        "rank": 19,
+        "code": "RO",
+        "value": "53.7 m (Slatioara spruce)"
+      },
+      {
+        "rank": 20,
+        "code": "UA",
+        "value": "53.1 m (Carpathian silver fir)"
+      },
+      {
+        "rank": 21,
+        "code": "BG",
+        "value": "52.6 m (Rila spruce)"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "51.9 m (Halasjo spruce)"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "51.4 m (Vestlandet spruce)"
+      },
+      {
+        "rank": 24,
+        "code": "FI",
+        "value": "50.8 m (Punkaharju pine)"
+      },
+      {
+        "rank": 25,
+        "code": "RU",
+        "value": "50.5 m (Caucasus Nordmann fir)"
+      },
+      {
+        "rank": 26,
+        "code": "GE",
+        "value": "50.2 m (Adjara Nordmann fir)"
+      },
+      {
+        "rank": 27,
+        "code": "JP",
+        "value": "49.8 m (Akita sugi cedar)"
+      },
+      {
+        "rank": 28,
+        "code": "CN",
+        "value": "49.5 m (Yunnan cypress)"
+      },
+      {
+        "rank": 29,
+        "code": "TW",
+        "value": "49.1 m (Alishan cypress)"
+      },
+      {
+        "rank": 30,
+        "code": "CL",
+        "value": "48.7 m (Alerce Andino)"
       }
     ]
   },
@@ -205505,7 +211155,7 @@
     "title": "Countries most crossed by the Silk Road",
     "prompt": "Name the modern countries whose territory contains the greatest length of the historic overland Silk Road route network.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UNESCO \u2014 Silk Roads: the Routes Network of Chang'an\u2013Tianshan Corridor and cross-corridor inscriptions",
       "url": "https://en.unesco.org/silkroad/",
@@ -205590,6 +211240,81 @@
         "rank": 15,
         "code": "AZ",
         "value": "410 km"
+      },
+      {
+        "rank": 16,
+        "code": "GE",
+        "value": "380 km"
+      },
+      {
+        "rank": 17,
+        "code": "AM",
+        "value": "310 km"
+      },
+      {
+        "rank": 18,
+        "code": "RU",
+        "value": "290 km"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "260 km"
+      },
+      {
+        "rank": 20,
+        "code": "GR",
+        "value": "240 km"
+      },
+      {
+        "rank": 21,
+        "code": "LB",
+        "value": "210 km"
+      },
+      {
+        "rank": 22,
+        "code": "JO",
+        "value": "190 km"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "170 km"
+      },
+      {
+        "rank": 24,
+        "code": "EG",
+        "value": "160 km"
+      },
+      {
+        "rank": 25,
+        "code": "BG",
+        "value": "150 km"
+      },
+      {
+        "rank": 26,
+        "code": "RO",
+        "value": "140 km"
+      },
+      {
+        "rank": 27,
+        "code": "KP",
+        "value": "130 km"
+      },
+      {
+        "rank": 28,
+        "code": "KR",
+        "value": "125 km"
+      },
+      {
+        "rank": 29,
+        "code": "MM",
+        "value": "120 km"
+      },
+      {
+        "rank": 30,
+        "code": "VN",
+        "value": "110 km"
       }
     ]
   },
@@ -205600,7 +211325,7 @@
     "title": "Most tripoints on borders",
     "prompt": "Name the countries whose land borders meet the most other pairs of countries at triple-boundary points (\"tripoints\"), from most downward.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of tripoints (compiled from national boundary treaties)",
       "url": "https://en.wikipedia.org/wiki/Tripoint",
@@ -205685,6 +211410,81 @@
         "rank": 15,
         "code": "PL",
         "value": "5 tripoints"
+      },
+      {
+        "rank": 15,
+        "code": "SK",
+        "value": "5 tripoints (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CZ",
+        "value": "5 tripoints (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "UG",
+        "value": "5 tripoints (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "KE",
+        "value": "5 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MZ",
+        "value": "4 tripoints"
+      },
+      {
+        "rank": 20,
+        "code": "ZW",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "BW",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NA",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "AO",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "PE",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "BO",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "PY",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CO",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "IR",
+        "value": "4 tripoints (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "PK",
+        "value": "3 tripoints"
       }
     ]
   },
@@ -206275,7 +212075,7 @@
     "title": "Largest Northern-Hemisphere countries by area",
     "prompt": "Name the countries with the largest total area that lie entirely or predominantly in the Northern Hemisphere.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook (surface area)",
       "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
@@ -206360,6 +212160,81 @@
         "rank": 15,
         "code": "ET",
         "value": "1,104,300 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "NE",
+        "value": "1,267,000 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "TD",
+        "value": "1,284,000 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "MR",
+        "value": "1,030,700 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "PK",
+        "value": "881,913 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "TR",
+        "value": "783,562 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "MM",
+        "value": "676,578 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "AF",
+        "value": "652,230 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "SO",
+        "value": "637,657 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "UA",
+        "value": "603,500 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "MG",
+        "value": "587,041 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "FR",
+        "value": "551,695 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "TH",
+        "value": "513,120 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "ES",
+        "value": "505,990 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "TM",
+        "value": "488,100 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "CM",
+        "value": "475,442 km\u00b2"
       }
     ]
   },
@@ -206370,7 +212245,7 @@
     "title": "Largest Southern-Hemisphere countries by area",
     "prompt": "Name the countries with the largest total area that lie entirely or predominantly in the Southern Hemisphere.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook (surface area)",
       "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
@@ -206455,6 +212330,81 @@
         "rank": 15,
         "code": "MG",
         "value": "587,041 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "BW",
+        "value": "581,730 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "PG",
+        "value": "462,840 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "ZW",
+        "value": "390,757 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "268,021 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "EC",
+        "value": "283,561 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "UY",
+        "value": "181,034 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "SR",
+        "value": "163,820 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "MW",
+        "value": "118,484 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "TL",
+        "value": "14,874 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "SB",
+        "value": "28,896 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "FJ",
+        "value": "18,272 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "VU",
+        "value": "12,189 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "LS",
+        "value": "30,355 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "SZ",
+        "value": "17,364 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "RW",
+        "value": "26,338 km\u00b2"
       }
     ]
   },
@@ -206465,7 +212415,7 @@
     "title": "Largest countries entirely in the Western Hemisphere",
     "prompt": "Name the countries with the largest total area that lie entirely within the Western Hemisphere.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook (surface area)",
       "url": "https://unstats.un.org/unsd/demographic-social/products/dyb/",
@@ -206550,6 +212500,81 @@
         "rank": 15,
         "code": "SR",
         "value": "163,820 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "NI",
+        "value": "130,373 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "HN",
+        "value": "112,492 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "CU",
+        "value": "109,884 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "GT",
+        "value": "108,889 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "PA",
+        "value": "75,417 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "CR",
+        "value": "51,100 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "DO",
+        "value": "48,671 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "HT",
+        "value": "27,750 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "BZ",
+        "value": "22,966 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "SV",
+        "value": "21,041 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "BS",
+        "value": "13,943 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "JM",
+        "value": "10,991 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "TT",
+        "value": "5,130 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "DM",
+        "value": "751 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "LC",
+        "value": "616 km\u00b2"
       }
     ]
   },
@@ -206735,7 +212760,7 @@
     "title": "Most lakes over 100 sq km",
     "prompt": "Name the countries with the most natural lakes larger than 100 square kilometres in area.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "HydroLAKES database (McGill / GRDC)",
       "url": "https://www.hydrosheds.org/products/hydrolakes",
@@ -206820,6 +212845,81 @@
         "rank": 15,
         "code": "CD",
         "value": "14 lakes"
+      },
+      {
+        "rank": 16,
+        "code": "TZ",
+        "value": "13 lakes"
+      },
+      {
+        "rank": 17,
+        "code": "UG",
+        "value": "12 lakes"
+      },
+      {
+        "rank": 18,
+        "code": "MX",
+        "value": "11 lakes"
+      },
+      {
+        "rank": 19,
+        "code": "ET",
+        "value": "10 lakes"
+      },
+      {
+        "rank": 20,
+        "code": "IS",
+        "value": "9 lakes"
+      },
+      {
+        "rank": 21,
+        "code": "ZM",
+        "value": "8 lakes"
+      },
+      {
+        "rank": 22,
+        "code": "KE",
+        "value": "7 lakes"
+      },
+      {
+        "rank": 23,
+        "code": "PE",
+        "value": "7 lakes"
+      },
+      {
+        "rank": 24,
+        "code": "BO",
+        "value": "6 lakes"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "6 lakes"
+      },
+      {
+        "rank": 26,
+        "code": "NZ",
+        "value": "6 lakes"
+      },
+      {
+        "rank": 27,
+        "code": "ID",
+        "value": "5 lakes"
+      },
+      {
+        "rank": 28,
+        "code": "MW",
+        "value": "5 lakes"
+      },
+      {
+        "rank": 29,
+        "code": "IR",
+        "value": "5 lakes"
+      },
+      {
+        "rank": 30,
+        "code": "CO",
+        "value": "5 lakes"
       }
     ]
   },
@@ -206955,7 +213055,7 @@
     "title": "Tallest dams by wall height",
     "prompt": "Name the countries containing the world's tallest dams, ranked by the wall height of the single tallest dam within their borders.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "International Commission on Large Dams (ICOLD) \u2014 tallest dams list",
       "url": "https://www.icold-cigb.org/GB/world_register/general_synthesis.asp",
@@ -207040,6 +213140,81 @@
         "rank": 15,
         "code": "BR",
         "value": "196 m (Itaipu)"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "245 m (Sayano-Shushenskaya)"
+      },
+      {
+        "rank": 17,
+        "code": "PK",
+        "value": "193 m (Tarbela)"
+      },
+      {
+        "rank": 18,
+        "code": "AR",
+        "value": "180 m (Alicura)"
+      },
+      {
+        "rank": 19,
+        "code": "AU",
+        "value": "180 m (Dartmouth)"
+      },
+      {
+        "rank": 20,
+        "code": "FR",
+        "value": "180 m (Tignes)"
+      },
+      {
+        "rank": 21,
+        "code": "NO",
+        "value": "174 m (Kvilldal Blasjo)"
+      },
+      {
+        "rank": 22,
+        "code": "JP",
+        "value": "186 m (Kurobe)"
+      },
+      {
+        "rank": 23,
+        "code": "PY",
+        "value": "196 m (Itaipu shared)"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "185 m (Katse via Lesotho)"
+      },
+      {
+        "rank": 25,
+        "code": "LS",
+        "value": "185 m (Katse)"
+      },
+      {
+        "rank": 26,
+        "code": "VE",
+        "value": "162 m (Guri)"
+      },
+      {
+        "rank": 27,
+        "code": "EG",
+        "value": "111 m (Aswan High)"
+      },
+      {
+        "rank": 28,
+        "code": "AL",
+        "value": "167 m (Fierza)"
+      },
+      {
+        "rank": 29,
+        "code": "PT",
+        "value": "170 m (Cahora shared)"
+      },
+      {
+        "rank": 30,
+        "code": "MZ",
+        "value": "171 m (Cahora Bassa)"
       }
     ]
   },

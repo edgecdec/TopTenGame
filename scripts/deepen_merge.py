@@ -26,7 +26,16 @@ DEEPEN_DIR = os.path.join(DATA_DIR, "deepen")
 
 
 def load_updates_from_patch(patch_obj):
-    """Normalize any known patch shape into a flat list of {id, changes}."""
+    """Normalize any known patch shape into a flat list of {id, changes}.
+
+    Handles:
+    - Canonical: {updates: [{id, changes: {answers, seededDepth}}, ...]}
+    - Dict-keyed updates: {updates: {"<qid>": {answers, ...}, ...}}
+    - Bare list: [{id, changes: {answers,...}}, ...]
+    - Direct updates: [{id, answers, seededDepth}, ...]  (no "changes" wrapper)
+    - "add" variant: [{question_id, add: [...]}, ...] — those rows get APPENDED
+      to the question's existing answers rather than replacing them.
+    """
     if isinstance(patch_obj, list):
         raw = patch_obj
     elif isinstance(patch_obj, dict):
@@ -36,7 +45,6 @@ def load_updates_from_patch(patch_obj):
 
     out = []
     if isinstance(raw, dict):
-        # dict keyed by question id
         for qid, changes in raw.items():
             out.append({"id": qid, "changes": changes})
         return out
@@ -44,13 +52,24 @@ def load_updates_from_patch(patch_obj):
     for u in raw:
         if not isinstance(u, dict):
             continue
-        # If no "changes" wrapper, use the whole update dict as its own changes
+        qid = u.get("id") or u.get("question_id")
+        if not qid:
+            continue
+
+        # "add" variant: append to existing answers.
+        if "add" in u and isinstance(u["add"], list):
+            out.append({"id": qid, "changes": {"_add": u["add"]}})
+            continue
+
+        # Standard "changes" wrapper
         if "changes" in u and isinstance(u["changes"], dict):
-            out.append(u)
-        else:
-            qid = u.get("id")
-            if qid:
-                out.append({"id": qid, "changes": u})
+            out.append({"id": qid, "changes": u["changes"]})
+            continue
+
+        # Direct updates (id + answers on the same object)
+        if "answers" in u:
+            out.append({"id": qid, "changes": u})
+            continue
     return out
 
 
@@ -87,6 +106,20 @@ def main():
 
             changes = u.get("changes", {})
             new_answers = changes.get("answers")
+            add_rows = changes.get("_add")
+
+            # "add" variant: append to the question's existing answers.
+            if add_rows is not None and new_answers is None:
+                base = list(q.get("answers", []))
+                have_codes = {a["code"] for a in base if isinstance(a, dict)}
+                for a in add_rows:
+                    if not isinstance(a, dict):
+                        continue
+                    if a.get("code") in have_codes:
+                        continue
+                    base.append(a)
+                new_answers = base
+
             if not isinstance(new_answers, list):
                 continue
             # Idempotent skip: current depth is already at or beyond this patch's length
