@@ -1,0 +1,656 @@
+{
+  "cluster": "us-big-4-sports-04",
+  "questions": [
+    {
+      "id": "pro-sports-nfl-oldest-nfl-franchises-founding-year",
+      "current": {
+        "title": "Oldest NFL franchises (founding year)",
+        "prompt": "Name the oldest NFL franchises, ranked ascending by founding year.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Earliest continuous franchise founding year (following lineage through relocations). The NFL formalized in 1920 as the APFA, so pre-1920 dates reflect club founding, not NFL play.",
+        "trivia": "The Cardinals trace their origins to the 1898 Morgan Athletic Club in Chicago, making them the oldest continuously operating pro football team. The Bears (Decatur Staleys, 1919) and Packers (1919) are the other charter/near-charter members.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-ARI",
+            "value": "Chicago Cardinals founded 1898"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-CHI",
+            "value": "Decatur Staleys founded 1919"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-GB",
+            "value": "Founded August 11, 1919"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-NYG",
+            "value": "Founded 1925"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-DET",
+            "value": "Portsmouth Spartans founded 1930"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-WAS",
+            "value": "Boston Braves founded 1932"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-PHI",
+            "value": "Frankford Yellow Jackets 1924; Eagles franchise 1933"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-PIT",
+            "value": "Pittsburgh Pirates 1933"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-LAR",
+            "value": "Cleveland Rams 1936"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-SF",
+            "value": "San Francisco 49ers 1946"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-CLE",
+            "value": "Cleveland Browns 1946"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-IND",
+            "value": "Baltimore Colts 1953"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-DAL",
+            "value": "Founded January 28, 1960"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-NE",
+            "value": "Boston Patriots founded November 22, 1959; began play 1960"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-KC",
+            "value": "Dallas Texans founded 1960"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-longest-current-playoff-drought-2023",
+      "current": {
+        "title": "Longest current playoff drought",
+        "prompt": "Name the NFL franchises with the longest active droughts since their last playoff appearance.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Seasons since the franchise's last postseason appearance, entering the 2024 season.",
+        "trivia": "The Jets hold the longest active drought \u2014 no playoffs since 2010. The Panthers, Broncos, Raiders, and Titans all missed the 2023 playoffs, with Denver's drought dating back to their 2015 Super Bowl title.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NYJ",
+            "value": "13 seasons (since 2010)"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DEN",
+            "value": "8 seasons (since 2015)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-CAR",
+            "value": "6 seasons (since 2017)"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-ATL",
+            "value": "6 seasons (since 2017)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-WAS",
+            "value": "3 seasons (since 2020)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-CHI",
+            "value": "3 seasons (since 2020)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-NO",
+            "value": "3 seasons (since 2020)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-IND",
+            "value": "3 seasons (since 2020)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-LV",
+            "value": "2 seasons (since 2021)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-TEN",
+            "value": "2 seasons (since 2021)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-NE",
+            "value": "2 seasons (since 2021)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-ARI",
+            "value": "2 seasons (since 2021)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-NYG",
+            "value": "1 season (since 2022)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-MIN",
+            "value": "1 season (since 2022)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-JAX",
+            "value": "1 season (since 2022)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-division-titles-all-time-2023",
+      "current": {
+        "title": "Most division titles (all-time)",
+        "prompt": "Name the NHL franchises with the most regular-season division titles in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Regular-season division championships since divisional play began in 1967-68.",
+        "trivia": "The Original Six clubs \u2014 especially Montreal and Boston \u2014 dominate the leaderboard, having played more decades of divisional hockey than any expansion franchise.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "24 titles"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-BOS",
+            "value": "22 titles"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-DET",
+            "value": "18 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-PHI",
+            "value": "13 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-CHI",
+            "value": "13 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-WSH",
+            "value": "13 titles"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-DAL",
+            "value": "10 titles"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-COL",
+            "value": "10 titles"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-STL",
+            "value": "10 titles"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-EDM",
+            "value": "9 titles"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-PIT",
+            "value": "9 titles"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-NYR",
+            "value": "8 titles"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-NYI",
+            "value": "6 titles"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-CGY",
+            "value": "6 titles"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-VGK",
+            "value": "5 titles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-playoff-appearances-all-time-2024",
+      "current": {
+        "title": "Most playoff appearances (all-time)",
+        "prompt": "Name the NHL franchises with the most all-time playoff appearances.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "All-time playoff appearances since NHL inception (1917). Includes only NHL-era appearances for pre-merger teams.",
+        "trivia": "Montreal and Boston lead due to their long histories dating to the 1910s and 1920s and their era of nearly guaranteed Original Six playoff berths.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "86 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-BOS",
+            "value": "76 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-TOR",
+            "value": "73 appearances"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-DET",
+            "value": "66 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-CHI",
+            "value": "63 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-NYR",
+            "value": "63 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-STL",
+            "value": "46 appearances"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-PHI",
+            "value": "40 appearances"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-PIT",
+            "value": "37 appearances"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-DAL",
+            "value": "34 appearances"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-WSH",
+            "value": "32 appearances"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-CGY",
+            "value": "31 appearances"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-BUF",
+            "value": "29 appearances"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-EDM",
+            "value": "27 appearances"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-NJD",
+            "value": "26 appearances"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-hockey-hall-of-famers-2023",
+      "current": {
+        "title": "Most Hockey Hall of Famers",
+        "prompt": "Name the NHL franchises with the most Hockey Hall of Fame inductees who played significant portions of their careers with the club.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts players inducted who played meaningful time with the franchise. Original Six clubs dominate due to longevity and roster stability.",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "56 inductees"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-TOR",
+            "value": "50 inductees"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-BOS",
+            "value": "40 inductees"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-DET",
+            "value": "39 inductees"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-NYR",
+            "value": "35 inductees"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-CHI",
+            "value": "31 inductees"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-EDM",
+            "value": "13 inductees"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-PIT",
+            "value": "12 inductees"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-STL",
+            "value": "11 inductees"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-PHI",
+            "value": "11 inductees"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-NYI",
+            "value": "9 inductees"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-LAK",
+            "value": "8 inductees"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-BUF",
+            "value": "6 inductees"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-CGY",
+            "value": "6 inductees"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-NJD",
+            "value": "5 inductees"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-most-retired-jersey-numbers-2024",
+      "current": {
+        "title": "Most retired jersey numbers",
+        "prompt": "Name the NHL franchises with the most retired jersey numbers.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Officially retired jersey numbers per franchise. Excludes the NHL's league-wide retirement of #99 for Wayne Gretzky. Some franchises (notably Toronto) include 'honoured' numbers in their tally alongside strict retirements.",
+        "trivia": "Toronto's inclusion of 'honoured' numbers alongside retired ones gives them one of the largest published tallies in the league.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-TOR",
+            "value": "19 numbers (honoured)"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-MTL",
+            "value": "18 numbers"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-BOS",
+            "value": "12 numbers"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-STL",
+            "value": "11 numbers"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-NYR",
+            "value": "9 numbers"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-DET",
+            "value": "8 numbers"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-NYI",
+            "value": "8 numbers"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-CHI",
+            "value": "7 numbers"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-PHI",
+            "value": "7 numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-EDM",
+            "value": "6 numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-BUF",
+            "value": "6 numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-LAK",
+            "value": "6 numbers"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-PIT",
+            "value": "4 numbers"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-VAN",
+            "value": "4 numbers"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-CGY",
+            "value": "3 numbers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nhl-highest-current-forbes-valuation-2023",
+      "current": {
+        "title": "Highest current Forbes valuation",
+        "prompt": "Name the NHL franchises with the highest current Forbes-estimated valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NHL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Values in USD.",
+        "trivia": "Toronto is the most valuable franchise in the NHL, followed by the New York Rangers and Montreal Canadiens.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-TOR",
+            "value": "$2.80B"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-NYR",
+            "value": "$2.65B"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-MTL",
+            "value": "$2.35B"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-BOS",
+            "value": "$1.90B"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-CHI",
+            "value": "$1.85B"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-LAK",
+            "value": "$1.70B"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-PHI",
+            "value": "$1.65B"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-EDM",
+            "value": "$1.55B"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-WSH",
+            "value": "$1.30B"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-VAN",
+            "value": "$1.30B"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-DET",
+            "value": "$1.20B"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-PIT",
+            "value": "$1.10B"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-VGK",
+            "value": "$1.05B"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-DAL",
+            "value": "$1.00B"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-SEA",
+            "value": "$1.00B"
+          }
+        ]
+      }
+    }
+  ]
+}

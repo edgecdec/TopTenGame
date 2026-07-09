@@ -1,0 +1,795 @@
+{
+  "cluster": "us-big-4-sports-00",
+  "updates": [
+    {
+      "id": "pro-sports-deep-dive-most-pro-bowl-selections-in-nfl-history-2023",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-PIT",
+            "value": "296 selections"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DAL",
+            "value": "292 selections"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-GB",
+            "value": "283 selections"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-SF",
+            "value": "270 selections"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-WAS",
+            "value": "254 selections"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-CHI",
+            "value": "253 selections"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYG",
+            "value": "246 selections"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-MIN",
+            "value": "235 selections"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-KC",
+            "value": "232 selections"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-DEN",
+            "value": "225 selections"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-IND",
+            "value": "224 selections"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-NE",
+            "value": "220 selections"
+          }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "pro-sports-nhl-longest-current-stanley-cup-drought-2023",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-TOR",
+            "value": "57 years (last 1967)"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-BUF",
+            "value": "54 years (never won, est. 1970)"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-VAN",
+            "value": "54 years (never won, est. 1970) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-PHI",
+            "value": "49 years (last 1975)"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-NYI",
+            "value": "41 years (last 1983)"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-CGY",
+            "value": "35 years (last 1989)"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-EDM",
+            "value": "34 years (last 1990)"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-SJS",
+            "value": "33 years (never won, est. 1991)"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-OTT",
+            "value": "32 years (never won, est. 1992)"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-MTL",
+            "value": "31 years (last 1993)"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-NYR",
+            "value": "30 years (last 1994)"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-NSH",
+            "value": "26 years (never won, est. 1998)"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-WPG",
+            "value": "25 years (never in current form, est. 1999)"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-MIN",
+            "value": "24 years (never won, est. 2000)"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-CBJ",
+            "value": "24 years (never won, est. 2000) (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "NHL-BOS",
+            "value": "13 years (last 2011)"
+          }
+        ],
+        "seededDepth": 16
+      }
+    },
+    {
+      "id": "pro-sports-nhl-largest-arena-capacity-hockey-2023",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NHL-MTL",
+            "value": "21,105 (Bell Centre)"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-CHI",
+            "value": "19,717 (United Center)"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-PHI",
+            "value": "19,543 (Wells Fargo Center)"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-DET",
+            "value": "19,515 (Little Caesars Arena)"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-TBL",
+            "value": "19,092 (Amalie Arena)"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-BUF",
+            "value": "19,070 (KeyBank Center)"
+          },
+          {
+            "rank": 7,
+            "code": "NHL-TOR",
+            "value": "18,819 (Scotiabank Arena)"
+          },
+          {
+            "rank": 8,
+            "code": "NHL-WSH",
+            "value": "18,573 (Capital One Arena)"
+          },
+          {
+            "rank": 9,
+            "code": "NHL-DAL",
+            "value": "18,532 (American Airlines Center)"
+          },
+          {
+            "rank": 10,
+            "code": "NHL-CBJ",
+            "value": "18,500 (Nationwide Arena)"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-PIT",
+            "value": "18,387 (PPG Paints Arena)"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-EDM",
+            "value": "18,347 (Rogers Place)"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-LAK",
+            "value": "18,230 (Crypto.com Arena)"
+          },
+          {
+            "rank": 14,
+            "code": "NHL-STL",
+            "value": "18,096 (Enterprise Center)"
+          },
+          {
+            "rank": 15,
+            "code": "NHL-COL",
+            "value": "18,007 (Ball Arena)"
+          },
+          {
+            "rank": 16,
+            "code": "NHL-NYR",
+            "value": "18,006 (Madison Square Garden)"
+          },
+          {
+            "rank": 17,
+            "code": "NHL-BOS",
+            "value": "17,850 (TD Garden)"
+          },
+          {
+            "rank": 18,
+            "code": "NHL-SJS",
+            "value": "17,562 (SAP Center)"
+          },
+          {
+            "rank": 19,
+            "code": "NHL-VGK",
+            "value": "17,500 (T-Mobile Arena)"
+          },
+          {
+            "rank": 20,
+            "code": "NHL-ANA",
+            "value": "17,174 (Honda Center)"
+          }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-most-all-time-championships-across-the-big-4-leagues-202",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-NYY",
+            "value": "27 titles"
+          },
+          {
+            "rank": 2,
+            "code": "NHL-MTL",
+            "value": "24 titles"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-BOS",
+            "value": "18 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-LAL",
+            "value": "17 titles"
+          },
+          {
+            "rank": 5,
+            "code": "NHL-TOR",
+            "value": "13 titles"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-STL",
+            "value": "11 titles"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-DET",
+            "value": "11 titles (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "MLB-OAK",
+            "value": "9 titles"
+          },
+          {
+            "rank": 8,
+            "code": "MLB-BOS",
+            "value": "9 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-SF",
+            "value": "8 titles"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-GSW",
+            "value": "7 titles"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-LAD",
+            "value": "7 titles (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-CHI",
+            "value": "6 titles"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-BOS",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-CHI",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "NHL-EDM",
+            "value": "5 titles"
+          },
+          {
+            "rank": 16,
+            "code": "NFL-PIT",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "NFL-NE",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "MLB-CIN",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "MLB-PIT",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "NFL-DAL",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "NFL-SF",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "NHL-NYI",
+            "value": "4 titles"
+          },
+          {
+            "rank": 23,
+            "code": "NHL-NYR",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "MLB-DET",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "NFL-GB",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "NFL-NYG",
+            "value": "4 titles (tied)"
+          }
+        ],
+        "seededDepth": 27
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-most-valuable-franchise-across-all-us-pro-sports-forbes-",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "$10.32B"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-GSW",
+            "value": "$8.8B"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-NYK",
+            "value": "$8.3B"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-LAR",
+            "value": "$8.0B"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-NE",
+            "value": "$7.7B"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-LAL",
+            "value": "$7.7B (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-NYY",
+            "value": "$7.55B"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-NYG",
+            "value": "$7.3B"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-CHI",
+            "value": "$7.06B"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-SF",
+            "value": "$7.0B"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-NYJ",
+            "value": "$6.9B"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-WAS",
+            "value": "$6.7B"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-PHI",
+            "value": "$6.6B"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-HOU",
+            "value": "$6.35B"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-MIA",
+            "value": "$6.2B"
+          },
+          {
+            "rank": 16,
+            "code": "NFL-DEN",
+            "value": "$5.85B"
+          },
+          {
+            "rank": 17,
+            "code": "NFL-LV",
+            "value": "$5.8B"
+          },
+          {
+            "rank": 18,
+            "code": "NFL-SEA",
+            "value": "$5.55B"
+          },
+          {
+            "rank": 19,
+            "code": "NFL-GB",
+            "value": "$5.4B"
+          },
+          {
+            "rank": 20,
+            "code": "NFL-ATL",
+            "value": "$5.3B"
+          }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-highest-annual-revenue-across-us-pro-sports-2023-2023",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "$1220M revenue"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-GSW",
+            "value": "$800M revenue"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-LAR",
+            "value": "$775M revenue"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-NE",
+            "value": "$730M revenue"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-SF",
+            "value": "$720M revenue"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-NYG",
+            "value": "$710M revenue"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LV",
+            "value": "$700M revenue"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-NYJ",
+            "value": "$685M revenue"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-NYY",
+            "value": "$679M revenue"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-PHI",
+            "value": "$675M revenue"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-HOU",
+            "value": "$670M revenue"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-CHI",
+            "value": "$660M revenue"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-LAD",
+            "value": "$610M revenue"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-LAL",
+            "value": "$517M revenue"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-NYK",
+            "value": "$505M revenue"
+          }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-oldest-franchises-across-the-big-4-ascending-founding-ye",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-ATL",
+            "value": "1871 founded"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-CHC",
+            "value": "1876 founded"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-STL",
+            "value": "1882 founded"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-CIN",
+            "value": "1882 founded (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-PIT",
+            "value": "1882 founded (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-PHI",
+            "value": "1883 founded"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-LAD",
+            "value": "1884 founded"
+          },
+          {
+            "rank": 8,
+            "code": "MLB-CLE",
+            "value": "1894 founded"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-ARI",
+            "value": "1898 founded"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-BOS",
+            "value": "1901 founded"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-CWS",
+            "value": "1901 founded (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-DET",
+            "value": "1901 founded (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-NYY",
+            "value": "1901 founded (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-OAK",
+            "value": "1901 founded (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-BAL",
+            "value": "1901 founded (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-MIN",
+            "value": "1901 founded (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "NHL-MTL",
+            "value": "1909 founded"
+          },
+          {
+            "rank": 18,
+            "code": "NFL-CHI",
+            "value": "1919 founded"
+          },
+          {
+            "rank": 18,
+            "code": "NFL-GB",
+            "value": "1919 founded (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "NFL-NYG",
+            "value": "1925 founded"
+          }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-highest-all-time-regular-season-winning-percentage-acros",
+      "changes": {
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": ".593 win pct"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-SAS",
+            "value": ".586 win pct"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-BOS",
+            "value": ".586 win pct (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "NHL-MTL",
+            "value": ".584 win pct"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-DAL",
+            "value": ".571 win pct"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-GB",
+            "value": ".570 win pct"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-NYY",
+            "value": ".569 win pct"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-CHI",
+            "value": ".562 win pct"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-OKC",
+            "value": ".559 win pct"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-NE",
+            "value": ".556 win pct"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIA",
+            "value": ".551 win pct"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-PHX",
+            "value": ".536 win pct"
+          },
+          {
+            "rank": 12,
+            "code": "MLB-SF",
+            "value": ".536 win pct (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-UTA",
+            "value": ".534 win pct"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-MIL",
+            "value": ".522 win pct"
+          }
+        ],
+        "seededDepth": 15
+      }
+    }
+  ],
+  "deletions": []
+}

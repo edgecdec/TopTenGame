@@ -1,0 +1,75 @@
+{
+  "cluster": "movies-05",
+  "updates": [
+    {
+      "id": "movies-box-office-most-weeks-at-1-on-the-us-domestic-box-office-chart-2024",
+      "changes": {
+        "title": "Most weeks at #1 on the US weekend box office chart",
+        "prompt": "Name the Best Picture winners that spent the most weeks at #1 on the US weekend box office chart.",
+        "answers": [
+          { "rank": 1, "code": "titanic-1997", "value": "15 weeks at #1" },
+          { "rank": 2, "code": "forrest-gump-1994", "value": "10 weeks at #1" },
+          { "rank": 3, "code": "rain-man-1988", "value": "7 weeks at #1" },
+          { "rank": 4, "code": "sting-1973", "value": "5 weeks at #1" },
+          { "rank": 4, "code": "godfather-1972", "value": "5 weeks at #1 (tied)" },
+          { "rank": 6, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "4 weeks at #1" },
+          { "rank": 6, "code": "gladiator-2000", "value": "4 weeks at #1 (tied)" },
+          { "rank": 6, "code": "kramer-vs-kramer-1979", "value": "4 weeks at #1 (tied)" },
+          { "rank": 6, "code": "silence-of-the-lambs-1991", "value": "4 weeks at #1 (tied)" },
+          { "rank": 10, "code": "dances-with-wolves-1990", "value": "3 weeks at #1" },
+          { "rank": 10, "code": "oppenheimer-2023", "value": "3 weeks at #1 (tied)" },
+          { "rank": 10, "code": "rocky-1976", "value": "3 weeks at #1 (tied)" },
+          { "rank": 10, "code": "driving-miss-daisy-1989", "value": "3 weeks at #1 (tied)" },
+          { "rank": 14, "code": "american-beauty-1999", "value": "2 weeks at #1" },
+          { "rank": 14, "code": "chicago-2002", "value": "2 weeks at #1 (tied)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "movies-box-office-highest-metacritic-score-among-best-picture-winners-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "godfather-1972", "value": "100 Metascore" },
+          { "rank": 1, "code": "casablanca-1943", "value": "100 Metascore (tied)" },
+          { "rank": 1, "code": "lawrence-of-arabia-1962", "value": "100 Metascore (tied)" },
+          { "rank": 4, "code": "moonlight-2016", "value": "99 Metascore" },
+          { "rank": 5, "code": "parasite-2019", "value": "96 Metascore" },
+          { "rank": 5, "code": "12-years-a-slave-2013", "value": "96 Metascore (tied)" },
+          { "rank": 7, "code": "schindlers-list-1993", "value": "95 Metascore" },
+          { "rank": 7, "code": "hurt-locker-2009", "value": "95 Metascore (tied)" },
+          { "rank": 9, "code": "spotlight-2015", "value": "93 Metascore" },
+          { "rank": 9, "code": "nomadland-2020", "value": "93 Metascore (tied)" },
+          { "rank": 11, "code": "no-country-for-old-men-2007", "value": "91 Metascore" },
+          { "rank": 12, "code": "godfather-part-ii-1974", "value": "90 Metascore" },
+          { "rank": 13, "code": "birdman-2014", "value": "88 Metascore" },
+          { "rank": 14, "code": "silence-of-the-lambs-1991", "value": "85 Metascore" },
+          { "rank": 14, "code": "departed-2006", "value": "85 Metascore (tied)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-oldest-lead-actor-2024",
+      "changes": {
+        "disclaimer": "Age is calculated as of the film's US theatrical release date. 'Lead' refers to the top-billed acting nominee for the film, or the protagonist for ensembles.",
+        "answers": [
+          { "rank": 1, "code": "driving-miss-daisy-1989", "value": "Jessica Tandy — 80" },
+          { "rank": 2, "code": "million-dollar-baby-2004", "value": "Clint Eastwood — 74" },
+          { "rank": 3, "code": "spotlight-2015", "value": "Michael Keaton — 64" },
+          { "rank": 4, "code": "nomadland-2020", "value": "Frances McDormand — 63" },
+          { "rank": 4, "code": "birdman-2014", "value": "Michael Keaton — 63 (tied)" },
+          { "rank": 6, "code": "unforgiven-1992", "value": "Clint Eastwood — 62" },
+          { "rank": 7, "code": "no-country-for-old-men-2007", "value": "Tommy Lee Jones — 61" },
+          { "rank": 8, "code": "green-book-2018", "value": "Viggo Mortensen — 60" },
+          { "rank": 9, "code": "coda-2021", "value": "Marlee Matlin — 56" },
+          { "rank": 10, "code": "kings-speech-2010", "value": "Colin Firth — 50" }
+        ],
+        "seededDepth": 10
+      }
+    }
+  ],
+  "deletions": [
+    "movies-awards-best-picture-winners-with-the-youngest-lead-actor-2024"
+  ]
+}

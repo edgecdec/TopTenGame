@@ -1,0 +1,764 @@
+{
+  "cluster": "european-soccer-clubs-03",
+  "questions": [
+    {
+      "id": "european-soccer-la-liga-most-seasons-in-la-liga-top-flight-2026",
+      "current": {
+        "title": "Most seasons in La Liga (top flight)",
+        "prompt": "Name the clubs with the most seasons played in Spain's top flight (La Liga / Primera Divisi\u00f3n) all-time.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - La Liga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only counts seasons in the top flight (Primera Divisi\u00f3n). Segunda Divisi\u00f3n and lower tiers excluded.",
+        "trivia": "Real Madrid, Barcelona and Athletic Bilbao are the only three clubs that have played in every La Liga season since the league's founding in 1929 \u2014 no other side has avoided relegation to the second tier.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-ATH",
+            "value": "96 seasons"
+          },
+          {
+            "rank": 1,
+            "code": "LAL-BAR",
+            "value": "96 seasons (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "LAL-RM",
+            "value": "96 seasons (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "LAL-VAL",
+            "value": "92 seasons"
+          },
+          {
+            "rank": 5,
+            "code": "LAL-ATM",
+            "value": "90 seasons"
+          },
+          {
+            "rank": 5,
+            "code": "LAL-ESP",
+            "value": "90 seasons (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "LAL-SEV",
+            "value": "83 seasons"
+          },
+          {
+            "rank": 8,
+            "code": "LAL-RS",
+            "value": "80 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "LAL-BET",
+            "value": "61 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "LAL-CEL",
+            "value": "61 seasons (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "LAL-ZAR",
+            "value": "58 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "LAL-DEP",
+            "value": "47 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "LAL-VLD",
+            "value": "47 seasons (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "LAL-OSA",
+            "value": "45 seasons"
+          },
+          {
+            "rank": 15,
+            "code": "LAL-LPA",
+            "value": "36 seasons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-most-seasons-in-ligue-1-all-time-2024",
+      "current": {
+        "title": "Most seasons in Ligue 1 all-time",
+        "prompt": "Name the clubs with the most seasons played in France's top flight (Division 1 / Ligue 1).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Ligue 1",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts all seasons since the professional league began in 1932-33, including the pre-war Division 1 era. Excludes wartime regional cups.",
+        "trivia": "Marseille is the only club to have appeared in every professional Ligue 1 season since promotion/relegation began \u2014 with one asterisk: their 1994 forced relegation for match-fixing.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "L1-MAR",
+            "value": "76 seasons"
+          },
+          {
+            "rank": 2,
+            "code": "L1-BOR",
+            "value": "72 seasons"
+          },
+          {
+            "rank": 3,
+            "code": "L1-METZ",
+            "value": "65 seasons"
+          },
+          {
+            "rank": 4,
+            "code": "L1-MON",
+            "value": "64 seasons"
+          },
+          {
+            "rank": 5,
+            "code": "L1-NAN",
+            "value": "63 seasons"
+          },
+          {
+            "rank": 6,
+            "code": "L1-LIL",
+            "value": "62 seasons"
+          },
+          {
+            "rank": 7,
+            "code": "L1-SET",
+            "value": "68 seasons"
+          },
+          {
+            "rank": 8,
+            "code": "L1-LYN",
+            "value": "62 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "L1-STR",
+            "value": "62 seasons"
+          },
+          {
+            "rank": 10,
+            "code": "L1-NIC",
+            "value": "62 seasons"
+          },
+          {
+            "rank": 11,
+            "code": "L1-REN",
+            "value": "65 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "L1-TFC",
+            "value": "44 seasons"
+          },
+          {
+            "rank": 13,
+            "code": "L1-REI",
+            "value": "37 seasons"
+          },
+          {
+            "rank": 14,
+            "code": "L1-LEN",
+            "value": "62 seasons"
+          },
+          {
+            "rank": 15,
+            "code": "L1-MTP",
+            "value": "35 seasons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-largest-ligue-1-stadium-capacity-2024",
+      "current": {
+        "title": "Largest Ligue 1 stadium capacity",
+        "prompt": "Name the Ligue 1 clubs with the largest home-stadium seating capacity.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Ligue 1",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Capacity is the official all-seater figure for the club's primary home stadium; excludes national stadiums.",
+        "trivia": "Marseille's Stade V\u00e9lodrome, expanded for Euro 2016, is now the largest club-owned stadium in France, edging past the Groupama Stadium and the Parc des Princes.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "L1-MAR",
+            "value": "67,394 seats"
+          },
+          {
+            "rank": 2,
+            "code": "L1-LYN",
+            "value": "59,186 seats"
+          },
+          {
+            "rank": 3,
+            "code": "L1-LIL",
+            "value": "50,186 seats"
+          },
+          {
+            "rank": 4,
+            "code": "L1-PSG",
+            "value": "47,929 seats"
+          },
+          {
+            "rank": 5,
+            "code": "L1-SET",
+            "value": "41,965 seats"
+          },
+          {
+            "rank": 6,
+            "code": "L1-BOR",
+            "value": "42,115 seats"
+          },
+          {
+            "rank": 7,
+            "code": "L1-LEN",
+            "value": "38,058 seats"
+          },
+          {
+            "rank": 8,
+            "code": "L1-NAN",
+            "value": "35,322 seats"
+          },
+          {
+            "rank": 9,
+            "code": "L1-TFC",
+            "value": "33,150 seats"
+          },
+          {
+            "rank": 10,
+            "code": "L1-REN",
+            "value": "29,778 seats"
+          },
+          {
+            "rank": 11,
+            "code": "L1-NIC",
+            "value": "35,624 seats"
+          },
+          {
+            "rank": 12,
+            "code": "L1-MON",
+            "value": "16,360 seats"
+          },
+          {
+            "rank": 13,
+            "code": "L1-STR",
+            "value": "26,109 seats"
+          },
+          {
+            "rank": 14,
+            "code": "L1-MTP",
+            "value": "22,000 seats"
+          },
+          {
+            "rank": 15,
+            "code": "L1-REI",
+            "value": "21,684 seats"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-highest-average-ligue-1-attendance-2022",
+      "current": {
+        "title": "Highest average Ligue 1 attendance",
+        "prompt": "Name the Ligue 1 clubs with the highest average home attendance in the 2022-23 season.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Ligue 1",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Average paid attendance for all Ligue 1 home league matches only; excludes cup and European fixtures.",
+        "trivia": "Marseille has led Ligue 1 in average attendance every season since the V\u00e9lodrome's Euro 2016 renovation, with a full-season average that would place them among the top ten in Europe.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "L1-MAR",
+            "value": "63,761 avg"
+          },
+          {
+            "rank": 2,
+            "code": "L1-PSG",
+            "value": "47,246 avg"
+          },
+          {
+            "rank": 3,
+            "code": "L1-LYN",
+            "value": "46,847 avg"
+          },
+          {
+            "rank": 4,
+            "code": "L1-LIL",
+            "value": "43,538 avg"
+          },
+          {
+            "rank": 5,
+            "code": "L1-LEN",
+            "value": "37,882 avg"
+          },
+          {
+            "rank": 6,
+            "code": "L1-NAN",
+            "value": "30,972 avg"
+          },
+          {
+            "rank": 7,
+            "code": "L1-NIC",
+            "value": "22,972 avg"
+          },
+          {
+            "rank": 8,
+            "code": "L1-REN",
+            "value": "27,940 avg"
+          },
+          {
+            "rank": 9,
+            "code": "L1-STR",
+            "value": "24,858 avg"
+          },
+          {
+            "rank": 10,
+            "code": "L1-TFC",
+            "value": "17,930 avg"
+          },
+          {
+            "rank": 11,
+            "code": "L1-MTP",
+            "value": "18,762 avg"
+          },
+          {
+            "rank": 12,
+            "code": "L1-REI",
+            "value": "16,543 avg"
+          },
+          {
+            "rank": 13,
+            "code": "L1-BRE",
+            "value": "14,411 avg"
+          },
+          {
+            "rank": 14,
+            "code": "L1-ANG",
+            "value": "12,982 avg"
+          },
+          {
+            "rank": 15,
+            "code": "L1-MON",
+            "value": "8,411 avg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-most-seasons-in-serie-a-2024",
+      "current": {
+        "title": "Most seasons in Serie A",
+        "prompt": "Name the clubs that have played the most seasons in Italy's top flight (unified Serie A, 1929-30 to present).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Serie A",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts single-tier top-flight seasons from 1929-30 onward (unified Serie A). Excludes pre-1929 regional/national championship formats.",
+        "trivia": "Inter Milan is the only club to have played in every Serie A season since the unified single-division format began in 1929-30 \u2014 never once relegated.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "SEA-INT",
+            "value": "93 seasons"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-JUV",
+            "value": "92 seasons"
+          },
+          {
+            "rank": 3,
+            "code": "SEA-ROM",
+            "value": "91 seasons"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-MIL",
+            "value": "90 seasons"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-FIO",
+            "value": "85 seasons"
+          },
+          {
+            "rank": 6,
+            "code": "SEA-LAZ",
+            "value": "82 seasons"
+          },
+          {
+            "rank": 7,
+            "code": "SEA-TOR",
+            "value": "81 seasons"
+          },
+          {
+            "rank": 8,
+            "code": "SEA-BOL",
+            "value": "79 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-NAP",
+            "value": "78 seasons"
+          },
+          {
+            "rank": 10,
+            "code": "SEA-SMP",
+            "value": "68 seasons"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-ATA",
+            "value": "66 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "SEA-GEN",
+            "value": "58 seasons"
+          },
+          {
+            "rank": 13,
+            "code": "SEA-UDN",
+            "value": "54 seasons"
+          },
+          {
+            "rank": 14,
+            "code": "SEA-CAG",
+            "value": "45 seasons"
+          },
+          {
+            "rank": 15,
+            "code": "SEA-HVR",
+            "value": "36 seasons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-largest-home-stadiums-used-by-serie-a-clubs-2024",
+      "current": {
+        "title": "Largest home stadiums used by Serie A clubs",
+        "prompt": "Name the Serie A clubs whose home stadiums have the largest official seating capacity.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Serie A",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Official licensed all-seater capacity used by the club for Serie A matches \u2014 not gross bowl capacity or historic peak. Some clubs share a stadium (see trivia).",
+        "trivia": "Milan and Inter share the San Siro (Giuseppe Meazza); Roma and Lazio both play home matches at the Stadio Olimpico. Both grounds are among the largest in Italy.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "SEA-MIL",
+            "value": "75,817 seats"
+          },
+          {
+            "rank": 1,
+            "code": "SEA-INT",
+            "value": "75,817 seats (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "SEA-ROM",
+            "value": "70,634 seats"
+          },
+          {
+            "rank": 3,
+            "code": "SEA-LAZ",
+            "value": "70,634 seats (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-NAP",
+            "value": "54,726 seats"
+          },
+          {
+            "rank": 6,
+            "code": "SEA-FIO",
+            "value": "43,147 seats"
+          },
+          {
+            "rank": 7,
+            "code": "SEA-JUV",
+            "value": "41,507 seats"
+          },
+          {
+            "rank": 8,
+            "code": "SEA-HVR",
+            "value": "39,371 seats"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-GEN",
+            "value": "36,536 seats"
+          },
+          {
+            "rank": 10,
+            "code": "SEA-BOL",
+            "value": "36,462 seats"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-TOR",
+            "value": "27,958 seats"
+          },
+          {
+            "rank": 12,
+            "code": "SEA-UDN",
+            "value": "25,144 seats"
+          },
+          {
+            "rank": 13,
+            "code": "SEA-ATA",
+            "value": "24,950 seats"
+          },
+          {
+            "rank": 14,
+            "code": "SEA-CAG",
+            "value": "16,416 seats"
+          },
+          {
+            "rank": 15,
+            "code": "SEA-VEN",
+            "value": "11,150 seats"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-highest-average-home-attendance-serie-a-2023-24-2023",
+      "current": {
+        "title": "Highest average home attendance (Serie A 2023-24)",
+        "prompt": "Name the Serie A clubs with the highest average home league attendance in the 2023-24 Serie A season.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Serie A",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Average paid home attendance across the 19 Serie A home matches in 2023-24. Excludes cup and European fixtures.",
+        "trivia": "The Scudetto winner drew over 73,000 per match at the San Siro; newly-promoted Como playing in the tiny Stadio Sinigaglia (about 13,000 licensed) sold out most home fixtures the season prior in Serie B.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "SEA-INT",
+            "value": "73,573 avg"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-MIL",
+            "value": "71,459 avg"
+          },
+          {
+            "rank": 3,
+            "code": "SEA-ROM",
+            "value": "62,911 avg"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-NAP",
+            "value": "48,058 avg"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-LAZ",
+            "value": "43,020 avg"
+          },
+          {
+            "rank": 6,
+            "code": "SEA-JUV",
+            "value": "38,975 avg"
+          },
+          {
+            "rank": 7,
+            "code": "SEA-FIO",
+            "value": "32,976 avg"
+          },
+          {
+            "rank": 8,
+            "code": "SEA-GEN",
+            "value": "31,485 avg"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-BOL",
+            "value": "29,540 avg"
+          },
+          {
+            "rank": 10,
+            "code": "SEA-TOR",
+            "value": "24,432 avg"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-HVR",
+            "value": "24,180 avg"
+          },
+          {
+            "rank": 12,
+            "code": "SEA-UDN",
+            "value": "22,675 avg"
+          },
+          {
+            "rank": 13,
+            "code": "SEA-ATA",
+            "value": "20,441 avg"
+          },
+          {
+            "rank": 14,
+            "code": "SEA-CAG",
+            "value": "16,110 avg"
+          },
+          {
+            "rank": 15,
+            "code": "SEA-EMP",
+            "value": "10,924 avg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-largest-bundesliga-stadium-2024",
+      "current": {
+        "title": "Largest Bundesliga stadium",
+        "prompt": "Name the Bundesliga clubs whose home stadiums have the largest total capacity (including standing terraces).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Bundesliga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Includes standing terraces used in league matches; reduced all-seater capacity for UEFA fixtures is not used.",
+        "trivia": "Signal Iduna Park's Sudtribune is Europe's largest standing terrace, holding 24,454 fans \u2014 nicknamed the Yellow Wall.",
+        "seededDepth": 18,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BUN-BVB",
+            "value": "81,365 capacity"
+          },
+          {
+            "rank": 2,
+            "code": "BUN-BAY",
+            "value": "75,024 capacity"
+          },
+          {
+            "rank": 3,
+            "code": "BUN-HER",
+            "value": "74,475 capacity"
+          },
+          {
+            "rank": 4,
+            "code": "BUN-SCH",
+            "value": "62,271 capacity"
+          },
+          {
+            "rank": 5,
+            "code": "BUN-VFB",
+            "value": "60,449 capacity"
+          },
+          {
+            "rank": 6,
+            "code": "BUN-SGE",
+            "value": "58,000 capacity"
+          },
+          {
+            "rank": 7,
+            "code": "BUN-HAM",
+            "value": "57,000 capacity"
+          },
+          {
+            "rank": 8,
+            "code": "BUN-BMG",
+            "value": "54,057 capacity"
+          },
+          {
+            "rank": 9,
+            "code": "BUN-N90",
+            "value": "50,000 capacity"
+          },
+          {
+            "rank": 10,
+            "code": "BUN-KOL",
+            "value": "50,000 capacity (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "BUN-KAI",
+            "value": "49,780 capacity"
+          },
+          {
+            "rank": 12,
+            "code": "BUN-RBL",
+            "value": "47,069 capacity"
+          },
+          {
+            "rank": 13,
+            "code": "BUN-BRE",
+            "value": "42,100 capacity"
+          },
+          {
+            "rank": 14,
+            "code": "BUN-SCF",
+            "value": "34,700 capacity"
+          },
+          {
+            "rank": 15,
+            "code": "BUN-MZ",
+            "value": "33,305 capacity"
+          },
+          {
+            "rank": 16,
+            "code": "BUN-FCA",
+            "value": "30,660 capacity"
+          },
+          {
+            "rank": 17,
+            "code": "BUN-BER",
+            "value": "30,210 capacity"
+          },
+          {
+            "rank": 18,
+            "code": "BUN-HOF",
+            "value": "30,150 capacity"
+          }
+        ]
+      }
+    }
+  ]
+}

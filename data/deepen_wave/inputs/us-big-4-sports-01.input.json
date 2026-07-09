@@ -1,0 +1,749 @@
+{
+  "cluster": "us-big-4-sports-01",
+  "questions": [
+    {
+      "id": "pro-sports-cross-league-largest-average-home-attendance-per-game-across-us-pro-s",
+      "current": {
+        "title": "Largest average home attendance per game across US pro sports",
+        "prompt": "Name the US pro sports franchises with the largest average home attendance per game across the NBA, NFL, MLB, and NHL.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Attendance is average per home game across the most recent completed regular season. NFL teams cluster at the top because stadium capacity dwarfs indoor arenas, and only a handful of MLB ballparks approach the NFL range.",
+        "trivia": "The Cowboys' AT&T Stadium (~93,000 avg) leads all North American pro sports for home attendance. Dodger Stadium (~47,000) is the only non-NFL venue that reliably cracks the top 15.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "93,000 avg / game"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-GB",
+            "value": "78,700 avg / game"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NYG",
+            "value": "78,500 avg / game"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-NYJ",
+            "value": "78,000 avg / game"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-DEN",
+            "value": "76,700 avg / game"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "76,400 avg / game"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-CAR",
+            "value": "72,700 avg / game"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-BAL",
+            "value": "70,900 avg / game"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-BUF",
+            "value": "70,000 avg / game"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-PHI",
+            "value": "69,900 avg / game"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIN",
+            "value": "66,900 avg / game"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-NE",
+            "value": "65,900 avg / game"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-WAS",
+            "value": "65,700 avg / game"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-LAD",
+            "value": "47,371 avg / game"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-STL",
+            "value": "40,013 avg / game"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-largest-social-media-following-cross-league-2024",
+      "current": {
+        "title": "Largest social media following (cross-league)",
+        "prompt": "Name the US pro sports franchises with the largest combined social media following (Instagram + X + Facebook + TikTok) across the NBA, NFL, MLB, and NHL.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Sums each franchise's official Instagram, X (Twitter), Facebook, and TikTok follower counts. Global soccer clubs like Real Madrid and Barcelona are outside the answer set and excluded.",
+        "trivia": "The Lakers, Warriors, and Cowboys are the only three US pro franchises above 40M combined followers. NBA franchises consistently punch above their weight because of the league's global reach and star-driven media.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": "~52M combined followers"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-GSW",
+            "value": "~44M combined followers"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-DAL",
+            "value": "~41M combined followers"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-CHI",
+            "value": "~36M combined followers"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-BOS",
+            "value": "~28M combined followers"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-MIA",
+            "value": "~25M combined followers"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-CLE",
+            "value": "~22M combined followers"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NE",
+            "value": "~22M combined followers"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-NYY",
+            "value": "~21M combined followers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-NYK",
+            "value": "~19M combined followers"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-GB",
+            "value": "~18M combined followers"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-PIT",
+            "value": "~17M combined followers"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-HOU",
+            "value": "~16M combined followers"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-SF",
+            "value": "~15M combined followers"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-LAD",
+            "value": "~14M combined followers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-longest-current-championship-drought-cross-league-capped",
+      "current": {
+        "title": "Longest current championship drought (cross-league, capped at 100 years)",
+        "prompt": "Name the US pro sports franchises with the longest current championship drought (seasons since last league title) across the NBA, NFL, MLB, and NHL. Franchises that have never won are capped at 100 years to avoid infinite droughts.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Seasons since the franchise's last league championship, entering the 2024 season. Franchises that have never won are capped at 100 years to keep the list finite; ties among never-won franchises are broken alphabetically by team code.",
+        "trivia": "Among franchises that have won a title, the Arizona Cardinals (last champion 1947) and Sacramento Kings (1951) hold the longest active droughts. Several MLB franchises (Padres, Brewers, Rays, Rockies, Mariners) and NFL franchises (Lions, Browns, Jaguars, Texans) have never won a championship at all.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-MIL",
+            "value": "100 years (never won, capped)"
+          },
+          {
+            "rank": 1,
+            "code": "MLB-SD",
+            "value": "100 years (never won, capped)"
+          },
+          {
+            "rank": 1,
+            "code": "MLB-SEA",
+            "value": "100 years (never won, capped)"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-JAX",
+            "value": "100 years (never won, capped)"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-HOU",
+            "value": "100 years (never won, capped)"
+          },
+          {
+            "rank": 1,
+            "code": "NHL-BUF",
+            "value": "100 years (never won, capped)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-ARI",
+            "value": "77 years (last title 1947)"
+          },
+          {
+            "rank": 8,
+            "code": "MLB-CLE",
+            "value": "76 years (last title 1948)"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-SAC",
+            "value": "73 years (last title 1951)"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-ATL",
+            "value": "66 years (last title 1958)"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-DET",
+            "value": "66 years (last title 1957)"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-CLE",
+            "value": "60 years (last title 1964)"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-TOR",
+            "value": "57 years (last Cup 1967)"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-NYJ",
+            "value": "55 years (last title 1968)"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-NYK",
+            "value": "51 years (last title 1973)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-most-retired-jersey-numbers-across-all-us-pro-sports-202",
+      "current": {
+        "title": "Most retired jersey numbers across all US pro sports",
+        "prompt": "Name the US pro sports franchises with the most officially retired jersey numbers across the NBA, NFL, MLB, and NHL.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Officially retired jersey numbers per franchise, across the NBA, NFL, MLB, and NHL. Jackie Robinson's #42 is retired league-wide across MLB and is not counted as a team-specific retirement. Numbers retired for multiple players are counted once.",
+        "trivia": "The Celtics lead all US pro sports with 24 retired numbers \u2014 basketball franchises tend to retire many because of small rosters and long-tenured stars. The Yankees and Cardinals lead MLB.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-BOS",
+            "value": "24 retired numbers"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-NYY",
+            "value": "22 retired numbers"
+          },
+          {
+            "rank": 3,
+            "code": "NHL-MTL",
+            "value": "18 retired numbers"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-STL",
+            "value": "14 retired numbers"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-CHI",
+            "value": "14 retired numbers"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-NYK",
+            "value": "12 retired numbers"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-LAL",
+            "value": "12 retired numbers"
+          },
+          {
+            "rank": 6,
+            "code": "NHL-BOS",
+            "value": "12 retired numbers"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-LAD",
+            "value": "12 retired numbers"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-CIN",
+            "value": "11 retired numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-SAS",
+            "value": "11 retired numbers"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-PHI",
+            "value": "10 retired numbers"
+          },
+          {
+            "rank": 13,
+            "code": "NHL-DET",
+            "value": "8 retired numbers"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-CHC",
+            "value": "6 retired numbers"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-CHI",
+            "value": "4 retired numbers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-most-mvp-awards-to-players-aggregated-by-team-across-the",
+      "current": {
+        "title": "Most MVP awards to players (aggregated by team) across the big 4",
+        "prompt": "Name the pro sports franchises with the most regular-season MVP awards won by players while on the roster, across the NBA, NFL, MLB, and NHL (each league's MVP counted equally within its own league).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - Cross League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts regular-season MVP awards won by players while on the current franchise (following franchise lineage). Uses BBWAA MVP (MLB, AL+NL from 1931), NBA MVP, AP NFL MVP, and Hart Trophy (NHL). Because leagues have different histories and award counts, this ranking mixes categories.",
+        "trivia": "Kareem Abdul-Jabbar alone contributed 3 MVPs each to the Lakers and Bucks. Montreal's 18 Hart Trophies and the Yankees' 22 BBWAA MVPs are the largest single-franchise totals in their leagues.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-NYY",
+            "value": "22 MVPs"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-LAL",
+            "value": "12 MVPs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-STL",
+            "value": "12 MVPs"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-BOS",
+            "value": "10 MVPs"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-SF",
+            "value": "10 MVPs"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-PHI",
+            "value": "9 MVPs"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-DET",
+            "value": "9 MVPs"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-MIL",
+            "value": "8 MVPs"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-CHI",
+            "value": "6 MVPs"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-HOU",
+            "value": "5 MVPs"
+          },
+          {
+            "rank": 11,
+            "code": "NHL-MTL",
+            "value": "18 Hart Trophies"
+          },
+          {
+            "rank": 12,
+            "code": "NHL-BOS",
+            "value": "11 Hart Trophies"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-GB",
+            "value": "6 AP MVPs"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-IND",
+            "value": "5 AP MVPs"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-KC",
+            "value": "5 AP MVPs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-mlb-most-hall-of-famers-mlb-by-primary-team-2024",
+      "current": {
+        "title": "Most Hall of Famers (MLB, by primary team)",
+        "prompt": "Name the MLB franchises with the most Baseball Hall of Fame players primarily associated with them.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - MLB",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts Baseball Hall of Fame players inducted primarily as members of that franchise (i.e. the plurality of their careers). Older NL franchises benefit from longer eligibility windows.",
+        "trivia": "The Yankees and Giants (including NY Giants era) lead in Hall of Famers primarily associated with the franchise.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-NYY",
+            "value": "27 HOFers"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-SF",
+            "value": "24 HOFers"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-LAD",
+            "value": "20 HOFers"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-CHC",
+            "value": "17 HOFers"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-STL",
+            "value": "17 HOFers"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-OAK",
+            "value": "16 HOFers"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-ATL",
+            "value": "15 HOFers"
+          },
+          {
+            "rank": 8,
+            "code": "MLB-PIT",
+            "value": "14 HOFers"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-BOS",
+            "value": "12 HOFers"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-DET",
+            "value": "11 HOFers"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-CIN",
+            "value": "10 HOFers"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-CLE",
+            "value": "10 HOFers"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-PHI",
+            "value": "9 HOFers"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-BAL",
+            "value": "8 HOFers"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-CWS",
+            "value": "8 HOFers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-mlb-most-valuable-mlb-franchises-forbes-2024-2024",
+      "current": {
+        "title": "Most valuable MLB franchises (Forbes 2024)",
+        "prompt": "Name the highest-valued MLB franchises per Forbes' 2024 team valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - MLB",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Per Forbes' 2024 MLB team valuations. Values in US dollars.",
+        "trivia": "The Yankees have been baseball's most valuable franchise every year since Forbes began ranking MLB teams in 1998.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-NYY",
+            "value": "$7.55B"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-LAD",
+            "value": "$5.45B"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-BOS",
+            "value": "$4.8B"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-CHC",
+            "value": "$4.6B"
+          },
+          {
+            "rank": 5,
+            "code": "MLB-SF",
+            "value": "$4.1B"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-NYM",
+            "value": "$2.9B"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-PHI",
+            "value": "$2.75B"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-ATL",
+            "value": "$2.75B"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-STL",
+            "value": "$2.55B"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-TOR",
+            "value": "$2.5B"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-TEX",
+            "value": "$2.45B"
+          },
+          {
+            "rank": 12,
+            "code": "MLB-HOU",
+            "value": "$2.4B"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-LAA",
+            "value": "$2.35B"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-SEA",
+            "value": "$2.2B"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-SD",
+            "value": "$2.1B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-mlb-oldest-mlb-franchises-founding-year-2024",
+      "current": {
+        "title": "Oldest MLB franchises (founding year)",
+        "prompt": "Name the MLB franchises with the earliest founding year (oldest continuously operating clubs).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - MLB",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Earliest continuous franchise founding year (following lineage through relocations). NL clubs founded 1876-1883 dominate the top of the list. Ties broken alphabetically by team code.",
+        "trivia": "The Braves (est. 1871 as the Boston Red Stockings) and Cubs (est. 1876 as the Chicago White Stockings) are the two oldest continuously operating MLB franchises. Cleveland's founding traces to the 1894 Grand Rapids Rustlers.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-ATL",
+            "value": "Founded 1871 (Boston Red Stockings, NA)"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-CHC",
+            "value": "Founded 1876 (NL charter member)"
+          },
+          {
+            "rank": 3,
+            "code": "MLB-STL",
+            "value": "Founded 1882 (Brown Stockings, AA)"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-CIN",
+            "value": "Founded 1882 (Red Stockings, AA)"
+          },
+          {
+            "rank": 5,
+            "code": "MLB-PIT",
+            "value": "Founded 1882 (Allegheny, AA)"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-PHI",
+            "value": "Founded 1883 (Philadelphia Quakers, NL)"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-SF",
+            "value": "Founded 1883 (New York Gothams / NY Giants, NL)"
+          },
+          {
+            "rank": 8,
+            "code": "MLB-LAD",
+            "value": "Founded 1884 (Brooklyn Atlantics, AA)"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-CLE",
+            "value": "Founded 1894 (Grand Rapids Rustlers)"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-BAL",
+            "value": "Founded 1901 (Milwaukee Brewers -> St. Louis Browns -> Baltimore Orioles)"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-BOS",
+            "value": "Founded 1901 (AL charter)"
+          },
+          {
+            "rank": 12,
+            "code": "MLB-CWS",
+            "value": "Founded 1901 (AL charter)"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-DET",
+            "value": "Founded 1901 (AL charter)"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-NYY",
+            "value": "Founded 1901 (Baltimore Orioles -> NY Highlanders 1903)"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-OAK",
+            "value": "Founded 1901 (Philadelphia Athletics)"
+          }
+        ]
+      }
+    }
+  ]
+}

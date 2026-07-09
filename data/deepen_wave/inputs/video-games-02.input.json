@@ -1,0 +1,629 @@
+{
+  "cluster": "video-games-02",
+  "questions": [
+    {
+      "id": "video-games-franchise-oldest-continuously-active-video-game-franchises-2024",
+      "current": {
+        "title": "Oldest Continuously Active Video Game Franchises",
+        "prompt": "Rank these long-running video game franchises by how long they have been continuously producing new releases (oldest first).",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Based on year of the franchise's debut title; all listed franchises have received official new releases in the modern era.",
+        "trivia": "Pac-Man debuted in Japanese arcades in May 1980 as 'Puck Man' before being renamed for its North American release later that year.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "pac-man",
+            "value": "1980"
+          },
+          {
+            "rank": 2,
+            "code": "donkey-kong",
+            "value": "1981"
+          },
+          {
+            "rank": 3,
+            "code": "mario",
+            "value": "1981"
+          },
+          {
+            "rank": 4,
+            "code": "frogger",
+            "value": "1981"
+          },
+          {
+            "rank": 5,
+            "code": "castlevania",
+            "value": "1986"
+          },
+          {
+            "rank": 6,
+            "code": "zelda",
+            "value": "1986"
+          },
+          {
+            "rank": 7,
+            "code": "metroid",
+            "value": "1986"
+          },
+          {
+            "rank": 8,
+            "code": "dragon-quest",
+            "value": "1986"
+          },
+          {
+            "rank": 9,
+            "code": "final-fantasy",
+            "value": "1987"
+          },
+          {
+            "rank": 10,
+            "code": "mega-man",
+            "value": "1987"
+          },
+          {
+            "rank": 11,
+            "code": "street-fighter",
+            "value": "1987"
+          },
+          {
+            "rank": 12,
+            "code": "madden-nfl",
+            "value": "1988"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-rpg-on-metacritic-2025",
+      "current": {
+        "title": "Highest scoring RPG on Metacritic",
+        "prompt": "Name the highest-rated role-playing games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. Both Japanese-style and Western RPGs are eligible.",
+        "trivia": "Baldur's Gate 3 became the highest-rated Western RPG ever on release, tying Mass Effect 2 and Fallout 3 at the top of the modern era.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "elder-scrolls-v-skyrim-2011",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "mass-effect-2-2010",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "baldurs-gate-3-2023",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "elden-ring-2022",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "baldurs-gate-ii-shadows-of-amn-2000",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 6,
+            "code": "elder-scrolls-iv-oblivion-2006",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "fallout-3-2008",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "persona-5-2016",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "divinity-original-sin-ii-2017",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "disco-elysium-2019",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "planescape-torment-1999",
+            "value": "91 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-fps-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring FPS games (Metacritic)",
+        "prompt": "Name the highest-rated first-person shooter games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. First-person shooters only; third-person titles like Gears of War are excluded.",
+        "trivia": "Halo: Combat Evolved's 97 Metascore was the highest ever for a console FPS at launch and helped make Xbox a serious PlayStation competitor.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "halo-combat-evolved-2001",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "perfect-dark-2000",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "half-life-2-2004",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "goldeneye-007-1997",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "half-life-1998",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "bioshock-2007",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "halo-2-2004",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "call-of-duty-4-modern-warfare-2007",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "bioshock-infinite-2013",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "halo-3-2007",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "doom-1993",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 12,
+            "code": "overwatch-2016",
+            "value": "91 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-puzzle-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring puzzle games (Metacritic)",
+        "prompt": "Name the highest-rated puzzle games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. Games classified primarily as puzzle or puzzle-platformer on Metacritic.",
+        "trivia": "Portal 2's 95 Metascore made it the highest-rated Valve game ever, edging out Half-Life 2's 96 on some platforms.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "portal-2-2011",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "tetris-1988",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "braid-2008",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "inside-2016",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "portal-2007",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "limbo-2010",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "return-of-the-obra-dinn-2018",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "lumines-puzzle-fusion-2004",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "stanley-parable-2013",
+            "value": "88 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "witness-2016",
+            "value": "87 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "papers-please-2013",
+            "value": "85 Metacritic"
+          },
+          {
+            "rank": 12,
+            "code": "myst-1993",
+            "value": "83 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-platformers-metacritic-2025",
+      "current": {
+        "title": "Highest scoring platformers (Metacritic)",
+        "prompt": "Name the highest-rated platformer games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. Both 2D and 3D platformers are eligible.",
+        "trivia": "Super Mario Galaxy and its sequel are the only two games ever to both score 97 on Metacritic in the same series, back-to-back.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "super-mario-galaxy-2007",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "super-mario-galaxy-2-2010",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "super-mario-odyssey-2017",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "super-mario-64-1996",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "astro-bot-2024",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "celeste-2018",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "banjo-kazooie-1998",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "crash-bandicoot-warped-1998",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "shovel-knight-2014",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "hollow-knight-2017",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "super-meat-boy-2010",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 12,
+            "code": "new-super-mario-bros-2006",
+            "value": "89 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-open-world-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring open-world games (Metacritic)",
+        "prompt": "Name the highest-rated open-world games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. Games with large open explorable worlds and non-linear structure.",
+        "trivia": "Breath of the Wild launched with a 97 Metacritic score, matching Ocarina of Time and becoming the highest-rated Zelda game since 1998.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "grand-theft-auto-iv-2008",
+            "value": "98 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "red-dead-redemption-2-2018",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-v-2013",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-iii-2001",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 6,
+            "code": "elden-ring-2022",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 6,
+            "code": "elder-scrolls-v-skyrim-2011",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "grand-theft-auto-san-andreas-2004",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "red-dead-redemption-2010",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "grand-theft-auto-vice-city-2002",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "elder-scrolls-iv-oblivion-2006",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 12,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "93 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-racing-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring racing games (Metacritic)",
+        "prompt": "Name the highest-rated racing games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. Both sim-style and kart racers are eligible.",
+        "trivia": "Gran Turismo 3: A-Spec's 95 Metascore made it the highest-rated console driving game of its generation, a benchmark that stood for over a decade.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gran-turismo-1997",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "gran-turismo-3-a-spec-2001",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "burnout-3-takedown-2004",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "gran-turismo-2-1999",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "forza-horizon-5-2021",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "forza-horizon-4-2018",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "gran-turismo-4-2004",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "f-zero-gx-2003",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "mario-kart-8-2014",
+            "value": "88 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "burnout-paradise-2008",
+            "value": "88 Metacritic"
+          },
+          {
+            "rank": 11,
+            "code": "mario-kart-64-1996",
+            "value": "83 Metacritic"
+          },
+          {
+            "rank": 12,
+            "code": "mario-kart-wii-2008",
+            "value": "82 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-most-played-on-steam-by-concurrent-players-all-time-peak-2",
+      "current": {
+        "title": "Most-played on Steam by concurrent players (all-time peak)",
+        "prompt": "Name the games with the highest all-time concurrent player peaks on Steam.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Steam concurrent user peak only \u2014 does not include console or mobile players. Free-to-play games have a natural advantage.",
+        "trivia": "PUBG: Battlegrounds held the all-time Steam CCU peak of over 3.2 million from 2018 until Black Myth: Wukong briefly surpassed it in 2024.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "pubg-battlegrounds-2017",
+            "value": "3.25M peak CCU"
+          },
+          {
+            "rank": 2,
+            "code": "black-myth-wukong-2024",
+            "value": "2.42M peak CCU"
+          },
+          {
+            "rank": 3,
+            "code": "counter-strike-global-offensive-2012",
+            "value": "1.82M peak CCU"
+          },
+          {
+            "rank": 4,
+            "code": "dota-2-2013",
+            "value": "1.29M peak CCU"
+          },
+          {
+            "rank": 5,
+            "code": "cyberpunk-2077-2020",
+            "value": "1.05M peak CCU"
+          },
+          {
+            "rank": 6,
+            "code": "elden-ring-2022",
+            "value": "953K peak CCU"
+          },
+          {
+            "rank": 7,
+            "code": "hogwarts-legacy-2023",
+            "value": "879K peak CCU"
+          },
+          {
+            "rank": 8,
+            "code": "baldurs-gate-3-2023",
+            "value": "875K peak CCU"
+          },
+          {
+            "rank": 9,
+            "code": "terraria-2011",
+            "value": "489K peak CCU"
+          },
+          {
+            "rank": 10,
+            "code": "fallout-4-2015",
+            "value": "472K peak CCU"
+          },
+          {
+            "rank": 11,
+            "code": "grand-theft-auto-v-2013",
+            "value": "364K peak CCU"
+          },
+          {
+            "rank": 12,
+            "code": "monster-hunter-world-2018",
+            "value": "334K peak CCU"
+          }
+        ]
+      }
+    }
+  ]
+}

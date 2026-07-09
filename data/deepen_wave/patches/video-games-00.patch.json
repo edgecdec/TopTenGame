@@ -1,0 +1,138 @@
+{
+  "cluster": "video-games-00",
+  "updates": [
+    {
+      "id": "video-games-critical-highest-metacritic-score-of-all-time-all-platforms-2025",
+      "changes": {
+        "title": "Highest Metacritic scores of all time",
+        "prompt": "Name the games with the highest all-time Metacritic critic scores, considering the highest-scoring platform version of each title.",
+        "disclaimer": "Metacritic uses a weighted average of professional critic reviews on a 0-100 scale. Games are ranked by the highest score any single platform release achieved; cross-platform re-releases share one code. Threshold: Metacritic 96 or higher.",
+        "trivia": "The Legend of Zelda: Ocarina of Time has held the #1 spot on Metacritic's all-time leaderboard for over two decades on the strength of a 99 across dozens of reviews.",
+        "answers": [
+          { "rank": 1, "code": "legend-of-zelda-ocarina-of-time-1998", "value": "99 Metacritic" },
+          { "rank": 2, "code": "tony-hawks-pro-skater-2-2000", "value": "98 Metacritic" },
+          { "rank": 2, "code": "grand-theft-auto-iv-2008", "value": "98 Metacritic (tied)" },
+          { "rank": 4, "code": "super-mario-galaxy-2007", "value": "97 Metacritic" },
+          { "rank": 4, "code": "super-mario-galaxy-2-2010", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "red-dead-redemption-2-2018", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "grand-theft-auto-v-2013", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "half-life-2-2004", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "halo-combat-evolved-2001", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "legend-of-zelda-breath-of-the-wild-2017", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "super-mario-odyssey-2017", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "elden-ring-2022", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "baldurs-gate-3-2023", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "uncharted-2-among-thieves-2009", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "metroid-prime-2002", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "perfect-dark-2000", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "grand-theft-auto-iii-2001", "value": "97 Metacritic (tied)" },
+          { "rank": 4, "code": "tekken-3-1997", "value": "97 Metacritic (tied)" },
+          { "rank": 19, "code": "last-of-us-2013", "value": "96 Metacritic" },
+          { "rank": 19, "code": "half-life-1998", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "bioshock-2007", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "mass-effect-2-2010", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "portal-2-2011", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "grim-fandango-1998", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "age-of-empires-ii-1999", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "goldeneye-007-1997", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "grand-theft-auto-san-andreas-2004", "value": "96 Metacritic (tied)" },
+          { "rank": 19, "code": "metal-gear-solid-1998", "value": "96 Metacritic (tied)" }
+        ],
+        "seededDepth": 28
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-fighting-games-metacritic-2025",
+      "changes": {
+        "title": "Highest scoring fighting games (Metacritic)",
+        "prompt": "Name the highest-rated fighting games by Metacritic aggregate critic score.",
+        "disclaimer": "Only the highest-scoring platform version of each title counts. 2D and 3D fighters both eligible; platform fighters like Super Smash Bros. included.",
+        "trivia": "Tekken 3 (PS1, 1998) holds the all-time-highest Metacritic score for any fighting game at 96 — beating every Street Fighter, Mortal Kombat, and Smash Bros. release since.",
+        "answers": [
+          { "rank": 1, "code": "tekken-3-1997", "value": "96 Metacritic" },
+          { "rank": 2, "code": "super-smash-bros-ultimate-2018", "value": "93 Metacritic" },
+          { "rank": 2, "code": "super-smash-bros-brawl-2008", "value": "93 Metacritic (tied)" },
+          { "rank": 2, "code": "street-fighter-iv-2008", "value": "93 Metacritic (tied)" },
+          { "rank": 5, "code": "super-smash-bros-melee-2001", "value": "92 Metacritic" },
+          { "rank": 5, "code": "soulcalibur-ii-2002", "value": "92 Metacritic (tied)" },
+          { "rank": 7, "code": "virtua-fighter-2-1994", "value": "91 Metacritic" },
+          { "rank": 8, "code": "marvel-vs-capcom-2-new-age-of-heroes-2000", "value": "89 Metacritic" },
+          { "rank": 9, "code": "street-fighter-ii-1991", "value": "88 Metacritic" },
+          { "rank": 10, "code": "mortal-kombat-ii-1993", "value": "87 Metacritic" },
+          { "rank": 11, "code": "mortal-kombat-1992", "value": "85 Metacritic" }
+        ],
+        "seededDepth": 11
+      }
+    },
+    {
+      "id": "video-games-franchise-highest-grossing-video-game-franchises-by-revenue-2024",
+      "changes": {
+        "title": "Highest-grossing video game franchises by revenue",
+        "prompt": "Rank video game franchises by total lifetime franchise revenue including games, merchandise, licensing, and film/TV — not games-software revenue only.",
+        "disclaimer": "Estimated lifetime revenue includes games plus merchandise, films, television, and licensing. Figures aggregated from TitleMax, Wikipedia, and publisher IR filings; some totals are widely-cited industry estimates rather than audited numbers.",
+        "trivia": "Pokemon's ~$100B lifetime revenue is more than Marvel, Star Wars, and Mickey Mouse have earned individually — a scale most players don't realize came from a franchise that started as a Game Boy title.",
+        "answers": [
+          { "rank": 1, "code": "pokemon", "value": "$100B revenue" },
+          { "rank": 2, "code": "mario", "value": "$40B revenue" },
+          { "rank": 3, "code": "call-of-duty", "value": "$31B revenue" },
+          { "rank": 4, "code": "grand-theft-auto", "value": "$30B revenue" },
+          { "rank": 5, "code": "fifa", "value": "$20B revenue" },
+          { "rank": 6, "code": "minecraft", "value": "$18B revenue" },
+          { "rank": 6, "code": "final-fantasy", "value": "$18B revenue (tied)" },
+          { "rank": 8, "code": "pac-man", "value": "$16B revenue" },
+          { "rank": 9, "code": "wii-sports", "value": "$15B revenue" },
+          { "rank": 10, "code": "dragon-quest", "value": "$14B revenue" },
+          { "rank": 10, "code": "world-of-warcraft", "value": "$14B revenue (tied)" },
+          { "rank": 12, "code": "league-of-legends", "value": "$13B revenue" },
+          { "rank": 13, "code": "sonic", "value": "$11B revenue" },
+          { "rank": 14, "code": "monster-hunter", "value": "$10B revenue" },
+          { "rank": 15, "code": "street-fighter", "value": "$9B revenue" },
+          { "rank": 16, "code": "madden-nfl", "value": "$7B revenue" },
+          { "rank": 17, "code": "assassins-creed", "value": "$6B revenue" },
+          { "rank": 17, "code": "resident-evil", "value": "$6B revenue (tied)" },
+          { "rank": 17, "code": "warcraft", "value": "$6B revenue (tied)" },
+          { "rank": 20, "code": "donkey-kong", "value": "$5B revenue" },
+          { "rank": 20, "code": "zelda", "value": "$5B revenue (tied)" },
+          { "rank": 20, "code": "fortnite", "value": "$5B revenue (tied)" }
+        ],
+        "seededDepth": 22
+      }
+    },
+    {
+      "id": "video-games-franchise-video-game-franchises-with-the-most-mainline-entries-2024",
+      "changes": {
+        "title": "Video game franchises with the most mainline entries",
+        "prompt": "Rank these franchises by the number of numbered or mainline installments in their core series.",
+        "disclaimer": "Counts numbered mainline entries only; excludes remakes, spin-offs, and side-story titles. Series with numbered mainline runs (Final Fantasy XVI, Dragon Quest XI, Mortal Kombat 1/2/3/4/9/10/11/1, Resident Evil 1-9) counted at their highest numbered release.",
+        "trivia": "Dragon Quest and Final Fantasy have run in parallel in Japan since 1986-1987, with fans often debating which series has the longer numbered run.",
+        "answers": [
+          { "rank": 1, "code": "final-fantasy", "value": "16 mainline" },
+          { "rank": 2, "code": "mortal-kombat", "value": "12 mainline" },
+          { "rank": 3, "code": "dragon-quest", "value": "11 mainline" },
+          { "rank": 3, "code": "mega-man", "value": "11 mainline (tied)" },
+          { "rank": 5, "code": "resident-evil", "value": "9 mainline" },
+          { "rank": 6, "code": "tekken", "value": "8 mainline" },
+          { "rank": 6, "code": "far-cry", "value": "8 mainline (tied)" },
+          { "rank": 8, "code": "gran-turismo", "value": "7 mainline" },
+          { "rank": 8, "code": "assassins-creed", "value": "7 mainline (tied)" },
+          { "rank": 10, "code": "grand-theft-auto", "value": "6 mainline" },
+          { "rank": 10, "code": "halo", "value": "6 mainline (tied)" },
+          { "rank": 10, "code": "elder-scrolls", "value": "6 mainline (tied)" },
+          { "rank": 10, "code": "fallout", "value": "6 mainline (tied)" },
+          { "rank": 14, "code": "smash-bros", "value": "5 mainline" },
+          { "rank": 14, "code": "metal-gear", "value": "5 mainline (tied)" },
+          { "rank": 14, "code": "silent-hill", "value": "5 mainline (tied)" },
+          { "rank": 14, "code": "diablo", "value": "5 mainline (tied)" },
+          { "rank": 14, "code": "god-of-war", "value": "5 mainline (tied)" }
+        ],
+        "seededDepth": 18
+      }
+    }
+  ],
+  "deletions": [
+    "video-games-sales-best-selling-handheld-games-nintendo-ds-3ds-vita-2025",
+    "video-games-sales-best-selling-nintendo-switch-games-2025",
+    "video-games-franchise-video-game-franchises-with-the-most-concurrent-players-202",
+    "video-games-franchise-video-game-franchises-with-the-most-spin-off-titles-2024"
+  ]
+}

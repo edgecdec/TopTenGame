@@ -1,0 +1,175 @@
+{
+  "cluster": "european-soccer-clubs-03",
+  "updates": [
+    {
+      "id": "european-soccer-la-liga-most-seasons-in-la-liga-top-flight-2026",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — List of La Liga clubs",
+          "url": "https://en.wikipedia.org/wiki/List_of_La_Liga_clubs",
+          "asOf": "2024-25 season"
+        },
+        "answers": [
+          {"rank": 1, "code": "LAL-ATH", "value": "96 seasons"},
+          {"rank": 1, "code": "LAL-BAR", "value": "96 seasons (tied)"},
+          {"rank": 1, "code": "LAL-RM", "value": "96 seasons (tied)"},
+          {"rank": 4, "code": "LAL-VAL", "value": "92 seasons"},
+          {"rank": 5, "code": "LAL-ATM", "value": "90 seasons"},
+          {"rank": 5, "code": "LAL-ESP", "value": "90 seasons (tied)"},
+          {"rank": 7, "code": "LAL-SEV", "value": "83 seasons"},
+          {"rank": 8, "code": "LAL-RS", "value": "80 seasons"},
+          {"rank": 9, "code": "LAL-BET", "value": "61 seasons"},
+          {"rank": 9, "code": "LAL-CEL", "value": "61 seasons (tied)"},
+          {"rank": 11, "code": "LAL-ZAR", "value": "58 seasons"},
+          {"rank": 12, "code": "LAL-DEP", "value": "47 seasons"},
+          {"rank": 12, "code": "LAL-VLD", "value": "47 seasons (tied)"},
+          {"rank": 14, "code": "LAL-OSA", "value": "45 seasons"},
+          {"rank": 15, "code": "LAL-LPA", "value": "36 seasons"},
+          {"rank": 16, "code": "LAL-MAL", "value": "33 seasons"},
+          {"rank": 17, "code": "LAL-GRA", "value": "27 seasons"},
+          {"rank": 17, "code": "LAL-VLL", "value": "27 seasons (tied)"}
+        ],
+        "seededDepth": 18
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-most-seasons-in-ligue-1-all-time-2024",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — List of Ligue 1 clubs",
+          "url": "https://en.wikipedia.org/wiki/List_of_Ligue_1_clubs",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Counts all seasons in France's professional top flight since 1932-33, including the pre-war Division 1 era. Some historic clubs (e.g., Sochaux, Nîmes) may not appear in the answer pool.",
+        "answers": [
+          {"rank": 1, "code": "L1-MAR", "value": "76 seasons"},
+          {"rank": 2, "code": "L1-SET", "value": "70 seasons"},
+          {"rank": 3, "code": "L1-BOR", "value": "69 seasons"},
+          {"rank": 3, "code": "L1-REN", "value": "69 seasons (tied)"},
+          {"rank": 5, "code": "L1-LYN", "value": "68 seasons"},
+          {"rank": 6, "code": "L1-MON", "value": "67 seasons"},
+          {"rank": 6, "code": "L1-NIC", "value": "67 seasons (tied)"},
+          {"rank": 8, "code": "L1-LIL", "value": "66 seasons"},
+          {"rank": 9, "code": "L1-STR", "value": "65 seasons"},
+          {"rank": 10, "code": "L1-METZ", "value": "64 seasons"},
+          {"rank": 11, "code": "L1-LEN", "value": "63 seasons"},
+          {"rank": 12, "code": "L1-NAN", "value": "57 seasons"},
+          {"rank": 13, "code": "L1-PSG", "value": "53 seasons"},
+          {"rank": 14, "code": "L1-MTP", "value": "44 seasons"},
+          {"rank": 15, "code": "L1-REI", "value": "42 seasons"},
+          {"rank": 16, "code": "L1-TFC", "value": "36 seasons"},
+          {"rank": 17, "code": "L1-AUX", "value": "34 seasons"},
+          {"rank": 18, "code": "L1-ANG", "value": "32 seasons"},
+          {"rank": 19, "code": "L1-LEH", "value": "25 seasons"},
+          {"rank": 20, "code": "L1-BRE", "value": "20 seasons"}
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-largest-ligue-1-stadium-capacity-2024",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — 2024-25 Ligue 1",
+          "url": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Ligue_1",
+          "asOf": "2024-25 season"
+        },
+        "disclaimer": "Official all-seater capacity for the club's primary home stadium as listed for the 2024-25 Ligue 1 season.",
+        "answers": [
+          {"rank": 1, "code": "L1-MAR", "value": "67,394 seats"},
+          {"rank": 2, "code": "L1-LYN", "value": "59,186 seats"},
+          {"rank": 3, "code": "L1-LIL", "value": "50,186 seats"},
+          {"rank": 4, "code": "L1-PSG", "value": "47,926 seats"},
+          {"rank": 5, "code": "L1-SET", "value": "41,965 seats"},
+          {"rank": 6, "code": "L1-LEN", "value": "37,705 seats"},
+          {"rank": 7, "code": "L1-NIC", "value": "35,624 seats"},
+          {"rank": 8, "code": "L1-NAN", "value": "35,322 seats"},
+          {"rank": 9, "code": "L1-TFC", "value": "33,150 seats"},
+          {"rank": 10, "code": "L1-MTP", "value": "32,900 seats"},
+          {"rank": 11, "code": "L1-REN", "value": "29,778 seats"},
+          {"rank": 12, "code": "L1-STR", "value": "29,230 seats"},
+          {"rank": 13, "code": "L1-LEH", "value": "25,178 seats"},
+          {"rank": 14, "code": "L1-REI", "value": "21,684 seats"},
+          {"rank": 15, "code": "L1-AUX", "value": "21,379 seats"},
+          {"rank": 16, "code": "L1-ANG", "value": "18,752 seats"},
+          {"rank": 17, "code": "L1-MON", "value": "18,523 seats"},
+          {"rank": 18, "code": "L1-BRE", "value": "15,931 seats"}
+        ],
+        "seededDepth": 18
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-highest-average-ligue-1-attendance-2022",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — 2022-23 Ligue 1",
+          "url": "https://en.wikipedia.org/wiki/2022%E2%80%9323_Ligue_1",
+          "asOf": "2022-23 season"
+        },
+        "disclaimer": "Average paid home attendance for all 17 Ligue 1 home matches in 2022-23; excludes cup and European fixtures. A few clubs from that season (Lorient, Clermont, Troyes) may not appear in the answer pool.",
+        "answers": [
+          {"rank": 1, "code": "L1-MAR", "value": "62,571 avg"},
+          {"rank": 2, "code": "L1-PSG", "value": "46,221 avg"},
+          {"rank": 3, "code": "L1-LYN", "value": "46,058 avg"},
+          {"rank": 4, "code": "L1-LEN", "value": "37,653 avg"},
+          {"rank": 5, "code": "L1-LIL", "value": "36,149 avg"},
+          {"rank": 6, "code": "L1-NAN", "value": "30,002 avg"},
+          {"rank": 7, "code": "L1-REN", "value": "27,195 avg"},
+          {"rank": 8, "code": "L1-STR", "value": "25,278 avg"},
+          {"rank": 9, "code": "L1-TFC", "value": "23,966 avg"},
+          {"rank": 10, "code": "L1-NIC", "value": "22,286 avg"},
+          {"rank": 11, "code": "L1-AUX", "value": "15,576 avg"},
+          {"rank": 12, "code": "L1-MTP", "value": "13,804 avg"},
+          {"rank": 13, "code": "L1-REI", "value": "13,602 avg"},
+          {"rank": 14, "code": "L1-BRE", "value": "12,657 avg"},
+          {"rank": 15, "code": "L1-ANG", "value": "9,616 avg"},
+          {"rank": 16, "code": "L1-AJA", "value": "7,527 avg"},
+          {"rank": 17, "code": "L1-MON", "value": "7,095 avg"}
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-most-seasons-in-serie-a-2024",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — Serie A records and statistics",
+          "url": "https://en.wikipedia.org/wiki/Serie_A_records_and_statistics",
+          "asOf": "through 2023-24 season"
+        }
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-largest-home-stadiums-used-by-serie-a-clubs-2024",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — 2024-25 Serie A",
+          "url": "https://en.wikipedia.org/wiki/2024%E2%80%9325_Serie_A",
+          "asOf": "2024-25 season"
+        }
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-highest-average-home-attendance-serie-a-2023-24-2023",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — 2023-24 Serie A",
+          "url": "https://en.wikipedia.org/wiki/2023%E2%80%9324_Serie_A",
+          "asOf": "2023-24 season"
+        }
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-largest-bundesliga-stadium-2024",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — List of German football stadiums",
+          "url": "https://en.wikipedia.org/wiki/List_of_football_stadiums_in_Germany",
+          "asOf": "2024-25 season"
+        },
+        "disclaimer": "Total match-day capacity (including standing terraces used in Bundesliga fixtures). Some clubs listed have played home matches in the top flight historically but currently play in lower divisions."
+      }
+    }
+  ],
+  "deletions": []
+}

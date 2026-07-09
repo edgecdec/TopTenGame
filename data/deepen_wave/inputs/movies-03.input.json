@@ -1,0 +1,749 @@
+{
+  "cluster": "movies-03",
+  "questions": [
+    {
+      "id": "movies-shortest-runtime-among-best-picture-winners-2024",
+      "current": {
+        "title": "Shortest runtime among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the shortest theatrical runtimes.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Original theatrical runtime in minutes, shortest first. Extended cuts and re-release editions are excluded.",
+        "trivia": "Marty (1955) at 91 minutes is the shortest Best Picture winner ever, edging out Annie Hall (1977) at 93 minutes.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "marty-1955",
+            "value": "91 min"
+          },
+          {
+            "rank": 2,
+            "code": "annie-hall-1977",
+            "value": "93 min"
+          },
+          {
+            "rank": 3,
+            "code": "broadway-melody-1929",
+            "value": "100 min"
+          },
+          {
+            "rank": 4,
+            "code": "it-happened-one-night-1934",
+            "value": "105 min"
+          },
+          {
+            "rank": 5,
+            "code": "moonlight-2016",
+            "value": "111 min"
+          },
+          {
+            "rank": 5,
+            "code": "coda-2021",
+            "value": "111 min"
+          },
+          {
+            "rank": 7,
+            "code": "grand-hotel-1932",
+            "value": "112 min"
+          },
+          {
+            "rank": 7,
+            "code": "cavalcade-1933",
+            "value": "112 min"
+          },
+          {
+            "rank": 7,
+            "code": "crash-2005",
+            "value": "112 min"
+          },
+          {
+            "rank": 10,
+            "code": "rocky-1976",
+            "value": "120 min"
+          },
+          {
+            "rank": 10,
+            "code": "argo-2012",
+            "value": "120 min"
+          },
+          {
+            "rank": 12,
+            "code": "you-cant-take-it-with-you-1938",
+            "value": "126 min"
+          },
+          {
+            "rank": 13,
+            "code": "spotlight-2015",
+            "value": "129 min"
+          },
+          {
+            "rank": 14,
+            "code": "green-book-2018",
+            "value": "130 min"
+          },
+          {
+            "rank": 15,
+            "code": "wings-1927",
+            "value": "144 min (silent)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-earliest-best-picture-winners",
+      "current": {
+        "title": "Earliest Best Picture winners",
+        "prompt": "Name the earliest films to win the Academy Award for Best Picture.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Award called 'Outstanding Picture' or 'Outstanding Production' in early years. Ordered by ceremony year.",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wings-1927",
+            "value": "1st ceremony (1929)"
+          },
+          {
+            "rank": 2,
+            "code": "broadway-melody-1929",
+            "value": "2nd ceremony (1930)"
+          },
+          {
+            "rank": 3,
+            "code": "all-quiet-on-the-western-front-1930",
+            "value": "3rd ceremony (1930)"
+          },
+          {
+            "rank": 4,
+            "code": "cimarron-1931",
+            "value": "4th ceremony (1931)"
+          },
+          {
+            "rank": 5,
+            "code": "grand-hotel-1932",
+            "value": "5th ceremony (1932)"
+          },
+          {
+            "rank": 6,
+            "code": "cavalcade-1933",
+            "value": "6th ceremony (1934)"
+          },
+          {
+            "rank": 7,
+            "code": "it-happened-one-night-1934",
+            "value": "7th ceremony (1935)"
+          },
+          {
+            "rank": 8,
+            "code": "mutiny-on-the-bounty-1935",
+            "value": "8th ceremony (1936)"
+          },
+          {
+            "rank": 9,
+            "code": "great-ziegfeld-1936",
+            "value": "9th ceremony (1937)"
+          },
+          {
+            "rank": 10,
+            "code": "life-of-emile-zola-1937",
+            "value": "10th ceremony (1938)"
+          },
+          {
+            "rank": 11,
+            "code": "you-cant-take-it-with-you-1938",
+            "value": "11th ceremony (1939)"
+          },
+          {
+            "rank": 12,
+            "code": "gone-with-the-wind-1939",
+            "value": "12th ceremony (1940)"
+          },
+          {
+            "rank": 13,
+            "code": "rebecca-1940",
+            "value": "13th ceremony (1941)"
+          },
+          {
+            "rank": 14,
+            "code": "how-green-was-my-valley-1941",
+            "value": "14th ceremony (1942)"
+          },
+          {
+            "rank": 15,
+            "code": "mrs-miniver-1942",
+            "value": "15th ceremony (1943)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-most-recent-best-picture-winners-2024",
+      "current": {
+        "title": "Most recent Best Picture winners",
+        "prompt": "Name the most recent films to win the Academy Award for Best Picture.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Ordered most recent first. Year reflects the film's eligibility year (ceremony year is the following calendar year).",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "96th ceremony (2024)"
+          },
+          {
+            "rank": 2,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "95th ceremony (2023)"
+          },
+          {
+            "rank": 3,
+            "code": "coda-2021",
+            "value": "94th ceremony (2022)"
+          },
+          {
+            "rank": 4,
+            "code": "nomadland-2020",
+            "value": "93rd ceremony (2021)"
+          },
+          {
+            "rank": 5,
+            "code": "parasite-2019",
+            "value": "92nd ceremony (2020)"
+          },
+          {
+            "rank": 6,
+            "code": "green-book-2018",
+            "value": "91st ceremony (2019)"
+          },
+          {
+            "rank": 7,
+            "code": "shape-of-water-2017",
+            "value": "90th ceremony (2018)"
+          },
+          {
+            "rank": 8,
+            "code": "moonlight-2016",
+            "value": "89th ceremony (2017)"
+          },
+          {
+            "rank": 9,
+            "code": "spotlight-2015",
+            "value": "88th ceremony (2016)"
+          },
+          {
+            "rank": 10,
+            "code": "birdman-2014",
+            "value": "87th ceremony (2015)"
+          },
+          {
+            "rank": 11,
+            "code": "12-years-a-slave-2013",
+            "value": "86th ceremony (2014)"
+          },
+          {
+            "rank": 12,
+            "code": "argo-2012",
+            "value": "85th ceremony (2013)"
+          },
+          {
+            "rank": 13,
+            "code": "artist-2011",
+            "value": "84th ceremony (2012)"
+          },
+          {
+            "rank": 14,
+            "code": "kings-speech-2010",
+            "value": "83rd ceremony (2011)"
+          },
+          {
+            "rank": 15,
+            "code": "hurt-locker-2009",
+            "value": "82nd ceremony (2010)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-that-also-won-best-director-2024",
+      "current": {
+        "title": "Best Picture winners that also won Best Director",
+        "prompt": "Name Best Picture winners where the film's director also took home the Best Director Oscar that same night.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "The Best Picture and Best Director awards go to the same film in roughly two-thirds of ceremonies. This list samples that (very large) pool of dual winners.",
+        "trivia": "There have been only about a dozen 'splits' between Best Picture and Best Director. Notable examples where the Director prize went elsewhere include Driving Miss Daisy (1989), Argo (2012), Green Book (2018) and CODA (2021) \u2014 the directors of those films weren't even nominated.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "godfather-part-ii-1974",
+            "value": "Francis Ford Coppola"
+          },
+          {
+            "rank": 2,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "Milos Forman"
+          },
+          {
+            "rank": 3,
+            "code": "annie-hall-1977",
+            "value": "Woody Allen"
+          },
+          {
+            "rank": 4,
+            "code": "amadeus-1984",
+            "value": "Milos Forman"
+          },
+          {
+            "rank": 5,
+            "code": "platoon-1986",
+            "value": "Oliver Stone"
+          },
+          {
+            "rank": 6,
+            "code": "dances-with-wolves-1990",
+            "value": "Kevin Costner"
+          },
+          {
+            "rank": 7,
+            "code": "silence-of-the-lambs-1991",
+            "value": "Jonathan Demme"
+          },
+          {
+            "rank": 8,
+            "code": "unforgiven-1992",
+            "value": "Clint Eastwood"
+          },
+          {
+            "rank": 9,
+            "code": "schindlers-list-1993",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 10,
+            "code": "titanic-1997",
+            "value": "James Cameron"
+          },
+          {
+            "rank": 11,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "Peter Jackson"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "Joel & Ethan Coen"
+          },
+          {
+            "rank": 13,
+            "code": "hurt-locker-2009",
+            "value": "Kathryn Bigelow"
+          },
+          {
+            "rank": 14,
+            "code": "parasite-2019",
+            "value": "Bong Joon-ho"
+          },
+          {
+            "rank": 15,
+            "code": "oppenheimer-2023",
+            "value": "Christopher Nolan"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-in-black-and-white-2024",
+      "current": {
+        "title": "Best Picture winners in black-and-white",
+        "prompt": "Name Best Picture winners shot (and released) in black-and-white.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Best Picture winners shot primarily in black-and-white. Ordered here from earliest ceremony to most recent.",
+        "trivia": "Schindler's List (1993) was the first B&W Best Picture winner in 33 years, since The Apartment in 1960. The Artist (2011), a silent B&W tribute to old Hollywood, remains the most recent.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wings-1927",
+            "value": "1st ceremony (1929)"
+          },
+          {
+            "rank": 2,
+            "code": "broadway-melody-1929",
+            "value": "2nd ceremony (1930)"
+          },
+          {
+            "rank": 3,
+            "code": "all-quiet-on-the-western-front-1930",
+            "value": "3rd ceremony (1930)"
+          },
+          {
+            "rank": 4,
+            "code": "grand-hotel-1932",
+            "value": "5th ceremony (1932)"
+          },
+          {
+            "rank": 5,
+            "code": "it-happened-one-night-1934",
+            "value": "7th ceremony (1935)"
+          },
+          {
+            "rank": 6,
+            "code": "rebecca-1940",
+            "value": "13th ceremony (1941)"
+          },
+          {
+            "rank": 7,
+            "code": "casablanca-1943",
+            "value": "16th ceremony (1944)"
+          },
+          {
+            "rank": 8,
+            "code": "lost-weekend-1945",
+            "value": "18th ceremony (1946)"
+          },
+          {
+            "rank": 9,
+            "code": "best-years-of-our-lives-1946",
+            "value": "19th ceremony (1947)"
+          },
+          {
+            "rank": 10,
+            "code": "all-about-eve-1950",
+            "value": "23rd ceremony (1951)"
+          },
+          {
+            "rank": 11,
+            "code": "on-the-waterfront-1954",
+            "value": "27th ceremony (1955)"
+          },
+          {
+            "rank": 12,
+            "code": "marty-1955",
+            "value": "28th ceremony (1956)"
+          },
+          {
+            "rank": 13,
+            "code": "apartment-1960",
+            "value": "33rd ceremony (1961)"
+          },
+          {
+            "rank": 14,
+            "code": "schindlers-list-1993",
+            "value": "66th ceremony (1994)"
+          },
+          {
+            "rank": 15,
+            "code": "artist-2011",
+            "value": "84th ceremony (2012)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-whose-lead-actor-also-won-best-actor-that-nig",
+      "current": {
+        "title": "Best Picture winners whose lead actor also won Best Actor that night",
+        "prompt": "Name Best Picture winners where the film's lead actor also took home the Best Actor Oscar at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Films where a supporting cast member won a Supporting Oscar do not count \u2014 the lead's Best Actor win must coincide with the film's Best Picture win.",
+        "trivia": "Only two women have won Best Actress in a Best Picture winner without her male co-lead also winning: Louise Fletcher for Cuckoo's Nest and Jodie Foster for Silence of the Lambs (both films swept the Big Five, so Actor also won). Best Actress in a Best Picture winner is otherwise rare \u2014 Vivien Leigh in Gone with the Wind is the most famous other example.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "it-happened-one-night-1934",
+            "value": "Clark Gable"
+          },
+          {
+            "rank": 2,
+            "code": "on-the-waterfront-1954",
+            "value": "Marlon Brando"
+          },
+          {
+            "rank": 3,
+            "code": "marty-1955",
+            "value": "Ernest Borgnine"
+          },
+          {
+            "rank": 4,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "Alec Guinness"
+          },
+          {
+            "rank": 5,
+            "code": "ben-hur-1959",
+            "value": "Charlton Heston"
+          },
+          {
+            "rank": 6,
+            "code": "man-for-all-seasons-1966",
+            "value": "Paul Scofield"
+          },
+          {
+            "rank": 7,
+            "code": "patton-1970",
+            "value": "George C. Scott"
+          },
+          {
+            "rank": 8,
+            "code": "french-connection-1971",
+            "value": "Gene Hackman"
+          },
+          {
+            "rank": 9,
+            "code": "godfather-1972",
+            "value": "Marlon Brando"
+          },
+          {
+            "rank": 10,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "Jack Nicholson"
+          },
+          {
+            "rank": 11,
+            "code": "kramer-vs-kramer-1979",
+            "value": "Dustin Hoffman"
+          },
+          {
+            "rank": 12,
+            "code": "rain-man-1988",
+            "value": "Dustin Hoffman"
+          },
+          {
+            "rank": 13,
+            "code": "silence-of-the-lambs-1991",
+            "value": "Anthony Hopkins"
+          },
+          {
+            "rank": 14,
+            "code": "forrest-gump-1994",
+            "value": "Tom Hanks"
+          },
+          {
+            "rank": 15,
+            "code": "kings-speech-2010",
+            "value": "Colin Firth"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-that-also-won-best-drama-at-the-golden-globes",
+      "current": {
+        "title": "Best Picture winners that also won Best Drama at the Golden Globes",
+        "prompt": "Name Best Picture winners that also took the Golden Globe for Best Motion Picture \u2014 Drama that same awards season.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Films that won Best Comedy/Musical at the Globes (e.g. Chicago, La La Land, Green Book) are excluded \u2014 this list is Drama winners only.",
+        "trivia": "The Globe-Oscar correlation is strongest in the Drama category, but many acclaimed Oscar winners lost their Globe \u2014 including Spotlight (2015), which lost to The Revenant, and Everything Everywhere All at Once (2022), which won Comedy/Musical rather than Drama.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "2023"
+          },
+          {
+            "rank": 2,
+            "code": "12-years-a-slave-2013",
+            "value": "2013"
+          },
+          {
+            "rank": 3,
+            "code": "beautiful-mind-2001",
+            "value": "2001"
+          },
+          {
+            "rank": 4,
+            "code": "gladiator-2000",
+            "value": "2000"
+          },
+          {
+            "rank": 5,
+            "code": "titanic-1997",
+            "value": "1997"
+          },
+          {
+            "rank": 6,
+            "code": "schindlers-list-1993",
+            "value": "1993"
+          },
+          {
+            "rank": 7,
+            "code": "dances-with-wolves-1990",
+            "value": "1990"
+          },
+          {
+            "rank": 8,
+            "code": "out-of-africa-1985",
+            "value": "1985"
+          },
+          {
+            "rank": 9,
+            "code": "kramer-vs-kramer-1979",
+            "value": "1979"
+          },
+          {
+            "rank": 10,
+            "code": "godfather-part-ii-1974",
+            "value": "1974"
+          },
+          {
+            "rank": 11,
+            "code": "godfather-1972",
+            "value": "1972"
+          },
+          {
+            "rank": 12,
+            "code": "lawrence-of-arabia-1962",
+            "value": "1962"
+          },
+          {
+            "rank": 13,
+            "code": "ben-hur-1959",
+            "value": "1959"
+          },
+          {
+            "rank": 14,
+            "code": "on-the-waterfront-1954",
+            "value": "1954"
+          },
+          {
+            "rank": 15,
+            "code": "lost-weekend-1945",
+            "value": "1945 (first Globe Drama)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-that-also-won-the-bafta-for-best-film-2024",
+      "current": {
+        "title": "Best Picture winners that also won the BAFTA for Best Film",
+        "prompt": "Name Best Picture winners that also won the BAFTA award for Best Film in the same awards season.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "The BAFTA year is aligned to the film's Oscar-eligibility year (BAFTA ceremony held early the following calendar year). Winners of the pre-1968 'Best Film from any Source' category count.",
+        "trivia": "BAFTA and the Academy agree on Best Picture fairly often, but notable BAFTA snubs of eventual Oscar winners include Argo (which did win the BAFTA), Chicago and Crash \u2014 while The Godfather Part II actually lost the BAFTA to Chinatown.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "2023"
+          },
+          {
+            "rank": 2,
+            "code": "kings-speech-2010",
+            "value": "2010"
+          },
+          {
+            "rank": 3,
+            "code": "slumdog-millionaire-2008",
+            "value": "2008"
+          },
+          {
+            "rank": 4,
+            "code": "american-beauty-1999",
+            "value": "1999"
+          },
+          {
+            "rank": 5,
+            "code": "schindlers-list-1993",
+            "value": "1993"
+          },
+          {
+            "rank": 6,
+            "code": "gandhi-1982",
+            "value": "1982"
+          },
+          {
+            "rank": 7,
+            "code": "annie-hall-1977",
+            "value": "1977"
+          },
+          {
+            "rank": 8,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "1975"
+          },
+          {
+            "rank": 9,
+            "code": "godfather-1972",
+            "value": "1972"
+          },
+          {
+            "rank": 10,
+            "code": "midnight-cowboy-1969",
+            "value": "1969"
+          },
+          {
+            "rank": 11,
+            "code": "lawrence-of-arabia-1962",
+            "value": "1962"
+          },
+          {
+            "rank": 12,
+            "code": "apartment-1960",
+            "value": "1960"
+          },
+          {
+            "rank": 13,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "1957"
+          },
+          {
+            "rank": 14,
+            "code": "on-the-waterfront-1954",
+            "value": "1954"
+          },
+          {
+            "rank": 15,
+            "code": "all-about-eve-1950",
+            "value": "1950"
+          }
+        ]
+      }
+    }
+  ]
+}

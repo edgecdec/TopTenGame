@@ -1,0 +1,594 @@
+{
+  "cluster": "movies-01",
+  "questions": [
+    {
+      "id": "movies-nominees-best-picture-nominees-at-the-92nd-academy-awards-2019-films-2025",
+      "current": {
+        "title": "Best Picture nominees at the 92nd Academy Awards (2019 films)",
+        "prompt": "The complete slate of nine Best Picture nominees at the 2020 ceremony (honoring 2019 films). Any order works; scoring is by film identity, not rank.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": null,
+        "trivia": "Parasite became the first foreign-language film to win Best Picture in the 92-year history of the Academy Awards, beating heavyweights 1917, Joker, and Once Upon a Time in Hollywood.",
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "parasite-2019",
+            "value": "WON \u2014 4 Oscars including Best Picture"
+          },
+          {
+            "rank": 2,
+            "code": "1917-2019",
+            "value": "Nominee \u2014 3 Oscars, front-runner going in"
+          },
+          {
+            "rank": 3,
+            "code": "ford-v-ferrari-2019",
+            "value": "Nominee \u2014 2 Oscars"
+          },
+          {
+            "rank": 4,
+            "code": "irishman-2019",
+            "value": "Nominee \u2014 10 nominations, 0 wins"
+          },
+          {
+            "rank": 5,
+            "code": "jojo-rabbit-2019",
+            "value": "Nominee \u2014 1 Oscar (Adapted Screenplay)"
+          },
+          {
+            "rank": 6,
+            "code": "joker-2019",
+            "value": "Nominee \u2014 2 Oscars including Best Actor"
+          },
+          {
+            "rank": 7,
+            "code": "little-women-2019",
+            "value": "Nominee \u2014 1 Oscar (Costume Design)"
+          },
+          {
+            "rank": 8,
+            "code": "marriage-story-2019",
+            "value": "Nominee \u2014 1 Oscar (Supporting Actress)"
+          },
+          {
+            "rank": 9,
+            "code": "once-upon-a-time-in-hollywood-2019",
+            "value": "Nominee \u2014 2 Oscars"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-most-best-picture-nominations-without-ever-winning-2025",
+      "current": {
+        "title": "Most Oscar nominations by a BP nominee that never won BP",
+        "prompt": "Films that were nominated for Best Picture but lost, ranked by total Academy Award nominations across all categories that year (BP included). Non-BP wins are allowed \u2014 the film simply did not win Best Picture.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Metric is total Oscar nominations across all categories that year. These films all lost Best Picture, but may have won other Oscars.",
+        "trivia": "The Turning Point (1977) and The Color Purple (1985) share the dubious record of 11 nominations with zero wins \u2014 an Oscars futility record.",
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "la-la-land-2016",
+            "value": "14 nominations, 6 wins (not BP)"
+          },
+          {
+            "rank": 2,
+            "code": "turning-point-1977",
+            "value": "11 nominations, 0 wins (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "color-purple-1985",
+            "value": "11 nominations, 0 wins (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "gangs-of-new-york-2002",
+            "value": "10 nominations, 0 wins"
+          },
+          {
+            "rank": 5,
+            "code": "citizen-kane-1941",
+            "value": "9 nominations, 1 win (not BP)"
+          },
+          {
+            "rank": 6,
+            "code": "raging-bull-1980",
+            "value": "8 nominations, 2 wins (not BP)"
+          },
+          {
+            "rank": 7,
+            "code": "shawshank-redemption-1994",
+            "value": "7 nominations, 0 wins"
+          },
+          {
+            "rank": 7,
+            "code": "pulp-fiction-1994",
+            "value": "7 nominations, 1 win (not BP)"
+          },
+          {
+            "rank": 7,
+            "code": "fargo-1996",
+            "value": "7 nominations, 2 wins (not BP)"
+          },
+          {
+            "rank": 10,
+            "code": "goodfellas-1990",
+            "value": "6 nominations, 1 win (not BP)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-one-person-multiple-non-acting-oscars-for-the-same-best-picture-wi",
+      "current": {
+        "title": "One person, multiple non-acting Oscars for the same Best Picture winner",
+        "prompt": "Name Best Picture winners where a single individual personally collected two or more non-acting Oscars that same night.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Acting Oscars don't count. The individual must have personally received two or more statuettes on the night (via Picture-as-producer, Director, Screenplay, Editing, etc.).",
+        "trivia": "James L. Brooks won three Oscars in one night for Terms of Endearment (1983): Best Picture (as producer), Best Director, and Best Adapted Screenplay. James Cameron, Peter Jackson, and Bong Joon-ho have all pulled off similar personal three-statuette hauls.",
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "terms-of-endearment-1983",
+            "value": "James L. Brooks \u2014 Picture, Director, Adapted Screenplay (3)"
+          },
+          {
+            "rank": 2,
+            "code": "godfather-part-ii-1974",
+            "value": "Francis Ford Coppola \u2014 Picture, Director, Adapted Screenplay (3)"
+          },
+          {
+            "rank": 3,
+            "code": "no-country-for-old-men-2007",
+            "value": "Joel & Ethan Coen \u2014 Picture, Director, Adapted Screenplay (3 each)"
+          },
+          {
+            "rank": 4,
+            "code": "titanic-1997",
+            "value": "James Cameron \u2014 Picture, Director, Film Editing (3)"
+          },
+          {
+            "rank": 5,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "Peter Jackson \u2014 Picture, Director, Adapted Screenplay (3)"
+          },
+          {
+            "rank": 6,
+            "code": "birdman-2014",
+            "value": "Alejandro G. I\u00f1\u00e1rritu \u2014 Picture, Director, Original Screenplay (3)"
+          },
+          {
+            "rank": 7,
+            "code": "parasite-2019",
+            "value": "Bong Joon-ho \u2014 Picture, Director, Original Screenplay (3)"
+          },
+          {
+            "rank": 8,
+            "code": "annie-hall-1977",
+            "value": "Woody Allen \u2014 Director, Original Screenplay (2)"
+          },
+          {
+            "rank": 9,
+            "code": "apartment-1960",
+            "value": "Billy Wilder \u2014 Picture, Director, Original Screenplay (3)"
+          },
+          {
+            "rank": 10,
+            "code": "it-happened-one-night-1934",
+            "value": "Frank Capra \u2014 Director + Best Picture (as producer)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-over-3-hours-long-2024",
+      "current": {
+        "title": "Best Picture winners over 3 hours long",
+        "prompt": "Name Best Picture winners whose theatrical runtime is over 180 minutes (3 hours).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Runtime is the theatrical release length, not any subsequent extended or director's cut. Ranked longest first.",
+        "trivia": "Gone With the Wind's 238-minute runtime \u2014 including a formal intermission \u2014 held the Best Picture length record for two decades until Lawrence of Arabia came close in 1962. Lord of the Rings: Return of the King is the only 3-hour+ Best Picture winner to sweep every category it was nominated in (11-for-11).",
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gone-with-the-wind-1939",
+            "value": "238 min"
+          },
+          {
+            "rank": 2,
+            "code": "lawrence-of-arabia-1962",
+            "value": "222 min"
+          },
+          {
+            "rank": 3,
+            "code": "ben-hur-1959",
+            "value": "212 min"
+          },
+          {
+            "rank": 4,
+            "code": "godfather-part-ii-1974",
+            "value": "202 min"
+          },
+          {
+            "rank": 5,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "201 min"
+          },
+          {
+            "rank": 6,
+            "code": "schindlers-list-1993",
+            "value": "195 min"
+          },
+          {
+            "rank": 6,
+            "code": "titanic-1997",
+            "value": "195 min (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "gandhi-1982",
+            "value": "191 min"
+          },
+          {
+            "rank": 9,
+            "code": "deer-hunter-1978",
+            "value": "183 min"
+          },
+          {
+            "rank": 10,
+            "code": "dances-with-wolves-1990",
+            "value": "181 min"
+          },
+          {
+            "rank": 11,
+            "code": "oppenheimer-2023",
+            "value": "180 min"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-highest-worldwide-grossing-best-picture-nominees-2025",
+      "current": {
+        "title": "Highest worldwide grossing Best Picture nominees (winners included)",
+        "prompt": "Films that were nominated for Best Picture (winners included), ranked by unadjusted lifetime worldwide box office.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Unadjusted for inflation. Includes original theatrical runs plus rereleases where tracked.",
+        "trivia": "Avatar was nominated at the 82nd Academy Awards but lost to The Hurt Locker \u2014 the lowest-grossing Best Picture winner of the modern era at the time.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "avatar-2009",
+            "value": "$2.923 billion"
+          },
+          {
+            "rank": 2,
+            "code": "titanic-1997",
+            "value": "$2.264 billion"
+          },
+          {
+            "rank": 3,
+            "code": "top-gun-maverick-2022",
+            "value": "$1.496 billion"
+          },
+          {
+            "rank": 4,
+            "code": "barbie-2023",
+            "value": "$1.446 billion"
+          },
+          {
+            "rank": 5,
+            "code": "black-panther-2018",
+            "value": "$1.349 billion"
+          },
+          {
+            "rank": 6,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$1.146 billion"
+          },
+          {
+            "rank": 7,
+            "code": "joker-2019",
+            "value": "$1.079 billion"
+          },
+          {
+            "rank": 8,
+            "code": "toy-story-3-2010",
+            "value": "$1.067 billion"
+          },
+          {
+            "rank": 9,
+            "code": "oppenheimer-2023",
+            "value": "$976 million"
+          },
+          {
+            "rank": 10,
+            "code": "lord-of-the-rings-two-towers-2002",
+            "value": "$947 million"
+          },
+          {
+            "rank": 11,
+            "code": "bohemian-rhapsody-2018",
+            "value": "$911 million"
+          },
+          {
+            "rank": 12,
+            "code": "lord-of-the-rings-fellowship-of-the-ring-2001",
+            "value": "$897 million"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-most-oscars-won-by-a-best-picture-loser-2024",
+      "current": {
+        "title": "Most Oscars won by a Best Picture loser",
+        "prompt": "Name Best Picture nominees that lost Best Picture but still won the most Oscars at the ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only counts films that were Best Picture nominees but did NOT win Best Picture. Ties broken by ceremony year (older first).",
+        "trivia": "Cabaret (1972) holds the record: 8 Oscar wins including Director (Fosse) and Actress (Minnelli) \u2014 yet lost Best Picture to The Godfather. It is the only film ever to win 8+ Oscars without winning Best Picture.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "cabaret-1972",
+            "value": "8 wins (lost to The Godfather)"
+          },
+          {
+            "rank": 2,
+            "code": "gravity-2013",
+            "value": "7 wins (lost to 12 Years a Slave)"
+          },
+          {
+            "rank": 3,
+            "code": "star-wars-1977",
+            "value": "6 wins (lost to Annie Hall)"
+          },
+          {
+            "rank": 3,
+            "code": "mad-max-fury-road-2015",
+            "value": "6 wins (tied; lost to Spotlight)"
+          },
+          {
+            "rank": 3,
+            "code": "la-la-land-2016",
+            "value": "6 wins (tied; lost to Moonlight)"
+          },
+          {
+            "rank": 6,
+            "code": "saving-private-ryan-1998",
+            "value": "5 wins (lost to Shakespeare in Love)"
+          },
+          {
+            "rank": 6,
+            "code": "doctor-zhivago-1965",
+            "value": "5 wins (tied; lost to The Sound of Music)"
+          },
+          {
+            "rank": 6,
+            "code": "hugo-2011",
+            "value": "5 wins (tied; lost to The Artist)"
+          },
+          {
+            "rank": 9,
+            "code": "traffic-2000",
+            "value": "4 wins (lost to Gladiator)"
+          },
+          {
+            "rank": 9,
+            "code": "life-of-pi-2012",
+            "value": "4 wins (tied; lost to Argo)"
+          },
+          {
+            "rank": 9,
+            "code": "bohemian-rhapsody-2018",
+            "value": "4 wins (tied; lost to Green Book)"
+          },
+          {
+            "rank": 12,
+            "code": "avatar-2009",
+            "value": "3 wins (lost to The Hurt Locker)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-widest-us-theatrical-release-2024",
+      "current": {
+        "title": "Best Picture winners with the widest US theatrical release",
+        "prompt": "Name Best Picture winners with the highest peak theater count during their US theatrical run.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Peak theaters = the widest single-week theater count during the film's US run. Older winners had rolling or roadshow releases with no comparable figure; this list only covers wide-release winners.",
+        "trivia": "Oppenheimer expanded to 3,761 theaters at its peak in July 2023 \u2014 a record for a Best Picture winner, boosted by the Barbenheimer weekend. Only three Best Picture winners have ever hit 3,500+ theaters.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "3,761 theaters (peak)"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "3,703 theaters (peak)"
+          },
+          {
+            "rank": 3,
+            "code": "titanic-1997",
+            "value": "3,265 theaters (peak)"
+          },
+          {
+            "rank": 4,
+            "code": "argo-2012",
+            "value": "3,247 theaters (peak)"
+          },
+          {
+            "rank": 5,
+            "code": "gladiator-2000",
+            "value": "3,188 theaters (peak)"
+          },
+          {
+            "rank": 6,
+            "code": "departed-2006",
+            "value": "3,017 theaters (peak)"
+          },
+          {
+            "rank": 7,
+            "code": "green-book-2018",
+            "value": "2,842 theaters (peak)"
+          },
+          {
+            "rank": 8,
+            "code": "chicago-2002",
+            "value": "2,839 theaters (peak)"
+          },
+          {
+            "rank": 9,
+            "code": "forrest-gump-1994",
+            "value": "2,461 theaters (peak)"
+          },
+          {
+            "rank": 10,
+            "code": "million-dollar-baby-2004",
+            "value": "2,375 theaters (peak)"
+          },
+          {
+            "rank": 11,
+            "code": "crash-2005",
+            "value": "2,023 theaters (peak)"
+          },
+          {
+            "rank": 12,
+            "code": "american-beauty-1999",
+            "value": "1,990 theaters (peak)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-most-best-picture-nominated-films-by-a-single-director-2025",
+      "current": {
+        "title": "Most Best Picture-nominated films by a single director",
+        "prompt": "Best Picture nominees directed by the same filmmaker \u2014 one film per row, grouped by directors with the largest total count of Best Picture nominations across their careers.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Ranks each individual nominee film. Directors are grouped by their career total of Best Picture-nominated films.",
+        "trivia": "William Wyler directed 13 Best Picture nominees \u2014 more than any other director. Steven Spielberg is second with 12.",
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "best-years-of-our-lives-1946",
+            "value": "William Wyler (13 BP-nom films)"
+          },
+          {
+            "rank": 2,
+            "code": "ben-hur-1959",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 3,
+            "code": "mrs-miniver-1942",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 4,
+            "code": "wuthering-heights-1939",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 5,
+            "code": "letter-1940",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 6,
+            "code": "little-foxes-1941",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 7,
+            "code": "friendly-persuasion-1956",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 8,
+            "code": "schindlers-list-1993",
+            "value": "Steven Spielberg (12 BP-nom films)"
+          },
+          {
+            "rank": 9,
+            "code": "saving-private-ryan-1998",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 10,
+            "code": "lincoln-2012",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 11,
+            "code": "munich-2005",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 12,
+            "code": "west-side-story-2021",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 13,
+            "code": "fabelmans-2022",
+            "value": "Steven Spielberg"
+          }
+        ]
+      }
+    }
+  ]
+}

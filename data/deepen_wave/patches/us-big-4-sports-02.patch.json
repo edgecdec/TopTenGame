@@ -1,0 +1,233 @@
+{
+  "cluster": "us-big-4-sports-02",
+  "updates": [
+    {
+      "id": "pro-sports-mlb-most-cy-young-awards-mlb-by-team-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "MLB-LAD", "value": "13 Cy Youngs" },
+          { "rank": 2, "code": "MLB-NYY", "value": "8 Cy Youngs" },
+          { "rank": 2, "code": "MLB-PHI", "value": "8 Cy Youngs (tied)" },
+          { "rank": 2, "code": "MLB-ATL", "value": "8 Cy Youngs (tied)" },
+          { "rank": 2, "code": "MLB-BOS", "value": "8 Cy Youngs (tied)" },
+          { "rank": 6, "code": "MLB-BAL", "value": "6 Cy Youngs" },
+          { "rank": 6, "code": "MLB-DET", "value": "6 Cy Youngs (tied)" },
+          { "rank": 6, "code": "MLB-CHC", "value": "6 Cy Youngs (tied)" },
+          { "rank": 9, "code": "MLB-NYM", "value": "5 Cy Youngs" },
+          { "rank": 9, "code": "MLB-STL", "value": "5 Cy Youngs (tied)" },
+          { "rank": 9, "code": "MLB-OAK", "value": "5 Cy Youngs (tied)" },
+          { "rank": 9, "code": "MLB-TOR", "value": "5 Cy Youngs (tied)" },
+          { "rank": 13, "code": "MLB-MIN", "value": "4 Cy Youngs" },
+          { "rank": 13, "code": "MLB-CLE", "value": "4 Cy Youngs (tied)" },
+          { "rank": 15, "code": "MLB-HOU", "value": "3 Cy Youngs" },
+          { "rank": 15, "code": "MLB-ARI", "value": "3 Cy Youngs (tied)" },
+          { "rank": 15, "code": "MLB-SD", "value": "3 Cy Youngs (tied)" },
+          { "rank": 18, "code": "MLB-SF", "value": "2 Cy Youngs" },
+          { "rank": 18, "code": "MLB-KC", "value": "2 Cy Youngs (tied)" },
+          { "rank": 18, "code": "MLB-MIL", "value": "2 Cy Youngs (tied)" },
+          { "rank": 18, "code": "MLB-LAA", "value": "2 Cy Youngs (tied)" },
+          { "rank": 18, "code": "MLB-PIT", "value": "2 Cy Youngs (tied)" }
+        ],
+        "seededDepth": 22
+      }
+    },
+    {
+      "id": "pro-sports-mlb-most-mvp-awards-mlb-by-team-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "MLB-NYY", "value": "22 MVPs" },
+          { "rank": 2, "code": "MLB-STL", "value": "11 MVPs" },
+          { "rank": 2, "code": "MLB-SF", "value": "11 MVPs (tied)" },
+          { "rank": 4, "code": "MLB-BOS", "value": "10 MVPs" },
+          { "rank": 5, "code": "MLB-LAD", "value": "9 MVPs" },
+          { "rank": 5, "code": "MLB-DET", "value": "9 MVPs (tied)" },
+          { "rank": 7, "code": "MLB-OAK", "value": "8 MVPs" },
+          { "rank": 7, "code": "MLB-CIN", "value": "8 MVPs (tied)" },
+          { "rank": 7, "code": "MLB-PHI", "value": "8 MVPs (tied)" },
+          { "rank": 10, "code": "MLB-ATL", "value": "7 MVPs" },
+          { "rank": 11, "code": "MLB-LAA", "value": "6 MVPs" },
+          { "rank": 11, "code": "MLB-CHC", "value": "6 MVPs (tied)" },
+          { "rank": 11, "code": "MLB-BAL", "value": "6 MVPs (tied)" },
+          { "rank": 14, "code": "MLB-MIN", "value": "5 MVPs" },
+          { "rank": 15, "code": "MLB-TEX", "value": "3 MVPs" },
+          { "rank": 15, "code": "MLB-MIL", "value": "3 MVPs (tied)" },
+          { "rank": 15, "code": "MLB-HOU", "value": "3 MVPs (tied)" },
+          { "rank": 15, "code": "MLB-WAS", "value": "3 MVPs (tied)" },
+          { "rank": 15, "code": "MLB-CLE", "value": "3 MVPs (tied)" },
+          { "rank": 20, "code": "MLB-PIT", "value": "2 MVPs" },
+          { "rank": 20, "code": "MLB-KC", "value": "2 MVPs (tied)" },
+          { "rank": 20, "code": "MLB-TOR", "value": "2 MVPs (tied)" }
+        ],
+        "seededDepth": 22
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-championships-all-time-2024",
+      "changes": {
+        "disclaimer": "Franchise totals follow lineage through relocations and rebrands.",
+        "trivia": "Boston (18) passed the Lakers (17) with the 2024 title. Milwaukee's 2 include the 1971 Bucks (Kareem/Oscar) and 2021 (Giannis). The Kings count reflects the 1951 Rochester Royals; the Hawks count reflects the 1958 St. Louis Hawks; the Thunder count reflects the 1979 Seattle SuperSonics.",
+        "answers": [
+          { "rank": 1, "code": "NBA-BOS", "value": "18 titles" },
+          { "rank": 2, "code": "NBA-LAL", "value": "17 titles" },
+          { "rank": 3, "code": "NBA-GSW", "value": "7 titles" },
+          { "rank": 4, "code": "NBA-CHI", "value": "6 titles" },
+          { "rank": 5, "code": "NBA-SAS", "value": "5 titles" },
+          { "rank": 6, "code": "NBA-PHI", "value": "3 titles" },
+          { "rank": 6, "code": "NBA-DET", "value": "3 titles (tied)" },
+          { "rank": 6, "code": "NBA-MIA", "value": "3 titles (tied)" },
+          { "rank": 9, "code": "NBA-NYK", "value": "2 titles" },
+          { "rank": 9, "code": "NBA-HOU", "value": "2 titles (tied)" },
+          { "rank": 9, "code": "NBA-MIL", "value": "2 titles (tied)" },
+          { "rank": 12, "code": "NBA-CLE", "value": "1 title" },
+          { "rank": 12, "code": "NBA-DAL", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-WAS", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-POR", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-ATL", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-SAC", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-OKC", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-TOR", "value": "1 title (tied)" },
+          { "rank": 12, "code": "NBA-DEN", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-finals-appearances-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-LAL", "value": "32 appearances" },
+          { "rank": 2, "code": "NBA-BOS", "value": "23 appearances" },
+          { "rank": 3, "code": "NBA-GSW", "value": "12 appearances" },
+          { "rank": 4, "code": "NBA-PHI", "value": "9 appearances" },
+          { "rank": 5, "code": "NBA-NYK", "value": "8 appearances" },
+          { "rank": 6, "code": "NBA-DET", "value": "7 appearances" },
+          { "rank": 6, "code": "NBA-MIA", "value": "7 appearances (tied)" },
+          { "rank": 8, "code": "NBA-CHI", "value": "6 appearances" },
+          { "rank": 8, "code": "NBA-SAS", "value": "6 appearances (tied)" },
+          { "rank": 10, "code": "NBA-CLE", "value": "5 appearances" },
+          { "rank": 11, "code": "NBA-HOU", "value": "4 appearances" },
+          { "rank": 11, "code": "NBA-OKC", "value": "4 appearances (tied)" },
+          { "rank": 13, "code": "NBA-PHX", "value": "3 appearances" },
+          { "rank": 13, "code": "NBA-DAL", "value": "3 appearances (tied)" },
+          { "rank": 13, "code": "NBA-MIL", "value": "3 appearances (tied)" },
+          { "rank": 16, "code": "NBA-BKN", "value": "2 appearances" },
+          { "rank": 16, "code": "NBA-ATL", "value": "2 appearances (tied)" },
+          { "rank": 16, "code": "NBA-ORL", "value": "2 appearances (tied)" },
+          { "rank": 16, "code": "NBA-POR", "value": "2 appearances (tied)" },
+          { "rank": 16, "code": "NBA-SAC", "value": "2 appearances (tied)" },
+          { "rank": 16, "code": "NBA-WAS", "value": "2 appearances (tied)" }
+        ],
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-conference-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-LAL", "value": "32 conference titles" },
+          { "rank": 2, "code": "NBA-BOS", "value": "23 conference titles" },
+          { "rank": 3, "code": "NBA-GSW", "value": "12 conference titles" },
+          { "rank": 4, "code": "NBA-PHI", "value": "9 conference titles" },
+          { "rank": 5, "code": "NBA-NYK", "value": "8 conference titles" },
+          { "rank": 6, "code": "NBA-DET", "value": "7 conference titles" },
+          { "rank": 6, "code": "NBA-MIA", "value": "7 conference titles (tied)" },
+          { "rank": 8, "code": "NBA-CHI", "value": "6 conference titles" },
+          { "rank": 8, "code": "NBA-SAS", "value": "6 conference titles (tied)" },
+          { "rank": 10, "code": "NBA-CLE", "value": "5 conference titles" },
+          { "rank": 11, "code": "NBA-HOU", "value": "4 conference titles" },
+          { "rank": 11, "code": "NBA-OKC", "value": "4 conference titles (tied)" },
+          { "rank": 13, "code": "NBA-PHX", "value": "3 conference titles" },
+          { "rank": 13, "code": "NBA-DAL", "value": "3 conference titles (tied)" },
+          { "rank": 13, "code": "NBA-MIL", "value": "3 conference titles (tied)" },
+          { "rank": 16, "code": "NBA-ORL", "value": "2 conference titles" },
+          { "rank": 16, "code": "NBA-BKN", "value": "2 conference titles (tied)" },
+          { "rank": 16, "code": "NBA-ATL", "value": "2 conference titles (tied)" },
+          { "rank": 16, "code": "NBA-POR", "value": "2 conference titles (tied)" },
+          { "rank": 16, "code": "NBA-SAC", "value": "2 conference titles (tied)" },
+          { "rank": 16, "code": "NBA-WAS", "value": "2 conference titles (tied)" }
+        ],
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-division-titles-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-LAL", "value": "33 division titles" },
+          { "rank": 2, "code": "NBA-BOS", "value": "32 division titles" },
+          { "rank": 3, "code": "NBA-SAS", "value": "22 division titles" },
+          { "rank": 4, "code": "NBA-MIA", "value": "16 division titles" },
+          { "rank": 5, "code": "NBA-PHI", "value": "13 division titles" },
+          { "rank": 6, "code": "NBA-DET", "value": "11 division titles" },
+          { "rank": 6, "code": "NBA-ATL", "value": "11 division titles (tied)" },
+          { "rank": 6, "code": "NBA-DEN", "value": "11 division titles (tied)" },
+          { "rank": 9, "code": "NBA-CHI", "value": "9 division titles" },
+          { "rank": 9, "code": "NBA-UTA", "value": "9 division titles (tied)" },
+          { "rank": 9, "code": "NBA-OKC", "value": "9 division titles (tied)" },
+          { "rank": 12, "code": "NBA-PHX", "value": "7 division titles" },
+          { "rank": 13, "code": "NBA-HOU", "value": "5 division titles" },
+          { "rank": 13, "code": "NBA-DAL", "value": "5 division titles (tied)" },
+          { "rank": 13, "code": "NBA-POR", "value": "5 division titles (tied)" },
+          { "rank": 16, "code": "NBA-MIL", "value": "4 division titles" },
+          { "rank": 16, "code": "NBA-NYK", "value": "4 division titles (tied)" },
+          { "rank": 16, "code": "NBA-GSW", "value": "4 division titles (tied)" },
+          { "rank": 19, "code": "NBA-CLE", "value": "3 division titles" },
+          { "rank": 20, "code": "NBA-IND", "value": "2 division titles" },
+          { "rank": 20, "code": "NBA-ORL", "value": "2 division titles (tied)" }
+        ],
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-hall-of-famers-per-franchise-2024",
+      "changes": {
+        "disclaimer": "Counts any Naismith Basketball Hall of Fame inductee who played for the franchise (not just plurality-of-career). Franchise totals follow lineage through relocations. Values shown are approximate franchise-listed counts.",
+        "answers": [
+          { "rank": 1, "code": "NBA-BOS", "value": "~40 HoFers" },
+          { "rank": 2, "code": "NBA-LAL", "value": "~30 HoFers" },
+          { "rank": 3, "code": "NBA-NYK", "value": "~25 HoFers" },
+          { "rank": 4, "code": "NBA-PHI", "value": "~24 HoFers" },
+          { "rank": 5, "code": "NBA-GSW", "value": "~21 HoFers" },
+          { "rank": 6, "code": "NBA-DET", "value": "~19 HoFers" },
+          { "rank": 7, "code": "NBA-ATL", "value": "~17 HoFers" },
+          { "rank": 8, "code": "NBA-CHI", "value": "~15 HoFers" },
+          { "rank": 9, "code": "NBA-HOU", "value": "~14 HoFers" },
+          { "rank": 10, "code": "NBA-SAS", "value": "~12 HoFers" },
+          { "rank": 10, "code": "NBA-PHX", "value": "~12 HoFers (tied)" },
+          { "rank": 12, "code": "NBA-MIL", "value": "~11 HoFers" },
+          { "rank": 12, "code": "NBA-WAS", "value": "~11 HoFers (tied)" },
+          { "rank": 14, "code": "NBA-POR", "value": "~10 HoFers" },
+          { "rank": 14, "code": "NBA-SAC", "value": "~10 HoFers (tied)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-retired-jersey-numbers-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-BOS", "value": "24 retired numbers" },
+          { "rank": 2, "code": "NBA-LAL", "value": "12 retired numbers" },
+          { "rank": 2, "code": "NBA-SAC", "value": "12 retired numbers (tied)" },
+          { "rank": 4, "code": "NBA-POR", "value": "11 retired numbers" },
+          { "rank": 5, "code": "NBA-NYK", "value": "10 retired numbers" },
+          { "rank": 5, "code": "NBA-PHI", "value": "10 retired numbers (tied)" },
+          { "rank": 5, "code": "NBA-SAS", "value": "10 retired numbers (tied)" },
+          { "rank": 8, "code": "NBA-DET", "value": "9 retired numbers" },
+          { "rank": 8, "code": "NBA-HOU", "value": "9 retired numbers (tied)" },
+          { "rank": 10, "code": "NBA-ATL", "value": "8 retired numbers" },
+          { "rank": 10, "code": "NBA-PHX", "value": "8 retired numbers (tied)" },
+          { "rank": 10, "code": "NBA-MIL", "value": "8 retired numbers (tied)" },
+          { "rank": 13, "code": "NBA-GSW", "value": "7 retired numbers" },
+          { "rank": 13, "code": "NBA-UTA", "value": "7 retired numbers (tied)" },
+          { "rank": 15, "code": "NBA-CHI", "value": "4 retired numbers" },
+          { "rank": 15, "code": "NBA-CLE", "value": "4 retired numbers (tied)" },
+          { "rank": 15, "code": "NBA-MIA", "value": "4 retired numbers (tied)" },
+          { "rank": 15, "code": "NBA-WAS", "value": "4 retired numbers (tied)" }
+        ],
+        "seededDepth": 18
+      }
+    }
+  ],
+  "deletions": []
+}

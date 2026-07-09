@@ -1,0 +1,729 @@
+{
+  "cluster": "movies-02",
+  "questions": [
+    {
+      "id": "movies-highest-imdb-user-rating-among-best-picture-winners-2024",
+      "current": {
+        "title": "Highest IMDb user rating among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest IMDb user rating.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Weighted user rating on IMDb's 10-point scale. Values may drift slightly over time as more users vote.",
+        "trivia": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "godfather-1972",
+            "value": "9.2 IMDb"
+          },
+          {
+            "rank": 2,
+            "code": "godfather-part-ii-1974",
+            "value": "9.0 IMDb"
+          },
+          {
+            "rank": 2,
+            "code": "schindlers-list-1993",
+            "value": "9.0 IMDb (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "9.0 IMDb (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "forrest-gump-1994",
+            "value": "8.8 IMDb"
+          },
+          {
+            "rank": 6,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "8.7 IMDb"
+          },
+          {
+            "rank": 7,
+            "code": "silence-of-the-lambs-1991",
+            "value": "8.6 IMDb"
+          },
+          {
+            "rank": 8,
+            "code": "casablanca-1943",
+            "value": "8.5 IMDb"
+          },
+          {
+            "rank": 8,
+            "code": "gladiator-2000",
+            "value": "8.5 IMDb (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "parasite-2019",
+            "value": "8.5 IMDb"
+          },
+          {
+            "rank": 8,
+            "code": "departed-2006",
+            "value": "8.5 IMDb"
+          },
+          {
+            "rank": 12,
+            "code": "amadeus-1984",
+            "value": "8.4 IMDb"
+          },
+          {
+            "rank": 13,
+            "code": "oppenheimer-2023",
+            "value": "8.3 IMDb"
+          },
+          {
+            "rank": 13,
+            "code": "braveheart-1995",
+            "value": "8.3 IMDb"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-most-oscar-nominations-received-by-a-best-picture-winner-2024",
+      "current": {
+        "title": "Most Oscar nominations received by a Best Picture winner",
+        "prompt": "Name the Best Picture winners that received the most total Oscar nominations at their ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Total nominations received at the ceremony the film won Best Picture.",
+        "trivia": "All About Eve (1950) and Titanic (1997) share the all-time record with 14 nominations each.",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "all-about-eve-1950",
+            "value": "14 nominations (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "14 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "gone-with-the-wind-1939",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "from-here-to-eternity-1953",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "shakespeare-in-love-1998",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "chicago-2002",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "13 nominations"
+          },
+          {
+            "rank": 8,
+            "code": "english-patient-1996",
+            "value": "12 nominations (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "on-the-waterfront-1954",
+            "value": "12 nominations (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "ben-hur-1959",
+            "value": "12 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "11 nominations"
+          },
+          {
+            "rank": 11,
+            "code": "godfather-1972",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "godfather-part-ii-1974",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "amadeus-1984",
+            "value": "11 nominations (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-director-screenplay-triple-crown-2024",
+      "current": {
+        "title": "Best Picture + Director + Screenplay triple crown",
+        "prompt": "Name Best Picture winners that also won BOTH Best Director AND Best (Original or Adapted) Screenplay at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "The film must have won Best Picture, Best Director, AND one of the Screenplay awards at the same ceremony. Ordered by year ascending.",
+        "trivia": "Parasite (2019) is the only non-English-language film ever to pull off the Picture + Director + Screenplay triple. Bong Joon-ho and Han Jin-won shared the original-screenplay Oscar that night.",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "parasite-2019",
+            "value": "2019 (Bong / Bong & Han)"
+          },
+          {
+            "rank": 2,
+            "code": "12-years-a-slave-2013",
+            "value": "2013 (McQueen / Ridley)"
+          },
+          {
+            "rank": 3,
+            "code": "no-country-for-old-men-2007",
+            "value": "2007 (Coens / Coens)"
+          },
+          {
+            "rank": 4,
+            "code": "american-beauty-1999",
+            "value": "1999 (Mendes / Ball)"
+          },
+          {
+            "rank": 5,
+            "code": "silence-of-the-lambs-1991",
+            "value": "1991 (Demme / Tally)"
+          },
+          {
+            "rank": 6,
+            "code": "annie-hall-1977",
+            "value": "1977 (Allen / Allen & Brickman)"
+          },
+          {
+            "rank": 7,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "1975 (Forman / Hauben & Goldman)"
+          },
+          {
+            "rank": 8,
+            "code": "godfather-part-ii-1974",
+            "value": "1974 (Coppola / Coppola & Puzo)"
+          },
+          {
+            "rank": 9,
+            "code": "godfather-1972",
+            "value": "1972 (Coppola / Puzo & Coppola)"
+          },
+          {
+            "rank": 10,
+            "code": "french-connection-1971",
+            "value": "1971 (Friedkin / Tidyman)"
+          },
+          {
+            "rank": 11,
+            "code": "apartment-1960",
+            "value": "1960 (Wilder / Wilder & Diamond)"
+          },
+          {
+            "rank": 12,
+            "code": "marty-1955",
+            "value": "1955 (Mann / Chayefsky)"
+          },
+          {
+            "rank": 13,
+            "code": "gone-with-the-wind-1939",
+            "value": "1939 (Fleming / Howard)"
+          },
+          {
+            "rank": 14,
+            "code": "it-happened-one-night-1934",
+            "value": "1934 (Capra / Riskin)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-most-best-picture-nominations-across-a-director-s-career-2024",
+      "current": {
+        "title": "Most Best Picture nominations across a director's career",
+        "prompt": "Name Best Picture winners whose director has amassed the most Best Picture nominations across their whole career. (Answer = one representative winner per director.)",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts Best Picture nominations across a director's entire career, regardless of whether they were credited as director, producer, or both. Only directors who won Best Picture at least once are eligible; the answer code is their Best Picture-winning film.",
+        "trivia": "William Wyler (Ben-Hur, Best Years of Our Lives, Mrs. Miniver) received Best Picture nominations for 13 different films across his career \u2014 a record that still stands. Steven Spielberg has directed 11 Best Picture nominees but only Schindler's List won.",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ben-hur-1959",
+            "value": "William Wyler \u2014 13 BP-nominated films"
+          },
+          {
+            "rank": 2,
+            "code": "schindlers-list-1993",
+            "value": "Steven Spielberg \u2014 11 BP-nominated films"
+          },
+          {
+            "rank": 2,
+            "code": "gone-with-the-wind-1939",
+            "value": "David O. Selznick (producer) \u2014 11 BP-nominated films"
+          },
+          {
+            "rank": 4,
+            "code": "from-here-to-eternity-1953",
+            "value": "Fred Zinnemann \u2014 8 BP-nominated films"
+          },
+          {
+            "rank": 5,
+            "code": "godfather-part-ii-1974",
+            "value": "Francis Ford Coppola \u2014 7 BP-nominated films"
+          },
+          {
+            "rank": 5,
+            "code": "no-country-for-old-men-2007",
+            "value": "Joel & Ethan Coen \u2014 7 BP-nominated films"
+          },
+          {
+            "rank": 7,
+            "code": "on-the-waterfront-1954",
+            "value": "Elia Kazan \u2014 6 BP-nominated films"
+          },
+          {
+            "rank": 8,
+            "code": "unforgiven-1992",
+            "value": "Clint Eastwood \u2014 5 BP-nominated films"
+          },
+          {
+            "rank": 9,
+            "code": "titanic-1997",
+            "value": "James Cameron \u2014 3 BP-nominated films"
+          },
+          {
+            "rank": 10,
+            "code": "godfather-1972",
+            "value": "Coppola \u2014 see rank 6 (same director)"
+          },
+          {
+            "rank": 11,
+            "code": "chicago-2002",
+            "value": "Rob Marshall \u2014 2 BP-nominated films"
+          },
+          {
+            "rank": 12,
+            "code": "birdman-2014",
+            "value": "Alejandro G. I\u00f1\u00e1rritu \u2014 3 BP-nominated films"
+          },
+          {
+            "rank": 13,
+            "code": "12-years-a-slave-2013",
+            "value": "Steve McQueen \u2014 2 BP-nominated films"
+          },
+          {
+            "rank": 14,
+            "code": "shape-of-water-2017",
+            "value": "Guillermo del Toro \u2014 2 BP-nominated films"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-highest-grossing-best-picture-winners-worldwide-box-office-2024",
+      "current": {
+        "title": "Highest grossing Best Picture winners (worldwide box office)",
+        "prompt": "Name the Best Picture winners with the highest worldwide box office gross (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Unadjusted lifetime worldwide box office (original theatrical + re-releases). Values in USD.",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$2.26B worldwide"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$1.15B worldwide"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$975M worldwide"
+          },
+          {
+            "rank": 4,
+            "code": "forrest-gump-1994",
+            "value": "$678M worldwide"
+          },
+          {
+            "rank": 5,
+            "code": "gladiator-2000",
+            "value": "$465M worldwide"
+          },
+          {
+            "rank": 6,
+            "code": "dances-with-wolves-1990",
+            "value": "$424M worldwide"
+          },
+          {
+            "rank": 6,
+            "code": "kings-speech-2010",
+            "value": "$424M worldwide"
+          },
+          {
+            "rank": 8,
+            "code": "rain-man-1988",
+            "value": "$412M worldwide"
+          },
+          {
+            "rank": 9,
+            "code": "gone-with-the-wind-1939",
+            "value": "$402M worldwide"
+          },
+          {
+            "rank": 10,
+            "code": "slumdog-millionaire-2008",
+            "value": "$378M worldwide"
+          },
+          {
+            "rank": 11,
+            "code": "american-beauty-1999",
+            "value": "$356M worldwide"
+          },
+          {
+            "rank": 12,
+            "code": "green-book-2018",
+            "value": "$322M worldwide"
+          },
+          {
+            "rank": 13,
+            "code": "beautiful-mind-2001",
+            "value": "$316M worldwide"
+          },
+          {
+            "rank": 14,
+            "code": "chicago-2002",
+            "value": "$307M worldwide"
+          },
+          {
+            "rank": 15,
+            "code": "shakespeare-in-love-1998",
+            "value": "$289M worldwide"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-highest-grossing-best-picture-winners-adjusted-for-inflation-2024",
+      "current": {
+        "title": "Highest grossing Best Picture winners (adjusted for inflation)",
+        "prompt": "Name the Best Picture winners with the highest domestic box office adjusted for ticket-price inflation.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Domestic US/Canada gross adjusted to 2024 ticket prices. Older films benefit hugely because tickets were cheaper.",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gone-with-the-wind-1939",
+            "value": "~$1.9B adjusted domestic"
+          },
+          {
+            "rank": 2,
+            "code": "titanic-1997",
+            "value": "~$1.35B adjusted domestic"
+          },
+          {
+            "rank": 3,
+            "code": "sound-of-music-1965",
+            "value": "~$1.32B adjusted domestic"
+          },
+          {
+            "rank": 4,
+            "code": "ben-hur-1959",
+            "value": "~$920M adjusted domestic"
+          },
+          {
+            "rank": 5,
+            "code": "godfather-1972",
+            "value": "~$800M adjusted domestic"
+          },
+          {
+            "rank": 6,
+            "code": "forrest-gump-1994",
+            "value": "~$742M adjusted domestic"
+          },
+          {
+            "rank": 7,
+            "code": "west-side-story-1961",
+            "value": "~$740M adjusted domestic"
+          },
+          {
+            "rank": 8,
+            "code": "sting-1973",
+            "value": "~$720M adjusted domestic"
+          },
+          {
+            "rank": 9,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "~$630M adjusted domestic"
+          },
+          {
+            "rank": 9,
+            "code": "rocky-1976",
+            "value": "~$630M adjusted domestic"
+          },
+          {
+            "rank": 9,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "~$630M adjusted domestic"
+          },
+          {
+            "rank": 12,
+            "code": "rain-man-1988",
+            "value": "~$430M adjusted domestic"
+          },
+          {
+            "rank": 13,
+            "code": "dances-with-wolves-1990",
+            "value": "~$425M adjusted domestic"
+          },
+          {
+            "rank": 14,
+            "code": "gladiator-2000",
+            "value": "~$405M adjusted domestic"
+          },
+          {
+            "rank": 15,
+            "code": "oppenheimer-2023",
+            "value": "~$340M adjusted domestic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-highest-rotten-tomatoes-critic-score-tomatometer-2024",
+      "current": {
+        "title": "Highest Rotten Tomatoes critic score (Tomatometer)",
+        "prompt": "Name the Best Picture winners with the highest Rotten Tomatoes Tomatometer critic score.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Tomatometer = percentage of professional critics who gave the film a positive review. Older films often have fewer reviews.",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "it-happened-one-night-1934",
+            "value": "99% Tomatometer"
+          },
+          {
+            "rank": 1,
+            "code": "casablanca-1943",
+            "value": "99% Tomatometer (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "all-about-eve-1950",
+            "value": "99% Tomatometer (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "parasite-2019",
+            "value": "99% Tomatometer (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "moonlight-2016",
+            "value": "98% Tomatometer"
+          },
+          {
+            "rank": 5,
+            "code": "schindlers-list-1993",
+            "value": "98% Tomatometer"
+          },
+          {
+            "rank": 7,
+            "code": "godfather-1972",
+            "value": "97% Tomatometer"
+          },
+          {
+            "rank": 7,
+            "code": "hurt-locker-2009",
+            "value": "97% Tomatometer"
+          },
+          {
+            "rank": 7,
+            "code": "spotlight-2015",
+            "value": "97% Tomatometer (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "argo-2012",
+            "value": "96% Tomatometer"
+          },
+          {
+            "rank": 11,
+            "code": "12-years-a-slave-2013",
+            "value": "95% Tomatometer"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "94% Tomatometer"
+          },
+          {
+            "rank": 13,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "93% Tomatometer"
+          },
+          {
+            "rank": 14,
+            "code": "departed-2006",
+            "value": "91% Tomatometer"
+          },
+          {
+            "rank": 14,
+            "code": "birdman-2014",
+            "value": "91% Tomatometer"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-longest-runtime-among-best-picture-winners-2024",
+      "current": {
+        "title": "Longest runtime among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the longest theatrical runtimes.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Original theatrical runtime in minutes. Extended cuts and director's editions excluded.",
+        "trivia": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gone-with-the-wind-1939",
+            "value": "238 min"
+          },
+          {
+            "rank": 2,
+            "code": "lawrence-of-arabia-1962",
+            "value": "228 min"
+          },
+          {
+            "rank": 3,
+            "code": "ben-hur-1959",
+            "value": "212 min"
+          },
+          {
+            "rank": 4,
+            "code": "godfather-part-ii-1974",
+            "value": "202 min"
+          },
+          {
+            "rank": 5,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "201 min"
+          },
+          {
+            "rank": 6,
+            "code": "schindlers-list-1993",
+            "value": "195 min"
+          },
+          {
+            "rank": 7,
+            "code": "titanic-1997",
+            "value": "194 min"
+          },
+          {
+            "rank": 8,
+            "code": "gandhi-1982",
+            "value": "191 min"
+          },
+          {
+            "rank": 9,
+            "code": "deer-hunter-1978",
+            "value": "183 min"
+          },
+          {
+            "rank": 10,
+            "code": "dances-with-wolves-1990",
+            "value": "181 min"
+          },
+          {
+            "rank": 11,
+            "code": "oppenheimer-2023",
+            "value": "180 min"
+          },
+          {
+            "rank": 12,
+            "code": "braveheart-1995",
+            "value": "178 min"
+          },
+          {
+            "rank": 13,
+            "code": "godfather-1972",
+            "value": "175 min"
+          },
+          {
+            "rank": 14,
+            "code": "sound-of-music-1965",
+            "value": "174 min"
+          },
+          {
+            "rank": 15,
+            "code": "english-patient-1996",
+            "value": "162 min"
+          }
+        ]
+      }
+    }
+  ]
+}

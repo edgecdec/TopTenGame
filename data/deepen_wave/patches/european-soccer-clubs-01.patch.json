@@ -1,0 +1,134 @@
+{
+  "cluster": "european-soccer-clubs-01",
+  "updates": [
+    {
+      "id": "european-soccer-bundesliga-highest-average-bundesliga-attendance-2023",
+      "changes": {
+        "prompt": "Name the Bundesliga clubs with the highest home league average attendance in the 2023-24 season.",
+        "disclaimer": "League matches only, 17 home games per club. Ranked among the 18 clubs that competed in the 2023-24 Bundesliga. Bayer Leverkusen and Darmstadt 98 are not in the answer pool and are excluded.",
+        "answers": [
+          { "rank": 1, "code": "BUN-BVB", "value": "81,305 avg" },
+          { "rank": 2, "code": "BUN-BAY", "value": "75,000 avg" },
+          { "rank": 3, "code": "BUN-SGE", "value": "56,900 avg" },
+          { "rank": 4, "code": "BUN-VFB", "value": "55,118 avg" },
+          { "rank": 5, "code": "BUN-BMG", "value": "51,371 avg" },
+          { "rank": 6, "code": "BUN-KOL", "value": "49,829 avg" },
+          { "rank": 7, "code": "BUN-RBL", "value": "44,634 avg" },
+          { "rank": 8, "code": "BUN-BRE", "value": "41,721 avg" },
+          { "rank": 9, "code": "BUN-SCF", "value": "34,196 avg" },
+          { "rank": 10, "code": "BUN-MZ", "value": "30,690 avg" },
+          { "rank": 11, "code": "BUN-FCA", "value": "29,144 avg" },
+          { "rank": 12, "code": "BUN-WOB", "value": "25,546 avg" },
+          { "rank": 13, "code": "BUN-BOC", "value": "25,393 avg" },
+          { "rank": 14, "code": "BUN-HOF", "value": "24,559 avg" },
+          { "rank": 15, "code": "BUN-UNI", "value": "21,829 avg" },
+          { "rank": 16, "code": "BUN-HEI", "value": "15,000 avg" }
+        ],
+        "seededDepth": 16
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-most-bundesliga-matches-played-2024",
+      "changes": {
+        "title": "Most Bundesliga seasons all-time",
+        "prompt": "Name the clubs that have played the most seasons in the top-flight Bundesliga since 1963-64.",
+        "disclaimer": "Counts total seasons in the top-flight Bundesliga through 2023-24. No club has appeared in every season.",
+        "trivia": "Bayern Munich and Werder Bremen are tied at the top with 62 Bundesliga seasons each, having been ever-presents for most of the league's history.",
+        "answers": [
+          { "rank": 1, "code": "BUN-BAY", "value": "62 seasons" },
+          { "rank": 1, "code": "BUN-BRE", "value": "62 seasons (tied)" },
+          { "rank": 3, "code": "BUN-BVB", "value": "60 seasons (tied)" },
+          { "rank": 3, "code": "BUN-VFB", "value": "60 seasons (tied)" },
+          { "rank": 5, "code": "BUN-BMG", "value": "59 seasons" },
+          { "rank": 6, "code": "BUN-SGE", "value": "58 seasons" },
+          { "rank": 7, "code": "BUN-HAM", "value": "57 seasons" },
+          { "rank": 8, "code": "BUN-SCH", "value": "55 seasons" },
+          { "rank": 9, "code": "BUN-KOL", "value": "54 seasons" },
+          { "rank": 10, "code": "BUN-KAI", "value": "44 seasons" },
+          { "rank": 11, "code": "BUN-HER", "value": "40 seasons" },
+          { "rank": 12, "code": "BUN-BOC", "value": "38 seasons" },
+          { "rank": 13, "code": "BUN-N90", "value": "33 seasons" },
+          { "rank": 14, "code": "BUN-WOB", "value": "29 seasons" },
+          { "rank": 15, "code": "BUN-SCF", "value": "27 seasons" },
+          { "rank": 16, "code": "BUN-MZ", "value": "21 seasons" },
+          { "rank": 17, "code": "BUN-HOF", "value": "19 seasons" }
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-pl-seasons-as-ever-presents-plus-challengers",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "EPL-ARS", "value": "33 seasons" },
+          { "rank": 1, "code": "EPL-CHE", "value": "33 seasons (tied)" },
+          { "rank": 1, "code": "EPL-EVE", "value": "33 seasons (tied)" },
+          { "rank": 1, "code": "EPL-LIV", "value": "33 seasons (tied)" },
+          { "rank": 1, "code": "EPL-MUN", "value": "33 seasons (tied)" },
+          { "rank": 1, "code": "EPL-TOT", "value": "33 seasons (tied)" },
+          { "rank": 7, "code": "EPL-AVL", "value": "30 seasons" },
+          { "rank": 8, "code": "EPL-NEW", "value": "29 seasons" },
+          { "rank": 9, "code": "EPL-WHU", "value": "28 seasons" },
+          { "rank": 10, "code": "EPL-MCI", "value": "27 seasons" },
+          { "rank": 11, "code": "EPL-SOU", "value": "25 seasons" },
+          { "rank": 12, "code": "EPL-FUL", "value": "18 seasons" }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "european-soccer-european-most-uefa-europa-league-uefa-cup-titles-2024",
+      "changes": {
+        "disclaimer": "Combines UEFA Cup (1971-2009) and UEFA Europa League (2009-present) titles through 2023-24. Only clubs from the top-5 league answer pool are ranked; past winners from other leagues (Feyenoord, Porto, Ajax, PSV, IFK Göteborg, Anderlecht, Galatasaray, Villarreal, CSKA Moscow, Zenit, Shakhtar) are excluded.",
+        "trivia": "Sevilla have never lost a UEFA Cup / Europa League final and are the undisputed kings of the competition with 7 titles.",
+        "answers": [
+          { "rank": 1, "code": "LAL-SEV", "value": "7 titles" },
+          { "rank": 2, "code": "SEA-INT", "value": "3 titles (tied)" },
+          { "rank": 2, "code": "SEA-JUV", "value": "3 titles (tied)" },
+          { "rank": 2, "code": "EPL-LIV", "value": "3 titles (tied)" },
+          { "rank": 2, "code": "LAL-ATM", "value": "3 titles (tied)" },
+          { "rank": 6, "code": "EPL-TOT", "value": "2 titles" },
+          { "rank": 6, "code": "BUN-BMG", "value": "2 titles (tied)" },
+          { "rank": 6, "code": "BUN-SGE", "value": "2 titles (tied)" },
+          { "rank": 6, "code": "LAL-RM", "value": "2 titles (tied)" },
+          { "rank": 6, "code": "SEA-PAR", "value": "2 titles (tied)" },
+          { "rank": 6, "code": "EPL-CHE", "value": "2 titles (tied)" },
+          { "rank": 12, "code": "EPL-MUN", "value": "1 title" },
+          { "rank": 12, "code": "SEA-NAP", "value": "1 title (tied)" },
+          { "rank": 12, "code": "BUN-BAY", "value": "1 title (tied)" },
+          { "rank": 12, "code": "BUN-SCH", "value": "1 title (tied)" },
+          { "rank": 12, "code": "LAL-VAL", "value": "1 title (tied)" },
+          { "rank": 12, "code": "SEA-ATA", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-most-ligue-1-titles-all-time-2024",
+      "changes": {
+        "disclaimer": "Titles include the professional era from 1932-33 onward; the league was suspended 1939-1945 during World War II. Marseille's 1992-93 title was stripped and not restored. Answer pool limited to L1- clubs; historical champions Sochaux, Sète, RC Paris, and Roubaix-Tourcoing are not in the set and are excluded.",
+        "trivia": "PSG has won more Ligue 1 titles this century than the rest of the league combined, but Saint-Étienne's 10 titles came almost entirely between 1957 and 1981.",
+        "answers": [
+          { "rank": 1, "code": "L1-PSG", "value": "14 titles" },
+          { "rank": 2, "code": "L1-SET", "value": "10 titles" },
+          { "rank": 3, "code": "L1-MAR", "value": "9 titles" },
+          { "rank": 4, "code": "L1-MON", "value": "8 titles (tied)" },
+          { "rank": 4, "code": "L1-NAN", "value": "8 titles (tied)" },
+          { "rank": 6, "code": "L1-LYN", "value": "7 titles" },
+          { "rank": 7, "code": "L1-BOR", "value": "6 titles (tied)" },
+          { "rank": 7, "code": "L1-REI", "value": "6 titles (tied)" },
+          { "rank": 9, "code": "L1-LIL", "value": "5 titles" },
+          { "rank": 10, "code": "L1-NIC", "value": "4 titles" },
+          { "rank": 11, "code": "L1-LEN", "value": "1 title (tied)" },
+          { "rank": 11, "code": "L1-STR", "value": "1 title (tied)" },
+          { "rank": 11, "code": "L1-AUX", "value": "1 title (tied)" },
+          { "rank": 11, "code": "L1-MTP", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 14
+      }
+    }
+  ],
+  "deletions": [
+    "european-soccer-serie-a-most-top-4-serie-a-finishes-all-time-2024"
+  ]
+}

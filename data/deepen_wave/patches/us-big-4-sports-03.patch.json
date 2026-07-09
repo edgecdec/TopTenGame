@@ -1,0 +1,90 @@
+{
+  "cluster": "us-big-4-sports-03",
+  "updates": [
+    {
+      "id": "pro-sports-nba-longest-playoff-appearance-streak-all-time-2023",
+      "changes": {
+        "source_name": "Basketball-Reference — franchise playoff history",
+        "source_url": "https://www.basketball-reference.com/playoffs/",
+        "source_as_of": "Through 2023-24 season",
+        "answers": [
+          {"rank": 1, "code": "NBA-PHI", "value": "22 straight (1950-71)"},
+          {"rank": 1, "code": "NBA-SAS", "value": "22 straight (1998-2019) (tied)"},
+          {"rank": 3, "code": "NBA-POR", "value": "21 straight (1983-2003)"},
+          {"rank": 4, "code": "NBA-UTA", "value": "20 straight (1984-2003)"},
+          {"rank": 5, "code": "NBA-LAL", "value": "16 straight (1977-92)"},
+          {"rank": 5, "code": "NBA-BOS", "value": "16 straight (1980-95) (tied)"},
+          {"rank": 7, "code": "NBA-DET", "value": "14 straight (1983-96)"},
+          {"rank": 8, "code": "NBA-PHX", "value": "13 straight (1989-2001)"},
+          {"rank": 9, "code": "NBA-DAL", "value": "12 straight (2001-12)"},
+          {"rank": 9, "code": "NBA-MIL", "value": "12 straight (1980-91) (tied)"},
+          {"rank": 11, "code": "NBA-ATL", "value": "10 straight (2008-17)"},
+          {"rank": 12, "code": "NBA-DEN", "value": "9 straight (1982-90)"},
+          {"rank": 12, "code": "NBA-HOU", "value": "9 straight (1993-2001) (tied)"},
+          {"rank": 12, "code": "NBA-CHI", "value": "9 straight (1985-93) (tied)"},
+          {"rank": 12, "code": "NBA-NYK", "value": "9 straight (1988-96) (tied)"},
+          {"rank": 16, "code": "NBA-GSW", "value": "7 straight (2013-19)"},
+          {"rank": 16, "code": "NBA-MIA", "value": "7 straight (2004-10) (tied)"}
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-valuable-nba-franchises-forbes-2024-2024",
+      "changes": {
+        "source_name": "Forbes — NBA team valuations 2024",
+        "source_url": "https://www.forbes.com/nba-valuations/list/",
+        "source_as_of": "October 2024"
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-super-bowl-appearances-2024",
+      "changes": {
+        "source_name": "Pro-Football-Reference — Super Bowl history",
+        "source_url": "https://www.pro-football-reference.com/super-bowl/",
+        "source_as_of": "Through Super Bowl LVIII (Feb 2024)"
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-nfl-championships-pre-super-bowl-era",
+      "changes": {
+        "source_name": "Pro-Football-Reference — NFL championship history",
+        "source_url": "https://www.pro-football-reference.com/years/",
+        "source_as_of": "Pre-Super Bowl era (1920-1965)"
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-playoff-appearances-2023",
+      "changes": {
+        "source_name": "Pro-Football-Reference — franchise playoff history",
+        "source_url": "https://www.pro-football-reference.com/playoffs/",
+        "source_as_of": "Through 2023 season"
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-division-titles-2023",
+      "changes": {
+        "source_name": "Pro-Football-Reference — franchise history",
+        "source_url": "https://www.pro-football-reference.com/teams/",
+        "source_as_of": "Through 2023 season"
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-valuable-nfl-franchises-forbes-2024-2024",
+      "changes": {
+        "source_name": "Forbes — NFL team valuations 2024",
+        "source_url": "https://www.forbes.com/nfl-valuations/list/",
+        "source_as_of": "August 2024"
+      }
+    },
+    {
+      "id": "pro-sports-nfl-largest-stadium-capacity-2024",
+      "changes": {
+        "source_name": "NFL — official team stadium capacities",
+        "source_url": "https://www.nfl.com/teams/",
+        "source_as_of": "2024 season"
+      }
+    }
+  ],
+  "deletions": []
+}

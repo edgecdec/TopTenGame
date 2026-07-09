@@ -1,0 +1,465 @@
+{
+  "cluster": "video-games-04",
+  "questions": [
+    {
+      "id": "video-games-awards-dice-awards-game-of-the-year-winners-2010s-2023-2011",
+      "current": {
+        "title": "DICE Awards Game of the Year winners (2010s-2023)",
+        "prompt": "Name the games that have won Game of the Year at the Academy of Interactive Arts & Sciences' DICE Awards over the past decade-plus.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "The DICE Awards are voted on by working game-industry peers via the AIAS. Ordered by the release year the ceremony honored.",
+        "trivia": "Untitled Goose Game (2019) is the smallest-team winner in DICE GOTY history \u2014 House House was a four-person Melbourne studio. Overwatch, Breath of the Wild, God of War, Elden Ring and Baldur's Gate 3 all swept both DICE and The Game Awards in the same cycle.",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "mass-effect-2-2010",
+            "value": "2011 ceremony (BioWare / EA)"
+          },
+          {
+            "rank": 2,
+            "code": "elder-scrolls-v-skyrim-2011",
+            "value": "2012 ceremony (Bethesda Game Studios)"
+          },
+          {
+            "rank": 3,
+            "code": "journey-2012",
+            "value": "2013 ceremony (thatgamecompany / SCE)"
+          },
+          {
+            "rank": 4,
+            "code": "last-of-us-2013",
+            "value": "2014 ceremony (Naughty Dog / SCE)"
+          },
+          {
+            "rank": 5,
+            "code": "dragon-age-inquisition-2014",
+            "value": "2015 ceremony (BioWare / EA)"
+          },
+          {
+            "rank": 6,
+            "code": "fallout-4-2015",
+            "value": "2016 ceremony (Bethesda Game Studios)"
+          },
+          {
+            "rank": 7,
+            "code": "overwatch-2016",
+            "value": "2017 ceremony (Blizzard Entertainment)"
+          },
+          {
+            "rank": 8,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "2018 ceremony (Nintendo EPD)"
+          },
+          {
+            "rank": 9,
+            "code": "god-of-war-2018",
+            "value": "2019 ceremony (Santa Monica Studio)"
+          },
+          {
+            "rank": 10,
+            "code": "untitled-goose-game-2019",
+            "value": "2020 ceremony (House House / Panic)"
+          },
+          {
+            "rank": 11,
+            "code": "hades-2020",
+            "value": "2021 ceremony (Supergiant Games)"
+          },
+          {
+            "rank": 12,
+            "code": "deathloop-2021",
+            "value": "2022 ceremony (Arkane Lyon / Bethesda)"
+          },
+          {
+            "rank": 13,
+            "code": "elden-ring-2022",
+            "value": "2023 ceremony (FromSoftware)"
+          },
+          {
+            "rank": 14,
+            "code": "baldurs-gate-3-2023",
+            "value": "2024 ceremony (Larian Studios)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-sales-best-selling-console-only-games-2026",
+      "current": {
+        "title": "Best-Selling Console-Only Games",
+        "prompt": "Rank the best-selling games that launched exclusively on home consoles (no PC/mobile release).",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Sales",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Excludes titles with concurrent PC or mobile releases; sales rounded to nearest 0.1M. Console pack-in bundles are counted at their attach-rate totals per publisher IR reporting.",
+        "trivia": "Wii Sports (rank 1) sold nearly as many copies as the Wii console itself, thanks to being packed in with almost every unit sold outside Japan. Duck Hunt, Wii Play, and Kinect Adventures owe similar totals to their pack-in status.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wii-sports-2006",
+            "value": "82.9M copies"
+          },
+          {
+            "rank": 2,
+            "code": "mario-kart-8-2014",
+            "value": "68M+ copies"
+          },
+          {
+            "rank": 3,
+            "code": "super-mario-bros-1985",
+            "value": "58M copies"
+          },
+          {
+            "rank": 4,
+            "code": "animal-crossing-new-horizons-2020",
+            "value": "46M+ copies"
+          },
+          {
+            "rank": 5,
+            "code": "mario-kart-wii-2008",
+            "value": "37.4M copies"
+          },
+          {
+            "rank": 6,
+            "code": "super-smash-bros-ultimate-2018",
+            "value": "34M+ copies"
+          },
+          {
+            "rank": 7,
+            "code": "wii-sports-resort-2009",
+            "value": "33.1M copies"
+          },
+          {
+            "rank": 8,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "32M+ copies"
+          },
+          {
+            "rank": 9,
+            "code": "new-super-mario-bros-2006",
+            "value": "30.8M copies"
+          },
+          {
+            "rank": 10,
+            "code": "new-super-mario-bros-wii-2009",
+            "value": "30.3M copies"
+          },
+          {
+            "rank": 11,
+            "code": "duck-hunt-1984",
+            "value": "28.3M copies"
+          },
+          {
+            "rank": 12,
+            "code": "super-mario-odyssey-2017",
+            "value": "28M+ copies"
+          },
+          {
+            "rank": 12,
+            "code": "wii-play-2006",
+            "value": "28.0M copies"
+          },
+          {
+            "rank": 14,
+            "code": "pokemon-sword-and-shield-2019",
+            "value": "26M+ copies"
+          },
+          {
+            "rank": 15,
+            "code": "kinect-adventures-2010",
+            "value": "24.0M copies"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-sales-best-selling-xbox-games-2026",
+      "current": {
+        "title": "Best-Selling & Most-Played Xbox Games",
+        "prompt": "Rank the biggest Xbox games across the original Xbox, Xbox 360, Xbox One, and Xbox Series X|S, measured by copies sold or (for Game Pass-first titles) lifetime players.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Sales",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Combines figures across all Xbox platforms. Paid titles are shown by copies sold; Game Pass-first titles are shown by lifetime unique players since Microsoft does not report unit sales for those. Metrics are not directly comparable.",
+        "trivia": "Halo 3 sold $170M on launch day in 2007 \u2014 a record that stood for years until Grand Theft Auto V shattered it. Sea of Thieves and Forza Horizon 4 count as Game Pass-first titles, so their tallies are 'lifetime players' rather than direct unit sales.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "minecraft-2011",
+            "value": "300M+ copies"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-v-2013",
+            "value": "205M+ copies"
+          },
+          {
+            "rank": 3,
+            "code": "sea-of-thieves-2018",
+            "value": "40M+ players"
+          },
+          {
+            "rank": 4,
+            "code": "kinect-adventures-2010",
+            "value": "24.0M copies"
+          },
+          {
+            "rank": 4,
+            "code": "forza-horizon-4-2018",
+            "value": "24M+ players"
+          },
+          {
+            "rank": 6,
+            "code": "call-of-duty-modern-warfare-3-2011",
+            "value": "14.8M copies"
+          },
+          {
+            "rank": 7,
+            "code": "call-of-duty-black-ops-2010",
+            "value": "14.7M copies"
+          },
+          {
+            "rank": 7,
+            "code": "call-of-duty-black-ops-ii-2012",
+            "value": "14.7M copies"
+          },
+          {
+            "rank": 9,
+            "code": "halo-3-2007",
+            "value": "14.5M copies"
+          },
+          {
+            "rank": 10,
+            "code": "halo-reach-2010",
+            "value": "9.9M copies"
+          },
+          {
+            "rank": 11,
+            "code": "halo-4-2012",
+            "value": "9.8M copies"
+          },
+          {
+            "rank": 12,
+            "code": "halo-2-2004",
+            "value": "8.5M copies"
+          },
+          {
+            "rank": 13,
+            "code": "gears-of-war-2-2008",
+            "value": "6.9M copies"
+          },
+          {
+            "rank": 13,
+            "code": "gears-of-war-3-2011",
+            "value": "6.9M copies"
+          },
+          {
+            "rank": 15,
+            "code": "gears-of-war-2006",
+            "value": "6.0M copies"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-critical-edge-magazine-10-10-club-2025",
+      "current": {
+        "title": "Edge Magazine 10/10 club",
+        "prompt": "Name games that received a perfect 10/10 score from UK publication Edge \u2014 historically the most stringent games magazine.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Critical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Edge is legendary for hoarding its 10/10 reviews \u2014 fewer than 30 games have received the perfect score in the magazine's entire ~30-year history.",
+        "trivia": "Super Mario 64 was the first game to receive a 10/10 from Edge (issue 35, 1996). The magazine did not award another 10 until Gran Turismo four years later.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "super-mario-64-1996",
+            "value": "1996"
+          },
+          {
+            "rank": 2,
+            "code": "gran-turismo-1997",
+            "value": "1998"
+          },
+          {
+            "rank": 3,
+            "code": "legend-of-zelda-ocarina-of-time-1998",
+            "value": "1998"
+          },
+          {
+            "rank": 4,
+            "code": "halo-combat-evolved-2001",
+            "value": "2001"
+          },
+          {
+            "rank": 5,
+            "code": "half-life-2-2004",
+            "value": "2004"
+          },
+          {
+            "rank": 6,
+            "code": "grand-theft-auto-iv-2008",
+            "value": "2008"
+          },
+          {
+            "rank": 7,
+            "code": "super-mario-galaxy-2007",
+            "value": "2007"
+          },
+          {
+            "rank": 8,
+            "code": "bioshock-2007",
+            "value": "2007"
+          },
+          {
+            "rank": 9,
+            "code": "super-mario-galaxy-2-2010",
+            "value": "2010"
+          },
+          {
+            "rank": 10,
+            "code": "red-dead-redemption-2010",
+            "value": "2010"
+          },
+          {
+            "rank": 11,
+            "code": "dark-souls-2011",
+            "value": "2011"
+          },
+          {
+            "rank": 12,
+            "code": "grand-theft-auto-v-2013",
+            "value": "2013"
+          },
+          {
+            "rank": 13,
+            "code": "bloodborne-2015",
+            "value": "2015"
+          },
+          {
+            "rank": 14,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "2017"
+          },
+          {
+            "rank": 15,
+            "code": "red-dead-redemption-2-2018",
+            "value": "2018"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-awards-bafta-games-award-for-best-game-winners-2004",
+      "current": {
+        "title": "BAFTA Games Award for Best Game winners",
+        "prompt": "Name the games that have won the BAFTA Games Award for Best Game since the ceremony's inaugural 2004 edition.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "The BAFTA Games Award for Best Game is voted on by BAFTA members. Listed here by ceremony year (chronological, earliest first). Some winners were relatively small indie titles reflecting BAFTA's more idiosyncratic taste vs the fan-voted awards.",
+        "trivia": "What Remains of Edith Finch (2017 game, 2018 BAFTA) and Vampire Survivors (2022 game, 2023 BAFTA) are the two most famous 'BAFTA-only' Best Game winners \u2014 neither won GOTY at any other major ceremony, showing how much more indie-friendly BAFTA voters are than Game Awards juries.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "half-life-2-2004",
+            "value": "2005 ceremony (Valve)"
+          },
+          {
+            "rank": 2,
+            "code": "shadow-of-the-colossus-2005",
+            "value": "2006 ceremony (Team Ico / SCE)"
+          },
+          {
+            "rank": 3,
+            "code": "wii-sports-2006",
+            "value": "2007 ceremony (Nintendo EAD)"
+          },
+          {
+            "rank": 4,
+            "code": "portal-2007",
+            "value": "2008 ceremony (Valve)"
+          },
+          {
+            "rank": 5,
+            "code": "littlebigplanet-2008",
+            "value": "2009 ceremony (Media Molecule / SCE)"
+          },
+          {
+            "rank": 6,
+            "code": "batman-arkham-asylum-2009",
+            "value": "2010 ceremony (Rocksteady / Eidos)"
+          },
+          {
+            "rank": 7,
+            "code": "mass-effect-2-2010",
+            "value": "2011 ceremony (BioWare / EA)"
+          },
+          {
+            "rank": 8,
+            "code": "portal-2-2011",
+            "value": "2012 ceremony (Valve)"
+          },
+          {
+            "rank": 9,
+            "code": "dishonored-2012",
+            "value": "2013 ceremony (Arkane / Bethesda)"
+          },
+          {
+            "rank": 10,
+            "code": "last-of-us-2013",
+            "value": "2014 ceremony (Naughty Dog)"
+          },
+          {
+            "rank": 11,
+            "code": "fallout-4-2015",
+            "value": "2016 ceremony (Bethesda Game Studios)"
+          },
+          {
+            "rank": 12,
+            "code": "uncharted-4-a-thiefs-end-2016",
+            "value": "2017 ceremony (Naughty Dog)"
+          },
+          {
+            "rank": 13,
+            "code": "god-of-war-2018",
+            "value": "2019 ceremony (Santa Monica Studio)"
+          },
+          {
+            "rank": 14,
+            "code": "hades-2020",
+            "value": "2021 ceremony (Supergiant Games)"
+          },
+          {
+            "rank": 15,
+            "code": "vampire-survivors-2022",
+            "value": "2023 ceremony (Poncle)"
+          }
+        ]
+      }
+    }
+  ]
+}

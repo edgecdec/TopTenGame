@@ -1,0 +1,469 @@
+{
+  "cluster": "video-games-00",
+  "questions": [
+    {
+      "id": "video-games-critical-highest-metacritic-score-of-all-time-all-platforms-2025",
+      "current": {
+        "title": "Highest Metacritic score of all time (all platforms)",
+        "prompt": "Name games with the highest all-time Metacritic critic scores, aggregated across all platforms.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Critical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Metacritic uses a weighted average of professional critic reviews on a 0-100 scale. Only games scoring 98 or higher are included here to avoid a large 97-tier tie; the 97-scoring games appear in the 'Games rated 95+ by Metacritic' question.",
+        "trivia": "Ocarina of Time and Tony Hawk's Pro Skater 2 both hold a 98 on Metacritic, but Ocarina has been ranked #1 all-time by Metacritic for over two decades thanks to its higher review count.",
+        "seededDepth": 3,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "legend-of-zelda-ocarina-of-time-1998",
+            "value": "99 (N64)"
+          },
+          {
+            "rank": 2,
+            "code": "tony-hawks-pro-skater-2-2000",
+            "value": "98 (PS1)"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-iv-2008",
+            "value": "98 (PS3/X360) (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-sales-best-selling-handheld-games-nintendo-ds-3ds-vita-2025",
+      "current": {
+        "title": "Best-Selling Handheld Games (Nintendo DS / 3DS / Vita)",
+        "prompt": "Rank the best-selling games on dedicated handheld consoles \u2014 Nintendo DS, 3DS, and PlayStation Vita.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Sales",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Nintendo DS/3DS figures per Nintendo IR; PS Vita figures per Sony and VGChartz. Excludes Nintendo Switch (hybrid handheld/home console).",
+        "trivia": "New Super Mario Bros. on DS was the fastest handheld game to hit 20 million sales \u2014 a feat no PS Vita game ever came close to.",
+        "seededDepth": 6,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "new-super-mario-bros-2006",
+            "value": "30.8M copies"
+          },
+          {
+            "rank": 2,
+            "code": "brain-age-2005",
+            "value": "19.0M copies"
+          },
+          {
+            "rank": 3,
+            "code": "pokemon-diamond-and-pearl-2006",
+            "value": "17.7M copies"
+          },
+          {
+            "rank": 4,
+            "code": "pokemon-sun-and-moon-2016",
+            "value": "16.3M copies"
+          },
+          {
+            "rank": 5,
+            "code": "brain-age-2-2005",
+            "value": "15.3M copies"
+          },
+          {
+            "rank": 6,
+            "code": "animal-crossing-new-leaf-2012",
+            "value": "12.5M copies"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-sales-best-selling-nintendo-switch-games-2025",
+      "current": {
+        "title": "Best-Selling Nintendo Switch Games",
+        "prompt": "Rank the best-selling games on the Nintendo Switch platform.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Sales",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Sales reflect Nintendo's most recent quarterly IR filings; totals include both physical and digital units on Switch. Cross-platform re-releases share one code per the answer set's convention.",
+        "trivia": "The rank-1 title's Switch entry (Deluxe) has an attach rate of over 50% \u2014 meaning more than half of all Switch owners have bought Mario Kart 8 Deluxe. The single canonical Mario Kart 8 code aggregates both the 2014 Wii U original and the 2017 Switch Deluxe re-release.",
+        "seededDepth": 7,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "mario-kart-8-2014",
+            "value": "68M+ copies"
+          },
+          {
+            "rank": 2,
+            "code": "animal-crossing-new-horizons-2020",
+            "value": "46M+ copies"
+          },
+          {
+            "rank": 3,
+            "code": "super-smash-bros-ultimate-2018",
+            "value": "34M+ copies"
+          },
+          {
+            "rank": 4,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "32M+ copies"
+          },
+          {
+            "rank": 5,
+            "code": "super-mario-odyssey-2017",
+            "value": "28M+ copies"
+          },
+          {
+            "rank": 6,
+            "code": "pokemon-sword-and-shield-2019",
+            "value": "26M+ copies"
+          },
+          {
+            "rank": 7,
+            "code": "pokemon-scarlet-violet-2022",
+            "value": "25M+ copies"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-fighting-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring fighting games (Metacritic)",
+        "prompt": "Name the highest-rated fighting games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Only the highest-scoring platform version of each title counts. 2D and 3D fighters both eligible; brawlers like Smash Bros. included.",
+        "trivia": "Super Smash Bros. Ultimate holds the highest Metacritic score of any fighter, with over 90 aggregate on Switch \u2014 beating any Street Fighter or Tekken ever released.",
+        "seededDepth": 8,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "tekken-3-1997",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "super-smash-bros-ultimate-2018",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "super-smash-bros-brawl-2008",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "street-fighter-iv-2008",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "super-smash-bros-melee-2001",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 5,
+            "code": "soulcalibur-ii-2002",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 7,
+            "code": "virtua-fighter-2-1994",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "marvel-vs-capcom-2-new-age-of-heroes-2000",
+            "value": "89 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-franchise-highest-grossing-video-game-franchises-by-revenue-2024",
+      "current": {
+        "title": "Highest-Grossing Video Game Franchises by Revenue",
+        "prompt": "Rank video game franchises by total lifetime franchise revenue including games, merchandise, licensing, and film/TV \u2014 not games-software revenue only.",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Includes revenue from games, merchandise, films, and licensing where applicable.",
+        "trivia": "Only one franchise on this list out-earns Star Wars, Marvel, and Mickey Mouse combined by some estimates \u2014 and it's not a Nintendo IP most people would guess.",
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "pokemon",
+            "value": "~$105B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "mario",
+            "value": "~$40B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "call-of-duty",
+            "value": "~$31B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "grand-theft-auto",
+            "value": "~$30B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "fifa",
+            "value": "~$20B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "minecraft",
+            "value": "~$18B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "final-fantasy",
+            "value": "~$18B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "pac-man",
+            "value": "~$16B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "world-of-warcraft",
+            "value": "~$14B revenue"
+          },
+          {
+            "rank": 10,
+            "code": "league-of-legends",
+            "value": "~$13B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-franchise-video-game-franchises-with-the-most-mainline-entries-2024",
+      "current": {
+        "title": "Video Game Franchises With the Most Mainline Entries",
+        "prompt": "Rank these franchises by the number of numbered/mainline installments in their core series.",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts numbered mainline entries only; excludes remakes, spin-offs, and side-story titles.",
+        "trivia": "Dragon Quest and Final Fantasy have run in parallel in Japan since 1986\u20131987, with fans often debating which series has the longer numbered run.",
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "final-fantasy",
+            "value": "16 mainline"
+          },
+          {
+            "rank": 2,
+            "code": "mortal-kombat",
+            "value": "12 mainline"
+          },
+          {
+            "rank": 3,
+            "code": "dragon-quest",
+            "value": "11 mainline"
+          },
+          {
+            "rank": 3,
+            "code": "mega-man",
+            "value": "11 mainline"
+          },
+          {
+            "rank": 5,
+            "code": "resident-evil",
+            "value": "9 mainline"
+          },
+          {
+            "rank": 6,
+            "code": "tekken",
+            "value": "8 mainline"
+          },
+          {
+            "rank": 7,
+            "code": "gran-turismo",
+            "value": "7 mainline"
+          },
+          {
+            "rank": 8,
+            "code": "grand-theft-auto",
+            "value": "6 mainline"
+          },
+          {
+            "rank": 8,
+            "code": "halo",
+            "value": "6 mainline"
+          },
+          {
+            "rank": 10,
+            "code": "metal-gear",
+            "value": "5 mainline"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-franchise-video-game-franchises-with-the-most-concurrent-players-202",
+      "current": {
+        "title": "Video Game Franchises With the Most Concurrent Players",
+        "prompt": "Rank these live-service franchises by peak concurrent player count worldwide.",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Peak concurrent player figures are approximate and self-reported by publishers.",
+        "trivia": "Roblox regularly exceeds 25 million concurrent users, making it the largest gaming platform by concurrent play in history.",
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "roblox",
+            "value": "~28M concurrent"
+          },
+          {
+            "rank": 2,
+            "code": "fortnite",
+            "value": "~15M concurrent"
+          },
+          {
+            "rank": 3,
+            "code": "minecraft",
+            "value": "~10M concurrent"
+          },
+          {
+            "rank": 4,
+            "code": "league-of-legends",
+            "value": "~8M concurrent"
+          },
+          {
+            "rank": 5,
+            "code": "pubg",
+            "value": "~3.2M concurrent"
+          },
+          {
+            "rank": 6,
+            "code": "counter-strike",
+            "value": "~1.8M concurrent"
+          },
+          {
+            "rank": 7,
+            "code": "grand-theft-auto",
+            "value": "~1M concurrent (Online)"
+          },
+          {
+            "rank": 7,
+            "code": "dota",
+            "value": "~1M concurrent"
+          },
+          {
+            "rank": 9,
+            "code": "call-of-duty",
+            "value": "~800K concurrent"
+          },
+          {
+            "rank": 10,
+            "code": "overwatch",
+            "value": "~500K concurrent"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-franchise-video-game-franchises-with-the-most-spin-off-titles-2024",
+      "current": {
+        "title": "Video Game Franchises With the Most Spin-Off Titles",
+        "prompt": "Rank these franchises by the total number of spin-off games released outside their main series.",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Includes party, racing, sports, RPG, puzzle, and platform spin-offs; excludes mainline numbered entries.",
+        "trivia": "Mario has appeared in more than 200 games across every genre imaginable \u2014 from tennis and golf to typing tutors and doctor simulations.",
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "mario",
+            "value": "200+ spin-offs"
+          },
+          {
+            "rank": 2,
+            "code": "pokemon",
+            "value": "80+ spin-offs"
+          },
+          {
+            "rank": 3,
+            "code": "sonic",
+            "value": "70+ spin-offs"
+          },
+          {
+            "rank": 4,
+            "code": "final-fantasy",
+            "value": "60+ spin-offs"
+          },
+          {
+            "rank": 5,
+            "code": "mega-man",
+            "value": "50+ spin-offs"
+          },
+          {
+            "rank": 6,
+            "code": "dragon-quest",
+            "value": "30+ spin-offs"
+          },
+          {
+            "rank": 7,
+            "code": "zelda",
+            "value": "20+ spin-offs"
+          },
+          {
+            "rank": 7,
+            "code": "resident-evil",
+            "value": "20+ spin-offs"
+          },
+          {
+            "rank": 9,
+            "code": "warcraft",
+            "value": "15+ spin-offs"
+          },
+          {
+            "rank": 9,
+            "code": "metal-gear",
+            "value": "15+ spin-offs"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "cluster": "movies-01",
+  "updates": [
+    {
+      "id": "movies-nominees-most-best-picture-nominations-without-ever-winning-2025",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "la-la-land-2016", "value": "14 nominations, 6 wins (not BP)" },
+          { "rank": 2, "code": "mary-poppins-1964", "value": "13 nominations, 5 wins (not BP)" },
+          { "rank": 3, "code": "reds-1981", "value": "12 nominations, 3 wins (not BP)" },
+          { "rank": 4, "code": "turning-point-1977", "value": "11 nominations, 0 wins (tied)" },
+          { "rank": 4, "code": "color-purple-1985", "value": "11 nominations, 0 wins (tied)" },
+          { "rank": 4, "code": "chinatown-1974", "value": "11 nominations, 1 win (not BP; tied)" },
+          { "rank": 4, "code": "julia-1977", "value": "11 nominations, 3 wins (not BP; tied)" },
+          { "rank": 4, "code": "aviator-2004", "value": "11 nominations, 5 wins (not BP; tied)" },
+          { "rank": 9, "code": "gangs-of-new-york-2002", "value": "10 nominations, 0 wins (tied)" },
+          { "rank": 9, "code": "doctor-zhivago-1965", "value": "10 nominations, 5 wins (not BP; tied)" },
+          { "rank": 9, "code": "bonnie-and-clyde-1967", "value": "10 nominations, 2 wins (not BP; tied)" },
+          { "rank": 9, "code": "dune-2021", "value": "10 nominations, 6 wins (not BP; tied)" },
+          { "rank": 13, "code": "citizen-kane-1941", "value": "9 nominations, 1 win (not BP)" },
+          { "rank": 14, "code": "raging-bull-1980", "value": "8 nominations, 2 wins (not BP)" },
+          { "rank": 15, "code": "shawshank-redemption-1994", "value": "7 nominations, 0 wins (tied)" },
+          { "rank": 15, "code": "pulp-fiction-1994", "value": "7 nominations, 1 win (not BP; tied)" },
+          { "rank": 15, "code": "fargo-1996", "value": "7 nominations, 2 wins (not BP; tied)" }
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "movies-nominees-highest-worldwide-grossing-best-picture-nominees-2025",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "avatar-2009", "value": "$2.923 billion" },
+          { "rank": 2, "code": "titanic-1997", "value": "$2.264 billion" },
+          { "rank": 3, "code": "top-gun-maverick-2022", "value": "$1.496 billion" },
+          { "rank": 4, "code": "barbie-2023", "value": "$1.446 billion" },
+          { "rank": 5, "code": "black-panther-2018", "value": "$1.349 billion" },
+          { "rank": 6, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "$1.146 billion" },
+          { "rank": 7, "code": "joker-2019", "value": "$1.079 billion" },
+          { "rank": 8, "code": "toy-story-3-2010", "value": "$1.067 billion" },
+          { "rank": 9, "code": "oppenheimer-2023", "value": "$976 million" },
+          { "rank": 10, "code": "lord-of-the-rings-two-towers-2002", "value": "$947 million" },
+          { "rank": 11, "code": "bohemian-rhapsody-2018", "value": "$911 million" },
+          { "rank": 12, "code": "lord-of-the-rings-fellowship-of-the-ring-2001", "value": "$897 million" },
+          { "rank": 13, "code": "inception-2010", "value": "$837 million" },
+          { "rank": 14, "code": "forrest-gump-1994", "value": "$678 million" },
+          { "rank": 15, "code": "martian-2015", "value": "$630 million" },
+          { "rank": 16, "code": "american-sniper-2014", "value": "$547 million" },
+          { "rank": 17, "code": "dunkirk-2017", "value": "$527 million" },
+          { "rank": 18, "code": "saving-private-ryan-1998", "value": "$481 million" },
+          { "rank": 19, "code": "jaws-1975", "value": "$476 million" },
+          { "rank": 20, "code": "la-la-land-2016", "value": "$472 million" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "movies-awards-most-oscars-won-by-a-best-picture-loser-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "cabaret-1972", "value": "8 wins (lost to The Godfather)" },
+          { "rank": 2, "code": "gravity-2013", "value": "7 wins (lost to 12 Years a Slave)" },
+          { "rank": 3, "code": "star-wars-1977", "value": "6 wins (lost to Annie Hall)" },
+          { "rank": 3, "code": "mad-max-fury-road-2015", "value": "6 wins (tied; lost to Spotlight)" },
+          { "rank": 3, "code": "la-la-land-2016", "value": "6 wins (tied; lost to Moonlight)" },
+          { "rank": 3, "code": "dune-2021", "value": "6 wins (tied; lost to CODA)" },
+          { "rank": 7, "code": "saving-private-ryan-1998", "value": "5 wins (lost to Shakespeare in Love)" },
+          { "rank": 7, "code": "doctor-zhivago-1965", "value": "5 wins (tied; lost to The Sound of Music)" },
+          { "rank": 7, "code": "hugo-2011", "value": "5 wins (tied; lost to The Artist)" },
+          { "rank": 7, "code": "mary-poppins-1964", "value": "5 wins (tied; lost to My Fair Lady)" },
+          { "rank": 7, "code": "aviator-2004", "value": "5 wins (tied; lost to Million Dollar Baby)" },
+          { "rank": 12, "code": "traffic-2000", "value": "4 wins (lost to Gladiator)" },
+          { "rank": 12, "code": "life-of-pi-2012", "value": "4 wins (tied; lost to Argo)" },
+          { "rank": 12, "code": "bohemian-rhapsody-2018", "value": "4 wins (tied; lost to Green Book)" },
+          { "rank": 12, "code": "poor-things-2023", "value": "4 wins (tied; lost to Oppenheimer)" },
+          { "rank": 12, "code": "inception-2010", "value": "4 wins (tied; lost to The King's Speech)" },
+          { "rank": 17, "code": "avatar-2009", "value": "3 wins (lost to The Hurt Locker)" },
+          { "rank": 17, "code": "reds-1981", "value": "3 wins (tied; lost to Chariots of Fire)" },
+          { "rank": 17, "code": "fiddler-on-the-roof-1971", "value": "3 wins (tied; lost to The French Connection)" },
+          { "rank": 17, "code": "dunkirk-2017", "value": "3 wins (tied; lost to The Shape of Water)" },
+          { "rank": 17, "code": "julia-1977", "value": "3 wins (tied; lost to Annie Hall)" }
+        ],
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-widest-us-theatrical-release-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "oppenheimer-2023", "value": "3,761 theaters (peak)" },
+          { "rank": 2, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "3,703 theaters (peak)" },
+          { "rank": 3, "code": "titanic-1997", "value": "3,265 theaters (peak)" },
+          { "rank": 4, "code": "argo-2012", "value": "3,247 theaters (peak)" },
+          { "rank": 5, "code": "gladiator-2000", "value": "3,188 theaters (peak)" },
+          { "rank": 6, "code": "departed-2006", "value": "3,017 theaters (peak)" },
+          { "rank": 7, "code": "green-book-2018", "value": "2,842 theaters (peak)" },
+          { "rank": 8, "code": "chicago-2002", "value": "2,839 theaters (peak)" },
+          { "rank": 9, "code": "kings-speech-2010", "value": "2,586 theaters (peak)" },
+          { "rank": 10, "code": "forrest-gump-1994", "value": "2,461 theaters (peak)" },
+          { "rank": 11, "code": "million-dollar-baby-2004", "value": "2,375 theaters (peak)" },
+          { "rank": 12, "code": "no-country-for-old-men-2007", "value": "2,260 theaters (peak)" },
+          { "rank": 13, "code": "shakespeare-in-love-1998", "value": "2,242 theaters (peak)" },
+          { "rank": 14, "code": "everything-everywhere-all-at-once-2022", "value": "2,220 theaters (peak)" },
+          { "rank": 15, "code": "shape-of-water-2017", "value": "2,075 theaters (peak)" },
+          { "rank": 16, "code": "braveheart-1995", "value": "2,036 theaters (peak)" },
+          { "rank": 17, "code": "crash-2005", "value": "2,023 theaters (peak)" },
+          { "rank": 18, "code": "parasite-2019", "value": "2,001 theaters (peak)" },
+          { "rank": 19, "code": "american-beauty-1999", "value": "1,990 theaters (peak)" },
+          { "rank": 20, "code": "12-years-a-slave-2013", "value": "1,411 theaters (peak)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "movies-nominees-most-best-picture-nominated-films-by-a-single-director-2025",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "best-years-of-our-lives-1946", "value": "William Wyler (13 BP-nom films)" },
+          { "rank": 2, "code": "ben-hur-1959", "value": "William Wyler" },
+          { "rank": 3, "code": "mrs-miniver-1942", "value": "William Wyler" },
+          { "rank": 4, "code": "wuthering-heights-1939", "value": "William Wyler" },
+          { "rank": 5, "code": "letter-1940", "value": "William Wyler" },
+          { "rank": 6, "code": "little-foxes-1941", "value": "William Wyler" },
+          { "rank": 7, "code": "friendly-persuasion-1956", "value": "William Wyler" },
+          { "rank": 8, "code": "dodsworth-1936", "value": "William Wyler" },
+          { "rank": 9, "code": "heiress-1949", "value": "William Wyler" },
+          { "rank": 10, "code": "roman-holiday-1953", "value": "William Wyler" },
+          { "rank": 11, "code": "schindlers-list-1993", "value": "Steven Spielberg (12 BP-nom films)" },
+          { "rank": 12, "code": "saving-private-ryan-1998", "value": "Steven Spielberg" },
+          { "rank": 13, "code": "lincoln-2012", "value": "Steven Spielberg" },
+          { "rank": 14, "code": "munich-2005", "value": "Steven Spielberg" },
+          { "rank": 15, "code": "west-side-story-2021", "value": "Steven Spielberg" },
+          { "rank": 16, "code": "fabelmans-2022", "value": "Steven Spielberg" },
+          { "rank": 17, "code": "jaws-1975", "value": "Steven Spielberg" },
+          { "rank": 18, "code": "color-purple-1985", "value": "Steven Spielberg" },
+          { "rank": 19, "code": "war-horse-2011", "value": "Steven Spielberg" },
+          { "rank": 20, "code": "bridge-of-spies-2015", "value": "Steven Spielberg" },
+          { "rank": 21, "code": "post-2017", "value": "Steven Spielberg" }
+        ],
+        "seededDepth": 21
+      }
+    }
+  ],
+  "deletions": ["movies-nominees-best-picture-nominees-at-the-92nd-academy-awards-2019-films-2025"]
+}

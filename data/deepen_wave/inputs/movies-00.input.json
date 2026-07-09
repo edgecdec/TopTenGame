@@ -1,0 +1,419 @@
+{
+  "cluster": "movies-00",
+  "questions": [
+    {
+      "id": "movies-nominees-films-that-lost-best-picture-to-titanic-1997-2025",
+      "current": {
+        "title": "Films that lost Best Picture to Titanic (1997)",
+        "prompt": "The four films that were nominated for Best Picture at the 70th Academy Awards but lost to Titanic.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": null,
+        "trivia": "Titanic tied Ben-Hur's record of 11 Oscar wins that night; L.A. Confidential is often cited as one of the great runner-ups in Oscar history.",
+        "seededDepth": 4,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "as-good-as-it-gets-1997",
+            "value": "Nominee \u2014 lost to Titanic"
+          },
+          {
+            "rank": 2,
+            "code": "full-monty-1997",
+            "value": "Nominee \u2014 lost to Titanic"
+          },
+          {
+            "rank": 3,
+            "code": "good-will-hunting-1997",
+            "value": "Nominee \u2014 lost to Titanic"
+          },
+          {
+            "rank": 4,
+            "code": "la-confidential-1997",
+            "value": "Nominee \u2014 lost to Titanic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-talent-best-picture-winners-produced-by-harvey-weinstein-miramax-2024",
+      "current": {
+        "title": "Best Picture winners produced by Harvey Weinstein / Miramax",
+        "prompt": "Name the Best Picture-winning films produced or distributed by Harvey Weinstein at Miramax or The Weinstein Company.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Talent",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Weinstein was credited as a producer or executive producer on each of these Best Picture winners.",
+        "trivia": "Weinstein's Miramax/TWC banner was known for aggressive Oscar campaigns that produced five Best Picture winners.",
+        "seededDepth": 5,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "artist-2011",
+            "value": "2011 (The Weinstein Company)"
+          },
+          {
+            "rank": 2,
+            "code": "kings-speech-2010",
+            "value": "2010 (The Weinstein Company)"
+          },
+          {
+            "rank": 3,
+            "code": "chicago-2002",
+            "value": "2002 (Miramax)"
+          },
+          {
+            "rank": 4,
+            "code": "shakespeare-in-love-1998",
+            "value": "1998 (Miramax - producer credit)"
+          },
+          {
+            "rank": 5,
+            "code": "english-patient-1996",
+            "value": "1996 (Miramax)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-horror-films-nominated-for-best-picture-2025",
+      "current": {
+        "title": "Horror films nominated for Best Picture",
+        "prompt": "Best Picture nominees classified as horror or horror-adjacent. Ordered by year of nomination (earliest first).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Genre classification is subjective; some psychological thrillers are debated inclusions.",
+        "trivia": "The Silence of the Lambs (1991) is the only true horror film to win Best Picture, and one of only three films ever to sweep the 'Big Five' (Picture, Director, Actor, Actress, Screenplay). Black Swan (2010) is a common genre-boundary example \u2014 Aronofsky's psychological horror was nominated but often listed under 'thriller' by other critics.",
+        "seededDepth": 6,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "exorcist-1973",
+            "value": "1973 \u2014 lost to The Sting"
+          },
+          {
+            "rank": 2,
+            "code": "jaws-1975",
+            "value": "1975 \u2014 lost to One Flew Over the Cuckoo's Nest"
+          },
+          {
+            "rank": 3,
+            "code": "silence-of-the-lambs-1991",
+            "value": "1991 \u2014 WON"
+          },
+          {
+            "rank": 4,
+            "code": "sixth-sense-1999",
+            "value": "1999 \u2014 lost to American Beauty"
+          },
+          {
+            "rank": 5,
+            "code": "black-swan-2010",
+            "value": "2010 \u2014 lost to The King's Speech"
+          },
+          {
+            "rank": 6,
+            "code": "get-out-2017",
+            "value": "2017 \u2014 lost to The Shape of Water"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-biggest-franchise-gross-2024",
+      "current": {
+        "title": "Best Picture winners with the biggest franchise gross",
+        "prompt": "Name Best Picture winners whose broader film franchise (sequels, prequels, spinoffs) has the highest cumulative worldwide gross.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Franchise gross includes all theatrical films sharing the winner's continuity (direct sequels, prequels, spinoffs). Unadjusted worldwide gross.",
+        "trivia": "The Lord of the Rings franchise (three LOTR films plus the three Hobbit prequels) has grossed nearly $6B worldwide \u2014 the biggest total anchored by a Best Picture winner. Rocky + Creed is the longest-running franchise built off a BP winner: seven Rocky films plus three Creed films, all descended from the 1976 winner.",
+        "seededDepth": 6,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$5.9B franchise (LOTR + Hobbit)"
+          },
+          {
+            "rank": 2,
+            "code": "rocky-1976",
+            "value": "$1.7B franchise (Rocky + Creed)"
+          },
+          {
+            "rank": 3,
+            "code": "silence-of-the-lambs-1991",
+            "value": "$928M franchise (Hannibal Lecter)"
+          },
+          {
+            "rank": 4,
+            "code": "gladiator-2000",
+            "value": "$630M franchise (Gladiator I-II)"
+          },
+          {
+            "rank": 5,
+            "code": "godfather-1972",
+            "value": "$517M franchise (Godfather trilogy)"
+          },
+          {
+            "rank": 6,
+            "code": "french-connection-1971",
+            "value": "$92M franchise (FC I-II)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-set-in-the-1970s-2024",
+      "current": {
+        "title": "Best Picture winners set in the 1970s",
+        "prompt": "Name Best Picture winners whose story is primarily set during the 1970s.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Story setting refers to when the majority of the film's events take place, not when the film was released. Small pool \u2014 only a handful of Best Picture winners have their main action inside 1970-1979.",
+        "trivia": "Argo (2012) is set during the 1979-1981 Iran hostage crisis. Kramer vs. Kramer (1979) is one of the few Best Picture winners simultaneously set in and released during the same year of the 70s.",
+        "seededDepth": 6,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "argo-2012",
+            "value": "Set 1979-81 (Iran hostage crisis)"
+          },
+          {
+            "rank": 2,
+            "code": "rocky-1976",
+            "value": "Set 1975-76 Philadelphia"
+          },
+          {
+            "rank": 3,
+            "code": "french-connection-1971",
+            "value": "Set 1970-71, New York"
+          },
+          {
+            "rank": 4,
+            "code": "deer-hunter-1978",
+            "value": "Set 1968-75"
+          },
+          {
+            "rank": 5,
+            "code": "annie-hall-1977",
+            "value": "Set mid-1970s NYC/LA"
+          },
+          {
+            "rank": 5,
+            "code": "kramer-vs-kramer-1979",
+            "value": "Set late-1970s NYC"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-zero-acting-nominations-2024",
+      "current": {
+        "title": "Best Picture winners with zero acting nominations",
+        "prompt": "Name Best Picture winners that received NO acting nominations (no Actor, Actress, Supporting Actor or Supporting Actress noms).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "A film needs zero nominations across all four acting categories (Best Actor, Best Actress, Best Supporting Actor, Best Supporting Actress) to qualify. Extremely rare, and even rarer in the modern era.",
+        "trivia": "Wings (1927) and Grand Hotel (1932) went acting-nomination-free before the Supporting categories even existed. The Lord of the Rings: The Return of the King is the modern outlier \u2014 it won 11 Oscars including Best Picture with zero acting nominations, a feat unmatched since.",
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wings-1927",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 2,
+            "code": "all-quiet-on-the-western-front-1930",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 3,
+            "code": "grand-hotel-1932",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 4,
+            "code": "cavalcade-1933",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 5,
+            "code": "american-in-paris-1951",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 6,
+            "code": "around-the-world-in-80-days-1956",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 7,
+            "code": "gigi-1958",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 8,
+            "code": "last-emperor-1987",
+            "value": "0 acting noms"
+          },
+          {
+            "rank": 9,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "0 acting noms"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-highest-imdb-rating-among-best-picture-nominees-that-did-not-win",
+      "current": {
+        "title": "Highest IMDb rating among Best Picture nominees that did NOT win",
+        "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by current IMDb user rating.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "IMDb ratings shift over time; ties broken by number of votes.",
+        "trivia": "The Shawshank Redemption lost Best Picture to Forrest Gump in 1994 but has been the #1 film on IMDb's Top 250 for nearly all of the site's history.",
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "shawshank-redemption-1994",
+            "value": "9.3 / 10"
+          },
+          {
+            "rank": 2,
+            "code": "12-angry-men-1957",
+            "value": "9.0 / 10"
+          },
+          {
+            "rank": 3,
+            "code": "pulp-fiction-1994",
+            "value": "8.9 / 10"
+          },
+          {
+            "rank": 4,
+            "code": "inception-2010",
+            "value": "8.8 / 10"
+          },
+          {
+            "rank": 5,
+            "code": "goodfellas-1990",
+            "value": "8.7 / 10"
+          },
+          {
+            "rank": 6,
+            "code": "star-wars-1977",
+            "value": "8.6 / 10"
+          },
+          {
+            "rank": 7,
+            "code": "whiplash-2014",
+            "value": "8.5 / 10"
+          },
+          {
+            "rank": 8,
+            "code": "raiders-of-the-lost-ark-1981",
+            "value": "8.4 / 10"
+          },
+          {
+            "rank": 9,
+            "code": "citizen-kane-1941",
+            "value": "8.3 / 10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-highest-rotten-tomatoes-score-among-best-picture-nominees-that-d",
+      "current": {
+        "title": "Highest Rotten Tomatoes score among Best Picture nominees that did NOT win",
+        "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by Rotten Tomatoes Tomatometer critic score.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Ties broken by number of reviews. Older films tend to have fewer reviews.",
+        "trivia": "Toy Story 3 held a rare 98% score and was one of only three Pixar films ever nominated for Best Picture, alongside Up (2009) and Toy Story 3 itself \u2014 Pixar has never won Best Picture.",
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "citizen-kane-1941",
+            "value": "99% (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "lady-bird-2017",
+            "value": "99%"
+          },
+          {
+            "rank": 3,
+            "code": "toy-story-3-2010",
+            "value": "98% (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "get-out-2017",
+            "value": "98%"
+          },
+          {
+            "rank": 3,
+            "code": "boyhood-2014",
+            "value": "98%"
+          },
+          {
+            "rank": 3,
+            "code": "up-2009",
+            "value": "98%"
+          },
+          {
+            "rank": 7,
+            "code": "roma-2018",
+            "value": "96%"
+          },
+          {
+            "rank": 7,
+            "code": "black-panther-2018",
+            "value": "96%"
+          },
+          {
+            "rank": 9,
+            "code": "grand-budapest-hotel-2014",
+            "value": "92%"
+          }
+        ]
+      }
+    }
+  ]
+}

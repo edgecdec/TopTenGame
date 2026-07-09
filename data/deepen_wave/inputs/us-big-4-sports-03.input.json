@@ -1,0 +1,749 @@
+{
+  "cluster": "us-big-4-sports-03",
+  "questions": [
+    {
+      "id": "pro-sports-nba-longest-playoff-appearance-streak-all-time-2023",
+      "current": {
+        "title": "Longest playoff appearance streak (all-time)",
+        "prompt": "Name the NBA franchises with the longest streak of consecutive playoff appearances in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Longest streak of consecutive postseason appearances per franchise (any playoff berth counts, however brief). Streaks may have ended.",
+        "trivia": "The Syracuse/Philadelphia 76ers (1950-71) and Spurs (1998-2019) share the record at 22 straight. Portland (21) and Utah (20) follow just behind.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-PHI",
+            "value": "22 straight (1950-71)"
+          },
+          {
+            "rank": 1,
+            "code": "NBA-SAS",
+            "value": "22 straight (1998-2019)"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-POR",
+            "value": "21 straight (1983-2003)"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-UTA",
+            "value": "20 straight (1984-2003)"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-LAL",
+            "value": "16 straight (1977-92)"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-BOS",
+            "value": "16 straight (1980-95)"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-DET",
+            "value": "14 straight (1983-96)"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-PHX",
+            "value": "13 straight (1989-2001)"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-DAL",
+            "value": "12 straight (2001-12)"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-MIL",
+            "value": "12 straight (1980-91)"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-ATL",
+            "value": "10 straight (2008-17)"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-HOU",
+            "value": "9 straight (1993-2001)"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-CHI",
+            "value": "9 straight (1985-93)"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-NYK",
+            "value": "9 straight (1988-96)"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-MIA",
+            "value": "7 straight (2004-10)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-valuable-nba-franchises-forbes-2024-2024",
+      "current": {
+        "title": "Most valuable NBA franchises (Forbes 2024)",
+        "prompt": "Name the highest-valued NBA franchises per Forbes' 2024 team valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Per Forbes' October 2024 NBA team valuations. Values in US dollars; a new national media-rights deal (2025) has lifted valuations across the league.",
+        "trivia": "The Warriors passed the Knicks for #1 on the strength of their market, media, and Chase Center revenue, with the Lakers a close third.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-GSW",
+            "value": "$8.8B"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-NYK",
+            "value": "$8.3B"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-LAL",
+            "value": "$7.7B"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-BOS",
+            "value": "$6.0B"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-LAC",
+            "value": "$5.5B"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-CHI",
+            "value": "$5.4B"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-DAL",
+            "value": "$4.7B"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-HOU",
+            "value": "$4.65B"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-BKN",
+            "value": "$4.55B"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-PHI",
+            "value": "$4.3B"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-PHX",
+            "value": "$4.0B"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-MIA",
+            "value": "$3.9B"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-TOR",
+            "value": "$3.85B"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-WAS",
+            "value": "$3.55B"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-DEN",
+            "value": "$3.5B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-super-bowl-appearances-2024",
+      "current": {
+        "title": "Most Super Bowl appearances",
+        "prompt": "Name the NFL franchises that have appeared in the most Super Bowls (wins + losses).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts Super Bowl appearances (wins + losses). Super Bowl era only.",
+        "trivia": "New England leads with 11 appearances (6-5). Pittsburgh, Dallas, and Denver are tied at 8. Kansas City reached 6 after the 2023 season championship.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NE",
+            "value": "11 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-PIT",
+            "value": "8 appearances (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DAL",
+            "value": "8 appearances (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-DEN",
+            "value": "8 appearances (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-SF",
+            "value": "7 appearances"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "6 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-GB",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYG",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-MIA",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LV",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-WAS",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LAR",
+            "value": "5 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-PHI",
+            "value": "4 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-BUF",
+            "value": "4 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-IND",
+            "value": "4 appearances (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-nfl-championships-pre-super-bowl-era",
+      "current": {
+        "title": "Most NFL championships pre-Super Bowl era",
+        "prompt": "Name the NFL franchises with the most league championships won before the Super Bowl era (1920-1965).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "NFL championships won before the Super Bowl era (1920-1965). AAFC and other rival-league titles not included.",
+        "trivia": "Green Bay's 9 pre-Super Bowl titles include championships under Curly Lambeau and Vince Lombardi. The Bears' 8 include the 1920 APFA (pre-NFL) championship.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-GB",
+            "value": "9 pre-SB titles"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-CHI",
+            "value": "8 pre-SB titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NYG",
+            "value": "4 pre-SB titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-DET",
+            "value": "4 pre-SB titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-CLE",
+            "value": "4 pre-SB titles"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-PHI",
+            "value": "3 pre-SB titles"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-IND",
+            "value": "3 pre-SB titles"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "3 AFL titles"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-WAS",
+            "value": "2 pre-SB titles"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-ARI",
+            "value": "2 pre-SB titles"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-BUF",
+            "value": "2 AFL titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-TEN",
+            "value": "2 AFL titles"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-LAR",
+            "value": "1 pre-SB title"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-LV",
+            "value": "1 AFL title"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-NYJ",
+            "value": "1 AFL title"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-playoff-appearances-2023",
+      "current": {
+        "title": "Most playoff appearances",
+        "prompt": "Name the NFL franchises with the most all-time playoff appearances.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "All-time regular-season postseason appearances (any playoff berth counts). Includes AFL playoff appearances for pre-merger AFL clubs.",
+        "trivia": "The Cowboys, Packers, Steelers, and Giants all sit at or above 30 postseason appearances, with the Patriots surging into the top group during the Belichick/Brady era.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "36 appearances"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-GB",
+            "value": "36 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-PIT",
+            "value": "33 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NYG",
+            "value": "33 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-LAR",
+            "value": "31 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-MIN",
+            "value": "31 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-SF",
+            "value": "29 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-PHI",
+            "value": "29 appearances"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-IND",
+            "value": "29 appearances"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-NE",
+            "value": "28 appearances"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-CHI",
+            "value": "27 appearances"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-WAS",
+            "value": "25 appearances"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-KC",
+            "value": "24 appearances"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-DEN",
+            "value": "23 appearances"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-LV",
+            "value": "22 appearances"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-division-titles-2023",
+      "current": {
+        "title": "Most division titles",
+        "prompt": "Name the NFL franchises with the most division titles all-time.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Regular-season division championships since divisional play began in 1970 (pre-merger conference/division titles for AFL and NFL both counted).",
+        "trivia": "New England won 17 AFC East titles during the Brady era (with a couple gaps). The Cowboys and Steelers built their totals over decades in strong divisions.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "25 division titles"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-PIT",
+            "value": "24 division titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NE",
+            "value": "22 division titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-SF",
+            "value": "22 division titles"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-GB",
+            "value": "22 division titles"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-MIN",
+            "value": "21 division titles"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-LAR",
+            "value": "20 division titles"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-IND",
+            "value": "20 division titles"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-CHI",
+            "value": "19 division titles"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-LV",
+            "value": "16 division titles"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-DEN",
+            "value": "15 division titles"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-KC",
+            "value": "15 division titles"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-MIA",
+            "value": "14 division titles"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-PHI",
+            "value": "14 division titles"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-CLE",
+            "value": "12 division titles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-most-valuable-nfl-franchises-forbes-2024-2024",
+      "current": {
+        "title": "Most valuable NFL franchises (Forbes 2024)",
+        "prompt": "Name the highest-valued NFL franchises per Forbes' 2024 team valuations.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Per Forbes' 2024 NFL team valuations. Values in US dollars.",
+        "trivia": "The Cowboys have been Forbes' most valuable NFL franchise \u2014 and the most valuable sports franchise in the world overall \u2014 for years running.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-DAL",
+            "value": "$10.32B"
+          },
+          {
+            "rank": 2,
+            "code": "NFL-LAR",
+            "value": "$8.0B"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-NE",
+            "value": "$7.7B"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-NYG",
+            "value": "$7.3B"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-CHI",
+            "value": "$7.06B"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-SF",
+            "value": "$7.0B"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-NYJ",
+            "value": "$6.9B"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-WAS",
+            "value": "$6.7B"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-PHI",
+            "value": "$6.6B"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-HOU",
+            "value": "$6.35B"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-MIA",
+            "value": "$6.2B"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-DEN",
+            "value": "$6.15B"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-LV",
+            "value": "$6.1B"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-SEA",
+            "value": "$5.9B"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-GB",
+            "value": "$5.85B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nfl-largest-stadium-capacity-2024",
+      "current": {
+        "title": "Largest stadium capacity",
+        "prompt": "Name the NFL franchises with the largest home-stadium seating capacity (two teams sharing one venue both count).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NFL",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Official regular-configuration seating capacity per team's home stadium. Some venues can expand beyond seated capacity with standing room.",
+        "trivia": "MetLife Stadium is shared by the Giants and Jets, so both franchises land at the top with identical values. AT&T Stadium (Cowboys) can expand to 105,000+ with standing room, but the seated capacity is 80,000. Lambeau Field expansions have brought Green Bay into the top group.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NFL-NYG",
+            "value": "82,500"
+          },
+          {
+            "rank": 1,
+            "code": "NFL-NYJ",
+            "value": "82,500"
+          },
+          {
+            "rank": 3,
+            "code": "NFL-WAS",
+            "value": "82,000"
+          },
+          {
+            "rank": 4,
+            "code": "NFL-GB",
+            "value": "81,441"
+          },
+          {
+            "rank": 5,
+            "code": "NFL-DAL",
+            "value": "80,000"
+          },
+          {
+            "rank": 6,
+            "code": "NFL-KC",
+            "value": "76,416"
+          },
+          {
+            "rank": 7,
+            "code": "NFL-DEN",
+            "value": "76,125"
+          },
+          {
+            "rank": 8,
+            "code": "NFL-CAR",
+            "value": "74,867"
+          },
+          {
+            "rank": 9,
+            "code": "NFL-BUF",
+            "value": "71,608"
+          },
+          {
+            "rank": 10,
+            "code": "NFL-BAL",
+            "value": "71,008"
+          },
+          {
+            "rank": 11,
+            "code": "NFL-PHI",
+            "value": "69,796"
+          },
+          {
+            "rank": 12,
+            "code": "NFL-TEN",
+            "value": "69,143"
+          },
+          {
+            "rank": 13,
+            "code": "NFL-JAX",
+            "value": "67,838"
+          },
+          {
+            "rank": 14,
+            "code": "NFL-NE",
+            "value": "65,878"
+          },
+          {
+            "rank": 15,
+            "code": "NFL-MIA",
+            "value": "65,326"
+          }
+        ]
+      }
+    }
+  ]
+}

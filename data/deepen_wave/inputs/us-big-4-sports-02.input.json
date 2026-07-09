@@ -1,0 +1,749 @@
+{
+  "cluster": "us-big-4-sports-02",
+  "questions": [
+    {
+      "id": "pro-sports-mlb-most-cy-young-awards-mlb-by-team-2024",
+      "current": {
+        "title": "Most Cy Young Awards (MLB, by team)",
+        "prompt": "Name the MLB franchises whose pitchers have won the most Cy Young Awards.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - MLB",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Award established 1956 (one MLB-wide winner through 1966; separate AL and NL winners since 1967). Counted by team the pitcher was on when winning.",
+        "trivia": "The Dodgers lead with 13 Cy Youngs, thanks to a legendary pitching lineage: Newcombe, Drysdale, Koufax, Hershiser, Valenzuela, Gagne, Kershaw (3x), and Bauer.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-LAD",
+            "value": "13 Cy Youngs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-NYY",
+            "value": "8 Cy Youngs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-PHI",
+            "value": "8 Cy Youngs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-ATL",
+            "value": "8 Cy Youngs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-BOS",
+            "value": "8 Cy Youngs"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-BAL",
+            "value": "6 Cy Youngs"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-DET",
+            "value": "6 Cy Youngs"
+          },
+          {
+            "rank": 6,
+            "code": "MLB-CHC",
+            "value": "6 Cy Youngs"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-NYM",
+            "value": "5 Cy Youngs"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-STL",
+            "value": "5 Cy Youngs"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-OAK",
+            "value": "5 Cy Youngs"
+          },
+          {
+            "rank": 9,
+            "code": "MLB-TOR",
+            "value": "5 Cy Youngs"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-MIN",
+            "value": "4 Cy Youngs"
+          },
+          {
+            "rank": 13,
+            "code": "MLB-CLE",
+            "value": "4 Cy Youngs"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-HOU",
+            "value": "3 Cy Youngs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-mlb-most-mvp-awards-mlb-by-team-2024",
+      "current": {
+        "title": "Most MVP awards (MLB, by team)",
+        "prompt": "Name the MLB franchises whose players have won the most MVP Awards (BBWAA AL/NL MVP).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - MLB",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Modern BBWAA MVP era (both AL and NL from 1931). Counted by the team the player was on when winning.",
+        "trivia": "The Yankees dominate with MVPs from Ruth, Gehrig, DiMaggio, Berra (3x), Mantle (3x), Rodriguez, and Judge. The Angels' recent boost comes from Trout (3x) and Ohtani.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MLB-NYY",
+            "value": "22 MVPs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-STL",
+            "value": "11 MVPs"
+          },
+          {
+            "rank": 2,
+            "code": "MLB-SF",
+            "value": "11 MVPs"
+          },
+          {
+            "rank": 4,
+            "code": "MLB-BOS",
+            "value": "10 MVPs"
+          },
+          {
+            "rank": 5,
+            "code": "MLB-LAD",
+            "value": "9 MVPs"
+          },
+          {
+            "rank": 5,
+            "code": "MLB-DET",
+            "value": "9 MVPs"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-OAK",
+            "value": "8 MVPs"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-CIN",
+            "value": "8 MVPs"
+          },
+          {
+            "rank": 7,
+            "code": "MLB-PHI",
+            "value": "8 MVPs"
+          },
+          {
+            "rank": 10,
+            "code": "MLB-ATL",
+            "value": "7 MVPs"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-LAA",
+            "value": "6 MVPs"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-CHC",
+            "value": "6 MVPs"
+          },
+          {
+            "rank": 11,
+            "code": "MLB-BAL",
+            "value": "6 MVPs"
+          },
+          {
+            "rank": 14,
+            "code": "MLB-MIN",
+            "value": "5 MVPs"
+          },
+          {
+            "rank": 15,
+            "code": "MLB-TEX",
+            "value": "3 MVPs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-championships-all-time-2024",
+      "current": {
+        "title": "Most NBA championships (all-time)",
+        "prompt": "Name the NBA franchises with the most NBA championships in league history.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Franchise totals follow lineage through relocations and rebrands.",
+        "trivia": "Boston (18) passed the Lakers (17) with the 2024 title. The Warriors count includes their Philadelphia era; the Pistons count includes their Fort Wayne era; the Kings count includes the Rochester Royals era (1951).",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-BOS",
+            "value": "18 titles"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-LAL",
+            "value": "17 titles"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-GSW",
+            "value": "7 titles"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-CHI",
+            "value": "6 titles"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-SAS",
+            "value": "5 titles"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-PHI",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-MIA",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-NYK",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-HOU",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-MIL",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-CLE",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-DAL",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-WAS",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-POR",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-finals-appearances-2024",
+      "current": {
+        "title": "Most NBA Finals appearances",
+        "prompt": "Name the NBA franchises with the most NBA Finals appearances (wins + losses).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts wins + losses in the NBA Finals. Franchise totals follow lineage through relocations and rebrands.",
+        "trivia": "The Lakers lead all franchises in Finals appearances (including the Minneapolis dynasty of the 1950s). The Warriors total includes their Philadelphia era, and the 76ers total includes the Syracuse Nationals era.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": "32 appearances"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-BOS",
+            "value": "23 appearances"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-GSW",
+            "value": "12 appearances"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-PHI",
+            "value": "9 appearances"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-NYK",
+            "value": "8 appearances"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "7 appearances (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-MIA",
+            "value": "7 appearances"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-CHI",
+            "value": "6 appearances"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-SAS",
+            "value": "6 appearances"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-CLE",
+            "value": "5 appearances"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-HOU",
+            "value": "4 appearances"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-OKC",
+            "value": "4 appearances"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-PHX",
+            "value": "3 appearances (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-DAL",
+            "value": "3 appearances"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-BKN",
+            "value": "2 appearances (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-conference-titles-2024",
+      "current": {
+        "title": "Most NBA conference titles",
+        "prompt": "Name the NBA franchises with the most Eastern/Western Conference titles (each conference title equals one Finals berth in the modern era).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Conference titles align 1:1 with Finals appearances since the modern conference format. Because this ranking will closely mirror the Finals-appearances list, treat it as a companion question.",
+        "trivia": "The Lakers and Celtics account for a huge share of all conference titles, thanks to their multi-decade dynastic runs.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": "32 conference titles"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-BOS",
+            "value": "23 conference titles"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-GSW",
+            "value": "12 conference titles"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-PHI",
+            "value": "9 conference titles"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-NYK",
+            "value": "8 conference titles"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-MIA",
+            "value": "7 conference titles"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "7 conference titles"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-CHI",
+            "value": "6 conference titles"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-SAS",
+            "value": "6 conference titles"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-CLE",
+            "value": "5 conference titles"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-HOU",
+            "value": "4 conference titles"
+          },
+          {
+            "rank": 11,
+            "code": "NBA-OKC",
+            "value": "4 conference titles"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-DAL",
+            "value": "3 conference titles"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-PHX",
+            "value": "3 conference titles"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-ORL",
+            "value": "2 conference titles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-nba-division-titles-2023",
+      "current": {
+        "title": "Most NBA division titles",
+        "prompt": "Name the NBA franchises with the most regular-season division championships.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Regular-season division championships. Franchise totals follow lineage through relocations and rebrands.",
+        "trivia": "The Spurs' 20+ division titles came in an especially concentrated 20-year window under Popovich. The Hawks count includes Tri-Cities/Milwaukee/St. Louis eras.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-LAL",
+            "value": "33 division titles"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-BOS",
+            "value": "32 division titles"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-SAS",
+            "value": "22 division titles"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-MIA",
+            "value": "16 division titles"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-PHI",
+            "value": "13 division titles"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "11 division titles"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-ATL",
+            "value": "11 division titles"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DEN",
+            "value": "11 division titles"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-CHI",
+            "value": "9 division titles"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-UTA",
+            "value": "9 division titles"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-OKC",
+            "value": "9 division titles"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-PHX",
+            "value": "7 division titles"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-HOU",
+            "value": "5 division titles"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-DAL",
+            "value": "5 division titles"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-POR",
+            "value": "5 division titles"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-hall-of-famers-per-franchise-2024",
+      "current": {
+        "title": "Most Hall of Famers per franchise",
+        "prompt": "Name the NBA franchises with the most Naismith Basketball Hall of Fame inductees (players who played for that team).",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts any Naismith Basketball Hall of Fame inductee who played for the franchise (not just plurality-of-career). Franchise totals follow lineage through relocations.",
+        "trivia": "The Warriors count includes their Philadelphia era. Long-standing franchises lead by wide margins because they've spent nearly every decade in title contention and drawn free-agent Hall of Famers late in their careers.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-BOS",
+            "value": "~40 Hall of Famers"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-LAL",
+            "value": "~30 Hall of Famers"
+          },
+          {
+            "rank": 3,
+            "code": "NBA-NYK",
+            "value": "~25 Hall of Famers"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-PHI",
+            "value": "~24 Hall of Famers"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-GSW",
+            "value": "~21 Hall of Famers"
+          },
+          {
+            "rank": 6,
+            "code": "NBA-DET",
+            "value": "~19 Hall of Famers"
+          },
+          {
+            "rank": 7,
+            "code": "NBA-ATL",
+            "value": "~17 Hall of Famers"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-CHI",
+            "value": "~15 Hall of Famers"
+          },
+          {
+            "rank": 9,
+            "code": "NBA-HOU",
+            "value": "~14 Hall of Famers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-SAS",
+            "value": "~12 Hall of Famers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-PHX",
+            "value": "~12 Hall of Famers"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-MIL",
+            "value": "~11 Hall of Famers"
+          },
+          {
+            "rank": 12,
+            "code": "NBA-WAS",
+            "value": "~11 Hall of Famers"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-POR",
+            "value": "~10 Hall of Famers"
+          },
+          {
+            "rank": 14,
+            "code": "NBA-SAC",
+            "value": "~10 Hall of Famers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "pro-sports-nba-most-retired-jersey-numbers-2024",
+      "current": {
+        "title": "Most retired jersey numbers",
+        "prompt": "Name the NBA franchises that have retired the most jersey numbers.",
+        "answerType": "US Big 4 Sports",
+        "theme": "US Big 4 Sports",
+        "subtheme": "Pro Sports - NBA",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Officially retired jersey numbers per franchise. Some tallies (notably Boston's 'LOSCY' banner honoring Loscutoff without retiring a number) are counted per the team's own listing.",
+        "trivia": "The Celtics have retired more numbers than any franchise in the NBA \u2014 a total that reflects their concentration of championships and Hall of Famers.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NBA-BOS",
+            "value": "24 retired numbers"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-LAL",
+            "value": "12 retired numbers"
+          },
+          {
+            "rank": 2,
+            "code": "NBA-SAC",
+            "value": "12 retired numbers"
+          },
+          {
+            "rank": 4,
+            "code": "NBA-POR",
+            "value": "11 retired numbers"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-NYK",
+            "value": "10 retired numbers"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-PHI",
+            "value": "10 retired numbers"
+          },
+          {
+            "rank": 5,
+            "code": "NBA-SAS",
+            "value": "10 retired numbers"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-DET",
+            "value": "9 retired numbers"
+          },
+          {
+            "rank": 8,
+            "code": "NBA-HOU",
+            "value": "9 retired numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-ATL",
+            "value": "8 retired numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-PHX",
+            "value": "8 retired numbers"
+          },
+          {
+            "rank": 10,
+            "code": "NBA-MIL",
+            "value": "8 retired numbers"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-GSW",
+            "value": "7 retired numbers"
+          },
+          {
+            "rank": 13,
+            "code": "NBA-UTA",
+            "value": "7 retired numbers"
+          },
+          {
+            "rank": 15,
+            "code": "NBA-CHI",
+            "value": "4 retired numbers"
+          }
+        ]
+      }
+    }
+  ]
+}

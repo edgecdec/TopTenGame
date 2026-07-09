@@ -1,0 +1,749 @@
+{
+  "cluster": "movies-04",
+  "questions": [
+    {
+      "id": "movies-awards-best-picture-winners-that-also-won-best-original-or-adapted-screen",
+      "current": {
+        "title": "Best Picture winners that also won Best Original or Adapted Screenplay",
+        "prompt": "Name Best Picture winners that also won the Oscar for Best Screenplay (Original or Adapted) at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Either Best Original Screenplay or Best Adapted Screenplay counts. This is a large pool \u2014 most Best Picture winners since 1990 have also taken home a screenplay Oscar.",
+        "trivia": "A Best Picture win without a screenplay win is increasingly rare in the modern era: Titanic (1997), Chicago (2002), Gladiator (2000), Braveheart (1995) and The Shape of Water (2017) are notable examples where the Academy honoured picture and craft but not the writing.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "it-happened-one-night-1934",
+            "value": "Adapted"
+          },
+          {
+            "rank": 2,
+            "code": "all-about-eve-1950",
+            "value": "Screenplay (Mankiewicz)"
+          },
+          {
+            "rank": 3,
+            "code": "on-the-waterfront-1954",
+            "value": "Original Story & Screenplay"
+          },
+          {
+            "rank": 4,
+            "code": "marty-1955",
+            "value": "Adapted (Chayefsky)"
+          },
+          {
+            "rank": 5,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "Adapted"
+          },
+          {
+            "rank": 6,
+            "code": "apartment-1960",
+            "value": "Original (Wilder & Diamond)"
+          },
+          {
+            "rank": 7,
+            "code": "patton-1970",
+            "value": "Original"
+          },
+          {
+            "rank": 8,
+            "code": "godfather-1972",
+            "value": "Adapted (Puzo & Coppola)"
+          },
+          {
+            "rank": 9,
+            "code": "godfather-part-ii-1974",
+            "value": "Adapted"
+          },
+          {
+            "rank": 10,
+            "code": "annie-hall-1977",
+            "value": "Original"
+          },
+          {
+            "rank": 11,
+            "code": "schindlers-list-1993",
+            "value": "Adapted (Zaillian)"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "Adapted (Coens)"
+          },
+          {
+            "rank": 13,
+            "code": "slumdog-millionaire-2008",
+            "value": "Adapted (Beaufoy)"
+          },
+          {
+            "rank": 14,
+            "code": "spotlight-2015",
+            "value": "Original"
+          },
+          {
+            "rank": 15,
+            "code": "parasite-2019",
+            "value": "Original (Bong & Han)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-a-best-original-score-win-2024",
+      "current": {
+        "title": "Best Picture winners with a Best Original Score win",
+        "prompt": "Name Best Picture winners that also took home the Oscar for Best Original Score (a.k.a. Music - Original Dramatic/Comedy Score) at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Score categories have been reorganised many times (Original Dramatic Score, Original Musical/Comedy Score, Song Score, etc.). Any 'Score' Oscar counts here as long as the same film also won Best Picture.",
+        "trivia": "John Williams has scored more Best Picture winners than he has scores that won the Oscar in the same year. Schindler's List (1993) is his only Best Picture winner where he also won the Score Oscar. Others \u2014 including The English Patient and Titanic \u2014 had non-Williams composers take the Score prize.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gone-with-the-wind-1939",
+            "value": "Max Steiner (1939)"
+          },
+          {
+            "rank": 2,
+            "code": "rebecca-1940",
+            "value": "Franz Waxman (1940)"
+          },
+          {
+            "rank": 3,
+            "code": "how-green-was-my-valley-1941",
+            "value": "Alfred Newman (1941)"
+          },
+          {
+            "rank": 4,
+            "code": "casablanca-1943",
+            "value": "Max Steiner (1943)"
+          },
+          {
+            "rank": 5,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "Malcolm Arnold (1957)"
+          },
+          {
+            "rank": 6,
+            "code": "west-side-story-1961",
+            "value": "Adaptation Score (1961)"
+          },
+          {
+            "rank": 7,
+            "code": "lawrence-of-arabia-1962",
+            "value": "Maurice Jarre (1962)"
+          },
+          {
+            "rank": 8,
+            "code": "sound-of-music-1965",
+            "value": "Adaptation Score (1965)"
+          },
+          {
+            "rank": 9,
+            "code": "godfather-part-ii-1974",
+            "value": "Nino Rota / Carmine Coppola (1974)"
+          },
+          {
+            "rank": 10,
+            "code": "amadeus-1984",
+            "value": "Adaptation Score (1984)"
+          },
+          {
+            "rank": 11,
+            "code": "schindlers-list-1993",
+            "value": "John Williams (1993)"
+          },
+          {
+            "rank": 12,
+            "code": "titanic-1997",
+            "value": "James Horner (1997)"
+          },
+          {
+            "rank": 13,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "Howard Shore (2003)"
+          },
+          {
+            "rank": 14,
+            "code": "slumdog-millionaire-2008",
+            "value": "A. R. Rahman (2008)"
+          },
+          {
+            "rank": 15,
+            "code": "artist-2011",
+            "value": "Ludovic Bource (2011)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-opening-weekend-us-domestic-among-best-picture-winners",
+      "current": {
+        "title": "Highest opening weekend (US domestic) among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest opening weekend US domestic box office (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Opening weekend (Fri-Sun) US/Canada domestic only, unadjusted. Older films had rolling/platform releases so no comparable figure exists; this list is limited to wide-release winners with reported opening weekends.",
+        "trivia": "Oppenheimer's $82M opening was helped by the 'Barbenheimer' phenomenon in July 2023. Titanic actually opened relatively modestly at $28M but had unprecedented word-of-mouth legs.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "$82.5M opening weekend"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$72.6M opening weekend"
+          },
+          {
+            "rank": 3,
+            "code": "gladiator-2000",
+            "value": "$34.8M opening weekend"
+          },
+          {
+            "rank": 4,
+            "code": "titanic-1997",
+            "value": "$28.6M opening weekend"
+          },
+          {
+            "rank": 5,
+            "code": "american-beauty-1999",
+            "value": "$26.9M opening weekend (wide)"
+          },
+          {
+            "rank": 5,
+            "code": "departed-2006",
+            "value": "$26.9M opening weekend"
+          },
+          {
+            "rank": 7,
+            "code": "chicago-2002",
+            "value": "$26.0M opening weekend (wide)"
+          },
+          {
+            "rank": 8,
+            "code": "forrest-gump-1994",
+            "value": "$24.5M opening weekend"
+          },
+          {
+            "rank": 9,
+            "code": "kings-speech-2010",
+            "value": "$22.9M opening weekend (wide)"
+          },
+          {
+            "rank": 10,
+            "code": "green-book-2018",
+            "value": "$19.5M opening weekend (wide)"
+          },
+          {
+            "rank": 10,
+            "code": "argo-2012",
+            "value": "$19.5M opening weekend"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "$18.1M opening weekend (wide)"
+          },
+          {
+            "rank": 13,
+            "code": "beautiful-mind-2001",
+            "value": "$16.6M opening weekend (wide)"
+          },
+          {
+            "rank": 14,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "$14.0M opening weekend (wide)"
+          },
+          {
+            "rank": 15,
+            "code": "braveheart-1995",
+            "value": "$9.9M opening weekend"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-domestic-us-box-office-among-best-picture-winners-unad",
+      "current": {
+        "title": "Highest domestic (US) box office among Best Picture winners (unadjusted)",
+        "prompt": "Name the Best Picture winners with the highest lifetime US domestic box office (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Domestic (US + Canada) lifetime gross, unadjusted for inflation. Includes original theatrical run and any re-releases.",
+        "trivia": "Titanic was the highest-grossing film ever domestically until Avatar, and it held the record for 12 years.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$674M domestic"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$378M domestic"
+          },
+          {
+            "rank": 3,
+            "code": "forrest-gump-1994",
+            "value": "$330M domestic"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$330M domestic"
+          },
+          {
+            "rank": 5,
+            "code": "gone-with-the-wind-1939",
+            "value": "$200M domestic (with re-releases)"
+          },
+          {
+            "rank": 6,
+            "code": "gladiator-2000",
+            "value": "$188M domestic"
+          },
+          {
+            "rank": 7,
+            "code": "dances-with-wolves-1990",
+            "value": "$184M domestic"
+          },
+          {
+            "rank": 8,
+            "code": "rain-man-1988",
+            "value": "$173M domestic"
+          },
+          {
+            "rank": 9,
+            "code": "chicago-2002",
+            "value": "$171M domestic"
+          },
+          {
+            "rank": 10,
+            "code": "sound-of-music-1965",
+            "value": "$163M domestic"
+          },
+          {
+            "rank": 11,
+            "code": "sting-1973",
+            "value": "$156M domestic"
+          },
+          {
+            "rank": 12,
+            "code": "godfather-1972",
+            "value": "$134M domestic"
+          },
+          {
+            "rank": 13,
+            "code": "departed-2006",
+            "value": "$132M domestic"
+          },
+          {
+            "rank": 14,
+            "code": "american-beauty-1999",
+            "value": "$130M domestic"
+          },
+          {
+            "rank": 15,
+            "code": "rocky-1976",
+            "value": "$117M domestic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-international-foreign-box-office-among-best-picture-wi",
+      "current": {
+        "title": "Highest international / foreign box office among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest international (non-US) box office gross.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "International = worldwide gross minus US/Canada domestic. Unadjusted for inflation. Older BP winners often lack reliable international tracking.",
+        "trivia": "Titanic's $1.58B international gross alone is more than double the entire worldwide gross of the next-biggest BP winner.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$1.58B international"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$774M international"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$644M international"
+          },
+          {
+            "rank": 4,
+            "code": "forrest-gump-1994",
+            "value": "$348M international"
+          },
+          {
+            "rank": 5,
+            "code": "kings-speech-2010",
+            "value": "$286M international"
+          },
+          {
+            "rank": 6,
+            "code": "gladiator-2000",
+            "value": "$272M international"
+          },
+          {
+            "rank": 7,
+            "code": "dances-with-wolves-1990",
+            "value": "$240M international"
+          },
+          {
+            "rank": 7,
+            "code": "rain-man-1988",
+            "value": "$240M international"
+          },
+          {
+            "rank": 9,
+            "code": "slumdog-millionaire-2008",
+            "value": "$237M international"
+          },
+          {
+            "rank": 9,
+            "code": "green-book-2018",
+            "value": "$237M international"
+          },
+          {
+            "rank": 11,
+            "code": "american-beauty-1999",
+            "value": "$226M international"
+          },
+          {
+            "rank": 12,
+            "code": "parasite-2019",
+            "value": "$204M international"
+          },
+          {
+            "rank": 13,
+            "code": "shakespeare-in-love-1998",
+            "value": "$189M international"
+          },
+          {
+            "rank": 14,
+            "code": "beautiful-mind-2001",
+            "value": "$146M international"
+          },
+          {
+            "rank": 15,
+            "code": "chicago-2002",
+            "value": "$136M international"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-lowest-domestic-box-office-among-modern-best-picture-winners-2",
+      "current": {
+        "title": "Lowest domestic box office among modern Best Picture winners",
+        "prompt": "Name the modern (post-2000) Best Picture winners with the LOWEST US domestic box office at the time of their Oscar win.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Domestic US/Canada gross accumulated up to Oscar night (excludes post-win bump). Restricted to Best Picture winners from 2000-present. Streaming-era winners had suppressed theatrical numbers.",
+        "trivia": "Nomadland (Hulu day-and-date) and CODA (Apple TV+) both had streaming-first releases that dramatically reduced their theatrical grosses. The Hurt Locker had earned only $17M domestic before winning Best Picture, making it the lowest-grossing traditional-release BP winner of the modern era.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "coda-2021",
+            "value": "$1.0M domestic (Apple TV+ release)"
+          },
+          {
+            "rank": 2,
+            "code": "nomadland-2020",
+            "value": "$3.7M domestic (COVID/Hulu release)"
+          },
+          {
+            "rank": 3,
+            "code": "hurt-locker-2009",
+            "value": "$17M domestic"
+          },
+          {
+            "rank": 4,
+            "code": "moonlight-2016",
+            "value": "$27.9M domestic"
+          },
+          {
+            "rank": 5,
+            "code": "birdman-2014",
+            "value": "$42.3M domestic"
+          },
+          {
+            "rank": 6,
+            "code": "artist-2011",
+            "value": "$44.7M domestic"
+          },
+          {
+            "rank": 7,
+            "code": "spotlight-2015",
+            "value": "$45M domestic"
+          },
+          {
+            "rank": 8,
+            "code": "parasite-2019",
+            "value": "$53.4M domestic"
+          },
+          {
+            "rank": 9,
+            "code": "crash-2005",
+            "value": "$54.6M domestic"
+          },
+          {
+            "rank": 10,
+            "code": "12-years-a-slave-2013",
+            "value": "$56.7M domestic"
+          },
+          {
+            "rank": 11,
+            "code": "shape-of-water-2017",
+            "value": "$63.9M domestic"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "$74.3M domestic"
+          },
+          {
+            "rank": 13,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "$77.2M domestic"
+          },
+          {
+            "rank": 14,
+            "code": "green-book-2018",
+            "value": "$85.1M domestic"
+          },
+          {
+            "rank": 15,
+            "code": "million-dollar-baby-2004",
+            "value": "$100M domestic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-production-budget-among-best-picture-winners-2024",
+      "current": {
+        "title": "Highest production budget among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the largest production budget (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Production budget only (excludes prints & advertising). Unadjusted for inflation. Reported budgets are often estimates; studios sometimes obscure true spend.",
+        "trivia": "Titanic's $200M budget was famously ridiculed as 'ship-wrecking' \u2014 it was the most expensive film ever made at the time, and it still returned over 11x its budget.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$200M budget"
+          },
+          {
+            "rank": 2,
+            "code": "gladiator-2000",
+            "value": "$103M budget"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$100M budget"
+          },
+          {
+            "rank": 4,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$94M budget (part of $281M trilogy)"
+          },
+          {
+            "rank": 5,
+            "code": "departed-2006",
+            "value": "$90M budget"
+          },
+          {
+            "rank": 6,
+            "code": "braveheart-1995",
+            "value": "$72M budget"
+          },
+          {
+            "rank": 7,
+            "code": "chicago-2002",
+            "value": "$45M budget"
+          },
+          {
+            "rank": 8,
+            "code": "argo-2012",
+            "value": "$44.5M budget"
+          },
+          {
+            "rank": 9,
+            "code": "english-patient-1996",
+            "value": "$27M budget"
+          },
+          {
+            "rank": 10,
+            "code": "last-emperor-1987",
+            "value": "$23.8M budget"
+          },
+          {
+            "rank": 11,
+            "code": "green-book-2018",
+            "value": "$23M budget"
+          },
+          {
+            "rank": 12,
+            "code": "dances-with-wolves-1990",
+            "value": "$22M budget"
+          },
+          {
+            "rank": 13,
+            "code": "ben-hur-1959",
+            "value": "$15.2M budget (~$160M adjusted)"
+          },
+          {
+            "rank": 14,
+            "code": "american-beauty-1999",
+            "value": "$15M budget"
+          },
+          {
+            "rank": 15,
+            "code": "gone-with-the-wind-1939",
+            "value": "$3.85M budget (~$85M adjusted)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-best-roi-return-on-investment-among-best-picture-winners-2024",
+      "current": {
+        "title": "Best ROI (return on investment) among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest return on investment (worldwide gross divided by production budget).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "ROI = worldwide box office gross / production budget. Excludes P&A, distribution, and home-video revenue. Very old films with tiny budgets and huge inflation-era grosses dominate.",
+        "trivia": "Rocky made 100x its budget \u2014 one of the greatest sleeper-hit ROIs in Oscar history. Marty was made for $340K and became a $2M-plus hit while winning Best Picture.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "rocky-1976",
+            "value": "~205x ROI ($1.1M budget \u2192 $225M worldwide)"
+          },
+          {
+            "rank": 2,
+            "code": "gone-with-the-wind-1939",
+            "value": "~104x ROI ($3.85M -> $402M)"
+          },
+          {
+            "rank": 3,
+            "code": "it-happened-one-night-1934",
+            "value": "~40x ROI ($325K -> ~$13M)"
+          },
+          {
+            "rank": 3,
+            "code": "godfather-1972",
+            "value": "~40x ROI ($6-7M -> $291M)"
+          },
+          {
+            "rank": 5,
+            "code": "marty-1955",
+            "value": "~35x ROI ($340K -> $12M)"
+          },
+          {
+            "rank": 5,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "~35x ROI ($4.4M -> $163M)"
+          },
+          {
+            "rank": 7,
+            "code": "sound-of-music-1965",
+            "value": "~34x ROI ($8.2M -> $286M)"
+          },
+          {
+            "rank": 8,
+            "code": "slumdog-millionaire-2008",
+            "value": "~25x ROI ($15M -> $378M)"
+          },
+          {
+            "rank": 9,
+            "code": "sting-1973",
+            "value": "~22x ROI ($5.5M -> $156M)"
+          },
+          {
+            "rank": 10,
+            "code": "titanic-1997",
+            "value": "~11.3x ROI ($200M -> $2.26B)"
+          },
+          {
+            "rank": 10,
+            "code": "forrest-gump-1994",
+            "value": "~11.3x ROI ($55M -> $678M)"
+          },
+          {
+            "rank": 12,
+            "code": "annie-hall-1977",
+            "value": "~10x ROI ($4M -> $39M)"
+          },
+          {
+            "rank": 13,
+            "code": "casablanca-1943",
+            "value": "~7x ROI ($1M -> $7M+)"
+          },
+          {
+            "rank": 13,
+            "code": "chariots-of-fire-1981",
+            "value": "~7x ROI ($5.5M -> $58M)"
+          },
+          {
+            "rank": 15,
+            "code": "west-side-story-1961",
+            "value": "~6x ROI ($6M -> $44M+)"
+          }
+        ]
+      }
+    }
+  ]
+}

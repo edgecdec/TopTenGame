@@ -1,0 +1,470 @@
+{
+  "cluster": "movies-05",
+  "questions": [
+    {
+      "id": "movies-box-office-most-weeks-at-1-on-the-us-domestic-box-office-chart-2024",
+      "current": {
+        "title": "Most weeks at #1 on the US domestic box office chart",
+        "prompt": "Name the Best Picture winners that spent the most weeks at #1 on the US weekend box office chart.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Number of weekends the film was #1 at the domestic box office. Weekend-tracking data before 1982 is spotty; older winners are estimated from Variety weekly reports.",
+        "trivia": "Titanic was #1 for a record 15 consecutive weekends \u2014 an unbroken run only Avatar has come close to matching.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "15 weeks at #1"
+          },
+          {
+            "rank": 2,
+            "code": "forrest-gump-1994",
+            "value": "10 weeks at #1"
+          },
+          {
+            "rank": 3,
+            "code": "rain-man-1988",
+            "value": "7 weeks at #1"
+          },
+          {
+            "rank": 4,
+            "code": "sting-1973",
+            "value": "5 weeks at #1"
+          },
+          {
+            "rank": 4,
+            "code": "godfather-1972",
+            "value": "5 weeks at #1"
+          },
+          {
+            "rank": 6,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "4 weeks at #1"
+          },
+          {
+            "rank": 6,
+            "code": "gladiator-2000",
+            "value": "4 weeks at #1"
+          },
+          {
+            "rank": 6,
+            "code": "kramer-vs-kramer-1979",
+            "value": "4 weeks at #1"
+          },
+          {
+            "rank": 6,
+            "code": "silence-of-the-lambs-1991",
+            "value": "4 weeks at #1"
+          },
+          {
+            "rank": 10,
+            "code": "dances-with-wolves-1990",
+            "value": "3 weeks at #1"
+          },
+          {
+            "rank": 10,
+            "code": "oppenheimer-2023",
+            "value": "3 weeks at #1"
+          },
+          {
+            "rank": 10,
+            "code": "rocky-1976",
+            "value": "3 weeks at #1"
+          },
+          {
+            "rank": 10,
+            "code": "driving-miss-daisy-1989",
+            "value": "3 weeks at #1"
+          },
+          {
+            "rank": 14,
+            "code": "american-beauty-1999",
+            "value": "2 weeks at #1"
+          },
+          {
+            "rank": 14,
+            "code": "chicago-2002",
+            "value": "2 weeks at #1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-metacritic-score-among-best-picture-winners-2024",
+      "current": {
+        "title": "Highest Metacritic score among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest Metacritic critic score (Metascore).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Critical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Metacritic Metascore is a weighted average of top critic reviews on a 100-point scale. Some older BP winners have too few Metacritic-tracked reviews to yield a fully reliable score.",
+        "trivia": "The Godfather Part II and Schindler's List share the very rare distinction of scoring 94 on Metacritic \u2014 putting them in the top handful of highest-rated films ever tracked by the site.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "godfather-1972",
+            "value": "100 Metascore"
+          },
+          {
+            "rank": 1,
+            "code": "casablanca-1943",
+            "value": "100 Metascore"
+          },
+          {
+            "rank": 1,
+            "code": "lawrence-of-arabia-1962",
+            "value": "100 Metascore"
+          },
+          {
+            "rank": 4,
+            "code": "moonlight-2016",
+            "value": "99 Metascore"
+          },
+          {
+            "rank": 5,
+            "code": "parasite-2019",
+            "value": "96 Metascore"
+          },
+          {
+            "rank": 5,
+            "code": "12-years-a-slave-2013",
+            "value": "96 Metascore"
+          },
+          {
+            "rank": 7,
+            "code": "schindlers-list-1993",
+            "value": "95 Metascore"
+          },
+          {
+            "rank": 7,
+            "code": "hurt-locker-2009",
+            "value": "95 Metascore"
+          },
+          {
+            "rank": 9,
+            "code": "spotlight-2015",
+            "value": "93 Metascore"
+          },
+          {
+            "rank": 9,
+            "code": "nomadland-2020",
+            "value": "93 Metascore"
+          },
+          {
+            "rank": 11,
+            "code": "no-country-for-old-men-2007",
+            "value": "91 Metascore"
+          },
+          {
+            "rank": 12,
+            "code": "godfather-part-ii-1974",
+            "value": "90 Metascore"
+          },
+          {
+            "rank": 13,
+            "code": "birdman-2014",
+            "value": "88 Metascore"
+          },
+          {
+            "rank": 14,
+            "code": "silence-of-the-lambs-1991",
+            "value": "85 Metascore"
+          },
+          {
+            "rank": 14,
+            "code": "departed-2006",
+            "value": "85 Metascore"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-highest-afi-top-100-ranking-2007",
+      "current": {
+        "title": "Best Picture winners with the highest AFI Top 100 ranking",
+        "prompt": "The AFI 100 Years... 100 Movies list ranks the 100 greatest American films (#1 = greatest). Name the Best Picture winners with the highest positions (i.e. lowest AFI rank numbers).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "The AFI list is based only on American films; foreign-language Best Picture winners like Parasite are excluded by AFI's criteria.",
+        "trivia": "The Godfather is #2 on the AFI Top 100 (only Citizen Kane ranks higher), and Part II at #32 is the highest sequel on the list.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "godfather-1972",
+            "value": "AFI #2"
+          },
+          {
+            "rank": 2,
+            "code": "casablanca-1943",
+            "value": "AFI #3"
+          },
+          {
+            "rank": 3,
+            "code": "gone-with-the-wind-1939",
+            "value": "AFI #6"
+          },
+          {
+            "rank": 4,
+            "code": "lawrence-of-arabia-1962",
+            "value": "AFI #7"
+          },
+          {
+            "rank": 5,
+            "code": "schindlers-list-1993",
+            "value": "AFI #8"
+          },
+          {
+            "rank": 6,
+            "code": "on-the-waterfront-1954",
+            "value": "AFI #19"
+          },
+          {
+            "rank": 7,
+            "code": "godfather-part-ii-1974",
+            "value": "AFI #32"
+          },
+          {
+            "rank": 8,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "AFI #33"
+          },
+          {
+            "rank": 9,
+            "code": "annie-hall-1977",
+            "value": "AFI #35"
+          },
+          {
+            "rank": 10,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "AFI #36"
+          },
+          {
+            "rank": 11,
+            "code": "sound-of-music-1965",
+            "value": "AFI #40"
+          },
+          {
+            "rank": 12,
+            "code": "west-side-story-1961",
+            "value": "AFI #51"
+          },
+          {
+            "rank": 13,
+            "code": "unforgiven-1992",
+            "value": "AFI #68"
+          },
+          {
+            "rank": 14,
+            "code": "forrest-gump-1994",
+            "value": "AFI #76"
+          },
+          {
+            "rank": 15,
+            "code": "titanic-1997",
+            "value": "AFI #83"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-youngest-lead-actor-2024",
+      "current": {
+        "title": "Best Picture winners with the youngest lead actor",
+        "prompt": "Name Best Picture winners whose lead (top-billed) actor or actress was youngest at the time of the film's release.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Age is calculated as of the film's US theatrical release date. 'Lead' refers to the top-billed actor or actress; ensemble films use the character considered the protagonist.",
+        "trivia": "Mark Lester was 9 when Oliver! was released, making him the youngest lead of any Best Picture winner. Titanic's Leonardo DiCaprio (22) and Kate Winslet (22) formed one of the youngest Best Picture leading pairs of the modern era.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oliver-1968",
+            "value": "Mark Lester \u2014 9"
+          },
+          {
+            "rank": 2,
+            "code": "slumdog-millionaire-2008",
+            "value": "Dev Patel \u2014 18"
+          },
+          {
+            "rank": 3,
+            "code": "titanic-1997",
+            "value": "Leonardo DiCaprio \u2014 22"
+          },
+          {
+            "rank": 4,
+            "code": "west-side-story-1961",
+            "value": "Natalie Wood \u2014 23"
+          },
+          {
+            "rank": 5,
+            "code": "moonlight-2016",
+            "value": "Trevante Rhodes \u2014 26"
+          },
+          {
+            "rank": 5,
+            "code": "birdman-2014",
+            "value": "Emma Stone \u2014 26 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "shakespeare-in-love-1998",
+            "value": "Gwyneth Paltrow \u2014 26 (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "sound-of-music-1965",
+            "value": "Julie Andrews \u2014 29"
+          },
+          {
+            "rank": 9,
+            "code": "million-dollar-baby-2004",
+            "value": "Hilary Swank \u2014 30"
+          },
+          {
+            "rank": 10,
+            "code": "chicago-2002",
+            "value": "Ren\u00e9e Zellweger \u2014 33"
+          },
+          {
+            "rank": 11,
+            "code": "12-years-a-slave-2013",
+            "value": "Chiwetel Ejiofor \u2014 36"
+          },
+          {
+            "rank": 12,
+            "code": "american-beauty-1999",
+            "value": "Kevin Spacey \u2014 40"
+          },
+          {
+            "rank": 13,
+            "code": "forrest-gump-1994",
+            "value": "Tom Hanks \u2014 38"
+          },
+          {
+            "rank": 14,
+            "code": "kings-speech-2010",
+            "value": "Colin Firth \u2014 50"
+          },
+          {
+            "rank": 15,
+            "code": "gladiator-2000",
+            "value": "Russell Crowe \u2014 36"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-oldest-lead-actor-2024",
+      "current": {
+        "title": "Best Picture winners with the oldest lead actor",
+        "prompt": "Name Best Picture winners whose lead (top-billed) actor or actress was oldest at the time of the film's release.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Age is calculated as of the film's US theatrical release date. 'Lead' refers to the top-billed acting nominee for the film, or the protagonist for ensembles.",
+        "trivia": "Jessica Tandy was 80 when Driving Miss Daisy was released \u2014 the oldest lead of any Best Picture winner. Anthony Hopkins won Best Actor at 83 for The Father, but that film lost Best Picture to Nomadland.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "driving-miss-daisy-1989",
+            "value": "Jessica Tandy \u2014 80"
+          },
+          {
+            "rank": 2,
+            "code": "million-dollar-baby-2004",
+            "value": "Clint Eastwood \u2014 74"
+          },
+          {
+            "rank": 3,
+            "code": "spotlight-2015",
+            "value": "Michael Keaton \u2014 64"
+          },
+          {
+            "rank": 4,
+            "code": "nomadland-2020",
+            "value": "Frances McDormand \u2014 63"
+          },
+          {
+            "rank": 4,
+            "code": "birdman-2014",
+            "value": "Michael Keaton \u2014 63 (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "unforgiven-1992",
+            "value": "Clint Eastwood \u2014 62"
+          },
+          {
+            "rank": 7,
+            "code": "no-country-for-old-men-2007",
+            "value": "Tommy Lee Jones \u2014 61"
+          },
+          {
+            "rank": 8,
+            "code": "green-book-2018",
+            "value": "Viggo Mortensen \u2014 60"
+          },
+          {
+            "rank": 9,
+            "code": "coda-2021",
+            "value": "Marlee Matlin \u2014 56"
+          },
+          {
+            "rank": 10,
+            "code": "oppenheimer-2023",
+            "value": "Cillian Murphy \u2014 47"
+          },
+          {
+            "rank": 11,
+            "code": "kings-speech-2010",
+            "value": "Colin Firth \u2014 50"
+          },
+          {
+            "rank": 12,
+            "code": "shape-of-water-2017",
+            "value": "Sally Hawkins \u2014 41"
+          },
+          {
+            "rank": 13,
+            "code": "argo-2012",
+            "value": "Ben Affleck \u2014 40"
+          },
+          {
+            "rank": 14,
+            "code": "american-beauty-1999",
+            "value": "Kevin Spacey \u2014 40"
+          },
+          {
+            "rank": 15,
+            "code": "gladiator-2000",
+            "value": "Russell Crowe \u2014 36"
+          }
+        ]
+      }
+    }
+  ]
+}

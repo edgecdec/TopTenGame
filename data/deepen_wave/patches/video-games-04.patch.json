@@ -1,0 +1,144 @@
+{
+  "cluster": "video-games-04",
+  "updates": [
+    {
+      "id": "video-games-awards-dice-awards-game-of-the-year-winners-2010s-2023-2011",
+      "changes": {
+        "title": "DICE Award for Game of the Year winners",
+        "prompt": "Name the games that have won Game of the Year at the Academy of Interactive Arts & Sciences' DICE Awards since the inaugural 1998 ceremony.",
+        "disclaimer": "The DICE Awards are voted on by working game-industry peers via the AIAS. Listed by ceremony year (chronological, earliest first). The award has been called various things over the years (Interactive Title of the Year, Overall Game of the Year, Game of the Year); the through-line is 'AIAS top prize'.",
+        "answers": [
+          { "rank": 1, "code": "goldeneye-007-1997", "value": "1998 ceremony (Rare / Nintendo)" },
+          { "rank": 2, "code": "legend-of-zelda-ocarina-of-time-1998", "value": "1999 ceremony (Nintendo EAD)" },
+          { "rank": 3, "code": "sims-2000", "value": "2000 ceremony (Maxis / EA)" },
+          { "rank": 4, "code": "diablo-ii-2000", "value": "2001 ceremony (Blizzard North)" },
+          { "rank": 5, "code": "halo-combat-evolved-2001", "value": "2002 ceremony (Bungie / Microsoft)" },
+          { "rank": 6, "code": "battlefield-1942-2002", "value": "2003 ceremony (DICE / EA)" },
+          { "rank": 7, "code": "call-of-duty-2003", "value": "2004 ceremony (Infinity Ward / Activision)" },
+          { "rank": 8, "code": "half-life-2-2004", "value": "2005 ceremony (Valve)" },
+          { "rank": 9, "code": "god-of-war-2005", "value": "2006 ceremony (SCE Santa Monica)" },
+          { "rank": 10, "code": "gears-of-war-2006", "value": "2007 ceremony (Epic Games / Microsoft)" },
+          { "rank": 11, "code": "call-of-duty-4-modern-warfare-2007", "value": "2008 ceremony (Infinity Ward / Activision)" },
+          { "rank": 12, "code": "littlebigplanet-2008", "value": "2009 ceremony (Media Molecule / SCE)" },
+          { "rank": 13, "code": "uncharted-2-among-thieves-2009", "value": "2010 ceremony (Naughty Dog / SCE)" },
+          { "rank": 14, "code": "mass-effect-2-2010", "value": "2011 ceremony (BioWare / EA)" },
+          { "rank": 15, "code": "elder-scrolls-v-skyrim-2011", "value": "2012 ceremony (Bethesda Game Studios)" },
+          { "rank": 16, "code": "journey-2012", "value": "2013 ceremony (thatgamecompany / SCE)" },
+          { "rank": 17, "code": "last-of-us-2013", "value": "2014 ceremony (Naughty Dog / SCE)" },
+          { "rank": 18, "code": "dragon-age-inquisition-2014", "value": "2015 ceremony (BioWare / EA)" },
+          { "rank": 19, "code": "fallout-4-2015", "value": "2016 ceremony (Bethesda Game Studios)" },
+          { "rank": 20, "code": "overwatch-2016", "value": "2017 ceremony (Blizzard Entertainment)" },
+          { "rank": 21, "code": "legend-of-zelda-breath-of-the-wild-2017", "value": "2018 ceremony (Nintendo EPD)" },
+          { "rank": 22, "code": "god-of-war-2018", "value": "2019 ceremony (Santa Monica Studio)" },
+          { "rank": 23, "code": "untitled-goose-game-2019", "value": "2020 ceremony (House House / Panic)" },
+          { "rank": 24, "code": "hades-2020", "value": "2021 ceremony (Supergiant Games)" },
+          { "rank": 25, "code": "it-takes-two-2021", "value": "2022 ceremony (Hazelight / EA)" },
+          { "rank": 26, "code": "elden-ring-2022", "value": "2023 ceremony (FromSoftware)" },
+          { "rank": 27, "code": "baldurs-gate-3-2023", "value": "2024 ceremony (Larian Studios)" },
+          { "rank": 28, "code": "astro-bot-2024", "value": "2025 ceremony (Team Asobi / SIE)" },
+          { "rank": 29, "code": "clair-obscur-expedition-33-2025", "value": "2026 ceremony (Sandfall / Kepler)" }
+        ],
+        "seededDepth": 29
+      }
+    },
+    {
+      "id": "video-games-sales-best-selling-console-only-games-2026",
+      "changes": {
+        "disclaimer": "Excludes titles with concurrent PC or mobile releases; sales rounded to nearest 0.1M copies. Pack-in bundle titles are included at their attach-rate totals per publisher IR reporting.",
+        "answers": [
+          { "rank": 1, "code": "wii-sports-2006", "value": "82.9M copies" },
+          { "rank": 2, "code": "mario-kart-8-2014", "value": "68.0M copies" },
+          { "rank": 3, "code": "super-mario-bros-1985", "value": "58.0M copies" },
+          { "rank": 4, "code": "animal-crossing-new-horizons-2020", "value": "47.5M copies" },
+          { "rank": 5, "code": "mario-kart-wii-2008", "value": "37.4M copies" },
+          { "rank": 6, "code": "super-smash-bros-ultimate-2018", "value": "36.2M copies" },
+          { "rank": 7, "code": "wii-sports-resort-2009", "value": "33.1M copies" },
+          { "rank": 8, "code": "legend-of-zelda-breath-of-the-wild-2017", "value": "32.9M copies" },
+          { "rank": 9, "code": "new-super-mario-bros-2006", "value": "30.8M copies" },
+          { "rank": 10, "code": "new-super-mario-bros-wii-2009", "value": "30.3M copies" },
+          { "rank": 11, "code": "duck-hunt-1984", "value": "28.3M copies" },
+          { "rank": 12, "code": "super-mario-odyssey-2017", "value": "28.0M copies" },
+          { "rank": 12, "code": "wii-play-2006", "value": "28.0M copies (tied)" },
+          { "rank": 14, "code": "pokemon-sword-and-shield-2019", "value": "26.4M copies" },
+          { "rank": 15, "code": "kinect-adventures-2010", "value": "24.0M copies" },
+          { "rank": 16, "code": "wii-fit-2007", "value": "22.7M copies" },
+          { "rank": 17, "code": "brain-age-2005", "value": "19.0M copies" },
+          { "rank": 18, "code": "pokemon-diamond-and-pearl-2006", "value": "17.7M copies" },
+          { "rank": 19, "code": "pokemon-sun-and-moon-2016", "value": "16.2M copies" },
+          { "rank": 20, "code": "gran-turismo-3-a-spec-2001", "value": "14.9M copies" },
+          { "rank": 21, "code": "super-smash-bros-brawl-2008", "value": "13.3M copies" },
+          { "rank": 22, "code": "super-mario-galaxy-2007", "value": "12.8M copies" },
+          { "rank": 23, "code": "super-mario-galaxy-2-2010", "value": "12.7M copies" },
+          { "rank": 24, "code": "halo-3-2007", "value": "12.1M copies" },
+          { "rank": 25, "code": "gran-turismo-4-2004", "value": "11.8M copies" },
+          { "rank": 26, "code": "gran-turismo-1997", "value": "10.9M copies" }
+        ],
+        "seededDepth": 26
+      }
+    },
+    {
+      "id": "video-games-critical-edge-magazine-10-10-club-2025",
+      "changes": {
+        "disclaimer": "Edge is legendary for hoarding its 10/10 reviews. Listed here in chronological order of the issue in which the review appeared. Value column is the review year.",
+        "answers": [
+          { "rank": 1, "code": "super-mario-64-1996", "value": "1996" },
+          { "rank": 2, "code": "gran-turismo-1997", "value": "1998" },
+          { "rank": 3, "code": "legend-of-zelda-ocarina-of-time-1998", "value": "1998 (tied)" },
+          { "rank": 4, "code": "halo-combat-evolved-2001", "value": "2001" },
+          { "rank": 5, "code": "half-life-2-2004", "value": "2004" },
+          { "rank": 6, "code": "super-mario-galaxy-2007", "value": "2007" },
+          { "rank": 6, "code": "bioshock-2007", "value": "2007 (tied)" },
+          { "rank": 8, "code": "grand-theft-auto-iv-2008", "value": "2008" },
+          { "rank": 9, "code": "super-mario-galaxy-2-2010", "value": "2010" },
+          { "rank": 9, "code": "red-dead-redemption-2010", "value": "2010 (tied)" },
+          { "rank": 11, "code": "dark-souls-2011", "value": "2011" },
+          { "rank": 12, "code": "grand-theft-auto-v-2013", "value": "2013" },
+          { "rank": 13, "code": "bloodborne-2015", "value": "2015" },
+          { "rank": 14, "code": "metal-gear-solid-v-the-phantom-pain-2015", "value": "2015 (tied)" },
+          { "rank": 15, "code": "legend-of-zelda-breath-of-the-wild-2017", "value": "2017" },
+          { "rank": 15, "code": "super-mario-odyssey-2017", "value": "2017 (tied)" },
+          { "rank": 17, "code": "red-dead-redemption-2-2018", "value": "2018" },
+          { "rank": 18, "code": "elden-ring-2022", "value": "2022" },
+          { "rank": 19, "code": "baldurs-gate-3-2023", "value": "2023" },
+          { "rank": 20, "code": "astro-bot-2024", "value": "2024" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "video-games-awards-bafta-games-award-for-best-game-winners-2004",
+      "changes": {
+        "prompt": "Name the games that have won the BAFTA Games Award for Best Game since the ceremony's early days.",
+        "disclaimer": "BAFTA Games Award for Best Game is voted on by BAFTA members. Listed here by ceremony year (chronological, earliest first). Some winners were relatively small indie titles reflecting BAFTA's more idiosyncratic taste vs the fan-voted awards.",
+        "answers": [
+          { "rank": 1, "code": "half-life-2-2004", "value": "2005 ceremony (Valve)" },
+          { "rank": 2, "code": "shadow-of-the-colossus-2005", "value": "2006 ceremony (Team Ico / SCE)" },
+          { "rank": 3, "code": "wii-sports-2006", "value": "2007 ceremony (Nintendo EAD)" },
+          { "rank": 4, "code": "portal-2007", "value": "2008 ceremony (Valve)" },
+          { "rank": 5, "code": "littlebigplanet-2008", "value": "2009 ceremony (Media Molecule / SCE)" },
+          { "rank": 6, "code": "batman-arkham-asylum-2009", "value": "2010 ceremony (Rocksteady / Eidos)" },
+          { "rank": 7, "code": "mass-effect-2-2010", "value": "2011 ceremony (BioWare / EA)" },
+          { "rank": 8, "code": "portal-2-2011", "value": "2012 ceremony (Valve)" },
+          { "rank": 9, "code": "dishonored-2012", "value": "2013 ceremony (Arkane / Bethesda)" },
+          { "rank": 10, "code": "last-of-us-2013", "value": "2014 ceremony (Naughty Dog)" },
+          { "rank": 11, "code": "destiny-2014", "value": "2015 ceremony (Bungie / Activision)" },
+          { "rank": 12, "code": "fallout-4-2015", "value": "2016 ceremony (Bethesda Game Studios)" },
+          { "rank": 13, "code": "uncharted-4-a-thiefs-end-2016", "value": "2017 ceremony (Naughty Dog)" },
+          { "rank": 14, "code": "what-remains-of-edith-finch-2017", "value": "2018 ceremony (Giant Sparrow / Annapurna)" },
+          { "rank": 15, "code": "god-of-war-2018", "value": "2019 ceremony (Santa Monica Studio)" },
+          { "rank": 16, "code": "outer-wilds-2019", "value": "2020 ceremony (Mobius Digital / Annapurna)" },
+          { "rank": 17, "code": "hades-2020", "value": "2021 ceremony (Supergiant Games)" },
+          { "rank": 18, "code": "returnal-2021", "value": "2022 ceremony (Housemarque / SIE)" },
+          { "rank": 19, "code": "vampire-survivors-2022", "value": "2023 ceremony (Poncle)" },
+          { "rank": 20, "code": "baldurs-gate-3-2023", "value": "2024 ceremony (Larian Studios)" },
+          { "rank": 21, "code": "astro-bot-2024", "value": "2025 ceremony (Team Asobi / SIE)" },
+          { "rank": 22, "code": "clair-obscur-expedition-33-2025", "value": "2026 ceremony (Sandfall / Kepler)" }
+        ],
+        "seededDepth": 22
+      }
+    }
+  ],
+  "deletions": [
+    "video-games-sales-best-selling-xbox-games-2026"
+  ]
+}

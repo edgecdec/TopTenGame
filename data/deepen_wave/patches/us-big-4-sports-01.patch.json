@@ -1,0 +1,185 @@
+{
+  "cluster": "us-big-4-sports-01",
+  "updates": [
+    {
+      "id": "pro-sports-cross-league-largest-average-home-attendance-per-game-across-us-pro-s",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NFL-DAL", "value": "93,594 avg / game" },
+          { "rank": 2, "code": "NFL-GB", "value": "78,733 avg / game" },
+          { "rank": 3, "code": "NFL-NYG", "value": "78,507 avg / game" },
+          { "rank": 4, "code": "NFL-NYJ", "value": "78,045 avg / game" },
+          { "rank": 5, "code": "NFL-DEN", "value": "76,701 avg / game" },
+          { "rank": 6, "code": "NFL-KC", "value": "76,416 avg / game" },
+          { "rank": 7, "code": "NFL-LAR", "value": "74,430 avg / game" },
+          { "rank": 8, "code": "NFL-CAR", "value": "72,708 avg / game" },
+          { "rank": 9, "code": "NFL-HOU", "value": "71,743 avg / game" },
+          { "rank": 10, "code": "NFL-SF", "value": "71,148 avg / game" },
+          { "rank": 11, "code": "NFL-ATL", "value": "71,104 avg / game" },
+          { "rank": 12, "code": "NFL-NO", "value": "71,100 avg / game" },
+          { "rank": 13, "code": "NFL-BAL", "value": "70,890 avg / game" },
+          { "rank": 14, "code": "NFL-BUF", "value": "70,004 avg / game" },
+          { "rank": 15, "code": "NFL-PHI", "value": "69,879 avg / game" },
+          { "rank": 16, "code": "NFL-TB", "value": "69,216 avg / game" },
+          { "rank": 17, "code": "NFL-SEA", "value": "68,899 avg / game" },
+          { "rank": 18, "code": "NFL-JAX", "value": "68,512 avg / game" },
+          { "rank": 19, "code": "NFL-TEN", "value": "66,937 avg / game" },
+          { "rank": 20, "code": "NFL-CLE", "value": "66,932 avg / game" },
+          { "rank": 21, "code": "NFL-PIT", "value": "66,900 avg / game" },
+          { "rank": 22, "code": "NFL-MIN", "value": "66,894 avg / game" },
+          { "rank": 23, "code": "NFL-CIN", "value": "66,022 avg / game" },
+          { "rank": 24, "code": "NFL-NE", "value": "65,878 avg / game" },
+          { "rank": 25, "code": "NFL-WAS", "value": "65,712 avg / game" },
+          { "rank": 26, "code": "NFL-MIA", "value": "65,166 avg / game" },
+          { "rank": 27, "code": "NFL-DET", "value": "63,970 avg / game" },
+          { "rank": 28, "code": "NFL-IND", "value": "63,156 avg / game" },
+          { "rank": 29, "code": "NFL-ARI", "value": "62,961 avg / game" },
+          { "rank": 30, "code": "NFL-LV", "value": "62,026 avg / game" },
+          { "rank": 31, "code": "NFL-CHI", "value": "61,833 avg / game" },
+          { "rank": 32, "code": "MLB-LAD", "value": "47,371 avg / game" },
+          { "rank": 33, "code": "MLB-STL", "value": "40,013 avg / game" },
+          { "rank": 34, "code": "MLB-NYY", "value": "40,006 avg / game" },
+          { "rank": 35, "code": "MLB-SD", "value": "39,893 avg / game" }
+        ],
+        "seededDepth": 35
+      }
+    },
+    {
+      "id": "pro-sports-cross-league-most-retired-jersey-numbers-across-all-us-pro-sports-202",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NBA-BOS", "value": "24 retired numbers" },
+          { "rank": 2, "code": "MLB-NYY", "value": "22 retired numbers" },
+          { "rank": 3, "code": "NHL-MTL", "value": "18 retired numbers" },
+          { "rank": 4, "code": "MLB-STL", "value": "14 retired numbers" },
+          { "rank": 4, "code": "NFL-CHI", "value": "14 retired numbers (tied)" },
+          { "rank": 6, "code": "NBA-NYK", "value": "12 retired numbers" },
+          { "rank": 6, "code": "NBA-LAL", "value": "12 retired numbers (tied)" },
+          { "rank": 6, "code": "NHL-BOS", "value": "12 retired numbers (tied)" },
+          { "rank": 6, "code": "MLB-LAD", "value": "12 retired numbers (tied)" },
+          { "rank": 10, "code": "MLB-CIN", "value": "11 retired numbers" },
+          { "rank": 10, "code": "NBA-SAS", "value": "11 retired numbers (tied)" },
+          { "rank": 12, "code": "NBA-PHI", "value": "10 retired numbers" },
+          { "rank": 12, "code": "NHL-DET", "value": "10 retired numbers (tied)" },
+          { "rank": 12, "code": "MLB-CHC", "value": "10 retired numbers (tied)" },
+          { "rank": 15, "code": "NBA-PHX", "value": "9 retired numbers" },
+          { "rank": 15, "code": "NBA-SAC", "value": "9 retired numbers (tied)" },
+          { "rank": 15, "code": "NHL-NYR", "value": "9 retired numbers (tied)" },
+          { "rank": 15, "code": "MLB-CWS", "value": "9 retired numbers (tied)" },
+          { "rank": 19, "code": "NBA-DET", "value": "8 retired numbers" },
+          { "rank": 19, "code": "NBA-ATL", "value": "8 retired numbers (tied)" },
+          { "rank": 19, "code": "NBA-POR", "value": "8 retired numbers (tied)" },
+          { "rank": 19, "code": "NHL-CHI", "value": "8 retired numbers (tied)" },
+          { "rank": 19, "code": "NHL-TOR", "value": "8 retired numbers (tied)" },
+          { "rank": 19, "code": "MLB-BOS", "value": "8 retired numbers (tied)" },
+          { "rank": 19, "code": "MLB-DET", "value": "8 retired numbers (tied)" },
+          { "rank": 19, "code": "MLB-PIT", "value": "8 retired numbers (tied)" },
+          { "rank": 27, "code": "NBA-MIL", "value": "7 retired numbers" },
+          { "rank": 27, "code": "NHL-PHI", "value": "7 retired numbers (tied)" },
+          { "rank": 27, "code": "MLB-SF", "value": "7 retired numbers (tied)" },
+          { "rank": 27, "code": "MLB-BAL", "value": "7 retired numbers (tied)" }
+        ],
+        "seededDepth": 30
+      }
+    },
+    {
+      "id": "pro-sports-mlb-most-hall-of-famers-mlb-by-primary-team-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "MLB-NYY", "value": "27 HOFers" },
+          { "rank": 2, "code": "MLB-SF", "value": "24 HOFers" },
+          { "rank": 3, "code": "MLB-LAD", "value": "20 HOFers" },
+          { "rank": 4, "code": "MLB-CHC", "value": "17 HOFers" },
+          { "rank": 4, "code": "MLB-STL", "value": "17 HOFers (tied)" },
+          { "rank": 6, "code": "MLB-OAK", "value": "16 HOFers" },
+          { "rank": 7, "code": "MLB-ATL", "value": "15 HOFers" },
+          { "rank": 8, "code": "MLB-PIT", "value": "14 HOFers" },
+          { "rank": 9, "code": "MLB-BOS", "value": "12 HOFers" },
+          { "rank": 10, "code": "MLB-DET", "value": "11 HOFers" },
+          { "rank": 11, "code": "MLB-CIN", "value": "10 HOFers" },
+          { "rank": 11, "code": "MLB-CLE", "value": "10 HOFers (tied)" },
+          { "rank": 13, "code": "MLB-PHI", "value": "9 HOFers" },
+          { "rank": 14, "code": "MLB-BAL", "value": "8 HOFers" },
+          { "rank": 14, "code": "MLB-CWS", "value": "8 HOFers (tied)" },
+          { "rank": 16, "code": "MLB-MIN", "value": "6 HOFers" },
+          { "rank": 17, "code": "MLB-TEX", "value": "3 HOFers" },
+          { "rank": 17, "code": "MLB-KC", "value": "3 HOFers (tied)" },
+          { "rank": 19, "code": "MLB-HOU", "value": "2 HOFers" },
+          { "rank": 19, "code": "MLB-NYM", "value": "2 HOFers (tied)" },
+          { "rank": 19, "code": "MLB-MIL", "value": "2 HOFers (tied)" },
+          { "rank": 19, "code": "MLB-SD", "value": "2 HOFers (tied)" },
+          { "rank": 19, "code": "MLB-TOR", "value": "2 HOFers (tied)" }
+        ],
+        "seededDepth": 23
+      }
+    },
+    {
+      "id": "pro-sports-mlb-most-valuable-mlb-franchises-forbes-2024-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "MLB-NYY", "value": "$7.55B" },
+          { "rank": 2, "code": "MLB-LAD", "value": "$5.45B" },
+          { "rank": 3, "code": "MLB-BOS", "value": "$4.8B" },
+          { "rank": 4, "code": "MLB-CHC", "value": "$4.6B" },
+          { "rank": 5, "code": "MLB-SF", "value": "$4.1B" },
+          { "rank": 6, "code": "MLB-NYM", "value": "$2.9B" },
+          { "rank": 7, "code": "MLB-PHI", "value": "$2.75B" },
+          { "rank": 7, "code": "MLB-ATL", "value": "$2.75B (tied)" },
+          { "rank": 9, "code": "MLB-STL", "value": "$2.55B" },
+          { "rank": 10, "code": "MLB-TOR", "value": "$2.5B" },
+          { "rank": 11, "code": "MLB-TEX", "value": "$2.45B" },
+          { "rank": 12, "code": "MLB-HOU", "value": "$2.4B" },
+          { "rank": 13, "code": "MLB-LAA", "value": "$2.35B" },
+          { "rank": 14, "code": "MLB-SEA", "value": "$2.2B" },
+          { "rank": 15, "code": "MLB-SD", "value": "$2.1B" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "pro-sports-mlb-oldest-mlb-franchises-founding-year-2024",
+      "changes": {
+        "prompt": "Name the MLB franchises with the earliest founding year (oldest continuously operating clubs).",
+        "disclaimer": "Earliest continuous franchise founding year (following lineage through relocations). NL clubs founded 1876-1883 dominate the top of the list. Ties are broken alphabetically by team code where founding years match.",
+        "answers": [
+          { "rank": 1, "code": "MLB-ATL", "value": "1871 (founded)" },
+          { "rank": 2, "code": "MLB-CHC", "value": "1876 (founded)" },
+          { "rank": 3, "code": "MLB-CIN", "value": "1882 (founded)" },
+          { "rank": 3, "code": "MLB-PIT", "value": "1882 (founded) (tied)" },
+          { "rank": 3, "code": "MLB-STL", "value": "1882 (founded) (tied)" },
+          { "rank": 6, "code": "MLB-PHI", "value": "1883 (founded)" },
+          { "rank": 6, "code": "MLB-SF", "value": "1883 (founded) (tied)" },
+          { "rank": 8, "code": "MLB-LAD", "value": "1884 (founded)" },
+          { "rank": 9, "code": "MLB-CLE", "value": "1894 (founded)" },
+          { "rank": 10, "code": "MLB-BAL", "value": "1901 (founded)" },
+          { "rank": 10, "code": "MLB-BOS", "value": "1901 (founded) (tied)" },
+          { "rank": 10, "code": "MLB-CWS", "value": "1901 (founded) (tied)" },
+          { "rank": 10, "code": "MLB-DET", "value": "1901 (founded) (tied)" },
+          { "rank": 10, "code": "MLB-MIN", "value": "1901 (founded) (tied)" },
+          { "rank": 10, "code": "MLB-NYY", "value": "1901 (founded) (tied)" },
+          { "rank": 10, "code": "MLB-OAK", "value": "1901 (founded) (tied)" },
+          { "rank": 17, "code": "MLB-TEX", "value": "1961 (founded)" },
+          { "rank": 17, "code": "MLB-LAA", "value": "1961 (founded) (tied)" },
+          { "rank": 19, "code": "MLB-HOU", "value": "1962 (founded)" },
+          { "rank": 19, "code": "MLB-NYM", "value": "1962 (founded) (tied)" },
+          { "rank": 21, "code": "MLB-KC", "value": "1969 (founded)" },
+          { "rank": 21, "code": "MLB-MIL", "value": "1969 (founded) (tied)" },
+          { "rank": 21, "code": "MLB-SD", "value": "1969 (founded) (tied)" },
+          { "rank": 21, "code": "MLB-WAS", "value": "1969 (founded) (tied)" },
+          { "rank": 25, "code": "MLB-SEA", "value": "1977 (founded)" },
+          { "rank": 25, "code": "MLB-TOR", "value": "1977 (founded) (tied)" },
+          { "rank": 27, "code": "MLB-COL", "value": "1993 (founded)" },
+          { "rank": 27, "code": "MLB-MIA", "value": "1993 (founded) (tied)" },
+          { "rank": 29, "code": "MLB-ARI", "value": "1998 (founded)" },
+          { "rank": 29, "code": "MLB-TB", "value": "1998 (founded) (tied)" }
+        ],
+        "seededDepth": 30
+      }
+    }
+  ],
+  "deletions": [
+    "pro-sports-cross-league-largest-social-media-following-cross-league-2024",
+    "pro-sports-cross-league-longest-current-championship-drought-cross-league-capped",
+    "pro-sports-cross-league-most-mvp-awards-to-players-aggregated-by-team-across-the"
+  ]
+}

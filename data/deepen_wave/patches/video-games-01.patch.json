@@ -1,0 +1,35 @@
+{
+  "cluster": "video-games-01",
+  "updates": [
+    {
+      "id": "video-games-franchise-best-selling-video-game-franchises-of-all-time-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "mario", "value": "~830M units" },
+          { "rank": 2, "code": "call-of-duty", "value": "~500M units" },
+          { "rank": 3, "code": "pokemon", "value": "~480M units" },
+          { "rank": 4, "code": "grand-theft-auto", "value": "~420M units" },
+          { "rank": 5, "code": "fifa", "value": "~325M units" },
+          { "rank": 6, "code": "minecraft", "value": "~300M units" },
+          { "rank": 7, "code": "sims", "value": "~200M units" },
+          { "rank": 7, "code": "assassins-creed", "value": "~200M units (tied)" },
+          { "rank": 9, "code": "final-fantasy", "value": "~185M units" },
+          { "rank": 10, "code": "resident-evil", "value": "~157M units" },
+          { "rank": 11, "code": "sonic", "value": "~155M units" },
+          { "rank": 12, "code": "need-for-speed", "value": "~150M units" },
+          { "rank": 13, "code": "madden-nfl", "value": "~130M units" },
+          { "rank": 14, "code": "tomb-raider", "value": "~95M units" },
+          { "rank": 15, "code": "wii-sports", "value": "~83M units" },
+          { "rank": 16, "code": "mortal-kombat", "value": "~80M units" },
+          { "rank": 17, "code": "tekken", "value": "~60M units" },
+          { "rank": 18, "code": "street-fighter", "value": "~55M units" }
+        ],
+        "seededDepth": 18
+      }
+    }
+  ],
+  "deletions": [
+    "video-games-franchise-video-game-franchises-with-the-most-film-tv-adaptations-20",
+    "video-games-sales-best-selling-mobile-games-of-all-time-2026"
+  ]
+}

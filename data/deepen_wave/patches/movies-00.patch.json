@@ -1,0 +1,83 @@
+{
+  "cluster": "movies-00",
+  "updates": [
+    {
+      "id": "movies-awards-best-picture-winners-with-zero-acting-nominations-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "wings-1927", "value": "0 acting noms" },
+          { "rank": 1, "code": "all-quiet-on-the-western-front-1930", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "grand-hotel-1932", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "cavalcade-1933", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "american-in-paris-1951", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "around-the-world-in-80-days-1956", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "gigi-1958", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "last-emperor-1987", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "braveheart-1995", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "0 acting noms (tied)" },
+          { "rank": 1, "code": "slumdog-millionaire-2008", "value": "0 acting noms (tied)" }
+        ],
+        "seededDepth": 11
+      }
+    },
+    {
+      "id": "movies-nominees-highest-imdb-rating-among-best-picture-nominees-that-did-not-win",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "shawshank-redemption-1994", "value": "9.3 / 10" },
+          { "rank": 2, "code": "12-angry-men-1957", "value": "9.0 / 10" },
+          { "rank": 3, "code": "pulp-fiction-1994", "value": "8.9 / 10" },
+          { "rank": 3, "code": "lord-of-the-rings-fellowship-of-the-ring-2001", "value": "8.9 / 10 (tied)" },
+          { "rank": 5, "code": "inception-2010", "value": "8.8 / 10" },
+          { "rank": 5, "code": "lord-of-the-rings-two-towers-2002", "value": "8.8 / 10 (tied)" },
+          { "rank": 7, "code": "goodfellas-1990", "value": "8.7 / 10" },
+          { "rank": 8, "code": "star-wars-1977", "value": "8.6 / 10" },
+          { "rank": 8, "code": "saving-private-ryan-1998", "value": "8.6 / 10 (tied)" },
+          { "rank": 10, "code": "whiplash-2014", "value": "8.5 / 10" },
+          { "rank": 11, "code": "raiders-of-the-lost-ark-1981", "value": "8.4 / 10" },
+          { "rank": 11, "code": "apocalypse-now-1979", "value": "8.4 / 10 (tied)" },
+          { "rank": 11, "code": "dr-strangelove-1964", "value": "8.4 / 10 (tied)" },
+          { "rank": 14, "code": "citizen-kane-1941", "value": "8.3 / 10" },
+          { "rank": 15, "code": "taxi-driver-1976", "value": "8.2 / 10" }
+        ],
+        "seededDepth": 15,
+        "source_name": "IMDb — user ratings",
+        "source_url": "https://www.imdb.com/chart/top/",
+        "source_as_of": "2025"
+      }
+    },
+    {
+      "id": "movies-nominees-highest-rotten-tomatoes-score-among-best-picture-nominees-that-d",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "12-angry-men-1957", "value": "100%" },
+          { "rank": 2, "code": "citizen-kane-1941", "value": "99%" },
+          { "rank": 2, "code": "lady-bird-2017", "value": "99% (tied)" },
+          { "rank": 4, "code": "toy-story-3-2010", "value": "98%" },
+          { "rank": 4, "code": "get-out-2017", "value": "98% (tied)" },
+          { "rank": 4, "code": "up-2009", "value": "98% (tied)" },
+          { "rank": 4, "code": "wizard-of-oz-1939", "value": "98% (tied)" },
+          { "rank": 8, "code": "boyhood-2014", "value": "97%" },
+          { "rank": 9, "code": "roma-2018", "value": "96%" },
+          { "rank": 9, "code": "black-panther-2018", "value": "96% (tied)" },
+          { "rank": 11, "code": "little-women-2019", "value": "95%" },
+          { "rank": 11, "code": "marriage-story-2019", "value": "95% (tied)" },
+          { "rank": 13, "code": "pulp-fiction-1994", "value": "92%" },
+          { "rank": 13, "code": "grand-budapest-hotel-2014", "value": "92% (tied)" },
+          { "rank": 15, "code": "la-la-land-2016", "value": "91%" }
+        ],
+        "seededDepth": 15,
+        "source_name": "Rotten Tomatoes — Tomatometer",
+        "source_url": "https://www.rottentomatoes.com/",
+        "source_as_of": "2025"
+      }
+    }
+  ],
+  "deletions": [
+    "movies-nominees-films-that-lost-best-picture-to-titanic-1997-2025",
+    "movies-talent-best-picture-winners-produced-by-harvey-weinstein-miramax-2024",
+    "movies-nominees-horror-films-nominated-for-best-picture-2025",
+    "movies-awards-best-picture-winners-with-the-biggest-franchise-gross-2024",
+    "movies-awards-best-picture-winners-set-in-the-1970s-2024"
+  ]
+}

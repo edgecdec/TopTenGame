@@ -1,0 +1,729 @@
+{
+  "cluster": "european-soccer-clubs-02",
+  "questions": [
+    {
+      "id": "european-soccer-serie-a-most-serie-a-titles-scudetti-all-time-2024",
+      "current": {
+        "title": "Most Serie A titles (Scudetti) all-time",
+        "prompt": "Name the Italian clubs with the most Serie A championship titles (Scudetti) all-time.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Serie A",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Uses official FIGC counts. Two titles (2004-05, 2005-06) were revoked following the Calciopoli scandal \u2014 the 2005-06 was re-awarded and the 2004-05 was left vacated; the club stripped disputes this. Includes pre-1929 Prima Categoria/Prima Divisione national championships.",
+        "trivia": "Juventus won nine consecutive titles from 2011-12 through 2019-20 \u2014 a Serie A record. Torino's 1948-49 title was awarded after the Superga air disaster that killed the entire squad.",
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "SEA-JUV",
+            "value": "34 titles"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-INT",
+            "value": "20 titles"
+          },
+          {
+            "rank": 3,
+            "code": "SEA-MIL",
+            "value": "19 titles"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-GEN",
+            "value": "9 titles"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-BOL",
+            "value": "7 titles"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-TOR",
+            "value": "7 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "SEA-NAP",
+            "value": "4 titles"
+          },
+          {
+            "rank": 8,
+            "code": "SEA-ROM",
+            "value": "3 titles"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-FIO",
+            "value": "2 titles"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-LAZ",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-CAG",
+            "value": "1 title"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-HVR",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-SMP",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-la-liga-most-all-time-la-liga-points-2026",
+      "current": {
+        "title": "Most all-time La Liga points",
+        "prompt": "Name the clubs that have accumulated the most points in La Liga (Primera Divisi\u00f3n) history.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - La Liga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Uses the standard 3-points-for-a-win system retroactively applied to seasons before 1995-96 (when La Liga still awarded 2 points for a win).",
+        "trivia": "Barcelona have scored more all-time La Liga goals than Real Madrid (6,674 to 6,638) but Real Madrid still leads the historic points table thanks to a better win-to-draw ratio.",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-RM",
+            "value": "5,129 pts"
+          },
+          {
+            "rank": 2,
+            "code": "LAL-BAR",
+            "value": "5,031 pts"
+          },
+          {
+            "rank": 3,
+            "code": "LAL-ATM",
+            "value": "4,122 pts"
+          },
+          {
+            "rank": 4,
+            "code": "LAL-ATH",
+            "value": "3,850 pts"
+          },
+          {
+            "rank": 4,
+            "code": "LAL-VAL",
+            "value": "3,850 pts (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "LAL-SEV",
+            "value": "3,327 pts"
+          },
+          {
+            "rank": 7,
+            "code": "LAL-ESP",
+            "value": "3,086 pts"
+          },
+          {
+            "rank": 8,
+            "code": "LAL-RS",
+            "value": "3,075 pts"
+          },
+          {
+            "rank": 9,
+            "code": "LAL-BET",
+            "value": "2,399 pts"
+          },
+          {
+            "rank": 10,
+            "code": "LAL-CEL",
+            "value": "2,208 pts"
+          },
+          {
+            "rank": 11,
+            "code": "LAL-ZAR",
+            "value": "2,109 pts"
+          },
+          {
+            "rank": 12,
+            "code": "LAL-DEP",
+            "value": "1,843 pts"
+          },
+          {
+            "rank": 13,
+            "code": "LAL-OSA",
+            "value": "1,683 pts"
+          },
+          {
+            "rank": 14,
+            "code": "LAL-VLD",
+            "value": "1,641 pts"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-la-liga-most-all-time-la-liga-goals-scored-2026",
+      "current": {
+        "title": "Most all-time La Liga goals scored",
+        "prompt": "Name the clubs that have scored the most goals in La Liga (Primera Divisi\u00f3n) history.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - La Liga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Cumulative goals scored in regular-season top-flight matches only. Cup, playoff and European goals are not included.",
+        "trivia": "Barcelona (+3,242) has a better all-time goal difference than Real Madrid (+3,189) despite having scored only 36 more goals \u2014 the gap comes from conceding 17 fewer.",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-BAR",
+            "value": "6,674 goals"
+          },
+          {
+            "rank": 2,
+            "code": "LAL-RM",
+            "value": "6,638 goals"
+          },
+          {
+            "rank": 3,
+            "code": "LAL-ATM",
+            "value": "5,100 goals"
+          },
+          {
+            "rank": 4,
+            "code": "LAL-ATH",
+            "value": "5,048 goals"
+          },
+          {
+            "rank": 5,
+            "code": "LAL-VAL",
+            "value": "4,830 goals"
+          },
+          {
+            "rank": 6,
+            "code": "LAL-SEV",
+            "value": "4,134 goals"
+          },
+          {
+            "rank": 7,
+            "code": "LAL-ESP",
+            "value": "3,877 goals"
+          },
+          {
+            "rank": 8,
+            "code": "LAL-RS",
+            "value": "3,690 goals"
+          },
+          {
+            "rank": 9,
+            "code": "LAL-CEL",
+            "value": "2,726 goals"
+          },
+          {
+            "rank": 10,
+            "code": "LAL-ZAR",
+            "value": "2,683 goals"
+          },
+          {
+            "rank": 11,
+            "code": "LAL-BET",
+            "value": "2,636 goals"
+          },
+          {
+            "rank": 12,
+            "code": "LAL-DEP",
+            "value": "2,090 goals"
+          },
+          {
+            "rank": 13,
+            "code": "LAL-VLD",
+            "value": "1,922 goals"
+          },
+          {
+            "rank": 14,
+            "code": "LAL-OSA",
+            "value": "1,791 goals"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-most-bundesliga-seasons-played-2024",
+      "current": {
+        "title": "Most Bundesliga seasons played",
+        "prompt": "Name the clubs that have played the most seasons in the top-flight Bundesliga since 1963-64.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Bundesliga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Includes only top-flight Bundesliga seasons. Ties broken alphabetically.",
+        "trivia": "Hamburger SV held the record for most consecutive Bundesliga seasons (55) until relegation in 2018; a clock inside their stadium had counted every second of that top-flight streak.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BUN-BAY",
+            "value": "61 seasons"
+          },
+          {
+            "rank": 2,
+            "code": "BUN-BRE",
+            "value": "60 seasons"
+          },
+          {
+            "rank": 3,
+            "code": "BUN-HAM",
+            "value": "55 seasons"
+          },
+          {
+            "rank": 4,
+            "code": "BUN-VFB",
+            "value": "53 seasons"
+          },
+          {
+            "rank": 5,
+            "code": "BUN-BVB",
+            "value": "52 seasons"
+          },
+          {
+            "rank": 6,
+            "code": "BUN-BMG",
+            "value": "51 seasons"
+          },
+          {
+            "rank": 7,
+            "code": "BUN-SCH",
+            "value": "50 seasons"
+          },
+          {
+            "rank": 8,
+            "code": "BUN-SGE",
+            "value": "49 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "BUN-KOL",
+            "value": "47 seasons"
+          },
+          {
+            "rank": 10,
+            "code": "BUN-BER",
+            "value": "46 seasons"
+          },
+          {
+            "rank": 11,
+            "code": "BUN-HER",
+            "value": "38 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "BUN-BOC",
+            "value": "36 seasons"
+          },
+          {
+            "rank": 13,
+            "code": "BUN-KAI",
+            "value": "34 seasons"
+          },
+          {
+            "rank": 14,
+            "code": "BUN-N90",
+            "value": "34 seasons (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "BUN-WOB",
+            "value": "28 seasons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-fa-community-shield-titles-2024",
+      "current": {
+        "title": "Most FA Community Shield titles",
+        "prompt": "Name the English clubs with the most FA Community Shield (formerly Charity Shield) titles.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Premier League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Includes both outright wins and shared trophies (pre-1993, when drawn matches produced shared shields).",
+        "trivia": "The Community Shield was known as the FA Charity Shield until 2002, when it was rebranded for charity fundraising transparency.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "EPL-MUN",
+            "value": "21 titles"
+          },
+          {
+            "rank": 2,
+            "code": "EPL-ARS",
+            "value": "17 titles"
+          },
+          {
+            "rank": 3,
+            "code": "EPL-LIV",
+            "value": "16 titles"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-EVE",
+            "value": "9 titles"
+          },
+          {
+            "rank": 5,
+            "code": "EPL-MCI",
+            "value": "7 titles"
+          },
+          {
+            "rank": 5,
+            "code": "EPL-TOT",
+            "value": "7 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "EPL-CHE",
+            "value": "5 titles"
+          },
+          {
+            "rank": 8,
+            "code": "EPL-WOL",
+            "value": "4 titles"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-NFO",
+            "value": "3 titles"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-WBA",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "EPL-LEE",
+            "value": "2 titles"
+          },
+          {
+            "rank": 11,
+            "code": "EPL-BUR",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "EPL-NEW",
+            "value": "1 title"
+          },
+          {
+            "rank": 13,
+            "code": "EPL-BLA",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "EPL-LEI",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-european-most-uefa-cup-winners-cup-titles",
+      "current": {
+        "title": "Most UEFA Cup Winners' Cup titles",
+        "prompt": "Name the clubs with the most UEFA Cup Winners' Cup titles (competition ran 1960-61 through 1998-99).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - European",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Competition was discontinued in 1999 and merged into the UEFA Cup. All titles are historical. Many clubs are tied at 1; only Barcelona won the tournament more than twice.",
+        "trivia": "Barcelona hold the record with 4 Cup Winners' Cup titles; the competition was contested by domestic cup winners across Europe.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-BAR",
+            "value": "4 titles"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-MIL",
+            "value": "2 titles"
+          },
+          {
+            "rank": 2,
+            "code": "EPL-CHE",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "LAL-ATM",
+            "value": "1 title"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-MUN",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-JUV",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-FIO",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-SMP",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-PAR",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-LAZ",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-WHU",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-ARS",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-MCI",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-EVE",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-TOT",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-european-highest-all-time-uefa-club-coefficient-2024",
+      "current": {
+        "title": "Highest all-time UEFA club coefficient",
+        "prompt": "Name the clubs with the highest all-time UEFA club coefficient (measures European competition performance over club history).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - European",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "UEFA's all-time coefficient index; higher = more successful in European competitions across the club's history.",
+        "trivia": "Real Madrid have led the all-time UEFA coefficient rankings for decades, buoyed by their record 15 Champions League titles.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-RM",
+            "value": "466 points"
+          },
+          {
+            "rank": 2,
+            "code": "BUN-BAY",
+            "value": "434 points"
+          },
+          {
+            "rank": 3,
+            "code": "LAL-BAR",
+            "value": "410 points"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-LIV",
+            "value": "354 points"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-MIL",
+            "value": "336 points"
+          },
+          {
+            "rank": 6,
+            "code": "EPL-MUN",
+            "value": "331 points"
+          },
+          {
+            "rank": 7,
+            "code": "SEA-JUV",
+            "value": "329 points"
+          },
+          {
+            "rank": 8,
+            "code": "SEA-INT",
+            "value": "313 points"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-CHE",
+            "value": "294 points"
+          },
+          {
+            "rank": 10,
+            "code": "EPL-ARS",
+            "value": "275 points"
+          },
+          {
+            "rank": 11,
+            "code": "LAL-ATM",
+            "value": "269 points"
+          },
+          {
+            "rank": 12,
+            "code": "LAL-SEV",
+            "value": "215 points"
+          },
+          {
+            "rank": 13,
+            "code": "L1-PSG",
+            "value": "203 points"
+          },
+          {
+            "rank": 14,
+            "code": "BUN-BVB",
+            "value": "195 points"
+          },
+          {
+            "rank": 15,
+            "code": "SEA-ROM",
+            "value": "180 points"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-european-highest-deloitte-football-money-league-revenue-2024",
+      "current": {
+        "title": "Highest Deloitte Football Money League revenue",
+        "prompt": "Name the clubs with the highest annual revenue per the Deloitte Football Money League 2024 report.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - European",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Revenue in EUR millions from the 2022-23 season, per Deloitte's Football Money League 2024 report.",
+        "trivia": "Manchester City topped the Money League for the first time in the 2024 report, ending the traditional Real Madrid/Barcelona duopoly at the top.",
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "EPL-MCI",
+            "value": "\u20ac826M"
+          },
+          {
+            "rank": 2,
+            "code": "LAL-RM",
+            "value": "\u20ac832M"
+          },
+          {
+            "rank": 3,
+            "code": "L1-PSG",
+            "value": "\u20ac802M"
+          },
+          {
+            "rank": 4,
+            "code": "LAL-BAR",
+            "value": "\u20ac800M"
+          },
+          {
+            "rank": 5,
+            "code": "EPL-MUN",
+            "value": "\u20ac746M"
+          },
+          {
+            "rank": 6,
+            "code": "BUN-BAY",
+            "value": "\u20ac744M"
+          },
+          {
+            "rank": 7,
+            "code": "EPL-LIV",
+            "value": "\u20ac682M"
+          },
+          {
+            "rank": 8,
+            "code": "EPL-TOT",
+            "value": "\u20ac631M"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-CHE",
+            "value": "\u20ac590M"
+          },
+          {
+            "rank": 10,
+            "code": "EPL-ARS",
+            "value": "\u20ac533M"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-JUV",
+            "value": "\u20ac432M"
+          },
+          {
+            "rank": 12,
+            "code": "BUN-BVB",
+            "value": "\u20ac420M"
+          },
+          {
+            "rank": 13,
+            "code": "SEA-MIL",
+            "value": "\u20ac385M"
+          },
+          {
+            "rank": 14,
+            "code": "SEA-INT",
+            "value": "\u20ac379M"
+          },
+          {
+            "rank": 15,
+            "code": "LAL-ATM",
+            "value": "\u20ac365M"
+          }
+        ]
+      }
+    }
+  ]
+}

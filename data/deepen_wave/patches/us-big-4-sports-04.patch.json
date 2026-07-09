@@ -1,0 +1,49 @@
+{
+  "cluster": "us-big-4-sports-04",
+  "updates": [
+    {
+      "id": "pro-sports-nfl-oldest-nfl-franchises-founding-year",
+      "changes": {
+        "prompt": "Name the NFL franchises with the earliest founding years (ranked ascending by year established, including pre-NFL origins).",
+        "disclaimer": "Franchise founding year (following organizational lineage through relocations and league mergers). The NFL formalized in 1920 as the APFA; pre-1920 dates reflect club founding, not NFL play. AFL charter clubs use their 1959-1960 AFL founding year.",
+        "trivia": "The Cardinals trace their origins to the 1898 Morgan Athletic Club in Chicago, making them the oldest continuously operating pro football team. The Bears (Decatur Staleys) and Packers were both founded in 1919 as pre-NFL clubs before joining the league in 1920-21.",
+        "seededDepth": 32,
+        "answers": [
+          {"rank": 1, "code": "NFL-ARI", "value": "Founded 1898"},
+          {"rank": 2, "code": "NFL-CHI", "value": "Founded 1919"},
+          {"rank": 2, "code": "NFL-GB", "value": "Founded 1919 (tied)"},
+          {"rank": 4, "code": "NFL-NYG", "value": "Founded 1925"},
+          {"rank": 5, "code": "NFL-DET", "value": "Founded 1930"},
+          {"rank": 6, "code": "NFL-WAS", "value": "Founded 1932"},
+          {"rank": 7, "code": "NFL-PHI", "value": "Founded 1933"},
+          {"rank": 7, "code": "NFL-PIT", "value": "Founded 1933 (tied)"},
+          {"rank": 9, "code": "NFL-LAR", "value": "Founded 1936"},
+          {"rank": 10, "code": "NFL-SF", "value": "Founded 1946"},
+          {"rank": 10, "code": "NFL-CLE", "value": "Founded 1946 (tied)"},
+          {"rank": 12, "code": "NFL-IND", "value": "Founded 1953"},
+          {"rank": 13, "code": "NFL-NE", "value": "Founded 1959"},
+          {"rank": 13, "code": "NFL-LAC", "value": "Founded 1959 (tied)"},
+          {"rank": 13, "code": "NFL-DEN", "value": "Founded 1959 (tied)"},
+          {"rank": 13, "code": "NFL-BUF", "value": "Founded 1959 (tied)"},
+          {"rank": 13, "code": "NFL-TEN", "value": "Founded 1959 (tied)"},
+          {"rank": 13, "code": "NFL-NYJ", "value": "Founded 1959 (tied)"},
+          {"rank": 19, "code": "NFL-DAL", "value": "Founded 1960"},
+          {"rank": 19, "code": "NFL-KC", "value": "Founded 1960 (tied)"},
+          {"rank": 19, "code": "NFL-LV", "value": "Founded 1960 (tied)"},
+          {"rank": 19, "code": "NFL-MIN", "value": "Founded 1960 (tied)"},
+          {"rank": 23, "code": "NFL-ATL", "value": "Founded 1965"},
+          {"rank": 23, "code": "NFL-MIA", "value": "Founded 1965 (tied)"},
+          {"rank": 25, "code": "NFL-NO", "value": "Founded 1966"},
+          {"rank": 26, "code": "NFL-CIN", "value": "Founded 1967"},
+          {"rank": 27, "code": "NFL-SEA", "value": "Founded 1974"},
+          {"rank": 27, "code": "NFL-TB", "value": "Founded 1974 (tied)"},
+          {"rank": 29, "code": "NFL-CAR", "value": "Founded 1993"},
+          {"rank": 29, "code": "NFL-JAX", "value": "Founded 1993 (tied)"},
+          {"rank": 31, "code": "NFL-BAL", "value": "Founded 1996"},
+          {"rank": 32, "code": "NFL-HOU", "value": "Founded 1999"}
+        ]
+      }
+    }
+  ],
+  "deletions": []
+}

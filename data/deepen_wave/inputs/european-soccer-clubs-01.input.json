@@ -1,0 +1,639 @@
+{
+  "cluster": "european-soccer-clubs-01",
+  "questions": [
+    {
+      "id": "european-soccer-bundesliga-highest-average-bundesliga-attendance-2023",
+      "current": {
+        "title": "Highest average Bundesliga attendance",
+        "prompt": "Name the Bundesliga clubs with the highest home league average attendance in the 2023-24 season.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Bundesliga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "League matches only. Only clubs that competed in the 2023-24 Bundesliga are ranked.",
+        "trivia": "Borussia Dortmund's home average of over 81,000 has ranked #1 in Bundesliga attendance for more than a decade \u2014 often #1 across all of Europe.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BUN-BVB",
+            "value": "81,365 avg"
+          },
+          {
+            "rank": 2,
+            "code": "BUN-BAY",
+            "value": "75,000 avg"
+          },
+          {
+            "rank": 3,
+            "code": "BUN-SCH",
+            "value": "62,110 avg"
+          },
+          {
+            "rank": 4,
+            "code": "BUN-VFB",
+            "value": "59,860 avg"
+          },
+          {
+            "rank": 5,
+            "code": "BUN-SGE",
+            "value": "58,000 avg"
+          },
+          {
+            "rank": 6,
+            "code": "BUN-BMG",
+            "value": "53,910 avg"
+          },
+          {
+            "rank": 7,
+            "code": "BUN-KOL",
+            "value": "50,000 avg"
+          },
+          {
+            "rank": 8,
+            "code": "BUN-BRE",
+            "value": "41,850 avg"
+          },
+          {
+            "rank": 9,
+            "code": "BUN-RBL",
+            "value": "45,228 avg"
+          },
+          {
+            "rank": 10,
+            "code": "BUN-BER",
+            "value": "30,210 avg"
+          },
+          {
+            "rank": 11,
+            "code": "BUN-MZ",
+            "value": "31,447 avg"
+          },
+          {
+            "rank": 12,
+            "code": "BUN-FCA",
+            "value": "30,120 avg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-bundesliga-most-bundesliga-matches-played-2024",
+      "current": {
+        "title": "Most Bundesliga matches played",
+        "prompt": "Name the clubs that have played the most matches in the top-flight Bundesliga since 1963-64.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Bundesliga",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Includes only top-flight Bundesliga matches. Season lengths varied 30-34 matches depending on era.",
+        "trivia": "Bayern and Bremen are the only two clubs to have played over 2,000 Bundesliga matches \u2014 Bayern reached the milestone during the 2022-23 season.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BUN-BAY",
+            "value": "2,074 matches"
+          },
+          {
+            "rank": 2,
+            "code": "BUN-BRE",
+            "value": "2,040 matches"
+          },
+          {
+            "rank": 3,
+            "code": "BUN-HAM",
+            "value": "1,868 matches"
+          },
+          {
+            "rank": 4,
+            "code": "BUN-VFB",
+            "value": "1,802 matches"
+          },
+          {
+            "rank": 5,
+            "code": "BUN-BVB",
+            "value": "1,768 matches"
+          },
+          {
+            "rank": 6,
+            "code": "BUN-BMG",
+            "value": "1,734 matches"
+          },
+          {
+            "rank": 7,
+            "code": "BUN-SCH",
+            "value": "1,700 matches"
+          },
+          {
+            "rank": 8,
+            "code": "BUN-SGE",
+            "value": "1,666 matches"
+          },
+          {
+            "rank": 9,
+            "code": "BUN-KOL",
+            "value": "1,598 matches"
+          },
+          {
+            "rank": 10,
+            "code": "BUN-BER",
+            "value": "1,564 matches"
+          },
+          {
+            "rank": 11,
+            "code": "BUN-HER",
+            "value": "1,292 matches"
+          },
+          {
+            "rank": 12,
+            "code": "BUN-BOC",
+            "value": "1,224 matches"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-pl-seasons-as-ever-presents-plus-challengers",
+      "current": {
+        "title": "Most PL seasons as ever-presents plus challengers",
+        "prompt": "Name the clubs that have played the most seasons in the Premier League since its 1992 founding.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Premier League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts total completed PL seasons; six ever-present clubs share the top rank.",
+        "trivia": "Six clubs \u2014 Arsenal, Chelsea, Everton, Liverpool, Manchester United, and Tottenham \u2014 have appeared in every Premier League season since 1992.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "EPL-ARS",
+            "value": "33 seasons"
+          },
+          {
+            "rank": 1,
+            "code": "EPL-CHE",
+            "value": "33 seasons (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "EPL-EVE",
+            "value": "33 seasons (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "EPL-LIV",
+            "value": "33 seasons (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "EPL-MUN",
+            "value": "33 seasons (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "EPL-TOT",
+            "value": "33 seasons (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "EPL-AVL",
+            "value": "30 seasons"
+          },
+          {
+            "rank": 8,
+            "code": "EPL-NEW",
+            "value": "29 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-WHU",
+            "value": "28 seasons"
+          },
+          {
+            "rank": 10,
+            "code": "EPL-MCI",
+            "value": "27 seasons"
+          },
+          {
+            "rank": 11,
+            "code": "EPL-SOU",
+            "value": "25 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "EPL-FUL",
+            "value": "18 seasons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-seasons-in-the-english-top-flight-all-time-2",
+      "current": {
+        "title": "Most seasons in the English top flight (all-time)",
+        "prompt": "Name the English clubs that have spent the most seasons in the top division of English football (First Division plus Premier League).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Premier League",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts total seasons in the top tier since 1888-89.",
+        "trivia": "Everton have spent more seasons in the top division of English football than any other club, dating back to the Football League's founding season in 1888-89.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "EPL-EVE",
+            "value": "122 seasons"
+          },
+          {
+            "rank": 2,
+            "code": "EPL-AVL",
+            "value": "112 seasons"
+          },
+          {
+            "rank": 3,
+            "code": "EPL-LIV",
+            "value": "111 seasons"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-ARS",
+            "value": "109 seasons"
+          },
+          {
+            "rank": 5,
+            "code": "EPL-MUN",
+            "value": "100 seasons"
+          },
+          {
+            "rank": 6,
+            "code": "EPL-MCI",
+            "value": "96 seasons"
+          },
+          {
+            "rank": 7,
+            "code": "EPL-NEW",
+            "value": "93 seasons"
+          },
+          {
+            "rank": 8,
+            "code": "EPL-CHE",
+            "value": "90 seasons"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-TOT",
+            "value": "89 seasons"
+          },
+          {
+            "rank": 10,
+            "code": "EPL-SUN",
+            "value": "86 seasons"
+          },
+          {
+            "rank": 11,
+            "code": "EPL-WBA",
+            "value": "82 seasons"
+          },
+          {
+            "rank": 12,
+            "code": "EPL-WOL",
+            "value": "68 seasons"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-european-most-uefa-europa-league-uefa-cup-titles-2024",
+      "current": {
+        "title": "Most UEFA Europa League / UEFA Cup titles",
+        "prompt": "Name the clubs with the most UEFA Cup / UEFA Europa League titles (all-time, since 1971-72).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - European",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Combines UEFA Cup (1971-2009) and UEFA Europa League (2009-present) titles.",
+        "trivia": "Sevilla have never lost a UEFA Cup / Europa League final and are the undisputed kings of the competition with 7 titles.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-SEV",
+            "value": "7 titles"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-INT",
+            "value": "3 titles"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-JUV",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "EPL-LIV",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "LAL-ATM",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "EPL-CHE",
+            "value": "2 titles"
+          },
+          {
+            "rank": 6,
+            "code": "SEA-PAR",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "EPL-TOT",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "BUN-BAY",
+            "value": "1 title"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-MUN",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-NAP",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "BUN-BVB",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-european-highest-club-valuation-forbes-2024-2024",
+      "current": {
+        "title": "Highest club valuation (Forbes 2024)",
+        "prompt": "Name the most valuable European soccer clubs per Forbes' 2024 valuation ranking.",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - European",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Enterprise values in USD, per Forbes' 2024 methodology (equity + debt, based on revenues and market benchmarks).",
+        "trivia": "Real Madrid became the first soccer club valued at over $6 billion by Forbes, edging Manchester United for the top spot.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "LAL-RM",
+            "value": "$6.60B"
+          },
+          {
+            "rank": 2,
+            "code": "EPL-MUN",
+            "value": "$6.20B"
+          },
+          {
+            "rank": 3,
+            "code": "LAL-BAR",
+            "value": "$5.60B"
+          },
+          {
+            "rank": 4,
+            "code": "EPL-LIV",
+            "value": "$5.37B"
+          },
+          {
+            "rank": 5,
+            "code": "EPL-MCI",
+            "value": "$5.10B"
+          },
+          {
+            "rank": 6,
+            "code": "BUN-BAY",
+            "value": "$5.07B"
+          },
+          {
+            "rank": 7,
+            "code": "L1-PSG",
+            "value": "$4.40B"
+          },
+          {
+            "rank": 8,
+            "code": "EPL-TOT",
+            "value": "$3.20B"
+          },
+          {
+            "rank": 9,
+            "code": "EPL-CHE",
+            "value": "$3.13B"
+          },
+          {
+            "rank": 10,
+            "code": "EPL-ARS",
+            "value": "$2.60B"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-JUV",
+            "value": "$1.87B"
+          },
+          {
+            "rank": 12,
+            "code": "BUN-BVB",
+            "value": "$1.24B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-most-ligue-1-titles-all-time-2024",
+      "current": {
+        "title": "Most Ligue 1 titles all-time",
+        "prompt": "Name the clubs that have won the most French Ligue 1 championships (all-time, since 1932).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Ligue 1",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Titles include the pre-war Division 1 era; the league was suspended 1939-1945 during World War II.",
+        "trivia": "PSG has won more titles this century than the rest of the league combined, but Saint-\u00c9tienne's 10 titles came almost entirely between 1957 and 1981.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "L1-PSG",
+            "value": "12 titles"
+          },
+          {
+            "rank": 2,
+            "code": "L1-SET",
+            "value": "10 titles"
+          },
+          {
+            "rank": 3,
+            "code": "L1-MAR",
+            "value": "9 titles"
+          },
+          {
+            "rank": 4,
+            "code": "L1-NAN",
+            "value": "8 titles (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "L1-MON",
+            "value": "8 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "L1-LYN",
+            "value": "7 titles"
+          },
+          {
+            "rank": 7,
+            "code": "L1-REI",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "L1-BOR",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "L1-LIL",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "L1-NIC",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "L1-STR",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "L1-LEN",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "L1-AUX",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "L1-MTP",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "european-soccer-serie-a-most-top-4-serie-a-finishes-all-time-2024",
+      "current": {
+        "title": "Most top-4 Serie A finishes all-time",
+        "prompt": "Name the Italian clubs with the most top-four finishes in Serie A (single-tier era, 1929-30 to present).",
+        "answerType": "European Soccer Clubs",
+        "theme": "European Soccer Clubs",
+        "subtheme": "European Soccer - Serie A",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "disclaimer": "Counts finishes 1st through 4th in Serie A from 1929-30 onward. Includes seasons later voided/adjusted by FIGC only where the official final table still records a top-4 position for the club.",
+        "trivia": "Napoli's 2022-23 Scudetto was their first Serie A title since Diego Maradona lifted the 1989-90 championship \u2014 a 33-year gap.",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "SEA-JUV",
+            "value": "68 top-4s"
+          },
+          {
+            "rank": 2,
+            "code": "SEA-INT",
+            "value": "62 top-4s"
+          },
+          {
+            "rank": 3,
+            "code": "SEA-MIL",
+            "value": "51 top-4s"
+          },
+          {
+            "rank": 4,
+            "code": "SEA-ROM",
+            "value": "36 top-4s"
+          },
+          {
+            "rank": 5,
+            "code": "SEA-BOL",
+            "value": "24 top-4s"
+          },
+          {
+            "rank": 6,
+            "code": "SEA-TOR",
+            "value": "22 top-4s"
+          },
+          {
+            "rank": 7,
+            "code": "SEA-FIO",
+            "value": "21 top-4s"
+          },
+          {
+            "rank": 8,
+            "code": "SEA-NAP",
+            "value": "19 top-4s"
+          },
+          {
+            "rank": 9,
+            "code": "SEA-LAZ",
+            "value": "18 top-4s"
+          },
+          {
+            "rank": 10,
+            "code": "SEA-ATA",
+            "value": "7 top-4s"
+          },
+          {
+            "rank": 11,
+            "code": "SEA-SMP",
+            "value": "5 top-4s"
+          },
+          {
+            "rank": 12,
+            "code": "SEA-PAR",
+            "value": "4 top-4s"
+          }
+        ]
+      }
+    }
+  ]
+}
