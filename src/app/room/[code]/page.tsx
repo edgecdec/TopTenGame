@@ -54,6 +54,7 @@ function itemLabelForType(answerType: string): { singular: string; plural: strin
     case "Video Games": return { singular: "game", plural: "games" };
     case "Video Game Franchises": return { singular: "franchise", plural: "franchises" };
     case "Colleges": return { singular: "college", plural: "colleges" };
+    case "European Soccer Clubs": return { singular: "club", plural: "clubs" };
     default: return { singular: "answer", plural: "answers" };
   }
 }

@@ -383,6 +383,13 @@ function advanceToNextQuestion(io, room) {
   else if (st === "Pro Sports - NFL") codeFilter = "NFL-";
   else if (st === "Pro Sports - MLB") codeFilter = "MLB-";
   else if (st === "Pro Sports - NHL") codeFilter = "NHL-";
+  // European Soccer per-league scoping. The "European" subtheme is cross-league
+  // (UCL/UEL/coefficients) so it stays unfiltered.
+  else if (st === "European Soccer - Premier League") codeFilter = "EPL-";
+  else if (st === "European Soccer - La Liga") codeFilter = "LAL-";
+  else if (st === "European Soccer - Bundesliga") codeFilter = "BUN-";
+  else if (st === "European Soccer - Serie A") codeFilter = "SEA-";
+  else if (st === "European Soccer - Ligue 1") codeFilter = "L1-";
   // All Movies subthemes EXCEPT "Movies - Nominees" are winners-only —
   // scope the dropdown to the 96 Best Picture winners so players don't
   // wade through 500+ losers.
