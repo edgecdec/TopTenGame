@@ -21590,7 +21590,7 @@
     "title": "Most tennis men's Grand Slam singles titles (by country of birth)",
     "prompt": "Name the countries whose men have won the most tennis Grand Slam singles titles in the Open Era (since 1968).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 19,
     "source": {
       "name": "ATP Tour \u2014 Grand Slam History",
       "url": "https://www.atptour.com/en/tournaments/grand-slam",
@@ -21657,6 +21657,41 @@
         "rank": 10,
         "code": "GB",
         "value": "3 titles (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "RU",
+        "value": "4 titles"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "HR",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "RO",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "EC",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "FR",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "NL",
+        "value": "1 title (tied)"
       }
     ],
     "disclaimer": "Open Era only (1968\u2013). Attributed to player's country at time of career. Djokovic (SRB, 24), Nadal (ESP, 22), Federer (SUI, 20) lead individually.",
@@ -21670,7 +21705,7 @@
     "title": "Most tennis women's Grand Slam singles titles (by country of birth)",
     "prompt": "Name the countries whose women have won the most tennis Grand Slam singles titles in the Open Era (since 1968).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "Wikipedia \u2014 List of Grand Slam women's singles champions",
       "url": "https://en.wikipedia.org/wiki/List_of_Grand_Slam_women%27s_singles_champions",
@@ -21724,19 +21759,59 @@
         "value": "5 titles (tied)"
       },
       {
-        "rank": 10,
+        "rank": 8,
+        "code": "CH",
+        "value": "5 titles (tied)"
+      },
+      {
+        "rank": 11,
         "code": "JP",
         "value": "4 titles (tied)"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "FR",
         "value": "4 titles (tied)"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "RO",
-        "value": "3 titles"
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "GB",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "IT",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "CN",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "LV",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "DK",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "KZ",
+        "value": "1 title (tied)"
       }
     ],
     "disclaimer": "Open Era only (1968\u2013). Attributed to player's representing nation.",
@@ -100885,7 +100960,7 @@
     "title": "Most Formula 1 Grands Prix hosted",
     "prompt": "Name the countries that have hosted the most Formula 1 World Championship Grands Prix in history.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 34,
     "source": {
       "name": "FIA / Formula1.com \u2014 Race archive",
       "url": "https://www.formula1.com/en/results.html",
@@ -100955,6 +101030,116 @@
         "rank": 12,
         "code": "NL",
         "value": "34 GPs"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "37 GPs"
+      },
+      {
+        "rank": 14,
+        "code": "HU",
+        "value": "39 GPs"
+      },
+      {
+        "rank": 15,
+        "code": "AU",
+        "value": "39 GPs"
+      },
+      {
+        "rank": 16,
+        "code": "BH",
+        "value": "20 GPs"
+      },
+      {
+        "rank": 17,
+        "code": "MY",
+        "value": "19 GPs"
+      },
+      {
+        "rank": 18,
+        "code": "CN",
+        "value": "20 GPs"
+      },
+      {
+        "rank": 19,
+        "code": "SG",
+        "value": "15 GPs"
+      },
+      {
+        "rank": 20,
+        "code": "AE",
+        "value": "16 GPs"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "22 GPs"
+      },
+      {
+        "rank": 22,
+        "code": "PT",
+        "value": "18 GPs"
+      },
+      {
+        "rank": 23,
+        "code": "ZA",
+        "value": "23 GPs"
+      },
+      {
+        "rank": 24,
+        "code": "AR",
+        "value": "20 GPs"
+      },
+      {
+        "rank": 25,
+        "code": "AZ",
+        "value": "8 GPs"
+      },
+      {
+        "rank": 26,
+        "code": "SA",
+        "value": "4 GPs"
+      },
+      {
+        "rank": 27,
+        "code": "QA",
+        "value": "3 GPs"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "9 GPs"
+      },
+      {
+        "rank": 29,
+        "code": "KR",
+        "value": "4 GPs"
+      },
+      {
+        "rank": 30,
+        "code": "IN",
+        "value": "3 GPs"
+      },
+      {
+        "rank": 31,
+        "code": "RU",
+        "value": "8 GPs"
+      },
+      {
+        "rank": 32,
+        "code": "SE",
+        "value": "6 GPs"
+      },
+      {
+        "rank": 33,
+        "code": "CH",
+        "value": "1 GP"
+      },
+      {
+        "rank": 34,
+        "code": "MA",
+        "value": "1 GP"
       }
     ]
   },
@@ -100965,7 +101150,7 @@
     "title": "Most MotoGP / 500cc GP rounds hosted",
     "prompt": "Name the countries that have hosted the most premier-class motorcycle Grand Prix rounds (500cc / MotoGP) since 1949.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 31,
     "source": {
       "name": "MotoGP \u2014 Statistics",
       "url": "https://www.motogp.com/en/statistics",
@@ -101035,6 +101220,101 @@
         "rank": 12,
         "code": "FI",
         "value": "24 rounds"
+      },
+      {
+        "rank": 13,
+        "code": "PT",
+        "value": "20 rounds"
+      },
+      {
+        "rank": 14,
+        "code": "CZ",
+        "value": "22 rounds"
+      },
+      {
+        "rank": 15,
+        "code": "MY",
+        "value": "26 rounds"
+      },
+      {
+        "rank": 16,
+        "code": "AR",
+        "value": "17 rounds"
+      },
+      {
+        "rank": 17,
+        "code": "BR",
+        "value": "13 rounds"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "13 rounds"
+      },
+      {
+        "rank": 19,
+        "code": "CH",
+        "value": "12 rounds"
+      },
+      {
+        "rank": 20,
+        "code": "QA",
+        "value": "20 rounds"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "1 round"
+      },
+      {
+        "rank": 22,
+        "code": "IE",
+        "value": "10 rounds"
+      },
+      {
+        "rank": 23,
+        "code": "ZA",
+        "value": "8 rounds"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "3 rounds"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "6 rounds"
+      },
+      {
+        "rank": 26,
+        "code": "ID",
+        "value": "5 rounds"
+      },
+      {
+        "rank": 27,
+        "code": "SM",
+        "value": "14 rounds"
+      },
+      {
+        "rank": 28,
+        "code": "MC",
+        "value": "1 round"
+      },
+      {
+        "rank": 30,
+        "code": "RS",
+        "value": "6 rounds (as Yugoslavia)"
+      },
+      {
+        "rank": 31,
+        "code": "IN",
+        "value": "1 round"
+      },
+      {
+        "rank": 32,
+        "code": "KZ",
+        "value": "1 round"
       }
     ]
   },
@@ -101185,7 +101465,7 @@
     "title": "Most Le Mans 24 Hours winners (by driver nationality)",
     "prompt": "Name the countries whose drivers have accumulated the most overall Le Mans 24 Hours victories.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 26,
     "source": {
       "name": "Wikipedia \u2014 List of 24 Hours of Le Mans winners (ACO records)",
       "url": "https://en.wikipedia.org/wiki/List_of_24_Hours_of_Le_Mans_winners",
@@ -101255,6 +101535,76 @@
         "rank": 12,
         "code": "NZ",
         "value": "4 wins"
+      },
+      {
+        "rank": 13,
+        "code": "AT",
+        "value": "4 wins"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "3 wins"
+      },
+      {
+        "rank": 15,
+        "code": "JP",
+        "value": "3 wins"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "2 wins"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "2 wins"
+      },
+      {
+        "rank": 18,
+        "code": "MC",
+        "value": "2 wins"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "2 wins"
+      },
+      {
+        "rank": 20,
+        "code": "MX",
+        "value": "2 wins"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "1 win"
+      },
+      {
+        "rank": 22,
+        "code": "LU",
+        "value": "1 win"
+      },
+      {
+        "rank": 23,
+        "code": "ZA",
+        "value": "1 win"
+      },
+      {
+        "rank": 24,
+        "code": "PT",
+        "value": "1 win"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "1 win"
+      },
+      {
+        "rank": 26,
+        "code": "SE",
+        "value": "1 win"
       }
     ]
   },
@@ -101540,7 +101890,7 @@
     "title": "Most ATP Tour events hosted annually",
     "prompt": "Name the countries that host the most ATP Tour men's tennis tournaments in a single calendar year.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "ATP Tour \u2014 Official calendar",
       "url": "https://www.atptour.com/en/tournaments",
@@ -101610,6 +101960,96 @@
         "rank": 8,
         "code": "AR",
         "value": "2 events (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CH",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "MC",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "PT",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "HR",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "RO",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "SE",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "FI",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "HU",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "RS",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CA",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "BR",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CL",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "EC",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "JP",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "AE",
+        "value": "1 event (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "QA",
+        "value": "1 event (tied)"
       }
     ]
   },
@@ -119520,7 +119960,7 @@
     "title": "Longest river entirely within country",
     "prompt": "Name the countries containing the longest river flowing entirely within a single nation's borders (source to mouth inside one country).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of rivers by length",
       "url": "https://en.wikipedia.org/wiki/List_of_rivers_by_length",
@@ -119605,6 +120045,81 @@
         "rank": 15,
         "code": "GB",
         "value": "354 km (Severn)"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "950 km (Karun)"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "1,300 km (Rio Grande de Santiago)"
+      },
+      {
+        "rank": 18,
+        "code": "CA",
+        "value": "1,923 km (Fraser)"
+      },
+      {
+        "rank": 19,
+        "code": "ID",
+        "value": "1,143 km (Kapuas)"
+      },
+      {
+        "rank": 20,
+        "code": "MY",
+        "value": "563 km (Rajang)"
+      },
+      {
+        "rank": 21,
+        "code": "NZ",
+        "value": "425 km (Waikato)"
+      },
+      {
+        "rank": 22,
+        "code": "IE",
+        "value": "386 km (Shannon)"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "621 km (Glomma)"
+      },
+      {
+        "rank": 24,
+        "code": "SE",
+        "value": "520 km (Klaralven-Gota)"
+      },
+      {
+        "rank": 25,
+        "code": "FI",
+        "value": "212 km (Kemijoki)"
+      },
+      {
+        "rank": 26,
+        "code": "DE",
+        "value": "744 km (Weser-Werra)"
+      },
+      {
+        "rank": 27,
+        "code": "CU",
+        "value": "343 km (Cauto)"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "1,355 km (Kizilirmak)"
+      },
+      {
+        "rank": 29,
+        "code": "TW",
+        "value": "186 km (Zhuoshui)"
+      },
+      {
+        "rank": 30,
+        "code": "LK",
+        "value": "335 km (Mahaweli)"
       }
     ]
   },
@@ -130565,7 +131080,7 @@
     "title": "Most current world records in athletics",
     "prompt": "Name the countries whose athletes currently hold the most world records in track and field (men and women combined).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "World Athletics \u2014 World Records",
       "url": "https://worldathletics.org/records/by-category/world-records",
@@ -130635,6 +131150,71 @@
         "rank": 7,
         "code": "VE",
         "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "MA",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "GB",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "BG",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "DE",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "PL",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "CN",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "BR",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "UG",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "AU",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "CA",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "NL",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "BW",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "GR",
+        "value": "1 record (tied)"
       }
     ]
   },
@@ -130645,7 +131225,7 @@
     "title": "Most current world records in swimming",
     "prompt": "Name the countries whose swimmers currently hold the most long-course (50m) world records.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "World Aquatics \u2014 World Records (long course)",
       "url": "https://www.worldaquatics.com/swimming/records",
@@ -130715,6 +131295,71 @@
         "rank": 7,
         "code": "TN",
         "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "BR",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "DE",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "NL",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "RU",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "JP",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "DK",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "ES",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "BY",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "PL",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "AT",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "NO",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "CZ",
+        "value": "1 record (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "IE",
+        "value": "1 record (tied)"
       }
     ]
   },
@@ -130725,7 +131370,7 @@
     "title": "Highest adult sports participation rate",
     "prompt": "Name the countries where the highest share of adults report exercising or playing sport at least once a week.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 27,
     "source": {
       "name": "Eurobarometer \u2014 Sport and Physical Activity survey",
       "url": "https://europa.eu/eurobarometer/surveys/detail/2668",
@@ -130795,6 +131440,81 @@
         "rank": 12,
         "code": "CZ",
         "value": "44%"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "42%"
+      },
+      {
+        "rank": 14,
+        "code": "EE",
+        "value": "41%"
+      },
+      {
+        "rank": 15,
+        "code": "SK",
+        "value": "39%"
+      },
+      {
+        "rank": 16,
+        "code": "HR",
+        "value": "37%"
+      },
+      {
+        "rank": 17,
+        "code": "LV",
+        "value": "35%"
+      },
+      {
+        "rank": 18,
+        "code": "LT",
+        "value": "34%"
+      },
+      {
+        "rank": 19,
+        "code": "MT",
+        "value": "33%"
+      },
+      {
+        "rank": 20,
+        "code": "CY",
+        "value": "31%"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "29%"
+      },
+      {
+        "rank": 22,
+        "code": "HU",
+        "value": "28%"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "27%"
+      },
+      {
+        "rank": 24,
+        "code": "BG",
+        "value": "24%"
+      },
+      {
+        "rank": 25,
+        "code": "RO",
+        "value": "23%"
+      },
+      {
+        "rank": 26,
+        "code": "GR",
+        "value": "22%"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "21%"
       }
     ]
   },
@@ -130805,7 +131525,7 @@
     "title": "Most golf courses in the world",
     "prompt": "Name the countries with the most golf courses in total.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Golf course (Golf courses by country table)",
       "url": "https://en.wikipedia.org/wiki/Golf_course",
@@ -130875,6 +131595,96 @@
         "rank": 12,
         "code": "NZ",
         "value": "418 courses"
+      },
+      {
+        "rank": 13,
+        "code": "ES",
+        "value": "397 courses"
+      },
+      {
+        "rank": 14,
+        "code": "CN",
+        "value": "383 courses"
+      },
+      {
+        "rank": 15,
+        "code": "TH",
+        "value": "315 courses"
+      },
+      {
+        "rank": 16,
+        "code": "AR",
+        "value": "308 courses"
+      },
+      {
+        "rank": 17,
+        "code": "DK",
+        "value": "259 courses"
+      },
+      {
+        "rank": 18,
+        "code": "NL",
+        "value": "246 courses"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "217 courses"
+      },
+      {
+        "rank": 20,
+        "code": "FI",
+        "value": "197 courses"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "159 courses"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "153 courses"
+      },
+      {
+        "rank": 23,
+        "code": "CH",
+        "value": "100 courses"
+      },
+      {
+        "rank": 24,
+        "code": "IN",
+        "value": "196 courses"
+      },
+      {
+        "rank": 25,
+        "code": "NO",
+        "value": "168 courses"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "121 courses"
+      },
+      {
+        "rank": 27,
+        "code": "CZ",
+        "value": "112 courses"
+      },
+      {
+        "rank": 28,
+        "code": "PT",
+        "value": "94 courses"
+      },
+      {
+        "rank": 29,
+        "code": "BE",
+        "value": "88 courses"
+      },
+      {
+        "rank": 30,
+        "code": "MY",
+        "value": "222 courses"
       }
     ]
   },
@@ -130885,7 +131695,7 @@
     "title": "Highest gym membership per capita",
     "prompt": "Name the countries with the highest share of the population holding a health and fitness club membership.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "IHRSA \u2014 Global Report on Fitness Industry",
       "url": "https://www.ihrsa.org/publications/the-2023-ihrsa-global-report/",
@@ -130955,6 +131765,96 @@
         "rank": 12,
         "code": "CH",
         "value": "13.0%"
+      },
+      {
+        "rank": 13,
+        "code": "IE",
+        "value": "12.4%"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "12.0%"
+      },
+      {
+        "rank": 15,
+        "code": "ES",
+        "value": "11.5%"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "11.0%"
+      },
+      {
+        "rank": 17,
+        "code": "PT",
+        "value": "10.2%"
+      },
+      {
+        "rank": 18,
+        "code": "IT",
+        "value": "9.6%"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "9.1%"
+      },
+      {
+        "rank": 20,
+        "code": "PL",
+        "value": "8.4%"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "7.9%"
+      },
+      {
+        "rank": 22,
+        "code": "SG",
+        "value": "7.5%"
+      },
+      {
+        "rank": 23,
+        "code": "HU",
+        "value": "7.0%"
+      },
+      {
+        "rank": 24,
+        "code": "IL",
+        "value": "6.8%"
+      },
+      {
+        "rank": 25,
+        "code": "GR",
+        "value": "6.5%"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "5.4%"
+      },
+      {
+        "rank": 27,
+        "code": "MX",
+        "value": "4.7%"
+      },
+      {
+        "rank": 28,
+        "code": "JP",
+        "value": "4.4%"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "4.1%"
+      },
+      {
+        "rank": 30,
+        "code": "ZA",
+        "value": "3.9%"
       }
     ]
   },
@@ -130965,7 +131865,7 @@
     "title": "Most PGA Tour tournament winners",
     "prompt": "Name the countries with the most individual golfers who have won at least one PGA Tour tournament.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 30,
     "source": {
       "name": "PGA Tour \u2014 All-time winners list",
       "url": "https://www.pgatour.com/stats/detail/109",
@@ -131035,6 +131935,96 @@
         "rank": 12,
         "code": "JP",
         "value": "4 winners"
+      },
+      {
+        "rank": 13,
+        "code": "IE",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "KR",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CO",
+        "value": "3 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "IT",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ZW",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PY",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "VE",
+        "value": "2 winners (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "AT",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "DK",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "TW",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "CN",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "CL",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "NL",
+        "value": "1 winner (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "TH",
+        "value": "1 winner (tied)"
       }
     ]
   },
@@ -131875,7 +132865,7 @@
     "title": "Most Table Tennis World Championship golds",
     "prompt": "Name the countries with the most ITTF World Table Tennis Championship gold medals (all events combined).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "ITTF \u2014 World Championships",
       "url": "https://www.ittf.com/history/",
@@ -131945,6 +132935,71 @@
         "rank": 12,
         "code": "KP",
         "value": "3 golds"
+      },
+      {
+        "rank": 13,
+        "code": "RS",
+        "value": "3 golds"
+      },
+      {
+        "rank": 14,
+        "code": "FR",
+        "value": "2 golds"
+      },
+      {
+        "rank": 15,
+        "code": "HR",
+        "value": "2 golds"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "2 golds"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "1 gold"
+      },
+      {
+        "rank": 18,
+        "code": "PL",
+        "value": "1 gold"
+      },
+      {
+        "rank": 19,
+        "code": "IN",
+        "value": "1 gold"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "1 gold"
+      },
+      {
+        "rank": 21,
+        "code": "HK",
+        "value": "1 gold"
+      },
+      {
+        "rank": 22,
+        "code": "SG",
+        "value": "1 gold"
+      },
+      {
+        "rank": 23,
+        "code": "TW",
+        "value": "1 gold"
+      },
+      {
+        "rank": 24,
+        "code": "LU",
+        "value": "1 gold"
+      },
+      {
+        "rank": 25,
+        "code": "BG",
+        "value": "1 gold"
       }
     ]
   },
@@ -132125,7 +133180,7 @@
     "title": "Most African Games gold medals all-time",
     "prompt": "Name the countries with the most gold medals in African Games history (1965-2024).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 35,
     "source": {
       "name": "Association of National Olympic Committees of Africa \u2014 all-time medal table",
       "url": "https://en.wikipedia.org/wiki/All-time_African_Games_medal_table",
@@ -132195,6 +133250,121 @@
         "rank": 12,
         "code": "CM",
         "value": "72 golds"
+      },
+      {
+        "rank": 13,
+        "code": "UG",
+        "value": "60 golds"
+      },
+      {
+        "rank": 14,
+        "code": "ZW",
+        "value": "45 golds"
+      },
+      {
+        "rank": 15,
+        "code": "MU",
+        "value": "40 golds"
+      },
+      {
+        "rank": 16,
+        "code": "AO",
+        "value": "38 golds"
+      },
+      {
+        "rank": 17,
+        "code": "CD",
+        "value": "34 golds"
+      },
+      {
+        "rank": 18,
+        "code": "MZ",
+        "value": "30 golds"
+      },
+      {
+        "rank": 19,
+        "code": "LY",
+        "value": "28 golds"
+      },
+      {
+        "rank": 20,
+        "code": "SD",
+        "value": "26 golds"
+      },
+      {
+        "rank": 21,
+        "code": "BF",
+        "value": "24 golds"
+      },
+      {
+        "rank": 22,
+        "code": "ZM",
+        "value": "22 golds"
+      },
+      {
+        "rank": 23,
+        "code": "TZ",
+        "value": "20 golds"
+      },
+      {
+        "rank": 24,
+        "code": "BJ",
+        "value": "18 golds"
+      },
+      {
+        "rank": 25,
+        "code": "MG",
+        "value": "17 golds"
+      },
+      {
+        "rank": 26,
+        "code": "GA",
+        "value": "16 golds"
+      },
+      {
+        "rank": 27,
+        "code": "CG",
+        "value": "15 golds"
+      },
+      {
+        "rank": 28,
+        "code": "NA",
+        "value": "14 golds"
+      },
+      {
+        "rank": 29,
+        "code": "BW",
+        "value": "12 golds"
+      },
+      {
+        "rank": 30,
+        "code": "ML",
+        "value": "11 golds"
+      },
+      {
+        "rank": 31,
+        "code": "NE",
+        "value": "10 golds"
+      },
+      {
+        "rank": 32,
+        "code": "GN",
+        "value": "9 golds"
+      },
+      {
+        "rank": 33,
+        "code": "TG",
+        "value": "8 golds"
+      },
+      {
+        "rank": 34,
+        "code": "SC",
+        "value": "7 golds"
+      },
+      {
+        "rank": 35,
+        "code": "RW",
+        "value": "6 golds"
       }
     ]
   },
@@ -132205,7 +133375,7 @@
     "title": "Most Asian Games gold medals all-time",
     "prompt": "Name the countries with the most gold medals in Asian Games history (summer editions, 1951-2023).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 35,
     "source": {
       "name": "Olympic Council of Asia \u2014 all-time medal table",
       "url": "https://en.wikipedia.org/wiki/All-time_Asian_Games_medal_table",
@@ -132275,6 +133445,121 @@
         "rank": 12,
         "code": "PH",
         "value": "76 golds"
+      },
+      {
+        "rank": 13,
+        "code": "MY",
+        "value": "64 golds"
+      },
+      {
+        "rank": 14,
+        "code": "HK",
+        "value": "48 golds"
+      },
+      {
+        "rank": 15,
+        "code": "PK",
+        "value": "44 golds"
+      },
+      {
+        "rank": 16,
+        "code": "QA",
+        "value": "42 golds"
+      },
+      {
+        "rank": 17,
+        "code": "BH",
+        "value": "36 golds"
+      },
+      {
+        "rank": 18,
+        "code": "SG",
+        "value": "32 golds"
+      },
+      {
+        "rank": 19,
+        "code": "SA",
+        "value": "28 golds"
+      },
+      {
+        "rank": 20,
+        "code": "MN",
+        "value": "24 golds"
+      },
+      {
+        "rank": 21,
+        "code": "KW",
+        "value": "22 golds"
+      },
+      {
+        "rank": 22,
+        "code": "VN",
+        "value": "20 golds"
+      },
+      {
+        "rank": 23,
+        "code": "KG",
+        "value": "18 golds"
+      },
+      {
+        "rank": 24,
+        "code": "MM",
+        "value": "15 golds"
+      },
+      {
+        "rank": 25,
+        "code": "AE",
+        "value": "14 golds"
+      },
+      {
+        "rank": 26,
+        "code": "IQ",
+        "value": "12 golds"
+      },
+      {
+        "rank": 27,
+        "code": "TJ",
+        "value": "10 golds"
+      },
+      {
+        "rank": 28,
+        "code": "JO",
+        "value": "9 golds"
+      },
+      {
+        "rank": 29,
+        "code": "SY",
+        "value": "8 golds"
+      },
+      {
+        "rank": 30,
+        "code": "LK",
+        "value": "7 golds"
+      },
+      {
+        "rank": 31,
+        "code": "LB",
+        "value": "6 golds"
+      },
+      {
+        "rank": 32,
+        "code": "TM",
+        "value": "5 golds"
+      },
+      {
+        "rank": 33,
+        "code": "AF",
+        "value": "4 golds"
+      },
+      {
+        "rank": 34,
+        "code": "OM",
+        "value": "3 golds"
+      },
+      {
+        "rank": 35,
+        "code": "PS",
+        "value": "2 golds"
       }
     ]
   },
@@ -132285,7 +133570,7 @@
     "title": "Most Pan American Games gold medals all-time",
     "prompt": "Name the countries with the most gold medals in Pan American Games history (1951-2023).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 24,
     "source": {
       "name": "Panam Sports \u2014 all-time medal table",
       "url": "https://en.wikipedia.org/wiki/All-time_Pan_American_Games_medal_table",
@@ -132355,6 +133640,66 @@
         "rank": 12,
         "code": "EC",
         "value": "32 golds"
+      },
+      {
+        "rank": 14,
+        "code": "PE",
+        "value": "28 golds"
+      },
+      {
+        "rank": 15,
+        "code": "TT",
+        "value": "22 golds"
+      },
+      {
+        "rank": 16,
+        "code": "UY",
+        "value": "20 golds"
+      },
+      {
+        "rank": 17,
+        "code": "GT",
+        "value": "18 golds"
+      },
+      {
+        "rank": 18,
+        "code": "BB",
+        "value": "12 golds"
+      },
+      {
+        "rank": 19,
+        "code": "BS",
+        "value": "10 golds"
+      },
+      {
+        "rank": 20,
+        "code": "PA",
+        "value": "9 golds"
+      },
+      {
+        "rank": 21,
+        "code": "SR",
+        "value": "7 golds"
+      },
+      {
+        "rank": 22,
+        "code": "CR",
+        "value": "6 golds"
+      },
+      {
+        "rank": 23,
+        "code": "GY",
+        "value": "5 golds"
+      },
+      {
+        "rank": 24,
+        "code": "GD",
+        "value": "4 golds"
+      },
+      {
+        "rank": 25,
+        "code": "SV",
+        "value": "3 golds"
       }
     ]
   },
@@ -132365,7 +133710,7 @@
     "title": "Most Commonwealth Games gold medals all-time",
     "prompt": "Name the countries with the most gold medals in Commonwealth Games history (1930-2022).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "Commonwealth Games Federation \u2014 all-time medal table",
       "url": "https://en.wikipedia.org/wiki/All-time_Commonwealth_Games_medal_table",
@@ -132435,6 +133780,71 @@
         "rank": 12,
         "code": "GH",
         "value": "16 golds"
+      },
+      {
+        "rank": 13,
+        "code": "PK",
+        "value": "15 golds"
+      },
+      {
+        "rank": 14,
+        "code": "CY",
+        "value": "14 golds"
+      },
+      {
+        "rank": 15,
+        "code": "UG",
+        "value": "12 golds"
+      },
+      {
+        "rank": 16,
+        "code": "BS",
+        "value": "11 golds"
+      },
+      {
+        "rank": 17,
+        "code": "BD",
+        "value": "9 golds"
+      },
+      {
+        "rank": 18,
+        "code": "NR",
+        "value": "8 golds"
+      },
+      {
+        "rank": 19,
+        "code": "SL",
+        "value": "7 golds"
+      },
+      {
+        "rank": 20,
+        "code": "TT",
+        "value": "6 golds"
+      },
+      {
+        "rank": 21,
+        "code": "LK",
+        "value": "5 golds"
+      },
+      {
+        "rank": 22,
+        "code": "CM",
+        "value": "4 golds"
+      },
+      {
+        "rank": 23,
+        "code": "NA",
+        "value": "4 golds"
+      },
+      {
+        "rank": 24,
+        "code": "MT",
+        "value": "3 golds"
+      },
+      {
+        "rank": 25,
+        "code": "MU",
+        "value": "3 golds"
       }
     ]
   },
@@ -132445,7 +133855,7 @@
     "title": "Most Mediterranean Games gold medals all-time",
     "prompt": "Name the countries with the most gold medals in Mediterranean Games history (1951-2022).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "International Committee of Mediterranean Games \u2014 all-time medal table",
       "url": "https://en.wikipedia.org/wiki/All-time_Mediterranean_Games_medal_table",
@@ -132515,6 +133925,71 @@
         "rank": 12,
         "code": "SY",
         "value": "18 golds"
+      },
+      {
+        "rank": 13,
+        "code": "RS",
+        "value": "16 golds"
+      },
+      {
+        "rank": 14,
+        "code": "LB",
+        "value": "12 golds"
+      },
+      {
+        "rank": 15,
+        "code": "PT",
+        "value": "10 golds"
+      },
+      {
+        "rank": 16,
+        "code": "CY",
+        "value": "8 golds"
+      },
+      {
+        "rank": 17,
+        "code": "IL",
+        "value": "7 golds"
+      },
+      {
+        "rank": 18,
+        "code": "LY",
+        "value": "6 golds"
+      },
+      {
+        "rank": 19,
+        "code": "ME",
+        "value": "5 golds"
+      },
+      {
+        "rank": 20,
+        "code": "SM",
+        "value": "4 golds"
+      },
+      {
+        "rank": 21,
+        "code": "MK",
+        "value": "3 golds"
+      },
+      {
+        "rank": 22,
+        "code": "BA",
+        "value": "3 golds"
+      },
+      {
+        "rank": 23,
+        "code": "AL",
+        "value": "2 golds"
+      },
+      {
+        "rank": 24,
+        "code": "MT",
+        "value": "2 golds"
+      },
+      {
+        "rank": 25,
+        "code": "AD",
+        "value": "1 gold"
       }
     ]
   },
@@ -133555,7 +135030,7 @@
     "title": "Most Alpine Ski World Cup wins (men)",
     "prompt": "Name the countries with the most men's Alpine Skiing World Cup race victories since the tour began in 1967.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "FIS \u2014 Alpine Ski World Cup archive",
       "url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
@@ -133625,6 +135100,71 @@
         "rank": 12,
         "code": "CZ",
         "value": "10 wins"
+      },
+      {
+        "rank": 13,
+        "code": "FI",
+        "value": "8 wins"
+      },
+      {
+        "rank": 14,
+        "code": "HR",
+        "value": "6 wins"
+      },
+      {
+        "rank": 15,
+        "code": "RU",
+        "value": "5 wins"
+      },
+      {
+        "rank": 16,
+        "code": "LU",
+        "value": "4 wins"
+      },
+      {
+        "rank": 17,
+        "code": "ES",
+        "value": "3 wins"
+      },
+      {
+        "rank": 18,
+        "code": "JP",
+        "value": "2 wins"
+      },
+      {
+        "rank": 19,
+        "code": "PL",
+        "value": "2 wins"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "1 win"
+      },
+      {
+        "rank": 21,
+        "code": "AR",
+        "value": "1 win"
+      },
+      {
+        "rank": 22,
+        "code": "BG",
+        "value": "1 win"
+      },
+      {
+        "rank": 23,
+        "code": "GB",
+        "value": "1 win"
+      },
+      {
+        "rank": 24,
+        "code": "NZ",
+        "value": "1 win"
+      },
+      {
+        "rank": 25,
+        "code": "IS",
+        "value": "1 win"
       }
     ]
   },
@@ -133635,7 +135175,7 @@
     "title": "Most Alpine Ski World Cup wins (women)",
     "prompt": "Name the countries with the most women's Alpine Skiing World Cup race victories since the tour began in 1967.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 25,
     "source": {
       "name": "FIS \u2014 Alpine Ski World Cup archive",
       "url": "https://www.fis-ski.com/DB/alpine-skiing/cup-standings.html",
@@ -133705,6 +135245,71 @@
         "rank": 12,
         "code": "CZ",
         "value": "~25 wins"
+      },
+      {
+        "rank": 13,
+        "code": "FI",
+        "value": "~15 wins"
+      },
+      {
+        "rank": 14,
+        "code": "SK",
+        "value": "~12 wins"
+      },
+      {
+        "rank": 15,
+        "code": "RU",
+        "value": "~8 wins"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "~5 wins"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "~4 wins"
+      },
+      {
+        "rank": 18,
+        "code": "HR",
+        "value": "~3 wins"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "~2 wins"
+      },
+      {
+        "rank": 20,
+        "code": "AU",
+        "value": "~2 wins"
+      },
+      {
+        "rank": 21,
+        "code": "BG",
+        "value": "~1 win"
+      },
+      {
+        "rank": 22,
+        "code": "JP",
+        "value": "~1 win"
+      },
+      {
+        "rank": 23,
+        "code": "GB",
+        "value": "~1 win"
+      },
+      {
+        "rank": 24,
+        "code": "GR",
+        "value": "~1 win"
+      },
+      {
+        "rank": 25,
+        "code": "AR",
+        "value": "~1 win"
       }
     ]
   },
@@ -167755,7 +169360,7 @@
     "title": "Lowest average elevation",
     "prompt": "Name the countries with the lowest average (mean) elevation above sea level, from lowest upward.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "Wikipedia \u2014 List of countries by average elevation (compiled from national geodetic surveys)",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_average_elevation",
@@ -167840,6 +169445,106 @@
         "rank": 15,
         "code": "BE",
         "value": "181 m"
+      },
+      {
+        "rank": 16,
+        "code": "KW",
+        "value": "108 m"
+      },
+      {
+        "rank": 17,
+        "code": "TG",
+        "value": "236 m"
+      },
+      {
+        "rank": 18,
+        "code": "PL",
+        "value": "173 m"
+      },
+      {
+        "rank": 19,
+        "code": "UY",
+        "value": "109 m"
+      },
+      {
+        "rank": 20,
+        "code": "AE",
+        "value": "149 m"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "118 m"
+      },
+      {
+        "rank": 22,
+        "code": "TT",
+        "value": "83 m"
+      },
+      {
+        "rank": 23,
+        "code": "HU",
+        "value": "143 m"
+      },
+      {
+        "rank": 24,
+        "code": "MR",
+        "value": "276 m"
+      },
+      {
+        "rank": 25,
+        "code": "GY",
+        "value": "207 m"
+      },
+      {
+        "rank": 26,
+        "code": "PY",
+        "value": "178 m"
+      },
+      {
+        "rank": 27,
+        "code": "CI",
+        "value": "250 m"
+      },
+      {
+        "rank": 28,
+        "code": "IQ",
+        "value": "312 m"
+      },
+      {
+        "rank": 29,
+        "code": "GH",
+        "value": "190 m"
+      },
+      {
+        "rank": 30,
+        "code": "LR",
+        "value": "243 m"
+      },
+      {
+        "rank": 31,
+        "code": "NG",
+        "value": "380 m"
+      },
+      {
+        "rank": 32,
+        "code": "MZ",
+        "value": "345 m"
+      },
+      {
+        "rank": 33,
+        "code": "SL",
+        "value": "279 m"
+      },
+      {
+        "rank": 34,
+        "code": "BR",
+        "value": "320 m"
+      },
+      {
+        "rank": 35,
+        "code": "AR",
+        "value": "595 m"
       }
     ]
   },
@@ -167945,7 +169650,7 @@
     "title": "Widest continental shelves",
     "prompt": "Name the countries with the widest continental shelves, ranked by the maximum shelf width extending from their coast.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "NOAA / GEBCO bathymetric charts, via Encyclopedia Britannica",
       "url": "https://www.britannica.com/science/continental-shelf",
@@ -168030,6 +169735,106 @@
         "rank": 15,
         "code": "MZ",
         "value": "145 km (Sofala Bank)"
+      },
+      {
+        "rank": 16,
+        "code": "VN",
+        "value": "280 km (Gulf of Tonkin)"
+      },
+      {
+        "rank": 17,
+        "code": "FR",
+        "value": "260 km (Bay of Biscay)"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "250 km (Celtic Shelf)"
+      },
+      {
+        "rank": 19,
+        "code": "DE",
+        "value": "230 km (North Sea)"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "220 km (North Sea)"
+      },
+      {
+        "rank": 21,
+        "code": "TH",
+        "value": "220 km (Gulf of Thailand)"
+      },
+      {
+        "rank": 22,
+        "code": "PH",
+        "value": "200 km (Palawan Shelf)"
+      },
+      {
+        "rank": 23,
+        "code": "NG",
+        "value": "190 km (Niger Delta)"
+      },
+      {
+        "rank": 24,
+        "code": "MX",
+        "value": "180 km (Campeche Bank)"
+      },
+      {
+        "rank": 25,
+        "code": "SO",
+        "value": "175 km (Horn shelf)"
+      },
+      {
+        "rank": 26,
+        "code": "KR",
+        "value": "170 km (Yellow Sea)"
+      },
+      {
+        "rank": 27,
+        "code": "SE",
+        "value": "150 km (Baltic)"
+      },
+      {
+        "rank": 28,
+        "code": "GY",
+        "value": "140 km (Guiana Shelf)"
+      },
+      {
+        "rank": 29,
+        "code": "MA",
+        "value": "130 km (Atlantic Morocco)"
+      },
+      {
+        "rank": 30,
+        "code": "MR",
+        "value": "120 km (Arguin Bank)"
+      },
+      {
+        "rank": 31,
+        "code": "JP",
+        "value": "115 km (East China Sea side)"
+      },
+      {
+        "rank": 32,
+        "code": "VE",
+        "value": "110 km (Orinoco)"
+      },
+      {
+        "rank": 33,
+        "code": "SN",
+        "value": "100 km (West African Shelf)"
+      },
+      {
+        "rank": 34,
+        "code": "ZA",
+        "value": "95 km (Agulhas Bank)"
+      },
+      {
+        "rank": 35,
+        "code": "PK",
+        "value": "90 km (Indus Shelf)"
       }
     ]
   },
@@ -168040,7 +169845,7 @@
     "title": "Highest tree cover density",
     "prompt": "Name the countries with the highest tree cover as a percentage of their land area, from most forested downward.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "FAO \u2014 Global Forest Resources Assessment (via Wikipedia)",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_by_forest_area",
@@ -168125,6 +169930,106 @@
         "rank": 15,
         "code": "KR",
         "value": "64.5%"
+      },
+      {
+        "rank": 16,
+        "code": "CG",
+        "value": "65.4%"
+      },
+      {
+        "rank": 17,
+        "code": "MY",
+        "value": "58.2%"
+      },
+      {
+        "rank": 18,
+        "code": "BR",
+        "value": "59.4%"
+      },
+      {
+        "rank": 19,
+        "code": "PE",
+        "value": "57.7%"
+      },
+      {
+        "rank": 20,
+        "code": "CD",
+        "value": "55.6%"
+      },
+      {
+        "rank": 21,
+        "code": "SI",
+        "value": "61.5%"
+      },
+      {
+        "rank": 22,
+        "code": "EE",
+        "value": "56.1%"
+      },
+      {
+        "rank": 23,
+        "code": "LV",
+        "value": "54.9%"
+      },
+      {
+        "rank": 24,
+        "code": "CO",
+        "value": "52.7%"
+      },
+      {
+        "rank": 25,
+        "code": "ID",
+        "value": "49.1%"
+      },
+      {
+        "rank": 26,
+        "code": "VE",
+        "value": "52.3%"
+      },
+      {
+        "rank": 27,
+        "code": "ZM",
+        "value": "60.3%"
+      },
+      {
+        "rank": 28,
+        "code": "BO",
+        "value": "50.4%"
+      },
+      {
+        "rank": 29,
+        "code": "AO",
+        "value": "46.4%"
+      },
+      {
+        "rank": 30,
+        "code": "MZ",
+        "value": "43.2%"
+      },
+      {
+        "rank": 31,
+        "code": "GN",
+        "value": "25.9%"
+      },
+      {
+        "rank": 32,
+        "code": "NO",
+        "value": "33.2%"
+      },
+      {
+        "rank": 33,
+        "code": "AT",
+        "value": "46.9%"
+      },
+      {
+        "rank": 34,
+        "code": "MM",
+        "value": "43.6%"
+      },
+      {
+        "rank": 35,
+        "code": "NZ",
+        "value": "37.6%"
       }
     ]
   },
@@ -168135,7 +170040,7 @@
     "title": "Most named mountain ranges",
     "prompt": "Name the countries containing the most distinct named mountain ranges, from most downward.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 35,
     "source": {
       "name": "Wikipedia \u2014 List of mountain ranges",
       "url": "https://en.wikipedia.org/wiki/List_of_mountain_ranges",
@@ -168220,6 +170125,106 @@
         "rank": 15,
         "code": "TR",
         "value": "48 ranges"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "46 ranges"
+      },
+      {
+        "rank": 17,
+        "code": "JP",
+        "value": "44 ranges"
+      },
+      {
+        "rank": 18,
+        "code": "PK",
+        "value": "42 ranges"
+      },
+      {
+        "rank": 19,
+        "code": "AF",
+        "value": "40 ranges"
+      },
+      {
+        "rank": 20,
+        "code": "NO",
+        "value": "38 ranges"
+      },
+      {
+        "rank": 21,
+        "code": "CO",
+        "value": "36 ranges"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "34 ranges"
+      },
+      {
+        "rank": 23,
+        "code": "MN",
+        "value": "32 ranges"
+      },
+      {
+        "rank": 24,
+        "code": "KZ",
+        "value": "30 ranges"
+      },
+      {
+        "rank": 25,
+        "code": "GR",
+        "value": "28 ranges"
+      },
+      {
+        "rank": 26,
+        "code": "DE",
+        "value": "27 ranges"
+      },
+      {
+        "rank": 27,
+        "code": "RO",
+        "value": "26 ranges"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "25 ranges"
+      },
+      {
+        "rank": 29,
+        "code": "AT",
+        "value": "24 ranges"
+      },
+      {
+        "rank": 30,
+        "code": "NZ",
+        "value": "23 ranges"
+      },
+      {
+        "rank": 31,
+        "code": "GB",
+        "value": "22 ranges"
+      },
+      {
+        "rank": 32,
+        "code": "BO",
+        "value": "22 ranges"
+      },
+      {
+        "rank": 33,
+        "code": "VE",
+        "value": "21 ranges"
+      },
+      {
+        "rank": 34,
+        "code": "ET",
+        "value": "20 ranges"
+      },
+      {
+        "rank": 35,
+        "code": "KG",
+        "value": "20 ranges"
       }
     ]
   },
@@ -168325,7 +170330,7 @@
     "title": "Largest inland freshwater volume",
     "prompt": "Name the countries with the greatest volume of inland liquid fresh water (lakes and rivers), from most downward.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 31,
     "source": {
       "name": "USGS Water Science School \u2014 How Much Water is There on Earth?",
       "url": "https://www.usgs.gov/special-topics/water-science-school/science/how-much-water-there-earth",
@@ -168410,6 +170415,86 @@
         "rank": 15,
         "code": "AU",
         "value": "175 km\u00b3"
+      },
+      {
+        "rank": 16,
+        "code": "IN",
+        "value": "310 km\u00b3"
+      },
+      {
+        "rank": 17,
+        "code": "NO",
+        "value": "290 km\u00b3"
+      },
+      {
+        "rank": 18,
+        "code": "MZ",
+        "value": "280 km\u00b3 (Malawi share)"
+      },
+      {
+        "rank": 19,
+        "code": "BI",
+        "value": "220 km\u00b3 (Tanganyika share)"
+      },
+      {
+        "rank": 20,
+        "code": "ZM",
+        "value": "215 km\u00b3 (Kariba share)"
+      },
+      {
+        "rank": 21,
+        "code": "ZW",
+        "value": "185 km\u00b3 (Kariba share)"
+      },
+      {
+        "rank": 22,
+        "code": "TR",
+        "value": "170 km\u00b3"
+      },
+      {
+        "rank": 23,
+        "code": "CO",
+        "value": "155 km\u00b3"
+      },
+      {
+        "rank": 24,
+        "code": "VE",
+        "value": "145 km\u00b3 (Maracaibo)"
+      },
+      {
+        "rank": 25,
+        "code": "BO",
+        "value": "135 km\u00b3 (Titicaca share)"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "125 km\u00b3"
+      },
+      {
+        "rank": 27,
+        "code": "ID",
+        "value": "120 km\u00b3 (Toba)"
+      },
+      {
+        "rank": 28,
+        "code": "IR",
+        "value": "110 km\u00b3"
+      },
+      {
+        "rank": 29,
+        "code": "PL",
+        "value": "95 km\u00b3"
+      },
+      {
+        "rank": 30,
+        "code": "MM",
+        "value": "90 km\u00b3"
+      },
+      {
+        "rank": 31,
+        "code": "NZ",
+        "value": "85 km\u00b3"
       }
     ]
   },
@@ -170060,7 +172145,7 @@
     "title": "Largest hydroelectric reservoirs by capacity",
     "prompt": "Name the countries containing the world's largest hydroelectric-generation reservoirs (ranked by installed generating capacity of the associated dam).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "International Hydropower Association \u2014 installed capacity database",
       "url": "https://www.hydropower.org/status-report",
@@ -170145,6 +172230,181 @@
         "rank": 15,
         "code": "IR",
         "value": "2,000 MW (Karun-3)"
+      },
+      {
+        "rank": 16,
+        "code": "MX",
+        "value": "2,400 MW (Manuel Moreno Torres/Chicoas\u00e9n)"
+      },
+      {
+        "rank": 17,
+        "code": "CO",
+        "value": "2,400 MW (Ituango)"
+      },
+      {
+        "rank": 18,
+        "code": "LA",
+        "value": "1,285 MW (Nam Theun 2 complex)"
+      },
+      {
+        "rank": 19,
+        "code": "SD",
+        "value": "1,250 MW (Merowe)"
+      },
+      {
+        "rank": 20,
+        "code": "EG",
+        "value": "2,100 MW (Aswan High Dam)"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "2,400 MW (Atat\u00fcrk)"
+      },
+      {
+        "rank": 22,
+        "code": "AU",
+        "value": "2,200 MW (Snowy Mountains scheme)"
+      },
+      {
+        "rank": 23,
+        "code": "CH",
+        "value": "1,269 MW (Grande Dixence)"
+      },
+      {
+        "rank": 24,
+        "code": "FR",
+        "value": "1,800 MW (Grand'Maison)"
+      },
+      {
+        "rank": 25,
+        "code": "AT",
+        "value": "1,014 MW (Kaprun/K\u00f6lnbrein)"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "934 MW (Aldead\u00e1vila)"
+      },
+      {
+        "rank": 27,
+        "code": "PT",
+        "value": "1,158 MW (Alqueva/Alto Lindoso)"
+      },
+      {
+        "rank": 28,
+        "code": "JP",
+        "value": "1,820 MW (Okutataragi pumped storage)"
+      },
+      {
+        "rank": 29,
+        "code": "KR",
+        "value": "1,000 MW (Cheongpyeong pumped storage)"
+      },
+      {
+        "rank": 30,
+        "code": "CD",
+        "value": "1,775 MW (Inga II)"
+      },
+      {
+        "rank": 31,
+        "code": "MZ",
+        "value": "2,075 MW (Cahora Bassa)"
+      },
+      {
+        "rank": 32,
+        "code": "ZM",
+        "value": "1,080 MW (Kariba North)"
+      },
+      {
+        "rank": 33,
+        "code": "ZW",
+        "value": "1,050 MW (Kariba South)"
+      },
+      {
+        "rank": 34,
+        "code": "GH",
+        "value": "1,020 MW (Akosombo)"
+      },
+      {
+        "rank": 35,
+        "code": "NG",
+        "value": "760 MW (Kainji)"
+      },
+      {
+        "rank": 36,
+        "code": "AO",
+        "value": "2,067 MW (La\u00faca)"
+      },
+      {
+        "rank": 37,
+        "code": "UY",
+        "value": "1,890 MW (Salto Grande, shared)"
+      },
+      {
+        "rank": 38,
+        "code": "TJ",
+        "value": "3,000 MW (Nurek)"
+      },
+      {
+        "rank": 39,
+        "code": "KG",
+        "value": "1,200 MW (Toktogul)"
+      },
+      {
+        "rank": 40,
+        "code": "KZ",
+        "value": "1,250 MW (Bukhtarma)"
+      },
+      {
+        "rank": 41,
+        "code": "UA",
+        "value": "1,570 MW (Dnieper HES)"
+      },
+      {
+        "rank": 42,
+        "code": "RO",
+        "value": "1,038 MW (Iron Gate I, shared)"
+      },
+      {
+        "rank": 43,
+        "code": "RS",
+        "value": "1,058 MW (Iron Gate I, shared)"
+      },
+      {
+        "rank": 44,
+        "code": "SE",
+        "value": "977 MW (Harspr\u00e5nget)"
+      },
+      {
+        "rank": 45,
+        "code": "IS",
+        "value": "690 MW (K\u00e1rahnj\u00fakar)"
+      },
+      {
+        "rank": 46,
+        "code": "NP",
+        "value": "456 MW (Upper Tamakoshi)"
+      },
+      {
+        "rank": 47,
+        "code": "BT",
+        "value": "1,020 MW (Tala)"
+      },
+      {
+        "rank": 48,
+        "code": "GE",
+        "value": "1,300 MW (Enguri)"
+      },
+      {
+        "rank": 49,
+        "code": "GT",
+        "value": "281 MW (Chixoy)"
+      },
+      {
+        "rank": 50,
+        "code": "PA",
+        "value": "300 MW (Fortuna)"
       }
     ]
   },
@@ -170155,7 +172415,7 @@
     "title": "Most large dams",
     "prompt": "Name the countries with the most large dams (reservoirs and hydroelectric structures over 15 m tall).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "International Commission on Large Dams (ICOLD) \u2014 World Register of Dams",
       "url": "https://www.icold-cigb.org/GB/world_register/general_synthesis.asp",
@@ -170240,6 +172500,181 @@
         "rank": 15,
         "code": "AU",
         "value": "507 dams"
+      },
+      {
+        "rank": 16,
+        "code": "NO",
+        "value": "347 dams"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "371 dams"
+      },
+      {
+        "rank": 18,
+        "code": "AL",
+        "value": "306 dams"
+      },
+      {
+        "rank": 19,
+        "code": "RO",
+        "value": "246 dams"
+      },
+      {
+        "rank": 20,
+        "code": "ZW",
+        "value": "254 dams"
+      },
+      {
+        "rank": 21,
+        "code": "SE",
+        "value": "190 dams"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "220 dams"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "150 dams"
+      },
+      {
+        "rank": 24,
+        "code": "IR",
+        "value": "316 dams"
+      },
+      {
+        "rank": 25,
+        "code": "RU",
+        "value": "217 dams"
+      },
+      {
+        "rank": 26,
+        "code": "PT",
+        "value": "217 dams"
+      },
+      {
+        "rank": 27,
+        "code": "BG",
+        "value": "217 dams"
+      },
+      {
+        "rank": 28,
+        "code": "GR",
+        "value": "144 dams"
+      },
+      {
+        "rank": 29,
+        "code": "CZ",
+        "value": "118 dams"
+      },
+      {
+        "rank": 30,
+        "code": "SK",
+        "value": "50 dams"
+      },
+      {
+        "rank": 31,
+        "code": "NL",
+        "value": "12 dams"
+      },
+      {
+        "rank": 32,
+        "code": "BE",
+        "value": "16 dams"
+      },
+      {
+        "rank": 33,
+        "code": "FI",
+        "value": "55 dams"
+      },
+      {
+        "rank": 34,
+        "code": "IS",
+        "value": "20 dams"
+      },
+      {
+        "rank": 35,
+        "code": "PL",
+        "value": "70 dams"
+      },
+      {
+        "rank": 36,
+        "code": "AR",
+        "value": "129 dams"
+      },
+      {
+        "rank": 37,
+        "code": "CL",
+        "value": "104 dams"
+      },
+      {
+        "rank": 38,
+        "code": "CO",
+        "value": "31 dams"
+      },
+      {
+        "rank": 39,
+        "code": "VE",
+        "value": "74 dams"
+      },
+      {
+        "rank": 40,
+        "code": "PE",
+        "value": "43 dams"
+      },
+      {
+        "rank": 41,
+        "code": "NZ",
+        "value": "104 dams"
+      },
+      {
+        "rank": 42,
+        "code": "TH",
+        "value": "70 dams"
+      },
+      {
+        "rank": 43,
+        "code": "VN",
+        "value": "60 dams"
+      },
+      {
+        "rank": 44,
+        "code": "ID",
+        "value": "96 dams"
+      },
+      {
+        "rank": 45,
+        "code": "PK",
+        "value": "155 dams"
+      },
+      {
+        "rank": 46,
+        "code": "MY",
+        "value": "72 dams"
+      },
+      {
+        "rank": 47,
+        "code": "PH",
+        "value": "18 dams"
+      },
+      {
+        "rank": 48,
+        "code": "EG",
+        "value": "10 dams"
+      },
+      {
+        "rank": 49,
+        "code": "MA",
+        "value": "134 dams"
+      },
+      {
+        "rank": 50,
+        "code": "NG",
+        "value": "37 dams"
       }
     ]
   },
@@ -170250,7 +172685,7 @@
     "title": "Countries with the most international river basins",
     "prompt": "Name the countries whose territory falls within the most transboundary (cross-border) river basins.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 49,
     "source": {
       "name": "Transboundary Freshwater Dispute Database \u2014 Oregon State University",
       "url": "https://transboundarywaters.science.oregonstate.edu/",
@@ -170335,6 +172770,176 @@
         "rank": 15,
         "code": "AT",
         "value": "10 basins (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "CD",
+        "value": "10 basins (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "TZ",
+        "value": "9 basins"
+      },
+      {
+        "rank": 18,
+        "code": "SD",
+        "value": "9 basins (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "ML",
+        "value": "9 basins (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "9 basins (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BF",
+        "value": "9 basins"
+      },
+      {
+        "rank": 23,
+        "code": "SN",
+        "value": "8 basins"
+      },
+      {
+        "rank": 24,
+        "code": "MW",
+        "value": "8 basins (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "CH",
+        "value": "8 basins (tied)"
+      },
+      {
+        "rank": 26,
+        "code": "BR",
+        "value": "8 basins"
+      },
+      {
+        "rank": 27,
+        "code": "AO",
+        "value": "8 basins (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "RW",
+        "value": "7 basins"
+      },
+      {
+        "rank": 29,
+        "code": "NE",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "KE",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "IT",
+        "value": "7 basins"
+      },
+      {
+        "rank": 32,
+        "code": "ET",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "EG",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "CO",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "CM",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "BJ",
+        "value": "7 basins (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "UG",
+        "value": "6 basins"
+      },
+      {
+        "rank": 38,
+        "code": "TG",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "TD",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "RS",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "PY",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 42,
+        "code": "MR",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "HU",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "GH",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "CG",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "BO",
+        "value": "6 basins (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "BW",
+        "value": "5 basins"
+      },
+      {
+        "rank": 48,
+        "code": "UA",
+        "value": "5 basins (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "SK",
+        "value": "5 basins (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "RO",
+        "value": "5 basins (tied)"
       }
     ]
   },
@@ -170410,7 +173015,7 @@
     "title": "Largest countries in Africa by area",
     "prompt": "Name the largest countries in Africa ranked by total area (land plus inland water), in square kilometres.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
       "url": "https://www.cia.gov/the-world-factbook/field/area/",
@@ -170495,6 +173100,181 @@
         "rank": 15,
         "code": "NA",
         "value": "825,615 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "MZ",
+        "value": "799,380 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "ZM",
+        "value": "752,618 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "SS",
+        "value": "644,329 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "SO",
+        "value": "637,657 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "CF",
+        "value": "622,984 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "MG",
+        "value": "587,041 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "BW",
+        "value": "581,730 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "KE",
+        "value": "580,367 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "CM",
+        "value": "475,440 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "MA",
+        "value": "446,550 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "ZW",
+        "value": "390,757 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "CG",
+        "value": "342,000 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "CI",
+        "value": "322,463 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "BF",
+        "value": "272,967 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "GA",
+        "value": "267,667 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "GN",
+        "value": "245,857 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "UG",
+        "value": "241,038 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "GH",
+        "value": "238,533 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "SN",
+        "value": "196,722 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "TN",
+        "value": "163,610 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "MW",
+        "value": "118,484 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "ER",
+        "value": "117,600 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "BJ",
+        "value": "112,622 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "LR",
+        "value": "111,369 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "SL",
+        "value": "71,740 km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "TG",
+        "value": "56,785 km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "GW",
+        "value": "36,125 km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "LS",
+        "value": "30,355 km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "GQ",
+        "value": "28,051 km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "BI",
+        "value": "27,830 km\u00b2"
+      },
+      {
+        "rank": 46,
+        "code": "RW",
+        "value": "26,338 km\u00b2"
+      },
+      {
+        "rank": 47,
+        "code": "DJ",
+        "value": "23,200 km\u00b2"
+      },
+      {
+        "rank": 48,
+        "code": "SZ",
+        "value": "17,364 km\u00b2"
+      },
+      {
+        "rank": 49,
+        "code": "GM",
+        "value": "11,300 km\u00b2"
+      },
+      {
+        "rank": 50,
+        "code": "CV",
+        "value": "4,033 km\u00b2"
       }
     ]
   },
@@ -170505,7 +173285,7 @@
     "title": "Largest countries in Asia by area",
     "prompt": "Name the largest countries in Asia ranked by total area (land plus inland water), in square kilometres.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
       "url": "https://www.cia.gov/the-world-factbook/field/area/",
@@ -170590,6 +173370,181 @@
         "rank": 15,
         "code": "TM",
         "value": "488,100 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "UZ",
+        "value": "447,400 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "IQ",
+        "value": "438,317 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "JP",
+        "value": "377,975 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "VN",
+        "value": "331,210 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "MY",
+        "value": "329,847 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "OM",
+        "value": "309,500 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "PH",
+        "value": "300,000 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "LA",
+        "value": "236,800 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "KG",
+        "value": "199,951 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "BD",
+        "value": "148,460 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "SY",
+        "value": "185,180 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "KH",
+        "value": "181,035 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "NP",
+        "value": "147,181 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "TJ",
+        "value": "144,100 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "KP",
+        "value": "120,538 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "KR",
+        "value": "99,720 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "JO",
+        "value": "89,342 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "AZ",
+        "value": "86,600 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "AE",
+        "value": "83,600 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "GE",
+        "value": "69,700 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "LK",
+        "value": "65,610 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "BT",
+        "value": "38,394 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "TW",
+        "value": "35,980 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "AM",
+        "value": "29,743 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "IL",
+        "value": "20,770 km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "KW",
+        "value": "17,818 km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "TL",
+        "value": "14,874 km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "QA",
+        "value": "11,586 km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "LB",
+        "value": "10,400 km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "CY",
+        "value": "9,251 km\u00b2"
+      },
+      {
+        "rank": 46,
+        "code": "BN",
+        "value": "5,765 km\u00b2"
+      },
+      {
+        "rank": 47,
+        "code": "BH",
+        "value": "760 km\u00b2"
+      },
+      {
+        "rank": 48,
+        "code": "SG",
+        "value": "719 km\u00b2"
+      },
+      {
+        "rank": 49,
+        "code": "MV",
+        "value": "298 km\u00b2"
+      },
+      {
+        "rank": 50,
+        "code": "PS",
+        "value": "6,020 km\u00b2"
       }
     ]
   },
@@ -170600,7 +173555,7 @@
     "title": "Largest countries in Europe by area",
     "prompt": "Name the largest countries in Europe ranked by total area (land plus inland water), in square kilometres.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 45,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
       "url": "https://www.cia.gov/the-world-factbook/field/area/",
@@ -170685,6 +173640,156 @@
         "rank": 15,
         "code": "BG",
         "value": "110,879 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "IS",
+        "value": "103,000 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "HU",
+        "value": "93,028 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "PT",
+        "value": "92,090 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "RS",
+        "value": "77,474 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "83,871 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "78,867 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "IE",
+        "value": "70,273 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "LT",
+        "value": "65,300 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "LV",
+        "value": "64,589 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "HR",
+        "value": "56,594 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "BA",
+        "value": "51,197 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "SK",
+        "value": "49,035 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "EE",
+        "value": "45,228 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "DK",
+        "value": "43,094 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "NL",
+        "value": "41,543 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "CH",
+        "value": "41,277 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "MD",
+        "value": "33,851 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "BE",
+        "value": "30,528 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "AL",
+        "value": "28,748 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "MK",
+        "value": "25,713 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "SI",
+        "value": "20,273 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "ME",
+        "value": "13,812 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "CY",
+        "value": "9,251 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "LU",
+        "value": "2,586 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "AD",
+        "value": "468 km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "MT",
+        "value": "316 km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "LI",
+        "value": "160 km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "SM",
+        "value": "61 km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "MC",
+        "value": "2 km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "VA",
+        "value": "0.49 km\u00b2"
       }
     ]
   },
@@ -171080,7 +174185,7 @@
     "title": "Smallest countries in the world by area",
     "prompt": "Name the smallest sovereign countries in the world ranked by total area (rank 1 is smallest), in square kilometres.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "UN Statistics Division / CIA World Factbook",
       "url": "https://www.cia.gov/the-world-factbook/field/area/",
@@ -171165,6 +174270,181 @@
         "rank": 15,
         "code": "SC",
         "value": "455 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "AD",
+        "value": "468 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "PW",
+        "value": "459 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "FM",
+        "value": "702 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "SG",
+        "value": "719 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "BH",
+        "value": "760 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "DM",
+        "value": "751 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "TO",
+        "value": "747 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "KI",
+        "value": "811 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "LC",
+        "value": "616 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "ST",
+        "value": "964 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "MU",
+        "value": "2,040 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "LU",
+        "value": "2,586 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "KM",
+        "value": "2,235 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "WS",
+        "value": "2,831 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "CV",
+        "value": "4,033 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "TT",
+        "value": "5,128 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "BN",
+        "value": "5,765 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "CY",
+        "value": "9,251 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "LB",
+        "value": "10,400 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "JM",
+        "value": "10,991 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "GM",
+        "value": "11,300 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "QA",
+        "value": "11,586 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "VU",
+        "value": "12,189 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "ME",
+        "value": "13,812 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "BS",
+        "value": "13,880 km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "TL",
+        "value": "14,874 km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "SZ",
+        "value": "17,364 km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "KW",
+        "value": "17,818 km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "FJ",
+        "value": "18,272 km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "IL",
+        "value": "20,770 km\u00b2"
+      },
+      {
+        "rank": 46,
+        "code": "SI",
+        "value": "20,273 km\u00b2"
+      },
+      {
+        "rank": 47,
+        "code": "DJ",
+        "value": "23,200 km\u00b2"
+      },
+      {
+        "rank": 48,
+        "code": "BZ",
+        "value": "22,966 km\u00b2"
+      },
+      {
+        "rank": 49,
+        "code": "MK",
+        "value": "25,713 km\u00b2"
+      },
+      {
+        "rank": 50,
+        "code": "RW",
+        "value": "26,338 km\u00b2"
       }
     ]
   },
@@ -171175,7 +174455,7 @@
     "title": "Largest EU member states by area",
     "prompt": "Name the largest current member states of the European Union ranked by total area, in square kilometres.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 27,
     "source": {
       "name": "Eurostat / European Union \u2014 country profiles",
       "url": "https://european-union.europa.eu/principles-countries-history/eu-countries_en",
@@ -171260,6 +174540,66 @@
         "rank": 15,
         "code": "IE",
         "value": "70,273 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "LT",
+        "value": "65,300 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "LV",
+        "value": "64,589 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "HR",
+        "value": "56,594 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "SK",
+        "value": "49,035 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "EE",
+        "value": "45,228 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "DK",
+        "value": "43,094 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "41,543 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "BE",
+        "value": "30,528 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "SI",
+        "value": "20,273 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "CY",
+        "value": "9,251 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "LU",
+        "value": "2,586 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "MT",
+        "value": "316 km\u00b2"
       }
     ]
   },
@@ -173540,7 +176880,7 @@
     "title": "Northernmost inhabited settlement",
     "prompt": "Name the countries containing the world's northernmost permanently inhabited settlements (highest latitude of a year-round community).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Statistics Norway / Statistics Canada / Statistics Greenland \u2014 permanent settlement latitudes",
       "url": "https://en.wikipedia.org/wiki/Northernmost_settlements",
@@ -173625,6 +176965,81 @@
         "rank": 15,
         "code": "KZ",
         "value": "55.43 N (Petropavl)"
+      },
+      {
+        "rank": 16,
+        "code": "MN",
+        "value": "52.15 N (Ulgii)"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "54.83 N (Wladyslawowo)"
+      },
+      {
+        "rank": 18,
+        "code": "DE",
+        "value": "54.90 N (List auf Sylt)"
+      },
+      {
+        "rank": 19,
+        "code": "NL",
+        "value": "53.47 N (Rottumeroog area)"
+      },
+      {
+        "rank": 20,
+        "code": "UA",
+        "value": "52.38 N (Seredyna-Buda)"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "51.06 N (Sluknov)"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "51.51 N (Zuienkerke area)"
+      },
+      {
+        "rank": 23,
+        "code": "SK",
+        "value": "49.60 N (Skalite)"
+      },
+      {
+        "rank": 24,
+        "code": "AT",
+        "value": "48.98 N (Rainbach)"
+      },
+      {
+        "rank": 25,
+        "code": "MD",
+        "value": "48.47 N (Ocnita)"
+      },
+      {
+        "rank": 26,
+        "code": "FR",
+        "value": "51.09 N (Bray-Dunes)"
+      },
+      {
+        "rank": 27,
+        "code": "CH",
+        "value": "47.80 N (Bargen)"
+      },
+      {
+        "rank": 28,
+        "code": "HU",
+        "value": "48.58 N (Tornyosnemeti)"
+      },
+      {
+        "rank": 29,
+        "code": "LI",
+        "value": "47.27 N (Ruggell)"
+      },
+      {
+        "rank": 30,
+        "code": "RO",
+        "value": "48.27 N (Horodistea)"
       }
     ]
   },
@@ -173635,7 +177050,7 @@
     "title": "Southernmost inhabited settlement",
     "prompt": "Name the countries containing the world's southernmost permanently inhabited settlements (highest southern latitude of a year-round civilian community).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 29,
     "source": {
       "name": "INDEC / INE Chile / Statistics NZ \u2014 southernmost civilian settlements",
       "url": "https://en.wikipedia.org/wiki/Extreme_points_of_Earth",
@@ -173720,6 +177135,76 @@
         "rank": 15,
         "code": "ZW",
         "value": "22.42 S (Beitbridge)"
+      },
+      {
+        "rank": 16,
+        "code": "BO",
+        "value": "22.78 S (Villazon)"
+      },
+      {
+        "rank": 17,
+        "code": "MU",
+        "value": "20.52 S (Souillac)"
+      },
+      {
+        "rank": 18,
+        "code": "PE",
+        "value": "18.35 S (Tacna)"
+      },
+      {
+        "rank": 19,
+        "code": "FJ",
+        "value": "19.13 S (Kadavu)"
+      },
+      {
+        "rank": 20,
+        "code": "AO",
+        "value": "17.13 S (Santa Clara)"
+      },
+      {
+        "rank": 21,
+        "code": "ZM",
+        "value": "17.85 S (Livingstone)"
+      },
+      {
+        "rank": 22,
+        "code": "MW",
+        "value": "17.12 S (Nsanje)"
+      },
+      {
+        "rank": 23,
+        "code": "VU",
+        "value": "20.25 S (Aneityum)"
+      },
+      {
+        "rank": 24,
+        "code": "TO",
+        "value": "22.33 S (Niuafoou)"
+      },
+      {
+        "rank": 26,
+        "code": "PG",
+        "value": "11.65 S (Milne Bay)"
+      },
+      {
+        "rank": 27,
+        "code": "TL",
+        "value": "9.51 S (Suai)"
+      },
+      {
+        "rank": 28,
+        "code": "ID",
+        "value": "10.93 S (Rote Island)"
+      },
+      {
+        "rank": 29,
+        "code": "SB",
+        "value": "11.65 S (Rennell)"
+      },
+      {
+        "rank": 30,
+        "code": "WS",
+        "value": "14.05 S (Salailua)"
       }
     ]
   },
@@ -173730,7 +177215,7 @@
     "title": "Northernmost capital city",
     "prompt": "Name the countries whose capital city sits at the highest northern latitude.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "National statistics offices \u2014 capital city coordinates",
       "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude",
@@ -173815,6 +177300,81 @@
         "rank": 15,
         "code": "PL",
         "value": "52.23 N (Warsaw)"
+      },
+      {
+        "rank": 16,
+        "code": "KZ",
+        "value": "51.17 N (Astana)"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "50.85 N (Brussels)"
+      },
+      {
+        "rank": 18,
+        "code": "CZ",
+        "value": "50.08 N (Prague)"
+      },
+      {
+        "rank": 19,
+        "code": "UA",
+        "value": "50.45 N (Kyiv)"
+      },
+      {
+        "rank": 20,
+        "code": "CA",
+        "value": "45.42 N (Ottawa)"
+      },
+      {
+        "rank": 21,
+        "code": "LU",
+        "value": "49.61 N (Luxembourg)"
+      },
+      {
+        "rank": 22,
+        "code": "SK",
+        "value": "48.15 N (Bratislava)"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "48.21 N (Vienna)"
+      },
+      {
+        "rank": 24,
+        "code": "HU",
+        "value": "47.50 N (Budapest)"
+      },
+      {
+        "rank": 25,
+        "code": "MD",
+        "value": "47.01 N (Chisinau)"
+      },
+      {
+        "rank": 26,
+        "code": "FR",
+        "value": "48.85 N (Paris)"
+      },
+      {
+        "rank": 27,
+        "code": "MN",
+        "value": "47.92 N (Ulaanbaatar)"
+      },
+      {
+        "rank": 28,
+        "code": "CH",
+        "value": "46.95 N (Bern)"
+      },
+      {
+        "rank": 29,
+        "code": "LI",
+        "value": "47.14 N (Vaduz)"
+      },
+      {
+        "rank": 30,
+        "code": "RO",
+        "value": "44.43 N (Bucharest)"
       }
     ]
   },
@@ -173825,7 +177385,7 @@
     "title": "Southernmost capital city",
     "prompt": "Name the countries whose capital city sits at the highest southern latitude.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "National statistics offices \u2014 capital city coordinates",
       "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude",
@@ -173910,6 +177470,81 @@
         "rank": 15,
         "code": "BO",
         "value": "16.50 S (Sucre)"
+      },
+      {
+        "rank": 16,
+        "code": "PE",
+        "value": "12.05 S (Lima)"
+      },
+      {
+        "rank": 17,
+        "code": "ZM",
+        "value": "15.42 S (Lusaka)"
+      },
+      {
+        "rank": 18,
+        "code": "AO",
+        "value": "8.84 S (Luanda)"
+      },
+      {
+        "rank": 19,
+        "code": "MW",
+        "value": "13.98 S (Lilongwe)"
+      },
+      {
+        "rank": 20,
+        "code": "TL",
+        "value": "8.56 S (Dili)"
+      },
+      {
+        "rank": 21,
+        "code": "ID",
+        "value": "6.21 S (Jakarta)"
+      },
+      {
+        "rank": 22,
+        "code": "BR",
+        "value": "15.79 S (Brasilia)"
+      },
+      {
+        "rank": 23,
+        "code": "TZ",
+        "value": "6.16 S (Dodoma)"
+      },
+      {
+        "rank": 24,
+        "code": "PG",
+        "value": "9.44 S (Port Moresby)"
+      },
+      {
+        "rank": 25,
+        "code": "FJ",
+        "value": "18.14 S (Suva)"
+      },
+      {
+        "rank": 26,
+        "code": "TO",
+        "value": "21.14 S (Nukualofa)"
+      },
+      {
+        "rank": 27,
+        "code": "VU",
+        "value": "17.73 S (Port Vila)"
+      },
+      {
+        "rank": 28,
+        "code": "WS",
+        "value": "13.83 S (Apia)"
+      },
+      {
+        "rank": 29,
+        "code": "SB",
+        "value": "9.43 S (Honiara)"
+      },
+      {
+        "rank": 30,
+        "code": "CD",
+        "value": "4.32 S (Kinshasa)"
       }
     ]
   },
@@ -173920,7 +177555,7 @@
     "title": "Highest capital by elevation",
     "prompt": "Name the countries whose capital city sits at the highest elevation above sea level.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "National geographic services \u2014 capital elevation records",
       "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation",
@@ -174005,6 +177640,81 @@
         "rank": 15,
         "code": "AM",
         "value": "1,000 m (Yerevan)"
+      },
+      {
+        "rank": 16,
+        "code": "MN",
+        "value": "1,350 m (Ulaanbaatar)"
+      },
+      {
+        "rank": 17,
+        "code": "SV",
+        "value": "659 m (San Salvador)"
+      },
+      {
+        "rank": 18,
+        "code": "AD",
+        "value": "1,023 m (Andorra la Vella)"
+      },
+      {
+        "rank": 19,
+        "code": "CR",
+        "value": "1,172 m (San Jose)"
+      },
+      {
+        "rank": 20,
+        "code": "MG",
+        "value": "1,276 m (Antananarivo)"
+      },
+      {
+        "rank": 21,
+        "code": "NP",
+        "value": "1,400 m (Kathmandu)"
+      },
+      {
+        "rank": 22,
+        "code": "ZW",
+        "value": "1,483 m (Harare)"
+      },
+      {
+        "rank": 23,
+        "code": "SZ",
+        "value": "1,243 m (Mbabane)"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "1,339 m (Pretoria)"
+      },
+      {
+        "rank": 25,
+        "code": "MW",
+        "value": "1,050 m (Lilongwe)"
+      },
+      {
+        "rank": 26,
+        "code": "TZ",
+        "value": "1,120 m (Dodoma)"
+      },
+      {
+        "rank": 27,
+        "code": "ZM",
+        "value": "1,279 m (Lusaka)"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "938 m (Ankara)"
+      },
+      {
+        "rank": 29,
+        "code": "ES",
+        "value": "667 m (Madrid)"
+      },
+      {
+        "rank": 30,
+        "code": "SA",
+        "value": "612 m (Riyadh)"
       }
     ]
   },
@@ -174015,7 +177725,7 @@
     "title": "Lowest capital by elevation",
     "prompt": "Name the countries whose capital city sits at the lowest elevation above (or below) sea level.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "National geographic services \u2014 capital elevation records",
       "url": "https://en.wikipedia.org/wiki/List_of_capital_cities_by_elevation",
@@ -174100,6 +177810,81 @@
         "rank": 15,
         "code": "MC",
         "value": "16 m (Monaco)"
+      },
+      {
+        "rank": 16,
+        "code": "SN",
+        "value": "22 m (Dakar)"
+      },
+      {
+        "rank": 17,
+        "code": "MT",
+        "value": "56 m (Valletta)"
+      },
+      {
+        "rank": 18,
+        "code": "TN",
+        "value": "4 m (Tunis)"
+      },
+      {
+        "rank": 19,
+        "code": "LY",
+        "value": "9 m (Tripoli)"
+      },
+      {
+        "rank": 20,
+        "code": "TT",
+        "value": "12 m (Port of Spain)"
+      },
+      {
+        "rank": 21,
+        "code": "JM",
+        "value": "9 m (Kingston)"
+      },
+      {
+        "rank": 22,
+        "code": "MU",
+        "value": "40 m (Port Louis)"
+      },
+      {
+        "rank": 23,
+        "code": "IE",
+        "value": "20 m (Dublin)"
+      },
+      {
+        "rank": 24,
+        "code": "EE",
+        "value": "9 m (Tallinn)"
+      },
+      {
+        "rank": 25,
+        "code": "LV",
+        "value": "6 m (Riga)"
+      },
+      {
+        "rank": 26,
+        "code": "SE",
+        "value": "28 m (Stockholm)"
+      },
+      {
+        "rank": 27,
+        "code": "FI",
+        "value": "26 m (Helsinki)"
+      },
+      {
+        "rank": 28,
+        "code": "DJ",
+        "value": "13 m (Djibouti City)"
+      },
+      {
+        "rank": 29,
+        "code": "SO",
+        "value": "9 m (Mogadishu)"
+      },
+      {
+        "rank": 30,
+        "code": "CU",
+        "value": "59 m (Havana)"
       }
     ]
   },
@@ -174110,7 +177895,7 @@
     "title": "Capital city largest by area",
     "prompt": "Name the countries whose capital city occupies the largest metropolitan area (city proper administrative area).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of national capitals by area",
       "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_area",
@@ -174195,6 +177980,81 @@
         "rank": 15,
         "code": "US",
         "value": "177 km\u00b2 (Washington DC)"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "1,572 km\u00b2 (London)"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "891 km\u00b2 (Berlin)"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "605 km\u00b2 (Madrid)"
+      },
+      {
+        "rank": 19,
+        "code": "FR",
+        "value": "105 km\u00b2 (Paris)"
+      },
+      {
+        "rank": 20,
+        "code": "IT",
+        "value": "1,285 km\u00b2 (Rome)"
+      },
+      {
+        "rank": 21,
+        "code": "TR",
+        "value": "24,521 km\u00b2 (Ankara)"
+      },
+      {
+        "rank": 22,
+        "code": "IR",
+        "value": "730 km\u00b2 (Tehran)"
+      },
+      {
+        "rank": 23,
+        "code": "SA",
+        "value": "1,973 km\u00b2 (Riyadh)"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "1,644 km\u00b2 (Pretoria)"
+      },
+      {
+        "rank": 25,
+        "code": "KR",
+        "value": "605 km\u00b2 (Seoul)"
+      },
+      {
+        "rank": 26,
+        "code": "TH",
+        "value": "1,569 km\u00b2 (Bangkok)"
+      },
+      {
+        "rank": 27,
+        "code": "PH",
+        "value": "42.88 km\u00b2 (Manila)"
+      },
+      {
+        "rank": 28,
+        "code": "VN",
+        "value": "3,359 km\u00b2 (Hanoi)"
+      },
+      {
+        "rank": 29,
+        "code": "CA",
+        "value": "2,790 km\u00b2 (Ottawa)"
+      },
+      {
+        "rank": 30,
+        "code": "KZ",
+        "value": "722 km\u00b2 (Astana)"
       }
     ]
   },
@@ -174205,7 +178065,7 @@
     "title": "Capital closest to the Equator",
     "prompt": "Name the countries whose capital city sits closest to the Equator (smallest absolute latitude).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "National statistics offices \u2014 capital city coordinates",
       "url": "https://en.wikipedia.org/wiki/List_of_national_capitals_by_latitude",
@@ -174290,6 +178150,81 @@
         "rank": 15,
         "code": "PE",
         "value": "12.05 S (Lima)"
+      },
+      {
+        "rank": 16,
+        "code": "BI",
+        "value": "3.38 S (Gitega)"
+      },
+      {
+        "rank": 17,
+        "code": "CF",
+        "value": "4.36 N (Bangui)"
+      },
+      {
+        "rank": 18,
+        "code": "TZ",
+        "value": "6.16 S (Dodoma)"
+      },
+      {
+        "rank": 19,
+        "code": "LK",
+        "value": "6.93 N (Colombo)"
+      },
+      {
+        "rank": 20,
+        "code": "GH",
+        "value": "5.60 N (Accra)"
+      },
+      {
+        "rank": 21,
+        "code": "TG",
+        "value": "6.13 N (Lome)"
+      },
+      {
+        "rank": 22,
+        "code": "BJ",
+        "value": "6.50 N (Porto-Novo)"
+      },
+      {
+        "rank": 23,
+        "code": "NG",
+        "value": "9.08 N (Abuja)"
+      },
+      {
+        "rank": 24,
+        "code": "CM",
+        "value": "3.87 N (Yaounde)"
+      },
+      {
+        "rank": 25,
+        "code": "GQ",
+        "value": "3.75 N (Malabo)"
+      },
+      {
+        "rank": 26,
+        "code": "TL",
+        "value": "8.56 S (Dili)"
+      },
+      {
+        "rank": 27,
+        "code": "PG",
+        "value": "9.44 S (Port Moresby)"
+      },
+      {
+        "rank": 28,
+        "code": "ET",
+        "value": "9.03 N (Addis Ababa)"
+      },
+      {
+        "rank": 29,
+        "code": "CR",
+        "value": "9.93 N (San Jose)"
+      },
+      {
+        "rank": 30,
+        "code": "CI",
+        "value": "6.83 N (Yamoussoukro)"
       }
     ]
   },
@@ -174300,7 +178235,7 @@
     "title": "Shortest country name (short form)",
     "prompt": "Name the countries whose common English short-form name has the fewest letters.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 33,
     "source": {
       "name": "UN \u2014 Country name short forms (English)",
       "url": "https://unterm.un.org/",
@@ -174385,6 +178320,96 @@
         "rank": 11,
         "code": "SY",
         "value": "5 letters (Syria, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BJ",
+        "value": "5 letters (Benin, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "CL",
+        "value": "5 letters (Chile, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "EG",
+        "value": "5 letters (Egypt, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "GA",
+        "value": "5 letters (Gabon, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "HT",
+        "value": "5 letters (Haiti, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "KE",
+        "value": "5 letters (Kenya, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "LY",
+        "value": "5 letters (Libya, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "MT",
+        "value": "5 letters (Malta, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NR",
+        "value": "5 letters (Nauru, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "NE",
+        "value": "5 letters (Niger, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "PW",
+        "value": "5 letters (Palau, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "QA",
+        "value": "5 letters (Qatar, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SM",
+        "value": "5 letters (San Marino n/a \u2014 using Samoa) Samoa"
+      },
+      {
+        "rank": 16,
+        "code": "WS",
+        "value": "5 letters (Samoa, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "5 letters (Spain, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SD",
+        "value": "5 letters (Sudan, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "TO",
+        "value": "5 letters (Tonga, tied)"
+      },
+      {
+        "rank": 16,
+        "code": "YE",
+        "value": "5 letters (Yemen, tied)"
       }
     ]
   },
@@ -174395,7 +178420,7 @@
     "title": "Longest country long-form name",
     "prompt": "Name the countries with the longest official long-form English name (full ceremonial name including 'Republic of', 'Kingdom of', etc.).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UN Terminology Database \u2014 official long-form country names",
       "url": "https://unterm.un.org/",
@@ -174480,6 +178505,81 @@
         "rank": 15,
         "code": "MG",
         "value": "22 chars (Republic of Madagascar)"
+      },
+      {
+        "rank": 16,
+        "code": "MR",
+        "value": "22 chars (Islamic Republic of Mauritania) (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "PK",
+        "value": "22 chars (Islamic Republic of Pakistan) (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "CM",
+        "value": "20 chars (Republic of Cameroon)"
+      },
+      {
+        "rank": 19,
+        "code": "MZ",
+        "value": "22 chars (Republic of Mozambique)"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "22 chars (Kingdom of the Netherlands)"
+      },
+      {
+        "rank": 21,
+        "code": "TT",
+        "value": "32 chars (Republic of Trinidad and Tobago)"
+      },
+      {
+        "rank": 22,
+        "code": "DO",
+        "value": "18 chars (Dominican Republic)"
+      },
+      {
+        "rank": 23,
+        "code": "MK",
+        "value": "22 chars (Republic of North Macedonia)"
+      },
+      {
+        "rank": 24,
+        "code": "AF",
+        "value": "26 chars (Islamic Republic of Afghanistan)"
+      },
+      {
+        "rank": 25,
+        "code": "SB",
+        "value": "15 chars (Solomon Islands)"
+      },
+      {
+        "rank": 26,
+        "code": "AG",
+        "value": "19 chars (Antigua and Barbuda)"
+      },
+      {
+        "rank": 27,
+        "code": "KN",
+        "value": "21 chars (Saint Kitts and Nevis)"
+      },
+      {
+        "rank": 28,
+        "code": "AE",
+        "value": "20 chars (United Arab Emirates)"
+      },
+      {
+        "rank": 29,
+        "code": "BA",
+        "value": "22 chars (Bosnia and Herzegovina)"
+      },
+      {
+        "rank": 30,
+        "code": "VC",
+        "value": "32 chars (Saint Vincent and the Grenadines)"
       }
     ]
   },
@@ -174570,7 +178670,7 @@
     "title": "Largest S-countries by area",
     "prompt": "Name the largest countries by land area whose English name starts with the letter S.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "UN Statistics Division \u2014 Country land area",
       "url": "https://data.un.org/",
@@ -174655,6 +178755,56 @@
         "rank": 15,
         "code": "SI",
         "value": "20,273 km\u00b2 (Slovenia)"
+      },
+      {
+        "rank": 16,
+        "code": "SZ",
+        "value": "17,364 km\u00b2 (Eswatini fka Swaziland)"
+      },
+      {
+        "rank": 17,
+        "code": "SB",
+        "value": "28,896 km\u00b2 (Solomon Islands)"
+      },
+      {
+        "rank": 18,
+        "code": "WS",
+        "value": "2,842 km\u00b2 (Samoa)"
+      },
+      {
+        "rank": 19,
+        "code": "ST",
+        "value": "964 km\u00b2 (Sao Tome and Principe)"
+      },
+      {
+        "rank": 20,
+        "code": "SG",
+        "value": "728 km\u00b2 (Singapore)"
+      },
+      {
+        "rank": 21,
+        "code": "SC",
+        "value": "455 km\u00b2 (Seychelles)"
+      },
+      {
+        "rank": 22,
+        "code": "SM",
+        "value": "61 km\u00b2 (San Marino)"
+      },
+      {
+        "rank": 23,
+        "code": "KN",
+        "value": "261 km\u00b2 (Saint Kitts and Nevis)"
+      },
+      {
+        "rank": 24,
+        "code": "LC",
+        "value": "616 km\u00b2 (Saint Lucia)"
+      },
+      {
+        "rank": 25,
+        "code": "VC",
+        "value": "389 km\u00b2 (Saint Vincent and the Grenadines)"
       }
     ]
   },
@@ -190965,7 +195115,7 @@
     "title": "Most Time Zones",
     "prompt": "Name the countries whose territory (including overseas dependencies) spans the most standard time zones.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 24,
     "source": {
       "name": "CIA World Factbook \u2014 Time zones by country",
       "url": "https://www.cia.gov/the-world-factbook/",
@@ -191050,6 +195200,51 @@
         "rank": 12,
         "code": "CL",
         "value": "2 zones (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "EC",
+        "value": "2 zones (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "2 zones (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "FM",
+        "value": "2 zones (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "KI",
+        "value": "3 zones"
+      },
+      {
+        "rank": 16,
+        "code": "PT",
+        "value": "2 zones (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "ZA",
+        "value": "1 zone (Prince Edward Islands share) \u2014 commonly listed as 2"
+      },
+      {
+        "rank": 23,
+        "code": "AR",
+        "value": "1 zone"
+      },
+      {
+        "rank": 23,
+        "code": "CN",
+        "value": "1 zone (single official)"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "1 zone"
       }
     ]
   },
@@ -191060,7 +195255,7 @@
     "title": "Most First-Order Subdivisions",
     "prompt": "Name the countries with the most first-order administrative subdivisions (states, provinces, oblasts, regions, or equivalents).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Statoids \u2014 Administrative divisions of countries",
       "url": "https://www.statoids.com/",
@@ -191145,6 +195340,81 @@
         "rank": 15,
         "code": "PL",
         "value": "16 subdivisions"
+      },
+      {
+        "rank": 16,
+        "code": "DE",
+        "value": "16 subdivisions (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "MY",
+        "value": "16 subdivisions (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "AR",
+        "value": "24 subdivisions"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "17 subdivisions"
+      },
+      {
+        "rank": 20,
+        "code": "SA",
+        "value": "13 subdivisions"
+      },
+      {
+        "rank": 21,
+        "code": "ID",
+        "value": "38 subdivisions"
+      },
+      {
+        "rank": 22,
+        "code": "PK",
+        "value": "8 subdivisions"
+      },
+      {
+        "rank": 23,
+        "code": "EG",
+        "value": "27 subdivisions"
+      },
+      {
+        "rank": 24,
+        "code": "KZ",
+        "value": "17 subdivisions"
+      },
+      {
+        "rank": 25,
+        "code": "NG",
+        "value": "37 subdivisions"
+      },
+      {
+        "rank": 26,
+        "code": "ZA",
+        "value": "9 subdivisions"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "33 subdivisions"
+      },
+      {
+        "rank": 28,
+        "code": "VE",
+        "value": "25 subdivisions"
+      },
+      {
+        "rank": 29,
+        "code": "PE",
+        "value": "26 subdivisions"
+      },
+      {
+        "rank": 30,
+        "code": "AU",
+        "value": "8 subdivisions"
       }
     ]
   },
@@ -191155,7 +195425,7 @@
     "title": "Longest North-South Extent",
     "prompt": "Name the countries with the longest north-south span (greatest distance in kilometres between northernmost and southernmost points of contiguous mainland territory).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Nations Online \u2014 Country geographic extents",
       "url": "https://www.nationsonline.org/",
@@ -191240,6 +195510,81 @@
         "rank": 15,
         "code": "MG",
         "value": "1,570 km"
+      },
+      {
+        "rank": 16,
+        "code": "MZ",
+        "value": "1,550 km"
+      },
+      {
+        "rank": 17,
+        "code": "ID",
+        "value": "1,760 km"
+      },
+      {
+        "rank": 18,
+        "code": "SE",
+        "value": "1,570 km"
+      },
+      {
+        "rank": 19,
+        "code": "FI",
+        "value": "1,160 km"
+      },
+      {
+        "rank": 20,
+        "code": "PE",
+        "value": "1,290 km"
+      },
+      {
+        "rank": 21,
+        "code": "BO",
+        "value": "1,300 km"
+      },
+      {
+        "rank": 22,
+        "code": "EG",
+        "value": "1,024 km"
+      },
+      {
+        "rank": 23,
+        "code": "TR",
+        "value": "650 km"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 25,
+        "code": "IR",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 26,
+        "code": "SA",
+        "value": "2,150 km"
+      },
+      {
+        "rank": 27,
+        "code": "DZ",
+        "value": "2,000 km"
+      },
+      {
+        "rank": 28,
+        "code": "LY",
+        "value": "1,500 km"
+      },
+      {
+        "rank": 29,
+        "code": "ET",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 30,
+        "code": "TD",
+        "value": "1,700 km"
       }
     ]
   },
@@ -191250,7 +195595,7 @@
     "title": "Longest East-West Extent",
     "prompt": "Name the countries with the longest east-west span (greatest distance in kilometres between easternmost and westernmost land points of contiguous mainland).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Nations Online \u2014 Country geographic extents",
       "url": "https://www.nationsonline.org/",
@@ -191335,6 +195680,81 @@
         "rank": 15,
         "code": "AR",
         "value": "1,400 km"
+      },
+      {
+        "rank": 16,
+        "code": "ID",
+        "value": "5,120 km"
+      },
+      {
+        "rank": 17,
+        "code": "CD",
+        "value": "1,700 km"
+      },
+      {
+        "rank": 18,
+        "code": "IR",
+        "value": "1,900 km"
+      },
+      {
+        "rank": 19,
+        "code": "NE",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 20,
+        "code": "ML",
+        "value": "1,500 km"
+      },
+      {
+        "rank": 21,
+        "code": "AO",
+        "value": "1,300 km"
+      },
+      {
+        "rank": 22,
+        "code": "TD",
+        "value": "1,050 km"
+      },
+      {
+        "rank": 23,
+        "code": "ET",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 24,
+        "code": "ZA",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 26,
+        "code": "EG",
+        "value": "1,240 km"
+      },
+      {
+        "rank": 27,
+        "code": "PK",
+        "value": "1,600 km"
+      },
+      {
+        "rank": 28,
+        "code": "MR",
+        "value": "1,300 km"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "1,270 km"
+      },
+      {
+        "rank": 30,
+        "code": "PE",
+        "value": "1,290 km"
       }
     ]
   },
@@ -191345,7 +195765,7 @@
     "title": "Most Active Volcanoes",
     "prompt": "Name the countries with the most Holocene-active volcanoes (having erupted in roughly the last 11,700 years).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Smithsonian Global Volcanism Program",
       "url": "https://volcano.si.edu/",
@@ -191430,6 +195850,81 @@
         "rank": 15,
         "code": "PE",
         "value": "16 volcanoes"
+      },
+      {
+        "rank": 16,
+        "code": "NI",
+        "value": "15 volcanoes"
+      },
+      {
+        "rank": 17,
+        "code": "CR",
+        "value": "12 volcanoes"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "15 volcanoes"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "10 volcanoes"
+      },
+      {
+        "rank": 20,
+        "code": "SB",
+        "value": "8 volcanoes"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "12 volcanoes"
+      },
+      {
+        "rank": 22,
+        "code": "VU",
+        "value": "10 volcanoes"
+      },
+      {
+        "rank": 23,
+        "code": "TR",
+        "value": "10 volcanoes"
+      },
+      {
+        "rank": 24,
+        "code": "SV",
+        "value": "9 volcanoes"
+      },
+      {
+        "rank": 25,
+        "code": "CN",
+        "value": "9 volcanoes"
+      },
+      {
+        "rank": 26,
+        "code": "IR",
+        "value": "8 volcanoes"
+      },
+      {
+        "rank": 27,
+        "code": "KE",
+        "value": "9 volcanoes"
+      },
+      {
+        "rank": 28,
+        "code": "CD",
+        "value": "8 volcanoes"
+      },
+      {
+        "rank": 29,
+        "code": "YE",
+        "value": "8 volcanoes"
+      },
+      {
+        "rank": 30,
+        "code": "ES",
+        "value": "5 volcanoes"
       }
     ]
   },
