@@ -1,4 +1,1506 @@
 {
+  "Chemical Elements": [
+    {
+      "code": "Ac",
+      "name": "Actinium"
+    },
+    {
+      "code": "Al",
+      "name": "Aluminium"
+    },
+    {
+      "code": "Am",
+      "name": "Americium"
+    },
+    {
+      "code": "Sb",
+      "name": "Antimony"
+    },
+    {
+      "code": "Ar",
+      "name": "Argon"
+    },
+    {
+      "code": "As",
+      "name": "Arsenic"
+    },
+    {
+      "code": "At",
+      "name": "Astatine"
+    },
+    {
+      "code": "Ba",
+      "name": "Barium"
+    },
+    {
+      "code": "Bk",
+      "name": "Berkelium"
+    },
+    {
+      "code": "Be",
+      "name": "Beryllium"
+    },
+    {
+      "code": "Bi",
+      "name": "Bismuth"
+    },
+    {
+      "code": "Bh",
+      "name": "Bohrium"
+    },
+    {
+      "code": "B",
+      "name": "Boron"
+    },
+    {
+      "code": "Br",
+      "name": "Bromine"
+    },
+    {
+      "code": "Cd",
+      "name": "Cadmium"
+    },
+    {
+      "code": "Ca",
+      "name": "Calcium"
+    },
+    {
+      "code": "Cf",
+      "name": "Californium"
+    },
+    {
+      "code": "C",
+      "name": "Carbon"
+    },
+    {
+      "code": "Ce",
+      "name": "Cerium"
+    },
+    {
+      "code": "Cs",
+      "name": "Cesium"
+    },
+    {
+      "code": "Cl",
+      "name": "Chlorine"
+    },
+    {
+      "code": "Cr",
+      "name": "Chromium"
+    },
+    {
+      "code": "Co",
+      "name": "Cobalt"
+    },
+    {
+      "code": "Cn",
+      "name": "Copernicium"
+    },
+    {
+      "code": "Cu",
+      "name": "Copper"
+    },
+    {
+      "code": "Cm",
+      "name": "Curium"
+    },
+    {
+      "code": "Ds",
+      "name": "Darmstadtium"
+    },
+    {
+      "code": "Db",
+      "name": "Dubnium"
+    },
+    {
+      "code": "Dy",
+      "name": "Dysprosium"
+    },
+    {
+      "code": "Es",
+      "name": "Einsteinium"
+    },
+    {
+      "code": "Er",
+      "name": "Erbium"
+    },
+    {
+      "code": "Eu",
+      "name": "Europium"
+    },
+    {
+      "code": "Fm",
+      "name": "Fermium"
+    },
+    {
+      "code": "Fl",
+      "name": "Flerovium"
+    },
+    {
+      "code": "F",
+      "name": "Fluorine"
+    },
+    {
+      "code": "Fr",
+      "name": "Francium"
+    },
+    {
+      "code": "Gd",
+      "name": "Gadolinium"
+    },
+    {
+      "code": "Ga",
+      "name": "Gallium"
+    },
+    {
+      "code": "Ge",
+      "name": "Germanium"
+    },
+    {
+      "code": "Au",
+      "name": "Gold"
+    },
+    {
+      "code": "Hf",
+      "name": "Hafnium"
+    },
+    {
+      "code": "Hs",
+      "name": "Hassium"
+    },
+    {
+      "code": "He",
+      "name": "Helium"
+    },
+    {
+      "code": "Ho",
+      "name": "Holmium"
+    },
+    {
+      "code": "H",
+      "name": "Hydrogen"
+    },
+    {
+      "code": "In",
+      "name": "Indium"
+    },
+    {
+      "code": "I",
+      "name": "Iodine"
+    },
+    {
+      "code": "Ir",
+      "name": "Iridium"
+    },
+    {
+      "code": "Fe",
+      "name": "Iron"
+    },
+    {
+      "code": "Kr",
+      "name": "Krypton"
+    },
+    {
+      "code": "La",
+      "name": "Lanthanum"
+    },
+    {
+      "code": "Lr",
+      "name": "Lawrencium"
+    },
+    {
+      "code": "Pb",
+      "name": "Lead"
+    },
+    {
+      "code": "Li",
+      "name": "Lithium"
+    },
+    {
+      "code": "Lv",
+      "name": "Livermorium"
+    },
+    {
+      "code": "Lu",
+      "name": "Lutetium"
+    },
+    {
+      "code": "Mg",
+      "name": "Magnesium"
+    },
+    {
+      "code": "Mn",
+      "name": "Manganese"
+    },
+    {
+      "code": "Mt",
+      "name": "Meitnerium"
+    },
+    {
+      "code": "Md",
+      "name": "Mendelevium"
+    },
+    {
+      "code": "Hg",
+      "name": "Mercury"
+    },
+    {
+      "code": "Mo",
+      "name": "Molybdenum"
+    },
+    {
+      "code": "Mc",
+      "name": "Moscovium"
+    },
+    {
+      "code": "Nd",
+      "name": "Neodymium"
+    },
+    {
+      "code": "Ne",
+      "name": "Neon"
+    },
+    {
+      "code": "Np",
+      "name": "Neptunium"
+    },
+    {
+      "code": "Ni",
+      "name": "Nickel"
+    },
+    {
+      "code": "Nh",
+      "name": "Nihonium"
+    },
+    {
+      "code": "Nb",
+      "name": "Niobium"
+    },
+    {
+      "code": "N",
+      "name": "Nitrogen"
+    },
+    {
+      "code": "No",
+      "name": "Nobelium"
+    },
+    {
+      "code": "Og",
+      "name": "Oganesson"
+    },
+    {
+      "code": "Os",
+      "name": "Osmium"
+    },
+    {
+      "code": "O",
+      "name": "Oxygen"
+    },
+    {
+      "code": "Pd",
+      "name": "Palladium"
+    },
+    {
+      "code": "P",
+      "name": "Phosphorus"
+    },
+    {
+      "code": "Pt",
+      "name": "Platinum"
+    },
+    {
+      "code": "Pu",
+      "name": "Plutonium"
+    },
+    {
+      "code": "Po",
+      "name": "Polonium"
+    },
+    {
+      "code": "K",
+      "name": "Potassium"
+    },
+    {
+      "code": "Pr",
+      "name": "Praseodymium"
+    },
+    {
+      "code": "Pm",
+      "name": "Promethium"
+    },
+    {
+      "code": "Pa",
+      "name": "Protactinium"
+    },
+    {
+      "code": "Ra",
+      "name": "Radium"
+    },
+    {
+      "code": "Rn",
+      "name": "Radon"
+    },
+    {
+      "code": "Re",
+      "name": "Rhenium"
+    },
+    {
+      "code": "Rh",
+      "name": "Rhodium"
+    },
+    {
+      "code": "Rg",
+      "name": "Roentgenium"
+    },
+    {
+      "code": "Rb",
+      "name": "Rubidium"
+    },
+    {
+      "code": "Ru",
+      "name": "Ruthenium"
+    },
+    {
+      "code": "Rf",
+      "name": "Rutherfordium"
+    },
+    {
+      "code": "Sm",
+      "name": "Samarium"
+    },
+    {
+      "code": "Sc",
+      "name": "Scandium"
+    },
+    {
+      "code": "Sg",
+      "name": "Seaborgium"
+    },
+    {
+      "code": "Se",
+      "name": "Selenium"
+    },
+    {
+      "code": "Si",
+      "name": "Silicon"
+    },
+    {
+      "code": "Ag",
+      "name": "Silver"
+    },
+    {
+      "code": "Na",
+      "name": "Sodium"
+    },
+    {
+      "code": "Sr",
+      "name": "Strontium"
+    },
+    {
+      "code": "S",
+      "name": "Sulfur"
+    },
+    {
+      "code": "Ta",
+      "name": "Tantalum"
+    },
+    {
+      "code": "Tc",
+      "name": "Technetium"
+    },
+    {
+      "code": "Te",
+      "name": "Tellurium"
+    },
+    {
+      "code": "Ts",
+      "name": "Tennessine"
+    },
+    {
+      "code": "Tb",
+      "name": "Terbium"
+    },
+    {
+      "code": "Tl",
+      "name": "Thallium"
+    },
+    {
+      "code": "Th",
+      "name": "Thorium"
+    },
+    {
+      "code": "Tm",
+      "name": "Thulium"
+    },
+    {
+      "code": "Sn",
+      "name": "Tin"
+    },
+    {
+      "code": "Ti",
+      "name": "Titanium"
+    },
+    {
+      "code": "W",
+      "name": "Tungsten"
+    },
+    {
+      "code": "U",
+      "name": "Uranium"
+    },
+    {
+      "code": "V",
+      "name": "Vanadium"
+    },
+    {
+      "code": "Xe",
+      "name": "Xenon"
+    },
+    {
+      "code": "Yb",
+      "name": "Ytterbium"
+    },
+    {
+      "code": "Y",
+      "name": "Yttrium"
+    },
+    {
+      "code": "Zn",
+      "name": "Zinc"
+    },
+    {
+      "code": "Zr",
+      "name": "Zirconium"
+    }
+  ],
+  "Colleges": [
+    {
+      "code": "american",
+      "name": "American University"
+    },
+    {
+      "code": "amherst",
+      "name": "Amherst College"
+    },
+    {
+      "code": "arizona-state",
+      "name": "Arizona State University"
+    },
+    {
+      "code": "auburn",
+      "name": "Auburn University"
+    },
+    {
+      "code": "barnard",
+      "name": "Barnard College"
+    },
+    {
+      "code": "baylor",
+      "name": "Baylor University"
+    },
+    {
+      "code": "bc",
+      "name": "Boston College"
+    },
+    {
+      "code": "bu",
+      "name": "Boston University"
+    },
+    {
+      "code": "brandeis",
+      "name": "Brandeis University"
+    },
+    {
+      "code": "byu",
+      "name": "Brigham Young University"
+    },
+    {
+      "code": "brown",
+      "name": "Brown University"
+    },
+    {
+      "code": "caltech",
+      "name": "California Institute of Technology"
+    },
+    {
+      "code": "carleton",
+      "name": "Carleton College"
+    },
+    {
+      "code": "cmu",
+      "name": "Carnegie Mellon University"
+    },
+    {
+      "code": "case-western",
+      "name": "Case Western Reserve University"
+    },
+    {
+      "code": "clemson",
+      "name": "Clemson University"
+    },
+    {
+      "code": "colgate",
+      "name": "Colgate University"
+    },
+    {
+      "code": "william-and-mary",
+      "name": "College of William & Mary"
+    },
+    {
+      "code": "columbia",
+      "name": "Columbia University"
+    },
+    {
+      "code": "cornell",
+      "name": "Cornell University"
+    },
+    {
+      "code": "dartmouth",
+      "name": "Dartmouth College"
+    },
+    {
+      "code": "davidson",
+      "name": "Davidson College"
+    },
+    {
+      "code": "duke",
+      "name": "Duke University"
+    },
+    {
+      "code": "emory",
+      "name": "Emory University"
+    },
+    {
+      "code": "famu",
+      "name": "Florida A&M University"
+    },
+    {
+      "code": "fsu",
+      "name": "Florida State University"
+    },
+    {
+      "code": "fordham",
+      "name": "Fordham University"
+    },
+    {
+      "code": "george-washington",
+      "name": "George Washington University"
+    },
+    {
+      "code": "georgetown",
+      "name": "Georgetown University"
+    },
+    {
+      "code": "georgia-tech",
+      "name": "Georgia Institute of Technology"
+    },
+    {
+      "code": "grinnell",
+      "name": "Grinnell College"
+    },
+    {
+      "code": "hamilton",
+      "name": "Hamilton College"
+    },
+    {
+      "code": "hampton",
+      "name": "Hampton University"
+    },
+    {
+      "code": "harvard",
+      "name": "Harvard University"
+    },
+    {
+      "code": "harvey-mudd",
+      "name": "Harvey Mudd College"
+    },
+    {
+      "code": "haverford",
+      "name": "Haverford College"
+    },
+    {
+      "code": "howard",
+      "name": "Howard University"
+    },
+    {
+      "code": "indiana",
+      "name": "Indiana University Bloomington"
+    },
+    {
+      "code": "iowa-state",
+      "name": "Iowa State University"
+    },
+    {
+      "code": "jhu",
+      "name": "Johns Hopkins University"
+    },
+    {
+      "code": "kansas-state",
+      "name": "Kansas State University"
+    },
+    {
+      "code": "lehigh",
+      "name": "Lehigh University"
+    },
+    {
+      "code": "lsu",
+      "name": "Louisiana State University"
+    },
+    {
+      "code": "mit",
+      "name": "Massachusetts Institute of Technology"
+    },
+    {
+      "code": "michigan-state",
+      "name": "Michigan State University"
+    },
+    {
+      "code": "middlebury",
+      "name": "Middlebury College"
+    },
+    {
+      "code": "mississippi-state",
+      "name": "Mississippi State University"
+    },
+    {
+      "code": "morehouse",
+      "name": "Morehouse College"
+    },
+    {
+      "code": "nyu",
+      "name": "New York University"
+    },
+    {
+      "code": "nc-state",
+      "name": "North Carolina State University"
+    },
+    {
+      "code": "northeastern",
+      "name": "Northeastern University"
+    },
+    {
+      "code": "northwestern",
+      "name": "Northwestern University"
+    },
+    {
+      "code": "ohio-state",
+      "name": "Ohio State University"
+    },
+    {
+      "code": "oklahoma-state",
+      "name": "Oklahoma State University"
+    },
+    {
+      "code": "penn-state",
+      "name": "Pennsylvania State University"
+    },
+    {
+      "code": "pepperdine",
+      "name": "Pepperdine University"
+    },
+    {
+      "code": "pomona",
+      "name": "Pomona College"
+    },
+    {
+      "code": "princeton",
+      "name": "Princeton University"
+    },
+    {
+      "code": "purdue",
+      "name": "Purdue University"
+    },
+    {
+      "code": "rpi",
+      "name": "Rensselaer Polytechnic Institute"
+    },
+    {
+      "code": "rice",
+      "name": "Rice University"
+    },
+    {
+      "code": "rutgers",
+      "name": "Rutgers University"
+    },
+    {
+      "code": "smith",
+      "name": "Smith College"
+    },
+    {
+      "code": "smu",
+      "name": "Southern Methodist University"
+    },
+    {
+      "code": "spelman",
+      "name": "Spelman College"
+    },
+    {
+      "code": "stanford",
+      "name": "Stanford University"
+    },
+    {
+      "code": "stony-brook",
+      "name": "Stony Brook University"
+    },
+    {
+      "code": "swarthmore",
+      "name": "Swarthmore College"
+    },
+    {
+      "code": "syracuse",
+      "name": "Syracuse University"
+    },
+    {
+      "code": "texas-am",
+      "name": "Texas A&M University"
+    },
+    {
+      "code": "tcu",
+      "name": "Texas Christian University"
+    },
+    {
+      "code": "tufts",
+      "name": "Tufts University"
+    },
+    {
+      "code": "tulane",
+      "name": "Tulane University"
+    },
+    {
+      "code": "air-force",
+      "name": "United States Air Force Academy"
+    },
+    {
+      "code": "coast-guard",
+      "name": "United States Coast Guard Academy"
+    },
+    {
+      "code": "merchant-marine",
+      "name": "United States Merchant Marine Academy"
+    },
+    {
+      "code": "army",
+      "name": "United States Military Academy"
+    },
+    {
+      "code": "navy",
+      "name": "United States Naval Academy"
+    },
+    {
+      "code": "alabama",
+      "name": "University of Alabama"
+    },
+    {
+      "code": "uab",
+      "name": "University of Alabama at Birmingham"
+    },
+    {
+      "code": "alaska",
+      "name": "University of Alaska Fairbanks"
+    },
+    {
+      "code": "arizona",
+      "name": "University of Arizona"
+    },
+    {
+      "code": "arkansas",
+      "name": "University of Arkansas"
+    },
+    {
+      "code": "berkeley",
+      "name": "University of California, Berkeley"
+    },
+    {
+      "code": "uc-davis",
+      "name": "University of California, Davis"
+    },
+    {
+      "code": "uc-irvine",
+      "name": "University of California, Irvine"
+    },
+    {
+      "code": "ucla",
+      "name": "University of California, Los Angeles"
+    },
+    {
+      "code": "ucsd",
+      "name": "University of California, San Diego"
+    },
+    {
+      "code": "ucsb",
+      "name": "University of California, Santa Barbara"
+    },
+    {
+      "code": "ucf",
+      "name": "University of Central Florida"
+    },
+    {
+      "code": "chicago",
+      "name": "University of Chicago"
+    },
+    {
+      "code": "connecticut",
+      "name": "University of Connecticut"
+    },
+    {
+      "code": "delaware",
+      "name": "University of Delaware"
+    },
+    {
+      "code": "florida",
+      "name": "University of Florida"
+    },
+    {
+      "code": "georgia",
+      "name": "University of Georgia"
+    },
+    {
+      "code": "hawaii",
+      "name": "University of Hawaii at Manoa"
+    },
+    {
+      "code": "idaho",
+      "name": "University of Idaho"
+    },
+    {
+      "code": "illinois",
+      "name": "University of Illinois Urbana-Champaign"
+    },
+    {
+      "code": "iowa",
+      "name": "University of Iowa"
+    },
+    {
+      "code": "kansas",
+      "name": "University of Kansas"
+    },
+    {
+      "code": "kentucky",
+      "name": "University of Kentucky"
+    },
+    {
+      "code": "louisville",
+      "name": "University of Louisville"
+    },
+    {
+      "code": "maine",
+      "name": "University of Maine"
+    },
+    {
+      "code": "maryland",
+      "name": "University of Maryland"
+    },
+    {
+      "code": "umass",
+      "name": "University of Massachusetts Amherst"
+    },
+    {
+      "code": "miami",
+      "name": "University of Miami"
+    },
+    {
+      "code": "michigan",
+      "name": "University of Michigan"
+    },
+    {
+      "code": "minnesota",
+      "name": "University of Minnesota"
+    },
+    {
+      "code": "ole-miss",
+      "name": "University of Mississippi"
+    },
+    {
+      "code": "missouri",
+      "name": "University of Missouri"
+    },
+    {
+      "code": "montana",
+      "name": "University of Montana"
+    },
+    {
+      "code": "nebraska",
+      "name": "University of Nebraska-Lincoln"
+    },
+    {
+      "code": "nevada",
+      "name": "University of Nevada, Reno"
+    },
+    {
+      "code": "unh",
+      "name": "University of New Hampshire"
+    },
+    {
+      "code": "unm",
+      "name": "University of New Mexico"
+    },
+    {
+      "code": "unc",
+      "name": "University of North Carolina at Chapel Hill"
+    },
+    {
+      "code": "north-dakota",
+      "name": "University of North Dakota"
+    },
+    {
+      "code": "notre-dame",
+      "name": "University of Notre Dame"
+    },
+    {
+      "code": "oklahoma",
+      "name": "University of Oklahoma"
+    },
+    {
+      "code": "oregon",
+      "name": "University of Oregon"
+    },
+    {
+      "code": "penn",
+      "name": "University of Pennsylvania"
+    },
+    {
+      "code": "pitt",
+      "name": "University of Pittsburgh"
+    },
+    {
+      "code": "rhode-island",
+      "name": "University of Rhode Island"
+    },
+    {
+      "code": "rochester",
+      "name": "University of Rochester"
+    },
+    {
+      "code": "usc-south-carolina",
+      "name": "University of South Carolina"
+    },
+    {
+      "code": "south-dakota",
+      "name": "University of South Dakota"
+    },
+    {
+      "code": "usc",
+      "name": "University of Southern California"
+    },
+    {
+      "code": "tennessee",
+      "name": "University of Tennessee"
+    },
+    {
+      "code": "texas",
+      "name": "University of Texas at Austin"
+    },
+    {
+      "code": "utah",
+      "name": "University of Utah"
+    },
+    {
+      "code": "vermont",
+      "name": "University of Vermont"
+    },
+    {
+      "code": "virginia",
+      "name": "University of Virginia"
+    },
+    {
+      "code": "washington",
+      "name": "University of Washington"
+    },
+    {
+      "code": "wisconsin",
+      "name": "University of Wisconsin-Madison"
+    },
+    {
+      "code": "wyoming",
+      "name": "University of Wyoming"
+    },
+    {
+      "code": "vanderbilt",
+      "name": "Vanderbilt University"
+    },
+    {
+      "code": "vassar",
+      "name": "Vassar College"
+    },
+    {
+      "code": "villanova",
+      "name": "Villanova University"
+    },
+    {
+      "code": "virginia-tech",
+      "name": "Virginia Tech"
+    },
+    {
+      "code": "wfu",
+      "name": "Wake Forest University"
+    },
+    {
+      "code": "washington-state",
+      "name": "Washington State University"
+    },
+    {
+      "code": "washu",
+      "name": "Washington University in St. Louis"
+    },
+    {
+      "code": "wellesley",
+      "name": "Wellesley College"
+    },
+    {
+      "code": "wesleyan",
+      "name": "Wesleyan University"
+    },
+    {
+      "code": "west-virginia",
+      "name": "West Virginia University"
+    },
+    {
+      "code": "williams",
+      "name": "Williams College"
+    },
+    {
+      "code": "yale",
+      "name": "Yale University"
+    }
+  ],
+  "Companies": [
+    {
+      "code": "MMM",
+      "name": "3M"
+    },
+    {
+      "code": "ABBV",
+      "name": "AbbVie"
+    },
+    {
+      "code": "ACI",
+      "name": "Albertsons"
+    },
+    {
+      "code": "GOOGL",
+      "name": "Alphabet"
+    },
+    {
+      "code": "MO",
+      "name": "Altria Group"
+    },
+    {
+      "code": "AMZN",
+      "name": "Amazon"
+    },
+    {
+      "code": "AEP",
+      "name": "American Electric Power"
+    },
+    {
+      "code": "AXP",
+      "name": "American Express"
+    },
+    {
+      "code": "AIG",
+      "name": "American International Group"
+    },
+    {
+      "code": "AAPL",
+      "name": "Apple"
+    },
+    {
+      "code": "ADM",
+      "name": "Archer Daniels Midland"
+    },
+    {
+      "code": "T",
+      "name": "AT&T"
+    },
+    {
+      "code": "BAC",
+      "name": "Bank of America"
+    },
+    {
+      "code": "BRK.B",
+      "name": "Berkshire Hathaway"
+    },
+    {
+      "code": "BSX",
+      "name": "Boston Scientific"
+    },
+    {
+      "code": "BMY",
+      "name": "Bristol-Myers Squibb"
+    },
+    {
+      "code": "AVGO",
+      "name": "Broadcom"
+    },
+    {
+      "code": "COF",
+      "name": "Capital One"
+    },
+    {
+      "code": "CAH",
+      "name": "Cardinal Health"
+    },
+    {
+      "code": "cargill",
+      "name": "Cargill"
+    },
+    {
+      "code": "CAT",
+      "name": "Caterpillar"
+    },
+    {
+      "code": "CNC",
+      "name": "Centene"
+    },
+    {
+      "code": "CHTR",
+      "name": "Charter Communications"
+    },
+    {
+      "code": "CVX",
+      "name": "Chevron"
+    },
+    {
+      "code": "CB",
+      "name": "Chubb"
+    },
+    {
+      "code": "CI",
+      "name": "Cigna"
+    },
+    {
+      "code": "CSCO",
+      "name": "Cisco Systems"
+    },
+    {
+      "code": "C",
+      "name": "Citigroup"
+    },
+    {
+      "code": "KO",
+      "name": "Coca-Cola"
+    },
+    {
+      "code": "CMCSA",
+      "name": "Comcast"
+    },
+    {
+      "code": "COP",
+      "name": "ConocoPhillips"
+    },
+    {
+      "code": "GLW",
+      "name": "Corning"
+    },
+    {
+      "code": "COST",
+      "name": "Costco"
+    },
+    {
+      "code": "CVS",
+      "name": "CVS Health"
+    },
+    {
+      "code": "DHR",
+      "name": "Danaher"
+    },
+    {
+      "code": "DE",
+      "name": "Deere"
+    },
+    {
+      "code": "DELL",
+      "name": "Dell Technologies"
+    },
+    {
+      "code": "DAL",
+      "name": "Delta Air Lines"
+    },
+    {
+      "code": "DVN",
+      "name": "Devon Energy"
+    },
+    {
+      "code": "DOW",
+      "name": "Dow"
+    },
+    {
+      "code": "LLY",
+      "name": "Eli Lilly"
+    },
+    {
+      "code": "EMR",
+      "name": "Emerson Electric"
+    },
+    {
+      "code": "EPD",
+      "name": "Enterprise Products Partners"
+    },
+    {
+      "code": "EOG",
+      "name": "EOG Resources"
+    },
+    {
+      "code": "XOM",
+      "name": "ExxonMobil"
+    },
+    {
+      "code": "FDX",
+      "name": "FedEx"
+    },
+    {
+      "code": "F",
+      "name": "Ford Motor"
+    },
+    {
+      "code": "FCX",
+      "name": "Freeport-McMoRan"
+    },
+    {
+      "code": "GD",
+      "name": "General Dynamics"
+    },
+    {
+      "code": "GE",
+      "name": "General Electric"
+    },
+    {
+      "code": "GM",
+      "name": "General Motors"
+    },
+    {
+      "code": "GILD",
+      "name": "Gilead Sciences"
+    },
+    {
+      "code": "GS",
+      "name": "Goldman Sachs"
+    },
+    {
+      "code": "HCA",
+      "name": "HCA Healthcare"
+    },
+    {
+      "code": "HPE",
+      "name": "Hewlett Packard Enterprise"
+    },
+    {
+      "code": "HD",
+      "name": "Home Depot"
+    },
+    {
+      "code": "HON",
+      "name": "Honeywell"
+    },
+    {
+      "code": "HPQ",
+      "name": "HP"
+    },
+    {
+      "code": "HUM",
+      "name": "Humana"
+    },
+    {
+      "code": "IBM",
+      "name": "IBM"
+    },
+    {
+      "code": "INTC",
+      "name": "Intel"
+    },
+    {
+      "code": "JNJ",
+      "name": "Johnson & Johnson"
+    },
+    {
+      "code": "JPM",
+      "name": "JPMorgan Chase"
+    },
+    {
+      "code": "koch",
+      "name": "Koch Industries"
+    },
+    {
+      "code": "KR",
+      "name": "Kroger"
+    },
+    {
+      "code": "LMT",
+      "name": "Lockheed Martin"
+    },
+    {
+      "code": "LOW",
+      "name": "Lowe's"
+    },
+    {
+      "code": "MPC",
+      "name": "Marathon Petroleum"
+    },
+    {
+      "code": "MCD",
+      "name": "McDonald's"
+    },
+    {
+      "code": "MCK",
+      "name": "McKesson"
+    },
+    {
+      "code": "MRK",
+      "name": "Merck"
+    },
+    {
+      "code": "META",
+      "name": "Meta Platforms"
+    },
+    {
+      "code": "MET",
+      "name": "MetLife"
+    },
+    {
+      "code": "MSFT",
+      "name": "Microsoft"
+    },
+    {
+      "code": "MS",
+      "name": "Morgan Stanley"
+    },
+    {
+      "code": "NKE",
+      "name": "Nike"
+    },
+    {
+      "code": "NOC",
+      "name": "Northrop Grumman"
+    },
+    {
+      "code": "NVDA",
+      "name": "Nvidia"
+    },
+    {
+      "code": "ORCL",
+      "name": "Oracle"
+    },
+    {
+      "code": "PEP",
+      "name": "PepsiCo"
+    },
+    {
+      "code": "PFE",
+      "name": "Pfizer"
+    },
+    {
+      "code": "PCG",
+      "name": "PG&E"
+    },
+    {
+      "code": "PM",
+      "name": "Philip Morris International"
+    },
+    {
+      "code": "PSX",
+      "name": "Phillips 66"
+    },
+    {
+      "code": "PG",
+      "name": "Procter & Gamble"
+    },
+    {
+      "code": "PGR",
+      "name": "Progressive"
+    },
+    {
+      "code": "PRU",
+      "name": "Prudential Financial"
+    },
+    {
+      "code": "publix",
+      "name": "Publix Super Markets"
+    },
+    {
+      "code": "RTX",
+      "name": "RTX"
+    },
+    {
+      "code": "CRM",
+      "name": "Salesforce"
+    },
+    {
+      "code": "state-farm",
+      "name": "State Farm"
+    },
+    {
+      "code": "SYY",
+      "name": "Sysco"
+    },
+    {
+      "code": "TGT",
+      "name": "Target"
+    },
+    {
+      "code": "TSLA",
+      "name": "Tesla"
+    },
+    {
+      "code": "TMO",
+      "name": "Thermo Fisher Scientific"
+    },
+    {
+      "code": "TJX",
+      "name": "TJX"
+    },
+    {
+      "code": "TSN",
+      "name": "Tyson Foods"
+    },
+    {
+      "code": "UNP",
+      "name": "Union Pacific"
+    },
+    {
+      "code": "UAL",
+      "name": "United Airlines"
+    },
+    {
+      "code": "UNH",
+      "name": "UnitedHealth Group"
+    },
+    {
+      "code": "UPS",
+      "name": "UPS"
+    },
+    {
+      "code": "USAA",
+      "name": "USAA"
+    },
+    {
+      "code": "VLO",
+      "name": "Valero Energy"
+    },
+    {
+      "code": "VZ",
+      "name": "Verizon"
+    },
+    {
+      "code": "V",
+      "name": "Visa"
+    },
+    {
+      "code": "WBA",
+      "name": "Walgreens Boots Alliance"
+    },
+    {
+      "code": "WMT",
+      "name": "Walmart"
+    },
+    {
+      "code": "DIS",
+      "name": "Walt Disney"
+    },
+    {
+      "code": "WFC",
+      "name": "Wells Fargo"
+    }
+  ],
   "Countries": [
     {
       "code": "AF",
@@ -797,1620 +2299,518 @@
       "name": "Zimbabwe"
     }
   ],
-  "Chemical Elements": [
+  "European Soccer Clubs": [
     {
-      "code": "Ac",
-      "name": "Actinium"
+      "code": "BUN-HEI",
+      "name": "1. FC Heidenheim"
     },
     {
-      "code": "Al",
-      "name": "Aluminium"
+      "code": "BUN-KAI",
+      "name": "1. FC Kaiserslautern"
     },
     {
-      "code": "Am",
-      "name": "Americium"
+      "code": "BUN-KOL",
+      "name": "1. FC K\u00f6ln"
     },
     {
-      "code": "Sb",
-      "name": "Antimony"
+      "code": "BUN-N90",
+      "name": "1. FC N\u00fcrnberg"
     },
     {
-      "code": "Ar",
-      "name": "Argon"
+      "code": "L1-AJA",
+      "name": "AC Ajaccio"
     },
     {
-      "code": "As",
-      "name": "Arsenic"
+      "code": "SEA-MIL",
+      "name": "AC Milan"
     },
     {
-      "code": "At",
-      "name": "Astatine"
+      "code": "LAL-ALA",
+      "name": "Alav\u00e9s"
     },
     {
-      "code": "Ba",
-      "name": "Barium"
+      "code": "L1-ANG",
+      "name": "Angers"
     },
     {
-      "code": "Bk",
-      "name": "Berkelium"
+      "code": "EPL-ARS",
+      "name": "Arsenal"
     },
     {
-      "code": "Be",
-      "name": "Beryllium"
+      "code": "EPL-AVL",
+      "name": "Aston Villa"
     },
     {
-      "code": "Bi",
-      "name": "Bismuth"
+      "code": "SEA-ATA",
+      "name": "Atalanta"
     },
     {
-      "code": "Bh",
-      "name": "Bohrium"
+      "code": "LAL-ATH",
+      "name": "Athletic Bilbao"
     },
     {
-      "code": "B",
-      "name": "Boron"
+      "code": "LAL-ATM",
+      "name": "Atl\u00e9tico Madrid"
     },
     {
-      "code": "Br",
-      "name": "Bromine"
+      "code": "L1-AUX",
+      "name": "Auxerre"
     },
     {
-      "code": "Cd",
-      "name": "Cadmium"
+      "code": "LAL-BAR",
+      "name": "Barcelona"
     },
     {
-      "code": "Ca",
-      "name": "Calcium"
+      "code": "BUN-BER",
+      "name": "Bayer Leverkusen"
     },
     {
-      "code": "Cf",
-      "name": "Californium"
+      "code": "BUN-BAY",
+      "name": "Bayern Munich"
     },
     {
-      "code": "C",
-      "name": "Carbon"
+      "code": "EPL-BLA",
+      "name": "Blackburn Rovers"
     },
     {
-      "code": "Ce",
-      "name": "Cerium"
+      "code": "SEA-BOL",
+      "name": "Bologna"
     },
     {
-      "code": "Cs",
-      "name": "Cesium"
+      "code": "L1-BOR",
+      "name": "Bordeaux"
     },
     {
-      "code": "Cl",
-      "name": "Chlorine"
+      "code": "BUN-BVB",
+      "name": "Borussia Dortmund"
     },
     {
-      "code": "Cr",
-      "name": "Chromium"
+      "code": "BUN-BMG",
+      "name": "Borussia M\u00f6nchengladbach"
     },
     {
-      "code": "Co",
-      "name": "Cobalt"
+      "code": "EPL-BOU",
+      "name": "Bournemouth"
     },
     {
-      "code": "Cn",
-      "name": "Copernicium"
+      "code": "EPL-BRE",
+      "name": "Brentford"
     },
     {
-      "code": "Cu",
-      "name": "Copper"
+      "code": "SEA-BRE",
+      "name": "Brescia"
     },
     {
-      "code": "Cm",
-      "name": "Curium"
+      "code": "L1-BRE",
+      "name": "Brest"
     },
     {
-      "code": "Ds",
-      "name": "Darmstadtium"
+      "code": "EPL-BHA",
+      "name": "Brighton & Hove Albion"
     },
     {
-      "code": "Db",
-      "name": "Dubnium"
+      "code": "EPL-BUR",
+      "name": "Burnley"
     },
     {
-      "code": "Dy",
-      "name": "Dysprosium"
+      "code": "SEA-CAG",
+      "name": "Cagliari"
     },
     {
-      "code": "Es",
-      "name": "Einsteinium"
+      "code": "LAL-CEL",
+      "name": "Celta Vigo"
     },
     {
-      "code": "Er",
-      "name": "Erbium"
+      "code": "EPL-CHE",
+      "name": "Chelsea"
     },
     {
-      "code": "Eu",
-      "name": "Europium"
+      "code": "SEA-COM",
+      "name": "Como"
     },
     {
-      "code": "Fm",
-      "name": "Fermium"
+      "code": "EPL-CRY",
+      "name": "Crystal Palace"
     },
     {
-      "code": "Fl",
-      "name": "Flerovium"
+      "code": "LAL-DEP",
+      "name": "Deportivo La Coru\u00f1a"
     },
     {
-      "code": "F",
-      "name": "Fluorine"
+      "code": "L1-DIJ",
+      "name": "Dijon"
     },
     {
-      "code": "Fr",
-      "name": "Francium"
+      "code": "BUN-SGE",
+      "name": "Eintracht Frankfurt"
     },
     {
-      "code": "Gd",
-      "name": "Gadolinium"
+      "code": "SEA-EMP",
+      "name": "Empoli"
     },
     {
-      "code": "Ga",
-      "name": "Gallium"
+      "code": "LAL-ESP",
+      "name": "Espanyol"
     },
     {
-      "code": "Ge",
-      "name": "Germanium"
+      "code": "EPL-EVE",
+      "name": "Everton"
     },
     {
-      "code": "Au",
-      "name": "Gold"
+      "code": "BUN-FCA",
+      "name": "FC Augsburg"
     },
     {
-      "code": "Hf",
-      "name": "Hafnium"
+      "code": "SEA-FIO",
+      "name": "Fiorentina"
     },
     {
-      "code": "Hs",
-      "name": "Hassium"
+      "code": "EPL-FUL",
+      "name": "Fulham"
     },
     {
-      "code": "He",
-      "name": "Helium"
+      "code": "SEA-GEN",
+      "name": "Genoa"
     },
     {
-      "code": "Ho",
-      "name": "Holmium"
+      "code": "LAL-GET",
+      "name": "Getafe"
     },
     {
-      "code": "H",
-      "name": "Hydrogen"
+      "code": "LAL-GIR",
+      "name": "Girona"
     },
     {
-      "code": "In",
-      "name": "Indium"
+      "code": "LAL-GRA",
+      "name": "Granada"
     },
     {
-      "code": "I",
-      "name": "Iodine"
+      "code": "BUN-HAM",
+      "name": "Hamburger SV"
     },
     {
-      "code": "Ir",
-      "name": "Iridium"
+      "code": "SEA-HVR",
+      "name": "Hellas Verona"
     },
     {
-      "code": "Fe",
-      "name": "Iron"
+      "code": "BUN-HER",
+      "name": "Hertha BSC"
     },
     {
-      "code": "Kr",
-      "name": "Krypton"
+      "code": "BUN-HOF",
+      "name": "Hoffenheim"
     },
     {
-      "code": "La",
-      "name": "Lanthanum"
+      "code": "BUN-KIE",
+      "name": "Holstein Kiel"
     },
     {
-      "code": "Lr",
-      "name": "Lawrencium"
+      "code": "EPL-HUL",
+      "name": "Hull City"
     },
     {
-      "code": "Pb",
-      "name": "Lead"
+      "code": "SEA-INT",
+      "name": "Inter Milan"
     },
     {
-      "code": "Li",
-      "name": "Lithium"
+      "code": "EPL-IPS",
+      "name": "Ipswich Town"
     },
     {
-      "code": "Lv",
-      "name": "Livermorium"
+      "code": "SEA-JUV",
+      "name": "Juventus"
     },
     {
-      "code": "Lu",
-      "name": "Lutetium"
+      "code": "LAL-LPA",
+      "name": "Las Palmas"
     },
     {
-      "code": "Mg",
-      "name": "Magnesium"
+      "code": "SEA-LAZ",
+      "name": "Lazio"
     },
     {
-      "code": "Mn",
-      "name": "Manganese"
+      "code": "L1-LEH",
+      "name": "Le Havre"
     },
     {
-      "code": "Mt",
-      "name": "Meitnerium"
+      "code": "SEA-LEC",
+      "name": "Lecce"
     },
     {
-      "code": "Md",
-      "name": "Mendelevium"
+      "code": "EPL-LEE",
+      "name": "Leeds United"
     },
     {
-      "code": "Hg",
-      "name": "Mercury"
+      "code": "LAL-LEG",
+      "name": "Legan\u00e9s"
     },
     {
-      "code": "Mo",
-      "name": "Molybdenum"
+      "code": "EPL-LEI",
+      "name": "Leicester City"
     },
     {
-      "code": "Mc",
-      "name": "Moscovium"
+      "code": "L1-LEN",
+      "name": "Lens"
     },
     {
-      "code": "Nd",
-      "name": "Neodymium"
+      "code": "L1-LIL",
+      "name": "Lille"
     },
     {
-      "code": "Ne",
-      "name": "Neon"
+      "code": "EPL-LIV",
+      "name": "Liverpool"
     },
     {
-      "code": "Np",
-      "name": "Neptunium"
+      "code": "L1-LYN",
+      "name": "Lyon"
     },
     {
-      "code": "Ni",
-      "name": "Nickel"
+      "code": "BUN-MZ",
+      "name": "Mainz 05"
     },
     {
-      "code": "Nh",
-      "name": "Nihonium"
+      "code": "LAL-MAL",
+      "name": "Mallorca"
     },
     {
-      "code": "Nb",
-      "name": "Niobium"
+      "code": "EPL-MCI",
+      "name": "Manchester City"
     },
     {
-      "code": "N",
-      "name": "Nitrogen"
+      "code": "EPL-MUN",
+      "name": "Manchester United"
     },
     {
-      "code": "No",
-      "name": "Nobelium"
+      "code": "L1-MAR",
+      "name": "Marseille"
     },
     {
-      "code": "Og",
-      "name": "Oganesson"
+      "code": "L1-METZ",
+      "name": "Metz"
     },
     {
-      "code": "Os",
-      "name": "Osmium"
+      "code": "EPL-MID",
+      "name": "Middlesbrough"
     },
     {
-      "code": "O",
-      "name": "Oxygen"
+      "code": "L1-MON",
+      "name": "Monaco"
     },
     {
-      "code": "Pd",
-      "name": "Palladium"
+      "code": "L1-MTP",
+      "name": "Montpellier"
     },
     {
-      "code": "P",
-      "name": "Phosphorus"
+      "code": "SEA-MON",
+      "name": "Monza"
     },
     {
-      "code": "Pt",
-      "name": "Platinum"
+      "code": "LAL-MJA",
+      "name": "M\u00e1laga"
     },
     {
-      "code": "Pu",
-      "name": "Plutonium"
+      "code": "L1-NAN",
+      "name": "Nantes"
     },
     {
-      "code": "Po",
-      "name": "Polonium"
+      "code": "SEA-NAP",
+      "name": "Napoli"
     },
     {
-      "code": "K",
-      "name": "Potassium"
+      "code": "EPL-NEW",
+      "name": "Newcastle United"
     },
     {
-      "code": "Pr",
-      "name": "Praseodymium"
+      "code": "L1-NIC",
+      "name": "Nice"
     },
     {
-      "code": "Pm",
-      "name": "Promethium"
+      "code": "EPL-NOR",
+      "name": "Norwich City"
     },
     {
-      "code": "Pa",
-      "name": "Protactinium"
+      "code": "EPL-NFO",
+      "name": "Nottingham Forest"
     },
     {
-      "code": "Ra",
-      "name": "Radium"
+      "code": "LAL-OSA",
+      "name": "Osasuna"
     },
     {
-      "code": "Rn",
-      "name": "Radon"
+      "code": "SEA-PAL",
+      "name": "Palermo"
     },
     {
-      "code": "Re",
-      "name": "Rhenium"
+      "code": "L1-PSG",
+      "name": "Paris Saint-Germain"
     },
     {
-      "code": "Rh",
-      "name": "Rhodium"
+      "code": "SEA-PAR",
+      "name": "Parma"
     },
     {
-      "code": "Rg",
-      "name": "Roentgenium"
+      "code": "EPL-PNE",
+      "name": "Preston North End"
     },
     {
-      "code": "Rb",
-      "name": "Rubidium"
+      "code": "EPL-PRE",
+      "name": "Preston North End"
     },
     {
-      "code": "Ru",
-      "name": "Ruthenium"
+      "code": "EPL-QPR",
+      "name": "Queens Park Rangers"
     },
     {
-      "code": "Rf",
-      "name": "Rutherfordium"
+      "code": "BUN-RBL",
+      "name": "RB Leipzig"
     },
     {
-      "code": "Sm",
-      "name": "Samarium"
+      "code": "LAL-RAY",
+      "name": "Rayo Vallecano"
     },
     {
-      "code": "Sc",
-      "name": "Scandium"
+      "code": "LAL-BET",
+      "name": "Real Betis"
     },
     {
-      "code": "Sg",
-      "name": "Seaborgium"
+      "code": "LAL-RM",
+      "name": "Real Madrid"
     },
     {
-      "code": "Se",
-      "name": "Selenium"
+      "code": "LAL-RS",
+      "name": "Real Sociedad"
     },
     {
-      "code": "Si",
-      "name": "Silicon"
+      "code": "LAL-ZAR",
+      "name": "Real Zaragoza"
     },
     {
-      "code": "Ag",
-      "name": "Silver"
+      "code": "L1-REI",
+      "name": "Reims"
     },
     {
-      "code": "Na",
-      "name": "Sodium"
+      "code": "L1-REN",
+      "name": "Rennes"
     },
     {
-      "code": "Sr",
-      "name": "Strontium"
+      "code": "SEA-ROM",
+      "name": "Roma"
     },
     {
-      "code": "S",
-      "name": "Sulfur"
+      "code": "BUN-SCF",
+      "name": "SC Freiburg"
     },
     {
-      "code": "Ta",
-      "name": "Tantalum"
+      "code": "L1-SET",
+      "name": "Saint-\u00c9tienne"
     },
     {
-      "code": "Tc",
-      "name": "Technetium"
+      "code": "SEA-SMP",
+      "name": "Sampdoria"
     },
     {
-      "code": "Te",
-      "name": "Tellurium"
+      "code": "SEA-SAS",
+      "name": "Sassuolo"
     },
     {
-      "code": "Ts",
-      "name": "Tennessine"
+      "code": "BUN-SCH",
+      "name": "Schalke 04"
     },
     {
-      "code": "Tb",
-      "name": "Terbium"
+      "code": "LAL-SEV",
+      "name": "Sevilla"
     },
     {
-      "code": "Tl",
-      "name": "Thallium"
+      "code": "EPL-SHU",
+      "name": "Sheffield United"
     },
     {
-      "code": "Th",
-      "name": "Thorium"
+      "code": "EPL-SOU",
+      "name": "Southampton"
     },
     {
-      "code": "Tm",
-      "name": "Thulium"
+      "code": "BUN-STP",
+      "name": "St. Pauli"
     },
     {
-      "code": "Sn",
-      "name": "Tin"
+      "code": "EPL-STK",
+      "name": "Stoke City"
     },
     {
-      "code": "Ti",
-      "name": "Titanium"
+      "code": "L1-STR",
+      "name": "Strasbourg"
     },
     {
-      "code": "W",
-      "name": "Tungsten"
+      "code": "EPL-SUN",
+      "name": "Sunderland"
     },
     {
-      "code": "U",
-      "name": "Uranium"
+      "code": "SEA-TOR",
+      "name": "Torino"
     },
     {
-      "code": "V",
-      "name": "Vanadium"
+      "code": "EPL-TOT",
+      "name": "Tottenham Hotspur"
     },
     {
-      "code": "Xe",
-      "name": "Xenon"
+      "code": "L1-TFC",
+      "name": "Toulouse"
     },
     {
-      "code": "Yb",
-      "name": "Ytterbium"
+      "code": "SEA-UDN",
+      "name": "Udinese"
     },
     {
-      "code": "Y",
-      "name": "Yttrium"
+      "code": "BUN-UNI",
+      "name": "Union Berlin"
     },
     {
-      "code": "Zn",
-      "name": "Zinc"
+      "code": "LAL-VAL",
+      "name": "Valencia"
     },
     {
-      "code": "Zr",
-      "name": "Zirconium"
-    }
-  ],
-  "US States": [
-    {
-      "code": "AL",
-      "name": "Alabama"
-    },
-    {
-      "code": "AK",
-      "name": "Alaska"
-    },
-    {
-      "code": "AZ",
-      "name": "Arizona"
-    },
-    {
-      "code": "AR",
-      "name": "Arkansas"
-    },
-    {
-      "code": "CA",
-      "name": "California"
-    },
-    {
-      "code": "CO",
-      "name": "Colorado"
-    },
-    {
-      "code": "CT",
-      "name": "Connecticut"
-    },
-    {
-      "code": "DE",
-      "name": "Delaware"
-    },
-    {
-      "code": "DC",
-      "name": "District of Columbia"
-    },
-    {
-      "code": "FL",
-      "name": "Florida"
-    },
-    {
-      "code": "GA",
-      "name": "Georgia"
-    },
-    {
-      "code": "HI",
-      "name": "Hawaii"
-    },
-    {
-      "code": "ID",
-      "name": "Idaho"
-    },
-    {
-      "code": "IL",
-      "name": "Illinois"
-    },
-    {
-      "code": "IN",
-      "name": "Indiana"
-    },
-    {
-      "code": "IA",
-      "name": "Iowa"
-    },
-    {
-      "code": "KS",
-      "name": "Kansas"
-    },
-    {
-      "code": "KY",
-      "name": "Kentucky"
-    },
-    {
-      "code": "LA",
-      "name": "Louisiana"
-    },
-    {
-      "code": "ME",
-      "name": "Maine"
-    },
-    {
-      "code": "MD",
-      "name": "Maryland"
-    },
-    {
-      "code": "MA",
-      "name": "Massachusetts"
-    },
-    {
-      "code": "MI",
-      "name": "Michigan"
-    },
-    {
-      "code": "MN",
-      "name": "Minnesota"
-    },
-    {
-      "code": "MS",
-      "name": "Mississippi"
-    },
-    {
-      "code": "MO",
-      "name": "Missouri"
-    },
-    {
-      "code": "MT",
-      "name": "Montana"
-    },
-    {
-      "code": "NE",
-      "name": "Nebraska"
-    },
-    {
-      "code": "NV",
-      "name": "Nevada"
-    },
-    {
-      "code": "NH",
-      "name": "New Hampshire"
-    },
-    {
-      "code": "NJ",
-      "name": "New Jersey"
-    },
-    {
-      "code": "NM",
-      "name": "New Mexico"
-    },
-    {
-      "code": "NY",
-      "name": "New York"
-    },
-    {
-      "code": "NC",
-      "name": "North Carolina"
-    },
-    {
-      "code": "ND",
-      "name": "North Dakota"
-    },
-    {
-      "code": "OH",
-      "name": "Ohio"
-    },
-    {
-      "code": "OK",
-      "name": "Oklahoma"
-    },
-    {
-      "code": "OR",
-      "name": "Oregon"
-    },
-    {
-      "code": "PA",
-      "name": "Pennsylvania"
-    },
-    {
-      "code": "RI",
-      "name": "Rhode Island"
-    },
-    {
-      "code": "SC",
-      "name": "South Carolina"
-    },
-    {
-      "code": "SD",
-      "name": "South Dakota"
-    },
-    {
-      "code": "TN",
-      "name": "Tennessee"
-    },
-    {
-      "code": "TX",
-      "name": "Texas"
-    },
-    {
-      "code": "UT",
-      "name": "Utah"
-    },
-    {
-      "code": "VT",
-      "name": "Vermont"
-    },
-    {
-      "code": "VA",
-      "name": "Virginia"
-    },
-    {
-      "code": "WA",
-      "name": "Washington"
-    },
-    {
-      "code": "WV",
-      "name": "West Virginia"
-    },
-    {
-      "code": "WI",
-      "name": "Wisconsin"
-    },
-    {
-      "code": "WY",
-      "name": "Wyoming"
-    }
-  ],
-  "Companies": [
-    {
-      "code": "MMM",
-      "name": "3M"
-    },
-    {
-      "code": "ABBV",
-      "name": "AbbVie"
-    },
-    {
-      "code": "ACI",
-      "name": "Albertsons"
-    },
-    {
-      "code": "GOOGL",
-      "name": "Alphabet"
-    },
-    {
-      "code": "MO",
-      "name": "Altria Group"
-    },
-    {
-      "code": "AMZN",
-      "name": "Amazon"
-    },
-    {
-      "code": "AEP",
-      "name": "American Electric Power"
-    },
-    {
-      "code": "AXP",
-      "name": "American Express"
-    },
-    {
-      "code": "AIG",
-      "name": "American International Group"
-    },
-    {
-      "code": "AAPL",
-      "name": "Apple"
-    },
-    {
-      "code": "ADM",
-      "name": "Archer Daniels Midland"
-    },
-    {
-      "code": "T",
-      "name": "AT&T"
-    },
-    {
-      "code": "BAC",
-      "name": "Bank of America"
-    },
-    {
-      "code": "BRK.B",
-      "name": "Berkshire Hathaway"
-    },
-    {
-      "code": "BSX",
-      "name": "Boston Scientific"
-    },
-    {
-      "code": "BMY",
-      "name": "Bristol-Myers Squibb"
-    },
-    {
-      "code": "AVGO",
-      "name": "Broadcom"
-    },
-    {
-      "code": "COF",
-      "name": "Capital One"
-    },
-    {
-      "code": "CAH",
-      "name": "Cardinal Health"
-    },
-    {
-      "code": "cargill",
-      "name": "Cargill"
-    },
-    {
-      "code": "CAT",
-      "name": "Caterpillar"
-    },
-    {
-      "code": "CNC",
-      "name": "Centene"
-    },
-    {
-      "code": "CHTR",
-      "name": "Charter Communications"
-    },
-    {
-      "code": "CVX",
-      "name": "Chevron"
-    },
-    {
-      "code": "CB",
-      "name": "Chubb"
-    },
-    {
-      "code": "CI",
-      "name": "Cigna"
-    },
-    {
-      "code": "CSCO",
-      "name": "Cisco Systems"
-    },
-    {
-      "code": "C",
-      "name": "Citigroup"
-    },
-    {
-      "code": "KO",
-      "name": "Coca-Cola"
-    },
-    {
-      "code": "CMCSA",
-      "name": "Comcast"
-    },
-    {
-      "code": "COP",
-      "name": "ConocoPhillips"
-    },
-    {
-      "code": "GLW",
-      "name": "Corning"
-    },
-    {
-      "code": "COST",
-      "name": "Costco"
-    },
-    {
-      "code": "CVS",
-      "name": "CVS Health"
-    },
-    {
-      "code": "DHR",
-      "name": "Danaher"
-    },
-    {
-      "code": "DE",
-      "name": "Deere"
-    },
-    {
-      "code": "DELL",
-      "name": "Dell Technologies"
-    },
-    {
-      "code": "DAL",
-      "name": "Delta Air Lines"
-    },
-    {
-      "code": "DVN",
-      "name": "Devon Energy"
-    },
-    {
-      "code": "DOW",
-      "name": "Dow"
-    },
-    {
-      "code": "LLY",
-      "name": "Eli Lilly"
-    },
-    {
-      "code": "EMR",
-      "name": "Emerson Electric"
-    },
-    {
-      "code": "EPD",
-      "name": "Enterprise Products Partners"
-    },
-    {
-      "code": "EOG",
-      "name": "EOG Resources"
-    },
-    {
-      "code": "XOM",
-      "name": "ExxonMobil"
-    },
-    {
-      "code": "FDX",
-      "name": "FedEx"
-    },
-    {
-      "code": "F",
-      "name": "Ford Motor"
-    },
-    {
-      "code": "FCX",
-      "name": "Freeport-McMoRan"
-    },
-    {
-      "code": "GD",
-      "name": "General Dynamics"
-    },
-    {
-      "code": "GE",
-      "name": "General Electric"
-    },
-    {
-      "code": "GM",
-      "name": "General Motors"
-    },
-    {
-      "code": "GILD",
-      "name": "Gilead Sciences"
-    },
-    {
-      "code": "GS",
-      "name": "Goldman Sachs"
-    },
-    {
-      "code": "HCA",
-      "name": "HCA Healthcare"
-    },
-    {
-      "code": "HPE",
-      "name": "Hewlett Packard Enterprise"
-    },
-    {
-      "code": "HD",
-      "name": "Home Depot"
-    },
-    {
-      "code": "HON",
-      "name": "Honeywell"
-    },
-    {
-      "code": "HPQ",
-      "name": "HP"
-    },
-    {
-      "code": "HUM",
-      "name": "Humana"
-    },
-    {
-      "code": "IBM",
-      "name": "IBM"
-    },
-    {
-      "code": "INTC",
-      "name": "Intel"
-    },
-    {
-      "code": "JNJ",
-      "name": "Johnson & Johnson"
-    },
-    {
-      "code": "JPM",
-      "name": "JPMorgan Chase"
-    },
-    {
-      "code": "koch",
-      "name": "Koch Industries"
-    },
-    {
-      "code": "KR",
-      "name": "Kroger"
-    },
-    {
-      "code": "LMT",
-      "name": "Lockheed Martin"
-    },
-    {
-      "code": "LOW",
-      "name": "Lowe's"
-    },
-    {
-      "code": "MPC",
-      "name": "Marathon Petroleum"
-    },
-    {
-      "code": "MCD",
-      "name": "McDonald's"
-    },
-    {
-      "code": "MCK",
-      "name": "McKesson"
-    },
-    {
-      "code": "MRK",
-      "name": "Merck"
-    },
-    {
-      "code": "META",
-      "name": "Meta Platforms"
-    },
-    {
-      "code": "MET",
-      "name": "MetLife"
-    },
-    {
-      "code": "MSFT",
-      "name": "Microsoft"
-    },
-    {
-      "code": "MS",
-      "name": "Morgan Stanley"
-    },
-    {
-      "code": "NKE",
-      "name": "Nike"
-    },
-    {
-      "code": "NOC",
-      "name": "Northrop Grumman"
-    },
-    {
-      "code": "NVDA",
-      "name": "Nvidia"
-    },
-    {
-      "code": "ORCL",
-      "name": "Oracle"
-    },
-    {
-      "code": "PEP",
-      "name": "PepsiCo"
-    },
-    {
-      "code": "PFE",
-      "name": "Pfizer"
-    },
-    {
-      "code": "PCG",
-      "name": "PG&E"
-    },
-    {
-      "code": "PM",
-      "name": "Philip Morris International"
-    },
-    {
-      "code": "PSX",
-      "name": "Phillips 66"
-    },
-    {
-      "code": "PG",
-      "name": "Procter & Gamble"
-    },
-    {
-      "code": "PGR",
-      "name": "Progressive"
-    },
-    {
-      "code": "PRU",
-      "name": "Prudential Financial"
-    },
-    {
-      "code": "publix",
-      "name": "Publix Super Markets"
-    },
-    {
-      "code": "RTX",
-      "name": "RTX"
-    },
-    {
-      "code": "CRM",
-      "name": "Salesforce"
-    },
-    {
-      "code": "state-farm",
-      "name": "State Farm"
-    },
-    {
-      "code": "SYY",
-      "name": "Sysco"
-    },
-    {
-      "code": "TGT",
-      "name": "Target"
-    },
-    {
-      "code": "TSLA",
-      "name": "Tesla"
-    },
-    {
-      "code": "TMO",
-      "name": "Thermo Fisher Scientific"
-    },
-    {
-      "code": "TJX",
-      "name": "TJX"
-    },
-    {
-      "code": "TSN",
-      "name": "Tyson Foods"
-    },
-    {
-      "code": "UNP",
-      "name": "Union Pacific"
-    },
-    {
-      "code": "UAL",
-      "name": "United Airlines"
-    },
-    {
-      "code": "UNH",
-      "name": "UnitedHealth Group"
-    },
-    {
-      "code": "UPS",
-      "name": "UPS"
-    },
-    {
-      "code": "USAA",
-      "name": "USAA"
-    },
-    {
-      "code": "VLO",
-      "name": "Valero Energy"
-    },
-    {
-      "code": "VZ",
-      "name": "Verizon"
-    },
-    {
-      "code": "V",
-      "name": "Visa"
-    },
-    {
-      "code": "WBA",
-      "name": "Walgreens Boots Alliance"
-    },
-    {
-      "code": "WMT",
-      "name": "Walmart"
-    },
-    {
-      "code": "DIS",
-      "name": "Walt Disney"
-    },
-    {
-      "code": "WFC",
-      "name": "Wells Fargo"
-    }
-  ],
-  "Pro Sports Teams": [
-    {
-      "code": "NHL-ANA",
-      "name": "Anaheim Ducks"
-    },
-    {
-      "code": "NFL-ARI",
-      "name": "Arizona Cardinals"
-    },
-    {
-      "code": "MLB-ARI",
-      "name": "Arizona Diamondbacks"
-    },
-    {
-      "code": "MLB-ATL",
-      "name": "Atlanta Braves"
-    },
-    {
-      "code": "NFL-ATL",
-      "name": "Atlanta Falcons"
-    },
-    {
-      "code": "NBA-ATL",
-      "name": "Atlanta Hawks"
-    },
-    {
-      "code": "MLB-BAL",
-      "name": "Baltimore Orioles"
-    },
-    {
-      "code": "NFL-BAL",
-      "name": "Baltimore Ravens"
-    },
-    {
-      "code": "NHL-BOS",
-      "name": "Boston Bruins"
-    },
-    {
-      "code": "NBA-BOS",
-      "name": "Boston Celtics"
-    },
-    {
-      "code": "MLB-BOS",
-      "name": "Boston Red Sox"
-    },
-    {
-      "code": "NBA-BKN",
-      "name": "Brooklyn Nets"
-    },
-    {
-      "code": "NFL-BUF",
-      "name": "Buffalo Bills"
-    },
-    {
-      "code": "NHL-BUF",
-      "name": "Buffalo Sabres"
-    },
-    {
-      "code": "NHL-CGY",
-      "name": "Calgary Flames"
-    },
-    {
-      "code": "NHL-CAR",
-      "name": "Carolina Hurricanes"
-    },
-    {
-      "code": "NFL-CAR",
-      "name": "Carolina Panthers"
-    },
-    {
-      "code": "NBA-CHA",
-      "name": "Charlotte Hornets"
-    },
-    {
-      "code": "NFL-CHI",
-      "name": "Chicago Bears"
-    },
-    {
-      "code": "NHL-CHI",
-      "name": "Chicago Blackhawks"
-    },
-    {
-      "code": "NBA-CHI",
-      "name": "Chicago Bulls"
-    },
-    {
-      "code": "MLB-CHC",
-      "name": "Chicago Cubs"
-    },
-    {
-      "code": "MLB-CWS",
-      "name": "Chicago White Sox"
-    },
-    {
-      "code": "NFL-CIN",
-      "name": "Cincinnati Bengals"
-    },
-    {
-      "code": "MLB-CIN",
-      "name": "Cincinnati Reds"
-    },
-    {
-      "code": "NFL-CLE",
-      "name": "Cleveland Browns"
-    },
-    {
-      "code": "NBA-CLE",
-      "name": "Cleveland Cavaliers"
-    },
-    {
-      "code": "MLB-CLE",
-      "name": "Cleveland Guardians"
-    },
-    {
-      "code": "NHL-COL",
-      "name": "Colorado Avalanche"
-    },
-    {
-      "code": "MLB-COL",
-      "name": "Colorado Rockies"
-    },
-    {
-      "code": "NHL-CBJ",
-      "name": "Columbus Blue Jackets"
-    },
-    {
-      "code": "NFL-DAL",
-      "name": "Dallas Cowboys"
-    },
-    {
-      "code": "NBA-DAL",
-      "name": "Dallas Mavericks"
-    },
-    {
-      "code": "NHL-DAL",
-      "name": "Dallas Stars"
-    },
-    {
-      "code": "NFL-DEN",
-      "name": "Denver Broncos"
-    },
-    {
-      "code": "NBA-DEN",
-      "name": "Denver Nuggets"
-    },
-    {
-      "code": "NFL-DET",
-      "name": "Detroit Lions"
-    },
-    {
-      "code": "NBA-DET",
-      "name": "Detroit Pistons"
-    },
-    {
-      "code": "NHL-DET",
-      "name": "Detroit Red Wings"
-    },
-    {
-      "code": "MLB-DET",
-      "name": "Detroit Tigers"
-    },
-    {
-      "code": "NHL-EDM",
-      "name": "Edmonton Oilers"
-    },
-    {
-      "code": "NHL-FLA",
-      "name": "Florida Panthers"
-    },
-    {
-      "code": "NBA-GSW",
-      "name": "Golden State Warriors"
-    },
-    {
-      "code": "NFL-GB",
-      "name": "Green Bay Packers"
-    },
-    {
-      "code": "MLB-HOU",
-      "name": "Houston Astros"
-    },
-    {
-      "code": "NBA-HOU",
-      "name": "Houston Rockets"
-    },
-    {
-      "code": "NFL-HOU",
-      "name": "Houston Texans"
-    },
-    {
-      "code": "NBA-IND",
-      "name": "Indiana Pacers"
-    },
-    {
-      "code": "NFL-IND",
-      "name": "Indianapolis Colts"
-    },
-    {
-      "code": "NFL-JAX",
-      "name": "Jacksonville Jaguars"
-    },
-    {
-      "code": "NFL-KC",
-      "name": "Kansas City Chiefs"
-    },
-    {
-      "code": "MLB-KC",
-      "name": "Kansas City Royals"
-    },
-    {
-      "code": "NBA-LAC",
-      "name": "LA Clippers"
-    },
-    {
-      "code": "NFL-LV",
-      "name": "Las Vegas Raiders"
-    },
-    {
-      "code": "MLB-LAA",
-      "name": "Los Angeles Angels"
-    },
-    {
-      "code": "NFL-LAC",
-      "name": "Los Angeles Chargers"
-    },
-    {
-      "code": "MLB-LAD",
-      "name": "Los Angeles Dodgers"
-    },
-    {
-      "code": "NHL-LAK",
-      "name": "Los Angeles Kings"
-    },
-    {
-      "code": "NBA-LAL",
-      "name": "Los Angeles Lakers"
-    },
-    {
-      "code": "NFL-LAR",
-      "name": "Los Angeles Rams"
-    },
-    {
-      "code": "NBA-MEM",
-      "name": "Memphis Grizzlies"
-    },
-    {
-      "code": "NFL-MIA",
-      "name": "Miami Dolphins"
-    },
-    {
-      "code": "NBA-MIA",
-      "name": "Miami Heat"
-    },
-    {
-      "code": "MLB-MIA",
-      "name": "Miami Marlins"
-    },
-    {
-      "code": "MLB-MIL",
-      "name": "Milwaukee Brewers"
-    },
-    {
-      "code": "NBA-MIL",
-      "name": "Milwaukee Bucks"
-    },
-    {
-      "code": "NBA-MIN",
-      "name": "Minnesota Timberwolves"
-    },
-    {
-      "code": "MLB-MIN",
-      "name": "Minnesota Twins"
-    },
-    {
-      "code": "NFL-MIN",
-      "name": "Minnesota Vikings"
-    },
-    {
-      "code": "NHL-MIN",
-      "name": "Minnesota Wild"
-    },
-    {
-      "code": "NHL-MTL",
-      "name": "Montreal Canadiens"
-    },
-    {
-      "code": "NHL-NSH",
-      "name": "Nashville Predators"
-    },
-    {
-      "code": "NFL-NE",
-      "name": "New England Patriots"
-    },
-    {
-      "code": "NHL-NJD",
-      "name": "New Jersey Devils"
-    },
-    {
-      "code": "NBA-NOP",
-      "name": "New Orleans Pelicans"
-    },
-    {
-      "code": "NFL-NO",
-      "name": "New Orleans Saints"
-    },
-    {
-      "code": "NFL-NYG",
-      "name": "New York Giants"
-    },
-    {
-      "code": "NHL-NYI",
-      "name": "New York Islanders"
-    },
-    {
-      "code": "NFL-NYJ",
-      "name": "New York Jets"
-    },
-    {
-      "code": "NBA-NYK",
-      "name": "New York Knicks"
-    },
-    {
-      "code": "MLB-NYM",
-      "name": "New York Mets"
-    },
-    {
-      "code": "NHL-NYR",
-      "name": "New York Rangers"
-    },
-    {
-      "code": "MLB-NYY",
-      "name": "New York Yankees"
-    },
-    {
-      "code": "MLB-OAK",
-      "name": "Oakland Athletics"
-    },
-    {
-      "code": "NBA-OKC",
-      "name": "Oklahoma City Thunder"
-    },
-    {
-      "code": "NBA-ORL",
-      "name": "Orlando Magic"
-    },
-    {
-      "code": "NHL-OTT",
-      "name": "Ottawa Senators"
-    },
-    {
-      "code": "NBA-PHI",
-      "name": "Philadelphia 76ers"
-    },
-    {
-      "code": "NFL-PHI",
-      "name": "Philadelphia Eagles"
-    },
-    {
-      "code": "NHL-PHI",
-      "name": "Philadelphia Flyers"
-    },
-    {
-      "code": "MLB-PHI",
-      "name": "Philadelphia Phillies"
-    },
-    {
-      "code": "NBA-PHX",
-      "name": "Phoenix Suns"
-    },
-    {
-      "code": "NHL-PIT",
-      "name": "Pittsburgh Penguins"
-    },
-    {
-      "code": "MLB-PIT",
-      "name": "Pittsburgh Pirates"
-    },
-    {
-      "code": "NFL-PIT",
-      "name": "Pittsburgh Steelers"
-    },
-    {
-      "code": "NBA-POR",
-      "name": "Portland Trail Blazers"
-    },
-    {
-      "code": "NBA-SAC",
-      "name": "Sacramento Kings"
-    },
-    {
-      "code": "NBA-SAS",
-      "name": "San Antonio Spurs"
-    },
-    {
-      "code": "MLB-SD",
-      "name": "San Diego Padres"
-    },
-    {
-      "code": "NFL-SF",
-      "name": "San Francisco 49ers"
-    },
-    {
-      "code": "MLB-SF",
-      "name": "San Francisco Giants"
-    },
-    {
-      "code": "NHL-SJS",
-      "name": "San Jose Sharks"
-    },
-    {
-      "code": "NHL-SEA",
-      "name": "Seattle Kraken"
-    },
-    {
-      "code": "MLB-SEA",
-      "name": "Seattle Mariners"
-    },
-    {
-      "code": "NFL-SEA",
-      "name": "Seattle Seahawks"
-    },
-    {
-      "code": "NHL-STL",
-      "name": "St. Louis Blues"
-    },
-    {
-      "code": "MLB-STL",
-      "name": "St. Louis Cardinals"
-    },
-    {
-      "code": "NFL-TB",
-      "name": "Tampa Bay Buccaneers"
-    },
-    {
-      "code": "NHL-TBL",
-      "name": "Tampa Bay Lightning"
-    },
-    {
-      "code": "MLB-TB",
-      "name": "Tampa Bay Rays"
-    },
-    {
-      "code": "NFL-TEN",
-      "name": "Tennessee Titans"
-    },
-    {
-      "code": "MLB-TEX",
-      "name": "Texas Rangers"
-    },
-    {
-      "code": "MLB-TOR",
-      "name": "Toronto Blue Jays"
-    },
-    {
-      "code": "NHL-TOR",
-      "name": "Toronto Maple Leafs"
+      "code": "LAL-VLD",
+      "name": "Valladolid"
     },
     {
-      "code": "NBA-TOR",
-      "name": "Toronto Raptors"
+      "code": "SEA-VEN",
+      "name": "Venezia"
     },
     {
-      "code": "NHL-UTA",
-      "name": "Utah Hockey Club"
+      "code": "BUN-VFB",
+      "name": "VfB Stuttgart"
     },
     {
-      "code": "NBA-UTA",
-      "name": "Utah Jazz"
+      "code": "BUN-BOC",
+      "name": "VfL Bochum"
     },
     {
-      "code": "NHL-VAN",
-      "name": "Vancouver Canucks"
+      "code": "BUN-WOB",
+      "name": "VfL Wolfsburg"
     },
     {
-      "code": "NHL-VGK",
-      "name": "Vegas Golden Knights"
+      "code": "LAL-VLL",
+      "name": "Villarreal"
     },
     {
-      "code": "NHL-WSH",
-      "name": "Washington Capitals"
+      "code": "EPL-WAT",
+      "name": "Watford"
     },
     {
-      "code": "NFL-WAS",
-      "name": "Washington Commanders"
+      "code": "BUN-BRE",
+      "name": "Werder Bremen"
     },
     {
-      "code": "MLB-WAS",
-      "name": "Washington Nationals"
+      "code": "EPL-WBA",
+      "name": "West Bromwich Albion"
     },
     {
-      "code": "NBA-WAS",
-      "name": "Washington Wizards"
+      "code": "EPL-WHU",
+      "name": "West Ham United"
     },
     {
-      "code": "NHL-WPG",
-      "name": "Winnipeg Jets"
+      "code": "EPL-WOL",
+      "name": "Wolverhampton Wanderers"
     }
   ],
   "Movies": [
@@ -4823,6 +5223,1080 @@
       "name": "The Zone of Interest (2023)"
     }
   ],
+  "US Big 4 Sports": [
+    {
+      "code": "NHL-ANA",
+      "name": "Anaheim Ducks"
+    },
+    {
+      "code": "NFL-ARI",
+      "name": "Arizona Cardinals"
+    },
+    {
+      "code": "MLB-ARI",
+      "name": "Arizona Diamondbacks"
+    },
+    {
+      "code": "MLB-ATL",
+      "name": "Atlanta Braves"
+    },
+    {
+      "code": "NFL-ATL",
+      "name": "Atlanta Falcons"
+    },
+    {
+      "code": "NBA-ATL",
+      "name": "Atlanta Hawks"
+    },
+    {
+      "code": "MLB-BAL",
+      "name": "Baltimore Orioles"
+    },
+    {
+      "code": "NFL-BAL",
+      "name": "Baltimore Ravens"
+    },
+    {
+      "code": "NHL-BOS",
+      "name": "Boston Bruins"
+    },
+    {
+      "code": "NBA-BOS",
+      "name": "Boston Celtics"
+    },
+    {
+      "code": "MLB-BOS",
+      "name": "Boston Red Sox"
+    },
+    {
+      "code": "NBA-BKN",
+      "name": "Brooklyn Nets"
+    },
+    {
+      "code": "NFL-BUF",
+      "name": "Buffalo Bills"
+    },
+    {
+      "code": "NHL-BUF",
+      "name": "Buffalo Sabres"
+    },
+    {
+      "code": "NHL-CGY",
+      "name": "Calgary Flames"
+    },
+    {
+      "code": "NHL-CAR",
+      "name": "Carolina Hurricanes"
+    },
+    {
+      "code": "NFL-CAR",
+      "name": "Carolina Panthers"
+    },
+    {
+      "code": "NBA-CHA",
+      "name": "Charlotte Hornets"
+    },
+    {
+      "code": "NFL-CHI",
+      "name": "Chicago Bears"
+    },
+    {
+      "code": "NHL-CHI",
+      "name": "Chicago Blackhawks"
+    },
+    {
+      "code": "NBA-CHI",
+      "name": "Chicago Bulls"
+    },
+    {
+      "code": "MLB-CHC",
+      "name": "Chicago Cubs"
+    },
+    {
+      "code": "MLB-CWS",
+      "name": "Chicago White Sox"
+    },
+    {
+      "code": "NFL-CIN",
+      "name": "Cincinnati Bengals"
+    },
+    {
+      "code": "MLB-CIN",
+      "name": "Cincinnati Reds"
+    },
+    {
+      "code": "NFL-CLE",
+      "name": "Cleveland Browns"
+    },
+    {
+      "code": "NBA-CLE",
+      "name": "Cleveland Cavaliers"
+    },
+    {
+      "code": "MLB-CLE",
+      "name": "Cleveland Guardians"
+    },
+    {
+      "code": "NHL-COL",
+      "name": "Colorado Avalanche"
+    },
+    {
+      "code": "MLB-COL",
+      "name": "Colorado Rockies"
+    },
+    {
+      "code": "NHL-CBJ",
+      "name": "Columbus Blue Jackets"
+    },
+    {
+      "code": "NFL-DAL",
+      "name": "Dallas Cowboys"
+    },
+    {
+      "code": "NBA-DAL",
+      "name": "Dallas Mavericks"
+    },
+    {
+      "code": "NHL-DAL",
+      "name": "Dallas Stars"
+    },
+    {
+      "code": "NFL-DEN",
+      "name": "Denver Broncos"
+    },
+    {
+      "code": "NBA-DEN",
+      "name": "Denver Nuggets"
+    },
+    {
+      "code": "NFL-DET",
+      "name": "Detroit Lions"
+    },
+    {
+      "code": "NBA-DET",
+      "name": "Detroit Pistons"
+    },
+    {
+      "code": "NHL-DET",
+      "name": "Detroit Red Wings"
+    },
+    {
+      "code": "MLB-DET",
+      "name": "Detroit Tigers"
+    },
+    {
+      "code": "NHL-EDM",
+      "name": "Edmonton Oilers"
+    },
+    {
+      "code": "NHL-FLA",
+      "name": "Florida Panthers"
+    },
+    {
+      "code": "NBA-GSW",
+      "name": "Golden State Warriors"
+    },
+    {
+      "code": "NFL-GB",
+      "name": "Green Bay Packers"
+    },
+    {
+      "code": "MLB-HOU",
+      "name": "Houston Astros"
+    },
+    {
+      "code": "NBA-HOU",
+      "name": "Houston Rockets"
+    },
+    {
+      "code": "NFL-HOU",
+      "name": "Houston Texans"
+    },
+    {
+      "code": "NBA-IND",
+      "name": "Indiana Pacers"
+    },
+    {
+      "code": "NFL-IND",
+      "name": "Indianapolis Colts"
+    },
+    {
+      "code": "NFL-JAX",
+      "name": "Jacksonville Jaguars"
+    },
+    {
+      "code": "NFL-KC",
+      "name": "Kansas City Chiefs"
+    },
+    {
+      "code": "MLB-KC",
+      "name": "Kansas City Royals"
+    },
+    {
+      "code": "NBA-LAC",
+      "name": "LA Clippers"
+    },
+    {
+      "code": "NFL-LV",
+      "name": "Las Vegas Raiders"
+    },
+    {
+      "code": "MLB-LAA",
+      "name": "Los Angeles Angels"
+    },
+    {
+      "code": "NFL-LAC",
+      "name": "Los Angeles Chargers"
+    },
+    {
+      "code": "MLB-LAD",
+      "name": "Los Angeles Dodgers"
+    },
+    {
+      "code": "NHL-LAK",
+      "name": "Los Angeles Kings"
+    },
+    {
+      "code": "NBA-LAL",
+      "name": "Los Angeles Lakers"
+    },
+    {
+      "code": "NFL-LAR",
+      "name": "Los Angeles Rams"
+    },
+    {
+      "code": "NBA-MEM",
+      "name": "Memphis Grizzlies"
+    },
+    {
+      "code": "NFL-MIA",
+      "name": "Miami Dolphins"
+    },
+    {
+      "code": "NBA-MIA",
+      "name": "Miami Heat"
+    },
+    {
+      "code": "MLB-MIA",
+      "name": "Miami Marlins"
+    },
+    {
+      "code": "MLB-MIL",
+      "name": "Milwaukee Brewers"
+    },
+    {
+      "code": "NBA-MIL",
+      "name": "Milwaukee Bucks"
+    },
+    {
+      "code": "NBA-MIN",
+      "name": "Minnesota Timberwolves"
+    },
+    {
+      "code": "MLB-MIN",
+      "name": "Minnesota Twins"
+    },
+    {
+      "code": "NFL-MIN",
+      "name": "Minnesota Vikings"
+    },
+    {
+      "code": "NHL-MIN",
+      "name": "Minnesota Wild"
+    },
+    {
+      "code": "NHL-MTL",
+      "name": "Montreal Canadiens"
+    },
+    {
+      "code": "NHL-NSH",
+      "name": "Nashville Predators"
+    },
+    {
+      "code": "NFL-NE",
+      "name": "New England Patriots"
+    },
+    {
+      "code": "NHL-NJD",
+      "name": "New Jersey Devils"
+    },
+    {
+      "code": "NBA-NOP",
+      "name": "New Orleans Pelicans"
+    },
+    {
+      "code": "NFL-NO",
+      "name": "New Orleans Saints"
+    },
+    {
+      "code": "NFL-NYG",
+      "name": "New York Giants"
+    },
+    {
+      "code": "NHL-NYI",
+      "name": "New York Islanders"
+    },
+    {
+      "code": "NFL-NYJ",
+      "name": "New York Jets"
+    },
+    {
+      "code": "NBA-NYK",
+      "name": "New York Knicks"
+    },
+    {
+      "code": "MLB-NYM",
+      "name": "New York Mets"
+    },
+    {
+      "code": "NHL-NYR",
+      "name": "New York Rangers"
+    },
+    {
+      "code": "MLB-NYY",
+      "name": "New York Yankees"
+    },
+    {
+      "code": "MLB-OAK",
+      "name": "Oakland Athletics"
+    },
+    {
+      "code": "NBA-OKC",
+      "name": "Oklahoma City Thunder"
+    },
+    {
+      "code": "NBA-ORL",
+      "name": "Orlando Magic"
+    },
+    {
+      "code": "NHL-OTT",
+      "name": "Ottawa Senators"
+    },
+    {
+      "code": "NBA-PHI",
+      "name": "Philadelphia 76ers"
+    },
+    {
+      "code": "NFL-PHI",
+      "name": "Philadelphia Eagles"
+    },
+    {
+      "code": "NHL-PHI",
+      "name": "Philadelphia Flyers"
+    },
+    {
+      "code": "MLB-PHI",
+      "name": "Philadelphia Phillies"
+    },
+    {
+      "code": "NBA-PHX",
+      "name": "Phoenix Suns"
+    },
+    {
+      "code": "NHL-PIT",
+      "name": "Pittsburgh Penguins"
+    },
+    {
+      "code": "MLB-PIT",
+      "name": "Pittsburgh Pirates"
+    },
+    {
+      "code": "NFL-PIT",
+      "name": "Pittsburgh Steelers"
+    },
+    {
+      "code": "NBA-POR",
+      "name": "Portland Trail Blazers"
+    },
+    {
+      "code": "NBA-SAC",
+      "name": "Sacramento Kings"
+    },
+    {
+      "code": "NBA-SAS",
+      "name": "San Antonio Spurs"
+    },
+    {
+      "code": "MLB-SD",
+      "name": "San Diego Padres"
+    },
+    {
+      "code": "NFL-SF",
+      "name": "San Francisco 49ers"
+    },
+    {
+      "code": "MLB-SF",
+      "name": "San Francisco Giants"
+    },
+    {
+      "code": "NHL-SJS",
+      "name": "San Jose Sharks"
+    },
+    {
+      "code": "NHL-SEA",
+      "name": "Seattle Kraken"
+    },
+    {
+      "code": "MLB-SEA",
+      "name": "Seattle Mariners"
+    },
+    {
+      "code": "NFL-SEA",
+      "name": "Seattle Seahawks"
+    },
+    {
+      "code": "NHL-STL",
+      "name": "St. Louis Blues"
+    },
+    {
+      "code": "MLB-STL",
+      "name": "St. Louis Cardinals"
+    },
+    {
+      "code": "NFL-TB",
+      "name": "Tampa Bay Buccaneers"
+    },
+    {
+      "code": "NHL-TBL",
+      "name": "Tampa Bay Lightning"
+    },
+    {
+      "code": "MLB-TB",
+      "name": "Tampa Bay Rays"
+    },
+    {
+      "code": "NFL-TEN",
+      "name": "Tennessee Titans"
+    },
+    {
+      "code": "MLB-TEX",
+      "name": "Texas Rangers"
+    },
+    {
+      "code": "MLB-TOR",
+      "name": "Toronto Blue Jays"
+    },
+    {
+      "code": "NHL-TOR",
+      "name": "Toronto Maple Leafs"
+    },
+    {
+      "code": "NBA-TOR",
+      "name": "Toronto Raptors"
+    },
+    {
+      "code": "NHL-UTA",
+      "name": "Utah Hockey Club"
+    },
+    {
+      "code": "NBA-UTA",
+      "name": "Utah Jazz"
+    },
+    {
+      "code": "NHL-VAN",
+      "name": "Vancouver Canucks"
+    },
+    {
+      "code": "NHL-VGK",
+      "name": "Vegas Golden Knights"
+    },
+    {
+      "code": "NHL-WSH",
+      "name": "Washington Capitals"
+    },
+    {
+      "code": "NFL-WAS",
+      "name": "Washington Commanders"
+    },
+    {
+      "code": "MLB-WAS",
+      "name": "Washington Nationals"
+    },
+    {
+      "code": "NBA-WAS",
+      "name": "Washington Wizards"
+    },
+    {
+      "code": "NHL-WPG",
+      "name": "Winnipeg Jets"
+    }
+  ],
+  "US States": [
+    {
+      "code": "AL",
+      "name": "Alabama"
+    },
+    {
+      "code": "AK",
+      "name": "Alaska"
+    },
+    {
+      "code": "AZ",
+      "name": "Arizona"
+    },
+    {
+      "code": "AR",
+      "name": "Arkansas"
+    },
+    {
+      "code": "CA",
+      "name": "California"
+    },
+    {
+      "code": "CO",
+      "name": "Colorado"
+    },
+    {
+      "code": "CT",
+      "name": "Connecticut"
+    },
+    {
+      "code": "DE",
+      "name": "Delaware"
+    },
+    {
+      "code": "DC",
+      "name": "District of Columbia"
+    },
+    {
+      "code": "FL",
+      "name": "Florida"
+    },
+    {
+      "code": "GA",
+      "name": "Georgia"
+    },
+    {
+      "code": "HI",
+      "name": "Hawaii"
+    },
+    {
+      "code": "ID",
+      "name": "Idaho"
+    },
+    {
+      "code": "IL",
+      "name": "Illinois"
+    },
+    {
+      "code": "IN",
+      "name": "Indiana"
+    },
+    {
+      "code": "IA",
+      "name": "Iowa"
+    },
+    {
+      "code": "KS",
+      "name": "Kansas"
+    },
+    {
+      "code": "KY",
+      "name": "Kentucky"
+    },
+    {
+      "code": "LA",
+      "name": "Louisiana"
+    },
+    {
+      "code": "ME",
+      "name": "Maine"
+    },
+    {
+      "code": "MD",
+      "name": "Maryland"
+    },
+    {
+      "code": "MA",
+      "name": "Massachusetts"
+    },
+    {
+      "code": "MI",
+      "name": "Michigan"
+    },
+    {
+      "code": "MN",
+      "name": "Minnesota"
+    },
+    {
+      "code": "MS",
+      "name": "Mississippi"
+    },
+    {
+      "code": "MO",
+      "name": "Missouri"
+    },
+    {
+      "code": "MT",
+      "name": "Montana"
+    },
+    {
+      "code": "NE",
+      "name": "Nebraska"
+    },
+    {
+      "code": "NV",
+      "name": "Nevada"
+    },
+    {
+      "code": "NH",
+      "name": "New Hampshire"
+    },
+    {
+      "code": "NJ",
+      "name": "New Jersey"
+    },
+    {
+      "code": "NM",
+      "name": "New Mexico"
+    },
+    {
+      "code": "NY",
+      "name": "New York"
+    },
+    {
+      "code": "NC",
+      "name": "North Carolina"
+    },
+    {
+      "code": "ND",
+      "name": "North Dakota"
+    },
+    {
+      "code": "OH",
+      "name": "Ohio"
+    },
+    {
+      "code": "OK",
+      "name": "Oklahoma"
+    },
+    {
+      "code": "OR",
+      "name": "Oregon"
+    },
+    {
+      "code": "PA",
+      "name": "Pennsylvania"
+    },
+    {
+      "code": "RI",
+      "name": "Rhode Island"
+    },
+    {
+      "code": "SC",
+      "name": "South Carolina"
+    },
+    {
+      "code": "SD",
+      "name": "South Dakota"
+    },
+    {
+      "code": "TN",
+      "name": "Tennessee"
+    },
+    {
+      "code": "TX",
+      "name": "Texas"
+    },
+    {
+      "code": "UT",
+      "name": "Utah"
+    },
+    {
+      "code": "VT",
+      "name": "Vermont"
+    },
+    {
+      "code": "VA",
+      "name": "Virginia"
+    },
+    {
+      "code": "WA",
+      "name": "Washington"
+    },
+    {
+      "code": "WV",
+      "name": "West Virginia"
+    },
+    {
+      "code": "WI",
+      "name": "Wisconsin"
+    },
+    {
+      "code": "WY",
+      "name": "Wyoming"
+    }
+  ],
+  "Video Game Franchises": [
+    {
+      "code": "age-of-empires",
+      "name": "Age of Empires"
+    },
+    {
+      "code": "animal-crossing",
+      "name": "Animal Crossing"
+    },
+    {
+      "code": "assassins-creed",
+      "name": "Assassin's Creed"
+    },
+    {
+      "code": "baldurs-gate",
+      "name": "Baldur's Gate"
+    },
+    {
+      "code": "battlefield",
+      "name": "Battlefield"
+    },
+    {
+      "code": "bioshock",
+      "name": "BioShock"
+    },
+    {
+      "code": "borderlands",
+      "name": "Borderlands"
+    },
+    {
+      "code": "call-of-duty",
+      "name": "Call of Duty"
+    },
+    {
+      "code": "castlevania",
+      "name": "Castlevania"
+    },
+    {
+      "code": "counter-strike",
+      "name": "Counter-Strike"
+    },
+    {
+      "code": "cyberpunk",
+      "name": "Cyberpunk"
+    },
+    {
+      "code": "dance-dance-revolution",
+      "name": "Dance Dance Revolution"
+    },
+    {
+      "code": "dark-souls",
+      "name": "Dark Souls"
+    },
+    {
+      "code": "devil-may-cry",
+      "name": "Devil May Cry"
+    },
+    {
+      "code": "diablo",
+      "name": "Diablo"
+    },
+    {
+      "code": "donkey-kong",
+      "name": "Donkey Kong"
+    },
+    {
+      "code": "doom",
+      "name": "Doom"
+    },
+    {
+      "code": "dota",
+      "name": "Dota"
+    },
+    {
+      "code": "dragon-age",
+      "name": "Dragon Age"
+    },
+    {
+      "code": "dragon-quest",
+      "name": "Dragon Quest"
+    },
+    {
+      "code": "elder-scrolls",
+      "name": "Elder Scrolls"
+    },
+    {
+      "code": "elden-ring",
+      "name": "Elden Ring"
+    },
+    {
+      "code": "fallout",
+      "name": "Fallout"
+    },
+    {
+      "code": "far-cry",
+      "name": "Far Cry"
+    },
+    {
+      "code": "fifa",
+      "name": "FIFA"
+    },
+    {
+      "code": "final-fantasy",
+      "name": "Final Fantasy"
+    },
+    {
+      "code": "fire-emblem",
+      "name": "Fire Emblem"
+    },
+    {
+      "code": "forza",
+      "name": "Forza"
+    },
+    {
+      "code": "fortnite",
+      "name": "Fortnite"
+    },
+    {
+      "code": "frogger",
+      "name": "Frogger"
+    },
+    {
+      "code": "gears-of-war",
+      "name": "Gears of War"
+    },
+    {
+      "code": "god-of-war",
+      "name": "God of War"
+    },
+    {
+      "code": "gran-turismo",
+      "name": "Gran Turismo"
+    },
+    {
+      "code": "grand-theft-auto",
+      "name": "Grand Theft Auto"
+    },
+    {
+      "code": "guitar-hero",
+      "name": "Guitar Hero"
+    },
+    {
+      "code": "half-life",
+      "name": "Half-Life"
+    },
+    {
+      "code": "halo",
+      "name": "Halo"
+    },
+    {
+      "code": "hearthstone",
+      "name": "Hearthstone"
+    },
+    {
+      "code": "horizon",
+      "name": "Horizon"
+    },
+    {
+      "code": "kingdom-hearts",
+      "name": "Kingdom Hearts"
+    },
+    {
+      "code": "kirby",
+      "name": "Kirby"
+    },
+    {
+      "code": "last-of-us",
+      "name": "Last of Us"
+    },
+    {
+      "code": "league-of-legends",
+      "name": "League of Legends"
+    },
+    {
+      "code": "left-4-dead",
+      "name": "Left 4 Dead"
+    },
+    {
+      "code": "littlebigplanet",
+      "name": "LittleBigPlanet"
+    },
+    {
+      "code": "madden-nfl",
+      "name": "Madden NFL"
+    },
+    {
+      "code": "mario",
+      "name": "Mario"
+    },
+    {
+      "code": "mass-effect",
+      "name": "Mass Effect"
+    },
+    {
+      "code": "mega-man",
+      "name": "Mega Man"
+    },
+    {
+      "code": "metal-gear",
+      "name": "Metal Gear"
+    },
+    {
+      "code": "metroid",
+      "name": "Metroid"
+    },
+    {
+      "code": "minecraft",
+      "name": "Minecraft"
+    },
+    {
+      "code": "monster-hunter",
+      "name": "Monster Hunter"
+    },
+    {
+      "code": "mortal-kombat",
+      "name": "Mortal Kombat"
+    },
+    {
+      "code": "nba-2k",
+      "name": "NBA 2K"
+    },
+    {
+      "code": "need-for-speed",
+      "name": "Need for Speed"
+    },
+    {
+      "code": "overwatch",
+      "name": "Overwatch"
+    },
+    {
+      "code": "pac-man",
+      "name": "Pac-Man"
+    },
+    {
+      "code": "persona",
+      "name": "Persona"
+    },
+    {
+      "code": "pikmin",
+      "name": "Pikmin"
+    },
+    {
+      "code": "pokemon",
+      "name": "Pok\u00e9mon"
+    },
+    {
+      "code": "portal",
+      "name": "Portal"
+    },
+    {
+      "code": "pubg",
+      "name": "PUBG"
+    },
+    {
+      "code": "quake",
+      "name": "Quake"
+    },
+    {
+      "code": "rainbow-six",
+      "name": "Rainbow Six"
+    },
+    {
+      "code": "ratchet-and-clank",
+      "name": "Ratchet & Clank"
+    },
+    {
+      "code": "red-dead",
+      "name": "Red Dead"
+    },
+    {
+      "code": "resident-evil",
+      "name": "Resident Evil"
+    },
+    {
+      "code": "roblox",
+      "name": "Roblox"
+    },
+    {
+      "code": "rock-band",
+      "name": "Rock Band"
+    },
+    {
+      "code": "silent-hill",
+      "name": "Silent Hill"
+    },
+    {
+      "code": "simcity",
+      "name": "SimCity"
+    },
+    {
+      "code": "sims",
+      "name": "Sims"
+    },
+    {
+      "code": "smash-bros",
+      "name": "Super Smash Bros."
+    },
+    {
+      "code": "sonic",
+      "name": "Sonic the Hedgehog"
+    },
+    {
+      "code": "spider-man",
+      "name": "Spider-Man"
+    },
+    {
+      "code": "splatoon",
+      "name": "Splatoon"
+    },
+    {
+      "code": "star-fox",
+      "name": "Star Fox"
+    },
+    {
+      "code": "starcraft",
+      "name": "StarCraft"
+    },
+    {
+      "code": "street-fighter",
+      "name": "Street Fighter"
+    },
+    {
+      "code": "team-fortress",
+      "name": "Team Fortress"
+    },
+    {
+      "code": "tekken",
+      "name": "Tekken"
+    },
+    {
+      "code": "tomb-raider",
+      "name": "Tomb Raider"
+    },
+    {
+      "code": "uncharted",
+      "name": "Uncharted"
+    },
+    {
+      "code": "warcraft",
+      "name": "Warcraft"
+    },
+    {
+      "code": "watch-dogs",
+      "name": "Watch Dogs"
+    },
+    {
+      "code": "wii-sports",
+      "name": "Wii Sports"
+    },
+    {
+      "code": "witcher",
+      "name": "Witcher"
+    },
+    {
+      "code": "wolfenstein",
+      "name": "Wolfenstein"
+    },
+    {
+      "code": "world-of-warcraft",
+      "name": "World of Warcraft"
+    },
+    {
+      "code": "yakuza",
+      "name": "Yakuza"
+    },
+    {
+      "code": "zelda",
+      "name": "Legend of Zelda"
+    }
+  ],
   "Video Games": [
     {
       "code": "8-ball-pool-2013",
@@ -6759,1480 +8233,6 @@
     {
       "code": "okami-2006",
       "name": "\u014ckami (2006)"
-    }
-  ],
-  "Video Game Franchises": [
-    {
-      "code": "age-of-empires",
-      "name": "Age of Empires"
-    },
-    {
-      "code": "animal-crossing",
-      "name": "Animal Crossing"
-    },
-    {
-      "code": "assassins-creed",
-      "name": "Assassin's Creed"
-    },
-    {
-      "code": "baldurs-gate",
-      "name": "Baldur's Gate"
-    },
-    {
-      "code": "battlefield",
-      "name": "Battlefield"
-    },
-    {
-      "code": "bioshock",
-      "name": "BioShock"
-    },
-    {
-      "code": "borderlands",
-      "name": "Borderlands"
-    },
-    {
-      "code": "call-of-duty",
-      "name": "Call of Duty"
-    },
-    {
-      "code": "castlevania",
-      "name": "Castlevania"
-    },
-    {
-      "code": "counter-strike",
-      "name": "Counter-Strike"
-    },
-    {
-      "code": "cyberpunk",
-      "name": "Cyberpunk"
-    },
-    {
-      "code": "dance-dance-revolution",
-      "name": "Dance Dance Revolution"
-    },
-    {
-      "code": "dark-souls",
-      "name": "Dark Souls"
-    },
-    {
-      "code": "devil-may-cry",
-      "name": "Devil May Cry"
-    },
-    {
-      "code": "diablo",
-      "name": "Diablo"
-    },
-    {
-      "code": "donkey-kong",
-      "name": "Donkey Kong"
-    },
-    {
-      "code": "doom",
-      "name": "Doom"
-    },
-    {
-      "code": "dota",
-      "name": "Dota"
-    },
-    {
-      "code": "dragon-age",
-      "name": "Dragon Age"
-    },
-    {
-      "code": "dragon-quest",
-      "name": "Dragon Quest"
-    },
-    {
-      "code": "elder-scrolls",
-      "name": "Elder Scrolls"
-    },
-    {
-      "code": "elden-ring",
-      "name": "Elden Ring"
-    },
-    {
-      "code": "fallout",
-      "name": "Fallout"
-    },
-    {
-      "code": "far-cry",
-      "name": "Far Cry"
-    },
-    {
-      "code": "fifa",
-      "name": "FIFA"
-    },
-    {
-      "code": "final-fantasy",
-      "name": "Final Fantasy"
-    },
-    {
-      "code": "fire-emblem",
-      "name": "Fire Emblem"
-    },
-    {
-      "code": "forza",
-      "name": "Forza"
-    },
-    {
-      "code": "fortnite",
-      "name": "Fortnite"
-    },
-    {
-      "code": "frogger",
-      "name": "Frogger"
-    },
-    {
-      "code": "gears-of-war",
-      "name": "Gears of War"
-    },
-    {
-      "code": "god-of-war",
-      "name": "God of War"
-    },
-    {
-      "code": "gran-turismo",
-      "name": "Gran Turismo"
-    },
-    {
-      "code": "grand-theft-auto",
-      "name": "Grand Theft Auto"
-    },
-    {
-      "code": "guitar-hero",
-      "name": "Guitar Hero"
-    },
-    {
-      "code": "half-life",
-      "name": "Half-Life"
-    },
-    {
-      "code": "halo",
-      "name": "Halo"
-    },
-    {
-      "code": "hearthstone",
-      "name": "Hearthstone"
-    },
-    {
-      "code": "horizon",
-      "name": "Horizon"
-    },
-    {
-      "code": "kingdom-hearts",
-      "name": "Kingdom Hearts"
-    },
-    {
-      "code": "kirby",
-      "name": "Kirby"
-    },
-    {
-      "code": "last-of-us",
-      "name": "Last of Us"
-    },
-    {
-      "code": "league-of-legends",
-      "name": "League of Legends"
-    },
-    {
-      "code": "left-4-dead",
-      "name": "Left 4 Dead"
-    },
-    {
-      "code": "littlebigplanet",
-      "name": "LittleBigPlanet"
-    },
-    {
-      "code": "madden-nfl",
-      "name": "Madden NFL"
-    },
-    {
-      "code": "mario",
-      "name": "Mario"
-    },
-    {
-      "code": "mass-effect",
-      "name": "Mass Effect"
-    },
-    {
-      "code": "mega-man",
-      "name": "Mega Man"
-    },
-    {
-      "code": "metal-gear",
-      "name": "Metal Gear"
-    },
-    {
-      "code": "metroid",
-      "name": "Metroid"
-    },
-    {
-      "code": "minecraft",
-      "name": "Minecraft"
-    },
-    {
-      "code": "monster-hunter",
-      "name": "Monster Hunter"
-    },
-    {
-      "code": "mortal-kombat",
-      "name": "Mortal Kombat"
-    },
-    {
-      "code": "nba-2k",
-      "name": "NBA 2K"
-    },
-    {
-      "code": "need-for-speed",
-      "name": "Need for Speed"
-    },
-    {
-      "code": "overwatch",
-      "name": "Overwatch"
-    },
-    {
-      "code": "pac-man",
-      "name": "Pac-Man"
-    },
-    {
-      "code": "persona",
-      "name": "Persona"
-    },
-    {
-      "code": "pikmin",
-      "name": "Pikmin"
-    },
-    {
-      "code": "pokemon",
-      "name": "Pok\u00e9mon"
-    },
-    {
-      "code": "portal",
-      "name": "Portal"
-    },
-    {
-      "code": "pubg",
-      "name": "PUBG"
-    },
-    {
-      "code": "quake",
-      "name": "Quake"
-    },
-    {
-      "code": "rainbow-six",
-      "name": "Rainbow Six"
-    },
-    {
-      "code": "ratchet-and-clank",
-      "name": "Ratchet & Clank"
-    },
-    {
-      "code": "red-dead",
-      "name": "Red Dead"
-    },
-    {
-      "code": "resident-evil",
-      "name": "Resident Evil"
-    },
-    {
-      "code": "roblox",
-      "name": "Roblox"
-    },
-    {
-      "code": "rock-band",
-      "name": "Rock Band"
-    },
-    {
-      "code": "silent-hill",
-      "name": "Silent Hill"
-    },
-    {
-      "code": "simcity",
-      "name": "SimCity"
-    },
-    {
-      "code": "sims",
-      "name": "Sims"
-    },
-    {
-      "code": "smash-bros",
-      "name": "Super Smash Bros."
-    },
-    {
-      "code": "sonic",
-      "name": "Sonic the Hedgehog"
-    },
-    {
-      "code": "spider-man",
-      "name": "Spider-Man"
-    },
-    {
-      "code": "splatoon",
-      "name": "Splatoon"
-    },
-    {
-      "code": "star-fox",
-      "name": "Star Fox"
-    },
-    {
-      "code": "starcraft",
-      "name": "StarCraft"
-    },
-    {
-      "code": "street-fighter",
-      "name": "Street Fighter"
-    },
-    {
-      "code": "team-fortress",
-      "name": "Team Fortress"
-    },
-    {
-      "code": "tekken",
-      "name": "Tekken"
-    },
-    {
-      "code": "tomb-raider",
-      "name": "Tomb Raider"
-    },
-    {
-      "code": "uncharted",
-      "name": "Uncharted"
-    },
-    {
-      "code": "warcraft",
-      "name": "Warcraft"
-    },
-    {
-      "code": "watch-dogs",
-      "name": "Watch Dogs"
-    },
-    {
-      "code": "wii-sports",
-      "name": "Wii Sports"
-    },
-    {
-      "code": "witcher",
-      "name": "Witcher"
-    },
-    {
-      "code": "wolfenstein",
-      "name": "Wolfenstein"
-    },
-    {
-      "code": "world-of-warcraft",
-      "name": "World of Warcraft"
-    },
-    {
-      "code": "yakuza",
-      "name": "Yakuza"
-    },
-    {
-      "code": "zelda",
-      "name": "Legend of Zelda"
-    }
-  ],
-  "Colleges": [
-    {
-      "code": "american",
-      "name": "American University"
-    },
-    {
-      "code": "amherst",
-      "name": "Amherst College"
-    },
-    {
-      "code": "arizona-state",
-      "name": "Arizona State University"
-    },
-    {
-      "code": "auburn",
-      "name": "Auburn University"
-    },
-    {
-      "code": "barnard",
-      "name": "Barnard College"
-    },
-    {
-      "code": "baylor",
-      "name": "Baylor University"
-    },
-    {
-      "code": "bc",
-      "name": "Boston College"
-    },
-    {
-      "code": "bu",
-      "name": "Boston University"
-    },
-    {
-      "code": "brandeis",
-      "name": "Brandeis University"
-    },
-    {
-      "code": "byu",
-      "name": "Brigham Young University"
-    },
-    {
-      "code": "brown",
-      "name": "Brown University"
-    },
-    {
-      "code": "caltech",
-      "name": "California Institute of Technology"
-    },
-    {
-      "code": "carleton",
-      "name": "Carleton College"
-    },
-    {
-      "code": "cmu",
-      "name": "Carnegie Mellon University"
-    },
-    {
-      "code": "case-western",
-      "name": "Case Western Reserve University"
-    },
-    {
-      "code": "clemson",
-      "name": "Clemson University"
-    },
-    {
-      "code": "colgate",
-      "name": "Colgate University"
-    },
-    {
-      "code": "william-and-mary",
-      "name": "College of William & Mary"
-    },
-    {
-      "code": "columbia",
-      "name": "Columbia University"
-    },
-    {
-      "code": "cornell",
-      "name": "Cornell University"
-    },
-    {
-      "code": "dartmouth",
-      "name": "Dartmouth College"
-    },
-    {
-      "code": "davidson",
-      "name": "Davidson College"
-    },
-    {
-      "code": "duke",
-      "name": "Duke University"
-    },
-    {
-      "code": "emory",
-      "name": "Emory University"
-    },
-    {
-      "code": "famu",
-      "name": "Florida A&M University"
-    },
-    {
-      "code": "fsu",
-      "name": "Florida State University"
-    },
-    {
-      "code": "fordham",
-      "name": "Fordham University"
-    },
-    {
-      "code": "george-washington",
-      "name": "George Washington University"
-    },
-    {
-      "code": "georgetown",
-      "name": "Georgetown University"
-    },
-    {
-      "code": "georgia-tech",
-      "name": "Georgia Institute of Technology"
-    },
-    {
-      "code": "grinnell",
-      "name": "Grinnell College"
-    },
-    {
-      "code": "hamilton",
-      "name": "Hamilton College"
-    },
-    {
-      "code": "hampton",
-      "name": "Hampton University"
-    },
-    {
-      "code": "harvard",
-      "name": "Harvard University"
-    },
-    {
-      "code": "harvey-mudd",
-      "name": "Harvey Mudd College"
-    },
-    {
-      "code": "haverford",
-      "name": "Haverford College"
-    },
-    {
-      "code": "howard",
-      "name": "Howard University"
-    },
-    {
-      "code": "indiana",
-      "name": "Indiana University Bloomington"
-    },
-    {
-      "code": "iowa-state",
-      "name": "Iowa State University"
-    },
-    {
-      "code": "jhu",
-      "name": "Johns Hopkins University"
-    },
-    {
-      "code": "kansas-state",
-      "name": "Kansas State University"
-    },
-    {
-      "code": "lehigh",
-      "name": "Lehigh University"
-    },
-    {
-      "code": "lsu",
-      "name": "Louisiana State University"
-    },
-    {
-      "code": "mit",
-      "name": "Massachusetts Institute of Technology"
-    },
-    {
-      "code": "michigan-state",
-      "name": "Michigan State University"
-    },
-    {
-      "code": "middlebury",
-      "name": "Middlebury College"
-    },
-    {
-      "code": "mississippi-state",
-      "name": "Mississippi State University"
-    },
-    {
-      "code": "morehouse",
-      "name": "Morehouse College"
-    },
-    {
-      "code": "nyu",
-      "name": "New York University"
-    },
-    {
-      "code": "nc-state",
-      "name": "North Carolina State University"
-    },
-    {
-      "code": "northeastern",
-      "name": "Northeastern University"
-    },
-    {
-      "code": "northwestern",
-      "name": "Northwestern University"
-    },
-    {
-      "code": "ohio-state",
-      "name": "Ohio State University"
-    },
-    {
-      "code": "oklahoma-state",
-      "name": "Oklahoma State University"
-    },
-    {
-      "code": "penn-state",
-      "name": "Pennsylvania State University"
-    },
-    {
-      "code": "pepperdine",
-      "name": "Pepperdine University"
-    },
-    {
-      "code": "pomona",
-      "name": "Pomona College"
-    },
-    {
-      "code": "princeton",
-      "name": "Princeton University"
-    },
-    {
-      "code": "purdue",
-      "name": "Purdue University"
-    },
-    {
-      "code": "rpi",
-      "name": "Rensselaer Polytechnic Institute"
-    },
-    {
-      "code": "rice",
-      "name": "Rice University"
-    },
-    {
-      "code": "rutgers",
-      "name": "Rutgers University"
-    },
-    {
-      "code": "smith",
-      "name": "Smith College"
-    },
-    {
-      "code": "smu",
-      "name": "Southern Methodist University"
-    },
-    {
-      "code": "spelman",
-      "name": "Spelman College"
-    },
-    {
-      "code": "stanford",
-      "name": "Stanford University"
-    },
-    {
-      "code": "stony-brook",
-      "name": "Stony Brook University"
-    },
-    {
-      "code": "swarthmore",
-      "name": "Swarthmore College"
-    },
-    {
-      "code": "syracuse",
-      "name": "Syracuse University"
-    },
-    {
-      "code": "texas-am",
-      "name": "Texas A&M University"
-    },
-    {
-      "code": "tcu",
-      "name": "Texas Christian University"
-    },
-    {
-      "code": "tufts",
-      "name": "Tufts University"
-    },
-    {
-      "code": "tulane",
-      "name": "Tulane University"
-    },
-    {
-      "code": "air-force",
-      "name": "United States Air Force Academy"
-    },
-    {
-      "code": "coast-guard",
-      "name": "United States Coast Guard Academy"
-    },
-    {
-      "code": "merchant-marine",
-      "name": "United States Merchant Marine Academy"
-    },
-    {
-      "code": "army",
-      "name": "United States Military Academy"
-    },
-    {
-      "code": "navy",
-      "name": "United States Naval Academy"
-    },
-    {
-      "code": "alabama",
-      "name": "University of Alabama"
-    },
-    {
-      "code": "uab",
-      "name": "University of Alabama at Birmingham"
-    },
-    {
-      "code": "alaska",
-      "name": "University of Alaska Fairbanks"
-    },
-    {
-      "code": "arizona",
-      "name": "University of Arizona"
-    },
-    {
-      "code": "arkansas",
-      "name": "University of Arkansas"
-    },
-    {
-      "code": "berkeley",
-      "name": "University of California, Berkeley"
-    },
-    {
-      "code": "uc-davis",
-      "name": "University of California, Davis"
-    },
-    {
-      "code": "uc-irvine",
-      "name": "University of California, Irvine"
-    },
-    {
-      "code": "ucla",
-      "name": "University of California, Los Angeles"
-    },
-    {
-      "code": "ucsd",
-      "name": "University of California, San Diego"
-    },
-    {
-      "code": "ucsb",
-      "name": "University of California, Santa Barbara"
-    },
-    {
-      "code": "ucf",
-      "name": "University of Central Florida"
-    },
-    {
-      "code": "chicago",
-      "name": "University of Chicago"
-    },
-    {
-      "code": "connecticut",
-      "name": "University of Connecticut"
-    },
-    {
-      "code": "delaware",
-      "name": "University of Delaware"
-    },
-    {
-      "code": "florida",
-      "name": "University of Florida"
-    },
-    {
-      "code": "georgia",
-      "name": "University of Georgia"
-    },
-    {
-      "code": "hawaii",
-      "name": "University of Hawaii at Manoa"
-    },
-    {
-      "code": "idaho",
-      "name": "University of Idaho"
-    },
-    {
-      "code": "illinois",
-      "name": "University of Illinois Urbana-Champaign"
-    },
-    {
-      "code": "iowa",
-      "name": "University of Iowa"
-    },
-    {
-      "code": "kansas",
-      "name": "University of Kansas"
-    },
-    {
-      "code": "kentucky",
-      "name": "University of Kentucky"
-    },
-    {
-      "code": "louisville",
-      "name": "University of Louisville"
-    },
-    {
-      "code": "maine",
-      "name": "University of Maine"
-    },
-    {
-      "code": "maryland",
-      "name": "University of Maryland"
-    },
-    {
-      "code": "umass",
-      "name": "University of Massachusetts Amherst"
-    },
-    {
-      "code": "miami",
-      "name": "University of Miami"
-    },
-    {
-      "code": "michigan",
-      "name": "University of Michigan"
-    },
-    {
-      "code": "minnesota",
-      "name": "University of Minnesota"
-    },
-    {
-      "code": "ole-miss",
-      "name": "University of Mississippi"
-    },
-    {
-      "code": "missouri",
-      "name": "University of Missouri"
-    },
-    {
-      "code": "montana",
-      "name": "University of Montana"
-    },
-    {
-      "code": "nebraska",
-      "name": "University of Nebraska-Lincoln"
-    },
-    {
-      "code": "nevada",
-      "name": "University of Nevada, Reno"
-    },
-    {
-      "code": "unh",
-      "name": "University of New Hampshire"
-    },
-    {
-      "code": "unm",
-      "name": "University of New Mexico"
-    },
-    {
-      "code": "unc",
-      "name": "University of North Carolina at Chapel Hill"
-    },
-    {
-      "code": "north-dakota",
-      "name": "University of North Dakota"
-    },
-    {
-      "code": "notre-dame",
-      "name": "University of Notre Dame"
-    },
-    {
-      "code": "oklahoma",
-      "name": "University of Oklahoma"
-    },
-    {
-      "code": "oregon",
-      "name": "University of Oregon"
-    },
-    {
-      "code": "penn",
-      "name": "University of Pennsylvania"
-    },
-    {
-      "code": "pitt",
-      "name": "University of Pittsburgh"
-    },
-    {
-      "code": "rhode-island",
-      "name": "University of Rhode Island"
-    },
-    {
-      "code": "rochester",
-      "name": "University of Rochester"
-    },
-    {
-      "code": "usc-south-carolina",
-      "name": "University of South Carolina"
-    },
-    {
-      "code": "south-dakota",
-      "name": "University of South Dakota"
-    },
-    {
-      "code": "usc",
-      "name": "University of Southern California"
-    },
-    {
-      "code": "tennessee",
-      "name": "University of Tennessee"
-    },
-    {
-      "code": "texas",
-      "name": "University of Texas at Austin"
-    },
-    {
-      "code": "utah",
-      "name": "University of Utah"
-    },
-    {
-      "code": "vermont",
-      "name": "University of Vermont"
-    },
-    {
-      "code": "virginia",
-      "name": "University of Virginia"
-    },
-    {
-      "code": "washington",
-      "name": "University of Washington"
-    },
-    {
-      "code": "wisconsin",
-      "name": "University of Wisconsin-Madison"
-    },
-    {
-      "code": "wyoming",
-      "name": "University of Wyoming"
-    },
-    {
-      "code": "vanderbilt",
-      "name": "Vanderbilt University"
-    },
-    {
-      "code": "vassar",
-      "name": "Vassar College"
-    },
-    {
-      "code": "villanova",
-      "name": "Villanova University"
-    },
-    {
-      "code": "virginia-tech",
-      "name": "Virginia Tech"
-    },
-    {
-      "code": "wfu",
-      "name": "Wake Forest University"
-    },
-    {
-      "code": "washington-state",
-      "name": "Washington State University"
-    },
-    {
-      "code": "washu",
-      "name": "Washington University in St. Louis"
-    },
-    {
-      "code": "wellesley",
-      "name": "Wellesley College"
-    },
-    {
-      "code": "wesleyan",
-      "name": "Wesleyan University"
-    },
-    {
-      "code": "west-virginia",
-      "name": "West Virginia University"
-    },
-    {
-      "code": "williams",
-      "name": "Williams College"
-    },
-    {
-      "code": "yale",
-      "name": "Yale University"
-    }
-  ],
-  "European Soccer Clubs": [
-    {
-      "code": "BUN-HEI",
-      "name": "1. FC Heidenheim"
-    },
-    {
-      "code": "BUN-KAI",
-      "name": "1. FC Kaiserslautern"
-    },
-    {
-      "code": "BUN-KOL",
-      "name": "1. FC K\u00f6ln"
-    },
-    {
-      "code": "BUN-N90",
-      "name": "1. FC N\u00fcrnberg"
-    },
-    {
-      "code": "L1-AJA",
-      "name": "AC Ajaccio"
-    },
-    {
-      "code": "SEA-MIL",
-      "name": "AC Milan"
-    },
-    {
-      "code": "LAL-ALA",
-      "name": "Alav\u00e9s"
-    },
-    {
-      "code": "L1-ANG",
-      "name": "Angers"
-    },
-    {
-      "code": "EPL-ARS",
-      "name": "Arsenal"
-    },
-    {
-      "code": "EPL-AVL",
-      "name": "Aston Villa"
-    },
-    {
-      "code": "SEA-ATA",
-      "name": "Atalanta"
-    },
-    {
-      "code": "LAL-ATH",
-      "name": "Athletic Bilbao"
-    },
-    {
-      "code": "LAL-ATM",
-      "name": "Atl\u00e9tico Madrid"
-    },
-    {
-      "code": "L1-AUX",
-      "name": "Auxerre"
-    },
-    {
-      "code": "LAL-BAR",
-      "name": "Barcelona"
-    },
-    {
-      "code": "BUN-BER",
-      "name": "Bayer Leverkusen"
-    },
-    {
-      "code": "BUN-BAY",
-      "name": "Bayern Munich"
-    },
-    {
-      "code": "EPL-BLA",
-      "name": "Blackburn Rovers"
-    },
-    {
-      "code": "SEA-BOL",
-      "name": "Bologna"
-    },
-    {
-      "code": "L1-BOR",
-      "name": "Bordeaux"
-    },
-    {
-      "code": "BUN-BVB",
-      "name": "Borussia Dortmund"
-    },
-    {
-      "code": "BUN-BMG",
-      "name": "Borussia M\u00f6nchengladbach"
-    },
-    {
-      "code": "EPL-BOU",
-      "name": "Bournemouth"
-    },
-    {
-      "code": "EPL-BRE",
-      "name": "Brentford"
-    },
-    {
-      "code": "SEA-BRE",
-      "name": "Brescia"
-    },
-    {
-      "code": "L1-BRE",
-      "name": "Brest"
-    },
-    {
-      "code": "EPL-BHA",
-      "name": "Brighton & Hove Albion"
-    },
-    {
-      "code": "EPL-BUR",
-      "name": "Burnley"
-    },
-    {
-      "code": "SEA-CAG",
-      "name": "Cagliari"
-    },
-    {
-      "code": "LAL-CEL",
-      "name": "Celta Vigo"
-    },
-    {
-      "code": "EPL-CHE",
-      "name": "Chelsea"
-    },
-    {
-      "code": "SEA-COM",
-      "name": "Como"
-    },
-    {
-      "code": "EPL-CRY",
-      "name": "Crystal Palace"
-    },
-    {
-      "code": "LAL-DEP",
-      "name": "Deportivo La Coru\u00f1a"
-    },
-    {
-      "code": "L1-DIJ",
-      "name": "Dijon"
-    },
-    {
-      "code": "BUN-SGE",
-      "name": "Eintracht Frankfurt"
-    },
-    {
-      "code": "SEA-EMP",
-      "name": "Empoli"
-    },
-    {
-      "code": "LAL-ESP",
-      "name": "Espanyol"
-    },
-    {
-      "code": "EPL-EVE",
-      "name": "Everton"
-    },
-    {
-      "code": "BUN-FCA",
-      "name": "FC Augsburg"
-    },
-    {
-      "code": "SEA-FIO",
-      "name": "Fiorentina"
-    },
-    {
-      "code": "EPL-FUL",
-      "name": "Fulham"
-    },
-    {
-      "code": "SEA-GEN",
-      "name": "Genoa"
-    },
-    {
-      "code": "LAL-GET",
-      "name": "Getafe"
-    },
-    {
-      "code": "LAL-GIR",
-      "name": "Girona"
-    },
-    {
-      "code": "LAL-GRA",
-      "name": "Granada"
-    },
-    {
-      "code": "BUN-HAM",
-      "name": "Hamburger SV"
-    },
-    {
-      "code": "SEA-HVR",
-      "name": "Hellas Verona"
-    },
-    {
-      "code": "BUN-HER",
-      "name": "Hertha BSC"
-    },
-    {
-      "code": "BUN-HOF",
-      "name": "Hoffenheim"
-    },
-    {
-      "code": "BUN-KIE",
-      "name": "Holstein Kiel"
-    },
-    {
-      "code": "EPL-HUL",
-      "name": "Hull City"
-    },
-    {
-      "code": "SEA-INT",
-      "name": "Inter Milan"
-    },
-    {
-      "code": "EPL-IPS",
-      "name": "Ipswich Town"
-    },
-    {
-      "code": "SEA-JUV",
-      "name": "Juventus"
-    },
-    {
-      "code": "LAL-LPA",
-      "name": "Las Palmas"
-    },
-    {
-      "code": "SEA-LAZ",
-      "name": "Lazio"
-    },
-    {
-      "code": "L1-LEH",
-      "name": "Le Havre"
-    },
-    {
-      "code": "SEA-LEC",
-      "name": "Lecce"
-    },
-    {
-      "code": "EPL-LEE",
-      "name": "Leeds United"
-    },
-    {
-      "code": "LAL-LEG",
-      "name": "Legan\u00e9s"
-    },
-    {
-      "code": "EPL-LEI",
-      "name": "Leicester City"
-    },
-    {
-      "code": "L1-LEN",
-      "name": "Lens"
-    },
-    {
-      "code": "L1-LIL",
-      "name": "Lille"
-    },
-    {
-      "code": "EPL-LIV",
-      "name": "Liverpool"
-    },
-    {
-      "code": "L1-LYN",
-      "name": "Lyon"
-    },
-    {
-      "code": "BUN-MZ",
-      "name": "Mainz 05"
-    },
-    {
-      "code": "LAL-MAL",
-      "name": "Mallorca"
-    },
-    {
-      "code": "EPL-MCI",
-      "name": "Manchester City"
-    },
-    {
-      "code": "EPL-MUN",
-      "name": "Manchester United"
-    },
-    {
-      "code": "L1-MAR",
-      "name": "Marseille"
-    },
-    {
-      "code": "L1-METZ",
-      "name": "Metz"
-    },
-    {
-      "code": "EPL-MID",
-      "name": "Middlesbrough"
-    },
-    {
-      "code": "L1-MON",
-      "name": "Monaco"
-    },
-    {
-      "code": "L1-MTP",
-      "name": "Montpellier"
-    },
-    {
-      "code": "SEA-MON",
-      "name": "Monza"
-    },
-    {
-      "code": "LAL-MJA",
-      "name": "M\u00e1laga"
-    },
-    {
-      "code": "L1-NAN",
-      "name": "Nantes"
-    },
-    {
-      "code": "SEA-NAP",
-      "name": "Napoli"
-    },
-    {
-      "code": "EPL-NEW",
-      "name": "Newcastle United"
-    },
-    {
-      "code": "L1-NIC",
-      "name": "Nice"
-    },
-    {
-      "code": "EPL-NOR",
-      "name": "Norwich City"
-    },
-    {
-      "code": "EPL-NFO",
-      "name": "Nottingham Forest"
-    },
-    {
-      "code": "LAL-OSA",
-      "name": "Osasuna"
-    },
-    {
-      "code": "SEA-PAL",
-      "name": "Palermo"
-    },
-    {
-      "code": "L1-PSG",
-      "name": "Paris Saint-Germain"
-    },
-    {
-      "code": "SEA-PAR",
-      "name": "Parma"
-    },
-    {
-      "code": "EPL-PNE",
-      "name": "Preston North End"
-    },
-    {
-      "code": "EPL-PRE",
-      "name": "Preston North End"
-    },
-    {
-      "code": "EPL-QPR",
-      "name": "Queens Park Rangers"
-    },
-    {
-      "code": "BUN-RBL",
-      "name": "RB Leipzig"
-    },
-    {
-      "code": "LAL-RAY",
-      "name": "Rayo Vallecano"
-    },
-    {
-      "code": "LAL-BET",
-      "name": "Real Betis"
-    },
-    {
-      "code": "LAL-RM",
-      "name": "Real Madrid"
-    },
-    {
-      "code": "LAL-RS",
-      "name": "Real Sociedad"
-    },
-    {
-      "code": "LAL-ZAR",
-      "name": "Real Zaragoza"
-    },
-    {
-      "code": "L1-REI",
-      "name": "Reims"
-    },
-    {
-      "code": "L1-REN",
-      "name": "Rennes"
-    },
-    {
-      "code": "SEA-ROM",
-      "name": "Roma"
-    },
-    {
-      "code": "BUN-SCF",
-      "name": "SC Freiburg"
-    },
-    {
-      "code": "L1-SET",
-      "name": "Saint-\u00c9tienne"
-    },
-    {
-      "code": "SEA-SMP",
-      "name": "Sampdoria"
-    },
-    {
-      "code": "SEA-SAS",
-      "name": "Sassuolo"
-    },
-    {
-      "code": "BUN-SCH",
-      "name": "Schalke 04"
-    },
-    {
-      "code": "LAL-SEV",
-      "name": "Sevilla"
-    },
-    {
-      "code": "EPL-SHU",
-      "name": "Sheffield United"
-    },
-    {
-      "code": "EPL-SOU",
-      "name": "Southampton"
-    },
-    {
-      "code": "BUN-STP",
-      "name": "St. Pauli"
-    },
-    {
-      "code": "EPL-STK",
-      "name": "Stoke City"
-    },
-    {
-      "code": "L1-STR",
-      "name": "Strasbourg"
-    },
-    {
-      "code": "EPL-SUN",
-      "name": "Sunderland"
-    },
-    {
-      "code": "SEA-TOR",
-      "name": "Torino"
-    },
-    {
-      "code": "EPL-TOT",
-      "name": "Tottenham Hotspur"
-    },
-    {
-      "code": "L1-TFC",
-      "name": "Toulouse"
-    },
-    {
-      "code": "SEA-UDN",
-      "name": "Udinese"
-    },
-    {
-      "code": "BUN-UNI",
-      "name": "Union Berlin"
-    },
-    {
-      "code": "LAL-VAL",
-      "name": "Valencia"
-    },
-    {
-      "code": "LAL-VLD",
-      "name": "Valladolid"
-    },
-    {
-      "code": "SEA-VEN",
-      "name": "Venezia"
-    },
-    {
-      "code": "BUN-VFB",
-      "name": "VfB Stuttgart"
-    },
-    {
-      "code": "BUN-BOC",
-      "name": "VfL Bochum"
-    },
-    {
-      "code": "BUN-WOB",
-      "name": "VfL Wolfsburg"
-    },
-    {
-      "code": "LAL-VLL",
-      "name": "Villarreal"
-    },
-    {
-      "code": "EPL-WAT",
-      "name": "Watford"
-    },
-    {
-      "code": "BUN-BRE",
-      "name": "Werder Bremen"
-    },
-    {
-      "code": "EPL-WBA",
-      "name": "West Bromwich Albion"
-    },
-    {
-      "code": "EPL-WHU",
-      "name": "West Ham United"
-    },
-    {
-      "code": "EPL-WOL",
-      "name": "Wolverhampton Wanderers"
     }
   ]
 }

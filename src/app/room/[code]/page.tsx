@@ -47,7 +47,7 @@ function itemLabelForType(answerType: string): { singular: string; plural: strin
   switch (answerType) {
     case "Countries": return { singular: "country", plural: "countries" };
     case "US States": return { singular: "state", plural: "states" };
-    case "Pro Sports Teams": return { singular: "team", plural: "teams" };
+    case "US Big 4 Sports": return { singular: "team", plural: "teams" };
     case "Companies": return { singular: "company", plural: "companies" };
     case "Chemical Elements": return { singular: "element", plural: "elements" };
     case "Movies": return { singular: "film", plural: "films" };

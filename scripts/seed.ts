@@ -23,12 +23,19 @@ const insertAnswer = db.prepare(
 );
 
 // Themes considered production-ready (surface without a Beta warning; included
-// in the "All categories" solo pool). Everything else is beta until flipped.
-// The seeder only sets defaults for NEW rows — it never overwrites an existing
-// row's is_prod, so admin-toggled promotions survive re-seeds.
+// in the "All categories" solo pool). Everything else is beta until manually
+// flipped via `UPDATE themes SET is_prod = 1 WHERE theme = 'X'`.
+//
+// INSERT OR IGNORE creates any missing row at the intended default. A follow-up
+// UPDATE then corrects any pre-existing row that was created before this flag
+// existed (or before the intended defaults were correct) — but only bumps
+// is_prod UP, never down, so manual admin-promotions of other themes stick.
 const INITIAL_PROD_THEMES = new Set(["Countries", "US States"]);
 const insertTheme = db.prepare(
   "INSERT OR IGNORE INTO themes (theme, is_prod) VALUES (?, ?)"
+);
+const promoteTheme = db.prepare(
+  "UPDATE themes SET is_prod = 1 WHERE theme = ? AND is_prod = 0"
 );
 
 const runSeed = db.transaction(() => {
@@ -38,7 +45,11 @@ const runSeed = db.transaction(() => {
   for (const [answerType, opts] of Object.entries(answerSets)) {
     for (const opt of opts) insertOption.run(answerType, opt.code, opt.name);
     // Ensure every answerType has a themes row so admins can flip its flag.
-    insertTheme.run(answerType, INITIAL_PROD_THEMES.has(answerType) ? 1 : 0);
+    const wantProd = INITIAL_PROD_THEMES.has(answerType);
+    insertTheme.run(answerType, wantProd ? 1 : 0);
+    // If the row already existed from an earlier deploy (when everything
+    // defaulted to is_prod=0), promote the intended-prod themes now.
+    if (wantProd) promoteTheme.run(answerType);
   }
   for (const q of questions) {
     insertQuestion.run(
