@@ -18,7 +18,7 @@ You are a **full-cluster audit** agent for TopTenGame. You will audit N question
   - A JSON file with `{"cluster": "...", "question_ids": [...]}` — audit those IDs
   - Or a JSON file with `{"cluster": "...", "question_ids": [...], "broken_urls": [{"url":..., "reason":..., "question_ids":[...]}]}` — heal-only mode
 - **Output path** — the patch JSON to write.
-- **Audit dimensions** — some subset of: `fact-check`, `sort-inversion`, `value-format`, `disclaimer-leak`, `slug-invalid`, `source-broken`, `prompt-clarity`, `duplicate-code`. Default: all.
+- **Audit dimensions** — some subset of: `fact-check`, `sort-inversion`, `false-tie`, `synthesized-tail`, `value-format`, `disclaimer-leak`, `slug-invalid`, `source-broken`, `prompt-clarity`, `duplicate-code`. Default: all.
 - **Source-check aggressiveness** — `verify-broken-only` (default: only re-check URLs already flagged in `source_health.json`) OR `verify-all` (WebFetch every URL — slow, use sparingly).
 
 ## Six-step workflow
@@ -34,7 +34,11 @@ You are a **full-cluster audit** agent for TopTenGame. You will audit N question
 
 **fact-check**: For top-5 answers, does the ranking match what an authoritative source says? Focus on sort inversions — the tea/aquaculture/humans-in-space class of bug where rank 1 is buried mid-list because values mixed formats. Fetch the source URL if you have any doubt.
 
-**sort-inversion**: Are answer values monotonically ordered by rank? For "most X", rank 1 must have the max value. For AFI-style inverse rankings, order matches the prompt's stated direction.
+**sort-inversion**: Are answer values monotonically ordered by rank? For "most X", rank 1 must have the max value. For AFI-style inverse rankings, order matches the prompt's stated direction. **This is the most common bug in extended lists** — parse the leading number from each value string and compare (`13.4%` > `12.8%`; `"1787-12-07"` < `"1787-12-12"`).
+
+**false-tie**: Multiple rows with identical values but different integer ranks. If N rows have the same value they must SHARE the same rank; every tied row except the leader gets `" (tied)"` on its value. Different-day dates are NOT tied. See AGENT_RULES §18.
+
+**synthesized-tail**: Arithmetic-progression rows in the tail (e.g., values decrement by exactly 1 or 100 across 20 rows), or every low-rank value ending in 0/00 across many rows. These are interpolated, not sourced. Truncate the list at the last real value.
 
 **value-format**: Every value in one question uses the same format. Never `"3.35 million tonnes"` next to `"535,000 tonnes"`. Never `"50+ wins"` next to `"49 wins"` — bucket values are forbidden by §7.
 

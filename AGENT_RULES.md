@@ -373,3 +373,83 @@ Every agent response should include a structured recap so the parent can consoli
 - **Bot-blocked-but-live URLs** (audit agents): list URLs where WebFetch 403'd but the endpoint is genuinely OK — parent won't re-audit these
 
 Under 250 words. Never paste the JSON in the response — write the file, describe it briefly.
+
+---
+
+## 18. Tie handling — HIGH SEVERITY (from US States fine-tooth audit, wave 22)
+
+**Bug we've now seen 29+ times**: two rows with the *same* value get consecutive integer ranks (26 and 27, or 15 and 16) instead of sharing the same rank with `(tied)` suffixes.
+
+**The rule** (matches AGENT_RULES §7 tie convention):
+
+- **If N rows share an identical value, they ALL share the same rank.** The next rank jumps by N.
+- **Every row in a tie except the first gets `" (tied)"` appended to its value string.** Not just some of them. Not just the first. All of them except the top of the tie group.
+- **Never** give distinct integer ranks to rows with identical values — that's a false-tie.
+
+**Correct** (three-way tie at rank 3):
+```json
+{"rank": 3, "code": "IT", "value": "4 titles"},
+{"rank": 3, "code": "DE", "value": "4 titles (tied)"},
+{"rank": 3, "code": "AR", "value": "4 titles (tied)"},
+{"rank": 6, "code": "FR", "value": "2 titles"},
+```
+
+**Wrong** (audit will flag as false-tie):
+```json
+{"rank": 3, "code": "IT", "value": "4 titles"},
+{"rank": 4, "code": "DE", "value": "4 titles"},
+{"rank": 5, "code": "AR", "value": "4 titles"}
+```
+
+**Also wrong**: applying `(tied)` inconsistently (e.g., some tied rows have the suffix, others don't). Every non-lead tied row gets it, consistently.
+
+**Dates specifically**: two rows with different day-precision dates (`1787-12-07` vs `1787-12-12`) are NOT tied — they are different values and should have different ranks. Only tie when the value strings are byte-identical.
+
+---
+
+## 19. Sort-order must match value-order — HIGH SEVERITY
+
+**57 sort-inversion findings in a single audit wave.** Nearly always caused by agents extending a list by appending rows at the intended rank without verifying the actual numeric order.
+
+**The rule**: after producing an answers array, do a final sort-check.
+
+- For "highest / most / largest" prompts: `answers[i].value >= answers[i+1].value` for every i (ties allowed, strict > if you skipped tie-marking).
+- For "lowest / smallest / earliest / fewest" prompts: `<=` in the same way.
+- For "closest to zero" or similar prompts, decide the metric direction ONCE and stick to it.
+
+**Numeric parsing**: values are strings like `"66.8%"` or `"3,288 mi shoreline"`. Extract the leading number (including comma/scale-suffix parsing) before comparing. If you can't cleanly extract, the value-format-mix rule (§7) has been broken — fix that first.
+
+**Concrete failure modes we've seen**:
+- Rank 16 `10.6%` above rank 17 `14.0%` on a "highest %" question — inversion.
+- Rank 34 `801 ft` above rank 15 `593 ft` on a "tallest building" question — inversion.
+- Rank 40 `1,100,000 acres` in a mid-list slot because it should have been `110,000` (typo confused with rank) — inversion + fact-error.
+
+**If you extend an existing list**, re-sort the *entire* list by value after appending, then re-number ranks 1..N with correct tie handling. Never append at position N+1 without checking whether the new value belongs earlier in the list.
+
+---
+
+## 20. No synthesized / interpolated tails — HIGH SEVERITY
+
+**Audit spotted several agents fabricating tail data**:
+
+- Federal workforce per capita: rows 15-51 decremented by exactly 1 each — a linear interpolation, not real data.
+- Retail sales per capita: uniform $200 step between adjacent rows.
+- IMLS museum counts: nearly every rank below the top 10 uses suspiciously round numbers (700, 620, 600, 580, 560, 540, 500, 490, 480, 470).
+- Rangeland acres: HI shows `1,100,000` at rank 40 — an order-of-magnitude typo the agent didn't sanity-check.
+
+**The rule**: every row in the tail must come from the source, not from a formula. If you don't have the tail from the source:
+- **Stop where the source stops.** A question at depth 30 with real numbers is better than depth 51 with 21 interpolated values.
+- **Never emit uniform arithmetic-progression tails** — they're the audit's easiest tell.
+- **Never round tail values to obviously synthetic buckets** (every value ending in 0 or 00 across 20 rows).
+
+If you extend a well-known list (state populations, GDP, admission dates, elevation), you already have real values from public knowledge — those are fine. If you're guessing at obscure state-level rankings you can't remember, **STOP AT THE LAST ROW YOU KNOW**.
+
+---
+
+## 21. Subtheme sanity — cross-check theme + subtheme + title
+
+Two audit findings this wave: `us-states-health-largest-wind-electricity-generation-2023` filed under `US States - Health` but the topic is energy, not health. Same class of bug: a question drops into the wrong subtheme during a bulk-write pass and never gets corrected.
+
+**Rule**: before writing a question, verify the subtheme matches the topic. If the title says "energy", "electricity", "solar", "wind" — subtheme should be Energy/Environment/Deep Dive, not Health.
+
+Also: **inverse questions must land in the same subtheme as their sibling.** If "Highest foreign-born share" is under Demographics, its inverse "Lowest foreign-born share" belongs there too, not in Society or Culture.

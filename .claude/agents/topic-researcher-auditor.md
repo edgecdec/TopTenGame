@@ -72,12 +72,17 @@ Run this checklist on every question, mentally, one by one:
 - [ ] No duplicate codes within one question
 - [ ] `seededDepth >= 10` (else drop the question)
 - [ ] `seededDepth <= len(answers)`
-- [ ] All values in one format per question
+- [ ] All values in one format per question (AGENT_RULES §7)
+- [ ] **Ties**: rows with identical values SHARE the same rank; every tied row except the leader gets `" (tied)"` appended. Two different-day dates are NOT tied (AGENT_RULES §18).
+- [ ] **Sort order matches value order**: parse the leading number in each value and verify monotonic direction across the whole list. Extending existing lists? Re-sort the WHOLE thing and re-number ranks 1..N. (AGENT_RULES §19)
+- [ ] **No synthesized tails**: no arithmetic-progression rows (1,2,3,4... or 500,490,480...). If you don't have real numbers past row N, STOP at row N. (AGENT_RULES §20)
+- [ ] **Subtheme sanity**: an energy question doesn't belong under Health; an inverse question inherits its sibling's subtheme. (AGENT_RULES §21)
 - [ ] Disclaimer names no top-5 answer AND no specific rank number
 - [ ] Prompt sort direction explicit
 - [ ] Historical entities (USSR/Yugoslavia/West Germany/West Indies) mapped per AGENT_RULES §2, not invented as `SU`/`YU`/`EN`
 - [ ] Movies non-Nominees questions only reference Best Picture WINNER codes
 - [ ] Not on the AGENT_RULES §2 blocklist
+- [ ] US States questions: disclaimer states DC inclusion (`Includes Washington DC.` / `DC not included (topic is state-scoped).` / `DC not included (source omits it).`)
 
 Kill any question that fails a check.
 
