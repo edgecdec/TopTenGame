@@ -1,6 +1,7 @@
 import { randomUUID } from "crypto";
 import { getDb, listThemeProdFlags, nonProdThemes, type Question } from "./db";
 import { scorePick } from "./scoring";
+import { scopingForSubtheme } from "./scoping";
 import type { ScoringMode } from "./types";
 
 export const SOLO_QUESTIONS_PER_GAME = 10;
@@ -36,6 +37,10 @@ export type SoloQuestionPublic = {
   asOfDate: string | null;
   topN: number;
   endsAt: number | null;
+  // Answer-pool scoping so the Autocomplete only shows league/country-relevant
+  // options for scoped subthemes. Both stay null for cross-league / global.
+  codeFilter: string | null;
+  allowedCodes: string[] | null;
 };
 
 export type SoloRoundResult = {
@@ -165,6 +170,10 @@ export function listSoloThemes(): Array<{ theme: string; count: number; isProd: 
 }
 
 function toPublic(q: Question, endsAt: number | null): SoloQuestionPublic {
+  const scope = scopingForSubtheme(q.theme, q.subtheme) as {
+    codeFilter: string | null;
+    allowedCodes: string[] | null;
+  };
   return {
     id: q.id,
     title: q.title,
@@ -174,6 +183,8 @@ function toPublic(q: Question, endsAt: number | null): SoloQuestionPublic {
     asOfDate: q.asOfDate,
     topN: Math.min(SOLO_TOP_N, q.seededDepth),
     endsAt,
+    codeFilter: scope.codeFilter,
+    allowedCodes: scope.allowedCodes,
   };
 }
 

@@ -32,6 +32,8 @@ type SoloQuestion = {
   asOfDate: string | null;
   topN: number;
   endsAt: number | null;
+  codeFilter: string | null;
+  allowedCodes: string[] | null;
 };
 
 type SoloRoundResult = {
@@ -266,7 +268,12 @@ export default function PlayPage({ params }: { params: Promise<{ sid: string }> 
   const q = state.currentQuestion;
   if (!q) return <Container maxWidth="sm" sx={{ py: 6 }}><Typography>Loading question…</Typography></Container>;
 
-  const opts = options[q.answerType] || [];
+  let opts = options[q.answerType] || [];
+  if (q.codeFilter) opts = opts.filter((o) => o.code.startsWith(q.codeFilter!));
+  if (q.allowedCodes && q.allowedCodes.length) {
+    const allow = new Set(q.allowedCodes);
+    opts = opts.filter((o) => allow.has(o.code));
+  }
   const secondsLeft = q.endsAt ? Math.max(0, Math.ceil((q.endsAt - now) / 1000)) : 30;
   const timerPct = q.endsAt ? Math.max(0, Math.min(100, ((q.endsAt - now) / (30 * 1000)) * 100)) : 100;
 

@@ -9,6 +9,7 @@ const path = require("path");
 const { randomUUID } = require("crypto");
 
 const fs = require("fs");
+const { scopingForSubtheme } = require("./src/lib/scoping");
 
 const dev = process.env.NODE_ENV !== "production";
 const hostname = "0.0.0.0";
@@ -376,24 +377,13 @@ function advanceToNextQuestion(io, room) {
   // If the question's subtheme is a scoped sub-set of the answer pool,
   // tell the client which options to show. Either a prefix (cheap) or an
   // explicit list of allowed codes (used when the subset isn't prefix-shaped).
-  let codeFilter = null;
-  let allowedCodes = null;
-  const st = q.subtheme || "";
-  if (st === "Pro Sports - NBA") codeFilter = "NBA-";
-  else if (st === "Pro Sports - NFL") codeFilter = "NFL-";
-  else if (st === "Pro Sports - MLB") codeFilter = "MLB-";
-  else if (st === "Pro Sports - NHL") codeFilter = "NHL-";
-  // European Soccer per-league scoping. The "European" subtheme is cross-league
-  // (UCL/UEL/coefficients) so it stays unfiltered.
-  else if (st === "European Soccer - Premier League") codeFilter = "EPL-";
-  else if (st === "European Soccer - La Liga") codeFilter = "LAL-";
-  else if (st === "European Soccer - Bundesliga") codeFilter = "BUN-";
-  else if (st === "European Soccer - Serie A") codeFilter = "SEA-";
-  else if (st === "European Soccer - Ligue 1") codeFilter = "L1-";
+  const scope = scopingForSubtheme(q.theme, q.subtheme);
+  let codeFilter = scope.codeFilter;
+  let allowedCodes = scope.allowedCodes;
   // All Movies subthemes EXCEPT "Movies - Nominees" are winners-only —
   // scope the dropdown to the 96 Best Picture winners so players don't
   // wade through 500+ losers.
-  else if (q.theme === "Movies" && st !== "Movies - Nominees") {
+  if (!codeFilter && !allowedCodes && q.theme === "Movies" && q.subtheme !== "Movies - Nominees") {
     const winners = getBestPictureWinners();
     if (winners) allowedCodes = winners;
   }
