@@ -75,4 +75,4 @@ export type ClientRoomState = {
   roundHistory: Array<RoundResults & { idx: number; answerType: string }>;
 };
 
-export type ThemeInfo = { theme: string; count: number };
+export type ThemeInfo = { theme: string; count: number; isProd?: boolean };

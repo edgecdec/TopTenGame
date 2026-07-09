@@ -41,7 +41,7 @@ import type { ClientRoomState, GameSettings, FinalScoreboardEntry } from "@/lib/
 
 type Option = { code: string; name: string };
 type SubthemeInfo = { subtheme: string; count: number };
-type ThemeInfo = { theme: string; count: number; subthemes: SubthemeInfo[] };
+type ThemeInfo = { theme: string; count: number; subthemes: SubthemeInfo[]; isProd?: boolean };
 
 function itemLabelForType(answerType: string): { singular: string; plural: string } {
   switch (answerType) {
@@ -415,10 +415,20 @@ function LobbyView({
               >
                 {themes.map((t) => (
                   <MenuItem key={t.theme} value={t.theme}>
-                    {t.theme} ({t.count} question{t.count === 1 ? "" : "s"})
+                    <Box sx={{ display: "flex", alignItems: "center", gap: 1, width: "100%" }}>
+                      <span>
+                        {t.theme} ({t.count} question{t.count === 1 ? "" : "s"})
+                      </span>
+                      {t.isProd === false && <Chip label="Beta" size="small" color="warning" sx={{ ml: 0.5 }} />}
+                    </Box>
                   </MenuItem>
                 ))}
               </Select>
+              {currentTheme?.isProd === false && (
+                <Alert severity="warning" sx={{ mt: 1 }} icon={false}>
+                  <b>Beta category.</b> Questions here are still being audited — accuracy and depth may be lower than the finished categories.
+                </Alert>
+              )}
             </FormControl>
 
             {subthemes.length > 0 && (

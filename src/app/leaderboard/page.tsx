@@ -17,7 +17,7 @@ import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import type { ScoringMode } from "@/lib/types";
 
-type ThemeInfo = { theme: string; count: number };
+type ThemeInfo = { theme: string; count: number; isProd?: boolean };
 type LeaderboardEntry = { rank: number; displayName: string; score: number; isYou: boolean; createdAt: number };
 
 const ALL_THEME = "*";
@@ -67,7 +67,10 @@ function LeaderboardInner() {
               <MenuItem value={ALL_THEME}>All categories</MenuItem>
               {themes.map((t) => (
                 <MenuItem key={t.theme} value={t.theme}>
-                  {t.theme}
+                  <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
+                    <span>{t.theme}</span>
+                    {t.isProd === false && <Chip label="Beta" size="small" color="warning" />}
+                  </Box>
                 </MenuItem>
               ))}
             </Select>

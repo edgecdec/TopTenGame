@@ -2,6 +2,7 @@
 import {
   Box,
   Button,
+  Chip,
   Container,
   FormControl,
   InputLabel,
@@ -13,11 +14,11 @@ import {
   Typography,
   Alert,
 } from "@mui/material";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import type { ScoringMode } from "@/lib/types";
 
-type ThemeInfo = { theme: string; count: number };
+type ThemeInfo = { theme: string; count: number; isProd?: boolean };
 
 const ALL_THEME = "*";
 
@@ -144,10 +145,22 @@ function SoloInner() {
                 <MenuItem value={ALL_THEME}>All categories (mixed)</MenuItem>
                 {themes.map((t) => (
                   <MenuItem key={t.theme} value={t.theme}>
-                    {t.theme} ({t.count})
+                    <Box sx={{ display: "flex", alignItems: "center", gap: 1, width: "100%" }}>
+                      <span>
+                        {t.theme} ({t.count})
+                      </span>
+                      {t.isProd === false && (
+                        <Chip label="Beta" size="small" color="warning" sx={{ ml: 0.5 }} />
+                      )}
+                    </Box>
                   </MenuItem>
                 ))}
               </Select>
+              {themes.find((t) => t.theme === theme)?.isProd === false && (
+                <Alert severity="warning" sx={{ mt: 1 }} icon={false}>
+                  <b>Beta category.</b> Questions here are still being audited — answer accuracy and depth may be lower than the finished categories.
+                </Alert>
+              )}
             </FormControl>
             <FormControl fullWidth>
               <InputLabel>Mode</InputLabel>

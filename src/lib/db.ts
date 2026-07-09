@@ -91,6 +91,10 @@ export function getDb(): Database.Database {
       PRIMARY KEY (question_id, user_id)
     );
     CREATE INDEX IF NOT EXISTS idx_exposures_user ON question_exposures(user_id);
+    CREATE TABLE IF NOT EXISTS themes (
+      theme TEXT PRIMARY KEY,
+      is_prod INTEGER NOT NULL DEFAULT 0  -- 1 = production-ready, 0 = beta
+    );
   `);
   // In-place migration for legacy DBs
   const cols = _db.prepare("PRAGMA table_info(questions)").all() as Array<{ name: string }>;
@@ -129,6 +133,19 @@ export type Question = {
   answers: QuestionAnswer[];
 };
 
+export function listThemeProdFlags(): Record<string, boolean> {
+  const rows = getDb().prepare("SELECT theme, is_prod FROM themes").all() as Array<{ theme: string; is_prod: number }>;
+  const out: Record<string, boolean> = {};
+  for (const r of rows) out[r.theme] = r.is_prod === 1;
+  return out;
+}
+
+export function nonProdThemes(): string[] {
+  return (getDb().prepare("SELECT theme FROM themes WHERE is_prod = 0").all() as Array<{ theme: string }>).map(
+    (r) => r.theme
+  );
+}
+
 export function listOptions(answerType: string): AnswerOption[] {
   return getDb()
     .prepare("SELECT code, name FROM answer_options WHERE answer_type = ? ORDER BY name")
@@ -147,7 +164,7 @@ export function listAllOptions(): Record<string, AnswerOption[]> {
   return out;
 }
 
-export type ThemeInfo = { theme: string; count: number; subthemes: SubthemeInfo[] };
+export type ThemeInfo = { theme: string; count: number; subthemes: SubthemeInfo[]; isProd: boolean };
 export type SubthemeInfo = { subtheme: string; count: number };
 
 export function listThemes(): ThemeInfo[] {
@@ -165,7 +182,12 @@ export function listThemes(): ThemeInfo[] {
     if (!byTheme.has(r.theme)) byTheme.set(r.theme, []);
     byTheme.get(r.theme)!.push({ subtheme: r.subtheme, count: r.count });
   }
-  return themeRows.map((t) => ({ ...t, subthemes: byTheme.get(t.theme) ?? [] }));
+  const flags = listThemeProdFlags();
+  return themeRows.map((t) => ({
+    ...t,
+    subthemes: byTheme.get(t.theme) ?? [],
+    isProd: flags[t.theme] ?? false,
+  }));
 }
 
 export function listQuestionIdsInTheme(theme: string, subtheme?: string | null): string[] {

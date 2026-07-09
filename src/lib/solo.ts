@@ -1,5 +1,5 @@
 import { randomUUID } from "crypto";
-import { getDb, type Question } from "./db";
+import { getDb, listThemeProdFlags, nonProdThemes, type Question } from "./db";
 import { scorePick } from "./scoring";
 import type { ScoringMode } from "./types";
 
@@ -106,26 +106,36 @@ function getQuestionFull(id: string): Question | null {
 function pickQuestionIds(count: number, theme: string, userId: string): string[] {
   // Prefer unseen questions first, then least-seen. Randomize within each
   // exposure tier so replaying doesn't produce identical sequences.
-  const sql =
-    theme === ALL_THEME
-      ? `SELECT q.id, COALESCE(e.seen_count, 0) AS seen
-         FROM questions q
-         LEFT JOIN question_exposures e
-           ON e.question_id = q.id AND e.user_id = ?
-         WHERE q.seeded_depth >= ?
-         ORDER BY seen ASC, RANDOM()
-         LIMIT ?`
-      : `SELECT q.id, COALESCE(e.seen_count, 0) AS seen
-         FROM questions q
-         LEFT JOIN question_exposures e
-           ON e.question_id = q.id AND e.user_id = ?
-         WHERE q.theme = ? AND q.seeded_depth >= ?
-         ORDER BY seen ASC, RANDOM()
-         LIMIT ?`;
-  const rows =
-    theme === ALL_THEME
-      ? (getDb().prepare(sql).all(userId, SOLO_TOP_N, count) as Array<{ id: string }>)
-      : (getDb().prepare(sql).all(userId, theme, SOLO_TOP_N, count) as Array<{ id: string }>);
+  //
+  // For the ALL_THEME "All categories" mixed pool, exclude beta themes — those
+  // are still being audited and shouldn't muddy the shared leaderboard. Flags
+  // live in the DB (themes.is_prod) so we can promote a theme by flipping the
+  // row instead of redeploying.
+  if (theme === ALL_THEME) {
+    const beta = nonProdThemes();
+    const placeholders = beta.map(() => "?").join(",");
+    const sql = `SELECT q.id, COALESCE(e.seen_count, 0) AS seen
+                 FROM questions q
+                 LEFT JOIN question_exposures e
+                   ON e.question_id = q.id AND e.user_id = ?
+                 WHERE q.seeded_depth >= ?
+                   ${beta.length ? `AND q.theme NOT IN (${placeholders})` : ""}
+                 ORDER BY seen ASC, RANDOM()
+                 LIMIT ?`;
+    const rows = getDb()
+      .prepare(sql)
+      .all(userId, SOLO_TOP_N, ...beta, count) as Array<{ id: string }>;
+    return rows.map((r) => r.id);
+  }
+
+  const sql = `SELECT q.id, COALESCE(e.seen_count, 0) AS seen
+               FROM questions q
+               LEFT JOIN question_exposures e
+                 ON e.question_id = q.id AND e.user_id = ?
+               WHERE q.theme = ? AND q.seeded_depth >= ?
+               ORDER BY seen ASC, RANDOM()
+               LIMIT ?`;
+  const rows = getDb().prepare(sql).all(userId, theme, SOLO_TOP_N, count) as Array<{ id: string }>;
   return rows.map((r) => r.id);
 }
 
@@ -142,14 +152,16 @@ export function recordExposure(questionId: string, userId: string): void {
     .run(questionId, userId, now);
 }
 
-export function listSoloThemes(): Array<{ theme: string; count: number }> {
-  return getDb()
+export function listSoloThemes(): Array<{ theme: string; count: number; isProd: boolean }> {
+  const rows = getDb()
     .prepare(
       `SELECT theme, COUNT(*) as count FROM questions
        WHERE seeded_depth >= ?
        GROUP BY theme ORDER BY theme`
     )
     .all(SOLO_TOP_N) as Array<{ theme: string; count: number }>;
+  const flags = listThemeProdFlags();
+  return rows.map((r) => ({ ...r, isProd: flags[r.theme] ?? false }));
 }
 
 function toPublic(q: Question, endsAt: number | null): SoloQuestionPublic {
