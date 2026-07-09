@@ -3780,7 +3780,7 @@
     "title": "Highest Population Density (sovereign states)",
     "prompt": "Name the sovereign UN member states with the highest population density (people per km\u00b2). Excludes SARs (Hong Kong, Macau).",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 50,
     "source": {
       "name": "World Bank \u2014 Population density (people per sq. km of land area)",
       "url": "https://data.worldbank.org/indicator/EN.POP.DNST",
@@ -3847,6 +3847,196 @@
         "rank": 12,
         "code": "RW",
         "value": "~525 /km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "MU",
+        "value": "~625 /km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "~510 /km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "IN",
+        "value": "~475 /km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "BI",
+        "value": "~460 /km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "HT",
+        "value": "~415 /km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "BE",
+        "value": "~380 /km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "PH",
+        "value": "~370 /km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "JP",
+        "value": "~335 /km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "SL",
+        "value": "~115 /km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "VN",
+        "value": "~310 /km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "IL",
+        "value": "~430 /km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "LK",
+        "value": "~340 /km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "SM",
+        "value": "~575 /km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "GB",
+        "value": "~280 /km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "DE",
+        "value": "~240 /km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "PK",
+        "value": "~305 /km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "NG",
+        "value": "~245 /km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "CH",
+        "value": "~220 /km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "IT",
+        "value": "~195 /km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "NP",
+        "value": "~205 /km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "UG",
+        "value": "~230 /km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "GM",
+        "value": "~245 /km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "TG",
+        "value": "~155 /km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "GH",
+        "value": "~145 /km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "DK",
+        "value": "~140 /km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "MW",
+        "value": "~215 /km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "SY",
+        "value": "~120 /km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "CN",
+        "value": "~150 /km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "TH",
+        "value": "~140 /km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "ID",
+        "value": "~150 /km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "PL",
+        "value": "~120 /km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "PT",
+        "value": "~112 /km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "FR",
+        "value": "~120 /km\u00b2"
+      },
+      {
+        "rank": 46,
+        "code": "AT",
+        "value": "~110 /km\u00b2"
+      },
+      {
+        "rank": 47,
+        "code": "TR",
+        "value": "~110 /km\u00b2"
+      },
+      {
+        "rank": 48,
+        "code": "AL",
+        "value": "~100 /km\u00b2"
+      },
+      {
+        "rank": 49,
+        "code": "HU",
+        "value": "~105 /km\u00b2"
+      },
+      {
+        "rank": 50,
+        "code": "CZ",
+        "value": "~140 /km\u00b2"
       }
     ],
     "disclaimer": "Microstates and city-states dominate this list. Excludes SARs (Hong Kong, Macau) and dependent territories.",
@@ -3860,7 +4050,7 @@
     "title": "Highest Urbanization Rate (excludes microstates)",
     "prompt": "Name the countries with the highest percentage of population living in urban areas. Excludes microstates below ~1M population where the top ties at 100%.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 50,
     "source": {
       "name": "UN DESA \u2014 World Urbanization Prospects",
       "url": "https://population.un.org/wup/",
@@ -3927,6 +4117,196 @@
         "rank": 12,
         "code": "JP",
         "value": "91.9% urban"
+      },
+      {
+        "rank": 13,
+        "code": "AR",
+        "value": "91.9% urban"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "91.5% urban"
+      },
+      {
+        "rank": 15,
+        "code": "JO",
+        "value": "91.4% urban"
+      },
+      {
+        "rank": 16,
+        "code": "BH",
+        "value": "89.5% urban"
+      },
+      {
+        "rank": 17,
+        "code": "AU",
+        "value": "86.2% urban"
+      },
+      {
+        "rank": 18,
+        "code": "GA",
+        "value": "89.4% urban"
+      },
+      {
+        "rank": 19,
+        "code": "SA",
+        "value": "84.3% urban"
+      },
+      {
+        "rank": 20,
+        "code": "AE",
+        "value": "87.0% urban"
+      },
+      {
+        "rank": 21,
+        "code": "BR",
+        "value": "87.1% urban"
+      },
+      {
+        "rank": 22,
+        "code": "CL",
+        "value": "87.7% urban"
+      },
+      {
+        "rank": 23,
+        "code": "LU",
+        "value": "91.5% urban"
+      },
+      {
+        "rank": 24,
+        "code": "NZ",
+        "value": "86.9% urban"
+      },
+      {
+        "rank": 25,
+        "code": "DK",
+        "value": "88.1% urban"
+      },
+      {
+        "rank": 26,
+        "code": "MX",
+        "value": "80.7% urban"
+      },
+      {
+        "rank": 27,
+        "code": "US",
+        "value": "82.7% urban"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "83.4% urban"
+      },
+      {
+        "rank": 29,
+        "code": "FR",
+        "value": "81.0% urban"
+      },
+      {
+        "rank": 30,
+        "code": "ES",
+        "value": "80.3% urban"
+      },
+      {
+        "rank": 31,
+        "code": "CA",
+        "value": "81.4% urban"
+      },
+      {
+        "rank": 32,
+        "code": "SE",
+        "value": "87.7% urban"
+      },
+      {
+        "rank": 33,
+        "code": "TR",
+        "value": "75.1% urban"
+      },
+      {
+        "rank": 34,
+        "code": "PE",
+        "value": "77.9% urban"
+      },
+      {
+        "rank": 35,
+        "code": "CO",
+        "value": "80.8% urban"
+      },
+      {
+        "rank": 36,
+        "code": "DE",
+        "value": "77.3% urban"
+      },
+      {
+        "rank": 37,
+        "code": "OM",
+        "value": "84.5% urban"
+      },
+      {
+        "rank": 38,
+        "code": "LY",
+        "value": "80.7% urban"
+      },
+      {
+        "rank": 39,
+        "code": "IR",
+        "value": "75.4% urban"
+      },
+      {
+        "rank": 40,
+        "code": "RU",
+        "value": "74.4% urban"
+      },
+      {
+        "rank": 41,
+        "code": "KR",
+        "value": "81.5% urban"
+      },
+      {
+        "rank": 42,
+        "code": "MY",
+        "value": "76.0% urban"
+      },
+      {
+        "rank": 43,
+        "code": "GR",
+        "value": "79.1% urban"
+      },
+      {
+        "rank": 44,
+        "code": "NO",
+        "value": "82.2% urban"
+      },
+      {
+        "rank": 45,
+        "code": "FI",
+        "value": "85.4% urban"
+      },
+      {
+        "rank": 46,
+        "code": "DO",
+        "value": "82.5% urban"
+      },
+      {
+        "rank": 47,
+        "code": "IQ",
+        "value": "70.5% urban"
+      },
+      {
+        "rank": 48,
+        "code": "CH",
+        "value": "73.8% urban"
+      },
+      {
+        "rank": 49,
+        "code": "CU",
+        "value": "77.0% urban"
+      },
+      {
+        "rank": 50,
+        "code": "BY",
+        "value": "78.6% urban"
       }
     ],
     "disclaimer": "Percentage of population living in urban areas. Excludes microstates below ~1M population that would otherwise tie at 100%.",
@@ -3940,7 +4320,7 @@
     "title": "Highest Median Age",
     "prompt": "Name the countries with the highest median age of population.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "UN World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -4022,6 +4402,181 @@
         "rank": 15,
         "code": "CZ",
         "value": "43.3 years"
+      },
+      {
+        "rank": 16,
+        "code": "PL",
+        "value": "43.0 years"
+      },
+      {
+        "rank": 17,
+        "code": "SM",
+        "value": "42.9 years"
+      },
+      {
+        "rank": 18,
+        "code": "HU",
+        "value": "42.8 years"
+      },
+      {
+        "rank": 19,
+        "code": "EE",
+        "value": "42.7 years"
+      },
+      {
+        "rank": 20,
+        "code": "CH",
+        "value": "42.6 years"
+      },
+      {
+        "rank": 21,
+        "code": "NL",
+        "value": "42.4 years"
+      },
+      {
+        "rank": 22,
+        "code": "BE",
+        "value": "42.0 years"
+      },
+      {
+        "rank": 23,
+        "code": "MT",
+        "value": "41.9 years"
+      },
+      {
+        "rank": 24,
+        "code": "RS",
+        "value": "41.8 years"
+      },
+      {
+        "rank": 25,
+        "code": "KR",
+        "value": "41.7 years"
+      },
+      {
+        "rank": 26,
+        "code": "DK",
+        "value": "41.6 years"
+      },
+      {
+        "rank": 27,
+        "code": "SK",
+        "value": "41.5 years"
+      },
+      {
+        "rank": 28,
+        "code": "RO",
+        "value": "41.4 years"
+      },
+      {
+        "rank": 29,
+        "code": "UA",
+        "value": "41.3 years"
+      },
+      {
+        "rank": 30,
+        "code": "FR",
+        "value": "41.2 years"
+      },
+      {
+        "rank": 31,
+        "code": "GB",
+        "value": "40.6 years"
+      },
+      {
+        "rank": 32,
+        "code": "CA",
+        "value": "40.5 years"
+      },
+      {
+        "rank": 33,
+        "code": "NO",
+        "value": "40.2 years"
+      },
+      {
+        "rank": 34,
+        "code": "SE",
+        "value": "40.0 years"
+      },
+      {
+        "rank": 35,
+        "code": "AD",
+        "value": "39.9 years"
+      },
+      {
+        "rank": 36,
+        "code": "LU",
+        "value": "39.7 years"
+      },
+      {
+        "rank": 37,
+        "code": "BA",
+        "value": "39.6 years"
+      },
+      {
+        "rank": 38,
+        "code": "BY",
+        "value": "39.5 years"
+      },
+      {
+        "rank": 39,
+        "code": "SG",
+        "value": "39.4 years"
+      },
+      {
+        "rank": 40,
+        "code": "TW",
+        "value": "39.3 years"
+      },
+      {
+        "rank": 41,
+        "code": "US",
+        "value": "38.9 years"
+      },
+      {
+        "rank": 42,
+        "code": "AU",
+        "value": "38.5 years"
+      },
+      {
+        "rank": 43,
+        "code": "CU",
+        "value": "38.4 years"
+      },
+      {
+        "rank": 44,
+        "code": "IE",
+        "value": "38.2 years"
+      },
+      {
+        "rank": 45,
+        "code": "MD",
+        "value": "38.0 years"
+      },
+      {
+        "rank": 46,
+        "code": "CN",
+        "value": "37.9 years"
+      },
+      {
+        "rank": 47,
+        "code": "RU",
+        "value": "37.8 years"
+      },
+      {
+        "rank": 48,
+        "code": "IS",
+        "value": "37.5 years"
+      },
+      {
+        "rank": 49,
+        "code": "TH",
+        "value": "37.4 years"
+      },
+      {
+        "rank": 50,
+        "code": "NZ",
+        "value": "37.0 years"
       }
     ],
     "disclaimer": "Median age is the age that divides the population into two numerically equal halves.",
@@ -4035,7 +4590,7 @@
     "title": "Highest Foreign-Born Population Share",
     "prompt": "Name the countries with the highest share of foreign-born residents (immigrants as % of population).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "UN DESA \u2014 International Migrant Stock",
       "url": "https://www.un.org/development/desa/pd/content/international-migrant-stock",
@@ -4117,6 +4672,181 @@
         "rank": 15,
         "code": "IL",
         "value": "22.6%"
+      },
+      {
+        "rank": 16,
+        "code": "NZ",
+        "value": "22.4%"
+      },
+      {
+        "rank": 17,
+        "code": "CA",
+        "value": "21.3%"
+      },
+      {
+        "rank": 18,
+        "code": "GA",
+        "value": "18.7%"
+      },
+      {
+        "rank": 19,
+        "code": "AT",
+        "value": "19.0%"
+      },
+      {
+        "rank": 20,
+        "code": "SE",
+        "value": "19.8%"
+      },
+      {
+        "rank": 21,
+        "code": "IE",
+        "value": "17.6%"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "18.8%"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "16.1%"
+      },
+      {
+        "rank": 24,
+        "code": "BE",
+        "value": "17.3%"
+      },
+      {
+        "rank": 25,
+        "code": "US",
+        "value": "15.3%"
+      },
+      {
+        "rank": 26,
+        "code": "ES",
+        "value": "14.6%"
+      },
+      {
+        "rank": 27,
+        "code": "GB",
+        "value": "13.8%"
+      },
+      {
+        "rank": 28,
+        "code": "FR",
+        "value": "13.1%"
+      },
+      {
+        "rank": 29,
+        "code": "NL",
+        "value": "13.8%"
+      },
+      {
+        "rank": 30,
+        "code": "IS",
+        "value": "18.4%"
+      },
+      {
+        "rank": 31,
+        "code": "DK",
+        "value": "12.4%"
+      },
+      {
+        "rank": 32,
+        "code": "CY",
+        "value": "16.4%"
+      },
+      {
+        "rank": 33,
+        "code": "LB",
+        "value": "25.4%"
+      },
+      {
+        "rank": 34,
+        "code": "EE",
+        "value": "14.9%"
+      },
+      {
+        "rank": 35,
+        "code": "LV",
+        "value": "12.4%"
+      },
+      {
+        "rank": 36,
+        "code": "GR",
+        "value": "11.6%"
+      },
+      {
+        "rank": 37,
+        "code": "SI",
+        "value": "12.6%"
+      },
+      {
+        "rank": 38,
+        "code": "MT",
+        "value": "22.7%"
+      },
+      {
+        "rank": 39,
+        "code": "PT",
+        "value": "10.1%"
+      },
+      {
+        "rank": 40,
+        "code": "IT",
+        "value": "10.6%"
+      },
+      {
+        "rank": 41,
+        "code": "HR",
+        "value": "12.6%"
+      },
+      {
+        "rank": 42,
+        "code": "FI",
+        "value": "6.9%"
+      },
+      {
+        "rank": 43,
+        "code": "CZ",
+        "value": "5.1%"
+      },
+      {
+        "rank": 44,
+        "code": "RU",
+        "value": "8.0%"
+      },
+      {
+        "rank": 45,
+        "code": "UA",
+        "value": "11.4%"
+      },
+      {
+        "rank": 46,
+        "code": "BY",
+        "value": "11.3%"
+      },
+      {
+        "rank": 47,
+        "code": "KZ",
+        "value": "20.0%"
+      },
+      {
+        "rank": 48,
+        "code": "CI",
+        "value": "9.7%"
+      },
+      {
+        "rank": 49,
+        "code": "AR",
+        "value": "5.0%"
+      },
+      {
+        "rank": 50,
+        "code": "ZA",
+        "value": "4.8%"
       }
     ],
     "disclaimer": "Gulf states dominate due to migrant labor systems. Vatican City is technically ~100% foreign-born but not always reported. Excludes territories and dependencies.",
@@ -4130,7 +4860,7 @@
     "title": "Most Bordering Countries",
     "prompt": "Name the countries that border the most other sovereign countries.",
     "answerType": "Countries",
-    "seededDepth": 12,
+    "seededDepth": 50,
     "source": {
       "name": "CIA World Factbook \u2014 Land Boundaries",
       "url": "https://www.cia.gov/the-world-factbook/field/land-boundaries/",
@@ -4197,6 +4927,196 @@
         "rank": 12,
         "code": "SD",
         "value": "7 neighbors (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NE",
+        "value": "7 neighbors (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "ML",
+        "value": "7 neighbors (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "TD",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "SA",
+        "value": "8 neighbors (tied, incl. maritime)"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 18,
+        "code": "UA",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 19,
+        "code": "HU",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 20,
+        "code": "IR",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 21,
+        "code": "IN",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 22,
+        "code": "CF",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "AF",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PK",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "US",
+        "value": "3 neighbors (incl. maritime)"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "PE",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "VE",
+        "value": "3 neighbors"
+      },
+      {
+        "rank": 30,
+        "code": "MZ",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 31,
+        "code": "UG",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "ET",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 33,
+        "code": "KE",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 34,
+        "code": "ZW",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 35,
+        "code": "BW",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 36,
+        "code": "NA",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 37,
+        "code": "AO",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 38,
+        "code": "CM",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 39,
+        "code": "NG",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 40,
+        "code": "BF",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 41,
+        "code": "DZ",
+        "value": "7 neighbors"
+      },
+      {
+        "rank": 42,
+        "code": "LY",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 43,
+        "code": "EG",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 44,
+        "code": "MX",
+        "value": "3 neighbors (tied)"
+      },
+      {
+        "rank": 45,
+        "code": "IT",
+        "value": "6 neighbors (tied)"
+      },
+      {
+        "rank": 46,
+        "code": "CH",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 47,
+        "code": "CZ",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 48,
+        "code": "SK",
+        "value": "5 neighbors (tied)"
+      },
+      {
+        "rank": 49,
+        "code": "GR",
+        "value": "4 neighbors (tied)"
+      },
+      {
+        "rank": 50,
+        "code": "TH",
+        "value": "4 neighbors (tied)"
       }
     ],
     "disclaimer": "This ranking counts only sovereign UN member states; disputed territories like Kosovo/Palestine are excluded by some sources, which changes counts.",
@@ -4210,7 +5130,7 @@
     "title": "Lowest Population (Smallest Countries)",
     "prompt": "Name the sovereign UN member (or observer) states with the smallest population.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "UN World Population Prospects 2024",
       "url": "https://population.un.org/wpp/",
@@ -4292,6 +5212,181 @@
         "rank": 15,
         "code": "FM",
         "value": "114,164"
+      },
+      {
+        "rank": 16,
+        "code": "GD",
+        "value": "117,207"
+      },
+      {
+        "rank": 17,
+        "code": "KI",
+        "value": "133,515"
+      },
+      {
+        "rank": 18,
+        "code": "VC",
+        "value": "103,948"
+      },
+      {
+        "rank": 19,
+        "code": "ST",
+        "value": "231,856"
+      },
+      {
+        "rank": 20,
+        "code": "WS",
+        "value": "225,681"
+      },
+      {
+        "rank": 21,
+        "code": "LC",
+        "value": "180,251"
+      },
+      {
+        "rank": 22,
+        "code": "VU",
+        "value": "334,506"
+      },
+      {
+        "rank": 23,
+        "code": "BB",
+        "value": "281,995"
+      },
+      {
+        "rank": 24,
+        "code": "IS",
+        "value": "393,349"
+      },
+      {
+        "rank": 25,
+        "code": "MV",
+        "value": "515,132"
+      },
+      {
+        "rank": 26,
+        "code": "BN",
+        "value": "462,721"
+      },
+      {
+        "rank": 27,
+        "code": "BZ",
+        "value": "410,825"
+      },
+      {
+        "rank": 28,
+        "code": "BS",
+        "value": "401,283"
+      },
+      {
+        "rank": 29,
+        "code": "MT",
+        "value": "539,607"
+      },
+      {
+        "rank": 30,
+        "code": "SB",
+        "value": "740,424"
+      },
+      {
+        "rank": 31,
+        "code": "ME",
+        "value": "638,479"
+      },
+      {
+        "rank": 32,
+        "code": "SR",
+        "value": "623,236"
+      },
+      {
+        "rank": 33,
+        "code": "CV",
+        "value": "524,877"
+      },
+      {
+        "rank": 34,
+        "code": "LU",
+        "value": "672,050"
+      },
+      {
+        "rank": 35,
+        "code": "GY",
+        "value": "826,353"
+      },
+      {
+        "rank": 36,
+        "code": "BT",
+        "value": "782,455"
+      },
+      {
+        "rank": 37,
+        "code": "DJ",
+        "value": "1,136,455"
+      },
+      {
+        "rank": 38,
+        "code": "FJ",
+        "value": "936,375"
+      },
+      {
+        "rank": 39,
+        "code": "KM",
+        "value": "852,075"
+      },
+      {
+        "rank": 40,
+        "code": "GQ",
+        "value": "1,795,834"
+      },
+      {
+        "rank": 41,
+        "code": "CY",
+        "value": "1,260,138"
+      },
+      {
+        "rank": 42,
+        "code": "EE",
+        "value": "1,360,546"
+      },
+      {
+        "rank": 43,
+        "code": "TT",
+        "value": "1,534,937"
+      },
+      {
+        "rank": 44,
+        "code": "MU",
+        "value": "1,262,523"
+      },
+      {
+        "rank": 45,
+        "code": "TL",
+        "value": "1,360,596"
+      },
+      {
+        "rank": 46,
+        "code": "SZ",
+        "value": "1,210,822"
+      },
+      {
+        "rank": 47,
+        "code": "BH",
+        "value": "1,485,509"
+      },
+      {
+        "rank": 48,
+        "code": "GA",
+        "value": "2,436,566"
+      },
+      {
+        "rank": 49,
+        "code": "LS",
+        "value": "2,330,318"
+      },
+      {
+        "rank": 50,
+        "code": "GW",
+        "value": "2,150,842"
       }
     ],
     "disclaimer": "Excludes dependent territories (Pitcairn Islands, Tokelau, etc.). Includes UN observer states.",
@@ -8725,7 +9820,7 @@
     "title": "Most Winter Olympic gold medals (all-time)",
     "prompt": "Name the countries with the most all-time Winter Olympic gold medals.",
     "answerType": "Countries",
-    "seededDepth": 11,
+    "seededDepth": 25,
     "source": {
       "name": "International Olympic Committee \u2014 All-time Winter Olympic medal table",
       "url": "https://olympics.com/en/olympic-games",
@@ -8787,6 +9882,76 @@
         "rank": 11,
         "code": "KR",
         "value": "33 gold"
+      },
+      {
+        "rank": 12,
+        "code": "RU",
+        "value": "26 gold"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "25 gold"
+      },
+      {
+        "rank": 14,
+        "code": "JP",
+        "value": "17 gold"
+      },
+      {
+        "rank": 15,
+        "code": "CN",
+        "value": "22 gold"
+      },
+      {
+        "rank": 16,
+        "code": "CZ",
+        "value": "9 gold"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "12 gold"
+      },
+      {
+        "rank": 18,
+        "code": "PL",
+        "value": "7 gold"
+      },
+      {
+        "rank": 19,
+        "code": "HU",
+        "value": "1 gold"
+      },
+      {
+        "rank": 20,
+        "code": "BE",
+        "value": "1 gold"
+      },
+      {
+        "rank": 21,
+        "code": "AU",
+        "value": "6 gold"
+      },
+      {
+        "rank": 22,
+        "code": "ES",
+        "value": "1 gold"
+      },
+      {
+        "rank": 23,
+        "code": "BY",
+        "value": "8 gold"
+      },
+      {
+        "rank": 24,
+        "code": "SK",
+        "value": "4 gold"
+      },
+      {
+        "rank": 25,
+        "code": "UA",
+        "value": "3 gold"
       }
     ],
     "disclaimer": "Soviet Union (78 gold, 1956\u20131988) is listed separately by the IOC and excluded here to avoid mixing with modern Russia.",
@@ -86450,7 +87615,7 @@
     "title": "Most reliant on fossil fuel exports (% of GDP)",
     "prompt": "Name the countries whose economies depend most on fossil fuel exports as a share of GDP.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "IMF / World Bank \u2014 Fuel exports as % of merchandise exports and GDP",
       "url": "https://www.imf.org/en/Topics/climate-change",
@@ -86535,6 +87700,81 @@
         "rank": 15,
         "code": "NG",
         "value": "20% of GDP"
+      },
+      {
+        "rank": 16,
+        "code": "KZ",
+        "value": "19% of GDP"
+      },
+      {
+        "rank": 17,
+        "code": "GQ",
+        "value": "18% of GDP"
+      },
+      {
+        "rank": 18,
+        "code": "TT",
+        "value": "17% of GDP"
+      },
+      {
+        "rank": 19,
+        "code": "RU",
+        "value": "16% of GDP"
+      },
+      {
+        "rank": 20,
+        "code": "IR",
+        "value": "14% of GDP"
+      },
+      {
+        "rank": 21,
+        "code": "VE",
+        "value": "13% of GDP"
+      },
+      {
+        "rank": 22,
+        "code": "BH",
+        "value": "12% of GDP"
+      },
+      {
+        "rank": 23,
+        "code": "NO",
+        "value": "11% of GDP"
+      },
+      {
+        "rank": 24,
+        "code": "GY",
+        "value": "10% of GDP"
+      },
+      {
+        "rank": 25,
+        "code": "SS",
+        "value": "9% of GDP"
+      },
+      {
+        "rank": 26,
+        "code": "MN",
+        "value": "8% of GDP"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "7% of GDP"
+      },
+      {
+        "rank": 28,
+        "code": "EC",
+        "value": "6% of GDP"
+      },
+      {
+        "rank": 29,
+        "code": "UZ",
+        "value": "5% of GDP"
+      },
+      {
+        "rank": 30,
+        "code": "MZ",
+        "value": "4% of GDP"
       }
     ]
   },
@@ -86545,7 +87785,7 @@
     "title": "Highest per-capita solar electricity generation",
     "prompt": "Name the countries that generate the most solar electricity per person.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Ember / Our World in Data \u2014 Solar electricity per capita",
       "url": "https://ourworldindata.org/grapher/solar-electricity-per-capita",
@@ -86630,6 +87870,81 @@
         "rank": 15,
         "code": "PT",
         "value": "400 kWh per person"
+      },
+      {
+        "rank": 16,
+        "code": "CY",
+        "value": "380 kWh per person"
+      },
+      {
+        "rank": 17,
+        "code": "MT",
+        "value": "370 kWh per person"
+      },
+      {
+        "rank": 18,
+        "code": "CH",
+        "value": "355 kWh per person"
+      },
+      {
+        "rank": 19,
+        "code": "LU",
+        "value": "340 kWh per person"
+      },
+      {
+        "rank": 20,
+        "code": "SG",
+        "value": "325 kWh per person"
+      },
+      {
+        "rank": 21,
+        "code": "BG",
+        "value": "310 kWh per person"
+      },
+      {
+        "rank": 22,
+        "code": "CZ",
+        "value": "295 kWh per person"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "285 kWh per person"
+      },
+      {
+        "rank": 24,
+        "code": "CN",
+        "value": "275 kWh per person"
+      },
+      {
+        "rank": 25,
+        "code": "SK",
+        "value": "260 kWh per person"
+      },
+      {
+        "rank": 26,
+        "code": "FR",
+        "value": "250 kWh per person"
+      },
+      {
+        "rank": 27,
+        "code": "SI",
+        "value": "240 kWh per person"
+      },
+      {
+        "rank": 28,
+        "code": "GB",
+        "value": "225 kWh per person"
+      },
+      {
+        "rank": 29,
+        "code": "KR",
+        "value": "215 kWh per person"
+      },
+      {
+        "rank": 30,
+        "code": "PL",
+        "value": "205 kWh per person"
       }
     ]
   },
@@ -86640,7 +87955,7 @@
     "title": "Highest per-capita wind electricity generation",
     "prompt": "Name the countries that generate the most wind electricity per person.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Our World in Data \u2014 Per-capita wind energy",
       "url": "https://ourworldindata.org/grapher/per-capita-wind",
@@ -86725,6 +88040,81 @@
         "rank": 15,
         "code": "CA",
         "value": "950 kWh per person"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "780 kWh per person"
+      },
+      {
+        "rank": 17,
+        "code": "NO",
+        "value": "760 kWh per person"
+      },
+      {
+        "rank": 18,
+        "code": "EE",
+        "value": "690 kWh per person"
+      },
+      {
+        "rank": 19,
+        "code": "LT",
+        "value": "650 kWh per person"
+      },
+      {
+        "rank": 20,
+        "code": "FR",
+        "value": "630 kWh per person"
+      },
+      {
+        "rank": 21,
+        "code": "PL",
+        "value": "540 kWh per person"
+      },
+      {
+        "rank": 22,
+        "code": "RO",
+        "value": "480 kWh per person"
+      },
+      {
+        "rank": 23,
+        "code": "IT",
+        "value": "365 kWh per person"
+      },
+      {
+        "rank": 24,
+        "code": "BR",
+        "value": "355 kWh per person"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "340 kWh per person"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "320 kWh per person"
+      },
+      {
+        "rank": 27,
+        "code": "NZ",
+        "value": "310 kWh per person"
+      },
+      {
+        "rank": 28,
+        "code": "BG",
+        "value": "290 kWh per person"
+      },
+      {
+        "rank": 29,
+        "code": "MA",
+        "value": "150 kWh per person"
+      },
+      {
+        "rank": 30,
+        "code": "CN",
+        "value": "620 kWh per person"
       }
     ]
   },
@@ -86735,7 +88125,7 @@
     "title": "Highest per-capita nuclear electricity generation",
     "prompt": "Name the countries that generate the most nuclear electricity per person.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Our World in Data \u2014 Nuclear Energy",
       "url": "https://ourworldindata.org/nuclear-energy",
@@ -86820,6 +88210,81 @@
         "rank": 14,
         "code": "RU",
         "value": "1,510 kWh per person"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "1,190 kWh per person"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "600 kWh per person"
+      },
+      {
+        "rank": 18,
+        "code": "JP",
+        "value": "590 kWh per person"
+      },
+      {
+        "rank": 19,
+        "code": "AR",
+        "value": "225 kWh per person"
+      },
+      {
+        "rank": 20,
+        "code": "RO",
+        "value": "580 kWh per person"
+      },
+      {
+        "rank": 21,
+        "code": "AE",
+        "value": "1,830 kWh per person"
+      },
+      {
+        "rank": 22,
+        "code": "NL",
+        "value": "230 kWh per person"
+      },
+      {
+        "rank": 23,
+        "code": "CN",
+        "value": "310 kWh per person"
+      },
+      {
+        "rank": 24,
+        "code": "BR",
+        "value": "70 kWh per person"
+      },
+      {
+        "rank": 25,
+        "code": "MX",
+        "value": "80 kWh per person"
+      },
+      {
+        "rank": 26,
+        "code": "IN",
+        "value": "35 kWh per person"
+      },
+      {
+        "rank": 27,
+        "code": "ZA",
+        "value": "220 kWh per person"
+      },
+      {
+        "rank": 28,
+        "code": "PK",
+        "value": "115 kWh per person"
+      },
+      {
+        "rank": 29,
+        "code": "IR",
+        "value": "80 kWh per person"
+      },
+      {
+        "rank": 30,
+        "code": "AM",
+        "value": "820 kWh per person"
       }
     ]
   },
@@ -86830,7 +88295,7 @@
     "title": "Earliest Net Zero commitment year",
     "prompt": "Name the countries with the earliest official Net Zero target year for greenhouse gas emissions.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Net Zero Tracker (Energy & Climate Intelligence Unit / Oxford / Data-Driven EnviroLab)",
       "url": "https://zerotracker.net/",
@@ -86915,6 +88380,81 @@
         "rank": 10,
         "code": "CA",
         "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "IT",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "ES",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "KR",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "NZ",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "ZA",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "BR",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "AR",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "CH",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "NO",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "DK",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "NL",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "BE",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "AU",
+        "value": "2050 target (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "CN",
+        "value": "2060 target"
+      },
+      {
+        "rank": 30,
+        "code": "IN",
+        "value": "2070 target"
       }
     ]
   },
@@ -86925,7 +88465,7 @@
     "title": "Highest Climate Change Performance Index (CCPI) score",
     "prompt": "Name the countries with the highest CCPI climate policy score from Germanwatch.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Germanwatch / NewClimate Institute / CAN \u2014 Climate Change Performance Index",
       "url": "https://ccpi.org/",
@@ -87010,6 +88550,81 @@
         "rank": 15,
         "code": "ES",
         "value": "63.4 score"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "62.5 score"
+      },
+      {
+        "rank": 17,
+        "code": "AT",
+        "value": "61.7 score"
+      },
+      {
+        "rank": 18,
+        "code": "IE",
+        "value": "60.8 score"
+      },
+      {
+        "rank": 19,
+        "code": "HR",
+        "value": "60.2 score"
+      },
+      {
+        "rank": 20,
+        "code": "FI",
+        "value": "59.6 score"
+      },
+      {
+        "rank": 21,
+        "code": "LT",
+        "value": "58.9 score"
+      },
+      {
+        "rank": 22,
+        "code": "GR",
+        "value": "58.1 score"
+      },
+      {
+        "rank": 23,
+        "code": "RO",
+        "value": "57.4 score"
+      },
+      {
+        "rank": 24,
+        "code": "BR",
+        "value": "56.8 score"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "56.1 score"
+      },
+      {
+        "rank": 26,
+        "code": "LV",
+        "value": "55.5 score"
+      },
+      {
+        "rank": 27,
+        "code": "CH",
+        "value": "54.9 score"
+      },
+      {
+        "rank": 28,
+        "code": "SI",
+        "value": "54.2 score"
+      },
+      {
+        "rank": 29,
+        "code": "SK",
+        "value": "53.6 score"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "53.0 score"
       }
     ]
   },
@@ -96360,7 +97975,7 @@
     "title": "Most islands",
     "prompt": "Name the countries with the most islands (including small islets and skerries counted in national geographic surveys).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "National geographic surveys (Statistics Sweden, Finnish Environment Institute, Statistics Norway, Statistics Canada, etc.)",
       "url": "https://www.cia.gov/the-world-factbook/",
@@ -96445,6 +98060,181 @@
         "rank": 15,
         "code": "BR",
         "value": "2,000 islands"
+      },
+      {
+        "rank": 16,
+        "code": "IE",
+        "value": "1,000 islands"
+      },
+      {
+        "rank": 17,
+        "code": "KR",
+        "value": "3,358 islands"
+      },
+      {
+        "rank": 18,
+        "code": "MX",
+        "value": "1,404 islands"
+      },
+      {
+        "rank": 19,
+        "code": "NZ",
+        "value": "700 islands"
+      },
+      {
+        "rank": 20,
+        "code": "MV",
+        "value": "1,192 islands"
+      },
+      {
+        "rank": 21,
+        "code": "HR",
+        "value": "1,246 islands"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "1,419 islands"
+      },
+      {
+        "rank": 23,
+        "code": "IN",
+        "value": "1,382 islands"
+      },
+      {
+        "rank": 24,
+        "code": "IS",
+        "value": "1,000 islands"
+      },
+      {
+        "rank": 25,
+        "code": "IT",
+        "value": "800 islands"
+      },
+      {
+        "rank": 26,
+        "code": "RU",
+        "value": "700 islands"
+      },
+      {
+        "rank": 27,
+        "code": "PG",
+        "value": "600 islands"
+      },
+      {
+        "rank": 28,
+        "code": "BS",
+        "value": "700 islands"
+      },
+      {
+        "rank": 29,
+        "code": "CU",
+        "value": "4,195 islands"
+      },
+      {
+        "rank": 30,
+        "code": "MY",
+        "value": "878 islands"
+      },
+      {
+        "rank": 31,
+        "code": "TH",
+        "value": "1,430 islands"
+      },
+      {
+        "rank": 32,
+        "code": "FR",
+        "value": "500 islands"
+      },
+      {
+        "rank": 33,
+        "code": "ES",
+        "value": "400 islands"
+      },
+      {
+        "rank": 34,
+        "code": "PT",
+        "value": "300 islands"
+      },
+      {
+        "rank": 35,
+        "code": "AR",
+        "value": "200 islands"
+      },
+      {
+        "rank": 36,
+        "code": "VN",
+        "value": "3,000 islands"
+      },
+      {
+        "rank": 37,
+        "code": "TR",
+        "value": "500 islands"
+      },
+      {
+        "rank": 38,
+        "code": "EG",
+        "value": "150 islands"
+      },
+      {
+        "rank": 39,
+        "code": "SB",
+        "value": "992 islands"
+      },
+      {
+        "rank": 40,
+        "code": "MH",
+        "value": "1,225 islands"
+      },
+      {
+        "rank": 41,
+        "code": "FM",
+        "value": "607 islands"
+      },
+      {
+        "rank": 42,
+        "code": "PW",
+        "value": "340 islands"
+      },
+      {
+        "rank": 43,
+        "code": "TO",
+        "value": "170 islands"
+      },
+      {
+        "rank": 44,
+        "code": "FJ",
+        "value": "332 islands"
+      },
+      {
+        "rank": 45,
+        "code": "VU",
+        "value": "83 islands"
+      },
+      {
+        "rank": 46,
+        "code": "SC",
+        "value": "115 islands"
+      },
+      {
+        "rank": 47,
+        "code": "BH",
+        "value": "84 islands"
+      },
+      {
+        "rank": 48,
+        "code": "AG",
+        "value": "37 islands"
+      },
+      {
+        "rank": 49,
+        "code": "KI",
+        "value": "33 islands"
+      },
+      {
+        "rank": 50,
+        "code": "NL",
+        "value": "500 islands"
       }
     ]
   },
@@ -96455,7 +98245,7 @@
     "title": "Flattest terrain (lowest peak)",
     "prompt": "Name the countries with the flattest terrain, measured by the lowest elevation of their highest point.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "CIA World Factbook \u2014 Elevation extremes",
       "url": "https://www.cia.gov/the-world-factbook/field/elevation/",
@@ -96540,6 +98330,181 @@
         "rank": 15,
         "code": "BE",
         "value": "694 m (Signal de Botrange)"
+      },
+      {
+        "rank": 16,
+        "code": "MD",
+        "value": "430 m (B\u0103l\u0103ne\u0219ti)"
+      },
+      {
+        "rank": 17,
+        "code": "SN",
+        "value": "648 m (unnamed, near Nepen Diakha)"
+      },
+      {
+        "rank": 18,
+        "code": "TG",
+        "value": "986 m (Mont Agou)"
+      },
+      {
+        "rank": 19,
+        "code": "NE",
+        "value": "2,022 m (Idoukal-n-Tagh\u00e8s)"
+      },
+      {
+        "rank": 20,
+        "code": "GW",
+        "value": "300 m (unnamed)"
+      },
+      {
+        "rank": 21,
+        "code": "BJ",
+        "value": "658 m (Mont Sokbaro)"
+      },
+      {
+        "rank": 22,
+        "code": "BF",
+        "value": "749 m (Tena Kourou)"
+      },
+      {
+        "rank": 23,
+        "code": "PY",
+        "value": "842 m (Cerro Per\u00f3)"
+      },
+      {
+        "rank": 24,
+        "code": "TT",
+        "value": "940 m (El Cerro del Aripo)"
+      },
+      {
+        "rank": 25,
+        "code": "HU",
+        "value": "1,014 m (K\u00e9kes)"
+      },
+      {
+        "rank": 26,
+        "code": "IE",
+        "value": "1,041 m (Carrauntoohil)"
+      },
+      {
+        "rank": 27,
+        "code": "MT",
+        "value": "253 m (Ta' Dmejrek)"
+      },
+      {
+        "rank": 28,
+        "code": "SR",
+        "value": "1,230 m (Julianatop)"
+      },
+      {
+        "rank": 29,
+        "code": "CG",
+        "value": "903 m (Mont Nabemba)"
+      },
+      {
+        "rank": 30,
+        "code": "GY",
+        "value": "2,835 m (Mount Roraima)"
+      },
+      {
+        "rank": 31,
+        "code": "MR",
+        "value": "915 m (Kediet ej Jill)"
+      },
+      {
+        "rank": 32,
+        "code": "SO",
+        "value": "2,416 m (Shimbiris)"
+      },
+      {
+        "rank": 33,
+        "code": "KH",
+        "value": "1,810 m (Phnom Aural)"
+      },
+      {
+        "rank": 34,
+        "code": "PL",
+        "value": "2,499 m (Rysy)"
+      },
+      {
+        "rank": 35,
+        "code": "FI",
+        "value": "1,324 m (Halti)"
+      },
+      {
+        "rank": 36,
+        "code": "LR",
+        "value": "1,440 m (Mount Wuteve)"
+      },
+      {
+        "rank": 37,
+        "code": "SL",
+        "value": "1,948 m (Loma Mansa)"
+      },
+      {
+        "rank": 38,
+        "code": "GH",
+        "value": "885 m (Mount Afadja)"
+      },
+      {
+        "rank": 39,
+        "code": "CI",
+        "value": "1,752 m (Mont Nimba)"
+      },
+      {
+        "rank": 40,
+        "code": "NG",
+        "value": "2,419 m (Chappal Waddi)"
+      },
+      {
+        "rank": 41,
+        "code": "UG",
+        "value": "5,109 m (Margherita Peak)"
+      },
+      {
+        "rank": 42,
+        "code": "DJ",
+        "value": "2,028 m (Moussa Ali)"
+      },
+      {
+        "rank": 43,
+        "code": "GA",
+        "value": "1,575 m (Mont Iboundji)"
+      },
+      {
+        "rank": 44,
+        "code": "CM",
+        "value": "4,095 m (Mount Cameroon)"
+      },
+      {
+        "rank": 45,
+        "code": "MW",
+        "value": "3,002 m (Sapitwa)"
+      },
+      {
+        "rank": 46,
+        "code": "BI",
+        "value": "2,684 m (Mount Heha)"
+      },
+      {
+        "rank": 47,
+        "code": "RW",
+        "value": "4,507 m (Mount Karisimbi)"
+      },
+      {
+        "rank": 48,
+        "code": "TD",
+        "value": "3,415 m (Emi Koussi)"
+      },
+      {
+        "rank": 49,
+        "code": "ZM",
+        "value": "2,301 m (Mafinga Central)"
+      },
+      {
+        "rank": 50,
+        "code": "ZW",
+        "value": "2,592 m (Mount Nyangani)"
       }
     ]
   },
@@ -96550,7 +98515,7 @@
     "title": "Lowest point below sea level",
     "prompt": "Name the countries whose lowest natural land point sits farthest below sea level.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "CIA World Factbook \u2014 Elevation extremes",
       "url": "https://www.cia.gov/the-world-factbook/field/elevation/",
@@ -96635,6 +98600,181 @@
         "rank": 15,
         "code": "NL",
         "value": "-7 m (Zuidplaspolder)"
+      },
+      {
+        "rank": 16,
+        "code": "IR",
+        "value": "-28 m (Caspian Sea coast)"
+      },
+      {
+        "rank": 17,
+        "code": "MR",
+        "value": "-5 m (Sebkha de Ndrhamcha)"
+      },
+      {
+        "rank": 18,
+        "code": "SY",
+        "value": "-208 m (Lake Tiberias/Sea of Galilee)"
+      },
+      {
+        "rank": 19,
+        "code": "IQ",
+        "value": "-2 m (Persian Gulf coastal)"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "-7 m (Lammefjord)"
+      },
+      {
+        "rank": 21,
+        "code": "BE",
+        "value": "-2 m (De Moeren)"
+      },
+      {
+        "rank": 22,
+        "code": "DE",
+        "value": "-3.5 m (Neuendorf-Sachsenbande)"
+      },
+      {
+        "rank": 23,
+        "code": "PL",
+        "value": "-2 m (Raczki Elbl\u0105skie)"
+      },
+      {
+        "rank": 24,
+        "code": "GB",
+        "value": "-4 m (Holme Fen, The Fens)"
+      },
+      {
+        "rank": 25,
+        "code": "SD",
+        "value": "0 m (Red Sea coast)"
+      },
+      {
+        "rank": 26,
+        "code": "ER",
+        "value": "-75 m (Denakil Depression)"
+      },
+      {
+        "rank": 27,
+        "code": "ET",
+        "value": "-125 m (Danakil Depression)"
+      },
+      {
+        "rank": 28,
+        "code": "SO",
+        "value": "0 m (Indian Ocean coast)"
+      },
+      {
+        "rank": 29,
+        "code": "MA",
+        "value": "-59 m (Sebkha Tah)"
+      },
+      {
+        "rank": 30,
+        "code": "IT",
+        "value": "-3.44 m (Le Contane, Jolanda di Savoia)"
+      },
+      {
+        "rank": 31,
+        "code": "ES",
+        "value": "-12 m (near Almer\u00eda)"
+      },
+      {
+        "rank": 32,
+        "code": "HU",
+        "value": "77.6 m (Tisza River, lowest)"
+      },
+      {
+        "rank": 33,
+        "code": "UA",
+        "value": "-5 m (Kuyalnik Estuary)"
+      },
+      {
+        "rank": 34,
+        "code": "RO",
+        "value": "0 m (Black Sea)"
+      },
+      {
+        "rank": 35,
+        "code": "TR",
+        "value": "0 m (Mediterranean/Aegean)"
+      },
+      {
+        "rank": 36,
+        "code": "GR",
+        "value": "0 m (Mediterranean Sea)"
+      },
+      {
+        "rank": 37,
+        "code": "MX",
+        "value": "-10 m (Laguna Salada)"
+      },
+      {
+        "rank": 38,
+        "code": "BR",
+        "value": "0 m (Atlantic Ocean)"
+      },
+      {
+        "rank": 39,
+        "code": "CL",
+        "value": "0 m (Pacific Ocean)"
+      },
+      {
+        "rank": 40,
+        "code": "PE",
+        "value": "-34 m (Salinas Chica)"
+      },
+      {
+        "rank": 41,
+        "code": "IN",
+        "value": "-2.2 m (Kuttanad)"
+      },
+      {
+        "rank": 42,
+        "code": "PS",
+        "value": "-431 m (Dead Sea)"
+      },
+      {
+        "rank": 43,
+        "code": "AE",
+        "value": "0 m (Persian Gulf)"
+      },
+      {
+        "rank": 44,
+        "code": "SA",
+        "value": "0 m (Persian Gulf/Red Sea)"
+      },
+      {
+        "rank": 45,
+        "code": "OM",
+        "value": "0 m (Arabian Sea)"
+      },
+      {
+        "rank": 46,
+        "code": "YE",
+        "value": "0 m (Arabian Sea)"
+      },
+      {
+        "rank": 47,
+        "code": "KW",
+        "value": "0 m (Persian Gulf)"
+      },
+      {
+        "rank": 48,
+        "code": "QA",
+        "value": "0 m (Persian Gulf)"
+      },
+      {
+        "rank": 49,
+        "code": "BH",
+        "value": "0 m (Persian Gulf)"
+      },
+      {
+        "rank": 50,
+        "code": "ZA",
+        "value": "0 m (Atlantic/Indian Ocean)"
       }
     ]
   },
@@ -96645,7 +98785,7 @@
     "title": "Most lakes",
     "prompt": "Name the countries with the most lakes larger than one square kilometre.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "HydroLAKES database (McGill University) / national hydrographic inventories",
       "url": "https://www.hydrosheds.org/products/hydrolakes",
@@ -96730,6 +98870,181 @@
         "rank": 15,
         "code": "CD",
         "value": "2,900 lakes"
+      },
+      {
+        "rank": 16,
+        "code": "MX",
+        "value": "2,700 lakes"
+      },
+      {
+        "rank": 17,
+        "code": "CL",
+        "value": "2,500 lakes"
+      },
+      {
+        "rank": 18,
+        "code": "IS",
+        "value": "2,300 lakes"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "2,100 lakes"
+      },
+      {
+        "rank": 20,
+        "code": "ET",
+        "value": "1,900 lakes"
+      },
+      {
+        "rank": 21,
+        "code": "GB",
+        "value": "1,800 lakes"
+      },
+      {
+        "rank": 22,
+        "code": "PL",
+        "value": "1,700 lakes"
+      },
+      {
+        "rank": 23,
+        "code": "UG",
+        "value": "1,600 lakes"
+      },
+      {
+        "rank": 24,
+        "code": "IR",
+        "value": "1,500 lakes"
+      },
+      {
+        "rank": 25,
+        "code": "TR",
+        "value": "1,450 lakes"
+      },
+      {
+        "rank": 26,
+        "code": "ZM",
+        "value": "1,400 lakes"
+      },
+      {
+        "rank": 27,
+        "code": "KE",
+        "value": "1,300 lakes"
+      },
+      {
+        "rank": 28,
+        "code": "AF",
+        "value": "1,250 lakes"
+      },
+      {
+        "rank": 29,
+        "code": "PE",
+        "value": "1,200 lakes"
+      },
+      {
+        "rank": 30,
+        "code": "MG",
+        "value": "1,150 lakes"
+      },
+      {
+        "rank": 31,
+        "code": "NZ",
+        "value": "1,100 lakes"
+      },
+      {
+        "rank": 32,
+        "code": "BO",
+        "value": "1,050 lakes"
+      },
+      {
+        "rank": 33,
+        "code": "AO",
+        "value": "1,000 lakes"
+      },
+      {
+        "rank": 34,
+        "code": "PK",
+        "value": "950 lakes"
+      },
+      {
+        "rank": 35,
+        "code": "TJ",
+        "value": "900 lakes"
+      },
+      {
+        "rank": 36,
+        "code": "BY",
+        "value": "870 lakes"
+      },
+      {
+        "rank": 37,
+        "code": "MZ",
+        "value": "850 lakes"
+      },
+      {
+        "rank": 38,
+        "code": "UA",
+        "value": "820 lakes"
+      },
+      {
+        "rank": 39,
+        "code": "KG",
+        "value": "800 lakes"
+      },
+      {
+        "rank": 40,
+        "code": "VE",
+        "value": "780 lakes"
+      },
+      {
+        "rank": 41,
+        "code": "CO",
+        "value": "760 lakes"
+      },
+      {
+        "rank": 42,
+        "code": "SD",
+        "value": "720 lakes"
+      },
+      {
+        "rank": 43,
+        "code": "TD",
+        "value": "700 lakes"
+      },
+      {
+        "rank": 44,
+        "code": "PY",
+        "value": "680 lakes"
+      },
+      {
+        "rank": 45,
+        "code": "ML",
+        "value": "650 lakes"
+      },
+      {
+        "rank": 46,
+        "code": "EE",
+        "value": "620 lakes"
+      },
+      {
+        "rank": 47,
+        "code": "LV",
+        "value": "600 lakes"
+      },
+      {
+        "rank": 48,
+        "code": "MM",
+        "value": "580 lakes"
+      },
+      {
+        "rank": 49,
+        "code": "DE",
+        "value": "560 lakes"
+      },
+      {
+        "rank": 50,
+        "code": "FR",
+        "value": "540 lakes"
       }
     ]
   },
@@ -96740,7 +99055,7 @@
     "title": "Largest glaciated area",
     "prompt": "Name the countries with the largest total area covered by glaciers and ice sheets.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 50,
     "source": {
       "name": "Randolph Glacier Inventory (RGI) v7.0 / GLIMS",
       "url": "https://www.glims.org/RGI/",
@@ -96825,6 +99140,181 @@
         "rank": 15,
         "code": "PE",
         "value": "~1,600 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "BO",
+        "value": "~600 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "AF",
+        "value": "~2,700 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "NZ",
+        "value": "~1,160 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "KZ",
+        "value": "~2,000 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "SE",
+        "value": "~264 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "CH",
+        "value": "~940 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "~370 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "AT",
+        "value": "~415 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "FR",
+        "value": "~275 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "EC",
+        "value": "~80 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "CO",
+        "value": "~45 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "VE",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "MX",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "UG",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "KE",
+        "value": "~0.5 km\u00b2"
+      },
+      {
+        "rank": 31,
+        "code": "TZ",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 32,
+        "code": "CD",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 33,
+        "code": "ID",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 34,
+        "code": "GE",
+        "value": "~500 km\u00b2"
+      },
+      {
+        "rank": 35,
+        "code": "TR",
+        "value": "~23 km\u00b2"
+      },
+      {
+        "rank": 36,
+        "code": "IR",
+        "value": "~30 km\u00b2"
+      },
+      {
+        "rank": 37,
+        "code": "BT",
+        "value": "~700 km\u00b2"
+      },
+      {
+        "rank": 38,
+        "code": "MN",
+        "value": "~500 km\u00b2"
+      },
+      {
+        "rank": 39,
+        "code": "ES",
+        "value": "~2 km\u00b2"
+      },
+      {
+        "rank": 40,
+        "code": "DE",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 41,
+        "code": "SI",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 42,
+        "code": "AL",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 43,
+        "code": "PL",
+        "value": "~1 km\u00b2"
+      },
+      {
+        "rank": 44,
+        "code": "SK",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 45,
+        "code": "GR",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 46,
+        "code": "BG",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 47,
+        "code": "RO",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 48,
+        "code": "AM",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 49,
+        "code": "AZ",
+        "value": "~0.1 km\u00b2"
+      },
+      {
+        "rank": 50,
+        "code": "MM",
+        "value": "~35 km\u00b2"
       }
     ]
   },
@@ -96835,7 +99325,7 @@
     "title": "Largest mangrove forests",
     "prompt": "Name the countries with the largest total area of mangrove forest.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Global Mangrove Watch / FAO Forest Resources Assessment",
       "url": "https://www.globalmangrovewatch.org/",
@@ -96920,6 +99410,81 @@
         "rank": 15,
         "code": "PA",
         "value": "1,700 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "VE",
+        "value": "1,600 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "PH",
+        "value": "1,500 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "GN",
+        "value": "1,400 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "TH",
+        "value": "1,300 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "GW",
+        "value": "1,200 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "US",
+        "value": "1,100 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "1,000 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "VN",
+        "value": "900 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "SN",
+        "value": "850 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "CM",
+        "value": "800 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "GA",
+        "value": "750 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "AO",
+        "value": "700 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "SL",
+        "value": "650 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "TZ",
+        "value": "600 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "DO",
+        "value": "550 km\u00b2"
       }
     ]
   },
@@ -97050,7 +99615,7 @@
     "title": "Most tsunami-exposed coastlines",
     "prompt": "Name the countries whose coastlines have historically been hit by the most destructive tsunamis (magnitude \u2265 2 on the Soloviev-Imamura intensity scale).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "NOAA / NCEI Global Historical Tsunami Database",
       "url": "https://www.ngdc.noaa.gov/hazard/tsu_db.shtml",
@@ -97135,6 +99700,81 @@
         "rank": 14,
         "code": "NZ",
         "value": "40 tsunamis (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "VU",
+        "value": "35 tsunamis"
+      },
+      {
+        "rank": 17,
+        "code": "FJ",
+        "value": "30 tsunamis"
+      },
+      {
+        "rank": 18,
+        "code": "TO",
+        "value": "28 tsunamis"
+      },
+      {
+        "rank": 19,
+        "code": "ES",
+        "value": "25 tsunamis"
+      },
+      {
+        "rank": 20,
+        "code": "PT",
+        "value": "22 tsunamis"
+      },
+      {
+        "rank": 21,
+        "code": "EC",
+        "value": "20 tsunamis"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "18 tsunamis"
+      },
+      {
+        "rank": 23,
+        "code": "NI",
+        "value": "16 tsunamis"
+      },
+      {
+        "rank": 24,
+        "code": "CR",
+        "value": "15 tsunamis"
+      },
+      {
+        "rank": 25,
+        "code": "SV",
+        "value": "14 tsunamis"
+      },
+      {
+        "rank": 26,
+        "code": "AU",
+        "value": "13 tsunamis"
+      },
+      {
+        "rank": 27,
+        "code": "CO",
+        "value": "12 tsunamis"
+      },
+      {
+        "rank": 28,
+        "code": "HR",
+        "value": "11 tsunamis"
+      },
+      {
+        "rank": 29,
+        "code": "IN",
+        "value": "10 tsunamis"
+      },
+      {
+        "rank": 30,
+        "code": "FR",
+        "value": "9 tsunamis"
       }
     ]
   },
@@ -97145,7 +99785,7 @@
     "title": "Countries most covered by desert",
     "prompt": "Name the countries with the highest share of their land area classified as hot or cold desert.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UN Environment Programme World Atlas of Desertification / FAO GAEZ aridity index",
       "url": "https://wad.jrc.ec.europa.eu/",
@@ -97230,6 +99870,81 @@
         "rank": 15,
         "code": "MN",
         "value": "~60% desert (Gobi)"
+      },
+      {
+        "rank": 16,
+        "code": "YE",
+        "value": "~55% desert"
+      },
+      {
+        "rank": 17,
+        "code": "BH",
+        "value": "~55% desert"
+      },
+      {
+        "rank": 18,
+        "code": "TD",
+        "value": "~50% desert"
+      },
+      {
+        "rank": 19,
+        "code": "SD",
+        "value": "~50% desert"
+      },
+      {
+        "rank": 20,
+        "code": "NE",
+        "value": "~50% desert"
+      },
+      {
+        "rank": 21,
+        "code": "UZ",
+        "value": "~45% desert"
+      },
+      {
+        "rank": 22,
+        "code": "BW",
+        "value": "~40% desert (Kalahari)"
+      },
+      {
+        "rank": 23,
+        "code": "IR",
+        "value": "~35% desert"
+      },
+      {
+        "rank": 24,
+        "code": "ML",
+        "value": "~35% desert"
+      },
+      {
+        "rank": 25,
+        "code": "SO",
+        "value": "~30% desert"
+      },
+      {
+        "rank": 26,
+        "code": "PK",
+        "value": "~30% desert"
+      },
+      {
+        "rank": 27,
+        "code": "KZ",
+        "value": "~25% desert"
+      },
+      {
+        "rank": 28,
+        "code": "SY",
+        "value": "~25% desert"
+      },
+      {
+        "rank": 29,
+        "code": "TN",
+        "value": "~25% desert"
+      },
+      {
+        "rank": 30,
+        "code": "MA",
+        "value": "~20% desert"
       }
     ]
   },
@@ -98550,7 +101265,7 @@
     "title": "Most Isle of Man TT wins (by rider nationality)",
     "prompt": "Name the countries whose riders have won the most solo races at the Isle of Man Tourist Trophy.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 24,
     "source": {
       "name": "Isle of Man TT \u2014 Official history & results",
       "url": "https://www.iomtt.com/tt-database.aspx",
@@ -98610,6 +101325,76 @@
         "rank": 10,
         "code": "JP",
         "value": "9 wins"
+      },
+      {
+        "rank": 12,
+        "code": "AT",
+        "value": "6 wins"
+      },
+      {
+        "rank": 13,
+        "code": "CH",
+        "value": "5 wins"
+      },
+      {
+        "rank": 14,
+        "code": "NL",
+        "value": "5 wins (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "FR",
+        "value": "4 wins"
+      },
+      {
+        "rank": 16,
+        "code": "BE",
+        "value": "4 wins (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "SE",
+        "value": "3 wins"
+      },
+      {
+        "rank": 18,
+        "code": "ES",
+        "value": "3 wins (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "FI",
+        "value": "2 wins"
+      },
+      {
+        "rank": 20,
+        "code": "NO",
+        "value": "2 wins (tied)"
+      },
+      {
+        "rank": 21,
+        "code": "CZ",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 23,
+        "code": "HU",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "PL",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "PT",
+        "value": "1 win (tied)"
       }
     ]
   },
@@ -98660,7 +101445,7 @@
     "title": "Most Winter X Games gold medals",
     "prompt": "Name the countries whose athletes have won the most Winter X Games gold medals in event history.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 15,
     "source": {
       "name": "X Games \u2014 Official medal archive (ESPN)",
       "url": "https://www.xgames.com/",
@@ -98720,6 +101505,31 @@
         "rank": 10,
         "code": "DE",
         "value": "5 golds"
+      },
+      {
+        "rank": 11,
+        "code": "GB",
+        "value": "3 golds"
+      },
+      {
+        "rank": 12,
+        "code": "AU",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "NZ",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "SI",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "IT",
+        "value": "1 gold (tied)"
       }
     ]
   },
@@ -108910,7 +111720,7 @@
     "title": "Most deaths from natural disasters (2000-2024)",
     "prompt": "Name the countries with the highest total deaths from natural disasters since 2000.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "EM-DAT \u2014 The International Disaster Database (CRED)",
       "url": "https://www.emdat.be/",
@@ -108995,6 +111805,81 @@
         "rank": 15,
         "code": "US",
         "value": "~6,500 deaths"
+      },
+      {
+        "rank": 16,
+        "code": "FR",
+        "value": "~19,500 deaths"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "~14,800 deaths"
+      },
+      {
+        "rank": 18,
+        "code": "SO",
+        "value": "~4,500 deaths"
+      },
+      {
+        "rank": 19,
+        "code": "AF",
+        "value": "~11,500 deaths"
+      },
+      {
+        "rank": 20,
+        "code": "TH",
+        "value": "~8,900 deaths"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "~15,200 deaths"
+      },
+      {
+        "rank": 22,
+        "code": "VE",
+        "value": "~30,500 deaths"
+      },
+      {
+        "rank": 23,
+        "code": "DE",
+        "value": "~9,600 deaths"
+      },
+      {
+        "rank": 24,
+        "code": "PT",
+        "value": "~2,700 deaths"
+      },
+      {
+        "rank": 25,
+        "code": "ET",
+        "value": "~2,400 deaths"
+      },
+      {
+        "rank": 26,
+        "code": "VN",
+        "value": "~4,300 deaths"
+      },
+      {
+        "rank": 27,
+        "code": "MX",
+        "value": "~3,800 deaths"
+      },
+      {
+        "rank": 28,
+        "code": "BR",
+        "value": "~3,400 deaths"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "~3,100 deaths"
+      },
+      {
+        "rank": 30,
+        "code": "KE",
+        "value": "~2,900 deaths"
       }
     ]
   },
@@ -109005,7 +111890,7 @@
     "title": "Highest World Risk Index",
     "prompt": "Name the countries with the highest disaster risk on the World Risk Index.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "World Risk Report \u2014 B\u00fcndnis Entwicklung Hilft / IFHV Ruhr-University Bochum",
       "url": "https://weltrisikobericht.de/",
@@ -109090,6 +111975,81 @@
         "rank": 15,
         "code": "TR",
         "value": "23.8 WRI score"
+      },
+      {
+        "rank": 16,
+        "code": "US",
+        "value": "23.5 WRI score"
+      },
+      {
+        "rank": 17,
+        "code": "VN",
+        "value": "23.1 WRI score"
+      },
+      {
+        "rank": 18,
+        "code": "GT",
+        "value": "22.4 WRI score"
+      },
+      {
+        "rank": 19,
+        "code": "NI",
+        "value": "21.9 WRI score"
+      },
+      {
+        "rank": 20,
+        "code": "HN",
+        "value": "21.5 WRI score"
+      },
+      {
+        "rank": 21,
+        "code": "MG",
+        "value": "21.0 WRI score"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "20.6 WRI score"
+      },
+      {
+        "rank": 23,
+        "code": "TH",
+        "value": "20.2 WRI score"
+      },
+      {
+        "rank": 24,
+        "code": "IR",
+        "value": "19.8 WRI score"
+      },
+      {
+        "rank": 25,
+        "code": "KH",
+        "value": "19.4 WRI score"
+      },
+      {
+        "rank": 26,
+        "code": "CL",
+        "value": "19.0 WRI score"
+      },
+      {
+        "rank": 27,
+        "code": "NP",
+        "value": "18.6 WRI score"
+      },
+      {
+        "rank": 28,
+        "code": "ZA",
+        "value": "18.2 WRI score"
+      },
+      {
+        "rank": 29,
+        "code": "AR",
+        "value": "17.8 WRI score"
+      },
+      {
+        "rank": 30,
+        "code": "AU",
+        "value": "17.4 WRI score"
       }
     ]
   },
@@ -109100,7 +112060,7 @@
     "title": "Most active volcanoes",
     "prompt": "Name the countries with the most Holocene active volcanoes.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Smithsonian Institution \u2014 Global Volcanism Program",
       "url": "https://volcano.si.edu/",
@@ -109185,6 +112145,81 @@
         "rank": 14,
         "code": "GT",
         "value": "~22 volcanoes (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BO",
+        "value": "~19 volcanoes"
+      },
+      {
+        "rank": 17,
+        "code": "NI",
+        "value": "~18 volcanoes"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "~17 volcanoes"
+      },
+      {
+        "rank": 19,
+        "code": "TZ",
+        "value": "~15 volcanoes"
+      },
+      {
+        "rank": 20,
+        "code": "CR",
+        "value": "~14 volcanoes"
+      },
+      {
+        "rank": 21,
+        "code": "IT",
+        "value": "~13 volcanoes"
+      },
+      {
+        "rank": 22,
+        "code": "SV",
+        "value": "~12 volcanoes"
+      },
+      {
+        "rank": 23,
+        "code": "CD",
+        "value": "~10 volcanoes"
+      },
+      {
+        "rank": 23,
+        "code": "TR",
+        "value": "~10 volcanoes (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "KE",
+        "value": "~9 volcanoes"
+      },
+      {
+        "rank": 25,
+        "code": "VU",
+        "value": "~9 volcanoes (tied)"
+      },
+      {
+        "rank": 27,
+        "code": "SB",
+        "value": "~8 volcanoes"
+      },
+      {
+        "rank": 27,
+        "code": "IR",
+        "value": "~8 volcanoes (tied)"
+      },
+      {
+        "rank": 29,
+        "code": "YE",
+        "value": "~7 volcanoes"
+      },
+      {
+        "rank": 30,
+        "code": "CN",
+        "value": "~6 volcanoes"
       }
     ]
   },
@@ -109195,7 +112230,7 @@
     "title": "Most affected by earthquakes (deaths since 1900)",
     "prompt": "Name the countries with the highest cumulative earthquake death tolls in the modern record.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "EM-DAT / USGS Significant Earthquake Database",
       "url": "https://earthquake.usgs.gov/earthquakes/browse/significant.php",
@@ -109280,6 +112315,81 @@
         "rank": 15,
         "code": "AF",
         "value": "~15,000 deaths"
+      },
+      {
+        "rank": 16,
+        "code": "SY",
+        "value": "~8,500 deaths"
+      },
+      {
+        "rank": 17,
+        "code": "TW",
+        "value": "~7,500 deaths"
+      },
+      {
+        "rank": 18,
+        "code": "MA",
+        "value": "~6,500 deaths"
+      },
+      {
+        "rank": 19,
+        "code": "CL",
+        "value": "~6,200 deaths"
+      },
+      {
+        "rank": 20,
+        "code": "PH",
+        "value": "~5,000 deaths"
+      },
+      {
+        "rank": 21,
+        "code": "MX",
+        "value": "~4,500 deaths"
+      },
+      {
+        "rank": 22,
+        "code": "EC",
+        "value": "~4,000 deaths"
+      },
+      {
+        "rank": 23,
+        "code": "TJ",
+        "value": "~3,500 deaths"
+      },
+      {
+        "rank": 24,
+        "code": "AL",
+        "value": "~3,000 deaths"
+      },
+      {
+        "rank": 25,
+        "code": "TM",
+        "value": "~2,500 deaths"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "~2,300 deaths"
+      },
+      {
+        "rank": 27,
+        "code": "NI",
+        "value": "~2,000 deaths"
+      },
+      {
+        "rank": 28,
+        "code": "RO",
+        "value": "~1,900 deaths"
+      },
+      {
+        "rank": 29,
+        "code": "CO",
+        "value": "~1,800 deaths"
+      },
+      {
+        "rank": 30,
+        "code": "GR",
+        "value": "~1,500 deaths"
       }
     ]
   },
@@ -109290,7 +112400,7 @@
     "title": "Most affected by tropical cyclones",
     "prompt": "Name the countries with the highest cumulative death tolls from tropical cyclones (hurricanes/typhoons).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "EM-DAT \u2014 Storms subgroup",
       "url": "https://www.emdat.be/",
@@ -109375,6 +112485,81 @@
         "rank": 15,
         "code": "DO",
         "value": "~1,800 deaths"
+      },
+      {
+        "rank": 16,
+        "code": "CU",
+        "value": "~1,500 deaths"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "~1,300 deaths"
+      },
+      {
+        "rank": 18,
+        "code": "TW",
+        "value": "~1,200 deaths"
+      },
+      {
+        "rank": 19,
+        "code": "KR",
+        "value": "~1,100 deaths"
+      },
+      {
+        "rank": 20,
+        "code": "SV",
+        "value": "~1,000 deaths"
+      },
+      {
+        "rank": 21,
+        "code": "TH",
+        "value": "~900 deaths"
+      },
+      {
+        "rank": 22,
+        "code": "OM",
+        "value": "~800 deaths"
+      },
+      {
+        "rank": 23,
+        "code": "AU",
+        "value": "~700 deaths"
+      },
+      {
+        "rank": 24,
+        "code": "LK",
+        "value": "~650 deaths"
+      },
+      {
+        "rank": 25,
+        "code": "FJ",
+        "value": "~500 deaths"
+      },
+      {
+        "rank": 26,
+        "code": "MW",
+        "value": "~450 deaths"
+      },
+      {
+        "rank": 27,
+        "code": "PK",
+        "value": "~400 deaths"
+      },
+      {
+        "rank": 28,
+        "code": "ZW",
+        "value": "~350 deaths"
+      },
+      {
+        "rank": 29,
+        "code": "VU",
+        "value": "~300 deaths"
+      },
+      {
+        "rank": 30,
+        "code": "JM",
+        "value": "~250 deaths"
       }
     ]
   },
@@ -109385,7 +112570,7 @@
     "title": "Most affected by floods (deaths since 1900)",
     "prompt": "Name the countries with the highest cumulative death tolls from floods.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "EM-DAT \u2014 Floods subgroup",
       "url": "https://www.emdat.be/",
@@ -109470,6 +112655,81 @@
         "rank": 15,
         "code": "KP",
         "value": "~5,000 deaths"
+      },
+      {
+        "rank": 16,
+        "code": "ET",
+        "value": "~3,500 deaths"
+      },
+      {
+        "rank": 17,
+        "code": "SO",
+        "value": "~3,000 deaths"
+      },
+      {
+        "rank": 18,
+        "code": "MZ",
+        "value": "~2,800 deaths"
+      },
+      {
+        "rank": 19,
+        "code": "TH",
+        "value": "~2,500 deaths"
+      },
+      {
+        "rank": 20,
+        "code": "TZ",
+        "value": "~2,200 deaths"
+      },
+      {
+        "rank": 21,
+        "code": "SD",
+        "value": "~2,000 deaths"
+      },
+      {
+        "rank": 22,
+        "code": "MX",
+        "value": "~1,800 deaths"
+      },
+      {
+        "rank": 23,
+        "code": "CO",
+        "value": "~1,700 deaths"
+      },
+      {
+        "rank": 24,
+        "code": "KE",
+        "value": "~1,500 deaths"
+      },
+      {
+        "rank": 25,
+        "code": "MM",
+        "value": "~1,400 deaths"
+      },
+      {
+        "rank": 26,
+        "code": "JP",
+        "value": "~1,300 deaths"
+      },
+      {
+        "rank": 27,
+        "code": "HT",
+        "value": "~1,200 deaths"
+      },
+      {
+        "rank": 28,
+        "code": "DE",
+        "value": "~1,100 deaths"
+      },
+      {
+        "rank": 29,
+        "code": "IT",
+        "value": "~1,000 deaths"
+      },
+      {
+        "rank": 30,
+        "code": "RU",
+        "value": "~950 deaths"
       }
     ]
   },
@@ -109480,7 +112740,7 @@
     "title": "Highest financial cost of natural disasters",
     "prompt": "Name the countries with the largest cumulative economic damages from natural disasters.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 29,
     "source": {
       "name": "EM-DAT \u2014 Total damages (US$)",
       "url": "https://www.emdat.be/",
@@ -109565,6 +112825,76 @@
         "rank": 15,
         "code": "PH",
         "value": "~$38 billion"
+      },
+      {
+        "rank": 16,
+        "code": "ES",
+        "value": "~$32 billion"
+      },
+      {
+        "rank": 17,
+        "code": "GB",
+        "value": "~$30 billion"
+      },
+      {
+        "rank": 18,
+        "code": "CL",
+        "value": "~$28 billion"
+      },
+      {
+        "rank": 20,
+        "code": "PK",
+        "value": "~$25 billion"
+      },
+      {
+        "rank": 21,
+        "code": "BR",
+        "value": "~$22 billion"
+      },
+      {
+        "rank": 22,
+        "code": "ID",
+        "value": "~$20 billion"
+      },
+      {
+        "rank": 23,
+        "code": "RU",
+        "value": "~$18 billion"
+      },
+      {
+        "rank": 24,
+        "code": "CZ",
+        "value": "~$15 billion"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "~$14 billion"
+      },
+      {
+        "rank": 26,
+        "code": "AR",
+        "value": "~$13 billion"
+      },
+      {
+        "rank": 27,
+        "code": "AT",
+        "value": "~$12 billion"
+      },
+      {
+        "rank": 28,
+        "code": "GR",
+        "value": "~$11 billion"
+      },
+      {
+        "rank": 29,
+        "code": "VN",
+        "value": "~$10 billion"
+      },
+      {
+        "rank": 30,
+        "code": "BE",
+        "value": "~$9 billion"
       }
     ]
   },
@@ -109575,7 +112905,7 @@
     "title": "Highest famine / acute food insecurity risk",
     "prompt": "Name the countries with the largest populations in IPC Phase 3+ (Crisis or worse) acute food insecurity.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "IPC \u2014 Integrated Food Security Phase Classification",
       "url": "https://www.ipcinfo.org/",
@@ -109660,6 +112990,81 @@
         "rank": 15,
         "code": "ML",
         "value": "~2.6 million in IPC 3+"
+      },
+      {
+        "rank": 16,
+        "code": "NE",
+        "value": "~2.4 million in IPC 3+"
+      },
+      {
+        "rank": 17,
+        "code": "TD",
+        "value": "~2.2 million in IPC 3+"
+      },
+      {
+        "rank": 18,
+        "code": "MZ",
+        "value": "~2.0 million in IPC 3+"
+      },
+      {
+        "rank": 19,
+        "code": "MW",
+        "value": "~1.8 million in IPC 3+"
+      },
+      {
+        "rank": 20,
+        "code": "ZW",
+        "value": "~1.7 million in IPC 3+"
+      },
+      {
+        "rank": 21,
+        "code": "MG",
+        "value": "~1.6 million in IPC 3+"
+      },
+      {
+        "rank": 22,
+        "code": "UG",
+        "value": "~1.5 million in IPC 3+"
+      },
+      {
+        "rank": 23,
+        "code": "CM",
+        "value": "~1.4 million in IPC 3+"
+      },
+      {
+        "rank": 24,
+        "code": "CF",
+        "value": "~1.3 million in IPC 3+"
+      },
+      {
+        "rank": 25,
+        "code": "LB",
+        "value": "~1.2 million in IPC 3+"
+      },
+      {
+        "rank": 26,
+        "code": "AO",
+        "value": "~1.1 million in IPC 3+"
+      },
+      {
+        "rank": 27,
+        "code": "GT",
+        "value": "~1.0 million in IPC 3+"
+      },
+      {
+        "rank": 28,
+        "code": "HN",
+        "value": "~900,000 in IPC 3+"
+      },
+      {
+        "rank": 29,
+        "code": "BI",
+        "value": "~800,000 in IPC 3+"
+      },
+      {
+        "rank": 30,
+        "code": "SL",
+        "value": "~700,000 in IPC 3+"
       }
     ]
   },
@@ -109670,7 +113075,7 @@
     "title": "Most refugees produced (source countries)",
     "prompt": "Name the countries producing the largest refugee populations displaced abroad.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "UNHCR \u2014 Refugee Data Finder",
       "url": "https://www.unhcr.org/refugee-statistics/",
@@ -109755,6 +113160,81 @@
         "rank": 15,
         "code": "ML",
         "value": "~230,000 refugees abroad"
+      },
+      {
+        "rank": 16,
+        "code": "CM",
+        "value": "~210,000 refugees abroad"
+      },
+      {
+        "rank": 17,
+        "code": "CN",
+        "value": "~190,000 refugees abroad"
+      },
+      {
+        "rank": 18,
+        "code": "RW",
+        "value": "~170,000 refugees abroad"
+      },
+      {
+        "rank": 19,
+        "code": "ET",
+        "value": "~150,000 refugees abroad"
+      },
+      {
+        "rank": 20,
+        "code": "CO",
+        "value": "~140,000 refugees abroad"
+      },
+      {
+        "rank": 21,
+        "code": "HN",
+        "value": "~130,000 refugees abroad"
+      },
+      {
+        "rank": 22,
+        "code": "NI",
+        "value": "~120,000 refugees abroad"
+      },
+      {
+        "rank": 23,
+        "code": "SV",
+        "value": "~115,000 refugees abroad"
+      },
+      {
+        "rank": 24,
+        "code": "PK",
+        "value": "~110,000 refugees abroad"
+      },
+      {
+        "rank": 25,
+        "code": "IR",
+        "value": "~100,000 refugees abroad"
+      },
+      {
+        "rank": 26,
+        "code": "RU",
+        "value": "~95,000 refugees abroad"
+      },
+      {
+        "rank": 27,
+        "code": "LK",
+        "value": "~90,000 refugees abroad"
+      },
+      {
+        "rank": 28,
+        "code": "TR",
+        "value": "~85,000 refugees abroad"
+      },
+      {
+        "rank": 29,
+        "code": "PS",
+        "value": "~80,000 refugees abroad"
+      },
+      {
+        "rank": 30,
+        "code": "GT",
+        "value": "~75,000 refugees abroad"
       }
     ]
   },
@@ -109765,7 +113245,7 @@
     "title": "Most Ebola cases historically",
     "prompt": "Name the countries with the most cumulative recorded Ebola virus disease cases.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 25,
     "source": {
       "name": "WHO \u2014 Ebola outbreak situation reports",
       "url": "https://www.who.int/health-topics/ebola/",
@@ -109849,6 +113329,56 @@
       {
         "rank": 13,
         "code": "GB",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "IT",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "SN",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "PH",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "RU",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "DE",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "GH",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "TZ",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "KE",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "ET",
+        "value": "~1 case"
+      },
+      {
+        "rank": 13,
+        "code": "TD",
         "value": "~1 case"
       }
     ]
@@ -114905,7 +118435,7 @@
     "title": "Largest single-neighbour border length",
     "prompt": "Name the countries with the world's longest continuous land border between two nations (single-pair borders).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "CIA World Factbook \u2014 Land boundaries / country comparisons",
       "url": "https://www.cia.gov/the-world-factbook/field/land-boundaries/",
@@ -114990,6 +118520,81 @@
         "rank": 15,
         "code": "TR",
         "value": "911 km with Syria"
+      },
+      {
+        "rank": 16,
+        "code": "US",
+        "value": "3,155 km with Mexico"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "3,155 km with United States"
+      },
+      {
+        "rank": 18,
+        "code": "CL",
+        "value": "5,308 km with Argentina"
+      },
+      {
+        "rank": 19,
+        "code": "RU",
+        "value": "7,644 km with Kazakhstan"
+      },
+      {
+        "rank": 20,
+        "code": "VE",
+        "value": "2,341 km with Colombia"
+      },
+      {
+        "rank": 21,
+        "code": "IR",
+        "value": "1,458 km with Iraq"
+      },
+      {
+        "rank": 22,
+        "code": "IQ",
+        "value": "1,599 km with Iran"
+      },
+      {
+        "rank": 23,
+        "code": "SY",
+        "value": "911 km with Turkey"
+      },
+      {
+        "rank": 24,
+        "code": "MZ",
+        "value": "1,571 km with Tanzania"
+      },
+      {
+        "rank": 25,
+        "code": "TZ",
+        "value": "1,571 km with Mozambique"
+      },
+      {
+        "rank": 26,
+        "code": "MM",
+        "value": "2,129 km with China"
+      },
+      {
+        "rank": 27,
+        "code": "LA",
+        "value": "2,161 km with Vietnam"
+      },
+      {
+        "rank": 28,
+        "code": "VN",
+        "value": "2,161 km with Laos"
+      },
+      {
+        "rank": 29,
+        "code": "TH",
+        "value": "2,416 km with Myanmar"
+      },
+      {
+        "rank": 30,
+        "code": "KH",
+        "value": "1,158 km with Thailand"
       }
     ]
   },
@@ -115000,7 +118605,7 @@
     "title": "Most glacier-covered countries",
     "prompt": "Name the countries with the largest total area of glaciers (outside of Antarctica).",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Randolph Glacier Inventory (RGI) v7 / GLIMS",
       "url": "https://www.glims.org/RGI/",
@@ -115085,6 +118690,81 @@
         "rank": 15,
         "code": "PE",
         "value": "1,300 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "AF",
+        "value": "2,700 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "CH",
+        "value": "944 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "BO",
+        "value": "600 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "IT",
+        "value": "370 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "415 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "NZ",
+        "value": "1,160 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "SE",
+        "value": "260 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "FR",
+        "value": "275 km\u00b2"
+      },
+      {
+        "rank": 24,
+        "code": "EC",
+        "value": "78 km\u00b2"
+      },
+      {
+        "rank": 25,
+        "code": "CO",
+        "value": "45 km\u00b2"
+      },
+      {
+        "rank": 26,
+        "code": "KZ",
+        "value": "2,100 km\u00b2"
+      },
+      {
+        "rank": 27,
+        "code": "BT",
+        "value": "1,300 km\u00b2"
+      },
+      {
+        "rank": 28,
+        "code": "MN",
+        "value": "540 km\u00b2"
+      },
+      {
+        "rank": 29,
+        "code": "GE",
+        "value": "300 km\u00b2"
+      },
+      {
+        "rank": 30,
+        "code": "ES",
+        "value": "1 km\u00b2"
       }
     ]
   },
@@ -115500,7 +119180,7 @@
     "title": "Longest land border",
     "prompt": "Name the countries with the longest single international land border with a neighbouring country.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "CIA World Factbook / Wikipedia",
       "url": "https://en.wikipedia.org/wiki/List_of_countries_and_territories_by_land_borders",
@@ -115585,6 +119265,81 @@
         "rank": 15,
         "code": "BR",
         "value": "2,199 km (with BO)"
+      },
+      {
+        "rank": 16,
+        "code": "TH",
+        "value": "2,416 km (with MM)"
+      },
+      {
+        "rank": 16,
+        "code": "MM",
+        "value": "2,416 km (with TH)"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "2,341 km (with VE)"
+      },
+      {
+        "rank": 18,
+        "code": "VE",
+        "value": "2,341 km (with CO)"
+      },
+      {
+        "rank": 20,
+        "code": "LA",
+        "value": "2,161 km (with VN)"
+      },
+      {
+        "rank": 20,
+        "code": "VN",
+        "value": "2,161 km (with LA)"
+      },
+      {
+        "rank": 22,
+        "code": "PE",
+        "value": "2,704 km (with BR)"
+      },
+      {
+        "rank": 23,
+        "code": "MZ",
+        "value": "1,571 km (with TZ)"
+      },
+      {
+        "rank": 23,
+        "code": "TZ",
+        "value": "1,571 km (with MZ)"
+      },
+      {
+        "rank": 25,
+        "code": "IR",
+        "value": "1,599 km (with IQ)"
+      },
+      {
+        "rank": 25,
+        "code": "IQ",
+        "value": "1,599 km (with IR)"
+      },
+      {
+        "rank": 27,
+        "code": "SA",
+        "value": "1,458 km (with YE)"
+      },
+      {
+        "rank": 27,
+        "code": "YE",
+        "value": "1,458 km (with SA)"
+      },
+      {
+        "rank": 29,
+        "code": "KH",
+        "value": "1,158 km (with TH)"
+      },
+      {
+        "rank": 30,
+        "code": "SY",
+        "value": "911 km (with TR)"
       }
     ]
   },
@@ -115595,7 +119350,7 @@
     "title": "Largest single island within country",
     "prompt": "Name the countries containing the largest single island (by area) within their territory.",
     "answerType": "Countries",
-    "seededDepth": 15,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 List of islands by area",
       "url": "https://en.wikipedia.org/wiki/List_of_islands_by_area",
@@ -115680,6 +119435,81 @@
         "rank": 15,
         "code": "LK",
         "value": "65,268 km\u00b2 (Sri Lanka)"
+      },
+      {
+        "rank": 16,
+        "code": "RU",
+        "value": "38,395 km\u00b2 (Sakhalin)"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "25,711 km\u00b2 (Sicily)"
+      },
+      {
+        "rank": 18,
+        "code": "DO",
+        "value": "76,192 km\u00b2 (Hispaniola, shared)"
+      },
+      {
+        "rank": 18,
+        "code": "HT",
+        "value": "76,192 km\u00b2 (Hispaniola, shared)"
+      },
+      {
+        "rank": 20,
+        "code": "TW",
+        "value": "35,808 km\u00b2 (Taiwan)"
+      },
+      {
+        "rank": 21,
+        "code": "ES",
+        "value": "8,631 km\u00b2 (Mallorca/Tenerife)"
+      },
+      {
+        "rank": 22,
+        "code": "GR",
+        "value": "8,336 km\u00b2 (Crete)"
+      },
+      {
+        "rank": 23,
+        "code": "TL",
+        "value": "14,874 km\u00b2 (Timor, shared)"
+      },
+      {
+        "rank": 24,
+        "code": "US",
+        "value": "10,434 km\u00b2 (Hawaii Island)"
+      },
+      {
+        "rank": 25,
+        "code": "PA",
+        "value": "16,458 km\u00b2 (excludes\u2014smaller)"
+      },
+      {
+        "rank": 26,
+        "code": "NO",
+        "value": "37,673 km\u00b2 (Spitsbergen)"
+      },
+      {
+        "rank": 27,
+        "code": "BN",
+        "value": "5,765 km\u00b2 (Borneo portion)"
+      },
+      {
+        "rank": 28,
+        "code": "FR",
+        "value": "8,680 km\u00b2 (Corsica)"
+      },
+      {
+        "rank": 29,
+        "code": "SB",
+        "value": "5,353 km\u00b2 (Guadalcanal)"
+      },
+      {
+        "rank": 30,
+        "code": "FJ",
+        "value": "10,388 km\u00b2 (Viti Levu)"
       }
     ]
   },
@@ -130415,7 +134245,7 @@
     "title": "Most Bobsled World Championship gold",
     "prompt": "Name the countries with the most gold medals in the history of the IBSF Bobsled World Championships (since 1930).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 12,
     "source": {
       "name": "Wikipedia \u2014 IBSF World Championships",
       "url": "https://en.wikipedia.org/wiki/IBSF_World_Championships",
@@ -130475,6 +134305,16 @@
         "rank": 10,
         "code": "RU",
         "value": "~1 gold"
+      },
+      {
+        "rank": 11,
+        "code": "RO",
+        "value": "~1 gold (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "MC",
+        "value": "~1 gold (tied)"
       }
     ]
   },
@@ -166935,7 +170775,7 @@
     "title": "Largest countries in North America by area",
     "prompt": "Name the largest countries in North America ranked by total area (land plus inland water), in square kilometres.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 23,
     "source": {
       "name": "UN Statistics Division \u2014 Demographic Yearbook / CIA World Factbook",
       "url": "https://www.cia.gov/the-world-factbook/field/area/",
@@ -166995,6 +170835,71 @@
         "rank": 10,
         "code": "DO",
         "value": "48,670 km\u00b2"
+      },
+      {
+        "rank": 11,
+        "code": "HT",
+        "value": "27,750 km\u00b2"
+      },
+      {
+        "rank": 12,
+        "code": "BZ",
+        "value": "22,966 km\u00b2"
+      },
+      {
+        "rank": 13,
+        "code": "SV",
+        "value": "21,041 km\u00b2"
+      },
+      {
+        "rank": 14,
+        "code": "BS",
+        "value": "13,880 km\u00b2"
+      },
+      {
+        "rank": 15,
+        "code": "JM",
+        "value": "10,991 km\u00b2"
+      },
+      {
+        "rank": 16,
+        "code": "TT",
+        "value": "5,130 km\u00b2"
+      },
+      {
+        "rank": 17,
+        "code": "DM",
+        "value": "751 km\u00b2"
+      },
+      {
+        "rank": 18,
+        "code": "LC",
+        "value": "616 km\u00b2"
+      },
+      {
+        "rank": 19,
+        "code": "AG",
+        "value": "442 km\u00b2"
+      },
+      {
+        "rank": 20,
+        "code": "BB",
+        "value": "430 km\u00b2"
+      },
+      {
+        "rank": 21,
+        "code": "VC",
+        "value": "389 km\u00b2"
+      },
+      {
+        "rank": 22,
+        "code": "GD",
+        "value": "344 km\u00b2"
+      },
+      {
+        "rank": 23,
+        "code": "KN",
+        "value": "261 km\u00b2"
       }
     ]
   },
@@ -198045,7 +201950,7 @@
     "title": "Most Men's Elite Road Race UCI World titles",
     "prompt": "Name the countries whose riders have won the most UCI Road World Championships elite men's road race titles.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 18,
     "source": {
       "name": "UCI \u2014 Road World Championships",
       "url": "https://en.wikipedia.org/wiki/UCI_Road_World_Championships_%E2%80%93_Men%27s_road_race",
@@ -198105,6 +202010,46 @@
         "rank": 10,
         "code": "IE",
         "value": "2 titles"
+      },
+      {
+        "rank": 11,
+        "code": "DK",
+        "value": "1 title"
+      },
+      {
+        "rank": 11,
+        "code": "LU",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PT",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "NO",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "SK",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PL",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "EE",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "SI",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -198265,7 +202210,7 @@
     "title": "Most Taekwondo World Championship gold medals",
     "prompt": "Name the countries with the most gold medals at the World Taekwondo Championships (senior, all weight categories).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 32,
     "source": {
       "name": "World Taekwondo \u2014 World Championships medal table",
       "url": "https://en.wikipedia.org/wiki/World_Taekwondo_Championships",
@@ -198325,6 +202270,116 @@
         "rank": 10,
         "code": "FR",
         "value": "6 golds"
+      },
+      {
+        "rank": 11,
+        "code": "TH",
+        "value": "5 golds"
+      },
+      {
+        "rank": 11,
+        "code": "DE",
+        "value": "5 golds (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "RU",
+        "value": "4 golds"
+      },
+      {
+        "rank": 13,
+        "code": "AZ",
+        "value": "4 golds (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "CA",
+        "value": "4 golds (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "AU",
+        "value": "3 golds"
+      },
+      {
+        "rank": 16,
+        "code": "CI",
+        "value": "3 golds (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "GR",
+        "value": "3 golds (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "UZ",
+        "value": "3 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CU",
+        "value": "2 golds"
+      },
+      {
+        "rank": 20,
+        "code": "DK",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "NL",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "BR",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "CR",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "IT",
+        "value": "1 gold"
+      },
+      {
+        "rank": 25,
+        "code": "AR",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "EG",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "JO",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "PH",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "VN",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "SE",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "NG",
+        "value": "1 gold (tied)"
       }
     ]
   },
@@ -198335,7 +202390,7 @@
     "title": "Most FIE Fencing World Championship gold medals",
     "prompt": "Name the countries with the most gold medals at the FIE Fencing World Championships (individual and team, all weapons combined).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 26,
     "source": {
       "name": "FIE \u2014 World Fencing Championships medal table",
       "url": "https://en.wikipedia.org/wiki/World_Fencing_Championships",
@@ -198395,6 +202450,86 @@
         "rank": 9,
         "code": "RO",
         "value": "12 golds (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "CU",
+        "value": "9 golds"
+      },
+      {
+        "rank": 12,
+        "code": "UA",
+        "value": "6 golds"
+      },
+      {
+        "rank": 13,
+        "code": "BE",
+        "value": "5 golds"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "4 golds"
+      },
+      {
+        "rank": 14,
+        "code": "RS",
+        "value": "4 golds (Yugoslavia era)"
+      },
+      {
+        "rank": 16,
+        "code": "CZ",
+        "value": "3 golds"
+      },
+      {
+        "rank": 16,
+        "code": "GB",
+        "value": "3 golds"
+      },
+      {
+        "rank": 16,
+        "code": "SE",
+        "value": "3 golds (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "BG",
+        "value": "2 golds"
+      },
+      {
+        "rank": 19,
+        "code": "EE",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "JP",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CH",
+        "value": "1 gold"
+      },
+      {
+        "rank": 22,
+        "code": "DK",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "EG",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "HK",
+        "value": "1 gold (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "CA",
+        "value": "1 gold (tied)"
       }
     ]
   },
@@ -198405,7 +202540,7 @@
     "title": "Most Men's Water Polo World Championship titles",
     "prompt": "Name the countries with the most gold medals at the FINA/World Aquatics Men's Water Polo World Championship.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "World Aquatics \u2014 Men's Water Polo World Championship history",
       "url": "https://en.wikipedia.org/wiki/Men%27s_water_polo_at_the_World_Aquatics_Championships",
@@ -198465,6 +202600,81 @@
         "rank": 8,
         "code": "AU",
         "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "ME",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NL",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "FR",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "RO",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "BR",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CU",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CA",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "JP",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "GE",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CN",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "KZ",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "SK",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CZ",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "BG",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "MX",
+        "value": "0 titles (tied)"
       }
     ]
   },
@@ -198475,7 +202685,7 @@
     "title": "Most IIHF Ice Hockey World Championship gold medals",
     "prompt": "Name the countries with the most gold medals at the IIHF Men's Ice Hockey World Championship.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "IIHF \u2014 Men's Ice Hockey World Championship history",
       "url": "https://en.wikipedia.org/wiki/IIHF_World_Championship",
@@ -198535,6 +202745,81 @@
         "rank": 9,
         "code": "DE",
         "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "LV",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "AT",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "NO",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "DK",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "FR",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "IT",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "BY",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "KZ",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "SI",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "HU",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "PL",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "JP",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "UA",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "RO",
+        "value": "0 golds (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "NL",
+        "value": "0 golds (tied)"
       }
     ]
   },
@@ -198545,7 +202830,7 @@
     "title": "Most Men's Curling World Championship titles",
     "prompt": "Name the countries with the most gold medals at the World Men's Curling Championship.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "World Curling Federation \u2014 Men's World Championship history",
       "url": "https://en.wikipedia.org/wiki/World_Men%27s_Curling_Championship",
@@ -198604,6 +202889,81 @@
       {
         "rank": 8,
         "code": "IT",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "FR",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NL",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "JP",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CZ",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "AU",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "NZ",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "KR",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "RU",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "CN",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "AT",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "PL",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "HU",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "LV",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "EE",
+        "value": "0 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "TR",
         "value": "0 titles (tied)"
       }
     ]
@@ -198695,7 +203055,7 @@
     "title": "Most FIBA Women's Basketball World Cup medals",
     "prompt": "Name the countries with the most all-time medals at the FIBA Women's Basketball World Cup.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "FIBA \u2014 Women's Basketball World Cup medal table",
       "url": "https://en.wikipedia.org/wiki/FIBA_Women%27s_Basketball_World_Cup",
@@ -198755,6 +203115,81 @@
         "rank": 9,
         "code": "ES",
         "value": "2 medals (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "RS",
+        "value": "2 medals (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "BG",
+        "value": "1 medal"
+      },
+      {
+        "rank": 12,
+        "code": "CL",
+        "value": "1 medal (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "KP",
+        "value": "1 medal (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "CA",
+        "value": "1 medal (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "JP",
+        "value": "1 medal (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "MX",
+        "value": "0 medals"
+      },
+      {
+        "rank": 17,
+        "code": "IT",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "PL",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "HU",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "AR",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "PE",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "DE",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "LT",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "BE",
+        "value": "0 medals (tied)"
       }
     ]
   },
@@ -198765,7 +203200,7 @@
     "title": "Most FIFA Beach Soccer World Cup medals",
     "prompt": "Name the countries with the most all-time medals (gold, silver, bronze) at the FIFA Beach Soccer World Cup.",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 23,
     "source": {
       "name": "FIFA \u2014 Beach Soccer World Cup history",
       "url": "https://en.wikipedia.org/wiki/FIFA_Beach_Soccer_World_Cup",
@@ -198825,6 +203260,71 @@
         "rank": 6,
         "code": "UY",
         "value": "1 medal (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "BY",
+        "value": "0 medals"
+      },
+      {
+        "rank": 11,
+        "code": "SV",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "CH",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "AR",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "MX",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "US",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "AE",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "SN",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "NG",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PY",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "OM",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "PL",
+        "value": "0 medals (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "CA",
+        "value": "0 medals (tied)"
       }
     ]
   },
@@ -198835,7 +203335,7 @@
     "title": "Most IWF Weightlifting World Championship golds",
     "prompt": "Name the countries with the most all-time gold medals at the IWF World Weightlifting Championships (men and women, total classification).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "IWF \u2014 World Weightlifting Championships medal table",
       "url": "https://en.wikipedia.org/wiki/World_Weightlifting_Championships",
@@ -198895,6 +203395,81 @@
         "rank": 10,
         "code": "EG",
         "value": "17 golds"
+      },
+      {
+        "rank": 11,
+        "code": "DE",
+        "value": "16 golds"
+      },
+      {
+        "rank": 12,
+        "code": "GR",
+        "value": "14 golds"
+      },
+      {
+        "rank": 13,
+        "code": "HU",
+        "value": "13 golds"
+      },
+      {
+        "rank": 14,
+        "code": "AT",
+        "value": "11 golds"
+      },
+      {
+        "rank": 15,
+        "code": "KR",
+        "value": "9 golds"
+      },
+      {
+        "rank": 16,
+        "code": "AM",
+        "value": "8 golds"
+      },
+      {
+        "rank": 16,
+        "code": "CZ",
+        "value": "8 golds (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "TH",
+        "value": "7 golds"
+      },
+      {
+        "rank": 18,
+        "code": "CO",
+        "value": "7 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "GE",
+        "value": "6 golds"
+      },
+      {
+        "rank": 20,
+        "code": "UA",
+        "value": "6 golds (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "IT",
+        "value": "5 golds"
+      },
+      {
+        "rank": 22,
+        "code": "CU",
+        "value": "5 golds (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "BY",
+        "value": "5 golds (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "JP",
+        "value": "4 golds"
       }
     ]
   },
@@ -198905,7 +203480,7 @@
     "title": "Most WKF Karate World Championship golds",
     "prompt": "Name the countries with the most all-time gold medals at the WKF Karate World Championships (senior, all events).",
     "answerType": "Countries",
-    "seededDepth": 10,
+    "seededDepth": 25,
     "source": {
       "name": "WKF \u2014 Karate World Championships medal table",
       "url": "https://en.wikipedia.org/wiki/Karate_World_Championships",
@@ -198965,6 +203540,81 @@
         "rank": 10,
         "code": "AZ",
         "value": "8 golds"
+      },
+      {
+        "rank": 11,
+        "code": "NL",
+        "value": "7 golds"
+      },
+      {
+        "rank": 12,
+        "code": "US",
+        "value": "6 golds"
+      },
+      {
+        "rank": 12,
+        "code": "VE",
+        "value": "6 golds (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "HR",
+        "value": "5 golds"
+      },
+      {
+        "rank": 14,
+        "code": "UA",
+        "value": "5 golds (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "BR",
+        "value": "4 golds"
+      },
+      {
+        "rank": 16,
+        "code": "CA",
+        "value": "4 golds (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "HU",
+        "value": "3 golds"
+      },
+      {
+        "rank": 18,
+        "code": "SK",
+        "value": "3 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "AT",
+        "value": "2 golds"
+      },
+      {
+        "rank": 20,
+        "code": "BE",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "GR",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "KZ",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "MA",
+        "value": "2 golds (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "PL",
+        "value": "1 gold"
       }
     ]
   },
