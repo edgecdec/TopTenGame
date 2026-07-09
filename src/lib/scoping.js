@@ -1,27 +1,29 @@
-// Answer-pool scoping. Given a question's subtheme, returns either a code
-// prefix (cheap client-side filter) or an explicit allowed-code list. Shared
-// between server.js (multiplayer) and solo.ts (single-player) so both modes
-// scope the Autocomplete dropdown to just the relevant sub-set.
+// Answer-pool scoping. Given a question's subtheme, returns the code prefix
+// (or allowed-code list) the client should filter the Autocomplete dropdown by.
+// Shared between server.js (multiplayer) and solo.ts (single-player).
 //
-// Cross-league / cross-country subthemes ("Pro Sports - Cross League",
-// "European Soccer - European") stay unfiltered so all options remain visible.
+// Subthemes not listed here stay unfiltered — including intentionally mixed
+// pools like "Pro Sports - Cross League" and "European Soccer - European".
+//
+// When the map grows past ~15 entries or a second scoping attribute (per-sub
+// beta flag, description, sort order) is needed, move this to a JSON config
+// under data/ and read it in from seed. Not before — the map is small and
+// still fits comfortably on one screen.
 
-function scopingForSubtheme(theme, subtheme) {
-  const st = subtheme || "";
-  if (theme === "US Big 4 Sports" || theme === "Pro Sports Teams") {
-    if (st === "Pro Sports - NBA") return { codeFilter: "NBA-", allowedCodes: null };
-    if (st === "Pro Sports - NFL") return { codeFilter: "NFL-", allowedCodes: null };
-    if (st === "Pro Sports - MLB") return { codeFilter: "MLB-", allowedCodes: null };
-    if (st === "Pro Sports - NHL") return { codeFilter: "NHL-", allowedCodes: null };
-  }
-  if (theme === "European Soccer Clubs") {
-    if (st === "European Soccer - Premier League") return { codeFilter: "EPL-", allowedCodes: null };
-    if (st === "European Soccer - La Liga") return { codeFilter: "LAL-", allowedCodes: null };
-    if (st === "European Soccer - Bundesliga") return { codeFilter: "BUN-", allowedCodes: null };
-    if (st === "European Soccer - Serie A") return { codeFilter: "SEA-", allowedCodes: null };
-    if (st === "European Soccer - Ligue 1") return { codeFilter: "L1-", allowedCodes: null };
-  }
-  return { codeFilter: null, allowedCodes: null };
+const SUBTHEME_PREFIX = {
+  "Pro Sports - NBA": "NBA-",
+  "Pro Sports - NFL": "NFL-",
+  "Pro Sports - MLB": "MLB-",
+  "Pro Sports - NHL": "NHL-",
+  "European Soccer - Premier League": "EPL-",
+  "European Soccer - La Liga": "LAL-",
+  "European Soccer - Bundesliga": "BUN-",
+  "European Soccer - Serie A": "SEA-",
+  "European Soccer - Ligue 1": "L1-",
+};
+
+function scopingForSubtheme(_theme, subtheme) {
+  return { codeFilter: SUBTHEME_PREFIX[subtheme] ?? null, allowedCodes: null };
 }
 
-module.exports = { scopingForSubtheme };
+module.exports = { scopingForSubtheme, SUBTHEME_PREFIX };
