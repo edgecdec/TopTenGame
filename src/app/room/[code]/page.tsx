@@ -357,6 +357,39 @@ function LobbyView({
     }
   }, [isHost, maxQuestions, s.numQuestions, onUpdateSettings]);
 
+  // On first mount as host, load cached settings from localStorage and push
+  // them to the server. Uses a ref so we only run the restore ONCE per lobby
+  // visit — otherwise the server-echoed settings would immediately re-trigger.
+  const restoredRef = useRef(false);
+  useEffect(() => {
+    if (!isHost || restoredRef.current) return;
+    if (state.phase !== "lobby") return;
+    restoredRef.current = true;
+    try {
+      const raw = localStorage.getItem("topten_room_settings");
+      if (!raw) return;
+      const cached = JSON.parse(raw);
+      // Only apply keys the current settings shape actually accepts.
+      const partial: Partial<GameSettings> = {};
+      for (const k of [
+        "theme", "subtheme", "numQuestions", "scoringMode", "topN",
+        "picksPerPlayer", "missPenalty", "roundDurationSec",
+      ] as const) {
+        if (cached[k] !== undefined) (partial as Record<string, unknown>)[k] = cached[k];
+      }
+      if (Object.keys(partial).length > 0) onUpdateSettings(partial);
+    } catch { /* ignore */ }
+  }, [isHost, state.phase, onUpdateSettings]);
+
+  // Persist every settings change so the next room the host creates starts
+  // pre-populated. Skip empty subtheme "*" -> undefined normalization.
+  useEffect(() => {
+    if (!isHost) return;
+    try {
+      localStorage.setItem("topten_room_settings", JSON.stringify(s));
+    } catch { /* quota exceeded etc — non-fatal */ }
+  }, [isHost, s]);
+
   return (
     <Stack spacing={3}>
       <Paper sx={{ p: 3 }}>
