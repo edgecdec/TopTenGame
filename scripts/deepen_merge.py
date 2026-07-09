@@ -52,6 +52,25 @@ def load_updates_from_patch(patch_obj):
     for u in raw:
         if not isinstance(u, dict):
             continue
+
+        # RFC 6902 JSON-Patch: {op, path, value}. `path` is /questions/<id>/answers
+        # or similar; `value` is the answers array (or a whole question dict).
+        if "op" in u and "path" in u and "value" in u:
+            path = str(u["path"])
+            # crude but sufficient: last non-empty segment is the field, prior is id
+            segs = [s for s in path.split("/") if s]
+            if len(segs) >= 2:
+                qid = segs[-2]
+                field = segs[-1]
+                value = u["value"]
+                if field == "answers" and isinstance(value, list):
+                    out.append({"id": qid, "changes": {"answers": value}})
+                elif field == "seededDepth" and isinstance(value, int):
+                    out.append({"id": qid, "changes": {"seededDepth": value}})
+                elif isinstance(value, dict):
+                    out.append({"id": qid, "changes": value})
+            continue
+
         qid = u.get("id") or u.get("question_id")
         if not qid:
             continue
