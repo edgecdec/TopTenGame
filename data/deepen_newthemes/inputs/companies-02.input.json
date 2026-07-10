@@ -1,0 +1,633 @@
+{
+  "cluster": "companies-02",
+  "questions": [
+    {
+      "id": "companies-deep-dive-longest-continuous-nyse-listing-2024",
+      "current": {
+        "title": "Longest continuous NYSE listing",
+        "prompt": "Name the US companies with the longest continuous listing on the New York Stock Exchange.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "JPM",
+            "value": "listed 1969 (lineage 1799)"
+          },
+          {
+            "rank": 2,
+            "code": "DIS",
+            "value": "listed 1957"
+          },
+          {
+            "rank": 3,
+            "code": "F",
+            "value": "listed 1956 (predecessor 1919)"
+          },
+          {
+            "rank": 4,
+            "code": "MMM",
+            "value": "listed 1946"
+          },
+          {
+            "rank": 5,
+            "code": "JNJ",
+            "value": "listed 1944"
+          },
+          {
+            "rank": 6,
+            "code": "KO",
+            "value": "listed 1919"
+          },
+          {
+            "rank": 7,
+            "code": "IBM",
+            "value": "listed 1916"
+          },
+          {
+            "rank": 7,
+            "code": "GM",
+            "value": "listed 1916 (relisted 2010)"
+          },
+          {
+            "rank": 9,
+            "code": "T",
+            "value": "listed 1901"
+          },
+          {
+            "rank": 10,
+            "code": "GE",
+            "value": "listed 1892"
+          },
+          {
+            "rank": 11,
+            "code": "PG",
+            "value": "listed 1891"
+          },
+          {
+            "rank": 12,
+            "code": "XOM",
+            "value": "listed 1882"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-largest-cash-on-balance-sheet-2024",
+      "current": {
+        "title": "Largest cash on balance sheet",
+        "prompt": "Name the US companies holding the largest cash and short-term investments on their balance sheet.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BRK.B",
+            "value": "$334B"
+          },
+          {
+            "rank": 2,
+            "code": "GOOGL",
+            "value": "$108B"
+          },
+          {
+            "rank": 3,
+            "code": "AMZN",
+            "value": "$78B"
+          },
+          {
+            "rank": 4,
+            "code": "MSFT",
+            "value": "$76B"
+          },
+          {
+            "rank": 5,
+            "code": "META",
+            "value": "$70B"
+          },
+          {
+            "rank": 6,
+            "code": "AAPL",
+            "value": "$65B"
+          },
+          {
+            "rank": 7,
+            "code": "NVDA",
+            "value": "$43B"
+          },
+          {
+            "rank": 8,
+            "code": "XOM",
+            "value": "$27B"
+          },
+          {
+            "rank": 9,
+            "code": "JNJ",
+            "value": "$25B"
+          },
+          {
+            "rank": 10,
+            "code": "PFE",
+            "value": "$21B"
+          },
+          {
+            "rank": 11,
+            "code": "CSCO",
+            "value": "$18B"
+          },
+          {
+            "rank": 12,
+            "code": "ORCL",
+            "value": "$17B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-highest-earnings-per-share-eps-2024",
+      "current": {
+        "title": "Highest earnings per share (EPS)",
+        "prompt": "Name the US companies with the highest trailing twelve months earnings per share (headline listed class).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "GS",
+            "value": "$40.54"
+          },
+          {
+            "rank": 2,
+            "code": "LMT",
+            "value": "$27.65"
+          },
+          {
+            "rank": 3,
+            "code": "BRK.B",
+            "value": "$26.70 (B shares)"
+          },
+          {
+            "rank": 4,
+            "code": "MCK",
+            "value": "$25.14"
+          },
+          {
+            "rank": 5,
+            "code": "NOC",
+            "value": "$25.10"
+          },
+          {
+            "rank": 6,
+            "code": "META",
+            "value": "$23.90"
+          },
+          {
+            "rank": 7,
+            "code": "HUM",
+            "value": "$22.87"
+          },
+          {
+            "rank": 8,
+            "code": "UNH",
+            "value": "$22.10"
+          },
+          {
+            "rank": 9,
+            "code": "CAT",
+            "value": "$21.90"
+          },
+          {
+            "rank": 10,
+            "code": "JPM",
+            "value": "$19.75"
+          },
+          {
+            "rank": 11,
+            "code": "COST",
+            "value": "$16.60"
+          },
+          {
+            "rank": 12,
+            "code": "MSFT",
+            "value": "$12.10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-highest-revenue-per-employee-2024",
+      "current": {
+        "title": "Highest revenue per employee",
+        "prompt": "Name the US companies with the highest revenue per full-time-equivalent employee.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "VLO",
+            "value": "$12.0M / employee"
+          },
+          {
+            "rank": 2,
+            "code": "MPC",
+            "value": "$9.5M / employee"
+          },
+          {
+            "rank": 3,
+            "code": "PSX",
+            "value": "$9.4M / employee"
+          },
+          {
+            "rank": 4,
+            "code": "EPD",
+            "value": "$7.5M / employee"
+          },
+          {
+            "rank": 5,
+            "code": "XOM",
+            "value": "$5.0M / employee"
+          },
+          {
+            "rank": 6,
+            "code": "COP",
+            "value": "$4.2M / employee"
+          },
+          {
+            "rank": 7,
+            "code": "CVX",
+            "value": "$3.9M / employee"
+          },
+          {
+            "rank": 8,
+            "code": "AAPL",
+            "value": "$2.4M / employee"
+          },
+          {
+            "rank": 9,
+            "code": "META",
+            "value": "$2.2M / employee"
+          },
+          {
+            "rank": 10,
+            "code": "NVDA",
+            "value": "$2.1M / employee"
+          },
+          {
+            "rank": 11,
+            "code": "GOOGL",
+            "value": "$1.8M / employee"
+          },
+          {
+            "rank": 12,
+            "code": "MSFT",
+            "value": "$1.0M / employee"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-largest-subscriber-customer-base-2024",
+      "current": {
+        "title": "Largest subscriber / customer base",
+        "prompt": "Name the US companies with the largest paying subscriber or member base worldwide.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AAPL",
+            "value": "~1B paid subscriptions"
+          },
+          {
+            "rank": 2,
+            "code": "MSFT",
+            "value": "~400M M365 seats"
+          },
+          {
+            "rank": 3,
+            "code": "GOOGL",
+            "value": "~270M paid Google One / YouTube"
+          },
+          {
+            "rank": 4,
+            "code": "AMZN",
+            "value": "~240M Prime members"
+          },
+          {
+            "rank": 5,
+            "code": "NKE",
+            "value": "~160M NikePlus members"
+          },
+          {
+            "rank": 6,
+            "code": "DIS",
+            "value": "~155M Disney+ subs"
+          },
+          {
+            "rank": 7,
+            "code": "COST",
+            "value": "~137M Costco members"
+          },
+          {
+            "rank": 8,
+            "code": "T",
+            "value": "~118M postpaid + prepaid"
+          },
+          {
+            "rank": 9,
+            "code": "VZ",
+            "value": "~115M wireless connections"
+          },
+          {
+            "rank": 10,
+            "code": "CMCSA",
+            "value": "~52M customer relationships"
+          },
+          {
+            "rank": 11,
+            "code": "CHTR",
+            "value": "~32M residential customers"
+          },
+          {
+            "rank": 12,
+            "code": "CRM",
+            "value": "~150,000 org customers"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-highest-annual-advertising-spend-2023",
+      "current": {
+        "title": "Highest annual advertising spend",
+        "prompt": "Name the US companies that spend the most on advertising and marketing each year.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AMZN",
+            "value": "$20.3B"
+          },
+          {
+            "rank": 2,
+            "code": "PG",
+            "value": "$8.1B"
+          },
+          {
+            "rank": 3,
+            "code": "CMCSA",
+            "value": "$6.8B"
+          },
+          {
+            "rank": 4,
+            "code": "DIS",
+            "value": "$5.9B"
+          },
+          {
+            "rank": 5,
+            "code": "PEP",
+            "value": "$5.4B"
+          },
+          {
+            "rank": 6,
+            "code": "AAPL",
+            "value": "$5.0B"
+          },
+          {
+            "rank": 6,
+            "code": "KO",
+            "value": "$5.0B"
+          },
+          {
+            "rank": 8,
+            "code": "GM",
+            "value": "$3.9B"
+          },
+          {
+            "rank": 9,
+            "code": "F",
+            "value": "$3.7B"
+          },
+          {
+            "rank": 10,
+            "code": "T",
+            "value": "$3.5B"
+          },
+          {
+            "rank": 11,
+            "code": "VZ",
+            "value": "$3.3B"
+          },
+          {
+            "rank": 12,
+            "code": "MCD",
+            "value": "$1.6B (corp) + $6B (franchisee)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-most-acquisitions-in-the-2020s-2020",
+      "current": {
+        "title": "Most acquisitions in the 2020s",
+        "prompt": "Rank Fortune 500 companies by number of acquisitions completed between 2020 and 2024.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "GOOGL",
+            "value": "~50 acquisitions"
+          },
+          {
+            "rank": 2,
+            "code": "MSFT",
+            "value": "~45 acquisitions"
+          },
+          {
+            "rank": 3,
+            "code": "AMZN",
+            "value": "~35 acquisitions"
+          },
+          {
+            "rank": 4,
+            "code": "AAPL",
+            "value": "~30 acquisitions"
+          },
+          {
+            "rank": 5,
+            "code": "META",
+            "value": "~20 acquisitions"
+          },
+          {
+            "rank": 6,
+            "code": "CRM",
+            "value": "~15 acquisitions"
+          },
+          {
+            "rank": 6,
+            "code": "IBM",
+            "value": "~15 acquisitions (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "ORCL",
+            "value": "~14 acquisitions"
+          },
+          {
+            "rank": 8,
+            "code": "CSCO",
+            "value": "~14 acquisitions (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "JPM",
+            "value": "~12 acquisitions"
+          },
+          {
+            "rank": 11,
+            "code": "V",
+            "value": "~10 acquisitions"
+          },
+          {
+            "rank": 11,
+            "code": "INTC",
+            "value": "~10 acquisitions (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "JNJ",
+            "value": "~10 acquisitions (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "PFE",
+            "value": "~8 acquisitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-largest-single-acquisitions-all-time-us-fortune-500-acquirers-",
+      "current": {
+        "title": "Largest single acquisitions all-time (US Fortune 500 acquirers)",
+        "prompt": "Rank the largest single completed acquisitions in history by a Fortune 500 US acquirer (deal value).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "VZ",
+            "value": "$130B"
+          },
+          {
+            "rank": 2,
+            "code": "PFE",
+            "value": "$90B"
+          },
+          {
+            "rank": 3,
+            "code": "T",
+            "value": "$85B"
+          },
+          {
+            "rank": 4,
+            "code": "XOM",
+            "value": "$81B"
+          },
+          {
+            "rank": 5,
+            "code": "BMY",
+            "value": "$74B"
+          },
+          {
+            "rank": 6,
+            "code": "DIS",
+            "value": "$71B"
+          },
+          {
+            "rank": 7,
+            "code": "CVS",
+            "value": "$70B"
+          },
+          {
+            "rank": 8,
+            "code": "MSFT",
+            "value": "$69B"
+          },
+          {
+            "rank": 8,
+            "code": "AVGO",
+            "value": "$69B"
+          },
+          {
+            "rank": 10,
+            "code": "JPM",
+            "value": "$58B"
+          },
+          {
+            "rank": 11,
+            "code": "CVX",
+            "value": "$53B"
+          },
+          {
+            "rank": 12,
+            "code": "BRK.B",
+            "value": "$44B"
+          },
+          {
+            "rank": 13,
+            "code": "GOOGL",
+            "value": "$12.5B"
+          },
+          {
+            "rank": 14,
+            "code": "AMZN",
+            "value": "$8.5B"
+          }
+        ]
+      }
+    }
+  ]
+}

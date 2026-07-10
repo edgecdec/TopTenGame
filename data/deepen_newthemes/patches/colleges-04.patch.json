@@ -1,0 +1,128 @@
+{
+  "cluster": "colleges-04",
+  "updates": [
+    {
+      "id": "colleges-history-oldest-us-colleges-by-founding-year-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "Founded 1636" },
+          { "rank": 2, "code": "william-and-mary", "value": "Founded 1693" },
+          { "rank": 3, "code": "yale", "value": "Founded 1701" },
+          { "rank": 4, "code": "penn", "value": "Founded 1740" },
+          { "rank": 5, "code": "princeton", "value": "Founded 1746" },
+          { "rank": 6, "code": "columbia", "value": "Founded 1754" },
+          { "rank": 7, "code": "brown", "value": "Founded 1764" },
+          { "rank": 8, "code": "rutgers", "value": "Founded 1766" },
+          { "rank": 9, "code": "dartmouth", "value": "Founded 1769" },
+          { "rank": 10, "code": "georgia", "value": "Founded 1785" },
+          { "rank": 11, "code": "georgetown", "value": "Founded 1789" },
+          { "rank": 11, "code": "unc", "value": "Founded 1789 (tied)" },
+          { "rank": 13, "code": "vermont", "value": "Founded 1791" },
+          { "rank": 14, "code": "williams", "value": "Founded 1793" },
+          { "rank": 15, "code": "tennessee", "value": "Founded 1794" },
+          { "rank": 16, "code": "middlebury", "value": "Founded 1800" },
+          { "rank": 17, "code": "usc-south-carolina", "value": "Founded 1801" },
+          { "rank": 18, "code": "hamilton", "value": "Founded 1812" },
+          { "rank": 19, "code": "colgate", "value": "Founded 1819" },
+          { "rank": 19, "code": "virginia", "value": "Founded 1819 (tied)" },
+          { "rank": 21, "code": "indiana", "value": "Founded 1820" },
+          { "rank": 22, "code": "amherst", "value": "Founded 1821" },
+          { "rank": 23, "code": "case-western", "value": "Founded 1826" },
+          { "rank": 24, "code": "wesleyan", "value": "Founded 1831" },
+          { "rank": 24, "code": "nyu", "value": "Founded 1831 (tied)" }
+        ],
+        "seededDepth": 25
+      }
+    },
+    {
+      "id": "colleges-size-money-largest-university-endowments-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "$50.7B" },
+          { "rank": 2, "code": "texas", "value": "$45.0B" },
+          { "rank": 3, "code": "yale", "value": "$40.7B" },
+          { "rank": 4, "code": "stanford", "value": "$36.5B" },
+          { "rank": 5, "code": "princeton", "value": "$34.1B" },
+          { "rank": 6, "code": "mit", "value": "$23.5B" },
+          { "rank": 7, "code": "penn", "value": "$21.0B" },
+          { "rank": 8, "code": "texas-am", "value": "$19.6B" },
+          { "rank": 9, "code": "notre-dame", "value": "$18.0B" },
+          { "rank": 10, "code": "michigan", "value": "$17.9B" },
+          { "rank": 11, "code": "northwestern", "value": "$14.1B" },
+          { "rank": 12, "code": "columbia", "value": "$13.6B" },
+          { "rank": 13, "code": "duke", "value": "$11.6B" },
+          { "rank": 14, "code": "washu", "value": "$11.5B" },
+          { "rank": 15, "code": "chicago", "value": "$10.4B" },
+          { "rank": 16, "code": "vanderbilt", "value": "$10.0B" },
+          { "rank": 17, "code": "cornell", "value": "$9.8B" },
+          { "rank": 18, "code": "jhu", "value": "$9.3B" },
+          { "rank": 19, "code": "emory", "value": "$9.2B" },
+          { "rank": 20, "code": "virginia", "value": "$9.1B" },
+          { "rank": 21, "code": "usc", "value": "$8.1B" },
+          { "rank": 22, "code": "rice", "value": "$8.0B" },
+          { "rank": 23, "code": "dartmouth", "value": "$7.9B" },
+          { "rank": 24, "code": "ohio-state", "value": "$7.4B" },
+          { "rank": 25, "code": "unc", "value": "$5.4B" }
+        ],
+        "seededDepth": 25
+      }
+    },
+    {
+      "id": "colleges-size-money-largest-undergraduate-enrollment-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "texas-am", "value": "~57,000" },
+          { "rank": 2, "code": "ucf", "value": "~56,000" },
+          { "rank": 3, "code": "arizona-state", "value": "~55,000" },
+          { "rank": 4, "code": "ohio-state", "value": "~47,000" },
+          { "rank": 5, "code": "texas", "value": "~40,900" },
+          { "rank": 6, "code": "penn-state", "value": "~40,600" },
+          { "rank": 7, "code": "michigan-state", "value": "~40,400" },
+          { "rank": 8, "code": "purdue", "value": "~38,600" },
+          { "rank": 9, "code": "minnesota", "value": "~36,300" },
+          { "rank": 10, "code": "indiana", "value": "~36,200" },
+          { "rank": 11, "code": "rutgers", "value": "~36,000" },
+          { "rank": 12, "code": "illinois", "value": "~35,500" },
+          { "rank": 13, "code": "wisconsin", "value": "~34,600" },
+          { "rank": 14, "code": "florida", "value": "~34,500" },
+          { "rank": 15, "code": "arizona", "value": "~33,300" },
+          { "rank": 16, "code": "alabama", "value": "~33,000" },
+          { "rank": 17, "code": "lsu", "value": "~32,700" },
+          { "rank": 18, "code": "michigan", "value": "~32,300" },
+          { "rank": 19, "code": "nyu", "value": "~29,700" },
+          { "rank": 20, "code": "auburn", "value": "~26,900" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-size-money-largest-total-enrollment-undergrad-grad-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "texas-am", "value": "~74,000" },
+          { "rank": 2, "code": "arizona-state", "value": "~72,000" },
+          { "rank": 3, "code": "ucf", "value": "~68,000" },
+          { "rank": 4, "code": "ohio-state", "value": "~60,500" },
+          { "rank": 5, "code": "nyu", "value": "~59,000" },
+          { "rank": 6, "code": "illinois", "value": "~56,000" },
+          { "rank": 7, "code": "florida", "value": "~55,000" },
+          { "rank": 8, "code": "minnesota", "value": "~54,000" },
+          { "rank": 9, "code": "texas", "value": "~52,000" },
+          { "rank": 9, "code": "michigan", "value": "~52,000 (tied)" },
+          { "rank": 11, "code": "penn-state", "value": "~50,000" },
+          { "rank": 11, "code": "michigan-state", "value": "~50,000 (tied)" },
+          { "rank": 11, "code": "rutgers", "value": "~50,000 (tied)" },
+          { "rank": 11, "code": "purdue", "value": "~50,000 (tied)" },
+          { "rank": 15, "code": "wisconsin", "value": "~48,000" },
+          { "rank": 15, "code": "washington", "value": "~48,000 (tied)" },
+          { "rank": 17, "code": "indiana", "value": "~47,000" },
+          { "rank": 18, "code": "usc", "value": "~46,000" },
+          { "rank": 19, "code": "maryland", "value": "~41,000" },
+          { "rank": 20, "code": "columbia", "value": "~36,600" }
+        ],
+        "seededDepth": 20
+      }
+    }
+  ],
+  "deletions": []
+}

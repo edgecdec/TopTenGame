@@ -1,0 +1,728 @@
+{
+  "cluster": "colleges-03",
+  "questions": [
+    {
+      "id": "colleges-deep-dive-most-marshall-scholars-produced-all-time-2024",
+      "current": {
+        "title": "Most Marshall Scholars produced (all-time)",
+        "prompt": "Name the US colleges that have produced the most Marshall Scholars since the program's founding in 1954.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~270 scholars"
+          },
+          {
+            "rank": 2,
+            "code": "princeton",
+            "value": "~170 scholars"
+          },
+          {
+            "rank": 3,
+            "code": "yale",
+            "value": "~160 scholars"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "~115 scholars"
+          },
+          {
+            "rank": 5,
+            "code": "mit",
+            "value": "~80 scholars"
+          },
+          {
+            "rank": 6,
+            "code": "chicago",
+            "value": "~70 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "columbia",
+            "value": "~65 scholars"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "~60 scholars"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 10,
+            "code": "unc",
+            "value": "~50 scholars"
+          },
+          {
+            "rank": 11,
+            "code": "cornell",
+            "value": "~45 scholars"
+          },
+          {
+            "rank": 12,
+            "code": "penn",
+            "value": "~40 scholars"
+          },
+          {
+            "rank": 13,
+            "code": "dartmouth",
+            "value": "~38 scholars"
+          },
+          {
+            "rank": 14,
+            "code": "georgetown",
+            "value": "~35 scholars"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-nobel-laureates-school-affiliated-2024",
+      "current": {
+        "title": "Most Nobel laureates (school-affiliated)",
+        "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~161 laureates"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "~110 laureates"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "~103 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "chicago",
+            "value": "~101 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "mit",
+            "value": "~101 laureates (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "stanford",
+            "value": "~85 laureates"
+          },
+          {
+            "rank": 7,
+            "code": "caltech",
+            "value": "~76 laureates"
+          },
+          {
+            "rank": 8,
+            "code": "princeton",
+            "value": "~69 laureates"
+          },
+          {
+            "rank": 9,
+            "code": "yale",
+            "value": "~65 laureates"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "~62 laureates"
+          },
+          {
+            "rank": 11,
+            "code": "penn",
+            "value": "~40 laureates"
+          },
+          {
+            "rank": 12,
+            "code": "jhu",
+            "value": "~39 laureates"
+          },
+          {
+            "rank": 13,
+            "code": "nyu",
+            "value": "~38 laureates"
+          },
+          {
+            "rank": 14,
+            "code": "michigan",
+            "value": "~26 laureates"
+          },
+          {
+            "rank": 15,
+            "code": "northwestern",
+            "value": "~24 laureates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-rhodes-scholars-all-time-2024",
+      "current": {
+        "title": "Most Rhodes Scholars (all-time)",
+        "prompt": "Name the US universities that have produced the most Rhodes Scholars, all-time.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~370 scholars"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "~250 scholars"
+          },
+          {
+            "rank": 3,
+            "code": "princeton",
+            "value": "~215 scholars"
+          },
+          {
+            "rank": 4,
+            "code": "army",
+            "value": "~100 scholars"
+          },
+          {
+            "rank": 5,
+            "code": "stanford",
+            "value": "~95 scholars"
+          },
+          {
+            "rank": 6,
+            "code": "dartmouth",
+            "value": "~80 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "mit",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "chicago",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "navy",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "unc",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 11,
+            "code": "duke",
+            "value": "~50 scholars"
+          },
+          {
+            "rank": 12,
+            "code": "air-force",
+            "value": "~45 scholars"
+          },
+          {
+            "rank": 13,
+            "code": "williams",
+            "value": "~35 scholars"
+          },
+          {
+            "rank": 13,
+            "code": "penn",
+            "value": "~35 scholars"
+          },
+          {
+            "rank": 15,
+            "code": "columbia",
+            "value": "~30 scholars"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-lowest-undergraduate-acceptance-rates-2024",
+      "current": {
+        "title": "Lowest undergraduate acceptance rates",
+        "prompt": "Name the US universities with the lowest undergraduate acceptance rates for the Class of 2028 (fall 2024 entry).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "caltech",
+            "value": "2.7%"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "3.6%"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "3.7%"
+          },
+          {
+            "rank": 4,
+            "code": "columbia",
+            "value": "3.9%"
+          },
+          {
+            "rank": 5,
+            "code": "mit",
+            "value": "4.5%"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "4.5%"
+          },
+          {
+            "rank": 7,
+            "code": "yale",
+            "value": "4.6%"
+          },
+          {
+            "rank": 8,
+            "code": "brown",
+            "value": "5.2%"
+          },
+          {
+            "rank": 9,
+            "code": "penn",
+            "value": "5.4%"
+          },
+          {
+            "rank": 10,
+            "code": "duke",
+            "value": "5.9%"
+          },
+          {
+            "rank": 11,
+            "code": "dartmouth",
+            "value": "6.0%"
+          },
+          {
+            "rank": 12,
+            "code": "jhu",
+            "value": "6.2%"
+          },
+          {
+            "rank": 13,
+            "code": "northwestern",
+            "value": "7.0%"
+          },
+          {
+            "rank": 14,
+            "code": "vanderbilt",
+            "value": "7.1%"
+          },
+          {
+            "rank": 15,
+            "code": "cornell",
+            "value": "7.3%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-yield-rates-admitted-students-who-enroll-2023",
+      "current": {
+        "title": "Highest yield rates (admitted students who enroll)",
+        "prompt": "Name the US universities where the highest percentage of admitted students choose to enroll (yield rate).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "83%"
+          },
+          {
+            "rank": 2,
+            "code": "stanford",
+            "value": "80%"
+          },
+          {
+            "rank": 3,
+            "code": "mit",
+            "value": "78%"
+          },
+          {
+            "rank": 4,
+            "code": "yale",
+            "value": "72%"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "71%"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "70%"
+          },
+          {
+            "rank": 7,
+            "code": "columbia",
+            "value": "68%"
+          },
+          {
+            "rank": 7,
+            "code": "byu",
+            "value": "68%"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "66%"
+          },
+          {
+            "rank": 10,
+            "code": "chicago",
+            "value": "65%"
+          },
+          {
+            "rank": 11,
+            "code": "notre-dame",
+            "value": "60%"
+          },
+          {
+            "rank": 12,
+            "code": "duke",
+            "value": "58%"
+          },
+          {
+            "rank": 13,
+            "code": "dartmouth",
+            "value": "56%"
+          },
+          {
+            "rank": 14,
+            "code": "georgetown",
+            "value": "50%"
+          },
+          {
+            "rank": 15,
+            "code": "cornell",
+            "value": "48%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-median-sat-score-of-enrolled-first-years-2023",
+      "current": {
+        "title": "Highest median SAT score of enrolled first-years",
+        "prompt": "Name the US universities with the highest median SAT scores among enrolled first-year students.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "caltech",
+            "value": "1570"
+          },
+          {
+            "rank": 2,
+            "code": "mit",
+            "value": "1560"
+          },
+          {
+            "rank": 3,
+            "code": "harvey-mudd",
+            "value": "1550"
+          },
+          {
+            "rank": 4,
+            "code": "princeton",
+            "value": "1540"
+          },
+          {
+            "rank": 4,
+            "code": "harvard",
+            "value": "1540"
+          },
+          {
+            "rank": 4,
+            "code": "yale",
+            "value": "1540"
+          },
+          {
+            "rank": 4,
+            "code": "chicago",
+            "value": "1540"
+          },
+          {
+            "rank": 8,
+            "code": "vanderbilt",
+            "value": "1530"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "1530"
+          },
+          {
+            "rank": 8,
+            "code": "columbia",
+            "value": "1530"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "1530"
+          },
+          {
+            "rank": 8,
+            "code": "jhu",
+            "value": "1530"
+          },
+          {
+            "rank": 13,
+            "code": "northwestern",
+            "value": "1520"
+          },
+          {
+            "rank": 13,
+            "code": "penn",
+            "value": "1520"
+          },
+          {
+            "rank": 13,
+            "code": "rice",
+            "value": "1520"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-median-act-score-of-enrolled-first-years-2023",
+      "current": {
+        "title": "Highest median ACT score of enrolled first-years",
+        "prompt": "Name the US universities with the highest median ACT composite scores among enrolled first-year students.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "caltech",
+            "value": "36"
+          },
+          {
+            "rank": 2,
+            "code": "mit",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "harvey-mudd",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "chicago",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "princeton",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "vanderbilt",
+            "value": "35"
+          },
+          {
+            "rank": 9,
+            "code": "duke",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "washu",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "rice",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "northwestern",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "notre-dame",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "34"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-most-undergraduate-applications-received-in-a-single-year-20",
+      "current": {
+        "title": "Most undergraduate applications received in a single year",
+        "prompt": "Name the US universities that receive the most first-year undergraduate applications each year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ucla",
+            "value": "173,428 apps"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "137,000 apps"
+          },
+          {
+            "rank": 3,
+            "code": "uc-irvine",
+            "value": "127,000 apps"
+          },
+          {
+            "rank": 4,
+            "code": "nyu",
+            "value": "120,000 apps"
+          },
+          {
+            "rank": 5,
+            "code": "uc-davis",
+            "value": "112,000 apps"
+          },
+          {
+            "rank": 6,
+            "code": "ucsd",
+            "value": "110,000 apps"
+          },
+          {
+            "rank": 7,
+            "code": "ucsb",
+            "value": "106,000 apps"
+          },
+          {
+            "rank": 8,
+            "code": "northeastern",
+            "value": "96,000 apps"
+          },
+          {
+            "rank": 9,
+            "code": "cornell",
+            "value": "68,000 apps"
+          },
+          {
+            "rank": 10,
+            "code": "harvard",
+            "value": "61,000 apps"
+          },
+          {
+            "rank": 11,
+            "code": "columbia",
+            "value": "60,000 apps"
+          },
+          {
+            "rank": 12,
+            "code": "penn",
+            "value": "59,000 apps"
+          },
+          {
+            "rank": 13,
+            "code": "yale",
+            "value": "57,000 apps"
+          },
+          {
+            "rank": 14,
+            "code": "stanford",
+            "value": "56,000 apps"
+          },
+          {
+            "rank": 15,
+            "code": "mit",
+            "value": "26,000 apps"
+          }
+        ]
+      }
+    }
+  ]
+}

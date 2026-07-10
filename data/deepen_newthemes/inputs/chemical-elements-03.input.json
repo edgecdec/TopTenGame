@@ -1,0 +1,642 @@
+{
+  "cluster": "chemical-elements-03",
+  "questions": [
+    {
+      "id": "elements-uses-elements-essential-in-a-lithium-ion-battery-electrodes-electrolyte",
+      "current": {
+        "title": "Elements essential in a lithium-ion battery (electrodes, electrolyte, current collectors)",
+        "prompt": "Name the chemical elements essential to a typical lithium-ion battery cell (electrodes, electrolyte, and current collectors).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Li",
+            "value": "charge carrier (cathode, electrolyte salt)"
+          },
+          {
+            "rank": 2,
+            "code": "C",
+            "value": "anode (graphite), conductive additive"
+          },
+          {
+            "rank": 3,
+            "code": "O",
+            "value": "in every metal-oxide cathode (LFP, NMC)"
+          },
+          {
+            "rank": 4,
+            "code": "Ni",
+            "value": "NMC/NCA cathode active material"
+          },
+          {
+            "rank": 5,
+            "code": "Co",
+            "value": "LCO/NMC/NCA cathode stabilizer"
+          },
+          {
+            "rank": 6,
+            "code": "Mn",
+            "value": "NMC/LMO cathode component"
+          },
+          {
+            "rank": 7,
+            "code": "Fe",
+            "value": "LFP cathode (LiFePO4)"
+          },
+          {
+            "rank": 8,
+            "code": "P",
+            "value": "LFP cathode, electrolyte salt (LiPF6)"
+          },
+          {
+            "rank": 9,
+            "code": "Al",
+            "value": "cathode current collector, NCA dopant"
+          },
+          {
+            "rank": 10,
+            "code": "Cu",
+            "value": "anode current collector"
+          },
+          {
+            "rank": 11,
+            "code": "F",
+            "value": "LiPF6 electrolyte, PVDF binder"
+          },
+          {
+            "rank": 12,
+            "code": "Si",
+            "value": "next-gen high-capacity anode additive"
+          },
+          {
+            "rank": 13,
+            "code": "H",
+            "value": "in organic electrolyte solvents, binders"
+          },
+          {
+            "rank": 14,
+            "code": "N",
+            "value": "in imide salts (LiTFSI), separators"
+          },
+          {
+            "rank": 15,
+            "code": "S",
+            "value": "Li-S chemistry, additives"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-highest-oxidation-states-achieved-2023",
+      "current": {
+        "title": "Highest oxidation states achieved",
+        "prompt": "Name the elements known to reach the highest formal oxidation states in isolated compounds.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Ir",
+            "value": "+9 (in [IrO4]+)"
+          },
+          {
+            "rank": 2,
+            "code": "Pt",
+            "value": "+8 (matrix)"
+          },
+          {
+            "rank": 2,
+            "code": "Ru",
+            "value": "+8 (in RuO4, tied)"
+          },
+          {
+            "rank": 2,
+            "code": "Os",
+            "value": "+8 (in OsO4, tied)"
+          },
+          {
+            "rank": 2,
+            "code": "Xe",
+            "value": "+8 (in XeO4, tied)"
+          },
+          {
+            "rank": 2,
+            "code": "Hs",
+            "value": "+8 (in HsO4, tied)"
+          },
+          {
+            "rank": 7,
+            "code": "I",
+            "value": "+7 (in IF7)"
+          },
+          {
+            "rank": 7,
+            "code": "Cl",
+            "value": "+7 (in ClO4-, tied)"
+          },
+          {
+            "rank": 7,
+            "code": "Mn",
+            "value": "+7 (in MnO4-, tied)"
+          },
+          {
+            "rank": 7,
+            "code": "Tc",
+            "value": "+7 (in TcO4-, tied)"
+          },
+          {
+            "rank": 7,
+            "code": "Re",
+            "value": "+7 (in ReO4-, tied)"
+          },
+          {
+            "rank": 7,
+            "code": "Br",
+            "value": "+7 (in BrO4-, tied)"
+          },
+          {
+            "rank": 7,
+            "code": "F",
+            "value": "+7 (reported, tied)"
+          },
+          {
+            "rank": 14,
+            "code": "S",
+            "value": "+6 (in SF6)"
+          },
+          {
+            "rank": 14,
+            "code": "Cr",
+            "value": "+6 (in CrO3, tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-most-stable-naturally-occurring-isotopes-2021",
+      "current": {
+        "title": "Most stable (naturally occurring) isotopes",
+        "prompt": "Name the elements with the most stable (non-radioactive) naturally occurring isotopes.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Sn",
+            "value": "10 stable isotopes"
+          },
+          {
+            "rank": 2,
+            "code": "Xe",
+            "value": "8 stable isotopes"
+          },
+          {
+            "rank": 3,
+            "code": "Cd",
+            "value": "7 stable isotopes"
+          },
+          {
+            "rank": 3,
+            "code": "Te",
+            "value": "7 stable isotopes (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "Ru",
+            "value": "6 stable isotopes"
+          },
+          {
+            "rank": 5,
+            "code": "Pd",
+            "value": "6 stable isotopes (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "Ba",
+            "value": "6 stable isotopes (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "Dy",
+            "value": "6 stable isotopes (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "Yb",
+            "value": "6 stable isotopes (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "Hg",
+            "value": "6 stable isotopes (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "Ca",
+            "value": "6 stable isotopes (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "Ni",
+            "value": "5 stable isotopes"
+          },
+          {
+            "rank": 12,
+            "code": "Ge",
+            "value": "5 stable isotopes"
+          },
+          {
+            "rank": 12,
+            "code": "Zn",
+            "value": "5 stable isotopes (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "Se",
+            "value": "5 stable isotopes (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-highest-speed-of-sound-through-the-element-2023",
+      "current": {
+        "title": "Highest speed of sound through the element",
+        "prompt": "Name the elements through which sound travels fastest (longitudinal wave speed in the solid element, m/s).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "C",
+            "value": "18,350 m/s (diamond)"
+          },
+          {
+            "rank": 2,
+            "code": "B",
+            "value": "16,200 m/s (thin rod)"
+          },
+          {
+            "rank": 3,
+            "code": "Be",
+            "value": "12,890 m/s"
+          },
+          {
+            "rank": 4,
+            "code": "Si",
+            "value": "8,433 m/s"
+          },
+          {
+            "rank": 5,
+            "code": "Cr",
+            "value": "5,940 m/s"
+          },
+          {
+            "rank": 6,
+            "code": "Mn",
+            "value": "5,150 m/s"
+          },
+          {
+            "rank": 7,
+            "code": "Fe",
+            "value": "5,120 m/s"
+          },
+          {
+            "rank": 8,
+            "code": "Al",
+            "value": "5,100 m/s"
+          },
+          {
+            "rank": 9,
+            "code": "Ni",
+            "value": "4,970 m/s"
+          },
+          {
+            "rank": 10,
+            "code": "Mg",
+            "value": "4,940 m/s"
+          },
+          {
+            "rank": 11,
+            "code": "Co",
+            "value": "4,720 m/s"
+          },
+          {
+            "rank": 12,
+            "code": "V",
+            "value": "4,560 m/s"
+          },
+          {
+            "rank": 13,
+            "code": "Ti",
+            "value": "4,140 m/s"
+          },
+          {
+            "rank": 14,
+            "code": "Cu",
+            "value": "3,570 m/s"
+          },
+          {
+            "rank": 15,
+            "code": "Nb",
+            "value": "3,480 m/s"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-highest-young-s-modulus-stiffness-2023",
+      "current": {
+        "title": "Highest Young's modulus (stiffness)",
+        "prompt": "Name the elements with the highest Young's modulus \u2014 the measure of tensile stiffness of the solid element (GPa).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "C",
+            "value": "1,220 GPa (diamond)"
+          },
+          {
+            "rank": 2,
+            "code": "Os",
+            "value": "560 GPa"
+          },
+          {
+            "rank": 3,
+            "code": "Ir",
+            "value": "528 GPa"
+          },
+          {
+            "rank": 4,
+            "code": "Re",
+            "value": "463 GPa"
+          },
+          {
+            "rank": 5,
+            "code": "Ru",
+            "value": "447 GPa"
+          },
+          {
+            "rank": 6,
+            "code": "B",
+            "value": "440 GPa"
+          },
+          {
+            "rank": 7,
+            "code": "W",
+            "value": "411 GPa"
+          },
+          {
+            "rank": 8,
+            "code": "Tc",
+            "value": "372 GPa"
+          },
+          {
+            "rank": 9,
+            "code": "Mo",
+            "value": "329 GPa"
+          },
+          {
+            "rank": 10,
+            "code": "Be",
+            "value": "287 GPa"
+          },
+          {
+            "rank": 11,
+            "code": "Cr",
+            "value": "279 GPa"
+          },
+          {
+            "rank": 12,
+            "code": "Rh",
+            "value": "275 GPa"
+          },
+          {
+            "rank": 13,
+            "code": "Ni",
+            "value": "200 GPa"
+          },
+          {
+            "rank": 14,
+            "code": "Ta",
+            "value": "186 GPa"
+          },
+          {
+            "rank": 15,
+            "code": "Nb",
+            "value": "105 GPa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-highest-specific-heat-capacity-2023",
+      "current": {
+        "title": "Highest specific heat capacity",
+        "prompt": "Name the elements with the highest specific heat capacity \u2014 the energy needed to raise 1 gram by 1 K (J/g\u00b7K).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "H",
+            "value": "14.30 J/g\u00b7K"
+          },
+          {
+            "rank": 2,
+            "code": "He",
+            "value": "5.19 J/g\u00b7K"
+          },
+          {
+            "rank": 3,
+            "code": "Li",
+            "value": "3.58 J/g\u00b7K"
+          },
+          {
+            "rank": 4,
+            "code": "Be",
+            "value": "1.82 J/g\u00b7K"
+          },
+          {
+            "rank": 5,
+            "code": "Na",
+            "value": "1.228 J/g\u00b7K"
+          },
+          {
+            "rank": 6,
+            "code": "N",
+            "value": "1.04 J/g\u00b7K"
+          },
+          {
+            "rank": 7,
+            "code": "Ne",
+            "value": "1.03 J/g\u00b7K"
+          },
+          {
+            "rank": 8,
+            "code": "B",
+            "value": "1.026 J/g\u00b7K"
+          },
+          {
+            "rank": 9,
+            "code": "Mg",
+            "value": "1.023 J/g\u00b7K"
+          },
+          {
+            "rank": 10,
+            "code": "O",
+            "value": "0.918 J/g\u00b7K"
+          },
+          {
+            "rank": 11,
+            "code": "Al",
+            "value": "0.897 J/g\u00b7K"
+          },
+          {
+            "rank": 12,
+            "code": "F",
+            "value": "0.824 J/g\u00b7K"
+          },
+          {
+            "rank": 13,
+            "code": "K",
+            "value": "0.757 J/g\u00b7K"
+          },
+          {
+            "rank": 14,
+            "code": "C",
+            "value": "0.709 J/g\u00b7K (graphite)"
+          },
+          {
+            "rank": 15,
+            "code": "Ca",
+            "value": "0.647 J/g\u00b7K"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-highest-thermal-expansion-coefficient-2023",
+      "current": {
+        "title": "Highest thermal expansion coefficient",
+        "prompt": "Name the solid elements with the highest linear thermal expansion coefficient \u2014 how much they lengthen per degree of heating (\u03bcm/m\u00b7K, at 25\u00b0C).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Cs",
+            "value": "97 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 2,
+            "code": "Rb",
+            "value": "90 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 3,
+            "code": "K",
+            "value": "83.3 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 4,
+            "code": "Na",
+            "value": "71 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 5,
+            "code": "Li",
+            "value": "46 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 6,
+            "code": "Rn",
+            "value": "40 \u03bcm/m\u00b7K (solid)"
+          },
+          {
+            "rank": 7,
+            "code": "In",
+            "value": "32.1 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 8,
+            "code": "Cd",
+            "value": "30.8 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 9,
+            "code": "Zn",
+            "value": "30.2 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 10,
+            "code": "Pb",
+            "value": "28.9 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 11,
+            "code": "Mg",
+            "value": "24.8 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 12,
+            "code": "Al",
+            "value": "23.1 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 13,
+            "code": "Sn",
+            "value": "22.0 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 14,
+            "code": "Ag",
+            "value": "18.9 \u03bcm/m\u00b7K"
+          },
+          {
+            "rank": 15,
+            "code": "Bi",
+            "value": "13.4 \u03bcm/m\u00b7K"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,593 @@
+{
+  "cluster": "colleges-00",
+  "questions": [
+    {
+      "id": "colleges-alumni-most-us-presidents-produced-2024",
+      "current": {
+        "title": "Most US Presidents produced",
+        "prompt": "Name the US universities that have educated (as undergraduates or graduates) the most US Presidents.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "8 presidents"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "5 presidents"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "3 presidents"
+          },
+          {
+            "rank": 3,
+            "code": "william-and-mary",
+            "value": "3 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "2 presidents"
+          },
+          {
+            "rank": 5,
+            "code": "penn",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "army",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "navy",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "stanford",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "georgetown",
+            "value": "1 president"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-academy-award-winners-produced-2024",
+      "current": {
+        "title": "Most Academy Award winners produced",
+        "prompt": "Name the US colleges whose alumni have won the most Academy Awards (Oscars).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "usc",
+            "value": "~50 Oscar wins"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "~40 Oscar wins"
+          },
+          {
+            "rank": 3,
+            "code": "ucla",
+            "value": "~35 Oscar wins"
+          },
+          {
+            "rank": 4,
+            "code": "nyu",
+            "value": "~30 Oscar wins"
+          },
+          {
+            "rank": 5,
+            "code": "harvard",
+            "value": "~25 Oscar wins"
+          },
+          {
+            "rank": 6,
+            "code": "northwestern",
+            "value": "~20 Oscar wins"
+          },
+          {
+            "rank": 7,
+            "code": "cmu",
+            "value": "~15 Oscar wins"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "~12 Oscar wins"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "~10 Oscar wins"
+          },
+          {
+            "rank": 9,
+            "code": "berkeley",
+            "value": "~10 Oscar wins (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-lowest-transfer-acceptance-rates-2023",
+      "current": {
+        "title": "Lowest transfer acceptance rates",
+        "prompt": "Name the US universities with the lowest acceptance rates for transfer applicants.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "1.2%"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "1.4%"
+          },
+          {
+            "rank": 3,
+            "code": "dartmouth",
+            "value": "1.9%"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "2.4%"
+          },
+          {
+            "rank": 5,
+            "code": "yale",
+            "value": "2.5%"
+          },
+          {
+            "rank": 6,
+            "code": "mit",
+            "value": "3.1%"
+          },
+          {
+            "rank": 7,
+            "code": "brown",
+            "value": "5.0%"
+          },
+          {
+            "rank": 8,
+            "code": "penn",
+            "value": "5.5%"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "6.0%"
+          },
+          {
+            "rank": 10,
+            "code": "duke",
+            "value": "6.1%"
+          },
+          {
+            "rank": 11,
+            "code": "caltech",
+            "value": "8.3%"
+          },
+          {
+            "rank": 12,
+            "code": "notre-dame",
+            "value": "17.0%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-early-decision-acceptance-rates-ivies-peers-2024",
+      "current": {
+        "title": "Highest early decision acceptance rates (Ivies + peers)",
+        "prompt": "Name the elite US universities with the highest binding early decision acceptance rates (a boost over their regular decision rate).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wfu",
+            "value": "35.7%"
+          },
+          {
+            "rank": 2,
+            "code": "emory",
+            "value": "30.9%"
+          },
+          {
+            "rank": 3,
+            "code": "jhu",
+            "value": "17.4%"
+          },
+          {
+            "rank": 4,
+            "code": "dartmouth",
+            "value": "17.0%"
+          },
+          {
+            "rank": 5,
+            "code": "rice",
+            "value": "15.8%"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "15.4%"
+          },
+          {
+            "rank": 7,
+            "code": "vanderbilt",
+            "value": "15.2%"
+          },
+          {
+            "rank": 8,
+            "code": "brown",
+            "value": "13.0%"
+          },
+          {
+            "rank": 9,
+            "code": "duke",
+            "value": "12.9%"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "12.5%"
+          },
+          {
+            "rank": 11,
+            "code": "northwestern",
+            "value": "12.0%"
+          },
+          {
+            "rank": 12,
+            "code": "columbia",
+            "value": "11.3%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-applicant-to-enrollee-ratio-most-competitive-to-actu",
+      "current": {
+        "title": "Highest applicant-to-enrollee ratio (most competitive to actually attend)",
+        "prompt": "Name the US universities with the highest ratio of applications received to first-year students enrolled.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "38:1"
+          },
+          {
+            "rank": 2,
+            "code": "columbia",
+            "value": "37:1"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "34:1"
+          },
+          {
+            "rank": 3,
+            "code": "yale",
+            "value": "34:1"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "31:1"
+          },
+          {
+            "rank": 6,
+            "code": "ucla",
+            "value": "29:1"
+          },
+          {
+            "rank": 7,
+            "code": "brown",
+            "value": "26:1"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "25:1"
+          },
+          {
+            "rank": 9,
+            "code": "dartmouth",
+            "value": "24:1"
+          },
+          {
+            "rank": 10,
+            "code": "penn",
+            "value": "22:1"
+          },
+          {
+            "rank": 10,
+            "code": "berkeley",
+            "value": "22:1"
+          },
+          {
+            "rank": 10,
+            "code": "mit",
+            "value": "22:1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-nobel-laureates-school-affiliations-2024",
+      "current": {
+        "title": "Most Nobel laureates (school affiliations)",
+        "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~161 laureates"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "~110 laureates"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "~103 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "chicago",
+            "value": "~101 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "mit",
+            "value": "~101 laureates (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "stanford",
+            "value": "~85 laureates"
+          },
+          {
+            "rank": 7,
+            "code": "caltech",
+            "value": "~76 laureates"
+          },
+          {
+            "rank": 8,
+            "code": "princeton",
+            "value": "~69 laureates"
+          },
+          {
+            "rank": 9,
+            "code": "yale",
+            "value": "~65 laureates"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "~62 laureates"
+          },
+          {
+            "rank": 11,
+            "code": "penn",
+            "value": "~40 laureates"
+          },
+          {
+            "rank": 12,
+            "code": "jhu",
+            "value": "~39 laureates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-billionaire-alumni-wealth-x-2023",
+      "current": {
+        "title": "Most billionaire alumni (Wealth-X)",
+        "prompt": "Name the US universities that have produced the most billionaire alumni.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "penn",
+            "value": "~35 billionaires"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "~30 billionaires"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "~25 billionaires"
+          },
+          {
+            "rank": 4,
+            "code": "yale",
+            "value": "~20 billionaires"
+          },
+          {
+            "rank": 5,
+            "code": "usc",
+            "value": "~18 billionaires"
+          },
+          {
+            "rank": 6,
+            "code": "columbia",
+            "value": "~17 billionaires"
+          },
+          {
+            "rank": 7,
+            "code": "mit",
+            "value": "~16 billionaires"
+          },
+          {
+            "rank": 8,
+            "code": "cornell",
+            "value": "~15 billionaires"
+          },
+          {
+            "rank": 9,
+            "code": "nyu",
+            "value": "~14 billionaires"
+          },
+          {
+            "rank": 10,
+            "code": "michigan",
+            "value": "~13 billionaires"
+          },
+          {
+            "rank": 11,
+            "code": "berkeley",
+            "value": "~12 billionaires"
+          },
+          {
+            "rank": 12,
+            "code": "duke",
+            "value": "~11 billionaires"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-current-fortune-500-ceos-produced-2023",
+      "current": {
+        "title": "Most current Fortune 500 CEOs produced",
+        "prompt": "Name the US universities whose alumni are running the most current Fortune 500 companies.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wisconsin",
+            "value": "~14 CEOs"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "~13 CEOs"
+          },
+          {
+            "rank": 3,
+            "code": "michigan",
+            "value": "~10 CEOs"
+          },
+          {
+            "rank": 4,
+            "code": "cornell",
+            "value": "~9 CEOs"
+          },
+          {
+            "rank": 4,
+            "code": "texas",
+            "value": "~9 CEOs (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "~8 CEOs"
+          },
+          {
+            "rank": 6,
+            "code": "purdue",
+            "value": "~8 CEOs (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "~7 CEOs"
+          },
+          {
+            "rank": 8,
+            "code": "northwestern",
+            "value": "~7 CEOs (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "notre-dame",
+            "value": "~7 CEOs (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "mit",
+            "value": "~6 CEOs"
+          },
+          {
+            "rank": 11,
+            "code": "chicago",
+            "value": "~6 CEOs (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "cluster": "companies-04",
+  "questions": [
+    {
+      "id": "companies-sectors-largest-tech-companies-by-revenue-2024",
+      "current": {
+        "title": "Largest tech companies by revenue",
+        "prompt": "Name the largest US technology sector companies ranked by annual revenue on the Fortune 500.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AMZN",
+            "value": "$574.8B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "AAPL",
+            "value": "$383.3B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "GOOGL",
+            "value": "$307.4B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "MSFT",
+            "value": "$211.9B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "META",
+            "value": "$134.9B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "DELL",
+            "value": "$102.3B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "TSLA",
+            "value": "$96.8B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "IBM",
+            "value": "$61.9B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "NVDA",
+            "value": "$60.9B revenue"
+          },
+          {
+            "rank": 10,
+            "code": "CSCO",
+            "value": "$57.0B revenue"
+          },
+          {
+            "rank": 11,
+            "code": "INTC",
+            "value": "$54.2B revenue"
+          },
+          {
+            "rank": 12,
+            "code": "HPQ",
+            "value": "$53.7B revenue"
+          },
+          {
+            "rank": 13,
+            "code": "ORCL",
+            "value": "$50.0B revenue"
+          },
+          {
+            "rank": 14,
+            "code": "AVGO",
+            "value": "$35.8B revenue"
+          },
+          {
+            "rank": 15,
+            "code": "HPE",
+            "value": "$29.1B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-sectors-largest-healthcare-and-pharma-companies-by-revenue-2024",
+      "current": {
+        "title": "Largest healthcare and pharma companies by revenue",
+        "prompt": "Name the largest US Fortune 500 healthcare and pharmaceutical companies by annual revenue.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "UNH",
+            "value": "$371.6B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "CVS",
+            "value": "$357.8B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "MCK",
+            "value": "$276.7B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "CAH",
+            "value": "$205.0B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "CI",
+            "value": "$195.3B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "CNC",
+            "value": "$154.0B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "WBA",
+            "value": "$139.1B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "HUM",
+            "value": "$106.4B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "JNJ",
+            "value": "$85.2B revenue"
+          },
+          {
+            "rank": 10,
+            "code": "HCA",
+            "value": "$64.9B revenue"
+          },
+          {
+            "rank": 11,
+            "code": "MRK",
+            "value": "$60.1B revenue"
+          },
+          {
+            "rank": 12,
+            "code": "PFE",
+            "value": "$58.5B revenue"
+          },
+          {
+            "rank": 13,
+            "code": "ABBV",
+            "value": "$54.3B revenue"
+          },
+          {
+            "rank": 14,
+            "code": "BMY",
+            "value": "$45.0B revenue"
+          },
+          {
+            "rank": 15,
+            "code": "LLY",
+            "value": "$34.1B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-workforce-most-retail-stores-in-the-us-2023",
+      "current": {
+        "title": "Most retail stores in the US",
+        "prompt": "Name the US Fortune 500 retailers with the most US retail store locations.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Workforce",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MCD",
+            "value": "13,459 stores"
+          },
+          {
+            "rank": 2,
+            "code": "CVS",
+            "value": "9,000 stores"
+          },
+          {
+            "rank": 3,
+            "code": "WBA",
+            "value": "8,700 stores"
+          },
+          {
+            "rank": 4,
+            "code": "WMT",
+            "value": "4,616 stores"
+          },
+          {
+            "rank": 5,
+            "code": "TJX",
+            "value": "3,542 stores"
+          },
+          {
+            "rank": 6,
+            "code": "KR",
+            "value": "2,720 stores"
+          },
+          {
+            "rank": 7,
+            "code": "HD",
+            "value": "2,335 stores"
+          },
+          {
+            "rank": 8,
+            "code": "ACI",
+            "value": "2,271 stores"
+          },
+          {
+            "rank": 9,
+            "code": "TGT",
+            "value": "1,956 stores"
+          },
+          {
+            "rank": 10,
+            "code": "LOW",
+            "value": "1,746 stores"
+          },
+          {
+            "rank": 11,
+            "code": "publix",
+            "value": "1,378 stores"
+          },
+          {
+            "rank": 12,
+            "code": "AAPL",
+            "value": "272 stores"
+          },
+          {
+            "rank": 13,
+            "code": "COST",
+            "value": "600 stores"
+          },
+          {
+            "rank": 14,
+            "code": "NKE",
+            "value": "323 stores"
+          },
+          {
+            "rank": 15,
+            "code": "DIS",
+            "value": "220 stores"
+          }
+        ]
+      }
+    }
+  ]
+}

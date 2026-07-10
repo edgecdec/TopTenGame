@@ -1,0 +1,886 @@
+{
+  "cluster": "colleges-06",
+  "questions": [
+    {
+      "id": "colleges-deep-dive-highest-per-athlete-athletic-department-budget-2023",
+      "current": {
+        "title": "Highest per-athlete athletic department budget",
+        "prompt": "Name the US colleges with the highest athletic department operating budget per varsity athlete.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 25,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "texas-am",
+            "value": "~$375K per athlete"
+          },
+          {
+            "rank": 2,
+            "code": "texas",
+            "value": "~$355K per athlete"
+          },
+          {
+            "rank": 3,
+            "code": "ohio-state",
+            "value": "~$340K per athlete"
+          },
+          {
+            "rank": 4,
+            "code": "alabama",
+            "value": "~$325K per athlete"
+          },
+          {
+            "rank": 5,
+            "code": "georgia",
+            "value": "~$310K per athlete"
+          },
+          {
+            "rank": 6,
+            "code": "lsu",
+            "value": "~$295K per athlete"
+          },
+          {
+            "rank": 7,
+            "code": "oklahoma",
+            "value": "~$280K per athlete"
+          },
+          {
+            "rank": 8,
+            "code": "florida",
+            "value": "~$270K per athlete"
+          },
+          {
+            "rank": 9,
+            "code": "auburn",
+            "value": "~$255K per athlete"
+          },
+          {
+            "rank": 10,
+            "code": "michigan",
+            "value": "~$245K per athlete"
+          },
+          {
+            "rank": 11,
+            "code": "tennessee",
+            "value": "~$240K per athlete"
+          },
+          {
+            "rank": 12,
+            "code": "arkansas",
+            "value": "~$230K per athlete"
+          },
+          {
+            "rank": 13,
+            "code": "penn-state",
+            "value": "~$225K per athlete"
+          },
+          {
+            "rank": 14,
+            "code": "usc-south-carolina",
+            "value": "~$220K per athlete"
+          },
+          {
+            "rank": 15,
+            "code": "kentucky",
+            "value": "~$215K per athlete"
+          },
+          {
+            "rank": 16,
+            "code": "wisconsin",
+            "value": "~$210K per athlete"
+          },
+          {
+            "rank": 17,
+            "code": "nebraska",
+            "value": "~$205K per athlete"
+          },
+          {
+            "rank": 18,
+            "code": "iowa",
+            "value": "~$200K per athlete"
+          },
+          {
+            "rank": 19,
+            "code": "michigan-state",
+            "value": "~$195K per athlete"
+          },
+          {
+            "rank": 20,
+            "code": "missouri",
+            "value": "~$190K per athlete"
+          },
+          {
+            "rank": 21,
+            "code": "ole-miss",
+            "value": "~$185K per athlete"
+          },
+          {
+            "rank": 22,
+            "code": "clemson",
+            "value": "~$180K per athlete"
+          },
+          {
+            "rank": 23,
+            "code": "louisville",
+            "value": "~$175K per athlete"
+          },
+          {
+            "rank": 24,
+            "code": "washington",
+            "value": "~$170K per athlete"
+          },
+          {
+            "rank": 25,
+            "code": "oregon",
+            "value": "~$165K per athlete"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-deep-dive-highest-us-news-undergraduate-teaching-rating-2024-2024",
+      "current": {
+        "title": "Highest US News undergraduate teaching rating (2024)",
+        "prompt": "Name the US universities most frequently cited in the US News 'Best Undergraduate Teaching' national universities list.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 25,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "#1 teaching"
+          },
+          {
+            "rank": 2,
+            "code": "dartmouth",
+            "value": "#2 teaching"
+          },
+          {
+            "rank": 3,
+            "code": "brown",
+            "value": "#3 teaching"
+          },
+          {
+            "rank": 4,
+            "code": "rice",
+            "value": "#4 teaching"
+          },
+          {
+            "rank": 5,
+            "code": "yale",
+            "value": "#5 teaching"
+          },
+          {
+            "rank": 6,
+            "code": "william-and-mary",
+            "value": "#6 teaching"
+          },
+          {
+            "rank": 7,
+            "code": "notre-dame",
+            "value": "#7 teaching"
+          },
+          {
+            "rank": 8,
+            "code": "wfu",
+            "value": "#8 teaching"
+          },
+          {
+            "rank": 9,
+            "code": "vanderbilt",
+            "value": "#9 teaching"
+          },
+          {
+            "rank": 10,
+            "code": "stanford",
+            "value": "#10 teaching"
+          },
+          {
+            "rank": 11,
+            "code": "chicago",
+            "value": "#11 teaching"
+          },
+          {
+            "rank": 12,
+            "code": "virginia",
+            "value": "#12 teaching"
+          },
+          {
+            "rank": 13,
+            "code": "duke",
+            "value": "#13 teaching"
+          },
+          {
+            "rank": 14,
+            "code": "unc",
+            "value": "#14 teaching"
+          },
+          {
+            "rank": 15,
+            "code": "washu",
+            "value": "#15 teaching"
+          },
+          {
+            "rank": 16,
+            "code": "columbia",
+            "value": "#16 teaching"
+          },
+          {
+            "rank": 17,
+            "code": "harvard",
+            "value": "#17 teaching"
+          },
+          {
+            "rank": 18,
+            "code": "mit",
+            "value": "#18 teaching"
+          },
+          {
+            "rank": 19,
+            "code": "cornell",
+            "value": "#19 teaching"
+          },
+          {
+            "rank": 20,
+            "code": "penn",
+            "value": "#20 teaching"
+          },
+          {
+            "rank": 21,
+            "code": "northwestern",
+            "value": "#21 teaching"
+          },
+          {
+            "rank": 22,
+            "code": "georgetown",
+            "value": "#22 teaching"
+          },
+          {
+            "rank": 23,
+            "code": "jhu",
+            "value": "#23 teaching"
+          },
+          {
+            "rank": 24,
+            "code": "emory",
+            "value": "#24 teaching"
+          },
+          {
+            "rank": 25,
+            "code": "tufts",
+            "value": "#25 teaching"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-us-news-national-universities-2024-2024",
+      "current": {
+        "title": "US News National Universities (2024)",
+        "prompt": "Name the highest-ranked schools in the US News 2024 Best National Universities ranking (rank 1 = best).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 26,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "#1"
+          },
+          {
+            "rank": 2,
+            "code": "mit",
+            "value": "#2"
+          },
+          {
+            "rank": 3,
+            "code": "harvard",
+            "value": "#3"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "#3 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "yale",
+            "value": "#5"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "#6"
+          },
+          {
+            "rank": 7,
+            "code": "caltech",
+            "value": "#7"
+          },
+          {
+            "rank": 7,
+            "code": "duke",
+            "value": "#7 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "#9"
+          },
+          {
+            "rank": 9,
+            "code": "jhu",
+            "value": "#9 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "northwestern",
+            "value": "#9 (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "columbia",
+            "value": "#12"
+          },
+          {
+            "rank": 12,
+            "code": "cornell",
+            "value": "#12 (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "chicago",
+            "value": "#12 (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "berkeley",
+            "value": "#15"
+          },
+          {
+            "rank": 15,
+            "code": "ucla",
+            "value": "#15 (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "rice",
+            "value": "#17"
+          },
+          {
+            "rank": 18,
+            "code": "dartmouth",
+            "value": "#18"
+          },
+          {
+            "rank": 18,
+            "code": "notre-dame",
+            "value": "#18 (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "vanderbilt",
+            "value": "#20"
+          },
+          {
+            "rank": 21,
+            "code": "michigan",
+            "value": "#21"
+          },
+          {
+            "rank": 22,
+            "code": "cmu",
+            "value": "#22"
+          },
+          {
+            "rank": 22,
+            "code": "washu",
+            "value": "#22 (tied)"
+          },
+          {
+            "rank": 24,
+            "code": "emory",
+            "value": "#24"
+          },
+          {
+            "rank": 24,
+            "code": "virginia",
+            "value": "#24 (tied)"
+          },
+          {
+            "rank": 26,
+            "code": "georgetown",
+            "value": "#26"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-winningest-ncaa-d1-football-programs-2024",
+      "current": {
+        "title": "Most winningest NCAA D1 football programs",
+        "prompt": "Name the colleges with the most all-time wins in NCAA Division I FBS football history.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 26,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "michigan",
+            "value": "1,004 wins"
+          },
+          {
+            "rank": 2,
+            "code": "ohio-state",
+            "value": "981 wins"
+          },
+          {
+            "rank": 3,
+            "code": "alabama",
+            "value": "961 wins"
+          },
+          {
+            "rank": 4,
+            "code": "texas",
+            "value": "955 wins"
+          },
+          {
+            "rank": 5,
+            "code": "notre-dame",
+            "value": "947 wins"
+          },
+          {
+            "rank": 5,
+            "code": "oklahoma",
+            "value": "947 wins (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "nebraska",
+            "value": "918 wins"
+          },
+          {
+            "rank": 7,
+            "code": "penn-state",
+            "value": "918 wins (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "tennessee",
+            "value": "873 wins"
+          },
+          {
+            "rank": 10,
+            "code": "usc",
+            "value": "870 wins"
+          },
+          {
+            "rank": 11,
+            "code": "georgia",
+            "value": "846 wins"
+          },
+          {
+            "rank": 12,
+            "code": "lsu",
+            "value": "824 wins"
+          },
+          {
+            "rank": 13,
+            "code": "auburn",
+            "value": "803 wins"
+          },
+          {
+            "rank": 14,
+            "code": "washington",
+            "value": "780 wins"
+          },
+          {
+            "rank": 15,
+            "code": "west-virginia",
+            "value": "776 wins"
+          },
+          {
+            "rank": 16,
+            "code": "clemson",
+            "value": "776 wins (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "arkansas",
+            "value": "760 wins"
+          },
+          {
+            "rank": 19,
+            "code": "florida",
+            "value": "752 wins"
+          },
+          {
+            "rank": 20,
+            "code": "unc",
+            "value": "740 wins"
+          },
+          {
+            "rank": 22,
+            "code": "syracuse",
+            "value": "725 wins (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "pitt",
+            "value": "755 wins"
+          },
+          {
+            "rank": 26,
+            "code": "virginia-tech",
+            "value": "749 wins"
+          },
+          {
+            "rank": 27,
+            "code": "wisconsin",
+            "value": "725 wins"
+          },
+          {
+            "rank": 28,
+            "code": "purdue",
+            "value": "638 wins"
+          },
+          {
+            "rank": 29,
+            "code": "minnesota",
+            "value": "735 wins"
+          },
+          {
+            "rank": 30,
+            "code": "texas-am",
+            "value": "780 wins"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-claimed-college-football-national-titles-2023",
+      "current": {
+        "title": "Most claimed college football national titles",
+        "prompt": "Name the colleges that claim the most national championships in college football history.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 27,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "28 titles"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "27 titles"
+          },
+          {
+            "rank": 3,
+            "code": "alabama",
+            "value": "18 titles"
+          },
+          {
+            "rank": 4,
+            "code": "notre-dame",
+            "value": "13 titles"
+          },
+          {
+            "rank": 5,
+            "code": "harvard",
+            "value": "12 titles"
+          },
+          {
+            "rank": 5,
+            "code": "michigan",
+            "value": "12 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "usc",
+            "value": "11 titles"
+          },
+          {
+            "rank": 8,
+            "code": "pitt",
+            "value": "9 titles"
+          },
+          {
+            "rank": 9,
+            "code": "ohio-state",
+            "value": "8 titles"
+          },
+          {
+            "rank": 10,
+            "code": "oklahoma",
+            "value": "7 titles"
+          },
+          {
+            "rank": 10,
+            "code": "minnesota",
+            "value": "7 titles (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "nebraska",
+            "value": "5 titles"
+          },
+          {
+            "rank": 13,
+            "code": "penn",
+            "value": "7 titles (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "texas",
+            "value": "4 titles"
+          },
+          {
+            "rank": 14,
+            "code": "cornell",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "tennessee",
+            "value": "6 titles"
+          },
+          {
+            "rank": 17,
+            "code": "lsu",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "miami",
+            "value": "5 titles"
+          },
+          {
+            "rank": 20,
+            "code": "clemson",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 21,
+            "code": "florida",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "georgia",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "auburn",
+            "value": "2 titles"
+          },
+          {
+            "rank": 24,
+            "code": "army",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 25,
+            "code": "tcu",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 27,
+            "code": "chicago",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 28,
+            "code": "stanford",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 29,
+            "code": "michigan-state",
+            "value": "6 titles (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-heisman-trophy-winners-produced-2023",
+      "current": {
+        "title": "Most Heisman Trophy winners produced",
+        "prompt": "Name the colleges that have produced the most Heisman Trophy winners in college football history.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 28,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ohio-state",
+            "value": "7 winners"
+          },
+          {
+            "rank": 1,
+            "code": "notre-dame",
+            "value": "7 winners (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "usc",
+            "value": "7 winners (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "oklahoma",
+            "value": "7 winners (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "alabama",
+            "value": "4 winners"
+          },
+          {
+            "rank": 6,
+            "code": "florida",
+            "value": "3 winners"
+          },
+          {
+            "rank": 6,
+            "code": "fsu",
+            "value": "3 winners (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "auburn",
+            "value": "3 winners (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "michigan",
+            "value": "3 winners (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "army",
+            "value": "3 winners (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "nebraska",
+            "value": "3 winners (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "texas",
+            "value": "2 winners"
+          },
+          {
+            "rank": 12,
+            "code": "yale",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "lsu",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "stanford",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "wisconsin",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "louisville",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "princeton",
+            "value": "1 winner"
+          },
+          {
+            "rank": 18,
+            "code": "tcu",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "smu",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "navy",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "pitt",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "georgia",
+            "value": "2 winners (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "baylor",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "syracuse",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "oregon",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "iowa",
+            "value": "1 winner (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "miami",
+            "value": "2 winners (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

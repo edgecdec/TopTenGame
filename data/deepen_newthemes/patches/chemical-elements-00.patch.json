@@ -1,0 +1,28 @@
+{
+  "cluster": "chemical-elements-00",
+  "updates": [
+    {
+      "id": "elements-uses-most-valuable-elements-by-price-per-gram-naturally-obtainable-excl",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Rh", "value": "~$300 per gram" },
+          { "rank": 2, "code": "Ir", "value": "~$175 per gram" },
+          { "rank": 3, "code": "Au", "value": "~$85 per gram" },
+          { "rank": 4, "code": "Pt", "value": "~$32 per gram" },
+          { "rank": 5, "code": "Pd", "value": "~$30 per gram" },
+          { "rank": 6, "code": "Ru", "value": "~$16 per gram" },
+          { "rank": 7, "code": "Os", "value": "~$13 per gram" },
+          { "rank": 8, "code": "Re", "value": "~$5 per gram" },
+          { "rank": 9, "code": "Ge", "value": "~$1.20 per gram" },
+          { "rank": 10, "code": "Ag", "value": "~$0.95 per gram" },
+          { "rank": 11, "code": "In", "value": "~$0.30 per gram" }
+        ],
+        "seededDepth": 11
+      }
+    }
+  ],
+  "deletions": [
+    "elements-deep-dive-most-synthesized-transuranium-elements-2022",
+    "elements-deep-dive-highest-curie-temperature-ferromagnetism-2020"
+  ]
+}

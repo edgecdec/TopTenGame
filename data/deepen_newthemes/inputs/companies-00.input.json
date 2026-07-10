@@ -1,0 +1,493 @@
+{
+  "cluster": "companies-00",
+  "questions": [
+    {
+      "id": "companies-sectors-largest-food-and-beverage-companies-by-revenue-2024",
+      "current": {
+        "title": "Largest food and beverage companies by revenue",
+        "prompt": "Name the largest US Fortune 500 food and beverage companies by annual revenue.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 7,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "cargill",
+            "value": "$177.0B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "ADM",
+            "value": "$93.9B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "PEP",
+            "value": "$91.5B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "SYY",
+            "value": "$76.3B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "TSN",
+            "value": "$52.9B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "KO",
+            "value": "$45.8B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "MCD",
+            "value": "$25.5B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-sectors-largest-banks-by-revenue-2024",
+      "current": {
+        "title": "Largest banks by revenue",
+        "prompt": "Name the largest US Fortune 500 commercial and investment banks by annual revenue.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 8,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "JPM",
+            "value": "$239.4B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "BAC",
+            "value": "$171.9B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "WFC",
+            "value": "$115.3B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "C",
+            "value": "$112.6B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "AXP",
+            "value": "$60.5B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "MS",
+            "value": "$54.1B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "GS",
+            "value": "$46.3B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "COF",
+            "value": "$39.1B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-sectors-largest-insurance-companies-by-revenue-2024",
+      "current": {
+        "title": "Largest insurance companies by revenue",
+        "prompt": "Name the largest US Fortune 500 insurance companies by annual revenue.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 8,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BRK.B",
+            "value": "$364.5B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "state-farm",
+            "value": "$104.2B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "MET",
+            "value": "$68.0B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "PGR",
+            "value": "$62.1B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "PRU",
+            "value": "$54.0B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "CB",
+            "value": "$49.7B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "AIG",
+            "value": "$46.8B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "USAA",
+            "value": "$41.1B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-ipo-year-top-100-public-companies-2024",
+      "current": {
+        "title": "IPO year (Top 100 public companies)",
+        "prompt": "Rank the most recently IPO'd companies among the Fortune 500 top 100 (most recent first).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "META",
+            "value": "IPO 2012"
+          },
+          {
+            "rank": 2,
+            "code": "TSLA",
+            "value": "IPO 2010"
+          },
+          {
+            "rank": 3,
+            "code": "V",
+            "value": "IPO 2008"
+          },
+          {
+            "rank": 4,
+            "code": "GOOGL",
+            "value": "IPO 2004"
+          },
+          {
+            "rank": 4,
+            "code": "CRM",
+            "value": "IPO 2004"
+          },
+          {
+            "rank": 6,
+            "code": "UPS",
+            "value": "IPO 1999"
+          },
+          {
+            "rank": 6,
+            "code": "GS",
+            "value": "IPO 1999"
+          },
+          {
+            "rank": 6,
+            "code": "NVDA",
+            "value": "IPO 1999"
+          },
+          {
+            "rank": 9,
+            "code": "AMZN",
+            "value": "IPO 1997"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-sectors-largest-retailers-by-revenue-2024",
+      "current": {
+        "title": "Largest retailers by revenue",
+        "prompt": "Name the largest US Fortune 500 retailers by annual revenue.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "WMT",
+            "value": "$648.1B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "COST",
+            "value": "$242.3B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "HD",
+            "value": "$152.7B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "KR",
+            "value": "$150.0B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "TGT",
+            "value": "$107.4B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "LOW",
+            "value": "$86.4B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "ACI",
+            "value": "$79.2B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "publix",
+            "value": "$57.1B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "TJX",
+            "value": "$54.2B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-sectors-largest-oil-and-gas-companies-by-revenue-2024",
+      "current": {
+        "title": "Largest oil and gas companies by revenue",
+        "prompt": "Name the largest US Fortune 500 oil, gas, and refining companies by annual revenue.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Sectors",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "XOM",
+            "value": "$344.6B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "CVX",
+            "value": "$196.9B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "PSX",
+            "value": "$149.0B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "MPC",
+            "value": "$148.4B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "VLO",
+            "value": "$144.8B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "COP",
+            "value": "$56.1B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "EPD",
+            "value": "$49.7B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "EOG",
+            "value": "$24.2B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "DVN",
+            "value": "$15.3B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-highest-ceo-total-compensation-2023-equilar-100-2023",
+      "current": {
+        "title": "Highest CEO total compensation 2023 (Equilar 100)",
+        "prompt": "Rank Fortune 500 CEOs by total 2023 compensation (Equilar).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MSFT",
+            "value": "$79.1M"
+          },
+          {
+            "rank": 2,
+            "code": "AAPL",
+            "value": "$63.2M"
+          },
+          {
+            "rank": 3,
+            "code": "MS",
+            "value": "$37.0M"
+          },
+          {
+            "rank": 4,
+            "code": "JPM",
+            "value": "$36.0M"
+          },
+          {
+            "rank": 5,
+            "code": "NKE",
+            "value": "$33.4M"
+          },
+          {
+            "rank": 6,
+            "code": "DIS",
+            "value": "$31.6M"
+          },
+          {
+            "rank": 7,
+            "code": "GS",
+            "value": "$31.0M"
+          },
+          {
+            "rank": 8,
+            "code": "AMZN",
+            "value": "$29.2M"
+          },
+          {
+            "rank": 9,
+            "code": "META",
+            "value": "$24.4M"
+          },
+          {
+            "rank": 10,
+            "code": "PFE",
+            "value": "$21.6M"
+          },
+          {
+            "rank": 11,
+            "code": "GOOGL",
+            "value": "$8.8M"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-founder-led-fortune-500-top-100-companies-2024",
+      "current": {
+        "title": "Founder-led Fortune 500 top 100 companies",
+        "prompt": "Name the Fortune 500 top-100 companies still led by a founder or founding-family member.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "META",
+            "value": "Mark Zuckerberg (founder-CEO)"
+          },
+          {
+            "rank": 2,
+            "code": "NVDA",
+            "value": "Jensen Huang (co-founder-CEO)"
+          },
+          {
+            "rank": 3,
+            "code": "DELL",
+            "value": "Michael Dell (founder-CEO)"
+          },
+          {
+            "rank": 4,
+            "code": "ORCL",
+            "value": "Larry Ellison (co-founder, CTO/Chairman)"
+          },
+          {
+            "rank": 5,
+            "code": "CRM",
+            "value": "Marc Benioff (founder-CEO)"
+          },
+          {
+            "rank": 6,
+            "code": "cargill",
+            "value": "Cargill/MacMillan family (private, family-led)"
+          },
+          {
+            "rank": 7,
+            "code": "publix",
+            "value": "Jenkins family (family-controlled)"
+          },
+          {
+            "rank": 8,
+            "code": "TSLA",
+            "value": "Elon Musk (co-founder-era, current CEO)"
+          },
+          {
+            "rank": 9,
+            "code": "CMCSA",
+            "value": "Brian Roberts (founder's son, CEO)"
+          },
+          {
+            "rank": 10,
+            "code": "NKE",
+            "value": "Phil Knight (co-founder, Chairman Emeritus)"
+          },
+          {
+            "rank": 11,
+            "code": "BRK.B",
+            "value": "Warren Buffett (54-year CEO, not founder)"
+          }
+        ]
+      }
+    }
+  ]
+}

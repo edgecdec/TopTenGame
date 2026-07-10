@@ -1,0 +1,733 @@
+{
+  "cluster": "chemical-elements-01",
+  "questions": [
+    {
+      "id": "elements-abundance-most-naturally-abundant-elements-on-earth-whole-earth-by-mass",
+      "current": {
+        "title": "Most Naturally Abundant Elements on Earth (Whole-Earth by Mass)",
+        "prompt": "Rank the chemical elements by their share of the mass of the whole Earth (crust + mantle + core combined).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Abundance",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Fe",
+            "value": "~32.1% of Earth's mass"
+          },
+          {
+            "rank": 2,
+            "code": "O",
+            "value": "~30.1% of Earth's mass"
+          },
+          {
+            "rank": 3,
+            "code": "Si",
+            "value": "~15.1% of Earth's mass"
+          },
+          {
+            "rank": 4,
+            "code": "Mg",
+            "value": "~13.9% of Earth's mass"
+          },
+          {
+            "rank": 5,
+            "code": "S",
+            "value": "~2.9% of Earth's mass"
+          },
+          {
+            "rank": 6,
+            "code": "Ni",
+            "value": "~1.8% of Earth's mass"
+          },
+          {
+            "rank": 7,
+            "code": "Ca",
+            "value": "~1.5% of Earth's mass"
+          },
+          {
+            "rank": 8,
+            "code": "Al",
+            "value": "~1.4% of Earth's mass"
+          },
+          {
+            "rank": 9,
+            "code": "Cr",
+            "value": "~0.26% of Earth's mass"
+          },
+          {
+            "rank": 10,
+            "code": "Na",
+            "value": "~0.25% of Earth's mass"
+          },
+          {
+            "rank": 11,
+            "code": "P",
+            "value": "~0.11% of Earth's mass"
+          },
+          {
+            "rank": 12,
+            "code": "Co",
+            "value": "~0.088% of Earth's mass"
+          },
+          {
+            "rank": 13,
+            "code": "Ti",
+            "value": "~0.081% of Earth's mass"
+          },
+          {
+            "rank": 14,
+            "code": "Mn",
+            "value": "~0.075% of Earth's mass"
+          },
+          {
+            "rank": 15,
+            "code": "K",
+            "value": "~0.019% of Earth's mass"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-earliest-discovered-elements-oldest-first-2024",
+      "current": {
+        "title": "Earliest-discovered elements (oldest first)",
+        "prompt": "Rank the chemical elements known to humanity from earliest to most recent discovery, oldest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Cu",
+            "value": "known since antiquity (pre-9000 BCE)"
+          },
+          {
+            "rank": 2,
+            "code": "Pb",
+            "value": "known since antiquity (pre-6500 BCE)"
+          },
+          {
+            "rank": 3,
+            "code": "Fe",
+            "value": "known since antiquity (pre-5000 BCE)"
+          },
+          {
+            "rank": 4,
+            "code": "Sn",
+            "value": "known since antiquity (pre-3500 BCE)"
+          },
+          {
+            "rank": 5,
+            "code": "Au",
+            "value": "known since antiquity (pre-3000 BCE)"
+          },
+          {
+            "rank": 5,
+            "code": "Ag",
+            "value": "known since antiquity (pre-3000 BCE) (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "S",
+            "value": "known since antiquity (pre-2000 BCE)"
+          },
+          {
+            "rank": 8,
+            "code": "Hg",
+            "value": "known since antiquity (pre-1500 BCE)"
+          },
+          {
+            "rank": 9,
+            "code": "C",
+            "value": "known since antiquity (prehistoric)"
+          },
+          {
+            "rank": 10,
+            "code": "As",
+            "value": "isolated c. 1250 by Albertus Magnus"
+          },
+          {
+            "rank": 11,
+            "code": "Bi",
+            "value": "described c. 1500; isolated 1753 by Claude Geoffroy"
+          },
+          {
+            "rank": 12,
+            "code": "Sb",
+            "value": "described c. 1540 by Vannoccio Biringuccio"
+          },
+          {
+            "rank": 13,
+            "code": "P",
+            "value": "discovered 1669 by Hennig Brand"
+          },
+          {
+            "rank": 14,
+            "code": "Co",
+            "value": "discovered 1735 by Georg Brandt"
+          },
+          {
+            "rank": 15,
+            "code": "Pt",
+            "value": "described 1735 by Antonio de Ulloa"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-most-recently-synthesized-elements-newest-first-2024",
+      "current": {
+        "title": "Most recently synthesized elements (newest first)",
+        "prompt": "Rank the most recently synthesized chemical elements by year of first reported synthesis, newest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Ts",
+            "value": "synthesized 2010 (JINR/ORNL/LLNL)"
+          },
+          {
+            "rank": 2,
+            "code": "Nh",
+            "value": "synthesized 2004 (RIKEN, Japan)"
+          },
+          {
+            "rank": 3,
+            "code": "Mc",
+            "value": "synthesized 2003 (JINR-Dubna)"
+          },
+          {
+            "rank": 4,
+            "code": "Og",
+            "value": "synthesized 2002 (JINR-Dubna)"
+          },
+          {
+            "rank": 5,
+            "code": "Lv",
+            "value": "synthesized 2000 (JINR-Dubna)"
+          },
+          {
+            "rank": 6,
+            "code": "Fl",
+            "value": "synthesized 1998 (JINR-Dubna)"
+          },
+          {
+            "rank": 7,
+            "code": "Cn",
+            "value": "synthesized 1996 (GSI, Germany)"
+          },
+          {
+            "rank": 8,
+            "code": "Rg",
+            "value": "synthesized 1994 (GSI, Germany)"
+          },
+          {
+            "rank": 8,
+            "code": "Ds",
+            "value": "synthesized 1994 (GSI, Germany)"
+          },
+          {
+            "rank": 10,
+            "code": "Hs",
+            "value": "synthesized 1984 (GSI, Germany)"
+          },
+          {
+            "rank": 11,
+            "code": "Mt",
+            "value": "synthesized 1982 (GSI, Germany)"
+          },
+          {
+            "rank": 12,
+            "code": "Bh",
+            "value": "synthesized 1981 (GSI, Germany)"
+          },
+          {
+            "rank": 13,
+            "code": "Sg",
+            "value": "synthesized 1974 (LBNL/JINR)"
+          },
+          {
+            "rank": 14,
+            "code": "Db",
+            "value": "synthesized 1970 (LBNL/JINR)"
+          },
+          {
+            "rank": 15,
+            "code": "Rf",
+            "value": "synthesized 1969 (LBNL/JINR)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-elements-named-after-countries-states-or-places-alphabetical-20",
+      "current": {
+        "title": "Elements named after countries, states, or places (alphabetical)",
+        "prompt": "Name the chemical elements whose names come from a country, state, or geographic place (listed alphabetically).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Am",
+            "value": "Americium - named after the Americas"
+          },
+          {
+            "rank": 2,
+            "code": "Bk",
+            "value": "Berkelium - named after Berkeley, California"
+          },
+          {
+            "rank": 3,
+            "code": "Cf",
+            "value": "Californium - named after California"
+          },
+          {
+            "rank": 4,
+            "code": "Cu",
+            "value": "Copper - from Cyprus (Cyprium)"
+          },
+          {
+            "rank": 5,
+            "code": "Db",
+            "value": "Dubnium - named after Dubna, Russia"
+          },
+          {
+            "rank": 6,
+            "code": "Ds",
+            "value": "Darmstadtium - named after Darmstadt, Germany"
+          },
+          {
+            "rank": 7,
+            "code": "Eu",
+            "value": "Europium - named after Europe"
+          },
+          {
+            "rank": 8,
+            "code": "Fr",
+            "value": "Francium - named after France"
+          },
+          {
+            "rank": 9,
+            "code": "Ga",
+            "value": "Gallium - named after Gaul (France)"
+          },
+          {
+            "rank": 10,
+            "code": "Ge",
+            "value": "Germanium - named after Germany"
+          },
+          {
+            "rank": 11,
+            "code": "Hf",
+            "value": "Hafnium - named after Hafnia (Copenhagen)"
+          },
+          {
+            "rank": 12,
+            "code": "Ho",
+            "value": "Holmium - named after Holmia (Stockholm)"
+          },
+          {
+            "rank": 13,
+            "code": "Lu",
+            "value": "Lutetium - named after Lutetia (Paris)"
+          },
+          {
+            "rank": 14,
+            "code": "Mg",
+            "value": "Magnesium - named after Magnesia, Greece"
+          },
+          {
+            "rank": 15,
+            "code": "Po",
+            "value": "Polonium - named after Poland"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-elements-named-after-scientists-alphabetical-2024",
+      "current": {
+        "title": "Elements named after scientists (alphabetical)",
+        "prompt": "Name the chemical elements whose names honor a specific scientist (listed alphabetically).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Bh",
+            "value": "Bohrium - Niels Bohr"
+          },
+          {
+            "rank": 2,
+            "code": "Cm",
+            "value": "Curium - Marie and Pierre Curie"
+          },
+          {
+            "rank": 3,
+            "code": "Cn",
+            "value": "Copernicium - Nicolaus Copernicus"
+          },
+          {
+            "rank": 4,
+            "code": "Es",
+            "value": "Einsteinium - Albert Einstein"
+          },
+          {
+            "rank": 5,
+            "code": "Fm",
+            "value": "Fermium - Enrico Fermi"
+          },
+          {
+            "rank": 6,
+            "code": "Fl",
+            "value": "Flerovium - Georgy Flyorov"
+          },
+          {
+            "rank": 7,
+            "code": "Gd",
+            "value": "Gadolinium - Johan Gadolin"
+          },
+          {
+            "rank": 8,
+            "code": "Lr",
+            "value": "Lawrencium - Ernest Lawrence"
+          },
+          {
+            "rank": 9,
+            "code": "Md",
+            "value": "Mendelevium - Dmitri Mendeleev"
+          },
+          {
+            "rank": 10,
+            "code": "Mt",
+            "value": "Meitnerium - Lise Meitner"
+          },
+          {
+            "rank": 11,
+            "code": "No",
+            "value": "Nobelium - Alfred Nobel"
+          },
+          {
+            "rank": 12,
+            "code": "Og",
+            "value": "Oganesson - Yuri Oganessian"
+          },
+          {
+            "rank": 13,
+            "code": "Rf",
+            "value": "Rutherfordium - Ernest Rutherford"
+          },
+          {
+            "rank": 14,
+            "code": "Sg",
+            "value": "Seaborgium - Glenn T. Seaborg"
+          },
+          {
+            "rank": 15,
+            "code": "Rg",
+            "value": "Roentgenium - Wilhelm Rontgen"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-elements-discovered-in-the-1800s-earliest-first-2024",
+      "current": {
+        "title": "Elements discovered in the 1800s (earliest first)",
+        "prompt": "Rank the chemical elements first discovered during the 19th century, earliest year first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Nb",
+            "value": "discovered 1801 by Charles Hatchett"
+          },
+          {
+            "rank": 1,
+            "code": "V",
+            "value": "discovered 1801 by Andres Manuel del Rio"
+          },
+          {
+            "rank": 3,
+            "code": "Ta",
+            "value": "discovered 1802 by Anders Ekeberg"
+          },
+          {
+            "rank": 4,
+            "code": "Ce",
+            "value": "discovered 1803 by Berzelius, Hisinger, and Klaproth"
+          },
+          {
+            "rank": 4,
+            "code": "Pd",
+            "value": "discovered 1803 by William Hyde Wollaston"
+          },
+          {
+            "rank": 4,
+            "code": "Rh",
+            "value": "discovered 1803 by William Hyde Wollaston"
+          },
+          {
+            "rank": 4,
+            "code": "Ir",
+            "value": "discovered 1803 by Smithson Tennant"
+          },
+          {
+            "rank": 4,
+            "code": "Os",
+            "value": "discovered 1803 by Smithson Tennant"
+          },
+          {
+            "rank": 9,
+            "code": "K",
+            "value": "discovered 1807 by Humphry Davy"
+          },
+          {
+            "rank": 9,
+            "code": "Na",
+            "value": "discovered 1807 by Humphry Davy"
+          },
+          {
+            "rank": 11,
+            "code": "B",
+            "value": "discovered 1808 by Davy, Gay-Lussac, Thenard"
+          },
+          {
+            "rank": 11,
+            "code": "Ba",
+            "value": "discovered 1808 by Humphry Davy"
+          },
+          {
+            "rank": 11,
+            "code": "Ca",
+            "value": "discovered 1808 by Humphry Davy"
+          },
+          {
+            "rank": 11,
+            "code": "Mg",
+            "value": "isolated 1808 by Humphry Davy"
+          },
+          {
+            "rank": 11,
+            "code": "Sr",
+            "value": "isolated 1808 by Humphry Davy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-elements-discovered-by-british-scientists-alphabetical-2024",
+      "current": {
+        "title": "Elements discovered by British scientists (alphabetical)",
+        "prompt": "Name the chemical elements first isolated or identified by British scientists (listed alphabetically).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "H",
+            "value": "Hydrogen - Henry Cavendish, 1766"
+          },
+          {
+            "rank": 2,
+            "code": "Nb",
+            "value": "Niobium - Charles Hatchett, 1801"
+          },
+          {
+            "rank": 3,
+            "code": "Ir",
+            "value": "Iridium - Smithson Tennant, 1803"
+          },
+          {
+            "rank": 3,
+            "code": "Os",
+            "value": "Osmium - Smithson Tennant, 1803"
+          },
+          {
+            "rank": 3,
+            "code": "Pd",
+            "value": "Palladium - William Hyde Wollaston, 1803"
+          },
+          {
+            "rank": 3,
+            "code": "Rh",
+            "value": "Rhodium - William Hyde Wollaston, 1803"
+          },
+          {
+            "rank": 7,
+            "code": "K",
+            "value": "Potassium - Humphry Davy, 1807"
+          },
+          {
+            "rank": 7,
+            "code": "Na",
+            "value": "Sodium - Humphry Davy, 1807"
+          },
+          {
+            "rank": 9,
+            "code": "B",
+            "value": "Boron - Humphry Davy, 1808"
+          },
+          {
+            "rank": 9,
+            "code": "Ba",
+            "value": "Barium - Humphry Davy, 1808"
+          },
+          {
+            "rank": 9,
+            "code": "Ca",
+            "value": "Calcium - Humphry Davy, 1808"
+          },
+          {
+            "rank": 12,
+            "code": "Ar",
+            "value": "Argon - Rayleigh and Ramsay, 1894"
+          },
+          {
+            "rank": 13,
+            "code": "He",
+            "value": "Helium - William Ramsay, 1895"
+          },
+          {
+            "rank": 14,
+            "code": "Kr",
+            "value": "Krypton - Ramsay and Travers, 1898"
+          },
+          {
+            "rank": 14,
+            "code": "Ne",
+            "value": "Neon - Ramsay and Travers, 1898"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-history-elements-discovered-by-american-labs-lbnl-ornl-llnl-2024",
+      "current": {
+        "title": "Elements discovered by American labs (LBNL, ORNL, LLNL)",
+        "prompt": "Rank the chemical elements discovered by American national laboratories (LBNL, ORNL, LLNL) by year of discovery, oldest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Tc",
+            "value": "Technetium - Berkeley cyclotron, 1937"
+          },
+          {
+            "rank": 2,
+            "code": "At",
+            "value": "Astatine - UC Berkeley, 1940"
+          },
+          {
+            "rank": 2,
+            "code": "Np",
+            "value": "Neptunium - LBNL, 1940"
+          },
+          {
+            "rank": 2,
+            "code": "Pu",
+            "value": "Plutonium - LBNL, 1940"
+          },
+          {
+            "rank": 5,
+            "code": "Am",
+            "value": "Americium - LBNL/Met Lab, 1944"
+          },
+          {
+            "rank": 5,
+            "code": "Cm",
+            "value": "Curium - LBNL/Met Lab, 1944"
+          },
+          {
+            "rank": 7,
+            "code": "Pm",
+            "value": "Promethium - ORNL, 1945"
+          },
+          {
+            "rank": 8,
+            "code": "Bk",
+            "value": "Berkelium - LBNL, 1949"
+          },
+          {
+            "rank": 9,
+            "code": "Cf",
+            "value": "Californium - LBNL, 1950"
+          },
+          {
+            "rank": 10,
+            "code": "Es",
+            "value": "Einsteinium - LBNL/LANL/Argonne, 1952"
+          },
+          {
+            "rank": 10,
+            "code": "Fm",
+            "value": "Fermium - LBNL/LANL/Argonne, 1952"
+          },
+          {
+            "rank": 12,
+            "code": "Md",
+            "value": "Mendelevium - LBNL, 1955"
+          },
+          {
+            "rank": 13,
+            "code": "No",
+            "value": "Nobelium - LBNL, 1958 (contested)"
+          },
+          {
+            "rank": 14,
+            "code": "Lr",
+            "value": "Lawrencium - LBNL, 1961"
+          },
+          {
+            "rank": 15,
+            "code": "Ts",
+            "value": "Tennessine - ORNL/LLNL/JINR, 2010"
+          }
+        ]
+      }
+    }
+  ]
+}

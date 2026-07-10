@@ -1,0 +1,100 @@
+{
+  "cluster": "colleges-05",
+  "updates": [
+    {
+      "id": "colleges-academics-best-business-schools-us-news-2024-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "stanford", "value": "#1 (GSB)" },
+          { "rank": 2, "code": "penn", "value": "#2 (Wharton)" },
+          { "rank": 3, "code": "northwestern", "value": "#3 (Kellogg)" },
+          { "rank": 3, "code": "chicago", "value": "#3 (Booth) (tied)" },
+          { "rank": 5, "code": "mit", "value": "#5 (Sloan)" },
+          { "rank": 5, "code": "harvard", "value": "#5 (HBS) (tied)" },
+          { "rank": 7, "code": "berkeley", "value": "#7 (Haas)" },
+          { "rank": 8, "code": "yale", "value": "#8 (SOM)" },
+          { "rank": 9, "code": "columbia", "value": "#9 (CBS)" },
+          { "rank": 10, "code": "nyu", "value": "#10 (Stern)" },
+          { "rank": 11, "code": "duke", "value": "#11 (Fuqua)" },
+          { "rank": 12, "code": "michigan", "value": "#12 (Ross)" },
+          { "rank": 13, "code": "virginia", "value": "#13 (Darden)" },
+          { "rank": 14, "code": "dartmouth", "value": "#14 (Tuck)" },
+          { "rank": 15, "code": "cmu", "value": "#15 (Tepper)" },
+          { "rank": 16, "code": "cornell", "value": "#16 (Johnson)" },
+          { "rank": 17, "code": "ucla", "value": "#17 (Anderson)" },
+          { "rank": 18, "code": "usc", "value": "#18 (Marshall)" },
+          { "rank": 19, "code": "texas", "value": "#19 (McCombs)" },
+          { "rank": 20, "code": "unc", "value": "#20 (Kenan-Flagler)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-academics-highest-r-d-spending-nsf-herd-2022",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "jhu", "value": "~$3.42 billion" },
+          { "rank": 2, "code": "michigan", "value": "~$1.86 billion" },
+          { "rank": 3, "code": "penn", "value": "~$1.75 billion" },
+          { "rank": 4, "code": "ucla", "value": "~$1.65 billion" },
+          { "rank": 5, "code": "ucsd", "value": "~$1.60 billion" },
+          { "rank": 6, "code": "washington", "value": "~$1.58 billion" },
+          { "rank": 7, "code": "wisconsin", "value": "~$1.50 billion" },
+          { "rank": 8, "code": "washu", "value": "~$1.45 billion" },
+          { "rank": 9, "code": "stanford", "value": "~$1.40 billion" },
+          { "rank": 10, "code": "harvard", "value": "~$1.38 billion" },
+          { "rank": 11, "code": "duke", "value": "~$1.35 billion" },
+          { "rank": 12, "code": "mit", "value": "~$1.32 billion" },
+          { "rank": 13, "code": "texas-am", "value": "~$1.30 billion" },
+          { "rank": 14, "code": "unc", "value": "~$1.28 billion" },
+          { "rank": 15, "code": "berkeley", "value": "~$1.22 billion" },
+          { "rank": 16, "code": "cornell", "value": "~$1.20 billion" },
+          { "rank": 17, "code": "columbia", "value": "~$1.18 billion" },
+          { "rank": 18, "code": "pitt", "value": "~$1.15 billion" },
+          { "rank": 19, "code": "minnesota", "value": "~$1.12 billion" },
+          { "rank": 20, "code": "ohio-state", "value": "~$1.10 billion" },
+          { "rank": 21, "code": "yale", "value": "~$1.08 billion" },
+          { "rank": 22, "code": "penn-state", "value": "~$1.06 billion" },
+          { "rank": 23, "code": "florida", "value": "~$1.04 billion" }
+        ],
+        "seededDepth": 23
+      }
+    },
+    {
+      "id": "colleges-deep-dive-top-peace-corps-volunteer-producing-colleges-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "berkeley", "value": "~3,900 volunteers" },
+          { "rank": 2, "code": "wisconsin", "value": "~3,500 volunteers" },
+          { "rank": 3, "code": "washington", "value": "~3,200 volunteers" },
+          { "rank": 4, "code": "michigan", "value": "~2,900 volunteers" },
+          { "rank": 5, "code": "ucla", "value": "~2,600 volunteers" },
+          { "rank": 6, "code": "oregon", "value": "~2,300 volunteers" },
+          { "rank": 7, "code": "minnesota", "value": "~2,200 volunteers" },
+          { "rank": 8, "code": "harvard", "value": "~1,700 volunteers" },
+          { "rank": 9, "code": "cornell", "value": "~1,600 volunteers" },
+          { "rank": 10, "code": "unc", "value": "~1,500 volunteers" },
+          { "rank": 11, "code": "virginia", "value": "~1,450 volunteers" },
+          { "rank": 12, "code": "indiana", "value": "~1,400 volunteers" },
+          { "rank": 13, "code": "ohio-state", "value": "~1,350 volunteers" },
+          { "rank": 14, "code": "texas", "value": "~1,250 volunteers" },
+          { "rank": 15, "code": "penn-state", "value": "~1,200 volunteers" },
+          { "rank": 16, "code": "arizona", "value": "~1,150 volunteers" },
+          { "rank": 17, "code": "florida", "value": "~1,100 volunteers" },
+          { "rank": 18, "code": "iowa", "value": "~1,050 volunteers" },
+          { "rank": 19, "code": "georgetown", "value": "~1,000 volunteers" },
+          { "rank": 20, "code": "stanford", "value": "~950 volunteers" },
+          { "rank": 21, "code": "yale", "value": "~900 volunteers" },
+          { "rank": 22, "code": "brown", "value": "~850 volunteers" },
+          { "rank": 23, "code": "chicago", "value": "~800 volunteers" },
+          { "rank": 24, "code": "american", "value": "~780 volunteers" }
+        ],
+        "seededDepth": 24
+      }
+    }
+  ],
+  "deletions": [
+    "colleges-academics-most-pulitzer-prize-alumni-winners-2024",
+    "colleges-deep-dive-highest-study-abroad-participation-rate-2021"
+  ]
+}

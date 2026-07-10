@@ -1,0 +1,31 @@
+{
+  "cluster": "companies-00",
+  "updates": [
+    {
+      "id": "companies-history-founder-led-fortune-500-top-100-companies-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "META", "value": "Mark Zuckerberg (founder-CEO)" },
+          { "rank": 2, "code": "NVDA", "value": "Jensen Huang (co-founder-CEO)" },
+          { "rank": 3, "code": "DELL", "value": "Michael Dell (founder-CEO)" },
+          { "rank": 4, "code": "ORCL", "value": "Larry Ellison (co-founder, CTO/Chairman)" },
+          { "rank": 5, "code": "CRM", "value": "Marc Benioff (founder-CEO)" },
+          { "rank": 6, "code": "cargill", "value": "Cargill/MacMillan family (private, family-led)" },
+          { "rank": 7, "code": "publix", "value": "Jenkins family (family-controlled)" },
+          { "rank": 8, "code": "TSLA", "value": "Elon Musk (co-founder-era, current CEO)" },
+          { "rank": 9, "code": "CMCSA", "value": "Brian Roberts (founder's son, CEO)" },
+          { "rank": 10, "code": "NKE", "value": "Phil Knight (co-founder, Chairman Emeritus)" }
+        ],
+        "seededDepth": 10
+      }
+    }
+  ],
+  "deletions": [
+    "companies-sectors-largest-food-and-beverage-companies-by-revenue-2024",
+    "companies-sectors-largest-banks-by-revenue-2024",
+    "companies-sectors-largest-insurance-companies-by-revenue-2024",
+    "companies-history-ipo-year-top-100-public-companies-2024",
+    "companies-sectors-largest-retailers-by-revenue-2024",
+    "companies-sectors-largest-oil-and-gas-companies-by-revenue-2024"
+  ]
+}

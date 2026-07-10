@@ -1,0 +1,55 @@
+{
+  "cluster": "colleges-00",
+  "updates": [
+    {
+      "id": "colleges-alumni-most-us-presidents-produced-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "8 presidents" },
+          { "rank": 2, "code": "yale", "value": "5 presidents" },
+          { "rank": 3, "code": "columbia", "value": "3 presidents" },
+          { "rank": 3, "code": "william-and-mary", "value": "3 presidents (tied)" },
+          { "rank": 5, "code": "princeton", "value": "2 presidents" },
+          { "rank": 5, "code": "penn", "value": "2 presidents (tied)" },
+          { "rank": 5, "code": "army", "value": "2 presidents (tied)" },
+          { "rank": 5, "code": "navy", "value": "2 presidents (tied)" },
+          { "rank": 5, "code": "stanford", "value": "2 presidents (tied)" },
+          { "rank": 10, "code": "georgetown", "value": "1 president" },
+          { "rank": 10, "code": "michigan", "value": "1 president (tied)" },
+          { "rank": 10, "code": "duke", "value": "1 president (tied)" },
+          { "rank": 10, "code": "amherst", "value": "1 president (tied)" },
+          { "rank": 10, "code": "delaware", "value": "1 president (tied)" }
+        ],
+        "seededDepth": 14
+      }
+    },
+    {
+      "id": "colleges-alumni-most-nobel-laureates-school-affiliations-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "161 laureates" },
+          { "rank": 2, "code": "berkeley", "value": "110 laureates" },
+          { "rank": 3, "code": "columbia", "value": "103 laureates" },
+          { "rank": 4, "code": "chicago", "value": "101 laureates" },
+          { "rank": 4, "code": "mit", "value": "101 laureates (tied)" },
+          { "rank": 6, "code": "stanford", "value": "85 laureates" },
+          { "rank": 7, "code": "caltech", "value": "76 laureates" },
+          { "rank": 8, "code": "princeton", "value": "69 laureates" },
+          { "rank": 9, "code": "yale", "value": "65 laureates" },
+          { "rank": 10, "code": "cornell", "value": "62 laureates" },
+          { "rank": 11, "code": "penn", "value": "40 laureates" },
+          { "rank": 12, "code": "jhu", "value": "39 laureates" },
+          { "rank": 13, "code": "nyu", "value": "38 laureates" },
+          { "rank": 14, "code": "michigan", "value": "27 laureates" },
+          { "rank": 15, "code": "washu", "value": "26 laureates" }
+        ],
+        "seededDepth": 15
+      }
+    }
+  ],
+  "deletions": [
+    "colleges-alumni-most-academy-award-winners-produced-2024",
+    "colleges-alumni-most-billionaire-alumni-wealth-x-2023",
+    "colleges-alumni-most-current-fortune-500-ceos-produced-2023"
+  ]
+}

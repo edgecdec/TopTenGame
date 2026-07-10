@@ -1,0 +1,87 @@
+{
+  "cluster": "chemical-elements-02",
+  "updates": [
+    {
+      "id": "elements-physical-least-electronegative-elements-pauling-scale-ascending-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Cs", "value": "0.79 Pauling" },
+          { "rank": 1, "code": "Fr", "value": "0.79 Pauling (tied)" },
+          { "rank": 3, "code": "K", "value": "0.82 Pauling" },
+          { "rank": 3, "code": "Rb", "value": "0.82 Pauling (tied)" },
+          { "rank": 5, "code": "Ba", "value": "0.89 Pauling" },
+          { "rank": 6, "code": "Ra", "value": "0.90 Pauling" },
+          { "rank": 7, "code": "Na", "value": "0.93 Pauling" },
+          { "rank": 8, "code": "Sr", "value": "0.95 Pauling" },
+          { "rank": 9, "code": "Li", "value": "0.98 Pauling" },
+          { "rank": 10, "code": "Ca", "value": "1.00 Pauling" },
+          { "rank": 11, "code": "La", "value": "1.10 Pauling" },
+          { "rank": 12, "code": "Ce", "value": "1.12 Pauling" },
+          { "rank": 13, "code": "Pr", "value": "1.13 Pauling" },
+          { "rank": 14, "code": "Y", "value": "1.22 Pauling" },
+          { "rank": 15, "code": "Ac", "value": "1.10 Pauling" },
+          { "rank": 16, "code": "Mg", "value": "1.31 Pauling" },
+          { "rank": 17, "code": "Sc", "value": "1.36 Pauling" },
+          { "rank": 17, "code": "Zr", "value": "1.36 Pauling (tied)" },
+          { "rank": 17, "code": "Hf", "value": "1.36 Pauling (tied)" },
+          { "rank": 20, "code": "Ti", "value": "1.54 Pauling" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "elements-physical-highest-thermal-conductivity-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "C", "value": "2200 W/(m·K) (diamond)" },
+          { "rank": 2, "code": "Ag", "value": "429 W/(m·K)" },
+          { "rank": 3, "code": "Cu", "value": "401 W/(m·K)" },
+          { "rank": 4, "code": "Au", "value": "318 W/(m·K)" },
+          { "rank": 5, "code": "Al", "value": "237 W/(m·K)" },
+          { "rank": 6, "code": "Be", "value": "200 W/(m·K)" },
+          { "rank": 7, "code": "W", "value": "173 W/(m·K)" },
+          { "rank": 8, "code": "Mg", "value": "156 W/(m·K)" },
+          { "rank": 9, "code": "Rh", "value": "150 W/(m·K)" },
+          { "rank": 10, "code": "Si", "value": "149 W/(m·K)" },
+          { "rank": 11, "code": "Ir", "value": "147 W/(m·K)" },
+          { "rank": 12, "code": "Mo", "value": "138 W/(m·K)" },
+          { "rank": 13, "code": "Ru", "value": "117 W/(m·K)" },
+          { "rank": 14, "code": "Zn", "value": "116 W/(m·K)" },
+          { "rank": 15, "code": "Co", "value": "100 W/(m·K)" },
+          { "rank": 16, "code": "Ni", "value": "91 W/(m·K)" },
+          { "rank": 17, "code": "Cd", "value": "97 W/(m·K)" },
+          { "rank": 18, "code": "Os", "value": "88 W/(m·K)" },
+          { "rank": 19, "code": "Cr", "value": "94 W/(m·K)" },
+          { "rank": 20, "code": "Fe", "value": "80 W/(m·K)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "elements-uses-rare-earth-elements-ranked-by-industrial-demand-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Nd", "value": "largest REE market (NdFeB magnets, EVs, wind)" },
+          { "rank": 2, "code": "La", "value": "FCC catalysts, NiMH batteries, glass" },
+          { "rank": 3, "code": "Ce", "value": "polishing powders, catalytic converters" },
+          { "rank": 4, "code": "Pr", "value": "NdFeB magnet co-alloy, aircraft engines" },
+          { "rank": 5, "code": "Dy", "value": "high-temperature magnet additive" },
+          { "rank": 6, "code": "Y", "value": "phosphors, YAG lasers, superalloys" },
+          { "rank": 7, "code": "Sm", "value": "SmCo magnets, cancer therapy" },
+          { "rank": 8, "code": "Gd", "value": "MRI contrast agents, magnetostrictive" },
+          { "rank": 9, "code": "Tb", "value": "phosphors, magnet additive" },
+          { "rank": 10, "code": "Eu", "value": "red phosphor for displays" },
+          { "rank": 11, "code": "Er", "value": "fiber optic amplifiers (EDFA)" },
+          { "rank": 12, "code": "Ho", "value": "lasers, high-field magnets" },
+          { "rank": 13, "code": "Yb", "value": "fiber lasers, atomic clocks" },
+          { "rank": 14, "code": "Lu", "value": "PET scan scintillators (LSO), catalysts" },
+          { "rank": 15, "code": "Tm", "value": "portable X-ray, laser dopant" },
+          { "rank": 16, "code": "Sc", "value": "Al-Sc alloys (aerospace), SOFCs" },
+          { "rank": 17, "code": "Pm", "value": "no significant industrial use (radioactive)" }
+        ],
+        "seededDepth": 17
+      }
+    }
+  ],
+  "deletions": []
+}

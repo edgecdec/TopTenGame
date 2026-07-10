@@ -1,0 +1,548 @@
+{
+  "cluster": "chemical-elements-00",
+  "questions": [
+    {
+      "id": "elements-deep-dive-most-synthesized-transuranium-elements-2022",
+      "current": {
+        "title": "Most synthesized transuranium elements",
+        "prompt": "Name the synthetic (transuranium) elements produced in the largest cumulative amounts \u2014 those recovered in weighable macroscopic quantities.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 7,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Pu",
+            "value": "~2,000,000,000 g"
+          },
+          {
+            "rank": 2,
+            "code": "Np",
+            "value": "~60,000,000 g"
+          },
+          {
+            "rank": 3,
+            "code": "Am",
+            "value": "~100,000 g"
+          },
+          {
+            "rank": 4,
+            "code": "Cm",
+            "value": "~20,000 g"
+          },
+          {
+            "rank": 5,
+            "code": "Cf",
+            "value": "~10 g"
+          },
+          {
+            "rank": 6,
+            "code": "Bk",
+            "value": "~1 g"
+          },
+          {
+            "rank": 7,
+            "code": "Es",
+            "value": "~0.01 g"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-highest-curie-temperature-ferromagnetism-2020",
+      "current": {
+        "title": "Highest Curie temperature (ferromagnetism)",
+        "prompt": "Name the elements with the highest Curie temperatures \u2014 the temperature above which a ferromagnetic element loses its permanent magnetism (K).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 9,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Co",
+            "value": "1,388 K"
+          },
+          {
+            "rank": 2,
+            "code": "Fe",
+            "value": "1,043 K"
+          },
+          {
+            "rank": 3,
+            "code": "Ni",
+            "value": "627 K"
+          },
+          {
+            "rank": 4,
+            "code": "Gd",
+            "value": "293 K"
+          },
+          {
+            "rank": 5,
+            "code": "Tb",
+            "value": "220 K"
+          },
+          {
+            "rank": 6,
+            "code": "Dy",
+            "value": "88 K"
+          },
+          {
+            "rank": 7,
+            "code": "Tm",
+            "value": "32 K"
+          },
+          {
+            "rank": 8,
+            "code": "Ho",
+            "value": "20 K"
+          },
+          {
+            "rank": 9,
+            "code": "Er",
+            "value": "19.6 K"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-abundance-most-abundant-elements-in-earth-s-atmosphere-by-volume-2024",
+      "current": {
+        "title": "Most Abundant Elements in Earth's Atmosphere by Volume",
+        "prompt": "Rank the chemical elements by their share of Earth's dry atmosphere by volume (equivalently, by mole fraction).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Abundance",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "N",
+            "value": "~78.084% by volume (as N2, plus trace N2O)"
+          },
+          {
+            "rank": 2,
+            "code": "O",
+            "value": "~20.946% by volume (as O2, plus trace O3)"
+          },
+          {
+            "rank": 3,
+            "code": "Ar",
+            "value": "0.9340% by volume"
+          },
+          {
+            "rank": 4,
+            "code": "C",
+            "value": "~0.042% by volume (as CO2 ~420 ppm, plus ~1.9 ppm CH4)"
+          },
+          {
+            "rank": 5,
+            "code": "Ne",
+            "value": "18.18 ppm by volume"
+          },
+          {
+            "rank": 6,
+            "code": "He",
+            "value": "5.24 ppm by volume"
+          },
+          {
+            "rank": 7,
+            "code": "Kr",
+            "value": "1.14 ppm by volume"
+          },
+          {
+            "rank": 8,
+            "code": "H",
+            "value": "~0.55 ppm by volume (as H2)"
+          },
+          {
+            "rank": 9,
+            "code": "Xe",
+            "value": "~0.087 ppm by volume"
+          },
+          {
+            "rank": 10,
+            "code": "Rn",
+            "value": "~1e-13 ppm by volume (radiogenic trace)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-most-valuable-elements-by-price-per-gram-naturally-obtainable-excl",
+      "current": {
+        "title": "Most valuable elements by price per gram (commonly-traded precious metals)",
+        "prompt": "Rank the commonly-traded precious and platinum-group metals by their approximate price per gram, most expensive first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Rh",
+            "value": "~$300 per gram"
+          },
+          {
+            "rank": 2,
+            "code": "Ir",
+            "value": "~$175 per gram"
+          },
+          {
+            "rank": 3,
+            "code": "Au",
+            "value": "~$85 per gram"
+          },
+          {
+            "rank": 4,
+            "code": "Pt",
+            "value": "~$32 per gram"
+          },
+          {
+            "rank": 5,
+            "code": "Pd",
+            "value": "~$30 per gram"
+          },
+          {
+            "rank": 6,
+            "code": "Ru",
+            "value": "~$16 per gram"
+          },
+          {
+            "rank": 7,
+            "code": "Re",
+            "value": "~$5 per gram"
+          },
+          {
+            "rank": 8,
+            "code": "Ge",
+            "value": "~$1.20 per gram"
+          },
+          {
+            "rank": 9,
+            "code": "Ag",
+            "value": "~$0.95 per gram"
+          },
+          {
+            "rank": 10,
+            "code": "In",
+            "value": "~$0.30 per gram"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-essential-trace-elements-in-the-human-body-by-biological-necessity",
+      "current": {
+        "title": "Essential trace elements in the human body (ascending by body content)",
+        "prompt": "Rank the essential trace elements in the human body from smallest to largest by typical total mass in an adult body.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 10,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Co",
+            "value": "~3 mg in body (vitamin B12 core)"
+          },
+          {
+            "rank": 2,
+            "code": "Mo",
+            "value": "~5 mg in body (xanthine oxidase)"
+          },
+          {
+            "rank": 3,
+            "code": "Mn",
+            "value": "~12 mg in body (SOD, metabolism)"
+          },
+          {
+            "rank": 4,
+            "code": "I",
+            "value": "~13 mg in body (thyroid hormones)"
+          },
+          {
+            "rank": 5,
+            "code": "Cr",
+            "value": "~14 mg in body (glucose metabolism)"
+          },
+          {
+            "rank": 6,
+            "code": "Se",
+            "value": "~15 mg in body (glutathione peroxidase)"
+          },
+          {
+            "rank": 7,
+            "code": "Cu",
+            "value": "~72 mg in body (electron transport)"
+          },
+          {
+            "rank": 8,
+            "code": "Zn",
+            "value": "~2,300 mg in body (300+ enzymes)"
+          },
+          {
+            "rank": 9,
+            "code": "F",
+            "value": "~2,600 mg in body (bones and teeth)"
+          },
+          {
+            "rank": 10,
+            "code": "Fe",
+            "value": "~4,000 mg in body (hemoglobin, cytochromes)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-physical-lowest-densities-as-gases-at-stp-ascending-2024",
+      "current": {
+        "title": "Lowest densities as gases at STP (ascending)",
+        "prompt": "Rank the chemical elements that are gases at standard temperature and pressure by density, lightest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Physical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "H",
+            "value": "0.0899 g/L (as H2)"
+          },
+          {
+            "rank": 2,
+            "code": "He",
+            "value": "0.1786 g/L"
+          },
+          {
+            "rank": 3,
+            "code": "Ne",
+            "value": "0.9002 g/L"
+          },
+          {
+            "rank": 4,
+            "code": "N",
+            "value": "1.251 g/L (as N2)"
+          },
+          {
+            "rank": 5,
+            "code": "O",
+            "value": "1.429 g/L (as O2)"
+          },
+          {
+            "rank": 6,
+            "code": "F",
+            "value": "1.696 g/L (as F2)"
+          },
+          {
+            "rank": 7,
+            "code": "Ar",
+            "value": "1.784 g/L"
+          },
+          {
+            "rank": 8,
+            "code": "Cl",
+            "value": "3.214 g/L (as Cl2)"
+          },
+          {
+            "rank": 9,
+            "code": "Kr",
+            "value": "3.749 g/L"
+          },
+          {
+            "rank": 10,
+            "code": "Xe",
+            "value": "5.894 g/L"
+          },
+          {
+            "rank": 11,
+            "code": "Rn",
+            "value": "9.73 g/L"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-deep-dive-rarest-naturally-occurring-elements-in-earth-s-crust-2020",
+      "current": {
+        "title": "Rarest naturally-occurring elements in Earth's crust",
+        "prompt": "Name the elements that are rarest in the Earth's crust \u2014 those that occur only in trace or transient amounts from radioactive decay.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "At",
+            "value": "~1e-24 %"
+          },
+          {
+            "rank": 2,
+            "code": "Fr",
+            "value": "~1e-22 %"
+          },
+          {
+            "rank": 3,
+            "code": "Ac",
+            "value": "5.5e-14 %"
+          },
+          {
+            "rank": 4,
+            "code": "Po",
+            "value": "2e-14 %"
+          },
+          {
+            "rank": 5,
+            "code": "Pa",
+            "value": "1.4e-10 %"
+          },
+          {
+            "rank": 6,
+            "code": "Rn",
+            "value": "4e-13 %"
+          },
+          {
+            "rank": 7,
+            "code": "Ra",
+            "value": "9e-8 %"
+          },
+          {
+            "rank": 8,
+            "code": "Re",
+            "value": "7e-8 %"
+          },
+          {
+            "rank": 9,
+            "code": "Ir",
+            "value": "1e-7 %"
+          },
+          {
+            "rank": 9,
+            "code": "Ru",
+            "value": "1e-7 %"
+          },
+          {
+            "rank": 11,
+            "code": "Xe",
+            "value": "3e-9 %"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-abundance-most-abundant-elements-in-the-human-body-by-atom-count-2011",
+      "current": {
+        "title": "Most Abundant Elements in the Human Body by Atom Count",
+        "prompt": "Rank the chemical elements by number of atoms in the average adult human body.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Abundance",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "H",
+            "value": "~62% of body atoms"
+          },
+          {
+            "rank": 2,
+            "code": "O",
+            "value": "~24% of body atoms"
+          },
+          {
+            "rank": 3,
+            "code": "C",
+            "value": "~12% of body atoms"
+          },
+          {
+            "rank": 4,
+            "code": "N",
+            "value": "~1.1% of body atoms"
+          },
+          {
+            "rank": 5,
+            "code": "Ca",
+            "value": "~0.22% of body atoms"
+          },
+          {
+            "rank": 5,
+            "code": "P",
+            "value": "~0.22% of body atoms"
+          },
+          {
+            "rank": 7,
+            "code": "S",
+            "value": "~0.038% of body atoms"
+          },
+          {
+            "rank": 8,
+            "code": "Na",
+            "value": "~0.037% of body atoms"
+          },
+          {
+            "rank": 9,
+            "code": "K",
+            "value": "~0.033% of body atoms"
+          },
+          {
+            "rank": 10,
+            "code": "Cl",
+            "value": "~0.024% of body atoms"
+          },
+          {
+            "rank": 11,
+            "code": "Mg",
+            "value": "~0.0070% of body atoms"
+          },
+          {
+            "rank": 12,
+            "code": "F",
+            "value": "~0.00030% of body atoms"
+          },
+          {
+            "rank": 13,
+            "code": "Fe",
+            "value": "~0.00013% of body atoms"
+          },
+          {
+            "rank": 14,
+            "code": "Zn",
+            "value": "~0.00010% of body atoms"
+          },
+          {
+            "rank": 15,
+            "code": "Si",
+            "value": "~0.000094% of body atoms"
+          }
+        ]
+      }
+    }
+  ]
+}

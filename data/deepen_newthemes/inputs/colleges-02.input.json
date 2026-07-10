@@ -1,0 +1,628 @@
+{
+  "cluster": "colleges-02",
+  "questions": [
+    {
+      "id": "colleges-history-oldest-us-engineering-schools-2024",
+      "current": {
+        "title": "Oldest US engineering schools",
+        "prompt": "Name the oldest engineering schools/programs at US universities, by founding year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "army",
+            "value": "Engineering 1802"
+          },
+          {
+            "rank": 2,
+            "code": "rpi",
+            "value": "Engineering 1824"
+          },
+          {
+            "rank": 3,
+            "code": "virginia",
+            "value": "Engineering 1836"
+          },
+          {
+            "rank": 4,
+            "code": "harvard",
+            "value": "Engineering 1847"
+          },
+          {
+            "rank": 5,
+            "code": "penn",
+            "value": "Engineering 1852"
+          },
+          {
+            "rank": 6,
+            "code": "michigan",
+            "value": "Engineering 1854"
+          },
+          {
+            "rank": 6,
+            "code": "yale",
+            "value": "Engineering 1854"
+          },
+          {
+            "rank": 6,
+            "code": "brown",
+            "value": "Engineering 1854"
+          },
+          {
+            "rank": 9,
+            "code": "mit",
+            "value": "Engineering 1861"
+          },
+          {
+            "rank": 10,
+            "code": "columbia",
+            "value": "Engineering 1864"
+          },
+          {
+            "rank": 11,
+            "code": "lehigh",
+            "value": "Engineering 1866"
+          },
+          {
+            "rank": 12,
+            "code": "cornell",
+            "value": "Engineering 1868"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-business-schools-2024",
+      "current": {
+        "title": "Oldest US business schools",
+        "prompt": "Name the oldest collegiate business schools in the United States, by founding year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "penn",
+            "value": "Wharton founded 1881"
+          },
+          {
+            "rank": 2,
+            "code": "chicago",
+            "value": "Booth founded 1898"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "Haas founded 1898"
+          },
+          {
+            "rank": 4,
+            "code": "dartmouth",
+            "value": "Tuck founded 1900"
+          },
+          {
+            "rank": 4,
+            "code": "nyu",
+            "value": "Stern founded 1900"
+          },
+          {
+            "rank": 4,
+            "code": "wisconsin",
+            "value": "WSB founded 1900"
+          },
+          {
+            "rank": 7,
+            "code": "harvard",
+            "value": "HBS founded 1908"
+          },
+          {
+            "rank": 7,
+            "code": "northwestern",
+            "value": "Kellogg founded 1908"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "CBS founded 1916"
+          },
+          {
+            "rank": 10,
+            "code": "washu",
+            "value": "Olin founded 1917"
+          },
+          {
+            "rank": 11,
+            "code": "virginia",
+            "value": "McIntire founded 1921"
+          },
+          {
+            "rank": 12,
+            "code": "michigan",
+            "value": "Ross founded 1924"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-largest-campus-by-land-area-2023",
+      "current": {
+        "title": "Largest Campus by Land Area",
+        "prompt": "Name the US universities with the largest main campus by land area (acres).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "air-force",
+            "value": "18,500 acres"
+          },
+          {
+            "rank": 2,
+            "code": "clemson",
+            "value": "17,000 acres"
+          },
+          {
+            "rank": 3,
+            "code": "duke",
+            "value": "8,600 acres"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "8,180 acres"
+          },
+          {
+            "rank": 5,
+            "code": "penn-state",
+            "value": "7,300 acres"
+          },
+          {
+            "rank": 6,
+            "code": "texas-am",
+            "value": "5,500 acres"
+          },
+          {
+            "rank": 7,
+            "code": "michigan-state",
+            "value": "5,200 acres"
+          },
+          {
+            "rank": 8,
+            "code": "purdue",
+            "value": "2,600 acres"
+          },
+          {
+            "rank": 8,
+            "code": "virginia-tech",
+            "value": "2,600 acres (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "2,300 acres"
+          },
+          {
+            "rank": 11,
+            "code": "auburn",
+            "value": "1,875 acres"
+          },
+          {
+            "rank": 12,
+            "code": "arizona-state",
+            "value": "660 acres"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-sticker-price-tuition-2023",
+      "current": {
+        "title": "Highest Sticker-Price Tuition",
+        "prompt": "Name the US colleges with the highest published annual undergraduate tuition (before financial aid).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "columbia",
+            "value": "$68,400"
+          },
+          {
+            "rank": 2,
+            "code": "usc",
+            "value": "$66,600"
+          },
+          {
+            "rank": 3,
+            "code": "penn",
+            "value": "$66,100"
+          },
+          {
+            "rank": 4,
+            "code": "brown",
+            "value": "$65,900"
+          },
+          {
+            "rank": 5,
+            "code": "harvey-mudd",
+            "value": "$65,400"
+          },
+          {
+            "rank": 5,
+            "code": "duke",
+            "value": "$65,400 (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "tufts",
+            "value": "$65,200"
+          },
+          {
+            "rank": 8,
+            "code": "dartmouth",
+            "value": "$65,000"
+          },
+          {
+            "rank": 8,
+            "code": "northwestern",
+            "value": "$65,000 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "yale",
+            "value": "$64,700"
+          },
+          {
+            "rank": 11,
+            "code": "vanderbilt",
+            "value": "$63,900"
+          },
+          {
+            "rank": 12,
+            "code": "harvard",
+            "value": "$59,100"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-total-cost-of-attendance-2023",
+      "current": {
+        "title": "Highest Total Cost of Attendance",
+        "prompt": "Name the US colleges with the highest total published cost of attendance (tuition + fees + room + board).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvey-mudd",
+            "value": "$89,900"
+          },
+          {
+            "rank": 2,
+            "code": "usc",
+            "value": "$88,000"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "$87,000"
+          },
+          {
+            "rank": 3,
+            "code": "penn",
+            "value": "$87,000 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "brown",
+            "value": "$86,900"
+          },
+          {
+            "rank": 6,
+            "code": "tufts",
+            "value": "$86,000"
+          },
+          {
+            "rank": 7,
+            "code": "duke",
+            "value": "$85,900"
+          },
+          {
+            "rank": 8,
+            "code": "dartmouth",
+            "value": "$85,700"
+          },
+          {
+            "rank": 8,
+            "code": "wesleyan",
+            "value": "$85,700 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "yale",
+            "value": "$85,000"
+          },
+          {
+            "rank": 10,
+            "code": "vanderbilt",
+            "value": "$85,000 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "northwestern",
+            "value": "$85,000 (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-lowest-in-state-tuition-public-flagships-2023",
+      "current": {
+        "title": "Lowest In-State Tuition (Public Flagships)",
+        "prompt": "Name the US public flagship universities with the lowest published in-state undergraduate tuition and fees.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wyoming",
+            "value": "$5,900"
+          },
+          {
+            "rank": 2,
+            "code": "florida",
+            "value": "$6,400"
+          },
+          {
+            "rank": 3,
+            "code": "montana",
+            "value": "$7,900"
+          },
+          {
+            "rank": 4,
+            "code": "idaho",
+            "value": "$8,700"
+          },
+          {
+            "rank": 5,
+            "code": "unm",
+            "value": "$8,900"
+          },
+          {
+            "rank": 6,
+            "code": "north-dakota",
+            "value": "$9,300"
+          },
+          {
+            "rank": 7,
+            "code": "utah",
+            "value": "$9,500"
+          },
+          {
+            "rank": 7,
+            "code": "nevada",
+            "value": "$9,500 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "mississippi-state",
+            "value": "$9,600"
+          },
+          {
+            "rank": 10,
+            "code": "arkansas",
+            "value": "$10,200"
+          },
+          {
+            "rank": 11,
+            "code": "iowa-state",
+            "value": "$10,500"
+          },
+          {
+            "rank": 12,
+            "code": "oklahoma",
+            "value": "$12,000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-deep-dive-largest-university-library-holdings-physical-volumes-2022",
+      "current": {
+        "title": "Largest university library holdings (physical volumes)",
+        "prompt": "Name the US universities whose main library systems hold the most physical volumes.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "20.4M volumes"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "15.1M volumes"
+          },
+          {
+            "rank": 3,
+            "code": "illinois",
+            "value": "14.3M volumes"
+          },
+          {
+            "rank": 4,
+            "code": "michigan",
+            "value": "13.9M volumes"
+          },
+          {
+            "rank": 5,
+            "code": "berkeley",
+            "value": "13.1M volumes"
+          },
+          {
+            "rank": 6,
+            "code": "columbia",
+            "value": "12.6M volumes"
+          },
+          {
+            "rank": 7,
+            "code": "texas",
+            "value": "11.5M volumes"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "11.2M volumes"
+          },
+          {
+            "rank": 9,
+            "code": "ucla",
+            "value": "10.7M volumes"
+          },
+          {
+            "rank": 10,
+            "code": "chicago",
+            "value": "10.5M volumes"
+          },
+          {
+            "rank": 11,
+            "code": "wisconsin",
+            "value": "9.9M volumes"
+          },
+          {
+            "rank": 12,
+            "code": "indiana",
+            "value": "9.5M volumes"
+          },
+          {
+            "rank": 13,
+            "code": "princeton",
+            "value": "9.3M volumes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-d1-men-s-basketball-titles-2024",
+      "current": {
+        "title": "Most NCAA D1 men's basketball titles",
+        "prompt": "Name the colleges that have won the most NCAA Division I men's basketball championships.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ucla",
+            "value": "11 titles"
+          },
+          {
+            "rank": 2,
+            "code": "kentucky",
+            "value": "8 titles"
+          },
+          {
+            "rank": 3,
+            "code": "unc",
+            "value": "6 titles"
+          },
+          {
+            "rank": 3,
+            "code": "connecticut",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "duke",
+            "value": "5 titles"
+          },
+          {
+            "rank": 5,
+            "code": "indiana",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "kansas",
+            "value": "4 titles"
+          },
+          {
+            "rank": 8,
+            "code": "villanova",
+            "value": "3 titles"
+          },
+          {
+            "rank": 8,
+            "code": "louisville",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "michigan-state",
+            "value": "2 titles"
+          },
+          {
+            "rank": 10,
+            "code": "florida",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "nc-state",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "oklahoma-state",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "michigan",
+            "value": "1 title"
+          }
+        ]
+      }
+    }
+  ]
+}

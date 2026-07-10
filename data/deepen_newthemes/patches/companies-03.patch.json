@@ -1,0 +1,91 @@
+{
+  "cluster": "companies-03",
+  "updates": [
+    {
+      "id": "companies-history-oldest-fortune-500-companies-founding-year",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "JPM", "value": "founded 1799" },
+          { "rank": 2, "code": "C", "value": "founded 1812" },
+          { "rank": 3, "code": "DE", "value": "founded 1837" },
+          { "rank": 3, "code": "PG", "value": "founded 1837 (tied)" },
+          { "rank": 5, "code": "PFE", "value": "founded 1849" },
+          { "rank": 6, "code": "cargill", "value": "founded 1865" },
+          { "rank": 7, "code": "MET", "value": "founded 1868" },
+          { "rank": 8, "code": "XOM", "value": "founded 1870" },
+          { "rank": 9, "code": "PRU", "value": "founded 1875" },
+          { "rank": 10, "code": "T", "value": "founded 1877" },
+          { "rank": 11, "code": "CVX", "value": "founded 1879" },
+          { "rank": 12, "code": "JNJ", "value": "founded 1886" },
+          { "rank": 12, "code": "KO", "value": "founded 1886 (tied)" },
+          { "rank": 14, "code": "MRK", "value": "founded 1891" },
+          { "rank": 15, "code": "GE", "value": "founded 1892" },
+          { "rank": 16, "code": "PEP", "value": "founded 1898" },
+          { "rank": 17, "code": "MMM", "value": "founded 1902" },
+          { "rank": 18, "code": "F", "value": "founded 1903" },
+          { "rank": 19, "code": "UPS", "value": "founded 1907" },
+          { "rank": 20, "code": "GM", "value": "founded 1908" },
+          { "rank": 21, "code": "IBM", "value": "founded 1911" }
+        ],
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "companies-longest-established-companies-oldest-first",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "JPM", "value": "founded 1799" },
+          { "rank": 2, "code": "C", "value": "founded 1812" },
+          { "rank": 3, "code": "DE", "value": "founded 1837" },
+          { "rank": 3, "code": "PG", "value": "founded 1837 (tied)" },
+          { "rank": 5, "code": "PFE", "value": "founded 1849" },
+          { "rank": 6, "code": "MET", "value": "founded 1868" },
+          { "rank": 7, "code": "XOM", "value": "founded 1870" },
+          { "rank": 8, "code": "PRU", "value": "founded 1875" },
+          { "rank": 9, "code": "T", "value": "founded 1877" },
+          { "rank": 10, "code": "CVX", "value": "founded 1879" },
+          { "rank": 11, "code": "JNJ", "value": "founded 1886" },
+          { "rank": 11, "code": "KO", "value": "founded 1886 (tied)" },
+          { "rank": 13, "code": "MRK", "value": "founded 1891" },
+          { "rank": 14, "code": "GE", "value": "founded 1892" },
+          { "rank": 15, "code": "PEP", "value": "founded 1898" },
+          { "rank": 16, "code": "MMM", "value": "founded 1902" },
+          { "rank": 17, "code": "F", "value": "founded 1903" },
+          { "rank": 18, "code": "UPS", "value": "founded 1907" },
+          { "rank": 19, "code": "GM", "value": "founded 1908" },
+          { "rank": 20, "code": "IBM", "value": "founded 1911" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "companies-largest-by-market-capitalization-2025",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "NVDA", "value": "$3.4T market cap" },
+          { "rank": 2, "code": "MSFT", "value": "$3.3T market cap" },
+          { "rank": 3, "code": "AAPL", "value": "$3.2T market cap" },
+          { "rank": 4, "code": "GOOGL", "value": "$2.1T market cap" },
+          { "rank": 5, "code": "AMZN", "value": "$2.0T market cap" },
+          { "rank": 6, "code": "META", "value": "$1.5T market cap" },
+          { "rank": 7, "code": "BRK.B", "value": "$970B market cap" },
+          { "rank": 8, "code": "TSLA", "value": "$800B market cap" },
+          { "rank": 9, "code": "LLY", "value": "$780B market cap" },
+          { "rank": 10, "code": "AVGO", "value": "$770B market cap" },
+          { "rank": 11, "code": "JPM", "value": "$620B market cap" },
+          { "rank": 12, "code": "V", "value": "$540B market cap" },
+          { "rank": 13, "code": "WMT", "value": "$530B market cap" },
+          { "rank": 14, "code": "XOM", "value": "$480B market cap" },
+          { "rank": 15, "code": "UNH", "value": "$470B market cap" },
+          { "rank": 16, "code": "JNJ", "value": "$390B market cap" },
+          { "rank": 17, "code": "PG", "value": "$385B market cap" },
+          { "rank": 18, "code": "ORCL", "value": "$380B market cap" },
+          { "rank": 19, "code": "HD", "value": "$370B market cap" },
+          { "rank": 20, "code": "MRK", "value": "$310B market cap" }
+        ],
+        "seededDepth": 20
+      }
+    }
+  ],
+  "deletions": []
+}

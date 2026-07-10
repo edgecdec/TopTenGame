@@ -1,0 +1,863 @@
+{
+  "cluster": "movies-01",
+  "questions": [
+    {
+      "id": "movies-highest-grossing-best-picture-winners-adjusted-for-inflation-2024",
+      "current": {
+        "title": "Highest grossing Best Picture winners (adjusted for inflation)",
+        "prompt": "Name the Best Picture winners with the highest domestic box office adjusted for ticket-price inflation.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gone-with-the-wind-1939",
+            "value": "~$1.9B adjusted domestic"
+          },
+          {
+            "rank": 2,
+            "code": "titanic-1997",
+            "value": "~$1.35B adjusted domestic"
+          },
+          {
+            "rank": 3,
+            "code": "sound-of-music-1965",
+            "value": "~$1.32B adjusted domestic"
+          },
+          {
+            "rank": 4,
+            "code": "ben-hur-1959",
+            "value": "~$920M adjusted domestic"
+          },
+          {
+            "rank": 5,
+            "code": "godfather-1972",
+            "value": "~$800M adjusted domestic"
+          },
+          {
+            "rank": 6,
+            "code": "forrest-gump-1994",
+            "value": "~$742M adjusted domestic"
+          },
+          {
+            "rank": 7,
+            "code": "west-side-story-1961",
+            "value": "~$740M adjusted domestic"
+          },
+          {
+            "rank": 8,
+            "code": "sting-1973",
+            "value": "~$720M adjusted domestic"
+          },
+          {
+            "rank": 9,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "~$630M adjusted domestic"
+          },
+          {
+            "rank": 9,
+            "code": "rocky-1976",
+            "value": "~$630M adjusted domestic (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "~$630M adjusted domestic (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "my-fair-lady-1964",
+            "value": "~$610M adjusted domestic"
+          },
+          {
+            "rank": 13,
+            "code": "patton-1970",
+            "value": "~$490M adjusted domestic"
+          },
+          {
+            "rank": 14,
+            "code": "rain-man-1988",
+            "value": "~$430M adjusted domestic"
+          },
+          {
+            "rank": 15,
+            "code": "dances-with-wolves-1990",
+            "value": "~$425M adjusted domestic"
+          },
+          {
+            "rank": 16,
+            "code": "gladiator-2000",
+            "value": "~$405M adjusted domestic"
+          },
+          {
+            "rank": 17,
+            "code": "oppenheimer-2023",
+            "value": "~$340M adjusted domestic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-a-best-original-score-win-2024",
+      "current": {
+        "title": "Best Picture winners with a Best Original Score win",
+        "prompt": "Name Best Picture winners that also took home the Oscar for Best Original Score (a.k.a. Music - Original Dramatic/Comedy Score) at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "artist-2011",
+            "value": "Ludovic Bource (2011)"
+          },
+          {
+            "rank": 2,
+            "code": "slumdog-millionaire-2008",
+            "value": "A. R. Rahman (2008)"
+          },
+          {
+            "rank": 3,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "Howard Shore (2003)"
+          },
+          {
+            "rank": 4,
+            "code": "titanic-1997",
+            "value": "James Horner (1997)"
+          },
+          {
+            "rank": 5,
+            "code": "schindlers-list-1993",
+            "value": "John Williams (1993)"
+          },
+          {
+            "rank": 6,
+            "code": "amadeus-1984",
+            "value": "Adaptation Score (1984)"
+          },
+          {
+            "rank": 7,
+            "code": "godfather-part-ii-1974",
+            "value": "Nino Rota / Carmine Coppola (1974)"
+          },
+          {
+            "rank": 8,
+            "code": "sound-of-music-1965",
+            "value": "Adaptation Score (1965)"
+          },
+          {
+            "rank": 9,
+            "code": "lawrence-of-arabia-1962",
+            "value": "Maurice Jarre (1962)"
+          },
+          {
+            "rank": 10,
+            "code": "west-side-story-1961",
+            "value": "Adaptation Score (1961)"
+          },
+          {
+            "rank": 11,
+            "code": "ben-hur-1959",
+            "value": "Miklos Rozsa (1959)"
+          },
+          {
+            "rank": 12,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "Malcolm Arnold (1957)"
+          },
+          {
+            "rank": 13,
+            "code": "around-the-world-in-80-days-1956",
+            "value": "Victor Young (1956)"
+          },
+          {
+            "rank": 14,
+            "code": "casablanca-1943",
+            "value": "Max Steiner (1943)"
+          },
+          {
+            "rank": 15,
+            "code": "how-green-was-my-valley-1941",
+            "value": "Alfred Newman (1941)"
+          },
+          {
+            "rank": 16,
+            "code": "rebecca-1940",
+            "value": "Franz Waxman (1940)"
+          },
+          {
+            "rank": 17,
+            "code": "gone-with-the-wind-1939",
+            "value": "Max Steiner (1939)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-most-best-picture-nominations-without-ever-winning-2025",
+      "current": {
+        "title": "Most Oscar nominations by a BP nominee that never won BP",
+        "prompt": "Films that were nominated for Best Picture but lost, ranked by total Academy Award nominations across all categories that year (BP included). Non-BP wins are allowed \u2014 the film simply did not win Best Picture.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "la-la-land-2016",
+            "value": "14 nominations, 6 wins (not BP)"
+          },
+          {
+            "rank": 2,
+            "code": "mary-poppins-1964",
+            "value": "13 nominations, 5 wins (not BP)"
+          },
+          {
+            "rank": 3,
+            "code": "reds-1981",
+            "value": "12 nominations, 3 wins (not BP)"
+          },
+          {
+            "rank": 4,
+            "code": "turning-point-1977",
+            "value": "11 nominations, 0 wins"
+          },
+          {
+            "rank": 4,
+            "code": "color-purple-1985",
+            "value": "11 nominations, 0 wins (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "chinatown-1974",
+            "value": "11 nominations, 1 win (not BP) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "julia-1977",
+            "value": "11 nominations, 3 wins (not BP) (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "aviator-2004",
+            "value": "11 nominations, 5 wins (not BP) (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "gangs-of-new-york-2002",
+            "value": "10 nominations, 0 wins"
+          },
+          {
+            "rank": 9,
+            "code": "bonnie-and-clyde-1967",
+            "value": "10 nominations, 2 wins (not BP) (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "doctor-zhivago-1965",
+            "value": "10 nominations, 5 wins (not BP) (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "dune-2021",
+            "value": "10 nominations, 6 wins (not BP) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "citizen-kane-1941",
+            "value": "9 nominations, 1 win (not BP)"
+          },
+          {
+            "rank": 14,
+            "code": "raging-bull-1980",
+            "value": "8 nominations, 2 wins (not BP)"
+          },
+          {
+            "rank": 15,
+            "code": "shawshank-redemption-1994",
+            "value": "7 nominations, 0 wins"
+          },
+          {
+            "rank": 15,
+            "code": "pulp-fiction-1994",
+            "value": "7 nominations, 1 win (not BP) (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "fargo-1996",
+            "value": "7 nominations, 2 wins (not BP) (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-nominees-highest-imdb-rating-among-best-picture-nominees-that-did-not-win",
+      "current": {
+        "title": "Highest IMDb rating among Best Picture nominees that did NOT win",
+        "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by current IMDb user rating.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "shawshank-redemption-1994",
+            "value": "9.3 / 10"
+          },
+          {
+            "rank": 2,
+            "code": "12-angry-men-1957",
+            "value": "9.0 / 10"
+          },
+          {
+            "rank": 3,
+            "code": "pulp-fiction-1994",
+            "value": "8.9 / 10"
+          },
+          {
+            "rank": 3,
+            "code": "lord-of-the-rings-fellowship-of-the-ring-2001",
+            "value": "8.9 / 10 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "inception-2010",
+            "value": "8.8 / 10"
+          },
+          {
+            "rank": 5,
+            "code": "lord-of-the-rings-two-towers-2002",
+            "value": "8.8 / 10 (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "goodfellas-1990",
+            "value": "8.7 / 10"
+          },
+          {
+            "rank": 8,
+            "code": "star-wars-1977",
+            "value": "8.6 / 10"
+          },
+          {
+            "rank": 8,
+            "code": "saving-private-ryan-1998",
+            "value": "8.6 / 10 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "whiplash-2014",
+            "value": "8.5 / 10"
+          },
+          {
+            "rank": 11,
+            "code": "raiders-of-the-lost-ark-1981",
+            "value": "8.4 / 10"
+          },
+          {
+            "rank": 11,
+            "code": "apocalypse-now-1979",
+            "value": "8.4 / 10 (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "dr-strangelove-1964",
+            "value": "8.4 / 10 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "citizen-kane-1941",
+            "value": "8.3 / 10"
+          },
+          {
+            "rank": 14,
+            "code": "clockwork-orange-1971",
+            "value": "8.3 / 10 (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "taxi-driver-1976",
+            "value": "8.2 / 10"
+          },
+          {
+            "rank": 16,
+            "code": "fargo-1996",
+            "value": "8.2 / 10 (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-domestic-us-box-office-among-best-picture-winners-unad",
+      "current": {
+        "title": "Highest domestic (US) box office among Best Picture winners (unadjusted)",
+        "prompt": "Name the Best Picture winners with the highest lifetime US domestic box office (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 18,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$674M domestic"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$378M domestic"
+          },
+          {
+            "rank": 3,
+            "code": "forrest-gump-1994",
+            "value": "$330M domestic"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$330M domestic (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "gone-with-the-wind-1939",
+            "value": "$200M domestic (with re-releases)"
+          },
+          {
+            "rank": 6,
+            "code": "gladiator-2000",
+            "value": "$188M domestic"
+          },
+          {
+            "rank": 7,
+            "code": "dances-with-wolves-1990",
+            "value": "$184M domestic"
+          },
+          {
+            "rank": 8,
+            "code": "rain-man-1988",
+            "value": "$173M domestic"
+          },
+          {
+            "rank": 9,
+            "code": "beautiful-mind-2001",
+            "value": "$171M domestic"
+          },
+          {
+            "rank": 9,
+            "code": "chicago-2002",
+            "value": "$171M domestic (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "sound-of-music-1965",
+            "value": "$163M domestic"
+          },
+          {
+            "rank": 12,
+            "code": "sting-1973",
+            "value": "$156M domestic"
+          },
+          {
+            "rank": 13,
+            "code": "slumdog-millionaire-2008",
+            "value": "$141M domestic"
+          },
+          {
+            "rank": 14,
+            "code": "kings-speech-2010",
+            "value": "$139M domestic"
+          },
+          {
+            "rank": 15,
+            "code": "godfather-1972",
+            "value": "$134M domestic"
+          },
+          {
+            "rank": 16,
+            "code": "departed-2006",
+            "value": "$132M domestic"
+          },
+          {
+            "rank": 17,
+            "code": "american-beauty-1999",
+            "value": "$130M domestic"
+          },
+          {
+            "rank": 18,
+            "code": "rocky-1976",
+            "value": "$117M domestic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-shortest-runtime-among-best-picture-winners-2024",
+      "current": {
+        "title": "Shortest runtime among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the shortest theatrical runtimes.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 20,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "marty-1955",
+            "value": "91 min"
+          },
+          {
+            "rank": 2,
+            "code": "annie-hall-1977",
+            "value": "93 min"
+          },
+          {
+            "rank": 3,
+            "code": "broadway-melody-1929",
+            "value": "100 min"
+          },
+          {
+            "rank": 4,
+            "code": "it-happened-one-night-1934",
+            "value": "105 min"
+          },
+          {
+            "rank": 4,
+            "code": "kramer-vs-kramer-1979",
+            "value": "105 min (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "moonlight-2016",
+            "value": "111 min"
+          },
+          {
+            "rank": 6,
+            "code": "coda-2021",
+            "value": "111 min (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "grand-hotel-1932",
+            "value": "112 min"
+          },
+          {
+            "rank": 8,
+            "code": "cavalcade-1933",
+            "value": "112 min (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "crash-2005",
+            "value": "112 min (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "midnight-cowboy-1969",
+            "value": "113 min"
+          },
+          {
+            "rank": 12,
+            "code": "rocky-1976",
+            "value": "120 min"
+          },
+          {
+            "rank": 12,
+            "code": "argo-2012",
+            "value": "120 min (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "american-beauty-1999",
+            "value": "122 min"
+          },
+          {
+            "rank": 15,
+            "code": "ordinary-people-1980",
+            "value": "124 min"
+          },
+          {
+            "rank": 16,
+            "code": "you-cant-take-it-with-you-1938",
+            "value": "126 min"
+          },
+          {
+            "rank": 17,
+            "code": "spotlight-2015",
+            "value": "129 min"
+          },
+          {
+            "rank": 18,
+            "code": "green-book-2018",
+            "value": "130 min"
+          },
+          {
+            "rank": 19,
+            "code": "rain-man-1988",
+            "value": "133 min"
+          },
+          {
+            "rank": 20,
+            "code": "wings-1927",
+            "value": "144 min"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-production-budget-among-best-picture-winners-2024",
+      "current": {
+        "title": "Highest production budget among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the largest production budget (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 20,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$200M budget"
+          },
+          {
+            "rank": 2,
+            "code": "gladiator-2000",
+            "value": "$103M budget"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$100M budget"
+          },
+          {
+            "rank": 4,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$94M budget"
+          },
+          {
+            "rank": 5,
+            "code": "departed-2006",
+            "value": "$90M budget"
+          },
+          {
+            "rank": 6,
+            "code": "braveheart-1995",
+            "value": "$72M budget"
+          },
+          {
+            "rank": 7,
+            "code": "beautiful-mind-2001",
+            "value": "$58M budget"
+          },
+          {
+            "rank": 8,
+            "code": "chicago-2002",
+            "value": "$45M budget"
+          },
+          {
+            "rank": 9,
+            "code": "argo-2012",
+            "value": "$44.5M budget"
+          },
+          {
+            "rank": 10,
+            "code": "million-dollar-baby-2004",
+            "value": "$30M budget"
+          },
+          {
+            "rank": 11,
+            "code": "out-of-africa-1985",
+            "value": "$28M budget"
+          },
+          {
+            "rank": 12,
+            "code": "english-patient-1996",
+            "value": "$27M budget"
+          },
+          {
+            "rank": 13,
+            "code": "last-emperor-1987",
+            "value": "$23.8M budget"
+          },
+          {
+            "rank": 14,
+            "code": "green-book-2018",
+            "value": "$23M budget"
+          },
+          {
+            "rank": 15,
+            "code": "dances-with-wolves-1990",
+            "value": "$22M budget"
+          },
+          {
+            "rank": 16,
+            "code": "amadeus-1984",
+            "value": "$18M budget"
+          },
+          {
+            "rank": 17,
+            "code": "ben-hur-1959",
+            "value": "$15.2M budget"
+          },
+          {
+            "rank": 18,
+            "code": "american-beauty-1999",
+            "value": "$15M budget"
+          },
+          {
+            "rank": 18,
+            "code": "kings-speech-2010",
+            "value": "$15M budget (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "gone-with-the-wind-1939",
+            "value": "$3.85M budget"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-oldest-lead-actor-2024",
+      "current": {
+        "title": "Best Picture winners with the oldest lead actor",
+        "prompt": "Name Best Picture winners whose lead (top-billed) actor or actress was oldest at the time of the film's release.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 20,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "driving-miss-daisy-1989",
+            "value": "Jessica Tandy \u2014 80"
+          },
+          {
+            "rank": 2,
+            "code": "million-dollar-baby-2004",
+            "value": "Clint Eastwood \u2014 74"
+          },
+          {
+            "rank": 3,
+            "code": "spotlight-2015",
+            "value": "Michael Keaton \u2014 64"
+          },
+          {
+            "rank": 4,
+            "code": "nomadland-2020",
+            "value": "Frances McDormand \u2014 63"
+          },
+          {
+            "rank": 4,
+            "code": "birdman-2014",
+            "value": "Michael Keaton \u2014 63 (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "unforgiven-1992",
+            "value": "Clint Eastwood \u2014 62"
+          },
+          {
+            "rank": 7,
+            "code": "no-country-for-old-men-2007",
+            "value": "Tommy Lee Jones \u2014 61"
+          },
+          {
+            "rank": 8,
+            "code": "green-book-2018",
+            "value": "Viggo Mortensen \u2014 60"
+          },
+          {
+            "rank": 9,
+            "code": "coda-2021",
+            "value": "Marlee Matlin \u2014 56"
+          },
+          {
+            "rank": 10,
+            "code": "anora-2024",
+            "value": "Mark Eydelshteyn \u2014 52"
+          },
+          {
+            "rank": 11,
+            "code": "rain-man-1988",
+            "value": "Dustin Hoffman \u2014 51"
+          },
+          {
+            "rank": 12,
+            "code": "kings-speech-2010",
+            "value": "Colin Firth \u2014 50"
+          },
+          {
+            "rank": 13,
+            "code": "out-of-africa-1985",
+            "value": "Robert Redford \u2014 48"
+          },
+          {
+            "rank": 13,
+            "code": "godfather-1972",
+            "value": "Marlon Brando \u2014 48 (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "amadeus-1984",
+            "value": "F. Murray Abraham \u2014 45"
+          },
+          {
+            "rank": 16,
+            "code": "patton-1970",
+            "value": "George C. Scott \u2014 43"
+          },
+          {
+            "rank": 17,
+            "code": "argo-2012",
+            "value": "Ben Affleck \u2014 40"
+          },
+          {
+            "rank": 18,
+            "code": "gandhi-1982",
+            "value": "Ben Kingsley \u2014 39"
+          },
+          {
+            "rank": 19,
+            "code": "beautiful-mind-2001",
+            "value": "Russell Crowe \u2014 37"
+          },
+          {
+            "rank": 20,
+            "code": "gladiator-2000",
+            "value": "Russell Crowe \u2014 36"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1048 @@
+{
+  "cluster": "movies-02",
+  "questions": [
+    {
+      "id": "movies-nominees-most-best-picture-nominated-films-by-a-single-director-2025",
+      "current": {
+        "title": "Most Best Picture-nominated films by a single director",
+        "prompt": "Best Picture nominees directed by the same filmmaker \u2014 one film per row, grouped by directors with the largest total count of Best Picture nominations across their careers.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Nominees",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 21,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "best-years-of-our-lives-1946",
+            "value": "William Wyler (13 BP-nom films)"
+          },
+          {
+            "rank": 2,
+            "code": "ben-hur-1959",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 3,
+            "code": "mrs-miniver-1942",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 4,
+            "code": "wuthering-heights-1939",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 5,
+            "code": "letter-1940",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 6,
+            "code": "little-foxes-1941",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 7,
+            "code": "friendly-persuasion-1956",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 8,
+            "code": "dodsworth-1936",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 9,
+            "code": "heiress-1949",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 10,
+            "code": "roman-holiday-1953",
+            "value": "William Wyler"
+          },
+          {
+            "rank": 11,
+            "code": "schindlers-list-1993",
+            "value": "Steven Spielberg (12 BP-nom films)"
+          },
+          {
+            "rank": 12,
+            "code": "saving-private-ryan-1998",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 13,
+            "code": "lincoln-2012",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 14,
+            "code": "munich-2005",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 15,
+            "code": "west-side-story-2021",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 16,
+            "code": "fabelmans-2022",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 17,
+            "code": "jaws-1975",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 18,
+            "code": "color-purple-1985",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 19,
+            "code": "war-horse-2011",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 20,
+            "code": "bridge-of-spies-2015",
+            "value": "Steven Spielberg"
+          },
+          {
+            "rank": 21,
+            "code": "post-2017",
+            "value": "Steven Spielberg"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-most-oscar-wins-by-a-best-picture-winner-2024",
+      "current": {
+        "title": "Most Oscar wins by a Best Picture winner",
+        "prompt": "Name the Best Picture winners that took home the most total Oscars in a single ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 22,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ben-hur-1959",
+            "value": "11 wins"
+          },
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "11 wins (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "11 wins (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "west-side-story-1961",
+            "value": "10 wins"
+          },
+          {
+            "rank": 5,
+            "code": "gigi-1958",
+            "value": "9 wins"
+          },
+          {
+            "rank": 5,
+            "code": "last-emperor-1987",
+            "value": "9 wins (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "english-patient-1996",
+            "value": "9 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "gone-with-the-wind-1939",
+            "value": "8 wins"
+          },
+          {
+            "rank": 8,
+            "code": "from-here-to-eternity-1953",
+            "value": "8 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "on-the-waterfront-1954",
+            "value": "8 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "my-fair-lady-1964",
+            "value": "8 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "gandhi-1982",
+            "value": "8 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "amadeus-1984",
+            "value": "8 wins (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "slumdog-millionaire-2008",
+            "value": "8 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "best-years-of-our-lives-1946",
+            "value": "7 wins"
+          },
+          {
+            "rank": 15,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "7 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "patton-1970",
+            "value": "7 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "schindlers-list-1993",
+            "value": "7 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "dances-with-wolves-1990",
+            "value": "7 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "shakespeare-in-love-1998",
+            "value": "7 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "7 wins (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "oppenheimer-2023",
+            "value": "7 wins (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-longest-runtime-among-best-picture-winners-2024",
+      "current": {
+        "title": "Longest runtime among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the longest theatrical runtimes.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 22,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "gone-with-the-wind-1939",
+            "value": "238 min"
+          },
+          {
+            "rank": 2,
+            "code": "lawrence-of-arabia-1962",
+            "value": "228 min"
+          },
+          {
+            "rank": 3,
+            "code": "ben-hur-1959",
+            "value": "212 min"
+          },
+          {
+            "rank": 4,
+            "code": "godfather-part-ii-1974",
+            "value": "202 min"
+          },
+          {
+            "rank": 5,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "201 min"
+          },
+          {
+            "rank": 6,
+            "code": "schindlers-list-1993",
+            "value": "195 min"
+          },
+          {
+            "rank": 7,
+            "code": "titanic-1997",
+            "value": "194 min"
+          },
+          {
+            "rank": 8,
+            "code": "gandhi-1982",
+            "value": "191 min"
+          },
+          {
+            "rank": 9,
+            "code": "deer-hunter-1978",
+            "value": "183 min"
+          },
+          {
+            "rank": 10,
+            "code": "dances-with-wolves-1990",
+            "value": "181 min"
+          },
+          {
+            "rank": 11,
+            "code": "oppenheimer-2023",
+            "value": "180 min"
+          },
+          {
+            "rank": 12,
+            "code": "braveheart-1995",
+            "value": "178 min"
+          },
+          {
+            "rank": 13,
+            "code": "around-the-world-in-80-days-1956",
+            "value": "175 min"
+          },
+          {
+            "rank": 13,
+            "code": "godfather-1972",
+            "value": "175 min (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "sound-of-music-1965",
+            "value": "174 min"
+          },
+          {
+            "rank": 16,
+            "code": "best-years-of-our-lives-1946",
+            "value": "172 min"
+          },
+          {
+            "rank": 16,
+            "code": "patton-1970",
+            "value": "172 min (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "last-emperor-1987",
+            "value": "163 min"
+          },
+          {
+            "rank": 19,
+            "code": "english-patient-1996",
+            "value": "162 min"
+          },
+          {
+            "rank": 20,
+            "code": "amadeus-1984",
+            "value": "161 min"
+          },
+          {
+            "rank": 20,
+            "code": "out-of-africa-1985",
+            "value": "161 min (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "west-side-story-1961",
+            "value": "153 min"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-most-oscar-nominations-received-by-a-best-picture-winner-2024",
+      "current": {
+        "title": "Most Oscar nominations received by a Best Picture winner",
+        "prompt": "Name the Best Picture winners that received the most total Oscar nominations at their ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 23,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "all-about-eve-1950",
+            "value": "14 nominations"
+          },
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "14 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "gone-with-the-wind-1939",
+            "value": "13 nominations"
+          },
+          {
+            "rank": 3,
+            "code": "from-here-to-eternity-1953",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "shakespeare-in-love-1998",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "chicago-2002",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "13 nominations (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "english-patient-1996",
+            "value": "12 nominations"
+          },
+          {
+            "rank": 8,
+            "code": "on-the-waterfront-1954",
+            "value": "12 nominations (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "ben-hur-1959",
+            "value": "12 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "11 nominations"
+          },
+          {
+            "rank": 11,
+            "code": "godfather-1972",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "godfather-part-ii-1974",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "amadeus-1984",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "west-side-story-1961",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "forrest-gump-1994",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "shape-of-water-2017",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "11 nominations (tied)"
+          },
+          {
+            "rank": 19,
+            "code": "mrs-miniver-1942",
+            "value": "10 nominations"
+          },
+          {
+            "rank": 20,
+            "code": "gigi-1958",
+            "value": "9 nominations"
+          },
+          {
+            "rank": 20,
+            "code": "my-fair-lady-1964",
+            "value": "9 nominations (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "sound-of-music-1965",
+            "value": "9 nominations (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "million-dollar-baby-2004",
+            "value": "9 nominations (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-that-also-won-the-bafta-for-best-film-2024",
+      "current": {
+        "title": "Best Picture winners that also won the BAFTA for Best Film",
+        "prompt": "Name Best Picture winners that also won the BAFTA award for Best Film in the same awards season.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 23,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "2023"
+          },
+          {
+            "rank": 2,
+            "code": "nomadland-2020",
+            "value": "2020"
+          },
+          {
+            "rank": 3,
+            "code": "12-years-a-slave-2013",
+            "value": "2013"
+          },
+          {
+            "rank": 4,
+            "code": "argo-2012",
+            "value": "2012"
+          },
+          {
+            "rank": 5,
+            "code": "kings-speech-2010",
+            "value": "2010"
+          },
+          {
+            "rank": 6,
+            "code": "slumdog-millionaire-2008",
+            "value": "2008"
+          },
+          {
+            "rank": 7,
+            "code": "no-country-for-old-men-2007",
+            "value": "2007"
+          },
+          {
+            "rank": 8,
+            "code": "american-beauty-1999",
+            "value": "1999"
+          },
+          {
+            "rank": 9,
+            "code": "shakespeare-in-love-1998",
+            "value": "1998"
+          },
+          {
+            "rank": 10,
+            "code": "schindlers-list-1993",
+            "value": "1993"
+          },
+          {
+            "rank": 11,
+            "code": "gandhi-1982",
+            "value": "1982"
+          },
+          {
+            "rank": 12,
+            "code": "annie-hall-1977",
+            "value": "1977"
+          },
+          {
+            "rank": 13,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "1975"
+          },
+          {
+            "rank": 14,
+            "code": "godfather-1972",
+            "value": "1972"
+          },
+          {
+            "rank": 15,
+            "code": "midnight-cowboy-1969",
+            "value": "1969"
+          },
+          {
+            "rank": 16,
+            "code": "man-for-all-seasons-1966",
+            "value": "1966"
+          },
+          {
+            "rank": 17,
+            "code": "sound-of-music-1965",
+            "value": "1965"
+          },
+          {
+            "rank": 18,
+            "code": "tom-jones-1963",
+            "value": "1963"
+          },
+          {
+            "rank": 19,
+            "code": "lawrence-of-arabia-1962",
+            "value": "1962"
+          },
+          {
+            "rank": 20,
+            "code": "apartment-1960",
+            "value": "1960"
+          },
+          {
+            "rank": 21,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "1957"
+          },
+          {
+            "rank": 22,
+            "code": "on-the-waterfront-1954",
+            "value": "1954"
+          },
+          {
+            "rank": 23,
+            "code": "all-about-eve-1950",
+            "value": "1950"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-highest-imdb-user-rating-among-best-picture-winners-2024",
+      "current": {
+        "title": "Highest IMDb user rating among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest IMDb user rating.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 24,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "godfather-1972",
+            "value": "9.2 IMDb"
+          },
+          {
+            "rank": 2,
+            "code": "godfather-part-ii-1974",
+            "value": "9.0 IMDb"
+          },
+          {
+            "rank": 2,
+            "code": "schindlers-list-1993",
+            "value": "9.0 IMDb (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "9.0 IMDb (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "forrest-gump-1994",
+            "value": "8.8 IMDb"
+          },
+          {
+            "rank": 6,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "8.7 IMDb"
+          },
+          {
+            "rank": 7,
+            "code": "silence-of-the-lambs-1991",
+            "value": "8.6 IMDb"
+          },
+          {
+            "rank": 7,
+            "code": "lawrence-of-arabia-1962",
+            "value": "8.6 IMDb (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "casablanca-1943",
+            "value": "8.5 IMDb"
+          },
+          {
+            "rank": 9,
+            "code": "gladiator-2000",
+            "value": "8.5 IMDb (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "parasite-2019",
+            "value": "8.5 IMDb (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "departed-2006",
+            "value": "8.5 IMDb (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "amadeus-1984",
+            "value": "8.4 IMDb"
+          },
+          {
+            "rank": 14,
+            "code": "sting-1973",
+            "value": "8.3 IMDb"
+          },
+          {
+            "rank": 14,
+            "code": "oppenheimer-2023",
+            "value": "8.3 IMDb (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "braveheart-1995",
+            "value": "8.3 IMDb (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "on-the-waterfront-1954",
+            "value": "8.2 IMDb"
+          },
+          {
+            "rank": 17,
+            "code": "apartment-1960",
+            "value": "8.2 IMDb (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "all-about-eve-1950",
+            "value": "8.2 IMDb (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "all-quiet-on-the-western-front-1930",
+            "value": "8.1 IMDb"
+          },
+          {
+            "rank": 20,
+            "code": "platoon-1986",
+            "value": "8.1 IMDb (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "unforgiven-1992",
+            "value": "8.1 IMDb (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "no-country-for-old-men-2007",
+            "value": "8.1 IMDb (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "deer-hunter-1978",
+            "value": "8.1 IMDb (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-whose-lead-actor-also-won-best-actor-that-nig",
+      "current": {
+        "title": "Best Picture winners whose lead actor also won Best Actor that night",
+        "prompt": "Name Best Picture winners where the film's lead actor also took home the Best Actor Oscar at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 24,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "it-happened-one-night-1934",
+            "value": "Clark Gable"
+          },
+          {
+            "rank": 2,
+            "code": "going-my-way-1944",
+            "value": "Bing Crosby"
+          },
+          {
+            "rank": 3,
+            "code": "lost-weekend-1945",
+            "value": "Ray Milland"
+          },
+          {
+            "rank": 4,
+            "code": "best-years-of-our-lives-1946",
+            "value": "Fredric March"
+          },
+          {
+            "rank": 5,
+            "code": "hamlet-1948",
+            "value": "Laurence Olivier"
+          },
+          {
+            "rank": 6,
+            "code": "all-the-kings-men-1949",
+            "value": "Broderick Crawford"
+          },
+          {
+            "rank": 7,
+            "code": "on-the-waterfront-1954",
+            "value": "Marlon Brando"
+          },
+          {
+            "rank": 8,
+            "code": "marty-1955",
+            "value": "Ernest Borgnine"
+          },
+          {
+            "rank": 9,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "Alec Guinness"
+          },
+          {
+            "rank": 10,
+            "code": "ben-hur-1959",
+            "value": "Charlton Heston"
+          },
+          {
+            "rank": 11,
+            "code": "my-fair-lady-1964",
+            "value": "Rex Harrison"
+          },
+          {
+            "rank": 12,
+            "code": "man-for-all-seasons-1966",
+            "value": "Paul Scofield"
+          },
+          {
+            "rank": 13,
+            "code": "patton-1970",
+            "value": "George C. Scott"
+          },
+          {
+            "rank": 14,
+            "code": "french-connection-1971",
+            "value": "Gene Hackman"
+          },
+          {
+            "rank": 15,
+            "code": "godfather-1972",
+            "value": "Marlon Brando"
+          },
+          {
+            "rank": 16,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "Jack Nicholson"
+          },
+          {
+            "rank": 17,
+            "code": "kramer-vs-kramer-1979",
+            "value": "Dustin Hoffman"
+          },
+          {
+            "rank": 18,
+            "code": "amadeus-1984",
+            "value": "F. Murray Abraham"
+          },
+          {
+            "rank": 19,
+            "code": "rain-man-1988",
+            "value": "Dustin Hoffman"
+          },
+          {
+            "rank": 20,
+            "code": "silence-of-the-lambs-1991",
+            "value": "Anthony Hopkins"
+          },
+          {
+            "rank": 21,
+            "code": "forrest-gump-1994",
+            "value": "Tom Hanks"
+          },
+          {
+            "rank": 22,
+            "code": "gladiator-2000",
+            "value": "Russell Crowe"
+          },
+          {
+            "rank": 23,
+            "code": "kings-speech-2010",
+            "value": "Colin Firth"
+          },
+          {
+            "rank": 24,
+            "code": "oppenheimer-2023",
+            "value": "Cillian Murphy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-lowest-domestic-box-office-among-modern-best-picture-winners-2",
+      "current": {
+        "title": "Lowest domestic box office among modern Best Picture winners",
+        "prompt": "Name the modern (post-2000) Best Picture winners with the LOWEST US domestic box office at the time of their Oscar win.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 24,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "coda-2021",
+            "value": "$1.0M domestic"
+          },
+          {
+            "rank": 2,
+            "code": "nomadland-2020",
+            "value": "$3.7M domestic"
+          },
+          {
+            "rank": 3,
+            "code": "hurt-locker-2009",
+            "value": "$17.0M domestic"
+          },
+          {
+            "rank": 4,
+            "code": "moonlight-2016",
+            "value": "$27.9M domestic"
+          },
+          {
+            "rank": 5,
+            "code": "birdman-2014",
+            "value": "$42.3M domestic"
+          },
+          {
+            "rank": 6,
+            "code": "artist-2011",
+            "value": "$44.7M domestic"
+          },
+          {
+            "rank": 7,
+            "code": "spotlight-2015",
+            "value": "$45.1M domestic"
+          },
+          {
+            "rank": 8,
+            "code": "parasite-2019",
+            "value": "$53.4M domestic"
+          },
+          {
+            "rank": 9,
+            "code": "crash-2005",
+            "value": "$54.6M domestic"
+          },
+          {
+            "rank": 10,
+            "code": "12-years-a-slave-2013",
+            "value": "$56.7M domestic"
+          },
+          {
+            "rank": 11,
+            "code": "shape-of-water-2017",
+            "value": "$63.9M domestic"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "$74.3M domestic"
+          },
+          {
+            "rank": 13,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "$77.2M domestic"
+          },
+          {
+            "rank": 14,
+            "code": "green-book-2018",
+            "value": "$85.1M domestic"
+          },
+          {
+            "rank": 15,
+            "code": "million-dollar-baby-2004",
+            "value": "$100.5M domestic"
+          },
+          {
+            "rank": 16,
+            "code": "departed-2006",
+            "value": "$132.4M domestic"
+          },
+          {
+            "rank": 17,
+            "code": "argo-2012",
+            "value": "$136.0M domestic"
+          },
+          {
+            "rank": 18,
+            "code": "kings-speech-2010",
+            "value": "$138.8M domestic"
+          },
+          {
+            "rank": 19,
+            "code": "slumdog-millionaire-2008",
+            "value": "$141.3M domestic"
+          },
+          {
+            "rank": 20,
+            "code": "chicago-2002",
+            "value": "$170.7M domestic"
+          },
+          {
+            "rank": 20,
+            "code": "beautiful-mind-2001",
+            "value": "$170.7M domestic (tied)"
+          },
+          {
+            "rank": 22,
+            "code": "gladiator-2000",
+            "value": "$187.7M domestic"
+          },
+          {
+            "rank": 23,
+            "code": "oppenheimer-2023",
+            "value": "$330.1M domestic"
+          },
+          {
+            "rank": 24,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$377.8M domestic"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "cluster": "chemical-elements-03",
+  "updates": [
+    {
+      "id": "elements-deep-dive-highest-oxidation-states-achieved-2023",
+      "changes": {
+        "answers": [
+          {"rank": 1, "code": "Ir", "value": "+9 (in [IrO4]+)"},
+          {"rank": 2, "code": "Pt", "value": "+8 (matrix)"},
+          {"rank": 2, "code": "Ru", "value": "+8 (in RuO4, tied)"},
+          {"rank": 2, "code": "Os", "value": "+8 (in OsO4, tied)"},
+          {"rank": 2, "code": "Xe", "value": "+8 (in XeO4, tied)"},
+          {"rank": 2, "code": "Hs", "value": "+8 (in HsO4, tied)"},
+          {"rank": 7, "code": "I", "value": "+7 (in IF7)"},
+          {"rank": 7, "code": "Cl", "value": "+7 (in ClO4-, tied)"},
+          {"rank": 7, "code": "Mn", "value": "+7 (in MnO4-, tied)"},
+          {"rank": 7, "code": "Tc", "value": "+7 (in TcO4-, tied)"},
+          {"rank": 7, "code": "Re", "value": "+7 (in ReO4-, tied)"},
+          {"rank": 7, "code": "Br", "value": "+7 (in BrO4-, tied)"},
+          {"rank": 7, "code": "F", "value": "+7 (reported, tied)"},
+          {"rank": 14, "code": "S", "value": "+6 (in SF6)"},
+          {"rank": 14, "code": "Cr", "value": "+6 (in CrO3, tied)"},
+          {"rank": 14, "code": "Se", "value": "+6 (in SeF6, tied)"},
+          {"rank": 14, "code": "Mo", "value": "+6 (in MoO3, tied)"},
+          {"rank": 14, "code": "Te", "value": "+6 (in TeF6, tied)"},
+          {"rank": 14, "code": "W", "value": "+6 (in WO3/WF6, tied)"},
+          {"rank": 14, "code": "U", "value": "+6 (in UF6/UO2^2+, tied)"},
+          {"rank": 14, "code": "Np", "value": "+6 (in NpO2^2+, tied)"},
+          {"rank": 14, "code": "Pu", "value": "+6 (in PuO2^2+, tied)"},
+          {"rank": 14, "code": "Sg", "value": "+6 (in SgO2Cl2, tied)"}
+        ],
+        "seededDepth": 23
+      }
+    }
+  ],
+  "deletions": []
+}

@@ -1,0 +1,172 @@
+{
+  "cluster": "colleges-02",
+  "updates": [
+    {
+      "id": "colleges-history-oldest-us-engineering-schools-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "army", "value": "1802 (founded)" },
+          { "rank": 2, "code": "rpi", "value": "1824 (founded)" },
+          { "rank": 3, "code": "virginia", "value": "1836 (founded)" },
+          { "rank": 4, "code": "harvard", "value": "1847 (founded)" },
+          { "rank": 5, "code": "penn", "value": "1852 (founded)" },
+          { "rank": 6, "code": "michigan", "value": "1854 (founded)" },
+          { "rank": 6, "code": "yale", "value": "1854 (founded, tied)" },
+          { "rank": 6, "code": "brown", "value": "1854 (founded, tied)" },
+          { "rank": 9, "code": "mit", "value": "1861 (founded)" },
+          { "rank": 10, "code": "columbia", "value": "1864 (founded)" },
+          { "rank": 11, "code": "lehigh", "value": "1866 (founded)" },
+          { "rank": 12, "code": "cornell", "value": "1868 (founded)" },
+          { "rank": 13, "code": "purdue", "value": "1874 (founded)" },
+          { "rank": 14, "code": "ohio-state", "value": "1878 (founded)" },
+          { "rank": 15, "code": "case-western", "value": "1880 (founded)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-business-schools-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "penn", "value": "1881 (founded)" },
+          { "rank": 2, "code": "chicago", "value": "1898 (founded)" },
+          { "rank": 2, "code": "berkeley", "value": "1898 (founded, tied)" },
+          { "rank": 4, "code": "dartmouth", "value": "1900 (founded)" },
+          { "rank": 4, "code": "nyu", "value": "1900 (founded, tied)" },
+          { "rank": 4, "code": "wisconsin", "value": "1900 (founded, tied)" },
+          { "rank": 7, "code": "harvard", "value": "1908 (founded)" },
+          { "rank": 7, "code": "northwestern", "value": "1908 (founded, tied)" },
+          { "rank": 9, "code": "columbia", "value": "1916 (founded)" },
+          { "rank": 10, "code": "washu", "value": "1917 (founded)" },
+          { "rank": 11, "code": "virginia", "value": "1921 (founded)" },
+          { "rank": 12, "code": "michigan", "value": "1924 (founded)" }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "colleges-size-money-largest-campus-by-land-area-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "air-force", "value": "18,500 acres" },
+          { "rank": 2, "code": "clemson", "value": "17,000 acres" },
+          { "rank": 3, "code": "duke", "value": "8,600 acres" },
+          { "rank": 4, "code": "stanford", "value": "8,180 acres" },
+          { "rank": 5, "code": "penn-state", "value": "7,300 acres" },
+          { "rank": 6, "code": "texas-am", "value": "5,500 acres" },
+          { "rank": 7, "code": "michigan-state", "value": "5,200 acres" },
+          { "rank": 8, "code": "purdue", "value": "2,600 acres" },
+          { "rank": 8, "code": "virginia-tech", "value": "2,600 acres (tied)" },
+          { "rank": 10, "code": "cornell", "value": "2,300 acres" },
+          { "rank": 11, "code": "auburn", "value": "1,875 acres" },
+          { "rank": 12, "code": "arizona-state", "value": "660 acres" }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-sticker-price-tuition-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "columbia", "value": "$68,400" },
+          { "rank": 2, "code": "usc", "value": "$66,600" },
+          { "rank": 3, "code": "penn", "value": "$66,100" },
+          { "rank": 4, "code": "brown", "value": "$65,900" },
+          { "rank": 5, "code": "harvey-mudd", "value": "$65,400" },
+          { "rank": 5, "code": "duke", "value": "$65,400 (tied)" },
+          { "rank": 7, "code": "tufts", "value": "$65,200" },
+          { "rank": 8, "code": "dartmouth", "value": "$65,000" },
+          { "rank": 8, "code": "northwestern", "value": "$65,000 (tied)" },
+          { "rank": 10, "code": "yale", "value": "$64,700" },
+          { "rank": 11, "code": "vanderbilt", "value": "$63,900" },
+          { "rank": 12, "code": "harvard", "value": "$59,100" }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-total-cost-of-attendance-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvey-mudd", "value": "$89,900" },
+          { "rank": 2, "code": "usc", "value": "$88,000" },
+          { "rank": 3, "code": "columbia", "value": "$87,000" },
+          { "rank": 3, "code": "penn", "value": "$87,000 (tied)" },
+          { "rank": 5, "code": "brown", "value": "$86,900" },
+          { "rank": 6, "code": "tufts", "value": "$86,000" },
+          { "rank": 7, "code": "duke", "value": "$85,900" },
+          { "rank": 8, "code": "dartmouth", "value": "$85,700" },
+          { "rank": 8, "code": "wesleyan", "value": "$85,700 (tied)" },
+          { "rank": 10, "code": "yale", "value": "$85,000" },
+          { "rank": 10, "code": "vanderbilt", "value": "$85,000 (tied)" },
+          { "rank": 10, "code": "northwestern", "value": "$85,000 (tied)" }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "colleges-size-money-lowest-in-state-tuition-public-flagships-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "wyoming", "value": "$5,900" },
+          { "rank": 2, "code": "florida", "value": "$6,400" },
+          { "rank": 3, "code": "montana", "value": "$7,900" },
+          { "rank": 4, "code": "idaho", "value": "$8,700" },
+          { "rank": 5, "code": "unm", "value": "$8,900" },
+          { "rank": 6, "code": "north-dakota", "value": "$9,300" },
+          { "rank": 7, "code": "utah", "value": "$9,500" },
+          { "rank": 7, "code": "nevada", "value": "$9,500 (tied)" },
+          { "rank": 9, "code": "mississippi-state", "value": "$9,600" },
+          { "rank": 10, "code": "arkansas", "value": "$10,200" },
+          { "rank": 11, "code": "iowa-state", "value": "$10,500" },
+          { "rank": 12, "code": "oklahoma", "value": "$12,000" }
+        ],
+        "seededDepth": 12
+      }
+    },
+    {
+      "id": "colleges-deep-dive-largest-university-library-holdings-physical-volumes-2022",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "20.4M volumes" },
+          { "rank": 2, "code": "yale", "value": "15.1M volumes" },
+          { "rank": 3, "code": "illinois", "value": "14.3M volumes" },
+          { "rank": 4, "code": "michigan", "value": "13.9M volumes" },
+          { "rank": 5, "code": "berkeley", "value": "13.1M volumes" },
+          { "rank": 6, "code": "columbia", "value": "12.6M volumes" },
+          { "rank": 7, "code": "texas", "value": "11.5M volumes" },
+          { "rank": 8, "code": "stanford", "value": "11.2M volumes" },
+          { "rank": 9, "code": "ucla", "value": "10.7M volumes" },
+          { "rank": 10, "code": "chicago", "value": "10.5M volumes" },
+          { "rank": 11, "code": "wisconsin", "value": "9.9M volumes" },
+          { "rank": 12, "code": "indiana", "value": "9.5M volumes" },
+          { "rank": 13, "code": "princeton", "value": "9.3M volumes" }
+        ],
+        "seededDepth": 13
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-d1-men-s-basketball-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "ucla", "value": "11 titles" },
+          { "rank": 2, "code": "kentucky", "value": "8 titles" },
+          { "rank": 3, "code": "unc", "value": "6 titles" },
+          { "rank": 3, "code": "connecticut", "value": "6 titles (tied)" },
+          { "rank": 5, "code": "duke", "value": "5 titles" },
+          { "rank": 5, "code": "indiana", "value": "5 titles (tied)" },
+          { "rank": 7, "code": "kansas", "value": "4 titles" },
+          { "rank": 8, "code": "villanova", "value": "3 titles" },
+          { "rank": 8, "code": "louisville", "value": "3 titles (tied)" },
+          { "rank": 10, "code": "michigan-state", "value": "2 titles" },
+          { "rank": 10, "code": "florida", "value": "2 titles (tied)" },
+          { "rank": 10, "code": "nc-state", "value": "2 titles (tied)" },
+          { "rank": 10, "code": "oklahoma-state", "value": "2 titles (tied)" },
+          { "rank": 14, "code": "michigan", "value": "1 title" }
+        ],
+        "seededDepth": 14
+      }
+    }
+  ],
+  "deletions": []
+}

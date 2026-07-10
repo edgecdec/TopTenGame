@@ -1,0 +1,728 @@
+{
+  "cluster": "companies-03",
+  "questions": [
+    {
+      "id": "companies-history-highest-ceo-base-salary-2023-2023",
+      "current": {
+        "title": "Highest CEO base salary 2023",
+        "prompt": "Rank Fortune 500 CEOs by base salary (not total comp) for fiscal year 2023.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AAPL",
+            "value": "$3.0M base salary"
+          },
+          {
+            "rank": 2,
+            "code": "WFC",
+            "value": "$2.5M base salary"
+          },
+          {
+            "rank": 2,
+            "code": "GE",
+            "value": "$2.5M base salary"
+          },
+          {
+            "rank": 4,
+            "code": "GS",
+            "value": "$2.0M base salary"
+          },
+          {
+            "rank": 5,
+            "code": "CVX",
+            "value": "$1.9M base salary"
+          },
+          {
+            "rank": 5,
+            "code": "XOM",
+            "value": "$1.9M base salary"
+          },
+          {
+            "rank": 7,
+            "code": "PFE",
+            "value": "$1.7M base salary"
+          },
+          {
+            "rank": 7,
+            "code": "LMT",
+            "value": "$1.7M base salary"
+          },
+          {
+            "rank": 9,
+            "code": "JPM",
+            "value": "$1.5M base salary"
+          },
+          {
+            "rank": 9,
+            "code": "MS",
+            "value": "$1.5M base salary"
+          },
+          {
+            "rank": 9,
+            "code": "C",
+            "value": "$1.5M base salary"
+          },
+          {
+            "rank": 9,
+            "code": "BAC",
+            "value": "$1.5M base salary"
+          },
+          {
+            "rank": 9,
+            "code": "RTX",
+            "value": "$1.5M base salary"
+          },
+          {
+            "rank": 14,
+            "code": "DIS",
+            "value": "$1.0M base salary"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-oldest-fortune-500-companies-founding-year",
+      "current": {
+        "title": "Oldest Fortune 500 companies (founding year)",
+        "prompt": "Name the oldest US Fortune 500 companies, ranked by founding year (oldest first).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "JPM",
+            "value": "founded 1799"
+          },
+          {
+            "rank": 2,
+            "code": "C",
+            "value": "founded 1812"
+          },
+          {
+            "rank": 3,
+            "code": "PG",
+            "value": "founded 1837"
+          },
+          {
+            "rank": 3,
+            "code": "DE",
+            "value": "founded 1837 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "PFE",
+            "value": "founded 1849"
+          },
+          {
+            "rank": 6,
+            "code": "cargill",
+            "value": "founded 1865"
+          },
+          {
+            "rank": 7,
+            "code": "MET",
+            "value": "founded 1868"
+          },
+          {
+            "rank": 8,
+            "code": "XOM",
+            "value": "founded 1870 (Standard Oil)"
+          },
+          {
+            "rank": 9,
+            "code": "COP",
+            "value": "founded 1875 (Conoco)"
+          },
+          {
+            "rank": 10,
+            "code": "CVX",
+            "value": "founded 1879"
+          },
+          {
+            "rank": 11,
+            "code": "JNJ",
+            "value": "founded 1886"
+          },
+          {
+            "rank": 11,
+            "code": "KO",
+            "value": "founded 1886 (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "GE",
+            "value": "founded 1892"
+          },
+          {
+            "rank": 14,
+            "code": "MMM",
+            "value": "founded 1902 (Minnesota Mining)"
+          },
+          {
+            "rank": 15,
+            "code": "F",
+            "value": "founded 1903"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-largest-us-companies-by-revenue-fortune-500-2024",
+      "current": {
+        "title": "Largest US companies by revenue (Fortune 500)",
+        "prompt": "Name the largest US companies ranked by annual revenue on the Fortune 500 list.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "WMT",
+            "value": "$648.1B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "AMZN",
+            "value": "$574.8B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "AAPL",
+            "value": "$383.3B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "UNH",
+            "value": "$371.6B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "BRK.B",
+            "value": "$364.5B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "CVS",
+            "value": "$357.8B revenue"
+          },
+          {
+            "rank": 7,
+            "code": "XOM",
+            "value": "$344.6B revenue"
+          },
+          {
+            "rank": 8,
+            "code": "GOOGL",
+            "value": "$307.4B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "MCK",
+            "value": "$276.7B revenue"
+          },
+          {
+            "rank": 10,
+            "code": "COST",
+            "value": "$242.3B revenue"
+          },
+          {
+            "rank": 11,
+            "code": "JPM",
+            "value": "$239.4B revenue"
+          },
+          {
+            "rank": 12,
+            "code": "MSFT",
+            "value": "$211.9B revenue"
+          },
+          {
+            "rank": 13,
+            "code": "CAH",
+            "value": "$205.0B revenue"
+          },
+          {
+            "rank": 14,
+            "code": "CI",
+            "value": "$195.3B revenue"
+          },
+          {
+            "rank": 15,
+            "code": "CHTR",
+            "value": "$54.6B revenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-largest-by-market-capitalization-2025",
+      "current": {
+        "title": "Largest by market capitalization",
+        "prompt": "Name the US-based Fortune 500 companies with the highest stock market capitalization.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "NVDA",
+            "value": "$3.4T market cap"
+          },
+          {
+            "rank": 2,
+            "code": "MSFT",
+            "value": "$3.3T market cap"
+          },
+          {
+            "rank": 3,
+            "code": "AAPL",
+            "value": "$3.2T market cap"
+          },
+          {
+            "rank": 4,
+            "code": "GOOGL",
+            "value": "$2.1T market cap"
+          },
+          {
+            "rank": 5,
+            "code": "AMZN",
+            "value": "$2.0T market cap"
+          },
+          {
+            "rank": 6,
+            "code": "META",
+            "value": "$1.5T market cap"
+          },
+          {
+            "rank": 7,
+            "code": "BRK.B",
+            "value": "$970B market cap"
+          },
+          {
+            "rank": 8,
+            "code": "TSLA",
+            "value": "$800B market cap"
+          },
+          {
+            "rank": 9,
+            "code": "LLY",
+            "value": "$780B market cap"
+          },
+          {
+            "rank": 10,
+            "code": "AVGO",
+            "value": "$770B market cap"
+          },
+          {
+            "rank": 11,
+            "code": "JPM",
+            "value": "$620B market cap"
+          },
+          {
+            "rank": 12,
+            "code": "V",
+            "value": "$540B market cap"
+          },
+          {
+            "rank": 13,
+            "code": "WMT",
+            "value": "$530B market cap"
+          },
+          {
+            "rank": 14,
+            "code": "XOM",
+            "value": "$480B market cap"
+          },
+          {
+            "rank": 15,
+            "code": "UNH",
+            "value": "$470B market cap"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-largest-by-profit-fortune-500-2024",
+      "current": {
+        "title": "Largest by profit (Fortune 500)",
+        "prompt": "Name the US companies with the highest annual net profits on the Fortune 500 list.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AAPL",
+            "value": "$97.0B profit"
+          },
+          {
+            "rank": 2,
+            "code": "BRK.B",
+            "value": "$96.2B profit"
+          },
+          {
+            "rank": 3,
+            "code": "GOOGL",
+            "value": "$73.8B profit"
+          },
+          {
+            "rank": 4,
+            "code": "MSFT",
+            "value": "$72.4B profit"
+          },
+          {
+            "rank": 5,
+            "code": "JPM",
+            "value": "$49.6B profit"
+          },
+          {
+            "rank": 6,
+            "code": "META",
+            "value": "$39.1B profit"
+          },
+          {
+            "rank": 7,
+            "code": "XOM",
+            "value": "$36.0B profit"
+          },
+          {
+            "rank": 8,
+            "code": "JNJ",
+            "value": "$35.2B profit"
+          },
+          {
+            "rank": 9,
+            "code": "NVDA",
+            "value": "$29.8B profit"
+          },
+          {
+            "rank": 10,
+            "code": "BAC",
+            "value": "$26.5B profit"
+          },
+          {
+            "rank": 11,
+            "code": "UNH",
+            "value": "$22.4B profit"
+          },
+          {
+            "rank": 12,
+            "code": "CVX",
+            "value": "$21.4B profit"
+          },
+          {
+            "rank": 13,
+            "code": "WFC",
+            "value": "$19.1B profit"
+          },
+          {
+            "rank": 14,
+            "code": "V",
+            "value": "$17.3B profit"
+          },
+          {
+            "rank": 15,
+            "code": "PG",
+            "value": "$14.7B profit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-longest-established-companies-oldest-first",
+      "current": {
+        "title": "Longest-established companies (oldest first)",
+        "prompt": "Name the oldest US Fortune 500 companies by founding year.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "JPM",
+            "value": "founded 1799"
+          },
+          {
+            "rank": 2,
+            "code": "C",
+            "value": "founded 1812"
+          },
+          {
+            "rank": 3,
+            "code": "DE",
+            "value": "founded 1837"
+          },
+          {
+            "rank": 3,
+            "code": "PG",
+            "value": "founded 1837 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "PRU",
+            "value": "founded 1875"
+          },
+          {
+            "rank": 6,
+            "code": "T",
+            "value": "founded 1877"
+          },
+          {
+            "rank": 7,
+            "code": "JNJ",
+            "value": "founded 1886"
+          },
+          {
+            "rank": 8,
+            "code": "MRK",
+            "value": "founded 1891"
+          },
+          {
+            "rank": 9,
+            "code": "KO",
+            "value": "founded 1892"
+          },
+          {
+            "rank": 9,
+            "code": "GE",
+            "value": "founded 1892 (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "PEP",
+            "value": "founded 1898"
+          },
+          {
+            "rank": 12,
+            "code": "MMM",
+            "value": "founded 1902"
+          },
+          {
+            "rank": 13,
+            "code": "F",
+            "value": "founded 1903"
+          },
+          {
+            "rank": 14,
+            "code": "GM",
+            "value": "founded 1908"
+          },
+          {
+            "rank": 15,
+            "code": "IBM",
+            "value": "founded 1911"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-highest-r-d-spend-10-k-filings-2023",
+      "current": {
+        "title": "Highest R&D spend (10-K filings)",
+        "prompt": "Name the US Fortune 500 companies that spend the most on research and development annually.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AMZN",
+            "value": "$85.6B R&D"
+          },
+          {
+            "rank": 2,
+            "code": "GOOGL",
+            "value": "$45.4B R&D"
+          },
+          {
+            "rank": 3,
+            "code": "META",
+            "value": "$38.5B R&D"
+          },
+          {
+            "rank": 4,
+            "code": "MRK",
+            "value": "$30.5B R&D"
+          },
+          {
+            "rank": 5,
+            "code": "AAPL",
+            "value": "$29.9B R&D"
+          },
+          {
+            "rank": 6,
+            "code": "MSFT",
+            "value": "$27.2B R&D"
+          },
+          {
+            "rank": 7,
+            "code": "INTC",
+            "value": "$16.0B R&D"
+          },
+          {
+            "rank": 8,
+            "code": "JNJ",
+            "value": "$15.1B R&D"
+          },
+          {
+            "rank": 9,
+            "code": "PFE",
+            "value": "$10.7B R&D"
+          },
+          {
+            "rank": 10,
+            "code": "GM",
+            "value": "$9.9B R&D"
+          },
+          {
+            "rank": 11,
+            "code": "LLY",
+            "value": "$9.3B R&D"
+          },
+          {
+            "rank": 11,
+            "code": "BMY",
+            "value": "$9.3B R&D (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "ORCL",
+            "value": "$8.9B R&D"
+          },
+          {
+            "rank": 14,
+            "code": "F",
+            "value": "$8.2B R&D"
+          },
+          {
+            "rank": 15,
+            "code": "CSCO",
+            "value": "$7.6B R&D"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-most-us-patents-granted-per-year-uspto-2023",
+      "current": {
+        "title": "Most US patents granted per year (USPTO)",
+        "prompt": "Name the US-based Fortune 500 companies that were granted the most US patents in a single year.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "IBM",
+            "value": "4,398 patents (2023)"
+          },
+          {
+            "rank": 2,
+            "code": "GOOGL",
+            "value": "2,829 patents"
+          },
+          {
+            "rank": 3,
+            "code": "AAPL",
+            "value": "2,536 patents"
+          },
+          {
+            "rank": 4,
+            "code": "MSFT",
+            "value": "2,132 patents"
+          },
+          {
+            "rank": 5,
+            "code": "INTC",
+            "value": "2,053 patents"
+          },
+          {
+            "rank": 6,
+            "code": "AMZN",
+            "value": "1,900 patents"
+          },
+          {
+            "rank": 7,
+            "code": "META",
+            "value": "1,428 patents"
+          },
+          {
+            "rank": 8,
+            "code": "GM",
+            "value": "1,300 patents"
+          },
+          {
+            "rank": 9,
+            "code": "F",
+            "value": "1,258 patents"
+          },
+          {
+            "rank": 10,
+            "code": "AVGO",
+            "value": "1,140 patents"
+          },
+          {
+            "rank": 11,
+            "code": "DELL",
+            "value": "1,050 patents"
+          },
+          {
+            "rank": 12,
+            "code": "HPE",
+            "value": "900 patents"
+          },
+          {
+            "rank": 13,
+            "code": "T",
+            "value": "890 patents"
+          },
+          {
+            "rank": 14,
+            "code": "ORCL",
+            "value": "870 patents"
+          },
+          {
+            "rank": 15,
+            "code": "CSCO",
+            "value": "850 patents"
+          }
+        ]
+      }
+    }
+  ]
+}

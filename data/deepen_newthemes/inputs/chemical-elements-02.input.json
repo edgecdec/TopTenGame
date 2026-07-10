@@ -1,0 +1,733 @@
+{
+  "cluster": "chemical-elements-02",
+  "questions": [
+    {
+      "id": "elements-history-radioactive-elements-with-longest-half-life-longest-first-2024",
+      "current": {
+        "title": "Radioactive elements with longest half-life (longest first)",
+        "prompt": "Rank these chemical elements by the half-life of their longest-lived naturally occurring radioactive isotope, longest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Te",
+            "value": "Te-128 half-life 2.2 x 10^24 years"
+          },
+          {
+            "rank": 2,
+            "code": "Xe",
+            "value": "Xe-124 half-life 1.8 x 10^22 years"
+          },
+          {
+            "rank": 3,
+            "code": "Ba",
+            "value": "Ba-130 half-life 1.6 x 10^21 years"
+          },
+          {
+            "rank": 4,
+            "code": "Ca",
+            "value": "Ca-48 half-life 6.4 x 10^19 years"
+          },
+          {
+            "rank": 5,
+            "code": "Bi",
+            "value": "Bi-209 half-life 2.0 x 10^19 years"
+          },
+          {
+            "rank": 6,
+            "code": "Nd",
+            "value": "Nd-150 half-life 9.3 x 10^18 years"
+          },
+          {
+            "rank": 7,
+            "code": "In",
+            "value": "In-115 half-life 4.4 x 10^14 years"
+          },
+          {
+            "rank": 8,
+            "code": "Sm",
+            "value": "Sm-147 half-life 1.06 x 10^11 years"
+          },
+          {
+            "rank": 9,
+            "code": "Rb",
+            "value": "Rb-87 half-life 4.9 x 10^10 years"
+          },
+          {
+            "rank": 10,
+            "code": "Re",
+            "value": "Re-187 half-life 4.3 x 10^10 years"
+          },
+          {
+            "rank": 11,
+            "code": "Lu",
+            "value": "Lu-176 half-life 3.8 x 10^10 years"
+          },
+          {
+            "rank": 12,
+            "code": "Th",
+            "value": "Th-232 half-life 1.4 x 10^10 years"
+          },
+          {
+            "rank": 13,
+            "code": "U",
+            "value": "U-238 half-life 4.5 x 10^9 years"
+          },
+          {
+            "rank": 14,
+            "code": "K",
+            "value": "K-40 half-life 1.25 x 10^9 years"
+          },
+          {
+            "rank": 15,
+            "code": "Pu",
+            "value": "Pu-244 half-life 8.0 x 10^7 years"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-physical-least-electronegative-elements-pauling-scale-ascending-2024",
+      "current": {
+        "title": "Least electronegative elements (Pauling scale, ascending)",
+        "prompt": "Rank the chemical elements by electronegativity on the Pauling scale, lowest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Physical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Cs",
+            "value": "0.79 Pauling"
+          },
+          {
+            "rank": 1,
+            "code": "Fr",
+            "value": "0.79 Pauling (estimated)"
+          },
+          {
+            "rank": 3,
+            "code": "K",
+            "value": "0.82 Pauling"
+          },
+          {
+            "rank": 3,
+            "code": "Rb",
+            "value": "0.82 Pauling"
+          },
+          {
+            "rank": 5,
+            "code": "Ba",
+            "value": "0.89 Pauling"
+          },
+          {
+            "rank": 6,
+            "code": "Ra",
+            "value": "0.90 Pauling"
+          },
+          {
+            "rank": 7,
+            "code": "Na",
+            "value": "0.93 Pauling"
+          },
+          {
+            "rank": 8,
+            "code": "Sr",
+            "value": "0.95 Pauling"
+          },
+          {
+            "rank": 9,
+            "code": "Li",
+            "value": "0.98 Pauling"
+          },
+          {
+            "rank": 10,
+            "code": "Ca",
+            "value": "1.00 Pauling"
+          },
+          {
+            "rank": 11,
+            "code": "La",
+            "value": "1.10 Pauling"
+          },
+          {
+            "rank": 12,
+            "code": "Ce",
+            "value": "1.12 Pauling"
+          },
+          {
+            "rank": 13,
+            "code": "Y",
+            "value": "1.22 Pauling"
+          },
+          {
+            "rank": 14,
+            "code": "Mg",
+            "value": "1.31 Pauling"
+          },
+          {
+            "rank": 15,
+            "code": "Sc",
+            "value": "1.36 Pauling"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-physical-highest-thermal-conductivity-2024",
+      "current": {
+        "title": "Highest thermal conductivity",
+        "prompt": "Rank the chemical elements by thermal conductivity at room temperature, highest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Physical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "C",
+            "value": "2200 W/(m\u00b7K) (diamond)"
+          },
+          {
+            "rank": 2,
+            "code": "Ag",
+            "value": "429 W/(m\u00b7K)"
+          },
+          {
+            "rank": 3,
+            "code": "Cu",
+            "value": "401 W/(m\u00b7K)"
+          },
+          {
+            "rank": 4,
+            "code": "Au",
+            "value": "318 W/(m\u00b7K)"
+          },
+          {
+            "rank": 5,
+            "code": "Al",
+            "value": "237 W/(m\u00b7K)"
+          },
+          {
+            "rank": 6,
+            "code": "Be",
+            "value": "200 W/(m\u00b7K)"
+          },
+          {
+            "rank": 7,
+            "code": "W",
+            "value": "173 W/(m\u00b7K)"
+          },
+          {
+            "rank": 8,
+            "code": "Mg",
+            "value": "156 W/(m\u00b7K)"
+          },
+          {
+            "rank": 9,
+            "code": "Rh",
+            "value": "150 W/(m\u00b7K)"
+          },
+          {
+            "rank": 10,
+            "code": "Si",
+            "value": "149 W/(m\u00b7K)"
+          },
+          {
+            "rank": 11,
+            "code": "Ir",
+            "value": "147 W/(m\u00b7K)"
+          },
+          {
+            "rank": 12,
+            "code": "Mo",
+            "value": "138 W/(m\u00b7K)"
+          },
+          {
+            "rank": 13,
+            "code": "Ru",
+            "value": "117 W/(m\u00b7K)"
+          },
+          {
+            "rank": 14,
+            "code": "Zn",
+            "value": "116 W/(m\u00b7K)"
+          },
+          {
+            "rank": 15,
+            "code": "Co",
+            "value": "100 W/(m\u00b7K)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-most-produced-elements-annually-by-mass-industrial-extraction-2024",
+      "current": {
+        "title": "Most produced elements annually by mass (industrial extraction)",
+        "prompt": "Rank the chemical elements by global annual industrial production by mass, largest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "C",
+            "value": "~9000 million tonnes/yr (coal, coke, graphite)"
+          },
+          {
+            "rank": 2,
+            "code": "Ca",
+            "value": "~4300 million tonnes/yr (cement, lime)"
+          },
+          {
+            "rank": 3,
+            "code": "Fe",
+            "value": "~1400 million tonnes/yr (iron ore, pig iron)"
+          },
+          {
+            "rank": 4,
+            "code": "O",
+            "value": "~1000 million tonnes/yr (industrial O2 from air)"
+          },
+          {
+            "rank": 5,
+            "code": "Na",
+            "value": "~300 million tonnes/yr (as salt / soda ash)"
+          },
+          {
+            "rank": 6,
+            "code": "N",
+            "value": "~150 million tonnes/yr (industrial N2 + NH3)"
+          },
+          {
+            "rank": 7,
+            "code": "H",
+            "value": "~90 million tonnes/yr (industrial hydrogen)"
+          },
+          {
+            "rank": 7,
+            "code": "Cl",
+            "value": "~90 million tonnes/yr (chlor-alkali)"
+          },
+          {
+            "rank": 9,
+            "code": "S",
+            "value": "~82 million tonnes/yr (sulfur)"
+          },
+          {
+            "rank": 10,
+            "code": "Al",
+            "value": "~69 million tonnes/yr (primary aluminium)"
+          },
+          {
+            "rank": 11,
+            "code": "K",
+            "value": "~45 million tonnes/yr (potash, K2O basis)"
+          },
+          {
+            "rank": 12,
+            "code": "Cu",
+            "value": "~22 million tonnes/yr (mined copper)"
+          },
+          {
+            "rank": 13,
+            "code": "Mn",
+            "value": "~20 million tonnes/yr (manganese ore)"
+          },
+          {
+            "rank": 14,
+            "code": "Zn",
+            "value": "~13 million tonnes/yr (zinc)"
+          },
+          {
+            "rank": 15,
+            "code": "Si",
+            "value": "~8 million tonnes/yr (ferrosilicon + silicon metal)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-most-abundant-elements-in-stars-solar-composition-by-mass-2024",
+      "current": {
+        "title": "Most abundant elements in stars (solar composition by mass)",
+        "prompt": "Rank the chemical elements by mass fraction of typical stellar (solar) composition, most abundant first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "H",
+            "value": "~71% of a typical star"
+          },
+          {
+            "rank": 2,
+            "code": "He",
+            "value": "~27% of a typical star"
+          },
+          {
+            "rank": 3,
+            "code": "O",
+            "value": "~0.97% of a typical star"
+          },
+          {
+            "rank": 4,
+            "code": "C",
+            "value": "~0.40% of a typical star"
+          },
+          {
+            "rank": 5,
+            "code": "Ne",
+            "value": "~0.19% of a typical star"
+          },
+          {
+            "rank": 6,
+            "code": "Fe",
+            "value": "~0.14% of a typical star"
+          },
+          {
+            "rank": 7,
+            "code": "N",
+            "value": "~0.10% of a typical star"
+          },
+          {
+            "rank": 8,
+            "code": "Si",
+            "value": "~0.086% of a typical star"
+          },
+          {
+            "rank": 9,
+            "code": "Mg",
+            "value": "~0.076% of a typical star"
+          },
+          {
+            "rank": 10,
+            "code": "S",
+            "value": "~0.041% of a typical star"
+          },
+          {
+            "rank": 11,
+            "code": "Ar",
+            "value": "~0.010% of a typical star"
+          },
+          {
+            "rank": 12,
+            "code": "Ni",
+            "value": "~0.0080% of a typical star"
+          },
+          {
+            "rank": 13,
+            "code": "Ca",
+            "value": "~0.0070% of a typical star"
+          },
+          {
+            "rank": 14,
+            "code": "Al",
+            "value": "~0.0058% of a typical star"
+          },
+          {
+            "rank": 15,
+            "code": "Cr",
+            "value": "~0.0020% of a typical star"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-elements-essential-in-nuclear-reactors-fuel-moderator-coolant-cont",
+      "current": {
+        "title": "Elements essential in nuclear reactors (fuel, moderator, coolant, control, structural)",
+        "prompt": "Name the chemical elements that play an essential role in a typical light-water nuclear reactor (as fuel, moderator, coolant, control, or structural components).",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "U",
+            "value": "primary fissile fuel (U-235/U-238)"
+          },
+          {
+            "rank": 2,
+            "code": "Pu",
+            "value": "fissile fuel in MOX/breeders (Pu-239)"
+          },
+          {
+            "rank": 3,
+            "code": "Th",
+            "value": "fertile fuel (thorium fuel cycle)"
+          },
+          {
+            "rank": 4,
+            "code": "H",
+            "value": "moderator (light water, heavy water via D)"
+          },
+          {
+            "rank": 5,
+            "code": "O",
+            "value": "coolant/moderator (in water, UO2 fuel)"
+          },
+          {
+            "rank": 6,
+            "code": "Zr",
+            "value": "fuel cladding (Zircaloy)"
+          },
+          {
+            "rank": 7,
+            "code": "B",
+            "value": "neutron absorber (control rods, boric acid)"
+          },
+          {
+            "rank": 8,
+            "code": "Cd",
+            "value": "neutron absorber (control rods)"
+          },
+          {
+            "rank": 9,
+            "code": "Hf",
+            "value": "neutron absorber (control rods)"
+          },
+          {
+            "rank": 10,
+            "code": "C",
+            "value": "moderator (graphite reactors)"
+          },
+          {
+            "rank": 11,
+            "code": "Na",
+            "value": "liquid metal coolant (fast reactors)"
+          },
+          {
+            "rank": 12,
+            "code": "He",
+            "value": "gas coolant (HTGR reactors)"
+          },
+          {
+            "rank": 13,
+            "code": "Li",
+            "value": "tritium breeding, molten salt reactors"
+          },
+          {
+            "rank": 14,
+            "code": "Gd",
+            "value": "burnable neutron poison in fuel"
+          },
+          {
+            "rank": 15,
+            "code": "In",
+            "value": "control rod alloy component (Ag-In-Cd)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-elements-most-important-in-electronics-manufacturing-2024",
+      "current": {
+        "title": "Elements most important in electronics manufacturing",
+        "prompt": "Rank the chemical elements most critical to modern electronics manufacturing by industrial importance.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Si",
+            "value": "semiconductor substrate (>95% of chips)"
+          },
+          {
+            "rank": 2,
+            "code": "Cu",
+            "value": "interconnects, wiring, PCBs"
+          },
+          {
+            "rank": 3,
+            "code": "Au",
+            "value": "bonding wires, connectors"
+          },
+          {
+            "rank": 4,
+            "code": "Al",
+            "value": "interconnects, heat sinks, capacitors"
+          },
+          {
+            "rank": 5,
+            "code": "Ga",
+            "value": "GaAs, GaN power/RF chips, LEDs"
+          },
+          {
+            "rank": 6,
+            "code": "As",
+            "value": "GaAs semiconductors, dopant"
+          },
+          {
+            "rank": 7,
+            "code": "Ge",
+            "value": "SiGe transistors, IR optics"
+          },
+          {
+            "rank": 8,
+            "code": "In",
+            "value": "ITO for touch screens, InP lasers"
+          },
+          {
+            "rank": 9,
+            "code": "Ta",
+            "value": "capacitors (tantalum caps)"
+          },
+          {
+            "rank": 10,
+            "code": "W",
+            "value": "interconnect vias, filaments"
+          },
+          {
+            "rank": 11,
+            "code": "Ag",
+            "value": "solder, contacts, conductive paste"
+          },
+          {
+            "rank": 12,
+            "code": "Sn",
+            "value": "solder (SAC alloys)"
+          },
+          {
+            "rank": 13,
+            "code": "Se",
+            "value": "photocopiers, rectifiers, solar"
+          },
+          {
+            "rank": 14,
+            "code": "Te",
+            "value": "CdTe solar cells, thermoelectrics"
+          },
+          {
+            "rank": 15,
+            "code": "P",
+            "value": "n-type dopant in silicon"
+          }
+        ]
+      }
+    },
+    {
+      "id": "elements-uses-rare-earth-elements-ranked-by-industrial-demand-2024",
+      "current": {
+        "title": "Rare earth elements ranked by industrial demand",
+        "prompt": "Rank the rare earth elements (the 15 lanthanides plus Sc and Y) by industrial demand, highest first.",
+        "answerType": "Chemical Elements",
+        "theme": "Chemical Elements",
+        "subtheme": "Elements - Uses",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "Nd",
+            "value": "largest REE market (NdFeB magnets, EVs, wind)"
+          },
+          {
+            "rank": 2,
+            "code": "La",
+            "value": "FCC catalysts, NiMH batteries, glass"
+          },
+          {
+            "rank": 3,
+            "code": "Ce",
+            "value": "polishing powders, catalytic converters"
+          },
+          {
+            "rank": 4,
+            "code": "Pr",
+            "value": "NdFeB magnet co-alloy, aircraft engines"
+          },
+          {
+            "rank": 5,
+            "code": "Dy",
+            "value": "high-temperature magnet additive"
+          },
+          {
+            "rank": 6,
+            "code": "Y",
+            "value": "phosphors, YAG lasers, superalloys"
+          },
+          {
+            "rank": 7,
+            "code": "Sm",
+            "value": "SmCo magnets, cancer therapy"
+          },
+          {
+            "rank": 8,
+            "code": "Gd",
+            "value": "MRI contrast agents, magnetostrictive"
+          },
+          {
+            "rank": 9,
+            "code": "Tb",
+            "value": "phosphors, magnet additive"
+          },
+          {
+            "rank": 10,
+            "code": "Eu",
+            "value": "red phosphor for displays"
+          },
+          {
+            "rank": 11,
+            "code": "Er",
+            "value": "fiber optic amplifiers (EDFA)"
+          },
+          {
+            "rank": 12,
+            "code": "Ho",
+            "value": "lasers, high-field magnets"
+          },
+          {
+            "rank": 13,
+            "code": "Yb",
+            "value": "fiber lasers, atomic clocks"
+          },
+          {
+            "rank": 14,
+            "code": "Lu",
+            "value": "PET scan scintillators (LSO), catalysts"
+          },
+          {
+            "rank": 15,
+            "code": "Tm",
+            "value": "portable X-ray, laser dopant"
+          }
+        ]
+      }
+    }
+  ]
+}

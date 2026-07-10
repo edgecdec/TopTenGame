@@ -1,0 +1,105 @@
+{
+  "cluster": "colleges-03",
+  "updates": [
+    {
+      "id": "colleges-deep-dive-most-marshall-scholars-produced-all-time-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "~270 scholars" },
+          { "rank": 2, "code": "princeton", "value": "~170 scholars" },
+          { "rank": 3, "code": "yale", "value": "~160 scholars" },
+          { "rank": 4, "code": "stanford", "value": "~115 scholars" },
+          { "rank": 5, "code": "mit", "value": "~80 scholars" },
+          { "rank": 6, "code": "chicago", "value": "~70 scholars" },
+          { "rank": 7, "code": "columbia", "value": "~65 scholars" },
+          { "rank": 8, "code": "duke", "value": "~60 scholars" },
+          { "rank": 9, "code": "brown", "value": "~55 scholars" },
+          { "rank": 10, "code": "unc", "value": "~50 scholars" },
+          { "rank": 11, "code": "cornell", "value": "~45 scholars" },
+          { "rank": 12, "code": "penn", "value": "~40 scholars" },
+          { "rank": 13, "code": "dartmouth", "value": "~38 scholars" },
+          { "rank": 14, "code": "georgetown", "value": "~35 scholars" }
+        ],
+        "seededDepth": 14
+      }
+    },
+    {
+      "id": "colleges-academics-most-rhodes-scholars-all-time-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "~370 scholars" },
+          { "rank": 2, "code": "yale", "value": "~250 scholars" },
+          { "rank": 3, "code": "princeton", "value": "~215 scholars" },
+          { "rank": 4, "code": "army", "value": "~100 scholars" },
+          { "rank": 5, "code": "stanford", "value": "~95 scholars" },
+          { "rank": 6, "code": "dartmouth", "value": "~80 scholars" },
+          { "rank": 7, "code": "mit", "value": "~55 scholars" },
+          { "rank": 7, "code": "chicago", "value": "~55 scholars (tied)" },
+          { "rank": 7, "code": "navy", "value": "~55 scholars (tied)" },
+          { "rank": 7, "code": "unc", "value": "~55 scholars (tied)" },
+          { "rank": 11, "code": "duke", "value": "~50 scholars" },
+          { "rank": 12, "code": "air-force", "value": "~45 scholars" },
+          { "rank": 13, "code": "williams", "value": "~35 scholars" },
+          { "rank": 13, "code": "penn", "value": "~35 scholars (tied)" },
+          { "rank": 15, "code": "columbia", "value": "~30 scholars" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "colleges-admissions-lowest-undergraduate-acceptance-rates-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "caltech", "value": "2.7%" },
+          { "rank": 2, "code": "harvard", "value": "3.6%" },
+          { "rank": 3, "code": "stanford", "value": "3.7%" },
+          { "rank": 4, "code": "columbia", "value": "3.9%" },
+          { "rank": 5, "code": "mit", "value": "4.5%" },
+          { "rank": 5, "code": "princeton", "value": "4.5% (tied)" },
+          { "rank": 7, "code": "yale", "value": "4.6%" },
+          { "rank": 8, "code": "brown", "value": "5.2%" },
+          { "rank": 9, "code": "penn", "value": "5.4%" },
+          { "rank": 10, "code": "duke", "value": "5.9%" },
+          { "rank": 11, "code": "dartmouth", "value": "6.0%" },
+          { "rank": 12, "code": "jhu", "value": "6.2%" },
+          { "rank": 13, "code": "northwestern", "value": "7.0%" },
+          { "rank": 14, "code": "vanderbilt", "value": "7.1%" },
+          { "rank": 15, "code": "cornell", "value": "7.3%" },
+          { "rank": 16, "code": "pomona", "value": "7.5%" },
+          { "rank": 16, "code": "swarthmore", "value": "7.5% (tied)" },
+          { "rank": 18, "code": "rice", "value": "7.9%" },
+          { "rank": 19, "code": "amherst", "value": "8.7%" },
+          { "rank": 20, "code": "notre-dame", "value": "9.0%" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-admissions-most-undergraduate-applications-received-in-a-single-year-20",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "ucla", "value": "173,428 apps" },
+          { "rank": 2, "code": "berkeley", "value": "137,000 apps" },
+          { "rank": 3, "code": "uc-irvine", "value": "127,000 apps" },
+          { "rank": 4, "code": "nyu", "value": "120,000 apps" },
+          { "rank": 5, "code": "uc-davis", "value": "112,000 apps" },
+          { "rank": 6, "code": "ucsd", "value": "110,000 apps" },
+          { "rank": 7, "code": "ucsb", "value": "106,000 apps" },
+          { "rank": 8, "code": "northeastern", "value": "96,000 apps" },
+          { "rank": 9, "code": "michigan", "value": "87,000 apps" },
+          { "rank": 10, "code": "usc", "value": "82,000 apps" },
+          { "rank": 11, "code": "texas", "value": "73,000 apps" },
+          { "rank": 12, "code": "cornell", "value": "68,000 apps" },
+          { "rank": 13, "code": "harvard", "value": "61,000 apps" },
+          { "rank": 14, "code": "columbia", "value": "60,000 apps" },
+          { "rank": 15, "code": "penn", "value": "59,000 apps" },
+          { "rank": 16, "code": "yale", "value": "57,000 apps" },
+          { "rank": 17, "code": "stanford", "value": "56,000 apps" },
+          { "rank": 18, "code": "mit", "value": "26,000 apps" }
+        ],
+        "seededDepth": 18
+      }
+    }
+  ],
+  "deletions": []
+}

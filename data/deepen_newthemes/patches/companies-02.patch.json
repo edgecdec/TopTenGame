@@ -1,0 +1,45 @@
+{
+  "cluster": "companies-02",
+  "updates": [
+    {
+      "id": "companies-deep-dive-highest-annual-advertising-spend-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "AMZN", "value": "$20.3B" },
+          { "rank": 2, "code": "PG", "value": "$8.1B" },
+          { "rank": 3, "code": "CMCSA", "value": "$6.8B" },
+          { "rank": 4, "code": "DIS", "value": "$5.9B" },
+          { "rank": 5, "code": "PEP", "value": "$5.4B" },
+          { "rank": 6, "code": "AAPL", "value": "$5.0B" },
+          { "rank": 6, "code": "KO", "value": "$5.0B (tied)" },
+          { "rank": 8, "code": "GM", "value": "$3.9B" },
+          { "rank": 9, "code": "F", "value": "$3.7B" },
+          { "rank": 10, "code": "T", "value": "$3.5B" },
+          { "rank": 11, "code": "VZ", "value": "$3.3B" }
+        ],
+        "seededDepth": 11
+      }
+    },
+    {
+      "id": "companies-history-largest-single-acquisitions-all-time-us-fortune-500-acquirers-",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "VZ", "value": "$130B" },
+          { "rank": 2, "code": "PFE", "value": "$90B" },
+          { "rank": 3, "code": "T", "value": "$85B" },
+          { "rank": 4, "code": "XOM", "value": "$81B" },
+          { "rank": 5, "code": "BMY", "value": "$74B" },
+          { "rank": 6, "code": "DIS", "value": "$71B" },
+          { "rank": 7, "code": "CVS", "value": "$70B" },
+          { "rank": 8, "code": "MSFT", "value": "$69B" },
+          { "rank": 8, "code": "AVGO", "value": "$69B (tied)" },
+          { "rank": 10, "code": "JPM", "value": "$58B" },
+          { "rank": 11, "code": "CVX", "value": "$53B" },
+          { "rank": 12, "code": "BRK.B", "value": "$44B" }
+        ],
+        "seededDepth": 12
+      }
+    }
+  ],
+  "deletions": []
+}

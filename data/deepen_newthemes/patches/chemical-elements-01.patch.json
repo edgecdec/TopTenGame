@@ -1,0 +1,263 @@
+{
+  "cluster": "chemical-elements-01",
+  "updates": [
+    {
+      "id": "elements-abundance-most-naturally-abundant-elements-on-earth-whole-earth-by-mass",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Fe", "value": "~32.1% of Earth's mass" },
+          { "rank": 2, "code": "O", "value": "~30.1% of Earth's mass" },
+          { "rank": 3, "code": "Si", "value": "~15.1% of Earth's mass" },
+          { "rank": 4, "code": "Mg", "value": "~13.9% of Earth's mass" },
+          { "rank": 5, "code": "S", "value": "~2.9% of Earth's mass" },
+          { "rank": 6, "code": "Ni", "value": "~1.8% of Earth's mass" },
+          { "rank": 7, "code": "Ca", "value": "~1.5% of Earth's mass" },
+          { "rank": 8, "code": "Al", "value": "~1.4% of Earth's mass" },
+          { "rank": 9, "code": "Cr", "value": "~0.26% of Earth's mass" },
+          { "rank": 10, "code": "Na", "value": "~0.25% of Earth's mass" },
+          { "rank": 11, "code": "P", "value": "~0.11% of Earth's mass" },
+          { "rank": 12, "code": "Co", "value": "~0.088% of Earth's mass" },
+          { "rank": 13, "code": "Ti", "value": "~0.081% of Earth's mass" },
+          { "rank": 14, "code": "Mn", "value": "~0.075% of Earth's mass" },
+          { "rank": 15, "code": "K", "value": "~0.019% of Earth's mass" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "elements-history-earliest-discovered-elements-oldest-first-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Cu", "value": "known since antiquity (pre-9000 BCE)" },
+          { "rank": 2, "code": "Pb", "value": "known since antiquity (pre-6500 BCE)" },
+          { "rank": 3, "code": "Fe", "value": "known since antiquity (pre-5000 BCE)" },
+          { "rank": 4, "code": "Sn", "value": "known since antiquity (pre-3500 BCE)" },
+          { "rank": 5, "code": "Au", "value": "known since antiquity (pre-3000 BCE)" },
+          { "rank": 5, "code": "Ag", "value": "known since antiquity (pre-3000 BCE) (tied)" },
+          { "rank": 7, "code": "S", "value": "known since antiquity (pre-2000 BCE)" },
+          { "rank": 8, "code": "Hg", "value": "known since antiquity (pre-1500 BCE)" },
+          { "rank": 9, "code": "C", "value": "known since antiquity (prehistoric)" },
+          { "rank": 10, "code": "As", "value": "isolated c. 1250 by Albertus Magnus" },
+          { "rank": 11, "code": "Sb", "value": "described c. 1540 by Vannoccio Biringuccio" },
+          { "rank": 12, "code": "P", "value": "discovered 1669 by Hennig Brand" },
+          { "rank": 13, "code": "Co", "value": "discovered 1735 by Georg Brandt" },
+          { "rank": 14, "code": "Pt", "value": "described 1735 by Antonio de Ulloa" },
+          { "rank": 15, "code": "Ni", "value": "discovered 1751 by Axel Fredrik Cronstedt" },
+          { "rank": 16, "code": "Bi", "value": "isolated 1753 by Claude Geoffroy the Younger" },
+          { "rank": 17, "code": "H", "value": "discovered 1766 by Henry Cavendish" },
+          { "rank": 18, "code": "N", "value": "discovered 1772 by Daniel Rutherford" },
+          { "rank": 19, "code": "O", "value": "discovered 1774 by Joseph Priestley / Carl Wilhelm Scheele" },
+          { "rank": 19, "code": "Cl", "value": "discovered 1774 by Carl Wilhelm Scheele (tied)" },
+          { "rank": 19, "code": "Mn", "value": "discovered 1774 by Johan Gottlieb Gahn (tied)" },
+          { "rank": 22, "code": "Mo", "value": "discovered 1778 by Carl Wilhelm Scheele" },
+          { "rank": 23, "code": "Te", "value": "discovered 1782 by Franz-Joseph Muller von Reichenstein" },
+          { "rank": 24, "code": "W", "value": "discovered 1783 by the Elhuyar brothers" },
+          { "rank": 25, "code": "U", "value": "discovered 1789 by Martin Heinrich Klaproth" },
+          { "rank": 25, "code": "Zr", "value": "discovered 1789 by Martin Heinrich Klaproth (tied)" },
+          { "rank": 27, "code": "Ti", "value": "discovered 1791 by William Gregor" },
+          { "rank": 28, "code": "Y", "value": "discovered 1794 by Johan Gadolin" },
+          { "rank": 29, "code": "Cr", "value": "discovered 1797 by Louis-Nicolas Vauquelin" },
+          { "rank": 30, "code": "Be", "value": "discovered 1798 by Louis-Nicolas Vauquelin" }
+        ],
+        "seededDepth": 30
+      }
+    },
+    {
+      "id": "elements-history-most-recently-synthesized-elements-newest-first-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Ts", "value": "synthesized 2010 (JINR/ORNL/LLNL)" },
+          { "rank": 2, "code": "Nh", "value": "synthesized 2004 (RIKEN, Japan)" },
+          { "rank": 3, "code": "Mc", "value": "synthesized 2003 (JINR-Dubna)" },
+          { "rank": 4, "code": "Og", "value": "synthesized 2002 (JINR-Dubna)" },
+          { "rank": 5, "code": "Lv", "value": "synthesized 2000 (JINR-Dubna)" },
+          { "rank": 6, "code": "Fl", "value": "synthesized 1998 (JINR-Dubna)" },
+          { "rank": 7, "code": "Cn", "value": "synthesized 1996 (GSI, Germany)" },
+          { "rank": 8, "code": "Rg", "value": "synthesized 1994 (GSI, Germany)" },
+          { "rank": 8, "code": "Ds", "value": "synthesized 1994 (GSI, Germany) (tied)" },
+          { "rank": 10, "code": "Hs", "value": "synthesized 1984 (GSI, Germany)" },
+          { "rank": 11, "code": "Mt", "value": "synthesized 1982 (GSI, Germany)" },
+          { "rank": 12, "code": "Bh", "value": "synthesized 1981 (GSI, Germany)" },
+          { "rank": 13, "code": "Sg", "value": "synthesized 1974 (LBNL/JINR)" },
+          { "rank": 14, "code": "Db", "value": "synthesized 1970 (LBNL/JINR)" },
+          { "rank": 15, "code": "Rf", "value": "synthesized 1969 (LBNL/JINR)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "elements-history-elements-named-after-countries-states-or-places-alphabetical-20",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Am", "value": "Americium - named after the Americas" },
+          { "rank": 2, "code": "Bk", "value": "Berkelium - named after Berkeley, California" },
+          { "rank": 3, "code": "Cf", "value": "Californium - named after California" },
+          { "rank": 4, "code": "Cu", "value": "Copper - from Cyprus (Cyprium)" },
+          { "rank": 5, "code": "Db", "value": "Dubnium - named after Dubna, Russia" },
+          { "rank": 6, "code": "Ds", "value": "Darmstadtium - named after Darmstadt, Germany" },
+          { "rank": 7, "code": "Er", "value": "Erbium - named after Ytterby, Sweden" },
+          { "rank": 8, "code": "Eu", "value": "Europium - named after Europe" },
+          { "rank": 9, "code": "Fr", "value": "Francium - named after France" },
+          { "rank": 10, "code": "Ga", "value": "Gallium - named after Gaul (France)" },
+          { "rank": 11, "code": "Ge", "value": "Germanium - named after Germany" },
+          { "rank": 12, "code": "Hf", "value": "Hafnium - named after Hafnia (Copenhagen)" },
+          { "rank": 13, "code": "Ho", "value": "Holmium - named after Holmia (Stockholm)" },
+          { "rank": 14, "code": "Hs", "value": "Hassium - named after Hessen (Hesse), Germany" },
+          { "rank": 15, "code": "Lu", "value": "Lutetium - named after Lutetia (Paris)" },
+          { "rank": 16, "code": "Lv", "value": "Livermorium - named after Livermore, California" },
+          { "rank": 17, "code": "Mc", "value": "Moscovium - named after Moscow oblast, Russia" },
+          { "rank": 18, "code": "Mg", "value": "Magnesium - named after Magnesia, Greece" },
+          { "rank": 19, "code": "Mn", "value": "Manganese - from Magnesia, Greece" },
+          { "rank": 20, "code": "Nh", "value": "Nihonium - named after Nihon (Japan)" },
+          { "rank": 21, "code": "Po", "value": "Polonium - named after Poland" },
+          { "rank": 22, "code": "Re", "value": "Rhenium - named after the Rhine river" },
+          { "rank": 23, "code": "Ru", "value": "Ruthenium - named after Ruthenia (Russia)" },
+          { "rank": 24, "code": "Sc", "value": "Scandium - named after Scandinavia" },
+          { "rank": 25, "code": "Sr", "value": "Strontium - named after Strontian, Scotland" },
+          { "rank": 26, "code": "Tb", "value": "Terbium - named after Ytterby, Sweden" },
+          { "rank": 27, "code": "Tm", "value": "Thulium - named after Thule (Scandinavia)" },
+          { "rank": 28, "code": "Ts", "value": "Tennessine - named after Tennessee" },
+          { "rank": 29, "code": "Y", "value": "Yttrium - named after Ytterby, Sweden" },
+          { "rank": 30, "code": "Yb", "value": "Ytterbium - named after Ytterby, Sweden" }
+        ],
+        "seededDepth": 30
+      }
+    },
+    {
+      "id": "elements-history-elements-named-after-scientists-alphabetical-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Bh", "value": "Bohrium - Niels Bohr" },
+          { "rank": 2, "code": "Cm", "value": "Curium - Marie and Pierre Curie" },
+          { "rank": 3, "code": "Cn", "value": "Copernicium - Nicolaus Copernicus" },
+          { "rank": 4, "code": "Es", "value": "Einsteinium - Albert Einstein" },
+          { "rank": 5, "code": "Fm", "value": "Fermium - Enrico Fermi" },
+          { "rank": 6, "code": "Fl", "value": "Flerovium - Georgy Flyorov" },
+          { "rank": 7, "code": "Gd", "value": "Gadolinium - Johan Gadolin" },
+          { "rank": 8, "code": "Lr", "value": "Lawrencium - Ernest Lawrence" },
+          { "rank": 9, "code": "Md", "value": "Mendelevium - Dmitri Mendeleev" },
+          { "rank": 10, "code": "Mt", "value": "Meitnerium - Lise Meitner" },
+          { "rank": 11, "code": "No", "value": "Nobelium - Alfred Nobel" },
+          { "rank": 12, "code": "Og", "value": "Oganesson - Yuri Oganessian" },
+          { "rank": 13, "code": "Rf", "value": "Rutherfordium - Ernest Rutherford" },
+          { "rank": 14, "code": "Rg", "value": "Roentgenium - Wilhelm Rontgen" },
+          { "rank": 15, "code": "Sg", "value": "Seaborgium - Glenn T. Seaborg" },
+          { "rank": 16, "code": "Sm", "value": "Samarium - Vasili Samarsky-Bykhovets" }
+        ],
+        "seededDepth": 16
+      }
+    },
+    {
+      "id": "elements-history-elements-discovered-in-the-1800s-earliest-first-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Nb", "value": "discovered 1801 by Charles Hatchett" },
+          { "rank": 1, "code": "V", "value": "discovered 1801 by Andres Manuel del Rio (tied)" },
+          { "rank": 3, "code": "Ta", "value": "discovered 1802 by Anders Ekeberg" },
+          { "rank": 4, "code": "Ce", "value": "discovered 1803 by Berzelius, Hisinger, and Klaproth" },
+          { "rank": 4, "code": "Pd", "value": "discovered 1803 by William Hyde Wollaston (tied)" },
+          { "rank": 4, "code": "Rh", "value": "discovered 1803 by William Hyde Wollaston (tied)" },
+          { "rank": 4, "code": "Ir", "value": "discovered 1803 by Smithson Tennant (tied)" },
+          { "rank": 4, "code": "Os", "value": "discovered 1803 by Smithson Tennant (tied)" },
+          { "rank": 9, "code": "K", "value": "discovered 1807 by Humphry Davy" },
+          { "rank": 9, "code": "Na", "value": "discovered 1807 by Humphry Davy (tied)" },
+          { "rank": 11, "code": "B", "value": "discovered 1808 by Davy, Gay-Lussac, Thenard" },
+          { "rank": 11, "code": "Ba", "value": "discovered 1808 by Humphry Davy (tied)" },
+          { "rank": 11, "code": "Ca", "value": "discovered 1808 by Humphry Davy (tied)" },
+          { "rank": 11, "code": "Mg", "value": "isolated 1808 by Humphry Davy (tied)" },
+          { "rank": 11, "code": "Sr", "value": "isolated 1808 by Humphry Davy (tied)" },
+          { "rank": 16, "code": "I", "value": "discovered 1811 by Bernard Courtois" },
+          { "rank": 17, "code": "Li", "value": "discovered 1817 by Johan August Arfwedson" },
+          { "rank": 17, "code": "Cd", "value": "discovered 1817 by Friedrich Stromeyer (tied)" },
+          { "rank": 17, "code": "Se", "value": "discovered 1817 by Jons Jakob Berzelius (tied)" },
+          { "rank": 20, "code": "Si", "value": "isolated 1823 by Jons Jakob Berzelius" },
+          { "rank": 21, "code": "Al", "value": "isolated 1825 by Hans Christian Orsted" },
+          { "rank": 22, "code": "Br", "value": "discovered 1826 by Antoine Jerome Balard" },
+          { "rank": 23, "code": "Th", "value": "discovered 1829 by Jons Jakob Berzelius" },
+          { "rank": 24, "code": "La", "value": "discovered 1839 by Carl Gustaf Mosander" },
+          { "rank": 25, "code": "Er", "value": "discovered 1843 by Carl Gustaf Mosander" },
+          { "rank": 25, "code": "Tb", "value": "discovered 1843 by Carl Gustaf Mosander (tied)" },
+          { "rank": 27, "code": "Ru", "value": "discovered 1844 by Karl Ernst Claus" },
+          { "rank": 28, "code": "Cs", "value": "discovered 1860 by Bunsen and Kirchhoff" },
+          { "rank": 29, "code": "Rb", "value": "discovered 1861 by Bunsen and Kirchhoff" },
+          { "rank": 29, "code": "Tl", "value": "discovered 1861 by William Crookes (tied)" },
+          { "rank": 31, "code": "In", "value": "discovered 1863 by Reich and Richter" },
+          { "rank": 32, "code": "Ga", "value": "discovered 1875 by Paul-Emile Lecoq de Boisbaudran" },
+          { "rank": 33, "code": "Ho", "value": "discovered 1878 by Delafontaine, Soret, and Cleve" },
+          { "rank": 33, "code": "Yb", "value": "discovered 1878 by Jean Charles Galissard de Marignac (tied)" },
+          { "rank": 35, "code": "Sc", "value": "discovered 1879 by Lars Fredrik Nilson" },
+          { "rank": 35, "code": "Sm", "value": "discovered 1879 by Paul-Emile Lecoq de Boisbaudran (tied)" },
+          { "rank": 35, "code": "Tm", "value": "discovered 1879 by Per Teodor Cleve (tied)" },
+          { "rank": 38, "code": "Gd", "value": "discovered 1880 by Jean Charles Galissard de Marignac" },
+          { "rank": 39, "code": "Nd", "value": "discovered 1885 by Carl Auer von Welsbach" },
+          { "rank": 39, "code": "Pr", "value": "discovered 1885 by Carl Auer von Welsbach (tied)" },
+          { "rank": 41, "code": "Dy", "value": "discovered 1886 by Paul-Emile Lecoq de Boisbaudran" },
+          { "rank": 41, "code": "F", "value": "isolated 1886 by Henri Moissan (tied)" },
+          { "rank": 41, "code": "Ge", "value": "discovered 1886 by Clemens Winkler (tied)" },
+          { "rank": 44, "code": "Ar", "value": "discovered 1894 by Rayleigh and Ramsay" },
+          { "rank": 45, "code": "He", "value": "isolated 1895 by William Ramsay" },
+          { "rank": 46, "code": "Eu", "value": "discovered 1896 by Eugene-Anatole Demarcay" },
+          { "rank": 47, "code": "Kr", "value": "discovered 1898 by Ramsay and Travers" },
+          { "rank": 47, "code": "Ne", "value": "discovered 1898 by Ramsay and Travers (tied)" },
+          { "rank": 47, "code": "Xe", "value": "discovered 1898 by Ramsay and Travers (tied)" },
+          { "rank": 47, "code": "Po", "value": "discovered 1898 by Marie and Pierre Curie (tied)" },
+          { "rank": 47, "code": "Ra", "value": "discovered 1898 by Marie and Pierre Curie (tied)" },
+          { "rank": 52, "code": "Ac", "value": "discovered 1899 by Andre-Louis Debierne" }
+        ],
+        "seededDepth": 52
+      }
+    },
+    {
+      "id": "elements-history-elements-discovered-by-british-scientists-alphabetical-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "H", "value": "Hydrogen - Henry Cavendish, 1766" },
+          { "rank": 2, "code": "Nb", "value": "Niobium - Charles Hatchett, 1801" },
+          { "rank": 3, "code": "Ir", "value": "Iridium - Smithson Tennant, 1803" },
+          { "rank": 3, "code": "Os", "value": "Osmium - Smithson Tennant, 1803 (tied)" },
+          { "rank": 3, "code": "Pd", "value": "Palladium - William Hyde Wollaston, 1803 (tied)" },
+          { "rank": 3, "code": "Rh", "value": "Rhodium - William Hyde Wollaston, 1803 (tied)" },
+          { "rank": 7, "code": "K", "value": "Potassium - Humphry Davy, 1807" },
+          { "rank": 7, "code": "Na", "value": "Sodium - Humphry Davy, 1807 (tied)" },
+          { "rank": 9, "code": "B", "value": "Boron - Humphry Davy, 1808" },
+          { "rank": 9, "code": "Ba", "value": "Barium - Humphry Davy, 1808 (tied)" },
+          { "rank": 9, "code": "Ca", "value": "Calcium - Humphry Davy, 1808 (tied)" },
+          { "rank": 9, "code": "Mg", "value": "Magnesium - Humphry Davy, 1808 (tied)" },
+          { "rank": 9, "code": "Sr", "value": "Strontium - Humphry Davy, 1808 (tied)" },
+          { "rank": 14, "code": "Tl", "value": "Thallium - William Crookes, 1861" },
+          { "rank": 15, "code": "Ar", "value": "Argon - Rayleigh and Ramsay, 1894" },
+          { "rank": 16, "code": "He", "value": "Helium - William Ramsay, 1895" },
+          { "rank": 17, "code": "Kr", "value": "Krypton - Ramsay and Travers, 1898" },
+          { "rank": 17, "code": "Ne", "value": "Neon - Ramsay and Travers, 1898 (tied)" },
+          { "rank": 17, "code": "Xe", "value": "Xenon - Ramsay and Travers, 1898 (tied)" },
+          { "rank": 20, "code": "Rn", "value": "Radon - Ernest Rutherford, 1899" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "elements-history-elements-discovered-by-american-labs-lbnl-ornl-llnl-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "Tc", "value": "Technetium - Berkeley cyclotron, 1937" },
+          { "rank": 2, "code": "At", "value": "Astatine - UC Berkeley, 1940" },
+          { "rank": 2, "code": "Np", "value": "Neptunium - LBNL, 1940 (tied)" },
+          { "rank": 2, "code": "Pu", "value": "Plutonium - LBNL, 1940 (tied)" },
+          { "rank": 5, "code": "Am", "value": "Americium - LBNL/Met Lab, 1944" },
+          { "rank": 5, "code": "Cm", "value": "Curium - LBNL/Met Lab, 1944 (tied)" },
+          { "rank": 7, "code": "Pm", "value": "Promethium - ORNL, 1945" },
+          { "rank": 8, "code": "Bk", "value": "Berkelium - LBNL, 1949" },
+          { "rank": 9, "code": "Cf", "value": "Californium - LBNL, 1950" },
+          { "rank": 10, "code": "Es", "value": "Einsteinium - LBNL/LANL/Argonne, 1952" },
+          { "rank": 10, "code": "Fm", "value": "Fermium - LBNL/LANL/Argonne, 1952 (tied)" },
+          { "rank": 12, "code": "Md", "value": "Mendelevium - LBNL, 1955" },
+          { "rank": 13, "code": "No", "value": "Nobelium - LBNL, 1958 (contested)" },
+          { "rank": 14, "code": "Lr", "value": "Lawrencium - LBNL, 1961" },
+          { "rank": 15, "code": "Ts", "value": "Tennessine - ORNL/LLNL/JINR, 2010" }
+        ],
+        "seededDepth": 15
+      }
+    }
+  ],
+  "deletions": []
+}

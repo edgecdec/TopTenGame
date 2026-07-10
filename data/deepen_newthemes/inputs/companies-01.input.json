@@ -1,0 +1,613 @@
+{
+  "cluster": "companies-01",
+  "questions": [
+    {
+      "id": "companies-history-longest-tenured-current-ceos-fortune-500-2024",
+      "current": {
+        "title": "Longest-tenured current CEOs (Fortune 500)",
+        "prompt": "Rank current Fortune 500 CEOs by longest continuous tenure at the helm.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "BRK.B",
+            "value": "CEO since 1970 (54 years)"
+          },
+          {
+            "rank": 2,
+            "code": "DELL",
+            "value": "CEO since 1984 (40 years, founder)"
+          },
+          {
+            "rank": 3,
+            "code": "NVDA",
+            "value": "CEO since 1993 (31 years, founder)"
+          },
+          {
+            "rank": 4,
+            "code": "CMCSA",
+            "value": "CEO since 2002 (22 years)"
+          },
+          {
+            "rank": 5,
+            "code": "META",
+            "value": "CEO since 2004 (20 years, founder)"
+          },
+          {
+            "rank": 6,
+            "code": "JPM",
+            "value": "CEO since 2006 (18 years)"
+          },
+          {
+            "rank": 7,
+            "code": "AAPL",
+            "value": "CEO since 2011 (13 years)"
+          },
+          {
+            "rank": 8,
+            "code": "ORCL",
+            "value": "CEO since 2014 (10 years)"
+          },
+          {
+            "rank": 8,
+            "code": "MSFT",
+            "value": "CEO since 2014 (10 years, tied)"
+          },
+          {
+            "rank": 10,
+            "code": "GOOGL",
+            "value": "CEO since 2015 (9 years)"
+          },
+          {
+            "rank": 11,
+            "code": "publix",
+            "value": "CEO since 2016 (8 years)"
+          },
+          {
+            "rank": 12,
+            "code": "AMZN",
+            "value": "CEO since 2021 (3 years)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-history-largest-stock-based-compensation-to-ceo-2023-2023",
+      "current": {
+        "title": "Largest stock-based compensation to CEO 2023",
+        "prompt": "Rank Fortune 500 CEOs by 2023 stock-based awards (grant-date fair value).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "MSFT",
+            "value": "$71M stock awards"
+          },
+          {
+            "rank": 2,
+            "code": "AAPL",
+            "value": "$46M stock awards"
+          },
+          {
+            "rank": 3,
+            "code": "NKE",
+            "value": "$28M stock awards"
+          },
+          {
+            "rank": 3,
+            "code": "CRM",
+            "value": "$28M stock awards"
+          },
+          {
+            "rank": 5,
+            "code": "DIS",
+            "value": "$25M stock awards"
+          },
+          {
+            "rank": 6,
+            "code": "GS",
+            "value": "$21M stock awards"
+          },
+          {
+            "rank": 7,
+            "code": "PFE",
+            "value": "$17M stock awards"
+          },
+          {
+            "rank": 8,
+            "code": "IBM",
+            "value": "$14M stock awards"
+          },
+          {
+            "rank": 9,
+            "code": "INTC",
+            "value": "$12M stock awards"
+          },
+          {
+            "rank": 10,
+            "code": "AMZN",
+            "value": "$0 (no new 2023 grant, prior grants vesting)"
+          },
+          {
+            "rank": 10,
+            "code": "META",
+            "value": "$0 (takes $1 salary)"
+          },
+          {
+            "rank": 10,
+            "code": "ORCL",
+            "value": "$0 (option-only compensation)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-highest-brand-value-interbrand-2024",
+      "current": {
+        "title": "Highest brand value (Interbrand)",
+        "prompt": "Name the US companies with the highest brand value in Interbrand's Best Global Brands ranking.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "AAPL",
+            "value": "$488.9B"
+          },
+          {
+            "rank": 2,
+            "code": "MSFT",
+            "value": "$352.5B"
+          },
+          {
+            "rank": 3,
+            "code": "AMZN",
+            "value": "$298.1B"
+          },
+          {
+            "rank": 4,
+            "code": "GOOGL",
+            "value": "$291.3B"
+          },
+          {
+            "rank": 5,
+            "code": "META",
+            "value": "$115.4B"
+          },
+          {
+            "rank": 6,
+            "code": "KO",
+            "value": "$61.2B"
+          },
+          {
+            "rank": 7,
+            "code": "NVDA",
+            "value": "$44.5B"
+          },
+          {
+            "rank": 8,
+            "code": "MCD",
+            "value": "$42.6B"
+          },
+          {
+            "rank": 9,
+            "code": "TSLA",
+            "value": "$39.3B"
+          },
+          {
+            "rank": 10,
+            "code": "DIS",
+            "value": "$36.3B"
+          },
+          {
+            "rank": 11,
+            "code": "NKE",
+            "value": "$32.8B"
+          },
+          {
+            "rank": 12,
+            "code": "IBM",
+            "value": "$31.2B"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-most-active-us-patents-portfolio-2024",
+      "current": {
+        "title": "Most active US patents (portfolio)",
+        "prompt": "Name the US companies with the largest active US patent portfolios (aggregate USPTO grants held).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "IBM",
+            "value": "~150,000 active patents"
+          },
+          {
+            "rank": 2,
+            "code": "MSFT",
+            "value": "~85,000 active patents"
+          },
+          {
+            "rank": 3,
+            "code": "GOOGL",
+            "value": "~65,000 active patents"
+          },
+          {
+            "rank": 4,
+            "code": "AAPL",
+            "value": "~50,000 active patents"
+          },
+          {
+            "rank": 5,
+            "code": "INTC",
+            "value": "~48,000 active patents"
+          },
+          {
+            "rank": 6,
+            "code": "AMZN",
+            "value": "~45,000 active patents"
+          },
+          {
+            "rank": 7,
+            "code": "GE",
+            "value": "~40,000 active patents"
+          },
+          {
+            "rank": 8,
+            "code": "META",
+            "value": "~28,000 active patents"
+          },
+          {
+            "rank": 9,
+            "code": "F",
+            "value": "~22,000 active patents"
+          },
+          {
+            "rank": 10,
+            "code": "HPE",
+            "value": "~20,000 active patents"
+          },
+          {
+            "rank": 11,
+            "code": "GM",
+            "value": "~18,000 active patents"
+          },
+          {
+            "rank": 12,
+            "code": "ORCL",
+            "value": "~17,000 active patents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-largest-scope-1-2-carbon-footprint-2023",
+      "current": {
+        "title": "Largest Scope 1+2 carbon footprint",
+        "prompt": "Name the US companies with the largest reported Scope 1 + Scope 2 greenhouse gas emissions.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "XOM",
+            "value": "112M tCO2e"
+          },
+          {
+            "rank": 2,
+            "code": "CVX",
+            "value": "56M tCO2e"
+          },
+          {
+            "rank": 3,
+            "code": "AEP",
+            "value": "55M tCO2e"
+          },
+          {
+            "rank": 4,
+            "code": "COP",
+            "value": "27M tCO2e"
+          },
+          {
+            "rank": 5,
+            "code": "MPC",
+            "value": "23M tCO2e"
+          },
+          {
+            "rank": 6,
+            "code": "DOW",
+            "value": "22M tCO2e"
+          },
+          {
+            "rank": 7,
+            "code": "PSX",
+            "value": "20M tCO2e"
+          },
+          {
+            "rank": 7,
+            "code": "VLO",
+            "value": "20M tCO2e"
+          },
+          {
+            "rank": 9,
+            "code": "PCG",
+            "value": "15M tCO2e"
+          },
+          {
+            "rank": 10,
+            "code": "GM",
+            "value": "5.5M tCO2e"
+          },
+          {
+            "rank": 11,
+            "code": "F",
+            "value": "5.0M tCO2e"
+          },
+          {
+            "rank": 12,
+            "code": "UPS",
+            "value": "4.5M tCO2e"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-most-acquisitions-in-past-10-years-2015",
+      "current": {
+        "title": "Most acquisitions in past 10 years",
+        "prompt": "Name the US companies that have completed the most corporate acquisitions over the last decade.",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "GOOGL",
+            "value": "~250 acquisitions"
+          },
+          {
+            "rank": 2,
+            "code": "MSFT",
+            "value": "~190 acquisitions"
+          },
+          {
+            "rank": 3,
+            "code": "AMZN",
+            "value": "~110 acquisitions"
+          },
+          {
+            "rank": 4,
+            "code": "AAPL",
+            "value": "~100 acquisitions"
+          },
+          {
+            "rank": 5,
+            "code": "META",
+            "value": "~95 acquisitions"
+          },
+          {
+            "rank": 6,
+            "code": "CRM",
+            "value": "~75 acquisitions"
+          },
+          {
+            "rank": 7,
+            "code": "ORCL",
+            "value": "~70 acquisitions"
+          },
+          {
+            "rank": 8,
+            "code": "CSCO",
+            "value": "~65 acquisitions"
+          },
+          {
+            "rank": 9,
+            "code": "IBM",
+            "value": "~60 acquisitions"
+          },
+          {
+            "rank": 10,
+            "code": "JPM",
+            "value": "~45 acquisitions"
+          },
+          {
+            "rank": 11,
+            "code": "BRK.B",
+            "value": "~40 acquisitions"
+          },
+          {
+            "rank": 12,
+            "code": "DHR",
+            "value": "~35 acquisitions"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-highest-current-stock-price-per-share-2025",
+      "current": {
+        "title": "Highest current stock price per share",
+        "prompt": "Name the US companies with the highest current share price (headline listed class).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "COST",
+            "value": "$980"
+          },
+          {
+            "rank": 2,
+            "code": "MCK",
+            "value": "$620"
+          },
+          {
+            "rank": 3,
+            "code": "UNH",
+            "value": "$550"
+          },
+          {
+            "rank": 4,
+            "code": "LMT",
+            "value": "$525"
+          },
+          {
+            "rank": 5,
+            "code": "GS",
+            "value": "$505"
+          },
+          {
+            "rank": 6,
+            "code": "NOC",
+            "value": "$495"
+          },
+          {
+            "rank": 7,
+            "code": "BRK.B",
+            "value": "$460 (B shares)"
+          },
+          {
+            "rank": 7,
+            "code": "MSFT",
+            "value": "$460"
+          },
+          {
+            "rank": 9,
+            "code": "DE",
+            "value": "$430"
+          },
+          {
+            "rank": 10,
+            "code": "HD",
+            "value": "$390"
+          },
+          {
+            "rank": 11,
+            "code": "HUM",
+            "value": "$385"
+          },
+          {
+            "rank": 12,
+            "code": "CAT",
+            "value": "$360"
+          }
+        ]
+      }
+    },
+    {
+      "id": "companies-deep-dive-longest-dividend-increase-streak-2024",
+      "current": {
+        "title": "Longest dividend increase streak",
+        "prompt": "Name the US companies with the longest active streaks of consecutive annual dividend increases (Dividend Kings and Aristocrats).",
+        "answerType": "Companies",
+        "theme": "Companies",
+        "subtheme": "Companies - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "PG",
+            "value": "68 years"
+          },
+          {
+            "rank": 2,
+            "code": "MMM",
+            "value": "66 years"
+          },
+          {
+            "rank": 2,
+            "code": "EMR",
+            "value": "66 years (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "KO",
+            "value": "62 years"
+          },
+          {
+            "rank": 4,
+            "code": "JNJ",
+            "value": "62 years (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "LOW",
+            "value": "61 years"
+          },
+          {
+            "rank": 7,
+            "code": "TGT",
+            "value": "56 years"
+          },
+          {
+            "rank": 8,
+            "code": "WMT",
+            "value": "51 years"
+          },
+          {
+            "rank": 8,
+            "code": "PEP",
+            "value": "51 years (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "MCD",
+            "value": "48 years"
+          },
+          {
+            "rank": 10,
+            "code": "ADM",
+            "value": "48 years (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "CVX",
+            "value": "37 years"
+          }
+        ]
+      }
+    }
+  ]
+}
