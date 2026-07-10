@@ -108960,7 +108960,7 @@
     "title": "Highest grossing Best Picture winners (worldwide box office)",
     "prompt": "Name the Best Picture winners with the highest worldwide box office gross (unadjusted).",
     "answerType": "Movies",
-    "seededDepth": 22,
+    "seededDepth": 30,
     "source": {
       "name": "Wikipedia \u2014 Academy Award-winning films (Best Picture)",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
@@ -108974,12 +108974,12 @@
       {
         "rank": 1,
         "code": "titanic-1997",
-        "value": "$2.26B worldwide"
+        "value": "$2,264M worldwide"
       },
       {
         "rank": 2,
         "code": "lord-of-the-rings-return-of-the-king-2003",
-        "value": "$1.15B worldwide"
+        "value": "$1,146M worldwide"
       },
       {
         "rank": 3,
@@ -109043,43 +109043,83 @@
       },
       {
         "rank": 15,
+        "code": "departed-2006",
+        "value": "$291M worldwide"
+      },
+      {
+        "rank": 16,
         "code": "shakespeare-in-love-1998",
         "value": "$289M worldwide"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "code": "sound-of-music-1965",
         "value": "$286M worldwide"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "silence-of-the-lambs-1991",
         "value": "$272M worldwide"
       },
       {
-        "rank": 18,
+        "rank": 19,
+        "code": "parasite-2019",
+        "value": "$258M worldwide"
+      },
+      {
+        "rank": 20,
         "code": "godfather-1972",
         "value": "$246M worldwide"
       },
       {
-        "rank": 19,
+        "rank": 21,
         "code": "english-patient-1996",
         "value": "$232M worldwide"
       },
       {
-        "rank": 19,
+        "rank": 21,
         "code": "argo-2012",
         "value": "$232M worldwide (tied)"
       },
       {
-        "rank": 21,
+        "rank": 23,
         "code": "million-dollar-baby-2004",
         "value": "$217M worldwide"
       },
       {
-        "rank": 22,
+        "rank": 24,
         "code": "braveheart-1995",
         "value": "$213M worldwide"
+      },
+      {
+        "rank": 25,
+        "code": "shape-of-water-2017",
+        "value": "$195M worldwide"
+      },
+      {
+        "rank": 26,
+        "code": "12-years-a-slave-2013",
+        "value": "$187M worldwide"
+      },
+      {
+        "rank": 27,
+        "code": "no-country-for-old-men-2007",
+        "value": "$171M worldwide"
+      },
+      {
+        "rank": 28,
+        "code": "everything-everywhere-all-at-once-2022",
+        "value": "$143M worldwide"
+      },
+      {
+        "rank": 29,
+        "code": "birdman-2014",
+        "value": "$103M worldwide"
+      },
+      {
+        "rank": 30,
+        "code": "spotlight-2015",
+        "value": "$98M worldwide"
       }
     ]
   },
@@ -109695,7 +109735,7 @@
     "title": "Longest runtime among Best Picture winners",
     "prompt": "Name the Best Picture winners with the longest theatrical runtimes.",
     "answerType": "Movies",
-    "seededDepth": 21,
+    "seededDepth": 22,
     "source": {
       "name": "Wikipedia / AFI Catalog",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award_winners_and_nominees_for_Best_Picture",
@@ -109793,21 +109833,26 @@
       },
       {
         "rank": 18,
+        "code": "last-emperor-1987",
+        "value": "163 min"
+      },
+      {
+        "rank": 19,
         "code": "english-patient-1996",
         "value": "162 min"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "code": "amadeus-1984",
         "value": "161 min"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "code": "out-of-africa-1985",
         "value": "161 min (tied)"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "code": "west-side-story-1961",
         "value": "153 min"
       }
@@ -111065,7 +111110,7 @@
     "title": "Best Picture winners whose lead actor also won Best Actor that night",
     "prompt": "Name Best Picture winners where the film's lead actor also took home the Best Actor Oscar at the same ceremony.",
     "answerType": "Movies",
-    "seededDepth": 23,
+    "seededDepth": 24,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -111098,96 +111143,101 @@
       },
       {
         "rank": 5,
+        "code": "hamlet-1948",
+        "value": "Laurence Olivier"
+      },
+      {
+        "rank": 6,
         "code": "all-the-kings-men-1949",
         "value": "Broderick Crawford"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "on-the-waterfront-1954",
         "value": "Marlon Brando"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "marty-1955",
         "value": "Ernest Borgnine"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "bridge-on-the-river-kwai-1957",
         "value": "Alec Guinness"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "ben-hur-1959",
         "value": "Charlton Heston"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "my-fair-lady-1964",
         "value": "Rex Harrison"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "man-for-all-seasons-1966",
         "value": "Paul Scofield"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "patton-1970",
         "value": "George C. Scott"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "french-connection-1971",
         "value": "Gene Hackman"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "godfather-1972",
         "value": "Marlon Brando"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "one-flew-over-the-cuckoos-nest-1975",
         "value": "Jack Nicholson"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "code": "kramer-vs-kramer-1979",
         "value": "Dustin Hoffman"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "amadeus-1984",
         "value": "F. Murray Abraham"
       },
       {
-        "rank": 18,
+        "rank": 19,
         "code": "rain-man-1988",
         "value": "Dustin Hoffman"
       },
       {
-        "rank": 19,
+        "rank": 20,
         "code": "silence-of-the-lambs-1991",
         "value": "Anthony Hopkins"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "code": "forrest-gump-1994",
         "value": "Tom Hanks"
       },
       {
-        "rank": 21,
+        "rank": 22,
         "code": "gladiator-2000",
         "value": "Russell Crowe"
       },
       {
-        "rank": 22,
+        "rank": 23,
         "code": "kings-speech-2010",
         "value": "Colin Firth"
       },
       {
-        "rank": 23,
+        "rank": 24,
         "code": "oppenheimer-2023",
         "value": "Cillian Murphy"
       }
@@ -111835,7 +111885,7 @@
     "title": "Best Picture winners with a Best Original Score win",
     "prompt": "Name Best Picture winners that also took home the Oscar for Best Original Score (a.k.a. Music - Original Dramatic/Comedy Score) at the same ceremony.",
     "answerType": "Movies",
-    "seededDepth": 15,
+    "seededDepth": 17,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -111898,26 +111948,36 @@
       },
       {
         "rank": 11,
+        "code": "ben-hur-1959",
+        "value": "Miklos Rozsa (1959)"
+      },
+      {
+        "rank": 12,
         "code": "bridge-on-the-river-kwai-1957",
         "value": "Malcolm Arnold (1957)"
       },
       {
-        "rank": 12,
+        "rank": 13,
+        "code": "around-the-world-in-80-days-1956",
+        "value": "Victor Young (1956)"
+      },
+      {
+        "rank": 14,
         "code": "casablanca-1943",
         "value": "Max Steiner (1943)"
       },
       {
-        "rank": 13,
+        "rank": 15,
         "code": "how-green-was-my-valley-1941",
         "value": "Alfred Newman (1941)"
       },
       {
-        "rank": 14,
+        "rank": 16,
         "code": "rebecca-1940",
         "value": "Franz Waxman (1940)"
       },
       {
-        "rank": 15,
+        "rank": 17,
         "code": "gone-with-the-wind-1939",
         "value": "Max Steiner (1939)"
       }
@@ -112975,7 +113035,7 @@
     "title": "Highest worldwide grossing Best Picture nominees (winners included)",
     "prompt": "Films that were nominated for Best Picture (winners included), ranked by unadjusted lifetime worldwide box office.",
     "answerType": "Movies",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Box Office Mojo",
       "url": "https://www.boxofficemojo.com/",
@@ -112989,102 +113049,152 @@
       {
         "rank": 1,
         "code": "avatar-2009",
-        "value": "$2.923 billion"
+        "value": "$2,923M worldwide"
       },
       {
         "rank": 2,
         "code": "titanic-1997",
-        "value": "$2.264 billion"
+        "value": "$2,264M worldwide"
       },
       {
         "rank": 3,
         "code": "top-gun-maverick-2022",
-        "value": "$1.496 billion"
+        "value": "$1,496M worldwide"
       },
       {
         "rank": 4,
         "code": "barbie-2023",
-        "value": "$1.446 billion"
+        "value": "$1,446M worldwide"
       },
       {
         "rank": 5,
         "code": "black-panther-2018",
-        "value": "$1.349 billion"
+        "value": "$1,349M worldwide"
       },
       {
         "rank": 6,
         "code": "lord-of-the-rings-return-of-the-king-2003",
-        "value": "$1.146 billion"
+        "value": "$1,146M worldwide"
       },
       {
         "rank": 7,
         "code": "joker-2019",
-        "value": "$1.079 billion"
+        "value": "$1,079M worldwide"
       },
       {
         "rank": 8,
         "code": "toy-story-3-2010",
-        "value": "$1.067 billion"
+        "value": "$1,067M worldwide"
       },
       {
         "rank": 9,
         "code": "oppenheimer-2023",
-        "value": "$976 million"
+        "value": "$976M worldwide"
       },
       {
         "rank": 10,
         "code": "lord-of-the-rings-two-towers-2002",
-        "value": "$947 million"
+        "value": "$947M worldwide"
       },
       {
         "rank": 11,
         "code": "bohemian-rhapsody-2018",
-        "value": "$911 million"
+        "value": "$911M worldwide"
       },
       {
         "rank": 12,
         "code": "lord-of-the-rings-fellowship-of-the-ring-2001",
-        "value": "$897 million"
+        "value": "$897M worldwide"
       },
       {
         "rank": 13,
         "code": "inception-2010",
-        "value": "$837 million"
+        "value": "$837M worldwide"
       },
       {
         "rank": 14,
-        "code": "forrest-gump-1994",
-        "value": "$678 million"
+        "code": "gravity-2013",
+        "value": "$759M worldwide"
       },
       {
         "rank": 15,
-        "code": "martian-2015",
-        "value": "$630 million"
+        "code": "forrest-gump-1994",
+        "value": "$678M worldwide"
       },
       {
         "rank": 16,
-        "code": "american-sniper-2014",
-        "value": "$547 million"
+        "code": "martian-2015",
+        "value": "$630M worldwide"
       },
       {
         "rank": 17,
-        "code": "dunkirk-2017",
-        "value": "$527 million"
+        "code": "life-of-pi-2012",
+        "value": "$609M worldwide"
       },
       {
         "rank": 18,
-        "code": "saving-private-ryan-1998",
-        "value": "$481 million"
+        "code": "american-sniper-2014",
+        "value": "$547M worldwide"
       },
       {
         "rank": 19,
-        "code": "jaws-1975",
-        "value": "$476 million"
+        "code": "dunkirk-2017",
+        "value": "$527M worldwide"
       },
       {
         "rank": 20,
+        "code": "saving-private-ryan-1998",
+        "value": "$481M worldwide"
+      },
+      {
+        "rank": 21,
+        "code": "jaws-1975",
+        "value": "$476M worldwide"
+      },
+      {
+        "rank": 22,
         "code": "la-la-land-2016",
-        "value": "$472 million"
+        "value": "$472M worldwide"
+      },
+      {
+        "rank": 23,
+        "code": "gladiator-2000",
+        "value": "$465M worldwide"
+      },
+      {
+        "rank": 24,
+        "code": "les-miserables-2012",
+        "value": "$442M worldwide"
+      },
+      {
+        "rank": 25,
+        "code": "django-unchained-2012",
+        "value": "$425M worldwide"
+      },
+      {
+        "rank": 26,
+        "code": "kings-speech-2010",
+        "value": "$424M worldwide"
+      },
+      {
+        "rank": 26,
+        "code": "dances-with-wolves-1990",
+        "value": "$424M worldwide (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "rain-man-1988",
+        "value": "$412M worldwide"
+      },
+      {
+        "rank": 29,
+        "code": "gone-with-the-wind-1939",
+        "value": "$402M worldwide"
+      },
+      {
+        "rank": 30,
+        "code": "slumdog-millionaire-2008",
+        "value": "$378M worldwide"
       }
     ]
   },
@@ -113200,7 +113310,7 @@
     "title": "Highest Rotten Tomatoes score among Best Picture nominees that did NOT win",
     "prompt": "Best Picture nominees (any year) that lost Best Picture, ranked by Rotten Tomatoes Tomatometer critic score.",
     "answerType": "Movies",
-    "seededDepth": 20,
+    "seededDepth": 30,
     "source": {
       "name": "Rotten Tomatoes",
       "url": "https://www.rottentomatoes.com/",
@@ -113272,44 +113382,94 @@
         "value": "96% (tied)"
       },
       {
-        "rank": 13,
+        "rank": 10,
+        "code": "arrival-2016",
+        "value": "96% (tied)"
+      },
+      {
+        "rank": 14,
         "code": "little-women-2019",
         "value": "95%"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "marriage-story-2019",
         "value": "95% (tied)"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "high-noon-1952",
         "value": "95% (tied)"
       },
       {
-        "rank": 16,
+        "rank": 14,
+        "code": "call-me-by-your-name-2017",
+        "value": "95% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "manchester-by-the-sea-2016",
+        "value": "95% (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "grand-hotel-1932",
+        "value": "94%"
+      },
+      {
+        "rank": 19,
+        "code": "grapes-of-wrath-1940",
+        "value": "94% (tied)"
+      },
+      {
+        "rank": 21,
         "code": "pulp-fiction-1994",
         "value": "92%"
       },
       {
-        "rank": 16,
+        "rank": 21,
         "code": "grand-budapest-hotel-2014",
         "value": "92% (tied)"
       },
       {
-        "rank": 16,
+        "rank": 21,
         "code": "shane-1953",
         "value": "92% (tied)"
       },
       {
-        "rank": 19,
+        "rank": 21,
+        "code": "banshees-of-inisherin-2022",
+        "value": "92% (tied)"
+      },
+      {
+        "rank": 25,
         "code": "la-la-land-2016",
         "value": "91%"
       },
       {
-        "rank": 19,
+        "rank": 25,
         "code": "1917-2019",
         "value": "91% (tied)"
+      },
+      {
+        "rank": 25,
+        "code": "fences-2016",
+        "value": "91% (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "sound-of-metal-2019",
+        "value": "90%"
+      },
+      {
+        "rank": 28,
+        "code": "tree-of-life-2011",
+        "value": "90% (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "whiplash-2014",
+        "value": "90% (tied)"
       }
     ]
   },
@@ -113775,7 +113935,7 @@
     "title": "Best-Selling PlayStation 4 Games",
     "prompt": "Rank the best-selling games on the PlayStation 4 console.",
     "answerType": "Video Games",
-    "seededDepth": 14,
+    "seededDepth": 17,
     "source": {
       "name": "VGChartz PS4 Software Totals",
       "url": "https://www.vgchartz.com/platform/74/playstation-4/",
@@ -113843,18 +114003,33 @@
       },
       {
         "rank": 12,
+        "code": "witcher-3-wild-hunt-2015",
+        "value": "15M copies"
+      },
+      {
+        "rank": 13,
         "code": "ghost-of-tsushima-2020",
         "value": "13M copies"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "fallout-4-2015",
         "value": "12M copies"
       },
       {
-        "rank": 14,
-        "code": "last-of-us-part-ii-2020",
+        "rank": 15,
+        "code": "monster-hunter-world-2018",
+        "value": "11M copies"
+      },
+      {
+        "rank": 16,
+        "code": "minecraft-2011",
         "value": "10M copies"
+      },
+      {
+        "rank": 16,
+        "code": "last-of-us-part-ii-2020",
+        "value": "10M copies (tied)"
       }
     ]
   },
@@ -114235,7 +114410,7 @@
     "title": "Games rated 95+ by Metacritic",
     "prompt": "Name games with a Metacritic aggregate score of 95 or higher (top-tier universal acclaim).",
     "answerType": "Video Games",
-    "seededDepth": 24,
+    "seededDepth": 39,
     "source": {
       "name": "Metacritic",
       "url": "https://www.metacritic.com/browse/game/",
@@ -114312,59 +114487,134 @@
         "value": "97 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 4,
+        "code": "super-mario-odyssey-2017",
+        "value": "97 (tied)"
+      },
+      {
+        "rank": 15,
         "code": "elden-ring-2022",
         "value": "96"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "half-life-2-2004",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "bioshock-2007",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "mass-effect-2-2010",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "portal-2-2011",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "uncharted-2-among-thieves-2009",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "baldurs-gate-3-2023",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "last-of-us-2013",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "witcher-3-wild-hunt-2015",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "grand-theft-auto-iii-2001",
         "value": "96 (tied)"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "super-mario-64-1996",
         "value": "96 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "half-life-1998",
+        "value": "96 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "goldeneye-007-1997",
+        "value": "96 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "perfect-dark-2000",
+        "value": "96 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "legend-of-zelda-tears-of-the-kingdom-2023",
+        "value": "96 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "batman-arkham-city-2011",
+        "value": "96 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "elder-scrolls-v-skyrim-2011",
+        "value": "96 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "halo-2-2004",
+        "value": "95"
+      },
+      {
+        "rank": 32,
+        "code": "portal-2007",
+        "value": "95 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "grand-theft-auto-vice-city-2002",
+        "value": "95 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "red-dead-redemption-2010",
+        "value": "95 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "gran-turismo-3-a-spec-2001",
+        "value": "95 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "legend-of-zelda-majoras-mask-2000",
+        "value": "95 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "legend-of-zelda-the-wind-waker-2002",
+        "value": "95 (tied)"
+      },
+      {
+        "rank": 32,
+        "code": "god-of-war-2018",
+        "value": "95 (tied)"
       }
     ]
   },
@@ -114375,7 +114625,7 @@
     "title": "Highest User Score on Metacritic",
     "prompt": "Name games with the highest Metacritic User Score (aggregated user ratings on a 0-10 scale).",
     "answerType": "Video Games",
-    "seededDepth": 21,
+    "seededDepth": 31,
     "source": {
       "name": "Metacritic User Reviews",
       "url": "https://www.metacritic.com/browse/game/",
@@ -114412,83 +114662,133 @@
         "value": "9.3 user (tied)"
       },
       {
-        "rank": 6,
+        "rank": 4,
+        "code": "persona-5-2016",
+        "value": "9.3 user (tied)"
+      },
+      {
+        "rank": 7,
         "code": "elden-ring-2022",
         "value": "9.2 user"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "last-of-us-2013",
         "value": "9.2 user (tied)"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "half-life-2-2004",
         "value": "9.2 user (tied)"
       },
       {
-        "rank": 9,
+        "rank": 7,
+        "code": "metal-gear-solid-3-snake-eater-2004",
+        "value": "9.2 user (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "shadow-of-the-colossus-2005",
+        "value": "9.2 user (tied)"
+      },
+      {
+        "rank": 12,
         "code": "portal-2-2011",
         "value": "9.1 user"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "code": "mass-effect-2-2010",
         "value": "9.1 user (tied)"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "code": "super-mario-galaxy-2007",
         "value": "9.1 user (tied)"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "code": "bioshock-2007",
         "value": "9.1 user (tied)"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "code": "hollow-knight-2017",
         "value": "9.1 user (tied)"
       },
       {
-        "rank": 9,
+        "rank": 12,
         "code": "chrono-trigger-1995",
         "value": "9.1 user (tied)"
       },
       {
-        "rank": 15,
+        "rank": 12,
+        "code": "legend-of-zelda-tears-of-the-kingdom-2023",
+        "value": "9.1 user (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "metal-gear-solid-1998",
+        "value": "9.1 user (tied)"
+      },
+      {
+        "rank": 20,
         "code": "legend-of-zelda-ocarina-of-time-1998",
         "value": "9.0 user"
       },
       {
-        "rank": 15,
+        "rank": 20,
         "code": "super-mario-galaxy-2-2010",
         "value": "9.0 user (tied)"
       },
       {
-        "rank": 15,
+        "rank": 20,
         "code": "undertale-2015",
         "value": "9.0 user (tied)"
       },
       {
-        "rank": 15,
+        "rank": 20,
         "code": "final-fantasy-vii-1997",
         "value": "9.0 user (tied)"
       },
       {
-        "rank": 15,
+        "rank": 20,
         "code": "super-mario-odyssey-2017",
         "value": "9.0 user (tied)"
       },
       {
         "rank": 20,
+        "code": "resident-evil-4-2005",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "silent-hill-2-2001",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "grim-fandango-1998",
+        "value": "9.0 user (tied)"
+      },
+      {
+        "rank": 28,
         "code": "stardew-valley-2016",
         "value": "8.9 user"
       },
       {
-        "rank": 20,
+        "rank": 28,
         "code": "dark-souls-2011",
+        "value": "8.9 user (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "divinity-original-sin-ii-2017",
+        "value": "8.9 user (tied)"
+      },
+      {
+        "rank": 28,
+        "code": "terraria-2011",
         "value": "8.9 user (tied)"
       }
     ]
@@ -114945,7 +115245,7 @@
     "title": "BAFTA Games Award for Best Game winners",
     "prompt": "Name the games that have won the BAFTA Games Award for Best Game since the ceremony's early days.",
     "answerType": "Video Games",
-    "seededDepth": 22,
+    "seededDepth": 23,
     "source": {
       "name": "British Academy Games Awards (BAFTA)",
       "url": "https://www.bafta.org/games/awards",
@@ -115065,6 +115365,11 @@
         "rank": 22,
         "code": "half-life-2-2004",
         "value": "2005 ceremony (Valve)"
+      },
+      {
+        "rank": 23,
+        "code": "call-of-duty-2003",
+        "value": "2004 ceremony (Infinity Ward / Activision)"
       }
     ]
   },
@@ -115610,7 +115915,7 @@
     "title": "Highest-grossing video game franchises by revenue",
     "prompt": "Rank video game franchises by total lifetime franchise revenue including games, merchandise, licensing, and film/TV \u2014 not games-software revenue only.",
     "answerType": "Video Game Franchises",
-    "seededDepth": 22,
+    "seededDepth": 27,
     "source": {
       "name": "Wikipedia \u2014 List of highest-grossing media franchises",
       "url": "https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises",
@@ -115683,53 +115988,78 @@
       },
       {
         "rank": 13,
+        "code": "mario-kart",
+        "value": "$12B revenue"
+      },
+      {
+        "rank": 14,
         "code": "sonic",
         "value": "$11B revenue"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "monster-hunter",
         "value": "$10B revenue"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "street-fighter",
         "value": "$9B revenue"
       },
       {
-        "rank": 16,
+        "rank": 17,
         "code": "madden-nfl",
         "value": "$7B revenue"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "assassins-creed",
         "value": "$6B revenue"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "resident-evil",
         "value": "$6B revenue (tied)"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "warcraft",
         "value": "$6B revenue (tied)"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "code": "donkey-kong",
         "value": "$5B revenue"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "code": "zelda",
         "value": "$5B revenue (tied)"
       },
       {
-        "rank": 20,
+        "rank": 21,
         "code": "fortnite",
         "value": "$5B revenue (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "gran-turismo",
+        "value": "$4B revenue"
+      },
+      {
+        "rank": 24,
+        "code": "sims",
+        "value": "$4B revenue (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "need-for-speed",
+        "value": "$4B revenue (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "tomb-raider",
+        "value": "$4B revenue (tied)"
       }
     ]
   },
@@ -115888,7 +116218,7 @@
     "title": "Best-Selling Nintendo-Owned Franchises",
     "prompt": "Rank Nintendo's first-party franchises by lifetime unit sales.",
     "answerType": "Video Game Franchises",
-    "seededDepth": 13,
+    "seededDepth": 17,
     "source": {
       "name": "Wikipedia \u2014 List of best-selling video game franchises",
       "url": "https://en.wikipedia.org/wiki/List_of_best-selling_video_game_franchises",
@@ -115941,28 +116271,48 @@
       },
       {
         "rank": 9,
+        "code": "yoshi",
+        "value": "~42M units"
+      },
+      {
+        "rank": 10,
         "code": "splatoon",
         "value": "~40M units"
       },
       {
-        "rank": 10,
+        "rank": 11,
         "code": "metroid",
         "value": "~19M units"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "fire-emblem",
         "value": "~18M units"
       },
       {
-        "rank": 12,
+        "rank": 13,
         "code": "star-fox",
         "value": "~13M units"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "pikmin",
         "value": "~11M units"
+      },
+      {
+        "rank": 14,
+        "code": "xenoblade",
+        "value": "~11M units (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "punch-out",
+        "value": "~6M units"
+      },
+      {
+        "rank": 17,
+        "code": "f-zero",
+        "value": "~5M units"
       }
     ]
   },
@@ -273383,7 +273733,7 @@
     "title": "Highest scoring RPG on Metacritic",
     "prompt": "Name the highest-rated role-playing games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 20,
+    "seededDepth": 22,
     "source": {
       "name": "Metacritic \u2014 RPG rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=role-playing",
@@ -273420,77 +273770,87 @@
         "value": "95 Metacritic"
       },
       {
-        "rank": 6,
+        "rank": 5,
+        "code": "persona-5-royal-2020",
+        "value": "95 Metacritic (tied)"
+      },
+      {
+        "rank": 7,
         "code": "elder-scrolls-iv-oblivion-2006",
         "value": "94 Metacritic"
       },
       {
-        "rank": 6,
+        "rank": 7,
         "code": "chrono-trigger-1995",
         "value": "94 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "witcher-3-wild-hunt-2015",
         "value": "93 Metacritic"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "fallout-3-2008",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "persona-5-2016",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "divinity-original-sin-ii-2017",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "final-fantasy-ix-2000",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "mass-effect-2007",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "fallout-new-vegas-2010",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "final-fantasy-x-2001",
         "value": "92 Metacritic"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "elder-scrolls-iii-morrowind-2002",
         "value": "92 Metacritic (tied)"
       },
       {
-        "rank": 15,
+        "rank": 16,
         "code": "bloodborne-2015",
         "value": "92 Metacritic (tied)"
       },
       {
-        "rank": 18,
+        "rank": 16,
+        "code": "final-fantasy-xiv-endwalker-2021",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 20,
         "code": "disco-elysium-2019",
         "value": "91 Metacritic"
       },
       {
-        "rank": 18,
+        "rank": 20,
         "code": "planescape-torment-1999",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 18,
+        "rank": 20,
         "code": "dark-souls-2011",
         "value": "91 Metacritic (tied)"
       }
@@ -273506,7 +273866,7 @@
     "title": "Highest scoring FPS games (Metacritic)",
     "prompt": "Name the highest-rated first-person shooter games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 21,
+    "seededDepth": 28,
     "source": {
       "name": "Metacritic \u2014 Shooter rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=shooter",
@@ -273583,43 +273943,78 @@
         "value": "94 Metacritic (tied)"
       },
       {
-        "rank": 14,
+        "rank": 10,
+        "code": "quake-1996",
+        "value": "94 Metacritic (tied)"
+      },
+      {
+        "rank": 15,
         "code": "doom-1993",
         "value": "92 Metacritic"
       },
       {
-        "rank": 14,
+        "rank": 15,
         "code": "system-shock-2-1999",
         "value": "92 Metacritic (tied)"
       },
       {
-        "rank": 16,
+        "rank": 15,
+        "code": "doom-ii-1994",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "quake-ii-1997",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 19,
         "code": "borderlands-2-2012",
         "value": "91 Metacritic"
       },
       {
-        "rank": 16,
+        "rank": 19,
         "code": "halo-reach-2010",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 16,
+        "rank": 19,
         "code": "overwatch-2016",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 19,
+        "rank": 22,
         "code": "call-of-duty-2-2005",
         "value": "90 Metacritic"
       },
       {
-        "rank": 19,
+        "rank": 22,
         "code": "portal-2007",
         "value": "90 Metacritic (tied)"
       },
       {
-        "rank": 19,
+        "rank": 22,
         "code": "team-fortress-2-2007",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "left-4-dead-2008",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "quake-iii-arena-1999",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "rainbow-six-siege-2015",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 22,
+        "code": "wolfenstein-3d-1992",
         "value": "90 Metacritic (tied)"
       }
     ],
@@ -273717,7 +274112,7 @@
     "title": "Highest scoring platformers (Metacritic)",
     "prompt": "Name the highest-rated platformer games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 21,
+    "seededDepth": 27,
     "source": {
       "name": "Metacritic \u2014 Platformer rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=platformer",
@@ -273789,48 +274184,78 @@
         "value": "92 Metacritic (tied)"
       },
       {
-        "rank": 13,
+        "rank": 9,
+        "code": "sonic-the-hedgehog-2-1992",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 14,
         "code": "crash-bandicoot-warped-1998",
         "value": "91 Metacritic"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "inside-2016",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "shovel-knight-2014",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 13,
+        "rank": 14,
         "code": "yoshis-island-1995",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 17,
+        "rank": 14,
+        "code": "super-mario-3d-land-2011",
+        "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 19,
         "code": "hollow-knight-2017",
         "value": "90 Metacritic"
       },
       {
-        "rank": 17,
+        "rank": 19,
         "code": "limbo-2010",
         "value": "90 Metacritic (tied)"
       },
       {
-        "rank": 17,
+        "rank": 19,
         "code": "super-meat-boy-2010",
         "value": "90 Metacritic (tied)"
       },
       {
-        "rank": 20,
+        "rank": 19,
+        "code": "sonic-the-hedgehog-1991",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 19,
+        "code": "mega-man-x-1993",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 24,
         "code": "new-super-mario-bros-2006",
         "value": "89 Metacritic"
       },
       {
-        "rank": 20,
+        "rank": 24,
         "code": "psychonauts-2005",
+        "value": "89 Metacritic (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "mega-man-2-1988",
+        "value": "89 Metacritic (tied)"
+      },
+      {
+        "rank": 24,
+        "code": "super-castlevania-iv-1991",
         "value": "89 Metacritic (tied)"
       }
     ],
@@ -273845,7 +274270,7 @@
     "title": "Highest scoring open-world games (Metacritic)",
     "prompt": "Name the highest-rated open-world games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 23,
+    "seededDepth": 32,
     "source": {
       "name": "Metacritic \u2014 Open-world rankings",
       "url": "https://www.metacritic.com/browse/game/",
@@ -273858,118 +274283,163 @@
     "answers": [
       {
         "rank": 1,
+        "code": "legend-of-zelda-ocarina-of-time-1998",
+        "value": "99 Metacritic"
+      },
+      {
+        "rank": 2,
         "code": "grand-theft-auto-iv-2008",
         "value": "98 Metacritic"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "grand-theft-auto-iii-2001",
         "value": "97 Metacritic"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "grand-theft-auto-v-2013",
         "value": "97 Metacritic (tied)"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "legend-of-zelda-breath-of-the-wild-2017",
         "value": "97 Metacritic (tied)"
       },
       {
-        "rank": 2,
+        "rank": 3,
         "code": "red-dead-redemption-2-2018",
         "value": "97 Metacritic (tied)"
       },
       {
-        "rank": 6,
+        "rank": 3,
+        "code": "grand-theft-auto-san-andreas-2004",
+        "value": "97 Metacritic (tied)"
+      },
+      {
+        "rank": 8,
         "code": "batman-arkham-city-2011",
         "value": "96 Metacritic"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "elden-ring-2022",
         "value": "96 Metacritic (tied)"
       },
       {
-        "rank": 6,
+        "rank": 8,
         "code": "elder-scrolls-v-skyrim-2011",
         "value": "96 Metacritic (tied)"
       },
       {
-        "rank": 9,
-        "code": "grand-theft-auto-san-andreas-2004",
+        "rank": 8,
+        "code": "legend-of-zelda-tears-of-the-kingdom-2023",
+        "value": "96 Metacritic (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "grand-theft-auto-vice-city-2002",
         "value": "95 Metacritic"
       },
       {
-        "rank": 9,
-        "code": "grand-theft-auto-vice-city-2002",
-        "value": "95 Metacritic (tied)"
-      },
-      {
-        "rank": 9,
+        "rank": 12,
         "code": "red-dead-redemption-2010",
         "value": "95 Metacritic (tied)"
       },
       {
         "rank": 12,
+        "code": "legend-of-zelda-majoras-mask-2000",
+        "value": "95 Metacritic (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "legend-of-zelda-the-wind-waker-2002",
+        "value": "95 Metacritic (tied)"
+      },
+      {
+        "rank": 16,
         "code": "elder-scrolls-iv-oblivion-2006",
         "value": "94 Metacritic"
       },
       {
-        "rank": 12,
+        "rank": 16,
         "code": "fallout-3-2008",
         "value": "94 Metacritic (tied)"
       },
       {
-        "rank": 14,
+        "rank": 16,
+        "code": "legend-of-zelda-twilight-princess-2006",
+        "value": "94 Metacritic (tied)"
+      },
+      {
+        "rank": 19,
         "code": "fallout-new-vegas-2010",
         "value": "93 Metacritic"
       },
       {
-        "rank": 14,
+        "rank": 19,
         "code": "metal-gear-solid-v-the-phantom-pain-2015",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 14,
+        "rank": 19,
         "code": "witcher-3-wild-hunt-2015",
         "value": "93 Metacritic (tied)"
       },
       {
-        "rank": 17,
+        "rank": 22,
         "code": "batman-arkham-asylum-2009",
         "value": "92 Metacritic"
       },
       {
-        "rank": 18,
+        "rank": 22,
+        "code": "bloodborne-2015",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 24,
         "code": "assassins-creed-ii-2009",
         "value": "91 Metacritic"
       },
       {
-        "rank": 18,
+        "rank": 24,
         "code": "assassins-creed-iv-black-flag-2013",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 18,
+        "rank": 24,
         "code": "far-cry-3-2012",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 18,
+        "rank": 24,
         "code": "ghost-of-tsushima-2020",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 18,
+        "rank": 24,
         "code": "horizon-zero-dawn-2017",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 23,
+        "rank": 24,
+        "code": "sekiro-shadows-die-twice-2019",
+        "value": "91 Metacritic (tied)"
+      },
+      {
+        "rank": 30,
         "code": "monster-hunter-world-2018",
         "value": "90 Metacritic"
+      },
+      {
+        "rank": 30,
+        "code": "dark-souls-2011",
+        "value": "90 Metacritic (tied)"
+      },
+      {
+        "rank": 30,
+        "code": "elder-scrolls-iii-morrowind-2002",
+        "value": "90 Metacritic (tied)"
       }
     ],
     "source_name": "Metacritic \u2014 Highest-scoring open-world games",
@@ -274063,7 +274533,7 @@
     "title": "Highest scoring survival horror games (Metacritic)",
     "prompt": "Name the highest-rated survival horror games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 10,
+    "seededDepth": 18,
     "source": {
       "name": "Metacritic \u2014 Horror rankings",
       "url": "https://www.metacritic.com/browse/game/",
@@ -274081,48 +274551,88 @@
       },
       {
         "rank": 2,
+        "code": "resident-evil-4-2023",
+        "value": "93 Metacritic"
+      },
+      {
+        "rank": 3,
         "code": "eternal-darkness-sanitys-requiem-2002",
         "value": "92 Metacritic"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "resident-evil-2-2019",
         "value": "91 Metacritic"
       },
       {
-        "rank": 3,
+        "rank": 4,
         "code": "resident-evil-1996",
         "value": "91 Metacritic (tied)"
       },
       {
-        "rank": 5,
+        "rank": 6,
+        "code": "dead-space-2-2011",
+        "value": "90 Metacritic"
+      },
+      {
+        "rank": 7,
         "code": "silent-hill-2-2001",
         "value": "89 Metacritic"
       },
       {
-        "rank": 5,
+        "rank": 7,
         "code": "dead-space-2008",
         "value": "89 Metacritic (tied)"
       },
       {
-        "rank": 5,
+        "rank": 7,
         "code": "resident-evil-2-1998",
         "value": "89 Metacritic (tied)"
       },
       {
-        "rank": 8,
-        "code": "silent-hill-1999",
+        "rank": 10,
+        "code": "resident-evil-7-biohazard-2017",
         "value": "86 Metacritic"
       },
       {
-        "rank": 9,
+        "rank": 11,
+        "code": "silent-hill-1999",
+        "value": "85 Metacritic"
+      },
+      {
+        "rank": 11,
+        "code": "amnesia-the-dark-descent-2010",
+        "value": "85 Metacritic (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "silent-hill-3-2003",
+        "value": "85 Metacritic (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "fatal-frame-2001",
+        "value": "85 Metacritic (tied)"
+      },
+      {
+        "rank": 15,
         "code": "resident-evil-village-2021",
         "value": "84 Metacritic"
       },
       {
-        "rank": 10,
+        "rank": 16,
         "code": "alien-isolation-2014",
         "value": "81 Metacritic"
+      },
+      {
+        "rank": 17,
+        "code": "outlast-2013",
+        "value": "80 Metacritic"
+      },
+      {
+        "rank": 18,
+        "code": "evil-within-2014",
+        "value": "76 Metacritic"
       }
     ]
   },
@@ -274226,7 +274736,7 @@
     "title": "Highest scoring fighting games (Metacritic)",
     "prompt": "Name the highest-rated fighting games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 12,
+    "seededDepth": 16,
     "source": {
       "name": "Metacritic \u2014 Fighting rankings",
       "url": "https://www.metacritic.com/browse/game/all/all/all-time/metascore/?genre=fighting",
@@ -274289,13 +274799,33 @@
       },
       {
         "rank": 11,
-        "code": "mortal-kombat-ii-1993",
+        "code": "mortal-kombat-11-2019",
         "value": "87 Metacritic"
       },
       {
-        "rank": 12,
+        "rank": 11,
+        "code": "guilty-gear-strive-2021",
+        "value": "87 Metacritic (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "mortal-kombat-ii-1993",
+        "value": "87 Metacritic (tied)"
+      },
+      {
+        "rank": 14,
         "code": "mortal-kombat-1992",
         "value": "85 Metacritic"
+      },
+      {
+        "rank": 15,
+        "code": "tekken-7-2015",
+        "value": "82 Metacritic"
+      },
+      {
+        "rank": 16,
+        "code": "street-fighter-v-2016",
+        "value": "77 Metacritic"
       }
     ]
   },
@@ -274306,7 +274836,7 @@
     "title": "Highest scoring MMO/online games (Metacritic)",
     "prompt": "Name the highest-rated MMO or persistent-world online games by Metacritic aggregate critic score.",
     "answerType": "Video Games",
-    "seededDepth": 10,
+    "seededDepth": 14,
     "source": {
       "name": "Metacritic \u2014 Online multiplayer rankings",
       "url": "https://www.metacritic.com/browse/game/",
@@ -274328,42 +274858,62 @@
         "value": "92 Metacritic"
       },
       {
-        "rank": 3,
+        "rank": 2,
+        "code": "final-fantasy-xiv-endwalker-2021",
+        "value": "92 Metacritic (tied)"
+      },
+      {
+        "rank": 4,
         "code": "overwatch-2016",
         "value": "91 Metacritic"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "guild-wars-2-2012",
         "value": "90 Metacritic"
       },
       {
-        "rank": 4,
+        "rank": 5,
         "code": "dota-2-2013",
         "value": "90 Metacritic (tied)"
       },
       {
-        "rank": 6,
-        "code": "everquest-1999",
+        "rank": 7,
+        "code": "apex-legends-2019",
         "value": "89 Metacritic"
       },
       {
         "rank": 7,
+        "code": "everquest-1999",
+        "value": "89 Metacritic (tied)"
+      },
+      {
+        "rank": 9,
         "code": "final-fantasy-xiv-a-realm-reborn-2013",
         "value": "86 Metacritic"
       },
       {
-        "rank": 7,
+        "rank": 9,
         "code": "rocket-league-2015",
         "value": "86 Metacritic (tied)"
       },
       {
-        "rank": 9,
+        "rank": 11,
         "code": "counter-strike-global-offensive-2012",
         "value": "83 Metacritic"
       },
       {
-        "rank": 10,
+        "rank": 12,
+        "code": "rainbow-six-siege-2015",
+        "value": "79 Metacritic"
+      },
+      {
+        "rank": 12,
+        "code": "overwatch-2-2022",
+        "value": "79 Metacritic (tied)"
+      },
+      {
+        "rank": 14,
         "code": "league-of-legends-2009",
         "value": "78 Metacritic"
       }
@@ -274474,7 +275024,7 @@
     "title": "Games with the largest esports prize pools (all-time)",
     "prompt": "Name the games that have paid out the largest cumulative esports prize money across all events all-time.",
     "answerType": "Video Games",
-    "seededDepth": 10,
+    "seededDepth": 13,
     "source": {
       "name": "Esports Earnings \u2014 Games leaderboard",
       "url": "https://www.esportsearnings.com/games",
@@ -274512,26 +275062,41 @@
       },
       {
         "rank": 6,
+        "code": "rainbow-six-siege-2015",
+        "value": "$42M in prize money"
+      },
+      {
+        "rank": 7,
         "code": "pubg-battlegrounds-2017",
         "value": "$40M in prize money"
       },
       {
-        "rank": 7,
+        "rank": 8,
         "code": "starcraft-ii-wings-of-liberty-2010",
         "value": "$38M in prize money"
       },
       {
-        "rank": 8,
+        "rank": 9,
         "code": "overwatch-2016",
         "value": "$36M in prize money"
       },
       {
-        "rank": 9,
+        "rank": 10,
         "code": "hearthstone-2014",
         "value": "$27M in prize money"
       },
       {
-        "rank": 10,
+        "rank": 11,
+        "code": "apex-legends-2019",
+        "value": "$26M in prize money"
+      },
+      {
+        "rank": 12,
+        "code": "rocket-league-2015",
+        "value": "$22M in prize money"
+      },
+      {
+        "rank": 13,
         "code": "call-of-duty-modern-warfare-2019",
         "value": "$21M in prize money"
       }
@@ -274619,7 +275184,7 @@
     "title": "Best Picture + Director + Screenplay triple crown",
     "prompt": "Name Best Picture winners that also won BOTH Best Director AND Best (Original or Adapted) Screenplay at the same ceremony.",
     "answerType": "Movies",
-    "seededDepth": 14,
+    "seededDepth": 28,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -274652,51 +275217,121 @@
       },
       {
         "rank": 5,
+        "code": "schindlers-list-1993",
+        "value": "1993 (Spielberg / Zaillian)"
+      },
+      {
+        "rank": 6,
         "code": "silence-of-the-lambs-1991",
         "value": "1991 (Demme / Tally)"
       },
       {
-        "rank": 6,
+        "rank": 7,
+        "code": "amadeus-1984",
+        "value": "1984 (Forman / Shaffer)"
+      },
+      {
+        "rank": 8,
+        "code": "terms-of-endearment-1983",
+        "value": "1983 (Brooks / Brooks)"
+      },
+      {
+        "rank": 9,
+        "code": "ordinary-people-1980",
+        "value": "1980 (Redford / Sargent)"
+      },
+      {
+        "rank": 10,
         "code": "annie-hall-1977",
         "value": "1977 (Allen / Allen & Brickman)"
       },
       {
-        "rank": 7,
+        "rank": 11,
         "code": "one-flew-over-the-cuckoos-nest-1975",
         "value": "1975 (Forman / Hauben & Goldman)"
       },
       {
-        "rank": 8,
+        "rank": 12,
         "code": "godfather-part-ii-1974",
         "value": "1974 (Coppola / Coppola & Puzo)"
       },
       {
-        "rank": 9,
+        "rank": 13,
         "code": "godfather-1972",
         "value": "1972 (Coppola / Puzo & Coppola)"
       },
       {
-        "rank": 10,
+        "rank": 14,
         "code": "french-connection-1971",
         "value": "1971 (Friedkin / Tidyman)"
       },
       {
-        "rank": 11,
+        "rank": 15,
+        "code": "patton-1970",
+        "value": "1970 (Schaffner / Coppola & North)"
+      },
+      {
+        "rank": 16,
+        "code": "midnight-cowboy-1969",
+        "value": "1969 (Schlesinger / Salt)"
+      },
+      {
+        "rank": 17,
+        "code": "man-for-all-seasons-1966",
+        "value": "1966 (Zinnemann / Bolt)"
+      },
+      {
+        "rank": 18,
         "code": "apartment-1960",
         "value": "1960 (Wilder / Wilder & Diamond)"
       },
       {
-        "rank": 12,
+        "rank": 19,
         "code": "marty-1955",
         "value": "1955 (Mann / Chayefsky)"
       },
       {
-        "rank": 13,
+        "rank": 20,
+        "code": "on-the-waterfront-1954",
+        "value": "1954 (Kazan / Schulberg)"
+      },
+      {
+        "rank": 21,
+        "code": "from-here-to-eternity-1953",
+        "value": "1953 (Zinnemann / Taradash)"
+      },
+      {
+        "rank": 22,
+        "code": "all-about-eve-1950",
+        "value": "1950 (Mankiewicz / Mankiewicz)"
+      },
+      {
+        "rank": 23,
+        "code": "best-years-of-our-lives-1946",
+        "value": "1946 (Wyler / Sherwood)"
+      },
+      {
+        "rank": 24,
+        "code": "lost-weekend-1945",
+        "value": "1945 (Wilder / Wilder & Brackett)"
+      },
+      {
+        "rank": 25,
+        "code": "going-my-way-1944",
+        "value": "1944 (McCarey / Butler & Cavett)"
+      },
+      {
+        "rank": 26,
+        "code": "mrs-miniver-1942",
+        "value": "1942 (Wyler / Froeschel & Hilton & West & Wimperis)"
+      },
+      {
+        "rank": 27,
         "code": "gone-with-the-wind-1939",
         "value": "1939 (Fleming / Howard)"
       },
       {
-        "rank": 14,
+        "rank": 28,
         "code": "it-happened-one-night-1934",
         "value": "1934 (Capra / Riskin)"
       }
@@ -274709,7 +275344,7 @@
     "title": "Most Oscars won by a Best Picture loser",
     "prompt": "Name Best Picture nominees that lost Best Picture but still won the most Oscars at the ceremony.",
     "answerType": "Movies",
-    "seededDepth": 21,
+    "seededDepth": 25,
     "source": {
       "name": "Academy Awards Database",
       "url": "https://awardsdatabase.oscars.org/",
@@ -274801,29 +275436,49 @@
         "value": "4 wins (tied; lost to The King's Speech) (tied)"
       },
       {
-        "rank": 17,
+        "rank": 12,
+        "code": "grand-budapest-hotel-2014",
+        "value": "4 wins (tied; lost to Birdman) (tied)"
+      },
+      {
+        "rank": 18,
         "code": "avatar-2009",
         "value": "3 wins (lost to The Hurt Locker)"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "reds-1981",
         "value": "3 wins (tied; lost to Chariots of Fire) (tied)"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "fiddler-on-the-roof-1971",
         "value": "3 wins (tied; lost to The French Connection) (tied)"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "dunkirk-2017",
         "value": "3 wins (tied; lost to The Shape of Water) (tied)"
       },
       {
-        "rank": 17,
+        "rank": 18,
         "code": "julia-1977",
         "value": "3 wins (tied; lost to Annie Hall) (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "1917-2019",
+        "value": "3 wins (tied; lost to Parasite) (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "revenant-2015",
+        "value": "3 wins (tied; lost to Spotlight) (tied)"
+      },
+      {
+        "rank": 18,
+        "code": "favourite-2018",
+        "value": "3 wins (tied; lost to Green Book) (tied)"
       }
     ]
   },
@@ -274954,7 +275609,7 @@
     "title": "Best Picture winners with the widest US theatrical release",
     "prompt": "Name Best Picture winners with the highest peak theater count during their US theatrical run.",
     "answerType": "Movies",
-    "seededDepth": 20,
+    "seededDepth": 25,
     "source": {
       "name": "Wikipedia \u2014 Academy Award-winning films (Best Picture)",
       "url": "https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films",
@@ -275062,8 +275717,33 @@
       },
       {
         "rank": 20,
+        "code": "spotlight-2015",
+        "value": "1,586 theaters (peak)"
+      },
+      {
+        "rank": 21,
+        "code": "moonlight-2016",
+        "value": "1,564 theaters (peak)"
+      },
+      {
+        "rank": 22,
         "code": "12-years-a-slave-2013",
         "value": "1,411 theaters (peak)"
+      },
+      {
+        "rank": 23,
+        "code": "birdman-2014",
+        "value": "1,213 theaters (peak)"
+      },
+      {
+        "rank": 24,
+        "code": "nomadland-2020",
+        "value": "1,175 theaters (peak)"
+      },
+      {
+        "rank": 25,
+        "code": "artist-2011",
+        "value": "1,005 theaters (peak)"
       }
     ]
   },
@@ -353692,7 +354372,7 @@
     "title": "Largest Bundesliga stadium",
     "prompt": "Name the Bundesliga clubs whose home stadiums have the largest total capacity (including standing terraces).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 18,
+    "seededDepth": 20,
     "source": {
       "name": "Bundesliga.com \u2014 stadium guide",
       "url": "https://www.bundesliga.com/en/bundesliga/clubs",
@@ -353792,6 +354472,16 @@
         "rank": 18,
         "code": "BUN-HOF",
         "value": "30,150 capacity"
+      },
+      {
+        "rank": 19,
+        "code": "BUN-STP",
+        "value": "29,546 capacity"
+      },
+      {
+        "rank": 20,
+        "code": "BUN-UNI",
+        "value": "22,012 capacity"
       }
     ],
     "source_name": "Wikipedia \u2014 List of German football stadiums",
@@ -354928,7 +355618,7 @@
     "title": "Most Premier League seasons played",
     "prompt": "Name the clubs that have played the most seasons in the Premier League since its 1992-93 founding.",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 12,
+    "seededDepth": 13,
     "source": {
       "name": "Wikipedia \u2014 List of Premier League clubs",
       "url": "https://en.wikipedia.org/wiki/List_of_Premier_League_clubs",
@@ -354996,8 +355686,13 @@
       },
       {
         "rank": 12,
-        "code": "EPL-FUL",
+        "code": "EPL-BLA",
         "value": "18 seasons"
+      },
+      {
+        "rank": 12,
+        "code": "EPL-FUL",
+        "value": "18 seasons (tied)"
       }
     ],
     "source_name": "Premier League / Wikipedia \u2014 List of Premier League clubs",
@@ -355208,8 +355903,8 @@
       "asOf": "Through 2024-25 final"
     },
     "note": null,
-    "disclaimer": "Counts each final appearance once, regardless of replays.",
-    "trivia": "Arsenal and Manchester United have contested more FA Cup finals than any other clubs, and they have met each other in the final three times.",
+    "disclaimer": "Combined FA Cup final appearances (winners plus runners-up) since the competition's first final in 1872.",
+    "trivia": "Arsenal and Manchester United are tied on 22 FA Cup final appearances, but Arsenal leads the trophy count with 14 wins to United's 13.",
     "asOfDate": "Through 2024-25 final",
     "answers": [
       {
@@ -355322,7 +356017,10 @@
         "code": "EPL-WAT",
         "value": "2 finals (tied)"
       }
-    ]
+    ],
+    "source_name": "The FA \u2014 FA Cup finals history",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+    "source_as_of": "through 2024-25 final"
   },
   {
     "id": "european-soccer-premier-league-most-seasons-in-the-english-top-flight-all-time-2",
@@ -355661,7 +356359,7 @@
     "title": "Most UEFA Europa League / UEFA Cup titles",
     "prompt": "Name the clubs with the most UEFA Cup / UEFA Europa League titles (all-time, since 1971-72).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 17,
+    "seededDepth": 18,
     "source": {
       "name": "UEFA \u2014 Europa League history",
       "url": "https://www.uefa.com/uefaeuropaleague/history/",
@@ -355756,6 +356454,11 @@
         "rank": 12,
         "code": "SEA-ATA",
         "value": "1 title (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "EPL-IPS",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -355773,8 +356476,8 @@
       "asOf": "1999 (final edition)"
     },
     "note": null,
-    "disclaimer": "Competition was discontinued in 1999 and merged into the UEFA Cup. All titles are historical. Many clubs are tied at 1; only Barcelona won the tournament more than twice.",
-    "trivia": "Barcelona hold the record with 4 Cup Winners' Cup titles; the competition was contested by domestic cup winners across Europe.",
+    "disclaimer": "The Cup Winners' Cup ran from 1960-61 to 1998-99 before being folded into the UEFA Cup; 17 clubs share the single-title tier.",
+    "trivia": "Barcelona is the only club to have won the Cup Winners' Cup four times \u2014 in 1979, 1982, 1989, and 1997 \u2014 the last edition before the trophy was retired.",
     "asOfDate": "1999 (final edition)",
     "answers": [
       {
@@ -355882,7 +356585,10 @@
         "code": "L1-PSG",
         "value": "1 title (tied)"
       }
-    ]
+    ],
+    "source_name": "UEFA \u2014 Cup Winners' Cup history",
+    "source_url": "https://en.wikipedia.org/wiki/UEFA_Cup_Winners%27_Cup",
+    "source_as_of": "final edition 1998-99"
   },
   {
     "id": "european-soccer-european-most-uefa-super-cup-wins-2024",
@@ -355891,7 +356597,7 @@
     "title": "Most UEFA Super Cup wins",
     "prompt": "Name the clubs with the most UEFA Super Cup wins (annual match since 1972 between Champions League and Europa League winners).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 12,
+    "seededDepth": 14,
     "source": {
       "name": "UEFA \u2014 Super Cup history",
       "url": "https://www.uefa.com/uefasupercup/history/",
@@ -355960,6 +356666,16 @@
       {
         "rank": 9,
         "code": "SEA-PAR",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "SEA-SMP",
+        "value": "1 win (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "LAL-VAL",
         "value": "1 win (tied)"
       }
     ]
@@ -356168,8 +356884,8 @@
       "asOf": "2024 (2022-23 season revenue)"
     },
     "note": null,
-    "disclaimer": "Revenue in EUR millions from the 2022-23 season, per Deloitte's Football Money League 2024 report.",
-    "trivia": "Manchester City topped the Money League for the first time in the 2024 report, ending the traditional Real Madrid/Barcelona duopoly at the top.",
+    "disclaimer": "Revenue in EUR millions per Deloitte's 2024 Money League (matchday + broadcast + commercial); excludes player-transfer income.",
+    "trivia": "Real Madrid became the first club to break the 800M EUR barrier and reclaimed the top spot from Manchester City after opening the remodelled Santiago Bernabeu.",
     "asOfDate": "2024 (2022-23 season revenue)",
     "answers": [
       {
@@ -356272,7 +356988,10 @@
         "code": "L1-MAR",
         "value": "224M EUR"
       }
-    ]
+    ],
+    "source_name": "Deloitte Football Money League 2024",
+    "source_url": "https://www.deloitte.com/uk/en/services/consulting-financial/analysis/deloitte-football-money-league.html",
+    "source_as_of": "2022-23 season (published Jan 2024)"
   },
   {
     "id": "european-soccer-european-highest-club-valuation-forbes-2024-2024",
@@ -356458,8 +357177,8 @@
       "asOf": "Through 2026-27 season (96 seasons)"
     },
     "note": null,
-    "disclaimer": "Only counts seasons in the top flight (Primera Divisi\u00f3n). Segunda Divisi\u00f3n and lower tiers excluded.",
-    "trivia": "Real Madrid, Barcelona and Athletic Bilbao are the only three clubs that have played in every La Liga season since the league's founding in 1929 \u2014 no other side has avoided relegation to the second tier.",
+    "disclaimer": "Total seasons in Spain's top flight (Primera Divisi\u00f3n / La Liga) from its 1928-29 inception through 2024-25.",
+    "trivia": "Athletic Bilbao, Barcelona, and Real Madrid are the only three clubs never to have been relegated from La Liga.",
     "asOfDate": "Through 2026-27 season (96 seasons)",
     "answers": [
       {
@@ -356681,8 +357400,8 @@
       "asOf": "Through 2026-27 season"
     },
     "note": null,
-    "disclaimer": "Uses the standard 3-points-for-a-win system retroactively applied to seasons before 1995-96 (when La Liga still awarded 2 points for a win).",
-    "trivia": "Barcelona have scored more all-time La Liga goals than Real Madrid (6,674 to 6,638) but Real Madrid still leads the historic points table thanks to a better win-to-draw ratio.",
+    "disclaimer": "Points calculated using 3-points-for-a-win retroactively across all La Liga (Primera Divisi\u00f3n) seasons since 1928-29.",
+    "trivia": "Real Madrid and Barcelona are the only clubs to have played in every La Liga season, and are the only two to have crossed the 5,000-point mark.",
     "asOfDate": "Through 2026-27 season",
     "answers": [
       {
@@ -356785,7 +357504,10 @@
         "code": "LAL-GET",
         "value": "969 pts"
       }
-    ]
+    ],
+    "source_name": "Wikipedia \u2014 La Liga all-time table",
+    "source_url": "https://en.wikipedia.org/wiki/La_Liga",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-la-liga-most-la-liga-runner-up-finishes-2025",
@@ -357344,8 +358066,8 @@
       "asOf": "Through 2026-27 season"
     },
     "note": null,
-    "disclaimer": "Cumulative goals scored in regular-season top-flight matches only. Cup, playoff and European goals are not included.",
-    "trivia": "Barcelona (+3,242) has a better all-time goal difference than Real Madrid (+3,189) despite having scored only 36 more goals \u2014 the gap comes from conceding 17 fewer.",
+    "disclaimer": "Total goals scored in La Liga (Primera Divisi\u00f3n) regular-season matches since 1928-29.",
+    "trivia": "Barcelona edges Real Madrid by roughly 36 goals despite Real winning more titles \u2014 a legacy of Barca's high-scoring Cruyff and Guardiola eras.",
     "asOfDate": "Through 2026-27 season",
     "answers": [
       {
@@ -357448,7 +358170,10 @@
         "code": "LAL-GET",
         "value": "1,067 goals"
       }
-    ]
+    ],
+    "source_name": "Wikipedia \u2014 La Liga all-time top scorers by club",
+    "source_url": "https://en.wikipedia.org/wiki/La_Liga",
+    "source_as_of": "through 2024-25 season"
   },
   {
     "id": "european-soccer-ligue-1-most-ligue-1-titles-all-time-2024",
@@ -357457,7 +358182,7 @@
     "title": "Most Ligue 1 titles all-time",
     "prompt": "Name the clubs that have won the most French Ligue 1 championships (all-time, since 1932).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 14,
+    "seededDepth": 15,
     "source": {
       "name": "Ligue de Football Professionnel \u2014 historical champions",
       "url": "https://en.wikipedia.org/wiki/List_of_French_football_champions",
@@ -357520,21 +358245,26 @@
       },
       {
         "rank": 11,
+        "code": "L1-SOC",
+        "value": "2 titles"
+      },
+      {
+        "rank": 12,
         "code": "L1-LEN",
         "value": "1 title"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "L1-STR",
         "value": "1 title (tied)"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "L1-AUX",
         "value": "1 title (tied)"
       },
       {
-        "rank": 11,
+        "rank": 12,
         "code": "L1-MTP",
         "value": "1 title (tied)"
       }
@@ -357547,7 +358277,7 @@
     "title": "Most Coupe de France wins",
     "prompt": "Name the clubs that have won the Coupe de France (French Cup) most often.",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 15,
+    "seededDepth": 19,
     "source": {
       "name": "F\u00e9d\u00e9ration Fran\u00e7aise de Football \u2014 Coupe de France history",
       "url": "https://en.wikipedia.org/wiki/Coupe_de_France",
@@ -357624,13 +358354,33 @@
         "value": "2 cups (tied)"
       },
       {
-        "rank": 14,
+        "rank": 12,
+        "code": "L1-SOC",
+        "value": "2 cups (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "L1-SED",
+        "value": "2 cups (tied)"
+      },
+      {
+        "rank": 16,
         "code": "L1-AUX",
         "value": "1 cup"
       },
       {
-        "rank": 14,
+        "rank": 16,
         "code": "L1-MTP",
+        "value": "1 cup (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "L1-BAS",
+        "value": "1 cup (tied)"
+      },
+      {
+        "rank": 16,
+        "code": "L1-LOR",
         "value": "1 cup (tied)"
       }
     ]
@@ -357789,8 +358539,8 @@
       "asOf": "2024 (through 2023-24 season)"
     },
     "note": null,
-    "disclaimer": "Counts all seasons in France's professional top flight since 1932-33, including the pre-war Division 1 era. Some historic clubs (e.g., Sochaux, N\u00eemes) may not appear in the answer pool.",
-    "trivia": "Marseille is the only club to have appeared in every professional Ligue 1 season since promotion/relegation began \u2014 with one asterisk: their 1994 forced relegation for match-fixing.",
+    "disclaimer": "Seasons played in France's top flight (Division 1 through 2001-02, Ligue 1 thereafter) since its 1932-33 inception.",
+    "trivia": "Olympique de Marseille is the only French club to have been relegated to the second tier and come back to hold the all-time seasons record.",
     "asOfDate": "2024 (through 2023-24 season)",
     "answers": [
       {
@@ -357897,136 +358647,6 @@
     "source_name": "Wikipedia \u2014 List of Ligue 1 clubs",
     "source_url": "https://en.wikipedia.org/wiki/List_of_Ligue_1_clubs",
     "source_as_of": "through 2024-25 season"
-  },
-  {
-    "id": "european-soccer-ligue-1-ligue-1-title-winners-since-2000-2024",
-    "theme": "European Soccer Clubs",
-    "subtheme": "European Soccer - Ligue 1",
-    "title": "Ligue 1 title winners since 2000",
-    "prompt": "Name the clubs that have won a French Ligue 1 title in the 21st century (2000-01 season onward).",
-    "answerType": "European Soccer Clubs",
-    "seededDepth": 22,
-    "source": {
-      "name": "Ligue de Football Professionnel \u2014 historical champions",
-      "url": "https://en.wikipedia.org/wiki/List_of_French_football_champions",
-      "asOf": "2024 (through 2023-24 season)"
-    },
-    "note": null,
-    "disclaimer": "Ranked by number of championships won during this century; ties broken by most recent title.",
-    "trivia": "Lyon's seven-in-a-row run (2001-02 to 2007-08) is the longest unbroken title streak in top-five European league history.",
-    "asOfDate": "2024 (through 2023-24 season)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "L1-PSG",
-        "value": "11 titles"
-      },
-      {
-        "rank": 2,
-        "code": "L1-LYN",
-        "value": "7 titles"
-      },
-      {
-        "rank": 3,
-        "code": "L1-LIL",
-        "value": "2 titles"
-      },
-      {
-        "rank": 4,
-        "code": "L1-MON",
-        "value": "1 title"
-      },
-      {
-        "rank": 4,
-        "code": "L1-BOR",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-MAR",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-MTP",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 4,
-        "code": "L1-NAN",
-        "value": "1 title (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-STR",
-        "value": "0 titles"
-      },
-      {
-        "rank": 9,
-        "code": "L1-SET",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-REN",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-NIC",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-LEN",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-AUX",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-TFC",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-METZ",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-REI",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-BRE",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-LEH",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-ANG",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-AJA",
-        "value": "0 titles (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "L1-DIJ",
-        "value": "0 titles (tied)"
-      }
-    ]
   },
   {
     "id": "european-soccer-ligue-1-largest-ligue-1-stadium-capacity-2024",
@@ -358577,7 +359197,7 @@
     "title": "Most seasons in Serie A",
     "prompt": "Name the clubs that have played the most seasons in Italy's top flight (unified Serie A, 1929-30 to present).",
     "answerType": "European Soccer Clubs",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Lega Serie A \u2014 historical participation",
       "url": "https://en.wikipedia.org/wiki/List_of_Serie_A_clubs",
@@ -358662,6 +359282,31 @@
         "rank": 15,
         "code": "SEA-HVR",
         "value": "36 seasons"
+      },
+      {
+        "rank": 16,
+        "code": "SEA-BRE",
+        "value": "34 seasons"
+      },
+      {
+        "rank": 17,
+        "code": "SEA-PAL",
+        "value": "33 seasons"
+      },
+      {
+        "rank": 18,
+        "code": "SEA-PAR",
+        "value": "29 seasons"
+      },
+      {
+        "rank": 19,
+        "code": "SEA-LEC",
+        "value": "22 seasons"
+      },
+      {
+        "rank": 20,
+        "code": "SEA-EMP",
+        "value": "19 seasons"
       }
     ],
     "source_name": "Wikipedia \u2014 Serie A records and statistics",

@@ -1,0 +1,887 @@
+{
+  "cluster": "video-games-w3-02",
+  "questions": [
+    {
+      "id": "video-games-critical-highest-user-score-on-metacritic-2025",
+      "current": {
+        "title": "Highest User Score on Metacritic",
+        "prompt": "Name games with the highest Metacritic User Score (aggregated user ratings on a 0-10 scale).",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Critical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 21,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "red-dead-redemption-2-2018",
+            "value": "9.6 user"
+          },
+          {
+            "rank": 2,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "9.4 user"
+          },
+          {
+            "rank": 2,
+            "code": "baldurs-gate-3-2023",
+            "value": "9.4 user (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "9.3 user"
+          },
+          {
+            "rank": 4,
+            "code": "god-of-war-2018",
+            "value": "9.3 user (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "elden-ring-2022",
+            "value": "9.2 user"
+          },
+          {
+            "rank": 6,
+            "code": "last-of-us-2013",
+            "value": "9.2 user (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "half-life-2-2004",
+            "value": "9.2 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "portal-2-2011",
+            "value": "9.1 user"
+          },
+          {
+            "rank": 9,
+            "code": "mass-effect-2-2010",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "super-mario-galaxy-2007",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "bioshock-2007",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "hollow-knight-2017",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "chrono-trigger-1995",
+            "value": "9.1 user (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "legend-of-zelda-ocarina-of-time-1998",
+            "value": "9.0 user"
+          },
+          {
+            "rank": 15,
+            "code": "super-mario-galaxy-2-2010",
+            "value": "9.0 user (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "undertale-2015",
+            "value": "9.0 user (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "final-fantasy-vii-1997",
+            "value": "9.0 user (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "super-mario-odyssey-2017",
+            "value": "9.0 user (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "stardew-valley-2016",
+            "value": "8.9 user"
+          },
+          {
+            "rank": 20,
+            "code": "dark-souls-2011",
+            "value": "8.9 user (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-fps-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring FPS games (Metacritic)",
+        "prompt": "Name the highest-rated first-person shooter games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": "Metacritic \u2014 Best First-Person Shooter Games of All Time",
+        "source_url": "https://www.metacritic.com/browse/game/?releaseYearMin=1958&releaseYearMax=2025&genre=shooter",
+        "source_as_of": "2025",
+        "seededDepth": 21,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "halo-combat-evolved-2001",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "perfect-dark-2000",
+            "value": "97 Metacritic (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "bioshock-2007",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 3,
+            "code": "goldeneye-007-1997",
+            "value": "96 Metacritic (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "half-life-1998",
+            "value": "96 Metacritic (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "half-life-2-2004",
+            "value": "96 Metacritic (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "metroid-prime-2002",
+            "value": "96 Metacritic (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "halo-2-2004",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 8,
+            "code": "portal-2-2011",
+            "value": "95 Metacritic (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "bioshock-infinite-2013",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 10,
+            "code": "call-of-duty-4-modern-warfare-2007",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "halo-3-2007",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "left-4-dead-2-2009",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "doom-1993",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 14,
+            "code": "system-shock-2-1999",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "borderlands-2-2012",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 16,
+            "code": "halo-reach-2010",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 16,
+            "code": "overwatch-2016",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 19,
+            "code": "call-of-duty-2-2005",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 19,
+            "code": "portal-2007",
+            "value": "90 Metacritic (tied)"
+          },
+          {
+            "rank": 19,
+            "code": "team-fortress-2-2007",
+            "value": "90 Metacritic (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-platformers-metacritic-2025",
+      "current": {
+        "title": "Highest scoring platformers (Metacritic)",
+        "prompt": "Name the highest-rated platformer games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": "Metacritic \u2014 Best Platformer Games of All Time",
+        "source_url": "https://www.metacritic.com/browse/game/?releaseYearMin=1958&releaseYearMax=2025&genre=platformer",
+        "source_as_of": "2025",
+        "seededDepth": 21,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "super-mario-galaxy-2-2010",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 1,
+            "code": "super-mario-galaxy-2007",
+            "value": "97 Metacritic (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "super-mario-odyssey-2017",
+            "value": "97 Metacritic (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "astro-bot-2024",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 4,
+            "code": "celeste-2018",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "super-mario-64-1996",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "super-mario-world-1990",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "braid-2008",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "banjo-kazooie-1998",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "castlevania-symphony-of-the-night-1997",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "donkey-kong-country-1994",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "super-metroid-1994",
+            "value": "92 Metacritic (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "crash-bandicoot-warped-1998",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 13,
+            "code": "inside-2016",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "shovel-knight-2014",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "yoshis-island-1995",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "hollow-knight-2017",
+            "value": "90 Metacritic"
+          },
+          {
+            "rank": 17,
+            "code": "limbo-2010",
+            "value": "90 Metacritic (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "super-meat-boy-2010",
+            "value": "90 Metacritic (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "new-super-mario-bros-2006",
+            "value": "89 Metacritic"
+          },
+          {
+            "rank": 20,
+            "code": "psychonauts-2005",
+            "value": "89 Metacritic (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-awards-bafta-games-award-for-best-game-winners-2004",
+      "current": {
+        "title": "BAFTA Games Award for Best Game winners",
+        "prompt": "Name the games that have won the BAFTA Games Award for Best Game since the ceremony's early days.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 22,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "clair-obscur-expedition-33-2025",
+            "value": "2026 ceremony (Sandfall / Kepler)"
+          },
+          {
+            "rank": 2,
+            "code": "astro-bot-2024",
+            "value": "2025 ceremony (Team Asobi / SIE)"
+          },
+          {
+            "rank": 3,
+            "code": "baldurs-gate-3-2023",
+            "value": "2024 ceremony (Larian Studios)"
+          },
+          {
+            "rank": 4,
+            "code": "vampire-survivors-2022",
+            "value": "2023 ceremony (Poncle)"
+          },
+          {
+            "rank": 5,
+            "code": "returnal-2021",
+            "value": "2022 ceremony (Housemarque / SIE)"
+          },
+          {
+            "rank": 6,
+            "code": "hades-2020",
+            "value": "2021 ceremony (Supergiant Games)"
+          },
+          {
+            "rank": 7,
+            "code": "outer-wilds-2019",
+            "value": "2020 ceremony (Mobius Digital / Annapurna)"
+          },
+          {
+            "rank": 8,
+            "code": "god-of-war-2018",
+            "value": "2019 ceremony (Santa Monica Studio)"
+          },
+          {
+            "rank": 9,
+            "code": "what-remains-of-edith-finch-2017",
+            "value": "2018 ceremony (Giant Sparrow / Annapurna)"
+          },
+          {
+            "rank": 10,
+            "code": "uncharted-4-a-thiefs-end-2016",
+            "value": "2017 ceremony (Naughty Dog)"
+          },
+          {
+            "rank": 11,
+            "code": "fallout-4-2015",
+            "value": "2016 ceremony (Bethesda Game Studios)"
+          },
+          {
+            "rank": 12,
+            "code": "destiny-2014",
+            "value": "2015 ceremony (Bungie / Activision)"
+          },
+          {
+            "rank": 13,
+            "code": "last-of-us-2013",
+            "value": "2014 ceremony (Naughty Dog)"
+          },
+          {
+            "rank": 14,
+            "code": "dishonored-2012",
+            "value": "2013 ceremony (Arkane / Bethesda)"
+          },
+          {
+            "rank": 15,
+            "code": "portal-2-2011",
+            "value": "2012 ceremony (Valve)"
+          },
+          {
+            "rank": 16,
+            "code": "mass-effect-2-2010",
+            "value": "2011 ceremony (BioWare / EA)"
+          },
+          {
+            "rank": 17,
+            "code": "batman-arkham-asylum-2009",
+            "value": "2010 ceremony (Rocksteady / Eidos)"
+          },
+          {
+            "rank": 18,
+            "code": "littlebigplanet-2008",
+            "value": "2009 ceremony (Media Molecule / SCE)"
+          },
+          {
+            "rank": 19,
+            "code": "portal-2007",
+            "value": "2008 ceremony (Valve)"
+          },
+          {
+            "rank": 20,
+            "code": "wii-sports-2006",
+            "value": "2007 ceremony (Nintendo EAD)"
+          },
+          {
+            "rank": 21,
+            "code": "shadow-of-the-colossus-2005",
+            "value": "2006 ceremony (Team Ico / SCE)"
+          },
+          {
+            "rank": 22,
+            "code": "half-life-2-2004",
+            "value": "2005 ceremony (Valve)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-franchise-highest-grossing-video-game-franchises-by-revenue-2024",
+      "current": {
+        "title": "Highest-grossing video game franchises by revenue",
+        "prompt": "Rank video game franchises by total lifetime franchise revenue including games, merchandise, licensing, and film/TV \u2014 not games-software revenue only.",
+        "answerType": "Video Game Franchises",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Franchise",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 22,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "pokemon",
+            "value": "$100B revenue"
+          },
+          {
+            "rank": 2,
+            "code": "mario",
+            "value": "$40B revenue"
+          },
+          {
+            "rank": 3,
+            "code": "call-of-duty",
+            "value": "$31B revenue"
+          },
+          {
+            "rank": 4,
+            "code": "grand-theft-auto",
+            "value": "$30B revenue"
+          },
+          {
+            "rank": 5,
+            "code": "fifa",
+            "value": "$20B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "minecraft",
+            "value": "$18B revenue"
+          },
+          {
+            "rank": 6,
+            "code": "final-fantasy",
+            "value": "$18B revenue (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "pac-man",
+            "value": "$16B revenue"
+          },
+          {
+            "rank": 9,
+            "code": "wii-sports",
+            "value": "$15B revenue"
+          },
+          {
+            "rank": 10,
+            "code": "dragon-quest",
+            "value": "$14B revenue"
+          },
+          {
+            "rank": 10,
+            "code": "world-of-warcraft",
+            "value": "$14B revenue (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "league-of-legends",
+            "value": "$13B revenue"
+          },
+          {
+            "rank": 13,
+            "code": "sonic",
+            "value": "$11B revenue"
+          },
+          {
+            "rank": 14,
+            "code": "monster-hunter",
+            "value": "$10B revenue"
+          },
+          {
+            "rank": 15,
+            "code": "street-fighter",
+            "value": "$9B revenue"
+          },
+          {
+            "rank": 16,
+            "code": "madden-nfl",
+            "value": "$7B revenue"
+          },
+          {
+            "rank": 17,
+            "code": "assassins-creed",
+            "value": "$6B revenue"
+          },
+          {
+            "rank": 17,
+            "code": "resident-evil",
+            "value": "$6B revenue (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "warcraft",
+            "value": "$6B revenue (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "donkey-kong",
+            "value": "$5B revenue"
+          },
+          {
+            "rank": 20,
+            "code": "zelda",
+            "value": "$5B revenue (tied)"
+          },
+          {
+            "rank": 20,
+            "code": "fortnite",
+            "value": "$5B revenue (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-deep-dive-highest-scoring-open-world-games-metacritic-2025",
+      "current": {
+        "title": "Highest scoring open-world games (Metacritic)",
+        "prompt": "Name the highest-rated open-world games by Metacritic aggregate critic score.",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Deep Dive",
+        "source_name": "Metacritic \u2014 Highest-scoring open-world games",
+        "source_url": "https://www.metacritic.com/browse/game/?releaseYearMin=1958&releaseYearMax=2025",
+        "source_as_of": "2025",
+        "seededDepth": 23,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "grand-theft-auto-iv-2008",
+            "value": "98 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-iii-2001",
+            "value": "97 Metacritic"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-v-2013",
+            "value": "97 Metacritic (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "97 Metacritic (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "red-dead-redemption-2-2018",
+            "value": "97 Metacritic (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "batman-arkham-city-2011",
+            "value": "96 Metacritic"
+          },
+          {
+            "rank": 6,
+            "code": "elden-ring-2022",
+            "value": "96 Metacritic (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "elder-scrolls-v-skyrim-2011",
+            "value": "96 Metacritic (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "grand-theft-auto-san-andreas-2004",
+            "value": "95 Metacritic"
+          },
+          {
+            "rank": 9,
+            "code": "grand-theft-auto-vice-city-2002",
+            "value": "95 Metacritic (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "red-dead-redemption-2010",
+            "value": "95 Metacritic (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "elder-scrolls-iv-oblivion-2006",
+            "value": "94 Metacritic"
+          },
+          {
+            "rank": 12,
+            "code": "fallout-3-2008",
+            "value": "94 Metacritic (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "fallout-new-vegas-2010",
+            "value": "93 Metacritic"
+          },
+          {
+            "rank": 14,
+            "code": "metal-gear-solid-v-the-phantom-pain-2015",
+            "value": "93 Metacritic (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "93 Metacritic (tied)"
+          },
+          {
+            "rank": 17,
+            "code": "batman-arkham-asylum-2009",
+            "value": "92 Metacritic"
+          },
+          {
+            "rank": 18,
+            "code": "assassins-creed-ii-2009",
+            "value": "91 Metacritic"
+          },
+          {
+            "rank": 18,
+            "code": "assassins-creed-iv-black-flag-2013",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "far-cry-3-2012",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "ghost-of-tsushima-2020",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 18,
+            "code": "horizon-zero-dawn-2017",
+            "value": "91 Metacritic (tied)"
+          },
+          {
+            "rank": 23,
+            "code": "monster-hunter-world-2018",
+            "value": "90 Metacritic"
+          }
+        ]
+      }
+    },
+    {
+      "id": "video-games-critical-games-rated-95-by-metacritic-2025",
+      "current": {
+        "title": "Games rated 95+ by Metacritic",
+        "prompt": "Name games with a Metacritic aggregate score of 95 or higher (top-tier universal acclaim).",
+        "answerType": "Video Games",
+        "theme": "Video Games",
+        "subtheme": "Video Games - Critical",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 24,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "legend-of-zelda-ocarina-of-time-1998",
+            "value": "99"
+          },
+          {
+            "rank": 2,
+            "code": "tony-hawks-pro-skater-2-2000",
+            "value": "98"
+          },
+          {
+            "rank": 2,
+            "code": "grand-theft-auto-iv-2008",
+            "value": "98 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "super-mario-galaxy-2007",
+            "value": "97"
+          },
+          {
+            "rank": 4,
+            "code": "super-mario-galaxy-2-2010",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "red-dead-redemption-2-2018",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "grand-theft-auto-v-2013",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "legend-of-zelda-breath-of-the-wild-2017",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "metroid-prime-2002",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "halo-combat-evolved-2001",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "soulcalibur-ii-2002",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "tony-hawks-pro-skater-3-2001",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "grand-theft-auto-san-andreas-2004",
+            "value": "97 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "elden-ring-2022",
+            "value": "96"
+          },
+          {
+            "rank": 14,
+            "code": "half-life-2-2004",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "bioshock-2007",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "mass-effect-2-2010",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "portal-2-2011",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "uncharted-2-among-thieves-2009",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "baldurs-gate-3-2023",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "last-of-us-2013",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "witcher-3-wild-hunt-2015",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "grand-theft-auto-iii-2001",
+            "value": "96 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "super-mario-64-1996",
+            "value": "96 (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

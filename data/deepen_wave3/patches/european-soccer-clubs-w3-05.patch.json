@@ -1,0 +1,87 @@
+{
+  "cluster": "european-soccer-clubs-w3-05",
+  "updates": [
+    {
+      "id": "european-soccer-european-highest-deloitte-football-money-league-revenue-2024",
+      "changes": {
+        "source": {
+          "name": "Deloitte Football Money League 2024",
+          "url": "https://www.deloitte.com/uk/en/services/consulting-financial/analysis/deloitte-football-money-league.html",
+          "asOf": "2022-23 season (published Jan 2024)"
+        },
+        "disclaimer": "Revenue in EUR millions per Deloitte's 2024 Money League (matchday + broadcast + commercial); excludes player-transfer income.",
+        "trivia": "Real Madrid became the first club to break the 800M EUR barrier and reclaimed the top spot from Manchester City after opening the remodelled Santiago Bernabeu.",
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "european-soccer-la-liga-most-all-time-la-liga-points-2026",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — La Liga all-time table",
+          "url": "https://en.wikipedia.org/wiki/La_Liga",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Points calculated using 3-points-for-a-win retroactively across all La Liga (Primera División) seasons since 1928-29.",
+        "trivia": "Real Madrid and Barcelona are the only clubs to have played in every La Liga season, and are the only two to have crossed the 5,000-point mark.",
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "european-soccer-la-liga-most-all-time-la-liga-goals-scored-2026",
+      "changes": {
+        "source": {
+          "name": "Wikipedia — La Liga all-time top scorers by club",
+          "url": "https://en.wikipedia.org/wiki/La_Liga",
+          "asOf": "through 2024-25 season"
+        },
+        "disclaimer": "Total goals scored in La Liga (Primera División) regular-season matches since 1928-29.",
+        "trivia": "Barcelona edges Real Madrid by roughly 36 goals despite Real winning more titles — a legacy of Barca's high-scoring Cruyff and Guardiola eras.",
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "european-soccer-ligue-1-most-seasons-in-ligue-1-all-time-2024",
+      "changes": {
+        "disclaimer": "Seasons played in France's top flight (Division 1 through 2001-02, Ligue 1 thereafter) since its 1932-33 inception.",
+        "trivia": "Olympique de Marseille is the only French club to have been relegated to the second tier and come back to hold the all-time seasons record."
+      }
+    },
+    {
+      "id": "european-soccer-european-most-uefa-cup-winners-cup-titles",
+      "changes": {
+        "source": {
+          "name": "UEFA — Cup Winners' Cup history",
+          "url": "https://en.wikipedia.org/wiki/UEFA_Cup_Winners%27_Cup",
+          "asOf": "final edition 1998-99"
+        },
+        "disclaimer": "The Cup Winners' Cup ran from 1960-61 to 1998-99 before being folded into the UEFA Cup; 17 clubs share the single-title tier.",
+        "trivia": "Barcelona is the only club to have won the Cup Winners' Cup four times — in 1979, 1982, 1989, and 1997 — the last edition before the trophy was retired.",
+        "seededDepth": 21
+      }
+    },
+    {
+      "id": "european-soccer-la-liga-most-seasons-in-la-liga-top-flight-2026",
+      "changes": {
+        "disclaimer": "Total seasons in Spain's top flight (Primera División / La Liga) from its 1928-29 inception through 2024-25.",
+        "trivia": "Athletic Bilbao, Barcelona, and Real Madrid are the only three clubs never to have been relegated from La Liga."
+      }
+    },
+    {
+      "id": "european-soccer-premier-league-most-fa-cup-final-appearances-2024",
+      "changes": {
+        "source": {
+          "name": "The FA — FA Cup finals history",
+          "url": "https://en.wikipedia.org/wiki/List_of_FA_Cup_finals",
+          "asOf": "through 2024-25 final"
+        },
+        "disclaimer": "Combined FA Cup final appearances (winners plus runners-up) since the competition's first final in 1872.",
+        "trivia": "Arsenal and Manchester United are tied on 22 FA Cup final appearances, but Arsenal leads the trophy count with 14 wins to United's 13.",
+        "seededDepth": 22
+      }
+    }
+  ],
+  "deletions": [
+    "european-soccer-ligue-1-ligue-1-title-winners-since-2000-2024"
+  ]
+}

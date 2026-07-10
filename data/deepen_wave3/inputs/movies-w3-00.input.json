@@ -1,0 +1,728 @@
+{
+  "cluster": "movies-w3-00",
+  "questions": [
+    {
+      "id": "movies-awards-best-picture-director-screenplay-triple-crown-2024",
+      "current": {
+        "title": "Best Picture + Director + Screenplay triple crown",
+        "prompt": "Name Best Picture winners that also won BOTH Best Director AND Best (Original or Adapted) Screenplay at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "parasite-2019",
+            "value": "2019 (Bong / Bong & Han)"
+          },
+          {
+            "rank": 2,
+            "code": "12-years-a-slave-2013",
+            "value": "2013 (McQueen / Ridley)"
+          },
+          {
+            "rank": 3,
+            "code": "no-country-for-old-men-2007",
+            "value": "2007 (Coens / Coens)"
+          },
+          {
+            "rank": 4,
+            "code": "american-beauty-1999",
+            "value": "1999 (Mendes / Ball)"
+          },
+          {
+            "rank": 5,
+            "code": "silence-of-the-lambs-1991",
+            "value": "1991 (Demme / Tally)"
+          },
+          {
+            "rank": 6,
+            "code": "annie-hall-1977",
+            "value": "1977 (Allen / Allen & Brickman)"
+          },
+          {
+            "rank": 7,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "1975 (Forman / Hauben & Goldman)"
+          },
+          {
+            "rank": 8,
+            "code": "godfather-part-ii-1974",
+            "value": "1974 (Coppola / Coppola & Puzo)"
+          },
+          {
+            "rank": 9,
+            "code": "godfather-1972",
+            "value": "1972 (Coppola / Puzo & Coppola)"
+          },
+          {
+            "rank": 10,
+            "code": "french-connection-1971",
+            "value": "1971 (Friedkin / Tidyman)"
+          },
+          {
+            "rank": 11,
+            "code": "apartment-1960",
+            "value": "1960 (Wilder / Wilder & Diamond)"
+          },
+          {
+            "rank": 12,
+            "code": "marty-1955",
+            "value": "1955 (Mann / Chayefsky)"
+          },
+          {
+            "rank": 13,
+            "code": "gone-with-the-wind-1939",
+            "value": "1939 (Fleming / Howard)"
+          },
+          {
+            "rank": 14,
+            "code": "it-happened-one-night-1934",
+            "value": "1934 (Capra / Riskin)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-highest-rotten-tomatoes-critic-score-tomatometer-2024",
+      "current": {
+        "title": "Highest Rotten Tomatoes critic score (Tomatometer)",
+        "prompt": "Name the Best Picture winners with the highest Rotten Tomatoes Tomatometer critic score.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "it-happened-one-night-1934",
+            "value": "99% Tomatometer"
+          },
+          {
+            "rank": 1,
+            "code": "casablanca-1943",
+            "value": "99% Tomatometer (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "all-about-eve-1950",
+            "value": "99% Tomatometer (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "parasite-2019",
+            "value": "99% Tomatometer (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "moonlight-2016",
+            "value": "98% Tomatometer"
+          },
+          {
+            "rank": 5,
+            "code": "schindlers-list-1993",
+            "value": "98% Tomatometer (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "godfather-1972",
+            "value": "97% Tomatometer"
+          },
+          {
+            "rank": 7,
+            "code": "hurt-locker-2009",
+            "value": "97% Tomatometer (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "spotlight-2015",
+            "value": "97% Tomatometer (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "argo-2012",
+            "value": "96% Tomatometer"
+          },
+          {
+            "rank": 11,
+            "code": "12-years-a-slave-2013",
+            "value": "95% Tomatometer"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "94% Tomatometer"
+          },
+          {
+            "rank": 13,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "93% Tomatometer"
+          },
+          {
+            "rank": 14,
+            "code": "departed-2006",
+            "value": "91% Tomatometer"
+          },
+          {
+            "rank": 14,
+            "code": "birdman-2014",
+            "value": "91% Tomatometer (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-fewest-total-oscar-wins-2024",
+      "current": {
+        "title": "Best Picture winners with the fewest total Oscar wins",
+        "prompt": "Name Best Picture winners that took home the fewest total Oscars at their ceremony (Best Picture included).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "grand-hotel-1932",
+            "value": "1 win"
+          },
+          {
+            "rank": 1,
+            "code": "broadway-melody-1929",
+            "value": "1 win (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "wings-1927",
+            "value": "2 wins"
+          },
+          {
+            "rank": 3,
+            "code": "greatest-show-on-earth-1952",
+            "value": "2 wins (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "spotlight-2015",
+            "value": "2 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "cimarron-1931",
+            "value": "3 wins"
+          },
+          {
+            "rank": 6,
+            "code": "crash-2005",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "moonlight-2016",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "12-years-a-slave-2013",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "argo-2012",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "green-book-2018",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "nomadland-2020",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "coda-2021",
+            "value": "3 wins (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "shape-of-water-2017",
+            "value": "4 wins"
+          },
+          {
+            "rank": 14,
+            "code": "birdman-2014",
+            "value": "4 wins (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-a-best-original-score-win-2024",
+      "current": {
+        "title": "Best Picture winners with a Best Original Score win",
+        "prompt": "Name Best Picture winners that also took home the Oscar for Best Original Score (a.k.a. Music - Original Dramatic/Comedy Score) at the same ceremony.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Awards",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "artist-2011",
+            "value": "Ludovic Bource (2011)"
+          },
+          {
+            "rank": 2,
+            "code": "slumdog-millionaire-2008",
+            "value": "A. R. Rahman (2008)"
+          },
+          {
+            "rank": 3,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "Howard Shore (2003)"
+          },
+          {
+            "rank": 4,
+            "code": "titanic-1997",
+            "value": "James Horner (1997)"
+          },
+          {
+            "rank": 5,
+            "code": "schindlers-list-1993",
+            "value": "John Williams (1993)"
+          },
+          {
+            "rank": 6,
+            "code": "amadeus-1984",
+            "value": "Adaptation Score (1984)"
+          },
+          {
+            "rank": 7,
+            "code": "godfather-part-ii-1974",
+            "value": "Nino Rota / Carmine Coppola (1974)"
+          },
+          {
+            "rank": 8,
+            "code": "sound-of-music-1965",
+            "value": "Adaptation Score (1965)"
+          },
+          {
+            "rank": 9,
+            "code": "lawrence-of-arabia-1962",
+            "value": "Maurice Jarre (1962)"
+          },
+          {
+            "rank": 10,
+            "code": "west-side-story-1961",
+            "value": "Adaptation Score (1961)"
+          },
+          {
+            "rank": 11,
+            "code": "bridge-on-the-river-kwai-1957",
+            "value": "Malcolm Arnold (1957)"
+          },
+          {
+            "rank": 12,
+            "code": "casablanca-1943",
+            "value": "Max Steiner (1943)"
+          },
+          {
+            "rank": 13,
+            "code": "how-green-was-my-valley-1941",
+            "value": "Alfred Newman (1941)"
+          },
+          {
+            "rank": 14,
+            "code": "rebecca-1940",
+            "value": "Franz Waxman (1940)"
+          },
+          {
+            "rank": 15,
+            "code": "gone-with-the-wind-1939",
+            "value": "Max Steiner (1939)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-opening-weekend-us-domestic-among-best-picture-winners",
+      "current": {
+        "title": "Highest opening weekend (US domestic) among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest opening weekend US domestic box office (unadjusted).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "oppenheimer-2023",
+            "value": "$82.5M opening weekend"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$72.6M opening weekend"
+          },
+          {
+            "rank": 3,
+            "code": "gladiator-2000",
+            "value": "$34.8M opening weekend"
+          },
+          {
+            "rank": 4,
+            "code": "titanic-1997",
+            "value": "$28.6M opening weekend"
+          },
+          {
+            "rank": 5,
+            "code": "american-beauty-1999",
+            "value": "$26.9M opening weekend (wide)"
+          },
+          {
+            "rank": 5,
+            "code": "departed-2006",
+            "value": "$26.9M opening weekend (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "chicago-2002",
+            "value": "$26.0M opening weekend (wide)"
+          },
+          {
+            "rank": 8,
+            "code": "forrest-gump-1994",
+            "value": "$24.5M opening weekend"
+          },
+          {
+            "rank": 9,
+            "code": "kings-speech-2010",
+            "value": "$22.9M opening weekend (wide)"
+          },
+          {
+            "rank": 10,
+            "code": "green-book-2018",
+            "value": "$19.5M opening weekend (wide)"
+          },
+          {
+            "rank": 10,
+            "code": "argo-2012",
+            "value": "$19.5M opening weekend (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "no-country-for-old-men-2007",
+            "value": "$18.1M opening weekend (wide)"
+          },
+          {
+            "rank": 13,
+            "code": "beautiful-mind-2001",
+            "value": "$16.6M opening weekend (wide)"
+          },
+          {
+            "rank": 14,
+            "code": "everything-everywhere-all-at-once-2022",
+            "value": "$14.0M opening weekend (wide)"
+          },
+          {
+            "rank": 15,
+            "code": "braveheart-1995",
+            "value": "$9.9M opening weekend"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-highest-international-foreign-box-office-among-best-picture-wi",
+      "current": {
+        "title": "Highest international / foreign box office among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest international (non-US) box office gross.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "$1.58B international"
+          },
+          {
+            "rank": 2,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "$774M international"
+          },
+          {
+            "rank": 3,
+            "code": "oppenheimer-2023",
+            "value": "$644M international"
+          },
+          {
+            "rank": 4,
+            "code": "forrest-gump-1994",
+            "value": "$348M international"
+          },
+          {
+            "rank": 5,
+            "code": "kings-speech-2010",
+            "value": "$286M international"
+          },
+          {
+            "rank": 6,
+            "code": "gladiator-2000",
+            "value": "$272M international"
+          },
+          {
+            "rank": 7,
+            "code": "dances-with-wolves-1990",
+            "value": "$240M international"
+          },
+          {
+            "rank": 7,
+            "code": "rain-man-1988",
+            "value": "$240M international (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "slumdog-millionaire-2008",
+            "value": "$237M international"
+          },
+          {
+            "rank": 9,
+            "code": "green-book-2018",
+            "value": "$237M international (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "american-beauty-1999",
+            "value": "$226M international"
+          },
+          {
+            "rank": 12,
+            "code": "parasite-2019",
+            "value": "$204M international"
+          },
+          {
+            "rank": 13,
+            "code": "shakespeare-in-love-1998",
+            "value": "$189M international"
+          },
+          {
+            "rank": 14,
+            "code": "beautiful-mind-2001",
+            "value": "$146M international"
+          },
+          {
+            "rank": 15,
+            "code": "chicago-2002",
+            "value": "$136M international"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-best-roi-return-on-investment-among-best-picture-winners-2024",
+      "current": {
+        "title": "Best ROI (return on investment) among Best Picture winners",
+        "prompt": "Name the Best Picture winners with the highest return on investment (worldwide gross divided by production budget).",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "rocky-1976",
+            "value": "~205x ROI ($1.1M budget \u2192 $225M worldwide)"
+          },
+          {
+            "rank": 2,
+            "code": "gone-with-the-wind-1939",
+            "value": "~104x ROI ($3.85M -> $402M)"
+          },
+          {
+            "rank": 3,
+            "code": "it-happened-one-night-1934",
+            "value": "~40x ROI ($325K -> ~$13M)"
+          },
+          {
+            "rank": 3,
+            "code": "godfather-1972",
+            "value": "~40x ROI ($6-7M -> $291M) (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "marty-1955",
+            "value": "~35x ROI ($340K -> $12M)"
+          },
+          {
+            "rank": 5,
+            "code": "one-flew-over-the-cuckoos-nest-1975",
+            "value": "~35x ROI ($4.4M -> $163M) (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "sound-of-music-1965",
+            "value": "~34x ROI ($8.2M -> $286M)"
+          },
+          {
+            "rank": 8,
+            "code": "slumdog-millionaire-2008",
+            "value": "~25x ROI ($15M -> $378M)"
+          },
+          {
+            "rank": 9,
+            "code": "sting-1973",
+            "value": "~22x ROI ($5.5M -> $156M)"
+          },
+          {
+            "rank": 10,
+            "code": "titanic-1997",
+            "value": "~11.3x ROI ($200M -> $2.26B)"
+          },
+          {
+            "rank": 10,
+            "code": "forrest-gump-1994",
+            "value": "~11.3x ROI ($55M -> $678M) (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "annie-hall-1977",
+            "value": "~10x ROI ($4M -> $39M)"
+          },
+          {
+            "rank": 13,
+            "code": "casablanca-1943",
+            "value": "~7x ROI ($1M -> $7M+)"
+          },
+          {
+            "rank": 13,
+            "code": "chariots-of-fire-1981",
+            "value": "~7x ROI ($5.5M -> $58M) (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "west-side-story-1961",
+            "value": "~6x ROI ($6M -> $44M+)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "movies-box-office-most-weeks-at-1-on-the-us-domestic-box-office-chart-2024",
+      "current": {
+        "title": "Most weeks at #1 on the US weekend box office chart",
+        "prompt": "Name the Best Picture winners that spent the most weeks at #1 on the US weekend box office chart.",
+        "answerType": "Movies",
+        "theme": "Movies",
+        "subtheme": "Movies - Box Office",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "titanic-1997",
+            "value": "15 weeks at #1"
+          },
+          {
+            "rank": 2,
+            "code": "forrest-gump-1994",
+            "value": "10 weeks at #1"
+          },
+          {
+            "rank": 3,
+            "code": "rain-man-1988",
+            "value": "7 weeks at #1"
+          },
+          {
+            "rank": 4,
+            "code": "sting-1973",
+            "value": "5 weeks at #1"
+          },
+          {
+            "rank": 4,
+            "code": "godfather-1972",
+            "value": "5 weeks at #1 (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "lord-of-the-rings-return-of-the-king-2003",
+            "value": "4 weeks at #1"
+          },
+          {
+            "rank": 6,
+            "code": "gladiator-2000",
+            "value": "4 weeks at #1 (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "kramer-vs-kramer-1979",
+            "value": "4 weeks at #1 (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "silence-of-the-lambs-1991",
+            "value": "4 weeks at #1 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "dances-with-wolves-1990",
+            "value": "3 weeks at #1"
+          },
+          {
+            "rank": 10,
+            "code": "oppenheimer-2023",
+            "value": "3 weeks at #1 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "rocky-1976",
+            "value": "3 weeks at #1 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "driving-miss-daisy-1989",
+            "value": "3 weeks at #1 (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "american-beauty-1999",
+            "value": "2 weeks at #1"
+          },
+          {
+            "rank": 14,
+            "code": "chicago-2002",
+            "value": "2 weeks at #1 (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

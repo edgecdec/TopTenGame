@@ -1,0 +1,242 @@
+{
+  "cluster": "movies-w3-02",
+  "updates": [
+    {
+      "id": "movies-nominees-highest-worldwide-grossing-best-picture-nominees-2025",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "avatar-2009", "value": "$2,923M worldwide" },
+          { "rank": 2, "code": "titanic-1997", "value": "$2,264M worldwide" },
+          { "rank": 3, "code": "top-gun-maverick-2022", "value": "$1,496M worldwide" },
+          { "rank": 4, "code": "barbie-2023", "value": "$1,446M worldwide" },
+          { "rank": 5, "code": "black-panther-2018", "value": "$1,349M worldwide" },
+          { "rank": 6, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "$1,146M worldwide" },
+          { "rank": 7, "code": "joker-2019", "value": "$1,079M worldwide" },
+          { "rank": 8, "code": "toy-story-3-2010", "value": "$1,067M worldwide" },
+          { "rank": 9, "code": "oppenheimer-2023", "value": "$976M worldwide" },
+          { "rank": 10, "code": "lord-of-the-rings-two-towers-2002", "value": "$947M worldwide" },
+          { "rank": 11, "code": "bohemian-rhapsody-2018", "value": "$911M worldwide" },
+          { "rank": 12, "code": "lord-of-the-rings-fellowship-of-the-ring-2001", "value": "$897M worldwide" },
+          { "rank": 13, "code": "inception-2010", "value": "$837M worldwide" },
+          { "rank": 14, "code": "gravity-2013", "value": "$759M worldwide" },
+          { "rank": 15, "code": "forrest-gump-1994", "value": "$678M worldwide" },
+          { "rank": 16, "code": "martian-2015", "value": "$630M worldwide" },
+          { "rank": 17, "code": "life-of-pi-2012", "value": "$609M worldwide" },
+          { "rank": 18, "code": "american-sniper-2014", "value": "$547M worldwide" },
+          { "rank": 19, "code": "dunkirk-2017", "value": "$527M worldwide" },
+          { "rank": 20, "code": "saving-private-ryan-1998", "value": "$481M worldwide" },
+          { "rank": 21, "code": "jaws-1975", "value": "$476M worldwide" },
+          { "rank": 22, "code": "la-la-land-2016", "value": "$472M worldwide" },
+          { "rank": 23, "code": "gladiator-2000", "value": "$465M worldwide" },
+          { "rank": 24, "code": "les-miserables-2012", "value": "$442M worldwide" },
+          { "rank": 25, "code": "django-unchained-2012", "value": "$425M worldwide" },
+          { "rank": 26, "code": "kings-speech-2010", "value": "$424M worldwide" },
+          { "rank": 26, "code": "dances-with-wolves-1990", "value": "$424M worldwide (tied)" },
+          { "rank": 28, "code": "rain-man-1988", "value": "$412M worldwide" },
+          { "rank": 29, "code": "gone-with-the-wind-1939", "value": "$402M worldwide" },
+          { "rank": 30, "code": "slumdog-millionaire-2008", "value": "$378M worldwide" }
+        ],
+        "seededDepth": 30
+      }
+    },
+    {
+      "id": "movies-nominees-highest-rotten-tomatoes-score-among-best-picture-nominees-that-d",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "12-angry-men-1957", "value": "100%" },
+          { "rank": 2, "code": "citizen-kane-1941", "value": "99%" },
+          { "rank": 2, "code": "lady-bird-2017", "value": "99% (tied)" },
+          { "rank": 4, "code": "toy-story-3-2010", "value": "98%" },
+          { "rank": 4, "code": "get-out-2017", "value": "98% (tied)" },
+          { "rank": 4, "code": "up-2009", "value": "98% (tied)" },
+          { "rank": 4, "code": "wizard-of-oz-1939", "value": "98% (tied)" },
+          { "rank": 8, "code": "boyhood-2014", "value": "97%" },
+          { "rank": 8, "code": "philadelphia-story-1940", "value": "97% (tied)" },
+          { "rank": 10, "code": "roma-2018", "value": "96%" },
+          { "rank": 10, "code": "black-panther-2018", "value": "96% (tied)" },
+          { "rank": 10, "code": "maltese-falcon-1941", "value": "96% (tied)" },
+          { "rank": 10, "code": "arrival-2016", "value": "96% (tied)" },
+          { "rank": 14, "code": "little-women-2019", "value": "95%" },
+          { "rank": 14, "code": "marriage-story-2019", "value": "95% (tied)" },
+          { "rank": 14, "code": "high-noon-1952", "value": "95% (tied)" },
+          { "rank": 14, "code": "call-me-by-your-name-2017", "value": "95% (tied)" },
+          { "rank": 14, "code": "manchester-by-the-sea-2016", "value": "95% (tied)" },
+          { "rank": 19, "code": "grand-hotel-1932", "value": "94%" },
+          { "rank": 19, "code": "grapes-of-wrath-1940", "value": "94% (tied)" },
+          { "rank": 21, "code": "pulp-fiction-1994", "value": "92%" },
+          { "rank": 21, "code": "grand-budapest-hotel-2014", "value": "92% (tied)" },
+          { "rank": 21, "code": "shane-1953", "value": "92% (tied)" },
+          { "rank": 21, "code": "banshees-of-inisherin-2022", "value": "92% (tied)" },
+          { "rank": 25, "code": "la-la-land-2016", "value": "91%" },
+          { "rank": 25, "code": "1917-2019", "value": "91% (tied)" },
+          { "rank": 25, "code": "fences-2016", "value": "91% (tied)" },
+          { "rank": 28, "code": "sound-of-metal-2019", "value": "90%" },
+          { "rank": 28, "code": "tree-of-life-2011", "value": "90% (tied)" },
+          { "rank": 28, "code": "whiplash-2014", "value": "90% (tied)" }
+        ],
+        "seededDepth": 30
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-oldest-lead-actor-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "driving-miss-daisy-1989", "value": "Jessica Tandy — 80" },
+          { "rank": 2, "code": "million-dollar-baby-2004", "value": "Clint Eastwood — 74" },
+          { "rank": 3, "code": "spotlight-2015", "value": "Michael Keaton — 64" },
+          { "rank": 4, "code": "nomadland-2020", "value": "Frances McDormand — 63" },
+          { "rank": 4, "code": "birdman-2014", "value": "Michael Keaton — 63 (tied)" },
+          { "rank": 6, "code": "unforgiven-1992", "value": "Clint Eastwood — 62" },
+          { "rank": 7, "code": "no-country-for-old-men-2007", "value": "Tommy Lee Jones — 61" },
+          { "rank": 8, "code": "green-book-2018", "value": "Viggo Mortensen — 60" },
+          { "rank": 9, "code": "coda-2021", "value": "Marlee Matlin — 56" },
+          { "rank": 10, "code": "anora-2024", "value": "Mark Eydelshteyn — 52" },
+          { "rank": 11, "code": "rain-man-1988", "value": "Dustin Hoffman — 51" },
+          { "rank": 12, "code": "kings-speech-2010", "value": "Colin Firth — 50" },
+          { "rank": 13, "code": "out-of-africa-1985", "value": "Robert Redford — 48" },
+          { "rank": 13, "code": "godfather-1972", "value": "Marlon Brando — 48 (tied)" },
+          { "rank": 15, "code": "amadeus-1984", "value": "F. Murray Abraham — 45" },
+          { "rank": 16, "code": "patton-1970", "value": "George C. Scott — 43" },
+          { "rank": 17, "code": "argo-2012", "value": "Ben Affleck — 40" },
+          { "rank": 18, "code": "gandhi-1982", "value": "Ben Kingsley — 39" },
+          { "rank": 19, "code": "beautiful-mind-2001", "value": "Russell Crowe — 37" },
+          { "rank": 20, "code": "gladiator-2000", "value": "Russell Crowe — 36" }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-best-picture-winners-with-the-widest-us-theatrical-release-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "oppenheimer-2023", "value": "3,761 theaters (peak)" },
+          { "rank": 2, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "3,703 theaters (peak)" },
+          { "rank": 3, "code": "titanic-1997", "value": "3,265 theaters (peak)" },
+          { "rank": 4, "code": "argo-2012", "value": "3,247 theaters (peak)" },
+          { "rank": 5, "code": "gladiator-2000", "value": "3,188 theaters (peak)" },
+          { "rank": 6, "code": "departed-2006", "value": "3,017 theaters (peak)" },
+          { "rank": 7, "code": "green-book-2018", "value": "2,842 theaters (peak)" },
+          { "rank": 8, "code": "chicago-2002", "value": "2,839 theaters (peak)" },
+          { "rank": 9, "code": "kings-speech-2010", "value": "2,586 theaters (peak)" },
+          { "rank": 10, "code": "forrest-gump-1994", "value": "2,461 theaters (peak)" },
+          { "rank": 11, "code": "million-dollar-baby-2004", "value": "2,375 theaters (peak)" },
+          { "rank": 12, "code": "no-country-for-old-men-2007", "value": "2,260 theaters (peak)" },
+          { "rank": 13, "code": "shakespeare-in-love-1998", "value": "2,242 theaters (peak)" },
+          { "rank": 14, "code": "everything-everywhere-all-at-once-2022", "value": "2,220 theaters (peak)" },
+          { "rank": 15, "code": "shape-of-water-2017", "value": "2,075 theaters (peak)" },
+          { "rank": 16, "code": "braveheart-1995", "value": "2,036 theaters (peak)" },
+          { "rank": 17, "code": "crash-2005", "value": "2,023 theaters (peak)" },
+          { "rank": 18, "code": "parasite-2019", "value": "2,001 theaters (peak)" },
+          { "rank": 19, "code": "american-beauty-1999", "value": "1,990 theaters (peak)" },
+          { "rank": 20, "code": "spotlight-2015", "value": "1,586 theaters (peak)" },
+          { "rank": 21, "code": "moonlight-2016", "value": "1,564 theaters (peak)" },
+          { "rank": 22, "code": "12-years-a-slave-2013", "value": "1,411 theaters (peak)" },
+          { "rank": 23, "code": "birdman-2014", "value": "1,213 theaters (peak)" },
+          { "rank": 24, "code": "nomadland-2020", "value": "1,175 theaters (peak)" },
+          { "rank": 25, "code": "artist-2011", "value": "1,005 theaters (peak)" }
+        ],
+        "seededDepth": 25
+      }
+    },
+    {
+      "id": "movies-longest-runtime-among-best-picture-winners-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "gone-with-the-wind-1939", "value": "238 min" },
+          { "rank": 2, "code": "lawrence-of-arabia-1962", "value": "228 min" },
+          { "rank": 3, "code": "ben-hur-1959", "value": "212 min" },
+          { "rank": 4, "code": "godfather-part-ii-1974", "value": "202 min" },
+          { "rank": 5, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "201 min" },
+          { "rank": 6, "code": "schindlers-list-1993", "value": "195 min" },
+          { "rank": 7, "code": "titanic-1997", "value": "194 min" },
+          { "rank": 8, "code": "gandhi-1982", "value": "191 min" },
+          { "rank": 9, "code": "deer-hunter-1978", "value": "183 min" },
+          { "rank": 10, "code": "dances-with-wolves-1990", "value": "181 min" },
+          { "rank": 11, "code": "oppenheimer-2023", "value": "180 min" },
+          { "rank": 12, "code": "braveheart-1995", "value": "178 min" },
+          { "rank": 13, "code": "around-the-world-in-80-days-1956", "value": "175 min" },
+          { "rank": 13, "code": "godfather-1972", "value": "175 min (tied)" },
+          { "rank": 15, "code": "sound-of-music-1965", "value": "174 min" },
+          { "rank": 16, "code": "last-emperor-1987", "value": "163 min" },
+          { "rank": 17, "code": "best-years-of-our-lives-1946", "value": "172 min" },
+          { "rank": 17, "code": "patton-1970", "value": "172 min (tied)" },
+          { "rank": 19, "code": "english-patient-1996", "value": "162 min" },
+          { "rank": 20, "code": "amadeus-1984", "value": "161 min" },
+          { "rank": 20, "code": "out-of-africa-1985", "value": "161 min (tied)" },
+          { "rank": 22, "code": "west-side-story-1961", "value": "153 min" }
+        ]
+      }
+    },
+    {
+      "id": "movies-awards-most-oscars-won-by-a-best-picture-loser-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "cabaret-1972", "value": "8 wins (lost to The Godfather)" },
+          { "rank": 2, "code": "gravity-2013", "value": "7 wins (lost to 12 Years a Slave)" },
+          { "rank": 3, "code": "star-wars-1977", "value": "6 wins (lost to Annie Hall)" },
+          { "rank": 3, "code": "mad-max-fury-road-2015", "value": "6 wins (tied; lost to Spotlight) (tied)" },
+          { "rank": 3, "code": "la-la-land-2016", "value": "6 wins (tied; lost to Moonlight) (tied)" },
+          { "rank": 3, "code": "dune-2021", "value": "6 wins (tied; lost to CODA) (tied)" },
+          { "rank": 7, "code": "saving-private-ryan-1998", "value": "5 wins (lost to Shakespeare in Love)" },
+          { "rank": 7, "code": "doctor-zhivago-1965", "value": "5 wins (tied; lost to The Sound of Music) (tied)" },
+          { "rank": 7, "code": "hugo-2011", "value": "5 wins (tied; lost to The Artist) (tied)" },
+          { "rank": 7, "code": "mary-poppins-1964", "value": "5 wins (tied; lost to My Fair Lady) (tied)" },
+          { "rank": 7, "code": "aviator-2004", "value": "5 wins (tied; lost to Million Dollar Baby) (tied)" },
+          { "rank": 12, "code": "traffic-2000", "value": "4 wins (lost to Gladiator)" },
+          { "rank": 12, "code": "life-of-pi-2012", "value": "4 wins (tied; lost to Argo) (tied)" },
+          { "rank": 12, "code": "bohemian-rhapsody-2018", "value": "4 wins (tied; lost to Green Book) (tied)" },
+          { "rank": 12, "code": "poor-things-2023", "value": "4 wins (tied; lost to Oppenheimer) (tied)" },
+          { "rank": 12, "code": "inception-2010", "value": "4 wins (tied; lost to The King's Speech) (tied)" },
+          { "rank": 12, "code": "grand-budapest-hotel-2014", "value": "4 wins (tied; lost to Birdman) (tied)" },
+          { "rank": 18, "code": "avatar-2009", "value": "3 wins (lost to The Hurt Locker)" },
+          { "rank": 18, "code": "reds-1981", "value": "3 wins (tied; lost to Chariots of Fire) (tied)" },
+          { "rank": 18, "code": "fiddler-on-the-roof-1971", "value": "3 wins (tied; lost to The French Connection) (tied)" },
+          { "rank": 18, "code": "dunkirk-2017", "value": "3 wins (tied; lost to The Shape of Water) (tied)" },
+          { "rank": 18, "code": "julia-1977", "value": "3 wins (tied; lost to Annie Hall) (tied)" },
+          { "rank": 18, "code": "1917-2019", "value": "3 wins (tied; lost to Parasite) (tied)" },
+          { "rank": 18, "code": "revenant-2015", "value": "3 wins (tied; lost to Spotlight) (tied)" },
+          { "rank": 18, "code": "favourite-2018", "value": "3 wins (tied; lost to Green Book) (tied)" }
+        ],
+        "seededDepth": 25
+      }
+    },
+    {
+      "id": "movies-highest-grossing-best-picture-winners-worldwide-box-office-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "titanic-1997", "value": "$2,264M worldwide" },
+          { "rank": 2, "code": "lord-of-the-rings-return-of-the-king-2003", "value": "$1,146M worldwide" },
+          { "rank": 3, "code": "oppenheimer-2023", "value": "$975M worldwide" },
+          { "rank": 4, "code": "forrest-gump-1994", "value": "$678M worldwide" },
+          { "rank": 5, "code": "gladiator-2000", "value": "$465M worldwide" },
+          { "rank": 6, "code": "dances-with-wolves-1990", "value": "$424M worldwide" },
+          { "rank": 6, "code": "kings-speech-2010", "value": "$424M worldwide (tied)" },
+          { "rank": 8, "code": "rain-man-1988", "value": "$412M worldwide" },
+          { "rank": 9, "code": "gone-with-the-wind-1939", "value": "$402M worldwide" },
+          { "rank": 10, "code": "slumdog-millionaire-2008", "value": "$378M worldwide" },
+          { "rank": 11, "code": "american-beauty-1999", "value": "$356M worldwide" },
+          { "rank": 12, "code": "green-book-2018", "value": "$322M worldwide" },
+          { "rank": 13, "code": "beautiful-mind-2001", "value": "$316M worldwide" },
+          { "rank": 14, "code": "chicago-2002", "value": "$307M worldwide" },
+          { "rank": 15, "code": "departed-2006", "value": "$291M worldwide" },
+          { "rank": 16, "code": "shakespeare-in-love-1998", "value": "$289M worldwide" },
+          { "rank": 17, "code": "sound-of-music-1965", "value": "$286M worldwide" },
+          { "rank": 18, "code": "silence-of-the-lambs-1991", "value": "$272M worldwide" },
+          { "rank": 19, "code": "parasite-2019", "value": "$258M worldwide" },
+          { "rank": 20, "code": "godfather-1972", "value": "$246M worldwide" },
+          { "rank": 21, "code": "english-patient-1996", "value": "$232M worldwide" },
+          { "rank": 21, "code": "argo-2012", "value": "$232M worldwide (tied)" },
+          { "rank": 23, "code": "million-dollar-baby-2004", "value": "$217M worldwide" },
+          { "rank": 24, "code": "braveheart-1995", "value": "$213M worldwide" },
+          { "rank": 25, "code": "shape-of-water-2017", "value": "$195M worldwide" },
+          { "rank": 26, "code": "12-years-a-slave-2013", "value": "$187M worldwide" },
+          { "rank": 27, "code": "no-country-for-old-men-2007", "value": "$171M worldwide" },
+          { "rank": 28, "code": "everything-everywhere-all-at-once-2022", "value": "$143M worldwide" },
+          { "rank": 29, "code": "birdman-2014", "value": "$103M worldwide" },
+          { "rank": 30, "code": "spotlight-2015", "value": "$98M worldwide" }
+        ],
+        "seededDepth": 30
+      }
+    }
+  ],
+  "deletions": []
+}

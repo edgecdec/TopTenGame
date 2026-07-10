@@ -1,0 +1,50 @@
+{
+  "cluster": "european-soccer-clubs-w3-00",
+  "updates": [
+    {
+      "id": "european-soccer-premier-league-most-pl-seasons-as-ever-presents-plus-challengers",
+      "changes": {
+        "answers": [
+          {"rank": 1, "code": "EPL-ARS", "value": "33 seasons"},
+          {"rank": 1, "code": "EPL-CHE", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-EVE", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-LIV", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-MUN", "value": "33 seasons (tied)"},
+          {"rank": 1, "code": "EPL-TOT", "value": "33 seasons (tied)"},
+          {"rank": 7, "code": "EPL-AVL", "value": "30 seasons"},
+          {"rank": 8, "code": "EPL-NEW", "value": "29 seasons"},
+          {"rank": 9, "code": "EPL-WHU", "value": "28 seasons"},
+          {"rank": 10, "code": "EPL-MCI", "value": "27 seasons"},
+          {"rank": 11, "code": "EPL-SOU", "value": "25 seasons"},
+          {"rank": 12, "code": "EPL-BLA", "value": "18 seasons"},
+          {"rank": 12, "code": "EPL-FUL", "value": "18 seasons (tied)"}
+        ],
+        "seededDepth": 13
+      }
+    },
+    {
+      "id": "european-soccer-european-most-uefa-super-cup-wins-2024",
+      "changes": {
+        "answers": [
+          {"rank": 1, "code": "LAL-BAR", "value": "5 wins"},
+          {"rank": 1, "code": "SEA-MIL", "value": "5 wins (tied)"},
+          {"rank": 1, "code": "LAL-RM", "value": "5 wins (tied)"},
+          {"rank": 4, "code": "EPL-LIV", "value": "4 wins"},
+          {"rank": 5, "code": "LAL-ATM", "value": "3 wins"},
+          {"rank": 6, "code": "BUN-BAY", "value": "2 wins"},
+          {"rank": 6, "code": "SEA-JUV", "value": "2 wins (tied)"},
+          {"rank": 6, "code": "EPL-CHE", "value": "2 wins (tied)"},
+          {"rank": 9, "code": "LAL-SEV", "value": "1 win"},
+          {"rank": 9, "code": "EPL-MUN", "value": "1 win (tied)"},
+          {"rank": 9, "code": "SEA-LAZ", "value": "1 win (tied)"},
+          {"rank": 9, "code": "SEA-PAR", "value": "1 win (tied)"},
+          {"rank": 9, "code": "SEA-SMP", "value": "1 win (tied)"},
+          {"rank": 9, "code": "BUN-BVB", "value": "1 win (tied)"},
+          {"rank": 9, "code": "LAL-VAL", "value": "1 win (tied)"}
+        ],
+        "seededDepth": 15
+      }
+    }
+  ],
+  "deletions": []
+}
