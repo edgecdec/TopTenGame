@@ -30,7 +30,7 @@ const insertAnswer = db.prepare(
 // UPDATE then corrects any pre-existing row that was created before this flag
 // existed (or before the intended defaults were correct) — but only bumps
 // is_prod UP, never down, so manual admin-promotions of other themes stick.
-const INITIAL_PROD_THEMES = new Set(["Countries", "US States"]);
+const INITIAL_PROD_THEMES = new Set(["Countries", "US States", "US Big 4 Sports"]);
 const insertTheme = db.prepare(
   "INSERT OR IGNORE INTO themes (theme, is_prod) VALUES (?, ?)"
 );
