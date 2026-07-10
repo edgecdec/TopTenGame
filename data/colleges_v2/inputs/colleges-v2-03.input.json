@@ -1,0 +1,783 @@
+{
+  "cluster": "colleges-v2-03",
+  "questions": [
+    {
+      "id": "colleges-admissions-highest-median-act-score-of-enrolled-first-years-2023",
+      "current": {
+        "title": "Highest median ACT score of enrolled first-years",
+        "prompt": "Name the US universities with the highest median ACT composite scores among enrolled first-year students.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "caltech",
+            "value": "36"
+          },
+          {
+            "rank": 2,
+            "code": "mit",
+            "value": "35"
+          },
+          {
+            "rank": 2,
+            "code": "harvey-mudd",
+            "value": "35 (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "chicago",
+            "value": "35 (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "princeton",
+            "value": "35 (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "35 (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "35 (tied)"
+          },
+          {
+            "rank": 2,
+            "code": "vanderbilt",
+            "value": "35 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "duke",
+            "value": "34"
+          },
+          {
+            "rank": 9,
+            "code": "washu",
+            "value": "34 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "34 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "rice",
+            "value": "34 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "northwestern",
+            "value": "34 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "notre-dame",
+            "value": "34 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "34 (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-nobel-laureates-school-affiliations-2024",
+      "current": {
+        "title": "Most Nobel laureates (school affiliations)",
+        "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "161 laureates"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "110 laureates"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "103 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "chicago",
+            "value": "101 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "mit",
+            "value": "101 laureates (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "stanford",
+            "value": "85 laureates"
+          },
+          {
+            "rank": 7,
+            "code": "caltech",
+            "value": "76 laureates"
+          },
+          {
+            "rank": 8,
+            "code": "princeton",
+            "value": "69 laureates"
+          },
+          {
+            "rank": 9,
+            "code": "yale",
+            "value": "65 laureates"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "62 laureates"
+          },
+          {
+            "rank": 11,
+            "code": "penn",
+            "value": "40 laureates"
+          },
+          {
+            "rank": 12,
+            "code": "jhu",
+            "value": "39 laureates"
+          },
+          {
+            "rank": 13,
+            "code": "nyu",
+            "value": "38 laureates"
+          },
+          {
+            "rank": 14,
+            "code": "michigan",
+            "value": "27 laureates"
+          },
+          {
+            "rank": 15,
+            "code": "washu",
+            "value": "26 laureates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-engineering-schools-2024",
+      "current": {
+        "title": "Oldest US engineering schools",
+        "prompt": "Name the oldest engineering schools/programs at US universities, by founding year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "case-western",
+            "value": "1880 (founded)"
+          },
+          {
+            "rank": 2,
+            "code": "ohio-state",
+            "value": "1878 (founded)"
+          },
+          {
+            "rank": 3,
+            "code": "purdue",
+            "value": "1874 (founded)"
+          },
+          {
+            "rank": 4,
+            "code": "cornell",
+            "value": "1868 (founded)"
+          },
+          {
+            "rank": 5,
+            "code": "lehigh",
+            "value": "1866 (founded)"
+          },
+          {
+            "rank": 6,
+            "code": "columbia",
+            "value": "1864 (founded)"
+          },
+          {
+            "rank": 7,
+            "code": "mit",
+            "value": "1861 (founded)"
+          },
+          {
+            "rank": 8,
+            "code": "michigan",
+            "value": "1854 (founded)"
+          },
+          {
+            "rank": 8,
+            "code": "yale",
+            "value": "1854 (founded, tied) (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "brown",
+            "value": "1854 (founded, tied) (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "penn",
+            "value": "1852 (founded)"
+          },
+          {
+            "rank": 12,
+            "code": "harvard",
+            "value": "1847 (founded)"
+          },
+          {
+            "rank": 13,
+            "code": "virginia",
+            "value": "1836 (founded)"
+          },
+          {
+            "rank": 14,
+            "code": "rpi",
+            "value": "1824 (founded)"
+          },
+          {
+            "rank": 15,
+            "code": "army",
+            "value": "1802 (founded)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-endowment-per-student-2023",
+      "current": {
+        "title": "Highest Endowment Per Student",
+        "prompt": "Name the US colleges with the highest endowment per enrolled student.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "$3.9M/student"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "$2.9M/student"
+          },
+          {
+            "rank": 3,
+            "code": "harvard",
+            "value": "$2.3M/student"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "$2.1M/student"
+          },
+          {
+            "rank": 5,
+            "code": "mit",
+            "value": "$2.0M/student"
+          },
+          {
+            "rank": 6,
+            "code": "pomona",
+            "value": "$1.6M/student"
+          },
+          {
+            "rank": 7,
+            "code": "swarthmore",
+            "value": "$1.5M/student"
+          },
+          {
+            "rank": 8,
+            "code": "amherst",
+            "value": "$1.4M/student"
+          },
+          {
+            "rank": 8,
+            "code": "notre-dame",
+            "value": "$1.4M/student (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "williams",
+            "value": "$1.3M/student"
+          },
+          {
+            "rank": 11,
+            "code": "grinnell",
+            "value": "$1.2M/student"
+          },
+          {
+            "rank": 12,
+            "code": "caltech",
+            "value": "$1.1M/student"
+          },
+          {
+            "rank": 13,
+            "code": "wellesley",
+            "value": "$970k/student"
+          },
+          {
+            "rank": 14,
+            "code": "washu",
+            "value": "$720k/student"
+          },
+          {
+            "rank": 15,
+            "code": "rice",
+            "value": "$700k/student"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-us-news-liberal-arts-colleges-2024-2024",
+      "current": {
+        "title": "US News Liberal Arts Colleges (2024)",
+        "prompt": "Name the highest-ranked schools in the US News 2024 Best National Liberal Arts Colleges ranking.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "barnard",
+            "value": "#20"
+          },
+          {
+            "rank": 2,
+            "code": "colgate",
+            "value": "#19"
+          },
+          {
+            "rank": 3,
+            "code": "wesleyan",
+            "value": "#18"
+          },
+          {
+            "rank": 4,
+            "code": "harvey-mudd",
+            "value": "#17"
+          },
+          {
+            "rank": 5,
+            "code": "haverford",
+            "value": "#16"
+          },
+          {
+            "rank": 6,
+            "code": "grinnell",
+            "value": "#15"
+          },
+          {
+            "rank": 7,
+            "code": "hamilton",
+            "value": "#14"
+          },
+          {
+            "rank": 8,
+            "code": "vassar",
+            "value": "#13"
+          },
+          {
+            "rank": 9,
+            "code": "smith",
+            "value": "#12"
+          },
+          {
+            "rank": 10,
+            "code": "davidson",
+            "value": "#11"
+          },
+          {
+            "rank": 11,
+            "code": "middlebury",
+            "value": "#8"
+          },
+          {
+            "rank": 12,
+            "code": "carleton",
+            "value": "#7"
+          },
+          {
+            "rank": 13,
+            "code": "wellesley",
+            "value": "#5"
+          },
+          {
+            "rank": 14,
+            "code": "pomona",
+            "value": "#4"
+          },
+          {
+            "rank": 15,
+            "code": "swarthmore",
+            "value": "#3"
+          },
+          {
+            "rank": 16,
+            "code": "amherst",
+            "value": "#2"
+          },
+          {
+            "rank": 17,
+            "code": "williams",
+            "value": "#1"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-men-s-college-world-series-titles-2024",
+      "current": {
+        "title": "Most Men's College World Series titles",
+        "prompt": "Name the colleges with the most NCAA Division I Men's College World Series baseball championships.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "usc",
+            "value": "12 titles"
+          },
+          {
+            "rank": 2,
+            "code": "lsu",
+            "value": "7 titles"
+          },
+          {
+            "rank": 3,
+            "code": "texas",
+            "value": "6 titles"
+          },
+          {
+            "rank": 4,
+            "code": "arizona-state",
+            "value": "5 titles"
+          },
+          {
+            "rank": 5,
+            "code": "miami",
+            "value": "4 titles"
+          },
+          {
+            "rank": 5,
+            "code": "arizona",
+            "value": "4 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "minnesota",
+            "value": "3 titles"
+          },
+          {
+            "rank": 8,
+            "code": "michigan",
+            "value": "2 titles"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "vanderbilt",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "berkeley",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "ole-miss",
+            "value": "2 titles (retro; tied) (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "florida",
+            "value": "1 title"
+          },
+          {
+            "rank": 13,
+            "code": "ohio-state",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "oklahoma",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "pepperdine",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "georgia-tech",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-turing-award-winners-2024",
+      "current": {
+        "title": "Most Turing Award winners",
+        "prompt": "Name the US universities that have produced the most Turing Award laureates (alumni or faculty affiliations).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 18,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "mit",
+            "value": "~10 laureates (affiliated)"
+          },
+          {
+            "rank": 2,
+            "code": "stanford",
+            "value": "~9 laureates"
+          },
+          {
+            "rank": 3,
+            "code": "berkeley",
+            "value": "~8 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "cmu",
+            "value": "~7 laureates"
+          },
+          {
+            "rank": 5,
+            "code": "harvard",
+            "value": "~5 laureates"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "~5 laureates (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "chicago",
+            "value": "~3 laureates"
+          },
+          {
+            "rank": 7,
+            "code": "cornell",
+            "value": "~3 laureates (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "caltech",
+            "value": "~2 laureates"
+          },
+          {
+            "rank": 9,
+            "code": "yale",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "ucla",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "~2 laureates (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "washu",
+            "value": "~1 laureate"
+          },
+          {
+            "rank": 13,
+            "code": "penn",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "jhu",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "michigan",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "usc",
+            "value": "~1 laureate (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "rice",
+            "value": "~1 laureate (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-phds-conferred-annually-2022",
+      "current": {
+        "title": "Most PhDs conferred annually",
+        "prompt": "Name the US universities that award the most research doctorates (PhDs) per year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 18,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "berkeley",
+            "value": "~1,050 doctorates"
+          },
+          {
+            "rank": 2,
+            "code": "michigan",
+            "value": "~940 doctorates"
+          },
+          {
+            "rank": 3,
+            "code": "wisconsin",
+            "value": "~900 doctorates"
+          },
+          {
+            "rank": 4,
+            "code": "illinois",
+            "value": "~880 doctorates"
+          },
+          {
+            "rank": 5,
+            "code": "texas",
+            "value": "~870 doctorates"
+          },
+          {
+            "rank": 6,
+            "code": "ucla",
+            "value": "~860 doctorates"
+          },
+          {
+            "rank": 7,
+            "code": "stanford",
+            "value": "~830 doctorates"
+          },
+          {
+            "rank": 8,
+            "code": "harvard",
+            "value": "~800 doctorates"
+          },
+          {
+            "rank": 9,
+            "code": "mit",
+            "value": "~700 doctorates"
+          },
+          {
+            "rank": 10,
+            "code": "columbia",
+            "value": "~680 doctorates"
+          },
+          {
+            "rank": 11,
+            "code": "purdue",
+            "value": "~670 doctorates"
+          },
+          {
+            "rank": 12,
+            "code": "minnesota",
+            "value": "~660 doctorates"
+          },
+          {
+            "rank": 13,
+            "code": "penn-state",
+            "value": "~650 doctorates"
+          },
+          {
+            "rank": 14,
+            "code": "cornell",
+            "value": "~640 doctorates"
+          },
+          {
+            "rank": 15,
+            "code": "ohio-state",
+            "value": "~620 doctorates"
+          },
+          {
+            "rank": 16,
+            "code": "washington",
+            "value": "~610 doctorates"
+          },
+          {
+            "rank": 17,
+            "code": "penn",
+            "value": "~600 doctorates"
+          },
+          {
+            "rank": 18,
+            "code": "texas-am",
+            "value": "~590 doctorates"
+          }
+        ]
+      }
+    }
+  ]
+}

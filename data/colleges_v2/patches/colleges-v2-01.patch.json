@@ -1,0 +1,111 @@
+{
+  "cluster": "colleges-v2-01",
+  "updates": [
+    {
+      "id": "colleges-history-oldest-us-medical-schools-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "penn", "value": "1765 (founded)" },
+          { "rank": 2, "code": "columbia", "value": "1767 (founded)" },
+          { "rank": 3, "code": "harvard", "value": "1782 (founded)" },
+          { "rank": 4, "code": "dartmouth", "value": "1797 (founded)" },
+          { "rank": 5, "code": "maryland", "value": "1807 (founded)" },
+          { "rank": 6, "code": "yale", "value": "1810 (founded)" },
+          { "rank": 7, "code": "brown", "value": "1811 (founded)" },
+          { "rank": 8, "code": "vermont", "value": "1822 (founded)" },
+          { "rank": 9, "code": "virginia", "value": "1825 (founded)" },
+          { "rank": 10, "code": "tulane", "value": "1834 (founded)" },
+          { "rank": 11, "code": "louisville", "value": "1837 (founded)" },
+          { "rank": 12, "code": "case-western", "value": "1843 (founded)" },
+          { "rank": 13, "code": "michigan", "value": "1850 (founded)" },
+          { "rank": 14, "code": "georgetown", "value": "1851 (founded)" },
+          { "rank": 15, "code": "emory", "value": "1854 (founded)" },
+          { "rank": 16, "code": "northwestern", "value": "1859 (founded)" },
+          { "rank": 17, "code": "vanderbilt", "value": "1874 (founded)" },
+          { "rank": 18, "code": "pitt", "value": "1886 (founded)" },
+          { "rank": 19, "code": "jhu", "value": "1893 (founded)" },
+          { "rank": 20, "code": "cornell", "value": "1898 (founded)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-law-schools-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "william-and-mary", "value": "1779 (founded)" },
+          { "rank": 2, "code": "maryland", "value": "1816 (founded)" },
+          { "rank": 3, "code": "harvard", "value": "1817 (founded)" },
+          { "rank": 4, "code": "virginia", "value": "1819 (founded)" },
+          { "rank": 5, "code": "yale", "value": "1824 (founded)" },
+          { "rank": 6, "code": "nyu", "value": "1835 (founded)" },
+          { "rank": 7, "code": "unc", "value": "1845 (founded)" },
+          { "rank": 8, "code": "louisville", "value": "1846 (founded)" },
+          { "rank": 9, "code": "tulane", "value": "1847 (founded)" },
+          { "rank": 10, "code": "penn", "value": "1850 (founded)" },
+          { "rank": 11, "code": "columbia", "value": "1858 (founded)" },
+          { "rank": 12, "code": "michigan", "value": "1859 (founded)" },
+          { "rank": 12, "code": "northwestern", "value": "1859 (founded) (tied)" },
+          { "rank": 14, "code": "iowa", "value": "1865 (founded)" },
+          { "rank": 15, "code": "washu", "value": "1867 (founded)" },
+          { "rank": 16, "code": "wisconsin", "value": "1868 (founded)" },
+          { "rank": 17, "code": "notre-dame", "value": "1869 (founded)" },
+          { "rank": 18, "code": "georgetown", "value": "1870 (founded)" },
+          { "rank": 19, "code": "bu", "value": "1872 (founded)" },
+          { "rank": 19, "code": "missouri", "value": "1872 (founded) (tied)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-business-schools-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "penn", "value": "1881 (founded)" },
+          { "rank": 2, "code": "chicago", "value": "1898 (founded)" },
+          { "rank": 2, "code": "berkeley", "value": "1898 (founded) (tied)" },
+          { "rank": 4, "code": "dartmouth", "value": "1900 (founded)" },
+          { "rank": 4, "code": "nyu", "value": "1900 (founded) (tied)" },
+          { "rank": 4, "code": "wisconsin", "value": "1900 (founded) (tied)" },
+          { "rank": 7, "code": "pitt", "value": "1907 (founded)" },
+          { "rank": 8, "code": "harvard", "value": "1908 (founded)" },
+          { "rank": 8, "code": "northwestern", "value": "1908 (founded) (tied)" },
+          { "rank": 10, "code": "mit", "value": "1914 (founded)" },
+          { "rank": 11, "code": "columbia", "value": "1916 (founded)" },
+          { "rank": 11, "code": "ohio-state", "value": "1916 (founded) (tied)" },
+          { "rank": 13, "code": "washu", "value": "1917 (founded)" },
+          { "rank": 14, "code": "unc", "value": "1919 (founded)" },
+          { "rank": 15, "code": "indiana", "value": "1920 (founded)" },
+          { "rank": 15, "code": "usc", "value": "1920 (founded) (tied)" },
+          { "rank": 17, "code": "virginia", "value": "1921 (founded)" },
+          { "rank": 18, "code": "michigan", "value": "1924 (founded)" },
+          { "rank": 19, "code": "stanford", "value": "1925 (founded)" },
+          { "rank": 20, "code": "cornell", "value": "1946 (founded)" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-d1-women-s-basketball-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "connecticut", "value": "11 titles" },
+          { "rank": 2, "code": "tennessee", "value": "8 titles" },
+          { "rank": 3, "code": "stanford", "value": "3 titles" },
+          { "rank": 3, "code": "baylor", "value": "3 titles (tied)" },
+          { "rank": 3, "code": "usc-south-carolina", "value": "3 titles (tied)" },
+          { "rank": 6, "code": "notre-dame", "value": "2 titles" },
+          { "rank": 6, "code": "usc", "value": "2 titles (tied)" },
+          { "rank": 8, "code": "lsu", "value": "1 title" },
+          { "rank": 8, "code": "maryland", "value": "1 title (tied)" },
+          { "rank": 8, "code": "purdue", "value": "1 title (tied)" },
+          { "rank": 8, "code": "texas-am", "value": "1 title (tied)" },
+          { "rank": 8, "code": "texas", "value": "1 title (tied)" },
+          { "rank": 8, "code": "unc", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 13
+      }
+    }
+  ],
+  "deletions": []
+}

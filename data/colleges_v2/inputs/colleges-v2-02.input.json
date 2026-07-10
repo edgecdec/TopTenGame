@@ -1,0 +1,708 @@
+{
+  "cluster": "colleges-v2-02",
+  "questions": [
+    {
+      "id": "colleges-deep-dive-largest-university-library-holdings-physical-volumes-2022",
+      "current": {
+        "title": "Largest university library holdings (physical volumes)",
+        "prompt": "Name the US universities whose main library systems hold the most physical volumes.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "20.4M volumes"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "15.1M volumes"
+          },
+          {
+            "rank": 3,
+            "code": "illinois",
+            "value": "14.3M volumes"
+          },
+          {
+            "rank": 4,
+            "code": "michigan",
+            "value": "13.9M volumes"
+          },
+          {
+            "rank": 5,
+            "code": "berkeley",
+            "value": "13.1M volumes"
+          },
+          {
+            "rank": 6,
+            "code": "columbia",
+            "value": "12.6M volumes"
+          },
+          {
+            "rank": 7,
+            "code": "texas",
+            "value": "11.5M volumes"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "11.2M volumes"
+          },
+          {
+            "rank": 9,
+            "code": "ucla",
+            "value": "10.7M volumes"
+          },
+          {
+            "rank": 10,
+            "code": "chicago",
+            "value": "10.5M volumes"
+          },
+          {
+            "rank": 11,
+            "code": "wisconsin",
+            "value": "9.9M volumes"
+          },
+          {
+            "rank": 12,
+            "code": "indiana",
+            "value": "9.5M volumes"
+          },
+          {
+            "rank": 13,
+            "code": "princeton",
+            "value": "9.3M volumes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-us-presidents-produced-2024",
+      "current": {
+        "title": "Most US Presidents produced",
+        "prompt": "Name the US universities that have educated (as undergraduates or graduates) the most US Presidents.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "8 presidents"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "5 presidents"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "3 presidents"
+          },
+          {
+            "rank": 3,
+            "code": "william-and-mary",
+            "value": "3 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "2 presidents"
+          },
+          {
+            "rank": 5,
+            "code": "penn",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "army",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "navy",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "stanford",
+            "value": "2 presidents (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "georgetown",
+            "value": "1 president"
+          },
+          {
+            "rank": 10,
+            "code": "michigan",
+            "value": "1 president (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "duke",
+            "value": "1 president (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "amherst",
+            "value": "1 president (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "delaware",
+            "value": "1 president (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-d1-men-s-basketball-titles-2024",
+      "current": {
+        "title": "Most NCAA D1 men's basketball titles",
+        "prompt": "Name the colleges that have won the most NCAA Division I men's basketball championships.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ucla",
+            "value": "11 titles"
+          },
+          {
+            "rank": 2,
+            "code": "kentucky",
+            "value": "8 titles"
+          },
+          {
+            "rank": 3,
+            "code": "unc",
+            "value": "6 titles"
+          },
+          {
+            "rank": 3,
+            "code": "connecticut",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "duke",
+            "value": "5 titles"
+          },
+          {
+            "rank": 5,
+            "code": "indiana",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "kansas",
+            "value": "4 titles"
+          },
+          {
+            "rank": 8,
+            "code": "villanova",
+            "value": "3 titles"
+          },
+          {
+            "rank": 8,
+            "code": "louisville",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "michigan-state",
+            "value": "2 titles"
+          },
+          {
+            "rank": 10,
+            "code": "florida",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "nc-state",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "oklahoma-state",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "michigan",
+            "value": "1 title"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-deep-dive-most-marshall-scholars-produced-all-time-2024",
+      "current": {
+        "title": "Most Marshall Scholars produced (all-time)",
+        "prompt": "Name the US colleges that have produced the most Marshall Scholars since the program's founding in 1954.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~270 scholars"
+          },
+          {
+            "rank": 2,
+            "code": "princeton",
+            "value": "~170 scholars"
+          },
+          {
+            "rank": 3,
+            "code": "yale",
+            "value": "~160 scholars"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "~115 scholars"
+          },
+          {
+            "rank": 5,
+            "code": "mit",
+            "value": "~80 scholars"
+          },
+          {
+            "rank": 6,
+            "code": "chicago",
+            "value": "~70 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "columbia",
+            "value": "~65 scholars"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "~60 scholars"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 10,
+            "code": "unc",
+            "value": "~50 scholars"
+          },
+          {
+            "rank": 11,
+            "code": "cornell",
+            "value": "~45 scholars"
+          },
+          {
+            "rank": 12,
+            "code": "penn",
+            "value": "~40 scholars"
+          },
+          {
+            "rank": 13,
+            "code": "dartmouth",
+            "value": "~38 scholars"
+          },
+          {
+            "rank": 14,
+            "code": "georgetown",
+            "value": "~35 scholars"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-nobel-laureates-school-affiliated-2024",
+      "current": {
+        "title": "Most Nobel laureates (school-affiliated)",
+        "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~161 laureates"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "~110 laureates"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "~103 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "chicago",
+            "value": "~101 laureates"
+          },
+          {
+            "rank": 4,
+            "code": "mit",
+            "value": "~101 laureates (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "stanford",
+            "value": "~85 laureates"
+          },
+          {
+            "rank": 7,
+            "code": "caltech",
+            "value": "~76 laureates"
+          },
+          {
+            "rank": 8,
+            "code": "princeton",
+            "value": "~69 laureates"
+          },
+          {
+            "rank": 9,
+            "code": "yale",
+            "value": "~65 laureates"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "~62 laureates"
+          },
+          {
+            "rank": 11,
+            "code": "penn",
+            "value": "~40 laureates"
+          },
+          {
+            "rank": 12,
+            "code": "jhu",
+            "value": "~39 laureates"
+          },
+          {
+            "rank": 13,
+            "code": "nyu",
+            "value": "~38 laureates"
+          },
+          {
+            "rank": 14,
+            "code": "michigan",
+            "value": "~26 laureates"
+          },
+          {
+            "rank": 15,
+            "code": "northwestern",
+            "value": "~24 laureates"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-rhodes-scholars-all-time-2024",
+      "current": {
+        "title": "Most Rhodes Scholars (all-time)",
+        "prompt": "Name the US universities that have produced the most Rhodes Scholars, all-time.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~370 scholars"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "~250 scholars"
+          },
+          {
+            "rank": 3,
+            "code": "princeton",
+            "value": "~215 scholars"
+          },
+          {
+            "rank": 4,
+            "code": "army",
+            "value": "~100 scholars"
+          },
+          {
+            "rank": 5,
+            "code": "stanford",
+            "value": "~95 scholars"
+          },
+          {
+            "rank": 6,
+            "code": "dartmouth",
+            "value": "~80 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "mit",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "chicago",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "navy",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "unc",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "duke",
+            "value": "~50 scholars"
+          },
+          {
+            "rank": 12,
+            "code": "air-force",
+            "value": "~45 scholars"
+          },
+          {
+            "rank": 13,
+            "code": "williams",
+            "value": "~35 scholars"
+          },
+          {
+            "rank": 13,
+            "code": "penn",
+            "value": "~35 scholars (tied)"
+          },
+          {
+            "rank": 15,
+            "code": "columbia",
+            "value": "~30 scholars"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-yield-rates-admitted-students-who-enroll-2023",
+      "current": {
+        "title": "Highest yield rates (admitted students who enroll)",
+        "prompt": "Name the US universities where the highest percentage of admitted students choose to enroll (yield rate).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "83%"
+          },
+          {
+            "rank": 2,
+            "code": "stanford",
+            "value": "80%"
+          },
+          {
+            "rank": 3,
+            "code": "mit",
+            "value": "78%"
+          },
+          {
+            "rank": 4,
+            "code": "yale",
+            "value": "72%"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "71%"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "70%"
+          },
+          {
+            "rank": 7,
+            "code": "columbia",
+            "value": "68%"
+          },
+          {
+            "rank": 7,
+            "code": "byu",
+            "value": "68% (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "brown",
+            "value": "66%"
+          },
+          {
+            "rank": 10,
+            "code": "chicago",
+            "value": "65%"
+          },
+          {
+            "rank": 11,
+            "code": "notre-dame",
+            "value": "60%"
+          },
+          {
+            "rank": 12,
+            "code": "duke",
+            "value": "58%"
+          },
+          {
+            "rank": 13,
+            "code": "dartmouth",
+            "value": "56%"
+          },
+          {
+            "rank": 14,
+            "code": "georgetown",
+            "value": "50%"
+          },
+          {
+            "rank": 15,
+            "code": "cornell",
+            "value": "48%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-median-sat-score-of-enrolled-first-years-2023",
+      "current": {
+        "title": "Highest median SAT score of enrolled first-years",
+        "prompt": "Name the US universities with the highest median SAT scores among enrolled first-year students.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 15,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "caltech",
+            "value": "1570"
+          },
+          {
+            "rank": 2,
+            "code": "mit",
+            "value": "1560"
+          },
+          {
+            "rank": 3,
+            "code": "harvey-mudd",
+            "value": "1550"
+          },
+          {
+            "rank": 4,
+            "code": "princeton",
+            "value": "1540"
+          },
+          {
+            "rank": 4,
+            "code": "harvard",
+            "value": "1540 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "yale",
+            "value": "1540 (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "chicago",
+            "value": "1540 (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "vanderbilt",
+            "value": "1530"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "1530 (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "columbia",
+            "value": "1530 (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "1530 (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "jhu",
+            "value": "1530 (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "northwestern",
+            "value": "1520"
+          },
+          {
+            "rank": 13,
+            "code": "penn",
+            "value": "1520 (tied)"
+          },
+          {
+            "rank": 13,
+            "code": "rice",
+            "value": "1520 (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

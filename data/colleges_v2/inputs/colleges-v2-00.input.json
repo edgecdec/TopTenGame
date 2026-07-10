@@ -1,0 +1,613 @@
+{
+  "cluster": "colleges-v2-00",
+  "questions": [
+    {
+      "id": "colleges-admissions-lowest-transfer-acceptance-rates-2023",
+      "current": {
+        "title": "Lowest transfer acceptance rates",
+        "prompt": "Name the US universities with the lowest acceptance rates for transfer applicants.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "1.2%"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "1.4%"
+          },
+          {
+            "rank": 3,
+            "code": "dartmouth",
+            "value": "1.9%"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "2.4%"
+          },
+          {
+            "rank": 5,
+            "code": "yale",
+            "value": "2.5%"
+          },
+          {
+            "rank": 6,
+            "code": "mit",
+            "value": "3.1%"
+          },
+          {
+            "rank": 7,
+            "code": "brown",
+            "value": "5.0%"
+          },
+          {
+            "rank": 8,
+            "code": "penn",
+            "value": "5.5%"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "6.0%"
+          },
+          {
+            "rank": 10,
+            "code": "duke",
+            "value": "6.1%"
+          },
+          {
+            "rank": 11,
+            "code": "caltech",
+            "value": "8.3%"
+          },
+          {
+            "rank": 12,
+            "code": "notre-dame",
+            "value": "17.0%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-early-decision-acceptance-rates-ivies-peers-2024",
+      "current": {
+        "title": "Highest early decision acceptance rates (Ivies + peers)",
+        "prompt": "Name the elite US universities with the highest binding early decision acceptance rates (a boost over their regular decision rate).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wfu",
+            "value": "35.7%"
+          },
+          {
+            "rank": 2,
+            "code": "emory",
+            "value": "30.9%"
+          },
+          {
+            "rank": 3,
+            "code": "jhu",
+            "value": "17.4%"
+          },
+          {
+            "rank": 4,
+            "code": "dartmouth",
+            "value": "17.0%"
+          },
+          {
+            "rank": 5,
+            "code": "rice",
+            "value": "15.8%"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "15.4%"
+          },
+          {
+            "rank": 7,
+            "code": "vanderbilt",
+            "value": "15.2%"
+          },
+          {
+            "rank": 8,
+            "code": "brown",
+            "value": "13.0%"
+          },
+          {
+            "rank": 9,
+            "code": "duke",
+            "value": "12.9%"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "12.5%"
+          },
+          {
+            "rank": 11,
+            "code": "northwestern",
+            "value": "12.0%"
+          },
+          {
+            "rank": 12,
+            "code": "columbia",
+            "value": "11.3%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-applicant-to-enrollee-ratio-most-competitive-to-actu",
+      "current": {
+        "title": "Highest applicant-to-enrollee ratio (most competitive to actually attend)",
+        "prompt": "Name the US universities with the highest ratio of applications received to first-year students enrolled.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "38:1"
+          },
+          {
+            "rank": 2,
+            "code": "columbia",
+            "value": "37:1"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "34:1"
+          },
+          {
+            "rank": 3,
+            "code": "yale",
+            "value": "34:1 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "31:1"
+          },
+          {
+            "rank": 6,
+            "code": "ucla",
+            "value": "29:1"
+          },
+          {
+            "rank": 7,
+            "code": "brown",
+            "value": "26:1"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "25:1"
+          },
+          {
+            "rank": 9,
+            "code": "dartmouth",
+            "value": "24:1"
+          },
+          {
+            "rank": 10,
+            "code": "penn",
+            "value": "22:1"
+          },
+          {
+            "rank": 10,
+            "code": "berkeley",
+            "value": "22:1 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "mit",
+            "value": "22:1 (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-current-members-of-congress-2024",
+      "current": {
+        "title": "Most current members of Congress",
+        "prompt": "Name the US universities with the most alumni currently serving in the US Congress (House + Senate).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~30 members"
+          },
+          {
+            "rank": 2,
+            "code": "georgetown",
+            "value": "~22 members"
+          },
+          {
+            "rank": 3,
+            "code": "yale",
+            "value": "~18 members"
+          },
+          {
+            "rank": 4,
+            "code": "george-washington",
+            "value": "~15 members"
+          },
+          {
+            "rank": 5,
+            "code": "virginia",
+            "value": "~14 members"
+          },
+          {
+            "rank": 6,
+            "code": "stanford",
+            "value": "~12 members"
+          },
+          {
+            "rank": 7,
+            "code": "texas",
+            "value": "~11 members"
+          },
+          {
+            "rank": 8,
+            "code": "columbia",
+            "value": "~10 members"
+          },
+          {
+            "rank": 9,
+            "code": "michigan",
+            "value": "~9 members"
+          },
+          {
+            "rank": 10,
+            "code": "florida",
+            "value": "~8 members"
+          },
+          {
+            "rank": 10,
+            "code": "unc",
+            "value": "~8 members (tied)"
+          },
+          {
+            "rank": 12,
+            "code": "notre-dame",
+            "value": "~7 members"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-rhodes-scholars-all-time-2024",
+      "current": {
+        "title": "Most Rhodes Scholars (all-time)",
+        "prompt": "Name the US universities that have produced the most American Rhodes Scholars, all-time.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~370 scholars"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "~250 scholars"
+          },
+          {
+            "rank": 3,
+            "code": "princeton",
+            "value": "~215 scholars"
+          },
+          {
+            "rank": 4,
+            "code": "army",
+            "value": "~100 scholars"
+          },
+          {
+            "rank": 5,
+            "code": "stanford",
+            "value": "~95 scholars"
+          },
+          {
+            "rank": 6,
+            "code": "dartmouth",
+            "value": "~80 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "mit",
+            "value": "~55 scholars"
+          },
+          {
+            "rank": 7,
+            "code": "chicago",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "unc",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "navy",
+            "value": "~55 scholars (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "duke",
+            "value": "~50 scholars"
+          },
+          {
+            "rank": 12,
+            "code": "air-force",
+            "value": "~45 scholars"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-alumni-most-macarthur-genius-fellows-2024",
+      "current": {
+        "title": "Most MacArthur 'Genius' Fellows",
+        "prompt": "Name the US universities that have produced the most MacArthur Fellows (alumni degrees).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Alumni",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "~120 fellows"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "~85 fellows"
+          },
+          {
+            "rank": 3,
+            "code": "berkeley",
+            "value": "~70 fellows"
+          },
+          {
+            "rank": 4,
+            "code": "mit",
+            "value": "~65 fellows"
+          },
+          {
+            "rank": 5,
+            "code": "columbia",
+            "value": "~60 fellows"
+          },
+          {
+            "rank": 6,
+            "code": "chicago",
+            "value": "~55 fellows"
+          },
+          {
+            "rank": 7,
+            "code": "princeton",
+            "value": "~50 fellows"
+          },
+          {
+            "rank": 8,
+            "code": "stanford",
+            "value": "~45 fellows"
+          },
+          {
+            "rank": 9,
+            "code": "michigan",
+            "value": "~35 fellows"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "~30 fellows"
+          },
+          {
+            "rank": 11,
+            "code": "nyu",
+            "value": "~25 fellows"
+          },
+          {
+            "rank": 12,
+            "code": "penn",
+            "value": "~22 fellows"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-nba-1-overall-draft-picks-2024",
+      "current": {
+        "title": "Most NBA #1 overall draft picks",
+        "prompt": "Name the colleges that have produced the most #1 overall picks in the NBA Draft.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "duke",
+            "value": "4 #1 picks"
+          },
+          {
+            "rank": 2,
+            "code": "kentucky",
+            "value": "3 #1 picks"
+          },
+          {
+            "rank": 3,
+            "code": "ucla",
+            "value": "2 #1 picks"
+          },
+          {
+            "rank": 3,
+            "code": "unc",
+            "value": "2 #1 picks (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "lsu",
+            "value": "2 #1 picks (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "kansas",
+            "value": "2 #1 picks (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "georgetown",
+            "value": "1 #1 pick"
+          },
+          {
+            "rank": 7,
+            "code": "oklahoma",
+            "value": "1 #1 pick (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "louisville",
+            "value": "1 #1 pick (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "michigan",
+            "value": "1 #1 pick (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "purdue",
+            "value": "1 #1 pick (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "auburn",
+            "value": "1 #1 pick (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-public-universities-2024",
+      "current": {
+        "title": "Oldest US public universities",
+        "prompt": "Name the oldest public universities in the United States, by founding year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ole-miss",
+            "value": "Chartered 1848"
+          },
+          {
+            "rank": 2,
+            "code": "missouri",
+            "value": "Chartered 1839"
+          },
+          {
+            "rank": 3,
+            "code": "delaware",
+            "value": "Chartered 1833"
+          },
+          {
+            "rank": 4,
+            "code": "indiana",
+            "value": "Chartered 1820"
+          },
+          {
+            "rank": 4,
+            "code": "alabama",
+            "value": "Chartered 1820 (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "virginia",
+            "value": "Chartered 1819"
+          },
+          {
+            "rank": 7,
+            "code": "michigan",
+            "value": "Chartered 1817"
+          },
+          {
+            "rank": 8,
+            "code": "usc-south-carolina",
+            "value": "Chartered 1801"
+          },
+          {
+            "rank": 9,
+            "code": "tennessee",
+            "value": "Chartered 1794"
+          },
+          {
+            "rank": 10,
+            "code": "vermont",
+            "value": "Chartered 1791"
+          },
+          {
+            "rank": 11,
+            "code": "unc",
+            "value": "Chartered 1789"
+          },
+          {
+            "rank": 12,
+            "code": "georgia",
+            "value": "Chartered 1785"
+          }
+        ]
+      }
+    }
+  ]
+}

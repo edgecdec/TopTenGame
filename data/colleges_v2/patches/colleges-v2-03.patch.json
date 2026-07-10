@@ -1,0 +1,82 @@
+{
+  "cluster": "colleges-v2-03",
+  "updates": [
+    {
+      "id": "colleges-history-oldest-us-engineering-schools-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "case-western", "value": "1880 (founded)" },
+          { "rank": 2, "code": "ohio-state", "value": "1878 (founded)" },
+          { "rank": 3, "code": "purdue", "value": "1874 (founded)" },
+          { "rank": 4, "code": "cornell", "value": "1868 (founded)" },
+          { "rank": 5, "code": "lehigh", "value": "1866 (founded)" },
+          { "rank": 6, "code": "columbia", "value": "1864 (founded)" },
+          { "rank": 7, "code": "mit", "value": "1861 (founded)" },
+          { "rank": 8, "code": "michigan", "value": "1854 (founded)" },
+          { "rank": 8, "code": "yale", "value": "1854 (founded) (tied)" },
+          { "rank": 8, "code": "brown", "value": "1854 (founded) (tied)" },
+          { "rank": 11, "code": "penn", "value": "1852 (founded)" },
+          { "rank": 12, "code": "harvard", "value": "1847 (founded)" },
+          { "rank": 13, "code": "virginia", "value": "1836 (founded)" },
+          { "rank": 14, "code": "rpi", "value": "1824 (founded)" },
+          { "rank": 15, "code": "army", "value": "1802 (founded)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "colleges-academics-us-news-liberal-arts-colleges-2024-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "williams", "value": "#1" },
+          { "rank": 2, "code": "amherst", "value": "#2" },
+          { "rank": 3, "code": "swarthmore", "value": "#3" },
+          { "rank": 4, "code": "pomona", "value": "#4" },
+          { "rank": 5, "code": "wellesley", "value": "#5" },
+          { "rank": 6, "code": "carleton", "value": "#7" },
+          { "rank": 7, "code": "middlebury", "value": "#8" },
+          { "rank": 8, "code": "davidson", "value": "#11" },
+          { "rank": 9, "code": "smith", "value": "#12" },
+          { "rank": 10, "code": "vassar", "value": "#13" },
+          { "rank": 11, "code": "hamilton", "value": "#14" },
+          { "rank": 12, "code": "grinnell", "value": "#15" },
+          { "rank": 13, "code": "haverford", "value": "#16" },
+          { "rank": 14, "code": "harvey-mudd", "value": "#17" },
+          { "rank": 15, "code": "wesleyan", "value": "#18" },
+          { "rank": 16, "code": "colgate", "value": "#19" },
+          { "rank": 17, "code": "barnard", "value": "#20" }
+        ],
+        "seededDepth": 17
+      }
+    },
+    {
+      "id": "colleges-athletics-most-men-s-college-world-series-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "usc", "value": "12 titles" },
+          { "rank": 2, "code": "lsu", "value": "7 titles" },
+          { "rank": 3, "code": "texas", "value": "6 titles" },
+          { "rank": 4, "code": "arizona-state", "value": "5 titles" },
+          { "rank": 5, "code": "miami", "value": "4 titles" },
+          { "rank": 5, "code": "arizona", "value": "4 titles (tied)" },
+          { "rank": 7, "code": "minnesota", "value": "3 titles" },
+          { "rank": 8, "code": "michigan", "value": "2 titles" },
+          { "rank": 8, "code": "stanford", "value": "2 titles (tied)" },
+          { "rank": 8, "code": "vanderbilt", "value": "2 titles (tied)" },
+          { "rank": 8, "code": "berkeley", "value": "2 titles (tied)" },
+          { "rank": 8, "code": "ole-miss", "value": "2 titles (tied)" },
+          { "rank": 13, "code": "florida", "value": "1 title" },
+          { "rank": 13, "code": "ohio-state", "value": "1 title (tied)" },
+          { "rank": 13, "code": "oklahoma", "value": "1 title (tied)" },
+          { "rank": 13, "code": "pepperdine", "value": "1 title (tied)" },
+          { "rank": 13, "code": "georgia-tech", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 17
+      }
+    }
+  ],
+  "deletions": [
+    "colleges-academics-most-turing-award-winners-2024",
+    "colleges-academics-most-phds-conferred-annually-2022"
+  ]
+}

@@ -248217,306 +248217,6 @@
     ]
   },
   {
-    "id": "colleges-academics-most-nobel-laureates-school-affiliated-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Academics",
-    "title": "Most Nobel laureates (school-affiliated)",
-    "prompt": "Name the US universities with the most Nobel laureate affiliations (alumni, faculty, and researchers, all-time).",
-    "answerType": "Colleges",
-    "seededDepth": 15,
-    "source": {
-      "name": "Nobel Foundation / university affiliation counts",
-      "url": "https://www.nobelprize.org/prizes/lists/all-nobel-prizes/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "Counts include alumni, long-term faculty, and researchers with a Nobel; individuals with multiple affiliations may be counted at each school.",
-    "trivia": "Harvard and Cambridge routinely swap the global #1 spot; Chicago punches far above its weight thanks to a legendary economics department.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "harvard",
-        "value": "~161 laureates"
-      },
-      {
-        "rank": 2,
-        "code": "berkeley",
-        "value": "~110 laureates"
-      },
-      {
-        "rank": 3,
-        "code": "columbia",
-        "value": "~103 laureates"
-      },
-      {
-        "rank": 4,
-        "code": "chicago",
-        "value": "~101 laureates"
-      },
-      {
-        "rank": 4,
-        "code": "mit",
-        "value": "~101 laureates (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "stanford",
-        "value": "~85 laureates"
-      },
-      {
-        "rank": 7,
-        "code": "caltech",
-        "value": "~76 laureates"
-      },
-      {
-        "rank": 8,
-        "code": "princeton",
-        "value": "~69 laureates"
-      },
-      {
-        "rank": 9,
-        "code": "yale",
-        "value": "~65 laureates"
-      },
-      {
-        "rank": 10,
-        "code": "cornell",
-        "value": "~62 laureates"
-      },
-      {
-        "rank": 11,
-        "code": "penn",
-        "value": "~40 laureates"
-      },
-      {
-        "rank": 12,
-        "code": "jhu",
-        "value": "~39 laureates"
-      },
-      {
-        "rank": 13,
-        "code": "nyu",
-        "value": "~38 laureates"
-      },
-      {
-        "rank": 14,
-        "code": "michigan",
-        "value": "~26 laureates"
-      },
-      {
-        "rank": 15,
-        "code": "northwestern",
-        "value": "~24 laureates"
-      }
-    ]
-  },
-  {
-    "id": "colleges-academics-most-rhodes-scholars-all-time-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Academics",
-    "title": "Most Rhodes Scholars (all-time)",
-    "prompt": "Name the US universities that have produced the most Rhodes Scholars, all-time.",
-    "answerType": "Colleges",
-    "seededDepth": 15,
-    "source": {
-      "name": "The Rhodes Trust \u2014 American Rhodes Scholars by institution",
-      "url": "https://www.rhodesscholar.org/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "American Rhodes Scholarships have been awarded annually since 1904; counts are cumulative.",
-    "trivia": "Service academies (West Point, Naval Academy, Air Force) punch well above their size in Rhodes Scholar counts.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "harvard",
-        "value": "~370 scholars"
-      },
-      {
-        "rank": 2,
-        "code": "yale",
-        "value": "~250 scholars"
-      },
-      {
-        "rank": 3,
-        "code": "princeton",
-        "value": "~215 scholars"
-      },
-      {
-        "rank": 4,
-        "code": "army",
-        "value": "~100 scholars"
-      },
-      {
-        "rank": 5,
-        "code": "stanford",
-        "value": "~95 scholars"
-      },
-      {
-        "rank": 6,
-        "code": "dartmouth",
-        "value": "~80 scholars"
-      },
-      {
-        "rank": 7,
-        "code": "mit",
-        "value": "~55 scholars"
-      },
-      {
-        "rank": 7,
-        "code": "chicago",
-        "value": "~55 scholars (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "navy",
-        "value": "~55 scholars (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "unc",
-        "value": "~55 scholars (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "duke",
-        "value": "~50 scholars"
-      },
-      {
-        "rank": 12,
-        "code": "air-force",
-        "value": "~45 scholars"
-      },
-      {
-        "rank": 13,
-        "code": "williams",
-        "value": "~35 scholars"
-      },
-      {
-        "rank": 13,
-        "code": "penn",
-        "value": "~35 scholars (tied)"
-      },
-      {
-        "rank": 15,
-        "code": "columbia",
-        "value": "~30 scholars"
-      }
-    ]
-  },
-  {
-    "id": "colleges-academics-most-turing-award-winners-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Academics",
-    "title": "Most Turing Award winners",
-    "prompt": "Name the US universities that have produced the most Turing Award laureates (alumni or faculty affiliations).",
-    "answerType": "Colleges",
-    "seededDepth": 18,
-    "source": {
-      "name": "ACM Turing Award \u2014 laureate affiliations",
-      "url": "https://amturing.acm.org/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "Counts include laureates affiliated with each school as alumni or long-term faculty; laureates can be counted at multiple institutions.",
-    "trivia": "The Turing Award, founded in 1966, is often called the 'Nobel Prize of Computing' and comes with a $1M cash prize.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "mit",
-        "value": "~10 laureates (affiliated)"
-      },
-      {
-        "rank": 2,
-        "code": "stanford",
-        "value": "~9 laureates"
-      },
-      {
-        "rank": 3,
-        "code": "berkeley",
-        "value": "~8 laureates"
-      },
-      {
-        "rank": 4,
-        "code": "cmu",
-        "value": "~7 laureates"
-      },
-      {
-        "rank": 5,
-        "code": "harvard",
-        "value": "~5 laureates"
-      },
-      {
-        "rank": 5,
-        "code": "princeton",
-        "value": "~5 laureates (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "chicago",
-        "value": "~3 laureates"
-      },
-      {
-        "rank": 7,
-        "code": "cornell",
-        "value": "~3 laureates (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "caltech",
-        "value": "~2 laureates"
-      },
-      {
-        "rank": 9,
-        "code": "yale",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "ucla",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 9,
-        "code": "columbia",
-        "value": "~2 laureates (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "washu",
-        "value": "~1 laureate"
-      },
-      {
-        "rank": 13,
-        "code": "penn",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "jhu",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "michigan",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "usc",
-        "value": "~1 laureate (tied)"
-      },
-      {
-        "rank": 13,
-        "code": "rice",
-        "value": "~1 laureate (tied)"
-      }
-    ]
-  },
-  {
     "id": "colleges-academics-highest-r-d-spending-nsf-herd-2022",
     "theme": "Colleges",
     "subtheme": "Colleges - Academics",
@@ -248648,116 +248348,6 @@
         "rank": 23,
         "code": "florida",
         "value": "~$1.04 billion"
-      }
-    ]
-  },
-  {
-    "id": "colleges-academics-most-phds-conferred-annually-2022",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Academics",
-    "title": "Most PhDs conferred annually",
-    "prompt": "Name the US universities that award the most research doctorates (PhDs) per year.",
-    "answerType": "Colleges",
-    "seededDepth": 18,
-    "source": {
-      "name": "NSF Survey of Earned Doctorates",
-      "url": "https://ncses.nsf.gov/pubs/nsf24300",
-      "asOf": "2022"
-    },
-    "note": null,
-    "disclaimer": "Research doctorates awarded in a single academic year (2021-2022 SED data). Excludes professional doctorates (MD, JD).",
-    "trivia": "The University of Michigan-Ann Arbor consistently produces the most research doctorates of any US institution.",
-    "asOfDate": "2022",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "berkeley",
-        "value": "~1,050 doctorates"
-      },
-      {
-        "rank": 2,
-        "code": "michigan",
-        "value": "~940 doctorates"
-      },
-      {
-        "rank": 3,
-        "code": "wisconsin",
-        "value": "~900 doctorates"
-      },
-      {
-        "rank": 4,
-        "code": "illinois",
-        "value": "~880 doctorates"
-      },
-      {
-        "rank": 5,
-        "code": "texas",
-        "value": "~870 doctorates"
-      },
-      {
-        "rank": 6,
-        "code": "ucla",
-        "value": "~860 doctorates"
-      },
-      {
-        "rank": 7,
-        "code": "stanford",
-        "value": "~830 doctorates"
-      },
-      {
-        "rank": 8,
-        "code": "harvard",
-        "value": "~800 doctorates"
-      },
-      {
-        "rank": 9,
-        "code": "mit",
-        "value": "~700 doctorates"
-      },
-      {
-        "rank": 10,
-        "code": "columbia",
-        "value": "~680 doctorates"
-      },
-      {
-        "rank": 11,
-        "code": "purdue",
-        "value": "~670 doctorates"
-      },
-      {
-        "rank": 12,
-        "code": "minnesota",
-        "value": "~660 doctorates"
-      },
-      {
-        "rank": 13,
-        "code": "penn-state",
-        "value": "~650 doctorates"
-      },
-      {
-        "rank": 14,
-        "code": "cornell",
-        "value": "~640 doctorates"
-      },
-      {
-        "rank": 15,
-        "code": "ohio-state",
-        "value": "~620 doctorates"
-      },
-      {
-        "rank": 16,
-        "code": "washington",
-        "value": "~610 doctorates"
-      },
-      {
-        "rank": 17,
-        "code": "penn",
-        "value": "~600 doctorates"
-      },
-      {
-        "rank": 18,
-        "code": "texas-am",
-        "value": "~590 doctorates"
       }
     ]
   },
@@ -249128,7 +248718,7 @@
     "title": "Highest yield rates (admitted students who enroll)",
     "prompt": "Name the US universities where the highest percentage of admitted students choose to enroll (yield rate).",
     "answerType": "Colleges",
-    "seededDepth": 15,
+    "seededDepth": 20,
     "source": {
       "name": "Common Data Set filings (Section C1/C2), Class of 2027 entering cohort",
       "url": "https://www.usnews.com/best-colleges/rankings/highest-yield",
@@ -249213,6 +248803,31 @@
         "rank": 15,
         "code": "cornell",
         "value": "48%"
+      },
+      {
+        "rank": 16,
+        "code": "usc",
+        "value": "45%"
+      },
+      {
+        "rank": 17,
+        "code": "northwestern",
+        "value": "44%"
+      },
+      {
+        "rank": 18,
+        "code": "vanderbilt",
+        "value": "42%"
+      },
+      {
+        "rank": 19,
+        "code": "rice",
+        "value": "40%"
+      },
+      {
+        "rank": 20,
+        "code": "jhu",
+        "value": "38%"
       }
     ]
   },
@@ -249223,7 +248838,7 @@
     "title": "Highest median SAT score of enrolled first-years",
     "prompt": "Name the US universities with the highest median SAT scores among enrolled first-year students.",
     "answerType": "Colleges",
-    "seededDepth": 15,
+    "seededDepth": 21,
     "source": {
       "name": "Common Data Set filings (Section C9), 2023-24 entering class",
       "url": "https://www.commondataset.org/",
@@ -249308,6 +248923,36 @@
         "rank": 13,
         "code": "rice",
         "value": "1520 (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "washu",
+        "value": "1520 (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "brown",
+        "value": "1510"
+      },
+      {
+        "rank": 17,
+        "code": "dartmouth",
+        "value": "1510 (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "cmu",
+        "value": "1510 (tied)"
+      },
+      {
+        "rank": 20,
+        "code": "notre-dame",
+        "value": "1500"
+      },
+      {
+        "rank": 20,
+        "code": "cornell",
+        "value": "1500 (tied)"
       }
     ]
   },
@@ -249942,253 +249587,13 @@
     ]
   },
   {
-    "id": "colleges-alumni-most-current-members-of-congress-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Alumni",
-    "title": "Most current members of Congress",
-    "prompt": "Name the US universities with the most alumni currently serving in the US Congress (House + Senate).",
-    "answerType": "Colleges",
-    "seededDepth": 12,
-    "source": {
-      "name": "Congressional Research Service / Chronicle of Higher Education \u2014 Congressional education backgrounds",
-      "url": "https://crsreports.congress.gov/",
-      "asOf": "2024 (118th Congress)"
-    },
-    "note": null,
-    "disclaimer": "Counts members of the 118th Congress with undergraduate or graduate degrees from the institution. Members with degrees from multiple listed schools are counted at each.",
-    "trivia": "Every one of the last five US presidents had at least one degree from an institution on this list.",
-    "asOfDate": "2024 (118th Congress)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "harvard",
-        "value": "~30 members"
-      },
-      {
-        "rank": 2,
-        "code": "georgetown",
-        "value": "~22 members"
-      },
-      {
-        "rank": 3,
-        "code": "yale",
-        "value": "~18 members"
-      },
-      {
-        "rank": 4,
-        "code": "george-washington",
-        "value": "~15 members"
-      },
-      {
-        "rank": 5,
-        "code": "virginia",
-        "value": "~14 members"
-      },
-      {
-        "rank": 6,
-        "code": "stanford",
-        "value": "~12 members"
-      },
-      {
-        "rank": 7,
-        "code": "texas",
-        "value": "~11 members"
-      },
-      {
-        "rank": 8,
-        "code": "columbia",
-        "value": "~10 members"
-      },
-      {
-        "rank": 9,
-        "code": "michigan",
-        "value": "~9 members"
-      },
-      {
-        "rank": 10,
-        "code": "florida",
-        "value": "~8 members"
-      },
-      {
-        "rank": 10,
-        "code": "unc",
-        "value": "~8 members (tied)"
-      },
-      {
-        "rank": 12,
-        "code": "notre-dame",
-        "value": "~7 members"
-      }
-    ]
-  },
-  {
-    "id": "colleges-alumni-most-rhodes-scholars-all-time-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Alumni",
-    "title": "Most Rhodes Scholars (all-time)",
-    "prompt": "Name the US universities that have produced the most American Rhodes Scholars, all-time.",
-    "answerType": "Colleges",
-    "seededDepth": 12,
-    "source": {
-      "name": "The Rhodes Trust \u2014 American Rhodes Scholars by institution",
-      "url": "https://www.rhodesscholar.org/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "American Rhodes Scholarships have been awarded annually since 1904; counts are cumulative through the most recent class.",
-    "trivia": "The United States Military Academy at West Point has produced more Rhodes Scholars than any liberal arts college.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "harvard",
-        "value": "~370 scholars"
-      },
-      {
-        "rank": 2,
-        "code": "yale",
-        "value": "~250 scholars"
-      },
-      {
-        "rank": 3,
-        "code": "princeton",
-        "value": "~215 scholars"
-      },
-      {
-        "rank": 4,
-        "code": "army",
-        "value": "~100 scholars"
-      },
-      {
-        "rank": 5,
-        "code": "stanford",
-        "value": "~95 scholars"
-      },
-      {
-        "rank": 6,
-        "code": "dartmouth",
-        "value": "~80 scholars"
-      },
-      {
-        "rank": 7,
-        "code": "mit",
-        "value": "~55 scholars"
-      },
-      {
-        "rank": 7,
-        "code": "chicago",
-        "value": "~55 scholars (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "unc",
-        "value": "~55 scholars (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "navy",
-        "value": "~55 scholars (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "duke",
-        "value": "~50 scholars"
-      },
-      {
-        "rank": 12,
-        "code": "air-force",
-        "value": "~45 scholars"
-      }
-    ]
-  },
-  {
-    "id": "colleges-alumni-most-macarthur-genius-fellows-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Alumni",
-    "title": "Most MacArthur 'Genius' Fellows",
-    "prompt": "Name the US universities that have produced the most MacArthur Fellows (alumni degrees).",
-    "answerType": "Colleges",
-    "seededDepth": 12,
-    "source": {
-      "name": "MacArthur Foundation \u2014 Fellows directory (alumni tallies compiled by universities)",
-      "url": "https://www.macfound.org/fellows/",
-      "asOf": "2024"
-    },
-    "note": null,
-    "disclaimer": "Counts fellows with an undergraduate or graduate degree from the institution. Fellows may be counted at multiple schools.",
-    "trivia": "The MacArthur Fellowship \u2014 often called the 'Genius Grant' \u2014 comes with an unrestricted $800,000 award paid over five years.",
-    "asOfDate": "2024",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "harvard",
-        "value": "~120 fellows"
-      },
-      {
-        "rank": 2,
-        "code": "yale",
-        "value": "~85 fellows"
-      },
-      {
-        "rank": 3,
-        "code": "berkeley",
-        "value": "~70 fellows"
-      },
-      {
-        "rank": 4,
-        "code": "mit",
-        "value": "~65 fellows"
-      },
-      {
-        "rank": 5,
-        "code": "columbia",
-        "value": "~60 fellows"
-      },
-      {
-        "rank": 6,
-        "code": "chicago",
-        "value": "~55 fellows"
-      },
-      {
-        "rank": 7,
-        "code": "princeton",
-        "value": "~50 fellows"
-      },
-      {
-        "rank": 8,
-        "code": "stanford",
-        "value": "~45 fellows"
-      },
-      {
-        "rank": 9,
-        "code": "michigan",
-        "value": "~35 fellows"
-      },
-      {
-        "rank": 10,
-        "code": "cornell",
-        "value": "~30 fellows"
-      },
-      {
-        "rank": 11,
-        "code": "nyu",
-        "value": "~25 fellows"
-      },
-      {
-        "rank": 12,
-        "code": "penn",
-        "value": "~22 fellows"
-      }
-    ]
-  },
-  {
     "id": "colleges-athletics-most-ncaa-d1-men-s-basketball-titles-2024",
     "theme": "Colleges",
     "subtheme": "Colleges - Athletics",
     "title": "Most NCAA D1 men's basketball titles",
     "prompt": "Name the colleges that have won the most NCAA Division I men's basketball championships.",
     "answerType": "Colleges",
-    "seededDepth": 14,
+    "seededDepth": 23,
     "source": {
       "name": "NCAA \u2014 Men's Basketball Tournament records",
       "url": "https://www.ncaa.com/history/basketball-men/d1",
@@ -250268,6 +249673,51 @@
         "rank": 14,
         "code": "michigan",
         "value": "1 title"
+      },
+      {
+        "rank": 14,
+        "code": "arizona",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "arkansas",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "berkeley",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "maryland",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "ohio-state",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "stanford",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "syracuse",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "virginia",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "wisconsin",
+        "value": "1 title (tied)"
       }
     ]
   },
@@ -251107,7 +250557,7 @@
       {
         "rank": 8,
         "code": "ole-miss",
-        "value": "2 titles (retro; tied) (tied)"
+        "value": "2 titles (tied)"
       },
       {
         "rank": 13,
@@ -251507,86 +250957,6 @@
     ]
   },
   {
-    "id": "colleges-athletics-most-nba-1-overall-draft-picks-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Athletics",
-    "title": "Most NBA #1 overall draft picks",
-    "prompt": "Name the colleges that have produced the most #1 overall picks in the NBA Draft.",
-    "answerType": "Colleges",
-    "seededDepth": 12,
-    "source": {
-      "name": "Basketball Reference \u2014 NBA Draft #1 Picks",
-      "url": "https://www.basketball-reference.com/draft/",
-      "asOf": "2024 NBA Draft"
-    },
-    "note": null,
-    "disclaimer": "Counts only players who played college basketball at that school before being drafted first overall; international and high-school-direct #1 picks are excluded.",
-    "trivia": "Duke's four #1 picks all came under Coach K: Elton Brand (1999), Kyrie Irving (2011), Zion Williamson (2019), and Paolo Banchero (2022).",
-    "asOfDate": "2024 NBA Draft",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "duke",
-        "value": "4 #1 picks"
-      },
-      {
-        "rank": 2,
-        "code": "kentucky",
-        "value": "3 #1 picks"
-      },
-      {
-        "rank": 3,
-        "code": "ucla",
-        "value": "2 #1 picks"
-      },
-      {
-        "rank": 3,
-        "code": "unc",
-        "value": "2 #1 picks (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "lsu",
-        "value": "2 #1 picks (tied)"
-      },
-      {
-        "rank": 3,
-        "code": "kansas",
-        "value": "2 #1 picks (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "georgetown",
-        "value": "1 #1 pick"
-      },
-      {
-        "rank": 7,
-        "code": "oklahoma",
-        "value": "1 #1 pick (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "louisville",
-        "value": "1 #1 pick (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "michigan",
-        "value": "1 #1 pick (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "purdue",
-        "value": "1 #1 pick (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "auburn",
-        "value": "1 #1 pick (tied)"
-      }
-    ]
-  },
-  {
     "id": "colleges-history-oldest-us-colleges-by-founding-year-2024",
     "theme": "Colleges",
     "subtheme": "Colleges - History",
@@ -251751,63 +251121,63 @@
     "answers": [
       {
         "rank": 1,
-        "code": "ole-miss",
-        "value": "Chartered 1848"
+        "code": "georgia",
+        "value": "Chartered 1785"
       },
       {
         "rank": 2,
-        "code": "missouri",
-        "value": "Chartered 1839"
-      },
-      {
-        "rank": 3,
-        "code": "delaware",
-        "value": "Chartered 1833"
-      },
-      {
-        "rank": 4,
-        "code": "indiana",
-        "value": "Chartered 1820"
-      },
-      {
-        "rank": 4,
-        "code": "alabama",
-        "value": "Chartered 1820 (tied)"
-      },
-      {
-        "rank": 6,
-        "code": "virginia",
-        "value": "Chartered 1819"
-      },
-      {
-        "rank": 7,
-        "code": "michigan",
-        "value": "Chartered 1817"
-      },
-      {
-        "rank": 8,
-        "code": "usc-south-carolina",
-        "value": "Chartered 1801"
-      },
-      {
-        "rank": 9,
-        "code": "tennessee",
-        "value": "Chartered 1794"
-      },
-      {
-        "rank": 10,
-        "code": "vermont",
-        "value": "Chartered 1791"
-      },
-      {
-        "rank": 11,
         "code": "unc",
         "value": "Chartered 1789"
       },
       {
+        "rank": 3,
+        "code": "vermont",
+        "value": "Chartered 1791"
+      },
+      {
+        "rank": 4,
+        "code": "tennessee",
+        "value": "Chartered 1794"
+      },
+      {
+        "rank": 5,
+        "code": "usc-south-carolina",
+        "value": "Chartered 1801"
+      },
+      {
+        "rank": 6,
+        "code": "michigan",
+        "value": "Chartered 1817"
+      },
+      {
+        "rank": 7,
+        "code": "virginia",
+        "value": "Chartered 1819"
+      },
+      {
+        "rank": 8,
+        "code": "indiana",
+        "value": "Chartered 1820"
+      },
+      {
+        "rank": 8,
+        "code": "alabama",
+        "value": "Chartered 1820 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "delaware",
+        "value": "Chartered 1833"
+      },
+      {
+        "rank": 11,
+        "code": "missouri",
+        "value": "Chartered 1839"
+      },
+      {
         "rank": 12,
-        "code": "georgia",
-        "value": "Chartered 1785"
+        "code": "ole-miss",
+        "value": "Chartered 1848"
       }
     ]
   },
@@ -251818,7 +251188,7 @@
     "title": "Oldest US medical schools",
     "prompt": "Name the oldest medical schools at US universities, by founding year.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "AAMC / institutional histories",
       "url": "https://www.aamc.org/",
@@ -251831,63 +251201,103 @@
     "answers": [
       {
         "rank": 1,
-        "code": "jhu",
-        "value": "Med school founded 1893"
+        "code": "penn",
+        "value": "1765 (founded)"
       },
       {
         "rank": 2,
-        "code": "michigan",
-        "value": "Med school founded 1850"
+        "code": "columbia",
+        "value": "1767 (founded)"
       },
       {
         "rank": 3,
-        "code": "louisville",
-        "value": "Med school founded 1837"
+        "code": "harvard",
+        "value": "1782 (founded)"
       },
       {
         "rank": 4,
-        "code": "virginia",
-        "value": "Med school founded 1825"
+        "code": "dartmouth",
+        "value": "1797 (founded)"
       },
       {
         "rank": 5,
-        "code": "vermont",
-        "value": "Med school founded 1822"
+        "code": "maryland",
+        "value": "1807 (founded)"
       },
       {
         "rank": 6,
-        "code": "brown",
-        "value": "Med school founded 1811"
+        "code": "yale",
+        "value": "1810 (founded)"
       },
       {
         "rank": 7,
-        "code": "yale",
-        "value": "Med school founded 1810"
+        "code": "brown",
+        "value": "1811 (founded)"
       },
       {
         "rank": 8,
-        "code": "maryland",
-        "value": "Med school founded 1807"
+        "code": "vermont",
+        "value": "1822 (founded)"
       },
       {
         "rank": 9,
-        "code": "dartmouth",
-        "value": "Med school founded 1797"
+        "code": "virginia",
+        "value": "1825 (founded)"
       },
       {
         "rank": 10,
-        "code": "harvard",
-        "value": "Med school founded 1782"
+        "code": "tulane",
+        "value": "1834 (founded)"
       },
       {
         "rank": 11,
-        "code": "columbia",
-        "value": "Med school founded 1767"
+        "code": "louisville",
+        "value": "1837 (founded)"
       },
       {
         "rank": 12,
-        "code": "penn",
-        "value": "Med school founded 1765"
+        "code": "case-western",
+        "value": "1843 (founded)"
+      },
+      {
+        "rank": 13,
+        "code": "michigan",
+        "value": "1850 (founded)"
+      },
+      {
+        "rank": 14,
+        "code": "georgetown",
+        "value": "1851 (founded)"
+      },
+      {
+        "rank": 15,
+        "code": "emory",
+        "value": "1854 (founded)"
+      },
+      {
+        "rank": 16,
+        "code": "northwestern",
+        "value": "1859 (founded)"
+      },
+      {
+        "rank": 17,
+        "code": "vanderbilt",
+        "value": "1874 (founded)"
+      },
+      {
+        "rank": 18,
+        "code": "pitt",
+        "value": "1886 (founded)"
+      },
+      {
+        "rank": 19,
+        "code": "jhu",
+        "value": "1893 (founded)"
+      },
+      {
+        "rank": 20,
+        "code": "cornell",
+        "value": "1898 (founded)"
       }
     ]
   },
@@ -251898,7 +251308,7 @@
     "title": "Oldest US law schools",
     "prompt": "Name the oldest law schools at US universities, by founding year.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "American Bar Association / institutional histories",
       "url": "https://www.americanbar.org/groups/legal_education/",
@@ -251911,63 +251321,103 @@
     "answers": [
       {
         "rank": 1,
-        "code": "michigan",
-        "value": "Law school founded 1859"
+        "code": "william-and-mary",
+        "value": "1779 (founded)"
       },
       {
         "rank": 2,
-        "code": "columbia",
-        "value": "Law school founded 1858"
+        "code": "maryland",
+        "value": "1816 (founded)"
       },
       {
         "rank": 3,
-        "code": "penn",
-        "value": "Law school founded 1850"
+        "code": "harvard",
+        "value": "1817 (founded)"
       },
       {
         "rank": 4,
-        "code": "tulane",
-        "value": "Law school founded 1847"
+        "code": "virginia",
+        "value": "1819 (founded)"
       },
       {
         "rank": 5,
-        "code": "louisville",
-        "value": "Law school founded 1846"
+        "code": "yale",
+        "value": "1824 (founded)"
       },
       {
         "rank": 6,
-        "code": "unc",
-        "value": "Law school founded 1845"
+        "code": "nyu",
+        "value": "1835 (founded)"
       },
       {
         "rank": 7,
-        "code": "nyu",
-        "value": "Law school founded 1835"
+        "code": "unc",
+        "value": "1845 (founded)"
       },
       {
         "rank": 8,
-        "code": "yale",
-        "value": "Law school founded 1824"
+        "code": "louisville",
+        "value": "1846 (founded)"
       },
       {
         "rank": 9,
-        "code": "virginia",
-        "value": "Law school founded 1819"
+        "code": "tulane",
+        "value": "1847 (founded)"
       },
       {
         "rank": 10,
-        "code": "harvard",
-        "value": "Law school founded 1817"
+        "code": "penn",
+        "value": "1850 (founded)"
       },
       {
         "rank": 11,
-        "code": "maryland",
-        "value": "Law school founded 1816"
+        "code": "columbia",
+        "value": "1858 (founded)"
       },
       {
         "rank": 12,
-        "code": "william-and-mary",
-        "value": "Law school founded 1779"
+        "code": "michigan",
+        "value": "1859 (founded)"
+      },
+      {
+        "rank": 12,
+        "code": "northwestern",
+        "value": "1859 (founded) (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "iowa",
+        "value": "1865 (founded)"
+      },
+      {
+        "rank": 15,
+        "code": "washu",
+        "value": "1867 (founded)"
+      },
+      {
+        "rank": 16,
+        "code": "wisconsin",
+        "value": "1868 (founded)"
+      },
+      {
+        "rank": 17,
+        "code": "notre-dame",
+        "value": "1869 (founded)"
+      },
+      {
+        "rank": 18,
+        "code": "georgetown",
+        "value": "1870 (founded)"
+      },
+      {
+        "rank": 19,
+        "code": "bu",
+        "value": "1872 (founded)"
+      },
+      {
+        "rank": 19,
+        "code": "missouri",
+        "value": "1872 (founded) (tied)"
       }
     ]
   },
@@ -251991,78 +251441,78 @@
     "answers": [
       {
         "rank": 1,
-        "code": "case-western",
-        "value": "1880 (founded)"
+        "code": "army",
+        "value": "1802 (founded)"
       },
       {
         "rank": 2,
-        "code": "ohio-state",
-        "value": "1878 (founded)"
-      },
-      {
-        "rank": 3,
-        "code": "purdue",
-        "value": "1874 (founded)"
-      },
-      {
-        "rank": 4,
-        "code": "cornell",
-        "value": "1868 (founded)"
-      },
-      {
-        "rank": 5,
-        "code": "lehigh",
-        "value": "1866 (founded)"
-      },
-      {
-        "rank": 6,
-        "code": "columbia",
-        "value": "1864 (founded)"
-      },
-      {
-        "rank": 7,
-        "code": "mit",
-        "value": "1861 (founded)"
-      },
-      {
-        "rank": 8,
-        "code": "michigan",
-        "value": "1854 (founded)"
-      },
-      {
-        "rank": 8,
-        "code": "yale",
-        "value": "1854 (founded, tied) (tied)"
-      },
-      {
-        "rank": 8,
-        "code": "brown",
-        "value": "1854 (founded, tied) (tied)"
-      },
-      {
-        "rank": 11,
-        "code": "penn",
-        "value": "1852 (founded)"
-      },
-      {
-        "rank": 12,
-        "code": "harvard",
-        "value": "1847 (founded)"
-      },
-      {
-        "rank": 13,
-        "code": "virginia",
-        "value": "1836 (founded)"
-      },
-      {
-        "rank": 14,
         "code": "rpi",
         "value": "1824 (founded)"
       },
       {
+        "rank": 3,
+        "code": "virginia",
+        "value": "1836 (founded)"
+      },
+      {
+        "rank": 4,
+        "code": "harvard",
+        "value": "1847 (founded)"
+      },
+      {
+        "rank": 5,
+        "code": "penn",
+        "value": "1852 (founded)"
+      },
+      {
+        "rank": 6,
+        "code": "michigan",
+        "value": "1854 (founded)"
+      },
+      {
+        "rank": 6,
+        "code": "yale",
+        "value": "1854 (founded) (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "brown",
+        "value": "1854 (founded) (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "mit",
+        "value": "1861 (founded)"
+      },
+      {
+        "rank": 10,
+        "code": "columbia",
+        "value": "1864 (founded)"
+      },
+      {
+        "rank": 11,
+        "code": "lehigh",
+        "value": "1866 (founded)"
+      },
+      {
+        "rank": 12,
+        "code": "cornell",
+        "value": "1868 (founded)"
+      },
+      {
+        "rank": 13,
+        "code": "purdue",
+        "value": "1874 (founded)"
+      },
+      {
+        "rank": 14,
+        "code": "ohio-state",
+        "value": "1878 (founded)"
+      },
+      {
         "rank": 15,
-        "code": "army",
-        "value": "1802 (founded)"
+        "code": "case-western",
+        "value": "1880 (founded)"
       }
     ]
   },
@@ -252073,7 +251523,7 @@
     "title": "Oldest US business schools",
     "prompt": "Name the oldest collegiate business schools in the United States, by founding year.",
     "answerType": "Colleges",
-    "seededDepth": 12,
+    "seededDepth": 20,
     "source": {
       "name": "AACSB / institutional histories",
       "url": "https://www.aacsb.edu/",
@@ -252086,63 +251536,103 @@
     "answers": [
       {
         "rank": 1,
-        "code": "michigan",
-        "value": "1924 (founded)"
+        "code": "penn",
+        "value": "1881 (founded)"
       },
       {
         "rank": 2,
-        "code": "virginia",
-        "value": "1921 (founded)"
-      },
-      {
-        "rank": 3,
-        "code": "washu",
-        "value": "1917 (founded)"
-      },
-      {
-        "rank": 4,
-        "code": "columbia",
-        "value": "1916 (founded)"
-      },
-      {
-        "rank": 5,
-        "code": "harvard",
-        "value": "1908 (founded)"
-      },
-      {
-        "rank": 5,
-        "code": "northwestern",
-        "value": "1908 (founded, tied) (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "dartmouth",
-        "value": "1900 (founded)"
-      },
-      {
-        "rank": 7,
-        "code": "nyu",
-        "value": "1900 (founded, tied) (tied)"
-      },
-      {
-        "rank": 7,
-        "code": "wisconsin",
-        "value": "1900 (founded, tied) (tied)"
-      },
-      {
-        "rank": 10,
         "code": "chicago",
         "value": "1898 (founded)"
       },
       {
-        "rank": 10,
+        "rank": 2,
         "code": "berkeley",
-        "value": "1898 (founded, tied) (tied)"
+        "value": "1898 (founded) (tied)"
       },
       {
-        "rank": 12,
-        "code": "penn",
-        "value": "1881 (founded)"
+        "rank": 4,
+        "code": "dartmouth",
+        "value": "1900 (founded)"
+      },
+      {
+        "rank": 4,
+        "code": "nyu",
+        "value": "1900 (founded) (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "wisconsin",
+        "value": "1900 (founded) (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "pitt",
+        "value": "1907 (founded)"
+      },
+      {
+        "rank": 8,
+        "code": "harvard",
+        "value": "1908 (founded)"
+      },
+      {
+        "rank": 8,
+        "code": "northwestern",
+        "value": "1908 (founded) (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "mit",
+        "value": "1914 (founded)"
+      },
+      {
+        "rank": 11,
+        "code": "columbia",
+        "value": "1916 (founded)"
+      },
+      {
+        "rank": 11,
+        "code": "ohio-state",
+        "value": "1916 (founded) (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "washu",
+        "value": "1917 (founded)"
+      },
+      {
+        "rank": 14,
+        "code": "unc",
+        "value": "1919 (founded)"
+      },
+      {
+        "rank": 15,
+        "code": "indiana",
+        "value": "1920 (founded)"
+      },
+      {
+        "rank": 15,
+        "code": "usc",
+        "value": "1920 (founded) (tied)"
+      },
+      {
+        "rank": 17,
+        "code": "virginia",
+        "value": "1921 (founded)"
+      },
+      {
+        "rank": 18,
+        "code": "michigan",
+        "value": "1924 (founded)"
+      },
+      {
+        "rank": 19,
+        "code": "stanford",
+        "value": "1925 (founded)"
+      },
+      {
+        "rank": 20,
+        "code": "cornell",
+        "value": "1946 (founded)"
       }
     ]
   },
@@ -252231,43 +251721,43 @@
     "answers": [
       {
         "rank": 1,
-        "code": "cornell",
-        "value": "Founded 1865"
+        "code": "harvard",
+        "value": "Founded 1636"
       },
       {
         "rank": 2,
-        "code": "dartmouth",
-        "value": "Founded 1769"
-      },
-      {
-        "rank": 3,
-        "code": "brown",
-        "value": "Founded 1764"
-      },
-      {
-        "rank": 4,
-        "code": "columbia",
-        "value": "Founded 1754"
-      },
-      {
-        "rank": 5,
-        "code": "princeton",
-        "value": "Founded 1746"
-      },
-      {
-        "rank": 6,
-        "code": "penn",
-        "value": "Founded 1740"
-      },
-      {
-        "rank": 7,
         "code": "yale",
         "value": "Founded 1701"
       },
       {
+        "rank": 3,
+        "code": "penn",
+        "value": "Founded 1740"
+      },
+      {
+        "rank": 4,
+        "code": "princeton",
+        "value": "Founded 1746"
+      },
+      {
+        "rank": 5,
+        "code": "columbia",
+        "value": "Founded 1754"
+      },
+      {
+        "rank": 6,
+        "code": "brown",
+        "value": "Founded 1764"
+      },
+      {
+        "rank": 7,
+        "code": "dartmouth",
+        "value": "Founded 1769"
+      },
+      {
         "rank": 8,
-        "code": "harvard",
-        "value": "Founded 1636"
+        "code": "cornell",
+        "value": "Founded 1865"
       }
     ]
   },
@@ -275638,96 +275128,6 @@
     ]
   },
   {
-    "id": "colleges-deep-dive-most-marshall-scholars-produced-all-time-2024",
-    "theme": "Colleges",
-    "subtheme": "Colleges - Deep Dive",
-    "title": "Most Marshall Scholars produced (all-time)",
-    "prompt": "Name the US colleges that have produced the most Marshall Scholars since the program's founding in 1954.",
-    "answerType": "Colleges",
-    "seededDepth": 14,
-    "source": {
-      "name": "Marshall Scholarship \u2014 Statistics",
-      "url": "https://www.marshallscholarship.org/about/facts-figures",
-      "asOf": "2024 (through 2024 class)"
-    },
-    "note": null,
-    "disclaimer": "Counts undergraduate institution at time of nomination; the Marshall funds two years of graduate study in the UK for 30-50 Americans per year.",
-    "trivia": "The Marshall was created by British Parliament in 1953 to thank the US for the Marshall Plan; several US Supreme Court justices and Nobel laureates have won it.",
-    "asOfDate": "2024 (through 2024 class)",
-    "answers": [
-      {
-        "rank": 1,
-        "code": "harvard",
-        "value": "~270 scholars"
-      },
-      {
-        "rank": 2,
-        "code": "princeton",
-        "value": "~170 scholars"
-      },
-      {
-        "rank": 3,
-        "code": "yale",
-        "value": "~160 scholars"
-      },
-      {
-        "rank": 4,
-        "code": "stanford",
-        "value": "~115 scholars"
-      },
-      {
-        "rank": 5,
-        "code": "mit",
-        "value": "~80 scholars"
-      },
-      {
-        "rank": 6,
-        "code": "chicago",
-        "value": "~70 scholars"
-      },
-      {
-        "rank": 7,
-        "code": "columbia",
-        "value": "~65 scholars"
-      },
-      {
-        "rank": 8,
-        "code": "duke",
-        "value": "~60 scholars"
-      },
-      {
-        "rank": 9,
-        "code": "brown",
-        "value": "~55 scholars"
-      },
-      {
-        "rank": 10,
-        "code": "unc",
-        "value": "~50 scholars"
-      },
-      {
-        "rank": 11,
-        "code": "cornell",
-        "value": "~45 scholars"
-      },
-      {
-        "rank": 12,
-        "code": "penn",
-        "value": "~40 scholars"
-      },
-      {
-        "rank": 13,
-        "code": "dartmouth",
-        "value": "~38 scholars"
-      },
-      {
-        "rank": 14,
-        "code": "georgetown",
-        "value": "~35 scholars"
-      }
-    ]
-  },
-  {
     "id": "colleges-deep-dive-top-fulbright-us-student-producers-2023-24-2023",
     "theme": "Colleges",
     "subtheme": "Colleges - Deep Dive",
@@ -276529,7 +275929,7 @@
     "title": "Largest university library holdings (physical volumes)",
     "prompt": "Name the US universities whose main library systems hold the most physical volumes.",
     "answerType": "Colleges",
-    "seededDepth": 13,
+    "seededDepth": 20,
     "source": {
       "name": "Wikipedia \u2014 List of largest libraries in the United States",
       "url": "https://en.wikipedia.org/wiki/List_of_largest_libraries_in_the_United_States",
@@ -276604,6 +276004,41 @@
         "rank": 13,
         "code": "princeton",
         "value": "9.3M volumes"
+      },
+      {
+        "rank": 14,
+        "code": "cornell",
+        "value": "8.5M volumes"
+      },
+      {
+        "rank": 15,
+        "code": "duke",
+        "value": "7.7M volumes"
+      },
+      {
+        "rank": 16,
+        "code": "penn",
+        "value": "7.5M volumes"
+      },
+      {
+        "rank": 17,
+        "code": "ohio-state",
+        "value": "7.2M volumes"
+      },
+      {
+        "rank": 18,
+        "code": "minnesota",
+        "value": "7.1M volumes"
+      },
+      {
+        "rank": 19,
+        "code": "washington",
+        "value": "6.9M volumes"
+      },
+      {
+        "rank": 20,
+        "code": "unc",
+        "value": "6.8M volumes"
       }
     ]
   },
@@ -359954,5 +359389,1604 @@
       }
     ],
     "seededDepth": 51
+  },
+  {
+    "id": "colleges-academics-highest-mid-career-salary-payscale-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Highest mid-career alumni salary (Payscale)",
+    "prompt": "Name the US colleges whose alumni report the highest median mid-career salaries in Payscale's College Salary Report.",
+    "disclaimer": "Median mid-career pay from Payscale's self-reported alumni salary survey; bachelor's-only graduates 10+ years out. Salaries in USD.",
+    "trivia": "Harvey Mudd \u2014 a small STEM-focused liberal arts college in Claremont \u2014 has led or shared the top of Payscale's list for over a decade, driven by its engineering-only bachelor's cohort.",
+    "source_name": "Payscale \u2014 College Salary Report",
+    "source_url": "https://www.payscale.com/college-salary-report/",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "harvey-mudd",
+        "value": "$173,800"
+      },
+      {
+        "rank": 2,
+        "code": "mit",
+        "value": "$170,600"
+      },
+      {
+        "rank": 3,
+        "code": "princeton",
+        "value": "$168,400"
+      },
+      {
+        "rank": 4,
+        "code": "caltech",
+        "value": "$164,200"
+      },
+      {
+        "rank": 5,
+        "code": "stanford",
+        "value": "$162,500"
+      },
+      {
+        "rank": 6,
+        "code": "penn",
+        "value": "$161,900"
+      },
+      {
+        "rank": 7,
+        "code": "harvard",
+        "value": "$159,800"
+      },
+      {
+        "rank": 8,
+        "code": "yale",
+        "value": "$156,700"
+      },
+      {
+        "rank": 9,
+        "code": "columbia",
+        "value": "$155,400"
+      },
+      {
+        "rank": 10,
+        "code": "duke",
+        "value": "$154,000"
+      },
+      {
+        "rank": 11,
+        "code": "dartmouth",
+        "value": "$153,200"
+      },
+      {
+        "rank": 12,
+        "code": "cmu",
+        "value": "$152,700"
+      },
+      {
+        "rank": 13,
+        "code": "brown",
+        "value": "$150,900"
+      },
+      {
+        "rank": 14,
+        "code": "georgetown",
+        "value": "$149,800"
+      },
+      {
+        "rank": 15,
+        "code": "notre-dame",
+        "value": "$148,400"
+      }
+    ],
+    "seededDepth": 15,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-deep-dive-highest-six-year-graduation-rate-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Deep Dive",
+    "answerType": "Colleges",
+    "title": "Highest 6-year graduation rate",
+    "prompt": "Name the US universities with the highest six-year undergraduate graduation rates.",
+    "disclaimer": "IPEDS six-year graduation rate for the most recent entering full-time first-time bachelor's cohort.",
+    "trivia": "Every school at the top of this list clusters between 95% and 98%, with the Ivies and small-cohort peers essentially tied \u2014 a floor set less by academics than by attrition-avoidance.",
+    "source_name": "US Department of Education \u2014 IPEDS / College Scorecard",
+    "source_url": "https://collegescorecard.ed.gov/",
+    "source_as_of": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "princeton",
+        "value": "98%"
+      },
+      {
+        "rank": 1,
+        "code": "yale",
+        "value": "98% (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "harvard",
+        "value": "98% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "notre-dame",
+        "value": "97%"
+      },
+      {
+        "rank": 4,
+        "code": "penn",
+        "value": "97% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "columbia",
+        "value": "97% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "duke",
+        "value": "97% (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "brown",
+        "value": "97% (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "dartmouth",
+        "value": "96%"
+      },
+      {
+        "rank": 9,
+        "code": "georgetown",
+        "value": "96% (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "stanford",
+        "value": "96% (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "williams",
+        "value": "96% (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "bc",
+        "value": "96% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "vanderbilt",
+        "value": "95%"
+      },
+      {
+        "rank": 14,
+        "code": "northwestern",
+        "value": "95% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "amherst",
+        "value": "95% (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "mit",
+        "value": "95% (tied)"
+      }
+    ],
+    "seededDepth": 17,
+    "note": null,
+    "asOfDate": "2023"
+  },
+  {
+    "id": "colleges-athletics-most-ncaa-mens-lacrosse-titles-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "answerType": "Colleges",
+    "title": "Most NCAA D1 men's lacrosse titles",
+    "prompt": "Name the schools with the most NCAA Division I Men's Lacrosse Championships.",
+    "disclaimer": "NCAA D1 Men's Lacrosse Championship era (1971-present). Pre-NCAA claimed national titles are not counted.",
+    "trivia": "Syracuse's 1990 title was later vacated by the NCAA; the school still claims it, and most historical rankings include it.",
+    "source_name": "NCAA \u2014 Men's Lacrosse Championship History",
+    "source_url": "https://www.ncaa.com/history/lacrosse-men/d1",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "syracuse",
+        "value": "11 titles"
+      },
+      {
+        "rank": 2,
+        "code": "jhu",
+        "value": "9 titles"
+      },
+      {
+        "rank": 3,
+        "code": "princeton",
+        "value": "6 titles"
+      },
+      {
+        "rank": 3,
+        "code": "virginia",
+        "value": "6 titles (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "unc",
+        "value": "5 titles"
+      },
+      {
+        "rank": 6,
+        "code": "duke",
+        "value": "3 titles"
+      },
+      {
+        "rank": 6,
+        "code": "cornell",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "maryland",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "yale",
+        "value": "1 title"
+      },
+      {
+        "rank": 9,
+        "code": "notre-dame",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "harvard",
+        "value": "1 title (tied)"
+      }
+    ],
+    "seededDepth": 11,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-athletics-most-ncaa-mens-hockey-titles-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "answerType": "Colleges",
+    "title": "Most NCAA D1 men's hockey titles (in-pool)",
+    "prompt": "Name the schools (from this game's college pool) with the most NCAA Division I Men's Ice Hockey Championships.",
+    "disclaimer": "NCAA D1 Men's Ice Hockey Championship era (1948-present). Denver (10) and North Dakota (8) lead all-time overall but Denver is not in this game's college pool. Rankings shown reflect in-pool order.",
+    "trivia": "Michigan won the first NCAA hockey championship in 1948; the Wolverines and North Dakota have combined for more than half of all Big Ten / WCHA-era titles.",
+    "source_name": "NCAA \u2014 Men's Ice Hockey Championship History",
+    "source_url": "https://www.ncaa.com/history/icehockey-men/d1",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "michigan",
+        "value": "9 titles"
+      },
+      {
+        "rank": 2,
+        "code": "north-dakota",
+        "value": "8 titles"
+      },
+      {
+        "rank": 3,
+        "code": "wisconsin",
+        "value": "6 titles"
+      },
+      {
+        "rank": 4,
+        "code": "minnesota",
+        "value": "5 titles"
+      },
+      {
+        "rank": 4,
+        "code": "bu",
+        "value": "5 titles (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "bc",
+        "value": "5 titles (tied)"
+      },
+      {
+        "rank": 7,
+        "code": "michigan-state",
+        "value": "3 titles"
+      },
+      {
+        "rank": 8,
+        "code": "maine",
+        "value": "2 titles"
+      },
+      {
+        "rank": 8,
+        "code": "rpi",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "cornell",
+        "value": "2 titles (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "harvard",
+        "value": "1 title"
+      },
+      {
+        "rank": 11,
+        "code": "yale",
+        "value": "1 title (tied)"
+      }
+    ],
+    "seededDepth": 12,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-size-money-highest-pell-grant-percentage-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Size & Money",
+    "answerType": "Colleges",
+    "title": "Highest percentage of Pell Grant recipients",
+    "prompt": "Name the US colleges (within the game's answer pool) with the highest share of undergraduates receiving federal Pell Grants.",
+    "disclaimer": "IPEDS share of full-time first-time undergraduates receiving Pell Grants. Pell eligibility is a federal proxy for lower-income enrollment.",
+    "trivia": "HBCUs routinely lead Pell share among selective institutions in the U.S., reflecting decades of access-focused missions.",
+    "source_name": "US Department of Education \u2014 IPEDS / College Scorecard",
+    "source_url": "https://collegescorecard.ed.gov/",
+    "source_as_of": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "famu",
+        "value": "63%"
+      },
+      {
+        "rank": 2,
+        "code": "spelman",
+        "value": "58%"
+      },
+      {
+        "rank": 3,
+        "code": "morehouse",
+        "value": "56%"
+      },
+      {
+        "rank": 4,
+        "code": "hampton",
+        "value": "54%"
+      },
+      {
+        "rank": 5,
+        "code": "howard",
+        "value": "50%"
+      },
+      {
+        "rank": 6,
+        "code": "uab",
+        "value": "43%"
+      },
+      {
+        "rank": 7,
+        "code": "stony-brook",
+        "value": "42%"
+      },
+      {
+        "rank": 8,
+        "code": "ucf",
+        "value": "38%"
+      },
+      {
+        "rank": 9,
+        "code": "uc-irvine",
+        "value": "37%"
+      },
+      {
+        "rank": 10,
+        "code": "rutgers",
+        "value": "36%"
+      },
+      {
+        "rank": 11,
+        "code": "ucsd",
+        "value": "35%"
+      },
+      {
+        "rank": 12,
+        "code": "ucla",
+        "value": "34%"
+      },
+      {
+        "rank": 13,
+        "code": "berkeley",
+        "value": "33%"
+      }
+    ],
+    "seededDepth": 13,
+    "note": null,
+    "asOfDate": "2023"
+  },
+  {
+    "id": "colleges-deep-dive-highest-percentage-international-students-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Deep Dive",
+    "answerType": "Colleges",
+    "title": "Highest percentage of international students",
+    "prompt": "Name the US universities with the highest share of international students in their undergraduate enrollment.",
+    "disclaimer": "IPEDS non-resident alien share of total undergraduate enrollment; excludes graduate-only programs.",
+    "trivia": "Rochester, Carnegie Mellon, and NYU consistently top international-enrollment share lists among selective private universities.",
+    "source_name": "IIE \u2014 Open Doors Report",
+    "source_url": "https://opendoorsdata.org/",
+    "source_as_of": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "rochester",
+        "value": "26%"
+      },
+      {
+        "rank": 2,
+        "code": "cmu",
+        "value": "23%"
+      },
+      {
+        "rank": 3,
+        "code": "nyu",
+        "value": "22%"
+      },
+      {
+        "rank": 4,
+        "code": "bu",
+        "value": "21%"
+      },
+      {
+        "rank": 5,
+        "code": "columbia",
+        "value": "20%"
+      },
+      {
+        "rank": 6,
+        "code": "northeastern",
+        "value": "19%"
+      },
+      {
+        "rank": 7,
+        "code": "brandeis",
+        "value": "18%"
+      },
+      {
+        "rank": 8,
+        "code": "usc",
+        "value": "17%"
+      },
+      {
+        "rank": 9,
+        "code": "washu",
+        "value": "16%"
+      },
+      {
+        "rank": 10,
+        "code": "case-western",
+        "value": "15%"
+      },
+      {
+        "rank": 11,
+        "code": "tulane",
+        "value": "14%"
+      },
+      {
+        "rank": 12,
+        "code": "purdue",
+        "value": "13%"
+      },
+      {
+        "rank": 13,
+        "code": "illinois",
+        "value": "12%"
+      },
+      {
+        "rank": 13,
+        "code": "chicago",
+        "value": "12% (tied)"
+      }
+    ],
+    "seededDepth": 14,
+    "note": null,
+    "asOfDate": "2023"
+  },
+  {
+    "id": "colleges-athletics-most-ncaa-womens-soccer-titles-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Athletics",
+    "answerType": "Colleges",
+    "title": "Most NCAA D1 women's soccer titles (in-pool)",
+    "prompt": "Name the schools (from this game's college pool) with the most NCAA Division I Women's Soccer Championships.",
+    "disclaimer": "NCAA D1 Women's Soccer Championship era (1982-present). Portland (2), Santa Clara (1), and George Mason (1) also have titles but are outside this game's college pool. Rankings shown reflect in-pool order.",
+    "trivia": "North Carolina's dynasty under Anson Dorrance defined the sport's early NCAA era, with the Tar Heels winning 21 of the first 23 titles.",
+    "source_name": "NCAA \u2014 Women's Soccer Championship History",
+    "source_url": "https://www.ncaa.com/history/soccer-women/d1",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "unc",
+        "value": "22 titles"
+      },
+      {
+        "rank": 2,
+        "code": "notre-dame",
+        "value": "3 titles"
+      },
+      {
+        "rank": 2,
+        "code": "stanford",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 2,
+        "code": "fsu",
+        "value": "3 titles (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "usc",
+        "value": "2 titles"
+      },
+      {
+        "rank": 6,
+        "code": "ucla",
+        "value": "1 title"
+      },
+      {
+        "rank": 6,
+        "code": "virginia",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "duke",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "florida",
+        "value": "1 title (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "unm",
+        "value": "1 title (tied)"
+      }
+    ],
+    "seededDepth": 10,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-deep-dive-lowest-average-student-loan-debt-at-graduation-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Deep Dive",
+    "answerType": "Colleges",
+    "title": "Lowest average student loan debt at graduation",
+    "prompt": "Name the US colleges whose graduates leave with the lowest average federal student-loan debt.",
+    "disclaimer": "US Department of Education College Scorecard median federal loan debt among bachelor's completers. Excludes private/parent loans. Rank 1 = smallest debt.",
+    "trivia": "Princeton was the first US university to eliminate loans from its financial-aid packages entirely (2001) \u2014 replacing them with grants \u2014 which is why its median debt is effectively zero for aided students.",
+    "source_name": "US Department of Education \u2014 College Scorecard",
+    "source_url": "https://collegescorecard.ed.gov/",
+    "source_as_of": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "princeton",
+        "value": "$6,600"
+      },
+      {
+        "rank": 2,
+        "code": "yale",
+        "value": "$8,200"
+      },
+      {
+        "rank": 3,
+        "code": "harvard",
+        "value": "$8,500"
+      },
+      {
+        "rank": 4,
+        "code": "mit",
+        "value": "$9,600"
+      },
+      {
+        "rank": 5,
+        "code": "stanford",
+        "value": "$10,100"
+      },
+      {
+        "rank": 6,
+        "code": "caltech",
+        "value": "$10,400"
+      },
+      {
+        "rank": 7,
+        "code": "amherst",
+        "value": "$11,200"
+      },
+      {
+        "rank": 8,
+        "code": "williams",
+        "value": "$11,500"
+      },
+      {
+        "rank": 9,
+        "code": "pomona",
+        "value": "$11,700"
+      },
+      {
+        "rank": 10,
+        "code": "swarthmore",
+        "value": "$11,900"
+      },
+      {
+        "rank": 11,
+        "code": "columbia",
+        "value": "$12,200"
+      },
+      {
+        "rank": 12,
+        "code": "dartmouth",
+        "value": "$12,400"
+      },
+      {
+        "rank": 13,
+        "code": "duke",
+        "value": "$12,900"
+      }
+    ],
+    "seededDepth": 13,
+    "note": null,
+    "asOfDate": "2023"
+  },
+  {
+    "id": "colleges-academics-best-undergrad-cs-programs-us-news-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Best undergraduate CS programs (US News)",
+    "prompt": "Name the highest-ranked schools in the US News Best Undergraduate Computer Science ranking (rank 1 = best).",
+    "disclaimer": "Ranking based solely on peer-assessment scores from deans and senior CS faculty at accredited schools. Ties share a rank.",
+    "trivia": "The 'Big Four' of undergraduate CS \u2014 MIT, Stanford, CMU, and Berkeley \u2014 have shared the peer-assessment top spot at a perfect 5.0 for years, well ahead of the field.",
+    "source_name": "US News & World Report \u2014 Best Undergraduate Computer Science Programs",
+    "source_url": "https://www.usnews.com/best-colleges/rankings/computer-science-overall",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mit",
+        "value": "5.0 score"
+      },
+      {
+        "rank": 1,
+        "code": "stanford",
+        "value": "5.0 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "cmu",
+        "value": "5.0 score (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "berkeley",
+        "value": "5.0 score (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "illinois",
+        "value": "4.7 score"
+      },
+      {
+        "rank": 6,
+        "code": "cornell",
+        "value": "4.5 score"
+      },
+      {
+        "rank": 6,
+        "code": "caltech",
+        "value": "4.5 score (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "georgia-tech",
+        "value": "4.5 score (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "princeton",
+        "value": "4.5 score (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "washington",
+        "value": "4.4 score"
+      },
+      {
+        "rank": 11,
+        "code": "michigan",
+        "value": "4.3 score"
+      },
+      {
+        "rank": 11,
+        "code": "texas",
+        "value": "4.3 score (tied)"
+      },
+      {
+        "rank": 11,
+        "code": "harvard",
+        "value": "4.3 score (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "columbia",
+        "value": "4.2 score"
+      },
+      {
+        "rank": 14,
+        "code": "ucla",
+        "value": "4.2 score (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "ucsd",
+        "value": "4.2 score (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "yale",
+        "value": "4.2 score (tied)"
+      }
+    ],
+    "seededDepth": 17,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-best-undergrad-engineering-doctorate-us-news-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Best undergrad engineering programs (US News)",
+    "prompt": "Name the highest-ranked schools in the US News Best Undergraduate Engineering ranking for schools whose highest engineering degree is a doctorate (rank 1 = best).",
+    "disclaimer": "US News undergraduate engineering ranking, doctorate-granting category. Peer-assessment-based; ties share a rank.",
+    "trivia": "MIT has held the top spot in this category continuously in the modern rankings era, with Stanford and Berkeley usually filling the next two slots.",
+    "source_name": "US News & World Report \u2014 Best Undergraduate Engineering Programs (Doctorate)",
+    "source_url": "https://www.usnews.com/best-colleges/rankings/engineering-doctorate",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "ucla",
+        "value": "#14"
+      },
+      {
+        "rank": 1,
+        "code": "wisconsin",
+        "value": "#14 (tied)"
+      },
+      {
+        "rank": 3,
+        "code": "jhu",
+        "value": "#13"
+      },
+      {
+        "rank": 4,
+        "code": "princeton",
+        "value": "#11"
+      },
+      {
+        "rank": 4,
+        "code": "texas",
+        "value": "#11 (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "cornell",
+        "value": "#10"
+      },
+      {
+        "rank": 7,
+        "code": "cmu",
+        "value": "#8"
+      },
+      {
+        "rank": 7,
+        "code": "purdue",
+        "value": "#8 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "caltech",
+        "value": "#5"
+      },
+      {
+        "rank": 9,
+        "code": "illinois",
+        "value": "#5 (tied)"
+      },
+      {
+        "rank": 9,
+        "code": "michigan",
+        "value": "#5 (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "georgia-tech",
+        "value": "#3"
+      },
+      {
+        "rank": 12,
+        "code": "berkeley",
+        "value": "#3 (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "stanford",
+        "value": "#2"
+      },
+      {
+        "rank": 15,
+        "code": "mit",
+        "value": "#1"
+      }
+    ],
+    "seededDepth": 15,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-best-law-schools-us-news-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Best law schools (US News)",
+    "prompt": "Name the highest-ranked schools in the US News Best Law Schools ranking (rank 1 = best).",
+    "disclaimer": "US News Best Law Schools ranking for JD programs. Ties share a rank.",
+    "trivia": "Yale Law held the #1 US News law school spot every year from 1987 through 2023 \u2014 the longest continuous #1 streak of any US News professional-school ranking. Stanford tied and then edged past it in the most recent rankings.",
+    "source_name": "US News & World Report \u2014 Best Law Schools",
+    "source_url": "https://www.usnews.com/best-graduate-schools/top-law-schools/law-rankings",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "cornell",
+        "value": "#13"
+      },
+      {
+        "rank": 1,
+        "code": "ucla",
+        "value": "#13 (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "washu",
+        "value": "#13 (tied)"
+      },
+      {
+        "rank": 4,
+        "code": "vanderbilt",
+        "value": "#12"
+      },
+      {
+        "rank": 5,
+        "code": "columbia",
+        "value": "#9"
+      },
+      {
+        "rank": 5,
+        "code": "northwestern",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "michigan",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "duke",
+        "value": "#7"
+      },
+      {
+        "rank": 8,
+        "code": "nyu",
+        "value": "#7 (tied)"
+      },
+      {
+        "rank": 10,
+        "code": "harvard",
+        "value": "#6"
+      },
+      {
+        "rank": 11,
+        "code": "penn",
+        "value": "#4"
+      },
+      {
+        "rank": 11,
+        "code": "virginia",
+        "value": "#4 (tied)"
+      },
+      {
+        "rank": 13,
+        "code": "yale",
+        "value": "#2"
+      },
+      {
+        "rank": 13,
+        "code": "chicago",
+        "value": "#2 (tied)"
+      },
+      {
+        "rank": 15,
+        "code": "stanford",
+        "value": "#1"
+      }
+    ],
+    "seededDepth": 15,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-best-medical-schools-research-us-news-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Best medical schools \u2014 Research (US News)",
+    "prompt": "Name the highest-ranked schools in the US News Best Medical Schools \u2014 Research ranking (rank 1 = best).",
+    "disclaimer": "US News Best Medical Schools \u2014 Research ranking. Weights NIH research funding, peer assessment, and residency-director assessment. Ties share a rank.",
+    "trivia": "Harvard Medical School has held the #1 US News research-medical-school spot in every ranking since the list first appeared in 1990.",
+    "source_name": "US News & World Report \u2014 Best Medical Schools: Research",
+    "source_url": "https://www.usnews.com/best-graduate-schools/top-medical-schools/research-rankings",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "northwestern",
+        "value": "#12"
+      },
+      {
+        "rank": 1,
+        "code": "michigan",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "pitt",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 1,
+        "code": "washington",
+        "value": "#12 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "cornell",
+        "value": "#9"
+      },
+      {
+        "rank": 5,
+        "code": "nyu",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 5,
+        "code": "yale",
+        "value": "#9 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "duke",
+        "value": "#5"
+      },
+      {
+        "rank": 8,
+        "code": "stanford",
+        "value": "#5 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "vanderbilt",
+        "value": "#5 (tied)"
+      },
+      {
+        "rank": 8,
+        "code": "washu",
+        "value": "#5 (tied)"
+      },
+      {
+        "rank": 12,
+        "code": "columbia",
+        "value": "#4"
+      },
+      {
+        "rank": 13,
+        "code": "penn",
+        "value": "#3"
+      },
+      {
+        "rank": 14,
+        "code": "jhu",
+        "value": "#2"
+      },
+      {
+        "rank": 15,
+        "code": "harvard",
+        "value": "#1"
+      }
+    ],
+    "seededDepth": 15,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-nsf-herd-total-rd-expenditures-2023",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Highest total R&D expenditures (NSF HERD)",
+    "prompt": "Name the US universities that spent the most on research and development in the most recent NSF Higher Education R&D (HERD) survey.",
+    "disclaimer": "Total R&D expenditures include federal, state, industry, institution, and foundation funding. Multi-campus UC / UT systems reported per-campus in NSF HERD; UCSF is excluded from this list because it is a health-sciences-only campus not in our institution set. Values in USD.",
+    "trivia": "Johns Hopkins has led NSF HERD by a wide margin for over 40 straight years \u2014 driven overwhelmingly by the Applied Physics Laboratory, a federally funded R&D center in Laurel, MD.",
+    "source_name": "National Science Foundation \u2014 Higher Education Research & Development (HERD) Survey FY2023",
+    "source_url": "https://ncses.nsf.gov/pubs/nsf25314",
+    "source_as_of": "2023",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "jhu",
+        "value": "$3.80B"
+      },
+      {
+        "rank": 2,
+        "code": "penn",
+        "value": "$1.95B"
+      },
+      {
+        "rank": 3,
+        "code": "michigan",
+        "value": "$1.93B"
+      },
+      {
+        "rank": 4,
+        "code": "washington",
+        "value": "$1.73B"
+      },
+      {
+        "rank": 4,
+        "code": "wisconsin",
+        "value": "$1.73B (tied)"
+      },
+      {
+        "rank": 6,
+        "code": "ucla",
+        "value": "$1.72B"
+      },
+      {
+        "rank": 7,
+        "code": "ucsd",
+        "value": "$1.71B"
+      },
+      {
+        "rank": 8,
+        "code": "unc",
+        "value": "$1.55B"
+      },
+      {
+        "rank": 9,
+        "code": "stanford",
+        "value": "$1.54B"
+      },
+      {
+        "rank": 10,
+        "code": "duke",
+        "value": "$1.51B"
+      },
+      {
+        "rank": 11,
+        "code": "nyu",
+        "value": "$1.46B"
+      },
+      {
+        "rank": 12,
+        "code": "cornell",
+        "value": "$1.45B"
+      },
+      {
+        "rank": 12,
+        "code": "ohio-state",
+        "value": "$1.45B (tied)"
+      },
+      {
+        "rank": 14,
+        "code": "harvard",
+        "value": "$1.44B"
+      }
+    ],
+    "seededDepth": 14,
+    "note": null,
+    "asOfDate": "2023"
+  },
+  {
+    "id": "colleges-academics-forbes-americas-top-colleges-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Forbes America's Top Colleges (2024)",
+    "prompt": "Name the highest-ranked schools in the Forbes America's Top Colleges 2024 ranking (rank 1 = best).",
+    "disclaimer": "Forbes weights alumni salary, student debt, graduation rate, Forbes American Leaders List membership, and retention. Ties share a rank.",
+    "trivia": "Forbes was the first major outlet to rank US colleges primarily on outcome data \u2014 salary, debt, career achievement \u2014 rather than reputation and inputs, launching its list in 2008.",
+    "source_name": "Forbes \u2014 America's Top Colleges",
+    "source_url": "https://www.forbes.com/top-colleges/",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "jhu",
+        "value": "#20"
+      },
+      {
+        "rank": 2,
+        "code": "swarthmore",
+        "value": "#19"
+      },
+      {
+        "rank": 3,
+        "code": "amherst",
+        "value": "#18"
+      },
+      {
+        "rank": 4,
+        "code": "michigan",
+        "value": "#17"
+      },
+      {
+        "rank": 5,
+        "code": "chicago",
+        "value": "#16"
+      },
+      {
+        "rank": 6,
+        "code": "williams",
+        "value": "#15"
+      },
+      {
+        "rank": 7,
+        "code": "northwestern",
+        "value": "#14"
+      },
+      {
+        "rank": 8,
+        "code": "duke",
+        "value": "#13"
+      },
+      {
+        "rank": 9,
+        "code": "brown",
+        "value": "#12"
+      },
+      {
+        "rank": 10,
+        "code": "ucla",
+        "value": "#11"
+      },
+      {
+        "rank": 11,
+        "code": "dartmouth",
+        "value": "#10"
+      },
+      {
+        "rank": 12,
+        "code": "cornell",
+        "value": "#9"
+      },
+      {
+        "rank": 13,
+        "code": "harvard",
+        "value": "#8"
+      },
+      {
+        "rank": 14,
+        "code": "penn",
+        "value": "#7"
+      },
+      {
+        "rank": 15,
+        "code": "columbia",
+        "value": "#6"
+      },
+      {
+        "rank": 16,
+        "code": "berkeley",
+        "value": "#5"
+      },
+      {
+        "rank": 17,
+        "code": "yale",
+        "value": "#4"
+      },
+      {
+        "rank": 18,
+        "code": "mit",
+        "value": "#3"
+      },
+      {
+        "rank": 19,
+        "code": "stanford",
+        "value": "#2"
+      },
+      {
+        "rank": 20,
+        "code": "princeton",
+        "value": "#1"
+      }
+    ],
+    "seededDepth": 20,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-wsj-best-colleges-in-america-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "WSJ Best Colleges in America (2024)",
+    "prompt": "Name the highest-ranked schools in the Wall Street Journal / College Pulse Best Colleges in America ranking (rank 1 = best).",
+    "disclaimer": "WSJ / College Pulse ranking weights student outcomes (salary impact, graduation rate) at ~70%, plus learning environment and diversity. Ties share a rank.",
+    "trivia": "The WSJ methodology weights salary-impact-above-expected far more than US News does \u2014 a big reason Princeton and MIT typically top this list ahead of Harvard.",
+    "source_name": "Wall Street Journal / College Pulse \u2014 Best Colleges in America",
+    "source_url": "https://www.wsj.com/rankings/college-rankings/best-colleges-2024",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "vanderbilt",
+        "value": "#15"
+      },
+      {
+        "rank": 2,
+        "code": "notre-dame",
+        "value": "#14"
+      },
+      {
+        "rank": 3,
+        "code": "duke",
+        "value": "#13"
+      },
+      {
+        "rank": 4,
+        "code": "williams",
+        "value": "#12"
+      },
+      {
+        "rank": 5,
+        "code": "amherst",
+        "value": "#11"
+      },
+      {
+        "rank": 6,
+        "code": "brown",
+        "value": "#10"
+      },
+      {
+        "rank": 7,
+        "code": "dartmouth",
+        "value": "#9"
+      },
+      {
+        "rank": 8,
+        "code": "cornell",
+        "value": "#8"
+      },
+      {
+        "rank": 9,
+        "code": "penn",
+        "value": "#7"
+      },
+      {
+        "rank": 10,
+        "code": "harvard",
+        "value": "#6"
+      },
+      {
+        "rank": 11,
+        "code": "columbia",
+        "value": "#5"
+      },
+      {
+        "rank": 12,
+        "code": "stanford",
+        "value": "#4"
+      },
+      {
+        "rank": 13,
+        "code": "yale",
+        "value": "#3"
+      },
+      {
+        "rank": 14,
+        "code": "mit",
+        "value": "#2"
+      },
+      {
+        "rank": 15,
+        "code": "princeton",
+        "value": "#1"
+      }
+    ],
+    "seededDepth": 15,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-ft-global-mba-ranking-us-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Best US MBAs (Financial Times Global MBA)",
+    "prompt": "Name the US business schools ranked highest in the Financial Times Global MBA ranking (rank 1 = best US school).",
+    "disclaimer": "Restricted to US business schools; ranks reflect their position among US schools in the FT Global MBA ranking. Weights alumni salary three years after graduation, salary increase, career progress, diversity, and research output.",
+    "trivia": "The FT ranking is the only major MBA ranking that weights research output heavily, which is why long-time academic powerhouses like Wharton and Booth reliably rank near the top ahead of purely brand-driven programs.",
+    "source_name": "Financial Times \u2014 Global MBA Ranking",
+    "source_url": "https://rankings.ft.com/rankings/mba",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "miami",
+        "value": "#14 US (Herbert)"
+      },
+      {
+        "rank": 2,
+        "code": "washington",
+        "value": "#13 US (Foster)"
+      },
+      {
+        "rank": 3,
+        "code": "cmu",
+        "value": "#12 US (Tepper)"
+      },
+      {
+        "rank": 4,
+        "code": "unc",
+        "value": "#11 US (Kenan-Flagler)"
+      },
+      {
+        "rank": 5,
+        "code": "ucla",
+        "value": "#10 US (Anderson)"
+      },
+      {
+        "rank": 6,
+        "code": "dartmouth",
+        "value": "#9 US (Tuck)"
+      },
+      {
+        "rank": 7,
+        "code": "nyu",
+        "value": "#8 US (Stern)"
+      },
+      {
+        "rank": 8,
+        "code": "chicago",
+        "value": "#7 US (Booth)"
+      },
+      {
+        "rank": 9,
+        "code": "yale",
+        "value": "#6 US (SOM)"
+      },
+      {
+        "rank": 10,
+        "code": "cornell",
+        "value": "#5 US (Johnson)"
+      },
+      {
+        "rank": 11,
+        "code": "harvard",
+        "value": "#4 US (HBS)"
+      },
+      {
+        "rank": 12,
+        "code": "berkeley",
+        "value": "#3 US (Haas)"
+      },
+      {
+        "rank": 13,
+        "code": "penn",
+        "value": "#2 US (Wharton)"
+      },
+      {
+        "rank": 14,
+        "code": "mit",
+        "value": "#1 US (MIT Sloan)"
+      }
+    ],
+    "seededDepth": 14,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-pitchbook-vc-backed-founders-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Most VC-backed startup founders (PitchBook)",
+    "prompt": "Name the US universities whose undergraduate programs have produced the most VC-backed startup founders.",
+    "disclaimer": "Counts undergraduate alumni who founded venture-capital-backed companies. PitchBook Universities Rankings. Restricted to US universities.",
+    "trivia": "Berkeley overtook Stanford as the #1 US undergrad-founder factory in PitchBook's 2023 rankings \u2014 powered by its massive College of Engineering and lower cost of attendance than the Ivies + Stanford.",
+    "source_name": "PitchBook \u2014 Universities Rankings (Undergraduate)",
+    "source_url": "https://pitchbook.com/news/articles/pitchbook-universities-rankings",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "berkeley",
+        "value": "1,804 founders"
+      },
+      {
+        "rank": 2,
+        "code": "stanford",
+        "value": "1,519 founders"
+      },
+      {
+        "rank": 3,
+        "code": "harvard",
+        "value": "1,355 founders"
+      },
+      {
+        "rank": 4,
+        "code": "penn",
+        "value": "1,206 founders"
+      },
+      {
+        "rank": 5,
+        "code": "mit",
+        "value": "1,131 founders"
+      },
+      {
+        "rank": 6,
+        "code": "cornell",
+        "value": "944 founders"
+      },
+      {
+        "rank": 7,
+        "code": "texas",
+        "value": "850 founders"
+      },
+      {
+        "rank": 8,
+        "code": "michigan",
+        "value": "845 founders"
+      },
+      {
+        "rank": 9,
+        "code": "illinois",
+        "value": "751 founders"
+      },
+      {
+        "rank": 10,
+        "code": "yale",
+        "value": "710 founders"
+      },
+      {
+        "rank": 11,
+        "code": "ucla",
+        "value": "679 founders"
+      },
+      {
+        "rank": 12,
+        "code": "columbia",
+        "value": "671 founders"
+      },
+      {
+        "rank": 13,
+        "code": "princeton",
+        "value": "656 founders"
+      }
+    ],
+    "seededDepth": 13,
+    "note": null,
+    "asOfDate": "2024"
+  },
+  {
+    "id": "colleges-academics-most-us-utility-patents-granted-2024",
+    "theme": "Colleges",
+    "subtheme": "Colleges - Academics",
+    "answerType": "Colleges",
+    "title": "Most US utility patents granted",
+    "prompt": "Name the US universities that were granted the most US utility patents in the most recent National Academy of Inventors annual report.",
+    "disclaimer": "Counts US utility patents granted to universities as assignee in the most recent calendar year. Multi-campus university systems (e.g. University of California, University of Texas) are aggregated by the source and excluded here so single-campus universities can be compared directly.",
+    "trivia": "MIT alone has been granted more US patents in recent years than any Ivy League university except one (Harvard) \u2014 a legacy of its long-standing bench-to-market translation pipeline.",
+    "source_name": "National Academy of Inventors \u2014 Top 100 Worldwide Universities Granted US Utility Patents",
+    "source_url": "https://academyofinventors.org/top-100-worldwide-universities/",
+    "source_as_of": "2024",
+    "answers": [
+      {
+        "rank": 1,
+        "code": "mit",
+        "value": "291 patents"
+      },
+      {
+        "rank": 2,
+        "code": "stanford",
+        "value": "201 patents"
+      },
+      {
+        "rank": 3,
+        "code": "arizona-state",
+        "value": "185 patents"
+      },
+      {
+        "rank": 4,
+        "code": "michigan",
+        "value": "177 patents"
+      },
+      {
+        "rank": 5,
+        "code": "purdue",
+        "value": "172 patents"
+      },
+      {
+        "rank": 6,
+        "code": "harvard",
+        "value": "157 patents"
+      },
+      {
+        "rank": 7,
+        "code": "northwestern",
+        "value": "152 patents"
+      },
+      {
+        "rank": 8,
+        "code": "jhu",
+        "value": "144 patents"
+      },
+      {
+        "rank": 9,
+        "code": "caltech",
+        "value": "129 patents"
+      },
+      {
+        "rank": 10,
+        "code": "georgia-tech",
+        "value": "128 patents"
+      },
+      {
+        "rank": 11,
+        "code": "wisconsin",
+        "value": "127 patents"
+      },
+      {
+        "rank": 12,
+        "code": "washington",
+        "value": "119 patents"
+      }
+    ],
+    "seededDepth": 12,
+    "note": null,
+    "asOfDate": "2024"
   }
 ]

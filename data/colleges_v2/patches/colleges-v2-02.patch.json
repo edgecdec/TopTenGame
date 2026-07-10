@@ -1,0 +1,126 @@
+{
+  "cluster": "colleges-v2-02",
+  "updates": [
+    {
+      "id": "colleges-deep-dive-largest-university-library-holdings-physical-volumes-2022",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "20.4M volumes" },
+          { "rank": 2, "code": "yale", "value": "15.1M volumes" },
+          { "rank": 3, "code": "illinois", "value": "14.3M volumes" },
+          { "rank": 4, "code": "michigan", "value": "13.9M volumes" },
+          { "rank": 5, "code": "berkeley", "value": "13.1M volumes" },
+          { "rank": 6, "code": "columbia", "value": "12.6M volumes" },
+          { "rank": 7, "code": "texas", "value": "11.5M volumes" },
+          { "rank": 8, "code": "stanford", "value": "11.2M volumes" },
+          { "rank": 9, "code": "ucla", "value": "10.7M volumes" },
+          { "rank": 10, "code": "chicago", "value": "10.5M volumes" },
+          { "rank": 11, "code": "wisconsin", "value": "9.9M volumes" },
+          { "rank": 12, "code": "indiana", "value": "9.5M volumes" },
+          { "rank": 13, "code": "princeton", "value": "9.3M volumes" },
+          { "rank": 14, "code": "cornell", "value": "8.5M volumes" },
+          { "rank": 15, "code": "duke", "value": "7.7M volumes" },
+          { "rank": 16, "code": "penn", "value": "7.5M volumes" },
+          { "rank": 17, "code": "ohio-state", "value": "7.2M volumes" },
+          { "rank": 18, "code": "minnesota", "value": "7.1M volumes" },
+          { "rank": 19, "code": "washington", "value": "6.9M volumes" },
+          { "rank": 20, "code": "unc", "value": "6.8M volumes" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-d1-men-s-basketball-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "ucla", "value": "11 titles" },
+          { "rank": 2, "code": "kentucky", "value": "8 titles" },
+          { "rank": 3, "code": "unc", "value": "6 titles" },
+          { "rank": 3, "code": "connecticut", "value": "6 titles (tied)" },
+          { "rank": 5, "code": "duke", "value": "5 titles" },
+          { "rank": 5, "code": "indiana", "value": "5 titles (tied)" },
+          { "rank": 7, "code": "kansas", "value": "4 titles" },
+          { "rank": 8, "code": "villanova", "value": "3 titles" },
+          { "rank": 8, "code": "louisville", "value": "3 titles (tied)" },
+          { "rank": 10, "code": "michigan-state", "value": "2 titles" },
+          { "rank": 10, "code": "florida", "value": "2 titles (tied)" },
+          { "rank": 10, "code": "nc-state", "value": "2 titles (tied)" },
+          { "rank": 10, "code": "oklahoma-state", "value": "2 titles (tied)" },
+          { "rank": 14, "code": "michigan", "value": "1 title" },
+          { "rank": 14, "code": "arizona", "value": "1 title (tied)" },
+          { "rank": 14, "code": "arkansas", "value": "1 title (tied)" },
+          { "rank": 14, "code": "berkeley", "value": "1 title (tied)" },
+          { "rank": 14, "code": "maryland", "value": "1 title (tied)" },
+          { "rank": 14, "code": "ohio-state", "value": "1 title (tied)" },
+          { "rank": 14, "code": "stanford", "value": "1 title (tied)" },
+          { "rank": 14, "code": "syracuse", "value": "1 title (tied)" },
+          { "rank": 14, "code": "virginia", "value": "1 title (tied)" },
+          { "rank": 14, "code": "wisconsin", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 23
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-yield-rates-admitted-students-who-enroll-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "harvard", "value": "83%" },
+          { "rank": 2, "code": "stanford", "value": "80%" },
+          { "rank": 3, "code": "mit", "value": "78%" },
+          { "rank": 4, "code": "yale", "value": "72%" },
+          { "rank": 5, "code": "princeton", "value": "71%" },
+          { "rank": 6, "code": "penn", "value": "70%" },
+          { "rank": 7, "code": "columbia", "value": "68%" },
+          { "rank": 7, "code": "byu", "value": "68% (tied)" },
+          { "rank": 9, "code": "brown", "value": "66%" },
+          { "rank": 10, "code": "chicago", "value": "65%" },
+          { "rank": 11, "code": "notre-dame", "value": "60%" },
+          { "rank": 12, "code": "duke", "value": "58%" },
+          { "rank": 13, "code": "dartmouth", "value": "56%" },
+          { "rank": 14, "code": "georgetown", "value": "50%" },
+          { "rank": 15, "code": "cornell", "value": "48%" },
+          { "rank": 16, "code": "usc", "value": "45%" },
+          { "rank": 17, "code": "northwestern", "value": "44%" },
+          { "rank": 18, "code": "vanderbilt", "value": "42%" },
+          { "rank": 19, "code": "rice", "value": "40%" },
+          { "rank": 20, "code": "jhu", "value": "38%" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-median-sat-score-of-enrolled-first-years-2023",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "caltech", "value": "1570" },
+          { "rank": 2, "code": "mit", "value": "1560" },
+          { "rank": 3, "code": "harvey-mudd", "value": "1550" },
+          { "rank": 4, "code": "princeton", "value": "1540" },
+          { "rank": 4, "code": "harvard", "value": "1540 (tied)" },
+          { "rank": 4, "code": "yale", "value": "1540 (tied)" },
+          { "rank": 4, "code": "chicago", "value": "1540 (tied)" },
+          { "rank": 8, "code": "vanderbilt", "value": "1530" },
+          { "rank": 8, "code": "duke", "value": "1530 (tied)" },
+          { "rank": 8, "code": "columbia", "value": "1530 (tied)" },
+          { "rank": 8, "code": "stanford", "value": "1530 (tied)" },
+          { "rank": 8, "code": "jhu", "value": "1530 (tied)" },
+          { "rank": 13, "code": "northwestern", "value": "1520" },
+          { "rank": 13, "code": "penn", "value": "1520 (tied)" },
+          { "rank": 13, "code": "rice", "value": "1520 (tied)" },
+          { "rank": 13, "code": "washu", "value": "1520 (tied)" },
+          { "rank": 17, "code": "brown", "value": "1510" },
+          { "rank": 17, "code": "dartmouth", "value": "1510 (tied)" },
+          { "rank": 17, "code": "cmu", "value": "1510 (tied)" },
+          { "rank": 20, "code": "notre-dame", "value": "1500" },
+          { "rank": 20, "code": "cornell", "value": "1500 (tied)" }
+        ],
+        "seededDepth": 21
+      }
+    }
+  ],
+  "deletions": [
+    "colleges-deep-dive-most-marshall-scholars-produced-all-time-2024",
+    "colleges-academics-most-nobel-laureates-school-affiliated-2024",
+    "colleges-academics-most-rhodes-scholars-all-time-2024"
+  ]
+}
