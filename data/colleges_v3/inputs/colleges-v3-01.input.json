@@ -1,0 +1,643 @@
+{
+  "cluster": "colleges-v3-01",
+  "questions": [
+    {
+      "id": "colleges-size-money-lowest-in-state-tuition-public-flagships-2023",
+      "current": {
+        "title": "Lowest In-State Tuition (Public Flagships)",
+        "prompt": "Name the US public flagship universities with the lowest published in-state undergraduate tuition and fees.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wyoming",
+            "value": "$5,900"
+          },
+          {
+            "rank": 2,
+            "code": "florida",
+            "value": "$6,400"
+          },
+          {
+            "rank": 3,
+            "code": "montana",
+            "value": "$7,900"
+          },
+          {
+            "rank": 4,
+            "code": "idaho",
+            "value": "$8,700"
+          },
+          {
+            "rank": 5,
+            "code": "unm",
+            "value": "$8,900"
+          },
+          {
+            "rank": 6,
+            "code": "north-dakota",
+            "value": "$9,300"
+          },
+          {
+            "rank": 7,
+            "code": "utah",
+            "value": "$9,500"
+          },
+          {
+            "rank": 7,
+            "code": "nevada",
+            "value": "$9,500 (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "mississippi-state",
+            "value": "$9,600"
+          },
+          {
+            "rank": 10,
+            "code": "arkansas",
+            "value": "$10,200"
+          },
+          {
+            "rank": 11,
+            "code": "iowa-state",
+            "value": "$10,500"
+          },
+          {
+            "rank": 12,
+            "code": "oklahoma",
+            "value": "$12,000"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-mens-hockey-titles-2024",
+      "current": {
+        "title": "Most NCAA D1 men's hockey titles (in-pool)",
+        "prompt": "Name the schools (from this game's college pool) with the most NCAA Division I Men's Ice Hockey Championships.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": "NCAA \u2014 Men's Ice Hockey Championship History",
+        "source_url": "https://www.ncaa.com/history/icehockey-men/d1",
+        "source_as_of": "2024",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "michigan",
+            "value": "9 titles"
+          },
+          {
+            "rank": 2,
+            "code": "north-dakota",
+            "value": "8 titles"
+          },
+          {
+            "rank": 3,
+            "code": "wisconsin",
+            "value": "6 titles"
+          },
+          {
+            "rank": 4,
+            "code": "minnesota",
+            "value": "5 titles"
+          },
+          {
+            "rank": 4,
+            "code": "bu",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "bc",
+            "value": "5 titles (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "michigan-state",
+            "value": "3 titles"
+          },
+          {
+            "rank": 8,
+            "code": "maine",
+            "value": "2 titles"
+          },
+          {
+            "rank": 8,
+            "code": "rpi",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "cornell",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 11,
+            "code": "harvard",
+            "value": "1 title"
+          },
+          {
+            "rank": 11,
+            "code": "yale",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-most-us-utility-patents-granted-2024",
+      "current": {
+        "title": "Most US utility patents granted",
+        "prompt": "Name the US universities that were granted the most US utility patents in the most recent National Academy of Inventors annual report.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": "National Academy of Inventors \u2014 Top 100 Worldwide Universities Granted US Utility Patents",
+        "source_url": "https://academyofinventors.org/top-100-worldwide-universities/",
+        "source_as_of": "2024",
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "mit",
+            "value": "291 patents"
+          },
+          {
+            "rank": 2,
+            "code": "stanford",
+            "value": "201 patents"
+          },
+          {
+            "rank": 3,
+            "code": "arizona-state",
+            "value": "185 patents"
+          },
+          {
+            "rank": 4,
+            "code": "michigan",
+            "value": "177 patents"
+          },
+          {
+            "rank": 5,
+            "code": "purdue",
+            "value": "172 patents"
+          },
+          {
+            "rank": 6,
+            "code": "harvard",
+            "value": "157 patents"
+          },
+          {
+            "rank": 7,
+            "code": "northwestern",
+            "value": "152 patents"
+          },
+          {
+            "rank": 8,
+            "code": "jhu",
+            "value": "144 patents"
+          },
+          {
+            "rank": 9,
+            "code": "caltech",
+            "value": "129 patents"
+          },
+          {
+            "rank": 10,
+            "code": "georgia-tech",
+            "value": "128 patents"
+          },
+          {
+            "rank": 11,
+            "code": "wisconsin",
+            "value": "127 patents"
+          },
+          {
+            "rank": 12,
+            "code": "washington",
+            "value": "119 patents"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-athletics-most-ncaa-d1-women-s-basketball-titles-2024",
+      "current": {
+        "title": "Most NCAA D1 women's basketball titles",
+        "prompt": "Name the colleges that have won the most NCAA Division I women's basketball championships.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "connecticut",
+            "value": "11 titles"
+          },
+          {
+            "rank": 2,
+            "code": "tennessee",
+            "value": "8 titles"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "3 titles"
+          },
+          {
+            "rank": 3,
+            "code": "baylor",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 3,
+            "code": "usc-south-carolina",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "notre-dame",
+            "value": "2 titles"
+          },
+          {
+            "rank": 6,
+            "code": "usc",
+            "value": "2 titles (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "lsu",
+            "value": "1 title"
+          },
+          {
+            "rank": 8,
+            "code": "maryland",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "purdue",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "texas-am",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "texas",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 8,
+            "code": "unc",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-pell-grant-percentage-2023",
+      "current": {
+        "title": "Highest percentage of Pell Grant recipients",
+        "prompt": "Name the US colleges (within the game's answer pool) with the highest share of undergraduates receiving federal Pell Grants.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": "US Department of Education \u2014 IPEDS / College Scorecard",
+        "source_url": "https://collegescorecard.ed.gov/",
+        "source_as_of": "2023",
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "famu",
+            "value": "63%"
+          },
+          {
+            "rank": 2,
+            "code": "spelman",
+            "value": "58%"
+          },
+          {
+            "rank": 3,
+            "code": "morehouse",
+            "value": "56%"
+          },
+          {
+            "rank": 4,
+            "code": "hampton",
+            "value": "54%"
+          },
+          {
+            "rank": 5,
+            "code": "howard",
+            "value": "50%"
+          },
+          {
+            "rank": 6,
+            "code": "uab",
+            "value": "43%"
+          },
+          {
+            "rank": 7,
+            "code": "stony-brook",
+            "value": "42%"
+          },
+          {
+            "rank": 8,
+            "code": "ucf",
+            "value": "38%"
+          },
+          {
+            "rank": 9,
+            "code": "uc-irvine",
+            "value": "37%"
+          },
+          {
+            "rank": 10,
+            "code": "rutgers",
+            "value": "36%"
+          },
+          {
+            "rank": 11,
+            "code": "ucsd",
+            "value": "35%"
+          },
+          {
+            "rank": 12,
+            "code": "ucla",
+            "value": "34%"
+          },
+          {
+            "rank": 13,
+            "code": "berkeley",
+            "value": "33%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-deep-dive-lowest-average-student-loan-debt-at-graduation-2023",
+      "current": {
+        "title": "Lowest average student loan debt at graduation",
+        "prompt": "Name the US colleges whose graduates leave with the lowest average federal student-loan debt.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": "US Department of Education \u2014 College Scorecard",
+        "source_url": "https://collegescorecard.ed.gov/",
+        "source_as_of": "2023",
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "$6,600"
+          },
+          {
+            "rank": 2,
+            "code": "yale",
+            "value": "$8,200"
+          },
+          {
+            "rank": 3,
+            "code": "harvard",
+            "value": "$8,500"
+          },
+          {
+            "rank": 4,
+            "code": "mit",
+            "value": "$9,600"
+          },
+          {
+            "rank": 5,
+            "code": "stanford",
+            "value": "$10,100"
+          },
+          {
+            "rank": 6,
+            "code": "caltech",
+            "value": "$10,400"
+          },
+          {
+            "rank": 7,
+            "code": "amherst",
+            "value": "$11,200"
+          },
+          {
+            "rank": 8,
+            "code": "williams",
+            "value": "$11,500"
+          },
+          {
+            "rank": 9,
+            "code": "pomona",
+            "value": "$11,700"
+          },
+          {
+            "rank": 10,
+            "code": "swarthmore",
+            "value": "$11,900"
+          },
+          {
+            "rank": 11,
+            "code": "columbia",
+            "value": "$12,200"
+          },
+          {
+            "rank": 12,
+            "code": "dartmouth",
+            "value": "$12,400"
+          },
+          {
+            "rank": 13,
+            "code": "duke",
+            "value": "$12,900"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-academics-pitchbook-vc-backed-founders-2024",
+      "current": {
+        "title": "Most VC-backed startup founders (PitchBook)",
+        "prompt": "Name the US universities whose undergraduate programs have produced the most VC-backed startup founders.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Academics",
+        "source_name": "PitchBook \u2014 Universities Rankings (Undergraduate)",
+        "source_url": "https://pitchbook.com/news/articles/pitchbook-universities-rankings",
+        "source_as_of": "2024",
+        "seededDepth": 13,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "berkeley",
+            "value": "1,804 founders"
+          },
+          {
+            "rank": 2,
+            "code": "stanford",
+            "value": "1,519 founders"
+          },
+          {
+            "rank": 3,
+            "code": "harvard",
+            "value": "1,355 founders"
+          },
+          {
+            "rank": 4,
+            "code": "penn",
+            "value": "1,206 founders"
+          },
+          {
+            "rank": 5,
+            "code": "mit",
+            "value": "1,131 founders"
+          },
+          {
+            "rank": 6,
+            "code": "cornell",
+            "value": "944 founders"
+          },
+          {
+            "rank": 7,
+            "code": "texas",
+            "value": "850 founders"
+          },
+          {
+            "rank": 8,
+            "code": "michigan",
+            "value": "845 founders"
+          },
+          {
+            "rank": 9,
+            "code": "illinois",
+            "value": "751 founders"
+          },
+          {
+            "rank": 10,
+            "code": "yale",
+            "value": "710 founders"
+          },
+          {
+            "rank": 11,
+            "code": "ucla",
+            "value": "679 founders"
+          },
+          {
+            "rank": 12,
+            "code": "columbia",
+            "value": "671 founders"
+          },
+          {
+            "rank": 13,
+            "code": "princeton",
+            "value": "656 founders"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-deep-dive-highest-percentage-international-students-2023",
+      "current": {
+        "title": "Highest percentage of international students",
+        "prompt": "Name the US universities with the highest share of international students in their undergraduate enrollment.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": "IIE \u2014 Open Doors Report",
+        "source_url": "https://opendoorsdata.org/",
+        "source_as_of": "2023",
+        "seededDepth": 14,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "rochester",
+            "value": "26%"
+          },
+          {
+            "rank": 2,
+            "code": "cmu",
+            "value": "23%"
+          },
+          {
+            "rank": 3,
+            "code": "nyu",
+            "value": "22%"
+          },
+          {
+            "rank": 4,
+            "code": "bu",
+            "value": "21%"
+          },
+          {
+            "rank": 5,
+            "code": "columbia",
+            "value": "20%"
+          },
+          {
+            "rank": 6,
+            "code": "northeastern",
+            "value": "19%"
+          },
+          {
+            "rank": 7,
+            "code": "brandeis",
+            "value": "18%"
+          },
+          {
+            "rank": 8,
+            "code": "usc",
+            "value": "17%"
+          },
+          {
+            "rank": 9,
+            "code": "washu",
+            "value": "16%"
+          },
+          {
+            "rank": 10,
+            "code": "case-western",
+            "value": "15%"
+          },
+          {
+            "rank": 11,
+            "code": "tulane",
+            "value": "14%"
+          },
+          {
+            "rank": 12,
+            "code": "purdue",
+            "value": "13%"
+          },
+          {
+            "rank": 13,
+            "code": "illinois",
+            "value": "12%"
+          },
+          {
+            "rank": 13,
+            "code": "chicago",
+            "value": "12% (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

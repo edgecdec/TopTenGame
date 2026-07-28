@@ -1,0 +1,53 @@
+{
+  "cluster": "colleges-v3-00",
+  "updates": [
+    {
+      "id": "colleges-athletics-most-ncaa-mens-lacrosse-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "syracuse", "value": "11 titles" },
+          { "rank": 2, "code": "jhu", "value": "9 titles" },
+          { "rank": 3, "code": "princeton", "value": "6 titles" },
+          { "rank": 3, "code": "virginia", "value": "6 titles (tied)" },
+          { "rank": 5, "code": "unc", "value": "5 titles" },
+          { "rank": 6, "code": "duke", "value": "3 titles" },
+          { "rank": 6, "code": "cornell", "value": "3 titles (tied)" },
+          { "rank": 6, "code": "maryland", "value": "3 titles (tied)" },
+          { "rank": 9, "code": "yale", "value": "1 title" },
+          { "rank": 9, "code": "notre-dame", "value": "1 title (tied)" },
+          { "rank": 9, "code": "denver", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 11
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-public-universities-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "georgia", "value": "Chartered 1785" },
+          { "rank": 2, "code": "unc", "value": "Chartered 1789" },
+          { "rank": 3, "code": "vermont", "value": "Chartered 1791" },
+          { "rank": 4, "code": "tennessee", "value": "Chartered 1794" },
+          { "rank": 5, "code": "usc-south-carolina", "value": "Chartered 1801" },
+          { "rank": 6, "code": "michigan", "value": "Chartered 1817" },
+          { "rank": 7, "code": "virginia", "value": "Chartered 1819" },
+          { "rank": 8, "code": "indiana", "value": "Chartered 1820" },
+          { "rank": 8, "code": "alabama", "value": "Chartered 1820 (tied)" },
+          { "rank": 10, "code": "delaware", "value": "Chartered 1833" },
+          { "rank": 11, "code": "missouri", "value": "Chartered 1839" },
+          { "rank": 12, "code": "iowa", "value": "Chartered 1847" },
+          { "rank": 13, "code": "ole-miss", "value": "Chartered 1848" },
+          { "rank": 13, "code": "wisconsin", "value": "Chartered 1848 (tied)" },
+          { "rank": 15, "code": "minnesota", "value": "Chartered 1851" },
+          { "rank": 16, "code": "florida", "value": "Chartered 1853" },
+          { "rank": 17, "code": "washington", "value": "Chartered 1861" },
+          { "rank": 18, "code": "kansas", "value": "Chartered 1865" },
+          { "rank": 18, "code": "kentucky", "value": "Chartered 1865 (tied)" },
+          { "rank": 18, "code": "maine", "value": "Chartered 1865 (tied)" }
+        ],
+        "seededDepth": 20
+      }
+    }
+  ],
+  "deletions": []
+}

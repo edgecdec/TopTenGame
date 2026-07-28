@@ -1,0 +1,85 @@
+{
+  "cluster": "colleges-v3-01",
+  "updates": [
+    {
+      "id": "colleges-athletics-most-ncaa-mens-hockey-titles-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "denver", "value": "10 titles" },
+          { "rank": 2, "code": "michigan", "value": "9 titles" },
+          { "rank": 3, "code": "north-dakota", "value": "8 titles" },
+          { "rank": 4, "code": "wisconsin", "value": "6 titles" },
+          { "rank": 5, "code": "minnesota", "value": "5 titles" },
+          { "rank": 5, "code": "bu", "value": "5 titles (tied)" },
+          { "rank": 5, "code": "bc", "value": "5 titles (tied)" },
+          { "rank": 8, "code": "michigan-state", "value": "3 titles" },
+          { "rank": 8, "code": "minnesota-duluth", "value": "3 titles (tied)" },
+          { "rank": 10, "code": "maine", "value": "2 titles" },
+          { "rank": 10, "code": "rpi", "value": "2 titles (tied)" },
+          { "rank": 10, "code": "cornell", "value": "2 titles (tied)" },
+          { "rank": 13, "code": "harvard", "value": "1 title" },
+          { "rank": 13, "code": "yale", "value": "1 title (tied)" },
+          { "rank": 13, "code": "providence", "value": "1 title (tied)" }
+        ],
+        "seededDepth": 15
+      }
+    },
+    {
+      "id": "colleges-academics-most-us-utility-patents-granted-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "mit", "value": "291 patents" },
+          { "rank": 2, "code": "stanford", "value": "201 patents" },
+          { "rank": 3, "code": "arizona-state", "value": "185 patents" },
+          { "rank": 4, "code": "michigan", "value": "177 patents" },
+          { "rank": 5, "code": "purdue", "value": "172 patents" },
+          { "rank": 6, "code": "harvard", "value": "157 patents" },
+          { "rank": 7, "code": "northwestern", "value": "152 patents" },
+          { "rank": 8, "code": "jhu", "value": "144 patents" },
+          { "rank": 9, "code": "caltech", "value": "129 patents" },
+          { "rank": 10, "code": "georgia-tech", "value": "128 patents" },
+          { "rank": 11, "code": "wisconsin", "value": "127 patents" },
+          { "rank": 12, "code": "washington", "value": "119 patents" },
+          { "rank": 13, "code": "texas", "value": "116 patents" },
+          { "rank": 14, "code": "berkeley", "value": "112 patents" },
+          { "rank": 15, "code": "penn", "value": "105 patents" },
+          { "rank": 16, "code": "ucla", "value": "101 patents" },
+          { "rank": 17, "code": "ucsd", "value": "97 patents" },
+          { "rank": 18, "code": "columbia", "value": "94 patents" },
+          { "rank": 19, "code": "cornell", "value": "88 patents" },
+          { "rank": 20, "code": "duke", "value": "83 patents" }
+        ],
+        "seededDepth": 20
+      }
+    },
+    {
+      "id": "colleges-academics-pitchbook-vc-backed-founders-2024",
+      "changes": {
+        "answers": [
+          { "rank": 1, "code": "berkeley", "value": "1,804 founders" },
+          { "rank": 2, "code": "stanford", "value": "1,519 founders" },
+          { "rank": 3, "code": "harvard", "value": "1,355 founders" },
+          { "rank": 4, "code": "penn", "value": "1,206 founders" },
+          { "rank": 5, "code": "mit", "value": "1,131 founders" },
+          { "rank": 6, "code": "cornell", "value": "944 founders" },
+          { "rank": 7, "code": "texas", "value": "850 founders" },
+          { "rank": 8, "code": "michigan", "value": "845 founders" },
+          { "rank": 9, "code": "illinois", "value": "751 founders" },
+          { "rank": 10, "code": "yale", "value": "710 founders" },
+          { "rank": 11, "code": "ucla", "value": "679 founders" },
+          { "rank": 12, "code": "columbia", "value": "671 founders" },
+          { "rank": 13, "code": "princeton", "value": "656 founders" },
+          { "rank": 14, "code": "cmu", "value": "612 founders" },
+          { "rank": 15, "code": "usc", "value": "588 founders" },
+          { "rank": 16, "code": "wisconsin", "value": "544 founders" },
+          { "rank": 17, "code": "duke", "value": "521 founders" },
+          { "rank": 18, "code": "brown", "value": "497 founders" },
+          { "rank": 19, "code": "georgia-tech", "value": "484 founders" },
+          { "rank": 20, "code": "northwestern", "value": "465 founders" }
+        ],
+        "seededDepth": 20
+      }
+    }
+  ],
+  "deletions": []
+}

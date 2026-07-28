@@ -1,0 +1,86 @@
+{
+  "cluster": "colleges-v3-03",
+  "updates": [
+    {
+      "id": "colleges-deep-dive-highest-six-year-graduation-rate-2023",
+      "changes": {
+        "answers": [
+          {"rank": 1, "code": "princeton", "value": "98%"},
+          {"rank": 1, "code": "yale", "value": "98% (tied)"},
+          {"rank": 1, "code": "harvard", "value": "98% (tied)"},
+          {"rank": 4, "code": "notre-dame", "value": "97%"},
+          {"rank": 4, "code": "penn", "value": "97% (tied)"},
+          {"rank": 4, "code": "columbia", "value": "97% (tied)"},
+          {"rank": 4, "code": "duke", "value": "97% (tied)"},
+          {"rank": 4, "code": "brown", "value": "97% (tied)"},
+          {"rank": 9, "code": "dartmouth", "value": "96%"},
+          {"rank": 9, "code": "georgetown", "value": "96% (tied)"},
+          {"rank": 9, "code": "stanford", "value": "96% (tied)"},
+          {"rank": 9, "code": "williams", "value": "96% (tied)"},
+          {"rank": 9, "code": "bc", "value": "96% (tied)"},
+          {"rank": 14, "code": "vanderbilt", "value": "95%"},
+          {"rank": 14, "code": "northwestern", "value": "95% (tied)"},
+          {"rank": 14, "code": "amherst", "value": "95% (tied)"},
+          {"rank": 14, "code": "mit", "value": "95% (tied)"},
+          {"rank": 14, "code": "washu", "value": "95% (tied)"},
+          {"rank": 14, "code": "rice", "value": "95% (tied)"},
+          {"rank": 14, "code": "virginia", "value": "95% (tied)"},
+          {"rank": 21, "code": "cmu", "value": "94%"},
+          {"rank": 21, "code": "swarthmore", "value": "94% (tied)"},
+          {"rank": 21, "code": "pomona", "value": "94% (tied)"},
+          {"rank": 21, "code": "middlebury", "value": "94% (tied)"},
+          {"rank": 21, "code": "chicago", "value": "94% (tied)"},
+          {"rank": 21, "code": "wellesley", "value": "94% (tied)"},
+          {"rank": 21, "code": "haverford", "value": "94% (tied)"},
+          {"rank": 21, "code": "unc", "value": "94% (tied)"},
+          {"rank": 21, "code": "wfu", "value": "94% (tied)"},
+          {"rank": 30, "code": "tufts", "value": "93%"},
+          {"rank": 30, "code": "jhu", "value": "93% (tied)"},
+          {"rank": 30, "code": "berkeley", "value": "93% (tied)"},
+          {"rank": 30, "code": "ucla", "value": "93% (tied)"},
+          {"rank": 30, "code": "hamilton", "value": "93% (tied)"},
+          {"rank": 30, "code": "colgate", "value": "93% (tied)"}
+        ],
+        "seededDepth": 35
+      }
+    },
+    {
+      "id": "colleges-admissions-most-undergraduate-applications-received-in-a-single-year-20",
+      "changes": {
+        "answers": [
+          {"rank": 1, "code": "ucla", "value": "173,000 apps"},
+          {"rank": 2, "code": "berkeley", "value": "137,000 apps"},
+          {"rank": 3, "code": "uc-irvine", "value": "127,000 apps"},
+          {"rank": 4, "code": "nyu", "value": "120,000 apps"},
+          {"rank": 5, "code": "uc-davis", "value": "112,000 apps"},
+          {"rank": 6, "code": "ucsd", "value": "110,000 apps"},
+          {"rank": 7, "code": "ucsb", "value": "106,000 apps"},
+          {"rank": 8, "code": "northeastern", "value": "96,000 apps"},
+          {"rank": 9, "code": "michigan", "value": "87,000 apps"},
+          {"rank": 10, "code": "usc", "value": "82,000 apps"},
+          {"rank": 11, "code": "texas", "value": "73,000 apps"},
+          {"rank": 12, "code": "cornell", "value": "68,000 apps"},
+          {"rank": 13, "code": "harvard", "value": "61,000 apps"},
+          {"rank": 14, "code": "columbia", "value": "60,000 apps"},
+          {"rank": 15, "code": "penn", "value": "59,000 apps"},
+          {"rank": 16, "code": "yale", "value": "57,000 apps"},
+          {"rank": 17, "code": "stanford", "value": "56,000 apps"},
+          {"rank": 18, "code": "northwestern", "value": "52,000 apps"},
+          {"rank": 19, "code": "brown", "value": "51,000 apps"},
+          {"rank": 20, "code": "duke", "value": "50,000 apps"},
+          {"rank": 21, "code": "vanderbilt", "value": "47,000 apps"},
+          {"rank": 22, "code": "princeton", "value": "39,000 apps"},
+          {"rank": 23, "code": "jhu", "value": "38,000 apps"},
+          {"rank": 24, "code": "emory", "value": "33,000 apps"},
+          {"rank": 25, "code": "washu", "value": "33,000 apps (tied)"},
+          {"rank": 26, "code": "notre-dame", "value": "29,000 apps"},
+          {"rank": 27, "code": "dartmouth", "value": "28,000 apps"},
+          {"rank": 28, "code": "mit", "value": "26,000 apps"},
+          {"rank": 28, "code": "georgetown", "value": "26,000 apps (tied)"}
+        ],
+        "seededDepth": 29
+      }
+    }
+  ],
+  "deletions": []
+}

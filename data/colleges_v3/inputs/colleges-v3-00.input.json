@@ -1,0 +1,608 @@
+{
+  "cluster": "colleges-v3-00",
+  "questions": [
+    {
+      "id": "colleges-athletics-most-ncaa-mens-lacrosse-titles-2024",
+      "current": {
+        "title": "Most NCAA D1 men's lacrosse titles",
+        "prompt": "Name the schools with the most NCAA Division I Men's Lacrosse Championships.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Athletics",
+        "source_name": "NCAA \u2014 Men's Lacrosse Championship History",
+        "source_url": "https://www.ncaa.com/history/lacrosse-men/d1",
+        "source_as_of": "2024",
+        "seededDepth": 11,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "syracuse",
+            "value": "11 titles"
+          },
+          {
+            "rank": 2,
+            "code": "jhu",
+            "value": "9 titles"
+          },
+          {
+            "rank": 3,
+            "code": "princeton",
+            "value": "6 titles"
+          },
+          {
+            "rank": 3,
+            "code": "virginia",
+            "value": "6 titles (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "unc",
+            "value": "5 titles"
+          },
+          {
+            "rank": 6,
+            "code": "duke",
+            "value": "3 titles"
+          },
+          {
+            "rank": 6,
+            "code": "cornell",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 6,
+            "code": "maryland",
+            "value": "3 titles (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "yale",
+            "value": "1 title"
+          },
+          {
+            "rank": 9,
+            "code": "notre-dame",
+            "value": "1 title (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "harvard",
+            "value": "1 title (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-lowest-transfer-acceptance-rates-2023",
+      "current": {
+        "title": "Lowest transfer acceptance rates",
+        "prompt": "Name the US universities with the lowest acceptance rates for transfer applicants.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "1.2%"
+          },
+          {
+            "rank": 2,
+            "code": "harvard",
+            "value": "1.4%"
+          },
+          {
+            "rank": 3,
+            "code": "dartmouth",
+            "value": "1.9%"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "2.4%"
+          },
+          {
+            "rank": 5,
+            "code": "yale",
+            "value": "2.5%"
+          },
+          {
+            "rank": 6,
+            "code": "mit",
+            "value": "3.1%"
+          },
+          {
+            "rank": 7,
+            "code": "brown",
+            "value": "5.0%"
+          },
+          {
+            "rank": 8,
+            "code": "penn",
+            "value": "5.5%"
+          },
+          {
+            "rank": 9,
+            "code": "columbia",
+            "value": "6.0%"
+          },
+          {
+            "rank": 10,
+            "code": "duke",
+            "value": "6.1%"
+          },
+          {
+            "rank": 11,
+            "code": "caltech",
+            "value": "8.3%"
+          },
+          {
+            "rank": 12,
+            "code": "notre-dame",
+            "value": "17.0%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-early-decision-acceptance-rates-ivies-peers-2024",
+      "current": {
+        "title": "Highest early decision acceptance rates (Ivies + peers)",
+        "prompt": "Name the elite US universities with the highest binding early decision acceptance rates (a boost over their regular decision rate).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "wfu",
+            "value": "35.7%"
+          },
+          {
+            "rank": 2,
+            "code": "emory",
+            "value": "30.9%"
+          },
+          {
+            "rank": 3,
+            "code": "jhu",
+            "value": "17.4%"
+          },
+          {
+            "rank": 4,
+            "code": "dartmouth",
+            "value": "17.0%"
+          },
+          {
+            "rank": 5,
+            "code": "rice",
+            "value": "15.8%"
+          },
+          {
+            "rank": 6,
+            "code": "penn",
+            "value": "15.4%"
+          },
+          {
+            "rank": 7,
+            "code": "vanderbilt",
+            "value": "15.2%"
+          },
+          {
+            "rank": 8,
+            "code": "brown",
+            "value": "13.0%"
+          },
+          {
+            "rank": 9,
+            "code": "duke",
+            "value": "12.9%"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "12.5%"
+          },
+          {
+            "rank": 11,
+            "code": "northwestern",
+            "value": "12.0%"
+          },
+          {
+            "rank": 12,
+            "code": "columbia",
+            "value": "11.3%"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-highest-applicant-to-enrollee-ratio-most-competitive-to-actu",
+      "current": {
+        "title": "Highest applicant-to-enrollee ratio (most competitive to actually attend)",
+        "prompt": "Name the US universities with the highest ratio of applications received to first-year students enrolled.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "38:1"
+          },
+          {
+            "rank": 2,
+            "code": "columbia",
+            "value": "37:1"
+          },
+          {
+            "rank": 3,
+            "code": "stanford",
+            "value": "34:1"
+          },
+          {
+            "rank": 3,
+            "code": "yale",
+            "value": "34:1 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "princeton",
+            "value": "31:1"
+          },
+          {
+            "rank": 6,
+            "code": "ucla",
+            "value": "29:1"
+          },
+          {
+            "rank": 7,
+            "code": "brown",
+            "value": "26:1"
+          },
+          {
+            "rank": 8,
+            "code": "duke",
+            "value": "25:1"
+          },
+          {
+            "rank": 9,
+            "code": "dartmouth",
+            "value": "24:1"
+          },
+          {
+            "rank": 10,
+            "code": "penn",
+            "value": "22:1"
+          },
+          {
+            "rank": 10,
+            "code": "berkeley",
+            "value": "22:1 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "mit",
+            "value": "22:1 (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-history-oldest-us-public-universities-2024",
+      "current": {
+        "title": "Oldest US public universities",
+        "prompt": "Name the oldest public universities in the United States, by founding year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - History",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "georgia",
+            "value": "Chartered 1785"
+          },
+          {
+            "rank": 2,
+            "code": "unc",
+            "value": "Chartered 1789"
+          },
+          {
+            "rank": 3,
+            "code": "vermont",
+            "value": "Chartered 1791"
+          },
+          {
+            "rank": 4,
+            "code": "tennessee",
+            "value": "Chartered 1794"
+          },
+          {
+            "rank": 5,
+            "code": "usc-south-carolina",
+            "value": "Chartered 1801"
+          },
+          {
+            "rank": 6,
+            "code": "michigan",
+            "value": "Chartered 1817"
+          },
+          {
+            "rank": 7,
+            "code": "virginia",
+            "value": "Chartered 1819"
+          },
+          {
+            "rank": 8,
+            "code": "indiana",
+            "value": "Chartered 1820"
+          },
+          {
+            "rank": 8,
+            "code": "alabama",
+            "value": "Chartered 1820 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "delaware",
+            "value": "Chartered 1833"
+          },
+          {
+            "rank": 11,
+            "code": "missouri",
+            "value": "Chartered 1839"
+          },
+          {
+            "rank": 12,
+            "code": "ole-miss",
+            "value": "Chartered 1848"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-largest-campus-by-land-area-2023",
+      "current": {
+        "title": "Largest Campus by Land Area",
+        "prompt": "Name the US universities with the largest main campus by land area (acres).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "air-force",
+            "value": "18,500 acres"
+          },
+          {
+            "rank": 2,
+            "code": "clemson",
+            "value": "17,000 acres"
+          },
+          {
+            "rank": 3,
+            "code": "duke",
+            "value": "8,600 acres"
+          },
+          {
+            "rank": 4,
+            "code": "stanford",
+            "value": "8,180 acres"
+          },
+          {
+            "rank": 5,
+            "code": "penn-state",
+            "value": "7,300 acres"
+          },
+          {
+            "rank": 6,
+            "code": "texas-am",
+            "value": "5,500 acres"
+          },
+          {
+            "rank": 7,
+            "code": "michigan-state",
+            "value": "5,200 acres"
+          },
+          {
+            "rank": 8,
+            "code": "purdue",
+            "value": "2,600 acres"
+          },
+          {
+            "rank": 8,
+            "code": "virginia-tech",
+            "value": "2,600 acres (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "cornell",
+            "value": "2,300 acres"
+          },
+          {
+            "rank": 11,
+            "code": "auburn",
+            "value": "1,875 acres"
+          },
+          {
+            "rank": 12,
+            "code": "arizona-state",
+            "value": "660 acres"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-sticker-price-tuition-2023",
+      "current": {
+        "title": "Highest Sticker-Price Tuition",
+        "prompt": "Name the US colleges with the highest published annual undergraduate tuition (before financial aid).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "columbia",
+            "value": "$68,400"
+          },
+          {
+            "rank": 2,
+            "code": "usc",
+            "value": "$66,600"
+          },
+          {
+            "rank": 3,
+            "code": "penn",
+            "value": "$66,100"
+          },
+          {
+            "rank": 4,
+            "code": "brown",
+            "value": "$65,900"
+          },
+          {
+            "rank": 5,
+            "code": "harvey-mudd",
+            "value": "$65,400"
+          },
+          {
+            "rank": 5,
+            "code": "duke",
+            "value": "$65,400 (tied)"
+          },
+          {
+            "rank": 7,
+            "code": "tufts",
+            "value": "$65,200"
+          },
+          {
+            "rank": 8,
+            "code": "dartmouth",
+            "value": "$65,000"
+          },
+          {
+            "rank": 8,
+            "code": "northwestern",
+            "value": "$65,000 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "yale",
+            "value": "$64,700"
+          },
+          {
+            "rank": 11,
+            "code": "vanderbilt",
+            "value": "$63,900"
+          },
+          {
+            "rank": 12,
+            "code": "harvard",
+            "value": "$59,100"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-size-money-highest-total-cost-of-attendance-2023",
+      "current": {
+        "title": "Highest Total Cost of Attendance",
+        "prompt": "Name the US colleges with the highest total published cost of attendance (tuition + fees + room + board).",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Size & Money",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 12,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "harvey-mudd",
+            "value": "$89,900"
+          },
+          {
+            "rank": 2,
+            "code": "usc",
+            "value": "$88,000"
+          },
+          {
+            "rank": 3,
+            "code": "columbia",
+            "value": "$87,000"
+          },
+          {
+            "rank": 3,
+            "code": "penn",
+            "value": "$87,000 (tied)"
+          },
+          {
+            "rank": 5,
+            "code": "brown",
+            "value": "$86,900"
+          },
+          {
+            "rank": 6,
+            "code": "tufts",
+            "value": "$86,000"
+          },
+          {
+            "rank": 7,
+            "code": "duke",
+            "value": "$85,900"
+          },
+          {
+            "rank": 8,
+            "code": "dartmouth",
+            "value": "$85,700"
+          },
+          {
+            "rank": 8,
+            "code": "wesleyan",
+            "value": "$85,700 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "yale",
+            "value": "$85,000"
+          },
+          {
+            "rank": 10,
+            "code": "vanderbilt",
+            "value": "$85,000 (tied)"
+          },
+          {
+            "rank": 10,
+            "code": "northwestern",
+            "value": "$85,000 (tied)"
+          }
+        ]
+      }
+    }
+  ]
+}

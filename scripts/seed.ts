@@ -37,6 +37,7 @@ const INITIAL_PROD_THEMES = new Set([
   "Video Games",
   "Chemical Elements",
   "Companies",
+  "Colleges",
 ]);
 const insertTheme = db.prepare(
   "INSERT OR IGNORE INTO themes (theme, is_prod) VALUES (?, ?)"

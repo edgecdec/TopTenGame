@@ -1,0 +1,212 @@
+{
+  "cluster": "colleges-v3-03",
+  "questions": [
+    {
+      "id": "colleges-deep-dive-highest-six-year-graduation-rate-2023",
+      "current": {
+        "title": "Highest 6-year graduation rate",
+        "prompt": "Name the US universities with the highest six-year undergraduate graduation rates.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Deep Dive",
+        "source_name": "US Department of Education \u2014 IPEDS / College Scorecard",
+        "source_url": "https://collegescorecard.ed.gov/",
+        "source_as_of": "2023",
+        "seededDepth": 17,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "princeton",
+            "value": "98%"
+          },
+          {
+            "rank": 1,
+            "code": "yale",
+            "value": "98% (tied)"
+          },
+          {
+            "rank": 1,
+            "code": "harvard",
+            "value": "98% (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "notre-dame",
+            "value": "97%"
+          },
+          {
+            "rank": 4,
+            "code": "penn",
+            "value": "97% (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "columbia",
+            "value": "97% (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "duke",
+            "value": "97% (tied)"
+          },
+          {
+            "rank": 4,
+            "code": "brown",
+            "value": "97% (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "dartmouth",
+            "value": "96%"
+          },
+          {
+            "rank": 9,
+            "code": "georgetown",
+            "value": "96% (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "stanford",
+            "value": "96% (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "williams",
+            "value": "96% (tied)"
+          },
+          {
+            "rank": 9,
+            "code": "bc",
+            "value": "96% (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "vanderbilt",
+            "value": "95%"
+          },
+          {
+            "rank": 14,
+            "code": "northwestern",
+            "value": "95% (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "amherst",
+            "value": "95% (tied)"
+          },
+          {
+            "rank": 14,
+            "code": "mit",
+            "value": "95% (tied)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "colleges-admissions-most-undergraduate-applications-received-in-a-single-year-20",
+      "current": {
+        "title": "Most undergraduate applications received in a single year",
+        "prompt": "Name the US universities that receive the most first-year undergraduate applications each year.",
+        "answerType": "Colleges",
+        "theme": "Colleges",
+        "subtheme": "Colleges - Admissions",
+        "source_name": null,
+        "source_url": null,
+        "source_as_of": null,
+        "seededDepth": 18,
+        "answers": [
+          {
+            "rank": 1,
+            "code": "ucla",
+            "value": "173,428 apps"
+          },
+          {
+            "rank": 2,
+            "code": "berkeley",
+            "value": "137,000 apps"
+          },
+          {
+            "rank": 3,
+            "code": "uc-irvine",
+            "value": "127,000 apps"
+          },
+          {
+            "rank": 4,
+            "code": "nyu",
+            "value": "120,000 apps"
+          },
+          {
+            "rank": 5,
+            "code": "uc-davis",
+            "value": "112,000 apps"
+          },
+          {
+            "rank": 6,
+            "code": "ucsd",
+            "value": "110,000 apps"
+          },
+          {
+            "rank": 7,
+            "code": "ucsb",
+            "value": "106,000 apps"
+          },
+          {
+            "rank": 8,
+            "code": "northeastern",
+            "value": "96,000 apps"
+          },
+          {
+            "rank": 9,
+            "code": "michigan",
+            "value": "87,000 apps"
+          },
+          {
+            "rank": 10,
+            "code": "usc",
+            "value": "82,000 apps"
+          },
+          {
+            "rank": 11,
+            "code": "texas",
+            "value": "73,000 apps"
+          },
+          {
+            "rank": 12,
+            "code": "cornell",
+            "value": "68,000 apps"
+          },
+          {
+            "rank": 13,
+            "code": "harvard",
+            "value": "61,000 apps"
+          },
+          {
+            "rank": 14,
+            "code": "columbia",
+            "value": "60,000 apps"
+          },
+          {
+            "rank": 15,
+            "code": "penn",
+            "value": "59,000 apps"
+          },
+          {
+            "rank": 16,
+            "code": "yale",
+            "value": "57,000 apps"
+          },
+          {
+            "rank": 17,
+            "code": "stanford",
+            "value": "56,000 apps"
+          },
+          {
+            "rank": 18,
+            "code": "mit",
+            "value": "26,000 apps"
+          }
+        ]
+      }
+    }
+  ]
+}
